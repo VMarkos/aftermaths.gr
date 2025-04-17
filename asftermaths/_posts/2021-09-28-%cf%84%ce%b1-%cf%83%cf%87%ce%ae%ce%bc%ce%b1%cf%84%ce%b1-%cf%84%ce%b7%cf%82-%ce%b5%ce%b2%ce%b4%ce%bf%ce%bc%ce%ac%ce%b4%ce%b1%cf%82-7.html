@@ -1,0 +1,414 @@
+---
+layout: post
+title: Τα σχήματα της εβδομάδας (7)
+date: 2021-09-28 23:07:41.000000000 +03:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags:
+- featured
+- Μαθηματικά
+- Tikz
+meta:
+  _last_editor_used_jetpack: block-editor
+  _thumbnail_id: '8841'
+  publicize_tumblr_url: http://.tumblr.com/post/663601454900297729
+  _coblocks_attr: ''
+  _coblocks_dimensions: ''
+  _coblocks_responsive_height: ''
+  _coblocks_accordion_ie_support: ''
+  spay_email: ''
+  jetpack_anchor_podcast: ''
+  jetpack_anchor_episode: ''
+  jetpack_anchor_spotify_show: ''
+  _wpas_is_tweetstorm: ''
+  _publicize_job_id: '63539514694'
+  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:24446906;s:59:"https://twitter.com/aftermathsgr/status/1442944122201903109";}}
+  _publicize_done_22918771: '1'
+  _wpas_done_24446906: '1'
+  publicize_twitter_user: aftermathsgr
+  timeline_notification: '1632859662'
+  _publicize_done_23261972: '1'
+  _wpas_done_25211553: '1'
+  publicize_linkedin_url: ''
+  _publicize_done_23897583: '1'
+  _wpas_done_26796635: '1'
+  _oembed_0e422bbca4f793f130078c2c775eeb53: <div class="embed-youtube"><iframe title="Boogie
+    Belgique - Ms. Yutani (Official Music Video)" width="723" height="407" src="https://www.youtube.com/embed/QNmhiTFeyiY?feature=oembed"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen></iframe></div>
+  _oembed_time_0e422bbca4f793f130078c2c775eeb53: '1725517659'
+  _oembed_0c6119355eda88c20ec0a3f3f30f3e0d: <div class="embed-youtube"><iframe title="Boogie
+    Belgique - Ms. Yutani (Official Music Video)" width="750" height="422" src="https://www.youtube.com/embed/QNmhiTFeyiY?feature=oembed"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen></iframe></div>
+  _oembed_time_0c6119355eda88c20ec0a3f3f30f3e0d: '1730546944'
+  _elasticsearch_data_sharing_indexed_on: '2024-11-18 13:55:44'
+author:
+  login: aftermathsgr
+  email: aftermathsgr@gmail.com
+  display_name: Aftermaths
+  first_name: Βασίλης
+  last_name: Μάρκος
+permalink: "/2021/09/28/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-7/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<!-- wp:paragraph --><html><body></p>
+<p>Αυτήν την εβδομάδα είδαμε αρκετά νέα και ενδιαφέρονται σχήματα καθώς επίσης και μία ακόμα  βιβλιοθήκη του <code>tikz</code>. Όλα με τη σειρά τους, όμως.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p><em>Για τα σχήματα της προηγούμενης εβδομάδας δείτε <a href="https://aftermaths.gr/2021/09/21/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-6/">εδώ</a> ενώ για όλες τις αναρτήσεις της σειράς δείτε <a href="https://aftermaths.gr/category/tikz/">εδώ</a>.</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Σύνολα τιμών...</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Το πρώτο μας σχήμα ήταν το εξής:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":8523,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><img src="{{site.baseurl}}/assets/2021/09/fig_35.png?w=723" alt="Σύνολο τιμών και πεδίο τιμών" class="wp-image-8523"><br />
+<figcaption>Το σύνολο και το πεδίο τιμών μίας συνάρτησης!</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ο αντίστοιχος κώδικας είναι ο εξής:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:syntaxhighlighter/code {"language":"latex"} --></p>
+<pre class="wp-block-syntaxhighlighter-code">\documentclass[tikz, margin=5mm]{standalone}
+ 
+\usetikzlibrary{calc}
+ 
+\begin{document}
+    \begin{tikzpicture}
+    \draw[thick] (0,0) ellipse (1.4 and 2.2)node[yshift=-2.4cm,xshift=-1cm]{$A$};
+    \draw[thick] (6,0) ellipse (1.4 and 2.2)node[yshift=-2.4cm,xshift=1cm]{$B$};
+    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$a$}](a) at (.4,1.2){};
+    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$b$}](b) at (-.2,.5){};
+    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$c$}](c) at (.5,-.2){};
+    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$d$}](d) at (-.6,-.9){};
+    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$e$}](e) at (.3,-1.2){};
+    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$1$}](1) at (6.3,1.3){};
+    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$2$}](2) at (5.4,.6){};
+    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$3$}](3) at (6.4,-.2){};
+    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$4$}](4) at (6,-.8){};
+    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$5$}](5) at (5.7,-1.5){};
+    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$6$}](6) at (5.3,-.3){};
+    \draw[thick,-&gt;] (a) -- (2);
+    \draw[thick,-&gt;] (b) -- (6);
+    \draw[thick,-&gt;] (c) -- (2);
+    \draw[thick,-&gt;] (d) -- (5);
+    \draw[thick,-&gt;] (e) -- (4);
+    \node[draw=none](x) at ($(2)+(.1,.3)$){};
+    \node[draw=none](y) at ($(4)+(.3,0)$){};
+    \node[draw=none](z) at ($(5)+(0,-.3)$){};
+    \node[draw=none](w) at ($(6)+(-.3,0)$){};
+    \node[draw=none](m) at ($(6)+(.7,.2)$){};
+    \draw[dashed, red, thick, fill=red, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(x.north east) (m) (y.north east) (z.south east) (w.west)};
+    \node[label={above}:{$\textcolor{red}{f(A)}$}] at (x){};
+    \end{tikzpicture}
+\end{document}</pre>
+<p><!-- /wp:syntaxhighlighter/code --></p>
+<p><!-- wp:paragraph --></p>
+<p>Η αλήθεια είναι ότι, αν εξαιρέσουμε το σύνολο τιμών της συνάρτησης, όλα τα άλλα είναι πράγματα που έχουμε ξαναδεί. Κόμβοι, <a href="https://aftermaths.gr/2021/09/21/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-6/">ελλείψεις</a>, βελάκια, ετικέτες, όλα γνωστά και πλέον τα χρησιμοποιούμε τόσο συχνά. Επομένως, πάμε απευθείας να σχολιάσουμε το πώς σχεδιάσαμε αυτήν την φαινομενικά περίπλοκη και ακανόνιστη καμπύλη που περιγράφει το σύνολο τιμών της συνάρτησής μας.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Αρχικά, σχεδιάζουμε όπως βλέπετε, κάποιους κόμβους που έχουν την παράμετρο <code>draw=none</code>. Αυτή η επιλογή μας επιτρέπει να τοποθετήσουμε κόμβους στο σχήμα μας που  δε θα φαίνονται - χωρίς, ωστόσο, όπως θα δούμε στο μέλλον, αυτό να σημαίνει ότι χάνουν όλες τις σχεδιαστικές τους ιδιότητες - και άρα να εξυπηρετήσουν πιο «χθόνιους» σκοπούς. Για την ακρίβεια, οι κόμβοι που σχεδιάζουμε παραπάνω θα μας αξιοποιηθούν ως τα «άκρα» της καμπύλης που θα αποτελέσει το σύνορο του συνόλου τιμών.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ένα άλλο ενδιαφέρον στοιχείο που μπορεί να παρατηρήσει κανείς είναι το πώς καθορίζουμε τη θέση αυτών των κόμβων. Αντί να δώσουμε τις συντεταγμένες τους με το χέρι, επιλέγουμε μία πιο δυναμική τεχνική η οποία μας επιτρέπει, αν για κάποιον λόγο το θελήσουμε, να μετακινήσουμε τα σημεία που βρίσκονται στο πεδίο τιμών και, μαζί με αυτά, να μετακινηθεί και το σύνολο τιμών. Αυτό το πετυχαίνουμε μέσα από το να προσθέσουμε (διανυσματικά) σε ήδη υπάρχοντες κόμβους, μικρές μετατοπίσεις. Έτσι, η εντολή:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><code>\node[draw=none](x) at ($(2)+(.1,.3)$){};</code></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>κατασκευάζει έναν αφανή κόμβο ο οποίος θα βρίσκεται 0.1 εκατοστά δεξιότερα και 0.3 εκατοστά πιο πάνω από τον κόμβο με όνομα <code>(2)</code>. Έτσι, όπου κι αν μετακινήσουμε τον κόμβο <code>(2)</code> θα πάει και ο κόμβος <code>(x)</code>. Με τον παραπάνω τρόπο πετυχαίνουμε να προσδώσουμε στο σχήμα μας έναν πιο δυναμικό χαρακτήρα - με τον περιορισμό, βέβαια, ότι δοκιμάσαμε αρκετή ώρα με το χέρι να βρούμε τις βολικές θέσεις για τους κόμβους <code>(x)</code>, <code>(y)</code>, <code>(z)</code> κ.λπ.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Έχοντας αυτούς τους κόμβους, σχεδιάζουμε πλέον την καμπύλη μας με την ακόλουθη εντολή-σιδηρόδρομο:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:syntaxhighlighter/code {"language":"latex"} --></p>
+<pre class="wp-block-syntaxhighlighter-code">\draw[dashed, red, thick, fill=red, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(x.north east) (m) (y.north east) (z.south east) (w.west)};</pre>
+<p><!-- /wp:syntaxhighlighter/code --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ας την εξηγήσουμε βήμα-βήμα:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<li>Αρχικά, στη λίστα παραμέτρων της <code>\draw</code> δίνουμε κάποιες παραμέτρους για το πώς θα φαίνεται η γραμμή και το πώς θα γεμίζει το εσωτερικό της.</li>
+<li>Στη συνέχεια, χρησιμοποιούμε τη γνωστή μας <code>plot</code> αλλά όχι με το συνηθισμένο, για εμάς, συντακτικό της. Αντί να της δώσουμε κάποια σημεία με συντεταγμένες και μία μεταβλητή, της δίνουμε για αρχή μία λίστα παραμέτρων. Για την ακρίβεια, δίνουμε τις παραμέτρους <code>smooth</code> και <code>cycle</code>. Η τελευταία μάς είναι γνωστή και υποδηλώνει ότι η καμπύλη πρέπει να κλείσει στο τέλος. Η πρώτη υποδηλώνει ότι οι κόμβοι που θα δοθούν  στην πορεία - βλ. παρακάτω - πρέπει να συνδεθούν με μία ομαλή καμπύλη (θα εξηγήσουμε σε λίγο πώς προκύπτει, περίπου, αυτή η ομαλή καμπύλη). Επίσης, η παράμετρος <code>tension</code> καθορίζει την ομαλότητα της καμπύλης μας - μπορείτε να παίξετε λίγο μαζί της και να δείτε πώς επηρεάζει το σχήμα της καμπύλης μας.</li>
+<li>Έπειτα, δίνουμε μετά την εντολή <code>coordinates</code> ένα σύνολο από συντεταγμένες - κόμβους - από τους οποίους θέλουμε να περάσει η καμπύλη μας. Όπως θα παρατηρήσετε, σε κάποιες περιπτώσεις δε χρησιμοποιούμε τους ίδιους τους κόμβους αλλά τα... σημεία του ορίζοντα. Πρακτικά, τα τέσσερα σημεία του ορίζοντα - με την ανατολή να υποδηλώνει το «δεξιά» και τον βορρά του «πάνω» - χρησιμοποιούνται για έναν κόμβο σαν παράμετροι που υποδηλώνουν από ποια ακριβώς πλευρά του κόμβου επιθυμούμε να συμβεί κάτι - όπως, π.χ., να περάσει μία καμπύλη. Αποτελούν, όπως τα λέμε, τα λεγόμενα anchors ενός κόμβου και το συντακτικό έχει τη μορφή <code>node_name.anchor</code>.</li>
+</ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Τώρα, να πούμε και λίγα λόγια για τον αλγόριθμο που σχεδιάζει την καμπύλη. Γενικά, χρησιμοποιούνται κάποιες γνωστές καμπύλες στο χώρο της γραφικής σχεδίασης, οι καμπύλες <a href="https://en.wikipedia.org/wiki/B%C3%A9zier_curve">Bézier</a>. Αν και δε θα ασχοληθούμε - τώρα - με αυτές, να πούμε πως η βασική ιδέα του αλγορίθμου είναι η εφαπτομένη της καμπύλης που προκύπτει σε κάθε σημείο που καθορίζουμε - πέρα από το τελικό και το αρχικό - να είναι παράλληλη στην χορδή που καθορίζουν το προηγούμενο και το επόμενο σημείο που έχουμε δώσει.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ουφ! Πολλή δουλειά για ένα fancy κυκλάκι, στο τέλος της ημέρα!</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Μία απλή γραφική παράσταση...</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Το επόμενο σχήμα μας είναι το εξής:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":8538,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><img src="{{site.baseurl}}/assets/2021/09/fig_36.png?w=723" alt="Μία συνεχής συνάρτηση" class="wp-image-8538"><br />
+<figcaption>Μία απλή συνεχής συνάρτηση.</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ο αντίστοιχος κώδικας είναι ο ακόλουθος:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:syntaxhighlighter/code {"language":"latex"} --></p>
+<pre class="wp-block-syntaxhighlighter-code">\documentclass[tikz, margin=5mm]{standalone}
+ 
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+ 
+\begin{document}
+    \begin{tikzpicture}
+    \draw[thick,-&amp;gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+    \draw[thick,-&amp;gt;] (0,-2.7) -- (0,3)node[pos=1,left]{$y$};
+    \begin{scope}
+    \clip (-4,-2.7) rectangle (4,3);
+    \draw[thick,blue!50!black, domain={.5}:{3},samples=100] plot (\x,{2/(\x+.5)});
+    \draw[thick,blue!50!black, domain={-3}:{-1},samples=100] plot (\x,{1.5+\x});
+    \end{scope}
+    \node[circle, inner sep=1pt, fill=blue!50!black, draw=blue!50!black, label={left}:{$\scriptstyle\left(-3,-\frac{3}{2}\right)$}](a) at (-3,-1.5){};
+    \node[circle, inner sep=1pt, fill=white, draw=blue!50!black, label={above}:{$\scriptstyle\left(-1,\frac{1}{2}\right)$}](b) at (-1,.5){};
+    \node[circle, inner sep=1pt, fill=white, draw=blue!50!black, label={above}:{$\scriptstyle\left(\frac{1}{2},2\right)$}](c) at (.5,2){};
+    \node[circle, inner sep=1pt, fill=blue!50!black, draw=blue!50!black, label={right}:{$\scriptstyle\left(3,\frac{4}{7}\right)$}](d) at (3,{4/7}){};
+    \begin{pgfonlayer}{bg}
+    \draw[dashed, color=blue!50!black] (a) rectangle (0,0);
+    \draw[dashed, color=blue!50!black] (b) rectangle (0,0);
+    \draw[dashed, color=blue!50!black] (c) rectangle (0,0);
+    \draw[dashed, color=blue!50!black] (d) rectangle (0,0);
+    \end{pgfonlayer}
+    \end{tikzpicture}
+\end{document}</pre>
+<p><!-- /wp:syntaxhighlighter/code --></p>
+<p><!-- wp:paragraph --></p>
+<p>Εδώ δεν έχουμε κάτι τρομερό, είναι η αλήθεια, καθώς τα περισσότερα τα έχουμε δει πάρα πολλές φορές. Ίσως όμως είναι ευκαιρία να αναφερθούμε σε μία εντολή του $latex \LaTeX$ που χρησιμοποιούμε συχνά στο <code>tikz</code>: την <code>\scriptstyle</code>. Η εν λόγω εντολή χρησιμοποιείται σε μαθηματικό περιβάλλον και μετασχηματίζει όλα τα σύμβολα στην αντίστοιχη μορφή που έχουν όταν εμφανίζονται σε εκθέτες και δείκτες. Έτσι, μπορούμε να πετύχουμε μία άμεση και κομψή σμίκρυνση των χαρακτήρων που μας απασχολεί να μικρύνουμε.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Σχεδόν το ίδιο...</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Το επόμενο σχήμα μας δε διαφέρει και πολύ...</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":8613,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><img src="{{site.baseurl}}/assets/2021/09/fig_37.png?w=723" alt="Πεδίο ορισμού από γραφική παράσταση" class="wp-image-8613"><br />
+<figcaption>Σχεδόν το ίδιο...</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ο αντίστοιχος κώδικας, ωστόσο, είναι κάπως πιο πλούσιος:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:syntaxhighlighter/code {"language":"latex"} --></p>
+<pre class="wp-block-syntaxhighlighter-code">\documentclass[tikz, margin=5mm]{standalone}
+ 
+\usetikzlibrary{calc}
+\usetikzlibrary{intersections}
+ 
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+ 
+\begin{document}
+    \begin{tikzpicture}
+    \draw[thick,-&amp;gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+    \draw[thick,-&amp;gt;] (0,-2.7) -- (0,3)node[pos=1,left]{$y$};
+    \begin{scope}
+    \clip (-4,-2.7) rectangle (4,3);
+    \draw[thick,blue!50!black, domain={.5}:{3}, samples=100, name path global=curve 1] plot (\x,{2/(\x+.5)});
+    \draw[thick,blue!50!black, domain={-3}:{-1}, samples=100, name path global=curve 2] plot (\x,{1.5+\x});
+    \end{scope}
+    \foreach \i in {-2.78,-2.54,...,-1}{
+        \pgfmathtruncatemacro{\coord}{100*\i}
+        \draw[draw=none, name path=line \coord] (\i,-2.7) -- (\i,3);
+        \node[draw=none, name intersections={of=curve 2 and line \coord},inner sep=0pt](a\coord) at (intersection-1){};
+        \draw[orange,&amp;lt;-] ($(-4,0)!(a\coord)!(4,0)$) -- (a\coord);
+    }
+    \foreach \i in {.72,.94,...,3}{
+        \pgfmathtruncatemacro{\coord}{100*\i}
+        \draw[draw=none, name path=line \coord] (\i,-2.7) -- (\i,3);
+        \node[draw=none, name intersections={of=curve 1 and line \coord},inner sep=0pt](a\coord) at (intersection-1){};
+        \draw[orange,&amp;lt;-] ($(-4,0)!(a\coord)!(4,0)$) -- (a\coord);
+    }
+    \node[circle, inner sep=1pt, fill=blue!50!black, draw=blue!50!black, label={left}:{$\scriptstyle\left(-3,-\frac{3}{2}\right)$}](a) at (-3,-1.5){};
+    \node[circle, inner sep=1pt, fill=white, draw=blue!50!black, label={above}:{$\scriptstyle\left(-1,\frac{1}{2}\right)$}](b) at (-1,.5){};
+    \node[circle, inner sep=1pt, fill=white, draw=blue!50!black, label={above}:{$\scriptstyle\left(\frac{1}{2},2\right)$}](c) at (.5,2){};
+    \node[circle, inner sep=1pt, fill=blue!50!black, draw=blue!50!black, label={right}:{$\scriptstyle\left(3,\frac{4}{7}\right)$}](d) at (3,{4/7}){};
+    \begin{pgfonlayer}{bg}
+    \draw[dashed, color=blue!50!black] (a) rectangle (0,0);
+    \draw[dashed, color=blue!50!black] (b) rectangle (0,0);
+    \draw[dashed, color=blue!50!black] (c) rectangle (0,0);
+    \draw[dashed, color=blue!50!black] (d) rectangle (0,0);
+    \end{pgfonlayer}
+    \draw[orange,thick] (-3,0) -- (-1,0);
+    \draw[orange,thick] (.5,0) -- (3,0);
+    \end{tikzpicture}
+\end{document}</pre>
+<p><!-- /wp:syntaxhighlighter/code --></p>
+<p><!-- wp:paragraph --></p>
+<p><em>Αν εμφανίζονται οι κώδικες html unicode <code>&amp;lt;</code> και <code>&amp;gt;</code> είναι γιατί το block που εμφανίζει τον κώδικα έχει ένα μικρό bug. Το <code>&amp;lt;</code> αντιστοιχεί στο <code>&lt;</code> και το <code>&amp;gt;</code> στο <code>&gt;</code>.</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Επί της ουσίας, έχουμε προσθέσει κάτι βελάκια από τη γραφική παράσταση προς τον άξονα $latex x'x$ πράγμα που, αν και είναι απλό με το χέρι, εδώ θέλει λίγη περισσότερη δουλίτσα. Για την ακρίβεια, αρχικά ξεκινάμε μία επανάληψη με την εντολή:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:syntaxhighlighter/code {"language":"latex"} --></p>
+<pre class="wp-block-syntaxhighlighter-code">\foreach \i in {-2.78,-2.54,...,-1} {stuff...}</pre>
+<p><!-- /wp:syntaxhighlighter/code --></p>
+<p><!-- wp:paragraph --></p>
+<p>Να θυμίσουμε εδώ ότι η <code>\foreach</code> καθορίζει τις τιμές που παίρνει ο μετρητής της μέσω μίας λίστας η οποία είτε περιέχει αναλυτικά τις τιμές είτε έχει την ακόλουθη δομή:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><code>{start, step,..., end}</code></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Το πρώτο όρισμα καθορίζει το πρώτο στοιχείο της λίστας, το τελευταίο το τελευταίο και το ενδιάμεσο μας λέει κατά πόσο μεγαλύτερο είναι κάθε στοιχείο από το προηγούμενό του - αριθμητική πρόοδος, με λίγα λόγια. Τώρα, εμείς δώσαμε ένα αρχικό σημείο, ένα τελικό κι ένα βήμα όπως βλέπουμε και παραπάνω.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Αφού ανοίξαμε τον βρόχο, η πρώτη εντολή που δίνουμε είναι αυτό το αλλοπρόσαλλο πράγμα:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:syntaxhighlighter/code --></p>
+<pre class="wp-block-syntaxhighlighter-code">\pgfmathtruncatemacro{\coord}{100*\i}</pre>
+<p><!-- /wp:syntaxhighlighter/code --></p>
+<p><!-- wp:paragraph --></p>
+<p>Αυτή η εντολή αποθηκεύει στη μεταβλητή <code>\coord</code> την τιμή <code>100*\i</code> αφού πρώτα αποκόψει το όποιο δεκαδικό μέρος μπορεί αυτή να έχει. Να σημειώσουμε εδώ πως η μεταβλητή <code>\coord</code> αποθηκεύεται στη μνήμη του υπολογιστή ως ακέραιου τύπου, γεγονός που θα μας φανεί χρήσιμο στην πορεία - όπου και θα αξιοποιήσουμε το παραπάνω.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Έπειτα έχουμε αυτές τις τρεις γραμμές:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:syntaxhighlighter/code {"language":"latex"} --></p>
+<pre class="wp-block-syntaxhighlighter-code">\draw[draw=none, name path=line \coord] (\i,-2.7) -- (\i,3);
+\node[draw=none, name intersections={of=curve 2 and line \coord},inner sep=0pt](a\coord) at (intersection-1){};
+\draw[orange,&amp;lt;-] ($(-4,0)!(a\coord)!(4,0)$) -- (a\coord);</pre>
+<p><!-- /wp:syntaxhighlighter/code --></p>
+<p><!-- wp:paragraph --></p>
+<p>Με την πρώτη γραμμή σχεδιάζουμε μία... γραμμή που όμως δε φαίνεται αλλά θα μας βοηθήσει στην πορεία. Με τη δεύτερη γραμμή σχεδιάζουμε έναν κόμβο που ούτε αυτός φαίνεται (βαρύ σχήμα, ως τώρα) και ο οποίος βρίσκεται στην τομή της συνάρτησής μας με την ευθεία που σχεδιάσαμε και δε φαίνεται. Για να το κάνουμε αυτό - να βρούμε, δηλαδή, την τομή δύο καμπυλών - χρησιμοποιούμε τη βιβλιοθήκη <code>intersections</code>. Η εν λόγω βιβλιοθήκη μας επιτρέπει να χρησιμοποιήσουμε το εξής συντακτικό:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><code>name intersections={of=curve 1 and curve 2}</code></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>το οποίο παράγει μία λίστα από όλα τα σημεία τομής - το πώς τα βρίσκει θα το συζητήσουμε μιαν άλλη στιγμή - μεταξύ των δύο καμπυλών με ονόματα <code>curve 1</code> και <code>curve 2</code>. Κι εδώ πρέπει να αναφέρουμε κάτι σημαντικό για τα ονόματα των σχημάτων στο <code>tikz</code>. Γενικά, μπορούμε να δώσουμε ότι όνομα θέλουμε σε μία καμπύλη το οποίο επιτρέπεται να περιέχει και κενά ακόμα, αλλά, καλό είναι να μην περιέχει δεσμευμένες λέξεις όπως, για παράδειγμα, το <code>and</code> παραπάνω αλλά, το σημαντικότερο, να μην περιέχει μη ακέραιους αριθμούς! Κι επειδή εμείς ονομάζουμε αυτές τις αόρατες ευθείες με βάση τον μετρητή <code>\i</code> που παίρνει μη ακέραιες τιμές, χρειάστηκε να κατασκευάσουμε την ακέραια μεταβλητή <code>\coord</code>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Τώρα, εντάξει, φτιάξαμε μία λίστα με τα σημεία τομής που θέλαμε - και που, σε κάθε περίπτωση είναι ακριβώς ένα - αλλά πώς θα τα φωνάξουμε; Το γενικό συντακτικό για να χρησιμοποιήσουμε τις συντεταγμένες του κ-οστού στοιχείου της λίστας των σημείων τομής είναι:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><code>intersection-k</code></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>οπότε εμείς στα παραπάνω χρησιμοποιούμε τον κώδικα <code>intersection-1</code> για να αναφερθούμε στο πρώτο - και μοναδικό - στοιχείο της λίστας μας.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Έπειτα δεν κάνουμε τίποτα παρά να σχεδιάζουμε ένα σημείο από αυτόν τον αόρατο κόμβο μέχρι και την προβολή του αόρατου κόμβου στον άξονα $latex x'x$ - που την κάνουμε, κατά τα γνωστά, με τη βοήθεια της <code>calc</code>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Να σημειώσουμε κάπου εδώ ότι την εντολή που παράγει τη λίστα των σημείων τομής:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center"><code>name intersections={of=curve 1 and curve 2}</code></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>μπορούμε να τη χρησιμοποιήσουμε στη λίστα παραμέτρων ενός κόμβου ή μίας εντολής <code>\draw</code> ή <code>\fill</code> - και σε άλλες λίστες παραμέτρων, αλλά ίσως να μην είναι τόσο χρήσιμη. Επίσης, να πούμε ότι αυτή η λίστα χάνεται μόλις εκτελέσουμε την επόμενη εντολή του κώδικά μας, επομένως, αν θέλουμε να «αποθηκεύσουμε» κάποιο σημείο τομής για να το χρησιμοποιήσουμε στο μέλλον σε κάποιο σχέδιο, καλό θα ήταν να το χρησιμοποιήσουμε για να ορίσουμε έναν κόμβο όπως παραπάνω - ή κάποιο άλλο σχήμα που μας χρειάζεται.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Μία απλή καμπύλη...</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Το επόμενο σχήμα μας είναι ντροπιαστικά απλό σε σχέση με το προηγούμενο:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":8623,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><img src="{{site.baseurl}}/assets/2021/09/fig_38.png?w=723" alt="Μία καμπύλη" class="wp-image-8623"><br />
+<figcaption>Τ' είν' αυτό;</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ο αντίστοιχος κώδικας, δε, είναι ακόμα πιο λίγος:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:syntaxhighlighter/code {"language":"latex"} --></p>
+<pre class="wp-block-syntaxhighlighter-code">\documentclass[tikz, margin=5mm]{standalone}
+ 
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+ 
+\begin{document}
+    \begin{tikzpicture}
+    \draw[thick,-&amp;gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+    \draw[thick,-&amp;gt;] (0,-2.7) -- (0,3)node[pos=1,left]{$y$};
+    \begin{scope}
+    \clip (-4,-2.7) rectangle (4,3);
+    \draw[thick,blue!50!black, domain={.5}:{3}, samples=100] (1,-2) .. controls (-6,2) and (2,2) .. (2,-1.85);
+    \end{scope}
+    \end{tikzpicture}
+\end{document}</pre>
+<p><!-- /wp:syntaxhighlighter/code --></p>
+<p><!-- wp:paragraph --></p>
+<p>Τίποτα, απλά σχεδιάσαμε μία καμπύλη. Ή και όχι... Ας προσέξουμε λίγο τη γραμμή που σχεδιάζει την καμπύλη:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:syntaxhighlighter/code {"language":"latex"} --></p>
+<pre class="wp-block-syntaxhighlighter-code">\draw[thick,blue!50!black, domain={.5}:{3}, samples=100] (1,-2) .. controls (-6,2) and (2,2) .. (2,-1.85);</pre>
+<p><!-- /wp:syntaxhighlighter/code --></p>
+<p><!-- wp:paragraph --></p>
+<p>Τι είναι αυτό; Εμείς δε θα έπρεπε κανονικά να σχεδιάσουμε την καμπύλη μας ως συνήθως με την <code>plot</code>; Εδώ τι είναι αυτό το <code>controls</code> και όλα αυτά τα παράξενα;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Λοιπόν, αυτό το συντακτικό μας επιτρέπει να σχεδιάσουμε καμπύλες <a href="https://en.wikipedia.org/wiki/B%C3%A9zier_curve">Bézier</a> και η εντολή <code>controls</code> μας επιτρέπει να καθορίσουμε τα σημεία ελέγχου της καμπύλης. Περισσότερα για τις καμπύλες αυτές θα πούμε στο aftermaths στο άμεσο μέλλον. Μέχρι τότε, μπορείτε να παίξετε με τη θέση των σημείων ελέγχου και να δείτε πώς επηρεάζουν το σχήμα της καμπύλης.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Και κάτι σύνθετο...</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Κακό λογοπαίγνιο, καθώς το τελευταίο μας σχήμα είναι αυτό:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"id":8660,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image size-large"><img src="{{site.baseurl}}/assets/2021/09/fig_39.png?w=723" alt="Σύνθεση συναρτήσεων" class="wp-image-8660"><br />
+<figcaption>Σύνθετο σχήμα...</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ο αντίστοιχος κώδικας είναι ο εξής:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:syntaxhighlighter/code {"language":"latex"} --></p>
+<pre class="wp-block-syntaxhighlighter-code">\documentclass[tikz, margin=5mm]{standalone}
+ 
+\usepackage{amsmath}
+ 
+\begin{document}
+    \begin{tikzpicture}
+    \node(x) at (-.5,0) {$\dfrac{\pi}{6}$};
+    \node(gx) at (1,0) {$g\left(\dfrac{\pi}{6}\right)$};
+    \node[right](fgx) at (2,0) {$f\left(g\left(\dfrac{\pi}{6}\right)\right)$};
+    \draw[blue,|-&amp;gt;] (x) -- (gx)node[pos=.5,above]{$\textcolor{blue}{g}$};
+    \draw[red,|-&amp;gt;] (gx) -- (fgx)node[pos=.5,above]{$\textcolor{red}{f}$};
+    \end{tikzpicture}
+\end{document}</pre>
+<p><!-- /wp:syntaxhighlighter/code --></p>
+<p><!-- wp:paragraph --></p>
+<p>Δεν έχει κάτι το ιδιαίτερο το παραπάνω, καθώς είναι απλοί κόμβοι και βελάκια. Παρατηρήστε, ωστόσο, ότι για να σχεδιάσουμε ένα βελάκι σαν το $latex \mapsto$ στο <code>tikz</code> αρκεί να περάσουμε στη λίστα παραμέτρων την παράμετρο <code>|-&gt;</code> που είναι ακριβώς και η μορφή που θέλουμε.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Αυτά για αυτήν την εβδομάδα! Την επόμενη Τρίτη, αν δεν έχετε ήδη πάρει μία γεύση από <a href="https://aftermaths.gr/%ce%ad%ce%bd%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1-%cf%84%ce%b7%ce%bd-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1/">εδώ</a>, έχουμε πολύ κομψά σχήματα να μελετήσουμε!</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Μέχρι τότε, καλό βράδυ!</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Η κεντρική εικόνα είναι ο πίνακας <em>Ο Χριστός ανάμεσα στους διδασκάλους</em> του <em><a href="https://en.wikipedia.org/wiki/Vasily_Polenov">Vasily Polenov</a>.</em></p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:block {"ref":3122} /--></p>
+<p><!-- wp:embed {"url":"https://www.youtube.com/watch?v=QNmhiTFeyiY","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} --></p>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<div class="wp-block-embed__wrapper">
+https://www.youtube.com/watch?v=QNmhiTFeyiY
+</div>
+</figure>
+<p><!-- /wp:embed --><br />
+</body></html></p>
