@@ -1,0 +1,614 @@
+---
+layout: post
+title: Σχεδιάζοντας Καμπύλες
+date: 2022-11-06 13:00:11.000000000 +02:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- After-maths
+- Διδακτική
+- Μαθηματικά
+tags:
+- featured
+- συναρτήσεις
+- γραφική παράσταση
+meta:
+  _last_editor_used_jetpack: block-editor
+  _cs_poll_24d97e21-699e-4f68-87f3-5f035db5046a: a:7:{s:2:"id";i:11105362;s:8:"question";s:0:"";s:4:"note";s:0:"";s:8:"settings";a:10:{s:5:"title";s:17:"Untitled
+    Applause";s:10:"after_vote";s:7:"results";s:13:"after_message";s:0:"";s:17:"randomize_answers";b:0;s:20:"restrict_vote_repeat";b:0;s:7:"captcha";b:0;s:15:"multiple_choice";b:0;s:12:"redirect_url";s:0:"";s:12:"close_status";s:4:"open";s:11:"close_after";b:0;}s:7:"answers";a:1:{i:0;a:3:{s:11:"answer_text";s:4:"clap";s:2:"id";i:50896618;s:9:"client_id";s:36:"46a6ab94-4cd2-488f-a88e-ded5e25e8ab1";}}s:11:"source_link";s:34:"https://aftermathsgr.wordpress.com";s:9:"client_id";s:36:"24d97e21-699e-4f68-87f3-5f035db5046a";}
+  _crowdsignal_forms_poll_ids: a:0:{}
+  _thumbnail_id: '11432'
+  timeline_notification: '1667732414'
+  _coblocks_attr: ''
+  _coblocks_dimensions: ''
+  _coblocks_responsive_height: ''
+  _coblocks_accordion_ie_support: ''
+  _jetpack_post_was_ever_published: ''
+  jetpack_anchor_podcast: ''
+  jetpack_anchor_episode: ''
+  jetpack_anchor_spotify_show: ''
+  _wpas_is_tweetstorm: ''
+  _wpas_feature_enabled: '1'
+  _publicize_job_id: '78455266481'
+  _publicize_done_external: a:1:{s:7:"twitter";a:1:{i:24446906;s:59:"https://twitter.com/aftermathsgr/status/1589211062515163137";}}
+  _publicize_done_22918771: '1'
+  _wpas_done_24446906: '1'
+  publicize_twitter_user: aftermathsgr
+  publicize_tumblr_url: http://.tumblr.com/post/700168190223941632
+  _publicize_done_23261972: '1'
+  _wpas_done_25211553: '1'
+  _oembed_0e1055b0e392359e2adb1fd45edd3f09: <div class="embed-youtube"><iframe title="Ludvig
+    Holm - Violin Concerto in G-major (1916)" width="723" height="407" src="https://www.youtube.com/embed/uL8ExqKBsPc?feature=oembed"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen></iframe></div>
+  _oembed_time_0e1055b0e392359e2adb1fd45edd3f09: '1724989195'
+  _oembed_fd235e5f60b00e6317f1d0c30ce16388: <div class="embed-youtube"><iframe title="Ludvig
+    Holm - Violin Concerto in G-major (1916)" width="750" height="422" src="https://www.youtube.com/embed/uL8ExqKBsPc?feature=oembed"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+    gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen></iframe></div>
+  _oembed_time_fd235e5f60b00e6317f1d0c30ce16388: '1730546964'
+  _elasticsearch_data_sharing_indexed_on: '2024-11-18 13:56:14'
+author:
+  login: aftermathsgr
+  email: aftermathsgr@gmail.com
+  display_name: Aftermaths
+  first_name: Βασίλης
+  last_name: Μάρκος
+permalink: "/2022/11/06/%cf%83%cf%87%ce%b5%ce%b4%ce%b9%ce%ac%ce%b6%ce%bf%ce%bd%cf%84%ce%b1%cf%82-%ce%ba%ce%b1%ce%bc%cf%80%cf%8d%ce%bb%ce%b5%cf%82/"
+---
+<p><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"><br />
+<!-- wp:paragraph --><html><body></p>
+<p>Πολλές φορές χρειάζεται κανείς να σχεδιάσει μία καμπύλη με κάποιες συγκεκριμένες καλές ιδιότητες:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<!-- wp:list-item --></p>
+<li>να είναι μονότονη σε συγκεκριμένα διαστήματα,</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>να έχει ακρότατα σε συγκεκριμένα σημεία,</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>να έχει σημεία καμπής σε συγκεκριμένα σημεία,</li>
+<p><!-- /wp:list-item -->
+</ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>και ούτω καθεξής. Στο χαρτί ή στον πίνακα αυτό είναι σχετικά εύκολο, είναι η αλήθεια, και δε χρειάζεται, δα, και κάποια τρομερή επιδεξιότητα. Ωστόσο, τι γίνεται όταν θέλουμε να σχεδιάσουμε μία τέτοια καμπύλη στον υπολογιστή μας;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Η αλήθεια είναι ότι μία γραφίδα μπορεί, σε έναν μεγάλο βαθμό, να λύσει τέτοια προβλήματα. Ειδικότερα, δε, αν μιλάμε για κάποιο καλό κιτ σχεδίασης γραφικών, τότε το αποτέλεσμα θυμίζει ή, πολλές φορές, ξεπερνά τις προσδοκίες μας. Αλλά, για να κάνουμε μία μικρή γραφική παράσταση δεν είναι κρίμα να ξοδέψουμε τα μαλλιά της κεφαλής μας; Δεν είναι κάπως σαν να παίρνουμε μία καραμπίνα για να σκοτώσουμε ένα τόσο δα κουνουπάκι; - έκφραση δανεισμένη από μαθητή μου, βλ. <a href="https://aftermaths.gr/2022/01/30/%ce%bf-rolle-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b1-%ce%ba%ce%bf%cf%85%ce%bd%ce%bf%cf%8d%cf%80%ce%b9%ce%b1/">εδώ</a>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Τι θα έλεγε ο Karl Weierstrass;</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ο <a href="https://en.wikipedia.org/wiki/Karl_Weierstrass">Karl Weierstrass</a> είναι ένας από τους πρωτεργάτες του σύγχρονου απειροστικού λογισμού. Οπότε, είναι απολύτως λογικό να απευθυνθούμε σε αυτόν για ένα ζήτημα τόσο φλέγον όσο η χάραξη μίας γραφικής παράστασης. Αλλά, επειδή είναι λίγο δύσκολο να του μιλήσουμε απευθείας τα τελευταία χρόνια (λίγο η πανδημία, λίγο το ένα, λίγο το άλλο), θα τα πούμε με έναν από τους πιο γνωστούς απογόνους του: το Θεώρημα Προσέγγισης του Weierstrass.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Το εν λόγω θεώρημα έχει ως εξής:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"backgroundColor":"light-gray","textColor":"dark-blue"} --></p>
+<p class="has-dark-blue-color has-light-gray-background-color has-text-color has-background">An $latex f:[a,b]\to\mathbb{R} &amp;bg=d9d9d9&amp;fg=362e77$ είναι μία συνεχής συνάρτηση, τότε για κάθε $latex \varepsilon&gt;0 &amp;bg=d9d9d9&amp;fg=362e77$ υπάρχει μία πολυωνυμική συνάρτηση $latex p &amp;bg=d9d9d9&amp;fg=362e77$ έτσι ώστε για κάθε $latex x\in[a,b] &amp;bg=d9d9d9&amp;fg=362e77$ να ισχύει ότι $latex |f(x)-p(x)|&lt;\varepsilon. &amp;bg=d9d9d9&amp;fg=362e77$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Πρακτικά, το παραπάνω μας λέει ότι αν μας δώσει κάποιος άνθρωπος μία συνάρτηση με γραφική παράσταση όπως η παρακάτω:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11046,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/image.png?w=409" alt="" class="wp-image-11046"><br />
+<figcaption class="wp-element-caption">Μία αμέριμνη γραφική παράσταση...</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>κι ένας άλλος άνθρωπος (μπορεί κι ο ίδιος, δεν έχει σημασία) μας ρωτήσει: «Μπορείτε να βρείτε ένα πολυώνυμο με γραφική παράσταση μέσα στην πράσινη "ζώνη";»:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11049,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/image-1.png?w=412" alt="" class="wp-image-11049"><br />
+<figcaption class="wp-element-caption">Η πράσινη ζώνη - περισσότερα για το σχήμα <a href="https://aftermaths.gr/2021/08/31/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-3/">εδώ</a>.</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>εμείς θα του απαντήσουμε: «Βεβαίως!»</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Πράγματι, όσο «στενή» και να είναι αυτή η πράσινη ζώνη γύρω από τη γραφική παράσταση της συνάρτησής μας, εμείς μπορούμε, γιατί έτσι μας εγγυάται το Θεώρημα Προσέγγισης του Weierstrass, να βρούμε μία πολυωνυμική συνάρτηση με γραφική παράσταση που να «ζει» εκεί μέσα.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Άρα, θα πει κάποιος πιο πονηρεμένος, αν επιλέξουμε αυτή τη ζώνη να είναι αρκετά «στενή», η γραφική παράσταση του πολυωνύμου μας θα μοιάζει αρκετά με αυτήν της συνάρτησής μας. Άρα, αφού θα έχουμε τον τύπο του πολυωνύμου, θα μπορούμε εύκολα να τη σχεδιάσουμε και στον υπολογιστή μας - π.χ. χρησιμοποιώντας το <a href="https://www.geogebra.org/">GeoGebra</a> ή το <a href="https://www.desmos.com/calculator">Desmos</a> ή κάποιο άλλο εργαλείο.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Σωστά;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Όχι, είναι η αλήθεια. Όχι, τουλάχιστον, τόσο εύκολα όσο τα περιγράψαμε παραπάνω. Μπορεί ο κύριος Weierstrass να μας έχει δώσει ένα απείρου κάλλους αποτέλεσμα, ωστόσο δε μας έχει πει <em>πώς</em> μπορούμε να βρούμε ποιο ακριβώς είναι αυτό το πολυώνυμο - αυτό που ξέρουμε για αυτό είναι απλώς ότι υπάρχει.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Άρα, μία τρύπα στο νερό κάναμε...</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Ρίζες</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Παρέα με τα πολυώνυμα έρχονται και οι ρίζες τους. Πράγματι, αν ψάξετε στο Google τον όρο «πολυώνυμο» θα βρείτε περίπου 37,000 αποτελέσματα. Αν, τώρα προσθέσετε και τη λέξη «ρίζες» στη γραμμή αναζήτησης θα βρείτε περίπου 24,500 αποτελέσματα. Ήτοι, ο όρος «πολυώνυμο» εμφανίζεται περίπου δύο στις τρεις φορές παρέα με τον όρο «ρίζες» στο ελληνικό διαδίκτυο. Εντάξει, μπορεί να μην περιμέναμε την Google να μας επιβεβαιώσει κάτι που έχουμε καταλάβει ήδη από το σχολείο, αλλά είναι αρκετά ευχάριστο όταν οι υποψίες μας επιβεβαιώνονται (όχι πάντα, ίσως, αλλά ας μην ανοίξουμε τώρα υποθέσεις από το αρχείο χωρίς λόγο).</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Τέλος πάντων, παρεκτραπήκαμε. Μιλώντας, όμως, για πολυώνυμα και ρίζες, ας δούμε τρία περίφημα και ξακουστά μονώνυμα:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11057,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/image-2.png?w=1024" alt="" class="wp-image-11057"><br />
+<figcaption class="wp-element-caption">Είναι όντως ξακουστά - όσο ξακουστά μπορεί να είναι τα μονώνυμα...</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Σχολικές γραφικές παραστάσεις, που κρύβουν όμως πολύ και ιδιαίτερα χρήσιμο φορτίο για την περίπτωσή μας. Παρατηρώντας λίγο τις παραπάνω καμπύλες, αρχικά βλέπουμε ότι και οι τρεις τους περνούν από την αρχή των αξόνων. Αν και προφανές, έχει ιδιαίτερη σημασία, καθώς και οι τρεις τους το κάνουν αυτό με έναν διαφορετικό τρόπο:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<!-- wp:list-item --></p>
+<li>η $latex y=x$ διασχίζει αμφότερους τους άξονες χωρίς να αγχώνεται η ιδιαίτερα,</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>η $latex y=x^2$ ίσα που χαϊδεύει τον οριζόντιο άξονα, μένοντας από τη μία μεριά του μόνο και,</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>η $latex y=x^3$ περνά διστακτικά αλλά επιδέξια από τη μία μεριά του άξονα προς την άλλη.</li>
+<p><!-- /wp:list-item -->
+</ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Πιο επιστημονικά, θα μπορούσαμε να συνοψίσουμε τα παραπάνω σε έναν πίνακα όπως αυτόν εδώ:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table {"backgroundColor":"white","textColor":"black","className":"is-style-regular"} --></p>
+<figure class="wp-block-table is-style-regular">
+<table class="has-black-color has-white-background-color has-text-color has-background">
+<thead>
+<tr>
+<th class="has-text-align-left" data-align="left">Συνάρτηση</th>
+<th class="has-text-align-left" data-align="left">Σημείο τομής με x'x</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="has-text-align-left" data-align="left">$latex y=x$</td>
+<td class="has-text-align-left" data-align="left">Απλώς σημείο τομής</td>
+</tr>
+<tr>
+<td class="has-text-align-left" data-align="left">$latex y=x^2$</td>
+<td class="has-text-align-left" data-align="left">Σημείο επαφής</td>
+</tr>
+<tr>
+<td class="has-text-align-left" data-align="left">$latex y=x^3$</td>
+<td class="has-text-align-left" data-align="left">Σημείο επαφής και σημείο καμπής</td>
+</tr>
+</tbody>
+</table>
+<figcaption class="wp-element-caption">Οι ιδιότητες των ριζών των παραπάνω απλών μονωνύμων.</figcaption>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:paragraph --></p>
+<p>Όπως εύκολα παρατηρεί κανείς, αυτό που διαφοροποιεί τα παραπάνω μονώνυμα είναι ο βαθμός τους, που κυμαίνεται από 1 έως 3. Για την ακρίβεια, η ουσιώδης διαφορά βρίσκεται λίγο πιο... δίπλα από την έννοια του βαθμού. Γενικά, ορίζουμε ως <em>πολλαπλότητα</em> μίας ρίζας $latex \rho$ ενός πολυωνύμου $latex p$ τον μέγιστο εκθέτη $latex k$ έτσι ώστε:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex p(x)=(x-\rho)^kq(x),$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>όπου, σαφώς, το $latex q(x)$ δεν έχει το $latex (x-\rho)$ ως παράγοντα. Πρακτικά, η πολλαπλότητα μίας ρίζας, $latex \rho,$ είναι το (μέγιστο δυνατό) πλήθος των φορών που εμφανίζεται ο παράγοντας $latex (x-\rho)$ στην παραγοντοποίηση του $latex p.$ Έτσι, για παράδειγμα, το παρακάτω πολυώνυμο:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex p(x)=x^2(x-2)^4(x+3)^3,$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>έχει το $latex 0$ ως ρίζα πολλαπλότητας 2 (διπλή ρίζα), το $latex 2$ ως ρίζα πολλαπλότητας 4 (τετραπλή ρίζα) και το $latex -3$ ως ρίζα πολλαπλότητας 3 (τριπλή ρίζα).</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Χρησιμοποιώντας την έννοια της πολλαπλότητας, μπορούμε να ξαναγράψουμε τον παραπάνω πίνακα ως εξής:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:table {"backgroundColor":"white","textColor":"black","className":"is-style-regular"} --></p>
+<figure class="wp-block-table is-style-regular">
+<table class="has-black-color has-white-background-color has-text-color has-background">
+<thead>
+<tr>
+<th class="has-text-align-left" data-align="left">Πολλαπλότητα</th>
+<th class="has-text-align-left" data-align="left">Σημείο τομής με x'x</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="has-text-align-left" data-align="left">Απλή</td>
+<td class="has-text-align-left" data-align="left">Απλώς σημείο τομής</td>
+</tr>
+<tr>
+<td class="has-text-align-left" data-align="left">Διπλή</td>
+<td class="has-text-align-left" data-align="left">Σημείο επαφής</td>
+</tr>
+<tr>
+<td class="has-text-align-left" data-align="left">Τριπλή</td>
+<td class="has-text-align-left" data-align="left">Σημείο επαφής και σημείο καμπής</td>
+</tr>
+</tbody>
+</table>
+<figcaption class="wp-element-caption">Πολλαπλότητες και σημεία τομής, μία σχέση αγάπης.</figcaption>
+</figure>
+<p><!-- /wp:table --></p>
+<p><!-- wp:paragraph --></p>
+<p>Είναι αρκετά απλό να αποδείξει κανείς τις παραπάνω ιδιότητες, ακόμα και με σχολική ύλη. Όλες οι αποδείξεις βασίζονται στην ακόλουθη σχετικά προφανή αναδιατύπωση του ορισμού της πολλαπλότητας:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"backgroundColor":"light-gray","textColor":"dark-blue"} --></p>
+<p class="has-dark-blue-color has-light-gray-background-color has-text-color has-background">Ένας αριθμός $latex \rho &amp;bg=d9d9d9&amp;fg=362e77$ θα λέμε ότι είναι ρίζα πολλαπλότητας $latex k\in\mathbb{Z}_{+} &amp;bg=d9d9d9&amp;fg=362e77$ ενός πολυωνύμου $latex p &amp;bg=d9d9d9&amp;fg=362e77$ αν υπάρχει ένα πολυώνυμο $latex q &amp;bg=d9d9d9&amp;fg=362e77$ <em>που δεν έχει ρίζα το </em>$latex \rho &amp;bg=d9d9d9&amp;fg=362e77$ έτσι ώστε: $latex p(x)=(x-\rho)^kq(x). &amp;bg=d9d9d9&amp;fg=362e77$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Με βάση αυτήν μπορούμε να αποδείξουμε και το ακόλουθο κομψό αποτέλεσμα:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"backgroundColor":"light-gray","textColor":"dark-blue"} --></p>
+<p class="has-dark-blue-color has-light-gray-background-color has-text-color has-background">Ένας αριθμός $latex \rho &amp;bg=d9d9d9&amp;fg=362e77$ είναι ρίζα πολλαπλότητας $latex k\in\mathbb{Z}_{+} &amp;bg=d9d9d9&amp;fg=362e77$ ενός πολυωνύμου $latex p &amp;bg=d9d9d9&amp;fg=362e77$ αν και μόνο αν είναι ρίζα κάθε παραγώγου τάξεως μέχρι και $latex k-1 &amp;bg=d9d9d9&amp;fg=362e77$ και δεν είναι ρίζα της παραγώγου τάξεως $latex k &amp;bg=d9d9d9&amp;fg=362e77$ του $latex p. &amp;bg=d9d9d9&amp;fg=362e77$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Η απόδειξη είναι σχετικά απλή. Για το ευθύ, αν έχουμε μία ρίζα, $latex \rho,$ ενός πολυωνύμου, $latex p,$ πολλαπλότητας $latex k$ τότε θα υπάρχει ένα πολυώνυμο $latex q$ που δεν έχει ρίζα το $latex \rho$ και ισχύει:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex p(x)=(x-\rho)^kq(x).$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Η απόδειξη θα προχωρήσει με επαγωγή στο $latex k:$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<!-- wp:list-item --></p>
+<li>
+<em>Επαγωγική Βάση</em>: Για $latex k=1$ έχουμε $latex p(x)=(x-\rho)q(x)$ και άρα $latex p'(x)=q(x)+(x-\rho)q'(x),$ επομένως $latex p'(\rho)=q(\rho)\neq0,$ που ήταν το ζητούμενο.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>
+<em>Επαγωγική Υπόθεση</em>: Υποθέτουμε ότι για κάποιο $latex k\geq1$ έχουμε αποδείξει το ζητούμενο, δηλαδή ότι αν $latex p(x)=(x-\rho)^kq(x)$ με το $latex \rho$ να μην είναι ρίζα του $latex q(x)$ τότε το $latex \rho$ είναι ρίζα της $latex p^(n)$ για κάθε $latex n=1,2\ldots,k-1$ αλλά όχι και της $latex p^{(k)}.$</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>
+<em>Επαγωγικό Βήμα</em>: Έστω ένα πολυώνυμο $latex p$ έτσι ώστε $latex p(x)=(x-\rho)^{k+1}q(x)$ και το $latex \rho$ να μην είναι ρίζα του $latex q.$ Τότε έχουμε $latex p'(x)=(x-\rho)^kq(x)+(x-\rho)^{k+1}q'(x)=(x-\rho)^k(q(x)+(x-\rho)q'(x)).$ Συνεπώς, το $latex p'$ έχει το $latex \rho$ ως ρίζα πολλαπλότητας $latex k$ καθώς $q(\rho)\neq0$ και άρα από την επαγωγική μας υπόθεση γνωρίζουμε ότι το $latex p'$ και όλες (και μόνο αυτές) οι παράγωγοί του μέχρι και τάξεως $latex k-1$ έχουν ρίζα το $latex \rho.$ Όμως, αυτές είναι ακριβώς οι παράγωγοι μέχρι και τάξεως $latex k$ του $latex p,$ που ήταν το ζητούμενο.</li>
+<p><!-- /wp:list-item -->
+</ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Αντίστροφα, τώρα, θα αποδείξουμε ότι αν ισχύει για κάποιο πολυώνυμο $latex p(x)$ και έναν αριθμό $latex \rho\in\mathbb{R}$ ότι το ίδιο το $latex p$ και κάθε παράγωγος του $latex p$ μέχρι και τάξεως $latex k-1$ έχει το $latex \rho$ ως ρίζα του ενώ το $latex \rho$ δεν είναι ρίζα της παραγώγου τάξης $latex k,$ τότε υπάρχει ένα πολυώνυμο $latex q$ που δεν έχει το $latex \rho$ ως ρίζα του έτσι ώστε:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex \displaystyle p(x)=(x-\rho)^kq(x).$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Όπως και παραπάνω, θα εργαστούμε με επαγωγή στο $latex k.$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<!-- wp:list-item --></p>
+<li>
+<em>Επαγωγική Βάση</em>: Για $latex k=1$ το ζητούμενο είναι τετριμμένο, καθώς η υπόθεσή μας είναι ότι το $latex \rho$ είναι ρίζα του $latex p$ αλλά όχι του $latex p'.$ Δηλαδή, $latex p(\rho)=0$ ενώ $latex p'(\rho)\neq0.$ Συνεπώς, το $latex p$ γράφεται ως $latex p(x)=(x-\rho)q(x)$ για κάποιο πολυώνυμο $latex q.$ Παρατηρούμε ότι $latex p'(x)=q(x)+(x-\rho)q'(x),$ επομένως $latex q(\rho)=p'(\rho)\neq0,$ άρα το $latex q$ δεν έχει ως ρίζα το $latex \rho$ που ήταν και το ζητούμενο.</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>
+<em>Επαγωγική Υπόθεση</em>: Υποθέτουμε ότι ισχύει το ζητούμενο για κάποιο $latex k\geq1.$ Δηλαδή, υποθέτουμε ότι αν ισχύει ότι το $latex \rho$ είναι ρίζα κάθε παραγώγου τάξης μέχρι και $latex k-1$ και δεν είναι ρίζα της $latex p^{(k)},$ τότε το $latex p(x)$ γράφεται στη μορφή $latex p(x)=(x-\rho)^kq(x),$ όπου το $latex q$ δεν έχει ως ρίζα το $latex \rho.$</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>
+<em>Επαγωγικό Βήμα:</em> Ας υποθέσουμε ότι έχουμε ένα πολυώνυμο $latex p$ του οποίου κάθε παράγωγος τάξης μέχρι και $latex k$ έχει ως ρίζα το $latex \rho,$ ενώ το $latex \rho$ δεν είναι ρίζα της $latex p^{(k+1)}.$ Αφού το $latex \rho$ είναι ρίζα του $latex p,$ έπεται ότι $latex p(x)=(x-\rho)Q(x),$ για κάποιο πολυώνυμο $latex Q.$ Τώρα, παρατηρούμε ότι $latex p'(x)=Q(x)+(x-\rho)Q'(x).$ Ξαναπαραγωγίζοντας, έχουμε $latex p''(x)=2Q'(x)+(x-\rho)Q''(x).$ Ξαναπαραγωγίζοντας, έχουμε $latex p^{(3)}(x)=3Q''(x)+(x-\rho)Q^{(3)}(x).$ Γενικά, μπορούμε εύκολα να δούμε ότι $latex p^{(n)}(x)=nQ^{(n-1)}(x)+(x-\rho)Q^{(n)}(x).$ Για $latex n\leq k$ έχουμε $latex p^{(n)}(\rho)=0,$ επομένως $latex nQ^{(n-1)}(\rho)=0.$ Συνεπώς, το $latex Q$ είναι ένα πολυώνυμο που έχει ρίζα το $latex \rho$ καθώς και κάθε παράγωγός του τάξης έως και $latex k-1.$ Επίσης, από την παραπάνω σχέση, $latex Q^{(k)}(\rho)\neq0,$ συνεπώς, από την επαγωγική μας υπόθεση, ισχύει ότι $latex Q(x)=(x-\rho)^kR(x),$ όπου το $latex R(x)$ δεν έχει το $latex \rho$ ως ρίζα. Συνεπώς, $latex p(x)=(x-\rho)^{k+1}R(x),$ όπως θέλαμε.</li>
+<p><!-- /wp:list-item -->
+</ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ουφ, εντάξει, κουραστήκαμε, αλλά αποδείξαμε ένα σημαντικό αποτέλεσμα - εντάξει, η σημασία του μπορεί να βρίσκεται στο παρασκήνιο, αλλά παραμένει σημαντικό, τουλάχιστον στο μυαλό μας.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Κι ένα παράδειγμα...</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Υποσχεθήκαμε παραπάνω ότι η πρόταση που μόλις αποδείξαμε μπορεί να μας βοηθήσει όσα αποτελέσματα συνοψίσαμε για τις πολλαπλότητες των ριζών και τον τρόπο που τέμνει η γραφική παράσταση μίας συνάρτησης τον άξονα $latex x'x.$ Ας δούμε τη γραφική παράσταση που φαίνεται στο παρακάτω σχήμα:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11363,"width":760,"height":761,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large is-resized"><img src="{{site.baseurl}}/assets/2022/11/polynomial01.png?w=1022" alt="" class="wp-image-11363" width="760" height="761"><br />
+<figcaption class="wp-element-caption">Ωραία γραφική παράσταση, έτσι δεν είναι;</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Η παραπάνω γραφική παράσταση, αν δεν το έχετε ήδη καταλάβει, είναι η γραφική παράσταση της πολυωνυμικής συνάρτησης:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex p(x)=0.05x^6-0.35x^5+0.5x^4+0.9x^3+1.35x^2-1.35x.$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Τώρα, το παραπάνω μπορεί να μη φαίνεται ιδιαίτερα χρήσιμο, αλλά αν το παραγοντοποιήσουμε, μπορούμε να καταλάβουμε πολλά για όσα συζητήσαμε παραπάνω. Η εν λόγω πολυωνυμική συνάρτηση παραγοντοποιείται ως εξής:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex p(x)=0.05x(x+1)^2(x-3)^3.$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Με τη βοήθεια της παραπάνω παραγοντοποίησης μπορούμε να παρατηρήσουμε ότι η $latex p(x)$ έχει:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<!-- wp:list-item --></p>
+<li>μία απλή ρίζα στο $latex 0,$</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>μία διπλή ρίζα στο $latex -1,$</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>μία τριπλή ρίζα στο $latex 3.$</li>
+<p><!-- /wp:list-item -->
+</ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Με βάση τις προβλέψεις του παραπάνω πίνακα, αναμένουμε η γραφική παράσταση της $latex p$ να:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<!-- wp:list-item --></p>
+<li>τέμνει απλά τον άξονα $latex x'x$ στο $latex (0,0),$</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>εφάπτεται στον άξονα $latex x'x$ στο $latex (-1,0),$</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>τέμνει και κάμπτεται στο σημείο $latex (3,0).$</li>
+<p><!-- /wp:list-item -->
+</ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Αν ρίξουμε μία ματιά στο σχήμα που έχουμε πιο πάνω, παρατηρούμε ότι όλα αυτά ισχύουν. Αν και δε θα δώσουμε αυστηρή απόδειξη των παραπάνω, μπορούμε να δούμε τη βασική ιδέα πίσω από αυτήν. Ας εστιάσουμε για λίγο στο $latex x_0=3.$ Παρατηρούμε ότι, αν:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex q(x)=0.05x(x+1)^2,$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>τότε έχουμε:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex p(x)=q(x)(x-3)^3.$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Τώρα, αν περιοριστούμε σε $latex x\approx3$ μπορούμε να πούμε - επειδή η $latex q$ είναι συνεχής - ότι $latex q(x)\approx q(3)=2.4.$ Συνεπώς, για $latex x\approx3$ μπορούμε να ισχυριστούμε ότι:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex p(x)\approx2.4(x-3)^3.$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Αυτά όλα μπορεί να φαίνονται πολύ χαλαρά, αλλά ένα ακόμα σχήμα θα σας πείσει για την αλήθεια των παραπάνω:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11373,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/polynomial02.png?w=1024" alt="" class="wp-image-11373"><br />
+<figcaption class="wp-element-caption">Ζουμ: το βασικότερο εργαλείο κατανόησης του απειροστικού λογισμού.</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Η κόκκινη καμπύλη δεν είναι άλλη από τη γραφική παράσταση της $latex 2.4(x-3)^3$ που, όπως είχαμε υποσχεθεί, είναι πολύ κοντά στη γραφική παράσταση της $latex p$ όσο παραμένουμε κοντά στο $latex x_0=3.$ Αν, τώρα, αντικαταστήσετε στα παραπάνω επιχειρήματα τα $latex \approx$ με τα κατάλληλα μαθηματικά εργαλεία (spolier alert: όρια) τότε μπορείτε σχετικά εύκολα να ανασκευάσετε μία πειστική απόδειξη για όλα τα παραπάνω.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Ώρα για ζωγραφική...</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Πολλά είπαμε, πολλά αποδείξαμε και «αποδείξαμε», ώρα τώρα να περάσουμε σε αυτό που υποσχεθήκαμε: θα ζωγραφίσουμε. Ας θυμηθούμε το αρχικό μας σχήμα:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11046,"sizeSlug":"full","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-full"><img src="{{site.baseurl}}/assets/2022/11/image.png" alt="Μία γραφική παράσταση" class="wp-image-11046"><br />
+<figcaption class="wp-element-caption">Η αρχική μας συνάρτηση.</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Όπως παρατηρούμε, η εν λόγω συνάρτηση έχει:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<!-- wp:list-item --></p>
+<li>ένα σημείο επαφής, το $latex (-1,0)$ με τον άξονα $latex x'x,$</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>δύο απλά και πεζά σημεία τομής με τον άξονα $latex x'x,$ το $latex (1,0)$ και το $latex (3,0).$</li>
+<p><!-- /wp:list-item -->
+</ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Έτσι, με βάση όλα όσα έχουμε πει παραπάνω, ένα υποψήφιο πολυώνυμο θα μπορούσε να είναι το εξής:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex r(x)=(x-1)(x-3)(x+1)^2.$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Η στιγμή της αλήθειας έφτασε, θα σχεδιάσουμε τη γραφική παράσταση του παραπάνω πολυωνύμου και...</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11380,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/polynomial03.png?w=1022" alt="" class="wp-image-11380"><br />
+<figcaption class="wp-element-caption">Πφφφφφ! Είμαστε κοντά, ωστόσο...</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>...δε θα δούμε αυτό που περιμέναμε. Ωστόσο, χρειαζόμαστε ψυχραιμία, ένα από τα βασικά χαρακτηριστικά κάθε μαθηματικού. Ας βάλουμε λίγο τα σχήματά μας δίπλα-δίπλα, να τα καμαρώσουμε:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11387,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/polynomial05-4.png?w=1024" alt="" class="wp-image-11387"><br />
+<figcaption class="wp-element-caption">Σχεδόν κοντά...</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Τα κόκκινα σημεία στο παραπάνω σχήμα θα αποτελέσουν και τον οδηγό μας. Η ουσιαστική διαφορά που έχουν οι δύο γραφικές παραστάσεις είναι η <em>κλίμακά</em> τους. Με άλλα λόγια, αν καταφέρουμε να «συμπιέσουμε» τη δεξιά γραφική παράσταση κατάλληλα, ίσως καταφέρουμε να πάρουμε ένα αποτέλεσμα που να είναι πιο κοντά στο ζητούμενο αποτέλεσμα. Έτσι, λοιπόν, τα δύο κόκκινα σημεία μάς υποδεικνύουν τον συντελεστή «αναλογίας» ανάμεσα στις δύο γραφικές μας παραστάσεις. Για την ακρίβεια, η μία τέμνει τον κατακόρυφο άξονα στο 0.75 ενώ η άλλη στο 3, συνεπώς, αν θεωρήσουμε το:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex p(x)=\dfrac{0.75}{3}r(x)=0.25(x-1)(x-3)(x+1)^2,$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>παίρνουμε το εξής:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11391,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/polynomial06.png?w=1024" alt="" class="wp-image-11391"><br />
+<figcaption class="wp-element-caption">Εντάξει, πετάει η ομάδα!</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Πολύ ωραία τα καταφέραμε, δημιουργήσαμε ένα έργο τέχνης, δεν είναι απλά μία γραφική παράσταση αυτό. Είναι ένα αραβούργημα, ένα γιαννιώτικο ασημικό, ένα...</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Τέλος πάντων, καλά τα είπαμε ως εδώ, αλλά, εντάξει, ήταν λίγο «σικέ» το σκηνικό, δε συμφωνείτε; Ας πάρουμε άλλη μία συνάρτηση:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11393,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/polynomial07.png?w=1021" alt="" class="wp-image-11393"><br />
+<figcaption class="wp-element-caption">Μία «παραλίγο συμμετρική» γραφική παράσταση.</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Εδώ βλέπουμε δύο ρίζες, μία περίπου στο $latex -0.7$ και μία περίπου στο $latex 0.8.$ Αμφότερες φαίνονται απλές, άρα μπορούμε να πούμε ότι μία καλή εκτίμηση θα ήταν η:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex r(x)=(x+0.7)(x-0.8).$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ας δούμε τι κάναμε:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11396,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/polynomial08.png?w=1024" alt="" class="wp-image-11396"><br />
+<figcaption class="wp-element-caption">Εεεεεε...</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Εντάξει, δεν τα πήγαμε και τόσο καλά, είναι η αλήθεια. Ας πάρουμε, όμως, μία βαθιά ανάσα και ας προσπαθήσουμε να καταλάβουμε τι πήγε λάθος. Αν το καλοσκεφτείτε, η ουσιώδης δομή της γραφικής μας παράστασης δε βρίσκεται κοντά στον άξονα $latex x'x$ αλλά λίγο παραπάνω, όπως φαίνεται και στο παρακάτω σχήμα:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11398,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/polynomial09.png?w=1021" alt="" class="wp-image-11398"><br />
+<figcaption class="wp-element-caption">Είναι σημαντικό σε αυτήν τη ζωή να κοιτάμε ψηλά...</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Πάνω στην κόκκινη ευθεία - δηλαδή, την $latex y=1$ - βλέπουμε ότι έχουμε:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:list --></p>
+<ul>
+<!-- wp:list-item --></p>
+<li>ένα σημείο καμπής, στο $latex (-1.5,1),$</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>ένα σημείο επαφής, στο $latex (1.5,1),$</li>
+<p><!-- /wp:list-item --></p>
+<p><!-- wp:list-item --></p>
+<li>ένα θνητό σημείο τομής στο $latex (2,1).$</li>
+<p><!-- /wp:list-item -->
+</ul>
+<p><!-- /wp:list --></p>
+<p><!-- wp:paragraph --></p>
+<p>Με βάση τα παραπάνω, ένα καλό πολυώνυμο θα μπορούσε να είναι το:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex r(x)=0.15(x+1.5)^3(x-1.5)^2)(x-2)+1.$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Το παραπάνω πολυώνυμο είναι ένα πολυώνυμο που έχει όλες τι ιδιότητες που αναφέραμε παραπάνω, απλά όχι επί του άξονα $latex x'x$ αλλά επί της ευθείας $latex y=1$ που βρίσκεται μία μονάδα πάνω από τον άξονα $latex x'x.$ Το παρακάτω σχήμα υποδεικνύει ότι κάναμε (άλλη μία) σωστή μαντεψιά:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11402,"width":760,"height":416,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large is-resized"><img src="{{site.baseurl}}/assets/2022/11/polynomial11.png?w=1024" alt="" class="wp-image-11402" width="760" height="416"><br />
+<figcaption class="wp-element-caption">Εντάξει, το έχουμε με τη ζωγραφική, το έχουμε!</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Το πού μυριστήκαμε το 0.15 είναι απλό: δοκιμάσαμε κάμποσους συντελεστές και κρατήσαμε τον καταλληλότερο, όπως και παραπάνω. Αλλά, γιατί να σας κουράσουμε με αυτήν την ταλαιπωρία - δεν ταλαιπωρηθήκατε αρκετά ως τώρα, άλλωστε;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Στρίβουμε...</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Κι αν νομίζατε ότι «στρίβοντας» εννοούσαμε ότι θα αποχωρήσουμε, θα διαβάσετε την εφημερίδα σας και θα συνεχίσετε την όχι και τόσο ηλιόλουστη Κυριακή σας, κάνατε ένα πολύ μεγάλο λάθος. Πάρα πολύ μεγάλο λάθος. Δε θα στρίψουμε εμείς, αλλά οι γραφικές μας παραστάσεις. Ας χαζέψουμε λίγο το ακόλουθο σχήμα:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11406,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/polynomial12.png?w=878" alt="" class="wp-image-11406"><br />
+<figcaption class="wp-element-caption">Ωραίο κι αυτό...</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Εντάξει, θα πει κανείς, εδώ είναι σχετικά εύκολα τα πράγματα. Μπορούμε να κάνουμε κάποια τεχνάσματα όπως και παραπάνω. Για την ακρίβεια, σχεδιάζουμε λίγες γραμμές στο παραπάνω σχήμα που θα μας βοηθήσουμε να βρούμε την άκρη στον μίτο της Αριάδνης:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11412,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/polynomial13-1.png?w=1024" alt="" class="wp-image-11412"><br />
+<figcaption class="wp-element-caption">Μετρήσαμε κάποια πράγματα και τώρα θα ζωγραφίσουμε.</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Βρήκαμε έναν ένδιαφέροντα άξονα, που να πιάνει και το σημείο επαφής με τον «υποτιθέμενο» οριζόντιο άξονα $latex y=0.275.$ Τώρα, δεν έχουμε παρά να σχεδιάσουμε τη γραφική παράσταση του πολυωνύμου:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex r(x)=(x+1.63)(x-0.77)^2+0.275.$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Η εν λόγω γραφική παράσταση φαίνεται παρακάτω:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11413,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/polynomial14.png?w=1024" alt="" class="wp-image-11413"><br />
+<figcaption class="wp-element-caption">Σχεδόν εκεί που θέλαμε...</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Εντάξει, θα χρειαστεί να μικρύνουμε λίγο ακόμα τη γραφική μας παράσταση, οπότε, μετά από λίγες δοκιμές καταφέρνουμε το εξής:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11416,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/polynomial15.png?w=1024" alt="" class="wp-image-11416"><br />
+<figcaption class="wp-element-caption">Τόσο κοντάαααα!</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Εξαιρετικό! Για την ιστορία, να πούμε ότι το κόκκινο πολυώνυμο είναι το:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex p(x)=0.3(x+1.63)(x+0.77)^2+0.275.$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ωστόσο, κάποιος κακοπροαίρετος θα έλεγε: «Ναι, αλλά γιατί τώρα δεν ταιριάζουν απόλυτα οι δύο καμπύλες;». Γενικά, όπως φαντάζεστε, το θεώρημα το Weierstrass δε μας εγγυάται ότι η γραφική παράσταση του πολυωνύμου που θα βρούμε θα ταιράζει πλήρως με τη γραφική παράσταση της συνάρτησής μας, ωστόσο, εντάξει, εδώ εμείς έχουμε χρησιμοποιήσει μία <em>πολυωνυμική συνάρτηση</em> για να ζωγραφίσουμε την αρχική μας μαύρη γραφική παράσταση, οπότε θα έπρεπε να είχαμε καταφέρει να την εντοπίσουμε.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Γιατί, λοιπόν, αποτύχαμε;</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ας παρατηρήσουμε λίγο το ακόλουθο σχήμα:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11420,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/polynomial16.png?w=1024" alt="" class="wp-image-11420"><br />
+<figcaption class="wp-element-caption">Μία κάπως ενδιαφέρουσα ευθεία...</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Η ευθεία $latex y=0.3x$ είναι μία ευθεία που φαίνεται να έχει ιδιαίτερο ενδιαφέρον, καθώς φαίνεται η γραφική παράσταση που μας ενδιαφέρει να εφάπτεται σε αυτήν, μάλλον στο $latex x_0=1.$ Επίσης, φαίνεται οι δύο καμπύλες να τέμνονται στο $latex -2,$ επομένως, ίσως έχει ενδιαφέρον να σχεδιάσουμε τη γραφική παράσταση της:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex p(x)=0.3(x-1)^2(x+2)+0.3x.$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Η γραφική της παράσταση φαίνεται παρακάτω:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":11424,"sizeSlug":"large","linkDestination":"none"} --></p>
+<figure class="wp-block-image aligncenter size-large"><img src="{{site.baseurl}}/assets/2022/11/polynomial17.png?w=1024" alt="" class="wp-image-11424"><br />
+<figcaption class="wp-element-caption">Μα καλά, τόση ακρίβεια, πια;</figcaption>
+</figure>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Τώρα καταφέραμε να εντοπίσουμε ακριβώς το πολυώνυμο που είχαμε ζωγραφίσει στην αρχή! Ωστόσο, το βασικότερο που έχουμε να κρατήσουμε από το παραπάνω παράδειγμα είναι αυτό το τέχνασμα με τη «στροφή» μίας γραφικής παράστασης που μπορούμε να την πετύχουμε προσθέτοντας έναν απλό όρο της μορφής $latex \alpha x.$ Προφανώς, αυτό που πετυχαίνουμε δεν είναι μία κανονική στροφή, αλλά ένας μετασχηματισμός που «μοιάζει» με στροφή και που συχνά  χρησιμοποιούμε και αλλού, όπως, π.χ., για να αποδείξουμε το Θεώρημα Μέσης Τιμής μέσω του Θεωρήματος Rolle - βλ. και <a href="https://aftermaths.gr/2021/01/10/%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%bf%cf%85%cf%82/">εδώ</a>, σελ. 66.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:heading --></p>
+<h2>Επίλογος</h2>
+<p><!-- /wp:heading --></p>
+<p><!-- wp:paragraph --></p>
+<p>Με στροφές ή χωρίς, με κατακόρυφες μεταφορές ή χωρίς, με χρώμα ή χωρίς, είδαμε αρκετούς τρόπους με τους οποίους μπορούμε με ένα απλό πολυώνυμο (εντάξει, όχι πάντα τόσο απλό) και λίγη υπομονή, να αποτυπώσουμε αρκετά πειστικά μία γραφική παράσταση που να έχει κάποιες θεμιτές ιδιότητες - μονοτονία, καμπή, ακρότατα κ.λπ. Μπορεί κανείς, αν θέλει, να ψάξει και σε πιο περίπλοκες κλάσεις συναρτήσεων - όπως οι ρητές συναρτήσεις - για να μπορέσει να αποτυπώσει και γραφικές παραστάσεις συναρτήσεων που έχουν, για παράδειγμα, κατακόρυφες ασύμπτωτες. Αλλά, αυτά θα τα συζητήσουμε στο μέλλον.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Ως τότε, καλή συνέχεια!</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Η κεντρική εικόνα είναι ο επίκαιρος πίνακας <em>Οι δρόμοι του Παρισιού, μία βροχερή μέρα</em> του <em><a href="https://en.wikipedia.org/wiki/Gustave_Caillebotte">Gustave Caillebotte</a></em>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Καλό μεσημέρι και καλό διάβασμα!</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:block {"ref":3122} /--></p>
+<p><!-- wp:embed {"url":"https://www.youtube.com/watch?v=uL8ExqKBsPc","type":"video","providerNameSlug":"youtube","responsive":true,"className":"wp-embed-aspect-16-9 wp-has-aspect-ratio"} --></p>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+<div class="wp-block-embed__wrapper">
+https://www.youtube.com/watch?v=uL8ExqKBsPc
+</div>
+</figure>
+<p><!-- /wp:embed --><br />
+</body></html></p>
