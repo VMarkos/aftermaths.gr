@@ -1,0 +1,118 @@
+/* Basic Reset and Body Styling */
+body {
+    font-family: 'Roboto Mono', monospace; /* A monospace font looks great for a math blog */
+    background-color: #f4f7f6; /* Light, subtle background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+/* Container for all content */
+.container {
+    max-width: 800px;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+/* Header Styling */
+header h1 {
+    font-size: 3em;
+    color: #007bff; /* A nice mathematical blue */
+    margin-bottom: 0.1em;
+}
+
+header h2 {
+    font-size: 1.2em;
+    color: #6c757d;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+/* Main Content and Announcement */
+.announcement {
+    font-size: 1.5em;
+    margin: 40px 0;
+    color: #555;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 20px;
+}
+
+/* Countdown Timer Styling */
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.countdown div {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    min-width: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.countdown span {
+    display: block;
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1;
+}
+
+/* Subscription Form Styling */
+.subscribe h3 {
+    color: #007bff;
+}
+
+.subscribe input[type="email"] {
+    padding: 12px;
+    width: 60%;
+    max-width: 300px;
+    border: 2px solid #ced4da;
+    border-radius: 6px 0 0 6px; /* Rounded only on the left */
+    outline: none;
+    font-size: 1em;
+}
+
+.subscribe button {
+    padding: 12px 20px;
+    background-color: #28a745; /* A bright, action-oriented green */
+    color: white;
+    border: none;
+    border-radius: 0 6px 6px 0; /* Rounded only on the right */
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+    margin-left: -5px; /* Pull the button over the input border */
+}
+
+.subscribe button:hover {
+    background-color: #218838;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e9ecef;
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+.social-links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
