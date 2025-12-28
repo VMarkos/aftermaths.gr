@@ -1,0 +1,2775 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις; -- aftermaths.gr},
+  pdflang={el-GR},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{greek}
+\babelprovide[import]{greek}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\ifPDFTeX
+  \TeXXeTstate=1
+  \newcommand{\RL}[1]{\beginR #1\endR}
+  \newcommand{\LR}[1]{\beginL #1\endL}
+  \newenvironment{RTL}{\beginR}{\endR}
+  \newenvironment{LTR}{\beginL}{\endL}
+\fi
+
+\title{Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις; -- aftermaths.gr}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\hypertarget{page}{}
+\hypertarget{masthead}{}
+\href{https://aftermathsgr.wordpress.com/}{\includegraphics[width=5.20833in,height=5.20833in]{https://aftermathsgr.wordpress.com/wp-content/uploads/2021/09/aftermaths_logo_transparent.png}}
+
+\hypertarget{aftermaths.gr}{%
+\section{\texorpdfstring{\href{https://aftermathsgr.wordpress.com/}{aftermaths.gr}}{aftermaths.gr}}\label{aftermaths.gr}}
+
+\hypertarget{ux3adux3bdux3b1-blog-ux3bcux3b1ux3b8ux3b7ux3bcux3b1ux3c4ux3b9ux3baux3ceux3bd-ux3baux3b1ux3b9-ux3ccux3c7ux3b9-ux3bcux3ccux3bdux3bf}{%
+\subsection{Ένα blog μαθηματικών και όχι
+μόνο\ldots{}}\label{ux3adux3bdux3b1-blog-ux3bcux3b1ux3b8ux3b7ux3bcux3b1ux3c4ux3b9ux3baux3ceux3bd-ux3baux3b1ux3b9-ux3ccux3c7ux3b9-ux3bcux3ccux3bdux3bf}}
+
+{Μενού} \protect\hyperlink{content}{Μετάβαση στο περιεχόμενο}
+
+\begin{itemize}
+\tightlist
+\item
+  \protect\hypertarget{menu-item-6}{}{\href{/}{Αρχική}}
+\item
+  \protect\hypertarget{menu-item-7}{}{\href{https://aftermathsgr.wordpress.com/contact/}{Επικοινωνία}}
+\item
+  \protect\hypertarget{menu-item-62}{}{\href{https://aftermathsgr.wordpress.com/\%ce\%b4\%ce\%b9\%ce\%b4\%ce\%b1\%ce\%ba\%cf\%84\%ce\%b9\%ce\%ba\%cf\%8c-\%cf\%85\%ce\%bb\%ce\%b9\%ce\%ba\%cf\%8c/}{Διδακτικό
+  Υλικό}}
+\item
+  \protect\hypertarget{menu-item-2323}{}{\href{https://aftermathsgr.wordpress.com/\%ce\%ba\%ce\%b1\%ce\%bb\%ce\%ad\%cf\%82-\%cf\%80\%cf\%81\%ce\%ac\%ce\%be\%ce\%b5\%ce\%b9\%cf\%82/}{Καλές
+  πράξεις}}
+\item
+  \protect\hypertarget{menu-item-195}{}{\href{https://aftermathsgr.wordpress.com/after-what/}{After-what?}}
+\item
+  \protect\hypertarget{menu-item-5656}{}{\href{https://aftermathsgr.wordpress.com/\%cf\%80\%ce\%b1\%ce\%bd\%ce\%b5\%ce\%bb\%ce\%bb\%ce\%ae\%ce\%bd\%ce\%b9\%ce\%b5\%cf\%82/}{Πανελλήνιες}}
+\item
+  \protect\hypertarget{menu-item-7714}{}{\href{https://aftermathsgr.wordpress.com/\%ce\%ad\%ce\%bd\%ce\%b1-\%cf\%83\%cf\%87\%ce\%ae\%ce\%bc\%ce\%b1-\%cf\%84\%ce\%b7\%ce\%bd-\%ce\%b7\%ce\%bc\%ce\%ad\%cf\%81\%ce\%b1/}{Tikz}}
+\item
+  \protect\hypertarget{menu-item-12804}{}{\href{https://tools.aftermaths.gr}{Εργαλεία}}
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  \protect\hypertarget{menu-item-3259}{}{\href{https://www.facebook.com/aftermaths.gr/}{{facebook}}}
+\item
+  \protect\hypertarget{menu-item-3113}{}{\href{https://www.instagram.com/aftermathsgr/}{{instagram}}}
+\item
+  \protect\hypertarget{menu-item-13056}{}{\href{https://www.threads.net/@aftermathsgr}{{threads}}}
+\item
+  \protect\hypertarget{menu-item-3041}{}{\href{https://www.slideshare.net/ssuserbf550d}{{SlideShare}}}
+\end{itemize}
+
+\hypertarget{content}{}
+\hypertarget{primary}{}
+\hypertarget{main}{}
+{\href{https://aftermathsgr.wordpress.com/2024/08/04/\%cf\%84\%ce\%b1-\%ce\%bf\%ce\%bb\%cf\%85\%ce\%bc\%cf\%80\%ce\%b9\%ce\%b1\%ce\%ba\%ce\%ac-\%cf\%85\%ce\%b4\%cf\%81\%ce\%bf\%ce\%b8\%ce\%b5\%cf\%81\%ce\%bc\%ce\%b9\%ce\%ba\%ce\%ad\%cf\%82-\%cf\%83\%cf\%85\%ce\%bd\%ce\%b1\%cf\%81\%cf\%84\%ce\%ae\%cf\%83\%ce\%b5/}{4
+Αυγούστου 2024}}{
+{\href{https://aftermathsgr.wordpress.com/author/aftermathsgr/}{Aftermaths}}}
+
+{\href{https://aftermathsgr.wordpress.com/wp-admin/post.php?post=13786\&action=edit}{Αλλαγή}}
+
+\hypertarget{ux3c4ux3b1-ux3bfux3bbux3c5ux3bcux3c0ux3b9ux3b1ux3baux3ac-ux3c5ux3b4ux3c1ux3bfux3b8ux3b5ux3c1ux3bcux3b9ux3baux3adux3c2-ux3c3ux3c5ux3bdux3b1ux3c1ux3c4ux3aeux3c3ux3b5ux3b9ux3c2}{%
+\section{Τα Ολυμπιακά: Υδροθερμικές
+Συναρτήσεις;}\label{ux3c4ux3b1-ux3bfux3bbux3c5ux3bcux3c0ux3b9ux3b1ux3baux3ac-ux3c5ux3b4ux3c1ux3bfux3b8ux3b5ux3c1ux3bcux3b9ux3baux3adux3c2-ux3c3ux3c5ux3bdux3b1ux3c1ux3c4ux3aeux3c3ux3b5ux3b9ux3c2}}
+
+Καλοκαιράκι, Ολυμπιακοί Αγώνες, όλα τα μάτια καρφωμένα στους δέκτες μας
+για λίγο ευ αγωνίζεσθαι, λίγο αθλητισμό και λίγο θέαμα. Λίγο απ' όλα,
+που λέμε. Ωστόσο, λίγο νωρίτερα μέσα στο ίδιο καλοκαιράκι είχαμε άλλη
+μία Ολυμπιάδα, στο Μπαθ (αυτό το Bath, που λέμε) του Ηνωμένου Βασιλείου
+(μην το μπερδέψετε με το «μπαθ» του σπιτιού ή της γειτονιάς). Την
+\href{https://www.imo2024.uk/}{65 Διεθνή Μαθηματική Ολυμπιάδα}, που,
+όπως κάθε χρόνο, μαθητές από όλο τον κόσμο διαγωνίζονται σε ενδιαφέροντα
+προβλήματα από τον κόσμο των μαθηματικών.
+
+Ανάμεσα στα διάφορα προβλήματα που είδαμε φέτος, ένα κομψό και κάπως
+ζόρικο θέμα είναι και το 6ο θέμα (το τελευταίο, τρίτο θέμα της δεύτερης
+ημέρας) του διαγωνισμού. Ας δούμε την εκφώνησή του:
+
+\begin{quote}
+Έστω
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+το σύνολο των ρητών αριθμών. Μία συνάρτηση
+\includegraphics{https://s0.wp.com/latex.php?latex=f+\%3A+\%5Cmathbb\%7BQ\%7D+\%5Cto+\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+λέγεται \emph{υδροθερμική}, αν ικανοποιείται η ακόλουθη ιδιότητα: για
+κάθε
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%2C+y+\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ισχύει τουλάχιστον μία από τις ισότητες:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%29\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%28x\%29\%2By\%29\%3Dx\%2Bf\%28y\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Να αποδείξετε ότι υπάρχει ακέραιος
+\includegraphics{https://s0.wp.com/latex.php?latex=c\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τέτοιος, ώστε για κάθε υδροθερμική συνάρτηση
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+να υπάρχουν το πολύ
+\includegraphics{https://s0.wp.com/latex.php?latex=c\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+διαφορετικοί ρητοί αριθμοί που γράφονται στη μορφή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28r\%29\%2Bf\%28-r\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+για κάποιο ρητό αριθμό
+\includegraphics{https://s0.wp.com/latex.php?latex=r\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+και να προσδιορίσετε την ελάχιστη δυνατή τιμή του
+\includegraphics{https://s0.wp.com/latex.php?latex=c\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\end{quote}
+
+Ωραίο, ε; Υδροθερμική συνάρτηση, πού τους ήρθε το όνομα, θα πείτε; Αλλά,
+ας μην ασχοληθούμε τώρα με την ονοματολογία, ας δούμε αν μπορούμε,
+αρχικά, να βγάλουμε άκρη με την ίδια την άσκηση.
+
+\emph{Όλα τα θέματα του διαγωνισμού, καθώς και διάφορα στατιστικά
+μπορείτε να βρείτε
+\href{https://www.imo-official.org/year_info.aspx?year=2024}{εδώ}.}
+
+\hypertarget{ux3bbux3afux3b3ux3b5ux3c2-ux3c3ux3baux3ccux3c1ux3c0ux3b9ux3b5ux3c2-ux3c3ux3baux3adux3c8ux3b5ux3b9ux3c2}{%
+\subsection{Λίγες Σκόρπιες
+Σκέψεις}\label{ux3bbux3afux3b3ux3b5ux3c2-ux3c3ux3baux3ccux3c1ux3c0ux3b9ux3b5ux3c2-ux3c3ux3baux3adux3c8ux3b5ux3b9ux3c2}}
+
+Λοιπόν, το επίκεντρο της προσοχής σε αυτό το θέμα, όπως θα φαντάζεστε,
+είναι η συναρτησιακή σχέση που μας δίνει, η οποία, ωστόσο, δεν είναι και
+πολύ βολική, καθώς έχει αυτό το «ή». Αλλά, τι να κάνουμε, θα δουλέψουμε
+με αυτό για αρχή και, αν μας σπάσει αρκετά τα νεύρα, θα δούμε τι
+εναλλακτικές έχουμε.
+
+Ωραία, πώς ξεκινάμε να δουλεύουμε;
+
+{[}Σκέψη{]}
+
+Αρχικά, ας δοκιμάσουμε να δούμε μήπως κάποια γνωστή μας συνάρτηση
+ικανοποιεί την παραπάνω σχέση, για να πάρουμε μια ιδέα για το πώς μπορεί
+να μοιάζει μία τέτοια, υδροθερμική, συνάρτηση. Πρώτη μας δοκιμή θα είναι
+κάτι απελπιστικά απλό, η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Σε αυτή την περίπτωση, η δοσμένη σχέση στην πρώτη περίπτωση γίνεται:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2B0\%29\%3D0\%2By\%5CRightarrow+f\%28x\%29\%3Dy\%5CRightarrow+0\%3Dy\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+το οποίο, σαφώς, δε γίνεται να ισχύει για κάθε
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Αντίστοιχα, το δεύτερο σκέλος της δίνει:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%280\%2By\%29\%3Dx\%2B0\%5CRightarrow+f\%28y\%29\%3Dx\%5CRightarrow+0\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+το οποίο και πάλι δε γίνεται να ισχύει για κάθε
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Με λίγα λόγια, η μηδενική συνάρτηση σίγουρα δεν είναι υδροθερμική.
+Αντίστοιχα, δεν μπορεί καμία σταθερή συνάρτηση να ικανοποιεί την
+παραπάνω σχέση, επομένως, ας πάμε σε μία λίγο πιο «ζωντανή» συνάρτηση,
+την
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Σε αυτή την περίπτωση, από την πρώτη περίπτωση έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%29\%2By\%5CLeftrightarrow+f\%28x\%2By\%29\%3Dx\%2By\%5CLeftrightarrow+x\%2By\%3Dx\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+που είναι κάτι που ισχύει. Τυπικά, δε χρειάζεται να κοιτάξουμε και το
+δεύτερο σκέλος του «ή», καθώς αποδείξαμε ότι σε κάθε περίπτωση το πρώτο
+ισχύει για κάθε
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%2Cy\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Αλλά, για λόγους πληρότητας, ορίστε και τι συμβαίνει στο δεύτερο σκέλος:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%28x\%29\%2By\%29\%3Dx\%2Bf\%28y\%29\%5CLeftrightarrow+f\%28x\%2By\%29\%3Dx\%2By\%5CLeftrightarrow+x\%2By\%3Dx\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+που, και πάλι, ισχύει. Ωραία, τρώγοντας έρχεται η όρεξη, οπότε γιατί να
+μη δοκιμάσουμε, γενικά, συναρτήσεις της μορφής
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3Dax\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002};
+Ας τις δοκιμάσουμε! Στην πρώτη περίπτωση έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cbegin\%7Baligned\%7D\%26\%5Chphantom\%7B\%7B\%7D\%5CLeftrightarrow\%7B\%7D\%7Df\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%29\%2By\%5C\%5C\%26\%5CLeftrightarrow+f\%28x\%2Bay\%29\%3Dax\%2By\%5C\%5C\%26\%5CLeftrightarrow+a\%28x\%2Bay\%29\%3Dax\%2By\%5C\%5C\%26\%5CLeftrightarrow+ax\%2Ba\%5E2y\%3Dax\%2By\%5C\%5C\%26\%5CLeftrightarrow+a\%5E2y\%3Dy\%5Cend\%7Baligned\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Για να είναι ίσα τα δύο μέλη στο τέλος πρέπει, προφανώς, να έχουν τους
+ίδιους συντελεστές, δηλαδή:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=a\%5E2\%3D1\%5CLeftrightarrow+a\%3D\%5Cpm1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Και με το δεύτερο μέλος αν παίξετε, θα πάρετε κάτι ανάλογο, συνεπώς, οι
+μόνες συναρτήσεις της μορφής
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3Dax\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+που είναι υδροθερμικές είναι οι
+\includegraphics{https://s0.wp.com/latex.php?latex=f_1\%28x\%29\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και
+\includegraphics{https://s0.wp.com/latex.php?latex=f_2\%28x\%29\%3D-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Για να μην ξεχνιόμαστε, οι γραφικές τους παραστάσεις είναι αυτές που
+φαίνονται παρακάτω:
+
+\begin{figure}
+\centering
+\includegraphics[width=10.57292in,height=9.84375in]{https://aftermaths.gr/wp-content/uploads/2024/07/x_mx_01-1.png?w=1015}
+\caption{Οι γραφικές παραστάσεις δύο υδροθερμικών συναρτήσεων. Οι
+γραφικές παραστάσεις είναι «κουκκιδωτές» για να μην ξεχνάμε ότι το πεδίο
+ορισμού τους δεν είναι οι πραγματικοί αριθμοί αλλά μόνο οι
+\textbf{ρητοί.}}
+\end{figure}
+
+Ωραία, εντάξει, δεν είναι, θα πει κανείς, ιδιαίτερα περίπλοκες, από τη
+μία, αλλά είναι δύο συναρτήσεις που μπορεί να μας βοηθήσουν λίγο να
+κατευθύνουμε τη σκέψη μας. Για παράδειγμα, γνωρίζοντας ότι αυτές οι δύο
+συναρτήσεις αποτελούν παραδείγματα υδροθερμικών συναρτήσεων,
+αντιλαμβανόμαστε αμέσως ότι μάλλον η δοσμένη σχέση δε μας λέει κάτι για
+το είδος της μονοτονίας μίας υδροθερμικής συνάρτησης, καθώς η μεν
+\includegraphics{https://s0.wp.com/latex.php?latex=f_1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι γνησίως αύξουσα, η δε
+\includegraphics{https://s0.wp.com/latex.php?latex=f_2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι γνησίως φθίνουσα. Επομένως, δε θα είναι το πρώτο πράγμα που θα μας
+απασχολήσει η μονοτονία μίας υδροθερμικής συνάρτησης. Γενικότερα, αν μία
+ιδιότητα δεν τη μοιράζονται τόσο η
+\includegraphics{https://s0.wp.com/latex.php?latex=f_1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+όσο και η
+\includegraphics{https://s0.wp.com/latex.php?latex=f_2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+δε θα έχει νόημα να την αναζητήσουμε σε όλες τις υδροθερμικές
+συναρτήσεις, καθώς δεν γίνεται να προκύψει με κάποιο τρόπο από τα
+δεδομένα μας. Με ανάλογο σκεπτικό, ιδιότητες που μοιράζονται οι δύο
+αυτές συναρτήσεις θα είχε ίσως νόημα να εξετάσουμε αν ικανοποιούνται από
+κάθε υδροθερμική συνάρτηση. Αυτό, σε αντίθεση με το προηγούμενο, δεν
+είναι ένα καθαρό και απόλυτο επιχείρημα, υπό την έννοια ότι μπορεί,
+π.χ., να έτυχε τόσο η
+\includegraphics{https://s0.wp.com/latex.php?latex=f_1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+όσο και η
+\includegraphics{https://s0.wp.com/latex.php?latex=f_2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+να περνούν από την αρχή των αξόνων, αλλά, σε κάθε περίπτωση, από κάπου
+πρέπει κι εμείς να αντλήσουμε έμπνευση, σωστά;
+
+Και, αφού το έφερε η κουβέντα, τι μπορούμε να πούμε για το
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%280\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+για μία υδροθερμική συνάρτηση; Αν πάρουμε
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%3Dy\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε έχουμε, στην πρώτη περίπτωση:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%280\%2Bf\%280\%29\%29\%3Df\%280\%29\%2B0\%5CRightarrow+f\%28f\%280\%29\%29\%3Df\%280\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Αντίστοιχα, στη δεύτερη περίπτωση έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%280\%29\%2B0\%29\%3D0\%2Bf\%280\%29\%5CRightarrow+f\%28f\%280\%29\%29\%3Df\%280\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Σε κάθε περίπτωση, λοιπόν, για μία υδροθερμική συνάρτηση ισχύει ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%280\%29\%29\%3Df\%280\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+ή, με άλλα λόγια, το
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%280\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι ένα σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Αν δεν το θυμάστε, σταθερό σημείο μίας συνάρτησης
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+χαρακτηρίζουμε κάθε σημείο τομής της γραφικής της παράσταση με τη
+διχοτόμο
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+δηλαδή τα
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cin+D_f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+για τα οποία ισχύει ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Ο όρος \emph{σταθερό σημείο} είναι, μάλιστα, αρκετά περιγραφικός, αφού,
+πρακτικά, η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+αφήνει αναλλοίωτο ένα σταθερό της σημείο καθώς δεν «δρα» πάνω του.
+
+Ωραία, επομένως, δε βρήκαμε ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%280\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+όπως ίσως μας «ωθούσαν» οι
+\includegraphics{https://s0.wp.com/latex.php?latex=f_1\%2Cf_2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+να πιστέψουμε, ωστόσο βρήκαμε κάτι εξίσου καλό: όποιο κι αν είναι το
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%280\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+γνωρίζουμε ότι είναι ένας αριθμός τον οποίο κάθε υδροθερμική συνάρτηση
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+δεν επηρεάζει.
+
+Αλλά, για ποιον σκοπό τα λέμε όλα αυτά;
+
+\hypertarget{ux3baux3bfux3b9ux3c4ux3acux3b6ux3bfux3bdux3c4ux3b1ux3c2-ux3c4ux3bfux3bd-ux3c3ux3c4ux3ccux3c7ux3bf}{%
+\subsection{Κοιτάζοντας τον
+Στόχο}\label{ux3baux3bfux3b9ux3c4ux3acux3b6ux3bfux3bdux3c4ux3b1ux3c2-ux3c4ux3bfux3bd-ux3c3ux3c4ux3ccux3c7ux3bf}}
+
+Τόση ώρα κάναμε κάποιες σκόρπιες σκέψεις, με κύριο στόχο να ζεσταθούμε
+λίγο και να εξοικειωθούμε με τη δομή της δοσμένης υπόθεσης που είναι
+λίγο\ldots{} «κάπως». Αλλά, πρακτικά, τίποτα από όλα όσα έχουμε βρει ως
+τώρα δεν ξέρουμε αν είναι χρήσιμο στην πορεία μας προς τον στόχο.
+Βασικά, ποιος είναι ο στόχος, για να έχουμε καλό ερώτημα;
+
+Ας ρίξουμε μία ματιά ξανά στην εκφώνηση:
+
+\begin{quote}
+{[}\ldots{]} Να αποδείξετε ότι \textbf{υπάρχει ακέραιος}
+\includegraphics{https://s0.wp.com/latex.php?latex=c\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τέτοιος, ώστε \textbf{για κάθε υδροθερμική συνάρτηση}
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+να \textbf{υπάρχουν το πολύ}
+\includegraphics{https://s0.wp.com/latex.php?latex=c\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+διαφορετικοί ρητοί αριθμοί που γράφονται στη μορφή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28r\%29\%2Bf\%28-r\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+\textbf{για κάποιο ρητό} αριθμό
+\includegraphics{https://s0.wp.com/latex.php?latex=r\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+και να προσδιορίσετε την ελάχιστη δυνατή τιμή του
+\includegraphics{https://s0.wp.com/latex.php?latex=c\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\end{quote}
+
+Πωπωπω! Καλά, εδώ μιλάμε για πολλούς ποσοδείκτες. Αρχικά, το βασικό
+ζητούμενο είναι να δείξουμε ότι υπάρχει ένας ακέραιος, αυτός που
+ονομάζει
+\includegraphics{https://s0.wp.com/latex.php?latex=c\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+η εκφώνηση. Τώρα, στη συνέχεια, αυτός ο ακέραιος πρέπει να έχει κάποιες
+ιδιότητες. Για την ακρίβεια, πρέπει, αν διαλέξουμε μία
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+που να είναι υδροθερμική, να μην υπάρχουν περισσότεροι από
+\includegraphics{https://s0.wp.com/latex.php?latex=c\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ρητοί που να γράφονται στη μορφή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28r\%29\%2Bf\%28-r\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Αυτό, πρακτικά, σημαίνει ότι αν πάρουμε τη συνάρτηση
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%3A\%5Cmathbb\%7BQ\%7D\%5Cto\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+που ορίζεται ως:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28x\%29\%3Df\%28x\%29\%2Bf\%28-x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+τότε αυτή θέλουμε να παίρνει το πολύ
+\includegraphics{https://s0.wp.com/latex.php?latex=c\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+διαφορετικές τιμές. Για παράδειγμα, αν το σύνολο τιμών της
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+για μία δεδομένη
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι το:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cdisplaystyle+g\%28\%5Cmathbb\%7BQ\%7D\%29\%3D\%5Cleft\%5C\%7B-2\%2C-\%5Cfrac\%7B3\%7D\%7B2\%7D\%2C1\%2C3\%2C\%5Cfrac\%7B11\%7D\%7B3\%7D\%5Cright\%5C\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+τότε αυτό που γνωρίζουμε είναι ότι για κάθε ρητό
+\includegraphics{https://s0.wp.com/latex.php?latex=r\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+η παράσταση
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28r\%29\%2Bf\%28-r\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+μπορεί να πάρει μία από αυτές τις πέντε τιμές και καμία άλλη. Και,
+μάλιστα, κάτι τέτοιο θέλουμε να δείξουμε ανεξάρτητα από το ποια είναι η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Δηλαδή, για μία οποιαδήποτε υδροθερμική συνάρτηση
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+η αντίστοιχη
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+δεν μπορεί παρά να παίρνει το πολύ πέντε (ας πούμε, αν
+\includegraphics{https://s0.wp.com/latex.php?latex=c\%3D5\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002})
+διαφορετικές τιμές.
+
+Παράξενο, έτσι; Δηλαδή, τι απαίτηση είναι αυτή και πόσο ισχυρή είναι,
+πια, αυτή η «υδροθερμικότητα» για μία συνάρτηση; Αν θέλουμε να το
+εκφράσουμε με όρους
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+αυτό που μας ζητείται, πρέπει, πρακτικά, για κάθε
+\includegraphics{https://s0.wp.com/latex.php?latex=r\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+να ισχύει ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28-r\%29\%3Dg\%28r\%29-f\%28r\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Δεδομένου ότι το
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28r\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+μπορεί να πάρει μόνο πεπερασμένες στο πλήθος τιμές, αυτό που μας λέει η
+παραπάνω σχέση είναι ότι, για οποιοδήποτε ρητό αριθμό
+\includegraphics{https://s0.wp.com/latex.php?latex=r\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+πρέπει το
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28-r\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+να διαφέρει από το
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28r\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+κατά μία από τις πεπερασμένες στο πλήθος τιμές της
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Αυτό οι δύο υδροθερμικές συναρτήσεις που έχουμε εντοπίσει ως τώρα το
+ικανοποιούν απόλυτα, καθώς:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f_1\%28r\%29\%2Bf_1\%28-r\%29\%3Dr-r\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+ενώ, αντίστοιχα:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f_2\%28r\%29\%2Bf_2\%28-r\%29\%3D-r-\%28-r\%29\%3D-r\%2Br\%3D0.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Συνεπώς, εδώ έχουμε την απλούστερη περίπτωση όπου η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι είτε άρτια είτε περιττή, επομένως η αντίστοιχη
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+παίρνει μία και μόνο τιμή (μηδέν). Επομένως, ίσως έχει ενδιαφέρον να
+εξερευνήσουμε τι συμβαίνει με το
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και το
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28-x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Ας πάμε να βάλουμε
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3D-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+στη δοσμένη σχέση. Για την πρώτη περίπτωση έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28-x\%29\%29\%3Df\%28x\%29-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+ενώ στη δεύτερη περίπτωση έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%28x\%29-x\%29\%3Dx\%2Bf\%28-x\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Ωραία\ldots{} Αυτά, είναι η αλήθεια, δε φαίνονται και πολύ ενδιαφέροντα,
+αλλά, τι να κάνουμε. Γενικότερα, θα θέλαμε να μπορούσαμε κάπως να
+συμπτύξουμε αυτή την υπόθεση από τη μορφή «Α ή Β» στη μορφή «Γ», δηλαδή,
+να εξαφανίσουμε αυτό το καταραμένο «ή», καθώς, ως τώρα, μας κάνει, κατά
+κύριο λόγο, τη ζωή δύσκολη. Σε αυτό το σημείο έχουμε δύο επιλογές (τι
+πιο πρωτότυπο): η πρώτη είναι να αποδείξουμε κάτι της μορφής:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=A\%5Clor+B\%5CLeftrightarrow+C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+όπου με
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Clor\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+σημειώνουμε το «ή». Δηλαδή, να αποδείξουμε ότι η δοσμένη υπόθεση είναι
+ισοδύναμη με μία πιο συμμαζεμένη μορφή, C, η οποία δεν περιλαμβάνει
+κάποιο «ή» μέσα της και μπορεί να μας κάνει τη ζωή λίγο απλούστερη. Η
+άλλη εναλλακτική είναι κάπως ασθενέστερη:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=A\%5Clor+B\%5CRightarrow+C.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Δηλαδή, να αποδείξουμε μία απλή συνεπαγωγή, άρα, από την υπόθεσή μας που
+αποτελεί τον ορισμό της υδροθερμικής συνάρτησης να πάρουμε μία επιμέρους
+ιδιότητα αυτών των συναρτήσεων, τη C, η οποία, αν είναι αρκετά γενική,
+θα μας επιτρέψει κάπως να αποδεικνύουμε γενικά πράγματα για τις
+υδροθερμικές συναρτήσεις με έναν πιο άνετο τρόπο, αποφεύγοντας αυτά τα
+«ή».
+
+Τώρα, τι μπορούμε να κάνουμε για να «στρώσουμε» λίγο τη δοσμένη μας
+σχέση;
+
+{[}Σκέψη{]}
+
+{[}Κι άλλη σκέψη{]}
+
+Λοιπόν, μία ιδέα θα ήταν να πάμε να βάλουμε όπου
+\includegraphics{https://s0.wp.com/latex.php?latex=y\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+το
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+για να εξαφανίσουμε τη μία μεταβλητή και, έτσι, ελπίζουμε να φέρουμε τις
+δύο περιπτώσεις στην ίδια μορφή. Προφανώς, πετώντας μία μεταβλητή,
+είμαστε στη δεύτερη περίπτωση, όπου πάμε να αποδείξουμε ένα γενικό
+συμπέρασμα από τον ορισμό μας που, εν γένει, δεν είναι ισοδύναμο με τον
+ορισμό της «υδροθερμικότητας». Λοιπόν, στην πρώτη περίπτωση έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28x\%29\%29\%3Df\%28x\%29\%2Bx.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Στη δεύτερη περίπτωση έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%28x\%29\%2Bx\%29\%3Dx\%2Bf\%28x\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Δηλαδή, καταλήξαμε σε ένα ενιαίο συμπέρασμα για κάθε
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28x\%29\%29\%3Dx\%2Bf\%28x\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τώρα, τι μας λέει το παραπάνω; Πρακτικά, ότι κάθε αριθμός της μορφής
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%2Bf\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+αποτελεί ένα σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Δηλαδή, αν έχουμε, για παράδειγμα τον αριθμό
+\includegraphics{https://s0.wp.com/latex.php?latex=x_0\%3D1\%2Bf\%281\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε αυτός είναι ένα σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+δηλαδή:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x_0\%29\%3Dx_0.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Μάλιστα, αυτό ισχύει για κάθε
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Έτσι, η παραπάνω σχέση φαίνεται σαν να υπονοεί ότι μία υδροθερμική
+συνάρτηση έχει άπειρα σταθερά σημεία, δηλαδή μοιάζει, κάπως, με την
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+(που είναι μία υδροθερμική συνάρτηση). Είναι όμως έτσι;
+
+Ακόμα δεν μπορούμε να πούμε πολλά, γιατί δεν ξέρουμε και πολλά για την
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Για παράδειγμα, γνωρίζουμε ένα σταθερό σημείο της, το
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%280\%29\%2C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+αφού παραπάνω δείξαμε ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%280\%29\%29\%3Df\%280\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+οπότε το παραπάνω μας λέει ότι και το
+\includegraphics{https://s0.wp.com/latex.php?latex=0\%2Bf\%280\%29\%3Df\%280\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι ένα σταθερό σημείο το οποίο, όμως, δεν είναι κάτι
+καινούργιο\ldots{} Επομένως, μοιάζει σαν να μας έδωσε κάτι η παραπάνω
+σχέση και, αμέσως αμέσως, να μας το πήρε πίσω. Τι άλλο μπορούμε να
+κάνουμε τώρα;
+
+\hypertarget{ux3b1ux3c0ux3ccux3c0ux3b5ux3b9ux3c1ux3b1-002}{%
+\subsection{Απόπειρα
+\#002}\label{ux3b1ux3c0ux3ccux3c0ux3b5ux3b9ux3c1ux3b1-002}}
+
+Λοιπόν, ας ρίξουμε μια ματιά ξανά σε όσα έχουμε αποδείξει ως τώρα:
+
+\begin{itemize}
+\tightlist
+\item
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%280\%29\%29\%3Df\%280\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  Οι
+  \includegraphics{https://s0.wp.com/latex.php?latex=f_1\%28x\%29\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  και
+  \includegraphics{https://s0.wp.com/latex.php?latex=f_2\%28x\%29\%3D-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι υδροθερμικές.
+\item
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28x\%29\%29\%3Dx\%2Bf\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  για κάθε
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\end{itemize}
+
+Ωραία, και τι μπορούμε να συμπεράνουμε με βάση αυτά; Ας αντλήσουμε ξανά
+έμπνευση από τις δύο μοναδικές, προς το παρόν, υδροθερμικές συναρτήσεις
+που έχουμε εντοπίσει. Τι βλέπουμε να έχουν αυτές κοινό; Είναι αμφότερες
+γνησίως μονότονες, αλλά, όπως είπαμε, αυτό μάλλον δε μας κάνει, καθώς
+έχουν διαφορετικό είδος μονοτονίας. Ως γνησίως μονότονες, όμως, είναι
+και «1-1». Μήπως αυτό μπορούμε να το αποδείξουμε γενικά, για κάθε
+υδροθερμική συνάρτηση;
+
+Ας πάρουμε
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%2Cy\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τέτοια ώστε
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3Df\%28y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Τώρα, από την πρώτη περίπτωση της δοσμένης σχέσης γνωρίζουμε ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%29\%2By.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Παραπάνω, ωστόσο, δείξαμε ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28x\%29\%29\%3Dx\%2Bf\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και, στην περίπτωσή μας, όπου
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3Df\%28y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+μπορούμε να γράψουμε το εξής:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%2Bf\%28x\%29\%29\%3Dx\%2Bf\%28x\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Εξισώνοντας τα δύο παραπάνω ευρήματά μας έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%2Bf\%28x\%29\%3Df\%28x\%29\%2By\%5CLeftrightarrow+x\%3Dy.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Πρέπει, βέβαια, να εξετάσουμε και τη δεύτερη περίπτωση:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%28x\%29\%2By\%29\%3Dx\%2Bf\%28y\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Και πάλι, αφού
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3Df\%28y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28x\%29\%29\%3Dx\%2Bf\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%28x\%29\%2By\%29\%3Df\%28f\%28y\%29\%2By\%29\%3Dy\%2Bf\%28y\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Εξισώνοντας τα παραπάνω έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%2Bf\%28y\%29\%3Dx\%2Bf\%28y\%29\%5CLeftrightarrow+y\%3Dx.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τέλεια, άρα, σε κάθε περίπτωση, αν
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3Df\%28y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%3Dy\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+συνεπώς κάθε υδροθερμική συνάρτηση είναι και «1-1»!
+
+Με αυτό στα χέρια μας, ας ρίξουμε άλλη μία ματιά σε αυτά που αποδείξαμε
+ως τώρα, μήπως και κάτι αλλάζει:
+
+\begin{itemize}
+\tightlist
+\item
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%280\%29\%29\%3Df\%280\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  Οι
+  \includegraphics{https://s0.wp.com/latex.php?latex=f_1\%28x\%29\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  και
+  \includegraphics{https://s0.wp.com/latex.php?latex=f_2\%28x\%29\%3D-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι υδροθερμικές.
+\item
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28x\%29\%29\%3Dx\%2Bf\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  για κάθε
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\end{itemize}
+
+Αφού η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι «1-1» μπορούμε χωρίς τύψεις να την εξαφανίζουμε από ισότητες,
+επομένως, το πρώτο μας αποτέλεσμα μπορεί να απλοποιηθεί λίγο:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%280\%29\%29\%3Df\%280\%29\%5CRightarrow+f\%280\%29\%3D0.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Αυτό είναι πολύ ωραίο, αρχικά γιατί επιβεβαιώνει και μία αρχική μας
+υποψία ότι μία υδροθερμική συνάρτηση περνά από την αρχή των αξόνων --
+όπως κάνουν οι δύο υδροθερμικές συναρτήσεις που έχουμε εντοπίσει ως
+τώρα. Επομένως, μία υδροθερμική συνάρτηση είναι «1-1», περνάει από την
+αρχή των αξόνων, αφού
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%280\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και είναι πολύ πιθανό να έχει και πάρα πολλά σταθερά σημεία, καθώς, για
+να μην ξεχνιόμαστε, για κάθε
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28x\%29\%29\%3Dx\%2Bf\%28x\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Αυτό, όπως είπαμε, σημαίνει ότι η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+έχει μάλλον πολλά σταθερά σημεία αν είναι υδροθερμική. Λέμε «μάλλον»
+γιατί, για παράδειγμα, η
+\includegraphics{https://s0.wp.com/latex.php?latex=f_\%28x\%29\%3D-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+που είναι υδροθερμική έχει μονάχα ένα σταθερό σημείο, το
+\includegraphics{https://s0.wp.com/latex.php?latex=x_0\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+που το μοιράζονται όλες τους, όπως έχουμε μόλις δείξει. Ας πούμε, όμως,
+ότι δεν έχουμε την
+\includegraphics{https://s0.wp.com/latex.php?latex=f_2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και έχουμε μία άλλη συνάρτηση, συνεπώς σε κάποιο σημείο θα ισχύει
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x_0\%29\%5Cneq-x_0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+Αυτό, με τη σειρά του, σημαίνει ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=x_0\%2Bf\%28x_0\%29\%5Cneq0.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τώρα, από τα παραπάνω, αν
+\includegraphics{https://s0.wp.com/latex.php?latex=x_1\%3Dx_0\%2Bf\%28x_0\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x_1\%29\%3Df\%28x_0\%2Bf\%28x_0\%29\%29\%3Dx_0\%2Bf\%28x_0\%29\%3Dx_1.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Δηλαδή, και το
+\includegraphics{https://s0.wp.com/latex.php?latex=x_1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι ένα σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Επίσης, από την ίδια σχέση, το
+\includegraphics{https://s0.wp.com/latex.php?latex=x_2\%3Dx_1\%2Bf\%28x_1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+θα είναι κι αυτό ένα σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+αφού:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x_2\%29\%3Df\%28x_1\%2Bf\%28x_1\%29\%29\%3Dx_1\%2Bf\%28x_1\%29\%3Dx_2.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Ανάλογα, το
+\includegraphics{https://s0.wp.com/latex.php?latex=x_3\%3Dx_2\%2Bf\%28x_2\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+θα είναι κι αυτό ένα σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+κ.ο.κ.
+
+Παρατηρήστε τώρα ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=x_2\%3Dx_1\%2Bf\%28x_1\%29\%3Dx_1\%2Bx_1\%3D2x_1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και, αντίστοιχα, ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=x_3\%3Dx_2\%2Bf\%28x_2\%29\%3Dx_2\%2Bx_2\%3D2x_2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+δηλαδή
+\includegraphics{https://s0.wp.com/latex.php?latex=x_3\%3D4x_1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Γενικότερα, μπορούμε σχετικά εύκολα να αποδείξουμε ότι όλα τα ακόλουθα
+σημεία είναι σταθερά σημεία της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=x_1\%2C2x_1\%2C4x_1\%2C8x_1\%2C\%5Cldots\%2C2\%5Enx_1\%2C\%5Cldots\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Δηλαδή, αν μία υδροθερμική συνάρτηση έχει ένα \emph{μη μηδενικό} σταθερό
+σημείο, τότε έχει άπειρα! Κι εδώ κάπου μας ανοίγει ξανά η όρεξη\ldots{}
+Μήπως, αν έχει ένα μη μηδενικό σταθερό σημείο, τότε είναι τα πάντα
+σταθερά σημεία; Δηλαδή, μήπως οι μοναδικές υδροθερμικές συναρτήσεις που
+υπάρχουν είναι οι
+\includegraphics{https://s0.wp.com/latex.php?latex=f_1\%28x\%29\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+(όλα σταθερά σημεία) και η
+\includegraphics{https://s0.wp.com/latex.php?latex=f_2\%28x\%29\%3D-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+(μόνο το μηδέν ως σταθερό σημείο);
+
+\hypertarget{ux3c3ux3c4ux3b1ux3b8ux3b5ux3c1ux3ac-ux3c3ux3b7ux3bcux3b5ux3afux3b1}{%
+\subsection{Σταθερά\ldots{}
+Σημεία}\label{ux3c3ux3c4ux3b1ux3b8ux3b5ux3c1ux3ac-ux3c3ux3b7ux3bcux3b5ux3afux3b1}}
+
+Είδαμε παραπάνω κάτι ωραίο να διαφαίνεται στον ορίζοντα. Μία υδροθερμική
+συνάρτηση που έχει ένα μη μηδενικό σταθερό σημείο έχει, αυτομάτως,
+άπειρα. Για την ακρίβεια, αν
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cneq+0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι ένα σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε και όλα τα πολλαπλάσιά του επί κάποια δύναμη του 2 είναι σταθερά
+της σημεία, δηλαδή οι αριθμοί της μορφής
+\includegraphics{https://s0.wp.com/latex.php?latex=2\%5Enx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+για
+\includegraphics{https://s0.wp.com/latex.php?latex=n\%3D0\%2C1\%2C2\%2C\%5Cldots\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+Μήπως όμως μπορούμε, για αρχή, να δείξουμε ότι και ο
+\includegraphics{https://s0.wp.com/latex.php?latex=3x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι σταθερό της σημείο; Στο κάτω κάτω της γραφής
+\includegraphics{https://s0.wp.com/latex.php?latex=3x\%3D2x\%2Bx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+δηλαδή είναι ένα άθροισμα σταθερών της σημείων.
+
+Έστω, λοιπόν,
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%2Cy\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+δύο σταθερά σημεία μίας υδροθερμικής συνάρτησης
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+οπότε και ισχύουν τα εξής:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3Dx\%2C\%5Cquad+f\%28y\%29\%3Dy.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τι μπορούμε να πούμε για το άθροισμά τους,
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002};
+Είναι σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002};
+Από την γενική μας υπόθεση και, ειδικότερα, την πρώτη της περίπτωση,
+έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%29\%2By\%3Dx\%2By\%2C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+και, σαφώς:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%2By\%29\%2C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+οπότε σε αυτή την περίπτωση φαίνεται να είναι. Από τη δεύτερη περίπτωση
+έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2By\%29\%3Df\%28f\%28x\%29\%2By\%29\%3Dx\%2Bf\%28y\%29\%3Dx\%2By\%2C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+οπότε, ναι, σε κάθε περίπτωση, αν
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%2Cy\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι δύο σταθερά σημεία μίας υδροθερμικής συνάρτησης, τότε σταθερό της
+σημείο θα είναι και το άθροισμά τους. Έτσι, αν
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι ένα σταθερό σημείο μίας υδροθερμικής συνάρτησης
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε με μία μικρή επαγωγή μπορούμε να δείξουμε ότι κάθε πολλαπλάσιο
+\includegraphics{https://s0.wp.com/latex.php?latex=nx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+με
+\includegraphics{https://s0.wp.com/latex.php?latex=n\%3D1\%2C2\%2C\%5Cldots\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι σταθερό της σημείο. Πράγματι:
+
+\begin{itemize}
+\tightlist
+\item
+  Για
+  \includegraphics{https://s0.wp.com/latex.php?latex=n\%3D1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  το έχουμε υποθέσει, αφού το
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι εξ ορισμού σταθερό σημείο της
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  Έστω ότι για κάποιο
+  \includegraphics{https://s0.wp.com/latex.php?latex=n\%3D1\%2C2\%2C\%5Cldots\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  το
+  \includegraphics{https://s0.wp.com/latex.php?latex=nx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι σταθερό σημείο της
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+  δηλαδή
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28nx\%29\%3Dnx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  Τώρα, για το
+  \includegraphics{https://s0.wp.com/latex.php?latex=n\%2B1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  έχουμε:
+\end{itemize}
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28\%28n\%2B1\%29x\%29\%3Df\%28nx\%2Bx\%29\%3Df\%28nx\%29\%2Bf\%28x\%29\%3Dnx\%2Bx\%3D\%28n\%2B1\%29x.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Άρα και το
+\includegraphics{https://s0.wp.com/latex.php?latex=\%28n\%2B1\%29x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και τελειώσαμε. Μάλιστα, επειδή και το μηδέν είναι πάντοτε ένα σταθερό
+σημείο μίας υδροθερμικής συνάρτησης, αν
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι ένα σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε το
+\includegraphics{https://s0.wp.com/latex.php?latex=nx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι επίσης σταθερό της σημείο για
+\includegraphics{https://s0.wp.com/latex.php?latex=n\%3D0\%2C1\%2C2\%2C\%5Cldots\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Εύλογη ερώτηση τώρα αποτελεί τι γίνεται με τους υπόλοιπους ακέραιους,
+δηλαδή τα αρνητικά «πολλαπλάσια» του
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Λοιπόν, αρχικά να παρατηρήσουμε ότι αρκεί να δείξουμε ότι αν το
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι ένα (μη μηδενικό) σταθερό σημείο τότε και το
+\includegraphics{https://s0.wp.com/latex.php?latex=-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι ένα σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Για να το δείξουμε αυτό, θα προσπαθήσουμε, αρχικά, να θέσουμε στην
+αγαπημένη μας υπόθεση όπου
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3D-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και να δούμε τι θα γίνει. Στην πρώτη περίπτωση έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28-x\%29\%29\%3Df\%28x\%29-x\%3Dx-x\%3D0\%2C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+επομένως, αφού
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%280\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28-x\%29\%29\%3Df\%280\%29\%5CRightarrow+x\%2Bf\%28-x\%29\%3D0\%5CRightarrow+f\%28-x\%29\%3D-x.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Άρα σε αυτή την περίπτωση έχουμε αυτό που επιθυμούμε. Στη δεύτερη
+περίπτωση έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%28x\%29-x\%29\%3Dx\%2Bf\%28-x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Για το αριστερό μέλος ας παρατηρήσουμε ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%28x\%29-x\%29\%3Df\%28x-x\%29\%3Df\%280\%29\%3D0\%2C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+οπότε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%2Bf\%28-x\%29\%3D0\%5CRightarrow+f\%28-x\%29\%3D-x.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Σε κάθε περίπτωση, αν
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι ένα σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε το ίδιο είναι και το
+\includegraphics{https://s0.wp.com/latex.php?latex=-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και έτσι έχουμε αποδείξει κάτι αρκετά χρήσιμο -- και, πρωτίστως, ωραίο.
+Αν
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι ένα σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε το
+\includegraphics{https://s0.wp.com/latex.php?latex=nx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι επίσης σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+για κάθε ακέραιο
+\includegraphics{https://s0.wp.com/latex.php?latex=n\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+
+Είμαστε σε πάρα πολύ καλό δρόμο, καθώς κάθε υδροθερμική συνάρτηση που
+έχει τουλάχιστον ένα μη μηδενικό σταθερό σημείο μοιάζει κάπως με την
+\includegraphics{https://s0.wp.com/latex.php?latex=f_1\%28x\%29\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+καθώς έχει άπειρα σταθερά σημεία. Ωστόσο, το επόμενο και αποφασιστικό
+βήμα για να αποδείξουμε ότι κάθε τέτοια υδροθερμική συνάρτηση είναι η
+\includegraphics{https://s0.wp.com/latex.php?latex=f_2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι, αν βέβαια αυτό ισχύει, να αποδείξουμε ότι αν
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι ένα σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε και το
+\includegraphics{https://s0.wp.com/latex.php?latex=qx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι σταθερό της σημείο για κάθε \textbf{ρητό αριθμό}
+\includegraphics{https://s0.wp.com/latex.php?latex=q\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Αλλά, πώς θα δείξουμε κάτι τέτοιο;
+
+Αρχικά, ας προσπαθήσουμε να το δείξουμε για το
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%2F2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και βλέπουμε πώς πάει το πράγμα. Λοιπόν, τι μπορούμε να κάνουμε για να
+εμφανίσουμε κλάσματα στο παιχνίδι; Χμμμ\ldots{} Δειλά-δειλά, ας πάμε να
+βάλουμε όπου
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+το
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cfrac\%7Bx\%7D\%7B2\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+στην ακόλουθη σχέση:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cdisplaystyle+f\%5Cleft\%28\%5Cfrac\%7Bx\%7D\%7B2\%7D\%2Bf\%5Cleft\%28\%5Cfrac\%7Bx\%7D\%7B2\%7D\%5Cright\%29\%5Cright\%29\%3D\%5Cfrac\%7Bx\%7D\%7B2\%7D\%2Bf\%5Cleft\%28\%5Cfrac\%7Bx\%7D\%7B2\%7D\%5Cright\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Εδώ έχουμε ένα διακριτικό θέμα, καθώς δε φαίνεται να μπορούμε να
+συνεχίσουμε κάπως, είναι η αλήθεια. Ας πάμε, επομένως, στην αρχική μας
+σχέση και ας δοκιμάσουμε να θέσουμε
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cfrac\%7Bx\%7D\%7B2\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+στη θέση του
+\includegraphics{https://s0.wp.com/latex.php?latex=y\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και να δούμε τι θα πάρουμε, αρχικά από την πρώτη περίπτωση:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cdisplaystyle+f\%5Cleft\%28x\%2Bf\%5Cleft\%28\%5Cfrac\%7Bx\%7D\%7B2\%7D\%5Cright\%29\%5Cright\%29\%3Df\%28x\%29\%2B\%5Cfrac\%7Bx\%7D\%7B2\%7D.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Αντίστοιχα, στη δεύτερη περίπτωση έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cdisplaystyle+f\%5Cleft\%28f\%28x\%29\%2B\%5Cfrac\%7Bx\%7D\%7B2\%7D\%5Cright\%29\%3Dx\%2Bf\%5Cleft\%28\%5Cfrac\%7Bx\%7D\%7B2\%7D\%5Cright\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τέλεια! Καμία από τις δύο δε φαίνεται να οδηγεί προς αυτό που θέλουμε.
+Επομένως, ας ξεκινήσουμε λίγο από αυτό που θέλουμε μήπως και πάρουμε
+κάποια πιο βολική μορφή:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cdisplaystyle+f\%5Cleft\%28\%5Cfrac\%7Bx\%7D\%7B2\%7D\%5Cright\%29\%3D\%5Cfrac\%7Bx\%7D\%7B2\%7D\%5CLeftrightarrow+f\%5Cleft\%28\%5Cfrac\%7Bx\%7D\%7B2\%7D\%5Cright\%29-\%5Cfrac\%7Bx\%7D\%7B2\%7D\%3D0\%5CLeftrightarrow+f\%5Cleft\%28f\%5Cleft\%28\%5Cfrac\%7Bx\%7D\%7B2\%7D\%5Cright\%29-\%5Cfrac\%7Bx\%7D\%7B2\%7D\%5Cright\%29\%3D0\%28\%3Df\%280\%29\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Χμμμ, άρα ίσως να αξίζει τον κόπο να θέσουμε
+\includegraphics{https://s0.wp.com/latex.php?latex=-\%5Cfrac\%7Bx\%7D\%7B2\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+στη θέση του
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cfrac\%7Bx\%7D\%7B2\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+στη θέση του
+\includegraphics{https://s0.wp.com/latex.php?latex=y\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+οπότε, στην πρώτη περίπτωση έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cdisplaystyle+f\%5Cleft\%28-\%5Cfrac\%7Bx\%7D\%7B2\%7D\%2Bf\%5Cleft\%28\%5Cfrac\%7Bx\%7D\%7B2\%7D\%5Cright\%29\%5Cright\%29\%3Df\%5Cleft\%28-\%5Cfrac\%7Bx\%7D\%7B2\%7D\%5Cright\%29\%2B\%5Cfrac\%7Bx\%7D\%7B2\%7D.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Δύσπιστα περνάμε και στη δεύτερη περίπτωση:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cdisplaystyle++f\%5Cleft\%28f\%5Cleft\%28-\%5Cfrac\%7Bx\%7D\%7B2\%7D\%5Cright\%29\%2B\%5Cfrac\%7Bx\%7D\%7B2\%7D\%5Cright\%29\%3D-\%5Cfrac\%7Bx\%7D\%7B2\%7D\%2Bf\%5Cleft\%28\%5Cfrac\%7Bx\%7D\%7B2\%7D\%5Cright\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Κι αυτή η απόπειρα άκλαυτη πήγε, είναι η αλήθεια. Λοιπόν, ίσως φταίει η
+στιγμή, ίσως φταίει που ασχολούμαστε με αυτό το πράγμα τόσην ώρα, που τα
+μαθηματικά είναι δύσκολα και που η υπόθεση έχει αυτή τη στρυφνή μορφή,
+ίσως φταίνε πάρα πολλά πράγματα, αλλά, μπορεί να συμβαίνει και το εξής:
+να μην ισχύει αυτό που πάμε να αποδείξουμε.
+
+Και τότε, τι;
+
+\hypertarget{ux3b5ux3c0ux3b9ux3c3ux3c4ux3c1ux3bfux3c6ux3ae-ux3c3ux3c4ux3b9ux3c2-ux3c1ux3afux3b6ux3b5ux3c2}{%
+\subsection{Επιστροφή στις
+Ρίζες}\label{ux3b5ux3c0ux3b9ux3c3ux3c4ux3c1ux3bfux3c6ux3ae-ux3c3ux3c4ux3b9ux3c2-ux3c1ux3afux3b6ux3b5ux3c2}}
+
+Λοιπόν, ας συνοψίσουμε άλλη μία φορά τι έχουμε αποδείξει ως τώρα:
+
+\begin{itemize}
+\tightlist
+\item
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%280\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  Οι
+  \includegraphics{https://s0.wp.com/latex.php?latex=f_1\%28x\%29\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  και
+  \includegraphics{https://s0.wp.com/latex.php?latex=f_2\%28x\%29\%3D-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι υδροθερμικές.
+\item
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28x\%29\%29\%3Dx\%2Bf\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  για κάθε
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  Η
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι «1-1».
+\item
+  Αν
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι ένα σταθερό σημείο της
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  τότε για κάθε
+  \includegraphics{https://s0.wp.com/latex.php?latex=n\%5Cin\%5Cmathbb\%7BZ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  ισχύει ότι και το
+  \includegraphics{https://s0.wp.com/latex.php?latex=nx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι σταθερό σημείο της
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\end{itemize}
+
+Σαφώς, στα παραπάνω η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+εννοείται ότι είναι μία υδροθερμική συνάρτηση. Αρχικά, τώρα που τα
+ξαναγράψαμε εδώ φαίνεται να έχουμε αφήσει μία μικρή εκκρεμότητα.
+Αποδείξαμε ότι η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι «1-1», οπότε, σαφώς, η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι αντιστρέψιμη, επομένως υπάρχει η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και, έτσι, εύλογα, προκύπτει το ερώτημα: ποιο είναι το πεδίο ορισμού
+της; Ισοδύναμα, ποιο είναι το σύνολο τιμών της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002};
+
+Λοιπόν, λοιπόν, για να βρούμε το σύνολο τιμών της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+πρέπει να δούμε ποιες είναι οι τιμές που παίρνει η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Με το «μάτι» δε φαίνεται να έχει προκύψει ως τώρα κάποιος περιορισμός.
+Μάλιστα, οι δύο συναρτήσεις που έχουμε ως τώρα για «υπόδειγμα» είναι και
+οι δύο «επί» του
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+δηλαδή έχουν ως σύνολο τιμών το σύνολο όλων των ρητών αριθμών. Επομένως,
+ας πάμε να δοκιμάσουμε να δείξουμε ότι κάθε υδροθερμική
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι «επί». Για αυτόν τον σκοπό θέλουμε να δείξουμε ότι η εξίσωση
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3Dy\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+έχει λύση ως προς
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+για κάθε
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή, με άλλα λόγια, ότι κάθε ρητός
+\includegraphics{https://s0.wp.com/latex.php?latex=y\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+γράφεται στη μορφή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28\%5Ccdots\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+δηλαδή ως
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+του «κάτι».
+
+Ας πάρουμε τη βασική μας υπόθεση και ας αρχίσουμε να παίζουμε. Αρχικά,
+ας αφήσουμε το
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ήσυχο και ας βάλουμε όπου
+\includegraphics{https://s0.wp.com/latex.php?latex=y\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+το
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+μήπως και βρούμε κάτι ενδιαφέρον. Η πρώτη περίπτωση μας δίνει:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28f\%28x\%29\%29\%29\%3Df\%28x\%29\%2Bf\%28x\%29\%3D2f\%28x\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Η δεύτερη περίπτωση μας δίνει:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%28x\%29\%2Bf\%28x\%29\%29\%3Dx\%2Bf\%28f\%28x\%29\%29\%5CLeftrightarrow+f\%282f\%28x\%29\%29\%3Dx\%2Bf\%28f\%28x\%29\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Εντάξει, όχι ακριβώς αυτό που θέλαμε, αλλά, προσέξατε αυτό το
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%2Bf\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+που εμφανίζεται σε διαφορετικά σημεία σε κάθε περίπτωση; Αν ήταν
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29-f\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε τα πράγματα θα ήταν πιο βολικά, σκέψη που μας ωθεί να θέσουμε
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3D-f\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+οπότε και να πάρουμε, στην πρώτη περίπτωση:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28-f\%28x\%29\%29\%29\%3Df\%28x\%29-f\%28x\%29\%3D0.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τώρα, αφού
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%280\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+έπεται ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28-f\%28x\%29\%29\%29\%3Df\%280\%29\%5CLeftrightarrow+x\%2Bf\%28-f\%28x\%29\%29\%3D0.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Στη δεύτερη περίπτωση έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%28x\%29-f\%28x\%29\%29\%3Dx\%2Bf\%28-f\%28x\%29\%29\%5CLeftrightarrow+f\%280\%29\%3Dx\%2Bf\%28-f\%28x\%29\%29\%5CLeftrightarrow+x\%2Bf\%28-f\%28x\%29\%29\%3D0.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τέλεια, συνεπώς, σε κάθε περίπτωση ισχύει:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%2Bf\%28-f\%28x\%29\%29\%3D0\%5CLeftrightarrow+f\%28-f\%28x\%29\%29\%3D-x.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τώρα, αν βάλουμε
+\includegraphics{https://s0.wp.com/latex.php?latex=-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+στη θέση του
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28-f\%28-x\%29\%29\%3Dx.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Συνεπώς, κάθε
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+γράφεται στη μορφή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28\%5Ccdots\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+όπως θέλαμε, άρα κάθε υδροθερμική συνάρτηση είναι πράγματι «επί». Άρα η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ορίζεται για κάθε ρητό αριθμό, κάτι που είναι πολύ όμορφο (;) και
+ευχάριστο! Και, με αυτό κατά νου, ας ρίξουμε μια ματιά σε αυτό που
+αποδείξαμε παραπάνω:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28-f\%28-x\%29\%29\%3Dx.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Εδώ μπορούμε να βάλουμε στη θέση του
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+το
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και να δούμε τι θα πάρουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28x\%29\%3Df\%28-f\%28-f\%5E\%7B-1\%7D\%28x\%29\%29\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Ναι, όχι, εντάξει, αυτό δε φαίνεται κομψό. Ας πάμε στην προηγούμενη
+μορφή να δούμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28-f\%28x\%29\%29\%3D-x\%5CRightarrow+f\%28-f\%28f\%5E\%7B-1\%7D\%28x\%29\%29\%29\%3D-f\%5E\%7B-1\%7D\%28x\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Με λίγο ξεσκόνισμα έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28x\%29\%3D-f\%28-x\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τώρα μάλιστα! Αυτό, εντωμεταξύ, μας λέει και κάτι ενδιαφέρον για τη
+συμμετρία της γραφικής παράστασης της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Αριστερά αυτό που έχουμε είναι η συμμετρική της γραφικής παράστασης της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ως προς την
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Δεξιά έχουμε μία συνάρτηση με γραφική παράσταση που προκύπτει από αυτή
+της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+αν:
+
+\begin{itemize}
+\tightlist
+\item
+  την ανακλάσουμε ως προς τον άξονα
+  \includegraphics{https://s0.wp.com/latex.php?latex=y\%27y\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  (για να πάρουμε την
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28-x\%29\%2C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  και,
+\item
+  αυτό που βρούμε το ανακλάσουμε ως προς τον άξονα
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\%27x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  (για να πάρουμε την
+  \includegraphics{https://s0.wp.com/latex.php?latex=-f\%28-x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\end{itemize}
+
+\emph{-- Μα, καλά, είναι τώρα έκφραση το «θα ανακλάσουμε το Χ»;\\
+-- Ουδέν σχόλιο.\\
+-- «Θα ανακλαστεί ως προς\ldots»; «Θα πάρουμε τη συμμετρική ως
+προς\ldots»; Χάθηκαν τα Ελληνικά;\\
+-- Ουδέν σχόλιο.}
+
+Με άλλα λόγια αν ξεκινήσουμε από τη γραφική παράσταση της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+κάνουμε δύο ανακλάσεις ως προς τους δύο άξονες και μία ως προς τη
+διχοτόμο
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+θα έχουμε ξανά στα χέρια μας τη γραφική παράσταση της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Με ακόμα καλύτερα λόγια, ας θαυμάσουμε λίγο τη σχέση:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28-f\%28x\%29\%29\%3D-x.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τι μας λέει αυτή η σχέση; Θυμηθείτε ότι, πρακτικά, αν πάρουμε ένα σημείο
+\includegraphics{https://s0.wp.com/latex.php?latex=A\%28x\%2Cy\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+επί της γραφικής παράστασης της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε θα ισχύει, σαφώς,
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3Df\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Τώρα, με βάση την παραπάνω σχέση, αυτό σημαίνει ότι θα ισχύει:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28-y\%29\%3D-x.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Δηλαδή, το σημείο
+\includegraphics{https://s0.wp.com/latex.php?latex=\%28-y\%2C-x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+επίσης ανήκει στη γραφική παράσταση της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Ας κάνουμε κι ένα σχήμα για να το δούμε αυτό:
+
+\begin{figure}
+\centering
+\includegraphics[width=10.66667in,height=9.5625in]{https://aftermaths.gr/wp-content/uploads/2024/07/sym_01.png?w=1024}
+\caption{Η συμμετρία της σχέσης
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28-f\%28x\%29\%29\%3D-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.}
+\end{figure}
+
+Τέλεια, επομένως, μπόνους, μαζί με το «επί» μάθαμε και ότι η γραφική
+παράσταση της συνάρτησής μας είναι συμμετρική ως προς τη διχοτόμο
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3D-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ενώ, για την αντίστροφη δείξαμε ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28x\%29\%3D-f\%28-x\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Λοιπόν, με τα νέα μας όπλα ας δούμε αν μπορούμε να συνεχίσουμε τη σκέψη
+μας από εκεί που την εγκαταλείψαμε. Είχαμε προσπαθήσει να αποδείξουμε
+ότι αν
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι ένα σταθερό σημείο μίας υδροθερμικής
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε κάθε ρητό πολλαπλάσιο
+\includegraphics{https://s0.wp.com/latex.php?latex=qx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+θα είναι επίσης σταθερό της σημείο. Το σκεπτικό πίσω από αυτή την
+πρόθεση είναι είναι αν ισχύει αυτό τότε για κάθε
+\includegraphics{https://s0.wp.com/latex.php?latex=r\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+θα ισχύει, αν
+\includegraphics{https://s0.wp.com/latex.php?latex=x_0\%5Cneq+0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι ένα σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cdisplaystyle+f\%28r\%29\%3Df\%5Cleft\%28\%5Cfrac\%7Br\%7D\%7Bx_0\%7Dx_0\%5Cright\%29\%3D\%5Cfrac\%7Br\%7D\%7Bx_0\%7Dx_0\%3Dr\%2C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+συνεπώς, οι μόνος δύο υδροθερμικές συναρτήσεις θα είναι οι
+\includegraphics{https://s0.wp.com/latex.php?latex=f_1\%28x\%29\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και
+\includegraphics{https://s0.wp.com/latex.php?latex=f_2\%28x\%29\%3D-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+άρα θα ισχύει και ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28r\%29\%3Df\%28r\%29\%2Bf\%28-r\%29\%3D\%5Cpm+r\%5Cmp+r\%3D0.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Από το παραπάνω, προφανώς, έπεται και ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=c\%3D1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι η ελάχιστη τιμή του ζητούμενου
+\includegraphics{https://s0.wp.com/latex.php?latex=c\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+
+Ωστόσο, το παραπάνω δεν καταφέραμε να το αποδείξουμε, καθώς καμία
+αντικατάσταση που δοκιμάσαμε δεν έφερε τα αναμενόμενα αποτελέσματα.
+Έτσι, μπήκαν ψύλλοι στα αυτιά μας και σκεφτήκαμε: «μήπως
+\includegraphics{https://s0.wp.com/latex.php?latex=c\%3E1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002};»
+
+Λοιπόν, ας πάμε να δούμε αν υπάρχει περίπτωση να ισχύουν οι υποψίες μας,
+δηλαδή να μπορούμε να κατασκευάσουμε μία υδροθερμική συνάρτηση για την
+οποία η αντίστοιχη
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+να παίρνει (τουλάχιστον) δύο διαφορετικές τιμές. Για να συμβαίνει αυτό,
+προφανώς, η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+θα πρέπει να μην παίρνει μόνο τιμές όπως οι
+\includegraphics{https://s0.wp.com/latex.php?latex=f_1\%2Cf_2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+παραπάνω, καθώς τότε θα έχουμε
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28r\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+σε κάθε περίπτωση. Επομένως, θέλουμε τουλάχιστον ένα
+\includegraphics{https://s0.wp.com/latex.php?latex=x_0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τέτοιο ώστε
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x_0\%29\%5Cneq+\%5Cpm+x_0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Αλλά, έτσι, αφού
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x_0\%29\%5Cneq+-x_0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+θα ισχύει και ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=x_0\%2Bf\%28x_0\%29\%5Cneq+0.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Αυτό, με τη σειρά του, σημαίνει ότι το
+\includegraphics{https://s0.wp.com/latex.php?latex=x_1\%3Dx_0\%2Bf\%28x_0\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+θα είναι ένα μη μηδενικό σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και άρα, όπως έχουμε αποδείξει και παραπάνω, όλα τα σημεία της μορφής
+\includegraphics{https://s0.wp.com/latex.php?latex=nx_1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+για
+\includegraphics{https://s0.wp.com/latex.php?latex=n\%5Cin\%5Cmathbb\%7BZ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+θα είναι επίσης σταθερά σημεία της. Επομένως, μία τέτοια «παράξενη»
+υδροθερμική συνάρτηση θα έχει σίγουρα άπειρα σταθερά σημεία, απλά θα
+πρέπει να έχει και σημεία που η γραφική της παράσταση δεν τέμνει καμία
+από τις δύο διχοτόμους.
+
+Πφφφφ, άντε να βρούμε τώρα τέτοια συνάρτηση, ε; Λοιπόν, όπως είπαμε, θα
+έχουμε άπειρα σταθερά σημεία της μορφής
+\includegraphics{https://s0.wp.com/latex.php?latex=nx_1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+για κάποιο
+\includegraphics{https://s0.wp.com/latex.php?latex=x_1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Ωραία, ας πάρουμε για αρχή
+\includegraphics{https://s0.wp.com/latex.php?latex=x_1\%3D1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και βλέπουμε. Σε αυτή την περίπτωση, για τη συνάρτησή μας θα ισχύει ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28n\%29\%3Dn\%2C\%5Cquad+n\%5Cin\%5Cmathbb\%7BZ\%7D.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Επομένως, η «λειψή» γραφική παράσταση, μόνο για τους ακεραίους, θα
+μοιάζει κάπως έτσι:
+
+\begin{figure}
+\centering
+\includegraphics[width=10.57292in,height=10.61458in]{https://aftermaths.gr/wp-content/uploads/2024/07/plot_01.png?w=1015}
+\caption{Λειψή, αλλά είναι μία ιδέα\ldots{}}
+\end{figure}
+
+Λοιπόν, τώρα πρέπει να δούμε τι θα κάνουμε με τους ρητούς στα διαστήματα
+ανάμεσα από τους ακεραίους. Ας πάρουμε, αρχικά, τα διαστήματα ρητών
+\includegraphics{https://s0.wp.com/latex.php?latex=\%28-1\%2C0\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και
+\includegraphics{https://s0.wp.com/latex.php?latex=\%280\%2C1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Γενικά, επειδή δουλεύουμε μόνο με ρητούς σε αυτό το πρόβλημα, δε θα λέμε
+συνεχώς «διαστήματα ρητών», παρά απλώς διαστήματα, εκτός αν χρειαστεί να
+τονίσουμε ότι μιλάμε για διάστημα πραγματικών αριθμών.
+
+Έχουμε και λέμε, λοιπόν, ας ζουμάρουμε λίγο στο
+\includegraphics{https://s0.wp.com/latex.php?latex=\%28-1\%2C1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+για να δούμε πώς θα μοιάζει εκεί η γραφική παράσταση της συνάρτησής μας:
+
+\begin{figure}
+\centering
+\includegraphics[width=10.57292in,height=10.61458in]{https://aftermaths.gr/wp-content/uploads/2024/07/plot_02-1.png?w=1015}
+\caption{Εντάξει, δεν είναι ευφάνταστη, αλλά είναι μια αρχή.}
+\end{figure}
+
+Λοιπόν, έχουμε να δούμε τι θα κάνουμε με τους ρητούς στο
+\includegraphics{https://s0.wp.com/latex.php?latex=\%280\%2C1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+αρχικά, και βλέπουμε για τους άλλους στο
+\includegraphics{https://s0.wp.com/latex.php?latex=\%28-1\%2C0\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+γιατί, άλλωστε, η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+πρέπει να είναι και κάπως συμμετρική. Οπότε, ας ξεκινήσουμε με τα δεξιά
+και βλέπουμε για τα αριστερά. Πρέπει να βρούμε έναν τρόπο κάπως να
+ανακατέψουμε τους ρητούς στο
+\includegraphics{https://s0.wp.com/latex.php?latex=\%280\%2C1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+καθώς, όπως είπαμε, δε θέλουμε άλλα σταθερά σημεία, πάει, τα
+εξαντλήσαμε. Επίσης, αν δεν έχουμε ένα σταθερό σημείο, ας το πούμε
+\includegraphics{https://s0.wp.com/latex.php?latex=x_0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+με
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x_0\%29\%5Cneq+x_0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+πρέπει, αυτόματα,
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x_0\%2Fn\%29\%5Cneq+x_0\%2Fn\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+καθώς κάποιο «υποπολλαπλάσιο» του
+\includegraphics{https://s0.wp.com/latex.php?latex=x_0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι σταθερό σημείο, θα είναι και το ίδιο το
+\includegraphics{https://s0.wp.com/latex.php?latex=x_0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Επομένως, αρκετοί, αν όχι όλοι, οι ρητοί εκεί μέσα δε θα είναι σταθερά
+σημεία, καθώς, με ένα «μη σταθερό» σημείο έχουμε αυτομάτως άπειρα.
+
+Χμμμ\ldots{}
+
+{[}Σκέψη{]}
+
+{[}Κι άλλη σκέψη{]}
+
+Λοιπόν, ας μην το κουράζουμε, είπαμε ότι δε θέλουμε και πολλά σταθερά
+σημεία, επομένως μπορούμε να κάνουμε κάτι σαν το εξής:
+
+\begin{figure}
+\centering
+\includegraphics[width=10.66667in,height=9.9375in]{https://aftermaths.gr/wp-content/uploads/2024/07/plot_03-1.png?w=1024}
+\caption{Εεεε, δηλαδή;}
+\end{figure}
+
+Είπαμε, δε θέλουμε πολλά σταθερά σημεία, επομένως πήραμε μία συνάρτηση
+που να μην περνάει καθόλου από τη διαγώνιο. Τώρα, εντάξει, περνάει από
+ένα σημείο, το
+\includegraphics{https://s0.wp.com/latex.php?latex=\%281\%2F2\%2C1\%2F2\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+αλλά αυτό δε μας πειράζει και πολύ, καθώς απλά θα πρέπει να προσθέσουμε
+και τους αριθμούς της μορφής
+\includegraphics{https://s0.wp.com/latex.php?latex=n\%2F2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+στα σταθερά μας σημεία. Και πάλι, όλοι οι άλλοι ρητοί στο
+\includegraphics{https://s0.wp.com/latex.php?latex=\%280\%2C1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+δεν είναι σταθερά σημεία. Λόγω τώρα της συμμετρίας ως προς την
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3D-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+η «υπόλοιπη» γραφική παράσταση θα πρέπει να μοιάζει κάπως έτσι:
+
+\begin{figure}
+\centering
+\includegraphics[width=10.66667in,height=9.98958in]{https://aftermaths.gr/wp-content/uploads/2024/07/plot_04.png?w=1024}
+\caption{Χμμμ, είναι άραγε αυτή υδροθερμική;}
+\end{figure}
+
+Τώρα, τη ζωγραφίσαμε μεν, αλλά μήπως θα ήταν καλό να δώσουμε και έναν
+τύπο;
+
+Για το θετικό τμήμα είναι μία απλή ευθεία η
+\includegraphics{https://s0.wp.com/latex.php?latex=1-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+ενώ για το αρνητικό τμήμα είναι, επίσης, μία ευθεία, η
+\includegraphics{https://s0.wp.com/latex.php?latex=-1-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+συνεπώς, αν περιοριστούμε στο
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5B-1\%2C1\%5D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+η συνάρτησή μας έχει τον τύπο:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3D\%5Cbegin\%7Bcases\%7Dx+\%26+x\%5Cin\%5C\%7B-1\%2C0\%2C1\%5C\%7D\%5C\%5C1-x+\%26+x\%5Cin\%280\%2C1\%29\%5C\%5C+-1-x+\%26+x\%5Cin\%28-1\%2C0\%29\%5Cend\%7Bcases\%7D.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τώρα, θα θέλαμε να γενικεύσουμε το παραπάνω παντού, οπότε, σχηματικά, θα
+θέλαμε κάτι σαν αυτό:
+
+\begin{figure}
+\centering
+\includegraphics[width=10.66667in,height=9.98958in]{https://aftermaths.gr/wp-content/uploads/2024/07/plot_05.png?w=1024}
+\caption{Μία υποψήφια υδροθερμική συνάρτηση\ldots{}}
+\end{figure}
+
+Ωραία, τώρα πώς μπορούμε να περιγράψουμε τον τύπο αυτής της συνάρτησης;
+Λοιπόν, η ιδέα, γενικά, είναι ότι σε κάθε διάστημα μεταξύ δύο διαδοχικών
+ακεραίων, ας πούμε στο
+\includegraphics{https://s0.wp.com/latex.php?latex=\%28-3\%2C-2\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+παίρνουμε τους ρητούς εκεί μέσα και τους ανακατεύουμε λίγο, βάζοντάς
+τους σε «ανάποδη» σειρά, πρακτικά. Αυτό, για να το πετύχουμε, μπορούμε
+να παρατηρήσουμε ότι οι ρητοί σε κάθε τέτοιο διαστηματάκι τοποθετούνται,
+ουσιαστικά, πάνω σε μία ευθεία παράλληλη στη διχοτόμο
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3D-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Για την ακρίβεια, στο παραπάνω σχήμα:
+
+\begin{itemize}
+\tightlist
+\item
+  Στο
+  \includegraphics{https://s0.wp.com/latex.php?latex=\%280\%2C1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  οι ρητοί, όπως είδαμε, τοποθετούνται στην ευθεία
+  \includegraphics{https://s0.wp.com/latex.php?latex=y\%3D1-x.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+\item
+  Στο
+  \includegraphics{https://s0.wp.com/latex.php?latex=\%28-1\%2C0\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  οι ρητοί, όπως είδαμε, τοποθετούνται στην ευθεία
+  \includegraphics{https://s0.wp.com/latex.php?latex=y\%3D-1-x.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  Στο
+  \includegraphics{https://s0.wp.com/latex.php?latex=\%281\%2C2\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  οι ρητοί τοποθετούνται στην ευθεία
+  \includegraphics{https://s0.wp.com/latex.php?latex=y\%3D3-x.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+\item
+  Στο
+  \includegraphics{https://s0.wp.com/latex.php?latex=\%282\%2C3\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  οι ρητοί τοποθετούνται στην ευθεία
+  \includegraphics{https://s0.wp.com/latex.php?latex=y\%3D5-x.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+\item
+  Στο
+  \includegraphics{https://s0.wp.com/latex.php?latex=\%283\%2C4\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  οι ρητοί τοποθετούνται στην ευθεία
+  \includegraphics{https://s0.wp.com/latex.php?latex=y\%3D7-x.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+\item
+  Στο
+  \includegraphics{https://s0.wp.com/latex.php?latex=\%28-2\%2C-1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  οι ρητοί τοποθετούνται στην ευθεία
+  \includegraphics{https://s0.wp.com/latex.php?latex=y\%3D-3-x.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+\item
+  Στο
+  \includegraphics{https://s0.wp.com/latex.php?latex=\%28-3\%2C-2\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  οι ρητοί τοποθετούνται στην ευθεία
+  \includegraphics{https://s0.wp.com/latex.php?latex=y\%3D-5-x.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+\item
+  Στο
+  \includegraphics{https://s0.wp.com/latex.php?latex=\%28-4\%2C-3\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  οι ρητοί τοποθετούνται στην ευθεία
+  \includegraphics{https://s0.wp.com/latex.php?latex=y\%3D-7-x.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+\end{itemize}
+
+Γενικά, όπως φαίνεται, αν είμαστε στο διάστημα
+\includegraphics{https://s0.wp.com/latex.php?latex=\%28n\%2Cn\%2B1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+όπου
+\includegraphics{https://s0.wp.com/latex.php?latex=n\%5Cin\%5Cmathbb\%7BZ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε φαίνεται η γραφική παράσταση της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+να αντιστοιχεί στην ευθεία:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3D2n\%2B1-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Ωραία, τώρα, αν αυτό είναι ή όχι βολικό θα το διαπιστώσουμε σύντομα.
+Αρχικά, ας εξετάσουμε το εύκολο, που είναι οι τιμές της
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Αρχικά, σε κάθε σταθερό σημείο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+δηλαδή στους ακεραίους και τα μισά τους -- ας τους λέμε, όλους μαζί,
+ημιακέραιους -- έχουμε
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28r\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Τώρα, για
+\includegraphics{https://s0.wp.com/latex.php?latex=r\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+που δεν είναι σταθερό σημείο, θα υπάρχει
+\includegraphics{https://s0.wp.com/latex.php?latex=n\%5Cin\%5Cmathbb\%7BZ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τέτοιο ώστε
+\includegraphics{https://s0.wp.com/latex.php?latex=r\%5Cin\%28n\%2Cn\%2B1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+οπότε, αντίστοιχα,
+\includegraphics{https://s0.wp.com/latex.php?latex=-r\%5Cin\%28-n-1\%2Cn\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+οπότε θα ισχύει:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cbegin\%7Baligned\%7Df\%28r\%29\%26\%3D2n\%2B1-r\%5C\%5C\%5Cquad+f\%28-r\%29\%26\%3D2\%28-n-1\%29\%2B1-\%28-r\%29\%3D-2n-1\%2Br\%5Cend\%7Baligned\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Συνεπώς, έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28r\%29\%3Df\%28r\%29\%2Bf\%28-r\%29\%3D2n\%2B1-r-2n-1\%2Br\%3D0.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Φτου! Τι πήγαμε και κάναμε, άθελά μας;! Επιτρέψαμε στην
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+να είναι περιττή, επομένως, σαφώς,
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28r\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+άσχετα με το πόσο θα θέλαμε να εμείς να μην είναι. Αλλά, εντάξει, επειδή
+η ιδέα μας είναι καλή (νομίζουμε, τουλάχιστον) μπορούμε να την
+πειράξουμε λίγο. Ας πούμε, για να χαλάσουμε τη συμμετρία ως προς το
+κέντρο της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+μπορούμε να μετατοπίσουμε λίγο τη γραφική της παράσταση, ας πούμε, προς
+τα κάτω, κατά μία μονάδα, τουλάχιστον στους μη ακέραιους, που μας κόφτει
+και περισσότερο. Έτσι, θα πάρουμε τη συνάρτηση:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3D\%5Cbegin\%7Bcases\%7Dx+\%26+x\%5Cin\%5Cmathbb\%7BZ\%7D\%5C\%5C2n-x+\%26+x\%5Cin\%28n\%2Cn\%2B1\%29\%2C\%5C+n\%5Cin\%5Cmathbb\%7BZ\%7D\%5Cend\%7Bcases\%7D.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Πάλι, για τα σταθερά σημεία έχουμε
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28r\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ενώ για ένα μη σταθερό σημείο
+\includegraphics{https://s0.wp.com/latex.php?latex=r\%5Cin\%28n\%2Cn\%2B1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Cbegin\%7Baligned\%7Df\%28r\%29\%26\%3D2n-r\%5C\%5C+f\%28-r\%29\%26\%3D2\%28-n-1\%29-\%28-r\%29\%3D-2n-2\%2Br\%5Cend\%7Baligned\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Ας πάμε με τον απαραίτητο ιερό τρόμο να δούμε τι δίνει η
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+σε αυτή την περίπτωση:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28r\%29\%3Df\%28r\%29\%2Bf\%28-r\%29\%3D2n-r-2n-2\%2Br\%3D-2\%5Cneq0.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Ναι, όλε! Η
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+παίρνει, λοιπόν, δύο τιμές, όχι μία, δύο, άρα τώρα, το μόνο που μένει να
+δείξουμε είναι ότι η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι πράγματι υδροθερμική. Λοιπόν, αν
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%2Cy\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι δύο ρητοί τότε:
+
+\begin{itemize}
+\tightlist
+\item
+  Αν και οι δύο είναι ακέραιοι, σαφώς ισχύουν και οι δύο περιπτώσεις του
+  ορισμού, αφού
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  και
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28y\%29\%3Dy\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  Αν
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cin\%5Cmathbb\%7BZ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  και
+  \includegraphics{https://s0.wp.com/latex.php?latex=y\%5Cin\%28n\%2Cn\%2B1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  για κάποιον ακέραιο
+  \includegraphics{https://s0.wp.com/latex.php?latex=n\%5Cin\%5Cmathbb\%7BZ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  τότε έχουμε
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  και
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28y\%29\%3D2n-y\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  οπότε θα έχουμε, αφενός,
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%2B2n-y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+  Τώρα, ο
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\%2B2n-y\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι ένας αριθμός που ζει στο διάστημα
+  \includegraphics{https://s0.wp.com/latex.php?latex=\%28x\%2Bn-1\%2Cx\%2Bn\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  αφού ο
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι ακέραιος ενώ ο
+  \includegraphics{https://s0.wp.com/latex.php?latex=2n-y\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  ζει στο
+  \includegraphics{https://s0.wp.com/latex.php?latex=\%28n-1\%2Cn\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+  Έτσι, από τον ορισμό της
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  έχουμε
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2B2n-y\%29\%3D2\%28x\%2B2n-1\%29-\%28x\%2B2n-y\%29\%3Dx\%2B2n-2\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+  Τώρα, αυτό έχει τη μορφή
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%2By\%2B2n-2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  οπότε μας περισσεύει ένα
+  \includegraphics{https://s0.wp.com/latex.php?latex=2n-2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  που μάλλον δε θα το θέλαμε.\\
+  Ας πάμε να εξετάσουμε τη δεύτερη περίπτωση. Εκεί έχουμε
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%28x\%29\%2By\%29\%3Df\%28x\%2By\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+  Το
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι ένας μη ακέραιος που ζει στο διάστημα
+  \includegraphics{https://s0.wp.com/latex.php?latex=\%28x\%2Bn\%2Cx\%2Bn\%2B1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  επομένως
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2By\%29\%3D2\%28x\%2Bn\%29-\%28x\%2By\%29\%3Dx\%2B2n-y\%3Dx\%2Bf\%28y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+  οπότε, πράγματι,
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%28x\%29\%2By\%29\%3Dx\%2Bf\%28y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  Αντίστοιχα, αν
+  \includegraphics{https://s0.wp.com/latex.php?latex=y\%5Cin\%5Cmathbb\%7BZ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  ενώ
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cnot\%5Cin\%5Cmathbb\%7BZ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  τότε, λόγω συμμετρίας, θα ισχύει η πρώτη περίπτωση του ορισμού.
+\item
+  Αν αμφότεροι
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\%2Cy\%5Cnot\%5Cin\%5Cmathbb\%7BZ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  τότε θα υπάρχουν
+  \includegraphics{https://s0.wp.com/latex.php?latex=m\%2Cn\%5Cin\%5Cmathbb\%7BZ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  έτσι ώστε
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cin\%28m\%2Cm\%2B1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  και
+  \includegraphics{https://s0.wp.com/latex.php?latex=y\%5Cin\%28n\%2Cn\%2B1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+  επομένως:
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%2B2n-y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+  Τώρα, ο παραπάνω αριθμός ζει, εν γένει, στο διάστημα
+  \includegraphics{https://s0.wp.com/latex.php?latex=\%28m\%2Bn-1\%2C+m\%2Bn\%2B1\%29\%2C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  επομένως, πρέπει να πάρουμε περιπτώσεις:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Αρχικά, αν
+    \includegraphics{https://s0.wp.com/latex.php?latex=x\%2B2n-y\%3Dm\%2Bn\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+    δηλαδή αν είναι ακέραιος αυτό το πράγμα, τότε:
+    \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2B2n-y\%29\%3Dx\%2B2n-y\%3Dx\%2Bf\%28y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+    το οποίο είναι άβολο, γιατί εμείς θα θέλαμε το «ανάποδο»:
+    \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+    Ωστόσο, δεν ψαρώνουμε. Είπαμε ότι
+    \includegraphics{https://s0.wp.com/latex.php?latex=x\%2B2n-y\%3Dm\%2Bn\%5CRightarrow+x\%2Bn-y\%3Dm\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+    Εμείς θα θέλαμε να προκύψει στο δεξί μέλος η παράσταση
+    \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%2By\%3D2m-x\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+    οπότε αρκεί να δείξουμε ότι
+    \includegraphics{https://s0.wp.com/latex.php?latex=x\%2B2n-y\%3D2m-x\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+    Με ισοδυναμίες έχουμε:\\
+    \includegraphics{https://s0.wp.com/latex.php?latex=\%5Cbegin\%7Baligned\%7D\%26\%5Chphantom\%7B\%7B\%7D\%5CLeftrightarrow\%7B\%7D\%7Dx\%2B2n-y\%3D2m-x\%2By\%5C\%5C\%26\%5CLeftrightarrow+2x\%2B2n\%3D2m\%2B2y\%5C\%5C\%26\%5CLeftrightarrow+x\%2Bn\%3Dy\%2Bm\%5Cend\%7Baligned\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}\\
+    που ισχύει, αφού
+    \includegraphics{https://s0.wp.com/latex.php?latex=x\%2Bn-y\%3Dm\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+    Άρα, σε αυτή την περίπτωση
+    \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%29\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+  \item
+    Αν
+    \includegraphics{https://s0.wp.com/latex.php?latex=x\%2B2n-y\%5Cin\%28m\%2Bn\%2Cm\%2Bn\%2B1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+    τότε έχουμε:\\
+    \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2B2n-y\%29\%3D2\%28m\%2Bn\%29-\%28x\%2B2n-y\%29\%3D2m-x\%2By\%3Df\%28x\%29\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}\\
+    όπως θα θέλαμε.
+  \item
+    Τέλος, αν
+    \includegraphics{https://s0.wp.com/latex.php?latex=x\%2B2n-y\%5Cin\%28m\%2Bn-1\%2Cm\%2Bn\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+    τότε έχουμε:\\
+    \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2B2n-y\%29\%3D2\%28m\%2Bn-1\%29-\%28x\%2B2n-y\%29\%3D2m-x-2\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}\\
+    Τώρα, αυτό το
+    \includegraphics{https://s0.wp.com/latex.php?latex=-2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+    γιατί μας περίσσεψε; Μήπως να δοκιμάσουμε την άλλη περίπτωση του
+    ορισμού; Έχουμε, αρχικά
+    \includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%28x\%29\%2By\%29\%3Df\%282m-x\%2By\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+    Τώρα, αυτός ο αριθμός ζει εν γένει στο
+    \includegraphics{https://s0.wp.com/latex.php?latex=\%28n\%2Bm-1\%2Cn\%2Bm\%2B1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+    ωστόσο είμαστε στην ειδική υποπερίτπωση όπου
+    \includegraphics{https://s0.wp.com/latex.php?latex=x\%2B2n-y\%5Cin\%28m\%2Bn-1\%2Cm\%2Bn\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+    Τότε έχουμε:\\
+    \includegraphics{https://s0.wp.com/latex.php?latex=\%5Cbegin\%7Baligned\%7D\%26\%5Chphantom\%7B\%7B\%7D\%5CLeftrightarrow\%7B\%7D\%7Dx\%2B2n-y\%3Cm\%2Bn\%5C\%5C\%26\%5CLeftrightarrow+n-m\%3Cy-x\%5C\%5C\%26\%5CLeftrightarrow+n\%2Bm\%3Cy\%2B2m-x\%5Cend\%7Baligned\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}\\
+    Συνεπώς, σε αυτή την περίπτωση
+    \includegraphics{https://s0.wp.com/latex.php?latex=2m-x\%2By\%5Cin\%28m\%2Bn\%2Cm\%2Bn\%2B1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+    και άρα έχουμε:\\
+    \includegraphics{https://s0.wp.com/latex.php?latex=f\%282m-x\%2By\%29\%3D2\%28m\%2Bn\%29-\%282m-x\%2By\%29\%3Dx\%2B2n-y\%3Dx\%2Bf\%28y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}\\
+    όπως θα θέλαμε.
+  \end{itemize}
+\end{itemize}
+
+Άρα, σε κάθε περίπτωση ικανοποιείται ο ορισμός μας, άρα η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι πράγματι υδροθερμική με
+\includegraphics{https://s0.wp.com/latex.php?latex=c\%3D2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+σε αυτή την περίπτωση! Και, ιδού η γραφική της παράσταση:
+
+\begin{figure}
+\centering
+\includegraphics[width=10.66667in,height=10.23958in]{https://aftermaths.gr/wp-content/uploads/2024/08/plot_06.png?w=1024}
+\caption{Η γραφική παράσταση μίας υδροθερμικής συνάρτησης με
+\includegraphics{https://s0.wp.com/latex.php?latex=c\%3D2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.}
+\end{figure}
+
+Αυτό, όπως καταλαβαίνετε, αλλάζει δραστικά τον τρόπο που πρέπει να
+αντιμετωπίσουμε το πρόβλημά μας. Προηγουμένως ξεκινήσαμε δειλά-δειλά να
+δείξουμε ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=c\%3D1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+αποδεικνύοντας ότι οι μόνες υδροθερμικές συναρτήσεις είναι αυτές οι δύο
+που είχαμε εντοπίσει στην αρχή. Στη συνέχεια, ωστόσο, είδαμε ότι αυτό
+δεν πάει καθόλου καλά, φτάνοντας σε ένα αδιέξοδο. Τώρα είδαμε ότι αυτό
+δε συνέβη αδίκως: υπάρχει συνάρτηση η οποία, ούσα λίγο πιο περίπλοκη,
+μας δείχνει ότι αυτό που προσπαθούσαμε να αποδείξουμε είναι, εν γένει,
+αδύνατο. Επομένως, τώρα τι θα πάμε να αποδείξουμε;
+
+\hypertarget{ux3b1ux3c0ux3ccux3c0ux3b5ux3b9ux3c1ux3b1-003}{%
+\subsection{Απόπειρα
+\#003}\label{ux3b1ux3c0ux3ccux3c0ux3b5ux3b9ux3c1ux3b1-003}}
+
+Λοιπόν, όπως είπαμε και παραπάνω, το πλάνο μας να αποδείξουμε ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=c\%3D1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+απέτυχε παταγωδώς, οπότε πρέπει να σκεφτούμε κάτι άλλο, καθώς, με βάση
+τα παραπάνω
+\includegraphics{https://s0.wp.com/latex.php?latex=c\%5Cgeq+2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+δηλαδή η
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+στη γενική περίπτωση μπορεί να πάρει τουλάχιστον δύο διαφορετικές τιμές,
+για κάποιες υδροθερμικές συναρτήσεις. Ας πάρουμε, λοιπόν, δύο αριθμούς,
+\includegraphics{https://s0.wp.com/latex.php?latex=a\%2Cb\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+για τους οποίους ισχύει ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28a\%29\%5Cneq+g\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Πριν συνεχίσουμε, να πούμε ότι μπορούμε να γράψουμε την υπόθεσή μας σε
+μία λίγο πιο συμμαζεμένη μορφή με τη βοήθεια της αντίστροφης της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Πράγματι από τη μορφή:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%29\%2By\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28f\%28x\%29\%2By\%29\%3Dx\%2Bf\%28y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+μπορούμε, εφαρμόζοντας την
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+στη δεύτερη, ας πούμε, ισότητα, να πάρουμε το εξής:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%29\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%29\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+
+Με άλλα λόγια, σε κάθε περίπτωση, είτε η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είτε η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+«μετατοπίζει» την
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+από το
+\includegraphics{https://s0.wp.com/latex.php?latex=y\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+στο
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Τώρα, ποια από τις δύο μορφές είναι πιο χρήσιμη θα φανεί στην πράξη.
+
+Λοιπόν, έχουμε πάρει δύο τιμές της
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+που έχουμε υποθέσει ότι είναι διαφορετικές,
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28a\%29\%5Cneq+g\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Αυτό ξέρουμε ότι μπορεί να συμβεί, οπότε δεν τίθεται, σαφώς, προς
+αμφισβήτηση. Το θέμα είναι, τι μπορούμε να πούμε για αυτές τις τιμές;
+Μπορούμε, ίσως, να δείξουμε, ότι είναι μονάχα δύο και όχι παραπάνω; Κι
+αν ναι, πώς μπορούμε να κινηθούμε προς τα εκεί;
+
+Λοιπόν, ας αρχίσουμε λίγο να μαζεύουμε πάλι όσα έχουμε δείξει ως τώρα,
+για να έχουμε μία εικόνα του οπλοστασίου μας:
+
+\begin{itemize}
+\tightlist
+\item
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%280\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  Οι
+  \includegraphics{https://s0.wp.com/latex.php?latex=f_1\%28x\%29\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  και
+  \includegraphics{https://s0.wp.com/latex.php?latex=f_2\%28x\%29\%3D-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι υδροθερμικές με
+  \includegraphics{https://s0.wp.com/latex.php?latex=c\%3D1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  Υπάρχει υδροθερμική συνάρτηση
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  με
+  \includegraphics{https://s0.wp.com/latex.php?latex=c\%3D2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28x\%29\%29\%3Dx\%2Bf\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  για κάθε
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  Η
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι «1-1».
+\item
+  Η
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι «επί».
+\item
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28x\%29\%3D-f\%28-x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  για κάθε
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  \includegraphics{https://s0.wp.com/latex.php?latex=-x\%3Df\%28-f\%28x\%29\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  για κάθε
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\%3Df\%28-f\%28-x\%29\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  για κάθε
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  Αν
+  \includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι ένα σταθερό σημείο της
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  τότε για κάθε
+  \includegraphics{https://s0.wp.com/latex.php?latex=n\%5Cin\%5Cmathbb\%7BZ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  ισχύει ότι και το
+  \includegraphics{https://s0.wp.com/latex.php?latex=nx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  είναι σταθερό σημείο της
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\item
+  Ο ορισμός γράφεται και στη μορφή:
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%29\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  ή
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%29\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\end{itemize}
+
+Τώρα, από όλα τα παραπάνω, κάτι θα μας φανεί χρήσιμο, πού θα πάει;
+Λοιπόν, αρχικά, να θυμηθούμε λίγο πώς μοιάζει η
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28x\%29\%3Df\%28x\%29\%2Bf\%28-x\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Από εδώ προκύπτει και μία κομψή ιδιότητά της, καθώς
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28-x\%29\%3Dg\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+δηλαδή, είναι άρτια. Τώρα, για την
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+γνωρίζουμε πολλά, είναι η αλήθεια. Γνωρίζουμε, μήπως τίποτα και για τη
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28-x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002};
+Αν κοιτάξουμε λίγο παραπάνω θα δούμε ότι η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28-x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+σχετίζεται στενά με την αντίστροφη της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+καθώς:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28x\%29\%3D-f\%28-x\%29\%5CLeftrightarrow+f\%28-x\%29\%3D-f\%5E\%7B-1\%7D\%28x\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Συνεπώς, μπορούμε να πούμε και ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28x\%29\%3Df\%28x\%29-f\%5E\%7B-1\%7D\%28x\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τώρα, αυτό μας δίνει και μία ενδιαφέρουσα εναλλακτική έκφραση για την
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3Dg\%28x\%29\%2Bf\%5E\%7B-1\%7D\%28x\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Αν αναρωτιέστε γιατί αυτό είναι ενδιαφέρον, δεν έχουμε και πολλά να
+πούμε\ldots{} Διαίσθηση, προς το παρόν, συν το γεγονός ότι όσα
+γνωρίζουμε για την
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+μπορούμε ίσως να τα εκφράσουμε με δύο τρόπους:
+
+\begin{itemize}
+\tightlist
+\item
+  μέσα από τον ορισμό και όσα έχουμε αποδείξει παραπάνω, και,
+\item
+  μέσα από την παραπάνω σχέση, που εμπλέκει και την
+  \includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+\end{itemize}
+
+Εκφράζοντας το ίδιο πράγμα με δύο τρόπους επιδιώκουμε, προφανώς, να
+αποδείξουμε κάποια ισότητα μεταξύ των δύο αυτών εκφράσεων, γεγονός που
+ίσως μας φανεί χρήσιμο σε κάποια φάση. Εκτός αυτού, στον ορισμό της
+υδροθερμικότητας εμφανίζονται τόσο η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+όσο και η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+επομένως ίσως έχει νόημα να χρησιμοποιήσουμε το ίδιο «λεξιλόγιο». Θα
+δούμε\ldots{}
+
+Τέλος πάντων, έχουμε δείξει αρκετά πράγματα, ας βάλουμε τώρα στο
+παιχνίδι και τα
+\includegraphics{https://s0.wp.com/latex.php?latex=a\%2Cb\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+που πήραμε παραπάνω έτσι ώστε
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28a\%29\%5Cneq+g\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Αρχικά, από τα παραπάνω ισχύει και ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%29\%3Dg\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28a\%29\%2C\%5Cquad+f\%28b\%29\%3Dg\%28b\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Επίσης, μπορούμε να αξιοποιήσουμε και τον ορισμό μας, ο οποίος να
+θυμίσουμε, είναι ο εξής:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%29\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28x\%2Bf\%28y\%29\%29\%3Df\%28x\%29\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+
+Τι να θέσουμε, όμως, στη θέση των
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%2Cy\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002};
+Το να βάλουμε απλά
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%3Da\%2Cy\%3Db\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+δε φαίνεται να δίνει κάτι ενδιαφέρον. Γενικά, αφού
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28x\%29\%3Df\%28x\%29\%2Bf\%5E\%7B-1\%7D\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+ίσως έχει νόημα μία αντικατάσταση της μορφής
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3Df\%5E\%7B-1\%7D\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+καθώς έτσι θα έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28f\%5E\%7B-1\%7D\%28x\%29\%29\%29\%3Df\%28x\%29\%2Bf\%5E\%7B-1\%7D\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28x\%2Bf\%28f\%5E\%7B-1\%7D\%28x\%29\%29\%29\%3Df\%28x\%29\%2Bf\%5E\%7B-1\%7D\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+
+Κάνοντας και λίγες πράξεις, έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%282x\%29\%3Df\%28x\%29\%2Bf\%5E\%7B-1\%7D\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%282x\%29\%3Df\%28x\%29\%2Bf\%5E\%7B-1\%7D\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+
+Χμ, όχι και πολύ εντυπωσιακό, γιατί δεν εμφανίζεται αυτό το «-» που θα
+θέλαμε στο δεξί μέλος. Επομένως, ίσως έχει νόημα να θέσουμε
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3D-f\%5E\%7B-1\%7D\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+οπότε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28-f\%5E\%7B-1\%7D\%28x\%29\%29\%29\%3Df\%28x\%29-f\%5E\%7B-1\%7D\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28x\%2Bf\%28f\%5E\%7B-1\%7D\%28x\%29\%29\%29\%3Df\%28x\%29-f\%5E\%7B-1\%7D\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+
+Με αυτό το
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28-f\%5E\%7B-1\%7D\%28x\%29\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τι θα κάνουμε, όμως; Θυμηθείτε ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28x\%29\%3D-f\%28-x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+συνεπώς:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28-f\%5E\%7B-1\%7D\%28x\%29\%29\%3Df\%28f\%28-x\%29\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Συνεπώς, το παραπάνω παίρνει τη μορφή:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28f\%28-x\%29\%29\%29\%3Dg\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28x\%2Bf\%28f\%28-x\%29\%29\%29\%3Dg\%28x\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Ωραία, και τώρα αυτό πού μπορεί να μας οδηγήσει; Ας το γράψουμε και με
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%3Da\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%3Db\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+μήπως πάρουμε καμία ιδέα:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bf\%28f\%28-a\%29\%29\%29\%3Dg\%28a\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28a\%2Bf\%28f\%28-a\%29\%29\%29\%3Dg\%28a\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Και, αντίστοιχα:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28b\%2Bf\%28f\%28-b\%29\%29\%29\%3Dg\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28b\%2Bf\%28f\%28-b\%29\%29\%29\%3Dg\%28b\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Μάλιστα\ldots{} Βλέπετε κάτι στον ορίζοντα; Όχι, και αυτό γιατί πάμε
+λίγο χύμα στο κύμα. Λοιπόν, όπως είπαμε, θέλουμε να αποδείξουμε ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=c\%3D2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+επομένως πήραμε δύο διαφορετικές τιμές της
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και προσπαθούμε να βρούμε κάποια σχέση για να ξεκινήσουμε. Πάνω σε αυτό,
+ας κάνουμε κάποιες ακόμα παρατηρήσεις:
+
+\begin{itemize}
+\tightlist
+\item
+  Αρχικά, αυτή η σχέση καλό θα ήταν να συμπεριλαμβάνει τόσο το
+  \includegraphics{https://s0.wp.com/latex.php?latex=a\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  όσο και το
+  \includegraphics{https://s0.wp.com/latex.php?latex=b\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  έτσι ώστε να πάρουμε ένα συμπέρασμα και για τα δύο, και όχι για το
+  καθένα ξεχωριστά, όπως παραπάνω. Επομένως, «μεθοδολογικά» μάλλον οι
+  παραπάνω σκέψεις δε θα μας φανούν τόσο χρήσιμες. Θα ήταν πιο λογικό,
+  με άλλα λόγια, να θέτουμε τη μία μεταβλητή ίση με
+  \includegraphics{https://s0.wp.com/latex.php?latex=a\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  (ή κάτι παρόμοιο) και την άλλη με
+  \includegraphics{https://s0.wp.com/latex.php?latex=b\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  (ή κάτι παρόμοιο).
+\item
+  Επίσης, ξεχάσαμε κάτι σημαντικό. Κάθε υδροθερμική συνάρτηση περνά από
+  την αρχή των αξόνων, συνεπώς
+  \includegraphics{https://s0.wp.com/latex.php?latex=f\%280\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  και άρα
+  \includegraphics{https://s0.wp.com/latex.php?latex=g\%280\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002},
+  οπότε, από τις δύο τιμές της
+  \includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+  η μία θα είναι πάντα το μηδέν (αν ισχύει αυτό που θέλουμε να
+  αποδείξουμε).
+\end{itemize}
+
+Μήπως, λοιπόν, έχοντας κατά νου τα παραπάνω, έχει νόημα να προσπαθήσουμε
+να αποδείξουμε ότι αν
+\includegraphics{https://s0.wp.com/latex.php?latex=a\%2Cb\%5Cin\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+με
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28a\%29\%5Cneq+g\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε, αναγκαστικά, ένα από τα δύο είναι μηδέν; Έτσι, μοιραία, αν έχουμε
+δύο διαφορετικές τιμές της
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+η μία θα είναι πάντα μηδέν, επομένως η
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+δεν μπορεί να πάρει πάνω από δύο διαφορετικές τιμές.
+
+Ωραίος στόχος αυτός, αλλά πώς να ξεκινήσουμε; Λοιπόν, ας πάμε να βάλουμε
+στην υπόθεσή μας
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%3Dx\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3Df\%5E\%7B-1\%7D\%28y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+για να δούμε αν παίρνουμε κάτι όμορφο -- σαφώς, η πρόθεσή μας είναι να
+εξαφανίσουμε το
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και να μας μείνει μόνο το
+\includegraphics{https://s0.wp.com/latex.php?latex=y\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28f\%5E\%7B-1\%7D\%28y\%29\%29\%29\%3Df\%28x\%29\%2Bf\%5E\%7B-1\%7D\%28y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28x\%2Bf\%28f\%5E\%7B-1\%7D\%28y\%29\%29\%29\%3Df\%28x\%29\%2Bf\%5E\%7B-1\%7D\%28y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+
+Με λίγες πράξεις έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2By\%29\%3Df\%28x\%29\%2Bf\%5E\%7B-1\%7D\%28y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28x\%2By\%29\%3Df\%28x\%29\%2Bf\%5E\%7B-1\%7D\%28y\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+
+Αυτό, για
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%3Da\%2C+y\%3Db\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+δίνει:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bb\%29\%3Df\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28a\%2Bb\%29\%3Df\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Παρατηρήστε τώρα ότι αριστερά έχουμε την ποσότητα
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%2By\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+η οποία είναι ωραία και συμμετρική ως προς τα
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%2Cy\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ενώ δεξιά δε συμβαίνει το ίδιο. Επομένως, αν κάνουμε το «ανάποδο» θέσιμο
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%3Db\%2Cy\%3Da\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+θα πάρουμε, λογικά, κάτι καινούργιο. Έτσι, για
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%3Db\%2C+y\%3Da\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bb\%29\%3Df\%28b\%29\%2Bf\%5E\%7B-1\%7D\%28a\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28a\%2Bb\%29\%3Df\%28b\%29\%2Bf\%5E\%7B-1\%7D\%28a\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τώρα, εδώ έχουμε τέσσερις ισότητες, οι οποίες όμως δεν ισχύουν
+απαραίτητα όλες. Για την ακρίβεια, από τις πρώτες δύο ισχύει τουλάχιστον
+μία και από τις άλλες δύο τουλάχιστον μία. Μάλιστα, αν παρατηρήσετε, δεν
+είναι όλες συμβατές μεταξύ τους. Για παράδειγμα, από τις ισότητες:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bb\%29\%3Df\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bb\%29\%3Df\%28b\%29\%2Bf\%5E\%7B-1\%7D\%28a\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+(αν ισχύουν και οι δύο) συμπεραίνουμε ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29\%3Df\%28b\%29\%2Bf\%5E\%7B-1\%7D\%28a\%29\%5CLeftrightarrow+f\%28a\%29-f\%5E\%7B-1\%7D\%28a\%29\%3Df\%28b\%29-f\%5E\%7B-1\%7D\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+επομένως
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28a\%29\%3Dg\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+που είναι άτοπο από την υπόθεσή μας. Συνεπώς, αν ισχύει η:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bb\%29\%3Df\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+τότε από το άλλο ζευγάρι ισχύει η:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28a\%2Bb\%29\%3Df\%28b\%29\%2Bf\%5E\%7B-1\%7D\%28a\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Αντίστοιχα, αν ισχύει η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28a\%2Bb\%29\%3Df\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+τότε, με παρόμοιο τρόπο, πρέπει (και μπορεί) να ισχύει μόνο η
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bb\%29\%3Df\%28b\%29\%2Bf\%5E\%7B-1\%7D\%28a\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Έτσι, από όλες αυτές τις σχέσεις, έχουμε δύο μόνο από τα τέσσερα πιθανά
+ζευγάρια που μπορούν να ισχύουν. Ας ξεκινήσουμε με το πρώτο, όπου
+ισχύουν ταυτόχρονα:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bb\%29\%3Df\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28a\%2Bb\%29\%3Df\%28b\%29\%2Bf\%5E\%7B-1\%7D\%28a\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Σε αυτή την περίπτωση μία σκέψη θα ήταν να αφαιρέσουμε κατά μέλη, καθώς
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28x\%29\%3Df\%28x\%29-f\%5E\%7B-1\%7D\%28x\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+οπότε και θα πάρουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bb\%29-f\%5E\%7B-1\%7D\%28a\%2Bb\%29\%3Df\%28a\%29-f\%5E\%7B-1\%7D\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29-f\%28b\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Σουλουπώνοντάς το λίγο:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28a\%2Bb\%29\%3Dg\%28a\%29-g\%28b\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Ωραία σχέση φαίνεται αυτή, συμμαζεμένη, κομψή, δείχνει και μία
+ενδιαφέρουσα (μάλλον) ιδιότητα της
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Αλλά, τι να την κάνουμε; Εμείς, όπως είπαμε, στοχεύουμε να δείξουμε ότι
+είτε
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28a\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είτε
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28b\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Οπότε, ας διερευνήσουμε λίγο τι κάνει το καθένα από αυτά:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28a\%29\%3Df\%28a\%29-f\%5E\%7B-1\%7D\%28a\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Από τα παραπάνω που έχουμε υποθέσει μπορούμε να πούμε ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%29\%3Df\%28a\%2Bb\%29-f\%5E\%7B-1\%7D\%28b\%29\%2C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+οπότε έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28a\%29\%3Df\%28a\%2Bb\%29-f\%5E\%7B-1\%7D\%28b\%29-f\%5E\%7B-1\%7D\%28a\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Αν πάρουμε και τη δεύτερη σχέση μας, έχουμε
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28a\%29\%3Df\%5E\%7B-1\%7D\%28a\%2Bb\%29-f\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+οπότε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28a\%29\%3Df\%28a\%2Bb\%29-f\%5E\%7B-1\%7D\%28b\%29-f\%5E\%7B-1\%7D\%28a\%2Bb\%29\%2Bf\%28b\%29\%3Dg\%28a\%2Bb\%29\%2Bg\%28b\%29\%2C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+που το αποδείξαμε και παραπάνω και μας είναι και λίγο αδιάφορο. Οπότε,
+χρειαζόμαστε αλλαγή πορείας και σε αυτό το σημείο.
+
+{[}Σκέψη{]}
+
+Λοιπόν, έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28a\%29\%3Df\%28a\%29-f\%5E\%7B-1\%7D\%28a\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Για να δούμε αν αυτό κάνει 0 θα θέλαμε να το εκφράσουμε με τη βοήθεια
+κάποιων άλλων σχέσεων και όχι αυτόν που έχουμε ήδη υποθέσει παραπάνω,
+καθώς αυτές θα μας οδηγήσουν πίσω στο αποτέλεσμα
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28a\%2Bb\%29\%3Dg\%28a\%29-g\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+που φαίνεται λίγο βαρετό. Αν ηρεμήσουμε λίγο, ίσως παρατηρήσουμε το
+εξής:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%29\%3Df\%28a\%2Bb-b\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Θυμηθείτε τώρα ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28-f\%28x\%29\%29\%3D-x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και αυτό θα βγάλει καλύτερο νόημα:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%29\%3Df\%28\%28a\%2Bb\%29\%2Bf\%28-f\%28b\%29\%29\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Παραστάσεις της μορφής
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%2Bf\%28y\%29\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι βούτυρο στο ψωμί μας πλέον, επομένως, ας πάμε να δούμε τι μας λέει
+ο ορισμός μας για
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%3Da\%2Bb\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και
+\includegraphics{https://s0.wp.com/latex.php?latex=y\%3D-f\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bb\%2Bf\%28-f\%28b\%29\%29\%29\%3Df\%28a\%2Bb\%29-f\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28a\%2Bb\%2Bf\%28-f\%28b\%29\%29\%29\%3Df\%28a\%2Bb\%29-f\%28b\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τώρα, από την υπόθεσή μας γνωρίζουμε ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bb\%29\%3Df\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29\%2C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+οπότε ο ορισμός μάς λέει το εξής:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bb\%2Bf\%28-f\%28b\%29\%29\%29\%3Df\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29-f\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28a\%2Bb\%2Bf\%28-f\%28b\%29\%29\%29\%3Df\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29-f\%28b\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τώρα, ας θυμηθούμε και αυτό που είπαμε παραπάνω:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=a\%3Da\%2Bb-b\%3Da\%2Bb\%2Bf\%28-f\%28b\%29\%29\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+και έτσι θα πάρουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%29\%3Df\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29-f\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28a\%29\%3Df\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29-f\%28b\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Τώρα, στην πρώτη περίπτωση έχουμε εύκολα:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%29\%3Df\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29-f\%28b\%29\%5CLeftrightarrow+f\%28b\%29-f\%5E\%7B-1\%7D\%28b\%29\%3D0\%5CLeftrightarrow+g\%28b\%29\%3D0.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Στη δεύτερη περίπτωση έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28b\%29-f\%5E\%7B-1\%7D\%28b\%29\%3Df\%28a\%29-f\%5E\%7B-1\%7D\%28a\%29\%5CLeftrightarrow+g\%28b\%29\%3Dg\%28a\%29\%2C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+που απορρίπτεται καθώς έχουμε υποθέσει ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28b\%29\%5Cneq+g\%28a\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και έτσι μας μένει μόνο η πρώτη περίπτωση όπου
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28b\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και τελειώσαμε! Αφού η μία από τις δύο τιμές της
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι μηδέν, τότε η
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+μπορεί να πάρει το πολύ δύο διαφορετικές τιμές!
+
+Όπα, όπα! Έχουμε και την περίπτωση:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28a\%2Bb\%29\%3Df\%28a\%29\%2Bf\%5E\%7B-1\%7D\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bb\%29\%3Df\%28b\%29\%2Bf\%5E\%7B-1\%7D\%28a\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Εντάξει, αυτό δεν είναι κάτι, πλέον. Συμμετρικά με την προηγούμενη, ας
+παρατηρήσουμε ότι:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28b\%29\%3Df\%28a\%2Bb-a\%29\%3Df\%28\%28a\%2Bb\%29\%2Bf\%28-f\%28a\%29\%29\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Από τον ορισμό, αντίστοιχα, έχουμε, για
+\includegraphics{https://s0.wp.com/latex.php?latex=x\%3Da\%2Bb\%2Cy\%3D-f\%28a\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bb\%2Bf\%28-f\%28a\%29\%29\%29\%3Df\%28a\%2Bb\%29-f\%28a\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28a\%2Bb\%2Bf\%28-f\%28a\%29\%29\%29\%3Df\%28a\%2Bb\%29-f\%28a\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Αφού σε αυτή την περίπτωση έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bb\%29\%3Df\%28b\%29\%2Bf\%5E\%7B-1\%7D\%28a\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+παίρνουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28a\%2Bb\%2Bf\%28-f\%28a\%29\%29\%29\%3Df\%28b\%29\%2Bf\%5E\%7B-1\%7D\%28a\%29-f\%28a\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28a\%2Bb\%2Bf\%28-f\%28a\%29\%29\%29\%3Df\%28b\%29\%2Bf\%5E\%7B-1\%7D\%28a\%29-f\%28a\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Ας θυμηθούμε τώρα ότι για τα αριστερά μέλη έχουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=b\%3Da\%2Bb-a\%3Da\%2Bb\%2Bf\%28-f\%28a\%29\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+και θα πάρουμε:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28b\%29\%3Df\%28b\%29\%2Bf\%5E\%7B-1\%7D\%28a\%29-f\%28a\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%5E\%7B-1\%7D\%28b\%29\%3Df\%28b\%29\%2Bf\%5E\%7B-1\%7D\%28a\%29-f\%28a\%29.\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+Η πρώτη περίπτωση μας δίνει
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28a\%29\%3D0\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+που μας αρέσει ενώ η δεύτερη
+\includegraphics{https://s0.wp.com/latex.php?latex=g\%28a\%29\%3Dg\%28b\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+που δεν ισχύει! Επομένως, σε κάθε περίπτωση, όπως θέλαμε, η
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+δεν μπορεί να πάρει παρά το πολύ δύο διαφορετικές τιμές, άρα υπάρχει
+αυτό το διαβόητο
+\includegraphics{https://s0.wp.com/latex.php?latex=c\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+που μας ζητήσανε και μάλιστα
+\includegraphics{https://s0.wp.com/latex.php?latex=c\%3D2\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι η ελάχιστη τιμή του, αφού βρήκαμε και μία υδροθερμική συνάρτηση
+που να δίνει μία
+\includegraphics{https://s0.wp.com/latex.php?latex=g\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+που να παίρνει ακριβώς δύο τιμές.
+
+\hypertarget{ux3bbux3afux3b3ux3bf-ux3c0ux3c1ux3b9ux3bd-ux3c4ux3bf-ux3c4ux3adux3bbux3bfux3c2}{%
+\subsection{Λίγο Πριν Το
+Τέλος}\label{ux3bbux3afux3b3ux3bf-ux3c0ux3c1ux3b9ux3bd-ux3c4ux3bf-ux3c4ux3adux3bbux3bfux3c2}}
+
+Ωραία, έχετε διαβάσει κοντά 40 συνεχόμενα λεπτά μαθηματικών κι όλα αυτά
+για να λύσουμε μία άσκηση. Δεν πήγε καθόλου γραμμικά η λύση και δεν ήταν
+και αυτή η πρόθεσή μας σήμερα. Στόχος ήταν να αναδείξουμε λίγο το
+σκεπτικό και πώς έγιναν οι πράξεις στο χαρτί πριν καταλήξουν στις οθόνες
+σας. Γιατί, αν κάτι είναι τα μαθηματικά, πέρα από όλα τα άλλα, είναι
+αποτυχημένες σκέψεις. Αποτυχίες που, τελικά, οδηγούν σε μικρές
+επιτυχίες.
+
+Όμως, όπως πάντα, καμία απάντηση στα μαθηματικά δεν είναι το τέρμα --
+αντιθέτως. Σε όλα τα παραπάνω έχουμε μία συνάρτηση
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%3A\%5Cmathbb\%7BQ\%7D\%5Cto\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ωστόσο, το πεδίο ορισμού της δε μας απασχόλησε ιδιαίτερα. Για την
+ακρίβεια, μας παραπλάνησε και λίγο. Πράγματι, η πρώτη μου σκέψη όταν
+είδα το θέμα ήταν ότι κάπως θα δείξουμε μία ιδιότητα της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+για όλους τους ρητούς κατασκευαστικά και ότι κάπως έτσι θα αποδείξουμε
+ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=c\%3D1\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και οι μόνες υδροθερμικές συναρτήσεις είναι οι δύο ευθείες που βρήκαμε
+αρχικά. Ωστόσο, κάθε άλλο παρά έτσι ήταν τα πράγματα, όπως είδατε,
+καθώς, η «προφανής» ιδιότητα «κάθε ρητό πολλαπλάσιο ενός σταθερού
+σημείου της
+\includegraphics{https://s0.wp.com/latex.php?latex=f\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι επίσης σταθερό της σημείο» είναι\ldots{} προφανώς λανθασμένη. Και
+κάπως έτσι μένουμε με την απορία: χρειάζεται η υπόθεση ότι
+\includegraphics{https://s0.wp.com/latex.php?latex=D_f\%3D\%5Cmathbb\%7BQ\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002};
+Αυτό το παίρνετε σαν άσκηση για το σπίτι.
+
+Α, και άλλη μία άσκηση για το σπίτι. Βρήκαμε, ως τώρα, τρεις
+υδροθερμικές συναρτήσεις, δύο προφανείς και μία όχι τόσο προφανή. Αυτή
+την όχι τόσο προφανή υδροθερμική συνάρτηση με την ακόλουθη γραφική
+παράσταση:
+
+\begin{figure}
+\centering
+\includegraphics[width=7.53125in,height=7.22917in]{https://aftermaths.gr/wp-content/uploads/2024/08/plot_06.png?w=723}
+\caption{Τη θυμάστε;}
+\end{figure}
+
+μπορούμε να τη γράψουμε με έναν κομψό τρόπο, ως εξής:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f\%28x\%29\%3D\%5Bx\%5D-\%5C\%7Bx\%5C\%7D\%2C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+όπου
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Bx\%5D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι το ακέραιο μέρος του
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+δηλαδή ο μεγαλύτερος ακέραιος που είναι μικρότερος ή ίσος του
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5C\%7Bx\%5C\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι το δεκαδικό μέρος του
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+ή, αλλιώς, η παράσταση
+\includegraphics{https://s0.wp.com/latex.php?latex=x-\%5Bx\%5D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Στην περίπτωσή μας, ο
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5C\%7Bx\%5C\%7D\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι ένας ρητός αριθμός στο
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5B0\%2C1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+και, αν αγνοήσουμε τις ακέραιες τιμές του
+\includegraphics{https://s0.wp.com/latex.php?latex=x\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι ένας ρητός στο
+\includegraphics{https://s0.wp.com/latex.php?latex=\%280\%2C1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}.
+Μπορούμε, από την παραπάνω γραφή, να δούμε μία ευρύτερη οικογένεια
+συναρτήσεων:
+
+\includegraphics{https://s0.wp.com/latex.php?latex=f_\%5Csigma\%28x\%29\%3D\%5Bx\%5D-\%5Csigma\%28\%5C\%7Bx\%5C\%7D\%29\%2C\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+
+όπου
+\includegraphics{https://s0.wp.com/latex.php?latex=\%5Csigma\%3A\%5Cmathbb\%7BQ\%7D\%5Ccap\%280\%2C1\%29\%5Cto\%5Cmathbb\%7BQ\%7D\%5Ccap\%280\%2C1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+είναι μία μετάθεση των ρητών στο
+\includegraphics{https://s0.wp.com/latex.php?latex=\%280\%2C1\%29\&bg=ffffff\&fg=3a3a3a\&s=0\&c=20201002}
+-- δηλαδή, μία «1-1» και επί συνάρτηση ορισμένη εκεί. Είναι, άραγε, κάθε
+τέτοια συνάρτηση υδροθερμική; Και αυτό το παίρνετε σαν άσκηση για το
+σπίτι\ldots{}
+
+Α, και κάτι εύλογο και ακόμα γενικότερο: μπορείτε να περιγράψετε όλες
+τις υδροθερμικές συναρτήσεις; Είναι μόνο οι τρεις που έχουμε βρει ως
+τώρα; Έχει σχόλια από κάτω, έχουμε και
+\href{https://aftermaths.gr/contact/}{email}, πείτε μας τι θα βρείτε!
+
+Μέχρι τότε, καλημέρα και καλό διάβασμα!
+
+Η κεντρική εικόνα είναι ο πίνακας \emph{Η αρπαγή του Σαμψών από τους
+Φιλισταίους} του
+\emph{\href{https://en.wikipedia.org/wiki/Guercino}{Guercino}}.
+
+\textbf{Διαβάστε επίσης:}
+\href{https://aftermathsgr.wordpress.com/2024/07/23/\%ce\%bf\%ce\%b9-\%ce\%ba\%ce\%b1\%ce\%bc\%cf\%80\%cf\%8d\%ce\%bb\%ce\%b5\%cf\%82-\%cf\%80\%ce\%bf\%cf\%85-\%ce\%ac\%ce\%bb\%ce\%bb\%ce\%b1\%ce\%be\%ce\%b1\%ce\%bd-\%cf\%84\%ce\%bf\%ce\%bd-\%ce\%ba\%cf\%8c\%cf\%83\%ce\%bc\%ce\%bf/}{Οι
+Καμπύλες Που Άλλαξαν τον Κόσμο}
+
+\emph{Ακολουθήστε το aftermathsgr στα social media:}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.facebook.com/aftermaths.gr/}{{Facebook}}
+\item
+  \href{https://www.instagram.com/aftermathsgr/}{{Instagram}}
+\item
+  \href{https://twitter.com/aftermathsgr}{{Twitter}}
+\end{itemize}
+
+\hypertarget{player}{}
+
+\hypertarget{ux3c0ux3b1ux3c1ux3bfux3c5ux3c3ux3b9ux3acux3c3ux3c4ux3b7ux3baux3b5-ux3c3ux3c6ux3acux3bbux3bcux3b1.}{%
+\section{Παρουσιάστηκε
+σφάλμα.}\label{ux3c0ux3b1ux3c1ux3bfux3c5ux3c3ux3b9ux3acux3c3ux3c4ux3b7ux3baux3b5-ux3c3ux3c6ux3acux3bbux3bcux3b1.}}
+
+Δεν είναι δυνατή η εκτέλεση JavaScript.
+
+\protect\hypertarget{wordads-inline-marker}{}{}
+
+\hypertarget{jp-post-flair}{}
+\hypertarget{ux3baux3bfux3b9ux3bdux3bfux3c0ux3bfux3afux3b7ux3c3ux3b7}{%
+\subsubsection{Κοινοποίηση:}\label{ux3baux3bfux3b9ux3bdux3bfux3c0ux3bfux3afux3b7ux3c3ux3b7}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://aftermathsgr.wordpress.com/2024/08/04/\%cf\%84\%ce\%b1-\%ce\%bf\%ce\%bb\%cf\%85\%ce\%bc\%cf\%80\%ce\%b9\%ce\%b1\%ce\%ba\%ce\%ac-\%cf\%85\%ce\%b4\%cf\%81\%ce\%bf\%ce\%b8\%ce\%b5\%cf\%81\%ce\%bc\%ce\%b9\%ce\%ba\%ce\%ad\%cf\%82-\%cf\%83\%cf\%85\%ce\%bd\%ce\%b1\%cf\%81\%cf\%84\%ce\%ae\%cf\%83\%ce\%b5/?share=press-this}{{Κλικ
+  για Press This!(Ανοίγει σε νέο παράθυρο)} {Press This}}
+\item
+  \href{https://aftermathsgr.wordpress.com/2024/08/04/\%cf\%84\%ce\%b1-\%ce\%bf\%ce\%bb\%cf\%85\%ce\%bc\%cf\%80\%ce\%b9\%ce\%b1\%ce\%ba\%ce\%ac-\%cf\%85\%ce\%b4\%cf\%81\%ce\%bf\%ce\%b8\%ce\%b5\%cf\%81\%ce\%bc\%ce\%b9\%ce\%ba\%ce\%ad\%cf\%82-\%cf\%83\%cf\%85\%ce\%bd\%ce\%b1\%cf\%81\%cf\%84\%ce\%ae\%cf\%83\%ce\%b5/?share=twitter}{\protect\hypertarget{sharing-twitter-13786}{}{Κάνε
+  κλικ για να μοιραστείς στο X(Ανοίγει σε νέο παράθυρο)} {Χ}}
+\item
+  \href{https://aftermathsgr.wordpress.com/2024/08/04/\%cf\%84\%ce\%b1-\%ce\%bf\%ce\%bb\%cf\%85\%ce\%bc\%cf\%80\%ce\%b9\%ce\%b1\%ce\%ba\%ce\%ac-\%cf\%85\%ce\%b4\%cf\%81\%ce\%bf\%ce\%b8\%ce\%b5\%cf\%81\%ce\%bc\%ce\%b9\%ce\%ba\%ce\%ad\%cf\%82-\%cf\%83\%cf\%85\%ce\%bd\%ce\%b1\%cf\%81\%cf\%84\%ce\%ae\%cf\%83\%ce\%b5/?share=facebook}{\protect\hypertarget{sharing-facebook-13786}{}{Πατήστε
+  για κοινοποίηση στο Facebook(Ανοίγει σε νέο παράθυρο)} {Facebook}}
+\item
+  \href{https://aftermathsgr.wordpress.com/2024/08/04/\%cf\%84\%ce\%b1-\%ce\%bf\%ce\%bb\%cf\%85\%ce\%bc\%cf\%80\%ce\%b9\%ce\%b1\%ce\%ba\%ce\%ac-\%cf\%85\%ce\%b4\%cf\%81\%ce\%bf\%ce\%b8\%ce\%b5\%cf\%81\%ce\%bc\%ce\%b9\%ce\%ba\%ce\%ad\%cf\%82-\%cf\%83\%cf\%85\%ce\%bd\%ce\%b1\%cf\%81\%cf\%84\%ce\%ae\%cf\%83\%ce\%b5/?share=linkedin}{\protect\hypertarget{sharing-linkedin-13786}{}{Κλικ
+  για κοινοποίηση στο LinkedIn(Ανοίγει σε νέο παράθυρο)} {LinkedIn}}
+\item
+  \href{https://aftermathsgr.wordpress.com/2024/08/04/\%cf\%84\%ce\%b1-\%ce\%bf\%ce\%bb\%cf\%85\%ce\%bc\%cf\%80\%ce\%b9\%ce\%b1\%ce\%ba\%ce\%ac-\%cf\%85\%ce\%b4\%cf\%81\%ce\%bf\%ce\%b8\%ce\%b5\%cf\%81\%ce\%bc\%ce\%b9\%ce\%ba\%ce\%ad\%cf\%82-\%cf\%83\%cf\%85\%ce\%bd\%ce\%b1\%cf\%81\%cf\%84\%ce\%ae\%cf\%83\%ce\%b5/?share=reddit}{\protect\hypertarget{sharing-reddit-13786}{}{Κλικ
+  για κοινοποίηση στο Reddit(Ανοίγει σε νέο παράθυρο)} {Reddit}}
+\item
+  \href{https://aftermathsgr.wordpress.com/2024/08/04/\%cf\%84\%ce\%b1-\%ce\%bf\%ce\%bb\%cf\%85\%ce\%bc\%cf\%80\%ce\%b9\%ce\%b1\%ce\%ba\%ce\%ac-\%cf\%85\%ce\%b4\%cf\%81\%ce\%bf\%ce\%b8\%ce\%b5\%cf\%81\%ce\%bc\%ce\%b9\%ce\%ba\%ce\%ad\%cf\%82-\%cf\%83\%cf\%85\%ce\%bd\%ce\%b1\%cf\%81\%cf\%84\%ce\%ae\%cf\%83\%ce\%b5/?share=pinterest}{\protect\hypertarget{sharing-pinterest-13786}{}{Κλικ
+  για κοινοποίηση στο Pinterest(Ανοίγει σε νέο παράθυρο)} {Pinterest}}
+\item
+  \href{https://aftermathsgr.wordpress.com/2024/08/04/\%cf\%84\%ce\%b1-\%ce\%bf\%ce\%bb\%cf\%85\%ce\%bc\%cf\%80\%ce\%b9\%ce\%b1\%ce\%ba\%ce\%ac-\%cf\%85\%ce\%b4\%cf\%81\%ce\%bf\%ce\%b8\%ce\%b5\%cf\%81\%ce\%bc\%ce\%b9\%ce\%ba\%ce\%ad\%cf\%82-\%cf\%83\%cf\%85\%ce\%bd\%ce\%b1\%cf\%81\%cf\%84\%ce\%ae\%cf\%83\%ce\%b5/?share=tumblr}{\protect\hypertarget{sharing-tumblr-13786}{}{Κλικ
+  για κοινοποίηση στο Tumblr(Ανοίγει σε νέο παράθυρο)} {Tumblr}}
+\item
+  \href{mailto:?subject=\%5B\%CE\%94\%CE\%B9\%CE\%B1\%CE\%BC\%CE\%BF\%CE\%B9\%CF\%81\%CE\%B1\%CF\%83\%CE\%BC\%CE\%AD\%CE\%BD\%CE\%B7\%20\%CE\%B4\%CE\%B7\%CE\%BC\%CE\%BF\%CF\%83\%CE\%AF\%CE\%B5\%CF\%85\%CF\%83\%CE\%B7\%5D\%20\%CE\%A4\%CE\%B1\%20\%CE\%9F\%CE\%BB\%CF\%85\%CE\%BC\%CF\%80\%CE\%B9\%CE\%B1\%CE\%BA\%CE\%AC\%3A\%20\%CE\%A5\%CE\%B4\%CF\%81\%CE\%BF\%CE\%B8\%CE\%B5\%CF\%81\%CE\%BC\%CE\%B9\%CE\%BA\%CE\%AD\%CF\%82\%20\%CE\%A3\%CF\%85\%CE\%BD\%CE\%B1\%CF\%81\%CF\%84\%CE\%AE\%CF\%83\%CE\%B5\%CE\%B9\%CF\%82\%3B\&body=https\%3A\%2F\%2Faftermathsgr.wordpress.com\%2F2024\%2F08\%2F04\%2F\%25cf\%2584\%25ce\%25b1-\%25ce\%25bf\%25ce\%25bb\%25cf\%2585\%25ce\%25bc\%25cf\%2580\%25ce\%25b9\%25ce\%25b1\%25ce\%25ba\%25ce\%25ac-\%25cf\%2585\%25ce\%25b4\%25cf\%2581\%25ce\%25bf\%25ce\%25b8\%25ce\%25b5\%25cf\%2581\%25ce\%25bc\%25ce\%25b9\%25ce\%25ba\%25ce\%25ad\%25cf\%2582-\%25cf\%2583\%25cf\%2585\%25ce\%25bd\%25ce\%25b1\%25cf\%2581\%25cf\%2584\%25ce\%25ae\%25cf\%2583\%25ce\%25b5\%2F\&share=email}{\protect\hypertarget{sharing-email-13786}{}{Κλικ
+  για αποστολή ενός συνδέσμου μέσω email σε έναν/μία φίλο/η(Ανοίγει σε
+  νέο παράθυρο)} {Email}}
+\item
+  \protect\hyperlink{}{{Περισσότερα}}
+\item
+\end{itemize}
+
+\href{https://aftermathsgr.wordpress.com/wp-admin/options-general.php?page=sharing}{Προσαρμόστε
+τα κουμπιά}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://aftermathsgr.wordpress.com/2024/08/04/\%cf\%84\%ce\%b1-\%ce\%bf\%ce\%bb\%cf\%85\%ce\%bc\%cf\%80\%ce\%b9\%ce\%b1\%ce\%ba\%ce\%ac-\%cf\%85\%ce\%b4\%cf\%81\%ce\%bf\%ce\%b8\%ce\%b5\%cf\%81\%ce\%bc\%ce\%b9\%ce\%ba\%ce\%ad\%cf\%82-\%cf\%83\%cf\%85\%ce\%bd\%ce\%b1\%cf\%81\%cf\%84\%ce\%ae\%cf\%83\%ce\%b5/\#print?share=print}{\protect\hypertarget{sharing-print-13786}{}{Κλικ
+  για εκτύπωση(Ανοίγει σε νέο παράθυρο)} {Εκτύπωση}}
+\item
+\end{itemize}
+
+\hypertarget{like-post-wrapper-151501007-13786-695030421d4e1}{}
+{{Μου αρέσει!}} {Φόρτωση...}
+
+{}{}
+
+\hypertarget{jp-relatedposts}{}
+\hypertarget{ux3c3ux3c7ux3b5ux3c4ux3b9ux3baux3ac}{%
+\subsubsection{\texorpdfstring{\emph{Σχετικά}}{Σχετικά}}\label{ux3c3ux3c7ux3b5ux3c4ux3b9ux3baux3ac}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://aftermathsgr.wordpress.com/category/after-maths/}{After-maths}
+\item
+  \href{https://aftermathsgr.wordpress.com/category/\%ce\%bc\%ce\%b1\%ce\%b8\%ce\%b7\%ce\%bc\%ce\%b1\%cf\%84\%ce\%b9\%ce\%ba\%ce\%ac/}{Μαθηματικά}
+\item
+  \href{https://aftermathsgr.wordpress.com/category/\%ce\%bc\%ce\%b1\%ce\%b8\%ce\%b7\%ce\%bc\%ce\%b1\%cf\%84\%ce\%b9\%ce\%ba\%ce\%ac/\%cf\%84\%ce\%b1-\%ce\%bf\%ce\%bb\%cf\%85\%ce\%bc\%cf\%80\%ce\%b9\%ce\%b1\%ce\%ba\%ce\%ac/}{Τα
+  Ολυμπιακά}
+\end{itemize}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://aftermathsgr.wordpress.com/tag/featured/}{featured}
+\item
+  \href{https://aftermathsgr.wordpress.com/tag/\%ce\%b9\%ce\%bc\%ce\%bf/}{ΙΜΟ}
+\item
+  \href{https://aftermathsgr.wordpress.com/tag/\%ce\%bc\%ce\%b1\%ce\%b8\%ce\%b7\%ce\%bc\%ce\%b1\%cf\%84\%ce\%b9\%ce\%ba\%ce\%ac/}{Μαθηματικά}
+\item
+  \href{https://aftermathsgr.wordpress.com/tag/\%ce\%b1\%cf\%83\%ce\%ba\%ce\%ae\%cf\%83\%ce\%b5\%ce\%b9\%cf\%82/}{ασκήσεις}
+\end{itemize}
+
+\includegraphics[width=1.30208in,height=1.30208in]{https://1.gravatar.com/avatar/1483143d55dcbadaedc01e8d46086314406652860d299b1e4f58dd4e2ab17cc0?s=125\&d=identicon\&r=G}
+
+\hypertarget{ux3b4ux3b7ux3bcux3bfux3c3ux3b9ux3b5ux3cdux3b8ux3b7ux3baux3b5-ux3b1ux3c0ux3cc-aftermaths}{%
+\subsection{\texorpdfstring{Δημοσιεύθηκε από
+{Aftermaths}}{Δημοσιεύθηκε από Aftermaths}}\label{ux3b4ux3b7ux3bcux3bfux3c3ux3b9ux3b5ux3cdux3b8ux3b7ux3baux3b5-ux3b1ux3c0ux3cc-aftermaths}}
+
+Μαθηματικός, μάλλον...
+\href{https://aftermathsgr.wordpress.com/author/aftermathsgr/}{Δείτε όλα
+τα άρθρα του/της Aftermaths}
+
+\hypertarget{ux3c0ux3bbux3bfux3aeux3b3ux3b7ux3c3ux3b7-ux3acux3c1ux3b8ux3c1ux3c9ux3bd}{%
+\subsection{Πλοήγηση
+άρθρων}\label{ux3c0ux3bbux3bfux3aeux3b3ux3b7ux3c3ux3b7-ux3acux3c1ux3b8ux3c1ux3c9ux3bd}}
+
+\href{https://aftermathsgr.wordpress.com/2024/07/25/\%cf\%84\%ce\%b1-\%ce\%bb\%cf\%85\%ce\%bc\%ce\%ad\%ce\%bd\%ce\%b1-\%ce\%b8\%ce\%ad\%ce\%bc\%ce\%b1-003/}{{Previous}
+Τα Λυμένα: Θέμα \#003}
+
+\href{https://aftermathsgr.wordpress.com/2024/10/01/\%ce\%bc\%ce\%b5-\%cf\%86\%cf\%8c\%cf\%81\%ce\%b1-\%ce\%b1\%cf\%80\%cf\%8c-\%cf\%84\%ce\%bf-\%ce\%b3\%cf\%85\%ce\%bc\%ce\%bd\%ce\%ac\%cf\%83\%ce\%b9\%ce\%bf/}{{Next}
+Με Φόρα από το Γυμνάσιο}
+
+\hypertarget{comments}{}
+\hypertarget{respond}{}
+\hypertarget{reply-title}{%
+\subsubsection{\texorpdfstring{Σχολιάστε
+{\protect\hypertarget{cancel-comment-reply-link}{\href{/2024/08/04/\%cf\%84\%ce\%b1-\%ce\%bf\%ce\%bb\%cf\%85\%ce\%bc\%cf\%80\%ce\%b9\%ce\%b1\%ce\%ba\%ce\%ac-\%cf\%85\%ce\%b4\%cf\%81\%ce\%bf\%ce\%b8\%ce\%b5\%cf\%81\%ce\%bc\%ce\%b9\%ce\%ba\%ce\%ad\%cf\%82-\%cf\%83\%cf\%85\%ce\%bd\%ce\%b1\%cf\%81\%cf\%84\%ce\%ae\%cf\%83\%ce\%b5/\#respond}{Ακύρωση
+απάντησης}}}}{Σχολιάστε Ακύρωση απάντησης}}\label{reply-title}}
+
+Δ
+
+\hypertarget{secondary}{}
+{Αναζήτηση για:}
+
+\hypertarget{ux3b4ux3b7ux3bcux3bfux3c6ux3b9ux3bbux3ae-ux3acux3c1ux3b8ux3c1ux3b1}{%
+\subsection{Δημοφιλή
+άρθρα}\label{ux3b4ux3b7ux3bcux3bfux3c6ux3b9ux3bbux3ae-ux3acux3c1ux3b8ux3c1ux3b1}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://aftermathsgr.wordpress.com/2018/12/20/\%ce\%bc\%ce\%af\%ce\%b1-\%cf\%87\%cf\%81\%ce\%b9\%cf\%83\%cf\%84\%ce\%bf\%cf\%85\%ce\%b3\%ce\%b5\%ce\%bd\%ce\%bd\%ce\%b9\%ce\%ac\%cf\%84\%ce\%b9\%ce\%ba\%ce\%b7-\%ce\%b5\%cf\%80\%ce\%b1\%ce\%bd\%ce\%ac\%ce\%bb\%ce\%b7\%cf\%88\%ce\%b7-\%cf\%83\%cf\%84\%ce\%b7/}{\includegraphics[width=0.41667in,height=0.41667in]{https://i0.wp.com/aftermathsgr.wordpress.com/wp-content/uploads/2018/12/2017_NYR_15004_0028A_000vincent_van_gogh_laboureur_dans_un_champ.jpg?fit=1200\%2C924\&ssl=1\&resize=40\%2C40}}
+
+  \href{https://aftermathsgr.wordpress.com/2018/12/20/\%ce\%bc\%ce\%af\%ce\%b1-\%cf\%87\%cf\%81\%ce\%b9\%cf\%83\%cf\%84\%ce\%bf\%cf\%85\%ce\%b3\%ce\%b5\%ce\%bd\%ce\%bd\%ce\%b9\%ce\%ac\%cf\%84\%ce\%b9\%ce\%ba\%ce\%b7-\%ce\%b5\%cf\%80\%ce\%b1\%ce\%bd\%ce\%ac\%ce\%bb\%ce\%b7\%cf\%88\%ce\%b7-\%cf\%83\%cf\%84\%ce\%b7/}{Μία
+  Χριστουγεννιάτικη επανάληψη στην Άλγεβρα (Β' Λυκείου)}
+\item
+  \href{https://aftermathsgr.wordpress.com/2024/10/05/\%cf\%83\%cf\%85\%cf\%83\%cf\%84\%ce\%ae\%ce\%bc\%ce\%b1\%cf\%84\%ce\%b1-\%cf\%8c\%ce\%bb\%ce\%b7-\%ce\%b7-\%ce\%b8\%ce\%b5\%cf\%89\%cf\%81\%ce\%af\%ce\%b1-\%ce\%ba\%ce\%b1\%ce\%b9-\%ce\%bb\%ce\%af\%ce\%b3\%ce\%b5\%cf\%82-\%ce\%b1\%cf\%83\%ce\%ba\%ce\%ae/}{\includegraphics[width=0.41667in,height=0.41667in]{https://i0.wp.com/aftermathsgr.wordpress.com/wp-content/uploads/2024/10/egon_schiele_060.jpg?resize=40\%2C40\&ssl=1}}
+
+  \href{https://aftermathsgr.wordpress.com/2024/10/05/\%cf\%83\%cf\%85\%cf\%83\%cf\%84\%ce\%ae\%ce\%bc\%ce\%b1\%cf\%84\%ce\%b1-\%cf\%8c\%ce\%bb\%ce\%b7-\%ce\%b7-\%ce\%b8\%ce\%b5\%cf\%89\%cf\%81\%ce\%af\%ce\%b1-\%ce\%ba\%ce\%b1\%ce\%b9-\%ce\%bb\%ce\%af\%ce\%b3\%ce\%b5\%cf\%82-\%ce\%b1\%cf\%83\%ce\%ba\%ce\%ae/}{Συστήματα:
+  Όλη η Θεωρία και λίγες... Ασκήσεις}
+\item
+  \href{https://aftermathsgr.wordpress.com/2018/10/01/\%ce\%b5\%cf\%80\%ce\%b1\%ce\%bd\%ce\%b1\%ce\%bb\%ce\%b7\%cf\%80\%cf\%84\%ce\%b9\%ce\%ba\%cf\%8c-\%ce\%b4\%ce\%b9\%ce\%b1\%ce\%b3\%cf\%8e\%ce\%bd\%ce\%b9\%cf\%83\%ce\%bc\%ce\%b1-\%ce\%bc\%ce\%ad\%cf\%87\%cf\%81\%ce\%b9-\%ce\%ba\%ce\%b1\%ce\%b9-\%cf\%84\%ce\%bf/}{\includegraphics[width=0.41667in,height=0.41667in]{https://i0.wp.com/aftermathsgr.wordpress.com/wp-content/uploads/2018/10/water-lilies-and-japanese-bridge-281897-189929-monet-560x416.jpg?resize=40\%2C40\&ssl=1}}
+
+  \href{https://aftermathsgr.wordpress.com/2018/10/01/\%ce\%b5\%cf\%80\%ce\%b1\%ce\%bd\%ce\%b1\%ce\%bb\%ce\%b7\%cf\%80\%cf\%84\%ce\%b9\%ce\%ba\%cf\%8c-\%ce\%b4\%ce\%b9\%ce\%b1\%ce\%b3\%cf\%8e\%ce\%bd\%ce\%b9\%cf\%83\%ce\%bc\%ce\%b1-\%ce\%bc\%ce\%ad\%cf\%87\%cf\%81\%ce\%b9-\%ce\%ba\%ce\%b1\%ce\%b9-\%cf\%84\%ce\%bf/}{Επαναληπτικό
+  διαγώνισμα μέχρι και τους πίνακες (ΑΕΠΠ)}
+\item
+  \href{https://aftermathsgr.wordpress.com/2018/12/22/\%ce\%bb\%ce\%af\%ce\%b3\%ce\%b5\%cf\%82-\%ce\%b5\%cf\%80\%ce\%b1\%ce\%bd\%ce\%b1\%ce\%bb\%ce\%b7\%cf\%80\%cf\%84\%ce\%b9\%ce\%ba\%ce\%ad\%cf\%82-\%ce\%b1\%cf\%83\%ce\%ba\%ce\%ae\%cf\%83\%ce\%b5\%ce\%b9\%cf\%82-\%cf\%83\%cf\%84\%ce\%b7-\%cf\%83\%cf\%85\%ce\%bd/}{\includegraphics[width=0.41667in,height=0.41667in]{https://i0.wp.com/aftermathsgr.wordpress.com/wp-content/uploads/2018/12/unnamed.jpg?resize=40\%2C40\&ssl=1}}
+
+  \href{https://aftermathsgr.wordpress.com/2018/12/22/\%ce\%bb\%ce\%af\%ce\%b3\%ce\%b5\%cf\%82-\%ce\%b5\%cf\%80\%ce\%b1\%ce\%bd\%ce\%b1\%ce\%bb\%ce\%b7\%cf\%80\%cf\%84\%ce\%b9\%ce\%ba\%ce\%ad\%cf\%82-\%ce\%b1\%cf\%83\%ce\%ba\%ce\%ae\%cf\%83\%ce\%b5\%ce\%b9\%cf\%82-\%cf\%83\%cf\%84\%ce\%b7-\%cf\%83\%cf\%85\%ce\%bd/}{Λίγες
+  επαναληπτικές ασκήσεις στη συνέχεια}
+\end{itemize}
+
+\hypertarget{kux3b1ux3c4ux3b7ux3b3ux3bfux3c1ux3afux3b5ux3c2}{%
+\subsection{Kατηγορίες}\label{kux3b1ux3c4ux3b7ux3b3ux3bfux3c1ux3afux3b5ux3c2}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://aftermathsgr.wordpress.com/category/after-maths/}{After-maths}
+  (55)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://aftermathsgr.wordpress.com/category/after-maths/collatz/}{Collatz}
+    (8)
+  \item
+    \href{https://aftermathsgr.wordpress.com/category/after-maths/hyperreals/}{hyperreals}
+    (2)
+  \item
+    \href{https://aftermathsgr.wordpress.com/category/after-maths/\%ce\%b1\%ce\%be\%ce\%af\%cf\%89\%ce\%bc\%ce\%b1-\%cf\%84\%ce\%b7\%cf\%82-\%cf\%80\%ce\%bb\%ce\%b7\%cf\%81\%cf\%8c\%cf\%84\%ce\%b7\%cf\%84\%ce\%b1\%cf\%82/}{Αξίωμα
+    της πληρότητας} (6)
+  \item
+    \href{https://aftermathsgr.wordpress.com/category/after-maths/\%ce\%bf\%ce\%bb\%ce\%bf\%ce\%ba\%ce\%bb\%ce\%b7\%cf\%81\%cf\%8e\%ce\%bc\%ce\%b1\%cf\%84\%ce\%b1/}{Ολοκληρώματα}
+    (4)
+  \item
+    \href{https://aftermathsgr.wordpress.com/category/after-maths/\%cf\%83\%ce\%b5\%ce\%b9\%cf\%81\%ce\%ad\%cf\%82/}{Σειρές}
+    (1)
+  \item
+    \href{https://aftermathsgr.wordpress.com/category/after-maths/\%cf\%84\%ce\%af\%cf\%80\%ce\%bf\%cf\%84\%ce\%b1-\%cf\%83\%cf\%84\%ce\%b7\%ce\%bd-\%cf\%84\%cf\%8d\%cf\%87\%ce\%b7/}{Τίποτα
+    στην τύχη} (1)
+  \end{itemize}
+\item
+  \href{https://aftermathsgr.wordpress.com/category/\%ce\%b1\%ce\%b5\%cf\%80\%cf\%80/}{ΑΕΠΠ}
+  (41)
+\item
+  \href{https://aftermathsgr.wordpress.com/category/\%ce\%b4\%ce\%b9\%ce\%b4\%ce\%b1\%ce\%ba\%cf\%84\%ce\%b9\%ce\%ba\%cf\%8c-\%cf\%85\%ce\%bb\%ce\%b9\%ce\%ba\%cf\%8c/}{Διδακτικό
+  υλικό} (741)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://aftermathsgr.wordpress.com/category/\%ce\%b4\%ce\%b9\%ce\%b4\%ce\%b1\%ce\%ba\%cf\%84\%ce\%b9\%ce\%ba\%cf\%8c-\%cf\%85\%ce\%bb\%ce\%b9\%ce\%ba\%cf\%8c/\%cf\%84\%ce\%b1-\%ce\%bb\%cf\%85\%ce\%bc\%ce\%ad\%ce\%bd\%ce\%b1/}{Τα
+    Λυμένα} (3)
+  \end{itemize}
+\item
+  \href{https://aftermathsgr.wordpress.com/category/\%ce\%b4\%ce\%b9\%ce\%b4\%ce\%b1\%ce\%ba\%cf\%84\%ce\%b9\%ce\%ba\%ce\%ae/}{Διδακτική}
+  (10)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://aftermathsgr.wordpress.com/category/\%ce\%b4\%ce\%b9\%ce\%b4\%ce\%b1\%ce\%ba\%cf\%84\%ce\%b9\%ce\%ba\%ce\%ae/\%ce\%b5\%cf\%81\%ce\%b3\%ce\%b1\%ce\%bb\%ce\%b5\%ce\%af\%ce\%b1/}{Εργαλεία}
+    (1)
+  \end{itemize}
+\item
+  \href{https://aftermathsgr.wordpress.com/category/\%ce\%bb\%ce\%bf\%ce\%b9\%cf\%80\%ce\%ac/}{Λοιπά}
+  (14)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://aftermathsgr.wordpress.com/category/\%ce\%bb\%ce\%bf\%ce\%b9\%cf\%80\%ce\%ac/\%ce\%b1\%cf\%80\%cf\%8c\%cf\%88\%ce\%b5\%ce\%b9\%cf\%82/}{Απόψεις}
+    (10)
+  \item
+    \href{https://aftermathsgr.wordpress.com/category/\%ce\%bb\%ce\%bf\%ce\%b9\%cf\%80\%ce\%ac/longreads/}{Longreads}
+    (3)
+  \item
+    \href{https://aftermathsgr.wordpress.com/category/\%ce\%bb\%ce\%bf\%ce\%b9\%cf\%80\%ce\%ac/the-wumpus-project/}{The
+    Wumpus Project} (1)
+  \end{itemize}
+\item
+  \href{https://aftermathsgr.wordpress.com/category/\%ce\%bc\%ce\%b1\%ce\%b8\%ce\%b7\%ce\%bc\%ce\%b1\%cf\%84\%ce\%b9\%ce\%ba\%ce\%ac/}{Μαθηματικά}
+  (735)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://aftermathsgr.wordpress.com/category/\%ce\%bc\%ce\%b1\%ce\%b8\%ce\%b7\%ce\%bc\%ce\%b1\%cf\%84\%ce\%b9\%ce\%ba\%ce\%ac/\%cf\%84\%ce\%b1-\%ce\%bf\%ce\%bb\%cf\%85\%ce\%bc\%cf\%80\%ce\%b9\%ce\%b1\%ce\%ba\%ce\%ac/}{Τα
+    Ολυμπιακά} (1)
+  \end{itemize}
+\item
+  \href{https://aftermathsgr.wordpress.com/category/\%cf\%84\%ce\%b5\%cf\%83\%cf\%84\%ce\%ac\%ce\%ba\%ce\%b9-\%cf\%84\%ce\%b7\%cf\%82-\%ce\%b7\%ce\%bc\%ce\%ad\%cf\%81\%ce\%b1\%cf\%82/}{Τεστάκι
+  της ημέρας} (183)
+\item
+  \href{https://aftermathsgr.wordpress.com/category/\%cf\%86\%cf\%85\%cf\%83\%ce\%b9\%ce\%ba\%ce\%ae/}{Φυσική}
+  (17)
+\item
+  \href{https://aftermathsgr.wordpress.com/category/tikz/}{Tikz} (11)
+\end{itemize}
+
+\hypertarget{tags}{%
+\subsection{Tags}\label{tags}}
+
+\href{https://aftermathsgr.wordpress.com/tag/1-1/}{1-1}
+\href{https://aftermathsgr.wordpress.com/tag/after-maths/}{After-maths}
+\href{https://aftermathsgr.wordpress.com/tag/featured/}{featured}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b1-\%ce\%b3\%cf\%85\%ce\%bc\%ce\%bd\%ce\%b1\%cf\%83\%ce\%af\%ce\%bf\%cf\%85/}{Α'
+Γυμνασίου}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b1-\%ce\%bb\%cf\%85\%ce\%ba\%ce\%b5\%ce\%af\%ce\%bf\%cf\%85/}{Α'
+Λυκείου}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b1\%ce\%b5\%cf\%80\%cf\%80/}{ΑΕΠΠ}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b2-\%ce\%bb\%cf\%85\%ce\%ba\%ce\%b5\%ce\%af\%ce\%bf\%cf\%85/}{Β'
+Λυκείου}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b3-\%ce\%bb\%cf\%85\%ce\%ba\%ce\%b5\%ce\%af\%ce\%bf\%cf\%85/}{Γ'
+λυκείου}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b4\%ce\%b9\%ce\%b4\%ce\%b1\%ce\%ba\%cf\%84\%ce\%b9\%ce\%ba\%cf\%8c-\%cf\%85\%ce\%bb\%ce\%b9\%ce\%ba\%cf\%8c/}{Διδακτικό
+υλικό}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b5\%cf\%80\%ce\%b1\%ce\%bb/}{ΕΠΑΛ}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%bc\%ce\%b1\%ce\%b8\%ce\%b7\%ce\%bc\%ce\%b1\%cf\%84\%ce\%b9\%ce\%ba\%ce\%ac/}{Μαθηματικά}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%ac\%ce\%bb\%ce\%b3\%ce\%b5\%ce\%b2\%cf\%81\%ce\%b1/}{άλγεβρα}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b1\%ce\%bd\%ce\%b9\%cf\%83\%cf\%8e\%cf\%83\%ce\%b5\%ce\%b9\%cf\%82/}{ανισώσεις}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b1\%cf\%80\%ce\%bf\%ce\%b4\%ce\%b5\%ce\%af\%ce\%be\%ce\%b5\%ce\%b9\%cf\%82/}{αποδείξεις}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b1\%cf\%80\%cf\%8c\%ce\%bb\%cf\%85\%cf\%84\%ce\%b7-\%cf\%84\%ce\%b9\%ce\%bc\%ce\%ae/}{απόλυτη
+τιμή}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b1\%cf\%83\%ce\%ba\%ce\%ae\%cf\%83\%ce\%b5\%ce\%b9\%cf\%82/}{ασκήσεις}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b4\%ce\%b5\%cf\%85\%cf\%84\%ce\%b5\%cf\%81\%ce\%bf\%ce\%b2\%ce\%ac\%ce\%b8\%ce\%bc\%ce\%b9\%ce\%b5\%cf\%82/}{δευτεροβάθμιες}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b4\%ce\%b9\%ce\%b1\%ce\%b3\%cf\%8e\%ce\%bd\%ce\%b9\%cf\%83\%ce\%bc\%ce\%b1/}{διαγώνισμα}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b4\%ce\%b9\%ce\%b1\%cf\%86\%ce\%ac\%ce\%bd\%ce\%b5\%ce\%b9\%ce\%b5\%cf\%82/}{διαφάνειες}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b4\%ce\%bf\%ce\%bc\%ce\%ae-\%ce\%b5\%cf\%80\%ce\%b9\%ce\%bb\%ce\%bf\%ce\%b3\%ce\%ae\%cf\%82/}{δομή
+επιλογής}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b5\%ce\%ba\%ce\%b8\%ce\%b5\%cf\%84\%ce\%b9\%ce\%ba\%ce\%ae/}{εκθετική}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b5\%ce\%be\%ce\%b9\%cf\%83\%cf\%8e\%cf\%83\%ce\%b5\%ce\%b9\%cf\%82/}{εξισώσεις}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b5\%cf\%80\%ce\%b1\%ce\%bd\%ce\%ac\%ce\%bb\%ce\%b7\%cf\%88\%ce\%b7/}{επανάληψη}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%b8\%ce\%b5\%cf\%89\%cf\%81\%ce\%af\%ce\%b1/}{θεωρία}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%bb\%cf\%85\%ce\%bc\%ce\%ad\%ce\%bd\%ce\%b1-\%cf\%80\%ce\%b1\%cf\%81\%ce\%b1\%ce\%b4\%ce\%b5\%ce\%af\%ce\%b3\%ce\%bc\%ce\%b1\%cf\%84\%ce\%b1/}{λυμένα
+παραδείγματα}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%bb\%cf\%8d\%cf\%83\%ce\%b5\%ce\%b9\%cf\%82/}{λύσεις}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%bc\%ce\%b1\%ce\%b8\%ce\%b7\%ce\%bc\%ce\%b1\%cf\%84\%ce\%b9\%ce\%ba\%ce\%ac-2/}{μαθηματικά}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%bc\%ce\%bf\%ce\%bd\%ce\%bf\%cf\%84\%ce\%bf\%ce\%bd\%ce\%af\%ce\%b1/}{μονοτονία}
+\href{https://aftermathsgr.wordpress.com/tag/\%ce\%bf\%ce\%bb\%ce\%bf\%ce\%ba\%ce\%bb\%ce\%ae\%cf\%81\%cf\%89\%ce\%bc\%ce\%b1/}{ολοκλήρωμα}
+\href{https://aftermathsgr.wordpress.com/tag/\%cf\%80\%ce\%af\%ce\%bd\%ce\%b1\%ce\%ba\%ce\%b5\%cf\%82/}{πίνακες}
+\href{https://aftermathsgr.wordpress.com/tag/\%cf\%80\%ce\%b1\%ce\%bd\%ce\%b5\%ce\%bb\%ce\%bb\%ce\%ae\%ce\%bd\%ce\%b9\%ce\%b5\%cf\%82/}{πανελλήνιες}
+\href{https://aftermathsgr.wordpress.com/tag/\%cf\%80\%ce\%b1\%cf\%81\%ce\%ac\%ce\%b3\%cf\%89\%ce\%b3\%ce\%bf\%cf\%82/}{παράγωγος}
+\href{https://aftermathsgr.wordpress.com/tag/\%cf\%80\%ce\%bf\%ce\%bb\%cf\%85\%cf\%8e\%ce\%bd\%cf\%85\%ce\%bc\%ce\%b1/}{πολυώνυμα}
+\href{https://aftermathsgr.wordpress.com/tag/\%cf\%80\%cf\%81\%ce\%bf\%ce\%b2\%ce\%bb\%ce\%ae\%ce\%bc\%ce\%b1\%cf\%84\%ce\%b1/}{προβλήματα}
+\href{https://aftermathsgr.wordpress.com/tag/\%cf\%81\%ce\%af\%ce\%b6\%ce\%b5\%cf\%82/}{ρίζες}
+\href{https://aftermathsgr.wordpress.com/tag/\%cf\%83\%ce\%b7\%ce\%bc\%ce\%b5\%ce\%b9\%cf\%8e\%cf\%83\%ce\%b5\%ce\%b9\%cf\%82/}{σημειώσεις}
+\href{https://aftermathsgr.wordpress.com/tag/\%cf\%83\%cf\%84\%ce\%b1\%cf\%84\%ce\%b9\%cf\%83\%cf\%84\%ce\%b9\%ce\%ba\%ce\%ae/}{στατιστική}
+\href{https://aftermathsgr.wordpress.com/tag/\%cf\%83\%cf\%85\%ce\%bd\%ce\%ad\%cf\%87\%ce\%b5\%ce\%b9\%ce\%b1/}{συνέχεια}
+\href{https://aftermathsgr.wordpress.com/tag/\%cf\%83\%cf\%85\%ce\%bd\%ce\%b1\%cf\%81\%cf\%84\%ce\%ae\%cf\%83\%ce\%b5\%ce\%b9\%cf\%82/}{συναρτήσεις}
+\href{https://aftermathsgr.wordpress.com/tag/\%cf\%83\%cf\%85\%cf\%83\%cf\%84\%ce\%ae\%ce\%bc\%ce\%b1\%cf\%84\%ce\%b1/}{συστήματα}
+\href{https://aftermathsgr.wordpress.com/tag/\%cf\%84\%ce\%b5\%cf\%83\%cf\%84/}{τεστ}
+\href{https://aftermathsgr.wordpress.com/tag/\%cf\%84\%cf\%81\%ce\%b9\%ce\%b3\%cf\%89\%ce\%bd\%ce\%bf\%ce\%bc\%ce\%b5\%cf\%84\%cf\%81\%ce\%af\%ce\%b1/}{τριγωνομετρία}
+\href{https://aftermathsgr.wordpress.com/tag/\%cf\%8c\%cf\%81\%ce\%b9\%ce\%b1/}{όρια}
+
+\hypertarget{cc-by-nc-sa}{%
+\subsection{CC-BY-NC-SA}\label{cc-by-nc-sa}}
+
+\includegraphics[width=13.33333in,height=4.66667in]{https://aftermathsgr.wordpress.com/wp-content/uploads/2020/10/cc-by-nc-sa_euro_icon.svg_.png?w=1280}
+
+\href{https://wordpress.com/?ref=footer_custom_svg}{}
+
+\hypertarget{actionbar}{}
+\begin{LTR}
+\begin{itemize}
+\tightlist
+\item
+  \href{https://aftermathsgr.wordpress.com/wp-admin/post.php?post=13786\&action=edit}{
+  {Αλλαγή}}
+\item
+  \href{https://aftermathsgr.wordpress.com/wp-admin/admin.php?page=stats\#!/stats/post/13786/151501007}{
+  {Στατιστικά}}
+\item
+  \protect\hyperlink{}{ {Απόρρητο }}
+\item
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://aftermathsgr.wordpress.com}{\includegraphics[width=0.52083in,height=0.52083in]{https://aftermathsgr.wordpress.com/wp-content/uploads/2021/09/aftermaths_logo_transparent.png?w=50}
+    aftermaths.gr}
+  \item
+    \href{https://wp.me/pafGkD-3Am}{{Αντιγραφή συντόμευσης συνδέσμου}
+    {}}
+  \item
+    \href{https://wordpress.com/reader/blogs/151501007/posts/13786}{Δες
+    το άρθρο στον Αναγνώστη}
+  \item
+    \href{https://wordpress.com/read/subscriptions/460148280}{Διαχείριση
+    συνδρομής}
+  \item
+    \href{}{Σύμπτυξη μπάρας}
+  \end{itemize}
+\end{itemize}
+\end{LTR}
+
+\hypertarget{jp-carousel-loading-overlay}{}
+\hypertarget{jp-carousel-loading-wrapper}{}
+\protect\hypertarget{jp-carousel-library-loading}{}{~}
+
+\hypertarget{section}{%
+\subsection{}\label{section}}
+
+\protect\hyperlink{}{{ }} \protect\hyperlink{}{{ {} }}
+
+\hypertarget{section-1}{%
+\subsection{}\label{section-1}}
+
+\hypertarget{jp-carousel-comments-loading}{}
+{Φόρτωση σχόλιων...}
+
+\hypertarget{jp-carousel-comment-form-container}{}
+\protect\hypertarget{jp-carousel-comment-form-spinner}{}{~}
+
+\hypertarget{jp-carousel-comment-post-results}{}
+
+Γράψτε ένα σχόλιο
+
+\hypertarget{jp-carousel-comment-form-submit-and-info-wrapper}{}
+\leavevmode\vadjust pre{\hypertarget{jp-carousel-comment-form-commenting-as}{}}%
+Σχολιασμός ως Aftermaths
+
+\hypertarget{section-2}{%
+\subsubsection{}\label{section-2}}
+
+\protect\hyperlink{}{ {}}
+
+\hypertarget{likes-other-gravatars}{}
+{\%d}
+
+\includegraphics{https://pixel.wp.com/b.gif?v=noscript}
+
+\hypertarget{wpadminbar}{}
+\protect\hyperlink{wp-toolbar}{Μετάβαση σε γραμμή εργαλείων}
+
+\hypertarget{wp-toolbar}{}
+\begin{itemize}
+\tightlist
+\item
+  \protect\hypertarget{wp-admin-bar-wpcom-logo}{}{\href{https://wordpress.com/sites?origin_site_id=151501007\&origin_admin_bar=wpcom}{{}{Όλοι
+  οι ιστότοποι}}}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hypertarget{wp-admin-bar-wpcom-sites}{}{\href{https://wordpress.com/sites?origin_site_id=151501007\&origin_admin_bar=wpcom}{Ιστότοποι}}
+  \item
+    \protect\hypertarget{wp-admin-bar-wpcom-domains}{}{\href{https://wordpress.com/domains/manage?origin_site_id=151501007\&origin_admin_bar=wpcom}{Domains}}
+  \end{itemize}
+\item
+  \protect\hypertarget{wp-admin-bar-site-name}{}{\href{https://wordpress.com/home/aftermathsgr.wordpress.com}{aftermaths.gr}}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hypertarget{wp-admin-bar-dashboard}{}{\href{https://wordpress.com/home/aftermathsgr.wordpress.com}{Πίνακας
+    ελέγχου}}
+  \item
+    \protect\hypertarget{wp-admin-bar-plugins}{}{\href{https://wordpress.com/plugins/aftermathsgr.wordpress.com}{Πρόσθετα}}
+  \end{itemize}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hypertarget{wp-admin-bar-themes}{}{\href{https://wordpress.com/themes/aftermathsgr.wordpress.com}{Θέματα}}
+  \item
+    \protect\hypertarget{wp-admin-bar-widgets}{}{\href{https://aftermathsgr.wordpress.com/wp-admin/widgets.php}{Μικροεφαρμογές}}
+  \item
+    \protect\hypertarget{wp-admin-bar-menus}{}{\href{https://aftermathsgr.wordpress.com/wp-admin/nav-menus.php}{Μενού}}
+  \item
+    \protect\hypertarget{wp-admin-bar-background}{}{\href{https://aftermathsgr.wordpress.com/wp-admin/themes.php?page=custom-background}{Φόντο}}
+  \item
+    \protect\hypertarget{wp-admin-bar-header}{}{\href{https://aftermathsgr.wordpress.com/wp-admin/themes.php?page=custom-header}{Επικεφαλίδα}}
+  \end{itemize}
+
+  \begin{itemize}
+  \item
+    \hypertarget{wp-admin-bar-site-plan-badge}{}
+    \href{https://wordpress.com/plans/aftermathsgr.wordpress.com}{{Πλάνο}
+    {Δωρεάν}}
+  \end{itemize}
+\item
+  \protect\hypertarget{wp-admin-bar-customize}{}{\href{https://aftermathsgr.wordpress.com/wp-admin/customize.php?url=https\%3A\%2F\%2Faftermathsgr.wordpress.com\%2F2024\%2F08\%2F04\%2F\%25cf\%2584\%25ce\%25b1-\%25ce\%25bf\%25ce\%25bb\%25cf\%2585\%25ce\%25bc\%25cf\%2580\%25ce\%25b9\%25ce\%25b1\%25ce\%25ba\%25ce\%25ac-\%25cf\%2585\%25ce\%25b4\%25cf\%2581\%25ce\%25bf\%25ce\%25b8\%25ce\%25b5\%25cf\%2581\%25ce\%25bc\%25ce\%25b9\%25ce\%25ba\%25ce\%25ad\%25cf\%2582-\%25cf\%2583\%25cf\%2585\%25ce\%25bd\%25ce\%25b1\%25cf\%2581\%25cf\%2584\%25ce\%25ae\%25cf\%2583\%25ce\%25b5\%2F}{Προσαρμογή}}
+\item
+  \protect\hypertarget{wp-admin-bar-comments}{}{\href{https://aftermathsgr.wordpress.com/wp-admin/edit-comments.php}{{}{0}{0
+  σχόλια αναμένουν να εγκριθούν.}}}
+\item
+  \protect\hypertarget{wp-admin-bar-new-content}{}{\href{/wp-admin/post-new.php?post_type=post}{{}{Προσθήκη}}}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hypertarget{wp-admin-bar-new-post}{}{\href{/wp-admin/post-new.php?post_type=post}{Άρθρου}}
+  \item
+    \protect\hypertarget{wp-admin-bar-new-media}{}{\href{https://aftermathsgr.wordpress.com/wp-admin/media-new.php}{Πολυμέσων}}
+  \item
+    \protect\hypertarget{wp-admin-bar-new-page}{}{\href{https://aftermathsgr.wordpress.com/wp-admin/post-new.php?post_type=page}{Σελίδας}}
+  \item
+    \protect\hypertarget{wp-admin-bar-new-jetpack-testimonial}{}{\href{https://aftermathsgr.wordpress.com/wp-admin/post-new.php?post_type=jetpack-testimonial}{Σχόλιο}}
+  \item
+    \protect\hypertarget{wp-admin-bar-new-user}{}{\href{https://wordpress.com/people/new/aftermathsgr.wordpress.com}{Μέλους}}
+  \end{itemize}
+\item
+  \protect\hypertarget{wp-admin-bar-edit}{}{\href{https://aftermathsgr.wordpress.com/wp-admin/post.php?post=13786\&action=edit}{Τροποποίηση
+  Άρθρου}}
+\end{itemize}
+
+\begin{itemize}
+\item
+  \protect\hypertarget{wp-admin-bar-reader}{}{\href{https://wordpress.com/reader?origin_site_id=151501007}{{}{Αναγνωστήριο}}}
+\item
+  \protect\hypertarget{wp-admin-bar-help-center}{}{\href{https://wordpress.com/help?help-center=home}{{
+  }}}
+
+  \hypertarget{help-center-masterbar}{}
+\item
+  \protect\hypertarget{wp-admin-bar-notes}{}{\href{https://wordpress.com/notifications}{{\protect\hypertarget{wpnt-notes-unread-count}{}{}{}}}}
+
+  \hypertarget{wpnt-notes-panel2}{}
+  \begin{LTR}
+  \begin{otherlanguage}{greek}
+
+  {}{}
+
+  \end{otherlanguage}
+  \end{LTR}
+\item
+  \protect\hypertarget{wp-admin-bar-my-account}{}{\href{https://aftermathsgr.wordpress.com/wp-admin/profile.php}{Γεια
+  σου,
+  {Aftermaths}\includegraphics[width=0.27083in,height=0.27083in]{https://1.gravatar.com/avatar/1483143d55dcbadaedc01e8d46086314406652860d299b1e4f58dd4e2ab17cc0?s=26\&d=identicon\&r=G}}}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hypertarget{wp-admin-bar-user-info}{}{\href{https://aftermathsgr.wordpress.com/wp-admin/profile.php}{\includegraphics[width=0.66667in,height=0.66667in]{https://1.gravatar.com/avatar/1483143d55dcbadaedc01e8d46086314406652860d299b1e4f58dd4e2ab17cc0?s=64\&d=identicon\&r=G}{Aftermaths}{aftermathsgr}{Επεξεργασία
+    προφίλ}}}
+  \item
+    \protect\hypertarget{wp-admin-bar-logout}{}{\href{https://aftermathsgr.wordpress.com/wp-login.php?action=logout\&_wpnonce=d3134d8c87}{Αποσύνδεση}}
+  \end{itemize}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \protect\hypertarget{wp-admin-bar-my-wpcom-account}{}{\href{https://wordpress.com/me/account?origin_site_id=151501007\&origin_admin_bar=wpcom}{{Ο
+    λογαριασμός μου {} στο WordPress.com}}}
+  \end{itemize}
+\item
+  \hypertarget{wp-admin-bar-search}{}
+  Αναζήτηση
+\end{itemize}
+
+\hypertarget{marketingbar}{}
+Αναβάθμισε το πλάνο σου για να αφαιρέσεις τον Αποκλεισμό και να
+ξεκλειδώσεις περισσότερες δυνατότητες, από 4~€/μήνα
+
+\href{https://wordpress.com/plans/aftermathsgr.wordpress.com/?ref=marketing_bar}{Αναβάθμιση}\href{https://wordpress.com/plans/aftermathsgr.wordpress.com/?ref=marketing_bar}{}
+
+\end{document}
