@@ -1,7 +1,7 @@
 import os
 import json
 import time
-from entities.Scrapper import Scrapper
+from entities.Scraper import Scraper
 from entities.Transcoder import Transcoder
 from entities.Post import Post
 
@@ -13,9 +13,8 @@ POSTS_DIR = os.path.join(PWD, 'posts')
 
 def main():
     for url in URLS:
-        post = Scrapper.scrap(url)
-        transcoder = Transcoder(post)
-        transcoder.write(directory=POSTS_DIR) # Uses post name to write to file
+        post = Scraper.scrap(url)
+        post.write(format='latex', directory=POSTS_DIR) # Uses post name to write to file
         time.sleep(2)
 
 if __name__ == '__main__':
