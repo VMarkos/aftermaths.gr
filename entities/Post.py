@@ -22,7 +22,7 @@ class Post:
     def as_dict(self) -> dict[str, any]:
         return {
             'author': self._author,
-            'date': self._date.strftime('%Y-%m-%dT%H:%M%S'),
+            'date': self._date.strftime('%Y-%m-%dT%H:%M:%S'),
             'title': self._title,
             'content': str(self._content),
         }
