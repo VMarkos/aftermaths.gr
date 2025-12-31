@@ -1,4 +1,4 @@
-const launchDate = new Date("Jan 1, 2026 00:00:00").getTime();
+const launchDate = new Date("Jan 5, 2026 00:00:00").getTime();
 
 const x = setInterval(function() {
 
