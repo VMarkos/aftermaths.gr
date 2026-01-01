@@ -3,6 +3,7 @@ import re
 import os
 import json
 from datetime import date
+from Tag import Tag
 # from Transcoder import Transcoder
 
 class Post:
@@ -10,7 +11,7 @@ class Post:
         self._author = author
         self._date = date
         self._title = title
-        self._content = content
+        self._content = self.__parse_content(content)
         self.__valid_formats = {'latex', 'json'}
 
     @property
@@ -18,6 +19,9 @@ class Post:
         date = self._date.strftime('%d-%m-%Y')
         title = re.sub(r'\W+', r'_', self._title.strip())
         return f'{title}_{self._author}_{date}'
+
+    def __parse_content(self, content) -> list[Tag]:
+        return [Tag(t) for t in content.findChildren()]
 
     def as_dict(self) -> dict[str, any]:
         return {
