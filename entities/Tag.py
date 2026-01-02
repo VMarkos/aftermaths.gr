@@ -16,11 +16,13 @@ class Tag:
             case 'p':
                 self.__init_p_tag(bs_tag)
             case 'div':
-                self.__init_div(bs_tag)
+                self.__init_div_tag(bs_tag)
+            case 'ul':
+                self.__init_ul_tag(bs_tag)
             case _:
                 raise ValueError(f'Invalid tag name: "{tag_name}".')
 
-    # TODO: Some tags need processing, so treat them separately, some others do not, e.g., headings, videos etc.
+    # TODO: Working on ul / ol
 
     def __init_flat_tag(self, bs_tag) -> None:
         self.name = bs_tag.name
@@ -34,7 +36,14 @@ class Tag:
                 fig_tag = bs_tag.find('figure')
                 self.__init_figure(fig_tag)
             case _:
-                raise ValueError(f'Unknown div class: "div_class"')
+                raise ValueError(f'Unknown div class: "{div_class}"')
+
+    def __init_blockquote_tag(self, bq_tag) -> None:
+        self.name = 'blockquote'
+        self.text = ''
+        self.attrs = {
+            'contents': tuple(Tag(c) for c in bq_tag.contents),
+        }
 
     def __init_p_tag(self, p_tag) -> None:
         p_class = p_tag.get("class")
