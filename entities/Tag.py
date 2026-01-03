@@ -12,13 +12,13 @@ class Tag:
             case w if w in self.FLAT_TAGS:
                 self.__init_flat_tag(bs_tag)
             case 'blockquote':
-                ...
+                self.__init_blockquote_tag(bs_tag)
             case 'p':
                 self.__init_p_tag(bs_tag)
             case 'div':
                 self.__init_div_tag(bs_tag)
-            case 'ul':
-                self.__init_ul_tag(bs_tag)
+            case 'ul' | 'ol':
+                self.__init_list_tag(bs_tag)
             case _:
                 raise ValueError(f'Invalid tag name: "{tag_name}".')
 
@@ -29,7 +29,7 @@ class Tag:
         self.text = bs_tag.text
         self.attrs = dict()
 
-    def __init_div_tag(bs_tag) -> None:
+    def __init_div_tag(self, bs_tag) -> None:
         div_class = bs_tag.get('class')
         match div_class:
             case 'wp-block-image':
@@ -37,6 +37,14 @@ class Tag:
                 self.__init_figure(fig_tag)
             case _:
                 raise ValueError(f'Unknown div class: "{div_class}"')
+
+    def __init_list_tag(self, bs_tag) -> None:
+        self.name = bs_tag.name
+        self.text = ''
+        self.attrs = {
+            'contents': [TagUtils.parse_li_tag(li) for li in bs_tag.contents]
+            'ordered': self.name == 'ol'
+        }
 
     def __init_blockquote_tag(self, bq_tag) -> None:
         self.name = 'blockquote'
@@ -141,3 +149,7 @@ class TagUtils:
         if alt is None:
             raise ValueError(f'Missing alt from math img tag "{img_tag}".')
         return html.unescape(alt)
+
+    @staticmethod
+    def parse_li_tag(li_tag) -> str:
+        return parse_tag_text(lit_tag)
