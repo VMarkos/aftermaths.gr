@@ -42,7 +42,7 @@ class Tag:
         self.name = bs_tag.name
         self.text = ''
         self.attrs = {
-            'contents': [TagUtils.parse_li_tag(li) for li in bs_tag.contents]
+            'contents': tuple(TagUtils.parse_li_tag(li) for li in bs_tag.contents)
             'ordered': self.name == 'ol'
         }
 
@@ -59,8 +59,8 @@ class Tag:
             p_class
             and "has-text-align-center" in p_class
             and len(p.contents) == 1
-            and p_tag.find("img")
-        ):  # is this correct?
+            and p_tag.find("img", class_='latex')
+        ):
             self.__init_display_math(p_tag)
         else:
             self.name = "p"
@@ -108,6 +108,8 @@ class TagUtils:
                 return parse_bold_tag(bs_tag)
             case "i":
                 return parse_italics_tag(bs_tag)
+            case "br":
+                return parse_br_tag(bs_tag)
             case _:
                 raise ValueError(f'Unexpected nested tag: "{bs_tag.name}".')
 
@@ -132,6 +134,10 @@ class TagUtils:
     @staticmethod
     def parse_italics_tag(bs_tag) -> str:
         return parse_formatting_tag(bs_tag, "textit")
+
+    @staticmethod
+    def parse_br_tag(bs_tag) -> str:
+        return '\n'
 
     @staticmethod
     def parse_inline_math(img_tag) -> str:
