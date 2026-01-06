@@ -1,0 +1,27 @@
+Οι λύσεις του 6ου Workshop
+##########################
+:date: 2020-02-18 15:34
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: Fermat, προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ασκήσεις, λύσεις, Rolle, Workshop
+:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-6%ce%bf%cf%85-workshop
+:status: published
+:attachments: wp-content/uploads/2020/02/412px-rembrandt_abraham_en_isaac_1634.jpg
+
+Οι λύσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1rSTgQ1HM2MhcOtal5cPBeby3N1HzLb0_/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Η θυσία του Ισαάκ* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.*
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed-youtube wp-block-embed is-type-rich wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=qPj6t1u_r2o
+
+.. raw:: html
+
+   </figure>

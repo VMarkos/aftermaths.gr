@@ -1,0 +1,31 @@
+Μαθηματικά
+##########
+:date: 2023-09-27 10:52
+:author: aftermathsgr
+:slug: %ce%bc%ce%b1%ce%b8%ce%b7%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%ce%ac
+:status: published
+
+`Αρχική <http://aftermaths.gr>`__ > `Διδακτικό Υλικό <http://aftermaths.gr/διδακτικό-υλικό>`__ > `2023-2024 <https://aftermaths.gr/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/2023-2024/>`__ > `Λύκειο <https://aftermaths.gr/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/2023-2024/%ce%bb%cf%8d%ce%ba%ce%b5%ce%b9%ce%bf/>`__ > **Μαθηματικά**
+
+Εδώ μπορείτε να βρείτε διδακτικό υλικό σχετικό με τα μαθηματικά όλων των τάξεων Γενικού και Επαγγελματικού Λυκείου.
+
+| **Α' Λυκείου - Άλγεβρα**
+| `Σύνολα και Πράξεις (Φύλλο Εργασίας) <https://drive.google.com/file/d/19-EAl8TSOLyVxMaJ-Hf1sDKfEABUiH90/view?usp=sharing>`__
+| `Τα Βασικά Σύνολα <https://drive.google.com/file/d/1mFV6Og2f3NWL09SHasOGFBbJpt4xMxI7/view?usp=sharing>`__
+| `Τεστάκι της Ημέρας - Σύνολα <https://drive.google.com/file/d/19-IjReeh-rmqIGhQcPifNoIXb1sNKvWH/view?usp=sharing>`__
+| `Τετράγωνα και... Τετραγωνάκια (Φύλλο Εργασίας) <https://drive.google.com/file/d/1yEqlMRP05fHKeQeopr-uD3TRBsesqPtk/view?usp=sharing>`__
+| `Εισαγωγή στους Πραγματικούς Αριθμούς (Ασκήσεις) <https://drive.google.com/file/d/1oa-K_XWm6JP7TRvqtIcfYT1cSbIWlseF/view?usp=sharing>`__
+| `Ανισότητες και Αποδείξεις (Φύλλο Εργασίας) <https://drive.google.com/file/d/10G3W4DoKLH6me-n9SBzxzBisJXx82xzc/view?usp=sharing>`__
+| `Γυμναστική στις Αποδείξεις (Ασκήσεις) <https://drive.google.com/file/d/19KZkp1LamBiNvQ0YD0Onn18dnNDz2wBK/view?usp=sharing>`__
+
+| **Α' Λυκείου - Γεωμετρία**
+| `Μία μικρή εισαγωγή στις γωνίες <https://drive.google.com/file/d/1KXOntZp1qXwgBAC5PcV3lKfCi8dvPGYC/view?usp=sharing>`__
+
+| **Β' Λυκείου - Άλγεβρα**
+| `Φρούτα... του Συστήματος (Φύλλο Εργασίας) <https://drive.google.com/file/d/1W3xnwyoQTlYkfskAAWMEK_-ipBgk8QMf/view?usp=sharing>`__
+| `Προβλήματα του Συστήματος <https://drive.google.com/file/d/1kaLNycPaZJz6JKEYNt9iYldjvIQbYeoF/view?usp=sharing>`__
+| `Πάνω, κάτω, αριστερά και δεξιά (Φύλλο Εργασίας) <http://\draw%5Bthick%5D%20(1,-1)%20--%20(1,4)%20node%5Bpos=1,%20above%5D%7B$x=1$%7D;>`__
+| `Μονοτονία και Συμμετρία (Ασκήσεις) <https://drive.google.com/file/d/1OhOWvELeXzj2IB6enraPNkoEMltE3G-g/view?usp=sharing>`__
+
+| **Β' Λυκείου - Γεωμετρία**
+| `Εισαγωγή στις αναλογίες (Φύλλο Εργασίας) <https://drive.google.com/file/d/1ZmzO_IwKyjz-dajImERBpJB9H9CvWoVT/view?usp=sharing>`__

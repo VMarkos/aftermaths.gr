@@ -1,0 +1,27 @@
+Εισαγωγή στους πίνακες
+######################
+:date: 2020-02-08 20:42
+:author: aftermathsgr
+:category: ΑΕΠΠ, Διδακτικό υλικό
+:tags: προβλήματα, πίνακες, πανελλήνιες, Γ' λυκείου, ασκήσεις, μονοδιάστατοι
+:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%bf%cf%85%cf%82-%cf%80%ce%af%ce%bd%ce%b1%ce%ba%ce%b5%cf%82
+:status: published
+:attachments: wp-content/uploads/2020/02/768px-rembrandt_harmensz._van_rijn_-_the_abduction_of_europa_-_google_art_project.jpg
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1nvaXD8qrbKYyZututWtt2t2zsozb9N0s/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Η απαγωγή της Ευρώπης* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.*
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed-youtube wp-block-embed is-type-rich wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=g313oidoQiU
+
+.. raw:: html
+
+   </figure>

@@ -1,0 +1,11 @@
+Ολο-clear-ώματα: Gauss, Euler, Poisson
+######################################
+:date: 2020-10-27 14:21
+:author: aftermathsgr
+:category: Χωρίς κατηγορία
+:slug: 3219
+:status: draft
+
+Σε αυτό το μέρος της σειράς Ολο-clear-ώματα θα ασχοληθούμε με ένα φημισμένο, ολοκλήρωμα, το ολοκλήρωμα του Gauss - ή, όπως πολύ συχνά λέγεται, το ολοκλήρωμα Euler-Poisson:
+
+$latex \\displaystyle\int_{-\infty}^\infty e^{-x^2}dx.$

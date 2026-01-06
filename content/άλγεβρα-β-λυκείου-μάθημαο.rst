@@ -1,0 +1,29 @@
+Άλγεβρα, Β' Λυκείου - Μάθημα 11ο
+################################
+:date: 2021-11-24 14:25
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: τριγωνομετρία, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, διαφάνειες, θεωρία
+:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-11%ce%bf
+:status: published
+:attachments: wp-content/uploads/2021/11/portrait_de_madame_de_verninac_by_david_louvre_rf1942-16_n2.jpg
+
+Λίγες εισαγωγικές διαφάνειες στις τριγωνομετρικές εξισώσεις - Άλγεβρα, Β' Γενικού Λυκείου και ΕΠΑΛ.
+
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2021/11/17/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-10%ce%bf/>`__\ *ενώ τις αντίστοιχες διαφάνειες της Α' Λυκείου*\ `εδώ <https://aftermaths.gr/2021/11/15/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-10%ce%bf/>`__\ *.*
+
+Η κεντρική εικόνα είναι το πορτραίτο της Κυρίας του Verninac του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__.
+
+Καλησπέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=N2RNe2jwHE0
+
+.. raw:: html
+
+   </figure>

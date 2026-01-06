@@ -1,0 +1,29 @@
+Διαφάνειες, Άλγεβρα - Β' Λυκείου
+################################
+:date: 2021-04-13 12:24
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: πολυώνυμα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, διαφάνειες, επανάληψη, εκθετική, θεωρία, λυμένα παραδείγματα, μαθηματικά
+:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-8
+:status: published
+:attachments: wp-content/uploads/2021/04/gugg_still_life_flowers.jpg
+
+Διαφάνειες στην ύλης της άλγεβρας της Β' Λυκείου - Γενικού και, εν μέρει και ΕΠΑΛ - που καλύπτουν το κεφάλαιο των πολυωνύμων καθώς και μία εισαγωγή στις εκθετικές συναρτήσεις.
+
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1YZAAu4UC2FZtR4TUtxHpzgK7KxtwbTnS/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Το πρώτο μέρος των διαφανειών που καλύπτει τα τρία πρώτα κεφάλαια της ύλης - συστήματα, συναρτήσεις και τριγωνομετρία - μπορείτε να το βρείτε `εδώ <https://aftermathsgr.wordpress.com/2021/02/18/%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-6/>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Νεκρή φύση: Λουλούδια* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.*
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=3q8nGnls1Ow
+
+.. raw:: html
+
+   </figure>

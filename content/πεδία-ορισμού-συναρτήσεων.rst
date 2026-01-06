@@ -1,0 +1,27 @@
+Πεδία ορισμού συναρτήσεων
+#########################
+:date: 2020-04-20 15:01
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, συναρτήσεις, Α' Λυκείου, ασκήσεις, επανάληψη
+:slug: %cf%80%ce%b5%ce%b4%ce%af%ce%b1-%ce%bf%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%cf%89%ce%bd
+:status: published
+:attachments: wp-content/uploads/2020/04/netherlands-4183_-_the_syndics_rembrandt.jpg
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1G219KqJNKwUy1pIn5WK4d-g2ihnCPEhK/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Οι σύνδικοι της συντεχνίας των υφασματεμπρόρων* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.*
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed-youtube wp-block-embed is-type-rich wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=pTBooio3h9U
+
+.. raw:: html
+
+   </figure>

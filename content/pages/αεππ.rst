@@ -1,0 +1,13 @@
+ΑΕΠΠ
+####
+:date: 2021-09-01 10:25
+:author: aftermathsgr
+:slug: %ce%b1%ce%b5%cf%80%cf%80
+:status: published
+:attachments: wp-content/uploads/2018/09/in-the-classroom-konstantin-makovsky.jpg
+
+`Αρχική <http://aftermathsgr.wordpress.com>`__ > `Διδακτικό Υλικό <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__ > `2020-2021 <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/2021-2022/>`__ > `Λύκειο <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/2021-2022/%ce%bb%cf%8d%ce%ba%ce%b5%ce%b9%ce%bf/>`__ > **ΑΕΠΠ**
+
+Εδώ θα βρείτε υλικό σε σχέση με το μάθημα Ανάπτυξης Εφαρμογών σε Προγραμματιστικό Περιβάλλον (ΑΕΠΠ) της Γ' Γενικού Λυκείου.
+
+`Ένα καλοκαιρινό φρεσκάρισμα... <https://drive.google.com/file/d/1FjEw3VuwrnOibTaxuDQqhl6_mtnmCrL0/view?usp=sharing>`__

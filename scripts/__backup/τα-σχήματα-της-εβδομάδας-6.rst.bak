@@ -1,0 +1,220 @@
+Τα σχήματα της εβδομάδας (6)
+############################
+:date: 2021-09-21 15:16
+:author: aftermathsgr
+:tags: featured, Μαθηματικά, Tikz
+:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-6
+:status: published
+:attachments: wp-content/uploads/2021/09/camille_pissarro_-_boulevard_montmartre_at_night_-_c_1897_-_national_gallery_uk.jpg
+
+Άλλη μία εβδομάδα πέρασε, άλλα λίγα σχήματα προστέθηκαν στην πλάτη μας. Ας περάσουμε να τα δούμε λίγο αναλυτικότερα.
+
+*Για τα σχήματα της προηγούμενης εβδομάδας, όπου και παρουσιάσαμε την πρώτη μας βιβλιοθήκη του ``tikz`` δείτε*\ `εδώ <https://aftermaths.gr/2021/09/14/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-5/>`__\ *, ενώ όλες τις αναρτήσεις της σειράς μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
+
+Άλλη μία γραφική παράσταση...
+-----------------------------
+
+Το πρώτο σχήμα της προηγούμενης εβδομάδας ήταν το ακόλουθο:
+
+.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_30.png?w=723
+   :alt: Ένα απλό πολυώνυμο!
+   :figclass: wp-image-8259
+
+   Ένα απλό πολυώνυμο!
+
+Ο αντίστοιχος κώδικας είναι ο εξής:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \documentclass[tikz, margin=5mm]{standalone}
+   \usepackage{xfrac}
+   \usetikzlibrary{calc}
+    
+   \begin{document}
+       \begin{tikzpicture}
+       \draw[thick,->] (-1,0) -- (5,0)node[pos=1,below]{$x$};
+       \draw[thick,->] (0,-5) -- (0,1)node[pos=1,left]{$y$};
+       \draw[thick,domain={0}:{4},samples=100] plot (\x,{\x*\x*\x/3-2.5*\x*\x+4*\x-11/6});
+       \node[circle, inner sep=1.5pt, draw=black, fill=black, label={left}:{$f(0)$}](a) at (0,{-11/6}){};
+       \node[circle, inner sep=1.5pt, draw=black, fill=black, label={above}:{1}](b) at (1,0){};
+       \node[circle, inner sep=1.5pt, draw=black, fill=black](d) at (2.5,{-27/12}){};
+       \node[circle, inner sep=1.5pt, draw=black, fill=black](c) at (4,{-27/6}){};
+       \node[above](e) at ($(0,0)!(c)!(4,0)$){$4$};
+       \node[left](f) at ($(0,0)!(c)!(0,-3)$){$f(4)$};
+       \draw[dashed] (0,0) rectangle (c);
+       \draw[dashed] (0,0) rectangle (d);
+       \node[left,yshift=-4pt] at ($(0,1)!(d)!(0,-5)$){$f(\sfrac{5}{2})$};
+       \node[above] at ($(-1,0)!(d)!(5,0)$){$\sfrac{5}{2}$};
+       \end{tikzpicture}
+   \end{document}
+
+Εδώ έχουμε ένα σχήμα παρόμοιο με αυτά που είδαμε την προηγούμενη εβδομάδα, όπου κάναμε και την πρώτη μας εισαγωγή στην βιβλιοθήκη ``calc``. Κι εδώ, χρησιμοποιήσαμε την εν λόγω βιβλιοθήκη για να υπολογίσουμε διάφορες προβολές από γνωστούς κόμβους. Παρατηρήστε ότι μπορούμε να χρησιμοποιούμε κανονικά πράξεις που κάνουμε μέσω της ``calc`` και για να τοποθετήσουμε κόμβους σε συγκεκριμένες θέσεις - την `προηγούμενη εβδομάδα <https://aftermaths.gr/2021/09/14/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-5/>`__ είχαμε δει την περίπτωση όπου χρησιμοποιήσαμε προβολές για να σχεδιάσουμε ευθείες.
+
+Κι άλλη γραφική παράσταση...
+----------------------------
+
+Το επόμενο σχήμα μας είναι αυτό:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \documentclass[tikz, margin=5mm]{standalone}
+   \usepackage{xfrac}
+   \usetikzlibrary{calc}
+    
+   \begin{document}
+       \begin{tikzpicture}
+       \draw[thick,->] (-1,0) -- (6,0)node[pos=1,below]{$x$};
+       \draw[thick,->] (0,-1) -- (0,5)node[pos=1,left]{$y$};
+       \node[circle, inner sep=1.5pt, draw=black, fill=black](o) at (0,0){};
+       \begin{scope}
+       \clip (-1,-1) rectangle (6,5);
+       \draw[thick, domain={.001}:{7},samples=200] plot (\x,{\x*ln(\x)});
+       \node[circle, inner sep=1.5pt, draw=black, fill=black](a) at ({1/exp(1)},{-1/exp(1)}){};
+       \node[circle, inner sep=1.5pt, draw=black, fill=black, label={below}:{1}](b) at (1,0){};
+       \draw[dashed] (o) rectangle (a);
+       \node[left] at ($(0,-1)!(a)!(0,5)$){$-\sfrac{1}{e}$};
+       \node[above] at ($(-1,0)!(a)!(5,0)$){$\sfrac{1}{e}$};
+       \end{scope}
+       \end{tikzpicture}
+   \end{document}
+
+Κι εδώ, είναι η αλήθεια, δεν έχουμε κάτι ιδιαίτερο να σχολιάσουμε πέρα από την εμφάνιση της συνάρτησης ``exp`` που είναι, όπως προδίδει και το όνομά της, η εκθετική συνάρτηση με βάση $latex e.$ Γενικά, όταν θέλουμε να κάνουμε πράξεις με εκθετικές συναρτήσεις είναι χρήσιμο να χρησιμοποιούμε την ενσωματωμένη συνάρτηση που μας δίνει το ``tikz`` γιατί είναι ταχύτερη και κάπως ακριβέστερη στους υπολογισμούς από τους συνήθεις τελεστές πράξεων που μπορούμε να χρησιμοποιούμε.
+
+Μία γνωστή γραφική παράσταση
+----------------------------
+
+Το τρίτο σχήμα της εβδομάδας μας ήταν το ακόλουθο:
+
+.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_32.png?w=723
+   :alt: Πολύ γνωστή γραφική παράσταση αυτή.
+   :figclass: wp-image-8347
+
+   Πολύ γνωστή γραφική παράσταση αυτή.
+
+Ο αντίστοιχος κώδικας είναι ο εξής:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \documentclass[tikz, margin=5mm]{standalone}
+    
+   \begin{document}
+       \begin{tikzpicture}
+       \draw[thick,->] (-4,0) -- (4,0)node[below]{$x$};
+       \draw[thick,->] (0,-4) -- (0,4)node[left]{$y$};
+       \node[circle, inner sep=2pt, label={below,xshift=-5pt}:{$O$}] at (0,0){};
+       \draw[thick, domain={-3}:{-.05}, samples=1000] plot ({\x},{.4*\x*\x*sin((8/(\x)) r)});
+       \draw[thick, domain={.05}:{3}, samples=1000] plot ({\x},{.4*\x*\x*sin((8/(\x)) r)});
+       \draw[domain={-3}:{3}, samples=200, dashed] plot ({\x},{.4*\x*\x});
+       \draw[domain={-3}:{3}, samples=200, dashed] plot ({\x},{-.4*\x*\x});
+       \node[circle, inner sep=1pt, fill=white, draw=black] at (0,0){};
+       \end{tikzpicture}
+   \end{document}
+
+Εδώ έχουμε μία πολύ γνωστή συνάρτηση - ευαγγέλιο για τις διάφορες ανωμαλίες ως προς τη συνέχεια και την παραγωγισιμότητα στο λύκειο. Αν και τα περισσότερα τεχνάσματα τα έχουμε δει και σε άλλα σχήματα, έχει αξία να σταθούμε στον αριθμό των ενδιάμεσων σημείων που έχουμε επιλέξει για να σχεδιάσουμε τα δύο τμήματα της γραφικής παράστασης. Όπως βλέπετε, επιλέξαμε να τοποθετήσουμε 1000 σημεία σε κάθε πλευρά - κομματάκι υπερβολικό, θα λέγαμε. Ωστόσο, αν δοκιμάσετε να βάλετε λιγότερα ενδιάμεσα σημεία - για παράδειγμα, 50, 100 ή 200 - θα δείτε ότι η γραφική παράσταση φαίνεται ιδιαίτερα αιχμηρή καθώς προσεγγίζουμε το 0. Αυτό, εν πολλοίς, είναι αναμενόμενο, καθώς η παράγωγος της παραπάνω συνάρτησης αλλάζει πρόσημο πολύ «γρήγορα» καθώς προσεγγίζουμε το 0, επομένως η γραφική παράσταση της συνάρτησής μας αναμένουμε να αλλάζει μονοτονία πολύ «γρήγορα» - και άρα να είναι δύσκολο να την προσεγγίσουμε με ακρίβεια, ειδικά χρησιμοποιώντας λίγα σημεία.
+
+Λογάριθμοι;
+-----------
+
+Το επόμενο σχήμα μας περιέχει λογαρίθμους:
+
+.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_33.png?w=723
+   :alt: Πολλοί λογάριθμοι!
+   :figclass: wp-image-8352
+
+   Πολλοί λογάριθμοι!
+
+Ο αντίστοιχος κώδικας είναι ο ακόλουθος:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \documentclass[tikz, margin=5mm]{standalone}
+    
+   \begin{document}
+       \begin{tikzpicture}
+       \draw[thick,->] (-2,0) -- (6,0)node[pos=1,below]{$x$};
+       \draw[thick,->] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+       \node[left,yshift=-8pt](O) at (0,0){$O$};
+       \draw[thin,samples=200,domain={pow(exp(1),-3)}:{5}] plot (\x,{ln(\x)})node[right]{$y=\ln x$};
+       \draw[dotted,samples=200,domain={pow(exp(1),-3)-1}:{5}] plot (\x,{ln(\x+1)})node[above]{$y=\ln(x+1)$};
+       \draw[dashed,samples=200,domain={pow(exp(1),-3)-1}:{5}] plot (\x,{-ln(\x+1)})node[right]{$y=-\ln(x+1)$};
+       \draw[very thick,samples=200,domain={pow(exp(1),-1)-1}:{5}] plot (\x,{2-ln(\x+1)})node[right,yshift=4pt]{$y=f(x)$};
+       \end{tikzpicture}
+   \end{document}
+
+Εδώ βλέπουμε για πρώτη φορά μία πολύ καλύτερη εναλλακτική στον τελεστή ύψωσης σε δύναμη. Αντ' αυτού, μπορούμε να χρησιμοποιούμε τη συνάρτηση ``pow`` η οποία δέχεται δύο ορίσματα:
+
+-  το πρώτο είναι η βάση της δύναμης που θέλουμε να υπολογίσουμε και,
+-  το δεύτερο είναι ο εκθέτης στον οποίο υψώνουμε τη βάση.
+
+Τώρα, παραπάνω όπως βλέπεται έχουμε κάνει μία τρύπα στο νερό, καθώς αντί για:
+
+``pow(exp(1), -3)``
+
+να γράψουμε πολύ απλά:
+
+``exp(-3)``
+
+ωστόσο έτσι δε θα είχαμε την ευκαιρία να μιλήσουμε για την ``pow``. Το βασικότερο πλεονέκτημά της έναντι του τελεστή ύψωσης σε δύναμη είναι ότι δίνει αποτελέσματα με αρκετά μεγαλύτερη ακρίβεια, ωστόσο, το τίμημα για αυτήν την ακρίβεια είναι, όπως θα φαντάζεστε, είναι ο χρόνος εκτέλεσης. Αλλά, ειδικά σε αρχεία που δεν είναι ιδιαίτερα μεγάλα και, για διάφορους λόγους, μπορεί να μας απασχολεί η ακρίβεια των πράξεών μας αρκετά, συστήνεται να χρησιμοποιούμε την ``pow`` αντί του ``^``.
+
+Μία σχέση!
+----------
+
+Το τελευταίο μας σχήμα για την εβδομάδα που μας πέρασε είναι το ακόλουθο:
+
+.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_34.png?w=723
+   :alt: Μία ωραία σχέση!
+   :figclass: wp-image-8496
+
+   Μία ωραία σχέση!
+
+Ο αντίστοιχος κώδικας είναι ο εξής:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \documentclass[tikz, margin=5mm]{standalone}
+    
+   \begin{document}
+       \begin{tikzpicture}
+       \draw[thick] (0,0) ellipse (1.4 and 2.2)node[yshift=-2.4cm,xshift=-1cm]{$A$};
+       \draw[thick] (6,0) ellipse (1.4 and 2.2)node[yshift=-2.4cm,xshift=1cm]{$B$};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$a$}](a) at (.4,1.2){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$b$}](b) at (-.2,.5){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$c$}](c) at (.5,-.2){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$d$}](d) at (-.6,-.9){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$e$}](e) at (.3,-1.2){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$1$}](1) at (6.3,1.3){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$2$}](2) at (5.4,.6){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$3$}](3) at (6.4,-.2){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$4$}](4) at (6,-.8){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$5$}](5) at (5.7,-1.5){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$6$}](6) at (5.3,-.3){};
+       \draw[thick,->] (a) -- (2);
+       \draw[thick,->] (a) -- (6);
+       \draw[thick,->] (c) -- (2);
+       \draw[thick,->] (d) -- (5);
+       \draw[thick,->] (e) -- (4);
+       \draw[thick,->] (d) -- (4);
+       \end{tikzpicture}
+   \end{document}
+
+Εδώ δεν έχουμε κάτι περίπλοκο να συζητήσουμε, καθώς έχουμε ξαναδεί παρόμοια σχήματα. Αυτό που έχει ενδιαφέρον είναι το πώς σχεδιάζουμε ελλείψεις. Όπως και με τα ορθογώνια, έτσι και με τις ελλείψεις μπορούμε να σχεδιάσουμε απευθείας μέσω της εντολής ``\draw`` περνώντας δύο βασικές παραμέτρους - τους δύο ημιάξονες της έλλειψης. Το γενικό συντακτικό της εντολής είναι το εξής:
+
+``\draw[parameters] (center) ellipse (a and b);``
+
+Δηλαδή, καθορίζουμε το κέντρο και τους δύο ημιάξονες της έλλειψης και τα υπόλοιπα τα αναλαμβάνει το ``tikz``. Ο μόνος, ίσως, περιορισμός που έχει η σχεδίαση ελλείψεων μέσω ``ellipse`` είναι ότι εκ προοιμίου οι ελλείψεις μας μπορούν να βρίσκονται σε δύο προσανατολισμούς - παράλληλα στους δύο νοητούς άξονες. Στην πραγματικότητα, όμως, κι αυτό μπορούμε να το αλλάξουμε σχετικά εύκολα - αλλά, δεν είναι ακόμα καιρός γι' αυτά.
+
+Μέχρι την επόμενη Τρίτη, καλή συνέχεια!
+
+Η κεντρική εικόνα είναι ο πίνακας *Η Λεωφόρος Μονμάρτης τη νύχτα* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.*
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=j2OhXsQvnvg
+
+.. raw:: html
+
+   </figure>

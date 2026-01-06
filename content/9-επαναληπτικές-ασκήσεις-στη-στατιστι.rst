@@ -1,0 +1,29 @@
+9 επαναληπτικές ασκήσεις στη Στατιστική
+#######################################
+:date: 2021-01-04 09:16
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διασπορά, διακύμανση, επανάληψη, εύρος, μέση τιμή
+:slug: 9-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84%ce%b9
+:status: published
+:attachments: wp-content/uploads/2021/01/repinselfportrait.jpg
+
+Εννιά (9) μικρές και μεγάλες επαναληπτικές ασκήσεις και προβλήματα στη Στατιστική των μαθηματικών γενικής παιδείας (άλγεβρα) της Γ' ΕΠΑΛ.
+
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1BHxj_5UBLYqydRk7WJEkGqsIVofz3zls/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι μία αυτοπροσωπογραφία του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__.
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=zXNy-Osk1ek
+
+.. raw:: html
+
+   </figure>

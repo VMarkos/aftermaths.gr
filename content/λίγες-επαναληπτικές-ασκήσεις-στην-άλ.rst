@@ -1,0 +1,19 @@
+Λίγες επαναληπτικές ασκήσεις στην άλγεβρα (Β' Λυκείου)
+######################################################
+:date: 2018-11-13 11:52
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: τριγωνομετρία, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, εκθετική, λογαριθμική
+:slug: %ce%bb%ce%af%ce%b3%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%ac%ce%bb
+:status: published
+:attachments: wp-content/uploads/2018/11/vincent_van_gogh_-_peasant_woman_digging.jpg
+
+Σε αυτό το φυλλάδιο περιέχονται λίγες ασκήσεις επαναληπτικού χαρακτήρα στην άλγεβρα της Β' λυκείου, με έμφαση στα κεφάλαια της τριγωνομετρίας και των εκθετικών/λογαριθμικών συναρτήσεων.
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1iGVGA5L2OI9uDP2sAY7WmaCYs0iohcmm/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Αγρότισσα που σκάβει* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.*
+
+Καλή μέρα και καλό διάβασμα!
+
+https://www.youtube.com/watch?v=IJD3djL3eRU

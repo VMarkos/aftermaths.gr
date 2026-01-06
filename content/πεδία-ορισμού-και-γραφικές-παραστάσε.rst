@@ -1,0 +1,27 @@
+Πεδία ορισμού και γραφικές παραστάσεις
+######################################
+:date: 2020-05-03 15:04
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, συναρτήσεις, Α' Λυκείου, ασκήσεις, γραφική παράσταση, επανάληψη
+:slug: %cf%80%ce%b5%ce%b4%ce%af%ce%b1-%ce%bf%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-%ce%ba%ce%b1%ce%b9-%ce%b3%cf%81%ce%b1%cf%86%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5
+:status: published
+:attachments: wp-content/uploads/2020/05/800px-self-portrait_1628-1629_by_rembrandt.jpg
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1OsvyMPHin04Fv7qBGeJrSJ4iOlf4dalO/view?usp=sharing>`__ και στη σελίδα `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι μία αυτοπροσωπογραφία του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__ νέου.
+
+| Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed-youtube wp-block-embed is-type-rich wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=bsrrfvr5uEc
+
+.. raw:: html
+
+   </figure>

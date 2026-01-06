@@ -1,0 +1,25 @@
+Οι λύσεις του προηγούμενου τεστ (Α' Λυκείου)
+############################################
+:date: 2020-11-01 15:44
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+:tags: τεστ, Α' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, λύσεις
+:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf-%cf%84%ce%b5%cf%83%cf%84-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5
+:status: published
+:attachments: wp-content/uploads/2020/11/ivan_grohar_-_sejalec.jpg
+
+Οι λύσεις του `προηγούμενου τεστ <https://aftermathsgr.wordpress.com/2020/10/29/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b9-%ce%b1%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83/>`__ βρίσκονται `εδώ <https://drive.google.com/file/d/1iTGZMNtxXz52pqevqzzfkkSpU2f6wPVu/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Ο θεριστής* του `Ivan Grohar <https://en.wikipedia.org/wiki/Ivan_Grohar>`__\ *.*
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=pkxXFLRmqvw
+
+.. raw:: html
+
+   </figure>

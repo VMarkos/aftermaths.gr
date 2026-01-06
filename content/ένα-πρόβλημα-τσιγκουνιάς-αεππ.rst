@@ -1,0 +1,19 @@
+Ένα πρόβλημα... τσιγκουνιάς (ΑΕΠΠ)
+##################################
+:date: 2018-10-01 21:07
+:author: aftermathsgr
+:category: ΑΕΠΠ, Διδακτικό υλικό
+:tags: προβλήματα, πίνακες, πανελλήνιες, Γ' λυκείου, δομή επανάληψης, δομή επιλογής
+:slug: %ce%ad%ce%bd%ce%b1-%cf%80%cf%81%cf%8c%ce%b2%ce%bb%ce%b7%ce%bc%ce%b1-%cf%84%cf%83%ce%b9%ce%b3%ce%ba%ce%bf%cf%85%ce%bd%ce%b9%ce%ac%cf%82-%ce%b1%ce%b5%cf%80%cf%80
+:status: published
+:attachments: wp-content/uploads/2018/10/1024px-piet_mondriaan_victory_boogie_woogie.jpg
+
+Σε αυτό το φυλλάδιο περιέχεται ένα πρόβλημα που εξετάζει χρήση δομών επιλογής/επανάληψης καθώς και εκτύπωση πινάκων.
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1KkVh5mygosg3Ol2OS9grDTkpvWkw-mvQ/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Victory Boogie* Woogie του `Piet Mondrian. <https://en.wikipedia.org/wiki/Piet_Mondrian>`__
+
+Καλό βράδυ και καλό διάβασμα!
+
+https://www.youtube.com/watch?v=3L9QgSNej4w

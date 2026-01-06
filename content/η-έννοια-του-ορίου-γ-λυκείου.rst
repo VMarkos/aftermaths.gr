@@ -1,0 +1,31 @@
+Η έννοια του ορίου - Γ' Λυκείου
+###############################
+:date: 2021-09-30 07:56
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, πανελλήνιες, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, εισαγωγή
+:slug: %ce%b7-%ce%ad%ce%bd%ce%bd%ce%bf%ce%b9%ce%b1-%cf%84%ce%bf%cf%85-%ce%bf%cf%81%ce%af%ce%bf%cf%85-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+:status: published
+:attachments: wp-content/uploads/2021/09/mary_cassatt_-_summertime_-_tfaa_1988.25.jpg
+
+Λίγες ασκήσεις που σκοπό έχουν να εισάγουν την έννοια του (πεπερασμένου) ορίου συνάρτησης στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γ' Λυκείου.
+
+Τις ασκήσεις μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/19o7BX7rp09WNMp5wUUA6AEY0cs7K2seO/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+Για ασκήσεις στις συναρτήσεις μπορείτε να δείτε `εδώ (ορισμός) <https://aftermaths.gr/2021/06/23/%ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5-3/>`__, `εδώ (σύνθεση) <https://aftermaths.gr/2021/07/06/%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%cf%83%cf%8d%ce%bd%ce%b8%ce%b5%cf%83%ce%b7/>`__ και `εδώ (μονοτονία & «1-1») <https://aftermaths.gr/2021/09/23/%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%ce%bc%ce%bf%ce%bd%ce%bf%cf%84%ce%bf%ce%bd%ce%af%ce%b1-1-1/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Καλοκαίρι* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\ *.*
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=2tA1rVKv4EE
+
+.. raw:: html
+
+   </figure>

@@ -1,0 +1,283 @@
+Ολο-clear-ώματα: Το θεώρημα Frullani
+####################################
+:date: 2021-02-28 20:27
+:author: aftermathsgr
+:category: After-maths, Μαθηματικά, Ολοκληρώματα
+:tags: featured, Frullani, μαθηματικά, ολοκλήρωμα
+:slug: %ce%bf%ce%bb%ce%bf-clear-%cf%8e%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%bf-%ce%b8%ce%b5%cf%8e%cf%81%ce%b7%ce%bc%ce%b1-frullani
+:status: published
+:attachments: wp-content/uploads/2021/02/1280px-the_beach_at_villerville_eugene_boudin_1864.jpg
+
+Σε αυτό το μέρος της σειράς Ολο-clear-ώματα (ναι, είναι πολύ cringe το όνομα, αλλά τι να κάνουμε τώρα) θα εξερευνήσουμε ένα ενδιαφέρον θεώρημα το οποίο, προσωπικά, όταν το είχα «ανακαλύψει», με είχε εντυπωσιάσει αρκετά. Αρχικά, να αναφέρουμε έτι μία φορά, ότι η ολοκλήρωση και η παραγώγιση είναι δύο πράξεις που, καίτοι σε έναν μεγάλο βαθμό «ᾷντίστροφες» η μία της άλλης - αν και `η ολοκλήρωση δε συμπίπτει με αυτό που λέμε αντιπαραγώγιση <https://aftermathsgr.wordpress.com/2020/03/05/%ce%bf%ce%bb%ce%bf-clear-%cf%8e%ce%bc%ce%b1%cf%84%ce%b1-%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-vs-%ce%b1%ce%bd%cf%84%ce%b9%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%b9%cf%83/>`__ - στην πράξη είναι η μέρα με τη νύχτα. Πράγματι, η παραγώγιση - η μέρα - είναι μία απλή και στρωτή πράξη από αλγοριθμικής σκοπιάς. Έχουμε πέντε-δέκα κανόνες παραγώγισης, έχουμε και τις παραγώγους των βασικών μας συναρτήσεων, και πορευόμαστε ομαλά. Μπορεί, προφανώς, οι πράξεις καθεαυτές να είναι κουραστικές και να περιλαμβάνουν αυτό που συχνά αποκαλούμε «λάντζα», αλλά αυτό δεν είναι και τόσο μεγάλο πρόβλημα - γιατί έχουμε, άλλωστε, τους υπολογιστές στη διάθεσή μας;
+
+Ωστόσο, με την ολοκλήρωση - τη νύχτα - τα πράγματα δεν είναι τόσο εύκολα. Για να μην πολυλογούμε, όμως, θα αφήσουμε ένα εύστοχο σχόλιο του Randall από το `XKCD <https://xkcd.com/2117/>`__ να τα πει όλα:
+
+.. container:: wp-block-image
+
+   .. figure:: https://imgs.xkcd.com/comics/differentiation_and_integration.png
+      :alt: "Symbolic integration" is when you theatrically go through the motions of finding integrals, but the actual result you get doesn't matter because it's purely symbolic.
+
+      Παραγώγιση vs Ολοκλήρωση
+
+Η γλαφυρότητα της παραπάνω γελοιογραφίας ξεπερνά κάθε τρόπο με τον οποίον θα μπορούσαμε να περιγράψουμε την ασύγκριτη δυσκολία που μπορεί να παρουσιάζει πολλές φορές ο υπολογισμός ενός ολοκληρώματος σε σχέση με την παράγωγο μίας συνάρτησης - εν μέρει, το έχουμε ήδη κάνει στο `πρώτο μέρος της σειράς <https://aftermathsgr.wordpress.com/2020/03/05/%ce%bf%ce%bb%ce%bf-clear-%cf%8e%ce%bc%ce%b1%cf%84%ce%b1-%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-vs-%ce%b1%ce%bd%cf%84%ce%b9%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%b9%cf%83/>`__ και επιφυλασσόμαστε να το επαναλάβουμε στο μέλλον. Αυτή ακριβώς η δυσκολία είναι που έχει οδηγήσει σε μία συστηματική «χαρτογράφηση» του τοπίου της ολοκλήρωσης μέσα από διάφορα αποτελέσματα - θεωρήματα, προτάσεις, λήμματα κ.λπ. - τα οποία μας πληροφορούν για την ύπαρξη συγκεκριμένων (συνήθως καταχρηστικών) ολοκληρωμάτων ή, πολλές φορές, μας τα υπολογίζουν κιόλας.
+
+Το «αναπάντεχο» Θεώρημα Frullani
+--------------------------------
+
+Ίσως το πιο ενδιαφέρον από αυτά - σίγουρα ένα από τα πιο ενδιαφέροντα - είναι το θεώρημα του Frullani, το οποίο και παραθέτουμε ευθύς αμέσως:
+
+Για μία συνεχή συνάρτηση $latex f:[0,+\infty)\to\mathbb{R} &bg=d9d9d9&fg=362e77$ με $latex \\lim\limits_{x\to+\infty}f(x)=\ell\in\mathbb{R} &bg=d9d9d9&fg=362e77$ ισχύει ότι: $latex \\displaystyle\int_0^\infty\frac{f(ax)-f(bx)}{x}dx=(\ell-f(0))\ln\frac{a}{b}, &bg=d9d9d9&fg=362e77$ για κάθε $latex a,b>0 &bg=d9d9d9&fg=362e77$.
+
+Σε μία πιο απλή μορφή, αν $latex f(0)=1$ και $latex \\ell=0$ τότε παίρνουμε:
+
+$latex \\displaystyle\int_0^\infty\frac{f(ax)-f(bx)}{x}dx=-\ln\frac{a}{b}=\ln\frac{b}{a},$
+
+για κάθε συνεχή και κατάλληλα ορισμένη συνάρτηση $latex f$. Για παράδειγμα, μία τέτοια συνάρτηση είναι η $latex f(x)=\dfrac{1}{x+1}$ ενώ μία άλλη είναι η $latex f(x)=e^{-x}$. Για την ακρίβεια, οι συναρτήσεις $latex f_c(x)=\dfrac{1}{1+cx}$ για $latex c>0$ ικανοποιούν όλες τις υποθέσεις του παραπάνω θεωρήματος, επομένως, για κάθε $latex a,b>0$ ισχύει ότι:
+
+$latex \\displaystyle\int_0^\infty\frac{f_c(ax)-f_c(bx)}{x}dx=\ln\frac{b}{a}.$
+
+Εποπτικά, μιας και $latex f_c>0$, αν πάρουμε κάποια σταθερά $latex a,b$, για παράδειγμα $latex a=1$ και $latex b=2,$ τότε το παραπάνω μας λέει ότι τα παρακάτω εμβαδά είναι όλα τους ίσα με $latex \\ln2$ - τα εμβαδά αυτά αντιστοιχούν στις συναρτήσεις $latex g_c=\dfrac{f_c(x)-f_c(2x)}{x}$.
+
+.. figure:: https://aftermaths.gr/wp-content/uploads/2021/02/f_c.gif?w=945
+   :alt: Όλα τα παραπάνω εμβαδά είναι ίσα
+   :figclass: wp-image-5748
+
+   Όλα τα παραπάνω εμβαδά είναι ίσα
+
+Εντυπωσιακό, ομολογουμένως. Ίσως, ακόμα πιο εντυπωσιακό να είναι το γεγονός ότι όλα αυτά τα ολοκληρώματα έχουν μία τόσο συγκεκριμένη μορφή που σχετίζεται με τον φυσικό λογάριθμο. Προτού, λοιπόν, αποδείξουμε το παραπάνω θεώρημα, ίσως είναι χρήσιμο να εξερευνήσουμε τη διαίσθηση πίσω από το παραπάνω αποτέλεσμα.
+
+Αρχικά, ας ασχοληθούμε με την απλή περίπτωση που αναφέραμε παραπάνω όπου $latex \\ell=0$ και $latex f(0)=1$, οπότε, όπως είπαμε παραπάνω, θα ισχύει:
+
+$latex \\displaystyle \\int_0^\infty\frac{f(ax)-f(bx)}{x}dx=\ln\frac{b}{a}.$
+
+Αν έχουμε κάποια εμπειρία με τα ολοκληρώματα, εύκολα αναγνωρίζουμε ένα γνωστό μας ολοκλήρωμα:
+
+$latex \\displaystyle \\int_a^b\frac{1}{x}dx=\ln b-\ln a=\ln\frac{b}{a}.$
+
+Ωστόσο, αυτό το ολοκλήρωμα είναι ένα απλό ορισμένο ολοκλήρωμα, ορισμένο πάνω σε ένα κλειστό διάστημα, ενώ το ολοκλήρωμα για το οποίο γίνεται λόγος στο θεώρημα Frullani είναι ένα καταχρηστικό ολοκλήρωμα - ορισμένο σε ανοικτό μη φραγμένο διάστημα. Οπότε ίσως να μη βρίσκεται σε αυτήν την κατεύθυνση, τουλάχιστον όχι άμεσα, η ερμηνεία του παραπάνω αποτελέσματος.
+
+Δεδομένου ότι μέσα στο ολοκλήρωμα εμφανίζονται οι ποσότητες $latex f(ax),f(bx)$, ίσως μας φανεί χρήσιμο να μελετήσουμε τη μορφή της $latex f(kx)$ για διάφορες τιμές του $latex k>0$. Ας πάρουμε, λοιπόν, μία συνάρτηση $latex f$ με την παρακάτω γραφική παράσταση - ικανοποιεί τις δύο επιπρόσθετες υποθέσεις που έχουμε θέσει, αν και όσα θα πούμε ισχύουν γενικότερα για κάθε συνάρτηση $latex f$:
+
+.. figure:: https://im5.ezgif.com/tmp/ezgif-5-d51dc0e0-png-pdf/ezgif-5-da87f7e753.pdf-1.png
+   :alt: Η γραφική παράσταση μίας «καλής» συνάρτησης.
+
+   Η γραφική παράσταση μίας «καλής» συνάρτησης.
+
+Τώρα, αν $latex k=1$ τότε σαφώς $latex f(kx)=f(x)$ οπότε δεν έχουμε να πούμε κάτι το ιδιαίτερο. Ας εξετάσουμε πρώτα την περίπτωση $latex k>1$. Στο παρακάτω σχήμα φαίνεται η γραφική παράσταση της $latex f(kx)$ για διάφορες τιμές $latex k>1$:
+
+.. figure:: https://aftermaths.gr/wp-content/uploads/2021/02/func.gif?w=945
+   :alt: Η «συμπίεση» της παραπάνω γραφικής παράστασης.
+   :figclass: wp-image-5751
+
+   Η «συμπίεση» της παραπάνω γραφικής παράστασης.
+
+Αυτό που έχουμε να παρατηρήσουμε παραπάνω είναι ότι καθώς μεγαλώνει το $latex k$, η γραφική παράσταση της $latex f$ φαίνεται να «συμπυκνώνεται» προς τον κατακόρυφο άξονα. Αυτό, αν το καλοσκεφτούμε, είναι λογικό. Ας πάρουμε ειδικότερα την τιμή $latex k=2$. Σε αυτήν την περίπτωση, όλες οι τιμές της $latex f$ έρχονται «στου δρόμου τα μισά». Με άλλα λόγια, από εκεί που το $latex x$ θα αντιστοιχιζόταν στο $latex f(x)$, τώρα, θα αντιστοιχιστεί με την τιμή της $latex f$ δυο φορές πιο μακριά, δηλαδή με το $latex f(2x)$. Έτσι, η γραφική παράσταση της $latex f(2x)$ πράγματι θα φαίνεται πιο κοντά στον κατακόρυφο άξονα. Κατ' αναλογία, αν $latex k<1$ αναμένουμε η γραφική παράσταση της $latex f(kx)$ να είναι πιο «απλωμένη» προς τα δεξιά.
+
+Ίσως το παρακάτω σχήμα που δείχνει τη γραφική παράσταση της $latex f(x)=\sin(k x)$ για διάφορες τιμές του $latex k$ να είναι πιο διαφωτιστικό - κυρίως λόγω των ταλαντώσεων της γραφικής παράστασης του ημιτόνου.
+
+.. figure:: https://im5.ezgif.com/tmp/ezgif-5-d399b1c6ddc8.gif
+   :alt: Η αύξηση της συχνότητας «ταλάντωσης» και το πώς επηρεάζει τη γραφική παράσταση.
+
+   Η αύξηση της συχνότητας «ταλάντωσης» και το πώς επηρεάζει τη γραφική παράσταση.
+
+Ξεψαχνίζοντας το θεώρημα...
+---------------------------
+
+Ωραία όλα αυτά που είπαμε παραπάνω για τη γραφική παράσταση της $latex f(kx)$ σε σχέση με αυτήν της $latex f(x)$, αλλά τώρα πρέπει να δούμε από λίγο πιο κοντά και το ολοκλήρωμα του θεωρήματος. Όπως είπαμε, αρχικά θα ασχοληθούμε με μία απλούστερη μορφή του θεωρήματος, για να εστιάσουμε περισσότερο στα ουσιώδη σημεία του. Έστω, λοιπόν, μία συνάρτηση $latex f:[0,+\infty)\to\mathbb{R}$, συνεχής και για την οποία ισχύει ότι $latex f(0)=1$ και:
+
+$latex \\displaystyle\lim_{x\to+\infty}f(x)=0.$
+
+Ας υποθέσουμε, επίσης, ότι το ζητούμενο ολοκλήρωμα υπάρχει - για να μπορέσουμε να παίξουμε λίγο μαζί του. Δηλαδή, υποθέτουμε ότι το παρακάτω είναι ένας πραγματικός αριθμός για κάθε $latex a,b>0$ και μάλιστα:
+
+$latex I_{a,b}:=\displaystyle\int_0^\infty\frac{f(ax)-f(bx)}{x}dx.$
+
+Τώρα, πριν συνεχίσουμε, ας κάνουμε κάποιες ενδιαφέρουσες παρατηρήσεις. Επειδή $latex f(x)\to0$ καθώς $latex x\to\infty$, θα έχουμε άμεσα και ότι $latex f(ax)\to0$ καθώς και $latex f(bx)\to0$ καθώς $latex x\to\infty$. Αυτό μας επιτρέπει να υποθέσουμε ότι, πέρα από το $latex I_{a,b}$, υπάρχουν και τα ολοκληρώματα:
+
+$latex \\displaystyle I_a:=\int_0^\infty\frac{f(ax)}{x}dx,\\ I_b:=\int_0^\infty\frac{f(bx)}{x}dx.$
+
+Πράγματι, για $latex b\approx\infty$ - δηλαδή, «πολύ μεγάλο» - έχουμε $latex f(bx)\approx0$ οπότε $latex I_{a,b}\approx I_a$. Αναλόγως, αν $latex a\approx\infty$ θα έχουμε $latex f(ax)\approx0$ και άρα $latex I_{a,b}\approx-I_b$, επομένως τα $latex I_a,I_b$ υπάρχουν.
+
+*Παρατηρήστε πώς τα παραπάνω συνιστούν μία κομψή απόδειξη, αν αντί για $latex b\approx\infty$ θεωρήσουμε τον $latex b$ ως έναν*\ `άπειρο αριθμό <https://aftermathsgr.wordpress.com/2021/01/17/hyperreals-%ce%b1%cf%80%ce%b5%ce%b9%cf%81%ce%bf%cf%83%cf%84%ce%ac-%ce%ba%ce%b1%ce%b9-%ce%ac%cf%80%ce%b5%ce%b9%cf%81%ce%bf%ce%b9-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%ce%af/>`__\ *- περισσότερα για τα απειροστά μπορείτε να βρείτε*\ `εδώ <https://aftermathsgr.wordpress.com/category/hyperreals/>`__\ *.*
+
+Για τα παραπάνω ολοκληρώματα μπορούμε να παρατηρήσουμε ότι μπορούμε να τα «σουλουπώσουμε» λίγο και να κρύψουμε - περίπου - τα $latex a,b$. Για την ακρίβεια, με την αλλαγή μεταβλητής $latex u=ax\Rightarrow dx=du/a$ έχουμε:
+
+$latex \\displaystyle I_a=\int_0^\infty\frac{ax}{x}dx=\int_0^\infty\frac{f(u)}{\frac{u}{a}}\frac{du}{a}=\int_0^\infty\frac{f(u)}{u}du.$
+
+Ανάλογα, μπορούμε να δείξουμε και ότι:
+
+$latex \\displaystyle I_b=\int_0^\infty\frac{bx}{x}dx=\int_0^\infty\frac{f(u)}{\frac{u}{b}}\frac{du}{b}=\int_0^\infty\frac{f(u)}{u}du.$
+
+Συνεπώς $latex I_{a,b}=I_a-I_b=0$.
+
+Εεεε;
+
+Είναι σαφές ότι κάτι κάναμε λάθος μόλις τώρα και είναι ευκαιρία να το συζητήσουμε. Ενώ μπορούμε σχεδόν χωρίς φόβο να κάνουμε αλλαγή μεταβλητής στα τυπικά ορισμένα ολοκληρώματα, όπου ολοκληρώνουμε συνεχείς συναρτήσεις ορισμένες σε κλειστά - άρα και φραγμένα - διαστήματα, όταν έχουμε ένα καταχρηστικό ολοκλήρωμα τα πράγματα δεν είναι και τόσο ωραία. Εν γένει, δεν πάμε να κάνουμε αλλαγή μεταβλητής και αντικατάσταση με την ίδια «άνεση», καθώς μπορεί να καταλήξουμε σε εσφαλμένα αποτελέσματα όπως το παραπάνω.
+
+Αντιθέτως, μπορούμε αντί για τα καταχρηστικά ολοκληρώματα παραπάνω, να εργαστούμε με τα εξής ορισμένα ολοκληρώματα:
+
+$latex \\displaystyle I_{a,r,R}=\int_r^R\frac{f(ax)}{x}dx,\\ I_{b,r,R}=\int_r^R\frac{f(bx)}{x}dx,$
+
+όπου τα $latex r,R$ είναι δύο αριθμοί έτσι ώστε $latex r\approx0$ και $latex R\approx\infty$, οπότε και, όπως φαντάζεστε, $latex I_{a,r,R}\approx I_a$ και $latex I_{b,r,R}\approx I_b$. Τώρα, αν στο πρώτο κάνουμε την αλλαγή μεταβλητής $latex u=ax$ έχουμε:
+
+$latex \\displaystyle I_{a,r,R}=\int_r^R\frac{f(ax)}{x}dx=\int_{ar}^{aR}\frac{f(u)}{u}du.$
+
+Αναλόγως, έχουμε:
+
+$latex \\displaystyle I_{a,r,R}=\int_r^R\frac{f(ax)}{x}dx=\int_{br}^{bR}\frac{f(u)}{u}du.$
+
+Τώρα, με βάση τα όσα έχουμε πει παραπάνω, έχουμε - σιωπηλά και χωρίς να ξυπνήσουμε τη γενικότητα δεχόμαστε ότι $latex a<b$:
+
+$latex \\begin{aligned}I_{a,b}&=I_a-I_b\approx I_{a,r,R}-I_{b,r,R}=\\&=\int_{ar}^{aR}\frac{f(x)}{x}dx-\int_{br}^{bR}\frac{f(x)}{x}dx=\\&=\int_{ar}^{br}\frac{f(x)}{x}dx-\int_{aR}^{bR}\frac{f(x)}{x}dx.\end{aligned}$
+
+Επιτέλους, μετά από τόσες πράξεις και αλχημείες, φτάσαμε σε κάτι που μπορεί εύκολα να χωνέψει η διαίσθησή μας. Η παραπάνω «ψευδο»-ισότητα μας λέει ότι πρακτικά το $latex I_{a,b}$ αποτελείται από δύο μέρη:
+
+-  ένα «κοντά» στο μηδέν, το $latex \\displaystyle\int_{ar}^{br}\frac{f(x)}{x}dx$ που είναι η «κύρια μάζα» του και,
+-  ένα «κοντά» στο άπειρο, το $latex \\displaystyle\int_{aR}^{bR}\frac{f(x)}{x}dx$, το οποίο αφαιρούμε από την παραπάνω μάζα.
+
+Αυτό τώρα, μπορεί να πάει ένα βήμα παρακάτω. Για την ακρίβεια, ξεκινώντας από το δεύτερο ολοκλήρωμα, παρατηρούμε ότι, αφού $latex aR\leq x\leq bR$, έπεται ότι και το $latex x\approx\infty$, άρα $latex f(x)\approx0$, οπότε και:
+
+$latex \\displaystyle \\int_{aR}^{bR}\frac{f(x)}{x}dx\approx0.$
+
+Τώρα, αναλόγως για το πρώτο ολοκλήρωμα, επειδή $latex ra\leq x\leq rb$, έχουμε $latex x\approx0$ και άρα $latex f(x)\approx f(0)=1$ - από τη συνέχεια της $latex f$ - επομένως:
+
+$latex \\displaystyle \\int_{ar}^{br}\frac{f(x)}{x}dx\approx\int_{ar}^{br}\frac{1}{x}dx=\ln(br)-\ln(ar)=\ln\frac{br}{ar}=\ln\frac{b}{a}.$
+
+Δηλαδή:
+
+$latex \\displaystyle \\int_0^\infty\frac{f(ax)-f(bx)}{x}dx\approx\ln\frac{b}{a}.$
+
+Αυτό είναι ακριβώς αυτό που θέλαμε και η διαίσθηση πίσω από τα παραπάνω είναι άκρως διαφωτιστική. Ουσιαστικά, αυτό που μας λέει είναι ότι η κύρια «μάζα» του ολοκληρώματός μας βρίσκεται σε μία περιοχή κοντά στο μηδέν - εν προκειμένω, στο $latex [ar,br]$ για «αρκετά μικρό» $latex r$ - όπου και η συνάρτησή μας είναι σχεδόν η ίδια με την $latex \\dfrac{1}{x}$, οπότε και έχουμε το ζητούμενο. Προς επιβεβαίωση των παραπάνω, ας πάρουμε τη συνάρτηση $latex f(x)=\dfrac{1}{1+x}$ που έχει όλες τις καλές ιδιότητες που θέλουμε. Τότε, για $latex a=5$ και $latex b=12$, βλέπουμε στο παρακάτω σχήμα ττη γραφική παράσταση της $latex \\dfrac{f(ax)-f(bx)}{x}$. Όπως θα παρατηρήσετε, ο κύριος όγκος βρίσκεται σε μία περιοχή αρκετά κοντά στο μηδέν, ενώ καθώς προχωράμε προς τα δεξιά το εμβαδόν κάτω και από τη γραφική παράσταση γίνεται αμελητέα μικρό.
+
+.. figure:: https://im5.ezgif.com/tmp/ezgif-5-fa94cf51-png-pdf/ezgif-5-94d501f076.pdf-1.png
+   :alt: Ε, της φέρνει της $latex 1/x.$
+
+   Ε, της φέρνει της $latex 1/x.$
+
+Μία τυπική απόδειξη
+-------------------
+
+Ας κάνουμε τώρα όλα τα παραπάνω πιο τυπικά. Θα αποδείξουμε πρώτα την απλή περίπτωση, όπου $latex \\lim\limits_{x\to+\infty}f(x)=0$. Έπειτα, εύκολα θα μπορούμε να δείξουμε και τη γενική περίπτωση - το $latex f(0)$ θα το αφήσουμε «ελεύθερο», καθώς, όπως θα δούμε, δε θα μας εμποδίσει ιδιαίτερα το αν είναι ίσο με 1 ή όχι. Λοιπόν, εμείς θέλουμε να υπολογίσουμε το ολοκλήρωμα:
+
+$latex \\displaystyle I_{a,b}=\int_0^\infty\frac{f(ax)-f(bx)}{x}dx=\lim_{r\to0}\lim_{R\to\infty}\int_r^R\frac{f(ax)-f(bx)}{x}dx.$
+
+Έστω, λοιπόν, $latex 0<r<R$ κι έστω:
+
+$latex \\displaystyle I_a:=\int_r^R\frac{f(ax)}{x}dx,\\ I_b:=\int_r^R\frac{f(bx)}{x}dx.$
+
+Τότε, σαφώς:
+
+$latex \\displaystyle I_a-I_b=\int_r^R\frac{f(ax)-f(bx)}{x}dx.$
+
+Όπως είδαμε παραπάνω, με την αλλαγή μεταβλητής $latex u=ax$ έχουμε άμεσα:
+
+$latex \\displaystyle I_a=\int_r^R\frac{f(ax)}{x}dx=\int_{ar}^{aR}\frac{f(u)}{\frac{u}{a}}\frac{du}{a}=\int_{ar}^{aR}\frac{f(u)}{u}du.$
+
+Αναλόγως:
+
+$latex \\displaystyle I_b=\int_r^R\frac{f(bx)}{x}dx=\int_{br}^{bR}\frac{f(u)}{\frac{u}{b}}\frac{du}{b}=\int_{br}^{bR}\frac{f(u)}{u}du.$
+
+Παρατηρούμε τώρα ότι:
+
+$latex \\begin{aligned}I_a-I_b&=\int_{ar}^{aR}\frac{f(u)}{u}du-\int_{br}^{bR}\frac{f(u)}{u}du=\\&=\int_{ar}^{br}\frac{f(u)}{u}du-\int_{aR}^{bR}\frac{f(u)}{u}du.\end{aligned}$
+
+Τα παραπάνω ισχύουν, σαφώς, για κάθε $latex 0<r<R$, επομένως, όταν «έρθει η ώρα» θα τα επιλέξουμε εμείς όπως μας εξυπηρετεί. Πάμε τώρα να υπολογίσουμε το καθένα από τα εν λόγω ολοκληρώματα ξεχωριστά.
+
+Πριν προχωρήσουμε υποθέτουμε χωρίς βλάβη της γενικότητας ότι $latex a<b$ και παρατηρούμε ότι για κάθε $latex r>0$ έχουμε:
+
+$latex \\displaystyle\ln\frac{b}{a}=\ln\frac{br}{ar}=\ln(br)-\ln(ar)=\int_{ar}^{br}\frac{1}{u}du.$
+
+Για το πρώτο, έστω $latex \\varepsilon>0$, οπότε, από τη συνέχεια της $latex f$ στο $latex 0$ υπάρχει ένα $latex \\delta>0$ έτσι ώστε για κάθε $latex x\in[0,\delta)$ να ισχύει $latex \|f(x)-f(0)|<\varepsilon',$ όπου $latex \\varepsilon':=\dfrac{\varepsilon}{\ln\frac{b}{a}}$. Επιλέγουμε τώρα $latex \\delta':=\dfrac{\delta}{2b}$, οπότε $latex ar,br\in[0,\delta)$ για κάθε $latex r\in(0,\delta')$ και άρα έχουμε:
+
+$latex \\begin{aligned}\left|\int_{ar}^{br}\frac{f(u)}{u}du-f(0)\ln\frac{a}{b}\right|&=\left|\int_{ar}^{br}\frac{f(u)}{u}du-f(0)\int_{ar}^{br}\frac{1}{u}du\right|=\\&=\left|\int_{ar}^{br}\frac{f(u)-f(0)}{u}du\right|\\&\leq\int_{ar}^{br}\frac{|f(u)-f(0)|}{u}du\\&\leq\int_{ar}^{br}\frac{\varepsilon'}{u}du=\\&=\varepsilon'\int_{ar}^{br}\frac{1}{u}du=\\&=\varepsilon'\ln\frac{b}{a}=\\&=\varepsilon.\end{aligned}$
+
+Συνεπώς, εξ ορισμού, έχουμε:
+
+$latex \\displaystyle\lim_{r\to0}\int_{ar}^{br}\frac{f(u)}{u}du=f(0)\ln\frac{b}{a}.$
+
+Περνάμε τώρα στο δεύτερο ολοκλήρωμα, οπότε σταθεροποιούμε κι εδώ ένα $latex \\varepsilon>0$. Εδώ παρατηρούμε ότι, αφού η $latex f(x)\to0$ καθώς $latex x\to+\infty$, έπεται ότι υπάρχει ένας $latex M>0$ τέτοιος ώστε για κάθε $latex x>M$ να ισχύει $latex \|f(x)|<\varepsilon'$, όπου $latex \\varepsilon'=\frac{\varepsilon}{\ln\frac{b}{a}}$. Τώρα, παρατηρούμε ότι για $latex R>M'$, όπου $latex M':=\frac{M}{a}$ έχουμε $latex aR,bR>M$ και επίσης:
+
+$latex \\begin{aligned}\left|\int_{aR}^{bR}\frac{f(u)}{u}du\right|&\leq\int_{aR}^{bR}\frac{|f(u)|}{u}du<\int_{aR}^{bR}\frac{\varepsilon'}{u}du=\\&=\varepsilon'\int_{aR}^{bR}\frac{1}{u}du=\frac{\varepsilon}{\ln\frac{b}{a}}\ln\frac{b}{a}=\varepsilon.\end{aligned}$
+
+Συνεπώς, αφού το $latex \\varepsilon>0$ ήταν αυθαίρετο έπεται ότι:
+
+$latex \\displaystyle\lim_{R\to\infty}\int_{aR}^{bR}\frac{f(u)}{u}du=0.$
+
+Συνεπώς:
+
+$latex \\displaystyle I_{a,b}=\lim_{r\to0}\lim_{R\to\infty}\left(\int_{ar}^{br}\frac{f(u)}{u}du-\int_{aR}^{bR}\frac{f(u)}{u}du\right)=f(0)\ln\frac{b}{a}.$
+
+Καταφέραμε, επομένως, να αποδείξουμε αυτό που θέλαμε. Στην περίπτωση, τώρα, που $latex f(x)\to\ell\in\mathbb{R}$ καθώς $latex x\to+\infty$ τότε θεωρούμε τη συνάρτηση $latex g(x)=f(x)-\ell$, οπότε $latex g(x)\to0$ καθώς $latex x\to+\infty$ και άρα, από τα παραπάνω, έπεται ότι:
+
+$latex \\displaystyle\int_0^\infty\frac{g(ax)-g(bx)}{x}dx=g(0)\ln\frac{b}{a}=(f(0)-\ell)\ln\frac{b}{a}.$
+
+Παρατηρούμε, ωστόσο, ότι:
+
+$latex \\displaystyle\int_0^\infty\frac{g(ax)-g(bx)}{x}dx=\int_0^\infty\frac{f(ax)-\ell-f(bx)+\ell}{x}dx=\int_0^\infty\frac{f(ax)-f(bx)}{x}dx,$
+
+συνεπώς:
+
+$latex \\displaystyle\int_0^\infty\frac{f(ax)-f(bx)}{x}dx=(f(0)-\ell)\ln\frac{b}{a}.$
+
+Ας παίξουμε και λίγο...
+-----------------------
+
+Έχουμε ένα καινούργιο θεώρημα στα χέρια μας, ευκαιρία να υπολογίσουμε και κάποια ολοκληρώματα με αυτό. Πρώτο στη λίστα μας θα είναι το:
+
+$latex \\displaystyle\int_0^\infty\frac{e^{-ax}-e^{-bx}}{x}dx=\ln\frac{b}{a},$
+
+διότι $latex e^0=1$ και $latex e^-x\to0$ καθώς $latex x\to\infty$.
+
+Επόμενο στη λίστα μας θα είναι το ακόλουθο ολοκήρωμα:
+
+$latex \\displaystyle\int_0^\infty\frac{b\sin(ax)-a\sin(bx)}{x^2}dx=ab\ln\frac{b}{a}.$
+
+Πράγματι, θεωρούμε τη συνάρτηση:
+
+$latex f(x)=\left\{\begin{array}{ll}\frac{\sin x}{x} & x>0\\1 & x=0\end{array}\right.,$
+
+για την οποία έχουμε $latex f(0)=1$, η $latex f$ είναι συνεχής και $latex \|f(x)|\leq\dfrac{1}{x}$, οπότε:
+
+$latex \\displaystyle\lim_{x\to\infty}f(x)=0.$
+
+Συνεπώς, από το θεώρημα του Frullani έχουμε:
+
+$latex \\displaystyle\int_0^\infty\frac{f(ax)-f(bx)}{x}dx=\ln\frac{b}{a}.$
+
+Ωστόσο,
+
+$latex \\begin{aligned}\int_0^\infty\frac{f(ax)-f(bx)}{x}dx&=\int_0^\infty\frac{\frac{\sin(ax)}{ax}-\frac{\sin(bx)}{bx}}{x}dx=\\&=\int_0^\infty\frac{b\sin(ax)-a\sin(bx)}{abx^2}dx=\\&=\frac{1}{ab}\int_0^\infty\frac{b\sin(ax)-a\sin(bx)}{x^2}dx.\end{aligned}$
+
+Συνεπώς, πράγματι:
+
+$latex \\displaystyle \\int_0^\infty\frac{b\sin(ax)-a\sin(bx)}{x^2}dx=ab\ln\frac{b}{a}.$
+
+Με αφορμή το προηγούμενο ολοκλήρωμα, φαίνεται δελεαστικό να υπολογίσουμε και το:
+
+$latex \\displaystyle\int_0^\infty\frac{\sin(ax)-\sin(bx)}{x}dx.$
+
+Εδώ θα θεωρούσαμε φυσιολογικά την $latex f(x)=\sin x$ η οποία είναι συνεχής, με $latex \\sin0=0$ και το όριό της στο άπειρο... δεν υπάρχει. Πράγματι, αν ρίξουμε μία ματιά στη γραφική παράσταση της $latex \\sin x$ αυτό είναι σαφές:
+
+.. figure:: https://im5.ezgif.com/tmp/ezgif-5-b6099b95-png-pdf/ezgif-5-fa15d83746.pdf-1.png
+   :alt: Η γραφική παράσταση του ημιτόνου ταλαντώνεται συνεχώς.
+
+   Η γραφική παράσταση του ημιτόνου ταλαντώνεται συνεχώς.
+
+Ε, εντάξει, δεν μπορεί να μας τα λύσει κι όλα τα προβλήματα ένα θεώρημα, ας αφήσουμε κάτι και για τα άλλα.
+
+Ή μήπως μπορεί;
+
+Περισσότερα για το θεώρημα Frullani και διάφορες παραλλαγές του θα δούμε στο επόμενο μέρος της σειράς. Μέχρι τότε, καλό απόγευμα!
+
+Η κεντρική εικόνα είναι ο πίνακας *Η παραλία στη Vilerville* του `Eugène Boudin <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin>`__.
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=BuJTn1RQ2us
+
+.. raw:: html
+
+   </figure>

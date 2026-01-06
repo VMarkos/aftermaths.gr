@@ -1,0 +1,31 @@
+Κατασκευές με Κανόνα και Διαβήτη #02
+####################################
+:date: 2022-10-18 14:46
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: Α' Λυκείου, ΕΠΑΛ, γεωμετρία, κατασκευές
+:slug: %ce%ba%ce%b1%cf%84%ce%b1%cf%83%ce%ba%ce%b5%cf%85%ce%ad%cf%82-%ce%bc%ce%b5-%ce%ba%ce%b1%ce%bd%cf%8c%ce%bd%ce%b1-%ce%ba%ce%b1%ce%b9-%ce%b4%ce%b9%ce%b1%ce%b2%ce%ae%cf%84%ce%b7-02
+:status: published
+:attachments: wp-content/uploads/2022/10/caillebotte_gustave_femme_nue_etendue_sur_un_divan.jpg
+
+Πώς μπορούμε να κατασκευάσουμε, άραγε, μία γωνία 60 μοιρών χωρίς μοιρογνωμόνιο; Αυτή και άλλες ενδιαφέρουσες κατασκευές με κανόνα και διαβήτη μπορείτε να βρείτε σε αυτό το συνοπτικό φυλλάδιο.
+
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1bjBjv20Z4NDkbZ86Ng6r0REoLcQCDgif/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+*Το προηγούμενο φυλλάδιο με τις κατασκευές μπορείτε να το βρείτε*\ `εδώ <https://aftermaths.gr/2022/10/11/%ce%ba%ce%b1%cf%84%ce%b1%cf%83%ce%ba%ce%b5%cf%85%ce%ad%cf%82-%ce%bc%ce%b5-%ce%ba%ce%b1%ce%bd%cf%8c%ce%bd%ce%b1-%ce%ba%ce%b1%ce%b9-%ce%b4%ce%b9%ce%b1%ce%b2%ce%ae%cf%84%ce%b7-01/>`__\ *.*
+
+Η κεντρική εικόνα είναι ο πίνακας *Γυμνή γυναίκα ξαπλωμένη σε ντιβάνι* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__\ *.*
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=xx8ooc-s7OQ
+
+.. raw:: html
+
+   </figure>

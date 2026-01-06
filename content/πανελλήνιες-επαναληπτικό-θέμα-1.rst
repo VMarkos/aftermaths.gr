@@ -1,0 +1,33 @@
+Πανελλήνιες - Επαναληπτικό Θέμα #1
+##################################
+:date: 2022-03-04 22:12
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: Bolzano, πανελλήνιες, Γ' λυκείου, ΘΜΤ, ασκήσεις, γραφική παράσταση, επανάληψη
+:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-1
+:status: published
+:attachments: wp-content/uploads/2022/03/914px-alma_tadema_spring.jpg
+
+Οι πανελλήνιες σιγά-σιγά κοντοζυγώνουν, οπότε καιρός είναι να αρχίσουμε τις επαναλήψεις! Κάθε εβδομάδα - μπορεί και λίγο τακτικότερα - θα παρουσιάζουμε και θα συζητάμε ένα εκτενές επαναληπτικό θέμα στην εξεταστέα ύλη των φετινών πανελλαδικών εξετάσεων. Κύριος στόχος είναι μέσα από τις λύσεις αυτών των θεμάτων να φρεσκάρουμε λίγο κάποιες βασικές τεχνικές που έχουμε συναντήσει μέσα στη χρονιά, καθώς και να δούμε και φαινόμενα πιο ενδιαφέροντα από τα τετριμμένα.
+
+Κάνουμε λοιπόν την αρχή μας με ένα αρκετά συμπαθητικό και «κλασσικό» θέμα - ως προς τα επιμέρους ερωτήματα.
+
+Το θέμα μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1RDGbtAPGE46ZXLi0k-eDJj2P0JnJKO7j/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Γενικά, υλικό σχετικό με τις πανελλήνιες μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *και*\ `εδώ <https://aftermaths.gr/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
+
+Η κεντρική εικόνα είναι ο πίνακας *Άνοιξη* του `Lawrence Alma-Tadema <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__.
+
+Καλό βράδυ και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=KN1raYeFf6Y
+
+.. raw:: html
+
+   </figure>

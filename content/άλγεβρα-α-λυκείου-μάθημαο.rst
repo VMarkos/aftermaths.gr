@@ -1,0 +1,31 @@
+Άλγεβρα, Α' Λυκείου - Μάθημα 16ο
+################################
+:date: 2022-01-10 09:23
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ανισώσεις, διαφάνειες, θεωρία
+:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-16%ce%bf
+:status: published
+:attachments: wp-content/uploads/2022/01/emile_claus_-_la_berge_rangee.jpg
+
+Λίγες διαφάνειες στις ανισώσεις πρώτου και δευτέρου βαθμού - Άλγεβρα Α' Γενικού Λυκείου και ΕΠΑΛ.
+
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1hrAfFFtZ3RgFCwN9auh6KXGtGkBRx-hq/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2021/12/20/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-15%ce%bf/>`__\ *ενώ τις αντίστοιχες της Άλγεβρας της Β' Λυκείου μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2021/12/22/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-15%ce%bf/>`__\ *.*
+
+Η κεντρική εικόνα είναι ο πίνακας *Τα δέντρα στην όχθη του ποταμού* του `Emile Claus <https://en.wikipedia.org/wiki/Emile_Claus>`__.
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=LcR1UlkZlUE
+
+.. raw:: html
+
+   </figure>
