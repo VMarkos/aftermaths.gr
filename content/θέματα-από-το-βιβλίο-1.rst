@@ -33,7 +33,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=T3gf-0xhtmM
+   .. youtube:: T3gf -0xhtmM
 
 .. raw:: html
 

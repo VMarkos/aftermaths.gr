@@ -38,6 +38,6 @@
 
    Καλό δροσερό βράδυ!
 
-   https://www.youtube.com/watch?v=b5B7Bawjq7o
+   .. youtube:: b5B7Bawjq7o 
 
-   https://www.youtube.com/watch?v=GUUC_q4GnVM
+   .. youtube:: GUUC_q4GnVM 

@@ -303,7 +303,7 @@ Wellcome!
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=eZEYvk3zrxk
+   .. youtube:: eZEYvk3zrxk 
 
 .. raw:: html
 

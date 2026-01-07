@@ -76,4 +76,4 @@
 
    Και κάτι για ένα γλυκό βράδυ:
 
-   https://www.youtube.com/watch?v=0byN0Xs5BM8
+   .. youtube:: 0byN0Xs5BM8 

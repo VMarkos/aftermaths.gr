@@ -16,4 +16,4 @@
 
 Καλό μεσημέρι και καλό διάβασμα!
 
-https://www.youtube.com/watch?v=BC2oaSAToRE
+.. youtube:: BC2oaSAToRE 

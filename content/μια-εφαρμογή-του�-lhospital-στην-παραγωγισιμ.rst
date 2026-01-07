@@ -74,7 +74,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=o4hoWoREtPg
+   .. youtube:: o4hoWoREtPg 
 
 .. raw:: html
 

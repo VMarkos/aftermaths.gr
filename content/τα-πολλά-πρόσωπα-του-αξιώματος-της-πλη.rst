@@ -220,7 +220,7 @@ Infimum ενός μη κενού και κάτω φραγμένου συνόλο
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=BVtIl3dqDbM
+   .. youtube:: BVtIl3dqDbM 
 
 .. raw:: html
 

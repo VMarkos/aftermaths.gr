@@ -375,7 +375,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=TVBFPV_X0-k
+   .. youtube:: TVBFPV_X0 -k
 
 .. raw:: html
 

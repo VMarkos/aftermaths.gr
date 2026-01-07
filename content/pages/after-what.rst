@@ -27,4 +27,4 @@ After-what?
 
 Καλό μας ξεκίνημα!
 
-https://www.youtube.com/watch?v=q8Oeq12zjZk
+.. youtube:: q8Oeq12zjZk 

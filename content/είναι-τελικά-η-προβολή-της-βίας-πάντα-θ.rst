@@ -42,4 +42,4 @@
 
    Η κεντρική εικόνα είναι ο λεπτομέρεια του πίνακα *Ο θάνατος και η παρθένος* του `Hans Baldung Grien <https://en.wikipedia.org/wiki/Hans_Baldung>`__\ *.*
 
-   https://www.youtube.com/watch?v=8yq_3Plt-xU
+   .. youtube:: 8yq_3Plt -xU

@@ -411,7 +411,7 @@ An :math:`f:[a,b]\to\mathbb{R} ` είναι μία συνεχής συνάρτη
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=uL8ExqKBsPc
+   .. youtube:: uL8ExqKBsPc 
 
 .. raw:: html
 

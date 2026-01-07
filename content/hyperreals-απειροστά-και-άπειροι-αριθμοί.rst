@@ -150,7 +150,7 @@ Hyperreals: Απειροστά και άπειροι αριθμοί
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=gM0zmp0S9Ck
+   .. youtube:: gM0zmp0S9Ck 
 
 .. raw:: html
 

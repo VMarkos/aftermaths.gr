@@ -261,7 +261,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=7mblqbz-1XI
+   .. youtube:: 7mblqbz -1XI
 
 .. raw:: html
 

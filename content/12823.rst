@@ -184,7 +184,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=jOAs-qtE_uA
+   .. youtube:: jOAs -qtE_uA
 
 .. raw:: html
 

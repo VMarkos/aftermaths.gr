@@ -24,4 +24,4 @@
 
 Καλό - συννεφιασμένο - απόγευμα!
 
-https://www.youtube.com/watch?v=Y-hCC3DdRaQ
+.. youtube:: Y -hCC3DdRaQ

@@ -258,7 +258,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=XYxspiM175k
+   .. youtube:: XYxspiM175k 
 
 .. raw:: html
 

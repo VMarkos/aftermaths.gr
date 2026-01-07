@@ -308,7 +308,7 @@ n a\ :sub:`n` b\ :sub:`n`
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=JD5InOUqR-k
+   .. youtube:: JD5InOUqR -k
 
 .. raw:: html
 

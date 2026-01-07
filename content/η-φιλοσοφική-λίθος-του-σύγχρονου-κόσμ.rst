@@ -56,4 +56,4 @@
 
    Και λίγη μουσική για το βραδάκι:
 
-   https://www.youtube.com/watch?v=i7hVVv8_v3M
+   .. youtube:: i7hVVv8_v3M 

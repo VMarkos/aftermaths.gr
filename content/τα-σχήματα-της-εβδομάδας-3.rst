@@ -322,7 +322,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=bAz2164JaZI
+   .. youtube:: bAz2164JaZI 
 
 .. raw:: html
 

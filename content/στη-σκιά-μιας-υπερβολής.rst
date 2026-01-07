@@ -433,7 +433,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=xOJJ7N1CXH4
+   .. youtube:: xOJJ7N1CXH4 
 
 .. raw:: html
 

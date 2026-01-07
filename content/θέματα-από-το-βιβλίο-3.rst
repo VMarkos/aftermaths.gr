@@ -21,7 +21,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=UZimTazWvOI
+   .. youtube:: UZimTazWvOI 
 
 .. raw:: html
 

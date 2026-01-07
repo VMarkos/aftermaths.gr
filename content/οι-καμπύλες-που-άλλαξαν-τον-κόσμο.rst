@@ -695,7 +695,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=l2iHM-GoiNQ
+   .. youtube:: l2iHM -GoiNQ
 
 .. raw:: html
 

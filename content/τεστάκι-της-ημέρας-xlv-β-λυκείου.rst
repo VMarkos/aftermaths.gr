@@ -22,7 +22,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=ReQpSSRtwlo
+   .. youtube:: ReQpSSRtwlo 
 
 .. raw:: html
 

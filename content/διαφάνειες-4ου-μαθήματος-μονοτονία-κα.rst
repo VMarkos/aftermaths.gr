@@ -16,4 +16,4 @@
 
 Η κεντρική εικόνα είναι η *Σπουδή στην κάλυψη του επιπέδου με ερπετά* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.*
 
-https://www.youtube.com/watch?v=fi12f5j1VA0
+.. youtube:: fi12f5j1VA0 

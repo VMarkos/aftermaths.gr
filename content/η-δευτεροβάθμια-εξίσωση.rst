@@ -243,7 +243,7 @@ $\rho_1+\rho_2=\frac{5}{2}+u+\frac{5}{2}-u=\frac{5}{2}+\frac{5}{2}=5.$
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=q_j62i63OdQ
+   .. youtube:: q_j62i63OdQ 
 
 .. raw:: html
 

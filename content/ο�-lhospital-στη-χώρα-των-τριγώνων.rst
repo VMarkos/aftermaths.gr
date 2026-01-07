@@ -228,7 +228,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=syLHUBS8H18
+   .. youtube:: syLHUBS8H18 
 
 .. raw:: html
 

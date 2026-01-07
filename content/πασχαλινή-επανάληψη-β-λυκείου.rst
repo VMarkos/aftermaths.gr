@@ -14,4 +14,4 @@
 
 Καλό διάβασμα και καλή ξεκούραση!
 
-https://www.youtube.com/watch?v=clVAv2nf7i0
+.. youtube:: clVAv2nf7i0 

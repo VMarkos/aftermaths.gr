@@ -16,4 +16,4 @@
 
 Καλή Πρωτοχρονιά και καλό διάβασμα!
 
-https://www.youtube.com/watch?v=rqIS06fR4Io
+.. youtube:: rqIS06fR4Io 

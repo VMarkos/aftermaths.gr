@@ -255,7 +255,7 @@ Borel, Borel, Borel...
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=DQWokgdyeYw
+   .. youtube:: DQWokgdyeYw 
 
 .. raw:: html
 

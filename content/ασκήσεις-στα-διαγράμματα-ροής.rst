@@ -12,4 +12,4 @@
 
 Η κεντρική εικόνα είναι ο πίνακας *Το κόκκινο τουρμπάνι* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.*
 
-https://www.youtube.com/watch?v=ALLuI1OHs-w
+.. youtube:: ALLuI1OHs -w

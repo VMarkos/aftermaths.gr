@@ -275,7 +275,7 @@ Brainstorming
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=wOJdsMcmpDw
+   .. youtube:: wOJdsMcmpDw 
 
 .. raw:: html
 

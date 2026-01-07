@@ -17,4 +17,4 @@
 
 Καλό μεσημέρι και καλή επιτυχία!
 
-https://www.youtube.com/watch?v=GKkeDqJBlK8
+.. youtube:: GKkeDqJBlK8 

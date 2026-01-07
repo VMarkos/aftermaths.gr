@@ -22,7 +22,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=LMD-EUAERl0
+   .. youtube:: LMD -EUAERl0
 
 .. raw:: html
 

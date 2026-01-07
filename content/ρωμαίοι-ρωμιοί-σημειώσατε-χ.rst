@@ -80,4 +80,4 @@
 
    Και λίγη μουσική για το απόγευμα (Beata Viscera = Άγια/Ευλογημένη σάρκα):
 
-   https://www.youtube.com/watch?v=J0KX_Wr_kAo
+   .. youtube:: J0KX_Wr_kAo 

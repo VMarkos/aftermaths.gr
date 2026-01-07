@@ -16,4 +16,4 @@
 
 Καλό καλοκαίρι και καλό διάβασμα!
 
-https://www.youtube.com/watch?v=uOtGayTFmF8
+.. youtube:: uOtGayTFmF8 

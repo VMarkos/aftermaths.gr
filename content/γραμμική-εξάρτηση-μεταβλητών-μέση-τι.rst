@@ -14,4 +14,4 @@
 
 Καλό βράδυ και καλό διάβασμα!
 
-https://www.youtube.com/watch?v=e6Q7a9vL8fY
+.. youtube:: e6Q7a9vL8fY 

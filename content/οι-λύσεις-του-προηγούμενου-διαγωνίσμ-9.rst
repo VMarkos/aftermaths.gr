@@ -30,7 +30,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=doMu-YNc4wM
+   .. youtube:: doMu -YNc4wM
 
 .. raw:: html
 

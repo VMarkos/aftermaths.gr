@@ -26,4 +26,4 @@
 
 Καλό μεσημέρι και καλό διάβασμα!
 
-https://www.youtube.com/watch?v=aTi9czvLa-4
+.. youtube:: aTi9czvLa -4

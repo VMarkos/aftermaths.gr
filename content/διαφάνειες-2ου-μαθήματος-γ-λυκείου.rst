@@ -18,4 +18,4 @@
 
 Καλό βράδυ και καλό διάβασμα!
 
-https://www.youtube.com/watch?v=2B1oY1sdnfE
+.. youtube:: 2B1oY1sdnfE 

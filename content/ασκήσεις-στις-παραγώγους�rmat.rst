@@ -14,4 +14,4 @@
 
 Η κεντρική εικόνα είναι ο πίνακας *Χιονισμένο νεκροταφείο* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.*
 
-https://www.youtube.com/watch?v=U__lpPDTUS4
+.. youtube:: U__lpPDTUS4 

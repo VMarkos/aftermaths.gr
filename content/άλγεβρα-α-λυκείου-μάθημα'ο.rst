@@ -38,7 +38,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=uF2mLuiOZWI&list=PLVElub974Qw35OQgzSV_mUja2hqwFngeH&index=138
+   .. youtube:: uF2mLuiOZWI =PLVElub974Qw35OQgzSV_mUja2hqwFngeH&index=138
 
 .. raw:: html
 

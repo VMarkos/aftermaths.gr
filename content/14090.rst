@@ -344,7 +344,7 @@ And because it's summer, we close musically, with some `Hugh Laurie <https://en.
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=AzEBH6DZJVk
+   .. youtube:: AzEBH6DZJVk 
 
 .. raw:: html
 

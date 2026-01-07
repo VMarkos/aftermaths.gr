@@ -12,4 +12,4 @@
 
 Η κεντρική εικόνα είναι ο πίνακας *Σπουδή για αυτοσχεδιασμό V* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.*
 
-https://www.youtube.com/watch?v=Ei0P_sgjYzY
+.. youtube:: Ei0P_sgjYzY 

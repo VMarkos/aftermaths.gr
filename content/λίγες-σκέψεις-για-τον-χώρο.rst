@@ -419,7 +419,7 @@
 
       Και λίγη μουσική για το απόγευμα:
 
-      https://www.youtube.com/watch?v=hy3W-3HPMWg
+      .. youtube:: hy3W -3HPMWg
 
 .. |image1| image:: {static}wp-content/uploads/2018/09/9899c-cartesianplane.png?w=300
    :class: aligncenter

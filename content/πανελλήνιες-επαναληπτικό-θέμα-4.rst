@@ -24,7 +24,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=FjM-StBaT80&list=PLVElub974Qw35OQgzSV_mUja2hqwFngeH&index=66
+   .. youtube:: FjM -StBaT80&list=PLVElub974Qw35OQgzSV_mUja2hqwFngeH&index=66
 
 .. raw:: html
 

@@ -16,4 +16,4 @@
 
 Καλό κυριακάτικο απόγευμα!
 
-https://www.youtube.com/watch?v=FOCucJw7iT8
+.. youtube:: FOCucJw7iT8 

@@ -9,6 +9,7 @@ from tqdm import tqdm
 from urllib.parse import unquote
 from config import Config
 from utils import compose, backup_file, get_files_in_dir, restore_backups
+from typing import Callable
 
 logger = logging.getLogger(__name__)
 
@@ -64,7 +65,7 @@ def fix_display_math(math_str: str) -> str:
     return clean_math_string(math_str, '.. math:: ', '')
 
 
-def fix_content(path: str, fix_fn: callable[[str], str] backup: bool=False) -> None:
+def fix_content(path: str, fix_fn: Callable[[str], str], backup: bool=False) -> None:
     with open(path, 'r') as file:
         old_lines = file.readlines()
     if backup:
@@ -96,7 +97,7 @@ def fix_forward_slashes(path: str) -> None:
 
 
 def video_fix_fn(line: str) -> str:
-    fixed_line = re.sub(r'https://www.youtube.com/watch?v=(\w+)(?:&\w*)?', r'.. youtube:: \1 ', line)
+    fixed_line = re.sub(r'https://www.youtube.com/watch\?v=(\w+)(?:&\w*)?', r'.. youtube:: \1 ', line)
     return fixed_line
 
 
@@ -111,7 +112,8 @@ def main():
     fnames = get_files_in_dir(Config.CONTENT_DIR, 'rst')
     for file_path in tqdm(map(os.path.abspath, fnames)):
         # fix_math_content(file_path)
-        fix_forward_slashes(file_path)
+        # fix_forward_slashes(file_path)
+        fix_video_urls(file_path)
 
 
 if __name__ == "__main__":

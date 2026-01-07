@@ -216,7 +216,7 @@ Troubles in Paradise
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=uOQc9YKxpUE
+   .. youtube:: uOQc9YKxpUE 
 
 .. raw:: html
 

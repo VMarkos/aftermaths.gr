@@ -18,7 +18,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=Gcvcp6OsaYQ
+   .. youtube:: Gcvcp6OsaYQ 
 
 .. raw:: html
 

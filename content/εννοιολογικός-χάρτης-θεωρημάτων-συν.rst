@@ -16,4 +16,4 @@
 
 Η κεντρική εικόνα είναι ο πίνακας *Αγόρι με μια πίπα* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.*
 
-https://www.youtube.com/watch?v=lvCNqJCattk
+.. youtube:: lvCNqJCattk 

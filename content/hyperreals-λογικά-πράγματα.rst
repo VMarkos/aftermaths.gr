@@ -336,7 +336,7 @@ Hyperreals: Λογικά πράγματα...
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=TlC1JmfzHWw
+   .. youtube:: TlC1JmfzHWw 
 
 .. raw:: html
 

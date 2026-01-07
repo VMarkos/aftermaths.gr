@@ -12,4 +12,4 @@
 
 Η κεντρική εικόνα είναι ο πίνακας *Θέα από το ατελιέ του καλλιτέχνη* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.*
 
-https://www.youtube.com/watch?v=HaQXx54h82Q
+.. youtube:: HaQXx54h82Q 

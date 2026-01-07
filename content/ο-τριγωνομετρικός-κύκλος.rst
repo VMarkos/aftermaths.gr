@@ -14,4 +14,4 @@
 
 Καλό απόγευμα και καλό διάβασμα!
 
-https://www.youtube.com/watch?v=KEFPtG4dP0k
+.. youtube:: KEFPtG4dP0k 

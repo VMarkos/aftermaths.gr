@@ -52,4 +52,4 @@
 
    Και λίγη μουσικούλα για το βράδυ:
 
-   https://www.youtube.com/watch?v=9BLfaQ98FbM
+   .. youtube:: 9BLfaQ98FbM 

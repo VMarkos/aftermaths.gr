@@ -44,4 +44,4 @@
 
    Καλό μας ξημέρωμα!
 
-   https://www.youtube.com/watch?v=Z39KxbbtCC0
+   .. youtube:: Z39KxbbtCC0 

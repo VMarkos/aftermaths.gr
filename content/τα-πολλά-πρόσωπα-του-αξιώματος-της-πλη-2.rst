@@ -265,7 +265,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=GUnm0luBOa4
+   .. youtube:: GUnm0luBOa4 
 
 .. raw:: html
 

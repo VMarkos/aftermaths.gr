@@ -22,7 +22,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=stg6AM-DUKo
+   .. youtube:: stg6AM -DUKo
 
 .. raw:: html
 

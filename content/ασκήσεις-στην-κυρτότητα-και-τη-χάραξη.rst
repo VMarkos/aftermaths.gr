@@ -12,4 +12,4 @@
 
 Η κεντρική εικόνα είναι ο πίνακας *Τα ερείπια του κάστρου του Teplitz* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.*
 
-https://www.youtube.com/watch?v=xPGC2EYNoXY
+.. youtube:: xPGC2EYNoXY 

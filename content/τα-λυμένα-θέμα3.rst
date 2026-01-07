@@ -222,7 +222,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=SiVpGw-g7XM
+   .. youtube:: SiVpGw -g7XM
 
 .. raw:: html
 

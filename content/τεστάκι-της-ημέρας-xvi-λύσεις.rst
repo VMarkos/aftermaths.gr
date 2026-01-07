@@ -20,7 +20,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=0yOqafiZVe0
+   .. youtube:: 0yOqafiZVe0 
 
 .. raw:: html
 

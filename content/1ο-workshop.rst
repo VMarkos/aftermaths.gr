@@ -14,4 +14,4 @@
 
 Καλό βράδυ και καλή ξεκούραση!
 
-https://www.youtube.com/watch?v=Xjdkc14-zwQ
+.. youtube:: Xjdkc14 -zwQ

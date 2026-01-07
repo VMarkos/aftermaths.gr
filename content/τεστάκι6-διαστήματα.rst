@@ -24,7 +24,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=Ch1aVmjvYTI
+   .. youtube:: Ch1aVmjvYTI 
 
 .. raw:: html
 

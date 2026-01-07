@@ -20,7 +20,7 @@
 
 .. container:: wp-block-embed__wrapper
 
-   https://www.youtube.com/watch?v=loKu_APkKQY
+   .. youtube:: loKu_APkKQY 
 
 .. raw:: html
 

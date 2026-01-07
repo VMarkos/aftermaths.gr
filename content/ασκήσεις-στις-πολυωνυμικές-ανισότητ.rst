@@ -14,4 +14,4 @@
 
 Καλημέρα και καλό διάβασμα!
 
-https://www.youtube.com/watch?v=EZ-VsKB_tNw
+.. youtube:: EZ -VsKB_tNw

@@ -18,4 +18,4 @@ The Wumpus Project - Part 0
 
 Καλό βράδυ και καλό διάβασμα!
 
-https://www.youtube.com/watch?v=wJfFU-S3jz4
+.. youtube:: wJfFU -S3jz4
