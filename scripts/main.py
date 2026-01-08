@@ -179,6 +179,14 @@ def fix_main_image(path: str) -> None:
     fix_content(path, main_image_fix_fn, main_image_pp)
 
 
+def meta_fix_fn(line: str, params: dict[str, any]) -> str:
+    ...
+
+
+def fix_meta_content(path: str) -> None:
+    fix_content(path, meta_fix_fn)
+
+
 def main():
     # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
