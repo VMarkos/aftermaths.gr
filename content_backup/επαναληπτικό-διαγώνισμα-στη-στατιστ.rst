@@ -1,0 +1,29 @@
+Επαναληπτικό διαγώνισμα στη Στατιστική
+######################################
+:date: 2020-10-16 15:24
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, διαγώνισμα, επανάληψη
+:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%cf%83%cf%84%ce%b7-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84
+:status: published
+:attachments: wp-content/uploads/2020/10/769px-hilma_af_klint_-_altarpiece_no._2_13916.jpg
+
+Το διαγώνισμα μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1NK85YP2z9nmcvrl8KFBfV7YUNngSf17z/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι το *Ρετάμπλ\* (Altarpiece) Group X, No. 2* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\ *.*
+
+Καλό απόγευμα και καλή επιτυχία!
+
+*\*Ο όρος ρετάμπλ αναφέρεται, τυπικά, στα έργα (πίνακες, γλυπτά κ.λπ.) που σχεδιάζονταν για να τοποθετηθούν πάνω στα τέμπλα των εκκλησιών.*
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: _TdQMn2MUxg 
+
+.. raw:: html
+
+   </figure>

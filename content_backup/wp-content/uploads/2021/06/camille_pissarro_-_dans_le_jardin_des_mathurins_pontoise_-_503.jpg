@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aftermaths - Ερχόμαστεεεε (ξανά)!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>aftermaths.gr</h1>
+            <h2>Μαθηματικά και... κάτι ακόμα.</h2>
+        </header>
+
+        <main>
+            <p class="announcement">
+                Λύνουμε δύο-τρία άλυτα προβλήματα και σύντομα ξανά κοντά σας!
+            </p>
+
+            <div id="countdown" class="countdown">
+                <div><span id="days">00</span><br>Ημέρες</div>
+                <div><span id="hours">00</span><br>Ώρες</div>
+                <div><span id="minutes">00</span><br>Λεπτά</div>
+                <div><span id="seconds">00</span><br>Δευτερόλεπτα</div>
+            </div>
+
+            <!-- <section class="subscribe">
+                <h3>Don't miss the launch!</h3>
+                <p>Enter your email to get notified when we go live and receive our first exclusive math puzzle.</p>
+                <form action="#" method="POST"> <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit">Notify Me</button>
+                </form>
+			</section> -->
+        </main>
+
+        <footer>
+            <p>&copy; 2025 aftermaths.gr. Μας ακολουθείτε;</p>
+            <div class="social-links">
+                <a href="https://substack.com/@aftermathsgr">Subtack</a> | 
+                <a href="https://www.instagram.com/aftermathsgr">Instagram</a> | 
+				<a href="https://www.facebook.com/aftermaths.gr">Facebook</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

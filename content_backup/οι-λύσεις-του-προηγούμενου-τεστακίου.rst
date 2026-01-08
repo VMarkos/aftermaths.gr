@@ -1,0 +1,17 @@
+Οι λύσεις του προηγούμενου τεστακίου
+####################################
+:date: 2019-06-27 15:34
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ασκήσεις, λύσεις
+:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%cf%84%ce%b5%cf%83%cf%84%ce%b1%ce%ba%ce%af%ce%bf%cf%85
+:status: published
+:attachments: wp-content/uploads/2019/06/henri_matisse_1907_les_trois_baigneuses_three_bathers_oil_on_canvas_60.3_x_73_cm_the_minneapolis_institute_of_arts.jpg
+
+Οι λύσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1XzngSKgZXFYc0UOsglcXW7pxWInQdK71/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Οι τρεις λουόμενες* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.*
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. youtube:: I057BPSdt5E 

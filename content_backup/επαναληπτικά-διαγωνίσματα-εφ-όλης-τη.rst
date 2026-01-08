@@ -1,0 +1,29 @@
+Επαναληπτικά διαγωνίσματα εφ' όλης της ύλης
+###########################################
+:date: 2019-09-01 14:57
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, διαγώνισμα, επανάληψη, λύσεις
+:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ac-%ce%b4%ce%b9%ce%b1%ce%b3%cf%89%ce%bd%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%b1-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7
+:status: published
+:attachments: wp-content/uploads/2019/09/vissersboten_op_het_strand_van_les_saintes-maries-de-la-mer_-_s0028v1962_-_van_gogh_museum.jpg
+
+Σε αυτήν την έκδοση θα βρείτε μία συλλογή επαναληπτικών διαγωνισμάτων στην ύλη της Γ' Λυκείου (περιέχει και διαγωνίσματα που καλύπτουν μόνο το πρώτο μέρος της ύλης).
+
+Τα διαγωνίσματα θα τα βρείτε `εδώ <https://drive.google.com/file/d/1V-AFJHA3mdXQzI6KQbQD-ysOa5hHvPSH/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Ψαρόβαρκες στην παραλία της Saintes-Maries* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.*
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: rSzKm3hqhs8 
+
+.. raw:: html
+
+   </figure>

@@ -1,0 +1,27 @@
+Οι λύσεις του προηγούμενου διαγωνίσματος
+########################################
+:date: 2019-10-28 20:19
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, πανελλήνιες, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, διαγώνισμα, επανάληψη, λύσεις
+:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%ce%b4%ce%b9%ce%b1%ce%b3%cf%89%ce%bd%ce%af%cf%83%ce%bc-4
+:status: published
+:attachments: wp-content/uploads/2019/10/800px-canaletto_-_the_entrance_to_the_grand_canal_venice_-_google_art_project.jpg
+
+Οι λύσεις του `προηγούμενου διαγωνίσματος <https://aftermathsgr.wordpress.com/2019/10/22/%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%bc%ce%ad%cf%87%cf%81%ce%b9-%cf%84%ce%b1-%cf%8c%cf%81%ce%b9/>`__ βρίσκονται `εδώ <https://drive.google.com/file/d/1Jz1jatrg4pQUvQ76KKgq0fll8CuxGKj4/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Η είσοδος στο μεγάλο κανάλι* του `Canaletto <https://en.wikipedia.org/wiki/Canaletto>`__\ *.*
+
+Καλό απόγευμα και καλό βράδυ!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: UKRY63Buv6A 
+
+.. raw:: html
+
+   </figure>

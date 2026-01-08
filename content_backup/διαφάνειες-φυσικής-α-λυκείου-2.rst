@@ -1,0 +1,29 @@
+Διαφάνειες Φυσικής - Α' Λυκείου
+###############################
+:date: 2021-02-16 11:57
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Φυσική
+:tags: ΕΟΚ, ΕΟΜΚ, ασκήσεις, δυνάμεις, διαφάνειες, επανάληψη, θεωρία
+:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%cf%86%cf%85%cf%83%ce%b9%ce%ba%ce%ae%cf%82-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-2
+:status: published
+:attachments: wp-content/uploads/2021/02/etude_de_ciel_boudin.jpg
+
+Διαφάνειες στην ύλη της Φυσικής της Α' Λυκείου μέχρι και την ενότητα της δυναμικής - με παραδείγματα με τριβές, τροχαλίες, απώλεια επαφής κ.λπ.
+
+Τις `διαφάνειες για την καραντίνα <https://aftermathsgr.wordpress.com/2020/12/09/%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-2/>`__ μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1SNeWNnts4f05EZwCrayUfgnk-u8dEvR5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Σπουδή του ουρανού* του `Eugène Boudin <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin>`__.
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: Rt -wO5kPDfU
+
+.. raw:: html
+
+   </figure>

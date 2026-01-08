@@ -1,0 +1,29 @@
+Άλγεβρα, Β' Λυκείου - Μάθημα 2ο
+###############################
+:date: 2021-09-22 09:06
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, Β' Λυκείου, ΕΠΑΛ, ασκήσεις, διαφάνειες, επανάληψη, θεωρία
+:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-2%ce%bf
+:status: published
+:attachments: wp-content/uploads/2021/09/1272px-boulevard_montmartre-_mardi_gras_frameless.jpg
+
+Λίγες διαφάνειες πάνω στα μη γραμμικά συστήματα αλλά και τα γραμμικά συστήματα 3x3 στα πλαίσια της ύλης της Άλγεβρας της Β' Λυκείου και ΕΠΑΛ.
+
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1-aKGW6KrFILOA0vB4xzcUkiqE56lCv04/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+*Για τις διαφάνειες του πρώτου μαθήματος, δείτε*\ `εδώ <https://aftermaths.gr/2021/09/15/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-1%ce%bf/>`__\ *.*
+
+Η κεντρική εικόνα είναι ο πίνακας *Λεωφόρος Μονμάρτης: Mardi Gras* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.*
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: tqK47a5m0ik 
+
+.. raw:: html
+
+   </figure>

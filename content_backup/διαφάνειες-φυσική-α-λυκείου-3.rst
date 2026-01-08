@@ -1,0 +1,29 @@
+Διαφάνειες - Φυσική Α' Λυκείου
+##############################
+:date: 2021-01-29 12:37
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Φυσική
+:tags: Α' Λυκείου, ασκήσεις, διαφάνειες, επανάληψη, θεωρία, λυμένα παραδείγματα
+:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%cf%86%cf%85%cf%83%ce%b9%ce%ba%ce%ae-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-3
+:status: published
+:attachments: wp-content/uploads/2021/01/825px-ivan_kramskoy_-_d09fd0bed180d182d180d0b5d182_d09f.d09c.d0a2d180d0b5d182d18cd18fd0bad0bed0b2d0b0_-_google_art_project.jpg
+
+Διαφάνειες στην ύλη της φυσικής της Α' Λυκείου, μέχρι και το κεφάλαιο της δυναμικής (ευθύγραμμες κινήσεις και δυναμική, Νόμοι του Νεύτωνα).
+
+Τις `διαφάνειες για την καραντίνα <https://aftermathsgr.wordpress.com/2020/12/07/%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%b3%ce%b9%ce%b1-%cf%84%ce%b7%ce%bd-%ce%ba%ce%b1%cf%81%ce%b1%ce%bd%cf%84%ce%af%ce%bd%ce%b1-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf/>`__ μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/176SycR-wvmkSi_Kr9gjrst2XvkJTuHKx/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι το πορτραίτο του Pavel Tretyakov του `Ivan Kramskoi <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.*
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: gCjvEdf8ocU 
+
+.. raw:: html
+
+   </figure>

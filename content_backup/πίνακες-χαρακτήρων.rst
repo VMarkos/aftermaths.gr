@@ -1,0 +1,27 @@
+Πίνακες χαρακτήρων
+##################
+:date: 2020-02-17 14:22
+:author: aftermathsgr
+:category: ΑΕΠΠ, Διδακτικό υλικό
+:tags: προβλήματα, πίνακες, πανελλήνιες, Γ' λυκείου, ασκήσεις, βασικές επεξεργασίες
+:slug: %cf%80%ce%af%ce%bd%ce%b1%ce%ba%ce%b5%cf%82-%cf%87%ce%b1%cf%81%ce%b1%ce%ba%cf%84%ce%ae%cf%81%cf%89%ce%bd
+:status: published
+:attachments: wp-content/uploads/2020/02/472px-rembrandt_harmensz._van_rijn_-_jeremia_treurend_over_de_verwoesting_van_jeruzalem_-_google_art_project.jpg
+
+Το φυλλάδιο βρίσκεται εδώ και στη σελίδα του διδακτικού υλικού.
+
+Η κεντρική εικόνα είναι ο πίνακας *Ο Ιερεμίας που θρηνεί για την καταστροφή της Ιερουσαλήμ* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.*
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed-youtube wp-block-embed is-type-rich wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: vL2oR_S9S00 
+
+.. raw:: html
+
+   </figure>

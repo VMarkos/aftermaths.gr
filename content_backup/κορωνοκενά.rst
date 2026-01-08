@@ -1,0 +1,29 @@
+Κορωνοκενά
+##########
+:date: 2020-09-20 11:01
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: featured, πανελλήνιες, πολυώνυμα, Β' Λυκείου, Γ' λυκείου, ασκήσεις, επανάληψη, εκθετική, θεωρία, κορωνοϊός, λογαριθμική
+:slug: %ce%ba%ce%bf%cf%81%cf%89%ce%bd%ce%bf%ce%ba%ce%b5%ce%bd%ce%ac
+:status: published
+:attachments: wp-content/uploads/2020/09/charles-francois_daubigny_-_le_printemps_-_google_art_project.jpg
+
+Σε αυτό το φυλλάδιο καλύπτονται τα βασικά σημεία της θεωρίας και των εφαρμογών των δύο τελευταίων κεφαλαίων της ύλης της Β' λυκείου - πολυώνυμα και εκθετικές/λογαριθμικές συναρτήσεις. Κύριος στόχος είναι η κάλυψη όσων κενών ενδεχομένως να προέκυψαν κατά τη διακοπή των μαθημάτων λόγω της πανδημία του νέου κορωνοϊού.
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1iI3GNcW3NQcpqiecOywLgEpvTim2JU1E/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Η άνοιξη* του `Charles-François Daubigny <https://en.wikipedia.org/wiki/Charles-Fran%C3%A7ois_Daubigny>`__.
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: wUVwYQCwYKc 
+
+.. raw:: html
+
+   </figure>

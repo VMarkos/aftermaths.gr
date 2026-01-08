@@ -1,0 +1,29 @@
+Ασκήσεις στα διανύσματα
+#######################
+:date: 2018-09-16 18:42
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: Β' Λυκείου, ασκήσεις, διανύσματα
+:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b1-%ce%b4%ce%b9%ce%b1%ce%bd%cf%8d%cf%83%ce%bc%ce%b1%cf%84%ce%b1
+:status: published
+:attachments: wp-content/uploads/2018/09/noir.jpg
+
+Σε αυτό το φυλλάδιο περιέχονται ασκήσεις που εστιάζουν στον αλγεβρικό χειρισμό αλλά και την εποπτική ερμηνεία των πράξεων μεταξύ διανυσμάτων (Β' Λυκείου, κατεύθυνση) σε απλά αλλά και πιο σύνθετα προβλήματα.
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/18IrSsS8azN-EqD0oTHn6mx8MiY8aYkzL/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Chateaux Noir* του `Paul Cezanne <https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne>`__\ *.*
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: VRp0IZHLels 
+
+.. raw:: html
+
+   </figure>

@@ -1,0 +1,27 @@
+Συλλογή ασκήσεων (Α' λυκείου)
+#############################
+:date: 2020-09-16 00:21
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: featured, προβλήματα, πηλίκο, συναρτήσεις, Α' Λυκείου, ασκήσεις, ανισώσεις, γινόμενο, επανάληψη, εξισώσεις
+:slug: %cf%83%cf%85%ce%bb%ce%bb%ce%bf%ce%b3%ce%ae-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%cf%89%ce%bd-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+:status: published
+:attachments: wp-content/uploads/2020/09/1280px-eventos_de_la_vida_de_moises_sandro_botticelli.jpg
+
+`Εδώ <https://drive.google.com/file/d/1mCcJ6-fjU7n_lAt7ndSzcpmF6dBx2CVd/view?usp=sharing>`__ αλλά και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__ θα βρείτε ασκήσεις εφ όλης της ύλης της Άλγεβρας της Α' Λυκείου. Οι ασκήσεις αυτές ξεκινούν από αρκετά βασικά ζητήματα της ύλης και πολλές φορές καλύπτουν και θέματα που θα απασχολήσουν απαιτητικούς λύτες - κυρίως σε ό,τι έχει να κάνει με ερωτήσεις κρίσεως και όχι τόσο με πολύ τεχνικές ασκήσεις/αποδείξεις κ.λπ.
+
+Καλή αρχή και καλό διάβασμα!
+
+Η κεντρική εικόνα είναι ο πίνακας *Η νιότη του Μωυσή* του `Sandro Botticelli <https://en.wikipedia.org/wiki/Sandro_Botticelli>`__\ *.*
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: H8DMZNtBeek 
+
+.. raw:: html
+
+   </figure>

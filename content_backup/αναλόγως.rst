@@ -1,0 +1,29 @@
+Αναλόγως...
+###########
+:date: 2023-10-21 14:57
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: φύλλο εργασίας, Β' Λυκείου, ΕΠΑΛ, αναλογίες, γεωμετρία
+:slug: %ce%b1%ce%bd%ce%b1%ce%bb%cf%8c%ce%b3%cf%89%cf%82
+:status: published
+:attachments: wp-content/uploads/2023/10/gugg_composition_in_gray_rag-time.jpg
+
+Πρώτο και διασημότερο θεώρημα στη Γεωμετρία της Β' Λυκείου είναι αυτό του Θαλή, με πληθώρα εφαρμογών κ.λπ. κ.λπ. Αυτά τα ξέρουμε, δεν ήρθαμε εδώ να το πουλήσουμε το θεώρημα, ήρθαμε να το παρουσιάσουμε. Και, γι' αυτόν τον σκοπό χρειάζεται ένα μασάζ στα βασικά περί λόγων, αναλογιών και όλα τα συναφή. Αυτά βρίσκουμε στο παρακάτω φύλλο εργασίας, μαζί με μία εισαγωγή στα απλά πορίσματα του θεωρήματος.
+
+Το φύλλο εργασίας μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1ZmzO_IwKyjz-dajImERBpJB9H9CvWoVT/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Σύνθεση σε γκρι* του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__.
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: F5LJXyI3kWY 
+
+.. raw:: html
+
+   </figure>

@@ -1,0 +1,17 @@
+Επαναληπτικό διαγώνισμα μέχρι και τον ορισμό της παραγώγου
+##########################################################
+:date: 2019-01-27 20:44
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, διαγώνισμα, επανάληψη
+:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%bc%ce%ad%cf%87%cf%81%ce%b9-%ce%ba%ce%b1%ce%b9-%cf%84%ce%bf-2
+:status: published
+:attachments: wp-content/uploads/2019/01/1920px-caspar_david_friedrich_-_meeresstrand_mit_fischer_ca.1807.jpg
+
+Ένα επαναληπτικό διαγώνισμα μέχρι και τον ορισμό της παραγώγου.
+
+Το διαγώνισμα βρίσκεται `εδώ <https://drive.google.com/file/d/16r4SIHJlBdz-z2OY-7jJmM3nmYgSDBnJ/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Ακτή και ψαράς* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.*
+
+.. youtube:: mUSGHMX9UaY 

@@ -1,0 +1,19 @@
+Μια δεύτερη επανάληψη (Α' Λυκείου)
+##################################
+:date: 2018-09-16 16:35
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: συναρτήσεις, Α' Λυκείου, ασκήσεις, ανισώσεις, δευτεροβάθμιες, επανάληψη, εξισώσεις
+:slug: %ce%bc%ce%b9%ce%b1-%ce%b4%ce%b5%cf%8d%cf%84%ce%b5%cf%81%ce%b7-%ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+:status: published
+:attachments: wp-content/uploads/2018/09/monethaystacks2copy-59a03877aad52b0011f9f7da.jpg
+
+Σε αυτό το φυλλάδιο περιέχονται επαναληπτικές ασκήσεις για το δεύτερο μισό της ύλης της πρώτης λυκείου (εξισώσεις, ανισώσεις, ακολουθίες και συναρτήσεις) καθώς και κάποιες ασκήσεις (7 και 10) που εξετάζουν μέρος της ύλης από διαφορετικές σκοπιές.
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1xFby2JV1ShKLCMvoaWTcaAvMsVjECnTe/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας `Θυμωνιές <https://en.wikipedia.org/wiki/Haystacks_(Monet_series)>`__ του `Claude Monet <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.*
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. youtube:: Dl8H_m3m0Eg 

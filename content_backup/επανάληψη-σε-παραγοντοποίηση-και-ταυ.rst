@@ -1,0 +1,17 @@
+Επανάληψη σε παραγοντοποίηση και ταυτότητες
+###########################################
+:date: 2019-09-14 15:48
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: πράξεις, παραγοντοποίηση, ταυτότητες, Α' Λυκείου, ασκήσεις, επανάληψη
+:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%cf%83%ce%b5-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%ce%bf%ce%bd%cf%84%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b1%cf%85
+:status: published
+:attachments: wp-content/uploads/2019/09/caspar_david_friedrich_-_abend_1824.jpg
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1fT3io1zun-sp2i9Rk470DhEhxcVwYtQC/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Απόγευμα* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.*
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. youtube:: BYfKWyeichE 

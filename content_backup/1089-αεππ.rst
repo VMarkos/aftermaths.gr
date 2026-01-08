@@ -1,0 +1,29 @@
+1089 (ΑΕΠΠ)
+###########
+:date: 2019-09-11 12:47
+:author: aftermathsgr
+:category: ΑΕΠΠ, Διδακτικό υλικό
+:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επιλογής, επανάληψη
+:slug: 1089-%ce%b1%ce%b5%cf%80%cf%80
+:status: published
+:attachments: wp-content/uploads/2019/09/800px-lautrec_equestrienne_at_the_cirque_fernando_1887-8.jpg
+
+Πάρτε έναν αριθμό με τρία ψηφία (π.χ το 561).
+
+Γράψτε τον ανάποδα (165).
+
+Αφαιρέστε τους δύο αριθμούς και κρατήστε  την απόλυτη τιμή (χωρίς το πρόσημο) (561-165=396).
+
+Γράψτε τον αριθμό που βρήκατε ανάποδα (693).
+
+Προσθέστε τους δύο τελευταίους αριθμούς (396+693=1089).
+
+Μήπως βρήκατε 1089;
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/14NjZldvrC-JZebJg8Lhk_U4ygaGPXt3N/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Στο τσίρκο Fernando* του `Henri de Toulouse-Lautrec <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.*
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+.. youtube:: aTi9czvLa -4

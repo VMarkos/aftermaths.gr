@@ -1,0 +1,17 @@
+Πολυώνυμα - Τεστ ΙΙ
+###################
+:date: 2019-02-28 00:07
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: πολυώνυμα, τεστ, Β' Λυκείου, ασκήσεις, επανάληψη
+:slug: %cf%80%ce%bf%ce%bb%cf%85%cf%8e%ce%bd%cf%85%ce%bc%ce%b1-%cf%84%ce%b5%cf%83%cf%84-%ce%b9%ce%b9
+:status: published
+:attachments: wp-content/uploads/2019/02/775px-caspar_david_friedrich_013.jpg
+
+Το τεστ βρίσκεται `εδώ <https://drive.google.com/file/d/1OUw1OmdT-hxgGckmVeG9qevks1oTJnhH/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Τα στάδια της ζωής* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.*
+
+Καλό διάβασμα και καλό ξημέρωμα!
+
+.. youtube:: UUwSnlt3bY4 

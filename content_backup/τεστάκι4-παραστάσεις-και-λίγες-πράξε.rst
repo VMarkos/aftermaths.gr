@@ -1,0 +1,31 @@
+Τεστάκι #004 - Παραστάσεις και λίγες Πράξεις
+############################################
+:date: 2022-10-24 11:46
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+:tags: παραστάσεις, τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
+:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-004-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82-%ce%ba%ce%b1%ce%b9-%ce%bb%ce%af%ce%b3%ce%b5%cf%82-%cf%80%cf%81%ce%ac%ce%be%ce%b5
+:status: published
+:attachments: wp-content/uploads/2022/10/caillebotte_lhomme_au_balcon_boulevard_haussmann_-_christies.jpg
+
+Ένα ακόμα τεστάκι στις αριθμητικές και αλγεβρικές παραστάσεις με ολίγη εσάνς από... ταυτότητες.
+
+Το τεστάκι μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1Lf0RTKWnIbDJAVNG0PKVBGsZ123vlsID/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+*Το προηγούμενο τεστάκι μπορείτε να το βρείτε*\ `εδώ <https://aftermaths.gr/2022/10/15/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-003-%ce%ba%ce%b9-%ce%ac%ce%bb%ce%bb%ce%b1-%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1/>`__\ *, ενώ σχετικές ασκήσεις μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/10/23/%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82-%cf%80%cf%81%ce%ac%ce%be%ce%b5%ce%b9%cf%82-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b1%cf%85%cf%84%cf%8c%cf%84%ce%b7%cf%84%ce%b5%cf%82/>`__\ *.*
+
+Η κεντρική εικόνα είναι ο πίνακας *Άντρας στο μπαλκόνι* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__.
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: 861jOEqVr4Q 
+
+.. raw:: html
+
+   </figure>

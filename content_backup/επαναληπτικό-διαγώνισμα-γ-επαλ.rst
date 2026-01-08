@@ -1,0 +1,29 @@
+Επαναληπτικό διαγώνισμα (Γ' ΕΠΑΛ)
+#################################
+:date: 2021-04-21 14:41
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, παράγωγος, πανελλήνιες, στατιστική, συναρτήσεις, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διαγώνισμα, επανάληψη, μαθηματικά
+:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
+:status: published
+:attachments: wp-content/uploads/2021/04/835px-pierre-auguste_renoir_113.jpg
+
+Ένα επαναληπτικό διαγώνισμα εφ' όλης της κορωνοΰλης της Γ' ΕΠΑΛ - Συναρτήσεις και Στατιστική μέχρι γραφική αναπαράσταση δεδομένων.
+
+Το διαγώνισμα μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1e5fQo1sAJkWFLqsBKJ9assPtQHsuedM-/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι το πορτραίτο του Paul-Durand Ruel του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.*
+
+Καλησπέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: rTueh06kNiY 
+
+.. raw:: html
+
+   </figure>

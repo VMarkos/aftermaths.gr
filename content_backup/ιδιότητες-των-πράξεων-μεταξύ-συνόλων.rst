@@ -1,0 +1,17 @@
+Ιδιότητες των πράξεων μεταξύ συνόλων
+####################################
+:date: 2019-08-31 19:08
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: πράξεις, προβλήματα, σύνολα, Α' Λυκείου, ασκήσεις
+:slug: %ce%b9%ce%b4%ce%b9%cf%8c%cf%84%ce%b7%cf%84%ce%b5%cf%82-%cf%84%cf%89%ce%bd-%cf%80%cf%81%ce%ac%ce%be%ce%b5%cf%89%ce%bd-%ce%bc%ce%b5%cf%84%ce%b1%ce%be%cf%8d-%cf%83%cf%85%ce%bd%cf%8c%ce%bb%cf%89%ce%bd
+:status: published
+:attachments: wp-content/uploads/2019/08/matisse_conversation.jpg
+
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/14QQqyvVMLh2FJ_N8wxSrpl4EyX-_qBhk/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Η συζήτηση* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.*
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. youtube:: FjLhLgdhzMQ 

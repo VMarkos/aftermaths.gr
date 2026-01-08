@@ -1,0 +1,28 @@
+Θέματα από το βιβλίο (3)
+########################
+:date: 2020-03-24 17:35
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, ολοκλήρωμα
+:slug: %ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%ce%b1%cf%80%cf%8c-%cf%84%ce%bf-%ce%b2%ce%b9%ce%b2%ce%bb%ce%af%ce%bf-3
+:status: published
+
+Το τρίτο μέρος της συλλογής θεμάτων στον δρόμο μας για τις πανελλαδικές - όποτε κι αν γίνουν - μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1vFAZEgAfTZz2FEcqnE1n1w0vQ-CNMDQK/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Η κεντρική εικόνα είναι ο πίνακας *Μια γυναίκα που πλένεται στο ρέμα* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.*
+
+Τα υπόλοιπα θέματα μπορείτε να τα βρείτε στο `αρχικό ποστ <https://aftermathsgr.wordpress.com/2020/03/11/%ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%ce%b1%cf%80%cf%8c-%cf%84%ce%bf-%ce%b2%ce%b9%ce%b2%ce%bb%ce%af%ce%bf-1/>`__.
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed-youtube wp-block-embed is-type-rich wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: UZimTazWvOI 
+
+.. raw:: html
+
+   </figure>

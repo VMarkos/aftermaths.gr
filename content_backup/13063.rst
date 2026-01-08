@@ -1,0 +1,25 @@
+Δυνάμεις Με Ρητό Εκθέτη
+#######################
+:date: 2024-05-15 07:08
+:author: aftermathsgr
+:category: After-maths, Διδακτική, Μαθηματικά
+:tags: featured, ρητοί εκθέτες, άλγεβρα
+:slug: 13063
+:status: draft
+:attachments: wp-content/uploads/2024/05/la_rendicion_de_juliers.jpg
+
+Δώσε λίγη διαίσθηση όπως στην τάξη με τα σχήματα για τους ρητούς εκθέτες (δες τις φωτογραφίες σου).
+
+Η κεντρική εικόνα είναι ο πίνακας *Η παράδοση της Juliers* του `Jusepe Leonardo <https://es.wikipedia.org/wiki/Jusepe_Leonardo>`__.
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: UjfOF9cKn -M
+
+.. raw:: html
+
+   </figure>

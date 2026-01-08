@@ -1,0 +1,31 @@
+Συνέχειας συνέχεια...
+#####################
+:date: 2021-12-02 14:00
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: Bolzano, προβλήματα, πανελλήνιες, συνέχεια, Γ' λυκείου, ασκήσεις, επανάληψη
+:slug: %cf%83%cf%85%ce%bd%ce%ad%cf%87%ce%b5%ce%b9%ce%b1%cf%82-%cf%83%cf%85%ce%bd%ce%ad%cf%87%ce%b5%ce%b9%ce%b1
+:status: published
+:attachments: wp-content/uploads/2021/12/834px-madame_david_by_jacques-louis_david_1813_oil_on_canvas_-_national_gallery_of_art_washington_-_dsc09988.jpg
+
+Λίγες ακόμα ασκήσεις και προβλήματα στα βασικά θεωρήματα συνέχειας - Μαθηματικά Προσανατολισμού Γ' Γενικού Λυκείου.
+
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1ryW2w6rSwoInl1TeLRgjXaBO4-MLfc1O/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Προβλήματα σχετικά με το Θεώρημα του Bolzano μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2021/11/23/%cf%84%ce%b1-%cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%bf%cf%85-bolzano/>`__\ *.*
+
+Η κεντρική εικόνα είναι το πορτραίτο της Margueritte-Charlotte David του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__.
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: rLCjaICT7HE 
+
+.. raw:: html
+
+   </figure>

@@ -1,0 +1,31 @@
+Λίγη Θεωρία...
+##############
+:date: 2022-04-30 16:38
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: σημειώσεις, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, επανάληψη, θεωρία
+:slug: %ce%bb%ce%af%ce%b3%ce%b7-%ce%b8%ce%b5%cf%89%cf%81%ce%af%ce%b1
+:status: published
+:attachments: wp-content/uploads/2022/04/eugene_delacroix_-_andromeda_-_google_art_project.jpg
+
+Μία μικρή σύνοψη της θεωρίας της Άλγεβρας της Β' Γενικού Λυκείου και ΕΠΑΛ (πλην του τελευταίου κεφαλαίου των εκθετικών και λογαριθμικών συναρτήσεων).
+
+Τις σημειώσεις μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1jJmQ5VckNTJVzNuMXDgfgeuvPzX-Pfpt/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Για λίγα λυμένα παραδείγματα στα μαθηματικά προσανατολισμού της Β' Λυκείου, δείτε*\ `εδώ <https://aftermaths.gr/2022/04/28/%ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%cf%80%ce%b1%cf%81%ce%b1%ce%b4%ce%b5%ce%af%ce%b3%ce%bc%ce%b1%cf%84%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%b1%ce%b8%ce%b7%ce%bc/>`__\ *.*
+
+Η κεντρική εικόνα είναι ο πίνακας *Ανδρομέδα* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\ *.*
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: TZoHwshyRFQ 
+
+.. raw:: html
+
+   </figure>
