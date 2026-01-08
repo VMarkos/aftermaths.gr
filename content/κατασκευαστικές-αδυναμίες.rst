@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/09/moscow_courtyard_polenov_1878_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2021/09/moscow_courtyard_polenov_1878_-_google_art_project.jpg
+	:alt: Ο πίνακας *Παραδοσιακή Ρώσικη αυλή* του `Vasily Polenov <https://en.wikipedia.org/wiki/Vasily_Polenov>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Παραδοσιακή Ρώσικη αυλή* του `Vasily Polenov <https://en.wikipedia.org/wiki/Vasily_Polenov>`__\ *.* 
+
+
 Έχουμε ακούσει πολλές φορές να μιλάνε για τον τετραγωνισμό του κύκλου ως κάτι το αδύνατο - και για την περικύκλωση του τετραγώνου ως κάτι εφικτό - αλλά, γιατί είναι αδύνατο; Δηλαδή, αν πάρουμε έναν κύκλο με εμβαδόν 5 τετραγωνικά, δε μπορούμε να κάνουμε κι ένα τετράγωνο με εμβαδό επίσης 5 τετραγωνικά;
 
 Ίσως και όχι...
@@ -453,7 +460,7 @@
 
 Μέχρι την επόμενη εβδομάδα, καλή συνέχεια!
 
-Η κεντρική εικόνα είναι ο πίνακας *Παραδοσιακή Ρώσικη αυλή* του `Vasily Polenov <https://en.wikipedia.org/wiki/Vasily_Polenov>`__\ *.*
+
 
 .. raw:: html
 

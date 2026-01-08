@@ -6,6 +6,13 @@
 :status: published
 :attachments: wp-content/uploads/2018/09/severe_teacher.jpg
 
+.. figure:: /wp-content/uploads/2018/09/severe_teacher.jpg
+	:alt: 
+	:align: center
+
+	
+
+
 `Αρχική <http://aftermathsgr.wordpress.com>`__ > **Διδακτικό Υλικό**
 
 Εδώ θα μπορεί κανείς να βρίσκει διδακτικό υλικό για διάφορες τάξεις της δευτεροβάθμιας εκπαίδευσης και, κυρίως, του λυκείου.

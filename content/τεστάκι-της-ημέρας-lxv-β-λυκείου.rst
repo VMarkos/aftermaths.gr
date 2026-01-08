@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/02/frederic_bazille_004.jpg
 
+.. figure:: /wp-content/uploads/2021/02/frederic_bazille_004.jpg
+	:alt: Μία αυτοπροσωπογραφία του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
+	:align: center
+
+	Μία αυτοπροσωπογραφία του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
+
+
 Ένα τεστ εισαγωγικό στην ύλη των πολυωνύμων και, ειδικότερα, στην ευκλείδεια διαίρεση μεταξύ πολυωνύμων - άλγεβρα, Β' Λυκείου και ΕΠΑΛ.
 
 Το τεστάκι μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1dDRWAVxIBT8B47hRZiUbYFg_fXSGI_Gc/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι μία αυτοπροσωπογραφία του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

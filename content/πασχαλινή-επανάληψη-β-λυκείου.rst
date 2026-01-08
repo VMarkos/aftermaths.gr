@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/04/shishkin_na_severe_dikom1.jpg
 
+.. figure:: /wp-content/uploads/2019/04/shishkin_na_severe_dikom1.jpg
+	:alt: Ο πίνακας *Στον άγριο Βορρά* του `Ivan Shishkin <https://en.wikipedia.org/wiki/Ivan_Shishkin>`__. 
+	:align: center
+
+	Ο πίνακας *Στον άγριο Βορρά* του `Ivan Shishkin <https://en.wikipedia.org/wiki/Ivan_Shishkin>`__. 
+
+
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/18X-sP5_HyejZGt5AZ6gLHaf9uxxzPNXq/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Στον άγριο Βορρά* του `Ivan Shishkin <https://en.wikipedia.org/wiki/Ivan_Shishkin>`__.
+
 
 Καλό διάβασμα και καλή ξεκούραση!
 

@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2019/05/800px-d098d0b2d0b0d0bd_d0a8d0b8d188d0bad0b8d0bd_d09fd0bed181d0bbd0b5_d188d182d0bed180d0bcd0b0_d0b2_d09cd0b5d180d0b8-d0a5d0bed0b2d0b8_1891.jpg
 
+.. figure:: /wp-content/uploads/2019/05/800px-d098d0b2d0b0d0bd_d0a8d0b8d188d0bad0b8d0bd_d09fd0bed181d0bbd0b5_d188d182d0bed180d0bcd0b0_d0b2_d09cd0b5d180d0b8-d0a5d0bed0b2d0b8_1891.jpg
+	:alt: Ο πίνακας *Μετά την καταιγίδα στο Meri Hovi* του `Ivan Shishkin <https://en.wikipedia.org/wiki/Ivan_Shishkin>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Μετά την καταιγίδα στο Meri Hovi* του `Ivan Shishkin <https://en.wikipedia.org/wiki/Ivan_Shishkin>`__\ *.* 
+
+
 Το διαγώνισμα βρίσκεται `εδώ <https://drive.google.com/file/d/12nLOnG_yBsruimlZp1qdYG7bLhR8KJHZ/view?usp=sharing>`__ και στη σελίδα `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 *Τις λύσεις του διαγωνίσματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2019/06/05/%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%8d%ce%bb%ce%b7%cf%82-v-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%ce%b3/>`__\ *ενώ επαναληπτικές ασκήσεις και ερωτήσεις Σωστού-Λάθους για τις πανελλήνιες μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/04/27/40-1-%ce%bc%ce%b9%ce%ba%cf%81%ce%ad%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82/>`__\ *κι*\ `εδώ <https://aftermaths.gr/2022/05/22/123-%ce%b5%cf%81%cf%89%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%89%cf%83%cf%84%ce%bf%cf%8d-%ce%bb%ce%ac%ce%b8%ce%bf%cf%85%cf%82/>`__\ *αντίστοιχα.*
 
-Η κεντρική εικόνα είναι ο πίνακας *Μετά την καταιγίδα στο Meri Hovi* του `Ivan Shishkin <https://en.wikipedia.org/wiki/Ivan_Shishkin>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

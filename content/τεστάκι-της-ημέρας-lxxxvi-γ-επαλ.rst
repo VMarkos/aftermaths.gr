@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/04/845px-gabrielle_et_jean_by_pierre-auguste_renoir_from_c2rmf_cropped.jpg
 
+.. figure:: /wp-content/uploads/2021/04/845px-gabrielle_et_jean_by_pierre-auguste_renoir_from_c2rmf_cropped.jpg
+	:alt: Ο πίνακας *Η Gabrielle Renard και το μωρό της, ο Jean Renoir* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Η Gabrielle Renard και το μωρό της, ο Jean Renoir* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
 Ένα επαναληπτικό τεστάκι στις βασικές έννοιες της στατιστικής (απόλυτες και σχετικές συχνότητες) και τα όρια συναρτήσεων στα πλαίσια της ύλης των μαθηματικών της Γ' ΕΠΑΛ - προετοιμασία για πανελλήνιες.
 
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1ADlYJjT9TyjSEzho7MtZhTrQ44d4ORKR/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Η Gabrielle Renard και το μωρό της, ο Jean Renoir* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

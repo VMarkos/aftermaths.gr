@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/09/d09bd0b5d0bed0bdd0b8d0b4_d09e._d09fd0b0d181d182d0b5d180d0bdd0b0d0ba_-_d090d0bbd0b5d0bad181d0b0d0bdd0b4d180_d09fd183d188d0bad0b8d0bd_d0bdd0b0_d0b1d0b5d180d0b5d0b3d183_d0bcd0bed180d18f_189.jpg
 
+.. figure:: /wp-content/uploads/2021/09/d09bd0b5d0bed0bdd0b8d0b4_d09e._d09fd0b0d181d182d0b5d180d0bdd0b0d0ba_-_d090d0bbd0b5d0bad181d0b0d0bdd0b4d180_d09fd183d188d0bad0b8d0bd_d0bdd0b0_d0b1d0b5d180d0b5d0b3d183_d0bcd0bed180d18f_189.jpg
+	:alt: Ο πίνακας *Ο Αλεξάντερ Πούσκιν στην ακροθαλασσιά* του `Leonid Pasternak <https://en.wikipedia.org/wiki/Leonid_Pasternak>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ο Αλεξάντερ Πούσκιν στην ακροθαλασσιά* του `Leonid Pasternak <https://en.wikipedia.org/wiki/Leonid_Pasternak>`__\ *.* 
+
+
 Εισαγωγή
 --------
 
@@ -484,7 +491,7 @@
 
 Ουφ και πάλι ουφ! Κουραστήκαμε αρκετά αλλά, με αρκετή βοήθεια από πιο προχωρημένες έννοιες των μαθηματικών καταφέραμε να αποδείξουμε ένα από τα πλέον ιστορικά αποτελέσματα των μαθηματικών: ότι δεν υπάρχει πολυώνυμο με ακέραιους συντελεστές που να έχει ως ρίζα του τον  :math:`\pi!`  Αυτό το αποτέλεσμα - αν και πρωτοαποδείχθηκε διαφορετικά - αποτελεί τον ακρογωνιαίο λίθο για μία σειρά από πολύ γνωστά και παλιά προβλήματα των μαθηματικών. Περισσότερα επ' αυτού θα πούμε την ερχόμενη εβδομάδα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο Αλεξάντερ Πούσκιν στην ακροθαλασσιά* του `Leonid Pasternak <https://en.wikipedia.org/wiki/Leonid_Pasternak>`__\ *.*
+
 
 .. raw:: html
 

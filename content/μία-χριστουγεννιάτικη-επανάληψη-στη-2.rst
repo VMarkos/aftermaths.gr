@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2020/12/william_merritt_chase_-_the_song_1907.jpg
 
+.. figure:: /wp-content/uploads/2020/12/william_merritt_chase_-_the_song_1907.jpg
+	:alt: Ο πίνακας *Το τραγούδι* του `William Merritt Chase. <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__ 
+	:align: center
+
+	Ο πίνακας *Το τραγούδι* του `William Merritt Chase. <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__ 
+
+
 Ένα μικρό φυλλάδιο με ασκήσεις και προβλήματα στη δομή επανάληψης στα πλαίσια της προετοιμασίας για τις πανελλήνιες εξετάσεις στο μάθημα του ΑΕΠΠ.
 
 Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1ZzXI2adw3wxrbqsG6mNOF8OZ4TJa2HJU/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Το τραγούδι* του `William Merritt Chase. <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__
+
 
 Καλημέρα και καλό διάβασμα!
 

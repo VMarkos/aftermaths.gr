@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/09/2560px-pissarro_camille_-_boulevard_montmartre_a_paris.jpg
 
+.. figure:: /wp-content/uploads/2021/09/2560px-pissarro_camille_-_boulevard_montmartre_a_paris.jpg
+	:alt: Ο πίνακας *Η Λεωφόρος Μονμάρτης στο Παρίσι* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Η Λεωφόρος Μονμάρτης στο Παρίσι* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+
+
 Την προηγούμενη εβδομάδα ξεκινήσαμε να κατασκευάζουμε γραφήματα με βάση την αντίστροφη έκφραση της εικασίας Collatz που είχαμε παρουσιάσει - για μία γρήγορη υπενθύμιση, δείτε `εδώ <https://aftermaths.gr/2021/09/10/%ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-3/>`__ και για όλες τις δημοσιεύσεις της σειράς δείτε `εδώ <https://aftermaths.gr/category/collatz/>`__. Να θυμίσουμε ότι ο τρόπος κατασκευής του γραφήματος είναι ο εξής:
 
 #. Ξεκινάμε από έναν κόμβο με ετικέτα 1 τον οποίο και προσθέτουμε σε μία λίστα που θα ονομάζουμε *λίστα των τρεχόντων κόμβων.* Επίσης, δημιουργούμε και μία λίστα ακμών καθώς και μία ακόμα λίστα ετικετών - αρχικά κενές αμφότερες.
@@ -103,7 +110,7 @@
 
 Καλό ξημέρωμα και καλή διασκέδαση!
 
-Η κεντρική εικόνα είναι ο πίνακας *Η Λεωφόρος Μονμάρτης στο Παρίσι* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.*
+
 
 .. raw:: html
 

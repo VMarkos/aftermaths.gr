@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/12/pablo_picasso_1919_sleeping_peasants_gouache_watercolor_and_pencil_on_paper_31.1_x_48.9_cm_museum_of_modern_art_new_york.jpg
 
+.. figure:: /wp-content/uploads/2019/12/pablo_picasso_1919_sleeping_peasants_gouache_watercolor_and_pencil_on_paper_31.1_x_48.9_cm_museum_of_modern_art_new_york.jpg
+	:alt: Ο πίνακας *Αγρότες που κοιμούνται* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Αγρότες που κοιμούνται* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+
+
 Οι λύσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1-nQqatRckJbypfq0wA_ieF_WyHX_dfQE/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Αγρότες που κοιμούνται* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.*
+
 
 Καλό βράδυ και καλό διάβασμα!
 

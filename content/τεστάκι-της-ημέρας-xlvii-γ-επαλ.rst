@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/01/1280px-alexander_iii_reception_by_repin.jpg
 
+.. figure:: /wp-content/uploads/2021/01/1280px-alexander_iii_reception_by_repin.jpg
+	:alt: Ο πίνακας *Υποδοχή του Αλεξάνδρου του ΙΙΙ* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Υποδοχή του Αλεξάνδρου του ΙΙΙ* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+
+
 Ένα εισαγωγικό τεστ στα όρια συναρτήσεων στα πλαίσια των μαθηματικών γενικής παιδείας (άλγεβρα) της Γ' ΕΠΑΛ.
 
 Το τεστ βρίσκεται `εδώ <https://drive.google.com/file/d/1QA3tyqAfPZmZQrimKHofTzL723Tgpbk9/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Υποδοχή του Αλεξάνδρου του ΙΙΙ* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

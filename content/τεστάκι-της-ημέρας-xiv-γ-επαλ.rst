@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/marianne_von_werefkin_-_schwarze_frauen_1910.jpg
 
+.. figure:: /wp-content/uploads/2020/11/marianne_von_werefkin_-_schwarze_frauen_1910.jpg
+	:alt: Ο πίνακας *Οι μαυροφορούσες* της `Marianne von Werefkin <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__. 
+	:align: center
+
+	Ο πίνακας *Οι μαυροφορούσες* της `Marianne von Werefkin <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__. 
+
+
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/17dGs0sIMb1JcU5KvD8DYozbOqWgzQGQ2/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Οι μαυροφορούσες* της `Marianne von Werefkin <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

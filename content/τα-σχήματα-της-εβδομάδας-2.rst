@@ -7,6 +7,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/08/road_to_versailles_at_louveciennes_1869_camille_pissarro.jpg
 
+.. figure:: /wp-content/uploads/2021/08/road_to_versailles_at_louveciennes_1869_camille_pissarro.jpg
+	:alt: *οι δρόμοι για τις Βερσαλλίες* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:align: center
+
+	*οι δρόμοι για τις Βερσαλλίες* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+
+
 Άλλη μία εβδομάδα πέρασε, άλλο ένα σετ με σχήματα που κάπου έχουμε ξανασυναντήσει στο aftermaths θα συζητηθεί εκτενώς. Τα σχήματα αυτής της εβδομάδας κυμαίνονται από σχετικά απλά έως και πολύ απαιτητικά - τουλάχιστον σε σχέση με τα όσα έχουμε δει ως τώρα. Αλλά, επειδή άρχισαν ήδη οι φλυαρίες και δεν έχουμε φτάσει ούτε τις δύο προτάσεις καλά-καλά, ας περάσουμε στο διά ταύτα - πολύ τη χρησιμοποιώ αυτήν την έκφραση τελευταία.
 
 Ένα λιτό πολυώνυμο...
@@ -329,7 +336,7 @@
 
 Αυτά για αυτήν την εβδομάδα, τα λέμε την επόμενη Τρίτη - μάλλον - με περισσότερα σχήματα - μάλλον ;)
 
-Η κεντρική εικόνα είναι *Οι δρόμοι για τις Βερσαλλίες* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.*
+
 
 .. raw:: html
 

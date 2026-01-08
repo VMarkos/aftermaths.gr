@@ -8,13 +8,20 @@
 :status: published
 :attachments: wp-content/uploads/2020/06/christen_schiellerup_kc3b8bke_-_bay_of_naples_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2020/06/christen_schiellerup_kc3b8bke_-_bay_of_naples_-_google_art_project.jpg
+	:alt: Ο πίνακας *Ο κόλπος της Νάπολι* του `Christen Købke <https://en.wikipedia.org/wiki/Christen_K%C3%B8bke>`__. 
+	:align: center
+
+	Ο πίνακας *Ο κόλπος της Νάπολι* του `Christen Købke <https://en.wikipedia.org/wiki/Christen_K%C3%B8bke>`__. 
+
+
 Λίγες ώρες πριν εξεταστούν τα παιδιά μας στα μαθηματικά προσανατολισμού της Γ' λυκείου αυτήν την αρκετά παράξενη χρονιά, λίγα θέματα με μία έντονη εσάνς... κορωνοϊού. Σε αυτό το πακέτο θα βρείτε λυμένα - κάποιες φορές και με περισσότερους από έναν τρόπους - κάποια από τα πρόσφατα θέματα των πανελλαδικών περιορισμένα στην πετσοκομμένη ύλη της εποχής του κορωνοϊού.
 
 Καλή επιτυχία!
 
 Τα θέματα μπορείτε να τα βρείτε `εδώ <https://drive.google.com/file/d/1UYZiQ7IHFvkKvq3ijXSLlb1-HFX-2mVs/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://Διδακτικό%20υλικό>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο κόλπος της Νάπολι* του `Christen Købke <https://en.wikipedia.org/wiki/Christen_K%C3%B8bke>`__.
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

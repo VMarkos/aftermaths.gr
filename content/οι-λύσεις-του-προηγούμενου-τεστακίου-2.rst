@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/07/437px-giovanni_battista_piranesi_-_the_drawbridge_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2019/07/437px-giovanni_battista_piranesi_-_the_drawbridge_-_google_art_project.jpg
+	:alt: Το σκίτσο *Η κρεμαστή γέφυρα* του `Giovanni Battista Piranesi <https://en.wikipedia.org/wiki/Giovanni_Battista_Piranesi>`__\ *.* 
+	:align: center
+
+	Το σκίτσο *Η κρεμαστή γέφυρα* του `Giovanni Battista Piranesi <https://en.wikipedia.org/wiki/Giovanni_Battista_Piranesi>`__\ *.* 
+
+
 Οι λύσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1d6tPGStSc2gJ5I8a6dJEBWSml5amdzMd/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι το σκίτσο *Η κρεμαστή γέφυρα* του `Giovanni Battista Piranesi <https://en.wikipedia.org/wiki/Giovanni_Battista_Piranesi>`__\ *.*
+
 
 Καλό βράδυ και καλό διάβασμα!
 

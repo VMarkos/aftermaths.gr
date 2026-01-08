@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/06/pierre_auguste_renoir_les_baigneuses.jpg
 
+.. figure:: /wp-content/uploads/2021/06/pierre_auguste_renoir_les_baigneuses.jpg
+	:alt: Ο πίνακας *Λουόμενες* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Λουόμενες* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
 Ένα ακόμα επαναληπτικό διαγώνισμα στην κομμένη ύλη των μαθηματικών της Γ' ΕΠΑΛ.
 
 Το διαγώνισμα μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1JKsRrgUYShQ5NohYBwT-yhCe640GIRY_/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Λουόμενες* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.*
+
 
 Καλησπέρα και καλό διάβασμα!
 

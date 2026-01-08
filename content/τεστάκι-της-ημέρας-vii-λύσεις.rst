@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/741px-alexei_jawlensky_-_young_girl_with_a_flowered_hat_1910_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2020/11/741px-alexei_jawlensky_-_young_girl_with_a_flowered_hat_1910_-_google_art_project.jpg
+	:alt: Ένα πορτραίτο της μικρής κόρης του `Alexej von Jawlensky <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__ με ένα καπέλο με λουλούδια. 
+	:align: center
+
+	Ένα πορτραίτο της μικρής κόρης του `Alexej von Jawlensky <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__ με ένα καπέλο με λουλούδια. 
+
+
 Οι λύσεις του `τεστ <https://aftermathsgr.wordpress.com/2020/11/06/τεστάκι-της-ημέρας-vii-α-λυκείου/>`__ βρίσκονται `εδώ <https://drive.google.com/file/d/1b_EdeQunl5loJqqSxTz8Fu-MhNujp1EL/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ένα πορτραίτο της μικρής κόρης του `Alexej von Jawlensky <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__ με ένα καπέλο με λουλούδια.
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/06/fishermen.1.jpg
 
+.. figure:: /wp-content/uploads/2020/06/fishermen.1.jpg
+	:alt: Ο πίνακας *Δύο ψαράδες πλάι σε μια βάρκα* του `Michael Ancher <https://en.wikipedia.org/wiki/Michael_Ancher>`__. 
+	:align: center
+
+	Ο πίνακας *Δύο ψαράδες πλάι σε μια βάρκα* του `Michael Ancher <https://en.wikipedia.org/wiki/Michael_Ancher>`__. 
+
+
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1lCUh-RLCwYUTfGsfbIasPVCEniAaRVP5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://Διδακτικό%20υλικό>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Δύο ψαράδες πλάι σε μια βάρκα* του `Michael Ancher <https://en.wikipedia.org/wiki/Michael_Ancher>`__.
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

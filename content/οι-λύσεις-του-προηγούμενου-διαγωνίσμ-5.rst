@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/11/494px-thumbnail.jpg
 
+.. figure:: /wp-content/uploads/2019/11/494px-thumbnail.jpg
+	:alt: Ο πίνακας *Γυναίκα με δοχείο μουστάρδας* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Γυναίκα με δοχείο μουστάρδας* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+
+
 Οι λύσεις του `προηγούμενου διαγωνίσματος μέχρι τη συνέχεια <https://aftermathsgr.wordpress.com/2019/11/24/επαναληπτικό-διαγώνισμα-μέχρι-και-τη/>`__ βρίσκονται `εδώ <https://drive.google.com/file/d/1EnXyIZft8zPzpiK0TOM8QvUXi_6Nyajn/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Γυναίκα με δοχείο μουστάρδας* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.*
+
 
 Καλό ξημέρωμα και καλό διάβασμα!
 

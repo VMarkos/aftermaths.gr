@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/03/pierre-auguste_renoir_danseuse.jpg
 
+.. figure:: /wp-content/uploads/2021/03/pierre-auguste_renoir_danseuse.jpg
+	:alt: Ο πίνακας *Η χορεύτρια* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Η χορεύτρια* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
 Ένα τεστάκι στις αριθμητικές προόδους και τα αθροίσματα όρων αριθμητικών προόδων στα πλαίσια της ύλης της άλγεβρας της Α' Λυκείου.
 
 Το τεστ βρίσκεται `εδώ <https://drive.google.com/file/d/1bkmcE8Zt9ge77sYwPR3GPD0ALvQd43vk/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Η χορεύτρια* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/03/pierre-auguste_renoir_090.jpg
 
+.. figure:: /wp-content/uploads/2021/03/pierre-auguste_renoir_090.jpg
+	:alt: Ο πίνακας *Port-Neuf* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Port-Neuf* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
 Ένα τεστάκι στις πολυωνυμικές ανισώσεις στα πλαίσια της ύλης της άλγεβρας Β' Λυκείου και ΕΠΑΛ.
 
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1QJFfEasmKZloCqm8ackXvaKHJ7vqaUBp/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Port-Neuf* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

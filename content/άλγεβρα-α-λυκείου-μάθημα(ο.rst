@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2022/04/eugene_delacroix_-_jeune_orpheline_au_cimetiere_vers_1824.jpg
 
+.. figure:: /wp-content/uploads/2022/04/eugene_delacroix_-_jeune_orpheline_au_cimetiere_vers_1824.jpg
+	:alt: Ο πίνακας *Ορφανό κορίτσι στο Νεκροταφείο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+	:align: center
+
+	Ο πίνακας *Ορφανό κορίτσι στο Νεκροταφείο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+
+
 Διάφορες επαναληπτικές ασκήσεις από το σχολικό βιβλίο και όχι μόνο. Εξισώσεις, ανισώσεις, αποδείξεις, ιδιότητες πράξεων, όλα όσα είδαμε μέσα στην ύλη - εντάξει, όχι κι όλα, πόσα να χωρέσουν σε έξι (6) διαφάνειες, άλλωστε. Αρκετά, ωστόσο, για να φρεσκάρουμε αρκετά σημεία της ύλης! :)
 
 Στις τελευταίες διαφάνειες περιέχονται κάποιες ερωτήσεις Σωστού/Λάθους για μία ακόμα γρήγορη επανάληψη σε βασικές ιδιότητες των πραγματικών αριθμών.
@@ -30,7 +37,7 @@
 
    </figure>
 
-Η κεντρική εικόνα είναι ο πίνακας *Ορφανό κορίτσι στο Νεκροταφείο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

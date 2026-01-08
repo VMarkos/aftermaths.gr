@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/05/833px-pierre-auguste_renoir_085.jpg
 
+.. figure:: /wp-content/uploads/2021/05/833px-pierre-auguste_renoir_085.jpg
+	:alt: Ο πίνακας *Μετά το μπάνιο* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Μετά το μπάνιο* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
 Διαφάνειες στα δύο τελευταία κεφάλαια της ύλης - Πολυώνυμα και Εκθετικές/Λογαριθμικές συναρτήσεις - της Άλγεβρας της Β' Λυκείου (και ΕΠΑΛ, σε ό,τι έχει να κάνει με τα πολυώνυμα).
 
 Τι διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1YZAAu4UC2FZtR4TUtxHpzgK7KxtwbTnS/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Μετά το μπάνιο* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.*
+
 
 Καλησπέρα και καλό διάβασμα!
 

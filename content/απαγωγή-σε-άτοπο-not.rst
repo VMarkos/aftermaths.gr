@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/11/af-klint-hilma_svanen-nr-8_1915_modernamuseet_press.jpg
 
+.. figure:: /wp-content/uploads/2021/11/af-klint-hilma_svanen-nr-8_1915_modernamuseet_press.jpg
+	:alt: Ο πίνακας *Ο κύκνος, Νο. 8* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__. 
+	:align: center
+
+	Ο πίνακας *Ο κύκνος, Νο. 8* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__. 
+
+
 Φτάνουμε στην Α' Λυκείου - Γενικού είτε ΕΠΑΛ, δεν έχει τόση σημασία - και μέσα στα όσα λέμε για αποδείξεις συνήθως βρίσκεται και μία αγαπημένη απόδειξη περί της αρρητότητας της τετραγωνικής ρίζας του 2. Χρόνια τώρα - εντάξει, όχι και πολλά - μία ερώτηση στριφογυρίζει στο μυαλό μου:
 
 *Γιατί τη διδάσκουμε αυτήν την απόδειξη;*
@@ -253,7 +260,7 @@
 
 Καλό απόγευμα! :)
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο κύκνος, Νο. 8* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__.
+
 
 .. raw:: html
 

@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/the_fat_women_by_igor_grabar_1904.jpg
 
+.. figure:: /wp-content/uploads/2020/11/the_fat_women_by_igor_grabar_1904.jpg
+	:alt: Ο πίνακας *Εύσωμες κυρίες* του `Igor Grabar <https://en.wikipedia.org/wiki/Igor_Grabar>`__. 
+	:align: center
+
+	Ο πίνακας *Εύσωμες κυρίες* του `Igor Grabar <https://en.wikipedia.org/wiki/Igor_Grabar>`__. 
+
+
 Οι λύσεις του `τεστ <https://aftermathsgr.wordpress.com/2020/11/05/τεστάκι-της-ημέρας-vi-γ-λυκείου/>`__ βρίσκονται `εδώ <https://drive.google.com/file/d/1wFZEojeoe2X6lGh802fBsBVWK4XcMjJf/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Εύσωμες κυρίες* του `Igor Grabar <https://en.wikipedia.org/wiki/Igor_Grabar>`__.
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

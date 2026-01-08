@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/04/pierre-august_renoir_sleeping_girl_with_a_cat.jpg
 
+.. figure:: /wp-content/uploads/2021/04/pierre-august_renoir_sleeping_girl_with_a_cat.jpg
+	:alt: Ο πίνακας *Κορίτσι που κοιμάται με μία γάτα* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__. 
+	:align: center
+
+	Ο πίνακας *Κορίτσι που κοιμάται με μία γάτα* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__. 
+
+
 Ένα τεστάκι στις εκθετικές συναρτήσεις και τη μονοτονία τους - άλγεβρα Β' Λυκείου.
 
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1hE9NF2Jh31h_hJYz1tmTP5Y02CmdG2Nn/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Κορίτσι που κοιμάται με μία γάτα* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

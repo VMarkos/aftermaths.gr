@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/01/1280px-e.v.pavlov_by_repin.jpg
 
+.. figure:: /wp-content/uploads/2021/01/1280px-e.v.pavlov_by_repin.jpg
+	:alt: Ο πίνακας *O χειρουργός E. V. Pavlov* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *O χειρουργός E. V. Pavlov* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+
+
 Ένα τεστάκι στις ρίζες και στις βασικές τους ιδιότητες στα πλαίσια της ύλης της άλγεβρας της Α' λυκείου.
 
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1vPo7eaFY0psXSefIwjC8DPLwYQ3pCQRw/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *O χειρουργός E. V. Pavlov* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

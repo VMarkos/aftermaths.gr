@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/12/van-gogh-900x660.jpg
 
+.. figure:: /wp-content/uploads/2018/12/van-gogh-900x660.jpg
+	:alt: Ο πίνακας *Ανθισμένη αμυγδαλιά* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ανθισμένη αμυγδαλιά* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+
+
 Σε αυτό το φυλλάδιο περιέχονται κάποιες ασκήσεις πολλαπλής επιλογής στα πλαίσια της ύλης των Μαθηματικών Γ' Λυκείου των ΕΠΑΛ.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1eA7rkAgkhHzoS-vJ1AFslR2rItRHmmAl/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ανθισμένη αμυγδαλιά* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.*
+
 
 Καλό απόγευμα και καλή συνέχεια!
 

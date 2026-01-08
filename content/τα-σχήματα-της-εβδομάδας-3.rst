@@ -7,6 +7,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/08/bath_road_london_by_camille_pissarro.jpg
 
+.. figure:: /wp-content/uploads/2021/08/bath_road_london_by_camille_pissarro.jpg
+	:alt: Ο πίνακας *Οδός Bath, Chiswick* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Οδός Bath, Chiswick* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+
+
 Άλλη μία εβδομάδα πέρασε - και, δυστυχώς, αρκετά γρήγορα είναι η αλήθεια - άλλα λίγα σχήματα προστέθηκαν στη `λίστα μας <https://aftermaths.gr/%ce%ad%ce%bd%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1-%cf%84%ce%b7%ce%bd-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1/>`__. Ας τα περάσουμε ένα-ένα για να δούμε τις ιδιαιτερότητές τους και τα όποια νέα στοιχεία ενδεχομένως να έχουν ενδιαφέρον.
 
 *Για να δείτε τα σχόλια για τα σχήματα προηγούμενων εβδομάδων, δείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
@@ -314,7 +321,7 @@
 
 *Για τα σχήματα των προηγούμενων εβδομάδων, δείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
 
-Η κεντρική εικόνα είναι ο πίνακας *Οδός Bath, Chiswick* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.*
+
 
 .. raw:: html
 

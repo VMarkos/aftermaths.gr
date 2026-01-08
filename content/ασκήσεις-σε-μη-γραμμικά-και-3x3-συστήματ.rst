@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/10/14_oct_14_violets_vase_toulouse.jpg
 
+.. figure:: /wp-content/uploads/2018/10/14_oct_14_violets_vase_toulouse.jpg
+	:alt: Ο πίνακας *Μπουκέτο από βιολέτες σε βάζο* του `Henri de Toulouse-Lautrec <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Μπουκέτο από βιολέτες σε βάζο* του `Henri de Toulouse-Lautrec <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+
+
 Σε αυτό το φυλλάδιο περιέχονται κάποιες ενδεικτικές ασκήσεις πάνω στα μη γραμμικά και στα 3x3 γραμμικά συστήματα.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/15lJWJLMs1ocHLgsJZAXLS9wrv0KheRLc/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Μπουκέτο από βιολέτες σε βάζο* του `Henri de Toulouse-Lautrec <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2022/04/young_tiger_playing_with_its_mother.jpg
 
+.. figure:: /wp-content/uploads/2022/04/young_tiger_playing_with_its_mother.jpg
+	:alt: Ο πίνακας *Νεαρός τίγρης παίζει με τη μητέρα του* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+	:align: center
+
+	Ο πίνακας *Νεαρός τίγρης παίζει με τη μητέρα του* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+
+
 Αλήθεια, πέρα από το να λύνουμε εξισώσεις, τι άλλο μπορούμε να κάνουμε με τους λογαρίθμους; Για παραάδειγμα, ο αριθμός 2^65 είναι μεγάλος, αλλά… πόσο μεγάλος; Πόσα ψηφία έχει, ας πούμε;
 
 Αυτά και άλλα πολλά μπορούμε να τα εξερευνήσουμε, όπως φαντάζεστε, με τη βοήθεια των λογαρίθμων και των ιδιοτήτων τους!
@@ -30,7 +37,7 @@
 
    </figure>
 
-Η κεντρική εικόνα είναι ο πίνακας *Νεαρός τίγρης παίζει με τη μητέρα του* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

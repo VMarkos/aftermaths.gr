@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/robert_delaunay_-_jean_metzinger_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2020/11/robert_delaunay_-_jean_metzinger_-_google_art_project.jpg
+	:alt: Ένα πορτραίτο του *Jean Metzinger* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	:align: center
+
+	Ένα πορτραίτο του *Jean Metzinger* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+
+
 Το τεστ βρίσκεται `εδώ <https://drive.google.com/file/d/1wE_J35waBFe97QPgxjco456DBjR6tEXr/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ένα πορτραίτο του *Jean Metzinger* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

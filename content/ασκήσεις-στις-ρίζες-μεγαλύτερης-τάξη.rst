@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/09/geopoliticus-child-watching-the-birth-of-the-new-man.jpg
 
+.. figure:: /wp-content/uploads/2018/09/geopoliticus-child-watching-the-birth-of-the-new-man.jpg
+	:alt: `γεωπολιτικό παιδί παρακολουθεί τη γέννηση του νέου ανθρώπου <https://en.wikipedia.org/wiki/Geopoliticus_Child_Watching_the_Birth_of_the_New_Man>`__ του `Salvador Dali <https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD>`__\ *.* 
+	:align: center
+
+	`γεωπολιτικό παιδί παρακολουθεί τη γέννηση του νέου ανθρώπου <https://en.wikipedia.org/wiki/Geopoliticus_Child_Watching_the_Birth_of_the_New_Man>`__ του `Salvador Dali <https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD>`__\ *.* 
+
+
 Σε αυτό το φυλλάδιο περιέχονται ασκήσεις που έχουν ως στόχο, αφ' ενός, να εξοικειωθούν οι μαθητές με τον υπολογισμό ριζών ανωτέρων τάξεων και, αφ' ετέρου, να έρθουν σε επαφή με διάφορα λεπτά σημεία του ορισμού των δυνάμεων με ρητό εκθέτη. Επίσης, τονίζεται (βλ. άσκηση 3) και η σημασία του νέου συμβολισμού (ρητός εκθέτης) στην εκτέλεση περίπλοκων πράξεων. Τέλος, γίνεται και μία μικρή εισαγωγή σε ένα κλασσικό πρόβλημα των μαθηματικών (βλ. άσκηση 7), που εμπλέκει μέσα γνώσεις αυτής της ενότητας.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1l06cTZyOWguOZbfq4xBRhYEIPFNL7G7W/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι `Γεωπολιτικό παιδί παρακολουθεί τη γέννηση του νέου ανθρώπου <https://en.wikipedia.org/wiki/Geopoliticus_Child_Watching_the_Birth_of_the_New_Man>`__ του `Salvador Dali <https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/09/mound_of_butter.jpg
 
+.. figure:: /wp-content/uploads/2018/09/mound_of_butter.jpg
+	:alt: Ο πίνακας `Σωρός από βούτυρο <https://en.wikipedia.org/wiki/Mound_of_Butter>`__ του `Antoine Vollon <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	:align: center
+
+	Ο πίνακας `Σωρός από βούτυρο <https://en.wikipedia.org/wiki/Mound_of_Butter>`__ του `Antoine Vollon <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+
+
 Σε αυτό το φυλλάδιο περιέχονται ασκήσεις που ξεκινούν από απλά υπολογιστικά προβλήματα και καταλήγουν σε πιο σύνθετα προβλήματα που απαιτούν χρήση της έννοιας του συντελεστή διεύθυνσης.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1q-UKQmRkXp6T33sTc2HTDS_X2Ci2u-v2/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας `Σωρός από βούτυρο <https://en.wikipedia.org/wiki/Mound_of_Butter>`__ του `Antoine Vollon <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.*
+
 
 Καλό βράδυ και καλό διάβασμα!
 

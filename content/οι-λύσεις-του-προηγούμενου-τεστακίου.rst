@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/06/henri_matisse_1907_les_trois_baigneuses_three_bathers_oil_on_canvas_60.3_x_73_cm_the_minneapolis_institute_of_arts.jpg
 
+.. figure:: /wp-content/uploads/2019/06/henri_matisse_1907_les_trois_baigneuses_three_bathers_oil_on_canvas_60.3_x_73_cm_the_minneapolis_institute_of_arts.jpg
+	:alt: Ο πίνακας *Οι τρεις λουόμενες* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Οι τρεις λουόμενες* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+
+
 Οι λύσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1XzngSKgZXFYc0UOsglcXW7pxWInQdK71/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Οι τρεις λουόμενες* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

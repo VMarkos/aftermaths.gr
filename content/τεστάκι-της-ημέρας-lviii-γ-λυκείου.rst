@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/02/1280px-alexander_ivanov_-_christs_appearance_to_mary_magdalene_after_the_resurrection_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2021/02/1280px-alexander_ivanov_-_christs_appearance_to_mary_magdalene_after_the_resurrection_-_google_art_project.jpg
+	:alt: Ο πίνακας *Εμφάνιση του Ιησού στη Μαρία τη Μαγδαληνή* του `Alexander Ivanov <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Εμφάνιση του Ιησού στη Μαρία τη Μαγδαληνή* του `Alexander Ivanov <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\ *.* 
+
+
 Ένα τεστάκι σε βασικές έννοιες των παραγώγων - προετοιμασία για πανελλήνιες, Γ' Λυκείου - όπως η εύρεση εξίσωσης εφαπτομένης γραφικής παράστασης συνάρτησης.
 
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1xqu3OfwfoR-GJLiYakPxc3HqZVzaGoiW/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Εμφάνιση του Ιησού στη Μαρία τη Μαγδαληνή* του `Alexander Ivanov <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

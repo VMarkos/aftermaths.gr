@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator2.png, wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator.png, wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator1.png, wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator.png, wp-content/uploads/2020/03/michael_ancher_-_den_rc3b8de_redningsbc3a5d_sejler_ud.jpg, wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator1.png
 
+.. figure:: /wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator2.png, wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator.png, wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator1.png, wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator.png, wp-content/uploads/2020/03/michael_ancher_-_den_rc3b8de_redningsbc3a5d_sejler_ud.jpg, wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator1.png
+	:alt: Ο πίνακας *Η κόκκινη σωσίβια λέμβος στο δρόμο της προς τη θάλασσα* του `Michael Ancher <https://en.wikipedia.org/wiki/Michael_Ancher>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Η κόκκινη σωσίβια λέμβος στο δρόμο της προς τη θάλασσα* του `Michael Ancher <https://en.wikipedia.org/wiki/Michael_Ancher>`__\ *.* 
+
+
 Wellcome!
 ---------
 
@@ -293,7 +300,7 @@ Wellcome!
 
 Περισσότερα στο επόμενο μέρος!
 
-Η κεντρική εικόνα είναι ο πίνακας *Η κόκκινη σωσίβια λέμβος στο δρόμο της προς τη θάλασσα* του `Michael Ancher <https://en.wikipedia.org/wiki/Michael_Ancher>`__\ *.*
+
 
 Καλό βράδυ!
 

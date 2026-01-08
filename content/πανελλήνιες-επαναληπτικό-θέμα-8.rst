@@ -8,13 +8,20 @@
 :status: published
 :attachments: wp-content/uploads/2022/04/delacroix-marc_aurele-mba-lyon.jpg
 
+.. figure:: /wp-content/uploads/2022/04/delacroix-marc_aurele-mba-lyon.jpg
+	:alt: Ο πίνακας *Οι τελευταίες λέξεις του αυτοκράτορα Μάρκου Αυρήλιου* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+	:align: center
+
+	Ο πίνακας *Οι τελευταίες λέξεις του αυτοκράτορα Μάρκου Αυρήλιου* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+
+
 Ένα επαναληπτικό θέμα με... υπερβολικό τρέξιμο (αν διαβάσετε την εκφώνηση, θα καταλάβετε πόσο κακό αστείο ήταν αυτό).
 
 Το θέμα μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1HmUKth6_npTdkGxPyvR4nj5N19ibGpr6/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού. <http://aftermaths.gr/διδακτικό-υλικό/>`__
 
 *Προηγούμενα θέματα μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/04/26/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-7/>`__\ *κι*\ `εδώ <https://aftermaths.gr/2022/04/23/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-6/>`__\ *, ασκήσεις για μία γρήγορη επανάληψη στα βασικά μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/04/27/40-1-%ce%bc%ce%b9%ce%ba%cf%81%ce%ad%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82/>`__\ *ενώ υλικό γενικά για τις πανελλήνιες*\ `εδώ <https://aftermaths.gr/tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *κι*\ `εδώ <https://aftermaths.gr/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
 
-Η κεντρική εικόνα είναι ο πίνακας *Οι τελευταίες λέξεις του αυτοκράτορα Μάρκου Αυρήλιου* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__.
+
 
 Καλό μεσημέρι και καλό διάβασμα!
 

@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/09/vangchurchauversx1.jpg
 
+.. figure:: /wp-content/uploads/2018/09/vangchurchauversx1.jpg
+	:alt: Ο πίνακας `Η εκκλησία στην Auvers-sur-Oise, άποψη του ιερού <http://www.everypainterpaintshimself.com/article/van_goghs_church_in_auvers_sur_oise_1890>`__\ *,* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:align: center
+
+	Ο πίνακας `Η εκκλησία στην Auvers-sur-Oise, άποψη του ιερού <http://www.everypainterpaintshimself.com/article/van_goghs_church_in_auvers_sur_oise_1890>`__\ *,* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+
+
 Σε αυτό το φυλλάδιο περιέχονται ασκήσεις που έχουν ως στόχο να εξοικειώσουν τους μαθητές με την εξαγωγή ψηφίων από αριθμούς και, μέσω αυτού, με τις πράξεις της ακέραιας διαίρεσης (div) και του ακεραίου υπολοίπου (mod) της γλώσσας.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1s02YGcdS9ZPkkfYOM8SDlIiPVnaLkVKL/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας `Η εκκλησία στην Auvers-sur-Oise, άποψη του ιερού <http://www.everypainterpaintshimself.com/article/van_goghs_church_in_auvers_sur_oise_1890>`__\ *,* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

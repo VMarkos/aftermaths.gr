@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/12/pablo_picasso_1913-14_head_tc3aate_cut_and_pasted_colored_paper_gouache_and_charcoal_on_paperboard_43.5_x_33_cm_scottish_national_gallery_of_modern_art_edinburgh.jpg
 
+.. figure:: /wp-content/uploads/2019/12/pablo_picasso_1913-14_head_tc3aate_cut_and_pasted_colored_paper_gouache_and_charcoal_on_paperboard_43.5_x_33_cm_scottish_national_gallery_of_modern_art_edinburgh.jpg
+	:alt: Ο πίνακας *Κεφάλι* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Κεφάλι* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+
+
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1clvV-C6jJ53xtzVrFQ3tBuh8p_YvYMnZ/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Κεφάλι* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.*
+
 
 Καλό βράδυ και καλό διάβασμα!
 

@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2022/03/henri_leys005.jpg
 
+.. figure:: /wp-content/uploads/2022/03/henri_leys005.jpg
+	:alt: *η Λειτουργία σε μνήμη της Brental de Haze* του `Jan August Hendrik Leys <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 
+	:align: center
+
+	*η Λειτουργία σε μνήμη της Brental de Haze* του `Jan August Hendrik Leys <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 
+
+
 Μέσα στην πορεία της σχολικής ύλης συναντάμε πολλές συναρτήσεις. Για την ακρίβεια, πάρα πολλές συναρτήσεις. Άλλες απλές, άλλες πιο περίπλοκες, άλλες μονότονες, άλλες όχι και τόσο μονότονες, οι συναρτήσεις που μελετάμε έχουν όλες μία δική τους, ξεχωριστή προσωπικότητα. Κάποιες από αυτές, για παράδειγμα, έχουν ακρότατα, ενώ κάποιες άλλες όχι. Κάποιες μάλιστα έχουν αυτήν την παράξενη ιδιότητα να είναι μεν φραγμένες, αλλά να μην «πιάνουν» τα άνω και κάτω φράγματά τους, όπως για παράδειγμα η ακόλουθη συμπαθέστατη συνάρτηση:
 
 .. math::  f(x)=\frac{e^x-e^{-x}}{e^x+e^{-x}}.
@@ -253,7 +260,7 @@
 
 Μέχρι την επόμενη φορά, καλή συνέχεια!
 
-Η κεντρική εικόνα είναι *Η Λειτουργία σε μνήμη της Brental de Haze* του `Jan August Hendrik Leys <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__.
+
 
 .. raw:: html
 

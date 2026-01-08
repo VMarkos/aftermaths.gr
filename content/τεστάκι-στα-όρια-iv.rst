@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/09/vassily_kandinsky_1908_murnau_dorfstrasse.jpg
 
+.. figure:: /wp-content/uploads/2019/09/vassily_kandinsky_1908_murnau_dorfstrasse.jpg
+	:alt: Ο πίνακας *Δρόμος σε χωριό (στο Murnau)* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Δρόμος σε χωριό (στο Murnau)* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+
+
 Το τεστάκι βρίσκεται `εδώ <https://drive.google.com/file/d/1IdTER-K8VfMd2mJaL2HkcLUgDcXtluOQ/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Δρόμος σε χωριό (στο Murnau)* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

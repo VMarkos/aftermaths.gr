@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/03/pierre-auguste_renoir_083.jpg
 
+.. figure:: /wp-content/uploads/2021/03/pierre-auguste_renoir_083.jpg
+	:alt: Ο πίνακας *Ο Claude Monet ζωγραφίζει στον κήπο του στο Argenteuil* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ο Claude Monet ζωγραφίζει στον κήπο του στο Argenteuil* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
 Την προηγούμενη εβδομάδα είδαμε ότι ο  :math:`\pi`  είναι άρρητος. Για την ακρίβεια, κοπιάσαμε αρκετά και περάσαμε μέσα από τα δύσβατα χωράφια των ολοκληρωμάτων αλλά, τελικά, καταφέραμε να αποδείξουμε το πολυπόθητο αποτέλεσμα - για περισσότερα για την απόδειξη και τη διαίσθηση πίσω από αυτή, δείτε `εδώ <https://aftermathsgr.wordpress.com/2021/03/15/%cf%84%ce%bf-%ce%b7%ce%bc%ce%af%cf%84%ce%bf%ce%bd%ce%bf-%ce%bf%ce%b9-%ce%ac%cf%81%cf%81%ce%b7%cf%84%ce%bf%ce%b9-%ce%ba%ce%b1%ce%b9-%ce%bf%ce%b9-%cf%80%ce%b9%ce%bf-%ce%ac%cf%81%cf%81%ce%b7%cf%84/>`__. Υπαινιχθήκαμε, μάλιστα, προς το τέλος της εν λόγω ανάρτησης, ότι ο  :math:`\pi`  είναι «πιο άρρητος» από κάποιους άλλους άρρητους αριθμούς. Ωστόσο, τι πάει να πει «πιο άρρητος»; Δηλαδή, κάποιοι αριθμοί είναι περισσότερο άρρητοι από κάποιους άλλους; Βασικά, ένα βήμα παρακάτω, μετριέται η αρρητότητα; - βασικά, ο όρος αρρητοσύνη μου αρέσει περισσότερο, οπότε θα κρατήσουμε αυτόν.
 
 Ένα παράδειγμα - ή, μήπως, δύο;
@@ -234,7 +241,7 @@
 
 Μέχρι την επόμενη στιγμή παραφροσύνης πάνω στην πραγματική ευθεία, καλή συνέχεια!
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο Claude Monet ζωγραφίζει στον κήπο του στο Argenteuil* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.*
+
 
 Καλό ξημέρωμα και καλό διάβασμα!
 

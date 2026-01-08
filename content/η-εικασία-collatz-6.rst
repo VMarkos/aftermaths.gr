@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/10/mary_cassatt_-_the_tea_-_mfa_boston_42.178.jpg
 
+.. figure:: /wp-content/uploads/2021/10/mary_cassatt_-_the_tea_-_mfa_boston_42.178.jpg
+	:alt: Ο πίνακας *Τσάι* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__. 
+	:align: center
+
+	Ο πίνακας *Τσάι* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__. 
+
+
 Την περασμένη εβδομάδα, μιλώντας για την εικασία Collatz είδαμε ότι είχαμε πέσει σε ένα μαθηματικό τέλμα, κάνοντας συνεχώς παρατηρήσεις για το γράφημα Collatz και διάφορα μοτίβα που βλέπαμε σε αυτό, χωρίς όμως να έχουμε να παρουσιάσουμε κάτι το ιδιαίτερα σοκαριστικό - για να θυμηθείτε τι συζητήσαμε την προηγούμενη εβδομάδα, δείτε `εδώ <https://aftermaths.gr/2021/09/24/%ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-5/>`__, ενώ για όλες τις δημοσιεύσεις της σειράς, δείτε `εδώ <https://aftermaths.gr/category/collatz/>`__. Αυτήν την εβδομάδα, όπως είχαμε υποσχεθεί, θα ασχοληθούμε λίγο με τους πρώτους αριθμούς και το πώς αυτοί μπορούν να μας βοηθήσουν στην εξιχνίαση της εικασίας.
 
 Πρώτοι και καλύτεροι
@@ -123,7 +130,7 @@
 
 Αυτά και άλλα πολλά την επόμενη φορά! Μέχρι τότε, καλή συνέχεια!
 
-Η κεντρική εικόνα είναι ο πίνακας *Τσάι* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__.
+
 
 .. raw:: html
 

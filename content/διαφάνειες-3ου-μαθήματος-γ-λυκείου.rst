@@ -8,13 +8,20 @@
 :status: published
 :attachments: wp-content/uploads/2019/06/800px-matisse_-_music.jpg
 
+.. figure:: /wp-content/uploads/2019/06/800px-matisse_-_music.jpg
+	:alt: Ο πίνακας *Μουσική* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Μουσική* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+
+
 Οι διαφάνειες βρίσκονται `εδώ <https://drive.google.com/file/d/1yKjfZFQ4BgdpsydnVXC6dYAdvUGdGln6/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 Οι διαφάνειες βρίσκονται και στο `Slideshare <https://www.slideshare.net/ssuserbf550d/2-152069917>`__:
 
 [slideshare id=152069917&doc=lesson3-190626215731]
 
-Η κεντρική εικόνα είναι ο πίνακας *Μουσική* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.*
+
 
 Καλό βράδυ και καλό διάβασμα!
 

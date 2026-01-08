@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/12/869px-gavin_hamilton_001.jpg
 
+.. figure:: /wp-content/uploads/2021/12/869px-gavin_hamilton_001.jpg
+	:alt: Ο πίνακας *Η παράδοση της Ελένης στον Πάρη ως σύζυγός του από την Αφροδίτη* του `Gavin Hamilton <https://en.wikipedia.org/wiki/Gavin_Hamilton_(artist)>`__. 
+	:align: center
+
+	Ο πίνακας *Η παράδοση της Ελένης στον Πάρη ως σύζυγός του από την Αφροδίτη* του `Gavin Hamilton <https://en.wikipedia.org/wiki/Gavin_Hamilton_(artist)>`__. 
+
+
 Λίγες ασκήσεις και προβλήματα στην έννοια της παραγώγου και τη συνήθη γεωμετρική της ερμηνεία - Μαθηματικά Προσανατολισμού, Γ' Γενικού Λυκείου.
 
 Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1Acd-uhuMEVbQUW15upORaT1KEgQQ1a2_/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Η παράδοση της Ελένης στον Πάρη ως σύζυγός του από την Αφροδίτη* του `Gavin Hamilton <https://en.wikipedia.org/wiki/Gavin_Hamilton_(artist)>`__.
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

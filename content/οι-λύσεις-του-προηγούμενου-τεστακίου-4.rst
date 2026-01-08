@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/07/atelier_rouge_matisse_1.jpg
 
+.. figure:: /wp-content/uploads/2019/07/atelier_rouge_matisse_1.jpg
+	:alt: Ο πίνακας *Το κόκκινο ατελιέ* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Το κόκκινο ατελιέ* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+
+
 Οι λύσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1rb1zwJMIJ-VZ4Lws0j9lIRCX4PYKIW3v/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Το κόκκινο ατελιέ* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.*
+
 
 Καλό βράδυ και καλό διάβασμα!
 

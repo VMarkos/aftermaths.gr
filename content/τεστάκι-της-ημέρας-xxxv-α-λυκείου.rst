@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/12/morgan_russell_1913-14_synchromy_in_orange_to_form.jpg
 
+.. figure:: /wp-content/uploads/2020/12/morgan_russell_1913-14_synchromy_in_orange_to_form.jpg
+	:alt: Ο πίνακας *Συγχρωμία σε πορτοκαλί, σε μορφή* του `Morgan Russell <https://en.wikipedia.org/wiki/Morgan_Russell>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Συγχρωμία σε πορτοκαλί, σε μορφή* του `Morgan Russell <https://en.wikipedia.org/wiki/Morgan_Russell>`__\ *.* 
+
+
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1oDSBJlNsgWfh0S-VbtFeSOhclhWa8TbS/view?usp=sharing>`__ και στη σελίδα `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Συγχρωμία σε πορτοκαλί, σε μορφή* του `Morgan Russell <https://en.wikipedia.org/wiki/Morgan_Russell>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

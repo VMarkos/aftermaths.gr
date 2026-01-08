@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/10/nature-morte-aux-prunes-antoine-vollon-54045-copyright-kroller-muller-museum.jpg
 
+.. figure:: /wp-content/uploads/2018/10/nature-morte-aux-prunes-antoine-vollon-54045-copyright-kroller-muller-museum.jpg
+	:alt: Ο πίνακας *Νεκρή φύση με δαμάσκηνα* του `Antoine Vollon <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Νεκρή φύση με δαμάσκηνα* του `Antoine Vollon <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+
+
 Σε αυτό το φυλλάδιο περιέχονται λίγες απλές επαναληπτικές ασκήσεις πάνω στην παραγοντοποίηση αλγεβρικών παραστάσεων.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1fCxb_xz6bfCvNFKqF82tmIbfEwM1xxu8/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Νεκρή φύση με δαμάσκηνα* του `Antoine Vollon <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.*
+
 
 Καλό διάβασμα και καλό βράδυ!
 

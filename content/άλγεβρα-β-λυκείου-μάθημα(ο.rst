@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2022/04/1280px-delacroix_eugene_ferdinand_victor_-_woman_with_a_parrot_-_1827.jpg, wp-content/uploads/2022/04/1271px-eugene_ferdinand_victor_delacroix_021.jpg
 
+.. figure:: /wp-content/uploads/2022/04/1280px-delacroix_eugene_ferdinand_victor_-_woman_with_a_parrot_-_1827.jpg, wp-content/uploads/2022/04/1271px-eugene_ferdinand_victor_delacroix_021.jpg
+	:alt: Ο πίνακας *Γυναίκα με παπαγάλο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+	:align: center
+
+	Ο πίνακας *Γυναίκα με παπαγάλο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+
+
 Πώς τα πάμε με τους λογαρίθμους; Σε αυτό το μάθημα εξετάζουμε μία πολύ ενδιαφέρουσα ιδιότητα των λογαρίθμων που, στην ουσία, μας λέει ότι χρειαζόμαστε μονάχα έναν λογάριθμο για να υπολογίσουμε κάθε άλλο λογάριθμο με οποιαδήποτε βάση. Αν και εκτός ύλης, αυτό ο τύπος έχει ιδιαίτερο ενδιαφέρον! ;)
 
 Στη συνέχεια ασχολούμαστε με διάφορα παραδείγματα κι εφαρμογές των λογαρίθμων σε παράξενες και, μέχρι πρότινος δύσκολες, εξισώσεις και ανισώσεις.
@@ -30,7 +37,7 @@
 
    </figure>
 
-Η κεντρική εικόνα είναι ο πίνακας *Γυναίκα με παπαγάλο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

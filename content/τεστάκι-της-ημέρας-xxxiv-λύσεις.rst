@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/12/stanton_macdonald-wright_-_synchromy_no._3_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2020/12/stanton_macdonald-wright_-_synchromy_no._3_-_google_art_project.jpg
+	:alt: Ο πίνακας *Συγχρωμία 3* του `Stanton MacDonald-Wright <https://en.wikipedia.org/wiki/Stanton_Macdonald-Wright>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Συγχρωμία 3* του `Stanton MacDonald-Wright <https://en.wikipedia.org/wiki/Stanton_Macdonald-Wright>`__\ *.* 
+
+
 Οι λύσεις του `προηγούμενου τεστ <https://aftermathsgr.wordpress.com/2020/12/03/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxxiv-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb/>`__ βρίσκονται `εδώ <https://aftermathsgr.wordpress.com/2020/12/03/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxxiv-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb/>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Συγχρωμία 3* του `Stanton MacDonald-Wright <https://en.wikipedia.org/wiki/Stanton_Macdonald-Wright>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

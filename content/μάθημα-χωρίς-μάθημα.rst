@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2024/07/karl_wilhelm_diefenbach_sterbender_hirsch.jpg
 
+.. figure:: /wp-content/uploads/2024/07/karl_wilhelm_diefenbach_sterbender_hirsch.jpg
+	:alt: Ο πίνακας *Ελάφι που πεθαίνει* του `Karl Wilhelm Diefenbach <https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach>`__. 
+	:align: center
+
+	Ο πίνακας *Ελάφι που πεθαίνει* του `Karl Wilhelm Diefenbach <https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach>`__. 
+
+
 Μέρος Πρώτο
 -----------
 
@@ -403,7 +410,7 @@ Res, Non Verba
 
 Ουφ, πολλά είπαμε σήμερα, και νόημα δεν ξέρουμε κι αν βγήκε. Ας ξεσκάσουμε, λοιπόν, και λίγο! Καλό μεσημέρι και καλό διάβασμα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Ελάφι που πεθαίνει* του `Karl Wilhelm Diefenbach <https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach>`__.
+
 
 .. raw:: html
 

@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/10/vassilly_kandinsky_1912_-_landscape_with_two_poplars.jpg
 
+.. figure:: /wp-content/uploads/2018/10/vassilly_kandinsky_1912_-_landscape_with_two_poplars.jpg
+	:alt: Ο πίνακας *Τοπίο με δύο* λεύκες του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Τοπίο με δύο* λεύκες του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+
+
 Σε αυτό το φυλλάδιο περιέχονται λίγα όρια που εξετάζουν τις πιο βασικές τεχνικές (ή την εφευρετικότητα των μαθητών) υπολογισμού ορίων.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1H6_defOUqmdVc5ZEpYqraHekoS8PeODA/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Τοπίο με δύο* λεύκες του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

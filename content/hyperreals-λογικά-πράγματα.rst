@@ -8,6 +8,13 @@ Hyperreals: Λογικά πράγματα...
 :status: published
 :attachments: wp-content/uploads/2021/02/le_havre_the_port_eugene_louis_boudin_1884.jpg
 
+.. figure:: /wp-content/uploads/2021/02/le_havre_the_port_eugene_louis_boudin_1884.jpg
+	:alt: Ο πίνακας *Η Χάβρη, το λιμάνι* του `Eugène Boudin <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin>`__. 
+	:align: center
+
+	Ο πίνακας *Η Χάβρη, το λιμάνι* του `Eugène Boudin <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin>`__. 
+
+
 Στο `πρώτο μέρος της σειράς <https://aftermathsgr.wordpress.com/2021/01/17/hyperreals-%ce%b1%cf%80%ce%b5%ce%b9%cf%81%ce%bf%cf%83%cf%84%ce%ac-%ce%ba%ce%b1%ce%b9-%ce%ac%cf%80%ce%b5%ce%b9%cf%81%ce%bf%ce%b9-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%ce%af/>`__ μας για τους υπερπραγματικούς αριθμούς μιλήσαμε λίγο για απειροστά, λίγο για άπειρους αριθμούς και, γενικά, μιλήσαμε για πώς μπορεί να είναι ο κόσμος των απειροστών, αν αυτά υπάρχουν. Ωστόσο, υπάρχουν;
 
 Μία μικρή εισαγωγή στη λογική
@@ -328,7 +335,7 @@ Hyperreals: Λογικά πράγματα...
 
 Ως τότε, καλημέρα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Η Χάβρη, το λιμάνι* του `Eugène Boudin <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin>`__.
+
 
 .. raw:: html
 

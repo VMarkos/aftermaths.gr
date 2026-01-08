@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/09/camille_pissarro_-_the_hay_cart_montfoucault_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2021/09/camille_pissarro_-_the_hay_cart_montfoucault_-_google_art_project.jpg
+	:alt: Ο πίνακας *Το κάρο με τα άχυρα, Montfoucault* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Το κάρο με τα άχυρα, Montfoucault* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+
+
 Είχαμε δει στο παρελθόν - το απώτατο παρελθόν, θα έλεγε κανείς - την αρχική διατύπωση της εικασίας Collatz - δείτε `εδώ <https://aftermaths.gr/2021/04/21/%ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-1/>`__ για περισσότερα - καθώς και μία κομψή αναδιατύπωσή της - δείτε `εδώ <https://aftermaths.gr/2021/04/24/%ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-2/>`__. Με αυτήν την αναδιατύπωσή της θα ασχοληθούμε λίγο παραπάνω, καθώς φαίνεται αρκετά υποσχόμενη:
 
 Θεωρώντας τις συναρτήσεις  :math:`d(x)=2x &fg=362e77&bg=d9d9d9 `  και  :math:`t(x)=\dfrac{x-1}{3} &fg=362e77&bg=d9d9d9 `  με την πρώτη ορισμένη για κάθε  :math:`x\in\mathbb{N} &fg=362e77&bg=d9d9d9 `  και τη δεύτερη για  :math:`x=4,7,10,\ldots &fg=362e77&bg=d9d9d9 `  είναι αλήθεια ότι κάθε θετικός ακέραιος αριθμός  :math:`n &fg=362e77&bg=d9d9d9 `  γράφεται στη μορφή  :math:`f(1) &fg=362e77&bg=d9d9d9 `  όπου  :math:`f &fg=362e77&bg=d9d9d9 `  είναι μία συνάρτηση που προκύπτει από πεπερασμένες στο πλήθος συνθέσεις των  :math:`d,t;&fg=362e77&bg=d9d9d9` 
@@ -108,4 +115,4 @@
 
 Μέχρι την άλλη Παρασκευή, καλή διασκέδαση!
 
-Η κεντρική εικόνα είναι ο πίνακας *Το κάρο με τα άχυρα, Montfoucault* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.*
+

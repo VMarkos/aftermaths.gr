@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/10/fantinlatour_danae.jpg
 
+.. figure:: /wp-content/uploads/2021/10/fantinlatour_danae.jpg
+	:alt: Ο πίνακας *Δανάη* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+	:align: center
+
+	Ο πίνακας *Δανάη* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+
+
 Την προηγούμενη εβδομάδα είδαμε διάφορα ωραία και ενδιαφέροντα σε σχέση με την εικασία Collatz και το πώς αυτή σχετίζεται με άλλα δύσκολα προβλήματα που αφορούν τους αριθμούς και την ανάλυσή τους σε γινόμενο πρώτων παραγόντων. Για την ακρίβεια είδαμε ότι η εικασία που έχουμε αγαπήσει να μισούμε λύνεται πολύ εύκολα αν μπορούμε να προσδιορίσουμε το ανάπτυγμα σε γινόμενο πρώτων ενός θετικού ακεραίου αριθμού από τον προηγούμενο ή τον επόμενό του. Ωστόσο, αυτό από μόνο του είναι ιδιαίτερα δύσκολο - και ακόμα αναπάντητο.
 
 Αν θέλετε να θυμηθείτε περισσότερα από όσα έχουμε πει δείτε `εδώ <https://aftermaths.gr/2021/10/08/%ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-6/>`__ και `εδώ <https://aftermaths.gr/category/collatz/>`__.
@@ -167,7 +174,7 @@
 
 Μέχρι τότε, καλή συνέχεια!
 
-Η κεντρική εικόνα είναι ο πίνακας *Δανάη* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__.
+
 
 .. raw:: html
 

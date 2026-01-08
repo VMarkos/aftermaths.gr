@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/04/berthe_morisot_and_her_daughter_julie_manet_1894.jpg
 
+.. figure:: /wp-content/uploads/2021/04/berthe_morisot_and_her_daughter_julie_manet_1894.jpg
+	:alt: Το πορτραίτο της Berthe Morisot και της κόρης της, Julie Manet του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__. 
+	:align: center
+
+	Το πορτραίτο της Berthe Morisot και της κόρης της, Julie Manet του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__. 
+
+
 Ένα επαναληπτικό τεστάκι σε όρια στο άπειρο και συνεχείς συναρτήσεις - συνέπειες του θεωρήματος του Bolzano - στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γ' Λυκείου (προετοιμασία για τις πανελλήνιες).
 
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1RiEeELhawwfSYxzdXmTgKTJINo6rpyBn/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι το πορτραίτο της Berthe Morisot και της κόρης της, Julie Manet του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

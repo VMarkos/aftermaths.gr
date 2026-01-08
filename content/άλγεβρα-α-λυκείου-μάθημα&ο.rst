@@ -8,13 +8,20 @@
 :status: published
 :attachments: wp-content/uploads/2022/03/henri_leys_-_le_voeu.jpg
 
+.. figure:: /wp-content/uploads/2022/03/henri_leys_-_le_voeu.jpg
+	:alt: Ο πίνακας *Ο όρκος* του `Jan August Hendrick Leys <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 
+	:align: center
+
+	Ο πίνακας *Ο όρκος* του `Jan August Hendrick Leys <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 
+
+
 Τι θυμόμαστε από το Γυμνάσιο για τη συνάρτηση  :math:`y=\alpha x+\beta;`  Κι αν δε θυμόμαστε πολλά, θα τα φρεσκάρουμε! ;)
 
 Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1h9rbmbhuJWYZg2Xeb3v1Wf7SW293gBSO/view?usp=sharing>`__ και στη σελίδα `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
 *Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2022/03/15/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-25%ce%bf/>`__\ *ενώ τις αντίστοιχες της Β' Λυκείου*\ `εδώ <https://aftermaths.gr/2022/03/17/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-25%ce%bf/>`__\ *.*
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο όρκος* του `Jan August Hendrick Leys <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__.
+
 
 Καλό μεσημέρι και καλό διάβασμα!
 

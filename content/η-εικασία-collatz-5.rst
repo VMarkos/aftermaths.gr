@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/09/leonid_pasternak_-_boris_and_alexander.jpg
 
+.. figure:: /wp-content/uploads/2021/09/leonid_pasternak_-_boris_and_alexander.jpg
+	:alt: *ο Γιος (Boris)* του `Leonid Pasternak <https://en.wikipedia.org/wiki/Leonid_Pasternak>`__\ *.* 
+	:align: center
+
+	*ο Γιος (Boris)* του `Leonid Pasternak <https://en.wikipedia.org/wiki/Leonid_Pasternak>`__\ *.* 
+
+
 Την προηγούμενη εβδομάδα μελετήσαμε την `κατασκευή ενός εργαλείου <https://aftermaths.gr/2021/09/18/%ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-4/>`__ το οποίο θα μας επιτρέπει να σχεδιάζουμε γραφήματα Collatz με όσους κόμβους επιθυμούμε - το εργαλείο μπορείτε να το βρείτε `εδώ <https://vmarkos.github.io/collatz-tree-generator/>`__. Τώρα ήρθε η ώρα να ασχοληθούμε με τη μελέτη αυτών των γραφημάτων και να δούμε τι συμπεράσματα μπορούμε να βγάλουμε για την εικασία Collatz.
 
 *Για να θυμηθείτε όσα είπαμε την προηγούμενη εβδομάδα, δείτε*\ `εδώ <https://aftermaths.gr/2021/09/18/%ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-4/>`__\ *, ενώ για όλες τις αναρτήσεις της σειράς, δείτε*\ `εδώ <https://aftermaths.gr/category/collatz/>`__\ *.*
@@ -76,7 +83,7 @@
 
 Περισσότερα γι' αυτά, όμως, την επόμενη Παρασκευή!
 
-Η κεντρική εικόνα είναι *Ο Γιος (Boris)* του `Leonid Pasternak <https://en.wikipedia.org/wiki/Leonid_Pasternak>`__\ *.*
+
 
 .. raw:: html
 

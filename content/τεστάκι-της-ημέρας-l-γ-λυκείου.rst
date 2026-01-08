@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/01/1280px-ilya_repin-what_freedom.jpg
 
+.. figure:: /wp-content/uploads/2021/01/1280px-ilya_repin-what_freedom.jpg
+	:alt: Ο πίνακας *Τι ελευθερία!* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Τι ελευθερία!* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+
+
 Ένα τεστάκι στο θεώρημα του Bolzano και βασικές εφαρμογές του για συνεχείς συναρτήσεις στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γ' Λυκείου.
 
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1ewVelbIfIcXrPgagGoOQJC0FyChBoclZ/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Τι ελευθερία!* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

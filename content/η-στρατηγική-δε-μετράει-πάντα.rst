@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/04/cardshaprs.jpeg
 
+.. figure:: /wp-content/uploads/2021/04/cardshaprs.jpeg
+	:alt: Ο πίνακας *Cardshaprs* *(αυτοί που κλέβουν στα χαρτιά)* του `Valentin de Boulogne <https://en.wikipedia.org/wiki/Valentin_de_Boulogne>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Cardshaprs* *(αυτοί που κλέβουν στα χαρτιά)* του `Valentin de Boulogne <https://en.wikipedia.org/wiki/Valentin_de_Boulogne>`__\ *.* 
+
+
 Η αλήθεια είναι ότι όταν έρχεται η ώρα για μία μεγάλη απόφαση στη ζωή μας, βάζουμε τα πάντα στο τραπέζι - τουλάχιστον όσα μπορούμε να γνωρίζουμε - και ζυγίζουμε ό,τι είναι να ζυγίσουμε πριν πάρουμε τις αποφάσεις μας. Ωστόσο, είναι αυτό κάτι που έχει πάντοτε νόημα; Χρειάζεται, δηλαδή, να καλοσχεδιάζουμε πάντοτε τις κινήσεις μας πριν τις κάνουμε;
 
 Ένα ενδιαφέρον παιχνίδι
@@ -557,7 +564,7 @@
 
 Μέχρι την επόμενη φορά, καλό βράδυ!
 
-Η κεντρική εικόνα είναι ο πίνακας *Cardshaprs* *(αυτοί που κλέβουν στα χαρτιά)* του `Valentin de Boulogne <https://en.wikipedia.org/wiki/Valentin_de_Boulogne>`__\ *.*
+
 
 .. raw:: html
 

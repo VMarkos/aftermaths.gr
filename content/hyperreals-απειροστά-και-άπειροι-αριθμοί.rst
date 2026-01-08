@@ -8,6 +8,13 @@ Hyperreals: Απειροστά και άπειροι αριθμοί
 :status: published
 :attachments: wp-content/uploads/2021/01/robert_delaunay_1938_rythme_nc2b01_decoration_for_the_salon_des_tuileries_oil_on_canvas_musee_dart_moderne_de_la_ville_de_paris.jpg
 
+.. figure:: /wp-content/uploads/2021/01/robert_delaunay_1938_rythme_nc2b01_decoration_for_the_salon_des_tuileries_oil_on_canvas_musee_dart_moderne_de_la_ville_de_paris.jpg
+	:alt: Ο πίνακας *Ρυθμός Νο 1* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ρυθμός Νο 1* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+
+
 Πρελούδιο
 ---------
 
@@ -142,7 +149,7 @@ Hyperreals: Απειροστά και άπειροι αριθμοί
 
 Μέχρι τότε, καλημέρα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Ρυθμός Νο 1* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.*
+
 
 .. raw:: html
 

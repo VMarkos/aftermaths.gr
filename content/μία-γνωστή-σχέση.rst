@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/08/camille_pissarro_jalais_hill_pontoise_the_metropolitan_museum_of_art.jpg
 
+.. figure:: /wp-content/uploads/2021/08/camille_pissarro_jalais_hill_pontoise_the_metropolitan_museum_of_art.jpg
+	:alt: Ο πίνακας *Ο λόφος της Jalais, Pontoise*, του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ο λόφος της Jalais, Pontoise*, του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+
+
 Τα θερινά φτάνουν σιγά-σιγά στο τέλος τους - θέλω να πιστεύω για τους περισσότερους από εμάς - και μαζί με αυτά κλείνει και μία μικρή εισαγωγή στον κόσμο των συναρτήσεων για τα παιδιά της Γ' Λυκείου. Μέσα σε αυτήν την εισαγωγή θα έχει κάνει την εμφάνισή της και κάποια άσκηση που θα ασχολείται με συναρτησιακές σχέσεις. Ε, και ίσως μία από τις πιο περιβόητες από αυτές να είναι η ακόλουθη:
 
 .. math:: f(x+y)=f(x)f(y),\ x,y\in\mathbb{R}.
@@ -374,7 +381,7 @@
 
 Καλή συνέχεια!
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο λόφος της Jalais, Pontoise*, του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.*
+
 
 .. raw:: html
 

@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/690px-august_macke_036.jpg
 
+.. figure:: /wp-content/uploads/2020/11/690px-august_macke_036.jpg
+	:alt: Ένα πορτραίτο της συζύγου του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	:align: center
+
+	Ένα πορτραίτο της συζύγου του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+
+
 Το τεστ βρίσκεται `εδώ <https://drive.google.com/file/d/1JoswtYA1rwB1bRgeDqto8Hc1icJhfQeH/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ένα πορτραίτο της συζύγου του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

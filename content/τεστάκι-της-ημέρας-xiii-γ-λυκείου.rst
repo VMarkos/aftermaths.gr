@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/werefkin_marianne_von_-_selfportrait_i_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2020/11/werefkin_marianne_von_-_selfportrait_i_-_google_art_project.jpg
+	:alt: Μία αυτοπροσωπογραφία της `Marianne von Werefkin <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__\ *.* 
+	:align: center
+
+	Μία αυτοπροσωπογραφία της `Marianne von Werefkin <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__\ *.* 
+
+
 Το τεστ βρίσκεται `εδώ <https://drive.google.com/file/d/17tzj-yhbxWDGOdpHhou_W315m8GsbGa5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι μία αυτοπροσωπογραφία της `Marianne von Werefkin <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

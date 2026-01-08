@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/10/769px-hilma_af_klint_-_altarpiece_no._2_13916.jpg
 
+.. figure:: /wp-content/uploads/2020/10/769px-hilma_af_klint_-_altarpiece_no._2_13916.jpg
+	:alt: Το *Ρετάμπλ\* (Altarpiece) Group X, No. 2* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\ *.* 
+	:align: center
+
+	Το *Ρετάμπλ\* (Altarpiece) Group X, No. 2* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\ *.* 
+
+
 Το διαγώνισμα μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1NK85YP2z9nmcvrl8KFBfV7YUNngSf17z/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι το *Ρετάμπλ\* (Altarpiece) Group X, No. 2* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\ *.*
+
 
 Καλό απόγευμα και καλή επιτυχία!
 

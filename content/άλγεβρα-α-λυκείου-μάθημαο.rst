@@ -8,13 +8,20 @@
 :status: published
 :attachments: wp-content/uploads/2021/11/helene_paris_david.jpg
 
+.. figure:: /wp-content/uploads/2021/11/helene_paris_david.jpg
+	:alt: Ο πίνακας *Πάρις και Ελένη* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+	:align: center
+
+	Ο πίνακας *Πάρις και Ελένη* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+
+
 Λίγες διαφάνειες στις βασικές εξισώσεις πρώτου και δευτέρου βαθμού καθώς και στις εξισώσεις της μορφής  :math:`x^\nu=a`  - Άλγεβρα Α' Γενικού Λυκείου και ΕΠΑΛ.
 
 Τις διαφάνειες μπορείτε αν τις βρείτε `εδώ <https://drive.google.com/file/d/1rLrNreHYeurZTFxfqBkdBMMujUXepNuU/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
 *Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2021/11/15/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-10%ce%bf/>`__\ *ενώ τις αντίστοιχες διαφάνειες τις άλγεβρας της Β' Λυκείου μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2021/11/17/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-10%ce%bf/>`__\ *.*
 
-Η κεντρική εικόνα είναι ο πίνακας *Πάρις και Ελένη* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

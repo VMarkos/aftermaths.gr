@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2024/06/the_westwood_children_by_joshua_johnson.jpg
 
+.. figure:: /wp-content/uploads/2024/06/the_westwood_children_by_joshua_johnson.jpg
+	:alt: Ο πίνακας *Τα παιδιά του Westwood* του `Joshua Johnson <https://en.wikipedia.org/wiki/Joshua_Johnson_(painter)>`__. 
+	:align: center
+
+	Ο πίνακας *Τα παιδιά του Westwood* του `Joshua Johnson <https://en.wikipedia.org/wiki/Joshua_Johnson_(painter)>`__. 
+
+
 Ζέστη, ήλιος, καλοκαίρι, Ιούνιος, καύσωνας και... θερινά.
 
 Ξεκινάμε την προετοιμασία μας στη στατιστική (Γ' ΕΠΑΛ) με ένα μικρό φύλλο εργασίας. Μαζεύουμε... κουβέντες από σκόρπιες σελίδες, τις καταγράφουμε και κοιτάμε τι μπορούμε να κάνουμε με αυτές.
@@ -16,7 +23,7 @@
 
 Το φύλλο εργασίας μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1yaj_w_FZQcdmk04Z2-frHx5kmR-SSvnB/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού </διδακτικό-υλικό>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Τα παιδιά του Westwood* του `Joshua Johnson <https://en.wikipedia.org/wiki/Joshua_Johnson_(painter)>`__.
+
 
 Καλό μεσημέρι και καλό διάβασμα!
 

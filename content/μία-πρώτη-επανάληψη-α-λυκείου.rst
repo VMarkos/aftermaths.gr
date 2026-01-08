@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/09/the-bird-wassily-kandinsky.jpg
 
+.. figure:: /wp-content/uploads/2018/09/the-bird-wassily-kandinsky.jpg
+	:alt: Ο πίνακας *Το πουλί* του `Wassily Kandinsky. <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__ 
+	:align: center
+
+	Ο πίνακας *Το πουλί* του `Wassily Kandinsky. <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__ 
+
+
 Σε αυτό το φυλλάδιο συμπεριλαμβάνονται διάφορες ασκήσεις και θεωρία σε σχέση με την ύλη που καλύπτεται στις πρώτες ενότητες της ύλης της άλγεβρα (απόλυτα, διαστήματα κ.λπ.). Στο τέλος παρατίθεται και μία μικρή εξήγηση της τεχνικής της *απαγωγής σε άτοπο* που φαίνεται να δυσκολεύει τους μαθητές τόσο στην κατανόηση της ιδέας όσο και στον χειρισμό της, ακόμα και σε σχετικά απλές αποδείξεις. Ενδεικτικά, παρουσιάζεται η - σχετικά δύσκολη  - απόδειξη ότι ο  :math:`\sqrt{2}`  είναι άρρητος.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1c5GtFXL7qYfKyBnSeX2befmudnVmGo8G/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Το πουλί* του `Wassily Kandinsky. <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__
+
 
 Καλό βράδυ και καλό διάβασμα!
 

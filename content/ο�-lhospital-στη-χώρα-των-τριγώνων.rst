@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2022/11/best_approx.png, wp-content/uploads/2022/11/best_approx_02.png, wp-content/uploads/2022/11/dlh_f_g-1.png, wp-content/uploads/2022/11/infty_approx_01.png, wp-content/uploads/2022/11/best_approx_01.png, wp-content/uploads/2022/11/best_approx_04.png, wp-content/uploads/2022/11/gustave_caillebotte_-_the_yellow_fields_at_gennevilliers.jpg, wp-content/uploads/2022/11/dlh_f_g.png, wp-content/uploads/2022/11/infty_approx_02.png, wp-content/uploads/2022/11/best_approx_03.png
 
+.. figure:: /wp-content/uploads/2022/11/best_approx.png, wp-content/uploads/2022/11/best_approx_02.png, wp-content/uploads/2022/11/dlh_f_g-1.png, wp-content/uploads/2022/11/infty_approx_01.png, wp-content/uploads/2022/11/best_approx_01.png, wp-content/uploads/2022/11/best_approx_04.png, wp-content/uploads/2022/11/gustave_caillebotte_-_the_yellow_fields_at_gennevilliers.jpg, wp-content/uploads/2022/11/dlh_f_g.png, wp-content/uploads/2022/11/infty_approx_02.png, wp-content/uploads/2022/11/best_approx_03.png
+	:alt: Ο καθ'όλα φθινοπωρινός πίνακας *Τα κίτρινα λιβάδια της Gennevilliers* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+	:align: center
+
+	Ο καθ'όλα φθινοπωρινός πίνακας *Τα κίτρινα λιβάδια της Gennevilliers* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+
+
 Ο φόβος κι ο τρόμος όλων των ορίων κι όλων των μαθηματικών της Γ' Λυκείου είναι, αναμφίβολα, οι κανόνες De L'Hôspital (DLH, από εδώ και στο εξής, γιατί αυτό το «ô» είναι πολύ κουραστικό για όσους δεν έχουμε κάποιο γαλλικό layout στο πληκτρολόγιο). Κάνουν τα εύκολα δύσκολα και τα δύσκολα εύκολα όταν πρόκειται για όρια, λύνουν τα χέρια των μαθητών κατά κάποιους και τους αποχαυνώνουν, κατά κάποιους άλλους. Αποκαλύπτουν λεπτά σημεία σε σχέση με τη διαίσθηση των ορίων πηλίκων και συνάμα κρύβουν πολλές φορές την ουσία ενός υπολογισμού. Γενικά, αν δεν το έχετε καταλάβει ήδη, οι κανόνες DLH είναι ίσως ένα από τα πιο αμφίσημα σημεία της σχολικής ύλης. Κι αυτή η αμφισημία τους είναι που τους καθιστά και τόσο ενδιαφέροντες - ή, τουλάχιστον, έτσι λέμε μεταξύ μας οι μαθηματικοί.
 
 .. _θέλω-αποδείξεις-και-ονόματα:
@@ -220,7 +227,7 @@
 
 Μέχρι τότε, καλή συνέχεια!
 
-Η κεντρική εικόνα είναι ο καθ'όλα φθινοπωρινός πίνακας *Τα κίτρινα λιβάδια της Gennevilliers* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__.
+
 
 .. raw:: html
 

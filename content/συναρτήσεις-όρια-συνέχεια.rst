@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2020/09/1275px-de_zaaier_-_s0029v1962_-_van_gogh_museum.jpg
 
+.. figure:: /wp-content/uploads/2020/09/1275px-de_zaaier_-_s0029v1962_-_van_gogh_museum.jpg
+	:alt: Ο πίνακας *Ο θεριστής στο ηλιοβασίλεμα* του `Vinvent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__. 
+	:align: center
+
+	Ο πίνακας *Ο θεριστής στο ηλιοβασίλεμα* του `Vinvent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__. 
+
+
 `Εδώ <https://drive.google.com/file/d/1G1oIPxnNlXbZFT1qxXLl9gabS3X5algh/view?usp=sharing>`__ αλλά και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__ μπορείτε να βρείτε σημειώσεις στις ενότητες των συναρτήσεων, των ορίων και της συνέχειας των Μαθηματικών Προσανατολισμού της Γ΄ Λυκείου. Στις σημειώσεις αυτές μπορείτε να βρείτε ασκήσεις, λυμένα παραδείγματα προβλήματα καθώς και αρκετές σελίδες επεξήγησης των βασικών εννοιών της θεωρίας. Επίσης, το εν λόγω αρχείο είναι ασπρόμαυρο έτσι ώστε να μην σας στοιχίσει ο κούκος αηδόνι σε περίπτωση που θέλετε να το τυπώσετε - όχι ότι το προτείνουμε, αλλά είναι σίγουρα μια ευκολία.
 
 Καλό διάβασμα και καλή αρχή!
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο θεριστής στο ηλιοβασίλεμα* του `Vinvent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__.
+
 
 .. raw:: html
 

@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2021/03/pierre_auguste_renoir_jeanne_durand_ruel.jpg
 
+.. figure:: /wp-content/uploads/2021/03/pierre_auguste_renoir_jeanne_durand_ruel.jpg
+	:alt: Το πορτραίτο της Jeanne Durand-Ruel του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Το πορτραίτο της Jeanne Durand-Ruel του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
 Τις λύσεις του `προηγούμενου τεστ <https://aftermathsgr.wordpress.com/2021/03/26/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxvii-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85/>`__ σε όρια και συνέχεια στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γ' Λυκείου μπορείτε να τα βρείτε `εδώ <https://drive.google.com/file/d/170i0RgyQlDuTixESqjZ1frKgvG90kn5P/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι το πορτραίτο της Jeanne Durand-Ruel του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

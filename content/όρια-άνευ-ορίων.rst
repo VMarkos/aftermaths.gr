@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/07/smedjen_i_hornbc3a6k_p._s._krc3b8yer.jpg
 
+.. figure:: /wp-content/uploads/2020/07/smedjen_i_hornbc3a6k_p._s._krc3b8yer.jpg
+	:alt: Ο πίνακας *Ο σιδεράς στο Hornbæk* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+	:align: center
+
+	Ο πίνακας *Ο σιδεράς στο Hornbæk* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+
+
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1MVuDrnNmKUN3pBxcTc1LA3m4uV02ht0L/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο σιδεράς στο Hornbæk* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__.
+
 
 Καλό βράδυ και καλό διάβασμα!
 

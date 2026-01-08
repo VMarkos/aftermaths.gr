@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2019/03/caspar_david_friedrich_-_auf_dem_segler.jpg
 
+.. figure:: /wp-content/uploads/2019/03/caspar_david_friedrich_-_auf_dem_segler.jpg
+	:alt: Ο πίνακας *Στο ιστιοφόρο* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Στο ιστιοφόρο* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+
+
 Λίγες σκέψεις πάνω σε μία απόδειξη της ιδιότητας Darboux στα πλαίσια της ύλης του λυκείου, ξεκλέβοντας λίγο από την απόδειξη του θεωρήματος του Rolle. Στην πορεία, βέβαια, προκύπτει ένα μικρό σφάλμα. Μπορείτε να το βρείτε;
 
 Το αρχείο βρίσκεται `εδώ <https://drive.google.com/file/d/1_bL0WBliQyDY6ztjbOBHzmAV2caOUkC5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Στο ιστιοφόρο* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.*
+
 
 Καλό βράδυ και καλό διάβασμα!
 

@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/06/828px-camille_pissarro_-_allee_dans_une_foret_sur_1859.jpg
 
+.. figure:: /wp-content/uploads/2021/06/828px-camille_pissarro_-_allee_dans_une_foret_sur_1859.jpg
+	:alt: Ο πίνακας *Δρόμος σ' ένα δάσος* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Δρόμος σ' ένα δάσος* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+
+
 Μία συνοπτική λίστα με κάποιες βασικές τεχνικές και χρήσιμες πρώτες σκέψεις για συγκεκριμένα «κλασσικά» ερωτήματα των μαθηματικών γενικής παιδείας της Γ' ΕΠΑΛ. Σαφώς, η λίστα δεν είναι πλήρης - ούτε και είναι αυτή η πρόθεσή της - αλλά προσπαθεί να συνοψίσει τα συνηθέστερα ερωτήματα που συναντά κανείς στις πανελλήνιες.
 
 Τη λίστα μπορείτε να τη βρείτε `εδώ <https://drive.google.com/file/d/1mjFH9lV1aixuhiikNd54g-U6cp7tgjLD/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Δρόμος σ' ένα δάσος* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

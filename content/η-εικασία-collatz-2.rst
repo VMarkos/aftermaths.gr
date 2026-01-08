@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/04/718px-ambroise_vollard_by_pierre-auguste_renoir.jpg
 
+.. figure:: /wp-content/uploads/2021/04/718px-ambroise_vollard_by_pierre-auguste_renoir.jpg
+	:alt: Το πορτραίτο του Ambroise Vollard του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Το πορτραίτο του Ambroise Vollard του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
 Στο `πρώτο μέρος της σειράς <https://aftermathsgr.wordpress.com/2021/04/21/%ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-1/>`__ είδαμε τη διατύπωση μίας αρκετά ενδιαφέρουσας εικασίας:
 
 Ξεκινάμε με έναν θετικό ακέραιο αριθμό και, αν είναι άρτιος, τον διαιρούμε με το 2 ενώ αν είναι περιττός τον πολλαπλασιάζουμε με το 3 και προσθέτουμε 1 Αν επαναλαμβάνουμε τα παραπάνω με κάθε αριθμό που βρίσκουμε, μετά από πεπερασμένα στο πλήθος βήματα θα πάρουμε αποτέλεσμα 1.
@@ -92,7 +99,7 @@
 
 Καλημέρα!
 
-Η κεντρική εικόνα είναι το πορτραίτο του Ambroise Vollard του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.*
+
 
 .. raw:: html
 

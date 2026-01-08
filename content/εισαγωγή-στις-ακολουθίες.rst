@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/03/the_kitchen_maid_rembrandt_harmensz._van_rijn_-_nationalmuseum_-_17587.tif_.jpg
 
+.. figure:: /wp-content/uploads/2020/03/the_kitchen_maid_rembrandt_harmensz._van_rijn_-_nationalmuseum_-_17587.tif_.jpg
+	:alt: Ο πίνακας *Κορίτσι στο παράθυρο* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__. 
+	:align: center
+
+	Ο πίνακας *Κορίτσι στο παράθυρο* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__. 
+
+
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1fHIZWlaGgrBjynyXAC_sn3x9QfgriI9C/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Κορίτσι στο παράθυρο* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__.
+
 
 Καλό βράδυ και καλό διάβασμα!
 

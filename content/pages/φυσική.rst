@@ -6,6 +6,13 @@
 :status: published
 :attachments: wp-content/uploads/2018/09/t05010_10.jpg
 
+.. figure:: /wp-content/uploads/2018/09/t05010_10.jpg
+	:alt: 
+	:align: center
+
+	
+
+
 Διδακτικό υλικό σχετικά με τη φυσική του λυκείου
 
 | **Α' Λυκείου**

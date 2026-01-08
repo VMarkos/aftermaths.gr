@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2020/10/hilma_af_klint_-_group_ix_suw_the_swan_no._1_13947.jpg
 
+.. figure:: /wp-content/uploads/2020/10/hilma_af_klint_-_group_ix_suw_the_swan_no._1_13947.jpg
+	:alt: Ο πίνακας *Ο κύκνος Αρ. 1, Group IX/SUW* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__. 
+	:align: center
+
+	Ο πίνακας *Ο κύκνος Αρ. 1, Group IX/SUW* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__. 
+
+
 Σε αυτήν τη σειρά αναρτήσεων θα ασχοληθούμε με ένα ελαφρώς πιο προχωρημένο ζήτημα από τα συνήθη «λυκειακά» μαθηματικά, οπότε, κάθε γνώση έστω και λίγου απειροστικού λογισμού είναι ευπρόσδεκτη. Για την ακρίβεια, θα ασχοληθούμε με το αξίωμα της πληρότητας, δηλαδή εκείνο το αξίωμα που μας εξασφαλίζει ότι η ευθεία των πραγματικών αριθμών δεν έχει «τρύπες» αλλά είναι «πλήρης» - εξ ου και το όνομα του διάσημου αυτού αξιώματος.
 
 Τι είναι τα αξιώματα;
@@ -250,7 +257,7 @@
 
 Μέχρι τότε, εις το επανειδείν!
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο κύκνος Αρ. 1, Group IX/SUW* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__.
+
 
 .. raw:: html
 

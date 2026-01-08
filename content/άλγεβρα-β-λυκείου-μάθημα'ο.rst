@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2022/03/1280px-wappers_-_episodes_from_september_days_1830_on_the_place_de_lhotel_de_ville_in_brussels.jpg
 
+.. figure:: /wp-content/uploads/2022/03/1280px-wappers_-_episodes_from_september_days_1830_on_the_place_de_lhotel_de_ville_in_brussels.jpg
+	:alt: Ο πίνακας *Επεισόδιο από τη Βελγική Επανάσταση του 1830* του `Gustaaf Wappers <https://en.wikipedia.org/wiki/Gustaaf_Wappers>`__. 
+	:align: center
+
+	Ο πίνακας *Επεισόδιο από τη Βελγική Επανάσταση του 1830* του `Gustaaf Wappers <https://en.wikipedia.org/wiki/Gustaaf_Wappers>`__. 
+
+
 Ποιους λογαρίθμους μπορείτε να υπολογίσετε αν γνωρίζετε ότι  :math:`\ln2=0.69`  και  :math:`\ln3=1.1;`  Αυτήν την εβδομάδα παρουσιάζουμε τις βασικές ιδιότητες των λογαρίθμων και τις εφαρμόζουμε σε διάφορα απλά παραδείγματα!
 
 Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1I9Qpl_mK63TTJPAA3nbYg2ggaUMPNT4T/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
@@ -28,7 +35,7 @@
 
    </figure>
 
-Η κεντρική εικόνα είναι ο πίνακας *Επεισόδιο από τη Βελγική Επανάσταση του 1830* του `Gustaaf Wappers <https://en.wikipedia.org/wiki/Gustaaf_Wappers>`__.
+
 
 Καλό βράδυ και καλό διάβασμα!
 

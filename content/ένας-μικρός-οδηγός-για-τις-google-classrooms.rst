@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2020/10/hilma_af_klint_1915_svanen_no._17.jpg
 
+.. figure:: /wp-content/uploads/2020/10/hilma_af_klint_1915_svanen_no._17.jpg
+	:alt: Ο πίνακας *Ο κύκνος* της `Hilma Af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__. 
+	:align: center
+
+	Ο πίνακας *Ο κύκνος* της `Hilma Af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__. 
+
+
 Μπορείτε να κατεβάσετε τον οδηγό σε .pdf πατώντας `εδώ <https://drive.google.com/file/d/1iziN4KByz_6ZPch9uybhpJ6tZ6cmPEE0/view?usp=sharing>`__.
 
 Σε αυτήν την ανάρτηση παρουσιάζονται οι βασικές δυνατότητες της (δωρεάν) Google Classroom. Πριν μπούμε σε λεπτομέρειες, τι είναι η Google Classroom; Συνοπτικά, η Google Classroom είναι μία ηλεκτρονική τάξη στην οποία μπορεί κάθε εκπαιδευτικός να δημιουργήσει τμήματα για τα μαθήματά που διδάσκει και να προσκαλέσει σε αυτά όλους τους μαθητές\ `[1] <#_ftn1>`__ του. Στο περιβάλλον της Google Classroom μπορούν να ανατεθούν εργασίες, τεστ/quiz καθώς και να δημιουργηθούν ομάδες συζήτησης και πολλά άλλα.
@@ -315,7 +322,7 @@
 
 Καλό απόγευμα και καλό διάβασμα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο κύκνος* της `Hilma Af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__.
+
 
 `Εδώ <https://www.tate.org.uk/tate-etc/issue-27-spring-2013/first-abstract-artist-and-its-not-kandinsky>`__\ *μπορείτε να βρείτε κι ένα αρκετά ενδιαφέρον άρθρο για την Kilma Af Klint.*
 

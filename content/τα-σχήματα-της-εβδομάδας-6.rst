@@ -7,6 +7,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/09/camille_pissarro_-_boulevard_montmartre_at_night_-_c_1897_-_national_gallery_uk.jpg
 
+.. figure:: /wp-content/uploads/2021/09/camille_pissarro_-_boulevard_montmartre_at_night_-_c_1897_-_national_gallery_uk.jpg
+	:alt: Ο πίνακας *Η Λεωφόρος Μονμάρτης τη νύχτα* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Η Λεωφόρος Μονμάρτης τη νύχτα* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+
+
 Άλλη μία εβδομάδα πέρασε, άλλα λίγα σχήματα προστέθηκαν στην πλάτη μας. Ας περάσουμε να τα δούμε λίγο αναλυτικότερα.
 
 *Για τα σχήματα της προηγούμενης εβδομάδας, όπου και παρουσιάσαμε την πρώτη μας βιβλιοθήκη του ``tikz`` δείτε*\ `εδώ <https://aftermaths.gr/2021/09/14/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-5/>`__\ *, ενώ όλες τις αναρτήσεις της σειράς μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
@@ -205,7 +212,7 @@
 
 Μέχρι την επόμενη Τρίτη, καλή συνέχεια!
 
-Η κεντρική εικόνα είναι ο πίνακας *Η Λεωφόρος Μονμάρτης τη νύχτα* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.*
+
 
 .. raw:: html
 

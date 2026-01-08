@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/11/pablo_picasso_1909_femme_assise_sitzende_frau_oil_on_canvas_100_x_80_cm_staatliche_museen_zu_berlin_neue_nationalgalerie.jpg
 
+.. figure:: /wp-content/uploads/2019/11/pablo_picasso_1909_femme_assise_sitzende_frau_oil_on_canvas_100_x_80_cm_staatliche_museen_zu_berlin_neue_nationalgalerie.jpg
+	:alt: Ο πίνακας *Καθιστή Γυναίκα* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Καθιστή Γυναίκα* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+
+
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1TAbxJBAFzyWZ4YP62Bb7p3CDz-47lwIp/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Καθιστή Γυναίκα* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.*
+
 
 Καλό μεσημέρι και καλό διάβασμα!
 

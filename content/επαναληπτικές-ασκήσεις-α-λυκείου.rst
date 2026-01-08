@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/09/300px-caspar_david_friedrich_-_wanderer_above_the_sea_of_fog.jpg
 
+.. figure:: /wp-content/uploads/2018/09/300px-caspar_david_friedrich_-_wanderer_above_the_sea_of_fog.jpg
+	:alt: Ο πίνακας `Οδοιπόρος πάνω από τη θάλασσα της ομίχλης <https://en.wikipedia.org/wiki/Wanderer_above_the_Sea_of_Fog>`__ του `Gaspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:align: center
+
+	Ο πίνακας `Οδοιπόρος πάνω από τη θάλασσα της ομίχλης <https://en.wikipedia.org/wiki/Wanderer_above_the_Sea_of_Fog>`__ του `Gaspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+
+
 Σε αυτό το φυλλάδιο περιέχονται επαναληπτικές ασκήσεις πάνω στις βασικές τεχνικές της ύλης της Α' λυκείου (εξισώσεις, ανισώσεις, πεδίο ορισμού συνάρτησης, χάραξη παραβολής κ.λπ.).
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1Bnm6hN5Jg59iWIrjou-0xnRCDMlRjNGH/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας `Οδοιπόρος πάνω από τη θάλασσα της ομίχλης <https://en.wikipedia.org/wiki/Wanderer_above_the_Sea_of_Fog>`__ του `Gaspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

@@ -7,6 +7,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/09/1896_polenow_christus_unter_den_lehrern_anagoria.jpg
 
+.. figure:: /wp-content/uploads/2021/09/1896_polenow_christus_unter_den_lehrern_anagoria.jpg
+	:alt: Ο πίνακας *Ο Χριστός ανάμεσα στους διδασκάλους* του `Vasily Polenov <https://en.wikipedia.org/wiki/Vasily_Polenov>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ο Χριστός ανάμεσα στους διδασκάλους* του `Vasily Polenov <https://en.wikipedia.org/wiki/Vasily_Polenov>`__\ *.* 
+
+
 Αυτήν την εβδομάδα είδαμε αρκετά νέα και ενδιαφέρονται σχήματα καθώς επίσης και μία ακόμα βιβλιοθήκη του ``tikz``. Όλα με τη σειρά τους, όμως.
 
 *Για τα σχήματα της προηγούμενης εβδομάδας δείτε*\ `εδώ <https://aftermaths.gr/2021/09/21/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-6/>`__\ *ενώ για όλες τις αναρτήσεις της σειράς δείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
@@ -315,7 +322,7 @@
 
 Μέχρι τότε, καλό βράδυ!
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο Χριστός ανάμεσα στους διδασκάλους* του `Vasily Polenov <https://en.wikipedia.org/wiki/Vasily_Polenov>`__\ *.*
+
 
 .. raw:: html
 

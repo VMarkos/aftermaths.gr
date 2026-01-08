@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/06/453px-reading_henri_matisse.jpg
 
+.. figure:: /wp-content/uploads/2019/06/453px-reading_henri_matisse.jpg
+	:alt: Ο πίνακας *Γυναίκα που* *διαβάζει* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Γυναίκα που* *διαβάζει* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+
+
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1lci8ZQx4S8vsvyZp5ZYm6kO_6_KG-KcK/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Γυναίκα που* *διαβάζει* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

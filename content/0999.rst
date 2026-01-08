@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/01/kazimir_malevich_1915_black_suprematic_square_oil_on_linen_canvas_79.5_x_79.5_cm_tretyakov_gallery_moscow.jpg
 
+.. figure:: /wp-content/uploads/2021/01/kazimir_malevich_1915_black_suprematic_square_oil_on_linen_canvas_79.5_x_79.5_cm_tretyakov_gallery_moscow.jpg
+	:alt: Ο πίνακας *Μαύρο Τετράγωνο* του `Kazimir Malevich <https://en.wikipedia.org/wiki/Kazimir_Malevich>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Μαύρο Τετράγωνο* του `Kazimir Malevich <https://en.wikipedia.org/wiki/Kazimir_Malevich>`__\ *.* 
+
+
 Κλασσικό σημείο διαμάχης σε διάφορες τάξεις αποτελεί η τιμή της παράστασης  :math:`0.999\ldots=0.\overline{9}` . Κάθε τέτοια διαμάχη είναι, σαφώς, και μία ευκαιρία για συζήτηση στην τάξη έτσι ώστε να έρθουν στην επιφάνεια παρανοήσεις σε σχέση με τους πραγματικούς αριθμούς και τη φύση τους - τουλάχιστον σε σχέση με το συμβατικό μοντέλο που έχουμε στο μυαλό μας. Ωστόσο, το ερώτημα «με τι ισούται το  :math:`0.999\ldots` ;» ίσως και να κρύβει πολλά περισσότερα πράγματα από όσα να υποπτευόμαστε από πίσω του. Στην παρούσα ανάρτηση θα προσπαθήσουμε να εξερευνήσουμε κάποια από αυτά καθώς και να εξετάσουμε αν μία `μη συμβατική θεώρηση των πραγματικών αριθμών <https://aftermathsgr.wordpress.com/2021/01/17/hyperreals-απειροστά-και-άπειροι-αριθμοί/>`__ είναι ικανή να ερμηνεύσει κάποιες από τις συνήθεις παρανοήσεις των μαθητών - τουλάχιστον σε θεωρηττικό επίπεδο, για αρχή.
 
 Μία «συμβατική» αντιμετώπιση
@@ -130,7 +137,7 @@
 
 Μέχρι την επόμενη φορά, καλημέρα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Μαύρο Τετράγωνο* του `Kazimir Malevich <https://en.wikipedia.org/wiki/Kazimir_Malevich>`__\ *.*
+
 
 .. raw:: html
 

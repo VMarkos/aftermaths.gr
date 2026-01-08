@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/02/847px-portrait_of_sophia_shuvalova_married_name_bobrinskaya.jpg
 
+.. figure:: /wp-content/uploads/2021/02/847px-portrait_of_sophia_shuvalova_married_name_bobrinskaya.jpg
+	:alt: Ο το πορτραίτο της Sophia Andreevna Bobrinskaya (Shuvalova) του `Karl Bryullov <https://en.wikipedia.org/wiki/Karl_Bryullov>`__. 
+	:align: center
+
+	Ο το πορτραίτο της Sophia Andreevna Bobrinskaya (Shuvalova) του `Karl Bryullov <https://en.wikipedia.org/wiki/Karl_Bryullov>`__. 
+
+
 Ένα τεστάκι στις εισαγωγικές έννοιες των πολυωνύμων, όπως ο βαθμός και η ισότητα πολυωνύμων - άλγεβρα, Β' Λυκείου και ΕΠΑΛ.
 
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1IAsacsadcZSANu2s2hQITyDuGB-EE5jw/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο το πορτραίτο της Sophia Andreevna Bobrinskaya (Shuvalova) του `Karl Bryullov <https://en.wikipedia.org/wiki/Karl_Bryullov>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

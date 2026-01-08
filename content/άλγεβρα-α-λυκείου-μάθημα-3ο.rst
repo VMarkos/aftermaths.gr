@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/09/1242px-pissaro_camille_still_life_apples_and_pears.jpg
 
+.. figure:: /wp-content/uploads/2021/09/1242px-pissaro_camille_still_life_apples_and_pears.jpg
+	:alt: Ο πίνακας *Νεκρή φύση: φρούτα σε στρογγυλό καλάθι* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Νεκρή φύση: φρούτα σε στρογγυλό καλάθι* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+
+
 Λίγες ακόμα διαφάνειες στους πραγματικούς αριθμούς και τις ιδιότητες της διάταξης - Άλγεβρα, Α' Λυκείου και ΕΠΑΛ.
 
 Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/15GJ7XpFHPQOuq5wsi-HZxE15iLAAwvzO/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
@@ -16,7 +23,7 @@
 
 Καλημέρα και καλό διάβασμα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Νεκρή φύση: φρούτα σε στρογγυλό καλάθι* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.*
+
 
 .. raw:: html
 

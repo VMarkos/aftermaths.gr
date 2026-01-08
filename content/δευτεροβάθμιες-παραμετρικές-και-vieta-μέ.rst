@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/02/484px-rembrandt_harmensz._van_rijn_049.jpg
 
+.. figure:: /wp-content/uploads/2020/02/484px-rembrandt_harmensz._van_rijn_049.jpg
+	:alt: Ο πίνακας *Ο Ευαγγελιστής Ματθαίος και ο άγγελος* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ο Ευαγγελιστής Ματθαίος και ο άγγελος* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+
+
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1PWKTs9Mf3Von9lfJGCBh8wJnRCjlEBde/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο Ευαγγελιστής Ματθαίος και ο άγγελος* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.*
+
 
 Καλό μεσημέρι και καλό διάβασμα!
 

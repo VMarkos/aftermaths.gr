@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/12/les_demoiselles_davignon.jpg
 
+.. figure:: /wp-content/uploads/2019/12/les_demoiselles_davignon.jpg
+	:alt: Ο πίνακας *Οι δεσποινίδες της Avignon* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Οι δεσποινίδες της Avignon* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+
+
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1tZN6nHyDB1B2YysPrAxY0eFtXouZHL5S/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Οι δεσποινίδες της Avignon* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.*
+
 
 Καλό ξημέρωμα και καλό διάβασμα!
 

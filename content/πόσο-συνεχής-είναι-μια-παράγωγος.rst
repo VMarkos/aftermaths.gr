@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2023/03/cantor_def_02.png, wp-content/uploads/2023/03/rationals_characteristic_01.png, wp-content/uploads/2023/03/func_def_03.png, wp-content/uploads/2023/03/cantor_def_04.png, wp-content/uploads/2023/03/riemann_int_def_func_01-1.png, wp-content/uploads/2023/03/1277px-gustave_caillebotte_-_the_plain_of_gennevilliers_yellow_fields_-_google_art_project.jpg, wp-content/uploads/2023/03/riemann_int_def_func_01.png, wp-content/uploads/2023/03/riemann_int_def_func_03.png, wp-content/uploads/2023/03/func_def_02-1.png, wp-content/uploads/2023/03/func_def_05.png, wp-content/uploads/2023/03/func_def_02.png, wp-content/uploads/2023/03/cantor_def_01.png, wp-content/uploads/2023/03/riemann_int_def_func_02.png, wp-content/uploads/2023/03/func_def_01.png, wp-content/uploads/2023/03/func_def_04.png, wp-content/uploads/2023/03/lebesgue_def_02.png, wp-content/uploads/2023/03/cantor_def_03.png, wp-content/uploads/2023/03/lebesgue_def_02-1.png, wp-content/uploads/2023/03/lebesgue_def_01.png, wp-content/uploads/2023/03/cantor_def_04-1.png, wp-content/uploads/2023/03/image.png, wp-content/uploads/2023/03/cantor_def_04-2.png, wp-content/uploads/2023/03/cantor_def_03-2.png, wp-content/uploads/2023/03/riemann_int_def_func_04.png, wp-content/uploads/2023/03/riemann_int_def_func_02-1.png, wp-content/uploads/2023/03/lebesgue_def_03.png, wp-content/uploads/2023/03/cantor_def_03-1.png
 
+.. figure:: /wp-content/uploads/2023/03/cantor_def_02.png, wp-content/uploads/2023/03/rationals_characteristic_01.png, wp-content/uploads/2023/03/func_def_03.png, wp-content/uploads/2023/03/cantor_def_04.png, wp-content/uploads/2023/03/riemann_int_def_func_01-1.png, wp-content/uploads/2023/03/1277px-gustave_caillebotte_-_the_plain_of_gennevilliers_yellow_fields_-_google_art_project.jpg, wp-content/uploads/2023/03/riemann_int_def_func_01.png, wp-content/uploads/2023/03/riemann_int_def_func_03.png, wp-content/uploads/2023/03/func_def_02-1.png, wp-content/uploads/2023/03/func_def_05.png, wp-content/uploads/2023/03/func_def_02.png, wp-content/uploads/2023/03/cantor_def_01.png, wp-content/uploads/2023/03/riemann_int_def_func_02.png, wp-content/uploads/2023/03/func_def_01.png, wp-content/uploads/2023/03/func_def_04.png, wp-content/uploads/2023/03/lebesgue_def_02.png, wp-content/uploads/2023/03/cantor_def_03.png, wp-content/uploads/2023/03/lebesgue_def_02-1.png, wp-content/uploads/2023/03/lebesgue_def_01.png, wp-content/uploads/2023/03/cantor_def_04-1.png, wp-content/uploads/2023/03/image.png, wp-content/uploads/2023/03/cantor_def_04-2.png, wp-content/uploads/2023/03/cantor_def_03-2.png, wp-content/uploads/2023/03/riemann_int_def_func_04.png, wp-content/uploads/2023/03/riemann_int_def_func_02-1.png, wp-content/uploads/2023/03/lebesgue_def_03.png, wp-content/uploads/2023/03/cantor_def_03-1.png
+	:alt: Ο πίνακας *Τα λιβάδια της Genevilliers* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+	:align: center
+
+	Ο πίνακας *Τα λιβάδια της Genevilliers* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+
+
 Βλέπουμε διάφορες συναρτήσεις καθώς διδάσκουμε. Άλλες είναι παραγωγίσιμες - μια, δυο, τρεις ή και άπειρες φορές - άλλες όχι. Άλλες είναι συνεχείς, άλλες όχι. Αλλά, όλες τους, λίγο έως πολύ, βλέπονται. Δηλαδή, με τον έναν ή τον άλλο τρόπο, μπορούμε να πάρουμε τις βασικές όμορφες συναρτήσεις που ξέρουμε - ημίτονα, συνημίτονα, πολυώνυμα, εκθετικές, λογαριθμικές και όλα τα συναφή - να κάνουμε και πέντε-δέκα πράξεις μεταξύ τους και, «τσουπ!», να φτιάξουμε μία συνάρτηση κομμένη και ραμμένη στα μέτρα μας.
 
 Πρόσφατα (τρόπος του λέγειν) είχαμε δει μάλιστα κι έναν τρόπο να βρίσκουμε τύπους συναρτήσεων που - έστω και «στο περίπου» - να έχουν μία δεδομένη γραφική παράσταση (δείτε `εδώ <https://aftermaths.gr/2022/11/06/%cf%83%cf%87%ce%b5%ce%b4%ce%b9%ce%ac%ce%b6%ce%bf%ce%bd%cf%84%ce%b1%cf%82-%ce%ba%ce%b1%ce%bc%cf%80%cf%8d%ce%bb%ce%b5%cf%82/>`__ για ένα φρεσκάρισμα). Αλλά, και πάλι, οι γραφικές παραστάσεις που εξετάσαμε ήταν, θα έλεγε κανείς, αρκετά «όμορφες». Τι γίνεται, όμως με εκείνες τις συναρτήσεις που είναι κάπως πιο «άσχημες»;
@@ -411,7 +418,7 @@
 
 Περισσότερα την επόμενη Δευτέρα... Μέχρι τότε, υπομονή!
 
-Η κεντρική εικόνα είναι ο πίνακας *Τα λιβάδια της Genevilliers* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

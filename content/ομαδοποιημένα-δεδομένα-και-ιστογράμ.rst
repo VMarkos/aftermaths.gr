@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/05/535px-johannes_vermeer_-_het_melkmeisje_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2020/05/535px-johannes_vermeer_-_het_melkmeisje_-_google_art_project.jpg
+	:alt: Ο πίνακας *Η κοπέλα με το γάλα* του `Johannes Vermeer <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Η κοπέλα με το γάλα* του `Johannes Vermeer <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\ *.* 
+
+
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1RZHkSQe_-LNUfGHFPx8ftB1ii3luix4R/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Η κοπέλα με το γάλα* του `Johannes Vermeer <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

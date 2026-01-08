@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/02/proof.png
 
+.. figure:: /wp-content/uploads/2020/02/proof.png
+	:alt: Ένα αγαπημένο webcomic του `Randall Munroe <https://xkcd.com/>`__. 
+	:align: center
+
+	Ένα αγαπημένο webcomic του `Randall Munroe <https://xkcd.com/>`__. 
+
+
 `Εδώ <https://drive.google.com/file/d/1QyS671DkusTI-WR0QHFEodnVd3wgb-J_/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__ μπορείτε να βρείτε μία συλλογή όλων των εντός ύλης αποδείξεων των Μαθηματικών Προσανατολισμού της Γ' Λυκείου, με κάποια σχόλια πριν από τις πιο απαιτητικές από αυτές.
 
-Η κεντρική εικόνα είναι ένα αγαπημένο webcomic του `Randall Munroe <https://xkcd.com/>`__.
+
 
 Καλό βράδυ και καλό διάβασμα!
 

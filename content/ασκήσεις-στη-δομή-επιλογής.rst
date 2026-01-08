@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/10/20_sep_13_klee_around_the_core.jpg
 
+.. figure:: /wp-content/uploads/2018/10/20_sep_13_klee_around_the_core.jpg
+	:alt: Ο πίνακας *Ελαιώνας: Η εντύπωση του φωτός* του `Piet Mondrian. <https://en.wikipedia.org/wiki/Piet_Mondrian>`__ 
+	:align: center
+
+	Ο πίνακας *Ελαιώνας: Η εντύπωση του φωτός* του `Piet Mondrian. <https://en.wikipedia.org/wiki/Piet_Mondrian>`__ 
+
+
 Σε αυτό το φυλλάδιο περιέχονται κάποιες κλασσικές ασκήσεις στη δομή επιλογής που έχουν ως στόχο να εξοικειώσουν τους μαθητές με τη χρήση τους.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1tKTnhhOxP2PFqEOqgLvftsyxafPxfIcR/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ελαιώνας: Η εντύπωση του φωτός* του `Piet Mondrian. <https://en.wikipedia.org/wiki/Piet_Mondrian>`__
+
 
 Καλό βράδυ και καλό διάβασμα!
 

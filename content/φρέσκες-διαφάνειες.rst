@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/08/skagens_jaegere_p._s._kroyer.jpg
 
+.. figure:: /wp-content/uploads/2020/08/skagens_jaegere_p._s._kroyer.jpg
+	:alt: Ο πίνακας *Οι κυνηγοί του Skagen* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+	:align: center
+
+	Ο πίνακας *Οι κυνηγοί του Skagen* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+
+
 Ανανεωμένες και διορθωμένες διαφάνειες στην ύλη των συναρτήσεων των μαθηματικών προσανατολισμού της Γ' λυκείου. Μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1xgp5GLhIHmKIgACSMlf9IT_gp3tSQBnx/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Οι κυνηγοί του Skagen* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__.
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

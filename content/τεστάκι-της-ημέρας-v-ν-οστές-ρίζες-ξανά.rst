@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/12/david_etienne_maurice_gerard.jpg
 
+.. figure:: /wp-content/uploads/2021/12/david_etienne_maurice_gerard.jpg
+	:alt: Το πορτραίτο του Étienne-Maurice Gérard του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+	:align: center
+
+	Το πορτραίτο του Étienne-Maurice Gérard του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+
+
 Ένα μικρό τεστάκι στις ν-οστές ρίζες και βασικές αλγεβρικές τους ιδιότητες - Άλγεβρα Α' Γενικού Λυκείου και ΕΠΑΛ.
 
 Το τεστάκι μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1KfRyekp1zmSUhUR4GzvpjQpDrnIn7qUf/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
-Η κεντρική εικόνα είναι το πορτραίτο του Étienne-Maurice Gérard του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__.
+
 
 Καλό μεσημέρι και καλό διάβασμα!
 

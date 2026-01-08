@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/werefkinorchester.jpg
 
+.. figure:: /wp-content/uploads/2020/11/werefkinorchester.jpg
+	:alt: Ο πίνακας *Στο θέατρο Ι* της `Marianne von Werefkin <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__. 
+	:align: center
+
+	Ο πίνακας *Στο θέατρο Ι* της `Marianne von Werefkin <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__. 
+
+
 Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1tKppOmq3lESDDPF_ZjiDtvD0Z6oZxaCA/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Στο θέατρο Ι* της `Marianne von Werefkin <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__.
+
 
 Καλό ξημέρωμα και καλό διάβασμα!
 

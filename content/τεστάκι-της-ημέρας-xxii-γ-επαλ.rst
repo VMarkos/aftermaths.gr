@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/robert_delaunay_1913_lequipe_de_cardiff_oil_on_canvas_326_c397_208_cm_musee_dart_moderne_de_la_ville_de_paris.jpg
 
+.. figure:: /wp-content/uploads/2020/11/robert_delaunay_1913_lequipe_de_cardiff_oil_on_canvas_326_c397_208_cm_musee_dart_moderne_de_la_ville_de_paris.jpg
+	:alt: Ο πίνακας *Η ομάδα του Κάρντιφ* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Η ομάδα του Κάρντιφ* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+
+
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1xXby7X2u7vFwUYqK7v4QTWS7Yb2nCPql/view?usp=sharing>`__ και στη σελίδα `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Η ομάδα του Κάρντιφ* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

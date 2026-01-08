@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/12/august_macke_1912_rokoko_oil_on_canvas_89_x_89_cm_national_museum_of_art_architecture_and_design_norway.jpg
 
+.. figure:: /wp-content/uploads/2020/12/august_macke_1912_rokoko_oil_on_canvas_89_x_89_cm_national_museum_of_art_architecture_and_design_norway.jpg
+	:alt: Ο πίνακας *Rokoko* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Rokoko* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+
+
 Το τεστ βρίσκεται `εδώ <https://drive.google.com/file/d/1xg-80wiCSL_1TqQPg4Ejt08dgxRuEw4L/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Rokoko* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

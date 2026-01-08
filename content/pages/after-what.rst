@@ -6,6 +6,13 @@ After-what?
 :status: published
 :attachments: wp-content/uploads/2018/09/olive-trees-with-yellow-sky-and-sun.jpg
 
+.. figure:: /wp-content/uploads/2018/09/olive-trees-with-yellow-sky-and-sun.jpg
+	:alt: Ο πίνακας `Ελαιόδεντρα υπό κίτρινο ουρανό και ήλιο <https://en.wikipedia.org/wiki/Olive_Trees_(Van_Gogh_series)>`__ του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:align: center
+
+	Ο πίνακας `Ελαιόδεντρα υπό κίτρινο ουρανό και ήλιο <https://en.wikipedia.org/wiki/Olive_Trees_(Van_Gogh_series)>`__ του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+
+
 Τι είναι το *Aftermaths*;
 -------------------------
 
@@ -23,7 +30,7 @@ After-what?
 
 Εδώ καταλαβαίνετε ότι τη ζημιά την έκαναν οι δεύτεροι. Διότι, ένα, δύο, τρία, δέκα, εκατό κομμάτια να ακούσεις, ένας πίνακας θα σου αρέσει. Ε, αφού θα σου αρέσει, δε θα ψάξεις να δεις πώς τον λένε, ποιος τον ζωγράφισε κ.λπ.; Θα ψάξεις. Ε, κάπως έτσι αρχίζεις, χωρίς να το καταλάβεις να μαθαίνεις ζωγράφους πέρα από τον Νταλί και τον Πικάσσο, να καταλαβαίνεις τι είναι πια αυτός ο ιμπρεσσιονισμός και διάφορα τέτοια. Οπότε, όπως και με τη μουσική, σε κάθε ανάρτηση θα βρίσκετε κι έναν πίνακα, πάντα είτε σχετικό είτε άσχετο (εδώ «κλέβω» με έναν μαθηματικό τρόπο, αφού η πρόταση «Α ή όχι Α» ισχύει για όλα τα Α του κόσμου αυτού).
 
-Η κεντρική εικόνα είναι ο πίνακας `Ελαιόδεντρα υπό κίτρινο ουρανό και ήλιο <https://en.wikipedia.org/wiki/Olive_Trees_(Van_Gogh_series)>`__ του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.*
+
 
 Καλό μας ξεκίνημα!
 

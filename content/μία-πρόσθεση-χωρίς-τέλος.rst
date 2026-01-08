@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2023/04/las_meninas_by_diego_velazquez_from_prado_in_google_earth.jpg, wp-content/uploads/2023/04/exponential_01.png, wp-content/uploads/2023/04/non_convergent_01.png
 
+.. figure:: /wp-content/uploads/2023/04/las_meninas_by_diego_velazquez_from_prado_in_google_earth.jpg, wp-content/uploads/2023/04/exponential_01.png, wp-content/uploads/2023/04/non_convergent_01.png
+	:alt: Ο πίνακας *Τα δεσποινάρια* του `Diego Velázquez <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__. 
+	:align: center
+
+	Ο πίνακας *Τα δεσποινάρια* του `Diego Velázquez <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__. 
+
+
 Είναι γνωστό ότι οι μαθηματικοί έχουν άπειρους φίλους - τουλάχιστον έτσι μου λένε. Ένας μαθηματικός, λοιπόν, μπαίνει σε ένα μπαρ. Κάθεται σε ένα σκαμπό στη μπάρα και βλέπει έναν άνθρωπο σκυμμένο πίσω από αυτή. Σκεπτόμενος ότι, του κερατά, θα δουλεύει εκεί, τον ενημερώνει ότι θα έρθει η άπειρη παρέα του σε λίγο να πιούνε μπύρες:
 
 -  Πόσες να φέρω;
@@ -357,7 +364,7 @@
 
 Για τις απαντήσεις, θα πρέπει να περιμένετε λίγο καιρό ακόμα...
 
-Η κεντρική εικόνα είναι ο πίνακας *Τα δεσποινάρια* του `Diego Velázquez <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__.
+
 
 Καλόν Επιτάφιο και καλό διάβασμα!
 

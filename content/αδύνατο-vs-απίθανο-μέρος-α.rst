@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/10/mary_cassatt_-_the_boating_party_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2021/10/mary_cassatt_-_the_boating_party_-_google_art_project.jpg
+	:alt: Ο πίνακας *Το πάρτι σε βάρκα* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__. 
+	:align: center
+
+	Ο πίνακας *Το πάρτι σε βάρκα* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__. 
+
+
 Πρόσφατα, με αφορμή μία άλλη ανάρτηση εδώ στο aftermaths για το π και την υπερβατικότητά του - δείτε `εδώ <https://aftermaths.gr/2021/09/19/%ce%b7-%cf%85%cf%80%ce%b5%cf%81%ce%b2%ce%b1%cf%84%ce%b9%ce%ba%cf%8c%cf%84%ce%b7%cf%84%ce%b1-%cf%84%ce%bf%cf%85-%cf%80/>`__ - προέκυψε μία μικρή συζήτηση στο facebook σε σχέση με το τι μπορεί να είναι *απίθανο* και τι *αδύνατο*. Η αλήθεια είναι ότι στην καθομιλουμένη συχνά χρησιμοποιούμε αδιακρίτως τον έναν ή τον άλλο όρο για να μιλήσουμε για το ίδιο πράγμα - κάτι που θεωρούμε ότι δεν είναι εφικτό να συμβεί ή και κάτι που το να συμβεί ισοδυναμεί με το να ξανακερδίσουμε το Euro στο ποδόσφαιρο. Ωστόσο, από τη σκοπιά των μαθηματικών είναι το ίδιο πράγμα;
 
 Τύχη και ατυχία
@@ -208,7 +215,7 @@ Troubles in Paradise
 
 Απαντήσεις σε αυτά και κάποια ακόμα ερωτήματα θα δώσουμε την ερχόμενη εβδομάδα! Μέχρι τότε, καλή διασκέδαση!
 
-Η κεντρική εικόνα είναι ο πίνακας *Το πάρτι σε βάρκα* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__.
+
 
 .. raw:: html
 

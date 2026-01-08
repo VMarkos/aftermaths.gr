@@ -7,6 +7,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/10/henri_fantin-latour_-_a_studio_at_les_batignolles_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2021/10/henri_fantin-latour_-_a_studio_at_les_batignolles_-_google_art_project.jpg
+	:alt: Ο πίνακας *Στούντιο στις Batignolles* του `Henri Fantin-Latour. <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__ 
+	:align: center
+
+	Ο πίνακας *Στούντιο στις Batignolles* του `Henri Fantin-Latour. <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__ 
+
+
 Την προηγούμενη εβδομάδα είδαμε αρκετά νέα πράγματα, όπως για παράδειγμα τη βιβλιοθήκη ``patterns`` που μας βοηθάει να γεμίσουμε ένα χωρίο με κάποιο μοτίβο που επιθυμούμε κι όχι απλώς με κάποιο χρώμα - για περισσότερα, δείτε `εδώ <https://aftermaths.gr/2021/10/12/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-9/>`__.
 
 *Για όλες τις αναρτήσεις της σειράς, δείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
@@ -190,7 +197,7 @@
 
 Αυτά ήταν τα σχήματά μας και γι' αυτήν την εβδομάδα. Μέχρι την επόμενη εβδομάδα, καλή συνέχεια!
 
-Η κεντρική εικόνα είναι ο πίνακας *Στούντιο στις Batignolles* του `Henri Fantin-Latour. <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__
+
 
 .. raw:: html
 

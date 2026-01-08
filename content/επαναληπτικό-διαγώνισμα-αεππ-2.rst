@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/05/bathing_women_auguste_renoir_-_nationalmuseum_-_19163.tif_.jpg
 
+.. figure:: /wp-content/uploads/2021/05/bathing_women_auguste_renoir_-_nationalmuseum_-_19163.tif_.jpg
+	:alt: Ο πίνακας *Λουόμενες* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Λουόμενες* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
 Ένα επαναληπτικό διαγώνισμα εφ' όλης της κορωνοΰλης του μαθήματος της Ανάπτυξης Εφαρμογών σε Προγραμματιστικό Περιβάλλον (ΑΕΠΠ) στα πλαίσια της προετοιμασίας των πανελληνίων εξετάσεων/
 
 Το διαγώνισμα μπορεί να το βρείτε `εδώ <https://drive.google.com/file/d/13zGP5fWv64apNts0Tv4w3HdSuhR39OjW/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Λουόμενες* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.*
+
 
 Καλό βράδυ και καλό διάβασμα!
 

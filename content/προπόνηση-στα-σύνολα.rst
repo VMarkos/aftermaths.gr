@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/767px-franz_marc_-_the_foxes_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2020/11/767px-franz_marc_-_the_foxes_-_google_art_project.jpg
+	:alt: Ο πίνακας *Αλεπούδες* του `Franz Marc <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Αλεπούδες* του `Franz Marc <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+
+
 Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1XOKqhsrzJ9q2o7qcLiTRmhS_ND89kMAx/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Αλεπούδες* του `Franz Marc <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.*
+
 
 Καλό βράδυ και καλό διάβασμα!
 

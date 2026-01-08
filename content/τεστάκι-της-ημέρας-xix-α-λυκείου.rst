@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/marc_franz_-_the_tiger_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2020/11/marc_franz_-_the_tiger_-_google_art_project.jpg
+	:alt: Ο πίνακας *Ο τίγρης* του `Franz Marc <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ο τίγρης* του `Franz Marc <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+
+
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1U6foOA2zdiBgR2JHlCLFsoXeppIfQs9s/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο τίγρης* του `Franz Marc <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

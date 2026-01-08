@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/04/cafc3a9tafel_met_absint_-_s0186v1962_-_van_gogh_museum.jpg
 
+.. figure:: /wp-content/uploads/2019/04/cafc3a9tafel_met_absint_-_s0186v1962_-_van_gogh_museum.jpg
+	:alt: Ο πίνακας *Νεκρή φύση με ένα ποτήρι Αμπσέντι και μία καράφα* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Νεκρή φύση με ένα ποτήρι Αμπσέντι και μία καράφα* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+
+
 Οι λύσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1mZPXD8Glb7r-NBVGhdSVGZK2X30CfPTz/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Νεκρή φύση με ένα ποτήρι Αμπσέντι και μία καράφα* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.*
+
 
 Καλό βράδυ και καλό διάβασμα!
 

@@ -8,6 +8,13 @@
 :status: draft
 :attachments: wp-content/uploads/2023/10/sofa_08.png, wp-content/uploads/2023/10/sofa_03.png, wp-content/uploads/2023/10/sofa_09.gif, wp-content/uploads/2023/10/sofa_07.png, wp-content/uploads/2023/10/henri-de-toulouse-lautrec-the-sofa-1896-trivium-art-history-1.webp, wp-content/uploads/2023/10/sofa_01.png, wp-content/uploads/2023/10/sofa_02.png, wp-content/uploads/2023/10/sofa_05.png, wp-content/uploads/2023/10/sofa_04.png, wp-content/uploads/2023/10/sofa_06.png
 
+.. figure:: /wp-content/uploads/2023/10/sofa_08.png, wp-content/uploads/2023/10/sofa_03.png, wp-content/uploads/2023/10/sofa_09.gif, wp-content/uploads/2023/10/sofa_07.png, wp-content/uploads/2023/10/henri-de-toulouse-lautrec-the-sofa-1896-trivium-art-history-1.webp, wp-content/uploads/2023/10/sofa_01.png, wp-content/uploads/2023/10/sofa_02.png, wp-content/uploads/2023/10/sofa_05.png, wp-content/uploads/2023/10/sofa_04.png, wp-content/uploads/2023/10/sofa_06.png
+	:alt: 
+	:align: center
+
+	
+
+
 Έχετε ποτέ συναναστραφεί κάποιον από αυτούς τους γραφικούς τύπους που λένε ότι όλα σε αυτή τη ζωή είναι μαθηματικά, ότι πίσω από τα πάντα βρίσκονται οι αριθμοί και άλλα τέτοια ωραία, και που αυθόρμητα θέλετε να τους αποκαλέσετε «νούμερα», με λοιπούς κοσμητικούς χαρακτηρισμούς να έπονται βροχηδόν; Ε, φανταστείτε ότι το σημερινό άρθρο το γράφει ένας τέτοιος τύπος, γιατί η πρόθεσή μας είναι να μην καθίσετε στον καναπέ σας ποτέ ξανά όπως καθόσαστε ως τώρα...
 
 Αποδομώντας έναν Καναπέ

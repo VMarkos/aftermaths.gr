@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/03/frederic_bazille_-_bazilles_studio_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2021/03/frederic_bazille_-_bazilles_studio_-_google_art_project.jpg
+	:alt: Ο πίνακας *Στούντιο στην οδό Condamine* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
+	:align: center
+
+	Ο πίνακας *Στούντιο στην οδό Condamine* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
+
+
 Στο παρελθόν έχουμε δει στο aftermaths ένα `φύλλο εργασίας σε σχέση με τους λογαρίθμους <https://aftermathsgr.wordpress.com/2019/04/21/%cf%86%cf%8d%ce%bb%ce%bb%ce%bf-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%af%ce%b1%cf%82-%ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%bf%cf%85%cf%82-%ce%bb%ce%bf%ce%b3%ce%b1%cf%81%ce%af/>`__ - πάνε σχεδόν δύο χρόνια από τότε. Η αλήθεια είναι ότι τα φύλλα εργασίας, αν και συνήθως απαιτούν αρκετό χρόνο μέσα στην τάξη που, δυστυχώς, δεν είναι πάντα διαθέσιμος, είναι ένα εξαιρετικό εργαλείο το οποίο μπορεί να κινητοποιήσει την φαντασία των μαθητών καθώς και να οδηγήσει σε ενδιαφέρουσες ατραπούς το μάθημα. Παρακάτω θα ξεκοκκαλίσουμε το εν λόγω φύλλο εργασίας με στόχο δύο πράγματα:
 
 -  να παρουσιάσουμε αναλυτικά τη φιλοσοφία του και,
@@ -170,7 +177,7 @@
 
 Μέχρι την επόμενη εβδομάδα, καλή συνέχεια!
 
-Η κεντρική εικόνα είναι ο πίνακας *Στούντιο στην οδό Condamine* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__.
+
 
 .. raw:: html
 

@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/02/aleksander_ivanov_-_d090d0bfd0bfd0b8d0b5d0b2d0b0_d0b4d0bed180d0bed0b3d0b0_via_appia_d0bfd180d0b8_d0b7d0b0d0bad0b0d182d0b5_d181d0bed0bbd0bdd186d0b0_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2021/02/aleksander_ivanov_-_d090d0bfd0bfd0b8d0b5d0b2d0b0_d0b4d0bed180d0bed0b3d0b0_via_appia_d0bfd180d0b8_d0b7d0b0d0bad0b0d182d0b5_d181d0bed0bbd0bdd186d0b0_-_google_art_project.jpg
+	:alt: Ο πίνακας *Η Απία Οδός στο ηλιοβασίλεμα* του `Alexander Ivanov. <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__ 
+	:align: center
+
+	Ο πίνακας *Η Απία Οδός στο ηλιοβασίλεμα* του `Alexander Ivanov. <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__ 
+
+
 Την προηγούμενη εβδομάδα συζητήσαμε για μία `ισοδύναμη μορφή του αξιώματος της πληρότητας <https://aftermathsgr.wordpress.com/2021/01/31/%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7/>`__. Για την ακρίβεια, συζητήσαμε και αποδείξαμε πώς πέρα από τη συνήθη μορφή του αξιώματος της πληρότητας - `κάθε μη κενό και άνω φραγμένο υποσύνολο των πραγματικών αριθμών έχει ελάχιστο άνω φράγμα <https://aftermathsgr.wordpress.com/2020/10/28/%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80/>`__ - μπορούμε να βρούμε και μία διατύπωση κάπως πιο διαισθητική που να αξιοποιεί ακολουθίες πραγματικών αριθμών - `κάθε βασική ακολουθία πραγματικών αριθμών είναι συγκλίνουσα <https://aftermathsgr.wordpress.com/2021/01/31/%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7/>`__. Σε αυτό το μέρος της σειράς θα παρουσιάσουμε μία κατασκευή των πραγματικών, ξεκινώντας από τους ρητούς αλλά αυτή τη φορά αξιοποιώντας τη δεύτερη διατύπωση του αξιώματος της πληρότητας, μέσω ακολουθιών. Για την ακρίβεια, όπως και στο `πρώτο μέρος της σειράς <https://aftermathsgr.wordpress.com/2020/10/28/%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80/>`__, θα ξεκινήσουμε από το σύνολο των ρητών αριθμών και θα κατασκευάσουμε ένα νέο «επεκτεταμένο» σύνολο το οποίο θα ικανοποιεί όλα τα αξιώματα της διάταξης και των πράξεων που ικανοποιούν και οι ρητοί αριθμοί - θα είναι, με άλλα λόγια, ένα ολικά διατεταγμένο σώμα που θα περιέχει τους ρητούς - και, επιπρόσθετα, θα ικανοποιεί και το αξίωμα της πληρότητας. Σαφώς, μία τέτοια κατασκευή `έχουμε ήδη δει, μέσω τομών Dedekind <https://aftermathsgr.wordpress.com/2020/10/28/%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80/>`__. Αυτό που τώρα θα αναζητήσουμε θα είναι μία κατασκευή «συμβατή» με τη νέα διατύπωση του αξιώματος της πληρότητας, που χρησιμοποιεί την έννοια της βασικής ακολουθίας.
 
 Προπαρασκευή
@@ -257,7 +264,7 @@
 
 Μέχρι τότε, καλημέρα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Η Απία Οδός στο ηλιοβασίλεμα* του `Alexander Ivanov. <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__
+
 
 .. raw:: html
 

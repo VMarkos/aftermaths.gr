@@ -7,6 +7,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/09/1251px-camille_pissarro_le_verger_the_orchard_1872.jpg
 
+.. figure:: /wp-content/uploads/2021/09/1251px-camille_pissarro_le_verger_the_orchard_1872.jpg
+	:alt: Ο πίνακας *Ανθισμένος Μπαξές στη Louveciennes* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ανθισμένος Μπαξές στη Louveciennes* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+
+
 Αυτήν την εβδομάδα είδαμε κάποια αρκετά απλά και συμπαθητικά σχήματα, οπότε είναι ευκαιρία να μιλήσουμε για κάποιες λεπτομέρειες του ``tikz``. Αν θέλετε να κάνετε μία επανάληψη με τα σχήματα των προηγούμενων εβδομάδων, δείτε `εδώ <>`__ ή `εδώ <https://aftermaths.gr/%ce%ad%ce%bd%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1-%cf%84%ce%b7%ce%bd-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1/>`__.
 
 Απλό και λιτό...
@@ -188,7 +195,7 @@
 
 Αυτά ήταν τα σχήματα της προηγούμενης εβδομάδας, αρκετά απλά και λιτά. Ωστόσο από την ερχόμενη εβδομάδα θα δούμε και πιο fancy πράγματα - αρκετά - καθώς θα δούμε και τις πρώτες «σοβαρές» βιβλιοθήκες του ``tikz``. Μέχρι τότε όμως, έχουμε λίγο καιρό!
 
-Η κεντρική εικόνα είναι ο πίνακας *Ανθισμένος Μπαξές στη Louveciennes* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.*
+
 
 .. raw:: html
 

@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/gugg_dreaming_horse.jpg
 
+.. figure:: /wp-content/uploads/2020/11/gugg_dreaming_horse.jpg
+	:alt: Ο πίνακας *Άλογο που ονειρεύεται* του `Franz Marc <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Άλογο που ονειρεύεται* του `Franz Marc <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+
+
 Οι λύσεις του `τεστ <https://aftermathsgr.wordpress.com/2020/11/16/τεστάκι-της-ημέρας-xvii-γ-λυκείου/>`__ βρίσκονται `εδώ <https://drive.google.com/file/d/1POjowHvS4FYvm4nsUHmXzNPy1HNIYujo/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Άλογο που ονειρεύεται* του `Franz Marc <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

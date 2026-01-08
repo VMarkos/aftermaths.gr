@@ -7,6 +7,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/08/camille_pissarro_012.jpg
 
+.. figure:: /wp-content/uploads/2021/08/camille_pissarro_012.jpg
+	:alt: Ο πίνακας *Είσοδος στο χωριό Voisins* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Είσοδος στο χωριό Voisins* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+
+
 Θα έχετε παρατηρήσει ότι στο aftermaths πρόσφατα δημιουργήθηκε μία `νέα σελίδα <https://aftermathsgr.wordpress.com/%ce%ad%ce%bd%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1-%cf%84%ce%b7%ce%bd-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1/>`__, που αφορά αμιγώς το Tikz. Αν δεν το έχετε προσέξει, να βοηθήσουμε λίγο, είναι αυτή εδώ:
 
 .. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/screenshot-2021-08-16-at-16-02-53-ce88cebdceb1-cf83cf87ceaecebcceb1-cf84ceb7cebd-ceb7cebcceadcf81ceb1.jpg?w=1024
@@ -244,7 +251,7 @@
 
 Αυτά για αυτήν την εβδομάδα - ήταν λίγο κουτσή, ένεκα και Δεκαπενταύγουστου, είναι η αλήθεια. Τα λέμε την επόμενη Τρίτη - λογικά.
 
-Η κεντρική εικόνα είναι ο πίνακας *Είσοδος στο χωριό Voisins* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.*
+
 
 .. raw:: html
 

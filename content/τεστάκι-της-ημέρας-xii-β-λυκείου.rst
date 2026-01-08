@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/alexej_von_jawlensky_-_verwunderung.jpg
 
+.. figure:: /wp-content/uploads/2020/11/alexej_von_jawlensky_-_verwunderung.jpg
+	:alt: Ο πίνακας *Έκπληξη* του `Alexej von Jawlensky. <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__ 
+	:align: center
+
+	Ο πίνακας *Έκπληξη* του `Alexej von Jawlensky. <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__ 
+
+
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1A6ucKqKcpvebgEOCXKDQb_uYeS8J3H2Z/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Έκπληξη* του `Alexej von Jawlensky. <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__
+
 
 Καλημέρα και καλό διάβασμα!
 

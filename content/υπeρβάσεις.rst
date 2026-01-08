@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/04/pierre-auguste_renoir_-_by_the_water.jpg
 
+.. figure:: /wp-content/uploads/2021/04/pierre-auguste_renoir_-_by_the_water.jpg
+	:alt: Ο πίνακας *Δίπλα στη λίμνη* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Δίπλα στη λίμνη* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
 Είδαμε σε δύο προηγούμενες αναρτήσεις διάφορα ενδιαφέροντα πράγματα για τους άρρητους αριθμούς και ειδικότερα για τον  :math:`\pi.`  Για την ακρίβεια, είδαμε `εδώ <https://aftermathsgr.wordpress.com/2021/03/15/%cf%84%ce%bf-%ce%b7%ce%bc%ce%af%cf%84%ce%bf%ce%bd%ce%bf-%ce%bf%ce%b9-%ce%ac%cf%81%cf%81%ce%b7%cf%84%ce%bf%ce%b9-%ce%ba%ce%b1%ce%b9-%ce%bf%ce%b9-%cf%80%ce%b9%ce%bf-%ce%ac%cf%81%cf%81%ce%b7%cf%84/>`__ μία συνοπτική απόδειξη για το ότι ο  :math:`\pi`  είναι άρρητος ενώ `εδώ <https://aftermathsgr.wordpress.com/2021/03/22/%cf%80%cf%8c%cf%83%ce%bf-%ce%ac%cf%81%cf%81%ce%b7%cf%84%ce%bf%cf%82-%ce%b5%ce%af%cf%83%ce%b1%ce%b9/>`__ είδαμε πως κάποιοι αριθμοί είναι περισσότερο και κάποιοι άλλοι λιγότερο... άρρητοι. Στην παρούσα ανάρτηση θα συνεχίσουμε το ταξίδι μας στον κόσμο των αρρήτων, αποδεικνύοντας ότι ένας άλλος διάσημος αριθμός, ο αριθμός του Euler,  :math:`e,`  είναι άρρητος. Μάλιστα, θα δείξουμε ότι είναι "πολύ" άρρητος, αλλά με μία έννοια διαφορετική από αυτήν που συναντήσαμε `εδώ <https://aftermathsgr.wordpress.com/2021/03/22/%cf%80%cf%8c%cf%83%ce%bf-%ce%ac%cf%81%cf%81%ce%b7%cf%84%ce%bf%cf%82-%ce%b5%ce%af%cf%83%ce%b1%ce%b9/>`__.
 
 Ορισμός
@@ -359,7 +366,7 @@
 
 Μέχρι την επόμενη εβδομάδα, καλή συνέχεια!
 
-Η κεντρική εικόνα είναι ο πίνακας *Δίπλα στη λίμνη* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.*
+
 
 .. raw:: html
 

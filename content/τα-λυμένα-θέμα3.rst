@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2024/07/003_2425_002.png, wp-content/uploads/2024/07/003_2425_002-1.png, wp-content/uploads/2024/07/1219px-susana_y_los_viejos_guercino.jpg, wp-content/uploads/2024/07/003_2425_001.png
 
+.. figure:: /wp-content/uploads/2024/07/003_2425_002.png, wp-content/uploads/2024/07/003_2425_002-1.png, wp-content/uploads/2024/07/1219px-susana_y_los_viejos_guercino.jpg, wp-content/uploads/2024/07/003_2425_001.png
+	:alt: Ο πίνακας *Η Sussana και οι Πρεσβύτεροι* του `Guercino <https://en.wikipedia.org/wiki/Guercino>`__. 
+	:align: center
+
+	Ο πίνακας *Η Sussana και οι Πρεσβύτεροι* του `Guercino <https://en.wikipedia.org/wiki/Guercino>`__. 
+
+
 Ένα ακόμα θέμα από τα «Λυμένα», πάλι στις συναρτήσεις, αρκετά φιλικότερο προς τα διαγωνίσματα και τις εξετάσεις αυτή τη φορά - ειδικά σε σχέση με το `προηγούμενο θέμα <https://aftermaths.gr/2024/07/19/%cf%84%ce%b1-%ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%ce%b8%ce%ad%ce%bc%ce%b1-002/>`__.
 
 Όπως πάντα, όλα τα λυμένα θέματα μπορείτε να τα βρείτε `εδώ <https://aftermaths.gr/category/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/%cf%84%ce%b1-%ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1/>`__.
@@ -214,7 +221,7 @@
 
 Το θέμα μπορείτε να το βρείτε και `εδώ <https://drive.google.com/file/d/1IpuV1UnNUi8n6ltks2HJAQW0bji9BhoF/view?usp=sharing>`__ καθώς και στη σελίδα του `διδακτικού υλικού </διδακτικό-υλικό>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Η Sussana και οι Πρεσβύτεροι* του `Guercino <https://en.wikipedia.org/wiki/Guercino>`__.
+
 
 .. raw:: html
 

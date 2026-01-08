@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/alexej_von_jawlensky_selfportrait.jpeg
 
+.. figure:: /wp-content/uploads/2020/11/alexej_von_jawlensky_selfportrait.jpeg
+	:alt: Μία αυτοπροσωπογραφία του `Alexej von Jawlensky <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__\ *.* 
+	:align: center
+
+	Μία αυτοπροσωπογραφία του `Alexej von Jawlensky <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__\ *.* 
+
+
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1SGjH95w0qyPl4zK0a36JXT2RHpTi_eRs/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι μία αυτοπροσωπογραφία του `Alexej von Jawlensky <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

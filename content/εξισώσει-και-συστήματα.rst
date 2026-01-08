@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/12/pablo_picasso_1910_girl_with_a_mandolin_fanny_tellier_oil_on_canvas_100.3_x_73.6_cm_museum_of_modern_art_new_york..jpg
 
+.. figure:: /wp-content/uploads/2019/12/pablo_picasso_1910_girl_with_a_mandolin_fanny_tellier_oil_on_canvas_100.3_x_73.6_cm_museum_of_modern_art_new_york..jpg
+	:alt: Ο πίνακας *Γυναίκα με μαντολίνο* του `P <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ `ablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Γυναίκα με μαντολίνο* του `P <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ `ablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+
+
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1aTEwZbnwyvBTAfZhUlg4vdgUrAg3x8px/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Γυναίκα με μαντολίνο* του `P <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ `ablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.*
+
 
 Καλό βράδυ και καλό διάβασμα!
 

@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2018/09/picasso-girl-before-mirror-resized-600.png
 
+.. figure:: /wp-content/uploads/2018/09/picasso-girl-before-mirror-resized-600.png
+	:alt: 
+	:align: center
+
+	
+
+
 .. container::
 
    "Φύσει μέν ἐστιν ἄνθρωπος ζῷον πολιτικόν", έλεγε ο Αριστοτέλης. Παραφράζοντάς τον λίγο, μπορεί κανείς να πει ότι "Φύσει μέν ἐστιν ἄνθρωπος ζῷον συμμετρικόν". Διότι, η συμμετρία διέπει όλη την ύπαρξη του ανθρώπου, από την φυσιολογία του ακόμα-ακόμα, μέχρι την συμπεριφορά του και από τις σκέψεις του μέχρι την υλοποίησή τους.

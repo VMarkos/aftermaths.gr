@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2024/05/pir_venn_001.png, wp-content/uploads/2024/05/velazquez_-_de_breda_o_las_lanzas_museo_del_prado_1634-35.jpg, wp-content/uploads/2024/07/plot_003.png, wp-content/uploads/2024/07/plot_003-1.png, wp-content/uploads/2024/05/pir_venn_002.png, wp-content/uploads/2024/07/plot_001.png, wp-content/uploads/2024/05/horner_003.png, wp-content/uploads/2024/05/horner_004.png, wp-content/uploads/2024/07/plot_002.png, wp-content/uploads/2024/05/horner_002.png, wp-content/uploads/2024/05/horner_001.png, wp-content/uploads/2024/07/horner_005.png
 
+.. figure:: /wp-content/uploads/2024/05/pir_venn_001.png, wp-content/uploads/2024/05/velazquez_-_de_breda_o_las_lanzas_museo_del_prado_1634-35.jpg, wp-content/uploads/2024/07/plot_003.png, wp-content/uploads/2024/07/plot_003-1.png, wp-content/uploads/2024/05/pir_venn_002.png, wp-content/uploads/2024/07/plot_001.png, wp-content/uploads/2024/05/horner_003.png, wp-content/uploads/2024/05/horner_004.png, wp-content/uploads/2024/07/plot_002.png, wp-content/uploads/2024/05/horner_002.png, wp-content/uploads/2024/05/horner_001.png, wp-content/uploads/2024/07/horner_005.png
+	:alt: Ο πίνακας *Η άλωση της Μπρέντα* του `Diego Velázquez <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__. 
+	:align: center
+
+	Ο πίνακας *Η άλωση της Μπρέντα* του `Diego Velázquez <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__. 
+
+
 Πολλές φορές έχω μία καλή-κακή (ή κακή-καλή, όπως το κρίνει κανείς) συνήθεια: να κάνω μάθημα χωρίς ιδιαίτερες σημειώσεις. Όχι ότι μπαίνουμε στην τάξη και λέμε «γεια σας, σήμερα δεν ξέρω τι θα πούμε», αλλά, αν είμαστε σε ένα σημείο που βγάζει νόημα, το μάθημα γίνεται λίγο οδηγούμενο από τις ανάγκες μας: να δούμε μία παραπάνω άσκηση εκεί, να συζητήσουμε κάτι που μας απασχόλησε στο μαθηματικό σύμπαν πρόσφατα, να μιλήσουμε για το πώς τα μαθηματικά είναι / δεν είναι χρήσιμα στη ζωή μας κ.λπ. κ.λπ. Ε, κάποιες φορές, με αφορμή τέτοιες καταστάσεις, προκύπτουν ενδιαφέροντα μαθηματικά σκηνικά μέσα στην τάξη - άλλες, πάλι, όχι. Ένα από αυτά θα συζητήσουμε σήμερα κι εδώ.
 
 Ένα Στιγμιαίο Λάθος
@@ -414,7 +421,7 @@
 
 Μέχρι τότε, καλημέρα και καλό διάβασμα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Η άλωση της Μπρέντα* του `Diego Velázquez <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__.
+
 
 .. raw:: html
 

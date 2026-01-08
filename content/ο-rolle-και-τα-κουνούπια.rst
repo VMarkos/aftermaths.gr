@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2022/01/jenny_montigny.kleuterschool_te_deurle.jpg
 
+.. figure:: /wp-content/uploads/2022/01/jenny_montigny.kleuterschool_te_deurle.jpg
+	:alt: Ο πίνακας *Νηπιαγωγείο στην Deurle* της `Jenny Montigny <https://en.wikipedia.org/wiki/Jenny_Montigny>`__. 
+	:align: center
+
+	Ο πίνακας *Νηπιαγωγείο στην Deurle* της `Jenny Montigny <https://en.wikipedia.org/wiki/Jenny_Montigny>`__. 
+
+
 Τις προάλλες στην τάξη είδαμε μία τυπική άσκηση που χρησιμοποιούσε το θεώρημα του Rolle. Για την ακρίβεια, ας την παρουσιάσουμε πρώτα «στα γρήγορα» πριν τη συζητήσουμε αναλυτικά:
 
 Αν γνωρίζετε ότι  :math:`a+b+c=0 `  να αποδείξετε ότι υπάρχει τουλάχιστον ένα  :math:`\xi\in(0,1)`  έτσι ώστε  :math:`a+2b\xi+3c\xi^2=0.` 
@@ -180,7 +187,7 @@
 
 Μέχρι τότε, καλό διάβασμα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Νηπιαγωγείο στην Deurle* της `Jenny Montigny <https://en.wikipedia.org/wiki/Jenny_Montigny>`__.
+
 
 .. raw:: html
 

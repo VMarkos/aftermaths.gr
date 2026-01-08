@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/1024px-franz_marc-the_fate_of_the_animals-1913.jpg
 
+.. figure:: /wp-content/uploads/2020/11/1024px-franz_marc-the_fate_of_the_animals-1913.jpg
+	:alt: Ο πίνακας *Η μοίρα των ζώων* του `Franz Marc <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Η μοίρα των ζώων* του `Franz Marc <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+
+
 Το τεστ βρίσκεται `εδώ <https://drive.google.com/file/d/1KWqajkXBpGSG3pu7BPIMTo3ojJTcCBV4/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Η μοίρα των ζώων* του `Franz Marc <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

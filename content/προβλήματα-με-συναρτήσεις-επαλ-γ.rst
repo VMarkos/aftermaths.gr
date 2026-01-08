@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/11/ice-floes-misty-morninglarge.jpg
 
+.. figure:: /wp-content/uploads/2018/11/ice-floes-misty-morninglarge.jpg
+	:alt: Ο πίνακας *Πάγοι, Ομιχλώδες πρωινό* του `Claude Monet <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Πάγοι, Ομιχλώδες πρωινό* του `Claude Monet <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.* 
+
+
 Σε αυτό το φυλλάδιο περιέχονται λίγα προβλήματα που εμπλέκουν συναρτήσεις στα πλαίσια της ύλης της Γ' ΕΠΑΛ.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1K1cCQyZSwklQJ5qWZdv4MPGIshao_yK2/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Πάγοι, Ομιχλώδες πρωινό* του `Claude Monet <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.*
+
 
 Καλό βράδυ και καλό διάβασμα!
 

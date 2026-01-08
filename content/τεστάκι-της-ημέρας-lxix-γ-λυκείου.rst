@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/03/bazille_-_pecheur_a_lepervier.jpg
 
+.. figure:: /wp-content/uploads/2021/03/bazille_-_pecheur_a_lepervier.jpg
+	:alt: Ο πίνακας *Ψαράς με δίχτυ* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
+	:align: center
+
+	Ο πίνακας *Ψαράς με δίχτυ* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
+
+
 Ένα τεστάκι σε απλά πράγματα σχετικά με ακρότατα, μονοτονία και κρίσιμα σημεία -Γ' Λυκείου, προετοιμασία για πανελλήνιες.
 
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1KcxWE7b4T_MDXSXeTw0tr6hsW2Y39h0b/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ψαράς με δίχτυ* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

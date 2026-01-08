@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/12/patrick_henry_bruce_-_landscape_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2020/12/patrick_henry_bruce_-_landscape_-_google_art_project.jpg
+	:alt: Ο πίνακας *Τοπίο* του `Patrick Henry Bruce <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__. 
+	:align: center
+
+	Ο πίνακας *Τοπίο* του `Patrick Henry Bruce <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__. 
+
+
 Το τεστ βρίσκεται `εδώ <https://drive.google.com/file/d/17vxSi2eu8RQM0AJYJLHPgUzNxta_cVrC/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Τοπίο* του `Patrick Henry Bruce <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__.
+
 
 Καλό μεσημέρι και καλό διάβασμα!
 

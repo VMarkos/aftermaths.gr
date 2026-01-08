@@ -8,13 +8,20 @@
 :status: published
 :attachments: wp-content/uploads/2022/02/tonnelle_de_rosiers_anna_de_weert.jpg
 
+.. figure:: /wp-content/uploads/2022/02/tonnelle_de_rosiers_anna_de_weert.jpg
+	:alt: Ο πίνακας *Αψίδα με τριαντάφυλλα* της `Anna de Weert <https://en.wikipedia.org/wiki/Anna_De_Weert>`__. 
+	:align: center
+
+	Ο πίνακας *Αψίδα με τριαντάφυλλα* της `Anna de Weert <https://en.wikipedia.org/wiki/Anna_De_Weert>`__. 
+
+
 Λίγες ασκησούλες στις παραμετρικές πρωτοβάθμιες και δευτεροβάθμιες εξισώσεις - Άλγεβρα Α' Λυκείου και ΕΠΑΛ.
 
 Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1Gd8LdHNcMmOkwNEcd4G1AupeZZrCkXk2/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
 *Σχετικές διαφάνειες μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/01/31/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-19%ce%bf/>`__\ *και στα προηγούμενα μαθήματα.*
 
-Η κεντρική εικόνα είναι ο πίνακας *Αψίδα με τριαντάφυλλα* της `Anna de Weert <https://en.wikipedia.org/wiki/Anna_De_Weert>`__.
+
 
 Καλό βράδυ και καλό διάβασμα!
 

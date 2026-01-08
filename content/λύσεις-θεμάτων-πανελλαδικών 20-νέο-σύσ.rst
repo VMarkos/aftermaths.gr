@@ -8,13 +8,20 @@
 :status: published
 :attachments: wp-content/uploads/2020/06/wilhelm_bendz_-_mountain_landscape._-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2020/06/wilhelm_bendz_-_mountain_landscape._-_google_art_project.jpg
+	:alt: Ο πίνακας *Ορεινό τοπίο* του `Wilhelm Bendz <https://en.wikipedia.org/wiki/Wilhelm_Bendz>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ορεινό τοπίο* του `Wilhelm Bendz <https://en.wikipedia.org/wiki/Wilhelm_Bendz>`__\ *.* 
+
+
 Τα μαθηματικά προσανατολισμού εξετάστηκαν και για φέτος, τα θέματα τα είδαμε, τα συζητήσαμε και τα σχολιάσαμε. Τα θέματα μπορείτε να τα βρείτε `εδώ <https://www.oefe.gr/panellinies/2020/them_math_NEO_200617.pdf>`__ ενώ οι λύσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1IrYqtK0TYq7Jg1ow_Gxxsw3fXZbF_p3Q/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 Καλά αποτελέσματα και καλή συνέχεια στις εξετάσεις σας!
 
 Έπονται και οι λύσεις των θεμάτων του παλαιού συστήματος.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ορεινό τοπίο* του `Wilhelm Bendz <https://en.wikipedia.org/wiki/Wilhelm_Bendz>`__\ *.*
+
 
 .. raw:: html
 

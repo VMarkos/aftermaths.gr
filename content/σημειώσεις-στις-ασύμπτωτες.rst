@@ -8,13 +8,20 @@
 :status: published
 :attachments: wp-content/uploads/2018/10/vassily_kandinsky_1906_-_rotterdam_sun.jpg
 
+.. figure:: /wp-content/uploads/2018/10/vassily_kandinsky_1906_-_rotterdam_sun.jpg
+	:alt: Ο πίνακας *Ο ήλιος του Ρόττερνταμ* του `Wassily Kandinsky. <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__ 
+	:align: center
+
+	Ο πίνακας *Ο ήλιος του Ρόττερνταμ* του `Wassily Kandinsky. <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__ 
+
+
 Σε αυτό το φυλλάδιο περιέχονται συμπληρωματικές σημειώσεις στο κεφάλαιο των ορίων για τις ασύμπτωτες γραφικής παράστασης μιας συνάρτησης.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1Xa-D9RPirfW4GHy37DZ5er_CSNiRBtrN/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 Οι σημειώσεις των ορίων βρίσκονται `εδώ <https://aftermathsgr.wordpress.com/2018/09/12/%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b1%ce%b8%ce%b7%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%cf%8e%ce%bd-%ce%ba%ce%b5%cf%86%ce%ac%ce%bb%ce%b1%ce%b9%ce%bf-%ce%b4%ce%b5%cf%8d/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο ήλιος του Ρόττερνταμ* του `Wassily Kandinsky. <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__
+
 
 Καλό διάβασμα και καλό βράδυ!
 

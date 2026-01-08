@@ -6,6 +6,13 @@
 :status: published
 :attachments: wp-content/uploads/2018/09/1280px-joseph_mallord_william_turner_british_-_modern_rome-campo_vaccino_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2018/09/1280px-joseph_mallord_william_turner_british_-_modern_rome-campo_vaccino_-_google_art_project.jpg
+	:alt: 
+	:align: center
+
+	
+
+
 `Αρχική <http://aftermathsgr.wordpress.com>`__ > `Διδακτικό Υλικό <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__ > `2018-2019 <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/2018-2019/>`__ > **Λύκειο**
 
 Παρατίθεται διδακτικό υλικό (σημειώσεις, ασκήσεις, διαγωνίσματα, ενίοτε και λύσεις) οργανωμένο ανά μάθημα:

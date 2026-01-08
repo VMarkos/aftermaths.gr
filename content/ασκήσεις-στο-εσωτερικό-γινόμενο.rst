@@ -8,13 +8,20 @@
 :status: published
 :attachments: wp-content/uploads/2022/11/gustave_caillebotte_boulevard_des_italiens.jpg
 
+.. figure:: /wp-content/uploads/2022/11/gustave_caillebotte_boulevard_des_italiens.jpg
+	:alt: Ο πίνακας *Η λεωφόρος των Ιταλών* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+	:align: center
+
+	Ο πίνακας *Η λεωφόρος των Ιταλών* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+
+
 Λίγες ασκήσεις και αρκετά προβλήματα στο Εσωτερικό Γινόμενο διανυσμάτων - Μαθηματικά Προσανατολισμού, Β' Γενικού Λυκείου.
 
 Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1QBO9gEt7_5PT9e2QSt75EJ1hitlpm36c/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
 
 *Εισαγωγικές ασκήσεις στα διανύσματα μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/10/21/%ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b1-%ce%b4%ce%b9%ce%b1%ce%bd%cf%8d%cf%83%ce%bc%ce%b1%cf%84%ce%b1/>`__\ *.*
 
-Η κεντρική εικόνα είναι ο πίνακας *Η λεωφόρος των Ιταλών* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

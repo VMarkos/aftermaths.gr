@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2022/03/1280px-gustaf_wappers_1803-74_-_22souvenir_danvers22_-_rcin_406303_-_royal_collection.jpg
 
+.. figure:: /wp-content/uploads/2022/03/1280px-gustaf_wappers_1803-74_-_22souvenir_danvers22_-_rcin_406303_-_royal_collection.jpg
+	:alt: Ο πίνακας *Σουβενίρ από την Αμβέρσα* του `Gustaaf Wappers <https://en.wikipedia.org/wiki/Gustaaf_Wappers>`__. 
+	:align: center
+
+	Ο πίνακας *Σουβενίρ από την Αμβέρσα* του `Gustaaf Wappers <https://en.wikipedia.org/wiki/Gustaaf_Wappers>`__. 
+
+
 Λίγες ασκησούλες για να φρεσκάρουμε τα όσα έχουμε δει φέτος - Άλγεβρα, Α' Γενικού Λυκείου και ΕΠΑΛ.
 
 Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1_CwDp8ZeVUtZ_tMrvtBa5vl51umJMszA/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
@@ -28,7 +35,7 @@
 
    </figure>
 
-Η κεντρική εικόνα είναι ο πίνακας *Σουβενίρ από την Αμβέρσα* του `Gustaaf Wappers <https://en.wikipedia.org/wiki/Gustaaf_Wappers>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

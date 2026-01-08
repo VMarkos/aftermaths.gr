@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/12/wmchasegravesendbay.jpg
 
+.. figure:: /wp-content/uploads/2020/12/wmchasegravesendbay.jpg
+	:alt: Ο πίνακας *Απόγευμα στη θάλασσα* του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Απόγευμα στη θάλασσα* του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+
+
 Οι λύσεις του `προηγούμενου τεστ <https://aftermathsgr.wordpress.com/2020/12/21/τεστάκι-της-ημέρας-xlii-γ-λυκείου/>`__ βρίσκονται `εδώ <https://drive.google.com/file/d/1kQSOW1_iP4kPJz48EUFmESXtkpMXWzmb/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Απόγευμα στη θάλασσα* του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/robert_delaunay_c.1906_paysage_au_disque_solaire_oil_on_canvas_54_x_46_cm_musee_national_dart_moderne.jpg
 
+.. figure:: /wp-content/uploads/2020/11/robert_delaunay_c.1906_paysage_au_disque_solaire_oil_on_canvas_54_x_46_cm_musee_national_dart_moderne.jpg
+	:alt: Ο πίνακας *Τοπίο με τον ηλιακό δίσκο* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Τοπίο με τον ηλιακό δίσκο* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+
+
 Οι λύσεις του `προηγούμενου τεστ <https://aftermathsgr.wordpress.com/2020/11/23/xxiv/>`__ βρίσκονται `εδώ <https://drive.google.com/file/d/1xbgh8yX7UjOnuG4SgG_4Xx894EjqrrFw/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Τοπίο με τον ηλιακό δίσκο* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

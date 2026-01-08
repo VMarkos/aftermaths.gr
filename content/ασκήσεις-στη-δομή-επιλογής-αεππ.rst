@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/09/blaue_reiter.jpg
 
+.. figure:: /wp-content/uploads/2018/09/blaue_reiter.jpg
+	:alt: Ο πίνακας `Ο Γαλάζιος Καβαλάρης <https://en.wikipedia.org/wiki/Der_Blaue_Reiter>`__ του `Wassily Kandinsky. <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__ 
+	:align: center
+
+	Ο πίνακας `Ο Γαλάζιος Καβαλάρης <https://en.wikipedia.org/wiki/Der_Blaue_Reiter>`__ του `Wassily Kandinsky. <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__ 
+
+
 Σε αυτό το φυλλάδιο περιέχονται απλές ασκήσεις πάνω στη δομή επιλογής καθώς και τρία (3) προβλήματα στο τέλος που έχουν μία μεγαλύτερη - όχι όμως ιδιαίτερη - δυσκολία.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1SaHb1R4RDOb2qbXIeHCGKmMZ4nSF-_Up/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας `Ο Γαλάζιος Καβαλάρης <https://en.wikipedia.org/wiki/Der_Blaue_Reiter>`__ του `Wassily Kandinsky. <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__
+
 
 Καλό βράδυ και καλό διάβασμα!
 

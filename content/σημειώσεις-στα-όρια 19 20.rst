@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2019/08/henri_matisse_1916-17_le_peintre_dans_son_atelier_the_painter_and_his_model_oil_on_canvas_146.5_x_97_cm_musc3a9e_national_dart_moderne_centre_georges_pompidou_paris.jpg
 
+.. figure:: /wp-content/uploads/2019/08/henri_matisse_1916-17_le_peintre_dans_son_atelier_the_painter_and_his_model_oil_on_canvas_146.5_x_97_cm_musc3a9e_national_dart_moderne_centre_georges_pompidou_paris.jpg
+	:alt: Ο πίνακας *Ο ζωγράφος και το μοντέλο του* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ο ζωγράφος και το μοντέλο του* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+
+
 Ανανεωμένες, φρέσκες, με λιγότερα (μάλλον) λάθη, είναι εδώ για όσες και όσους έχουν όρεξη ή, τουλάχιστον, πρέπει να διαβάσουν. Συμπληρωματικά στην παραδοσιακή ασπρόμαυρη έκδοση (η οποία είναι διαθέσιμη κυρίως για όσες/ους εκτυπώνουν το υλικό), έχει αναρτηθεί και μία `μερικώς έγχρωμη έκδοση των σημειώσεων <https://aftermathsgr.wordpress.com/2019/08/31/%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b1-%cf%8c%cf%81%ce%b9%ce%b1-2019-2020-%ce%ad%ce%b3%cf%87%cf%81%cf%89%ce%bc%ce%b5%cf%82/>`__.
 
 Τις σημειώσεις μπορείτε να βρείτε `εδώ <https://drive.google.com/file/d/1xDmuE_DSDEvCauTTjtUOF7UG441ifNl6/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο ζωγράφος και το μοντέλο του* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.*
+
 
 Καλό βράδυ και καλό διάβασμα!
 

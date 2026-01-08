@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2021/01/borodin_by_repin.jpg
 
+.. figure:: /wp-content/uploads/2021/01/borodin_by_repin.jpg
+	:alt: Το πορτραίτο του χημικού και συνθέτη Alexander Borodin του *Ilya Repn* 
+	:align: center
+
+	Το πορτραίτο του χημικού και συνθέτη Alexander Borodin του *Ilya Repn* 
+
+
 Τις λύσεις του `προηγούμενου τεστ στις ρίζες <https://aftermathsgr.wordpress.com/2021/01/15/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xlviii-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85/>`__ - άλγεβρα, Α' Λυκείου/ΕΠΑΛ - μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1XZdAJ6HEAdQ-S7Xx_ivslAhiP9sqjuxj/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι το πορτραίτο του χημικού και συνθέτη Alexander Borodin του *Ilya Repn*
+
 
 Καλημέρα και καλό διάβασμα!
 

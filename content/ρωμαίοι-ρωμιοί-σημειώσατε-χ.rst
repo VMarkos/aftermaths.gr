@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2018/09/bruning_of_rome.jpg
 
+.. figure:: /wp-content/uploads/2018/09/bruning_of_rome.jpg
+	:alt: 
+	:align: center
+
+	
+
+
 .. container::
 
       "Σας εξουθένωσε η σπιτική ζωή, η καλοπέραση σας έκανε μαλθακούς και σας είναι αρκετή μόνο η σκιά του μεγάλου ονόματος (magni nominis umbra contenti solummodo). Μπροστά σας, ακόμη και οι αντάρτες Μιλανέζοι, παρά την προδοσία τους, είναι πιο ζωντανοί και έτοιμοι να δώσουν μάχες."

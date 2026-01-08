@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/12/2017_NYR_15004_0028A_000vincent_van_gogh_laboureur_dans_un_champ.jpg
 
+.. figure:: /wp-content/uploads/2018/12/2017_NYR_15004_0028A_000vincent_van_gogh_laboureur_dans_un_champ.jpg
+	:alt: Ο πίνακας *Αγρότης σε ένα χωράφι* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Αγρότης σε ένα χωράφι* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+
+
 Μία πολύ συνοπτική παρουσίαση της θεωρίας και των ασκήσεων των τριών πρώτων κεφαλαίων (Συστήματα, Συναρτήσεις, Τριγωνομετρία) για να περάσουμε όμορφα τις διακοπές μας.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1AMqAJMLpUYh_sGVKQ6JUfMzheWNAN20a/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Αγρότης σε ένα χωράφι* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.*
+
 
 Καλά Χριστούγεννα και καλό διάβασμα!
 

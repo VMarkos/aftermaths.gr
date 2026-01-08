@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/09/noir.jpg
 
+.. figure:: /wp-content/uploads/2018/09/noir.jpg
+	:alt: Ο πίνακας *Chateaux Noir* του `Paul Cezanne <https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Chateaux Noir* του `Paul Cezanne <https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne>`__\ *.* 
+
+
 Σε αυτό το φυλλάδιο περιέχονται ασκήσεις που εστιάζουν στον αλγεβρικό χειρισμό αλλά και την εποπτική ερμηνεία των πράξεων μεταξύ διανυσμάτων (Β' Λυκείου, κατεύθυνση) σε απλά αλλά και πιο σύνθετα προβλήματα.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/18IrSsS8azN-EqD0oTHn6mx8MiY8aYkzL/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Chateaux Noir* του `Paul Cezanne <https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/10/1024px-paul_klee_my_room_1896.jpg
 
+.. figure:: /wp-content/uploads/2020/10/1024px-paul_klee_my_room_1896.jpg
+	:alt: Ο πίνακας *Το δωμάτιό μου* του `Paul Klee <https://en.wikipedia.org/wiki/Paul_Klee>`__. 
+	:align: center
+
+	Ο πίνακας *Το δωμάτιό μου* του `Paul Klee <https://en.wikipedia.org/wiki/Paul_Klee>`__. 
+
+
 Τις λύσεις του προηγούμενου `επαναληπτικού διαγωνίσματος της Α' λυκείου <https://aftermathsgr.wordpress.com/2020/10/23/%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85/>`__ μπορείτε να βρείτε `εδώ <https://drive.google.com/file/d/1z6bCz1aIY3B4RuN73h9u1Jy5JbaLKMX3/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Το δωμάτιό μου* του `Paul Klee <https://en.wikipedia.org/wiki/Paul_Klee>`__.
+
 
 Καλό βράδυ και καλό διάβασμα!
 

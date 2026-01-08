@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/949px-robert_delaunay_-_autoportrait.jpg
 
+.. figure:: /wp-content/uploads/2020/11/949px-robert_delaunay_-_autoportrait.jpg
+	:alt: Μία αυτοπροσωπογραφία του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	:align: center
+
+	Μία αυτοπροσωπογραφία του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+
+
 Τις διαφάνειες για τη στατιστική μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/10LnbeY_h-mKySMYBrymPMA0wP5sqDfvi/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι μία αυτοπροσωπογραφία του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

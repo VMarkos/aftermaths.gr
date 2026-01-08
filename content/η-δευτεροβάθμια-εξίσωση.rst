@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2020/02/p.s._krc3b8yer_-_summer_evening_on_skagens_beach._anna_ancher_and_marie_krc3b8yer_walking_together._-_google_art_project-1.jpg
 
+.. figure:: /wp-content/uploads/2020/02/p.s._krc3b8yer_-_summer_evening_on_skagens_beach._anna_ancher_and_marie_krc3b8yer_walking_together._-_google_art_project-1.jpg
+	:alt: Ο πίνακας *Καλοκαιρινό απόγευμα στην νότια παραλία του Skagen* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+	:align: center
+
+	Ο πίνακας *Καλοκαιρινό απόγευμα στην νότια παραλία του Skagen* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+
+
 Όλοι μας θυμόμαστε τον πρώτο «δύσκολο» τύπο - σε ό,τι έχει να κάνει με την απομνημόνευσή του - που συναντήσαμε στο σχολείο· αυτόν των ριζών ενός τριωνύμου. Για να ακριβολογούμε, αν  :math:`ax^2+bx+c=0`  είναι μία δευτεροβάθμια εξίσωση, με  :math:`a\neq0` , τότε οι ρίζες της, αν υπάρχουν, δίνονται από τον τύπο:
 
 .. math:: \dfrac{-b\pm\sqrt{\Delta}}{2a},
@@ -233,7 +240,7 @@ $\rho_1+\rho_2=\frac{5}{2}+u+\frac{5}{2}-u=\frac{5}{2}+\frac{5}{2}=5.$
 
 Καλό βράδυ!
 
-Η κεντρική εικόνα είναι ο πίνακας *Καλοκαιρινό απόγευμα στην νότια παραλία του Skagen* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__.
+
 
 Και λίγη μουσικούλα από την πατρίδα του `Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__:
 

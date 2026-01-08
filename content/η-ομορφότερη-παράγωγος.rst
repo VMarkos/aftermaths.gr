@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2023/04/convergence_02.png, wp-content/uploads/2023/04/convergence_03.png, wp-content/uploads/2023/03/cantor_density_proof.png, wp-content/uploads/2023/03/fat_cantor_def_01.png, wp-content/uploads/2023/04/func_derivative_01.png, wp-content/uploads/2023/03/cantor_density_proof_03.png, wp-content/uploads/2023/03/cantor_density_proof_02.png, wp-content/uploads/2023/03/cantor_density_proof_04.png, wp-content/uploads/2023/04/convergence_04.png, wp-content/uploads/2023/04/convergence_05.png, wp-content/uploads/2023/04/convergence_01.png, wp-content/uploads/2023/03/diego_velazquez_-_an_old_woman_cooking_eggs_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2023/04/convergence_02.png, wp-content/uploads/2023/04/convergence_03.png, wp-content/uploads/2023/03/cantor_density_proof.png, wp-content/uploads/2023/03/fat_cantor_def_01.png, wp-content/uploads/2023/04/func_derivative_01.png, wp-content/uploads/2023/03/cantor_density_proof_03.png, wp-content/uploads/2023/03/cantor_density_proof_02.png, wp-content/uploads/2023/03/cantor_density_proof_04.png, wp-content/uploads/2023/04/convergence_04.png, wp-content/uploads/2023/04/convergence_05.png, wp-content/uploads/2023/04/convergence_01.png, wp-content/uploads/2023/03/diego_velazquez_-_an_old_woman_cooking_eggs_-_google_art_project.jpg
+	:alt: Ο πίνακας *Ηλικιωμένη γυναίκα τηγανίζει αυγά* του `Diego Velázquez <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__. 
+	:align: center
+
+	Ο πίνακας *Ηλικιωμένη γυναίκα τηγανίζει αυγά* του `Diego Velázquez <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__. 
+
+
 Κουραστήκαμε την `προηγούμενη εβδομάδα <https://aftermaths.gr/2023/03/27/%cf%80%cf%8c%cf%83%ce%bf-%cf%83%cf%85%ce%bd%ce%b5%cf%87%ce%ae%cf%82-%ce%b5%ce%af%ce%bd%ce%b1%ce%b9-%ce%bc%ce%b9%ce%b1-%cf%80%ce%b1%cf%81%ce%ac%ce%b3%cf%89%ce%b3%ce%bf%cf%82/>`__, αλλά άξιζε τον κόπο - εντάξει, τώρα η αξία και ο κόπος είναι έννοιες υποκειμενικές, αλλά, για να είστε εδώ, άξιζε τον κόπο. Συνοψίζοντας, ανασύραμε από το `παρελθόν <https://aftermaths.gr/2020/03/05/%ce%bf%ce%bb%ce%bf-clear-%cf%8e%ce%bc%ce%b1%cf%84%ce%b1-%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-vs-%ce%b1%ce%bd%cf%84%ce%b9%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%b9%cf%83/>`__ ένα σημαντικό και ζουμερό ερώτημα. Πιο συγκεκριμένα, αναρωτηθήκαμε αν υπάρχει συνάρτηση που να ικανοποιεί όλα τα παρακάτω:
 
 -  Να είναι παραγωγίσιμη σε κάποιο διάστημα.
@@ -461,7 +468,7 @@
 
 Μέχρι τότε, καλό απόγευμα και καλό διάβασμα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Ηλικιωμένη γυναίκα τηγανίζει αυγά* του `Diego Velázquez <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

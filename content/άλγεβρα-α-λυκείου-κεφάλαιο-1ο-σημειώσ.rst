@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2022/10/gustave_caillebotte_-_the_floor_planers_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2022/10/gustave_caillebotte_-_the_floor_planers_-_google_art_project.jpg
+	:alt: Ο πίνακας *Οι τρίφτες του παρκέ* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Οι τρίφτες του παρκέ* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__\ *.* 
+
+
 Λίγες πρόχειρες Σημειώσεις Θεωρίας στο πρώτο κεφάλαιο της Άλγεβρας της Α' Γενικού Λυκείου και ΕΠΑΛ. Οι εν λόγω σημειώσεις καλύπτουν τα ακόλουθα:
 
 -  Λογική,
@@ -18,7 +25,7 @@
 
 *Ένα μικρό τεστάκι πάνω στα σύνολα και τις βασικές έννοιες που σχετίζονται με αυτά μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/10/07/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-002-%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1/>`__\ *.*
 
-Η κεντρική εικόνα είναι ο πίνακας *Οι τρίφτες του παρκέ* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__\ *.*
+
 
 Καλό μεσημέρι και καλό διάβασμα!
 

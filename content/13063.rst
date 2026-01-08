@@ -8,9 +8,16 @@
 :status: draft
 :attachments: wp-content/uploads/2024/05/la_rendicion_de_juliers.jpg
 
+.. figure:: /wp-content/uploads/2024/05/la_rendicion_de_juliers.jpg
+	:alt: Ο πίνακας *Η παράδοση της Juliers* του `Jusepe Leonardo <https://es.wikipedia.org/wiki/Jusepe_Leonardo>`__. 
+	:align: center
+
+	Ο πίνακας *Η παράδοση της Juliers* του `Jusepe Leonardo <https://es.wikipedia.org/wiki/Jusepe_Leonardo>`__. 
+
+
 Δώσε λίγη διαίσθηση όπως στην τάξη με τα σχήματα για τους ρητούς εκθέτες (δες τις φωτογραφίες σου).
 
-Η κεντρική εικόνα είναι ο πίνακας *Η παράδοση της Juliers* του `Jusepe Leonardo <https://es.wikipedia.org/wiki/Jusepe_Leonardo>`__.
+
 
 .. raw:: html
 

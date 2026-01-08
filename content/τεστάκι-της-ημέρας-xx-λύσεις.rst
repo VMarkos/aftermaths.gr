@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/robert_delaunay_lhomme_a_la_tulipe_portrait_de_jean_metzinger_1906.jpg
 
+.. figure:: /wp-content/uploads/2020/11/robert_delaunay_lhomme_a_la_tulipe_portrait_de_jean_metzinger_1906.jpg
+	:alt: Ο πίνακας *Ο άνδρας με την τουλίπα (Πορτραίτο του M. Jean Metzinger)* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ο άνδρας με την τουλίπα (Πορτραίτο του M. Jean Metzinger)* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+
+
 Οι λύσεις του `προηγούμενου τεστ <https://aftermathsgr.wordpress.com/2020/11/19/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xx-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85/>`__ βρίσκονται `εδώ <https://drive.google.com/file/d/1QdSQLreWmctyz4fZ8BAgddfTV0WyRsgY/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο άνδρας με την τουλίπα (Πορτραίτο του M. Jean Metzinger)* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

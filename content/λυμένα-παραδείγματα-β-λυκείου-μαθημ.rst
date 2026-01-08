@@ -8,13 +8,20 @@
 :status: published
 :attachments: wp-content/uploads/2022/04/781px-eugene_ferdinand_victor_delacroix_041.jpg
 
+.. figure:: /wp-content/uploads/2022/04/781px-eugene_ferdinand_victor_delacroix_041.jpg
+	:alt: Το πορτραίτο της `George Sand <https://en.wikipedia.org/wiki/Portrait_of_Fr%C3%A9d%C3%A9ric_Chopin_and_George_Sand>`__ (ψευδώνυμο) του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\ *.* 
+	:align: center
+
+	Το πορτραίτο της `George Sand <https://en.wikipedia.org/wiki/Portrait_of_Fr%C3%A9d%C3%A9ric_Chopin_and_George_Sand>`__ (ψευδώνυμο) του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\ *.* 
+
+
 Λίγα λυμένα παραδείγματα εφ' όλης της ύλης των Μαθηματικών Προσανατολισμού της Β' Λυκείου.
 
 Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/11dCxDoO5wdBXzGMeLyL1qyJV-fX5KoUE/view?usp=sharing>`__ και στη σελίδα `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
 *Υλικό για την Άλγεβρα της Β' Λυκείου μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/tag/%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85/>`__\ *καθώς κι*\ `εδώ <https://aftermaths.gr/2022/04/16/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-29%ce%bf/>`__\ *.*
 
-Η κεντρική εικόνα είναι το πορτραίτο της `George Sand <https://en.wikipedia.org/wiki/Portrait_of_Fr%C3%A9d%C3%A9ric_Chopin_and_George_Sand>`__ (ψευδώνυμο) του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\ *.*
+
 
 Καλό μεσημέρι και καλό διάβασμα!
 

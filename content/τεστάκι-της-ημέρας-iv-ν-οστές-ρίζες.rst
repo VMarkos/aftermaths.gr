@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/11/madame_recamier_by_jacques-louis_david.jpg
 
+.. figure:: /wp-content/uploads/2021/11/madame_recamier_by_jacques-louis_david.jpg
+	:alt: Το πορτραίτο της κυρίας Récamier του `jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+	:align: center
+
+	Το πορτραίτο της κυρίας Récamier του `jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+
+
 Ένα μικρό τεστάκι στις ν-οστές ρίζες πραγματικών αριθμών - Άλγεβρα, Α' Γενικού Λυκείου και ΕΠΑΛ.
 
 Το τεστάκι μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1DYZGN8NeUemTMcZrAMJajK0OKOZUnEZ0/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
 
-Η κεντρική εικόνα είναι το πορτραίτο της κυρίας Récamier του `jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

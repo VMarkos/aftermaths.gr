@@ -8,13 +8,20 @@
 :status: published
 :attachments: wp-content/uploads/2021/04/839px-auguste_renoir_-_julie_manet_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2021/04/839px-auguste_renoir_-_julie_manet_-_google_art_project.jpg
+	:alt: Το πορτραίο της Julien Manet του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Το πορτραίο της Julien Manet του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
 Διαφάνειες στο κεφάλαιο των συναρτήσεων της ύλης της Άλγεβρας της Α΄ λυκείου και ΕΠΑΛ - θα προστεθεί εν καιρώ και το κεφάλαιο των προόδων.
 
 Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1faPzhu7w8Kkro5r1TiP6G91d6TQc26wz/view?usp=sharing>`__ και στη σελίδα το `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 Για το πρώτο μέρος των διαφανειών - μέχρι και απόλυτες τιμές - δείτε `εδώ <https://aftermathsgr.wordpress.com/2021/01/18/%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%b3%ce%b9%ce%b1-%cf%84%ce%b7%ce%bd-%ce%ba%ce%b1%cf%81%ce%b1%ce%bd%cf%84%ce%af%ce%bd%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf/>`__ ενώ για το δεύτερο μέρος - ρίζες μέχρι και ανισώσεις γινόμενο/πηλίκο - δείτε `εδώ <https://aftermathsgr.wordpress.com/2021/03/04/%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1%cf%82-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85/>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι το πορτραίο της Julien Manet του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.*
+
 
 Καλησπέρα και καλό διάβασμα!
 

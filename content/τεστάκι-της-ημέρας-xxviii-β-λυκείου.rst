@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/1280px-august_macke_014.jpg
 
+.. figure:: /wp-content/uploads/2020/11/1280px-august_macke_014.jpg
+	:alt: Ο πίνακας *Χωράφια με λαχανικά* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Χωράφια με λαχανικά* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+
+
 Το τεστ βρίσκεται `εδώ <https://drive.google.com/file/d/17qSL_NUSZMC7SdXJARNVa9ZvvlCvWcM8/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Χωράφια με λαχανικά* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

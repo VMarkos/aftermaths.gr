@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/marianne_von_werefkin_der_monch_1932.jpg
 
+.. figure:: /wp-content/uploads/2020/11/marianne_von_werefkin_der_monch_1932.jpg
+	:alt: Ο πίνακας *Ο μοναχός* της `Marianne von Werefkin <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__. 
+	:align: center
+
+	Ο πίνακας *Ο μοναχός* της `Marianne von Werefkin <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__. 
+
+
 Το τεστ βρίσκεται `εδώ <https://drive.google.com/file/d/1TRKUPQOboeehbPsukhpPpMC0RhkxJ-Fu/view?usp=sharing>`__ και στη σελίδά του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο μοναχός* της `Marianne von Werefkin <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

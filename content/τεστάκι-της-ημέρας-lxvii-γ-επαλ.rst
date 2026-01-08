@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/02/frederic_bazille_-_the_little_gardener_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2021/02/frederic_bazille_-_the_little_gardener_-_google_art_project.jpg
+	:alt: Ο πίνακας *Ο μικρός κηπουρός* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
+	:align: center
+
+	Ο πίνακας *Ο μικρός κηπουρός* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
+
+
 Ένα τεστάκι προπόνησης στις βασικές συχνότητες - απόλυτες και σχετικές - στην ύλης της στατιστικής των μαθηματικών της Γ' ΕΠΑΛ - προετοιμασία για πανελλήνιες.
 
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1ACqw9MPHEaSXCEoDPFZVU7gMYxcoBxrt/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο μικρός κηπουρός* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

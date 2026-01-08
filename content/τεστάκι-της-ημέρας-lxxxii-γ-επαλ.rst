@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/04/539px-dance-at-bougival.jpg
 
+.. figure:: /wp-content/uploads/2021/04/539px-dance-at-bougival.jpg
+	:alt: Ο πίνακας *Χορός στο Bugival* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Χορός στο Bugival* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
 Ένα επαναληπτικό τεστ στην ύλη των μαθηματικών της Γ' ΕΠΑΛ και, ειδικότερα, στη μονοτονία συναρτήσεων.
 
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1zk3P4MLPsBiD6HFaBBoO7KYf3BcQAiZB/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Χορός στο Bugival* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.*
+
 
 Καλησπέρα και καλό διάβασμα!
 

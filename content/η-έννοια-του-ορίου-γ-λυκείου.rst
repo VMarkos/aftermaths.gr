@@ -8,13 +8,20 @@
 :status: published
 :attachments: wp-content/uploads/2021/09/mary_cassatt_-_summertime_-_tfaa_1988.25.jpg
 
+.. figure:: /wp-content/uploads/2021/09/mary_cassatt_-_summertime_-_tfaa_1988.25.jpg
+	:alt: Ο πίνακας *Καλοκαίρι* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Καλοκαίρι* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\ *.* 
+
+
 Λίγες ασκήσεις που σκοπό έχουν να εισάγουν την έννοια του (πεπερασμένου) ορίου συνάρτησης στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γ' Λυκείου.
 
 Τις ασκήσεις μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/19o7BX7rp09WNMp5wUUA6AEY0cs7K2seO/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
 Για ασκήσεις στις συναρτήσεις μπορείτε να δείτε `εδώ (ορισμός) <https://aftermaths.gr/2021/06/23/%ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5-3/>`__, `εδώ (σύνθεση) <https://aftermaths.gr/2021/07/06/%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%cf%83%cf%8d%ce%bd%ce%b8%ce%b5%cf%83%ce%b7/>`__ και `εδώ (μονοτονία & «1-1») <https://aftermaths.gr/2021/09/23/%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%ce%bc%ce%bf%ce%bd%ce%bf%cf%84%ce%bf%ce%bd%ce%af%ce%b1-1-1/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Καλοκαίρι* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

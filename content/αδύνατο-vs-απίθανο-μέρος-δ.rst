@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/10/2560px-henri_fantin-latour_still_life_with_mustard_pot_1860_nga_164918.jpg
 
+.. figure:: /wp-content/uploads/2021/10/2560px-henri_fantin-latour_still_life_with_mustard_pot_1860_nga_164918.jpg
+	:alt: Ο πίνακας *Νεκρή φύση με δοχείο μουστάρδας* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+	:align: center
+
+	Ο πίνακας *Νεκρή φύση με δοχείο μουστάρδας* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+
+
 Είδαμε τις προηγούμενες εβδομάδες πολλά και διάφορα για το αν, τελικά, η έννοια του απίθανου συμπίπτει με αυτό που λέμε αδύνατο - δείτε `εδώ <https://aftermaths.gr/2021/10/04/%ce%b1%ce%b4%cf%8d%ce%bd%ce%b1%cf%84%ce%bf-vs-%ce%b1%cf%80%ce%af%ce%b8%ce%b1%ce%bd%ce%bf-%ce%bc%ce%ad%cf%81%ce%bf%cf%82-%ce%b1/>`__, `εδώ <https://aftermaths.gr/2021/10/10/%ce%b1%ce%b4%cf%8d%ce%bd%ce%b1%cf%84%ce%bf-vs-%ce%b1%cf%80%ce%af%ce%b8%ce%b1%ce%bd%ce%bf-%ce%bc%ce%ad%cf%81%ce%bf%cf%82-%ce%b2/>`__ κι `εδώ <https://aftermaths.gr/2021/10/17/%ce%b1%ce%b4%cf%8d%ce%bd%ce%b1%cf%84%ce%bf-vs-%ce%b1%cf%80%ce%af%ce%b8%ce%b1%ce%bd%ce%bf-%ce%bc%ce%ad%cf%81%ce%bf%cf%82-%ce%b3/>`__, αναλυτικότερα. Με λίγα λόγια, καταλήξαμε στο συμπέρασμα ότι, πέρα από πεπερασμένα περιβάλλοντα, όπου το απίθανο και το αδύνατο είναι ένα και το αυτό, εν γένει δεν είναι το ίδιο. Για την ακρίβεια, σε άπειρους και αριθμήσιμους δειγματικούς χώρους βρήκαμε παραδείγματα ενδεχομένων τα οποία ενώ ήταν μη κενά - και άρα όχι αδύνατα - ήταν απίθανα - συνέβαιναν, δηλαδή, με πιθανότητα 0.
 
 Το ίδιο κάναμε και με υπεραριθμήσιμους δειγματικούς χώρους, αλλά εκεί έχουμε αφήσει ακόμα κάποιες εκκρεμότητες. Για την ακρίβεια, την προηγούμενη εβδομάδα είχαμε ορίσει μία ενδιαφέρουσα σ-άλγεβρα, αυτή των Borel συνόλων που, για να θυμίσουμε πώς ορίζεται, είναι η ελάχιστη σ-άλγεβρα που περιέχει όλα τα διαστήματα πραγματικών αριθμών. Επίσης, είχαμε ορίσει ένα μέτρο, το οποίο το είχαμε ονομάσει *μέτρο Lebesgue*, και οριζόταν ως εξής:
@@ -207,7 +214,7 @@
 
 Μέχρι τότε, καλό απόγευμα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Νεκρή φύση με δοχείο μουστάρδας* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__.
+
 
 .. raw:: html
 

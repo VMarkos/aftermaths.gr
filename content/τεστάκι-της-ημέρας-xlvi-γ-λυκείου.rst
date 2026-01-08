@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/01/728px-ilya_repin_-_sadko_-_google_art_project_levels_adjustment.jpg
 
+.. figure:: /wp-content/uploads/2021/01/728px-ilya_repin_-_sadko_-_google_art_project_levels_adjustment.jpg
+	:alt: Ο πίνακας *Sadko* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Sadko* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+
+
 Ένα τεστάκι πάνω στα όρια στο άπειρο και σε απλές θεωρητικές ασκήσεις - μαθηματικά προσανατολισμού, Γ' Λυκείου.
 
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/187FuB5Jci5JLoymefVXidzawEhxX8Ri3/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Sadko* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/06/2560px-deux_femmes_causant_au_bord_de_la_mer_saint_thomas_camille_pissarro_e28093_nga_1985.64.30.jpg
 
+.. figure:: /wp-content/uploads/2021/06/2560px-deux_femmes_causant_au_bord_de_la_mer_saint_thomas_camille_pissarro_e28093_nga_1985.64.30.jpg
+	:alt: Ο πίνακας *Δύο γυναίκες συζητούν δίπλα στη θάλασσα* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Δύο γυναίκες συζητούν δίπλα στη θάλασσα* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+
+
 Πριν από λίγες εβδομάδες συζητήσαμε για μία διατύπωση του αξιώματος της πληρότητας χρησιμοποιώντας ένα γνωστό και μη εξαιρετέο θεώρημα του Cantor - για περισσότερα, δείτε `εδώ <https://aftermathsgr.wordpress.com/2021/04/18/%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7-3/>`__. Με βάση τώρα αυτήν την διατύπωση μέσα από ακολουθίες κλειστών διαστημάτων πραγματικών αριθμών θα παρουσιάσουμε και μία κατασκευή των πραγματικών αριθμών από τους ρητούς που βασίζεται σε ακολουθίες κλειστών διαστημάτων ρητών αριθμών. Η εν λόγω κατασκευή διαφέρει σε επίπεδο τεχνικής από τις άλλες δύο που είδαμε - μέσω `τομών Dedekind <https://aftermathsgr.wordpress.com/2020/10/28/%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80/>`__ και βασικών `ακολουθιών ρητών αριθμών <https://aftermathsgr.wordpress.com/2021/02/07/%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7-2/>`__ - καθώς χρησιμοποιεί νέες έννοιες και εργαλεία, κάπως πιο περίπλοκα δομικά από όσα έχουμε δει ως τώρα.
 
 Η ιδέα της κατασκευής
@@ -311,7 +318,7 @@
 
 Μέχρι την επόμενη φορά, καλό απόγευμα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Δύο γυναίκες συζητούν δίπλα στη θάλασσα* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.*
+
 
 .. raw:: html
 

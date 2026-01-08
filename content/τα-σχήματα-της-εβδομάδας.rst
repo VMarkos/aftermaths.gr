@@ -7,6 +7,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/10/henri_fantin-latour_-_vase_of_flowers_with_a_coffee_cup_13648335833.jpg
 
+.. figure:: /wp-content/uploads/2021/10/henri_fantin-latour_-_vase_of_flowers_with_a_coffee_cup_13648335833.jpg
+	:alt: Ο πίνακας *Ένα βάζο λουλούδια και μία κούπα καφέ* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+	:align: center
+
+	Ο πίνακας *Ένα βάζο λουλούδια και μία κούπα καφέ* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+
+
 Την προηγούμενη εβδομάδα είδαμε κάποια ενδιαφέροντα σχήματα που είχαν να κάνουν με γνωστά μας εργαλεία αλλά με κάπως διαφορετικούς τρόπους να τα αξιοποιήσουμε. Αυτήν την εβδομάδα θα μείνουμε στο ίδιο κλίμα, βλέποντας, ως επί το πλείστον, εργαλεία που έχουμε ξαναδεί στο παρελθόν και το πώς μπορούν να μας βοηθήσουν σε διάφορες περιστάσεις.
 
 Μετατοπίσεις...
@@ -197,7 +204,7 @@
 
 Αυτά ήταν τα σχήματά μας και γι' αυτήν την εβδομάδα! Μέχρι την επόμενη, νά' στε καλά!
 
-Η κεντρική εικόνα είναι ο πίνακας *Ένα βάζο λουλούδια και μία κούπα καφέ* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__.
+
 
 .. raw:: html
 

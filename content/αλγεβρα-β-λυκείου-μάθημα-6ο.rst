@@ -8,13 +8,20 @@
 :status: published
 :attachments: wp-content/uploads/2021/10/891px-henri_fantin-latour_-_poppies_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2021/10/891px-henri_fantin-latour_-_poppies_-_google_art_project.jpg
+	:alt: Ο πίνακας *Παιωνίες* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+	:align: center
+
+	Ο πίνακας *Παιωνίες* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+
+
 Διαφάνειες στους τριγωνομετρικούς αριθμούς και το πώς οι τριγωνομετρικές συναρτήσεις ορίζονται σε κάθε πραγματικό αριθμό - Άλγεβρα Β' Γενικού Λυκείου και ΕΠΑΛ.
 
 Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1Qy-ZNBDqnYxDNQ4t4vNMycaekdOFyXdZ/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
 *Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2021/10/18/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-6%ce%bf/>`__\ *ενώ τις αντίστοιχες διαφάνειες της Β' Λυκείου μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2021/10/13/%ce%ac%ce%bb%ce%b3%ce%b2%ce%b5%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-5%ce%bf/>`__\ *.*
 
-Η κεντρική εικόνα είναι ο πίνακας *Παιωνίες* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

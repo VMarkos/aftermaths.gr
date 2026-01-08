@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/07/mariekroyer-selfportrait.jpg
 
+.. figure:: /wp-content/uploads/2020/07/mariekroyer-selfportrait.jpg
+	:alt: Μια αυτοπροσωπογραφία της `Marie Krøyer <https://en.wikipedia.org/wiki/Marie_Kr%C3%B8yer>`__. 
+	:align: center
+
+	Μια αυτοπροσωπογραφία της `Marie Krøyer <https://en.wikipedia.org/wiki/Marie_Kr%C3%B8yer>`__. 
+
+
 Οι διαφάνειες βρίσκονται `εδώ <https://drive.google.com/file/d/14vAucLKTV_w8toMAj76FRT1Wdm0uKoEe/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι μια αυτοπροσωπογραφία της `Marie Krøyer <https://en.wikipedia.org/wiki/Marie_Kr%C3%B8yer>`__.
+
 
 Καλό βράδυ και καλό διάβασμα!
 

@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/wla_brooklynmuseum_view_of_brooklyn_bridge.jpg
 
+.. figure:: /wp-content/uploads/2020/11/wla_brooklynmuseum_view_of_brooklyn_bridge.jpg
+	:alt: Ο πίνακας *Μια άποψη της γέφυρας του Μπρούκλιν* του `Samuel Halpert <https://en.wikipedia.org/wiki/Samuel_Halpert>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Μια άποψη της γέφυρας του Μπρούκλιν* του `Samuel Halpert <https://en.wikipedia.org/wiki/Samuel_Halpert>`__\ *.* 
+
+
 Το τεστ βρίσκεται `εδώ <https://drive.google.com/file/d/1LLONyRLVhmooTH9Kbc1nj4cYIMqOPkh_/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Μια άποψη της γέφυρας του Μπρούκλιν* του `Samuel Halpert <https://en.wikipedia.org/wiki/Samuel_Halpert>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

@@ -7,6 +7,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/10/madame_gaillard_and_her_daughter_marie-therese_1899_mary_cassatt.jpg
 
+.. figure:: /wp-content/uploads/2021/10/madame_gaillard_and_her_daughter_marie-therese_1899_mary_cassatt.jpg
+	:alt: Ο πίνακας *Η κυρία Gaillard και η κόρη της Marie-Thérèse* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Η κυρία Gaillard και η κόρη της Marie-Thérèse* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\ *.* 
+
+
 Άλλη μία εβδομάδα πέρασε, άλλα λίγα σχήματα μπήκαν στο τσουβάλι. Ας τα περάσουμε ένα-ένα, γιατί κι αυτήν την εβδομάδα έχουμε πολλά να πούμε.
 
 *Για τα σχήματα της προηγούμενης εβδομάδας δείτε*\ `εδώ <https://aftermaths.gr/2021/09/28/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-7/>`__\ *, ενώ για όλες τις αναρτήσεις της σειράς μπορείτε να δείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
@@ -296,7 +303,7 @@
 
 Αυτά και για αυτήν την εβδομάδα. Μέχρι την επόμενη εβδομάδα, που θα δούμε ακόμα πιο ενδιαφέροντα σχήματα - μάλλον - καλή συνέχεια!
 
-Η κεντρική εικόνα είναι ο πίνακας *Η κυρία Gaillard και η κόρη της Marie-Thérèse* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\ *.*
+
 
 .. raw:: html
 

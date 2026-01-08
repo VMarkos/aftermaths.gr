@@ -7,6 +7,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/10/thomas_couture_-_lawyer_going_to_court_-_walters_371204.jpg
 
+.. figure:: /wp-content/uploads/2021/10/thomas_couture_-_lawyer_going_to_court_-_walters_371204.jpg
+	:alt: Ο πίνακας *Δικηγόρος πηγαίνει στο δικαστήριο* του `Thomas Couture <https://en.wikipedia.org/wiki/Thomas_Couture>`__. 
+	:align: center
+
+	Ο πίνακας *Δικηγόρος πηγαίνει στο δικαστήριο* του `Thomas Couture <https://en.wikipedia.org/wiki/Thomas_Couture>`__. 
+
+
 Πέρασε κιόλας μία εβδομάδα από την προηγούμενη Τρίτη - γενικά, άπαξ και μπει η σαιζόν, ο χρόνος τρέχει - και λίγα ακόμα σχήματα μπήκαν στη λίστα μας. Αν θέλετε να θυμηθείτε τι συζητήσαμε την προηγούμενη εβδομάδα - καλά θα κάνετε να τα θυμηθείτε γιατί θα τα συναντήσουμε κι εδώ - μπορείτε να τα βρείτε `εδώ <https://aftermaths.gr/2021/10/07/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-8/>`__.
 
 Αυτήν την εβδομάδα είδαμε ακόμα μία νέα βιβλιοθήκη του ``tikz`` την οποία και θα συζητήσουμε ευθύς αμέσως.
@@ -210,7 +217,7 @@
 
 Αυτά είχαμε να πούμε και γι' αυτήν την εβδομάδα, λίγα και καλά! Μέχρι την επόμενη Τρίτη, καλή συνέχεια!
 
-Η κεντρική εικόνα είναι ο πίνακας *Δικηγόρος πηγαίνει στο δικαστήριο* του `Thomas Couture <https://en.wikipedia.org/wiki/Thomas_Couture>`__.
+
 
 .. raw:: html
 

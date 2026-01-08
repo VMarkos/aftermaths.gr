@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/12/2073_0_Kandinsky_Stars_1.jpg
 
+.. figure:: /wp-content/uploads/2018/12/2073_0_Kandinsky_Stars_1.jpg
+	:alt: Η λιθογραφία *Αστέρια* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:align: center
+
+	Η λιθογραφία *Αστέρια* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+
+
 Άλλες λίγες ασκήσεις και προβλήματα στην τριγωνομετρία (Β' Λυκείου).
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1HtDs5KmAcExIBp5fggsPBm0s8oWp-fAn/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι η λιθογραφία *Αστέρια* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.*
+
 
 Καλό βράδυ και καλό διάβασμα!
 

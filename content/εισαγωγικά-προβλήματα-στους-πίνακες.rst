@@ -8,8 +8,15 @@
 :status: published
 :attachments: wp-content/uploads/2018/10/poster-komposition-ii-920443.jpg
 
+.. figure:: /wp-content/uploads/2018/10/poster-komposition-ii-920443.jpg
+	:alt: Ο πίνακας *Σύνθεση ΙΙ* του `Piet Mondrian. <https://en.wikipedia.org/wiki/Piet_Mondrian>`__ 
+	:align: center
+
+	Ο πίνακας *Σύνθεση ΙΙ* του `Piet Mondrian. <https://en.wikipedia.org/wiki/Piet_Mondrian>`__ 
+
+
 Σε αυτό το φυλλάδιο περιέχονται μερικά προβλήματα που απαιτούν *εκτύπωση* αποτελεσμάτων σε μορφή πίνακα δύο διαστάσεων και όχι, κατ' ανάγκη, δημιουργία πίνακα δύο διαστάσεων.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1V-sc5-muTHv_UKrExoeootAW8-Kl9Mnt/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Σύνθεση ΙΙ* του `Piet Mondrian. <https://en.wikipedia.org/wiki/Piet_Mondrian>`__
+

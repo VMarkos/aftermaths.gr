@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2018/09/high-quality-vincent-van-gogh-paintings-for.jpg
 
+.. figure:: /wp-content/uploads/2018/09/high-quality-vincent-van-gogh-paintings-for.jpg
+	:alt: *ο θερισμός* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:align: center
+
+	*ο θερισμός* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+
+
 Σε αυτό το φυλλάδιο περιέχονται ασκήσεις που αφορούν τις βασικές έννοιες των συναρτήσεων (ορισμός, πεδίο ορισμού, πεδίο/σύνολο τιμών) και ως στόχο έχουν να εισάγουν τους μαθητές στην έννοια της συνάρτησης.
 
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1i38ppzM9Ax4M1B1863DzPVeGQNHkTqYt/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι *Ο θερισμός* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

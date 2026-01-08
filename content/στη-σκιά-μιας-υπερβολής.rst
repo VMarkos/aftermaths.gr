@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2019/08/ezgif.com-crop2.gif, wp-content/uploads/2019/07/ezgif.com-gif-maker.gif, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceb9cebacf8ccf84ceb5cf81ceb5cf82-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_4-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_2-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1.png, wp-content/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-11.png, wp-content/uploads/2019/08/ezgif.com-gif-maker-5-1.gif, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1-1.png, wp-content/uploads/2019/08/ezgif-5-a9900beba2.pdf-1.png, wp-content/uploads/2019/08/ezgif-5-c61c2e89bf.pdf-1.png, wp-content/uploads/2019/08/lw427-mc-escher-sphere-surface-with-fish-1958.jpg, wp-content/uploads/2019/07/ezgif.com-gif-maker-2.gif, wp-content/uploads/2019/07/ezgif.com-gif-maker-3.gif, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1-3.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-11.png, wp-content/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-1.png
 
+.. figure:: /wp-content/uploads/2019/08/ezgif.com-crop2.gif, wp-content/uploads/2019/07/ezgif.com-gif-maker.gif, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceb9cebacf8ccf84ceb5cf81ceb5cf82-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_4-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_2-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1.png, wp-content/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-11.png, wp-content/uploads/2019/08/ezgif.com-gif-maker-5-1.gif, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1-1.png, wp-content/uploads/2019/08/ezgif-5-a9900beba2.pdf-1.png, wp-content/uploads/2019/08/ezgif-5-c61c2e89bf.pdf-1.png, wp-content/uploads/2019/08/lw427-mc-escher-sphere-surface-with-fish-1958.jpg, wp-content/uploads/2019/07/ezgif.com-gif-maker-2.gif, wp-content/uploads/2019/07/ezgif.com-gif-maker-3.gif, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1-3.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-11.png, wp-content/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-1.png
+	:alt: Το ξυλοχαρακτικό *Σφαρική επιφάνεια με ψάρια* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	:align: center
+
+	Το ξυλοχαρακτικό *Σφαρική επιφάνεια με ψάρια* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+
+
 Πρελούδιο
 ---------
 
@@ -439,4 +446,4 @@
 
    </figure>
 
-Η κεντρική εικόνα είναι το ξυλοχαρακτικό *Σφαρική επιφάνεια με ψάρια* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.*
+

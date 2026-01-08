@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/07/800px-the_menin_road.jpg
 
+.. figure:: /wp-content/uploads/2019/07/800px-the_menin_road.jpg
+	:alt: Ο πίνακας *Ο δρόμος του Μένιν* του `Paul Nash <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ο δρόμος του Μένιν* του `Paul Nash <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+
+
 Επαναληπτικό διαγώνισμα σε όλη την εισαγωγική ενότητα των συναρτήσεων. Το διαγώνισμα μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1CVB4uxxQ3fGuGRvZhlSwKhnpjd3fWMK7/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ο δρόμος του Μένιν* του `Paul Nash <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

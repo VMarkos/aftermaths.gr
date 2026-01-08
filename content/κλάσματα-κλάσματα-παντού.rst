@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png, wp-content/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png, wp-content/uploads/2019/07/ezgif.com-crop3.gif, wp-content/uploads/2019/07/ezgif.com-crop2-1.gif, wp-content/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png, wp-content/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png, wp-content/uploads/2019/07/smaller-1956-tessellation-art-by-m.-c.-escher.jpg
 
+.. figure:: /wp-content/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png, wp-content/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png, wp-content/uploads/2019/07/ezgif.com-crop3.gif, wp-content/uploads/2019/07/ezgif.com-crop2-1.gif, wp-content/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png, wp-content/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png, wp-content/uploads/2019/07/smaller-1956-tessellation-art-by-m.-c.-escher.jpg
+	:alt: Ο πίνακας *(Μικρή) κάλυψη του επιπέδου* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *(Μικρή) κάλυψη του επιπέδου* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+
+
 Εισαγωγή
 ========
 
@@ -351,4 +358,4 @@
 
    </figure>
 
-Η κεντρική εικόνα είναι ο πίνακας *(Μικρή) κάλυψη του επιπέδου* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.*
+

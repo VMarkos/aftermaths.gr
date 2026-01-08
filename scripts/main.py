@@ -27,7 +27,7 @@ def postprocess_filename(fname: str) -> str:
 
 
 def rename_rst_files(rst_files: [str]) -> None:
-    logging.basicConfig(filename="main.log", level=logging.ERROR)
+    logging.basicConfig(filename="main.log")
     logger.info("Starting...")
     err_count = 0
     process = compose(postprocess_filename, unencode_filename, preprocess_filename)
@@ -119,7 +119,7 @@ def fix_video_urls(path: str) -> None:
 
 
 def find_attachment_path(line) -> str | None:
-    att_m = re.search(r"(?<=:attachements: ).+", line)
+    att_m = re.search(r"(?<=:attachments: ).+", line)
     return att_m.group(0) if att_m is not None else None
 
 
@@ -128,9 +128,9 @@ def find_image_caption(line) -> str | None:
     caption_prefix_ann = ("η", "κεντρική", "εικόνα", "είναι")
     caption_prefix_nan = ("η", "κεντρικη", "εικονα", "ειναι")
     caption_prefix = zip(caption_prefix_ann, caption_prefix_nan)
-    is_valid_prefix = all(w in cp for (w, cp) in zip(words[:4], caption_prefix))
+    is_valid_prefix = all(w.lower() in cp for (w, cp) in zip(words[:4], caption_prefix))
     if is_valid_prefix:
-        return " ".join((words[4].capitalize(),) + words[5:])
+        return " ".join([words[4].capitalize()] + words[5:])
     return None
 
 
@@ -142,12 +142,14 @@ def main_image_fix_fn(line: str, params: dict[str, any] = dict()) -> str:
     image_caption = find_image_caption(line)
     if image_caption:
         params["caption"] = image_caption
+        return '\n'
     return line
 
 
-def build_rst_figure(attachement: str, caption: str) -> str:
+def build_rst_figure(attachment: str, caption: str) -> str:
     return (
-        f".. figure: /{attachment}\n"
+        f"\n"
+        f".. figure:: /{attachment}\n"
         f"\t:alt: {caption}\n"
         f"\t:align: center\n"
         f"\n"
@@ -158,6 +160,12 @@ def build_rst_figure(attachement: str, caption: str) -> str:
 def main_image_pp(path: str, params: dict[str, any]) -> None:
     with open(path, "r") as file:
         old_lines = file.readlines()
+    if 'attachment' not in params.keys():
+        logger.info(f'File {path} missing "attachment" key.')
+        return
+    if 'caption' not in params.keys():
+        logger.info(f'File {path} missing "caption" key.')
+        params["caption"] = ""
     rst_figure = build_rst_figure(**params)
     with open(path, "w") as file:
         for line in old_lines:
@@ -172,15 +180,15 @@ def fix_main_image(path: str) -> None:
 
 
 def main():
-    rename_content()
+    # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
     # Fix content
     fnames = get_files_in_dir(Config.CONTENT_DIR, "rst")
     for file_path in tqdm(map(os.path.abspath, fnames)):
-        fix_math_content(file_path)
-        fix_forward_slashes(file_path)
-        fix_video_urls(file_path)
-        # fix_main_image(file_path)
+        # fix_math_content(file_path)
+        # fix_forward_slashes(file_path)
+        # fix_video_urls(file_path)
+        fix_main_image(file_path)
 
 
 if __name__ == "__main__":

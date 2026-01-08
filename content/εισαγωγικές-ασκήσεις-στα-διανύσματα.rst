@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2022/10/gustave_caillebotte_-_the_orange_trees_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2022/10/gustave_caillebotte_-_the_orange_trees_-_google_art_project.jpg
+	:alt: Ο πίνακας *Οι πορτοκαλιές* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+	:align: center
+
+	Ο πίνακας *Οι πορτοκαλιές* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+
+
 Λίγες απλές και όχι τόσο απλές ασκήσεις και προβλήματα στα διανύσματα και τις βασικές έννοιες γύρω από αυτά.
 
 Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/185D6qOBUQQMLMNIeYLh-E_BncGsplVZd/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Οι πορτοκαλιές* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

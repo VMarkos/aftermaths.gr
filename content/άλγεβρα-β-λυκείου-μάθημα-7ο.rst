@@ -8,13 +8,20 @@
 :status: published
 :attachments: wp-content/uploads/2021/10/m-y_de_fitz-james_by_fantin-latour.jpg
 
+.. figure:: /wp-content/uploads/2021/10/m-y_de_fitz-james_by_fantin-latour.jpg
+	:alt: Το πορτραίτο της *Marie-Yolande de Fitz-James* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+	:align: center
+
+	Το πορτραίτο της *Marie-Yolande de Fitz-James* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+
+
 Διαφάνειες για αρκετές από τις βασικές τριγωνομετρικές ταυτότητες που μας βασανίζουν στο λύκειο - Άλγεβρα, Β' Λυκείου και ΕΠΑΛ.
 
 Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1kq1hUgeYeFeCsKygIo6NrXQzmK8iqKu3/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
 *Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2021/10/20/%ce%b1%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-6%ce%bf/>`__\ *ενώ αυτές της Άλγεβρας της Α' Λυκείου μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2021/10/25/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-7%ce%bf/>`__\ *.*
 
-Η κεντρική εικόνα είναι το πορτραίτο της *Marie-Yolande de Fitz-James* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

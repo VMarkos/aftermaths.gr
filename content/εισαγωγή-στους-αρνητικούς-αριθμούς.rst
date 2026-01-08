@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/09/caspar_david_friedrich_-_felsenriff_am_meeresstrand_1824.jpg
 
+.. figure:: /wp-content/uploads/2019/09/caspar_david_friedrich_-_felsenriff_am_meeresstrand_1824.jpg
+	:alt: Ο πίνακας *Βραχώδης ύφαλος στην ακτή* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Βραχώδης ύφαλος στην ακτή* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+
+
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1RRiKT5iMkT2Vr9Oot8_hV4jpnEP2FdwD/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Βραχώδης ύφαλος στην ακτή* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

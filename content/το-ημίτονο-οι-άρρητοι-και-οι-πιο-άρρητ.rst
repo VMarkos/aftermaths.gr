@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/03/henri_fantin-latour_-_by_the_table_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2021/03/henri_fantin-latour_-_by_the_table_-_google_art_project.jpg
+	:alt: Ο πίνακας *Στο τραπέζι* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Στο τραπέζι* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__\ *.* 
+
+
 Η αλήθεια είναι ότι για αυτήν την Κυριακή ήταν προγραμματισμένη μία άλλη ανάρτηση, ωστόσο μέσα στην εβδομάδα προέκυψε μία ιδιαίτερα ενδιαφέρουσα συζήτηση στην τάξη - έστω και ψηφιακή. Στα πλαίσια μίας βιαστικής επανάληψης στην τριγωνομετρία, συζητήθηκε η ακόλουθη πεζή και απλή διαφάνεια - όλο το σετ διαφανειών μπορείτε να το βρείτε `εδώ <https://aftermathsgr.wordpress.com/2021/02/18/%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-6/>`__:
 
 .. figure:: https://aftermaths.gr/wp-content/uploads/2021/03/ceb5ceb9cebacf8ccebdceb1-3.png?w=1024
@@ -186,7 +193,7 @@
 
 Μέχρι τότε, καλή συνέχεια!
 
-Η κεντρική εικόνα είναι ο πίνακας *Στο τραπέζι* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__\ *.*
+
 
 .. raw:: html
 

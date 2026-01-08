@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/02/d09fd0bed0bbd0b5d181d0bdd0b8d0ba.jpg
 
+.. figure:: /wp-content/uploads/2021/02/d09fd0bed0bbd0b5d181d0bdd0b8d0ba.jpg
+	:alt: Ο πίνακας *Ξυλοκόπος* του `Ivan Kramskoi <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ξυλοκόπος* του `Ivan Kramskoi <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+
+
 Ένα τεστ στο κεφάλαιο των συναρτήσεων των μαθηματικών της Γ' ΕΠΑΛ (προετοιμασία για πανελλήνιες) και, ειδικότερα, στην μονοτονία συναρτήσεων και τους πίνακες προσήμου.
 
 Το τεστάκι μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1eJOmmnc3ReC1lmkOs2bpheqnLfYu1z5j/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ξυλοκόπος* του `Ivan Kramskoi <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

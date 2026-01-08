@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/05/523px-johannes_vermeer_-_lady_at_the_virginal_with_a_gentleman_the_music_lesson_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2020/05/523px-johannes_vermeer_-_lady_at_the_virginal_with_a_gentleman_the_music_lesson_-_google_art_project.jpg
+	:alt: Ο πίνακας *Το μάθημα μουσικής* του `Johannes Vermeer <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Το μάθημα μουσικής* του `Johannes Vermeer <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\ *.* 
+
+
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1ampRO3nbKT5pWOalzxJpvQxP6-rg1fkf/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Το μάθημα μουσικής* του `Johannes Vermeer <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

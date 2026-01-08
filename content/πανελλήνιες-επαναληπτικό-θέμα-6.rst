@@ -8,13 +8,20 @@
 :status: published
 :attachments: wp-content/uploads/2022/04/eugene_ferdinand_victor_delacroix_014.jpg
 
+.. figure:: /wp-content/uploads/2022/04/eugene_ferdinand_victor_delacroix_014.jpg
+	:alt: *γυναίκες στο Αλγέρι* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+	:align: center
+
+	*γυναίκες στο Αλγέρι* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+
+
 Ένα επαναληπτικό θέμα που ξεκινά από μία ζωγραφιά για να καταλήξεις σε μία άλλη.
 
 Το θέμα μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1jtZ-NQSS1TBD3LybXLHcKpFjYNbz_01p/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
 *Προηγούμενα θέματα μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/03/26/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-4/>`__\ *κι*\ `εδώ <https://aftermaths.gr/2022/03/31/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-5/>`__\ *.*
 
-Η κεντρική εικόνα είναι *Γυναίκες στο Αλγέρι* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__.
+
 
 Καλημέρα και καλό διάβασμα!
 

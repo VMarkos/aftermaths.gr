@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/11/august_macke_-_bernhard_koehler.jpg
 
+.. figure:: /wp-content/uploads/2020/11/august_macke_-_bernhard_koehler.jpg
+	:alt: Το πορτραίτο του *Bernhard Koehler* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	:align: center
+
+	Το πορτραίτο του *Bernhard Koehler* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+
+
 Οι λύσεις του `προηγούμενου τεστ <https://aftermathsgr.wordpress.com/2020/11/30/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxxi-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85/>`__ βρίσκονται `εδώ <https://drive.google.com/file/d/1elV64Gr-4cq2l2ue16fgqljw9t7GWhIA/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι το πορτραίτο του *Bernhard Koehler* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

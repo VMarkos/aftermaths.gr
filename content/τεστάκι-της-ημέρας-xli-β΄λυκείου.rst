@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/12/1070px-chase_william_merritt_portrait_of_miss_dora_wheeler_1883.jpg
 
+.. figure:: /wp-content/uploads/2020/12/1070px-chase_william_merritt_portrait_of_miss_dora_wheeler_1883.jpg
+	:alt: Ο πίνακας *Το πορτραίτο της Dora Miller* του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Το πορτραίτο της Dora Miller* του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+
+
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1jIRans8xMP0SWj_EHGhadZz4gGfaRJYy/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Το πορτραίτο της Dora Miller* του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

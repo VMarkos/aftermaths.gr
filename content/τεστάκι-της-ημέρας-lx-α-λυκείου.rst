@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/02/870px-brjullov_italianskij_poldenj.jpg
 
+.. figure:: /wp-content/uploads/2021/02/870px-brjullov_italianskij_poldenj.jpg
+	:alt: Ο πίνακας *Ιταλικό μεσημέρι* του `Karl Briullov <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ιταλικό μεσημέρι* του `Karl Briullov <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\ *.* 
+
+
 Ένα τεστάκι στις εξισώσεις γινόμενο και σε όλα τα παρελκόμενα - άλγεβρα, Α' Λυκείου και ΕΠΑΛ.
 
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1ttGs1VwEFNqScFCypdjhA8cW4v676_se/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ιταλικό μεσημέρι* του `Karl Briullov <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

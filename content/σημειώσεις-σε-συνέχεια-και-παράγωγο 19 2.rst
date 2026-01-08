@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/11/380px-canaletto_-_the_stonemasons_yard.jpg
 
+.. figure:: /wp-content/uploads/2019/11/380px-canaletto_-_the_stonemasons_yard.jpg
+	:alt: Ο πίνακας *Η αυλή του λιθοξόου* του `Canaletto <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Η αυλή του λιθοξόου* του `Canaletto <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+
+
 Οι σημειώσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1vKOw3j4LIACwy0M1YQid_ZUfqnZao6_N/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Η αυλή του λιθοξόου* του `Canaletto <https://en.wikipedia.org/wiki/Canaletto>`__\ *.*
+
 
 Καλό ξημέρωμα και καλό διάβασμα!
 

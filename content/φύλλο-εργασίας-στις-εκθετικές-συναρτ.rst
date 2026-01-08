@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/03/caspar_david_friedrich_fog_in_the_elbe_valley.jpg
 
+.. figure:: /wp-content/uploads/2019/03/caspar_david_friedrich_fog_in_the_elbe_valley.jpg
+	:alt: Ο πίνακας *Ομίχλη στην κοιλάδα του Έλβα* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ομίχλη στην κοιλάδα του Έλβα* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+
+
 Το φύλλο εργασίας βρίσκεται `εδώ <https://drive.google.com/file/d/17h5Xf1W0y2PqjK_F8vLd9QxCcDIZXjZ5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Ομίχλη στην κοιλάδα του Έλβα* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.*
+
 
 Καλό βράδυ και καλό διάβασμα!
 

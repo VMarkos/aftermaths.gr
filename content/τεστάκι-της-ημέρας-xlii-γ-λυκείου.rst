@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2020/12/742px-chase_william_merritt_back_of_a_nude_1888.jpg
 
+.. figure:: /wp-content/uploads/2020/12/742px-chase_william_merritt_back_of_a_nude_1888.jpg
+	:alt: Ο πίνακας *Πλάτη μίας γυμνής γυναίκας* του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Πλάτη μίας γυμνής γυναίκας* του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+
+
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/16sSY2s6EqVx1c3G5w6JrutTQ958wuyKr/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Πλάτη μίας γυμνής γυναίκας* του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

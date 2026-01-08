@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/09/455px-van_gogh_-_bildnis_der_mutter_des_kc3bcnstlers.jpeg
 
+.. figure:: /wp-content/uploads/2019/09/455px-van_gogh_-_bildnis_der_mutter_des_kc3bcnstlers.jpeg
+	:alt: Ο πίνακας *Πορτραίτο της μητέρα του καλλιτέχνη* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Πορτραίτο της μητέρα του καλλιτέχνη* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+
+
 Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1sZOyc-hEcnBjc_EmC1sLYUHzOm6ceg-g/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Πορτραίτο της μητέρα του καλλιτέχνη* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.*
+
 
 Καλό απόγευμα και καλό διάβασμα!
 

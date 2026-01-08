@@ -6,6 +6,13 @@ Aftermaths-GIFs
 :status: published
 :attachments: wp-content/uploads/2020/04/564px-theo_van_doesburg_composition_i.jpg
 
+.. figure:: /wp-content/uploads/2020/04/564px-theo_van_doesburg_composition_i.jpg
+	:alt: 
+	:align: center
+
+	
+
+
 Λίγα μαθηματικά GIFs για διάφορα ζητήματα, από όλο το φάσμα των μαθηματικών. Τα GIF αυτά μπορεί άλλες φορές να αναφέρονται σε τμήματα της σχολικής ύλης, άλλοτε σε πιο "ώριμα" μαθηματικά ζητήματα και άλλοτε να είναι απλώς κάποια τυχαία GIFs που βρήκαν τον δρόμο τους μέχρι το aftermaths.
 
 .. container:: wp-block-jetpack-tiled-gallery aligncenter is-style-rectangular

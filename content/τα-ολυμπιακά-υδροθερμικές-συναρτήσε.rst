@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2024/07/plot_03.png, wp-content/uploads/2024/07/plot_02.png, wp-content/uploads/2024/07/sym_01.png, wp-content/uploads/2024/08/plot_06.png, wp-content/uploads/2024/07/plot_01.png, wp-content/uploads/2024/07/plot_02-1.png, wp-content/uploads/2024/07/plot_03-1.png, wp-content/uploads/2024/07/plot_05.png, wp-content/uploads/2024/07/samson_captured_by_the_philistines_met_dt503.jpg, wp-content/uploads/2024/07/plot_04.png, wp-content/uploads/2024/07/x_mx_01-1.png, wp-content/uploads/2024/07/x_mx_01.png
 
+.. figure:: /wp-content/uploads/2024/07/plot_03.png, wp-content/uploads/2024/07/plot_02.png, wp-content/uploads/2024/07/sym_01.png, wp-content/uploads/2024/08/plot_06.png, wp-content/uploads/2024/07/plot_01.png, wp-content/uploads/2024/07/plot_02-1.png, wp-content/uploads/2024/07/plot_03-1.png, wp-content/uploads/2024/07/plot_05.png, wp-content/uploads/2024/07/samson_captured_by_the_philistines_met_dt503.jpg, wp-content/uploads/2024/07/plot_04.png, wp-content/uploads/2024/07/x_mx_01-1.png, wp-content/uploads/2024/07/x_mx_01.png
+	:alt: Ο πίνακας *Η αρπαγή του Σαμψών από τους Φιλισταίους* του `Guercino <https://en.wikipedia.org/wiki/Guercino>`__. 
+	:align: center
+
+	Ο πίνακας *Η αρπαγή του Σαμψών από τους Φιλισταίους* του `Guercino <https://en.wikipedia.org/wiki/Guercino>`__. 
+
+
 Καλοκαιράκι, Ολυμπιακοί Αγώνες, όλα τα μάτια καρφωμένα στους δέκτες μας για λίγο ευ αγωνίζεσθαι, λίγο αθλητισμό και λίγο θέαμα. Λίγο απ' όλα, που λέμε. Ωστόσο, λίγο νωρίτερα μέσα στο ίδιο καλοκαιράκι είχαμε άλλη μία Ολυμπιάδα, στο Μπαθ (αυτό το Bath, που λέμε) του Ηνωμένου Βασιλείου (μην το μπερδέψετε με το «μπαθ» του σπιτιού ή της γειτονιάς). Την `65 Διεθνή Μαθηματική Ολυμπιάδα <https://www.imo2024.uk/>`__, που, όπως κάθε χρόνο, μαθητές από όλο τον κόσμο διαγωνίζονται σε ενδιαφέροντα προβλήματα από τον κόσμο των μαθηματικών.
 
 Ανάμεσα στα διάφορα προβλήματα που είδαμε φέτος, ένα κομψό και κάπως ζόρικο θέμα είναι και το 6ο θέμα (το τελευταίο, τρίτο θέμα της δεύτερης ημέρας) του διαγωνισμού. Ας δούμε την εκφώνησή του:
@@ -809,7 +816,7 @@
 
 Μέχρι τότε, καλημέρα και καλό διάβασμα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Η αρπαγή του Σαμψών από τους Φιλισταίους* του `Guercino <https://en.wikipedia.org/wiki/Guercino>`__.
+
 
 .. raw:: html
 

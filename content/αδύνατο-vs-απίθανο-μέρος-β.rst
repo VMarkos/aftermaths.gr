@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/10/thomas_couture_-_los_romanos_de_la_decadencia_museo_de_orsay_1847._oleo_sobre_lienzo_472_x_772_cm.jpg
 
+.. figure:: /wp-content/uploads/2021/10/thomas_couture_-_los_romanos_de_la_decadencia_museo_de_orsay_1847._oleo_sobre_lienzo_472_x_772_cm.jpg
+	:alt: Ο πίνακας *Η παρακμή των Ρωμαίων* του `Thomas Couture <https://en.wikipedia.org/wiki/Thomas_Couture>`__. 
+	:align: center
+
+	Ο πίνακας *Η παρακμή των Ρωμαίων* του `Thomas Couture <https://en.wikipedia.org/wiki/Thomas_Couture>`__. 
+
+
 Την προηγούμενη Κυριακή ξεκινήσαμε μία συζήτηση σε σχέση με το αν υπάρχουν διαφορές ανάμεσα σε αυτό που λέμε «απίθανο» και αυτό που λέμε «αδύνατο» - δείτε `εδώ <https://aftermaths.gr/2021/10/04/%ce%b1%ce%b4%cf%8d%ce%bd%ce%b1%cf%84%ce%bf-vs-%ce%b1%cf%80%ce%af%ce%b8%ce%b1%ce%bd%ce%bf-%ce%bc%ce%ad%cf%81%ce%bf%cf%82-%ce%b1/>`__ για περισσότερα. Η συζήτηση αυτή αποκάλυψε την ανάγκη να καθορίσουμε πρώτα αυστηρά την έννοια του ενδεχομένου καθώς και την έννοια της πιθανότητας - αν και, ακόμα, λίγο αφηρημένα. Πριν περάσουμε σε πιο ζουμερές λεπτομέρειες που θα δώσουν απάντηση στην ερώτησή μας για το αν υπάρχει τελικά διαφορά ανάμεσα στα απίθανα και τα αδύνατα της ζωής, ας φρεσκάρουμε λίγο τη μνήμη μας.
 
 Μία υπενθύμιση στα γρήγορα
@@ -250,7 +257,7 @@
 
 Για όλα τα παραπάνω θα μιλήσουμε την επόμενη εβδομάδα! Μέχρι τότε, καλό βράδυ!
 
-Η κεντρική εικόνα είναι ο πίνακας *Η παρακμή των Ρωμαίων* του `Thomas Couture <https://en.wikipedia.org/wiki/Thomas_Couture>`__.
+
 
 .. raw:: html
 

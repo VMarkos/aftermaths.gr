@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/02/albert_gleizes_1910_femme_aux_phlox_oil_on_canvas_81_x_100_cm_exhibited_armory_show_new_york_1913_the_museum_of_fine_arts_houston..jpg, wp-content/uploads/2024/05/division_002.png, wp-content/uploads/2024/05/planting_primes.gif, wp-content/uploads/2024/05/fract_parts_001.png, wp-content/uploads/2024/05/planting_rationals.gif, wp-content/uploads/2024/05/planting_primes-1.gif, wp-content/uploads/2024/05/planting_irrationals.gif, wp-content/uploads/2024/05/division_001.png, wp-content/uploads/2024/05/planting_non_primes.gif
 
+.. figure:: /wp-content/uploads/2021/02/albert_gleizes_1910_femme_aux_phlox_oil_on_canvas_81_x_100_cm_exhibited_armory_show_new_york_1913_the_museum_of_fine_arts_houston..jpg, wp-content/uploads/2024/05/division_002.png, wp-content/uploads/2024/05/planting_primes.gif, wp-content/uploads/2024/05/fract_parts_001.png, wp-content/uploads/2024/05/planting_rationals.gif, wp-content/uploads/2024/05/planting_primes-1.gif, wp-content/uploads/2024/05/planting_irrationals.gif, wp-content/uploads/2024/05/division_001.png, wp-content/uploads/2024/05/planting_non_primes.gif
+	:alt: Ο πίνακας *Γυναίκα με Phlox* του `Albert Gleizes <https://en.wikipedia.org/wiki/Albert_Gleizes>`__. 
+	:align: center
+
+	Ο πίνακας *Γυναίκα με Phlox* του `Albert Gleizes <https://en.wikipedia.org/wiki/Albert_Gleizes>`__. 
+
+
 Όταν είχα ακούσει για πρώτη φορά για Random Number Generators (RNGs, Γεννήτριες Τυχαίων Αριθμών) πρέπει να ήμουν στο γυμνάσιο. Τότε, μου είχε φανεί καθ' όλα φυσιολογικό ένας υπολογιστής, αφού μπορεί να κάνει τόσα φοβερά και τρομερά πράγματα, να μπορεί να παραγάγει που και που και κανέναν τυχαίο αριθμό. Ωστόσο, μεγαλώνοντας, άρχισε να με προβληματίζει υπερβολικά πολύ το εξής: Πώς μπορεί ένα μηχάνημα να βγάζει αριθμούς «από το καπέλο»; Γενικότερα, πώς μπορούμε να παράγουμε τυχαιότητα από ένα μηχάνημα το οποίο, σε γενικές γραμμές, φαίνεται να μπορεί να μας υπακούει με μία χαρακτηριστική άνεση;
 
 Βλέπετε, ένας υπολογιστής είναι μία *αιτιοκρατική μηχανή* - μιλάμε πάντα για τους συνήθεις υπολογιστές που χρησιμοποιούμε εδώ και χρόνια. Δηλαδή, ένας υπολογιστής, αν καθορίσουμε πλήρως το πρωτόκολλο λειτουργίας του - έναν αλγόριθμο - καθώς και τα δεδομένα εισόδου του, τότε μπορούμε να προβλέψουμε το τι θα μας δώσει. Επομένως, με ίδια είσοδο και χωρίς να έχει υπάρξει κάποια μεταβολή στον τρόπο λειτουργίας του υπολογιστή, θα παίρνουμε διαρκώς το ίδιο αποτέλεσμα. Εδώ γεννάται το εξής ερώτημα: αν μπορούμε, δεδομένης της εισόδου και ενός αλγορίθμου, να καθορίσουμε πλήρως και εκ των προτέρων τη συμπεριφορά ενός υπολογιστή, πώς γίνεται να παράγουμε τυχαίους αριθμούς με τη βοήθεια ενός υπολογιστή;
@@ -625,7 +632,7 @@
 
 Ως τότε, καλημέρα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Γυναίκα με Phlox* του `Albert Gleizes <https://en.wikipedia.org/wiki/Albert_Gleizes>`__.
+
 
 .. raw:: html
 

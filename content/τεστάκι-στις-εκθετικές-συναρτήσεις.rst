@@ -8,9 +8,16 @@
 :status: published
 :attachments: wp-content/uploads/2019/03/393px-allisvanity.jpg
 
+.. figure:: /wp-content/uploads/2019/03/393px-allisvanity.jpg
+	:alt: Ο πίνακας *Τα πάντα* *ματαιότης* του `Charles Allan Gilbert <https://en.wikipedia.org/wiki/Charles_Allan_Gilbert>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Τα πάντα* *ματαιότης* του `Charles Allan Gilbert <https://en.wikipedia.org/wiki/Charles_Allan_Gilbert>`__\ *.* 
+
+
 Το τεστ βρίσκεται `εδώ <https://drive.google.com/file/d/1UFQW-66zeOAGsd6UeQtUi-897gB9gn_8/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Τα πάντα* *ματαιότης* του `Charles Allan Gilbert <https://en.wikipedia.org/wiki/Charles_Allan_Gilbert>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

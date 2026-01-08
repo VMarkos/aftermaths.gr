@@ -7,6 +7,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/09/2560px-camille_pissarro_-_la_recolte_des_foins_eragny_-_google_art_project.jpg
 
+.. figure:: /wp-content/uploads/2021/09/2560px-camille_pissarro_-_la_recolte_des_foins_eragny_-_google_art_project.jpg
+	:alt: Ο πίνακας *Η συγκομιδή των σταχυών* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Η συγκομιδή των σταχυών* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+
+
 Αυτήν την εβδομάδα είχαμε πολύ περισσότερα πράγματα να δούμε από ότι την `προηγούμενη <https://aftermaths.gr/2021/09/07/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-4/>`__. Για την ακρίβεια, ήρθε επιτέλους ( ; ) η ώρα να μιλήσουμε για βιβλιοθήκες του ``tikz``. Αλλά, ας τα πάρουμε ένα-ένα...
 
 *Αν θέλετε να θυμηθείτε τι έχουμε δει τις προηγούμενες εβδομάδες, δείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
@@ -269,7 +276,7 @@
 
 *Για τις υπόλοιπες αναρτήσεις της σειράς, δείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
 
-Η κεντρική εικόνα είναι ο πίνακας *Η συγκομιδή των σταχυών* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.*
+
 
 .. raw:: html
 

@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2024/06/image.png, wp-content/uploads/2024/06/image-1.png, wp-content/uploads/2024/07/image.png, wp-content/uploads/2024/07/image-1.png, wp-content/uploads/2024/06/image-2.png, wp-content/uploads/2024/07/image-2.png, wp-content/uploads/2024/07/wilhelm_diefenbach_der_rettung_entgegen.jpg, wp-content/uploads/2024/06/image-4.png, wp-content/uploads/2024/06/image-3.png, wp-content/uploads/2024/06/image-5.png, wp-content/uploads/2024/07/image-3.png
 
+.. figure:: /wp-content/uploads/2024/06/image.png, wp-content/uploads/2024/06/image-1.png, wp-content/uploads/2024/07/image.png, wp-content/uploads/2024/07/image-1.png, wp-content/uploads/2024/06/image-2.png, wp-content/uploads/2024/07/image-2.png, wp-content/uploads/2024/07/wilhelm_diefenbach_der_rettung_entgegen.jpg, wp-content/uploads/2024/06/image-4.png, wp-content/uploads/2024/06/image-3.png, wp-content/uploads/2024/06/image-5.png, wp-content/uploads/2024/07/image-3.png
+	:alt: Ο πίνακας *Προς τη Διάσωση* του `Karl Wilhelm Diefenbach <https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach>`__. 
+	:align: center
+
+	Ο πίνακας *Προς τη Διάσωση* του `Karl Wilhelm Diefenbach <https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach>`__. 
+
+
 Τέτοιο καιρό σκέφτομαι συχνά πόσο παροπλιστική είναι η Γ' Λυκείου σε ό,τι έχει να κάνει με τη διδασκαλία - των μαθηματικών, αλλά και εν γένει. Από τη μία, έχεις τόσα ενδιαφέροντα πράγματα να διδάξεις: Διαφορικό και Ολοκληρωτικό Λογισμό στο Γενικό Λύκειο, Στατιστική στο ΕΠΑΛ. Πράγματα που έχουν αμέτρητες εφαρμογές γύρω μας αλλά και, αφού το μέτρο της αξίας των μαθηματικών δεν είναι η «πρακτικότητά» τους, περιοχές της επιστήμης οι οποίες μπορούν να ξαναγεννήσουν αυτή τη μαγική αίσθηση της ανακάλυψης - τόσο στους μαθητές όσο και στους διδάσκοντες.
 
 Αλλά, τι να το κάνεις, η Γ' Λυκείου (Γενικού ή Επαγγελματικού) είναι, κατά κύριο λόγο, μία ατέρμονη πορεία προς την εξέταση, μία αδυσώπητη προπόνηση δίχως τέλος. Οπότε, ποια δημιουργικότητα, ποιος προβληματισμός; Πάνε περίπατο αυτά, παραγκωνισμένα από ένα παράλογα λογικό άγχος για αυτό που επίκειται. Και κάπου εκεί είναι που λίγο εκνευρίζεται κανείς: γιατί δεν μπορούμε να κάνουμε λίγο πιο ενδιαφέροντα αυτά τα πράγματα, γιατί δεν μπορούμε μέσα στην προπόνηση να ανακατέψουμε και λίγη από τη μαγεία της επιστήμης, της διδασκαλίας, της ανακάλυψης;
@@ -156,7 +163,7 @@
 
 Μέχρι το επόμενο «μάθημα», καλό διάβασμα!
 
-Η κεντρική εικόνα είναι ο πίνακας *Προς τη Διάσωση* του `Karl Wilhelm Diefenbach <https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach>`__.
+
 
 .. raw:: html
 

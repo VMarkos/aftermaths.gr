@@ -8,11 +8,18 @@
 :status: published
 :attachments: wp-content/uploads/2021/04/869px-pierre-auguste_renoir_-_jeanne_henriot.jpg
 
+.. figure:: /wp-content/uploads/2021/04/869px-pierre-auguste_renoir_-_jeanne_henriot.jpg
+	:alt: Ο πίνακας *Κοριτσάκι με μπλε καπέλο* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Κοριτσάκι με μπλε καπέλο* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
 Ένα επαναληπτικό τεστ σε βασικές ασκήσεις σε υπαρξιακά θεωρήματα και την κυρτότητα συναρτήσεων στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γ' Λυκείου - προετοιμασία για πανελλήνιες.
 
 Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1NCaOnFn3hKlJT-ujn7BG_Iq6HVTzZOJi/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα είναι ο πίνακας *Κοριτσάκι με μπλε καπέλο* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.*
+
 
 Καλημέρα και καλό διάβασμα!
 

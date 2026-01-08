@@ -8,6 +8,13 @@
 :status: published
 :attachments: wp-content/uploads/2021/04/840px-pierre-auguste_renoir_106.jpg
 
+.. figure:: /wp-content/uploads/2021/04/840px-pierre-auguste_renoir_106.jpg
+	:alt: Το πορτραίτο του Ambroise Vollard του `Pierre-Auguste Renoir. <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__ 
+	:align: center
+
+	Το πορτραίτο του Ambroise Vollard του `Pierre-Auguste Renoir. <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__ 
+
+
 Η αλήθεια είναι ότι συνήθως τα πιο δύσκολα μαθηματικά προβλήματα είναι αυτά που έχουν την πιο απλή διατύπωση. Ένα από αυτά είναι και η περίφημη εικασία του Collatz - Collatz Conjecture - η οποία έχει μία αρκετά απλή και «παιχνιδιάρικη» θα έλεγε κανείς διατύπωση. Για την ακρίβεια, φανταστείτε το εξής παιχνίδι με αριθμούς:
 
 Πάρτε έναν θετικό ακέραιο αριθμό. Αν αυτός είναι άρτιος, διαιρέστε τον με το 2 ενώ αν αυτός είναι περιττός τότε πολλαπλασιάστε τον επί 3 και προσθέστε στο γινόμενο 1. Επαναλάβετε με τον αριθμό που βρήκατε και συνεχίστε αέναα.
@@ -64,7 +71,7 @@
 
 Καλημέρα!
 
-Η κεντρική εικόνα είναι το πορτραίτο του Ambroise Vollard του `Pierre-Auguste Renoir. <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__
+
 
 .. raw:: html
 
