@@ -2,6 +2,7 @@
 
 import os
 import re
+import json
 import logging
 from pathlib import Path
 from glob import glob
@@ -205,13 +206,22 @@ def create_content_tree(root: str) -> None:
     content_tree = { root: dict() }
     with open(Config.CONTENT_TREE, 'r') as file:
         content_tree[root] = json.load(file)
-    visited = [] # BFS traversal of content_dir
-    for d in category_dirs:
-        Path(os.path.join(root, d)).mkdir(exist_ok=True)
+    def __mkdir(d: str) -> None:
+        if not os.path.isdir(d):
+            os.mkdir(d)
+    def rec_mkdir(dir_json: dict[str, dict | None]) -> None:
+        for d in dir_json.keys():
+            __mkdir(d)
+            if dir_json[d] is not None:
+                os.chdir(d)
+                rec_mkdir(dir_json[d])
+                os.chdir('..')
+    # Start recursion
+    rec_mkdir(content_tree)
 
 
 def relocate_file(path: str) -> None:
-    ...
+    create_content_tree(Config.CONTENT_ROOT)
 
 
 def main():
@@ -225,6 +235,8 @@ def main():
         # fix_video_urls(file_path)
         # fix_main_image(file_path)
         # fix_meta_content(file_path)
+        relocate_file(file_path)
+        break
 
 
 if __name__ == "__main__":
