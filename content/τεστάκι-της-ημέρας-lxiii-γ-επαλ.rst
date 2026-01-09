@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXIII (Γ' ΕΠΑΛ)
 ##################################
-:date: 2021-02-19 09:50
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxiii-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
-:status: published
-:attachments: wp-content/uploads/2021/02/1280px-fair_in_brittany_by_eugene_boudin_1874_-_corcoran_gallery_of_art_-_dsc01352-1.jpg
+
+.. meta::
+	:date: 2021-02-19 09:50
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxiii-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2021/02/1280px-fair_in_brittany_by_eugene_boudin_1874_-_corcoran_gallery_of_art_-_dsc01352-1.jpg
 
 .. figure:: /wp-content/uploads/2021/02/1280px-fair_in_brittany_by_eugene_boudin_1874_-_corcoran_gallery_of_art_-_dsc01352-1.jpg
 	:alt: Ο πίνακας *Πανηγύρι στη Βρετάνη* του `Eugène Boudin <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin>`__. 

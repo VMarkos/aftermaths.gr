@@ -1,12 +1,14 @@
 Ανισότητες & Διαστήματα
 #######################
-:date: 2021-10-29 14:58
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πραγματικοί αριθμοί, προβλήματα, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, ανισότητες, διαστήματα
-:slug: %ce%b1%ce%bd%ce%b9%cf%83%cf%8c%cf%84%ce%b7%cf%84%ce%b5%cf%82-%ce%b4%ce%b9%ce%b1%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1
-:status: published
-:attachments: wp-content/uploads/2021/10/1280px-henri_fantin-latour_-_the_temptation_of_st._anthony_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-10-29 14:58
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πραγματικοί αριθμοί, προβλήματα, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, ανισότητες, διαστήματα
+	:slug: %ce%b1%ce%bd%ce%b9%cf%83%cf%8c%cf%84%ce%b7%cf%84%ce%b5%cf%82-%ce%b4%ce%b9%ce%b1%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2021/10/1280px-henri_fantin-latour_-_the_temptation_of_st._anthony_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/10/1280px-henri_fantin-latour_-_the_temptation_of_st._anthony_-_google_art_project.jpg
 	:alt: Ο πίνακας *Ο πειρασμός του Αγίου Αντωνίου* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 

@@ -1,10 +1,12 @@
 After-what?
 ###########
-:date: 2018-09-16 20:12
-:author: aftermathsgr
-:slug: after-what
-:status: published
-:attachments: wp-content/uploads/2018/09/olive-trees-with-yellow-sky-and-sun.jpg
+
+.. meta::
+	:date: 2018-09-16 20:12
+	:author: aftermathsgr
+	:slug: after-what
+	:status: published
+	:attachments: wp-content/uploads/2018/09/olive-trees-with-yellow-sky-and-sun.jpg
 
 .. figure:: /wp-content/uploads/2018/09/olive-trees-with-yellow-sky-and-sun.jpg
 	:alt: Ο πίνακας `Ελαιόδεντρα υπό κίτρινο ουρανό και ήλιο <https://en.wikipedia.org/wiki/Olive_Trees_(Van_Gogh_series)>`__ του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 

@@ -1,12 +1,14 @@
 Πανελλήνιες - Επαναληπτικό Θέμα #9
 ##################################
-:date: 2022-05-04 13:26
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη, λυμένα παραδείγματα
-:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-9
-:status: published
-:attachments: wp-content/uploads/2022/05/delacroix_andromeda.jpg
+
+.. meta::
+	:date: 2022-05-04 13:26
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη, λυμένα παραδείγματα
+	:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-9
+	:status: published
+	:attachments: wp-content/uploads/2022/05/delacroix_andromeda.jpg
 
 .. figure:: /wp-content/uploads/2022/05/delacroix_andromeda.jpg
 	:alt: Ο πίνακας *Περσέας και Ανδρομέδα* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 

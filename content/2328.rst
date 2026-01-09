@@ -1,11 +1,13 @@
 Κορωνοϊός και μαθηματικά
 ########################
-:date: 2020-03-18 23:05
-:author: aftermathsgr
-:category: Χωρίς κατηγορία
-:slug: 2328
-:status: draft
-:attachments: wp-content/uploads/2020/03/first_try.png, wp-content/uploads/2020/03/second_try.png, wp-content/uploads/2020/03/points.png
+
+.. meta::
+	:date: 2020-03-18 23:05
+	:author: aftermathsgr
+	:category: Χωρίς κατηγορία
+	:slug: 2328
+	:status: draft
+	:attachments: wp-content/uploads/2020/03/first_try.png, wp-content/uploads/2020/03/second_try.png, wp-content/uploads/2020/03/points.png
 
 .. figure:: /wp-content/uploads/2020/03/first_try.png, wp-content/uploads/2020/03/second_try.png, wp-content/uploads/2020/03/points.png
 	:alt: 

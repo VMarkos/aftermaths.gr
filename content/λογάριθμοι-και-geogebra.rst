@@ -1,12 +1,14 @@
 Λογάριθμοι και Geogebra
 #######################
-:date: 2021-03-07 19:50
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: featured, φύλλο εργασίας, Β' Λυκείου, άλγεβρα, λογαριθμική
-:slug: %ce%bb%ce%bf%ce%b3%ce%ac%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%ce%b9-%ce%ba%ce%b1%ce%b9-geogebra
-:status: published
-:attachments: wp-content/uploads/2021/03/frederic_bazille_-_bazilles_studio_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-03-07 19:50
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, φύλλο εργασίας, Β' Λυκείου, άλγεβρα, λογαριθμική
+	:slug: %ce%bb%ce%bf%ce%b3%ce%ac%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%ce%b9-%ce%ba%ce%b1%ce%b9-geogebra
+	:status: published
+	:attachments: wp-content/uploads/2021/03/frederic_bazille_-_bazilles_studio_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/03/frederic_bazille_-_bazilles_studio_-_google_art_project.jpg
 	:alt: Ο πίνακας *Στούντιο στην οδό Condamine* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 

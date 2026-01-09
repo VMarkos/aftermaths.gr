@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXIX (Γ' Λυκείου)
 ####################################
-:date: 2021-03-08 09:25
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: παράγωγος, πανελλήνιες, τεστ, Γ' λυκείου, ασκήσεις, ακρότατα, επανάληψη, μαθηματικά, μονοτονία
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxix-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2021/03/bazille_-_pecheur_a_lepervier.jpg
+
+.. meta::
+	:date: 2021-03-08 09:25
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παράγωγος, πανελλήνιες, τεστ, Γ' λυκείου, ασκήσεις, ακρότατα, επανάληψη, μαθηματικά, μονοτονία
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxix-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2021/03/bazille_-_pecheur_a_lepervier.jpg
 
 .. figure:: /wp-content/uploads/2021/03/bazille_-_pecheur_a_lepervier.jpg
 	:alt: Ο πίνακας *Ψαράς με δίχτυ* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 

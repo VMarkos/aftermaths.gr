@@ -1,12 +1,14 @@
 Ασκήσεις στις παραγώγους (Μονοτονία)
 ####################################
-:date: 2019-02-20 23:12
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, παράγωγος, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις, επανάληψη, μονοτονία
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%bf%cf%85%cf%82-%ce%bc%ce%bf%ce%bd%ce%bf%cf%84%ce%bf%ce%bd%ce%af%ce%b1
-:status: published
-:attachments: wp-content/uploads/2019/02/464px-giuseppe_arcimboldo_-_the_waiter_-_wga0835.jpg
+
+.. meta::
+	:date: 2019-02-20 23:12
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις, επανάληψη, μονοτονία
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%bf%cf%85%cf%82-%ce%bc%ce%bf%ce%bd%ce%bf%cf%84%ce%bf%ce%bd%ce%af%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2019/02/464px-giuseppe_arcimboldo_-_the_waiter_-_wga0835.jpg
 
 .. figure:: /wp-content/uploads/2019/02/464px-giuseppe_arcimboldo_-_the_waiter_-_wga0835.jpg
 	:alt: Ο πίνακας *Ο υπηρέτης* του `Giuseppe Arcimboldo <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 

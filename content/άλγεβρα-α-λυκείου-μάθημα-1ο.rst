@@ -1,12 +1,14 @@
 Άλγεβρα, Α' Λυκείου - Μάθημα 1ο
 ###############################
-:date: 2021-09-13 09:40
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, σύνολα, Α' Λυκείου, άλγεβρα, ασκήσεις, εισαγωγή
-:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-1%ce%bf
-:status: published
-:attachments: wp-content/uploads/2021/09/1226px-hay_harvest_at_eragny_1901_camille_pissarro.jpg
+
+.. meta::
+	:date: 2021-09-13 09:40
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, σύνολα, Α' Λυκείου, άλγεβρα, ασκήσεις, εισαγωγή
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-1%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2021/09/1226px-hay_harvest_at_eragny_1901_camille_pissarro.jpg
 
 .. figure:: /wp-content/uploads/2021/09/1226px-hay_harvest_at_eragny_1901_camille_pissarro.jpg
 	:alt: Ο πίνακας *Θερισμός σταχυών στην Éragny* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 

@@ -1,12 +1,14 @@
 Τεστάκι στις γραφικές παραστάσεις (Γ' λυκείου)
 ##############################################
-:date: 2019-07-01 22:03
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ασκήσεις, γραφική παράσταση
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%83%cf%84%ce%b9%cf%82-%ce%b3%cf%81%ce%b1%cf%86%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82-%ce%b3-%ce%bb
-:status: published
-:attachments: wp-content/uploads/2019/07/escher_snakes.jpg
+
+.. meta::
+	:date: 2019-07-01 22:03
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ασκήσεις, γραφική παράσταση
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%83%cf%84%ce%b9%cf%82-%ce%b3%cf%81%ce%b1%cf%86%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82-%ce%b3-%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2019/07/escher_snakes.jpg
 
 .. figure:: /wp-content/uploads/2019/07/escher_snakes.jpg
 	:alt: Το τελευταίο έργο, *Φίδια*, του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 

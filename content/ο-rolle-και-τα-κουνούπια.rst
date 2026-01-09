@@ -1,12 +1,14 @@
 Ο Rolle και τα κουνούπια
 ########################
-:date: 2022-01-30 23:48
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, πανελλήνιες, Α' Λυκείου, Rolle
-:slug: %ce%bf-rolle-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b1-%ce%ba%ce%bf%cf%85%ce%bd%ce%bf%cf%8d%cf%80%ce%b9%ce%b1
-:status: published
-:attachments: wp-content/uploads/2022/01/jenny_montigny.kleuterschool_te_deurle.jpg
+
+.. meta::
+	:date: 2022-01-30 23:48
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, πανελλήνιες, Α' Λυκείου, Rolle
+	:slug: %ce%bf-rolle-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b1-%ce%ba%ce%bf%cf%85%ce%bd%ce%bf%cf%8d%cf%80%ce%b9%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2022/01/jenny_montigny.kleuterschool_te_deurle.jpg
 
 .. figure:: /wp-content/uploads/2022/01/jenny_montigny.kleuterschool_te_deurle.jpg
 	:alt: Ο πίνακας *Νηπιαγωγείο στην Deurle* της `Jenny Montigny <https://en.wikipedia.org/wiki/Jenny_Montigny>`__. 

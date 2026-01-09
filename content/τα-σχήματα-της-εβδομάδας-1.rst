@@ -1,11 +1,13 @@
 Τα σχήματα της εβδομάδας! (1)
 #############################
-:date: 2021-08-17 12:59
-:author: aftermathsgr
-:tags: featured, ένα σχήμα την ημέρα, Tikz
-:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-1
-:status: published
-:attachments: wp-content/uploads/2021/08/camille_pissarro_012.jpg
+
+.. meta::
+	:date: 2021-08-17 12:59
+	:author: aftermathsgr
+	:tags: featured, ένα σχήμα την ημέρα, Tikz
+	:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-1
+	:status: published
+	:attachments: wp-content/uploads/2021/08/camille_pissarro_012.jpg
 
 .. figure:: /wp-content/uploads/2021/08/camille_pissarro_012.jpg
 	:alt: Ο πίνακας *Είσοδος στο χωριό Voisins* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 

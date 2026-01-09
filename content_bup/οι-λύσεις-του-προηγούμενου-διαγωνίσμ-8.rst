@@ -1,0 +1,34 @@
+Οι λύσεις του προηγούμενου διαγωνίσματος (Γ' ΕΠΑΛ)
+##################################################
+:date: 2021-04-14 12:14
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, παράγωγος, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διαγώνισμα, επανάληψη, λύσεις, μαθηματικά
+:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%ce%b4%ce%b9%ce%b1%ce%b3%cf%89%ce%bd%ce%af%cf%83%ce%bc-8
+:status: published
+:attachments: wp-content/uploads/2021/04/pierre-auguste_renoir_-_suzanne_valadon_-_la_natte_-_girl_braiding_her_hair.jpg
+
+.. figure:: /wp-content/uploads/2021/04/pierre-auguste_renoir_-_suzanne_valadon_-_la_natte_-_girl_braiding_her_hair.jpg
+	:alt: Ο πίνακας *Κοπέλα που πλέκει τα μαλλιά της* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Κοπέλα που πλέκει τα μαλλιά της* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
+Τις λύσεις του `προηγούμενου επαναληπτικού διαγωνίσματος εφ' όλης της κορωνοΰλης <https://aftermathsgr.wordpress.com/2021/03/16/%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%ba%ce%bf%cf%81%cf%89%ce%bd%ce%bf%ce%b0%ce%bb%ce%b7%cf%82/>`__ μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1ooH1G-KIrGn8s6NpgddxBp4lt1ANA4-K/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλησπέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: W62tzZdwDYw 
+
+.. raw:: html
+
+   </figure>

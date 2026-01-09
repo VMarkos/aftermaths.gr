@@ -1,11 +1,13 @@
 Τα σχήματα της εβδομάδας (9)
 ############################
-:date: 2021-10-12 11:18
-:author: aftermathsgr
-:tags: featured, Μαθηματικά, Tikz
-:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-9
-:status: published
-:attachments: wp-content/uploads/2021/10/thomas_couture_-_lawyer_going_to_court_-_walters_371204.jpg
+
+.. meta::
+	:date: 2021-10-12 11:18
+	:author: aftermathsgr
+	:tags: featured, Μαθηματικά, Tikz
+	:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-9
+	:status: published
+	:attachments: wp-content/uploads/2021/10/thomas_couture_-_lawyer_going_to_court_-_walters_371204.jpg
 
 .. figure:: /wp-content/uploads/2021/10/thomas_couture_-_lawyer_going_to_court_-_walters_371204.jpg
 	:alt: Ο πίνακας *Δικηγόρος πηγαίνει στο δικαστήριο* του `Thomas Couture <https://en.wikipedia.org/wiki/Thomas_Couture>`__. 

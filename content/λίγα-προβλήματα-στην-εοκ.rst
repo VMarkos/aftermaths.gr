@@ -1,12 +1,14 @@
 Λίγα προβλήματα στην ΕΟΚ
 ########################
-:date: 2018-10-18 15:40
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Φυσική
-:tags: προβλήματα, Α' Λυκείου, ΕΟΚ, ασκήσεις
-:slug: %ce%bb%ce%af%ce%b3%ce%b1-%cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b7%ce%bd-%ce%b5%ce%bf%ce%ba
-:status: published
-:attachments: wp-content/uploads/2018/10/le-semeur-van-gogh.jpg
+
+.. meta::
+	:date: 2018-10-18 15:40
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Φυσική
+	:tags: προβλήματα, Α' Λυκείου, ΕΟΚ, ασκήσεις
+	:slug: %ce%bb%ce%af%ce%b3%ce%b1-%cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b7%ce%bd-%ce%b5%ce%bf%ce%ba
+	:status: published
+	:attachments: wp-content/uploads/2018/10/le-semeur-van-gogh.jpg
 
 .. figure:: /wp-content/uploads/2018/10/le-semeur-van-gogh.jpg
 	:alt: Ο πίνακας *Ο σπορέας και το ηλιοβασίλεμα* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 

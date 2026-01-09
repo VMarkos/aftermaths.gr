@@ -1,12 +1,14 @@
 Ασκήσεις στο ΘΜΤ
 ################
-:date: 2022-02-06 21:28
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ΘΜΤ, ασκήσεις
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%bf-%ce%b8%ce%bc%cf%84
-:status: published
-:attachments: wp-content/uploads/2022/02/joors_lady_with_parrot.jpg
+
+.. meta::
+	:date: 2022-02-06 21:28
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ΘΜΤ, ασκήσεις
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%bf-%ce%b8%ce%bc%cf%84
+	:status: published
+	:attachments: wp-content/uploads/2022/02/joors_lady_with_parrot.jpg
 
 .. figure:: /wp-content/uploads/2022/02/joors_lady_with_parrot.jpg
 	:alt: Ο πίνακας *Δεσποινίδα με παπαγάλο* του `Eugène Joors <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Joors>`__. 

@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXVIII (Β' Λυκείου)
 ######################################
-:date: 2021-03-05 13:53
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: τεστ, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxviii-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2021/03/1250px-jean_frederic_bazille_-_etude_pour_une_vendange_left_1868.jpg
+
+.. meta::
+	:date: 2021-03-05 13:53
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τεστ, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxviii-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2021/03/1250px-jean_frederic_bazille_-_etude_pour_une_vendange_left_1868.jpg
 
 .. figure:: /wp-content/uploads/2021/03/1250px-jean_frederic_bazille_-_etude_pour_une_vendange_left_1868.jpg
 	:alt: Ο πίνακας *Σπουδή σε έναν αμπελώνα* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 

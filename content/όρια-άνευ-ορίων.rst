@@ -1,12 +1,14 @@
 Όρια... άνευ ορίων
 ##################
-:date: 2020-07-05 22:06
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πανελλήνιες, συναρτήσεις, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις
-:slug: %cf%8c%cf%81%ce%b9%ce%b1-%ce%ac%ce%bd%ce%b5%cf%85-%ce%bf%cf%81%ce%af%cf%89%ce%bd
-:status: published
-:attachments: wp-content/uploads/2020/07/smedjen_i_hornbc3a6k_p._s._krc3b8yer.jpg
+
+.. meta::
+	:date: 2020-07-05 22:06
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, συναρτήσεις, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις
+	:slug: %cf%8c%cf%81%ce%b9%ce%b1-%ce%ac%ce%bd%ce%b5%cf%85-%ce%bf%cf%81%ce%af%cf%89%ce%bd
+	:status: published
+	:attachments: wp-content/uploads/2020/07/smedjen_i_hornbc3a6k_p._s._krc3b8yer.jpg
 
 .. figure:: /wp-content/uploads/2020/07/smedjen_i_hornbc3a6k_p._s._krc3b8yer.jpg
 	:alt: Ο πίνακας *Ο σιδεράς στο Hornbæk* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 

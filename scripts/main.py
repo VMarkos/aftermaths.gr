@@ -180,11 +180,38 @@ def fix_main_image(path: str) -> None:
 
 
 def meta_fix_fn(line: str, params: dict[str, any]) -> str:
-    ...
+    in_meta = params.get('meta')
+    match in_meta:
+        case None:
+            if re.match(r'^#+$', line.strip()):
+                params['meta'] = True
+                return "\n" + line.strip() + "\n\n.. meta::\n"
+            else:
+                return line.strip()
+        case True:
+            if re.match(r':attachments: ', line.strip()):
+                params['meta'] = False
+            return '\t' + line
+        case False:
+            return line
+
 
 
 def fix_meta_content(path: str) -> None:
     fix_content(path, meta_fix_fn)
+
+
+def create_content_tree(root: str) -> None:
+    content_tree = { root: dict() }
+    with open(Config.CONTENT_TREE, 'r') as file:
+        content_tree[root] = json.load(file)
+    visited = [] # BFS traversal of content_dir
+    for d in category_dirs:
+        Path(os.path.join(root, d)).mkdir(exist_ok=True)
+
+
+def relocate_file(path: str) -> None:
+    ...
 
 
 def main():
@@ -196,7 +223,8 @@ def main():
         # fix_math_content(file_path)
         # fix_forward_slashes(file_path)
         # fix_video_urls(file_path)
-        fix_main_image(file_path)
+        # fix_main_image(file_path)
+        # fix_meta_content(file_path)
 
 
 if __name__ == "__main__":

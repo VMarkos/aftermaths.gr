@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας ΧΧΙΙΙ (Α' Λυκείου)
 #####################################
-:date: 2020-11-22 09:15
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: τεστ, Α' Λυκείου, άλγεβρα, απόλυτη τιμή, ασκήσεις, επανάληψη, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%cf%87%cf%87%ce%b9%ce%b9%ce%b9-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2020/11/1045px-robert_delaunay_1915_nu_a_la_toilette_nu_a_la_coiffeuse_oil_on_canvas_140_c397_142_cm_musee_dart_moderne_de_la_ville_de_paris.jpg
+
+.. meta::
+	:date: 2020-11-22 09:15
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τεστ, Α' Λυκείου, άλγεβρα, απόλυτη τιμή, ασκήσεις, επανάληψη, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%cf%87%cf%87%ce%b9%ce%b9%ce%b9-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2020/11/1045px-robert_delaunay_1915_nu_a_la_toilette_nu_a_la_coiffeuse_oil_on_canvas_140_c397_142_cm_musee_dart_moderne_de_la_ville_de_paris.jpg
 
 .. figure:: /wp-content/uploads/2020/11/1045px-robert_delaunay_1915_nu_a_la_toilette_nu_a_la_coiffeuse_oil_on_canvas_140_c397_142_cm_musee_dart_moderne_de_la_ville_de_paris.jpg
 	:alt: Ο πίνακας *Γυμνή γυναίκα στην τουαλέτα* του `Robert Delaunay. <https://en.wikipedia.org/wiki/Robert_Delaunay>`__ 

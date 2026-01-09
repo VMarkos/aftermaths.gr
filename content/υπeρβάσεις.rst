@@ -1,12 +1,14 @@
 Υπeρβάσεις
 ##########
-:date: 2021-04-04 15:45
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, άρρητοι, μαθηματικά
-:slug: %cf%85%cf%80e%cf%81%ce%b2%ce%ac%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/04/pierre-auguste_renoir_-_by_the_water.jpg
+
+.. meta::
+	:date: 2021-04-04 15:45
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, άρρητοι, μαθηματικά
+	:slug: %cf%85%cf%80e%cf%81%ce%b2%ce%ac%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/04/pierre-auguste_renoir_-_by_the_water.jpg
 
 .. figure:: /wp-content/uploads/2021/04/pierre-auguste_renoir_-_by_the_water.jpg
 	:alt: Ο πίνακας *Δίπλα στη λίμνη* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

@@ -1,12 +1,14 @@
 Αποδειξούλες!
 #############
-:date: 2020-02-02 00:00
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: featured, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, αποδείξεις, επανάληψη, ολοκλήρωμα
-:slug: %ce%b1%cf%80%ce%bf%ce%b4%ce%b5%ce%b9%ce%be%ce%bf%cf%8d%ce%bb%ce%b5%cf%82
-:status: published
-:attachments: wp-content/uploads/2020/02/proof.png
+
+.. meta::
+	:date: 2020-02-02 00:00
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, αποδείξεις, επανάληψη, ολοκλήρωμα
+	:slug: %ce%b1%cf%80%ce%bf%ce%b4%ce%b5%ce%b9%ce%be%ce%bf%cf%8d%ce%bb%ce%b5%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2020/02/proof.png
 
 .. figure:: /wp-content/uploads/2020/02/proof.png
 	:alt: Ένα αγαπημένο webcomic του `Randall Munroe <https://xkcd.com/>`__. 

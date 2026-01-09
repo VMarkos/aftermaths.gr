@@ -1,12 +1,14 @@
 Όρια, πολλά όρια...
 ###################
-:date: 2021-11-02 11:33
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πανελλήνιες, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη
-:slug: %cf%8c%cf%81%ce%b9%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%8c%cf%81%ce%b9%ce%b1
-:status: published
-:attachments: wp-content/uploads/2021/11/charlotte_dubourg_par_fantin-latour.jpg
+
+.. meta::
+	:date: 2021-11-02 11:33
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη
+	:slug: %cf%8c%cf%81%ce%b9%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%8c%cf%81%ce%b9%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2021/11/charlotte_dubourg_par_fantin-latour.jpg
 
 .. figure:: /wp-content/uploads/2021/11/charlotte_dubourg_par_fantin-latour.jpg
 	:alt: Το πορτραίτο της *Charlotte Dubourg* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 

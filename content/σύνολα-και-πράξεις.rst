@@ -1,12 +1,14 @@
 Σύνολα και Πράξεις
 ##################
-:date: 2023-10-04 11:59
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: σύνολα, φύλλο εργασίας, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
-:slug: %cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%80%cf%81%ce%ac%ce%be%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2023/10/luigi_russolo_1912_sintesi_plastica_dei_movimenti_di_una_donna_synthese_plastique_des_mouvements_dune_femme_oil_on_canvas_86_x_65_cm_musee_de_grenoble.jpg
+
+.. meta::
+	:date: 2023-10-04 11:59
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: σύνολα, φύλλο εργασίας, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
+	:slug: %cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%80%cf%81%ce%ac%ce%be%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2023/10/luigi_russolo_1912_sintesi_plastica_dei_movimenti_di_una_donna_synthese_plastique_des_mouvements_dune_femme_oil_on_canvas_86_x_65_cm_musee_de_grenoble.jpg
 
 .. figure:: /wp-content/uploads/2023/10/luigi_russolo_1912_sintesi_plastica_dei_movimenti_di_una_donna_synthese_plastique_des_mouvements_dune_femme_oil_on_canvas_86_x_65_cm_musee_de_grenoble.jpg
 	:alt: Ο πίνακας *Πλαστική σύνθεση των κινήσεων μίας κυρίας* του `Luigi Russolo <https://en.wikipedia.org/wiki/Luigi_Russolo>`__. 

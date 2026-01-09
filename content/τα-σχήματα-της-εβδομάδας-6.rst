@@ -1,11 +1,13 @@
 Τα σχήματα της εβδομάδας (6)
 ############################
-:date: 2021-09-21 15:16
-:author: aftermathsgr
-:tags: featured, Μαθηματικά, Tikz
-:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-6
-:status: published
-:attachments: wp-content/uploads/2021/09/camille_pissarro_-_boulevard_montmartre_at_night_-_c_1897_-_national_gallery_uk.jpg
+
+.. meta::
+	:date: 2021-09-21 15:16
+	:author: aftermathsgr
+	:tags: featured, Μαθηματικά, Tikz
+	:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-6
+	:status: published
+	:attachments: wp-content/uploads/2021/09/camille_pissarro_-_boulevard_montmartre_at_night_-_c_1897_-_national_gallery_uk.jpg
 
 .. figure:: /wp-content/uploads/2021/09/camille_pissarro_-_boulevard_montmartre_at_night_-_c_1897_-_national_gallery_uk.jpg
 	:alt: Ο πίνακας *Η Λεωφόρος Μονμάρτης τη νύχτα* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 

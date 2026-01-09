@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXXIV - Λύσεις
 #################################
-:date: 2021-03-20 09:33
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: παράγωγος, πανελλήνιες, τεστ, όρια, Γ' λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxiv-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/03/838px-lise_sewing_-_1866.jpg
+
+.. meta::
+	:date: 2021-03-20 09:33
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παράγωγος, πανελλήνιες, τεστ, όρια, Γ' λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxiv-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/03/838px-lise_sewing_-_1866.jpg
 
 .. figure:: /wp-content/uploads/2021/03/838px-lise_sewing_-_1866.jpg
 	:alt: Ο πίνακας *Η Lise πλέκει* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

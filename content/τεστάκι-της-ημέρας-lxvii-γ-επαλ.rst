@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXVII (Γ' ΕΠΑΛ)
 ##################################
-:date: 2021-03-01 09:52
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: πανελλήνιες, στατιστική, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxvii-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
-:status: published
-:attachments: wp-content/uploads/2021/02/frederic_bazille_-_the_little_gardener_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-03-01 09:52
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: πανελλήνιες, στατιστική, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxvii-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2021/02/frederic_bazille_-_the_little_gardener_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/02/frederic_bazille_-_the_little_gardener_-_google_art_project.jpg
 	:alt: Ο πίνακας *Ο μικρός κηπουρός* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 

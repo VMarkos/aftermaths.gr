@@ -1,12 +1,14 @@
 Κίνηση σε πολλές διαστάσεις
 ###########################
-:date: 2018-09-17 21:24
-:author: aftermathsgr
-:category: Απόψεις, Μαθηματικά
-:tags: αμπελοφιλοσοφία
-:slug: %ce%ba%ce%af%ce%bd%ce%b7%cf%83%ce%b7-%cf%83%ce%b5-%cf%80%ce%bf%ce%bb%ce%bb%ce%ad%cf%82-%ce%b4%ce%b9%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2018/09/1200px-caspar_david_friedrich_zwei_mc3a4nner_am_meer.jpg
+
+.. meta::
+	:date: 2018-09-17 21:24
+	:author: aftermathsgr
+	:category: Απόψεις, Μαθηματικά
+	:tags: αμπελοφιλοσοφία
+	:slug: %ce%ba%ce%af%ce%bd%ce%b7%cf%83%ce%b7-%cf%83%ce%b5-%cf%80%ce%bf%ce%bb%ce%bb%ce%ad%cf%82-%ce%b4%ce%b9%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2018/09/1200px-caspar_david_friedrich_zwei_mc3a4nner_am_meer.jpg
 
 .. figure:: /wp-content/uploads/2018/09/1200px-caspar_david_friedrich_zwei_mc3a4nner_am_meer.jpg
 	:alt: 

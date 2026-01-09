@@ -1,12 +1,14 @@
 Ασκήσεις στις απόλυτες τιμές
 ############################
-:date: 2021-11-09 12:30
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, ασκήσεις, επανάληψη
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82-2
-:status: published
-:attachments: wp-content/uploads/2021/11/david_self_portrait.jpg
+
+.. meta::
+	:date: 2021-11-09 12:30
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, ασκήσεις, επανάληψη
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82-2
+	:status: published
+	:attachments: wp-content/uploads/2021/11/david_self_portrait.jpg
 
 .. figure:: /wp-content/uploads/2021/11/david_self_portrait.jpg
 	:alt: Μία αυτοπροσωπογραφία του `Jacques-Lousi David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 

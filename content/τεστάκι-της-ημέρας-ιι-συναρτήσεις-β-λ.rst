@@ -1,12 +1,14 @@
 Τεστάκι της Ημέρας ΙΙ - Συναρτήσεις (Β' Λυκείου)
 ################################################
-:date: 2020-10-30 11:39
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: συναρτήσεις, τεστ, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b9%ce%b9-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%b2-%ce%bb
-:status: published
-:attachments: wp-content/uploads/2020/10/gugg_hilterfingen.jpg
+
+.. meta::
+	:date: 2020-10-30 11:39
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: συναρτήσεις, τεστ, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b9%ce%b9-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%b2-%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2020/10/gugg_hilterfingen.jpg
 
 .. figure:: /wp-content/uploads/2020/10/gugg_hilterfingen.jpg
 	:alt: Ο πίνακας *Hilterfingen* του `Paul Klee <https://en.wikipedia.org/wiki/Paul_Klee>`__. 

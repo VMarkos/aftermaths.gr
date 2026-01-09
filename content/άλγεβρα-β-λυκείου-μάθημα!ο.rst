@@ -1,12 +1,14 @@
 Άλγεβρα, Β' Λυκείου - Μάθημα 21ο
 ################################
-:date: 2022-02-16 12:16
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πολυώνυμα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ανισώσεις, διαφάνειες, θεωρία, λυμένα παραδείγματα
-:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-21%ce%bf
-:status: published
-:attachments: wp-content/uploads/2022/02/814px-anna_alma_tadema_1864-1940_and_laurense_alma_tadema_1865-1940_by_lawrence_alma-tadema.jpg
+
+.. meta::
+	:date: 2022-02-16 12:16
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πολυώνυμα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ανισώσεις, διαφάνειες, θεωρία, λυμένα παραδείγματα
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-21%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2022/02/814px-anna_alma_tadema_1864-1940_and_laurense_alma_tadema_1865-1940_by_lawrence_alma-tadema.jpg
 
 .. figure:: /wp-content/uploads/2022/02/814px-anna_alma_tadema_1864-1940_and_laurense_alma_tadema_1865-1940_by_lawrence_alma-tadema.jpg
 	:alt: Ο πίνακας *Η γωνιά μας (πορτραίτο της κόρης του καλλιτέχνη)* του `Lawrence Alma-Tadema <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 

@@ -1,12 +1,14 @@
 Ασκήσεις στις ρίζες μεγαλύτερης τάξης/ρητούς εκθέτες
 ####################################################
-:date: 2018-09-15 15:18
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: ρίζες, Α' Λυκείου, ασκήσεις
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%81%ce%af%ce%b6%ce%b5%cf%82-%ce%bc%ce%b5%ce%b3%ce%b1%ce%bb%cf%8d%cf%84%ce%b5%cf%81%ce%b7%cf%82-%cf%84%ce%ac%ce%be%ce%b7
-:status: published
-:attachments: wp-content/uploads/2018/09/geopoliticus-child-watching-the-birth-of-the-new-man.jpg
+
+.. meta::
+	:date: 2018-09-15 15:18
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: ρίζες, Α' Λυκείου, ασκήσεις
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%81%ce%af%ce%b6%ce%b5%cf%82-%ce%bc%ce%b5%ce%b3%ce%b1%ce%bb%cf%8d%cf%84%ce%b5%cf%81%ce%b7%cf%82-%cf%84%ce%ac%ce%be%ce%b7
+	:status: published
+	:attachments: wp-content/uploads/2018/09/geopoliticus-child-watching-the-birth-of-the-new-man.jpg
 
 .. figure:: /wp-content/uploads/2018/09/geopoliticus-child-watching-the-birth-of-the-new-man.jpg
 	:alt: `γεωπολιτικό παιδί παρακολουθεί τη γέννηση του νέου ανθρώπου <https://en.wikipedia.org/wiki/Geopoliticus_Child_Watching_the_Birth_of_the_New_Man>`__ του `Salvador Dali <https://en.wikipedia.org/wiki/Salvador_Dal%C3%AD>`__\ *.* 

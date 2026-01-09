@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LI - Λύσεις
 ##############################
-:date: 2021-01-23 10:04
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: παράγωγος, πανελλήνιες, τεστ, όρια, Γ' λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, λύσεις
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-li-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/01/kramskoi_vanamees_karguga.jpg
+
+.. meta::
+	:date: 2021-01-23 10:04
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παράγωγος, πανελλήνιες, τεστ, όρια, Γ' λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, λύσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-li-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/01/kramskoi_vanamees_karguga.jpg
 
 .. figure:: /wp-content/uploads/2021/01/kramskoi_vanamees_karguga.jpg
 	:alt: Ο πίνακας *Γέρος άντρας με μπαστούνι* του `Ivan Kramskoi <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 

@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXXXVI - Λύσεις
 ##################################
-:date: 2021-04-17 09:25
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: πανελλήνιες, στατιστική, συναρτήσεις, τεστ, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, λύσεις
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxxvi-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/04/pierre_auguste_renoir_la_famille_d_artiste.jpg
+
+.. meta::
+	:date: 2021-04-17 09:25
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: πανελλήνιες, στατιστική, συναρτήσεις, τεστ, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, λύσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxxvi-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/04/pierre_auguste_renoir_la_famille_d_artiste.jpg
 
 .. figure:: /wp-content/uploads/2021/04/pierre_auguste_renoir_la_famille_d_artiste.jpg
 	:alt: Ο πίνακας *Η οικογένεια του Pierre-Auguste Renoir* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

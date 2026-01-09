@@ -1,12 +1,14 @@
 Τι λέει το Θεώρημα του Bolzano;
 ###############################
-:date: 2021-12-19 21:35
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, Αξίωμα της πληρότητας
-:slug: %cf%84%ce%b9-%ce%bb%ce%ad%ce%b5%ce%b9-%cf%84%ce%bf-%ce%b8%ce%b5%cf%8e%cf%81%ce%b7%ce%bc%ce%b1-%cf%84%ce%bf%cf%85-bolzano
-:status: published
-:attachments: wp-content/uploads/2021/12/emile_claus_-_zonnegloed_1905_-_museum_dhondt-dhaenens_te_deurle_12-02-2010_15-17-56.jpg
+
+.. meta::
+	:date: 2021-12-19 21:35
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, Αξίωμα της πληρότητας
+	:slug: %cf%84%ce%b9-%ce%bb%ce%ad%ce%b5%ce%b9-%cf%84%ce%bf-%ce%b8%ce%b5%cf%8e%cf%81%ce%b7%ce%bc%ce%b1-%cf%84%ce%bf%cf%85-bolzano
+	:status: published
+	:attachments: wp-content/uploads/2021/12/emile_claus_-_zonnegloed_1905_-_museum_dhondt-dhaenens_te_deurle_12-02-2010_15-17-56.jpg
 
 .. figure:: /wp-content/uploads/2021/12/emile_claus_-_zonnegloed_1905_-_museum_dhondt-dhaenens_te_deurle_12-02-2010_15-17-56.jpg
 	:alt: Ο πίνακας *Η λάμψη του Ήλιου* του `Emile Claus <https://en.wikipedia.org/wiki/Emile_Claus>`__\ *.* 

@@ -1,12 +1,14 @@
 Ασκήσεις σε μονοτονία και «1-1» - Λύσεις
 ########################################
-:date: 2021-09-25 12:21
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: 1-1, προβλήματα, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις, μαθηματικά, μονοτονία
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%ce%bc%ce%bf%ce%bd%ce%bf%cf%84%ce%bf%ce%bd%ce%af%ce%b1-%ce%ba%ce%b1%ce%b9-1-1-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/09/le_labourage_berelles.png
+
+.. meta::
+	:date: 2021-09-25 12:21
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: 1-1, προβλήματα, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις, μαθηματικά, μονοτονία
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%ce%bc%ce%bf%ce%bd%ce%bf%cf%84%ce%bf%ce%bd%ce%af%ce%b1-%ce%ba%ce%b1%ce%b9-1-1-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/09/le_labourage_berelles.png
 
 .. figure:: /wp-content/uploads/2021/09/le_labourage_berelles.png
 	:alt: Ο πίνακας *Δουλεύοντας, Bérelles* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 

@@ -1,12 +1,14 @@
 Διαφάνειες Μαθηματικά - Γ' Λυκείου
 ##################################
-:date: 2020-12-14 10:26
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πανελλήνιες, σημειώσεις, Α' Λυκείου, Β' Λυκείου, Γ' λυκείου, ασκήσεις, διαφάνειες, εξισώσεις, θεωρία, λυμένα παραδείγματα, μαθηματικά
-:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%bc%ce%b1%ce%b8%ce%b7%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%ce%ac-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2020/12/chase_william_merritt_self_portrait_1915.jpg
+
+.. meta::
+	:date: 2020-12-14 10:26
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, σημειώσεις, Α' Λυκείου, Β' Λυκείου, Γ' λυκείου, ασκήσεις, διαφάνειες, εξισώσεις, θεωρία, λυμένα παραδείγματα, μαθηματικά
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%bc%ce%b1%ce%b8%ce%b7%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%ce%ac-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2020/12/chase_william_merritt_self_portrait_1915.jpg
 
 .. figure:: /wp-content/uploads/2020/12/chase_william_merritt_self_portrait_1915.jpg
 	:alt: Μία αυτοπροσωπογραφία του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 

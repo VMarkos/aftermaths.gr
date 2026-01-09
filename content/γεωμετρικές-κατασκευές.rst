@@ -1,12 +1,14 @@
 Γεωμετρικές κατασκευές
 ######################
-:date: 2019-10-06 18:52
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Α' Λυκείου, ασκήσεις, γεωμετρία, επανάληψη, κατασκευές
-:slug: %ce%b3%ce%b5%cf%89%ce%bc%ce%b5%cf%84%cf%81%ce%b9%ce%ba%ce%ad%cf%82-%ce%ba%ce%b1%cf%84%ce%b1%cf%83%ce%ba%ce%b5%cf%85%ce%ad%cf%82
-:status: published
-:attachments: wp-content/uploads/2019/10/vassily_kandinsky_1926_-_several_circles_gugg_0910_25.jpg
+
+.. meta::
+	:date: 2019-10-06 18:52
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, ασκήσεις, γεωμετρία, επανάληψη, κατασκευές
+	:slug: %ce%b3%ce%b5%cf%89%ce%bc%ce%b5%cf%84%cf%81%ce%b9%ce%ba%ce%ad%cf%82-%ce%ba%ce%b1%cf%84%ce%b1%cf%83%ce%ba%ce%b5%cf%85%ce%ad%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2019/10/vassily_kandinsky_1926_-_several_circles_gugg_0910_25.jpg
 
 .. figure:: /wp-content/uploads/2019/10/vassily_kandinsky_1926_-_several_circles_gugg_0910_25.jpg
 	:alt: Ο πίνακας *Διάφοροι κύκλοι* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 

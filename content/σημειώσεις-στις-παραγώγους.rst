@@ -1,12 +1,14 @@
 Σημειώσεις στις παραγώγους
 ##########################
-:date: 2021-01-10 10:07
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: featured, Fermat, προβλήματα, παράγωγος, πανελλήνιες, σημειώσεις, Γ' λυκείου, ΘΜΤ, ασκήσεις, μαθηματικά, l&#039;hospital
-:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%bf%cf%85%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/01/hilma_af_klint_-_1915_-_the_swan_no._18.jpg
+
+.. meta::
+	:date: 2021-01-10 10:07
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, Fermat, προβλήματα, παράγωγος, πανελλήνιες, σημειώσεις, Γ' λυκείου, ΘΜΤ, ασκήσεις, μαθηματικά, l&#039;hospital
+	:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%bf%cf%85%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/01/hilma_af_klint_-_1915_-_the_swan_no._18.jpg
 
 .. figure:: /wp-content/uploads/2021/01/hilma_af_klint_-_1915_-_the_swan_no._18.jpg
 	:alt: Ο πίνακας *Ο κύκνος, Αρ. 18* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\ *.* 

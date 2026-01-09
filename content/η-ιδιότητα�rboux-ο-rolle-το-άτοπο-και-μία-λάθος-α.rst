@@ -1,12 +1,14 @@
 Η ιδιότητα Darboux, ο Rolle, το άτοπο, και μία λάθος απόδειξη
 #############################################################
-:date: 2019-03-22 22:56
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Darboux, Fermat, προβλήματα, πανελλήνιες, Γ' λυκείου, ΘΜΕΤ, ασκήσεις, επανάληψη, Rolle
-:slug: %ce%b7-%ce%b9%ce%b4%ce%b9%cf%8c%cf%84%ce%b7%cf%84%ce%b1-darboux-%ce%bf-rolle-%cf%84%ce%bf-%ce%ac%cf%84%ce%bf%cf%80%ce%bf-%ce%ba%ce%b1%ce%b9-%ce%bc%ce%af%ce%b1-%ce%bb%ce%ac%ce%b8%ce%bf%cf%82-%ce%b1
-:status: published
-:attachments: wp-content/uploads/2019/03/caspar_david_friedrich_-_auf_dem_segler.jpg
+
+.. meta::
+	:date: 2019-03-22 22:56
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Darboux, Fermat, προβλήματα, πανελλήνιες, Γ' λυκείου, ΘΜΕΤ, ασκήσεις, επανάληψη, Rolle
+	:slug: %ce%b7-%ce%b9%ce%b4%ce%b9%cf%8c%cf%84%ce%b7%cf%84%ce%b1-darboux-%ce%bf-rolle-%cf%84%ce%bf-%ce%ac%cf%84%ce%bf%cf%80%ce%bf-%ce%ba%ce%b1%ce%b9-%ce%bc%ce%af%ce%b1-%ce%bb%ce%ac%ce%b8%ce%bf%cf%82-%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2019/03/caspar_david_friedrich_-_auf_dem_segler.jpg
 
 .. figure:: /wp-content/uploads/2019/03/caspar_david_friedrich_-_auf_dem_segler.jpg
 	:alt: Ο πίνακας *Στο ιστιοφόρο* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 

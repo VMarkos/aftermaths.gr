@@ -1,10 +1,12 @@
 ΑΕΠΠ
 ####
-:date: 2021-09-01 10:25
-:author: aftermathsgr
-:slug: %ce%b1%ce%b5%cf%80%cf%80
-:status: published
-:attachments: wp-content/uploads/2018/09/in-the-classroom-konstantin-makovsky.jpg
+
+.. meta::
+	:date: 2021-09-01 10:25
+	:author: aftermathsgr
+	:slug: %ce%b1%ce%b5%cf%80%cf%80
+	:status: published
+	:attachments: wp-content/uploads/2018/09/in-the-classroom-konstantin-makovsky.jpg
 
 .. figure:: /wp-content/uploads/2018/09/in-the-classroom-konstantin-makovsky.jpg
 	:alt: 

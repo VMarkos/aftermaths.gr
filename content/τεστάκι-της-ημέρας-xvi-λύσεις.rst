@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας XVI - Λύσεις
 ###############################
-:date: 2020-11-15 19:57
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: συμμετρία, συναρτήσεις, τεστ, Β' Λυκείου, ασκήσεις, επανάληψη, λύσεις
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xvi-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2020/11/gugg_young_boy_with_a_lamb_the_good_shepherd.jpg
+
+.. meta::
+	:date: 2020-11-15 19:57
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: συμμετρία, συναρτήσεις, τεστ, Β' Λυκείου, ασκήσεις, επανάληψη, λύσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xvi-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2020/11/gugg_young_boy_with_a_lamb_the_good_shepherd.jpg
 
 .. figure:: /wp-content/uploads/2020/11/gugg_young_boy_with_a_lamb_the_good_shepherd.jpg
 	:alt: Ο πίνακας *Νεαρό αγόρι με αμνό (Ο καλός βοσκός)* του `Franz Marc <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 

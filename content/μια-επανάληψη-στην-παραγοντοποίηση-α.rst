@@ -1,12 +1,14 @@
 Μια επανάληψη στην παραγοντοποίηση (Α' Λυκείου)
 ###############################################
-:date: 2018-10-05 22:08
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: παραγοντοποίηση, Α' Λυκείου, ασκήσεις, επανάληψη
-:slug: %ce%bc%ce%b9%ce%b1-%ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%cf%83%cf%84%ce%b7%ce%bd-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%ce%bf%ce%bd%cf%84%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%ce%b1
-:status: published
-:attachments: wp-content/uploads/2018/10/nature-morte-aux-prunes-antoine-vollon-54045-copyright-kroller-muller-museum.jpg
+
+.. meta::
+	:date: 2018-10-05 22:08
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παραγοντοποίηση, Α' Λυκείου, ασκήσεις, επανάληψη
+	:slug: %ce%bc%ce%b9%ce%b1-%ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%cf%83%cf%84%ce%b7%ce%bd-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%ce%bf%ce%bd%cf%84%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2018/10/nature-morte-aux-prunes-antoine-vollon-54045-copyright-kroller-muller-museum.jpg
 
 .. figure:: /wp-content/uploads/2018/10/nature-morte-aux-prunes-antoine-vollon-54045-copyright-kroller-muller-museum.jpg
 	:alt: Ο πίνακας *Νεκρή φύση με δαμάσκηνα* του `Antoine Vollon <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 

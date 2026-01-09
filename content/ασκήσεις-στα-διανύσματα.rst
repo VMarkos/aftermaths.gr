@@ -1,12 +1,14 @@
 Ασκήσεις στα διανύσματα
 #######################
-:date: 2018-09-16 18:42
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Β' Λυκείου, ασκήσεις, διανύσματα
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b1-%ce%b4%ce%b9%ce%b1%ce%bd%cf%8d%cf%83%ce%bc%ce%b1%cf%84%ce%b1
-:status: published
-:attachments: wp-content/uploads/2018/09/noir.jpg
+
+.. meta::
+	:date: 2018-09-16 18:42
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Β' Λυκείου, ασκήσεις, διανύσματα
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b1-%ce%b4%ce%b9%ce%b1%ce%bd%cf%8d%cf%83%ce%bc%ce%b1%cf%84%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2018/09/noir.jpg
 
 .. figure:: /wp-content/uploads/2018/09/noir.jpg
 	:alt: Ο πίνακας *Chateaux Noir* του `Paul Cezanne <https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne>`__\ *.* 

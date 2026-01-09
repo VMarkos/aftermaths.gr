@@ -1,12 +1,14 @@
 Θερινή Επανάληψη (Γ' ΕΠΑΛ)
 ##########################
-:date: 2020-08-10 18:59
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πανελλήνιες, στατιστική, συναρτήσεις, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη
-:slug: %ce%b8%ce%b5%cf%81%ce%b9%ce%bd%ce%ae-%ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
-:status: published
-:attachments: wp-content/uploads/2020/08/430px-alfred_guillou._1879_portrait.jpg
+
+.. meta::
+	:date: 2020-08-10 18:59
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, στατιστική, συναρτήσεις, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη
+	:slug: %ce%b8%ce%b5%cf%81%ce%b9%ce%bd%ce%ae-%ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2020/08/430px-alfred_guillou._1879_portrait.jpg
 
 .. figure:: /wp-content/uploads/2020/08/430px-alfred_guillou._1879_portrait.jpg
 	:alt: Ο πίνακας *Το πορτραίτο του Alfred Guillou* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 

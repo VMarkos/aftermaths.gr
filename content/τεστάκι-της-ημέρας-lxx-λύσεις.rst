@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXX - Λύσεις
 ###############################
-:date: 2021-03-11 09:59
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: παράγωγος, πανελλήνιες, στατιστική, συναρτήσεις, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxx-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/03/frederic_bazille_-_portrait_de_paul_verlaine_comme_une_troubadour.jpg
+
+.. meta::
+	:date: 2021-03-11 09:59
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παράγωγος, πανελλήνιες, στατιστική, συναρτήσεις, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxx-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/03/frederic_bazille_-_portrait_de_paul_verlaine_comme_une_troubadour.jpg
 
 .. figure:: /wp-content/uploads/2021/03/frederic_bazille_-_portrait_de_paul_verlaine_comme_une_troubadour.jpg
 	:alt: Το πορτραίτο του Paul Verlaine του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 

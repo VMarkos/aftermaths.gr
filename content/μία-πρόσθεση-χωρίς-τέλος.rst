@@ -1,12 +1,14 @@
 Μία Πρόσθεση χωρίς Τέλος
 ########################
-:date: 2023-04-14 09:54
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά, Σειρές
-:tags: featured
-:slug: %ce%bc%ce%af%ce%b1-%cf%80%cf%81%cf%8c%cf%83%ce%b8%ce%b5%cf%83%ce%b7-%cf%87%cf%89%cf%81%ce%af%cf%82-%cf%84%ce%ad%ce%bb%ce%bf%cf%82
-:status: published
-:attachments: wp-content/uploads/2023/04/las_meninas_by_diego_velazquez_from_prado_in_google_earth.jpg, wp-content/uploads/2023/04/exponential_01.png, wp-content/uploads/2023/04/non_convergent_01.png
+
+.. meta::
+	:date: 2023-04-14 09:54
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά, Σειρές
+	:tags: featured
+	:slug: %ce%bc%ce%af%ce%b1-%cf%80%cf%81%cf%8c%cf%83%ce%b8%ce%b5%cf%83%ce%b7-%cf%87%cf%89%cf%81%ce%af%cf%82-%cf%84%ce%ad%ce%bb%ce%bf%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2023/04/las_meninas_by_diego_velazquez_from_prado_in_google_earth.jpg, wp-content/uploads/2023/04/exponential_01.png, wp-content/uploads/2023/04/non_convergent_01.png
 
 .. figure:: /wp-content/uploads/2023/04/las_meninas_by_diego_velazquez_from_prado_in_google_earth.jpg, wp-content/uploads/2023/04/exponential_01.png, wp-content/uploads/2023/04/non_convergent_01.png
 	:alt: Ο πίνακας *Τα δεσποινάρια* του `Diego Velázquez <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__. 

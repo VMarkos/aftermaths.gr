@@ -1,11 +1,13 @@
 Τα σχήματα της εβδομάδας (7)
 ############################
-:date: 2021-09-28 23:07
-:author: aftermathsgr
-:tags: featured, Μαθηματικά, Tikz
-:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-7
-:status: published
-:attachments: wp-content/uploads/2021/09/1896_polenow_christus_unter_den_lehrern_anagoria.jpg
+
+.. meta::
+	:date: 2021-09-28 23:07
+	:author: aftermathsgr
+	:tags: featured, Μαθηματικά, Tikz
+	:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-7
+	:status: published
+	:attachments: wp-content/uploads/2021/09/1896_polenow_christus_unter_den_lehrern_anagoria.jpg
 
 .. figure:: /wp-content/uploads/2021/09/1896_polenow_christus_unter_den_lehrern_anagoria.jpg
 	:alt: Ο πίνακας *Ο Χριστός ανάμεσα στους διδασκάλους* του `Vasily Polenov <https://en.wikipedia.org/wiki/Vasily_Polenov>`__\ *.* 

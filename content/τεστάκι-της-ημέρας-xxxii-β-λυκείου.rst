@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας XXXII (Β' Λυκείου)
 #####################################
-:date: 2020-12-01 08:06
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: τριγωνομετρία, τεστ, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxxii-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2020/12/august_macke_1912_rokoko_oil_on_canvas_89_x_89_cm_national_museum_of_art_architecture_and_design_norway.jpg
+
+.. meta::
+	:date: 2020-12-01 08:06
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τριγωνομετρία, τεστ, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxxii-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2020/12/august_macke_1912_rokoko_oil_on_canvas_89_x_89_cm_national_museum_of_art_architecture_and_design_norway.jpg
 
 .. figure:: /wp-content/uploads/2020/12/august_macke_1912_rokoko_oil_on_canvas_89_x_89_cm_national_museum_of_art_architecture_and_design_norway.jpg
 	:alt: Ο πίνακας *Rokoko* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 

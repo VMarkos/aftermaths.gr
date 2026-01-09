@@ -1,12 +1,14 @@
 Αδύνατο vs Απίθανο - Μέρος Α'
 #############################
-:date: 2021-10-04 00:02
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, πιθανότητες
-:slug: %ce%b1%ce%b4%cf%8d%ce%bd%ce%b1%cf%84%ce%bf-vs-%ce%b1%cf%80%ce%af%ce%b8%ce%b1%ce%bd%ce%bf-%ce%bc%ce%ad%cf%81%ce%bf%cf%82-%ce%b1
-:status: published
-:attachments: wp-content/uploads/2021/10/mary_cassatt_-_the_boating_party_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-10-04 00:02
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, πιθανότητες
+	:slug: %ce%b1%ce%b4%cf%8d%ce%bd%ce%b1%cf%84%ce%bf-vs-%ce%b1%cf%80%ce%af%ce%b8%ce%b1%ce%bd%ce%bf-%ce%bc%ce%ad%cf%81%ce%bf%cf%82-%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2021/10/mary_cassatt_-_the_boating_party_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/10/mary_cassatt_-_the_boating_party_-_google_art_project.jpg
 	:alt: Ο πίνακας *Το πάρτι σε βάρκα* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__. 

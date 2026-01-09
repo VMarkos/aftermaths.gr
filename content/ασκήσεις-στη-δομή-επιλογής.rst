@@ -1,12 +1,14 @@
 Ασκήσεις στη δομή επιλογής
 ##########################
-:date: 2018-10-01 20:48
-:author: aftermathsgr
-:category: ΑΕΠΠ, Διδακτικό υλικό
-:tags: πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επιλογής
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b4%ce%bf%ce%bc%ce%ae-%ce%b5%cf%80%ce%b9%ce%bb%ce%bf%ce%b3%ce%ae%cf%82
-:status: published
-:attachments: wp-content/uploads/2018/10/20_sep_13_klee_around_the_core.jpg
+
+.. meta::
+	:date: 2018-10-01 20:48
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επιλογής
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b4%ce%bf%ce%bc%ce%ae-%ce%b5%cf%80%ce%b9%ce%bb%ce%bf%ce%b3%ce%ae%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2018/10/20_sep_13_klee_around_the_core.jpg
 
 .. figure:: /wp-content/uploads/2018/10/20_sep_13_klee_around_the_core.jpg
 	:alt: Ο πίνακας *Ελαιώνας: Η εντύπωση του φωτός* του `Piet Mondrian. <https://en.wikipedia.org/wiki/Piet_Mondrian>`__ 

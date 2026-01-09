@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXX (Γ' ΕΠΑΛ)
 ################################
-:date: 2021-03-10 09:49
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: πανελλήνιες, στατιστική, συναρτήσεις, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxx-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
-:status: published
-:attachments: wp-content/uploads/2021/03/bazille_frederic_e28094_flowers_e28094_1868.jpg
+
+.. meta::
+	:date: 2021-03-10 09:49
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: πανελλήνιες, στατιστική, συναρτήσεις, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxx-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2021/03/bazille_frederic_e28094_flowers_e28094_1868.jpg
 
 .. figure:: /wp-content/uploads/2021/03/bazille_frederic_e28094_flowers_e28094_1868.jpg
 	:alt: Ο πίνακας *Λουλούδια* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 

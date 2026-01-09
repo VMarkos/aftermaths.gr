@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας VIII - Λύσεις
 ################################
-:date: 2020-11-07 19:52
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: συναρτήσεις, τεστ, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, λύσεις, μονοτονία
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-viii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2020/11/jawlensky_sakharoff.jpg
+
+.. meta::
+	:date: 2020-11-07 19:52
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: συναρτήσεις, τεστ, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, λύσεις, μονοτονία
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-viii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2020/11/jawlensky_sakharoff.jpg
 
 .. figure:: /wp-content/uploads/2020/11/jawlensky_sakharoff.jpg
 	:alt: Το *Πορτραίτο του Alexander Sakharoff* του `Alexej von Jawlensky <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__. 

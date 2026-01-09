@@ -1,0 +1,36 @@
+Διαφάνειες για την καραντίνα (Α' Λυκείου)
+#########################################
+:date: 2021-01-18 12:28
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, σημειώσεις, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, διαφάνειες, θεωρία, λυμένα παραδείγματα, μαθηματικά
+:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%b3%ce%b9%ce%b1-%cf%84%ce%b7%ce%bd-%ce%ba%ce%b1%cf%81%ce%b1%ce%bd%cf%84%ce%af%ce%bd%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf
+:status: published
+:attachments: wp-content/uploads/2021/01/neapolitan_woman_1894_by_ilya_repin_-_d09dd0b5d0b0d0bfd0bed0bbd0b8d182d0b0d0bdd0bad0b0.jpg
+
+.. figure:: /wp-content/uploads/2021/01/neapolitan_woman_1894_by_ilya_repin_-_d09dd0b5d0b0d0bfd0bed0bbd0b8d182d0b0d0bdd0bad0b0.jpg
+	:alt: Ο πίνακας *Ναπολιτάνα* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ναπολιτάνα* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+
+
+Διαφάνειες μέχρι και τις ανισώσεις με απόλυτες τιμές, φρεσκαρισμένες και με νέα σχήματα, στα πλαίσια της ύλης της άλγεβρας της Α' λυκείου/ΕΠΑΛ.
+
+Τις `διαφάνειες για την καραντίνα <https://aftermathsgr.wordpress.com/2020/11/24/%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85/>`__ μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1KEc1fFsiP-cjsZtn__4nYB_tH56xRVxS/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: JEP6iiUQCkE 
+
+.. raw:: html
+
+   </figure>

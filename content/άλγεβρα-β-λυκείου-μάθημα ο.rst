@@ -1,12 +1,14 @@
 Άλγεβρα, Β' Λυκείου - Μάθημα 20ο
 ################################
-:date: 2022-02-09 13:27
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πολυώνυμα, ρίζες, Β' Λυκείου, άλγεβρα, ανισώσεις, διαφάνειες, θεωρία
-:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-20%ce%bf
-:status: published
-:attachments: wp-content/uploads/2022/02/710px-van_lerius_godiva.jpg
+
+.. meta::
+	:date: 2022-02-09 13:27
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πολυώνυμα, ρίζες, Β' Λυκείου, άλγεβρα, ανισώσεις, διαφάνειες, θεωρία
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-20%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2022/02/710px-van_lerius_godiva.jpg
 
 .. figure:: /wp-content/uploads/2022/02/710px-van_lerius_godiva.jpg
 	:alt: Ο πίνακας *Δεσποινίδα Godiva* του `Jozef van Lerius <https://en.wikipedia.org/wiki/Jozef_Van_Lerius>`__\ *.* 

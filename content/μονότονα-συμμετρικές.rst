@@ -1,12 +1,14 @@
 Μονότονα Συμμετρικές;
 #####################
-:date: 2023-10-31 08:57
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: συναρτήσεις, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, μονοτονία
-:slug: %ce%bc%ce%bf%ce%bd%cf%8c%cf%84%ce%bf%ce%bd%ce%b1-%cf%83%cf%85%ce%bc%ce%bc%ce%b5%cf%84%cf%81%ce%b9%ce%ba%ce%ad%cf%82
-:status: published
-:attachments: wp-content/uploads/2023/10/theo_van_doesburg_-_card_players_-_google_art_project.jpg
+
+.. meta::
+	:date: 2023-10-31 08:57
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: συναρτήσεις, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, μονοτονία
+	:slug: %ce%bc%ce%bf%ce%bd%cf%8c%cf%84%ce%bf%ce%bd%ce%b1-%cf%83%cf%85%ce%bc%ce%bc%ce%b5%cf%84%cf%81%ce%b9%ce%ba%ce%ad%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2023/10/theo_van_doesburg_-_card_players_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2023/10/theo_van_doesburg_-_card_players_-_google_art_project.jpg
 	:alt: Ο πίνακας *Οι χαρτοπαίκτες* του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 

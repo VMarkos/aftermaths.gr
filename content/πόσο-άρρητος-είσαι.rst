@@ -1,12 +1,14 @@
 Πόσο Άρρητος Είσαι;
 ###################
-:date: 2021-03-22 01:43
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, αριθμοί, μαθηματικά
-:slug: %cf%80%cf%8c%cf%83%ce%bf-%ce%ac%cf%81%cf%81%ce%b7%cf%84%ce%bf%cf%82-%ce%b5%ce%af%cf%83%ce%b1%ce%b9
-:status: published
-:attachments: wp-content/uploads/2021/03/pierre-auguste_renoir_083.jpg
+
+.. meta::
+	:date: 2021-03-22 01:43
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, αριθμοί, μαθηματικά
+	:slug: %cf%80%cf%8c%cf%83%ce%bf-%ce%ac%cf%81%cf%81%ce%b7%cf%84%ce%bf%cf%82-%ce%b5%ce%af%cf%83%ce%b1%ce%b9
+	:status: published
+	:attachments: wp-content/uploads/2021/03/pierre-auguste_renoir_083.jpg
 
 .. figure:: /wp-content/uploads/2021/03/pierre-auguste_renoir_083.jpg
 	:alt: Ο πίνακας *Ο Claude Monet ζωγραφίζει στον κήπο του στο Argenteuil* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

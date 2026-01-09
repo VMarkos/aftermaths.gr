@@ -1,12 +1,14 @@
 Τεστάκι στη σύνθεση (Γ' λυκείου)
 ################################
-:date: 2019-06-27 09:50
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ασκήσεις
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%83%cf%84%ce%b7-%cf%83%cf%8d%ce%bd%ce%b8%ce%b5%cf%83%ce%b7-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2019/06/bathers_with_a_turtle.jpg
+
+.. meta::
+	:date: 2019-06-27 09:50
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ασκήσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%83%cf%84%ce%b7-%cf%83%cf%8d%ce%bd%ce%b8%ce%b5%cf%83%ce%b7-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2019/06/bathers_with_a_turtle.jpg
 
 .. figure:: /wp-content/uploads/2019/06/bathers_with_a_turtle.jpg
 	:alt: Ο πίνακας *Λουόμενοι με χελώνα* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 

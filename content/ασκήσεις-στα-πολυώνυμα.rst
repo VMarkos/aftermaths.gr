@@ -1,12 +1,14 @@
 Ασκήσεις στα πολυώνυμα
 ######################
-:date: 2021-01-27 12:27
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πολυώνυμα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%cf%85%cf%8e%ce%bd%cf%85%ce%bc%ce%b1
-:status: published
-:attachments: wp-content/uploads/2021/01/792px-1881_kramskoi_frauenportraet_anagoria.jpg
+
+.. meta::
+	:date: 2021-01-27 12:27
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πολυώνυμα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%cf%85%cf%8e%ce%bd%cf%85%ce%bc%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2021/01/792px-1881_kramskoi_frauenportraet_anagoria.jpg
 
 .. figure:: /wp-content/uploads/2021/01/792px-1881_kramskoi_frauenportraet_anagoria.jpg
 	:alt: Το πορτραίτο μίας γυναίκας που διαβάζει του `Ivan Kramskoi <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 

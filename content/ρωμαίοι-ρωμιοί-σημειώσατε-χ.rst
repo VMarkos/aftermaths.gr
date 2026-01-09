@@ -1,12 +1,14 @@
 Ρωμαίοι - Ρωμιοί: Σημειώσατε "Χ"!
 #################################
-:date: 2018-09-18 16:00
-:author: aftermathsgr
-:category: Απόψεις
-:tags: σύγχρονος τρόπος ζωής, αμπελοφιλοσοφία, ιστορία, μεσαίωνας
-:slug: %cf%81%cf%89%ce%bc%ce%b1%ce%af%ce%bf%ce%b9-%cf%81%cf%89%ce%bc%ce%b9%ce%bf%ce%af-%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b1%cf%84%ce%b5-%cf%87
-:status: published
-:attachments: wp-content/uploads/2018/09/bruning_of_rome.jpg
+
+.. meta::
+	:date: 2018-09-18 16:00
+	:author: aftermathsgr
+	:category: Απόψεις
+	:tags: σύγχρονος τρόπος ζωής, αμπελοφιλοσοφία, ιστορία, μεσαίωνας
+	:slug: %cf%81%cf%89%ce%bc%ce%b1%ce%af%ce%bf%ce%b9-%cf%81%cf%89%ce%bc%ce%b9%ce%bf%ce%af-%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b1%cf%84%ce%b5-%cf%87
+	:status: published
+	:attachments: wp-content/uploads/2018/09/bruning_of_rome.jpg
 
 .. figure:: /wp-content/uploads/2018/09/bruning_of_rome.jpg
 	:alt: 

@@ -1,12 +1,14 @@
 Εντός ή εκτός ύλης;
 ###################
-:date: 2022-03-20 12:46
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: παράγωγος, πανελλήνιες, Γ' λυκείου, ΘΜΤ, ασκήσεις
-:slug: %ce%b5%ce%bd%cf%84%cf%8c%cf%82-%ce%ae-%ce%b5%ce%ba%cf%84%cf%8c%cf%82-%cf%8d%ce%bb%ce%b7%cf%82
-:status: published
-:attachments: wp-content/uploads/2022/03/henri_leys_-_self-portrait.jpg
+
+.. meta::
+	:date: 2022-03-20 12:46
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παράγωγος, πανελλήνιες, Γ' λυκείου, ΘΜΤ, ασκήσεις
+	:slug: %ce%b5%ce%bd%cf%84%cf%8c%cf%82-%ce%ae-%ce%b5%ce%ba%cf%84%cf%8c%cf%82-%cf%8d%ce%bb%ce%b7%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2022/03/henri_leys_-_self-portrait.jpg
 
 .. figure:: /wp-content/uploads/2022/03/henri_leys_-_self-portrait.jpg
 	:alt: Μία αυτοπροσωπογραφία του `Jan August Hendrick Leys <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 

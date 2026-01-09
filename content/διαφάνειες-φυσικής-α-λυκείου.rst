@@ -1,12 +1,14 @@
 Διαφάνειες Φυσικής (Α' Λυκείου)
 ###############################
-:date: 2020-11-27 21:42
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Φυσική
-:tags: σημειώσεις, ΕΟΚ, ασκήσεις, διαφάνειες, θεωρία, λυμένα παραδείγματα
-:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%cf%86%cf%85%cf%83%ce%b9%ce%ba%ce%ae%cf%82-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2020/11/807px-1913_macke_zwei_madchen_anagoria.jpg
+
+.. meta::
+	:date: 2020-11-27 21:42
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Φυσική
+	:tags: σημειώσεις, ΕΟΚ, ασκήσεις, διαφάνειες, θεωρία, λυμένα παραδείγματα
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%cf%86%cf%85%cf%83%ce%b9%ce%ba%ce%ae%cf%82-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2020/11/807px-1913_macke_zwei_madchen_anagoria.jpg
 
 .. figure:: /wp-content/uploads/2020/11/807px-1913_macke_zwei_madchen_anagoria.jpg
 	:alt: Ο πίνακας *Δύο κορίτσια* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__. 

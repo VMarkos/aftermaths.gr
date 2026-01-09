@@ -1,10 +1,12 @@
 Διδακτικό Υλικό
 ###############
-:date: 2018-09-11 11:21
-:author: aftermathsgr
-:slug: %ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c
-:status: published
-:attachments: wp-content/uploads/2018/09/severe_teacher.jpg
+
+.. meta::
+	:date: 2018-09-11 11:21
+	:author: aftermathsgr
+	:slug: %ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c
+	:status: published
+	:attachments: wp-content/uploads/2018/09/severe_teacher.jpg
 
 .. figure:: /wp-content/uploads/2018/09/severe_teacher.jpg
 	:alt: 

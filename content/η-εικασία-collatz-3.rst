@@ -1,12 +1,14 @@
 Η εικασία Collatz (3)
 #####################
-:date: 2021-09-10 22:12
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: Collatz, featured, μαθηματικά
-:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-3
-:status: published
-:attachments: wp-content/uploads/2021/09/camille_pissarro_-_the_hay_cart_montfoucault_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-09-10 22:12
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: Collatz, featured, μαθηματικά
+	:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-3
+	:status: published
+	:attachments: wp-content/uploads/2021/09/camille_pissarro_-_the_hay_cart_montfoucault_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/09/camille_pissarro_-_the_hay_cart_montfoucault_-_google_art_project.jpg
 	:alt: Ο πίνακας *Το κάρο με τα άχυρα, Montfoucault* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 

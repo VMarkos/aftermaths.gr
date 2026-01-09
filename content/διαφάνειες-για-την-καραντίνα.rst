@@ -1,12 +1,14 @@
 Διαφάνειες για την καραντίνα
 ############################
-:date: 2020-11-16 09:39
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: featured, σύνολα, σημειώσεις, Α' Λυκείου, άλγεβρα, απόλυτη τιμή, διαφάνειες, θεωρία
-:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%b3%ce%b9%ce%b1-%cf%84%ce%b7%ce%bd-%ce%ba%ce%b1%cf%81%ce%b1%ce%bd%cf%84%ce%af%ce%bd%ce%b1
-:status: published
-:attachments: wp-content/uploads/2020/11/anton_azbe_1900_village_choir.jpg
+
+.. meta::
+	:date: 2020-11-16 09:39
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, σύνολα, σημειώσεις, Α' Λυκείου, άλγεβρα, απόλυτη τιμή, διαφάνειες, θεωρία
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%b3%ce%b9%ce%b1-%cf%84%ce%b7%ce%bd-%ce%ba%ce%b1%cf%81%ce%b1%ce%bd%cf%84%ce%af%ce%bd%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2020/11/anton_azbe_1900_village_choir.jpg
 
 .. figure:: /wp-content/uploads/2020/11/anton_azbe_1900_village_choir.jpg
 	:alt: Ο πίνακας *Η χορωδία του χωριού* του `Anton Ažbe <https://en.wikipedia.org/wiki/Anton_A%C5%BEbe>`__\ *.* 

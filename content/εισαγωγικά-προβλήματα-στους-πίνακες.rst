@@ -1,12 +1,14 @@
 Εισαγωγικά προβλήματα στους πίνακες δύο διαστάσεων
 ##################################################
-:date: 2018-10-01 13:16
-:author: aftermathsgr
-:category: ΑΕΠΠ, Διδακτικό υλικό
-:tags: πίνακες, πανελλήνιες, Γ' λυκείου, ασκήσεις, δύο διαστάσεων
-:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%b9%ce%ba%ce%ac-%cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%bf%cf%85%cf%82-%cf%80%ce%af%ce%bd%ce%b1%ce%ba%ce%b5%cf%82
-:status: published
-:attachments: wp-content/uploads/2018/10/poster-komposition-ii-920443.jpg
+
+.. meta::
+	:date: 2018-10-01 13:16
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: πίνακες, πανελλήνιες, Γ' λυκείου, ασκήσεις, δύο διαστάσεων
+	:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%b9%ce%ba%ce%ac-%cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%bf%cf%85%cf%82-%cf%80%ce%af%ce%bd%ce%b1%ce%ba%ce%b5%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2018/10/poster-komposition-ii-920443.jpg
 
 .. figure:: /wp-content/uploads/2018/10/poster-komposition-ii-920443.jpg
 	:alt: Ο πίνακας *Σύνθεση ΙΙ* του `Piet Mondrian. <https://en.wikipedia.org/wiki/Piet_Mondrian>`__ 

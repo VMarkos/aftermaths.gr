@@ -1,12 +1,14 @@
 Ονοματολογία οργανικών ενώσεων
 ##############################
-:date: 2020-10-05 13:11
-:author: aftermathsgr
-:category: Διδακτικό υλικό
-:tags: πανελλήνιες, σημειώσεις, Χημεία, επανάληψη, θεωρία, οργανική, ονοματολογία
-:slug: %ce%bf%ce%bd%ce%bf%ce%bc%ce%b1%cf%84%ce%bf%ce%bb%ce%bf%ce%b3%ce%af%ce%b1-%ce%bf%cf%81%ce%b3%ce%b1%ce%bd%ce%b9%ce%ba%cf%8e%ce%bd-%ce%b5%ce%bd%cf%8e%cf%83%ce%b5%cf%89%ce%bd
-:status: published
-:attachments: wp-content/uploads/2020/10/paul-fischer.-vesterbrogade-1030x779-1.jpg
+
+.. meta::
+	:date: 2020-10-05 13:11
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό
+	:tags: πανελλήνιες, σημειώσεις, Χημεία, επανάληψη, θεωρία, οργανική, ονοματολογία
+	:slug: %ce%bf%ce%bd%ce%bf%ce%bc%ce%b1%cf%84%ce%bf%ce%bb%ce%bf%ce%b3%ce%af%ce%b1-%ce%bf%cf%81%ce%b3%ce%b1%ce%bd%ce%b9%ce%ba%cf%8e%ce%bd-%ce%b5%ce%bd%cf%8e%cf%83%ce%b5%cf%89%ce%bd
+	:status: published
+	:attachments: wp-content/uploads/2020/10/paul-fischer.-vesterbrogade-1030x779-1.jpg
 
 .. figure:: /wp-content/uploads/2020/10/paul-fischer.-vesterbrogade-1030x779-1.jpg
 	:alt: Ο πίνακας *Vesterbrogade* του `Paul Gustav Fischer <https://en.wikipedia.org/wiki/Paul_Gustav_Fischer>`__\ *.* 

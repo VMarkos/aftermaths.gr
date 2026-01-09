@@ -1,12 +1,14 @@
 Μονοτονία συναρτήσεων (Γ' ΕΠΑΛ)
 ###############################
-:date: 2020-11-02 12:48
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, παράγωγος, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μονοτονία
-:slug: %ce%bc%ce%bf%ce%bd%ce%bf%cf%84%ce%bf%ce%bd%ce%af%ce%b1-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%cf%89%ce%bd-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
-:status: published
-:attachments: wp-content/uploads/2020/11/rihard_jakopic_-_zima.jpg
+
+.. meta::
+	:date: 2020-11-02 12:48
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μονοτονία
+	:slug: %ce%bc%ce%bf%ce%bd%ce%bf%cf%84%ce%bf%ce%bd%ce%af%ce%b1-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%cf%89%ce%bd-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2020/11/rihard_jakopic_-_zima.jpg
 
 .. figure:: /wp-content/uploads/2020/11/rihard_jakopic_-_zima.jpg
 	:alt: Ο πίνακας *Χειμώνας* του `Rihard Jakopič <https://en.wikipedia.org/wiki/Rihard_Jakopi%C4%8D>`__. 

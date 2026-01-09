@@ -1,12 +1,14 @@
 Τα προβλήματα του Bolzano...
 ############################
-:date: 2021-11-23 13:33
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Bolzano, προβλήματα, πανελλήνιες, συνέχεια, Γ' λυκείου, ασκήσεις
-:slug: %cf%84%ce%b1-%cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%bf%cf%85-bolzano
-:status: published
-:attachments: wp-content/uploads/2021/11/david98.jpg
+
+.. meta::
+	:date: 2021-11-23 13:33
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Bolzano, προβλήματα, πανελλήνιες, συνέχεια, Γ' λυκείου, ασκήσεις
+	:slug: %cf%84%ce%b1-%cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%bf%cf%85-bolzano
+	:status: published
+	:attachments: wp-content/uploads/2021/11/david98.jpg
 
 .. figure:: /wp-content/uploads/2021/11/david98.jpg
 	:alt: Το πορτραίτο της Anne-Marie-Louise Thélusson, κόμισσας του Sorcy, του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 

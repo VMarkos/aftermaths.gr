@@ -1,12 +1,14 @@
 Τεστάκι #002 - Σύνολα
 #####################
-:date: 2022-10-07 08:26
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, επανάληψη
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-002-%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1
-:status: published
-:attachments: wp-content/uploads/2022/10/caillebotteautoportrait.jpg
+
+.. meta::
+	:date: 2022-10-07 08:26
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, επανάληψη
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-002-%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2022/10/caillebotteautoportrait.jpg
 
 .. figure:: /wp-content/uploads/2022/10/caillebotteautoportrait.jpg
 	:alt: Μία αυτοπροσωπογραφία του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 

@@ -1,12 +1,14 @@
 Ασκήσεις στην Τριγωνομετρία
 ###########################
-:date: 2018-12-04 11:49
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: τριγωνομετρία, Β' Λυκείου, ασκήσεις
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%cf%84%cf%81%ce%b9%ce%b3%cf%89%ce%bd%ce%bf%ce%bc%ce%b5%cf%84%cf%81%ce%af%ce%b1
-:status: published
-:attachments: wp-content/uploads/2018/12/main-image.jpg
+
+.. meta::
+	:date: 2018-12-04 11:49
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: τριγωνομετρία, Β' Λυκείου, ασκήσεις
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%cf%84%cf%81%ce%b9%ce%b3%cf%89%ce%bd%ce%bf%ce%bc%ce%b5%cf%84%cf%81%ce%af%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2018/12/main-image.jpg
 
 .. figure:: /wp-content/uploads/2018/12/main-image.jpg
 	:alt: Ο πίνακας *Νεκρή φύση με τυρί* του `Antoine Vollon <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 

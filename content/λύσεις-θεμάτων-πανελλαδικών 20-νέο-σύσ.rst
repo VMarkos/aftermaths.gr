@@ -1,12 +1,14 @@
 Λύσεις θεμάτων πανελλαδικών 2020 (Νέο Σύστημα)
 ##############################################
-:date: 2020-06-17 15:40
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: featured, προβλήματα, πανελλήνιες, ασκήσεις, θέματα, λύσεις
-:slug: %ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%ce%b8%ce%b5%ce%bc%ce%ac%cf%84%cf%89%ce%bd-%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%b1%ce%b4%ce%b9%ce%ba%cf%8e%ce%bd-2020-%ce%bd%ce%ad%ce%bf-%cf%83%cf%8d%cf%83
-:status: published
-:attachments: wp-content/uploads/2020/06/wilhelm_bendz_-_mountain_landscape._-_google_art_project.jpg
+
+.. meta::
+	:date: 2020-06-17 15:40
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, προβλήματα, πανελλήνιες, ασκήσεις, θέματα, λύσεις
+	:slug: %ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%ce%b8%ce%b5%ce%bc%ce%ac%cf%84%cf%89%ce%bd-%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%b1%ce%b4%ce%b9%ce%ba%cf%8e%ce%bd-2020-%ce%bd%ce%ad%ce%bf-%cf%83%cf%8d%cf%83
+	:status: published
+	:attachments: wp-content/uploads/2020/06/wilhelm_bendz_-_mountain_landscape._-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2020/06/wilhelm_bendz_-_mountain_landscape._-_google_art_project.jpg
 	:alt: Ο πίνακας *Ορεινό τοπίο* του `Wilhelm Bendz <https://en.wikipedia.org/wiki/Wilhelm_Bendz>`__\ *.* 

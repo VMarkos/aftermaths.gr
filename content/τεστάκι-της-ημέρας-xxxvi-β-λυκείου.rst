@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας XXXVI (Β' Λυκείου)
 #####################################
-:date: 2020-12-05 08:22
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: συναρτήσεις, τριγωνομετρία, τεστ, Β' Λυκείου, άλγεβρα, ασκήσεις, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxxvi-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2020/12/plums_by_patrick_henry_bruce_1912.jpeg
+
+.. meta::
+	:date: 2020-12-05 08:22
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: συναρτήσεις, τριγωνομετρία, τεστ, Β' Λυκείου, άλγεβρα, ασκήσεις, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxxvi-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2020/12/plums_by_patrick_henry_bruce_1912.jpeg
 
 .. figure:: /wp-content/uploads/2020/12/plums_by_patrick_henry_bruce_1912.jpeg
 	:alt: Ο πίνακας *Δαμάσκηνα* του `Patrick Henry Bruce <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 

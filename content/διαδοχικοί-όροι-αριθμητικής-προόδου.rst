@@ -1,12 +1,14 @@
 Διαδοχικοί όροι αριθμητικής προόδου
 ###################################
-:date: 2020-03-29 14:18
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πρόοδοι, προβλήματα, Α' Λυκείου, άθροισμα, ασκήσεις
-:slug: %ce%b4%ce%b9%ce%b1%ce%b4%ce%bf%cf%87%ce%b9%ce%ba%ce%bf%ce%af-%cf%8c%cf%81%ce%bf%ce%b9-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%b7%cf%84%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%8c%ce%b4%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2020/03/rembrandt_harmensz._van_rijn_-_jacob_blessing_ephraim_and_manasseh_-_schloss_wilhelmshc3b6he_kassel.jpg
+
+.. meta::
+	:date: 2020-03-29 14:18
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πρόοδοι, προβλήματα, Α' Λυκείου, άθροισμα, ασκήσεις
+	:slug: %ce%b4%ce%b9%ce%b1%ce%b4%ce%bf%cf%87%ce%b9%ce%ba%ce%bf%ce%af-%cf%8c%cf%81%ce%bf%ce%b9-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%b7%cf%84%ce%b9%ce%ba%ce%ae%cf%82-%cf%80%cf%81%ce%bf%cf%8c%ce%b4%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2020/03/rembrandt_harmensz._van_rijn_-_jacob_blessing_ephraim_and_manasseh_-_schloss_wilhelmshc3b6he_kassel.jpg
 
 .. figure:: /wp-content/uploads/2020/03/rembrandt_harmensz._van_rijn_-_jacob_blessing_ephraim_and_manasseh_-_schloss_wilhelmshc3b6he_kassel.jpg
 	:alt: Ο πίνακας *Ο Ιακώβ ευλογεί τα παιδιά του Ιωσήφ* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 

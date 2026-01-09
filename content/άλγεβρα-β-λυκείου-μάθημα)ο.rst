@@ -1,12 +1,14 @@
 Άλγεβρα, Β' Λυκείου - Μάθημα 29ο
 ################################
-:date: 2022-04-16 09:08
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, Β' Λυκείου, άλγεβρα, ασκήσεις, διαφάνειες, επανάληψη, θεωρία, λογαριθμική
-:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-29%ce%bf
-:status: published
-:attachments: wp-content/uploads/2022/04/young_tiger_playing_with_its_mother.jpg
+
+.. meta::
+	:date: 2022-04-16 09:08
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, Β' Λυκείου, άλγεβρα, ασκήσεις, διαφάνειες, επανάληψη, θεωρία, λογαριθμική
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-29%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2022/04/young_tiger_playing_with_its_mother.jpg
 
 .. figure:: /wp-content/uploads/2022/04/young_tiger_playing_with_its_mother.jpg
 	:alt: Ο πίνακας *Νεαρός τίγρης παίζει με τη μητέρα του* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 

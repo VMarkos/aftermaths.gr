@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας XXXIX (Γ' ΕΠΑΛ)
 ##################################
-:date: 2020-12-14 09:12
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: στατιστική, τεστ, Γ' λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, διασπορά, επανάληψη
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxxix-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
-:status: published
-:attachments: wp-content/uploads/2020/12/1280px-patrick_henry_bruce_stilleben.jpg
+
+.. meta::
+	:date: 2020-12-14 09:12
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: στατιστική, τεστ, Γ' λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, διασπορά, επανάληψη
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxxix-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2020/12/1280px-patrick_henry_bruce_stilleben.jpg
 
 .. figure:: /wp-content/uploads/2020/12/1280px-patrick_henry_bruce_stilleben.jpg
 	:alt: Ο πίνακας *Νεκρή φύση* του `Patrick Henry Bruce <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 

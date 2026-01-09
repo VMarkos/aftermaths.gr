@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LIX (Γ' ΕΠΑΛ)
 ################################
-:date: 2021-02-10 09:20
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: παράγωγος, πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά, μονοτονία
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lix-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
-:status: published
-:attachments: wp-content/uploads/2021/02/brjullov.jpg
+
+.. meta::
+	:date: 2021-02-10 09:20
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παράγωγος, πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά, μονοτονία
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lix-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2021/02/brjullov.jpg
 
 .. figure:: /wp-content/uploads/2021/02/brjullov.jpg
 	:alt: Μία αυτοπροσωπογραφία του `Karl Bryullov <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\ *.* 

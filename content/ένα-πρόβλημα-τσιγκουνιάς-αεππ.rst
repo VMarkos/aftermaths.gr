@@ -1,12 +1,14 @@
 Ένα πρόβλημα... τσιγκουνιάς (ΑΕΠΠ)
 ##################################
-:date: 2018-10-01 21:07
-:author: aftermathsgr
-:category: ΑΕΠΠ, Διδακτικό υλικό
-:tags: προβλήματα, πίνακες, πανελλήνιες, Γ' λυκείου, δομή επανάληψης, δομή επιλογής
-:slug: %ce%ad%ce%bd%ce%b1-%cf%80%cf%81%cf%8c%ce%b2%ce%bb%ce%b7%ce%bc%ce%b1-%cf%84%cf%83%ce%b9%ce%b3%ce%ba%ce%bf%cf%85%ce%bd%ce%b9%ce%ac%cf%82-%ce%b1%ce%b5%cf%80%cf%80
-:status: published
-:attachments: wp-content/uploads/2018/10/1024px-piet_mondriaan_victory_boogie_woogie.jpg
+
+.. meta::
+	:date: 2018-10-01 21:07
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: προβλήματα, πίνακες, πανελλήνιες, Γ' λυκείου, δομή επανάληψης, δομή επιλογής
+	:slug: %ce%ad%ce%bd%ce%b1-%cf%80%cf%81%cf%8c%ce%b2%ce%bb%ce%b7%ce%bc%ce%b1-%cf%84%cf%83%ce%b9%ce%b3%ce%ba%ce%bf%cf%85%ce%bd%ce%b9%ce%ac%cf%82-%ce%b1%ce%b5%cf%80%cf%80
+	:status: published
+	:attachments: wp-content/uploads/2018/10/1024px-piet_mondriaan_victory_boogie_woogie.jpg
 
 .. figure:: /wp-content/uploads/2018/10/1024px-piet_mondriaan_victory_boogie_woogie.jpg
 	:alt: Ο πίνακας *Victory Boogie* Woogie του `Piet Mondrian. <https://en.wikipedia.org/wiki/Piet_Mondrian>`__ 

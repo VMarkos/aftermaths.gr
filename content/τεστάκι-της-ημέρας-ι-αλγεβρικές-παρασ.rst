@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας Ι - Αλγεβρικές παραστασεις
 #############################################
-:date: 2020-10-29 15:29
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: προβλήματα, παραστάσεις, σύνολα, τεστ, Α' Λυκείου, άλγεβρα, ασκήσεις
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b9-%ce%b1%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83
-:status: published
-:attachments: wp-content/uploads/2020/10/gugg_acrobats.jpg
+
+.. meta::
+	:date: 2020-10-29 15:29
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: προβλήματα, παραστάσεις, σύνολα, τεστ, Α' Λυκείου, άλγεβρα, ασκήσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b9-%ce%b1%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83
+	:status: published
+	:attachments: wp-content/uploads/2020/10/gugg_acrobats.jpg
 
 .. figure:: /wp-content/uploads/2020/10/gugg_acrobats.jpg
 	:alt: Ο πίνακας *Οι ακροβάτες* του `Paul Klee <https://en.wikipedia.org/wiki/Paul_Klee>`__. 

@@ -1,12 +1,14 @@
 Παλιοί γνώριμοι...
 ##################
-:date: 2020-06-16 17:54
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: featured, προβλήματα, πανελλήνιες, ασκήσεις, επανάληψη, θέματα, κορωνοϊός, λύσεις
-:slug: %cf%80%ce%b1%ce%bb%ce%b9%ce%bf%ce%af-%ce%b3%ce%bd%cf%8e%cf%81%ce%b9%ce%bc%ce%bf%ce%b9
-:status: published
-:attachments: wp-content/uploads/2020/06/christen_schiellerup_kc3b8bke_-_bay_of_naples_-_google_art_project.jpg
+
+.. meta::
+	:date: 2020-06-16 17:54
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, προβλήματα, πανελλήνιες, ασκήσεις, επανάληψη, θέματα, κορωνοϊός, λύσεις
+	:slug: %cf%80%ce%b1%ce%bb%ce%b9%ce%bf%ce%af-%ce%b3%ce%bd%cf%8e%cf%81%ce%b9%ce%bc%ce%bf%ce%b9
+	:status: published
+	:attachments: wp-content/uploads/2020/06/christen_schiellerup_kc3b8bke_-_bay_of_naples_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2020/06/christen_schiellerup_kc3b8bke_-_bay_of_naples_-_google_art_project.jpg
 	:alt: Ο πίνακας *Ο κόλπος της Νάπολι* του `Christen Købke <https://en.wikipedia.org/wiki/Christen_K%C3%B8bke>`__. 

@@ -1,12 +1,14 @@
 Οι διαφάνειες του 6ου μαθήματος
 ###############################
-:date: 2019-07-18 18:16
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: 1-1, πανελλήνιες, συναρτήσεις, σημειώσεις, Γ' λυκείου, αντίστροφη, διαφάνειες, θεωρία
-:slug: %ce%bf%ce%b9-%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%cf%84%ce%bf%cf%85-6%ce%bf%cf%85-%ce%bc%ce%b1%ce%b8%ce%ae%ce%bc%ce%b1%cf%84%ce%bf%cf%82
-:status: published
-:attachments: wp-content/uploads/2019/07/785px-paul_nash_wire_1918-19.jpg
+
+.. meta::
+	:date: 2019-07-18 18:16
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: 1-1, πανελλήνιες, συναρτήσεις, σημειώσεις, Γ' λυκείου, αντίστροφη, διαφάνειες, θεωρία
+	:slug: %ce%bf%ce%b9-%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%cf%84%ce%bf%cf%85-6%ce%bf%cf%85-%ce%bc%ce%b1%ce%b8%ce%ae%ce%bc%ce%b1%cf%84%ce%bf%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2019/07/785px-paul_nash_wire_1918-19.jpg
 
 .. figure:: /wp-content/uploads/2019/07/785px-paul_nash_wire_1918-19.jpg
 	:alt: Ο πίνακας *Wire* του `Paul Nash <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 

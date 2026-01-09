@@ -1,10 +1,12 @@
 Aftermaths-GIFs
 ###############
-:date: 2020-04-15 23:27
-:author: aftermathsgr
-:slug: aftermaths-gifs
-:status: published
-:attachments: wp-content/uploads/2020/04/564px-theo_van_doesburg_composition_i.jpg
+
+.. meta::
+	:date: 2020-04-15 23:27
+	:author: aftermathsgr
+	:slug: aftermaths-gifs
+	:status: published
+	:attachments: wp-content/uploads/2020/04/564px-theo_van_doesburg_composition_i.jpg
 
 .. figure:: /wp-content/uploads/2020/04/564px-theo_van_doesburg_composition_i.jpg
 	:alt: 

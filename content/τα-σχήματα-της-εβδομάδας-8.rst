@@ -1,11 +1,13 @@
 Τα σχήματα της εβδομάδας (8)
 ############################
-:date: 2021-10-07 13:15
-:author: aftermathsgr
-:tags: featured, Μαθηματικά, Tikz
-:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-8
-:status: published
-:attachments: wp-content/uploads/2021/10/madame_gaillard_and_her_daughter_marie-therese_1899_mary_cassatt.jpg
+
+.. meta::
+	:date: 2021-10-07 13:15
+	:author: aftermathsgr
+	:tags: featured, Μαθηματικά, Tikz
+	:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-8
+	:status: published
+	:attachments: wp-content/uploads/2021/10/madame_gaillard_and_her_daughter_marie-therese_1899_mary_cassatt.jpg
 
 .. figure:: /wp-content/uploads/2021/10/madame_gaillard_and_her_daughter_marie-therese_1899_mary_cassatt.jpg
 	:alt: Ο πίνακας *Η κυρία Gaillard και η κόρη της Marie-Thérèse* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\ *.* 

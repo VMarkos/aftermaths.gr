@@ -1,0 +1,34 @@
+Εισαγωγικές ασκήσεις στις συναρτήσεις (Γ' Λυκείου)
+##################################################
+:date: 2019-06-21 15:48
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις
+:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5-2
+:status: published
+:attachments: wp-content/uploads/2019/06/453px-reading_henri_matisse.jpg
+
+.. figure:: /wp-content/uploads/2019/06/453px-reading_henri_matisse.jpg
+	:alt: Ο πίνακας *Γυναίκα που* *διαβάζει* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Γυναίκα που* *διαβάζει* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1lci8ZQx4S8vsvyZp5ZYm6kO_6_KG-KcK/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: gIVjA8pRBtI 
+
+.. raw:: html
+
+   </figure>

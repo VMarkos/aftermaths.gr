@@ -1,12 +1,14 @@
 Άλγεβρα, Β' Λυκείου - Μάθημα 14ο
 ################################
-:date: 2021-12-15 12:34
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πολυώνυμα, Β' Λυκείου, Διαίρεση, άλγεβρα, διαφάνειες, θεωρία
-:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-14%ce%bf
-:status: published
-:attachments: wp-content/uploads/2021/12/1280px-jacques-louis_david_-_the_coronation_of_napoleon_1805-1807.jpg
+
+.. meta::
+	:date: 2021-12-15 12:34
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πολυώνυμα, Β' Λυκείου, Διαίρεση, άλγεβρα, διαφάνειες, θεωρία
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-14%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2021/12/1280px-jacques-louis_david_-_the_coronation_of_napoleon_1805-1807.jpg
 
 .. figure:: /wp-content/uploads/2021/12/1280px-jacques-louis_david_-_the_coronation_of_napoleon_1805-1807.jpg
 	:alt: Ο πίνακας *Η στέψη του Ναπολέοντα* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 

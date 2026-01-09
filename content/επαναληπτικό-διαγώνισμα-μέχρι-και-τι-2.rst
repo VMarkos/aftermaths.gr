@@ -1,12 +1,14 @@
 Επαναληπτικό διαγώνισμα μέχρι και τις απόλυτες τιμές
 ####################################################
-:date: 2019-11-17 21:51
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, Α' Λυκείου, απόλυτη τιμή, αποδείξεις, αριθμοί, ασκήσεις, διαγώνισμα, επανάληψη
-:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%bc%ce%ad%cf%87%cf%81%ce%b9-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b9-2
-:status: published
-:attachments: wp-content/uploads/2019/11/800px-canaletto_-_warwick_castle_-_google_art_project.jpg
+
+.. meta::
+	:date: 2019-11-17 21:51
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, Α' Λυκείου, απόλυτη τιμή, αποδείξεις, αριθμοί, ασκήσεις, διαγώνισμα, επανάληψη
+	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%bc%ce%ad%cf%87%cf%81%ce%b9-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b9-2
+	:status: published
+	:attachments: wp-content/uploads/2019/11/800px-canaletto_-_warwick_castle_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2019/11/800px-canaletto_-_warwick_castle_-_google_art_project.jpg
 	:alt: Ο πίνακας *Το κάστρο του Warwick* του `Canaletto <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 

@@ -1,12 +1,14 @@
 Δώδεκα ή Εικοσιοκτώ; Τρεις ή Εικοσιπέντε;
 #########################################
-:date: 2018-10-28 19:57
-:author: aftermathsgr
-:category: Απόψεις
-:tags: Νεο-ελληνικός πολιτισμός, αμπελοφιλοσοφία
-:slug: %ce%b4%cf%8e%ce%b4%ce%b5%ce%ba%ce%b1-%ce%ae-%ce%b5%ce%b9%ce%ba%ce%bf%cf%83%ce%b9%ce%bf%ce%ba%cf%84%cf%8e-%cf%84%cf%81%ce%b5%ce%b9%cf%82-%ce%ae-%ce%b5%ce%b9%ce%ba%ce%bf%cf%83%ce%b9%cf%80%ce%ad%ce%bd
-:status: published
-:attachments: wp-content/uploads/2018/10/vassily_kandinsky_1912_-_improvisation_27_garden_of_love_ii.jpg
+
+.. meta::
+	:date: 2018-10-28 19:57
+	:author: aftermathsgr
+	:category: Απόψεις
+	:tags: Νεο-ελληνικός πολιτισμός, αμπελοφιλοσοφία
+	:slug: %ce%b4%cf%8e%ce%b4%ce%b5%ce%ba%ce%b1-%ce%ae-%ce%b5%ce%b9%ce%ba%ce%bf%cf%83%ce%b9%ce%bf%ce%ba%cf%84%cf%8e-%cf%84%cf%81%ce%b5%ce%b9%cf%82-%ce%ae-%ce%b5%ce%b9%ce%ba%ce%bf%cf%83%ce%b9%cf%80%ce%ad%ce%bd
+	:status: published
+	:attachments: wp-content/uploads/2018/10/vassily_kandinsky_1912_-_improvisation_27_garden_of_love_ii.jpg
 
 .. figure:: /wp-content/uploads/2018/10/vassily_kandinsky_1912_-_improvisation_27_garden_of_love_ii.jpg
 	:alt: 

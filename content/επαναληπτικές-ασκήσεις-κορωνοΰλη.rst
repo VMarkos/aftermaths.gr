@@ -1,12 +1,14 @@
 Επαναληπτικές ασκήσεις (κορωνοΰλη)
 ##################################
-:date: 2020-04-21 18:56
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Fermat, προβλήματα, παράγωγος, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ΘΜΤ, ασκήσεις, επανάληψη
-:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%ba%ce%bf%cf%81%cf%89%ce%bd%ce%bf%ce%b0%ce%bb%ce%b7
-:status: published
-:attachments: wp-content/uploads/2020/04/rembrandt_harmensz._van_rijn_-_lucretia_-_34.19_-_minneapolis_institute_of_arts.jpg
+
+.. meta::
+	:date: 2020-04-21 18:56
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Fermat, προβλήματα, παράγωγος, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ΘΜΤ, ασκήσεις, επανάληψη
+	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%ba%ce%bf%cf%81%cf%89%ce%bd%ce%bf%ce%b0%ce%bb%ce%b7
+	:status: published
+	:attachments: wp-content/uploads/2020/04/rembrandt_harmensz._van_rijn_-_lucretia_-_34.19_-_minneapolis_institute_of_arts.jpg
 
 .. figure:: /wp-content/uploads/2020/04/rembrandt_harmensz._van_rijn_-_lucretia_-_34.19_-_minneapolis_institute_of_arts.jpg
 	:alt: Ο πίνακας *Λουκρητία* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 

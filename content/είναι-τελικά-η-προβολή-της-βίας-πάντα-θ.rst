@@ -1,12 +1,14 @@
 Είναι τελικά η προβολή της βίας πάντα θεμιτή;
 #############################################
-:date: 2019-03-21 20:57
-:author: aftermathsgr
-:category: Απόψεις
-:tags: Ελλάδα, βία, μεσαίωνας
-:slug: %ce%b5%ce%af%ce%bd%ce%b1%ce%b9-%cf%84%ce%b5%ce%bb%ce%b9%ce%ba%ce%ac-%ce%b7-%cf%80%cf%81%ce%bf%ce%b2%ce%bf%ce%bb%ce%ae-%cf%84%ce%b7%cf%82-%ce%b2%ce%af%ce%b1%cf%82-%cf%80%ce%ac%ce%bd%cf%84%ce%b1-%ce%b8
-:status: published
-:attachments: wp-content/uploads/2019/03/hans-baldung-grien-1518-20-death-and-the-maiden-oil-on-panel-oeffentliche-kunstsammlung-cropped-1.png
+
+.. meta::
+	:date: 2019-03-21 20:57
+	:author: aftermathsgr
+	:category: Απόψεις
+	:tags: Ελλάδα, βία, μεσαίωνας
+	:slug: %ce%b5%ce%af%ce%bd%ce%b1%ce%b9-%cf%84%ce%b5%ce%bb%ce%b9%ce%ba%ce%ac-%ce%b7-%cf%80%cf%81%ce%bf%ce%b2%ce%bf%ce%bb%ce%ae-%cf%84%ce%b7%cf%82-%ce%b2%ce%af%ce%b1%cf%82-%cf%80%ce%ac%ce%bd%cf%84%ce%b1-%ce%b8
+	:status: published
+	:attachments: wp-content/uploads/2019/03/hans-baldung-grien-1518-20-death-and-the-maiden-oil-on-panel-oeffentliche-kunstsammlung-cropped-1.png
 
 .. figure:: /wp-content/uploads/2019/03/hans-baldung-grien-1518-20-death-and-the-maiden-oil-on-panel-oeffentliche-kunstsammlung-cropped-1.png
 	:alt: 

@@ -1,12 +1,14 @@
 Ιστογράμματα αθροιστικών συχνοτήτων
 ###################################
-:date: 2020-05-09 15:01
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πίνακες, πανελλήνιες, στατιστική, συχνοτήτων, ΕΠΑΛ, ασκήσεις, διαγράμματα, επανάληψη, ιστογράμματα
-:slug: %ce%b9%cf%83%cf%84%ce%bf%ce%b3%cf%81%ce%ac%ce%bc%ce%bc%ce%b1%cf%84%ce%b1-%ce%b1%ce%b8%cf%81%ce%bf%ce%b9%cf%83%cf%84%ce%b9%ce%ba%cf%8e%ce%bd-%cf%83%cf%85%cf%87%ce%bd%ce%bf%cf%84%ce%ae%cf%84%cf%89%ce%bd
-:status: published
-:attachments: wp-content/uploads/2020/05/722px-vermeer-view-of-delft.jpg
+
+.. meta::
+	:date: 2020-05-09 15:01
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πίνακες, πανελλήνιες, στατιστική, συχνοτήτων, ΕΠΑΛ, ασκήσεις, διαγράμματα, επανάληψη, ιστογράμματα
+	:slug: %ce%b9%cf%83%cf%84%ce%bf%ce%b3%cf%81%ce%ac%ce%bc%ce%bc%ce%b1%cf%84%ce%b1-%ce%b1%ce%b8%cf%81%ce%bf%ce%b9%cf%83%cf%84%ce%b9%ce%ba%cf%8e%ce%bd-%cf%83%cf%85%cf%87%ce%bd%ce%bf%cf%84%ce%ae%cf%84%cf%89%ce%bd
+	:status: published
+	:attachments: wp-content/uploads/2020/05/722px-vermeer-view-of-delft.jpg
 
 .. figure:: /wp-content/uploads/2020/05/722px-vermeer-view-of-delft.jpg
 	:alt: Ο πίνακας *Άποψη του Delft* του `Johannes Vermeer <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\ *.* 

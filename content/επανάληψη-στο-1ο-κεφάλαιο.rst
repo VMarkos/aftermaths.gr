@@ -1,12 +1,14 @@
 Επανάληψη στο 1ο Κεφάλαιο
 #########################
-:date: 2019-11-08 20:38
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πράξεις, προβλήματα, Α' Γυμνασίου, ασκήσεις, επανάληψη, θεωρία
-:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%cf%83%cf%84%ce%bf-1%ce%bf-%ce%ba%ce%b5%cf%86%ce%ac%ce%bb%ce%b1%ce%b9%ce%bf
-:status: published
-:attachments: wp-content/uploads/2019/11/800px-giovanni_antonio_canal_il_canaletto_-_rio_dei_mendicanti_-_looking_south_-_wga03855.jpg
+
+.. meta::
+	:date: 2019-11-08 20:38
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πράξεις, προβλήματα, Α' Γυμνασίου, ασκήσεις, επανάληψη, θεωρία
+	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%cf%83%cf%84%ce%bf-1%ce%bf-%ce%ba%ce%b5%cf%86%ce%ac%ce%bb%ce%b1%ce%b9%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2019/11/800px-giovanni_antonio_canal_il_canaletto_-_rio_dei_mendicanti_-_looking_south_-_wga03855.jpg
 
 .. figure:: /wp-content/uploads/2019/11/800px-giovanni_antonio_canal_il_canaletto_-_rio_dei_mendicanti_-_looking_south_-_wga03855.jpg
 	:alt: Ο πίνακας *Rio dei Mendicanti: Κοιτώντας νότια* του `Canaletto <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 

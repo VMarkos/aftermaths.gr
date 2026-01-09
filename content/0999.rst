@@ -1,12 +1,14 @@
 0,999... = ???
 ##############
-:date: 2021-01-24 09:12
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, άλγεβρα, απειροστά, εξωσχολικά, μαθηματικά
-:slug: 0999
-:status: published
-:attachments: wp-content/uploads/2021/01/kazimir_malevich_1915_black_suprematic_square_oil_on_linen_canvas_79.5_x_79.5_cm_tretyakov_gallery_moscow.jpg
+
+.. meta::
+	:date: 2021-01-24 09:12
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, άλγεβρα, απειροστά, εξωσχολικά, μαθηματικά
+	:slug: 0999
+	:status: published
+	:attachments: wp-content/uploads/2021/01/kazimir_malevich_1915_black_suprematic_square_oil_on_linen_canvas_79.5_x_79.5_cm_tretyakov_gallery_moscow.jpg
 
 .. figure:: /wp-content/uploads/2021/01/kazimir_malevich_1915_black_suprematic_square_oil_on_linen_canvas_79.5_x_79.5_cm_tretyakov_gallery_moscow.jpg
 	:alt: Ο πίνακας *Μαύρο Τετράγωνο* του `Kazimir Malevich <https://en.wikipedia.org/wiki/Kazimir_Malevich>`__\ *.* 

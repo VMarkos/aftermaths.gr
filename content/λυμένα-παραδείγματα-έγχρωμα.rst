@@ -1,12 +1,14 @@
 Λυμένα παραδείγματα (έγχρωμα)
 #############################
-:date: 2020-08-29 00:01
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: featured, προβλήματα, πανελλήνιες, συναρτήσεις, ασκήσεις, επανάληψη, λυμένα παραδείγματα
-:slug: %ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%cf%80%ce%b1%cf%81%ce%b1%ce%b4%ce%b5%ce%af%ce%b3%ce%bc%ce%b1%cf%84%ce%b1-%ce%ad%ce%b3%cf%87%cf%81%cf%89%ce%bc%ce%b1
-:status: published
-:attachments: wp-content/uploads/2020/08/tropper_1849.jpg
+
+.. meta::
+	:date: 2020-08-29 00:01
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, προβλήματα, πανελλήνιες, συναρτήσεις, ασκήσεις, επανάληψη, λυμένα παραδείγματα
+	:slug: %ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%cf%80%ce%b1%cf%81%ce%b1%ce%b4%ce%b5%ce%af%ce%b3%ce%bc%ce%b1%cf%84%ce%b1-%ce%ad%ce%b3%cf%87%cf%81%cf%89%ce%bc%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2020/08/tropper_1849.jpg
 
 .. figure:: /wp-content/uploads/2020/08/tropper_1849.jpg
 	:alt: Ο πίνακας *Δανοί στρατιώτες επιστρέφουν στην Κοπεγχάγη το 1848* του `Otto Bache <https://en.wikipedia.org/wiki/Otto_Bache>`__. 

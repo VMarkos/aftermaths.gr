@@ -1,12 +1,14 @@
 Εισαγωγή στους Πραγματικούς Αριθμούς
 ####################################
-:date: 2023-10-08 14:18
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πραγματικοί αριθμοί, ΕΠΑΛ, άλγεβρα, ασκήσεις
-:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%bf%cf%85%cf%82-%cf%80%cf%81%ce%b1%ce%b3%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%ce%bf%cf%8d%cf%82-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%cf%8d
-:status: published
-:attachments: wp-content/uploads/2023/10/theo_van_doesburg_selfportrait_with_hat.jpg
+
+.. meta::
+	:date: 2023-10-08 14:18
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πραγματικοί αριθμοί, ΕΠΑΛ, άλγεβρα, ασκήσεις
+	:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%bf%cf%85%cf%82-%cf%80%cf%81%ce%b1%ce%b3%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%ce%bf%cf%8d%cf%82-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%cf%8d
+	:status: published
+	:attachments: wp-content/uploads/2023/10/theo_van_doesburg_selfportrait_with_hat.jpg
 
 .. figure:: /wp-content/uploads/2023/10/theo_van_doesburg_selfportrait_with_hat.jpg
 	:alt: Μία αυτοπροσωπογραφία του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__ με καπέλο. 

@@ -1,12 +1,14 @@
 Πάνω, Κάτω, Αριστερά και Δεξιά...
 #################################
-:date: 2023-10-28 10:38
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: συναρτήσεις, φύλλο εργασίας, Β' Λυκείου, ΕΠΑΛ, άλγεβρα
-:slug: %cf%80%ce%ac%ce%bd%cf%89-%ce%ba%ce%ac%cf%84%cf%89-%ce%b1%cf%81%ce%b9%cf%83%cf%84%ce%b5%cf%81%ce%ac-%ce%ba%ce%b1%ce%b9-%ce%b4%ce%b5%ce%be%ce%b9%ce%ac
-:status: published
-:attachments: wp-content/uploads/2023/10/theo_van_doesburg_166.jpg
+
+.. meta::
+	:date: 2023-10-28 10:38
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: συναρτήσεις, φύλλο εργασίας, Β' Λυκείου, ΕΠΑΛ, άλγεβρα
+	:slug: %cf%80%ce%ac%ce%bd%cf%89-%ce%ba%ce%ac%cf%84%cf%89-%ce%b1%cf%81%ce%b9%cf%83%cf%84%ce%b5%cf%81%ce%ac-%ce%ba%ce%b1%ce%b9-%ce%b4%ce%b5%ce%be%ce%b9%ce%ac
+	:status: published
+	:attachments: wp-content/uploads/2023/10/theo_van_doesburg_166.jpg
 
 .. figure:: /wp-content/uploads/2023/10/theo_van_doesburg_166.jpg
 	:alt: Ο πίνακας *Σύνθεση* του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 

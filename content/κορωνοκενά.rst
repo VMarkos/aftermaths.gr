@@ -1,12 +1,14 @@
 Κορωνοκενά
 ##########
-:date: 2020-09-20 11:01
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: featured, πανελλήνιες, πολυώνυμα, Β' Λυκείου, Γ' λυκείου, ασκήσεις, επανάληψη, εκθετική, θεωρία, κορωνοϊός, λογαριθμική
-:slug: %ce%ba%ce%bf%cf%81%cf%89%ce%bd%ce%bf%ce%ba%ce%b5%ce%bd%ce%ac
-:status: published
-:attachments: wp-content/uploads/2020/09/charles-francois_daubigny_-_le_printemps_-_google_art_project.jpg
+
+.. meta::
+	:date: 2020-09-20 11:01
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, πανελλήνιες, πολυώνυμα, Β' Λυκείου, Γ' λυκείου, ασκήσεις, επανάληψη, εκθετική, θεωρία, κορωνοϊός, λογαριθμική
+	:slug: %ce%ba%ce%bf%cf%81%cf%89%ce%bd%ce%bf%ce%ba%ce%b5%ce%bd%ce%ac
+	:status: published
+	:attachments: wp-content/uploads/2020/09/charles-francois_daubigny_-_le_printemps_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2020/09/charles-francois_daubigny_-_le_printemps_-_google_art_project.jpg
 	:alt: Ο πίνακας *Η άνοιξη* του `Charles-François Daubigny <https://en.wikipedia.org/wiki/Charles-Fran%C3%A7ois_Daubigny>`__. 

@@ -1,0 +1,212 @@
+Τα σχήματα της εβδομάδας (10)
+#############################
+:date: 2021-10-19 11:45
+:author: aftermathsgr
+:tags: featured, Μαθηματικά, Tikz
+:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-10
+:status: published
+:attachments: wp-content/uploads/2021/10/henri_fantin-latour_-_a_studio_at_les_batignolles_-_google_art_project.jpg
+
+.. figure:: /wp-content/uploads/2021/10/henri_fantin-latour_-_a_studio_at_les_batignolles_-_google_art_project.jpg
+	:alt: Ο πίνακας *Στούντιο στις Batignolles* του `Henri Fantin-Latour. <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__ 
+	:align: center
+
+	Ο πίνακας *Στούντιο στις Batignolles* του `Henri Fantin-Latour. <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__ 
+
+
+Την προηγούμενη εβδομάδα είδαμε αρκετά νέα πράγματα, όπως για παράδειγμα τη βιβλιοθήκη ``patterns`` που μας βοηθάει να γεμίσουμε ένα χωρίο με κάποιο μοτίβο που επιθυμούμε κι όχι απλώς με κάποιο χρώμα - για περισσότερα, δείτε `εδώ <https://aftermaths.gr/2021/10/12/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-9/>`__.
+
+*Για όλες τις αναρτήσεις της σειράς, δείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
+
+Γραμμές, πολλές γραμμές...
+--------------------------
+
+Το πρώτο σχήμα τη προηγούμενης εβδομάδας ήταν αυτό:
+
+.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/fig_47.png?w=723
+   :alt: Λίγες γραμμές ανάμεσα σε συναρτήσεις
+   :figclass: wp-image-9211
+
+   Λίγες γραμμές ανάμεσα σε συναρτήσεις
+
+Ο αντίστοιχος κώδικας είναι ο εξής:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \documentclass[tikz, margin=5mm]{standalone}
+    
+   \usetikzlibrary{calc}
+   \usetikzlibrary{intersections}
+    
+   \begin{document}
+       \begin{tikzpicture}
+       \draw[thick,-&gt;,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+       \draw[thick,-&gt;,name path=y axis] (0,-2.7) -- (0,3)node[pos=1,left]{$y$};
+       \draw[very thick, blue!75!black, name path=curve 1, samples=200] (-3,-2) .. controls (-.5,2) and (2,-2.7) .. (3,1) node[pos=1,right]{$f$};
+       \draw[very thick, red, name path=curve 2, samples=200] (-3,3) .. controls (-2,-2.7) and (2.2,3) .. (3,3) node[pos=1,right]{$g$};
+       \foreach \i in {-3,-2.8,...,3.1}{
+           \draw[draw=none, name path=line \i] (\i,-3) -- (\i,3);
+           \pgfmathtruncatemacro{\res}{20*\i}
+           \node[draw=none, outer sep=0pt, inner sep=0pt, name intersections={of={curve 1 and line \i}}](A\res) at (intersection-1){};
+           \node[draw=none, outer sep=0pt, inner sep=0pt, name intersections={of={curve 2 and line \i}}](B\res) at (intersection-1){};
+           \draw[orange, &lt;-&gt;] (A\res) -- (B\res);
+       }
+       \end{tikzpicture}
+   \end{document}
+
+Εδώ, το πώς σχεδιάσαμε τις δύο γραφικές παραστάσεις είναι κάτι που έχουμε ξαναδεί στο παρελθόν - χρησιμοποιώντας τις περιβόητες `καμπύλες Bézier <https://en.wikipedia.org/wiki/B%C3%A9zier_curve>`__. Αυτές οι καμπύλες - για τις οποίες θα μιλήσουμε, όπως έχουμε πει, και στο aftermaths σύντομα - είναι στην ουσία κάποιες καμπύλες που καθορίζονται από δύο σημεία που αποτελούν την αρχή και το τέλος της καμπύλης καθώς και από κάποια σημεία ελέγχου - συνήθως δύο αλλά όχι απαραίτητα.
+
+Φεύγοντας από τις δύο καμπύλες, αυτό που έχει ιδιαίτερο ενδιαφέρον στο παραπάνω σχήμα είναι οι γραμμούλες που ενώνουν τις δύο καμπύλες. Σαφώς, θα μπορούσαμε να τις έχουμε σχεδιάσει μία-μία με το χέρι, αλλά μάλλον θα ήταν λίγο κουραστικό αυτό. Δηλαδή, για την ακρίβεια, θα ήταν πολύ κουραστικό αυτό, καθώς είναι πάρα πολλές. Αντ' αυτού, μπορούμε να χρησιμοποιήσουμε μία δομή επανάληψης για να σχεδιάσουμε όλες τις γραμμές με ένα μικρό τμήμα κώδικα. Η εν λόγω δομή είναι η εξής:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \foreach \i in {-3,-2.8,...,3.1}{
+           \draw[draw=none, name path=line \i] (\i,-3) -- (\i,3);
+           \pgfmathtruncatemacro{\res}{20*\i}
+           \node[draw=none, outer sep=0pt, inner sep=0pt, name intersections={of={curve 1 and line \i}}](A\res) at (intersection-1){};
+           \node[draw=none, outer sep=0pt, inner sep=0pt, name intersections={of={curve 2 and line \i}}](B\res) at (intersection-1){};
+           \draw[orange, &lt;-&gt;] (A\res) -- (B\res);
+       }
+
+Όπως βλέπετε, παραπάνω αποφασίσαμε να προχωρήσουμε με βήμα ``0.2`` και να πάμε από το -3 έως το 3. Για κάθε τέτοιον αριθμό ``\i`` σε αυτή τη λίστα η πρόθεσή μας είναι να σχεδιάσουμε μία ευθεία της μορφής  :math:`x=\texttt{\textbackslash i}`  η οποία να συνδέει τις δύο καμπύλες. Επομένως, όπως ίσως φαντάζεστε, πρέπει να σπάσουμε τη δουλειά μας σε τρία βήματα:
+
+-  Αρχικά, να σχεδιάσουμε μία αόρατη ευθεία της μορφής  :math:`x=\texttt{\textbackslash i}`  που θα μας βοηθήσει να βάλουμε τα πράγματα στη θέση τους.
+-  Έπειτα, με τη βοήθεια της παραπάνω ευθείας, να σχεδιάσουμε τα δύο σημεία τομής των δύο καμπυλών που έχουμε με την ευθεία και να τα αποθηκεύσουμε σε κόμβους.
+-  Τέλος, να σχεδιάσουμε ένα ευθύγραμμο τμήμα που να έχει ως άκρα τα δύο σημεία που σχεδιάσαμε παραπάνω.
+
+Πράγματι, αυτό ακριβώς κάνουμε και παραπάνω. Αρχικά, με την εντολή:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \draw[draw=none, name path=line \i] (\i,-3) -- (\i,3);
+
+σχεδιάζουμε την αόρατη ευθεία μας και της δίνουμε κι ένα όνομα. Έπειτα, με την εντολή:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \pgfmathtruncatemacro{\res}{20*\i}
+
+καθορίζουμε την ποσότητα ``\res`` να είναι ένας ακέραιος αριθμός ίσος με το εικοσαπλάσιο του ``\i``. Αυτό, όπως έχουμε δει κι `εδώ <https://aftermaths.gr/2021/09/28/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-7/>`__ το κάνουμε γιατί δεν μπορούμε π.χ. στα ονόματα κόμβων να χρησιμοποιήσουμε δεκαδικούς αριθμούς, οπότε, αφού θέλουμε να ξεχωρίζουμε τους κόμβους μεταξύ τους, θα χρησιμοποιούμε την ποσότητα ``\res`` που είναι διαφορετική για κάθε τιμή του ``\i`` για να μας βοηθήσει στην ονοματοθεσία των κόμβων μας.
+
+Τώρα, με τις παρακάτω δύο εντολές σχεδιάζουμε δύο αόρατους κόμβους στις θέσεις των σημείων τομής της αόρατης ευθείας που μόλις σχεδιάσαμε με τη βοήθεια της παραμέτρου ``name intersections``:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \node[draw=none, outer sep=0pt, inner sep=0pt, name intersections={of={curve 1 and line \i}}](A\res) at (intersection-1){};
+   \node[draw=none, outer sep=0pt, inner sep=0pt, name intersections={of={curve 2 and line \i}}](B\res) at (intersection-1){};
+
+Τέλος, με τη βοήθεια των δύο παραπάνω κόμβων δεν έχουμε παρά να σχεδιάσουμε την ευθεία που όντως θέλουμε να φαίνεται στο σχήμα μας, όπως θέλουμε να φαίνεται, χρησιμοποιώντας απλώς την εντολή:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \draw[orange, &lt;-&gt;] (A\res) -- (B\res);
+
+Το καλό με όλη την παραπάνω διαδικασία είναι ότι το σχήμα μας είναι δυναμικό. Δηλαδή, αν ανά πάσα στιγμή θελήσουμε να αλλάξουμε το στυλ των ευθειών μας, δεν έχουμε παρά να αλλάξουμε την τελευταία εντολή που δώσαμε παραπάνω. Αντίστοιχα, αν θέλουμε αν «αραιώσουμε» ή να «πυκνώσουμε» τις παραπάνω γραμμές, δεν έχουμε παρά να αλλάξουμε τις τιμές που παίρνει το ``\i``. Αντίστοιχα, αν θέλουμε να αλλάξουμε τις καμπύλες μας, δεν έχουμε παρά... να τις αλλάξουμε καθώς, όσο αυτές παραμένουν μέσα στο αρχικό ορθογώνιο του σχήματος, θα τέμνονται από τις αόρατες ευθείες που έχουμε σχεδιάσει και άρα θα μεταβληθούν και οι ευθείες μας αναλόγως.
+
+Μία άρτια συνάρτηση
+-------------------
+
+Το επόμενο σχήμα της προηγούμενης εβδομάδας ήταν το εξής:
+
+.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/fig_48.png?w=723
+   :alt: Μία άρτια συνάρτηση...
+   :figclass: wp-image-9247
+
+   Μία άρτια συνάρτηση...
+
+Ο αντίστοιχος κώδικας είναι ο εξής:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \documentclass[tikz, margin=5mm]{standalone}
+    
+   \usetikzlibrary{intersections}
+    
+   \begin{document}
+       \begin{tikzpicture}
+       \draw[thick,-&gt;,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+       \draw[thick,-&gt;,name path=y axis] (0,-2) -- (0,4)node[pos=1,left]{$y$};
+       \node[left,yshift=-8pt](O) at (0,0){$O$};
+       \draw[thick, name path=curve 1, blue!50!black] (-3.6,2.5) .. controls (-2,-4) and (-1,3) .. (0,1);
+       \draw[thick, name path=curve 2, blue!50!black] (3.6,2.5) .. controls (2,-4) and (1,3) .. (0,1)node[pos=0,above]{$f$};
+       \node[circle, fill=black, inner sep=1pt, green!40!black, label={below}:{$\textcolor{green!40!black}{x}$}](x) at (3.4,0){};
+       \node[circle, fill=black, inner sep=1pt, green!40!black, label={below}:{$\textcolor{green!40!black}{-x}$}](mx) at (-3.4,0){};
+       \draw[draw=none, name path=line 2] (3.4,-4) -- (3.4,4);
+       \draw[draw=none, name path=line 1] (-3.4,-4) -- (-3.4,4);
+       \node[circle, fill=green!40!black, inner sep=1pt, name intersections={of={line 1 and curve 1}}](A) at (intersection-1){};
+       \node[circle, fill=green!40!black, inner sep=1pt, name intersections={of={line 2 and curve 2}}](B) at (intersection-1){};
+       \draw[dashed,-&gt;,orange] (x) -- (B);
+       \draw[dashed,-&gt;,orange] (mx) -- (A);
+       \draw[dashed,&lt;-&gt;,orange] (A) -- (B)node[pos=.5,right,yshift=8pt]{$f(x)=f(-x)$};
+       \end{tikzpicture}
+   \end{document}
+
+Κι εδώ, σε ό,τι αφορά την καμπύλη, απλώς σχεδιάσαμε το δεξί της τμήμα κι έπειτα, για να σχεδιάσουμε το αριστερό, απλώς πήραμε τα συμμετρικά σημεία ελέγχου ως προς τον άξονα  :math:`y'y.`  Αυτό είναι ένα ιδιαίτερα βολικό χαρακτηριστικό των καμπυλών `Bézier <https://en.wikipedia.org/wiki/B%C3%A9zier_curve>`__, καθώς μπορεί κανείς να τις στρίψει περιστρέφοντας απλώς τα σημεία ελέγχου της καμπύλης - κάτι που είναι αρκετά πιο απλό από το να περιστρέψει κανείς ολόκληρη την καμπύλη.
+
+Κατά τα άλλα, για να σχεδιάσουμε κι εδώ τις διακεκομμένες γραμμές που φαίνονται χρησιμοποιήσαμε ξανά σημεία τομής και τη βοήθεια της βιβλιοθήκης ``intersections`` με τον τρόπο που περιγράψαμε παραπάνω. Γενικότερα, δεδομένου ότι όταν έχουμε να κάνουμε με καμπύλες `Bézier <https://en.wikipedia.org/wiki/B%C3%A9zier_curve>`__ δε γνωρίζουμε τον τύπο της καμπύλης, το να χρησιμοποιήσουμε τα σημεία τομής της με άλλα αντικείμενα είναι ένας από τους λίγους - και ίσως ο πιο απλός - τρόπος για να αναφερθούμε σε συγκεκριμένα σημεία της καμπύλης.
+
+Και μία περιττή...
+------------------
+
+Το τελευταίο σχήμα της προηγούμενης εβδομάδας ήταν το εξής:
+
+.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/fig_49.png?w=723
+   :alt: Μία περιττή συνάρτηση...
+   :figclass: wp-image-9265
+
+   Μία περιττή συνάρτηση...
+
+Ο αντίστοιχος κώδικας είναι ο εξής:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \documentclass[tikz, margin=5mm]{standalone}
+    
+   \usetikzlibrary{calc}
+   \usetikzlibrary{intersections}
+    
+   \begin{document}
+       \begin{tikzpicture}
+       \draw[thick,-&gt;,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+       \draw[thick,-&gt;,name path=y axis] (0,-3) -- (0,3)node[pos=1,left]{$y$};
+       \node[left,yshift=-8pt](O) at (0,0){$O$};
+       \begin{scope}
+       \clip (-4,-3) rectangle (4,3);
+       \draw[thick, name path=curve 1, blue!50!black] (-3.6,-1) .. controls (-2,4) and (-1,3) .. (0,0);
+       \draw[thick, name path=curve 2, blue!50!black] (3.6,1) .. controls (2,-4) and (1,-3) .. (0,0)node[pos=0,above]{$f$};
+       \node[circle, fill=black, inner sep=1pt, label={above}:{$\textcolor{green!40!black}{x}$}](x) at (2.6,0){};
+       \node[circle, fill=black, inner sep=1pt, label={below}:{$\textcolor{green!40!black}{-x}$}](mx) at (-2.6,0){};
+       \draw[draw=none, name path=line 2] (2.6,-4) -- (2.6,4);
+       \draw[draw=none, name path=line 1] (-2.6,-4) -- (-2.6,4);
+       \node[circle, fill=green!40!black, inner sep=1pt, name intersections={of={line 1 and curve 1}}](A) at (intersection-1){};
+       \node[circle, fill=green!40!black, inner sep=1pt, name intersections={of={line 2 and curve 2}}](B) at (intersection-1){};
+       \end{scope}
+       \draw[dashed,-&gt;,orange] (x) -- (B);
+       \draw[dashed,-&gt;,orange] (mx) -- (A);
+       \draw[dashed,&lt;-&gt;,orange] (A) -- (B);
+       \draw[dashed,-&gt;,orange] (B) -- ($(0,-4)!(B)!(0,4)$)node[pos=1,left]{$f(x)$};
+       \draw[dashed,-&gt;,orange] (A) -- ($(0,-4)!(A)!(0,4)$)node[pos=1,right]{$-f(x)=f(-x)$};
+       \end{tikzpicture}
+   \end{document}
+
+Κι εδώ εφαρμόσαμε τις ίδιες αρχές με το προηγούμενο σχήμα. Σχεδιάσαμε μία καμπύλη στο δεξί ημιεπίπεδο, έπειτα σχεδιάσαμε τη συμμετρική της παίρνοντας τα συμμετρικά σημεία ελέγχου και μετά με τη βοήθεια αόρατων ευθειών και των σημείων τομής τους με τις καμπύλες μας σχεδιάσαμε τις ευθείες που επιθυμούσαμε. Παρατηρήστε επίσης πώς στο τέλος, για να σχεδιάσουμε τις προβολές των δύο σημείων στους άξονες χρησιμοποιήσαμε το αγαπημένο μας κόλπο από τη βιβλιοθήκη ``calc``:
+
+``(a)!(x)!(b)``
+
+όπου, ``a``,\ ``b`` είναι τα άκρα του ευθυγράμμου τμήματος πάνω στο οποίο προβάλουμε τον κόμβο ``x``.
+
+Αυτά ήταν τα σχήματά μας και γι' αυτήν την εβδομάδα. Μέχρι την επόμενη εβδομάδα, καλή συνέχεια!
+
+
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: MeFkoujMojo 
+
+.. raw:: html
+
+   </figure>

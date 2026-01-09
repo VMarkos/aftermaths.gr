@@ -1,0 +1,38 @@
+Πανελλήνιες - Επαναληπτικό Θέμα #3
+##################################
+:date: 2022-03-22 10:29
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: παράγωγος, πανελλήνιες, Γ' λυκείου, γραφική παράσταση, επανάληψη, ολοκλήρωμα
+:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-3
+:status: published
+:attachments: wp-content/uploads/2022/03/henri_leys_-_soldiers_playing_cards.jpeg
+
+.. figure:: /wp-content/uploads/2022/03/henri_leys_-_soldiers_playing_cards.jpeg
+	:alt: Ο πίνακας *Στρατιώτες παίζουν χαρτιά* του `Jan August Hendrick Leys <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 
+	:align: center
+
+	Ο πίνακας *Στρατιώτες παίζουν χαρτιά* του `Jan August Hendrick Leys <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 
+
+
+Λίγη ζωγραφική αυτήν την εβδομάδα, έτσι για να μην ξεχνιόμαστε!
+
+Το θέμα και τις λύσεις του μπορείτε να τα βρείτε `εδώ <https://drive.google.com/file/d/1CKALV_siac2RMQBcdpfcvcUgVn89VXec/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+*Τα προηγούμενα θέματα μπορείτε να τα βρείτε*\ `εδώ <https://aftermaths.gr/2022/03/04/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-1/>`__\ *κι*\ `εδώ <https://aftermaths.gr/2022/03/12/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-2/>`__\ *ενώ σχετικό υλικό για τις πανελλήνιες μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *κι*\ `εδώ <https://aftermaths.gr/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: Z8GkkOezuds =PLVElub974Qw35OQgzSV_mUja2hqwFngeH&index=1
+
+.. raw:: html
+
+   </figure>

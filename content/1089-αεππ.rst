@@ -1,12 +1,14 @@
 1089 (ΑΕΠΠ)
 ###########
-:date: 2019-09-11 12:47
-:author: aftermathsgr
-:category: ΑΕΠΠ, Διδακτικό υλικό
-:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επιλογής, επανάληψη
-:slug: 1089-%ce%b1%ce%b5%cf%80%cf%80
-:status: published
-:attachments: wp-content/uploads/2019/09/800px-lautrec_equestrienne_at_the_cirque_fernando_1887-8.jpg
+
+.. meta::
+	:date: 2019-09-11 12:47
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επιλογής, επανάληψη
+	:slug: 1089-%ce%b1%ce%b5%cf%80%cf%80
+	:status: published
+	:attachments: wp-content/uploads/2019/09/800px-lautrec_equestrienne_at_the_cirque_fernando_1887-8.jpg
 
 .. figure:: /wp-content/uploads/2019/09/800px-lautrec_equestrienne_at_the_cirque_fernando_1887-8.jpg
 	:alt: Ο πίνακας *Στο τσίρκο Fernando* του `Henri de Toulouse-Lautrec <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 

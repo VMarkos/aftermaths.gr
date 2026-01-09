@@ -1,0 +1,34 @@
+Φύλλο εργασίας στις ασύμπτωτες
+##############################
+:date: 2019-10-05 16:44
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: πανελλήνιες, φύλλο εργασίας, όρια, Γ' λυκείου, ασύμπτωτες
+:slug: %cf%86%cf%8d%ce%bb%ce%bb%ce%bf-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%af%ce%b1%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%cf%83%cf%8d%ce%bc%cf%80%cf%84%cf%89%cf%84%ce%b5%cf%82
+:status: published
+:attachments: wp-content/uploads/2019/10/584px-vassily_kandinsky_1923_-_circles_in_a_circle.jpg
+
+.. figure:: /wp-content/uploads/2019/10/584px-vassily_kandinsky_1923_-_circles_in_a_circle.jpg
+	:alt: Ο πίνακας *Κύκλοι μέσα σε κύκλο* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Κύκλοι μέσα σε κύκλο* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+
+
+Το φύλλο εργασίας βρίσκεται `εδώ <https://drive.google.com/file/d/1EeBafaA5FcX_qW_aWzIyHOdWF4IF28Hy/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: wyLJ1axlV6A 
+
+.. raw:: html
+
+   </figure>

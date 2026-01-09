@@ -1,12 +1,14 @@
 Απαγωγή σε Άτοπο #not
 #####################
-:date: 2021-11-07 18:21
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, Α' Λυκείου, ΕΠΑΛ, αποδείξεις
-:slug: %ce%b1%cf%80%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%ce%b5-%ce%ac%cf%84%ce%bf%cf%80%ce%bf-not
-:status: published
-:attachments: wp-content/uploads/2021/11/af-klint-hilma_svanen-nr-8_1915_modernamuseet_press.jpg
+
+.. meta::
+	:date: 2021-11-07 18:21
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, Α' Λυκείου, ΕΠΑΛ, αποδείξεις
+	:slug: %ce%b1%cf%80%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%ce%b5-%ce%ac%cf%84%ce%bf%cf%80%ce%bf-not
+	:status: published
+	:attachments: wp-content/uploads/2021/11/af-klint-hilma_svanen-nr-8_1915_modernamuseet_press.jpg
 
 .. figure:: /wp-content/uploads/2021/11/af-klint-hilma_svanen-nr-8_1915_modernamuseet_press.jpg
 	:alt: Ο πίνακας *Ο κύκνος, Νο. 8* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__. 

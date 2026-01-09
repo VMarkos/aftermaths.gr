@@ -1,12 +1,14 @@
 Η φιλοσοφική λίθος του σύγχρονου κόσμου
 #######################################
-:date: 2018-09-16 19:34
-:author: aftermathsgr
-:category: Απόψεις
-:tags: featured, σύγχρονος τρόπος ζωής, αμπελοφιλοσοφία, επιστήμη
-:slug: %ce%b7-%cf%86%ce%b9%ce%bb%ce%bf%cf%83%ce%bf%cf%86%ce%b9%ce%ba%ce%ae-%ce%bb%ce%af%ce%b8%ce%bf%cf%82-%cf%84%ce%bf%cf%85-%cf%83%cf%8d%ce%b3%cf%87%cf%81%ce%bf%ce%bd%ce%bf%cf%85-%ce%ba%cf%8c%cf%83%ce%bc
-:status: published
-:attachments: wp-content/uploads/2018/09/the_castle_of_mariemont_jan_i_brueghel_1612.jpg
+
+.. meta::
+	:date: 2018-09-16 19:34
+	:author: aftermathsgr
+	:category: Απόψεις
+	:tags: featured, σύγχρονος τρόπος ζωής, αμπελοφιλοσοφία, επιστήμη
+	:slug: %ce%b7-%cf%86%ce%b9%ce%bb%ce%bf%cf%83%ce%bf%cf%86%ce%b9%ce%ba%ce%ae-%ce%bb%ce%af%ce%b8%ce%bf%cf%82-%cf%84%ce%bf%cf%85-%cf%83%cf%8d%ce%b3%cf%87%cf%81%ce%bf%ce%bd%ce%bf%cf%85-%ce%ba%cf%8c%cf%83%ce%bc
+	:status: published
+	:attachments: wp-content/uploads/2018/09/the_castle_of_mariemont_jan_i_brueghel_1612.jpg
 
 .. figure:: /wp-content/uploads/2018/09/the_castle_of_mariemont_jan_i_brueghel_1612.jpg
 	:alt: 

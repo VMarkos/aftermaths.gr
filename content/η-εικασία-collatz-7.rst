@@ -1,12 +1,14 @@
 Η εικασία Collatz (7)
 #####################
-:date: 2021-10-16 13:16
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: Collatz, featured
-:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-7
-:status: published
-:attachments: wp-content/uploads/2021/10/fantinlatour_danae.jpg
+
+.. meta::
+	:date: 2021-10-16 13:16
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: Collatz, featured
+	:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-7
+	:status: published
+	:attachments: wp-content/uploads/2021/10/fantinlatour_danae.jpg
 
 .. figure:: /wp-content/uploads/2021/10/fantinlatour_danae.jpg
 	:alt: Ο πίνακας *Δανάη* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 

@@ -1,12 +1,14 @@
 45436, 44300, 24900: Ποιος Είναι ο Επόμενος;
 ############################################
-:date: 2021-02-21 19:46
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά, Τίποτα στην τύχη
-:tags: featured, πιθανότητες, μαθηματικά
-:slug: %cf%84%ce%af%cf%80%ce%bf%cf%84%ce%b1-%cf%83%cf%84%ce%b7%ce%bd-%cf%84%cf%8d%cf%87%ce%b7-%ce%b1%cf%80%ce%bb%ce%ad%cf%82-%ce%b9%ce%b4%ce%ad%ce%b5%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/02/albert_gleizes_1910_femme_aux_phlox_oil_on_canvas_81_x_100_cm_exhibited_armory_show_new_york_1913_the_museum_of_fine_arts_houston..jpg, wp-content/uploads/2024/05/division_002.png, wp-content/uploads/2024/05/planting_primes.gif, wp-content/uploads/2024/05/fract_parts_001.png, wp-content/uploads/2024/05/planting_rationals.gif, wp-content/uploads/2024/05/planting_primes-1.gif, wp-content/uploads/2024/05/planting_irrationals.gif, wp-content/uploads/2024/05/division_001.png, wp-content/uploads/2024/05/planting_non_primes.gif
+
+.. meta::
+	:date: 2021-02-21 19:46
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά, Τίποτα στην τύχη
+	:tags: featured, πιθανότητες, μαθηματικά
+	:slug: %cf%84%ce%af%cf%80%ce%bf%cf%84%ce%b1-%cf%83%cf%84%ce%b7%ce%bd-%cf%84%cf%8d%cf%87%ce%b7-%ce%b1%cf%80%ce%bb%ce%ad%cf%82-%ce%b9%ce%b4%ce%ad%ce%b5%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/02/albert_gleizes_1910_femme_aux_phlox_oil_on_canvas_81_x_100_cm_exhibited_armory_show_new_york_1913_the_museum_of_fine_arts_houston..jpg, wp-content/uploads/2024/05/division_002.png, wp-content/uploads/2024/05/planting_primes.gif, wp-content/uploads/2024/05/fract_parts_001.png, wp-content/uploads/2024/05/planting_rationals.gif, wp-content/uploads/2024/05/planting_primes-1.gif, wp-content/uploads/2024/05/planting_irrationals.gif, wp-content/uploads/2024/05/division_001.png, wp-content/uploads/2024/05/planting_non_primes.gif
 
 .. figure:: /wp-content/uploads/2021/02/albert_gleizes_1910_femme_aux_phlox_oil_on_canvas_81_x_100_cm_exhibited_armory_show_new_york_1913_the_museum_of_fine_arts_houston..jpg, wp-content/uploads/2024/05/division_002.png, wp-content/uploads/2024/05/planting_primes.gif, wp-content/uploads/2024/05/fract_parts_001.png, wp-content/uploads/2024/05/planting_rationals.gif, wp-content/uploads/2024/05/planting_primes-1.gif, wp-content/uploads/2024/05/planting_irrationals.gif, wp-content/uploads/2024/05/division_001.png, wp-content/uploads/2024/05/planting_non_primes.gif
 	:alt: Ο πίνακας *Γυναίκα με Phlox* του `Albert Gleizes <https://en.wikipedia.org/wiki/Albert_Gleizes>`__. 

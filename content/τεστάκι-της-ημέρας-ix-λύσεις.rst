@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας IX - Λύσεις
 ##############################
-:date: 2020-11-08 20:42
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ασκήσεις, λύσεις, μονοτονία
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-ix-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2020/11/alexej_von_jawlensky_-_der_violette_turban.jpg
+
+.. meta::
+	:date: 2020-11-08 20:42
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ασκήσεις, λύσεις, μονοτονία
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-ix-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2020/11/alexej_von_jawlensky_-_der_violette_turban.jpg
 
 .. figure:: /wp-content/uploads/2020/11/alexej_von_jawlensky_-_der_violette_turban.jpg
 	:alt: Ο πίνακας *Βιολετί τουρμπάνι* του `Alexej von Jawlensky <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__. 

@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας XXXIV (Γ' ΕΠΑΛ)
 ##################################
-:date: 2020-12-03 08:43
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: πανελλήνιες, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διασπορά, διακύμανση, επανάληψη, εύρος, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxxiv-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
-:status: published
-:attachments: wp-content/uploads/2020/12/macdonaldwright_airplanesynchyelorng.jpg
+
+.. meta::
+	:date: 2020-12-03 08:43
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: πανελλήνιες, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διασπορά, διακύμανση, επανάληψη, εύρος, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxxiv-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2020/12/macdonaldwright_airplanesynchyelorng.jpg
 
 .. figure:: /wp-content/uploads/2020/12/macdonaldwright_airplanesynchyelorng.jpg
 	:alt: Ο πίνακας *Αεροπλάνο σε συγχρωμία κίντρινου και πορτοκαλί* του `Stanton MacDonald-Wright <https://en.wikipedia.org/wiki/Stanton_Macdonald-Wright>`__\ *.* 

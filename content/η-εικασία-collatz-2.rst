@@ -1,12 +1,14 @@
 Η εικασία Collatz (2)
 #####################
-:date: 2021-04-24 09:47
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: Collatz, εικασία, μαθηματικά
-:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-2
-:status: published
-:attachments: wp-content/uploads/2021/04/718px-ambroise_vollard_by_pierre-auguste_renoir.jpg
+
+.. meta::
+	:date: 2021-04-24 09:47
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: Collatz, εικασία, μαθηματικά
+	:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-2
+	:status: published
+	:attachments: wp-content/uploads/2021/04/718px-ambroise_vollard_by_pierre-auguste_renoir.jpg
 
 .. figure:: /wp-content/uploads/2021/04/718px-ambroise_vollard_by_pierre-auguste_renoir.jpg
 	:alt: Το πορτραίτο του Ambroise Vollard του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

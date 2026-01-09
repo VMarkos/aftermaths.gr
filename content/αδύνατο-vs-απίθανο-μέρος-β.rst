@@ -1,12 +1,14 @@
 Αδύνατο vs Απίθανο - Μέρος Β'
 #############################
-:date: 2021-10-10 22:12
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, πιθανότητες
-:slug: %ce%b1%ce%b4%cf%8d%ce%bd%ce%b1%cf%84%ce%bf-vs-%ce%b1%cf%80%ce%af%ce%b8%ce%b1%ce%bd%ce%bf-%ce%bc%ce%ad%cf%81%ce%bf%cf%82-%ce%b2
-:status: published
-:attachments: wp-content/uploads/2021/10/thomas_couture_-_los_romanos_de_la_decadencia_museo_de_orsay_1847._oleo_sobre_lienzo_472_x_772_cm.jpg
+
+.. meta::
+	:date: 2021-10-10 22:12
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, πιθανότητες
+	:slug: %ce%b1%ce%b4%cf%8d%ce%bd%ce%b1%cf%84%ce%bf-vs-%ce%b1%cf%80%ce%af%ce%b8%ce%b1%ce%bd%ce%bf-%ce%bc%ce%ad%cf%81%ce%bf%cf%82-%ce%b2
+	:status: published
+	:attachments: wp-content/uploads/2021/10/thomas_couture_-_los_romanos_de_la_decadencia_museo_de_orsay_1847._oleo_sobre_lienzo_472_x_772_cm.jpg
 
 .. figure:: /wp-content/uploads/2021/10/thomas_couture_-_los_romanos_de_la_decadencia_museo_de_orsay_1847._oleo_sobre_lienzo_472_x_772_cm.jpg
 	:alt: Ο πίνακας *Η παρακμή των Ρωμαίων* του `Thomas Couture <https://en.wikipedia.org/wiki/Thomas_Couture>`__. 

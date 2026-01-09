@@ -1,12 +1,14 @@
 Πεδία ορισμού και γραφικές παραστάσεις
 ######################################
-:date: 2020-05-03 15:04
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, συναρτήσεις, Α' Λυκείου, ασκήσεις, γραφική παράσταση, επανάληψη
-:slug: %cf%80%ce%b5%ce%b4%ce%af%ce%b1-%ce%bf%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-%ce%ba%ce%b1%ce%b9-%ce%b3%cf%81%ce%b1%cf%86%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5
-:status: published
-:attachments: wp-content/uploads/2020/05/800px-self-portrait_1628-1629_by_rembrandt.jpg
+
+.. meta::
+	:date: 2020-05-03 15:04
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, συναρτήσεις, Α' Λυκείου, ασκήσεις, γραφική παράσταση, επανάληψη
+	:slug: %cf%80%ce%b5%ce%b4%ce%af%ce%b1-%ce%bf%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-%ce%ba%ce%b1%ce%b9-%ce%b3%cf%81%ce%b1%cf%86%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5
+	:status: published
+	:attachments: wp-content/uploads/2020/05/800px-self-portrait_1628-1629_by_rembrandt.jpg
 
 .. figure:: /wp-content/uploads/2020/05/800px-self-portrait_1628-1629_by_rembrandt.jpg
 	:alt: Μία αυτοπροσωπογραφία του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__ νέου. 

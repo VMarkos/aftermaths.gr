@@ -1,0 +1,34 @@
+Τεστάκι της ημέρας ΧΙΧ - Λύσεις
+###############################
+:date: 2020-11-18 20:00
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+:tags: τεστ, Α' Λυκείου, απόλυτη τιμή, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
+:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%cf%87%ce%b9%cf%87-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+:status: published
+:attachments: wp-content/uploads/2020/11/robert_delaunay_nature_morte_au_vase_de_fleurs_c1907.jpg
+
+.. figure:: /wp-content/uploads/2020/11/robert_delaunay_nature_morte_au_vase_de_fleurs_c1907.jpg
+	:alt: Ο πίνακας *Νεκρή φύση, βάζο με λουλούδια* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__. 
+	:align: center
+
+	Ο πίνακας *Νεκρή φύση, βάζο με λουλούδια* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__. 
+
+
+Οι λύσεις του `προηγούμενου τεστ <https://aftermathsgr.wordpress.com/2020/11/18/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xix-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85/>`__ βρίσκονται `εδώ <https://drive.google.com/file/d/1c0sYNF9oSCfS3CCCi8SMOeH8gTgafwv9/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: axDO7iB8_Cg 
+
+.. raw:: html
+
+   </figure>

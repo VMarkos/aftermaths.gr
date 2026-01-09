@@ -1,12 +1,14 @@
 Αδύνατο vs Απίθανο - Μέρος Δ'
 #############################
-:date: 2021-10-31 16:36
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, πιθανότητες
-:slug: %ce%b1%ce%b4%cf%8d%ce%bd%ce%b1%cf%84%ce%bf-vs-%ce%b1%cf%80%ce%af%ce%b8%ce%b1%ce%bd%ce%bf-%ce%bc%ce%ad%cf%81%ce%bf%cf%82-%ce%b4
-:status: published
-:attachments: wp-content/uploads/2021/10/2560px-henri_fantin-latour_still_life_with_mustard_pot_1860_nga_164918.jpg
+
+.. meta::
+	:date: 2021-10-31 16:36
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, πιθανότητες
+	:slug: %ce%b1%ce%b4%cf%8d%ce%bd%ce%b1%cf%84%ce%bf-vs-%ce%b1%cf%80%ce%af%ce%b8%ce%b1%ce%bd%ce%bf-%ce%bc%ce%ad%cf%81%ce%bf%cf%82-%ce%b4
+	:status: published
+	:attachments: wp-content/uploads/2021/10/2560px-henri_fantin-latour_still_life_with_mustard_pot_1860_nga_164918.jpg
 
 .. figure:: /wp-content/uploads/2021/10/2560px-henri_fantin-latour_still_life_with_mustard_pot_1860_nga_164918.jpg
 	:alt: Ο πίνακας *Νεκρή φύση με δοχείο μουστάρδας* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 

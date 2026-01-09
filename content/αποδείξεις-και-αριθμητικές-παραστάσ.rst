@@ -1,12 +1,14 @@
 Αποδείξεις και αριθμητικές παραστάσεις
 ######################################
-:date: 2019-09-07 18:17
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, παραστάσεις, Α' Λυκείου, αποδείξεις, ασκήσεις, επανάληψη
-:slug: %ce%b1%cf%80%ce%bf%ce%b4%ce%b5%ce%af%ce%be%ce%b5%ce%b9%cf%82-%ce%ba%ce%b1%ce%b9-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%b7%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83
-:status: published
-:attachments: wp-content/uploads/2019/09/451px-henri_de_toulouse-lautrec_1892_wadsworth_atheneum.jpg
+
+.. meta::
+	:date: 2019-09-07 18:17
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, παραστάσεις, Α' Λυκείου, αποδείξεις, ασκήσεις, επανάληψη
+	:slug: %ce%b1%cf%80%ce%bf%ce%b4%ce%b5%ce%af%ce%be%ce%b5%ce%b9%cf%82-%ce%ba%ce%b1%ce%b9-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%b7%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83
+	:status: published
+	:attachments: wp-content/uploads/2019/09/451px-henri_de_toulouse-lautrec_1892_wadsworth_atheneum.jpg
 
 .. figure:: /wp-content/uploads/2019/09/451px-henri_de_toulouse-lautrec_1892_wadsworth_atheneum.jpg
 	:alt: Ο πίνακας *Η Jane Avril φεύγει από το Moulin Rouge* του `Henri de Toulous-Lautrec <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 

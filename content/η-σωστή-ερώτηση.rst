@@ -1,12 +1,14 @@
 Η σωστή ερώτηση...
 ##################
-:date: 2021-11-20 15:16
-:author: aftermathsgr
-:category: After-maths, Διδακτική, Μαθηματικά
-:tags: featured, Α' Λυκείου, Β' Λυκείου, Γ' λυκείου, ΕΠΑΛ, εξισώσεις
-:slug: %ce%b7-%cf%83%cf%89%cf%83%cf%84%ce%ae-%ce%b5%cf%81%cf%8e%cf%84%ce%b7%cf%83%ce%b7
-:status: published
-:attachments: wp-content/uploads/2021/11/2560px-david_-_the_death_of_socrates.jpg
+
+.. meta::
+	:date: 2021-11-20 15:16
+	:author: aftermathsgr
+	:category: After-maths, Διδακτική, Μαθηματικά
+	:tags: featured, Α' Λυκείου, Β' Λυκείου, Γ' λυκείου, ΕΠΑΛ, εξισώσεις
+	:slug: %ce%b7-%cf%83%cf%89%cf%83%cf%84%ce%ae-%ce%b5%cf%81%cf%8e%cf%84%ce%b7%cf%83%ce%b7
+	:status: published
+	:attachments: wp-content/uploads/2021/11/2560px-david_-_the_death_of_socrates.jpg
 
 .. figure:: /wp-content/uploads/2021/11/2560px-david_-_the_death_of_socrates.jpg
 	:alt: Ο πίνακας *Ο Θάνατος του Σωκράτη* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 

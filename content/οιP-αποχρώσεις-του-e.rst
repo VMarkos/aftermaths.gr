@@ -1,12 +1,14 @@
 Οι 50 αποχρώσεις του e
 ######################
-:date: 2019-08-02 18:16
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά, Longreads
-:tags: featured, επιστήμη, εκθετική
-:slug: %ce%bf%ce%b9-50-%ce%b1%cf%80%ce%bf%cf%87%cf%81%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-e
-:status: published
-:attachments: wp-content/uploads/2019/08/lw377-mc-escher-two-intersecting-planes-1952.jpg, wp-content/uploads/2019/08/ezgif.com-crop4.gif, wp-content/uploads/2019/08/ezgif.com-gif-maker-5.gif, wp-content/uploads/2019/08/ezgif-5-ffba512886.pdf-1.png, wp-content/uploads/2019/08/ezgif.com-gif-maker-4.gif, wp-content/uploads/2019/07/ezgif.com-crop2-2.gif, wp-content/uploads/2019/07/ezgif.com-crop3-1.gif
+
+.. meta::
+	:date: 2019-08-02 18:16
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά, Longreads
+	:tags: featured, επιστήμη, εκθετική
+	:slug: %ce%bf%ce%b9-50-%ce%b1%cf%80%ce%bf%cf%87%cf%81%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-e
+	:status: published
+	:attachments: wp-content/uploads/2019/08/lw377-mc-escher-two-intersecting-planes-1952.jpg, wp-content/uploads/2019/08/ezgif.com-crop4.gif, wp-content/uploads/2019/08/ezgif.com-gif-maker-5.gif, wp-content/uploads/2019/08/ezgif-5-ffba512886.pdf-1.png, wp-content/uploads/2019/08/ezgif.com-gif-maker-4.gif, wp-content/uploads/2019/07/ezgif.com-crop2-2.gif, wp-content/uploads/2019/07/ezgif.com-crop3-1.gif
 
 .. figure:: /wp-content/uploads/2019/08/lw377-mc-escher-two-intersecting-planes-1952.jpg, wp-content/uploads/2019/08/ezgif.com-crop4.gif, wp-content/uploads/2019/08/ezgif.com-gif-maker-5.gif, wp-content/uploads/2019/08/ezgif-5-ffba512886.pdf-1.png, wp-content/uploads/2019/08/ezgif.com-gif-maker-4.gif, wp-content/uploads/2019/07/ezgif.com-crop2-2.gif, wp-content/uploads/2019/07/ezgif.com-crop3-1.gif
 	:alt: Το χαρακτικό σε ξύλο *Δύο τεμνόμενα επίπεδα* του `M <https://en.wikipedia.org/wiki/M._C._Escher>`__\ `aurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 

@@ -1,0 +1,36 @@
+Άλλα τρία θέματα Στατιστικής
+############################
+:date: 2021-03-02 15:33
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
+:slug: %ce%ac%ce%bb%ce%bb%ce%b1-%cf%84%cf%81%ce%af%ce%b1-%ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84%ce%b9%ce%ba%ce%ae%cf%82
+:status: published
+:attachments: wp-content/uploads/2021/03/854px-renoir_by_bazille.jpg
+
+.. figure:: /wp-content/uploads/2021/03/854px-renoir_by_bazille.jpg
+	:alt: Το πορτραίτο του Renoir του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
+	:align: center
+
+	Το πορτραίτο του Renoir του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
+
+
+Τρία θέματα στην πετσοκομμένη ύλης της στατιστικής, ένα "κλικ" πιο δύσκολα από `τα προηγούμενα <https://aftermathsgr.wordpress.com/2021/02/13/%cf%84%cf%81%ce%af%ce%b1-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ac-%ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84%ce%b9%ce%ba%ce%ae/>`__.
+
+Τα θέματα μπορείτε να τα βρείτε `εδώ <https://drive.google.com/file/d/1I7Zn9vH85inM3KrNLqVGmgAmGq9uIuHW/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλησπέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: b9Gp3KcUbIg 
+
+.. raw:: html
+
+   </figure>

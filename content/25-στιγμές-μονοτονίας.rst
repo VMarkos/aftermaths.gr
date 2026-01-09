@@ -1,12 +1,14 @@
 25 στιγμές... μονοτονίας
 ########################
-:date: 2020-12-16 10:20
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πανελλήνιες, συναρτήσεις, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, μαθηματικά, μονοτονία
-:slug: 25-%cf%83%cf%84%ce%b9%ce%b3%ce%bc%ce%ad%cf%82-%ce%bc%ce%bf%ce%bd%ce%bf%cf%84%ce%bf%ce%bd%ce%af%ce%b1%cf%82
-:status: published
-:attachments: wp-content/uploads/2020/12/chase_mrs_meigs_piano_organ_1883.jpg
+
+.. meta::
+	:date: 2020-12-16 10:20
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, συναρτήσεις, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, μαθηματικά, μονοτονία
+	:slug: 25-%cf%83%cf%84%ce%b9%ce%b3%ce%bc%ce%ad%cf%82-%ce%bc%ce%bf%ce%bd%ce%bf%cf%84%ce%bf%ce%bd%ce%af%ce%b1%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2020/12/chase_mrs_meigs_piano_organ_1883.jpg
 
 .. figure:: /wp-content/uploads/2020/12/chase_mrs_meigs_piano_organ_1883.jpg
 	:alt: Ο πίνακας *Η δεσποινίς Chase παίζοντας πιάνο* του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 

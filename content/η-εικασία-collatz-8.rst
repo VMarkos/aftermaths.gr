@@ -1,12 +1,14 @@
 Η εικασία Collatz (8)
 #####################
-:date: 2021-10-22 23:55
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: Collatz, featured
-:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-8
-:status: published
-:attachments: wp-content/uploads/2021/10/henri_fantin-latour_-_by_the_table_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-10-22 23:55
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: Collatz, featured
+	:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-8
+	:status: published
+	:attachments: wp-content/uploads/2021/10/henri_fantin-latour_-_by_the_table_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/10/henri_fantin-latour_-_by_the_table_-_google_art_project.jpg
 	:alt: Ο πίνακας *Στο τραπέζι* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 

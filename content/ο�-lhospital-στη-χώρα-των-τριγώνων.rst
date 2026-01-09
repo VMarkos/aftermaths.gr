@@ -1,12 +1,14 @@
 Ο De L'Hôspital στην Χώρα των Τριγώνων
 ######################################
-:date: 2022-11-19 15:30
-:author: aftermathsgr
-:category: After-maths, Διδακτική, Μαθηματικά
-:tags: featured, πανελλήνιες, Γ' λυκείου, l&#039;hospital
-:slug: %ce%bf-de-lhospital-%cf%83%cf%84%ce%b7-%cf%87%cf%8e%cf%81%ce%b1-%cf%84%cf%89%ce%bd-%cf%84%cf%81%ce%b9%ce%b3%cf%8e%ce%bd%cf%89%ce%bd
-:status: published
-:attachments: wp-content/uploads/2022/11/best_approx.png, wp-content/uploads/2022/11/best_approx_02.png, wp-content/uploads/2022/11/dlh_f_g-1.png, wp-content/uploads/2022/11/infty_approx_01.png, wp-content/uploads/2022/11/best_approx_01.png, wp-content/uploads/2022/11/best_approx_04.png, wp-content/uploads/2022/11/gustave_caillebotte_-_the_yellow_fields_at_gennevilliers.jpg, wp-content/uploads/2022/11/dlh_f_g.png, wp-content/uploads/2022/11/infty_approx_02.png, wp-content/uploads/2022/11/best_approx_03.png
+
+.. meta::
+	:date: 2022-11-19 15:30
+	:author: aftermathsgr
+	:category: After-maths, Διδακτική, Μαθηματικά
+	:tags: featured, πανελλήνιες, Γ' λυκείου, l&#039;hospital
+	:slug: %ce%bf-de-lhospital-%cf%83%cf%84%ce%b7-%cf%87%cf%8e%cf%81%ce%b1-%cf%84%cf%89%ce%bd-%cf%84%cf%81%ce%b9%ce%b3%cf%8e%ce%bd%cf%89%ce%bd
+	:status: published
+	:attachments: wp-content/uploads/2022/11/best_approx.png, wp-content/uploads/2022/11/best_approx_02.png, wp-content/uploads/2022/11/dlh_f_g-1.png, wp-content/uploads/2022/11/infty_approx_01.png, wp-content/uploads/2022/11/best_approx_01.png, wp-content/uploads/2022/11/best_approx_04.png, wp-content/uploads/2022/11/gustave_caillebotte_-_the_yellow_fields_at_gennevilliers.jpg, wp-content/uploads/2022/11/dlh_f_g.png, wp-content/uploads/2022/11/infty_approx_02.png, wp-content/uploads/2022/11/best_approx_03.png
 
 .. figure:: /wp-content/uploads/2022/11/best_approx.png, wp-content/uploads/2022/11/best_approx_02.png, wp-content/uploads/2022/11/dlh_f_g-1.png, wp-content/uploads/2022/11/infty_approx_01.png, wp-content/uploads/2022/11/best_approx_01.png, wp-content/uploads/2022/11/best_approx_04.png, wp-content/uploads/2022/11/gustave_caillebotte_-_the_yellow_fields_at_gennevilliers.jpg, wp-content/uploads/2022/11/dlh_f_g.png, wp-content/uploads/2022/11/infty_approx_02.png, wp-content/uploads/2022/11/best_approx_03.png
 	:alt: Ο καθ'όλα φθινοπωρινός πίνακας *Τα κίτρινα λιβάδια της Gennevilliers* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 

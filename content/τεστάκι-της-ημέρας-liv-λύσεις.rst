@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LIV - Λύσεις
 ###############################
-:date: 2021-01-30 09:25
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: παράγωγος, πανελλήνιες, τεστ, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-liv-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/01/810px-ivan_kramskoi_-_mina_moiseyev_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-01-30 09:25
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παράγωγος, πανελλήνιες, τεστ, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-liv-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/01/810px-ivan_kramskoi_-_mina_moiseyev_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/01/810px-ivan_kramskoi_-_mina_moiseyev_-_google_art_project.jpg
 	:alt: Το πορτραίτο του Mina Moiseyev του `Ivan Kramskoi <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 

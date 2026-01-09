@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LV - Λύσεις
 ##############################
-:date: 2021-02-02 09:29
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: παράγωγος, πανελλήνιες, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, λύσεις, μονοτονία
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lv-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/02/bellerofont_otpravljaetsja_v_pohod_protiv_himery.jpg
+
+.. meta::
+	:date: 2021-02-02 09:29
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παράγωγος, πανελλήνιες, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, λύσεις, μονοτονία
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lv-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/02/bellerofont_otpravljaetsja_v_pohod_protiv_himery.jpg
 
 .. figure:: /wp-content/uploads/2021/02/bellerofont_otpravljaetsja_v_pohod_protiv_himery.jpg
 	:alt: Ο πίνακας *Ο Βελερεφόντης αναλαμβάνει μία αποστολή απέναντι στη Χίμαιρα* του `Alexander Ivanov <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\ *.* 

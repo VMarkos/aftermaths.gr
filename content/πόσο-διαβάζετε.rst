@@ -1,12 +1,14 @@
 Πόσο Διαβάζετε;
 ###############
-:date: 2024-07-01 22:36
-:author: aftermathsgr
-:category: After-maths, Διδακτική, Μαθηματικά
-:tags: featured, στατιστική, φύλλο εργασίας, Γ' λυκείου, ΕΠΑΛ, άλγεβρα
-:slug: %cf%80%cf%8c%cf%83%ce%bf-%ce%b4%ce%b9%ce%b1%ce%b2%ce%ac%ce%b6%ce%b5%cf%84%ce%b5
-:status: published
-:attachments: wp-content/uploads/2024/06/image.png, wp-content/uploads/2024/06/image-1.png, wp-content/uploads/2024/07/image.png, wp-content/uploads/2024/07/image-1.png, wp-content/uploads/2024/06/image-2.png, wp-content/uploads/2024/07/image-2.png, wp-content/uploads/2024/07/wilhelm_diefenbach_der_rettung_entgegen.jpg, wp-content/uploads/2024/06/image-4.png, wp-content/uploads/2024/06/image-3.png, wp-content/uploads/2024/06/image-5.png, wp-content/uploads/2024/07/image-3.png
+
+.. meta::
+	:date: 2024-07-01 22:36
+	:author: aftermathsgr
+	:category: After-maths, Διδακτική, Μαθηματικά
+	:tags: featured, στατιστική, φύλλο εργασίας, Γ' λυκείου, ΕΠΑΛ, άλγεβρα
+	:slug: %cf%80%cf%8c%cf%83%ce%bf-%ce%b4%ce%b9%ce%b1%ce%b2%ce%ac%ce%b6%ce%b5%cf%84%ce%b5
+	:status: published
+	:attachments: wp-content/uploads/2024/06/image.png, wp-content/uploads/2024/06/image-1.png, wp-content/uploads/2024/07/image.png, wp-content/uploads/2024/07/image-1.png, wp-content/uploads/2024/06/image-2.png, wp-content/uploads/2024/07/image-2.png, wp-content/uploads/2024/07/wilhelm_diefenbach_der_rettung_entgegen.jpg, wp-content/uploads/2024/06/image-4.png, wp-content/uploads/2024/06/image-3.png, wp-content/uploads/2024/06/image-5.png, wp-content/uploads/2024/07/image-3.png
 
 .. figure:: /wp-content/uploads/2024/06/image.png, wp-content/uploads/2024/06/image-1.png, wp-content/uploads/2024/07/image.png, wp-content/uploads/2024/07/image-1.png, wp-content/uploads/2024/06/image-2.png, wp-content/uploads/2024/07/image-2.png, wp-content/uploads/2024/07/wilhelm_diefenbach_der_rettung_entgegen.jpg, wp-content/uploads/2024/06/image-4.png, wp-content/uploads/2024/06/image-3.png, wp-content/uploads/2024/06/image-5.png, wp-content/uploads/2024/07/image-3.png
 	:alt: Ο πίνακας *Προς τη Διάσωση* του `Karl Wilhelm Diefenbach <https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach>`__. 

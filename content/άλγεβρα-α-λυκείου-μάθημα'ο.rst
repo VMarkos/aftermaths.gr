@@ -1,12 +1,14 @@
 Άλγεβρα, Α' Λυκείου - Μάθημα 27ο
 ################################
-:date: 2022-03-28 08:51
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: παραμετρικές, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, ανισώσεις, διαφάνειες, επανάληψη, εξισώσεις, λυμένα παραδείγματα
-:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-27%ce%bf
-:status: published
-:attachments: wp-content/uploads/2022/03/1280px-gustaf_wappers_1803-74_-_22souvenir_danvers22_-_rcin_406303_-_royal_collection.jpg
+
+.. meta::
+	:date: 2022-03-28 08:51
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παραμετρικές, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, ανισώσεις, διαφάνειες, επανάληψη, εξισώσεις, λυμένα παραδείγματα
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-27%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2022/03/1280px-gustaf_wappers_1803-74_-_22souvenir_danvers22_-_rcin_406303_-_royal_collection.jpg
 
 .. figure:: /wp-content/uploads/2022/03/1280px-gustaf_wappers_1803-74_-_22souvenir_danvers22_-_rcin_406303_-_royal_collection.jpg
 	:alt: Ο πίνακας *Σουβενίρ από την Αμβέρσα* του `Gustaaf Wappers <https://en.wikipedia.org/wiki/Gustaaf_Wappers>`__. 

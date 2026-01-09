@@ -1,0 +1,24 @@
+Ένα ακόμα τεστ στα πολυώνυμα
+############################
+:date: 2019-03-10 19:08
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: πολυώνυμα, τεστ, Β' Λυκείου, ανισώσεις, επανάληψη, εξισώσεις
+:slug: %ce%ad%ce%bd%ce%b1-%ce%b1%ce%ba%cf%8c%ce%bc%ce%b1-%cf%84%ce%b5%cf%83%cf%84-%cf%83%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%cf%85%cf%8e%ce%bd%cf%85%ce%bc%ce%b1
+:status: published
+:attachments: wp-content/uploads/2019/03/721px-caravaggio_-_i_musici.jpg
+
+.. figure:: /wp-content/uploads/2019/03/721px-caravaggio_-_i_musici.jpg
+	:alt: Ο πίνακας *Οι μουσικοί* του `Caravaggio <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Οι μουσικοί* του `Caravaggio <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+
+
+Το τεστ βρίσκεται `εδώ <https://drive.google.com/file/d/1mQu906sBX3VFSFgXYF-T450yrB8eZUpm/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. youtube:: zUlt33GEwjo 

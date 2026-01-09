@@ -1,12 +1,14 @@
 Διαγώνισμα εφ' όλης της ύλης V - Λύσεις (Γ' Λυκείου)
 ####################################################
-:date: 2019-06-05 20:04
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, διαγώνισμα, επανάληψη, λύσεις
-:slug: %ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%8d%ce%bb%ce%b7%cf%82-v-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%ce%b3
-:status: published
-:attachments: wp-content/uploads/2019/06/scene_from_schiller.jpg
+
+.. meta::
+	:date: 2019-06-05 20:04
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, διαγώνισμα, επανάληψη, λύσεις
+	:slug: %ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%8d%ce%bb%ce%b7%cf%82-v-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%ce%b3
+	:status: published
+	:attachments: wp-content/uploads/2019/06/scene_from_schiller.jpg
 
 .. figure:: /wp-content/uploads/2019/06/scene_from_schiller.jpg
 	:alt: Το σχέδιο *Σκηνή από του «Ληστές»* *του Schiller* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 

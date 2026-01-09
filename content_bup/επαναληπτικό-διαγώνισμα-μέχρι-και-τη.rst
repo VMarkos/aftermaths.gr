@@ -1,0 +1,34 @@
+Επαναληπτικό διαγώνισμα μέχρι και τη Συνέχεια
+#############################################
+:date: 2019-11-24 22:02
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, διαγώνισμα, επανάληψη
+:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%bc%ce%ad%cf%87%cf%81%ce%b9-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b7
+:status: published
+:attachments: wp-content/uploads/2019/11/490px-gertrudestein.jpg
+
+.. figure:: /wp-content/uploads/2019/11/490px-gertrudestein.jpg
+	:alt: Ο πίνακας *Το πορτραίτο της Gertrude Stein* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Το πορτραίτο της Gertrude Stein* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+
+
+Το διαγώνισμα βρίσκεται `εδώ <https://drive.google.com/file/d/1zA0CyXxMPCZrGlwbgtEobDDur_uhE-41/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=-r6lVM6QPic
+
+.. raw:: html
+
+   </figure>

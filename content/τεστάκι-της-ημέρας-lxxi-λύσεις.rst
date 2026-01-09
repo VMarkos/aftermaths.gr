@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXXI - Λύσεις
 ################################
-:date: 2021-03-13 09:35
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: παραμετρικές, τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, εξισώσεις, λύσεις, Vieta
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxi-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/03/1280px-frederic_bazille_young_woman_with_peonies_1870_nga_61356.jpg
+
+.. meta::
+	:date: 2021-03-13 09:35
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παραμετρικές, τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, εξισώσεις, λύσεις, Vieta
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxi-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/03/1280px-frederic_bazille_young_woman_with_peonies_1870_nga_61356.jpg
 
 .. figure:: /wp-content/uploads/2021/03/1280px-frederic_bazille_young_woman_with_peonies_1870_nga_61356.jpg
 	:alt: Ο πίνακας *Μαύρη γυναίκα με παιωνίες* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 

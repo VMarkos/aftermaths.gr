@@ -1,12 +1,14 @@
 Τεστάκι #007 - Απόλυτες Τιμές
 #############################
-:date: 2022-11-22 16:19
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, εξισώσεις
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-007-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82
-:status: published
-:attachments: wp-content/uploads/2022/11/g._caillebotte_-_homme_portant_une_blouse.jpg
+
+.. meta::
+	:date: 2022-11-22 16:19
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, εξισώσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-007-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2022/11/g._caillebotte_-_homme_portant_une_blouse.jpg
 
 .. figure:: /wp-content/uploads/2022/11/g._caillebotte_-_homme_portant_une_blouse.jpg
 	:alt: Ο πίνακας *Άνδρας που φοράει μία μπλούζα* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 

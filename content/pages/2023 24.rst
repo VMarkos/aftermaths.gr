@@ -1,12 +1,14 @@
 2023-2024
 #########
-:date: 2023-09-27 10:47
-:author: aftermathsgr
-:slug: 2023-2024
-:status: published
 
-`Αρχική <http://aftermaths.gr>`__ > `Διδακτικό Υλικό <https://aftermaths.gr/διδακτικό-υλικό>`__ > **2023 - 2024**
-
-Στους παρακάτω συνδέσμους μπορείτε να βρείτε διδακτικό υλικό σχετικό με το ακαδημαϊκό έτος 2023-2024.
-
-`Λύκειο <https://aftermaths.gr/%CE%B4%CE%B9%CE%B4%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CF%8C-%CF%85%CE%BB%CE%B9%CE%BA%CF%8C/2023-2024/%CE%BB%CF%8D%CE%BA%CE%B5%CE%B9%CE%BF/>`__
+.. meta::
+	:date: 2023-09-27 10:47
+	:author: aftermathsgr
+	:slug: 2023-2024
+	:status: published
+	
+	`Αρχική <http://aftermaths.gr>`__ > `Διδακτικό Υλικό <https://aftermaths.gr/διδακτικό-υλικό>`__ > **2023 - 2024**
+	
+	Στους παρακάτω συνδέσμους μπορείτε να βρείτε διδακτικό υλικό σχετικό με το ακαδημαϊκό έτος 2023-2024.
+	
+	`Λύκειο <https://aftermaths.gr/%CE%B4%CE%B9%CE%B4%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CF%8C-%CF%85%CE%BB%CE%B9%CE%BA%CF%8C/2023-2024/%CE%BB%CF%8D%CE%BA%CE%B5%CE%B9%CE%BF/>`__

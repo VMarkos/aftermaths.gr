@@ -1,12 +1,14 @@
 Σημειώσεις στις συναρτήσεις: 2019 - 2020
 ########################################
-:date: 2019-06-18 17:01
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: featured, προβλήματα, συναρτήσεις, σημειώσεις, Γ' λυκείου, ασκήσεις, επανάληψη
-:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-2019-2020
-:status: published
-:attachments: wp-content/uploads/2019/06/henri_matisse_1915-16_the_moroccans_oil_on_canvas_181.3_x_279.4_cm_museum_of_modern_art.jpg
+
+.. meta::
+	:date: 2019-06-18 17:01
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, προβλήματα, συναρτήσεις, σημειώσεις, Γ' λυκείου, ασκήσεις, επανάληψη
+	:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-2019-2020
+	:status: published
+	:attachments: wp-content/uploads/2019/06/henri_matisse_1915-16_the_moroccans_oil_on_canvas_181.3_x_279.4_cm_museum_of_modern_art.jpg
 
 .. figure:: /wp-content/uploads/2019/06/henri_matisse_1915-16_the_moroccans_oil_on_canvas_181.3_x_279.4_cm_museum_of_modern_art.jpg
 	:alt: Ο πίνακας *Οι Μαροκκινοί* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 

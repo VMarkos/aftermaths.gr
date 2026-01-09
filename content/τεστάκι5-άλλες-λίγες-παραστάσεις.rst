@@ -1,12 +1,14 @@
 Τεστάκι #005 - Άλλες λίγες Παραστάσεις
 ######################################
-:date: 2022-11-03 18:38
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: παραστάσεις, τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ανισότητες
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-005-%ce%ac%ce%bb%ce%bb%ce%b5%cf%82-%ce%bb%ce%af%ce%b3%ce%b5%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2022/11/1280px-gustave_caillebotte_-_rooftops_in_the_snow_snow_effect_-_google_art_project.jpg
+
+.. meta::
+	:date: 2022-11-03 18:38
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παραστάσεις, τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ανισότητες
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-005-%ce%ac%ce%bb%ce%bb%ce%b5%cf%82-%ce%bb%ce%af%ce%b3%ce%b5%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2022/11/1280px-gustave_caillebotte_-_rooftops_in_the_snow_snow_effect_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2022/11/1280px-gustave_caillebotte_-_rooftops_in_the_snow_snow_effect_-_google_art_project.jpg
 	:alt: Ο πίνακας *Χιονισμένες Σκεπές* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 

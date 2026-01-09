@@ -1,0 +1,34 @@
+Λογικές εκφράσεις
+#################
+:date: 2020-10-06 10:47
+:author: aftermathsgr
+:category: ΑΕΠΠ, Διδακτικό υλικό
+:tags: προβλήματα, πανελλήνιες, ασκήσεις, επανάληψη, λογικές εκφράσεις
+:slug: %ce%bb%ce%bf%ce%b3%ce%b9%ce%ba%ce%ad%cf%82-%ce%b5%ce%ba%cf%86%cf%81%ce%ac%cf%83%ce%b5%ce%b9%cf%82
+:status: published
+:attachments: wp-content/uploads/2020/10/paul-fischer.-afternoon-tea.jpg
+
+.. figure:: /wp-content/uploads/2020/10/paul-fischer.-afternoon-tea.jpg
+	:alt: Ο πίνακας *Απογευματινό τσάι* του `Paul Gustav Fischer <https://en.wikipedia.org/wiki/Paul_Gustav_Fischer>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Απογευματινό τσάι* του `Paul Gustav Fischer <https://en.wikipedia.org/wiki/Paul_Gustav_Fischer>`__\ *.* 
+
+
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1PhvIqZY0X6zC9QRtRuZMao8PR48b62WY/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: BCdeqaZZvlc 
+
+.. raw:: html
+
+   </figure>

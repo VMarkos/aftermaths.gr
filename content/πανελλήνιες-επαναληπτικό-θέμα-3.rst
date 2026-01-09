@@ -1,12 +1,14 @@
 Πανελλήνιες - Επαναληπτικό Θέμα #3
 ##################################
-:date: 2022-03-22 10:29
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: παράγωγος, πανελλήνιες, Γ' λυκείου, γραφική παράσταση, επανάληψη, ολοκλήρωμα
-:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-3
-:status: published
-:attachments: wp-content/uploads/2022/03/henri_leys_-_soldiers_playing_cards.jpeg
+
+.. meta::
+	:date: 2022-03-22 10:29
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παράγωγος, πανελλήνιες, Γ' λυκείου, γραφική παράσταση, επανάληψη, ολοκλήρωμα
+	:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-3
+	:status: published
+	:attachments: wp-content/uploads/2022/03/henri_leys_-_soldiers_playing_cards.jpeg
 
 .. figure:: /wp-content/uploads/2022/03/henri_leys_-_soldiers_playing_cards.jpeg
 	:alt: Ο πίνακας *Στρατιώτες παίζουν χαρτιά* του `Jan August Hendrick Leys <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 

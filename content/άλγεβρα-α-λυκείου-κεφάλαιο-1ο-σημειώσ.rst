@@ -1,12 +1,14 @@
 Άλγεβρα Α' Λυκείου - Κεφάλαιο 1ο
 ################################
-:date: 2022-10-08 14:29
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: featured, σύνολα, σημειώσεις, ΕΠΑΛ, άλγεβρα, αποδείξεις, θεωρία, λογική
-:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%ba%ce%b5%cf%86%ce%ac%ce%bb%ce%b1%ce%b9%ce%bf-1%ce%bf-%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83
-:status: published
-:attachments: wp-content/uploads/2022/10/gustave_caillebotte_-_the_floor_planers_-_google_art_project.jpg
+
+.. meta::
+	:date: 2022-10-08 14:29
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, σύνολα, σημειώσεις, ΕΠΑΛ, άλγεβρα, αποδείξεις, θεωρία, λογική
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%ba%ce%b5%cf%86%ce%ac%ce%bb%ce%b1%ce%b9%ce%bf-1%ce%bf-%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83
+	:status: published
+	:attachments: wp-content/uploads/2022/10/gustave_caillebotte_-_the_floor_planers_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2022/10/gustave_caillebotte_-_the_floor_planers_-_google_art_project.jpg
 	:alt: Ο πίνακας *Οι τρίφτες του παρκέ* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__\ *.* 

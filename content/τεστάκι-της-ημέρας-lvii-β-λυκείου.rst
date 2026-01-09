@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LVII (Β' Λυκείου)
 ####################################
-:date: 2021-02-05 09:41
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: τριγωνομετρία, τεστ, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lvii-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2021/02/1257px-alexandr_ivanov_005.jpg
+
+.. meta::
+	:date: 2021-02-05 09:41
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τριγωνομετρία, τεστ, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lvii-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2021/02/1257px-alexandr_ivanov_005.jpg
 
 .. figure:: /wp-content/uploads/2021/02/1257px-alexandr_ivanov_005.jpg
 	:alt: Ο πίνακας *Ο Πρίαμος ζητά από τον Αχιλλέα να επιστρέψει το σώμα του Έκτορα* του `Alexander Ivanov <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\ *.* 

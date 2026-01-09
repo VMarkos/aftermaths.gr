@@ -1,12 +1,14 @@
 Οι Φωνασκούσες Πατούσες
 #######################
-:date: 2023-04-17 15:01
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, πιθανότητες
-:slug: 12398
-:status: draft
-:attachments: wp-content/uploads/2023/04/monet_-_branch_of_the_seine_near_giverny_mist_from_the_series_mornings_on_the_seine_1897.jpg
+
+.. meta::
+	:date: 2023-04-17 15:01
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, πιθανότητες
+	:slug: 12398
+	:status: draft
+	:attachments: wp-content/uploads/2023/04/monet_-_branch_of_the_seine_near_giverny_mist_from_the_series_mornings_on_the_seine_1897.jpg
 
 .. figure:: /wp-content/uploads/2023/04/monet_-_branch_of_the_seine_near_giverny_mist_from_the_series_mornings_on_the_seine_1897.jpg
 	:alt: Ο πίνακας *Ομιχλώδες πρωινό στον Σηκουάνα* του `Claude Monet <https://en.wikipedia.org/wiki/Claude_Monet>`__. 

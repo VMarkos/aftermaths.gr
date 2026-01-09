@@ -1,10 +1,12 @@
 Λύκειο
 ######
-:date: 2024-06-26 12:18
-:author: aftermathsgr
-:slug: %ce%bb%cf%8d%ce%ba%ce%b5%ce%b9%ce%bf
-:status: published
-:attachments: wp-content/uploads/2018/09/a-village-school-william-iii-bromley.jpg
+
+.. meta::
+	:date: 2024-06-26 12:18
+	:author: aftermathsgr
+	:slug: %ce%bb%cf%8d%ce%ba%ce%b5%ce%b9%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2018/09/a-village-school-william-iii-bromley.jpg
 
 .. figure:: /wp-content/uploads/2018/09/a-village-school-william-iii-bromley.jpg
 	:alt: 

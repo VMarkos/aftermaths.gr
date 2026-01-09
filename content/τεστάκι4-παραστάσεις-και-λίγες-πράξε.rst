@@ -1,12 +1,14 @@
 Τεστάκι #004 - Παραστάσεις και λίγες Πράξεις
 ############################################
-:date: 2022-10-24 11:46
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: παραστάσεις, τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-004-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82-%ce%ba%ce%b1%ce%b9-%ce%bb%ce%af%ce%b3%ce%b5%cf%82-%cf%80%cf%81%ce%ac%ce%be%ce%b5
-:status: published
-:attachments: wp-content/uploads/2022/10/caillebotte_lhomme_au_balcon_boulevard_haussmann_-_christies.jpg
+
+.. meta::
+	:date: 2022-10-24 11:46
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παραστάσεις, τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-004-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82-%ce%ba%ce%b1%ce%b9-%ce%bb%ce%af%ce%b3%ce%b5%cf%82-%cf%80%cf%81%ce%ac%ce%be%ce%b5
+	:status: published
+	:attachments: wp-content/uploads/2022/10/caillebotte_lhomme_au_balcon_boulevard_haussmann_-_christies.jpg
 
 .. figure:: /wp-content/uploads/2022/10/caillebotte_lhomme_au_balcon_boulevard_haussmann_-_christies.jpg
 	:alt: Ο πίνακας *Άντρας στο μπαλκόνι* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 

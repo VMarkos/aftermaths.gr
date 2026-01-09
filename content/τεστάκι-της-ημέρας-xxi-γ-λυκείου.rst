@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας XXI (Γ' Λυκείου)
 ###################################
-:date: 2020-11-20 08:35
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: πανελλήνιες, τεστ, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, κριτήριο παρεμβολής, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxi-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2020/11/gugg_saint-severin_no._3.jpg
+
+.. meta::
+	:date: 2020-11-20 08:35
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: πανελλήνιες, τεστ, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, κριτήριο παρεμβολής, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxi-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2020/11/gugg_saint-severin_no._3.jpg
 
 .. figure:: /wp-content/uploads/2020/11/gugg_saint-severin_no._3.jpg
 	:alt: Ο πίνακας *Saint-Séverin No. 3* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 

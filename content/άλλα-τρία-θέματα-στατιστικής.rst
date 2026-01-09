@@ -1,12 +1,14 @@
 Άλλα τρία θέματα Στατιστικής
 ############################
-:date: 2021-03-02 15:33
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
-:slug: %ce%ac%ce%bb%ce%bb%ce%b1-%cf%84%cf%81%ce%af%ce%b1-%ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84%ce%b9%ce%ba%ce%ae%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/03/854px-renoir_by_bazille.jpg
+
+.. meta::
+	:date: 2021-03-02 15:33
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
+	:slug: %ce%ac%ce%bb%ce%bb%ce%b1-%cf%84%cf%81%ce%af%ce%b1-%ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84%ce%b9%ce%ba%ce%ae%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/03/854px-renoir_by_bazille.jpg
 
 .. figure:: /wp-content/uploads/2021/03/854px-renoir_by_bazille.jpg
 	:alt: Το πορτραίτο του Renoir του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 

@@ -1,12 +1,14 @@
 123 Ερωτήσεις Σωστού/Λάθους
 ###########################
-:date: 2022-05-22 13:21
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη, θεωρία
-:slug: 123-%ce%b5%cf%81%cf%89%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%89%cf%83%cf%84%ce%bf%cf%8d-%ce%bb%ce%ac%ce%b8%ce%bf%cf%85%cf%82
-:status: published
-:attachments: wp-content/uploads/2022/05/bride_of_abydos_1857_950px.jpg
+
+.. meta::
+	:date: 2022-05-22 13:21
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη, θεωρία
+	:slug: 123-%ce%b5%cf%81%cf%89%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%89%cf%83%cf%84%ce%bf%cf%8d-%ce%bb%ce%ac%ce%b8%ce%bf%cf%85%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2022/05/bride_of_abydos_1857_950px.jpg
 
 .. figure:: /wp-content/uploads/2022/05/bride_of_abydos_1857_950px.jpg
 	:alt: Ο πίνακας *Η Νύφη της Αβύδου* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 

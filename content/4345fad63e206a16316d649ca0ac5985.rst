@@ -1,23 +1,25 @@
 ΑΡΜΑΝΔΟΣ ΒΟΥΤΣΙΝΑΣ - 2022-03-06 12:38:46
 ########################################
-:date: 2022-03-06 12:38
-:slug: 4345fad63e206a16316d649ca0ac5985
-:status: published
 
-| Συνάδελφε ήθελα απλά να σου πω ότι το site είναι εντυπωσιακό ... Πολύ χρήσιμο , πολυ περιεκτικό και αισθητικά άρτιο ! Μπράβο !
-| 
-| AUTHOR: ΑΡΜΑΝΔΟΣ ΒΟΥΤΣΙΝΑΣ
-| AUTHOR EMAIL: avoutsinas@hotmail.com
-| AUTHOR URL:
-| SUBJECT: [aftermaths.gr] Επικοινωνία
-| IP: 87.202.144.113
-| Array
-| (
-| [1_Όνομα] => ΑΡΜΑΝΔΟΣ ΒΟΥΤΣΙΝΑΣ
-| [2_Email] => avoutsinas@hotmail.com
-| [3_Σχόλιο] => Συνάδελφε ήθελα απλά να σου πω ότι το site είναι εντυπωσιακό ... Πολύ χρήσιμο , πολυ περιεκτικό και αισθητικά άρτιο ! Μπράβο !
-| [email_marketing_consent] =>
-| [entry_title] => Επικοινωνία
-| [entry_permalink] => https://aftermaths.gr/contact/
-| [feedback_id] => 4345fad63e206a16316d649ca0ac5985
-| )
+.. meta::
+	:date: 2022-03-06 12:38
+	:slug: 4345fad63e206a16316d649ca0ac5985
+	:status: published
+	
+	| Συνάδελφε ήθελα απλά να σου πω ότι το site είναι εντυπωσιακό ... Πολύ χρήσιμο , πολυ περιεκτικό και αισθητικά άρτιο ! Μπράβο !
+	| 
+	| AUTHOR: ΑΡΜΑΝΔΟΣ ΒΟΥΤΣΙΝΑΣ
+	| AUTHOR EMAIL: avoutsinas@hotmail.com
+	| AUTHOR URL:
+	| SUBJECT: [aftermaths.gr] Επικοινωνία
+	| IP: 87.202.144.113
+	| Array
+	| (
+	| [1_Όνομα] => ΑΡΜΑΝΔΟΣ ΒΟΥΤΣΙΝΑΣ
+	| [2_Email] => avoutsinas@hotmail.com
+	| [3_Σχόλιο] => Συνάδελφε ήθελα απλά να σου πω ότι το site είναι εντυπωσιακό ... Πολύ χρήσιμο , πολυ περιεκτικό και αισθητικά άρτιο ! Μπράβο !
+	| [email_marketing_consent] =>
+	| [entry_title] => Επικοινωνία
+	| [entry_permalink] => https://aftermaths.gr/contact/
+	| [feedback_id] => 4345fad63e206a16316d649ca0ac5985
+	| )

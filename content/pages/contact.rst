@@ -1,10 +1,12 @@
 Επικοινωνία
 ###########
-:date: 2018-09-10 13:17
-:author: aftermathsgr
-:slug: contact
-:status: published
-:attachments: wp-content/uploads/2018/09/person-smartphone-office-table.jpeg, wp-content/uploads/2018/09/220px-vincent_van_gogh_-_portret_van_de_postbode_joseph_roulin.jpg
+
+.. meta::
+	:date: 2018-09-10 13:17
+	:author: aftermathsgr
+	:slug: contact
+	:status: published
+	:attachments: wp-content/uploads/2018/09/person-smartphone-office-table.jpeg, wp-content/uploads/2018/09/220px-vincent_van_gogh_-_portret_van_de_postbode_joseph_roulin.jpg
 
 .. figure:: /wp-content/uploads/2018/09/person-smartphone-office-table.jpeg, wp-content/uploads/2018/09/220px-vincent_van_gogh_-_portret_van_de_postbode_joseph_roulin.jpg
 	:alt: Ο πίνακας `Το πορτρέτο του ταχυδρόμου Joseph Roulin <https://en.wikipedia.org/wiki/The_Roulin_Family>`__ του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 

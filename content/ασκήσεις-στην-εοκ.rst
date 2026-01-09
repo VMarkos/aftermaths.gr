@@ -1,12 +1,14 @@
 Ασκήσεις στην ΕΟΚ
 #################
-:date: 2020-11-26 10:06
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Φυσική
-:tags: προβλήματα, Α' Λυκείου, ΕΟΚ, ασκήσεις, επανάληψη
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%b5%ce%bf%ce%ba
-:status: published
-:attachments: wp-content/uploads/2020/11/879px-august_macke_030.jpg
+
+.. meta::
+	:date: 2020-11-26 10:06
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Φυσική
+	:tags: προβλήματα, Α' Λυκείου, ΕΟΚ, ασκήσεις, επανάληψη
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%b5%ce%bf%ce%ba
+	:status: published
+	:attachments: wp-content/uploads/2020/11/879px-august_macke_030.jpg
 
 .. figure:: /wp-content/uploads/2020/11/879px-august_macke_030.jpg
 	:alt: Ο πίνακας *Καθεδρικός της Παναγίας με σκεπές και καμινάδες (Βόννη)* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 

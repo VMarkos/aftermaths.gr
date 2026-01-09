@@ -1,12 +1,14 @@
 Τεστάκι #003 - Κι άλλα Σύνολα
 #############################
-:date: 2022-10-15 13:55
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: σύνολα, τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-003-%ce%ba%ce%b9-%ce%ac%ce%bb%ce%bb%ce%b1-%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1
-:status: published
-:attachments: wp-content/uploads/2022/10/g._caillebotte_-_lyerres_pluie.jpg
+
+.. meta::
+	:date: 2022-10-15 13:55
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: σύνολα, τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-003-%ce%ba%ce%b9-%ce%ac%ce%bb%ce%bb%ce%b1-%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2022/10/g._caillebotte_-_lyerres_pluie.jpg
 
 .. figure:: /wp-content/uploads/2022/10/g._caillebotte_-_lyerres_pluie.jpg
 	:alt: Ο πίνακας *Ο ποταμός Γιερ* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__\ *.* 

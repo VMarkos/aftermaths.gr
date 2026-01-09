@@ -1,12 +1,14 @@
 Η εικασία Collatz (6)
 #####################
-:date: 2021-10-08 13:19
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: Collatz, featured
-:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-6
-:status: published
-:attachments: wp-content/uploads/2021/10/mary_cassatt_-_the_tea_-_mfa_boston_42.178.jpg
+
+.. meta::
+	:date: 2021-10-08 13:19
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: Collatz, featured
+	:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-6
+	:status: published
+	:attachments: wp-content/uploads/2021/10/mary_cassatt_-_the_tea_-_mfa_boston_42.178.jpg
 
 .. figure:: /wp-content/uploads/2021/10/mary_cassatt_-_the_tea_-_mfa_boston_42.178.jpg
 	:alt: Ο πίνακας *Τσάι* της `Mary Cassatt <https://en.wikipedia.org/wiki/Mary_Cassatt>`__. 

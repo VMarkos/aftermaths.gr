@@ -1,12 +1,14 @@
 Εισαγωγή στην παράγωγο
 ######################
-:date: 2020-09-20 13:07
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: παράγωγος, πανελλήνιες, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, εφαπτομένη, εισαγωγή
-:slug: 2904
-:status: published
-:attachments: wp-content/uploads/2020/09/baron_otto_ditlev_rosenorn-lehn.jpg
+
+.. meta::
+	:date: 2020-09-20 13:07
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παράγωγος, πανελλήνιες, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, εφαπτομένη, εισαγωγή
+	:slug: 2904
+	:status: published
+	:attachments: wp-content/uploads/2020/09/baron_otto_ditlev_rosenorn-lehn.jpg
 
 .. figure:: /wp-content/uploads/2020/09/baron_otto_ditlev_rosenorn-lehn.jpg
 	:alt: Το *Πορτραίτο του Βαρώνου Otto Ditlev Rosenørn-Lehn* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 

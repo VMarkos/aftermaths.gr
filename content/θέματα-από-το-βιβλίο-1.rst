@@ -1,12 +1,14 @@
 Θέματα από το βιβλίο (1)
 ########################
-:date: 2020-03-11 16:37
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: featured, προβλήματα, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις, ολοκλήρωμα
-:slug: %ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%ce%b1%cf%80%cf%8c-%cf%84%ce%bf-%ce%b2%ce%b9%ce%b2%ce%bb%ce%af%ce%bf-1
-:status: published
-:attachments: wp-content/uploads/2020/03/727px-et_selskab_af_danske_kunstnere_i_rom.jpg
+
+.. meta::
+	:date: 2020-03-11 16:37
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, προβλήματα, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις, ολοκλήρωμα
+	:slug: %ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%ce%b1%cf%80%cf%8c-%cf%84%ce%bf-%ce%b2%ce%b9%ce%b2%ce%bb%ce%af%ce%bf-1
+	:status: published
+	:attachments: wp-content/uploads/2020/03/727px-et_selskab_af_danske_kunstnere_i_rom.jpg
 
 .. figure:: /wp-content/uploads/2020/03/727px-et_selskab_af_danske_kunstnere_i_rom.jpg
 	:alt: Ο πίνακας *Μία παρέα Δανέζων καλλιτεχνών στη Ρώμη* του `Constantin Hansen <https://en.wikipedia.org/wiki/Constantin_Hansen>`__\ *.* 

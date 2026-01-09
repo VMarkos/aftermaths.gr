@@ -1,12 +1,14 @@
 Λύσεις θεμάτων 2020 (Παλαιό σύστημα)
 ####################################
-:date: 2020-06-20 20:22
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: featured, πανελλήνιες, θέματα, λύσεις
-:slug: %ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%ce%b8%ce%b5%ce%bc%ce%ac%cf%84%cf%89%ce%bd-2020-%cf%80%ce%b1%ce%bb%ce%b1%ce%b9%cf%8c-%cf%83%cf%8d%cf%83%cf%84%ce%b7%ce%bc%ce%b1
-:status: published
-:attachments: wp-content/uploads/2020/06/peder_severin_krc3b8yer_-_a_the_victuallers_when_there_is_no_fishing_-_google_art_project.jpg
+
+.. meta::
+	:date: 2020-06-20 20:22
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, πανελλήνιες, θέματα, λύσεις
+	:slug: %ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%ce%b8%ce%b5%ce%bc%ce%ac%cf%84%cf%89%ce%bd-2020-%cf%80%ce%b1%ce%bb%ce%b1%ce%b9%cf%8c-%cf%83%cf%8d%cf%83%cf%84%ce%b7%ce%bc%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2020/06/peder_severin_krc3b8yer_-_a_the_victuallers_when_there_is_no_fishing_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2020/06/peder_severin_krc3b8yer_-_a_the_victuallers_when_there_is_no_fishing_-_google_art_project.jpg
 	:alt: Ο πίνακας *Στο μαγαζί, όταν δεν έχει ψάρια* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__\ *.* 

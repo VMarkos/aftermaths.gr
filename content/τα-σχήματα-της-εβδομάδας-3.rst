@@ -1,11 +1,13 @@
 Τα σχήματα της εβδομάδας (3)
 ############################
-:date: 2021-08-31 11:24
-:author: aftermathsgr
-:tags: featured, μαθηματικά, Tikz
-:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-3
-:status: published
-:attachments: wp-content/uploads/2021/08/bath_road_london_by_camille_pissarro.jpg
+
+.. meta::
+	:date: 2021-08-31 11:24
+	:author: aftermathsgr
+	:tags: featured, μαθηματικά, Tikz
+	:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-3
+	:status: published
+	:attachments: wp-content/uploads/2021/08/bath_road_london_by_camille_pissarro.jpg
 
 .. figure:: /wp-content/uploads/2021/08/bath_road_london_by_camille_pissarro.jpg
 	:alt: Ο πίνακας *Οδός Bath, Chiswick* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 

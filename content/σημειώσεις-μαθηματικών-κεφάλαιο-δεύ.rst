@@ -1,12 +1,14 @@
 Σημειώσεις Μαθηματικών - Κεφάλαιο Δεύτερο
 #########################################
-:date: 2018-09-12 16:10
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πανελλήνιες, συναρτήσεις, σημειώσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη
-:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b1%ce%b8%ce%b7%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%cf%8e%ce%bd-%ce%ba%ce%b5%cf%86%ce%ac%ce%bb%ce%b1%ce%b9%ce%bf-%ce%b4%ce%b5%cf%8d
-:status: published
-:attachments: wp-content/uploads/2018/09/arcimboldo.jpg
+
+.. meta::
+	:date: 2018-09-12 16:10
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, συναρτήσεις, σημειώσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη
+	:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b1%ce%b8%ce%b7%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%cf%8e%ce%bd-%ce%ba%ce%b5%cf%86%ce%ac%ce%bb%ce%b1%ce%b9%ce%bf-%ce%b4%ce%b5%cf%8d
+	:status: published
+	:attachments: wp-content/uploads/2018/09/arcimboldo.jpg
 
 .. figure:: /wp-content/uploads/2018/09/arcimboldo.jpg
 	:alt: 

@@ -1,12 +1,14 @@
 Πανελλήνιες - Επαναληπτικό Θέμα #5
 ##################################
-:date: 2022-03-31 12:30
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: παράγωγος, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις, επανάληψη, εφαπτομένη, ολοκλήρωμα
-:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-5
-:status: published
-:attachments: wp-content/uploads/2022/03/1280px-eugene_delacroix_-_horse_frightened_by_lightning_-_google_art_project.jpg
+
+.. meta::
+	:date: 2022-03-31 12:30
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παράγωγος, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις, επανάληψη, εφαπτομένη, ολοκλήρωμα
+	:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-5
+	:status: published
+	:attachments: wp-content/uploads/2022/03/1280px-eugene_delacroix_-_horse_frightened_by_lightning_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2022/03/1280px-eugene_delacroix_-_horse_frightened_by_lightning_-_google_art_project.jpg
 	:alt: Ο πίνακας *Άλογο τρομοκρατημένο από καταιγίδα* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 

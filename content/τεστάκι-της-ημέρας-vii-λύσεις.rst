@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας VII - Λύσεις
 ###############################
-:date: 2020-11-06 19:39
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: τεστ, Α' Λυκείου, άλγεβρα, αποδείξεις, ασκήσεις, επανάληψη, λύσεις
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-vii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2020/11/741px-alexei_jawlensky_-_young_girl_with_a_flowered_hat_1910_-_google_art_project.jpg
+
+.. meta::
+	:date: 2020-11-06 19:39
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τεστ, Α' Λυκείου, άλγεβρα, αποδείξεις, ασκήσεις, επανάληψη, λύσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-vii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2020/11/741px-alexei_jawlensky_-_young_girl_with_a_flowered_hat_1910_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2020/11/741px-alexei_jawlensky_-_young_girl_with_a_flowered_hat_1910_-_google_art_project.jpg
 	:alt: Ένα πορτραίτο της μικρής κόρης του `Alexej von Jawlensky <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__ με ένα καπέλο με λουλούδια. 

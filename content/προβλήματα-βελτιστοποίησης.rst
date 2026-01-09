@@ -1,12 +1,14 @@
 Προβλήματα βελτιστοποίησης
 ##########################
-:date: 2018-12-24 14:11
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, βελτιστοποίηση, επανάληψη
-:slug: %cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%ce%b2%ce%b5%ce%bb%cf%84%ce%b9%cf%83%cf%84%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82
-:status: published
-:attachments: wp-content/uploads/2018/12/dagennacht1938mcescherthemceschercompanybvallrightsreservedwwwmceschercombackgroundwebsite.jpg
+
+.. meta::
+	:date: 2018-12-24 14:11
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, βελτιστοποίηση, επανάληψη
+	:slug: %cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%ce%b2%ce%b5%ce%bb%cf%84%ce%b9%cf%83%cf%84%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2018/12/dagennacht1938mcescherthemceschercompanybvallrightsreservedwwwmceschercombackgroundwebsite.jpg
 
 .. figure:: /wp-content/uploads/2018/12/dagennacht1938mcescherthemceschercompanybvallrightsreservedwwwmceschercombackgroundwebsite.jpg
 	:alt: Η ξυλογραφία *Μέρα και* νύχτα του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__. 

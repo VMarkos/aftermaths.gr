@@ -1,12 +1,14 @@
 Χριστούγεννα και Πολυώνυμα γίνεται;
 ###################################
-:date: 2021-12-23 11:57
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πολυώνυμα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, διαίρεση
-:slug: %cf%87%cf%81%ce%b9%cf%83%cf%84%ce%bf%cf%8d%ce%b3%ce%b5%ce%bd%ce%bd%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%80%ce%bf%ce%bb%cf%85%cf%8e%ce%bd%cf%85%ce%bc%ce%b1-%ce%b3%ce%af%ce%bd%ce%b5%cf%84%ce%b1%ce%b9
-:status: published
-:attachments: wp-content/uploads/2021/12/emile_claus_-_zonnige_dag.jpg
+
+.. meta::
+	:date: 2021-12-23 11:57
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πολυώνυμα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, διαίρεση
+	:slug: %cf%87%cf%81%ce%b9%cf%83%cf%84%ce%bf%cf%8d%ce%b3%ce%b5%ce%bd%ce%bd%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%80%ce%bf%ce%bb%cf%85%cf%8e%ce%bd%cf%85%ce%bc%ce%b1-%ce%b3%ce%af%ce%bd%ce%b5%cf%84%ce%b1%ce%b9
+	:status: published
+	:attachments: wp-content/uploads/2021/12/emile_claus_-_zonnige_dag.jpg
 
 .. figure:: /wp-content/uploads/2021/12/emile_claus_-_zonnige_dag.jpg
 	:alt: Ο πίνακας *Ηλιόλουστη μέρα* του `Emile Claus <https://en.wikipedia.org/wiki/Emile_Claus>`__. 

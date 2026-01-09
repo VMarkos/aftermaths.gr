@@ -1,12 +1,14 @@
 Ένας μικρός οδηγός για τις Google Classrooms
 ############################################
-:date: 2020-10-11 15:23
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Εργαλεία
-:tags: classroom, e-class, featured, google, η-τάξη, κορωνοϊός
-:slug: %ce%ad%ce%bd%ce%b1%cf%82-%ce%bc%ce%b9%ce%ba%cf%81%cf%8c%cf%82-%ce%bf%ce%b4%ce%b7%ce%b3%cf%8c%cf%82-%ce%b3%ce%b9%ce%b1-%cf%84%ce%b9%cf%82-google-classrooms
-:status: published
-:attachments: wp-content/uploads/2020/10/hilma_af_klint_1915_svanen_no._17.jpg
+
+.. meta::
+	:date: 2020-10-11 15:23
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Εργαλεία
+	:tags: classroom, e-class, featured, google, η-τάξη, κορωνοϊός
+	:slug: %ce%ad%ce%bd%ce%b1%cf%82-%ce%bc%ce%b9%ce%ba%cf%81%cf%8c%cf%82-%ce%bf%ce%b4%ce%b7%ce%b3%cf%8c%cf%82-%ce%b3%ce%b9%ce%b1-%cf%84%ce%b9%cf%82-google-classrooms
+	:status: published
+	:attachments: wp-content/uploads/2020/10/hilma_af_klint_1915_svanen_no._17.jpg
 
 .. figure:: /wp-content/uploads/2020/10/hilma_af_klint_1915_svanen_no._17.jpg
 	:alt: Ο πίνακας *Ο κύκνος* της `Hilma Af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__. 

@@ -1,12 +1,14 @@
 Ασκήσεις με... σύστημα
 ######################
-:date: 2021-11-04 14:30
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: συστήματα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b5-%cf%83%cf%8d%cf%83%cf%84%ce%b7%ce%bc%ce%b1-2
-:status: published
-:attachments: wp-content/uploads/2021/11/1066px-henri_fantin-latour_-_dawn_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-11-04 14:30
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: συστήματα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b5-%cf%83%cf%8d%cf%83%cf%84%ce%b7%ce%bc%ce%b1-2
+	:status: published
+	:attachments: wp-content/uploads/2021/11/1066px-henri_fantin-latour_-_dawn_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/11/1066px-henri_fantin-latour_-_dawn_-_google_art_project.jpg
 	:alt: Ο πίνακας *Αυγή* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 

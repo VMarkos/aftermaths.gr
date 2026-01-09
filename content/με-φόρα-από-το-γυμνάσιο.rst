@@ -1,12 +1,14 @@
 Με Φόρα από το Γυμνάσιο
 #######################
-:date: 2024-10-01 09:38
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Α' Λυκείου, Γ' Γυμνασίου, άλγεβρα, ασκήσεις, επανάληψη
-:slug: %ce%bc%ce%b5-%cf%86%cf%8c%cf%81%ce%b1-%ce%b1%cf%80%cf%8c-%cf%84%ce%bf-%ce%b3%cf%85%ce%bc%ce%bd%ce%ac%cf%83%ce%b9%ce%bf
-:status: published
-:attachments: wp-content/uploads/2024/10/1265px-egon_schiele_-_self-portrait_with_physalis_-_google_art_project.jpg
+
+.. meta::
+	:date: 2024-10-01 09:38
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, Γ' Γυμνασίου, άλγεβρα, ασκήσεις, επανάληψη
+	:slug: %ce%bc%ce%b5-%cf%86%cf%8c%cf%81%ce%b1-%ce%b1%cf%80%cf%8c-%cf%84%ce%bf-%ce%b3%cf%85%ce%bc%ce%bd%ce%ac%cf%83%ce%b9%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2024/10/1265px-egon_schiele_-_self-portrait_with_physalis_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2024/10/1265px-egon_schiele_-_self-portrait_with_physalis_-_google_art_project.jpg
 	:alt: Μία *Αυτοπροσωπογραφία με μία Φυσαλίδα* του `Egon Schiele <https://en.wikipedia.org/wiki/Egon_Schiele>`__. 

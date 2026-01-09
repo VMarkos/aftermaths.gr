@@ -1,12 +1,14 @@
 Ένα μικρό quiz στην άλγεβρα
 ###########################
-:date: 2021-01-03 09:17
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: σύνολα, τεστ, Α' Λυκείου, απόλυτη τιμή, ασκήσεις, θεωρία, μαθηματικά
-:slug: %ce%ad%ce%bd%ce%b1-%ce%bc%ce%b9%ce%ba%cf%81%cf%8c-quiz-%cf%83%cf%84%ce%b7%ce%bd-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1
-:status: published
-:attachments: wp-content/uploads/2021/01/803px-chase_venetian_balcony.jpg
+
+.. meta::
+	:date: 2021-01-03 09:17
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: σύνολα, τεστ, Α' Λυκείου, απόλυτη τιμή, ασκήσεις, θεωρία, μαθηματικά
+	:slug: %ce%ad%ce%bd%ce%b1-%ce%bc%ce%b9%ce%ba%cf%81%cf%8c-quiz-%cf%83%cf%84%ce%b7%ce%bd-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2021/01/803px-chase_venetian_balcony.jpg
 
 .. figure:: /wp-content/uploads/2021/01/803px-chase_venetian_balcony.jpg
 	:alt: Ο πίνακας *Βενετσιάνικο μπαλκόνι* του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 

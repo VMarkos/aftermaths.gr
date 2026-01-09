@@ -1,12 +1,14 @@
 Γυμναστική στις Ανισότητες
 ##########################
-:date: 2023-11-06 07:51
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Α' Λυκείου, ΕΠΑΛ, άλγεβρα, αποδείξεις, ασκήσεις, ανισότητες
-:slug: %ce%b3%cf%85%ce%bc%ce%bd%ce%b1%cf%83%cf%84%ce%b9%ce%ba%ce%ae-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%ce%bd%ce%b9%cf%83%cf%8c%cf%84%ce%b7%cf%84%ce%b5%cf%82
-:status: published
-:attachments: wp-content/uploads/2023/11/theo_van_doesburg_-_composition_with_window_with_coloured_glass_iii.jpg
+
+.. meta::
+	:date: 2023-11-06 07:51
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, ΕΠΑΛ, άλγεβρα, αποδείξεις, ασκήσεις, ανισότητες
+	:slug: %ce%b3%cf%85%ce%bc%ce%bd%ce%b1%cf%83%cf%84%ce%b9%ce%ba%ce%ae-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%ce%bd%ce%b9%cf%83%cf%8c%cf%84%ce%b7%cf%84%ce%b5%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2023/11/theo_van_doesburg_-_composition_with_window_with_coloured_glass_iii.jpg
 
 .. figure:: /wp-content/uploads/2023/11/theo_van_doesburg_-_composition_with_window_with_coloured_glass_iii.jpg
 	:alt: Ο πίνακας *Σύνθεση με παράθυρο με χρωματιστό γυαλί ΙΙΙ* του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 

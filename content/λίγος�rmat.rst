@@ -1,12 +1,14 @@
 Λίγος Fermat...
 ###############
-:date: 2022-01-08 13:42
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Fermat, προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ασκήσεις
-:slug: %ce%bb%ce%af%ce%b3%ce%bf%cf%82-fermat
-:status: published
-:attachments: wp-content/uploads/2022/01/emile_claus_-_a_corner_of_my_garden.jpg
+
+.. meta::
+	:date: 2022-01-08 13:42
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Fermat, προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ασκήσεις
+	:slug: %ce%bb%ce%af%ce%b3%ce%bf%cf%82-fermat
+	:status: published
+	:attachments: wp-content/uploads/2022/01/emile_claus_-_a_corner_of_my_garden.jpg
 
 .. figure:: /wp-content/uploads/2022/01/emile_claus_-_a_corner_of_my_garden.jpg
 	:alt: Ο πίνακας *Μια γωνιά του κήπου μου* του `Emile Claus <https://en.wikipedia.org/wiki/Emile_Claus>`__. 

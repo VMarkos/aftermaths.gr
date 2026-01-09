@@ -1,0 +1,38 @@
+Άλγεβρα, Α' Λυκείου - Μάθημα 17ο
+################################
+:date: 2022-01-17 10:08
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: τριώνυμο, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ανισώσεις, διαφάνειες, θεωρία, λυμένα παραδείγματα
+:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-17%ce%bf
+:status: published
+:attachments: wp-content/uploads/2022/01/emile_claus_-_bringing_in_the_nets.jpg
+
+.. figure:: /wp-content/uploads/2022/01/emile_claus_-_bringing_in_the_nets.jpg
+	:alt: Ο πίνακας *Μαζεύοντας τα δίχτυα* του `Emile Claus <https://en.wikipedia.org/wiki/Emile_Claus>`__. 
+	:align: center
+
+	Ο πίνακας *Μαζεύοντας τα δίχτυα* του `Emile Claus <https://en.wikipedia.org/wiki/Emile_Claus>`__. 
+
+
+Λίγες διαφάνειες και λυμένα παραδείγματα στις δευτεροβάθμιες ανισώσεις με τη βοήθεια πινάκων προσήμου - Άλγεβρα Α' Γενικού Λυκείου και ΕΠΑΛ.
+
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/10M0D7JK64p8yHZRtPv43bAltuDJ9aezh/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Τις διαφάνειες της προηγούμενης εβδομάδας μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2022/01/10/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-16%ce%bf/>`__\ *ενώ τις αντίστοιχες διαφάνειες της Β' Λυκείου μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2022/01/12/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-16%ce%bf/>`__\ *.*
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: 2aVRE9NnI_c 
+
+.. raw:: html
+
+   </figure>

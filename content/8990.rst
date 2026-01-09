@@ -1,12 +1,14 @@
 Ένα Αποτυχημένο Φύλλο Εργασίας
 ##############################
-:date: 2024-07-27 11:54
-:author: aftermathsgr
-:category: After-maths, Διδακτικό υλικό, Διδακτική, Μαθηματικά
-:tags: featured, πολυώνυμα, Β' Λυκείου
-:slug: 8990
-:status: draft
-:attachments: wp-content/uploads/2024/07/points_01.png, wp-content/uploads/2024/07/cubic_01.png, wp-content/uploads/2024/07/quadratic_01.png, wp-content/uploads/2021/12/anna-de-weert-my-studio-in-june-1909-10.jpg
+
+.. meta::
+	:date: 2024-07-27 11:54
+	:author: aftermathsgr
+	:category: After-maths, Διδακτικό υλικό, Διδακτική, Μαθηματικά
+	:tags: featured, πολυώνυμα, Β' Λυκείου
+	:slug: 8990
+	:status: draft
+	:attachments: wp-content/uploads/2024/07/points_01.png, wp-content/uploads/2024/07/cubic_01.png, wp-content/uploads/2024/07/quadratic_01.png, wp-content/uploads/2021/12/anna-de-weert-my-studio-in-june-1909-10.jpg
 
 .. figure:: /wp-content/uploads/2024/07/points_01.png, wp-content/uploads/2024/07/cubic_01.png, wp-content/uploads/2024/07/quadratic_01.png, wp-content/uploads/2021/12/anna-de-weert-my-studio-in-june-1909-10.jpg
 	:alt: Ο πίνακας *Το στούντιό μου* της `Anna de Weert <https://en.wikipedia.org/wiki/Anna_De_Weert>`__. 

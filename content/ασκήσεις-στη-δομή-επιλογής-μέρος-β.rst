@@ -1,12 +1,14 @@
 Ασκήσεις στη δομή επιλογής (Μέρος Β')
 #####################################
-:date: 2018-09-21 22:05
-:author: aftermathsgr
-:category: ΑΕΠΠ, Διδακτικό υλικό
-:tags: ασκήσεις, αλγόριθμοι, δομή επιλογής
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b4%ce%bf%ce%bc%ce%ae-%ce%b5%cf%80%ce%b9%ce%bb%ce%bf%ce%b3%ce%ae%cf%82-%ce%bc%ce%ad%cf%81%ce%bf%cf%82-%ce%b2
-:status: published
-:attachments: wp-content/uploads/2018/09/antoine_vollon_-_nature_morte_rosario.jpg
+
+.. meta::
+	:date: 2018-09-21 22:05
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: ασκήσεις, αλγόριθμοι, δομή επιλογής
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b4%ce%bf%ce%bc%ce%ae-%ce%b5%cf%80%ce%b9%ce%bb%ce%bf%ce%b3%ce%ae%cf%82-%ce%bc%ce%ad%cf%81%ce%bf%cf%82-%ce%b2
+	:status: published
+	:attachments: wp-content/uploads/2018/09/antoine_vollon_-_nature_morte_rosario.jpg
 
 .. figure:: /wp-content/uploads/2018/09/antoine_vollon_-_nature_morte_rosario.jpg
 	:alt: Ο πίνακας *Νεκρή φύση* του `Antoine Vollon <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 

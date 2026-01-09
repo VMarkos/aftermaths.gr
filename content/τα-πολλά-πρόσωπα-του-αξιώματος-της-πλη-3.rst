@@ -1,12 +1,14 @@
 Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)
 ##################################################
-:date: 2021-04-18 22:13
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, πραγματικοί αριθμοί, Αξίωμα της πληρότητας, μαθηματικά
-:slug: %cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7-3
-:status: published
-:attachments: wp-content/uploads/2021/04/pierre_auguste_renoir_-_tamaris_france_-_2006.9.2_-_minneapolis_institute_of_arts.jpg
+
+.. meta::
+	:date: 2021-04-18 22:13
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, πραγματικοί αριθμοί, Αξίωμα της πληρότητας, μαθηματικά
+	:slug: %cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7-3
+	:status: published
+	:attachments: wp-content/uploads/2021/04/pierre_auguste_renoir_-_tamaris_france_-_2006.9.2_-_minneapolis_institute_of_arts.jpg
 
 .. figure:: /wp-content/uploads/2021/04/pierre_auguste_renoir_-_tamaris_france_-_2006.9.2_-_minneapolis_institute_of_arts.jpg
 	:alt: Ο πίνακας *Tamaris, Γαλλία* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

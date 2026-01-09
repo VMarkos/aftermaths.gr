@@ -1,12 +1,14 @@
 Τα Λυμένα: Θέμα #003
 ####################
-:date: 2024-07-25 13:58
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τα Λυμένα
-:tags: πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις, λύσεις
-:slug: %cf%84%ce%b1-%ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%ce%b8%ce%ad%ce%bc%ce%b1-003
-:status: published
-:attachments: wp-content/uploads/2024/07/003_2425_002.png, wp-content/uploads/2024/07/003_2425_002-1.png, wp-content/uploads/2024/07/1219px-susana_y_los_viejos_guercino.jpg, wp-content/uploads/2024/07/003_2425_001.png
+
+.. meta::
+	:date: 2024-07-25 13:58
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τα Λυμένα
+	:tags: πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις, λύσεις
+	:slug: %cf%84%ce%b1-%ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%ce%b8%ce%ad%ce%bc%ce%b1-003
+	:status: published
+	:attachments: wp-content/uploads/2024/07/003_2425_002.png, wp-content/uploads/2024/07/003_2425_002-1.png, wp-content/uploads/2024/07/1219px-susana_y_los_viejos_guercino.jpg, wp-content/uploads/2024/07/003_2425_001.png
 
 .. figure:: /wp-content/uploads/2024/07/003_2425_002.png, wp-content/uploads/2024/07/003_2425_002-1.png, wp-content/uploads/2024/07/1219px-susana_y_los_viejos_guercino.jpg, wp-content/uploads/2024/07/003_2425_001.png
 	:alt: Ο πίνακας *Η Sussana και οι Πρεσβύτεροι* του `Guercino <https://en.wikipedia.org/wiki/Guercino>`__. 

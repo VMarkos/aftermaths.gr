@@ -1,12 +1,14 @@
 Επαναληπτικές ασκήσεις στην εξίσωση ευθείας
 ###########################################
-:date: 2018-09-17 16:01
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Β' Λυκείου, ασκήσεις, εξίσωση ευθείας
-:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%b5%ce%be%ce%af%cf%83%cf%89%cf%83%ce%b7
-:status: published
-:attachments: wp-content/uploads/2018/09/hans_memling_076.jpg
+
+.. meta::
+	:date: 2018-09-17 16:01
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Β' Λυκείου, ασκήσεις, εξίσωση ευθείας
+	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%b5%ce%be%ce%af%cf%83%cf%89%cf%83%ce%b7
+	:status: published
+	:attachments: wp-content/uploads/2018/09/hans_memling_076.jpg
 
 .. figure:: /wp-content/uploads/2018/09/hans_memling_076.jpg
 	:alt: Ο πίνακας *Βάζο με λουλούδια* του `Hans Memling. <https://en.wikipedia.org/wiki/Hans_Memling>`__ 

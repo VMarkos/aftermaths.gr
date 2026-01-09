@@ -1,12 +1,14 @@
 The Wumpus Project - Part 0
 ###########################
-:date: 2019-08-21 21:37
-:author: aftermathsgr
-:category: ΑΕΠΠ, Διδακτικό υλικό, The Wumpus Project
-:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επιλογής, επανάληψη
-:slug: the-wumpus-project-part-0
-:status: published
-:attachments: wp-content/uploads/2019/08/410px-thumbnail.jpg
+
+.. meta::
+	:date: 2019-08-21 21:37
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό, The Wumpus Project
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επιλογής, επανάληψη
+	:slug: the-wumpus-project-part-0
+	:status: published
+	:attachments: wp-content/uploads/2019/08/410px-thumbnail.jpg
 
 .. figure:: /wp-content/uploads/2019/08/410px-thumbnail.jpg
 	:alt: Ο πίνακας *Παράθυρο στην Τανγέρη* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 

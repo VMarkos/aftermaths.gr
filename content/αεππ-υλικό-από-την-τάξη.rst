@@ -1,12 +1,14 @@
 ΑΕΠΠ - Υλικό από την τάξη
 #########################
-:date: 2019-06-25 16:50
-:author: aftermathsgr
-:category: ΑΕΠΠ, Διδακτικό υλικό
-:tags: προβλήματα, παραστάσεις, πανελλήνιες, υλικό από την τάξη, Γ' λυκείου, ασκήσεις
-:slug: %ce%b1%ce%b5%cf%80%cf%80-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c-%ce%b1%cf%80%cf%8c-%cf%84%ce%b7%ce%bd-%cf%84%ce%ac%ce%be%ce%b7
-:status: published
-:attachments: wp-content/uploads/2019/06/800px-matisse_-_luxembourg_gardens_1901.jpg
+
+.. meta::
+	:date: 2019-06-25 16:50
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: προβλήματα, παραστάσεις, πανελλήνιες, υλικό από την τάξη, Γ' λυκείου, ασκήσεις
+	:slug: %ce%b1%ce%b5%cf%80%cf%80-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c-%ce%b1%cf%80%cf%8c-%cf%84%ce%b7%ce%bd-%cf%84%ce%ac%ce%be%ce%b7
+	:status: published
+	:attachments: wp-content/uploads/2019/06/800px-matisse_-_luxembourg_gardens_1901.jpg
 
 .. figure:: /wp-content/uploads/2019/06/800px-matisse_-_luxembourg_gardens_1901.jpg
 	:alt: Ο πίνακας *Οι κήποι του Λουξεμβούργου* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 

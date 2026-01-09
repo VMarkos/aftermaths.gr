@@ -1,12 +1,14 @@
 Παραμετρικές εξισώσεις - Α' Λυκείου
 ###################################
-:date: 2022-02-01 22:24
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πρωτοβάθμιες, προβλήματα, παραμετρικές, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, δευτεροβάθμιες, εξισώσεις
-:slug: %cf%80%ce%b1%cf%81%ce%b1%ce%bc%ce%b5%cf%84%cf%81%ce%b9%ce%ba%ce%ad%cf%82-%ce%b5%ce%be%ce%b9%cf%83%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2022/02/tonnelle_de_rosiers_anna_de_weert.jpg
+
+.. meta::
+	:date: 2022-02-01 22:24
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πρωτοβάθμιες, προβλήματα, παραμετρικές, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, δευτεροβάθμιες, εξισώσεις
+	:slug: %cf%80%ce%b1%cf%81%ce%b1%ce%bc%ce%b5%cf%84%cf%81%ce%b9%ce%ba%ce%ad%cf%82-%ce%b5%ce%be%ce%b9%cf%83%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2022/02/tonnelle_de_rosiers_anna_de_weert.jpg
 
 .. figure:: /wp-content/uploads/2022/02/tonnelle_de_rosiers_anna_de_weert.jpg
 	:alt: Ο πίνακας *Αψίδα με τριαντάφυλλα* της `Anna de Weert <https://en.wikipedia.org/wiki/Anna_De_Weert>`__. 

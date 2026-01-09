@@ -1,0 +1,34 @@
+Επαναληπτικό Διαγώνισμα Γ' ΕΠΑΛ - Λύσεις
+########################################
+:date: 2021-05-05 09:50
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: παράγωγος, στατιστική, συναρτήσεις, όρια, Γ' λυκείου, ΕΠΑΛ, διαγώνισμα, επανάληψη, λύσεις, μαθηματικά
+:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9
+:status: published
+:attachments: wp-content/uploads/2021/05/795px-pierre-auguste_renoir_-_autoportrait_1876.jpg
+
+.. figure:: /wp-content/uploads/2021/05/795px-pierre-auguste_renoir_-_autoportrait_1876.jpg
+	:alt: Μία αυτοπροσωπογραφία του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Μία αυτοπροσωπογραφία του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
+Τις λύσεις του `προηγούμενου διαγωνίσματος <https://aftermathsgr.wordpress.com/2021/05/03/%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb-2/>`__ στα μαθηματικά γενικής παιδείας της Γ' ΕΠΑΛ μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1U1cvCRpHR5HXnCP7ecKA0f2ITzEqRA9E/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: LMD -EUAERl0
+
+.. raw:: html
+
+   </figure>

@@ -1,12 +1,14 @@
 Επαναληπτικό Διαγώνισμα Γ' ΕΠΑΛ - Λύσεις
 ########################################
-:date: 2021-05-05 09:50
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: παράγωγος, στατιστική, συναρτήσεις, όρια, Γ' λυκείου, ΕΠΑΛ, διαγώνισμα, επανάληψη, λύσεις, μαθηματικά
-:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9
-:status: published
-:attachments: wp-content/uploads/2021/05/795px-pierre-auguste_renoir_-_autoportrait_1876.jpg
+
+.. meta::
+	:date: 2021-05-05 09:50
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παράγωγος, στατιστική, συναρτήσεις, όρια, Γ' λυκείου, ΕΠΑΛ, διαγώνισμα, επανάληψη, λύσεις, μαθηματικά
+	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9
+	:status: published
+	:attachments: wp-content/uploads/2021/05/795px-pierre-auguste_renoir_-_autoportrait_1876.jpg
 
 .. figure:: /wp-content/uploads/2021/05/795px-pierre-auguste_renoir_-_autoportrait_1876.jpg
 	:alt: Μία αυτοπροσωπογραφία του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

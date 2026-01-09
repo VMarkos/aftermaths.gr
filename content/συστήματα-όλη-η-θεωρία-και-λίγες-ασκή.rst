@@ -1,12 +1,14 @@
 Συστήματα: Όλη η Θεωρία και λίγες... Ασκήσεις
 #############################################
-:date: 2024-10-05 10:26
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: συστήματα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη
-:slug: %cf%83%cf%85%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%8c%ce%bb%ce%b7-%ce%b7-%ce%b8%ce%b5%cf%89%cf%81%ce%af%ce%b1-%ce%ba%ce%b1%ce%b9-%ce%bb%ce%af%ce%b3%ce%b5%cf%82-%ce%b1%cf%83%ce%ba%ce%ae
-:status: published
-:attachments: wp-content/uploads/2024/10/egon_schiele_060.jpg
+
+.. meta::
+	:date: 2024-10-05 10:26
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: συστήματα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη
+	:slug: %cf%83%cf%85%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%8c%ce%bb%ce%b7-%ce%b7-%ce%b8%ce%b5%cf%89%cf%81%ce%af%ce%b1-%ce%ba%ce%b1%ce%b9-%ce%bb%ce%af%ce%b3%ce%b5%cf%82-%ce%b1%cf%83%ce%ba%ce%ae
+	:status: published
+	:attachments: wp-content/uploads/2024/10/egon_schiele_060.jpg
 
 .. figure:: /wp-content/uploads/2024/10/egon_schiele_060.jpg
 	:alt: Το *Πορτρέτο του Arthur Rössler* του `Egon Schiele <https://en.wikipedia.org/wiki/Egon_Schiele>`__. 

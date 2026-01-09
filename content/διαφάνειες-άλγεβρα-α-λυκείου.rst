@@ -1,12 +1,14 @@
 Διαφάνειες - Άλγεβρα (Α' Λυκείου)
 #################################
-:date: 2020-11-24 10:22
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πραγματικοί αριθμοί, σημειώσεις, Α' Λυκείου, άλγεβρα, απόλυτη τιμή, διαφάνειες, θεωρία, μαθηματικά
-:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2020/11/671px-august_macke_042.jpg
+
+.. meta::
+	:date: 2020-11-24 10:22
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πραγματικοί αριθμοί, σημειώσεις, Α' Λυκείου, άλγεβρα, απόλυτη τιμή, διαφάνειες, θεωρία, μαθηματικά
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2020/11/671px-august_macke_042.jpg
 
 .. figure:: /wp-content/uploads/2020/11/671px-august_macke_042.jpg
 	:alt: Μία αυτοπροσωπογραφία του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__. 

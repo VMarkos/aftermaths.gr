@@ -1,12 +1,14 @@
 1ο Workshop
 ###########
-:date: 2019-10-28 21:19
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, Workshop
-:slug: 1%ce%bf-workshop
-:status: published
-:attachments: wp-content/uploads/2019/10/754px-canaletto_capriccio_gotica.jpg
+
+.. meta::
+	:date: 2019-10-28 21:19
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, Workshop
+	:slug: 1%ce%bf-workshop
+	:status: published
+	:attachments: wp-content/uploads/2019/10/754px-canaletto_capriccio_gotica.jpg
 
 .. figure:: /wp-content/uploads/2019/10/754px-canaletto_capriccio_gotica.jpg
 	:alt: Ο πίνακας *Καπρίτσιο με γοτθική εκκλησία και λίμνη* του `Canaletto <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 

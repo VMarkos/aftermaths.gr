@@ -1,0 +1,34 @@
+Μέτρα θέσης και διασποράς
+#########################
+:date: 2020-06-28 18:51
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διάμεσος, μέση τιμή, ομαδοποιημένα δεδομένα
+:slug: %ce%bc%ce%ad%cf%84%cf%81%ce%b1-%ce%b8%ce%ad%cf%83%ce%b7%cf%82-%ce%ba%ce%b1%ce%b9-%ce%b4%ce%b9%ce%b1%cf%83%cf%80%ce%bf%cf%81%ce%ac%cf%82
+:status: published
+:attachments: wp-content/uploads/2020/06/800px-p_s_krc3b8yer_1897_-_dc3b8trene_benzon.jpg
+
+.. figure:: /wp-content/uploads/2020/06/800px-p_s_krc3b8yer_1897_-_dc3b8trene_benzon.jpg
+	:alt: Ο πίνακας *Οι αδερφές Benzon* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+	:align: center
+
+	Ο πίνακας *Οι αδερφές Benzon* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1D07AIqDuS7udtqdiV0GKe3SqunJ6THpU/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed-youtube wp-block-embed is-type-rich wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: rqFpbo_K2Eg 
+
+.. raw:: html
+
+   </figure>

@@ -1,12 +1,14 @@
 Όλες οι διαφάνειες των συναρτήσεων
 ##################################
-:date: 2019-08-25 20:14
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πανελλήνιες, συναρτήσεις, Γ' λυκείου, διαφάνειες, επανάληψη, θεωρία
-:slug: %cf%8c%ce%bb%ce%b5%cf%82-%ce%bf%ce%b9-%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%cf%84%cf%89%ce%bd-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%cf%89%ce%bd
-:status: published
-:attachments: wp-content/uploads/2019/08/782px-the_ypres_salient_at_night_art.iwmart1145.jpg
+
+.. meta::
+	:date: 2019-08-25 20:14
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, συναρτήσεις, Γ' λυκείου, διαφάνειες, επανάληψη, θεωρία
+	:slug: %cf%8c%ce%bb%ce%b5%cf%82-%ce%bf%ce%b9-%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%cf%84%cf%89%ce%bd-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%cf%89%ce%bd
+	:status: published
+	:attachments: wp-content/uploads/2019/08/782px-the_ypres_salient_at_night_art.iwmart1145.jpg
 
 .. figure:: /wp-content/uploads/2019/08/782px-the_ypres_salient_at_night_art.iwmart1145.jpg
 	:alt: Ο πίνακας *Η προεξοχή του Ypres τη νύχτα* του `Paul Nash <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 

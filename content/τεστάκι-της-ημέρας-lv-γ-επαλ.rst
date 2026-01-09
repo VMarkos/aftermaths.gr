@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LV (Γ' ΕΠΑΛ)
 ###############################
-:date: 2021-02-01 09:13
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: παράγωγος, πανελλήνιες, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά, μονοτονία
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lv-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
-:status: published
-:attachments: wp-content/uploads/2021/02/d09fd0bed0bbd0b5d181d0bdd0b8d0ba.jpg
+
+.. meta::
+	:date: 2021-02-01 09:13
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παράγωγος, πανελλήνιες, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά, μονοτονία
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lv-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2021/02/d09fd0bed0bbd0b5d181d0bdd0b8d0ba.jpg
 
 .. figure:: /wp-content/uploads/2021/02/d09fd0bed0bbd0b5d181d0bdd0b8d0ba.jpg
 	:alt: Ο πίνακας *Ξυλοκόπος* του `Ivan Kramskoi <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 

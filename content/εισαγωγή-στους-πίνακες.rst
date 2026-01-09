@@ -1,12 +1,14 @@
 Εισαγωγή στους πίνακες
 ######################
-:date: 2020-02-08 20:42
-:author: aftermathsgr
-:category: ΑΕΠΠ, Διδακτικό υλικό
-:tags: προβλήματα, πίνακες, πανελλήνιες, Γ' λυκείου, ασκήσεις, μονοδιάστατοι
-:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%bf%cf%85%cf%82-%cf%80%ce%af%ce%bd%ce%b1%ce%ba%ce%b5%cf%82
-:status: published
-:attachments: wp-content/uploads/2020/02/768px-rembrandt_harmensz._van_rijn_-_the_abduction_of_europa_-_google_art_project.jpg
+
+.. meta::
+	:date: 2020-02-08 20:42
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: προβλήματα, πίνακες, πανελλήνιες, Γ' λυκείου, ασκήσεις, μονοδιάστατοι
+	:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%bf%cf%85%cf%82-%cf%80%ce%af%ce%bd%ce%b1%ce%ba%ce%b5%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2020/02/768px-rembrandt_harmensz._van_rijn_-_the_abduction_of_europa_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2020/02/768px-rembrandt_harmensz._van_rijn_-_the_abduction_of_europa_-_google_art_project.jpg
 	:alt: Ο πίνακας *Η απαγωγή της Ευρώπης* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 

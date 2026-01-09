@@ -1,12 +1,14 @@
 Στη Γωνία!
 ##########
-:date: 2023-10-23 10:59
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: φύλλο εργασίας, γωνίες, γεωμετρία
-:slug: %cf%83%cf%84%ce%b7-%ce%b3%cf%89%ce%bd%ce%af%ce%b1
-:status: published
-:attachments: wp-content/uploads/2023/10/theo_van_doesburg_-_girl_with_ranunculus_-_google_art_project.jpg
+
+.. meta::
+	:date: 2023-10-23 10:59
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: φύλλο εργασίας, γωνίες, γεωμετρία
+	:slug: %cf%83%cf%84%ce%b7-%ce%b3%cf%89%ce%bd%ce%af%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2023/10/theo_van_doesburg_-_girl_with_ranunculus_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2023/10/theo_van_doesburg_-_girl_with_ranunculus_-_google_art_project.jpg
 	:alt: Ο πίνακας *Κορίτσι με νεραγκούλες* του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 

@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας Ι - Απόλυτη Τιμή
 ###################################
-:date: 2021-11-12 11:29
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, ασκήσεις, επανάληψη
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b9-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b7-%cf%84%ce%b9%ce%bc%ce%ae
-:status: published
-:attachments: wp-content/uploads/2021/11/796px-jacques-louis_david_-_marat_assassinated_-_google_art_project_2.jpg
+
+.. meta::
+	:date: 2021-11-12 11:29
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, ασκήσεις, επανάληψη
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b9-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b7-%cf%84%ce%b9%ce%bc%ce%ae
+	:status: published
+	:attachments: wp-content/uploads/2021/11/796px-jacques-louis_david_-_marat_assassinated_-_google_art_project_2.jpg
 
 .. figure:: /wp-content/uploads/2021/11/796px-jacques-louis_david_-_marat_assassinated_-_google_art_project_2.jpg
 	:alt: Ο πίνακας *Ο θάνατος του Μαράτ* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 

@@ -1,0 +1,24 @@
+Ασκήσεις στις πολυωνυμικές ανισότητες
+#####################################
+:date: 2019-02-28 11:37
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, πολυώνυμα, τεστ, Β' Λυκείου, ασκήσεις, ανισώσεις, λύσεις
+:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%80%ce%bf%ce%bb%cf%85%cf%89%ce%bd%cf%85%ce%bc%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%ce%bd%ce%b9%cf%83%cf%8c%cf%84%ce%b7%cf%84
+:status: published
+:attachments: wp-content/uploads/2019/02/caspar_david_friedrich_-_riesengebirge_landscape_with_rising_fog_-_wga8257.jpg
+
+.. figure:: /wp-content/uploads/2019/02/caspar_david_friedrich_-_riesengebirge_landscape_with_rising_fog_-_wga8257.jpg
+	:alt: Ο πίνακας *Τοπίο με τεράστια βουνά και ομίχλη* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Τοπίο με τεράστια βουνά και ομίχλη* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1YNnca0xQgKWAx_YaLX5MUBx5sBTPTf1p/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+.. youtube:: EZ -VsKB_tNw

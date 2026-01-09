@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας XLVII (Γ' ΕΠΑΛ)
 ##################################
-:date: 2021-01-13 09:03
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: πανελλήνιες, συναρτήσεις, τεστ, όρια, Γ' λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xlvii-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
-:status: published
-:attachments: wp-content/uploads/2021/01/1280px-alexander_iii_reception_by_repin.jpg
+
+.. meta::
+	:date: 2021-01-13 09:03
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: πανελλήνιες, συναρτήσεις, τεστ, όρια, Γ' λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xlvii-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2021/01/1280px-alexander_iii_reception_by_repin.jpg
 
 .. figure:: /wp-content/uploads/2021/01/1280px-alexander_iii_reception_by_repin.jpg
 	:alt: Ο πίνακας *Υποδοχή του Αλεξάνδρου του ΙΙΙ* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 

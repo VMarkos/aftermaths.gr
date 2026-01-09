@@ -1,12 +1,14 @@
 Άλγεβρα, Α' Λυκείου - Μάθημα 10ο
 ################################
-:date: 2021-11-15 13:55
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πραγματικοί αριθμοί, προβλήματα, ρητοί εκθέτες, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, δυνάμεις, επανάληψη
-:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-10%ce%bf
-:status: published
-:attachments: wp-content/uploads/2021/11/1024px-jacques-louis_david_-_patroclus_-_wga06044.jpg
+
+.. meta::
+	:date: 2021-11-15 13:55
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πραγματικοί αριθμοί, προβλήματα, ρητοί εκθέτες, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, δυνάμεις, επανάληψη
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-10%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2021/11/1024px-jacques-louis_david_-_patroclus_-_wga06044.jpg
 
 .. figure:: /wp-content/uploads/2021/11/1024px-jacques-louis_david_-_patroclus_-_wga06044.jpg
 	:alt: Ο πίνακας *Πάτροκλος* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 

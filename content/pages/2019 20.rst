@@ -1,10 +1,12 @@
 2019 - 2020
 ###########
-:date: 2019-06-16 22:06
-:author: aftermathsgr
-:slug: 2019-2020
-:status: published
-:attachments: wp-content/uploads/2019/06/cze_ng.do_4314.jpeg
+
+.. meta::
+	:date: 2019-06-16 22:06
+	:author: aftermathsgr
+	:slug: 2019-2020
+	:status: published
+	:attachments: wp-content/uploads/2019/06/cze_ng.do_4314.jpeg
 
 .. figure:: /wp-content/uploads/2019/06/cze_ng.do_4314.jpeg
 	:alt: 

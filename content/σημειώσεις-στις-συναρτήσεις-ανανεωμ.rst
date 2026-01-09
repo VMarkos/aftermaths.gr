@@ -1,12 +1,14 @@
 Σημειώσεις στις συναρτήσεις... ανανεωμένες
 ##########################################
-:date: 2019-08-25 18:01
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: 1-1, προβλήματα, πανελλήνιες, συναρτήσεις, σημειώσεις, Γ' λυκείου, ασκήσεις, επανάληψη, θεωρία
-:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%b1%ce%bd%ce%b1%ce%bd%ce%b5%cf%89%ce%bc
-:status: published
-:attachments: wp-content/uploads/2019/08/we_are_making_a_new_world_1918_art._iwm_art_1146.jpg
+
+.. meta::
+	:date: 2019-08-25 18:01
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: 1-1, προβλήματα, πανελλήνιες, συναρτήσεις, σημειώσεις, Γ' λυκείου, ασκήσεις, επανάληψη, θεωρία
+	:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%b1%ce%bd%ce%b1%ce%bd%ce%b5%cf%89%ce%bc
+	:status: published
+	:attachments: wp-content/uploads/2019/08/we_are_making_a_new_world_1918_art._iwm_art_1146.jpg
 
 .. figure:: /wp-content/uploads/2019/08/we_are_making_a_new_world_1918_art._iwm_art_1146.jpg
 	:alt: Ο πίνακας *Φτιάχνουμε έναν νέο κόσμο* του `Paul Nash <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 

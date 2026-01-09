@@ -1,12 +1,14 @@
 Ιδιότητες των πράξεων μεταξύ συνόλων
 ####################################
-:date: 2019-08-31 19:08
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πράξεις, προβλήματα, σύνολα, Α' Λυκείου, ασκήσεις
-:slug: %ce%b9%ce%b4%ce%b9%cf%8c%cf%84%ce%b7%cf%84%ce%b5%cf%82-%cf%84%cf%89%ce%bd-%cf%80%cf%81%ce%ac%ce%be%ce%b5%cf%89%ce%bd-%ce%bc%ce%b5%cf%84%ce%b1%ce%be%cf%8d-%cf%83%cf%85%ce%bd%cf%8c%ce%bb%cf%89%ce%bd
-:status: published
-:attachments: wp-content/uploads/2019/08/matisse_conversation.jpg
+
+.. meta::
+	:date: 2019-08-31 19:08
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πράξεις, προβλήματα, σύνολα, Α' Λυκείου, ασκήσεις
+	:slug: %ce%b9%ce%b4%ce%b9%cf%8c%cf%84%ce%b7%cf%84%ce%b5%cf%82-%cf%84%cf%89%ce%bd-%cf%80%cf%81%ce%ac%ce%be%ce%b5%cf%89%ce%bd-%ce%bc%ce%b5%cf%84%ce%b1%ce%be%cf%8d-%cf%83%cf%85%ce%bd%cf%8c%ce%bb%cf%89%ce%bd
+	:status: published
+	:attachments: wp-content/uploads/2019/08/matisse_conversation.jpg
 
 .. figure:: /wp-content/uploads/2019/08/matisse_conversation.jpg
 	:alt: Ο πίνακας *Η συζήτηση* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 

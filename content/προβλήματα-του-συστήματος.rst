@@ -1,12 +1,14 @@
 Προβλήματα του Συστήματος
 #########################
-:date: 2023-10-03 09:40
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, συστήματα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις
-:slug: %cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%bf%cf%85-%cf%83%cf%85%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%bf%cf%82
-:status: published
-:attachments: wp-content/uploads/2023/10/luigi_russolo_1911_souvenir_dune_nuit_memories_of_a_night_oil_on_canvas_99_x_99_cm_private_collection.jpg
+
+.. meta::
+	:date: 2023-10-03 09:40
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, συστήματα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις
+	:slug: %cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%bf%cf%85-%cf%83%cf%85%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%bf%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2023/10/luigi_russolo_1911_souvenir_dune_nuit_memories_of_a_night_oil_on_canvas_99_x_99_cm_private_collection.jpg
 
 .. figure:: /wp-content/uploads/2023/10/luigi_russolo_1911_souvenir_dune_nuit_memories_of_a_night_oil_on_canvas_99_x_99_cm_private_collection.jpg
 	:alt: Ο πίνακας *Αναμνήσεις μίας νύχτας* του `Luigi Russolo <https://en.wikipedia.org/wiki/Luigi_Russolo>`__. 

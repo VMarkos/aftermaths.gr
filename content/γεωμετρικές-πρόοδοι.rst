@@ -1,12 +1,14 @@
 Γεωμετρικές πρόοδοι
 ###################
-:date: 2020-04-04 23:06
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πρόοδοι, προβλήματα, Α' Λυκείου, ασκήσεις, γεωμετρικές, επανάληψη
-:slug: %ce%b3%ce%b5%cf%89%ce%bc%ce%b5%cf%84%cf%81%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%cf%81%cf%8c%ce%bf%ce%b4%ce%bf%ce%b9
-:status: published
-:attachments: wp-content/uploads/2020/04/442px-rembrandt_-_portrait_of_hendrickje_stoffels_-_google_art_project.jpg
+
+.. meta::
+	:date: 2020-04-04 23:06
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πρόοδοι, προβλήματα, Α' Λυκείου, ασκήσεις, γεωμετρικές, επανάληψη
+	:slug: %ce%b3%ce%b5%cf%89%ce%bc%ce%b5%cf%84%cf%81%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%cf%81%cf%8c%ce%bf%ce%b4%ce%bf%ce%b9
+	:status: published
+	:attachments: wp-content/uploads/2020/04/442px-rembrandt_-_portrait_of_hendrickje_stoffels_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2020/04/442px-rembrandt_-_portrait_of_hendrickje_stoffels_-_google_art_project.jpg
 	:alt: Ο πίνακας *Μια γυναίκα στο άνοιγμα της πόρτας* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 

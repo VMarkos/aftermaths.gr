@@ -1,12 +1,14 @@
 Hyperreals: Απειροστά και άπειροι αριθμοί
 #########################################
-:date: 2021-01-17 12:33
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, hyperreals, μαθηματικά
-:slug: hyperreals-%ce%b1%cf%80%ce%b5%ce%b9%cf%81%ce%bf%cf%83%cf%84%ce%ac-%ce%ba%ce%b1%ce%b9-%ce%ac%cf%80%ce%b5%ce%b9%cf%81%ce%bf%ce%b9-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%ce%af
-:status: published
-:attachments: wp-content/uploads/2021/01/robert_delaunay_1938_rythme_nc2b01_decoration_for_the_salon_des_tuileries_oil_on_canvas_musee_dart_moderne_de_la_ville_de_paris.jpg
+
+.. meta::
+	:date: 2021-01-17 12:33
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, hyperreals, μαθηματικά
+	:slug: hyperreals-%ce%b1%cf%80%ce%b5%ce%b9%cf%81%ce%bf%cf%83%cf%84%ce%ac-%ce%ba%ce%b1%ce%b9-%ce%ac%cf%80%ce%b5%ce%b9%cf%81%ce%bf%ce%b9-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%ce%af
+	:status: published
+	:attachments: wp-content/uploads/2021/01/robert_delaunay_1938_rythme_nc2b01_decoration_for_the_salon_des_tuileries_oil_on_canvas_musee_dart_moderne_de_la_ville_de_paris.jpg
 
 .. figure:: /wp-content/uploads/2021/01/robert_delaunay_1938_rythme_nc2b01_decoration_for_the_salon_des_tuileries_oil_on_canvas_musee_dart_moderne_de_la_ville_de_paris.jpg
 	:alt: Ο πίνακας *Ρυθμός Νο 1* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 

@@ -1,12 +1,14 @@
 Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση
 #############################################
-:date: 2020-03-05 00:09
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά, Ολοκληρώματα
-:tags: featured, παράγουσα, αντιπαραγώγιση, ολοκλήρωμα
-:slug: %ce%bf%ce%bb%ce%bf-clear-%cf%8e%ce%bc%ce%b1%cf%84%ce%b1-%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-vs-%ce%b1%ce%bd%cf%84%ce%b9%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%b9%cf%83
-:status: published
-:attachments: wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator2.png, wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator.png, wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator1.png, wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator.png, wp-content/uploads/2020/03/michael_ancher_-_den_rc3b8de_redningsbc3a5d_sejler_ud.jpg, wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator1.png
+
+.. meta::
+	:date: 2020-03-05 00:09
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά, Ολοκληρώματα
+	:tags: featured, παράγουσα, αντιπαραγώγιση, ολοκλήρωμα
+	:slug: %ce%bf%ce%bb%ce%bf-clear-%cf%8e%ce%bc%ce%b1%cf%84%ce%b1-%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-vs-%ce%b1%ce%bd%cf%84%ce%b9%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%b9%cf%83
+	:status: published
+	:attachments: wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator2.png, wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator.png, wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator1.png, wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator.png, wp-content/uploads/2020/03/michael_ancher_-_den_rc3b8de_redningsbc3a5d_sejler_ud.jpg, wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator1.png
 
 .. figure:: /wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator2.png, wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator.png, wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator1.png, wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator.png, wp-content/uploads/2020/03/michael_ancher_-_den_rc3b8de_redningsbc3a5d_sejler_ud.jpg, wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator1.png
 	:alt: Ο πίνακας *Η κόκκινη σωσίβια λέμβος στο δρόμο της προς τη θάλασσα* του `Michael Ancher <https://en.wikipedia.org/wiki/Michael_Ancher>`__\ *.* 

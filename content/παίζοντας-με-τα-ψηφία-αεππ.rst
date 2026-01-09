@@ -1,12 +1,14 @@
 Παίζοντας με τα ψηφία (ΑΕΠΠ)
 ############################
-:date: 2018-09-26 16:19
-:author: aftermathsgr
-:category: ΑΕΠΠ, Διδακτικό υλικό
-:tags: πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επανάληψης, δομή επιλογής
-:slug: %cf%80%ce%b1%ce%af%ce%b6%ce%bf%ce%bd%cf%84%ce%b1%cf%82-%ce%bc%ce%b5-%cf%84%ce%b1-%cf%88%ce%b7%cf%86%ce%af%ce%b1-%ce%b1%ce%b5%cf%80%cf%80
-:status: published
-:attachments: wp-content/uploads/2018/09/vangchurchauversx1.jpg
+
+.. meta::
+	:date: 2018-09-26 16:19
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επανάληψης, δομή επιλογής
+	:slug: %cf%80%ce%b1%ce%af%ce%b6%ce%bf%ce%bd%cf%84%ce%b1%cf%82-%ce%bc%ce%b5-%cf%84%ce%b1-%cf%88%ce%b7%cf%86%ce%af%ce%b1-%ce%b1%ce%b5%cf%80%cf%80
+	:status: published
+	:attachments: wp-content/uploads/2018/09/vangchurchauversx1.jpg
 
 .. figure:: /wp-content/uploads/2018/09/vangchurchauversx1.jpg
 	:alt: Ο πίνακας `Η εκκλησία στην Auvers-sur-Oise, άποψη του ιερού <http://www.everypainterpaintshimself.com/article/van_goghs_church_in_auvers_sur_oise_1890>`__\ *,* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 

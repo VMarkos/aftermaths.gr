@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXXVIII (Γ' ΕΠΑΛ)
 ####################################
-:date: 2021-03-29 14:43
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: παράγωγος, πανελλήνιες, στατιστική, τεστ, ΕΠΑΛ, άλγεβρα, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxviii-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
-:status: published
-:attachments: wp-content/uploads/2021/03/829px-pierre-auguste_renoir_096.jpg
+
+.. meta::
+	:date: 2021-03-29 14:43
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παράγωγος, πανελλήνιες, στατιστική, τεστ, ΕΠΑΛ, άλγεβρα, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxviii-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2021/03/829px-pierre-auguste_renoir_096.jpg
 
 .. figure:: /wp-content/uploads/2021/03/829px-pierre-auguste_renoir_096.jpg
 	:alt: Το πορτραίτο της Jeanne Samary του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

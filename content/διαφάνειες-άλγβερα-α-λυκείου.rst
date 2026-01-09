@@ -1,12 +1,14 @@
 Διαφάνειες, Άλγεβρα - Α' Λυκείου
 ################################
-:date: 2021-04-15 12:37
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, συναρτήσεις, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, διαφάνειες, επανάληψη, θεωρία, λυμένα παραδείγματα
-:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b2%ce%b5%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2021/04/839px-auguste_renoir_-_julie_manet_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-04-15 12:37
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, συναρτήσεις, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, διαφάνειες, επανάληψη, θεωρία, λυμένα παραδείγματα
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b2%ce%b5%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2021/04/839px-auguste_renoir_-_julie_manet_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/04/839px-auguste_renoir_-_julie_manet_-_google_art_project.jpg
 	:alt: Το πορτραίο της Julien Manet του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

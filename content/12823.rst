@@ -1,12 +1,14 @@
 Όλη η Αλήθεια για τον Καναπέ σας...
 ###################################
-:date: 2023-10-30 21:24
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, γεωμετρία
-:slug: 12823
-:status: draft
-:attachments: wp-content/uploads/2023/10/sofa_08.png, wp-content/uploads/2023/10/sofa_03.png, wp-content/uploads/2023/10/sofa_09.gif, wp-content/uploads/2023/10/sofa_07.png, wp-content/uploads/2023/10/henri-de-toulouse-lautrec-the-sofa-1896-trivium-art-history-1.webp, wp-content/uploads/2023/10/sofa_01.png, wp-content/uploads/2023/10/sofa_02.png, wp-content/uploads/2023/10/sofa_05.png, wp-content/uploads/2023/10/sofa_04.png, wp-content/uploads/2023/10/sofa_06.png
+
+.. meta::
+	:date: 2023-10-30 21:24
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, γεωμετρία
+	:slug: 12823
+	:status: draft
+	:attachments: wp-content/uploads/2023/10/sofa_08.png, wp-content/uploads/2023/10/sofa_03.png, wp-content/uploads/2023/10/sofa_09.gif, wp-content/uploads/2023/10/sofa_07.png, wp-content/uploads/2023/10/henri-de-toulouse-lautrec-the-sofa-1896-trivium-art-history-1.webp, wp-content/uploads/2023/10/sofa_01.png, wp-content/uploads/2023/10/sofa_02.png, wp-content/uploads/2023/10/sofa_05.png, wp-content/uploads/2023/10/sofa_04.png, wp-content/uploads/2023/10/sofa_06.png
 
 .. figure:: /wp-content/uploads/2023/10/sofa_08.png, wp-content/uploads/2023/10/sofa_03.png, wp-content/uploads/2023/10/sofa_09.gif, wp-content/uploads/2023/10/sofa_07.png, wp-content/uploads/2023/10/henri-de-toulouse-lautrec-the-sofa-1896-trivium-art-history-1.webp, wp-content/uploads/2023/10/sofa_01.png, wp-content/uploads/2023/10/sofa_02.png, wp-content/uploads/2023/10/sofa_05.png, wp-content/uploads/2023/10/sofa_04.png, wp-content/uploads/2023/10/sofa_06.png
 	:alt: 

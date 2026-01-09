@@ -1,12 +1,14 @@
 Πανελλήνιες - Επαναληπτικό Θέμα #1
 ##################################
-:date: 2022-03-04 22:12
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Bolzano, πανελλήνιες, Γ' λυκείου, ΘΜΤ, ασκήσεις, γραφική παράσταση, επανάληψη
-:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-1
-:status: published
-:attachments: wp-content/uploads/2022/03/914px-alma_tadema_spring.jpg
+
+.. meta::
+	:date: 2022-03-04 22:12
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Bolzano, πανελλήνιες, Γ' λυκείου, ΘΜΤ, ασκήσεις, γραφική παράσταση, επανάληψη
+	:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-1
+	:status: published
+	:attachments: wp-content/uploads/2022/03/914px-alma_tadema_spring.jpg
 
 .. figure:: /wp-content/uploads/2022/03/914px-alma_tadema_spring.jpg
 	:alt: Ο πίνακας *Άνοιξη* του `Lawrence Alma-Tadema <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 

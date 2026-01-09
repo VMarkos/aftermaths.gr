@@ -1,12 +1,14 @@
 Ασκήσεις σε απόλυτες τιμές και πίνακες προσήμου
 ###############################################
-:date: 2019-09-25 13:40
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πίνακες, Α' Λυκείου, απόλυτη τιμή, αποδείξεις, ασκήσεις, ανισότητες, επανάληψη, εξισώσεις
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82-%ce%ba%ce%b1%ce%b9-%cf%80%ce%af%ce%bd%ce%b1%ce%ba%ce%b5
-:status: published
-:attachments: wp-content/uploads/2019/09/800px-vassily_kandinsky_1909_-_murnau_train_et_chc3a2teau.jpg
+
+.. meta::
+	:date: 2019-09-25 13:40
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πίνακες, Α' Λυκείου, απόλυτη τιμή, αποδείξεις, ασκήσεις, ανισότητες, επανάληψη, εξισώσεις
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82-%ce%ba%ce%b1%ce%b9-%cf%80%ce%af%ce%bd%ce%b1%ce%ba%ce%b5
+	:status: published
+	:attachments: wp-content/uploads/2019/09/800px-vassily_kandinsky_1909_-_murnau_train_et_chc3a2teau.jpg
 
 .. figure:: /wp-content/uploads/2019/09/800px-vassily_kandinsky_1909_-_murnau_train_et_chc3a2teau.jpg
 	:alt: Ο πίνακας *Murnau, τραίνο και κάστρο* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 

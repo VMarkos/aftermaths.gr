@@ -1,8 +1,10 @@
- 
+
 #
-:date: 2018-09-11 11:26
-:author: aftermathsgr
-:slug: 62
-:status: published
 
-
+.. meta::
+	:date: 2018-09-11 11:26
+	:author: aftermathsgr
+	:slug: 62
+	:status: published
+	
+	

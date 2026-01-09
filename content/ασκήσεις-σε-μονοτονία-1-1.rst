@@ -1,12 +1,14 @@
 Ασκήσεις σε μονοτονία & «1-1»
 #############################
-:date: 2021-09-23 15:52
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: 1-1, προβλήματα, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις, επανάληψη, μονοτονία
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%ce%bc%ce%bf%ce%bd%ce%bf%cf%84%ce%bf%ce%bd%ce%af%ce%b1-1-1
-:status: published
-:attachments: wp-content/uploads/2021/09/1280px-camille_pissarro_-_boulevard_montmartre_spring_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-09-23 15:52
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: 1-1, προβλήματα, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις, επανάληψη, μονοτονία
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%ce%bc%ce%bf%ce%bd%ce%bf%cf%84%ce%bf%ce%bd%ce%af%ce%b1-1-1
+	:status: published
+	:attachments: wp-content/uploads/2021/09/1280px-camille_pissarro_-_boulevard_montmartre_spring_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/09/1280px-camille_pissarro_-_boulevard_montmartre_spring_-_google_art_project.jpg
 	:alt: Ο πίνακας *Η Λεωφόρος Μονμάρτης την άνοιξη* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 

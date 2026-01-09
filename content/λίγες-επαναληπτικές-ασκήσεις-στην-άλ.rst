@@ -1,12 +1,14 @@
 Λίγες επαναληπτικές ασκήσεις στην άλγεβρα (Β' Λυκείου)
 ######################################################
-:date: 2018-11-13 11:52
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: τριγωνομετρία, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, εκθετική, λογαριθμική
-:slug: %ce%bb%ce%af%ce%b3%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%ac%ce%bb
-:status: published
-:attachments: wp-content/uploads/2018/11/vincent_van_gogh_-_peasant_woman_digging.jpg
+
+.. meta::
+	:date: 2018-11-13 11:52
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: τριγωνομετρία, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, εκθετική, λογαριθμική
+	:slug: %ce%bb%ce%af%ce%b3%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%ac%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2018/11/vincent_van_gogh_-_peasant_woman_digging.jpg
 
 .. figure:: /wp-content/uploads/2018/11/vincent_van_gogh_-_peasant_woman_digging.jpg
 	:alt: Ο πίνακας *Αγρότισσα που σκάβει* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 

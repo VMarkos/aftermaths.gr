@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXXXI - Λύσεις
 #################################
-:date: 2021-04-06 09:43
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: παράγωγος, πανελλήνιες, συνέχεια, τεστ, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, κυρτότητα, λύσεις, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxxi-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/04/869px-pierre-auguste_renoir_-_jeanne_henriot-1.jpg, wp-content/uploads/2021/04/1280px-pierre-auguste_renoir_107.jpg
+
+.. meta::
+	:date: 2021-04-06 09:43
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παράγωγος, πανελλήνιες, συνέχεια, τεστ, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, κυρτότητα, λύσεις, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxxi-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/04/869px-pierre-auguste_renoir_-_jeanne_henriot-1.jpg, wp-content/uploads/2021/04/1280px-pierre-auguste_renoir_107.jpg
 
 .. figure:: /wp-content/uploads/2021/04/869px-pierre-auguste_renoir_-_jeanne_henriot-1.jpg, wp-content/uploads/2021/04/1280px-pierre-auguste_renoir_107.jpg
 	:alt: Το πορτραίτο των Charles και George Durand-Ruel του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

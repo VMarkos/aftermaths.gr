@@ -1,12 +1,14 @@
 Τεστάκι #006 - Διαστήματα
 #########################
-:date: 2022-11-08 17:56
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, διαστήματα
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-006-%ce%b4%ce%b9%ce%b1%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1
-:status: published
-:attachments: wp-content/uploads/2022/11/g._caillebotte_-_dans_un_cafe.jpg
+
+.. meta::
+	:date: 2022-11-08 17:56
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, διαστήματα
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-006-%ce%b4%ce%b9%ce%b1%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2022/11/g._caillebotte_-_dans_un_cafe.jpg
 
 .. figure:: /wp-content/uploads/2022/11/g._caillebotte_-_dans_un_cafe.jpg
 	:alt: Ο πίνακας *Σε ένα καφέ* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 

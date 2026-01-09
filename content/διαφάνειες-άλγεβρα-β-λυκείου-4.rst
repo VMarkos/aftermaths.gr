@@ -1,12 +1,14 @@
 Διαφάνειες - Άλγεβρα (Β' Λυκείου)
 #################################
-:date: 2021-01-23 12:56
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, συστήματα, συναρτήσεις, τριγωνομετρία, Β' Λυκείου, άλγεβρα, ασκήσεις, διαφάνειες, λυμένα παραδείγματα, μαθηματικά
-:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-4
-:status: published
-:attachments: wp-content/uploads/2021/01/1168px-christ_in_the_wilderness_-_ivan_kramskoy_-_google_cultural_institute.jpg
+
+.. meta::
+	:date: 2021-01-23 12:56
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, συστήματα, συναρτήσεις, τριγωνομετρία, Β' Λυκείου, άλγεβρα, ασκήσεις, διαφάνειες, λυμένα παραδείγματα, μαθηματικά
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-4
+	:status: published
+	:attachments: wp-content/uploads/2021/01/1168px-christ_in_the_wilderness_-_ivan_kramskoy_-_google_cultural_institute.jpg
 
 .. figure:: /wp-content/uploads/2021/01/1168px-christ_in_the_wilderness_-_ivan_kramskoy_-_google_cultural_institute.jpg
 	:alt: Ο πίνακας *Ο Ιησούς στην έρημο* του `Ivan Kramskoi <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 

@@ -1,11 +1,13 @@
 Τα σχήματα της εβδομάδας (11)
 #############################
-:date: 2021-10-26 11:58
-:author: aftermathsgr
-:tags: featured, Μαθηματικά, Tikz
-:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-11
-:status: published
-:attachments: wp-content/uploads/2021/10/henri_fantin-latour_-_vase_of_flowers_with_a_coffee_cup_13648335833.jpg
+
+.. meta::
+	:date: 2021-10-26 11:58
+	:author: aftermathsgr
+	:tags: featured, Μαθηματικά, Tikz
+	:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-11
+	:status: published
+	:attachments: wp-content/uploads/2021/10/henri_fantin-latour_-_vase_of_flowers_with_a_coffee_cup_13648335833.jpg
 
 .. figure:: /wp-content/uploads/2021/10/henri_fantin-latour_-_vase_of_flowers_with_a_coffee_cup_13648335833.jpg
 	:alt: Ο πίνακας *Ένα βάζο λουλούδια και μία κούπα καφέ* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 

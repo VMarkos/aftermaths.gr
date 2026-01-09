@@ -1,12 +1,14 @@
 Μία μικρή σύνοψη της θεωρίας
 ############################
-:date: 2021-05-11 13:18
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: featured, παράγωγος, πανελλήνιες, στατιστική, σημειώσεις, Γ' λυκείου, ΕΠΑΛ, θεωρία
-:slug: %ce%bc%ce%af%ce%b1-%ce%bc%ce%b9%ce%ba%cf%81%ce%ae-%cf%83%cf%8d%ce%bd%ce%bf%cf%88%ce%b7-%cf%84%ce%b7%cf%82-%ce%b8%ce%b5%cf%89%cf%81%ce%af%ce%b1%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/05/camille_pissarro_-_paisaje_tropical.jpg
+
+.. meta::
+	:date: 2021-05-11 13:18
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, παράγωγος, πανελλήνιες, στατιστική, σημειώσεις, Γ' λυκείου, ΕΠΑΛ, θεωρία
+	:slug: %ce%bc%ce%af%ce%b1-%ce%bc%ce%b9%ce%ba%cf%81%ce%ae-%cf%83%cf%8d%ce%bd%ce%bf%cf%88%ce%b7-%cf%84%ce%b7%cf%82-%ce%b8%ce%b5%cf%89%cf%81%ce%af%ce%b1%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/05/camille_pissarro_-_paisaje_tropical.jpg
 
 .. figure:: /wp-content/uploads/2021/05/camille_pissarro_-_paisaje_tropical.jpg
 	:alt: Ο πίνακας *Τοπίο με αγροτόσπιτα και φοίνικες* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 

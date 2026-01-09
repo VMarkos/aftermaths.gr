@@ -1,12 +1,14 @@
 Ασκήσεις στις εκθετικές συναρτήσεις
 ###################################
-:date: 2019-04-04 21:54
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: 1-1, συναρτήσεις, τεστ, Β' Λυκείου, ασκήσεις, ανισώσεις, εκθετική, εξισώσεις, λύσεις, μονοτονία
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b5%ce%ba%ce%b8%ce%b5%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-2
-:status: published
-:attachments: wp-content/uploads/2019/04/vincent_willem_van_gogh_037.jpg
+
+.. meta::
+	:date: 2019-04-04 21:54
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: 1-1, συναρτήσεις, τεστ, Β' Λυκείου, ασκήσεις, ανισώσεις, εκθετική, εξισώσεις, λύσεις, μονοτονία
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b5%ce%ba%ce%b8%ce%b5%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-2
+	:status: published
+	:attachments: wp-content/uploads/2019/04/vincent_willem_van_gogh_037.jpg
 
 .. figure:: /wp-content/uploads/2019/04/vincent_willem_van_gogh_037.jpg
 	:alt: Ο πίνακας *Ο κύκλος των φυλακισμένων* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 

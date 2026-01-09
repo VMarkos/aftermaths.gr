@@ -1,12 +1,14 @@
 Εξισώσεις και Συστήματα
 #######################
-:date: 2019-12-01 19:48
-:author: aftermathsgr
-:category: ΑΕΠΠ, Διδακτικό υλικό
-:tags: προβλήματα, πανελλήνιες, συστήματα, Γ' λυκείου, ασκήσεις, δομή επιλογής, επανάληψη, εξισώσεις
-:slug: %ce%b5%ce%be%ce%b9%cf%83%cf%8e%cf%83%ce%b5%ce%b9-%ce%ba%ce%b1%ce%b9-%cf%83%cf%85%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1
-:status: published
-:attachments: wp-content/uploads/2019/12/pablo_picasso_1910_girl_with_a_mandolin_fanny_tellier_oil_on_canvas_100.3_x_73.6_cm_museum_of_modern_art_new_york..jpg
+
+.. meta::
+	:date: 2019-12-01 19:48
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: προβλήματα, πανελλήνιες, συστήματα, Γ' λυκείου, ασκήσεις, δομή επιλογής, επανάληψη, εξισώσεις
+	:slug: %ce%b5%ce%be%ce%b9%cf%83%cf%8e%cf%83%ce%b5%ce%b9-%ce%ba%ce%b1%ce%b9-%cf%83%cf%85%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2019/12/pablo_picasso_1910_girl_with_a_mandolin_fanny_tellier_oil_on_canvas_100.3_x_73.6_cm_museum_of_modern_art_new_york..jpg
 
 .. figure:: /wp-content/uploads/2019/12/pablo_picasso_1910_girl_with_a_mandolin_fanny_tellier_oil_on_canvas_100.3_x_73.6_cm_museum_of_modern_art_new_york..jpg
 	:alt: Ο πίνακας *Γυναίκα με μαντολίνο* του `P <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ `ablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 

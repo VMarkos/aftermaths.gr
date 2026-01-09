@@ -1,12 +1,14 @@
 Κατασκευές με Κανόνα και Διαβήτη #01
 ####################################
-:date: 2022-10-11 10:37
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Α' Λυκείου, ΕΠΑΛ, γεωμετρία, θεωρία, κατασκευές
-:slug: %ce%ba%ce%b1%cf%84%ce%b1%cf%83%ce%ba%ce%b5%cf%85%ce%ad%cf%82-%ce%bc%ce%b5-%ce%ba%ce%b1%ce%bd%cf%8c%ce%bd%ce%b1-%ce%ba%ce%b1%ce%b9-%ce%b4%ce%b9%ce%b1%ce%b2%ce%ae%cf%84%ce%b7-01
-:status: published
-:attachments: wp-content/uploads/2022/10/881px-cailebotte_-_nature_morte.jpg
+
+.. meta::
+	:date: 2022-10-11 10:37
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, ΕΠΑΛ, γεωμετρία, θεωρία, κατασκευές
+	:slug: %ce%ba%ce%b1%cf%84%ce%b1%cf%83%ce%ba%ce%b5%cf%85%ce%ad%cf%82-%ce%bc%ce%b5-%ce%ba%ce%b1%ce%bd%cf%8c%ce%bd%ce%b1-%ce%ba%ce%b1%ce%b9-%ce%b4%ce%b9%ce%b1%ce%b2%ce%ae%cf%84%ce%b7-01
+	:status: published
+	:attachments: wp-content/uploads/2022/10/881px-cailebotte_-_nature_morte.jpg
 
 .. figure:: /wp-content/uploads/2022/10/881px-cailebotte_-_nature_morte.jpg
 	:alt: Ο πίνακας *Κίτρινα τριαντάφυλλα σε βάζο* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 

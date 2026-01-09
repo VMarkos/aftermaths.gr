@@ -1,0 +1,28 @@
+Όλες οι διαφάνειες των συναρτήσεων
+##################################
+:date: 2019-08-25 20:14
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: πανελλήνιες, συναρτήσεις, Γ' λυκείου, διαφάνειες, επανάληψη, θεωρία
+:slug: %cf%8c%ce%bb%ce%b5%cf%82-%ce%bf%ce%b9-%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%cf%84%cf%89%ce%bd-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%cf%89%ce%bd
+:status: published
+:attachments: wp-content/uploads/2019/08/782px-the_ypres_salient_at_night_art.iwmart1145.jpg
+
+.. figure:: /wp-content/uploads/2019/08/782px-the_ypres_salient_at_night_art.iwmart1145.jpg
+	:alt: Ο πίνακας *Η προεξοχή του Ypres τη νύχτα* του `Paul Nash <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Η προεξοχή του Ypres τη νύχτα* του `Paul Nash <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+
+
+Για να είναι πιο εύκολη η επανάληψή σας και για να μην μπλέκεστε με πολλά αρχεία, μπορείτε να βρείτε `εδώ <https://drive.google.com/file/d/1xgp5GLhIHmKIgACSMlf9IT_gp3tSQBnx/view?usp=sharing>`__, καθώς και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__, όλες τις διαφάνειες στις συναρτήσεις.
+
+Οι διαφάνειες είναι διαθέσιμες και στο `Slideshare <https://www.slideshare.net/ssuserbf550d/6-166320565>`__.
+
+[slideshare id=166320565&doc=binderfunctions-190825170349]
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+.. youtube:: P73A7RvImyI 

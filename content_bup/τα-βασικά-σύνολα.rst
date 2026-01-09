@@ -1,0 +1,38 @@
+Τα Βασικά Σύνολα
+################
+:date: 2023-10-05 08:56
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, σύνολα, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
+:slug: %cf%84%ce%b1-%ce%b2%ce%b1%cf%83%ce%b9%ce%ba%ce%ac-%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1
+:status: published
+:attachments: wp-content/uploads/2023/10/luigi_russolo_la_rivolta_1911.jpg
+
+.. figure:: /wp-content/uploads/2023/10/luigi_russolo_la_rivolta_1911.jpg
+	:alt: Ο πίνακας *Η Επανάσταση* του `Luigi Russolo <https://en.wikipedia.org/wiki/Luigi_Russolo>`__. 
+	:align: center
+
+	Ο πίνακας *Η Επανάσταση* του `Luigi Russolo <https://en.wikipedia.org/wiki/Luigi_Russolo>`__. 
+
+
+Χτίζοντας πάνω στο προηγούμενο φύλλο εργασίας - που μπορείτε να το βρείτε `εδώ <https://aftermaths.gr/2023/10/04/%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%80%cf%81%ce%ac%ce%be%ce%b5%ce%b9%cf%82/>`__ - τρία θέματα πάνω στα σύνολα, εμπνευσμένα, εν μέρει, και από τις αντίστοιχες ασκήσεις του σχολικού βιβλίου τους Α' Λυκείου / ΕΠΑΛ.
+
+Τα θέματα μπορείτε να τα βρείτε `εδώ <https://drive.google.com/file/d/1mFV6Og2f3NWL09SHasOGFBbJpt4xMxI7/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+Ανάλογα θέματα και ασκήσεις μπορείτε να βρείτε και στο υλικό `προηγούμενων ετών <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: __ebFZ4HxEk 
+
+.. raw:: html
+
+   </figure>

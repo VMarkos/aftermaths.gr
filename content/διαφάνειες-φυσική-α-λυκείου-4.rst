@@ -1,12 +1,14 @@
 Διαφάνειες, Φυσική - Α' Λυκείου
 ###############################
-:date: 2021-04-16 12:52
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Φυσική
-:tags: προβλήματα, Α' Λυκείου, ΕΟΚ, ΕΟΜΚ, ΘΜΚΕ, έργο, ασκήσεις, διαφάνειες, επανάληψη, ενέργεια
-:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%cf%86%cf%85%cf%83%ce%b9%ce%ba%ce%ae-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-4
-:status: published
-:attachments: wp-content/uploads/2021/04/pierre-auguste_renoir_-_jeune_fille_au_ruban_bleu.jpg
+
+.. meta::
+	:date: 2021-04-16 12:52
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Φυσική
+	:tags: προβλήματα, Α' Λυκείου, ΕΟΚ, ΕΟΜΚ, ΘΜΚΕ, έργο, ασκήσεις, διαφάνειες, επανάληψη, ενέργεια
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%cf%86%cf%85%cf%83%ce%b9%ce%ba%ce%ae-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-4
+	:status: published
+	:attachments: wp-content/uploads/2021/04/pierre-auguste_renoir_-_jeune_fille_au_ruban_bleu.jpg
 
 .. figure:: /wp-content/uploads/2021/04/pierre-auguste_renoir_-_jeune_fille_au_ruban_bleu.jpg
 	:alt: Ο πίνακας *Νεαρή γυναίκα με μπλε περιλαίμιο* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

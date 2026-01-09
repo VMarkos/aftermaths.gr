@@ -1,12 +1,14 @@
 Ασκήσεις εφ' όλης της ύλης της στατιστικής
 ##########################################
-:date: 2020-07-05 22:00
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διάμεσος, διασπορά, διακύμανση, κανονική κατανομή, μέση τιμή
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%8d%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84%ce%b9
-:status: published
-:attachments: wp-content/uploads/2020/07/ved_kaminilden_p._s._krc3b8yer.jpg
+
+.. meta::
+	:date: 2020-07-05 22:00
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διάμεσος, διασπορά, διακύμανση, κανονική κατανομή, μέση τιμή
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%8d%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84%ce%b9
+	:status: published
+	:attachments: wp-content/uploads/2020/07/ved_kaminilden_p._s._krc3b8yer.jpg
 
 .. figure:: /wp-content/uploads/2020/07/ved_kaminilden_p._s._krc3b8yer.jpg
 	:alt: Ο πίνακας *Στο τζάκι* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 

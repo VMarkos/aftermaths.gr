@@ -1,12 +1,14 @@
 Κλάσματα! Κλάσματα παντού!
 ##########################
-:date: 2019-07-30 16:15
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά, Longreads
-:tags: featured, επιστήμη, εξωσχολικά
-:slug: %ce%ba%ce%bb%ce%ac%cf%83%ce%bc%ce%b1%cf%84%ce%b1-%ce%ba%ce%bb%ce%ac%cf%83%ce%bc%ce%b1%cf%84%ce%b1-%cf%80%ce%b1%ce%bd%cf%84%ce%bf%cf%8d
-:status: published
-:attachments: wp-content/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png, wp-content/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png, wp-content/uploads/2019/07/ezgif.com-crop3.gif, wp-content/uploads/2019/07/ezgif.com-crop2-1.gif, wp-content/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png, wp-content/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png, wp-content/uploads/2019/07/smaller-1956-tessellation-art-by-m.-c.-escher.jpg
+
+.. meta::
+	:date: 2019-07-30 16:15
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά, Longreads
+	:tags: featured, επιστήμη, εξωσχολικά
+	:slug: %ce%ba%ce%bb%ce%ac%cf%83%ce%bc%ce%b1%cf%84%ce%b1-%ce%ba%ce%bb%ce%ac%cf%83%ce%bc%ce%b1%cf%84%ce%b1-%cf%80%ce%b1%ce%bd%cf%84%ce%bf%cf%8d
+	:status: published
+	:attachments: wp-content/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png, wp-content/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png, wp-content/uploads/2019/07/ezgif.com-crop3.gif, wp-content/uploads/2019/07/ezgif.com-crop2-1.gif, wp-content/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png, wp-content/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png, wp-content/uploads/2019/07/smaller-1956-tessellation-art-by-m.-c.-escher.jpg
 
 .. figure:: /wp-content/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png, wp-content/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png, wp-content/uploads/2019/07/ezgif.com-crop3.gif, wp-content/uploads/2019/07/ezgif.com-crop2-1.gif, wp-content/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png, wp-content/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png, wp-content/uploads/2019/07/smaller-1956-tessellation-art-by-m.-c.-escher.jpg
 	:alt: Ο πίνακας *(Μικρή) κάλυψη του επιπέδου* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 

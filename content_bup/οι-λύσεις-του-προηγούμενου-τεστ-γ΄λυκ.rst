@@ -1,0 +1,34 @@
+Οι λύσεις του προηγούμενου τεστ (Γ΄Λυκείου)
+###########################################
+:date: 2020-11-02 18:37
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+:tags: πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ασκήσεις, λύσεις
+:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%cf%84%ce%b5%cf%83%cf%84-%ce%b3%ce%84%ce%bb%cf%85%ce%ba
+:status: published
+:attachments: wp-content/uploads/2020/11/1215px-rihard_jakopic_-_soncni_breg.jpg
+
+.. figure:: /wp-content/uploads/2020/11/1215px-rihard_jakopic_-_soncni_breg.jpg
+	:alt: Ο πίνακας *Ηλιόλουστη βουνοπλαγιά* του `Rihard Jakopič <https://en.wikipedia.org/wiki/Rihard_Jakopi%C4%8D>`__. 
+	:align: center
+
+	Ο πίνακας *Ηλιόλουστη βουνοπλαγιά* του `Rihard Jakopič <https://en.wikipedia.org/wiki/Rihard_Jakopi%C4%8D>`__. 
+
+
+Τις λύσεις του `προηγούμενου τεστ <https://aftermathsgr.wordpress.com/2020/10/31/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b9%ce%b9%ce%b9-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%b3/>`__ μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/170VdqqVd5U91ppI8oRXDynQdISxEOZwV/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: uzMSRLXvn1I 
+
+.. raw:: html
+
+   </figure>

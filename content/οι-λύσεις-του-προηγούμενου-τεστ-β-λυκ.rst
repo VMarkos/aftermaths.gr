@@ -1,12 +1,14 @@
 Οι λύσεις του προηγούμενου τεστ (Β' Λυκείου)
 ############################################
-:date: 2020-11-02 07:51
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: συναρτήσεις, τεστ, Β' Λυκείου, ασκήσεις, επανάληψη, λύσεις
-:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%cf%84%ce%b5%cf%83%cf%84-%ce%b2-%ce%bb%cf%85%ce%ba
-:status: published
-:attachments: wp-content/uploads/2020/11/ivan_grohar_-_brna.jpg
+
+.. meta::
+	:date: 2020-11-02 07:51
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: συναρτήσεις, τεστ, Β' Λυκείου, ασκήσεις, επανάληψη, λύσεις
+	:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%cf%84%ce%b5%cf%83%cf%84-%ce%b2-%ce%bb%cf%85%ce%ba
+	:status: published
+	:attachments: wp-content/uploads/2020/11/ivan_grohar_-_brna.jpg
 
 .. figure:: /wp-content/uploads/2020/11/ivan_grohar_-_brna.jpg
 	:alt: Ο πίνακας *Brna* του `Ivan Grohar <https://en.wikipedia.org/wiki/Ivan_Grohar>`__\ *.* 

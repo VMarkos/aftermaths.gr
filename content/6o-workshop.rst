@@ -1,12 +1,14 @@
 6o Workshop
 ###########
-:date: 2019-12-25 12:18
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, Workshop
-:slug: 6o-workshop
-:status: published
-:attachments: wp-content/uploads/2019/12/411px-pablo_picasso_1917-18_portrait_dolga_dans_un_fauteuil_olga_in_an_armchair_oil_on_canvas_130_x_88.8_cm_musc3a9e_picasso_paris_france.jpg
+
+.. meta::
+	:date: 2019-12-25 12:18
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, Workshop
+	:slug: 6o-workshop
+	:status: published
+	:attachments: wp-content/uploads/2019/12/411px-pablo_picasso_1917-18_portrait_dolga_dans_un_fauteuil_olga_in_an_armchair_oil_on_canvas_130_x_88.8_cm_musc3a9e_picasso_paris_france.jpg
 
 .. figure:: /wp-content/uploads/2019/12/411px-pablo_picasso_1917-18_portrait_dolga_dans_un_fauteuil_olga_in_an_armchair_oil_on_canvas_130_x_88.8_cm_musc3a9e_picasso_paris_france.jpg
 	:alt: Ο πίνακας *Πορτραίτο της Όλγας σε μία πολυθρόνα* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 

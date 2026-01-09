@@ -1,12 +1,14 @@
 Ένα καλοκαιρινό φρεσκάρισμα...
 ##############################
-:date: 2021-09-01 10:35
-:author: aftermathsgr
-:category: ΑΕΠΠ, Διδακτικό υλικό
-:tags: προβλήματα, πίνακες, πανελλήνιες, ασκήσεις, δομή επανάληψης, δομή επιλογής, επανάληψη
-:slug: %ce%ad%ce%bd%ce%b1-%ce%ba%ce%b1%ce%bb%ce%bf%ce%ba%ce%b1%ce%b9%cf%81%ce%b9%ce%bd%cf%8c-%cf%86%cf%81%ce%b5%cf%83%ce%ba%ce%ac%cf%81%ce%b9%cf%83%ce%bc%ce%b1
-:status: published
-:attachments: wp-content/uploads/2021/09/camille_pissarro_french_1830-1903_le_grand_noyer_a_lhermitage.jpg
+
+.. meta::
+	:date: 2021-09-01 10:35
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: προβλήματα, πίνακες, πανελλήνιες, ασκήσεις, δομή επανάληψης, δομή επιλογής, επανάληψη
+	:slug: %ce%ad%ce%bd%ce%b1-%ce%ba%ce%b1%ce%bb%ce%bf%ce%ba%ce%b1%ce%b9%cf%81%ce%b9%ce%bd%cf%8c-%cf%86%cf%81%ce%b5%cf%83%ce%ba%ce%ac%cf%81%ce%b9%cf%83%ce%bc%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2021/09/camille_pissarro_french_1830-1903_le_grand_noyer_a_lhermitage.jpg
 
 .. figure:: /wp-content/uploads/2021/09/camille_pissarro_french_1830-1903_le_grand_noyer_a_lhermitage.jpg
 	:alt: Ο πίνακας *Η μεγάλη καρυδιά στο Ερμιτάζ* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 

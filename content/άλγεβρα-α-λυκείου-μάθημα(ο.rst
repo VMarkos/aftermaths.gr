@@ -1,12 +1,14 @@
 Άλγεβρα, Α' Λυκείου - Μάθημα 28ο
 ################################
-:date: 2022-04-04 08:49
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Α' Λυκείου, ΕΠΑΛ, ασκήσεις, διαφάνειες, επανάληψη, θεωρία
-:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-28%ce%bf
-:status: published
-:attachments: wp-content/uploads/2022/04/eugene_delacroix_-_jeune_orpheline_au_cimetiere_vers_1824.jpg
+
+.. meta::
+	:date: 2022-04-04 08:49
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, ΕΠΑΛ, ασκήσεις, διαφάνειες, επανάληψη, θεωρία
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-28%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2022/04/eugene_delacroix_-_jeune_orpheline_au_cimetiere_vers_1824.jpg
 
 .. figure:: /wp-content/uploads/2022/04/eugene_delacroix_-_jeune_orpheline_au_cimetiere_vers_1824.jpg
 	:alt: Ο πίνακας *Ορφανό κορίτσι στο Νεκροταφείο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 

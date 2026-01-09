@@ -1,12 +1,14 @@
 Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)
 ##################################################
-:date: 2021-01-31 10:21
-:author: aftermathsgr
-:category: After-maths, Αξίωμα της πληρότητας, Μαθηματικά
-:tags: featured, μαθηματικά
-:slug: %cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7
-:status: published
-:attachments: wp-content/uploads/2021/01/ivan_el_terrible_y_su_hijo_por_ilia_repin.jpg
+
+.. meta::
+	:date: 2021-01-31 10:21
+	:author: aftermathsgr
+	:category: After-maths, Αξίωμα της πληρότητας, Μαθηματικά
+	:tags: featured, μαθηματικά
+	:slug: %cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7
+	:status: published
+	:attachments: wp-content/uploads/2021/01/ivan_el_terrible_y_su_hijo_por_ilia_repin.jpg
 
 .. figure:: /wp-content/uploads/2021/01/ivan_el_terrible_y_su_hijo_por_ilia_repin.jpg
 	:alt: Ο πίνακας *Ο Ιβάν ο Τρομερός και ο γιός του, Ιβάν* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__. 

@@ -1,12 +1,14 @@
 Επιστροφή στις... ρίζες
 #######################
-:date: 2021-01-25 12:20
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, ρίζες, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
-:slug: %ce%b5%cf%80%ce%b9%cf%83%cf%84%cf%81%ce%bf%cf%86%ce%ae-%cf%83%cf%84%ce%b9%cf%82-%cf%81%ce%af%ce%b6%ce%b5%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/01/759px-iwan_nikolajewitsch_kramskoj_005.jpg
+
+.. meta::
+	:date: 2021-01-25 12:20
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, ρίζες, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
+	:slug: %ce%b5%cf%80%ce%b9%cf%83%cf%84%cf%81%ce%bf%cf%86%ce%ae-%cf%83%cf%84%ce%b9%cf%82-%cf%81%ce%af%ce%b6%ce%b5%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/01/759px-iwan_nikolajewitsch_kramskoj_005.jpg
 
 .. figure:: /wp-content/uploads/2021/01/759px-iwan_nikolajewitsch_kramskoj_005.jpg
 	:alt: Το πορτραίτο του Ivan Shishkin του `Ivan Kramskoi <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__. 

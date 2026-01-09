@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας ΙΙΙ - Κι άλλες εξισώσεις...
 ##############################################
-:date: 2021-11-18 13:04
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, επανάληψη
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b9%ce%b9%ce%b9-%ce%ba%ce%b9-%ce%ac%ce%bb%ce%bb%ce%b5%cf%82-%ce%b5%ce%be%ce%b9%cf%83%cf%8e%cf%83
-:status: published
-:attachments: wp-content/uploads/2021/11/768px-david_-_portrait_of_monsieur_lavoisier_and_his_wife.jpg
+
+.. meta::
+	:date: 2021-11-18 13:04
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, επανάληψη
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b9%ce%b9%ce%b9-%ce%ba%ce%b9-%ce%ac%ce%bb%ce%bb%ce%b5%cf%82-%ce%b5%ce%be%ce%b9%cf%83%cf%8e%cf%83
+	:status: published
+	:attachments: wp-content/uploads/2021/11/768px-david_-_portrait_of_monsieur_lavoisier_and_his_wife.jpg
 
 .. figure:: /wp-content/uploads/2021/11/768px-david_-_portrait_of_monsieur_lavoisier_and_his_wife.jpg
 	:alt: Το πορτραίτο του Antoine-Laurent Lavoisier και της συζύγου του, του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 

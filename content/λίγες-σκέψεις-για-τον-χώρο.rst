@@ -1,12 +1,14 @@
 Λίγες σκέψεις για τον χώρο
 ##########################
-:date: 2018-09-16 17:57
-:author: aftermathsgr
-:category: After-maths, Απόψεις, Μαθηματικά
-:tags: αμπελοφιλοσοφία, επιστήμη
-:slug: %ce%bb%ce%af%ce%b3%ce%b5%cf%82-%cf%83%ce%ba%ce%ad%cf%88%ce%b5%ce%b9%cf%82-%ce%b3%ce%b9%ce%b1-%cf%84%ce%bf%ce%bd-%cf%87%cf%8e%cf%81%ce%bf
-:status: published
-:attachments: wp-content/uploads/2018/09/b88f5-bothcircs.png, wp-content/uploads/2018/09/dd29c-dist.png, wp-content/uploads/2018/09/9899c-cartesianplane.png, wp-content/uploads/2018/09/0e0dd-euccirc.png, wp-content/uploads/2018/09/9fa37-eucplane.png, wp-content/uploads/2018/09/1450892660558.jpg, wp-content/uploads/2018/09/57549-noneucplane.png, wp-content/uploads/2018/09/66bfd-25ce258c25ce25bb25ce25b325ce25b1_2.png, wp-content/uploads/2018/09/22e53-neuccirc.png, wp-content/uploads/2018/09/863a3-dist_1.png, wp-content/uploads/2018/09/eb061-25ce258c25ce25bb25ce25b325ce25b1.png, wp-content/uploads/2018/09/897df-bothplanes.png, wp-content/uploads/2018/09/5c759-triangineq.png, wp-content/uploads/2018/09/d7242-coords.png, wp-content/uploads/2018/09/189b8-dist_2.png
+
+.. meta::
+	:date: 2018-09-16 17:57
+	:author: aftermathsgr
+	:category: After-maths, Απόψεις, Μαθηματικά
+	:tags: αμπελοφιλοσοφία, επιστήμη
+	:slug: %ce%bb%ce%af%ce%b3%ce%b5%cf%82-%cf%83%ce%ba%ce%ad%cf%88%ce%b5%ce%b9%cf%82-%ce%b3%ce%b9%ce%b1-%cf%84%ce%bf%ce%bd-%cf%87%cf%8e%cf%81%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2018/09/b88f5-bothcircs.png, wp-content/uploads/2018/09/dd29c-dist.png, wp-content/uploads/2018/09/9899c-cartesianplane.png, wp-content/uploads/2018/09/0e0dd-euccirc.png, wp-content/uploads/2018/09/9fa37-eucplane.png, wp-content/uploads/2018/09/1450892660558.jpg, wp-content/uploads/2018/09/57549-noneucplane.png, wp-content/uploads/2018/09/66bfd-25ce258c25ce25bb25ce25b325ce25b1_2.png, wp-content/uploads/2018/09/22e53-neuccirc.png, wp-content/uploads/2018/09/863a3-dist_1.png, wp-content/uploads/2018/09/eb061-25ce258c25ce25bb25ce25b325ce25b1.png, wp-content/uploads/2018/09/897df-bothplanes.png, wp-content/uploads/2018/09/5c759-triangineq.png, wp-content/uploads/2018/09/d7242-coords.png, wp-content/uploads/2018/09/189b8-dist_2.png
 
 .. figure:: /wp-content/uploads/2018/09/b88f5-bothcircs.png, wp-content/uploads/2018/09/dd29c-dist.png, wp-content/uploads/2018/09/9899c-cartesianplane.png, wp-content/uploads/2018/09/0e0dd-euccirc.png, wp-content/uploads/2018/09/9fa37-eucplane.png, wp-content/uploads/2018/09/1450892660558.jpg, wp-content/uploads/2018/09/57549-noneucplane.png, wp-content/uploads/2018/09/66bfd-25ce258c25ce25bb25ce25b325ce25b1_2.png, wp-content/uploads/2018/09/22e53-neuccirc.png, wp-content/uploads/2018/09/863a3-dist_1.png, wp-content/uploads/2018/09/eb061-25ce258c25ce25bb25ce25b325ce25b1.png, wp-content/uploads/2018/09/897df-bothplanes.png, wp-content/uploads/2018/09/5c759-triangineq.png, wp-content/uploads/2018/09/d7242-coords.png, wp-content/uploads/2018/09/189b8-dist_2.png
 	:alt: 

@@ -1,12 +1,14 @@
 Γραμμική εξάρτηση μεταβλητών, μέση τιμή, διασπορά και διακύμανση
 ################################################################
-:date: 2019-03-21 21:25
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, γραμμική εξάρτηση, λυμένα παραδείγματα
-:slug: %ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%b9%ce%ba%ce%ae-%ce%b5%ce%be%ce%ac%cf%81%cf%84%ce%b7%cf%83%ce%b7-%ce%bc%ce%b5%cf%84%ce%b1%ce%b2%ce%bb%ce%b7%cf%84%cf%8e%ce%bd-%ce%bc%ce%ad%cf%83%ce%b7-%cf%84%ce%b9
-:status: published
-:attachments: wp-content/uploads/2019/03/churchyard_gate_by_friedrich.jpg
+
+.. meta::
+	:date: 2019-03-21 21:25
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, γραμμική εξάρτηση, λυμένα παραδείγματα
+	:slug: %ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%b9%ce%ba%ce%ae-%ce%b5%ce%be%ce%ac%cf%81%cf%84%ce%b7%cf%83%ce%b7-%ce%bc%ce%b5%cf%84%ce%b1%ce%b2%ce%bb%ce%b7%cf%84%cf%8e%ce%bd-%ce%bc%ce%ad%cf%83%ce%b7-%cf%84%ce%b9
+	:status: published
+	:attachments: wp-content/uploads/2019/03/churchyard_gate_by_friedrich.jpg
 
 .. figure:: /wp-content/uploads/2019/03/churchyard_gate_by_friedrich.jpg
 	:alt: Ο πίνακας *Η πύλη του νεκροταφείου* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 

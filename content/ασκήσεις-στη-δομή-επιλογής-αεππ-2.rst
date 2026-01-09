@@ -1,12 +1,14 @@
 Ασκήσεις στη δομή επιλογής (ΑΕΠΠ)
 #################################
-:date: 2019-06-24 20:20
-:author: aftermathsgr
-:category: ΑΕΠΠ, Διδακτικό υλικό
-:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επιλογής
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b4%ce%bf%ce%bc%ce%ae-%ce%b5%cf%80%ce%b9%ce%bb%ce%bf%ce%b3%ce%ae%cf%82-%ce%b1%ce%b5%cf%80%cf%80-2
-:status: published
-:attachments: wp-content/uploads/2019/06/matisse-open-window.jpg
+
+.. meta::
+	:date: 2019-06-24 20:20
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επιλογής
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b4%ce%bf%ce%bc%ce%ae-%ce%b5%cf%80%ce%b9%ce%bb%ce%bf%ce%b3%ce%ae%cf%82-%ce%b1%ce%b5%cf%80%cf%80-2
+	:status: published
+	:attachments: wp-content/uploads/2019/06/matisse-open-window.jpg
 
 .. figure:: /wp-content/uploads/2019/06/matisse-open-window.jpg
 	:alt: Ο πίνακας *Ανοικτό παράθυρο στην* *Collioure* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 

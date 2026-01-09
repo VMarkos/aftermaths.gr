@@ -1,12 +1,14 @@
 Σχεδιάζοντας Καμπύλες
 #####################
-:date: 2022-11-06 13:00
-:author: aftermathsgr
-:category: After-maths, Διδακτική, Μαθηματικά
-:tags: featured, συναρτήσεις, γραφική παράσταση
-:slug: %cf%83%cf%87%ce%b5%ce%b4%ce%b9%ce%ac%ce%b6%ce%bf%ce%bd%cf%84%ce%b1%cf%82-%ce%ba%ce%b1%ce%bc%cf%80%cf%8d%ce%bb%ce%b5%cf%82
-:status: published
-:attachments: wp-content/uploads/2022/11/polynomial13.png, wp-content/uploads/2022/11/polynomial14.png, wp-content/uploads/2022/11/polynomial02.png, wp-content/uploads/2022/11/polynomial03.png, wp-content/uploads/2022/11/polynomial05-2.png, wp-content/uploads/2022/11/polynomial05.png, wp-content/uploads/2022/11/polynomial05-1.png, wp-content/uploads/2022/11/polynomial01.png, wp-content/uploads/2022/11/polynomial15.png, wp-content/uploads/2022/11/polynomial17.png, wp-content/uploads/2022/11/polynomial07.png, wp-content/uploads/2022/11/polynomial13-1.png, wp-content/uploads/2022/11/polynomial11.png, wp-content/uploads/2022/11/polynomial12.png, wp-content/uploads/2022/11/polynomial16.png, wp-content/uploads/2022/11/polynomial08.png, wp-content/uploads/2022/11/gustave_caillebotte_-_paris_street_rainy_day_-_google_art_project.jpg, wp-content/uploads/2022/11/polynomial05-4.png, wp-content/uploads/2022/11/polynomial06.png, wp-content/uploads/2022/11/polynomial05-3.png, wp-content/uploads/2022/11/polynomial09.png
+
+.. meta::
+	:date: 2022-11-06 13:00
+	:author: aftermathsgr
+	:category: After-maths, Διδακτική, Μαθηματικά
+	:tags: featured, συναρτήσεις, γραφική παράσταση
+	:slug: %cf%83%cf%87%ce%b5%ce%b4%ce%b9%ce%ac%ce%b6%ce%bf%ce%bd%cf%84%ce%b1%cf%82-%ce%ba%ce%b1%ce%bc%cf%80%cf%8d%ce%bb%ce%b5%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2022/11/polynomial13.png, wp-content/uploads/2022/11/polynomial14.png, wp-content/uploads/2022/11/polynomial02.png, wp-content/uploads/2022/11/polynomial03.png, wp-content/uploads/2022/11/polynomial05-2.png, wp-content/uploads/2022/11/polynomial05.png, wp-content/uploads/2022/11/polynomial05-1.png, wp-content/uploads/2022/11/polynomial01.png, wp-content/uploads/2022/11/polynomial15.png, wp-content/uploads/2022/11/polynomial17.png, wp-content/uploads/2022/11/polynomial07.png, wp-content/uploads/2022/11/polynomial13-1.png, wp-content/uploads/2022/11/polynomial11.png, wp-content/uploads/2022/11/polynomial12.png, wp-content/uploads/2022/11/polynomial16.png, wp-content/uploads/2022/11/polynomial08.png, wp-content/uploads/2022/11/gustave_caillebotte_-_paris_street_rainy_day_-_google_art_project.jpg, wp-content/uploads/2022/11/polynomial05-4.png, wp-content/uploads/2022/11/polynomial06.png, wp-content/uploads/2022/11/polynomial05-3.png, wp-content/uploads/2022/11/polynomial09.png
 
 .. figure:: /wp-content/uploads/2022/11/polynomial13.png, wp-content/uploads/2022/11/polynomial14.png, wp-content/uploads/2022/11/polynomial02.png, wp-content/uploads/2022/11/polynomial03.png, wp-content/uploads/2022/11/polynomial05-2.png, wp-content/uploads/2022/11/polynomial05.png, wp-content/uploads/2022/11/polynomial05-1.png, wp-content/uploads/2022/11/polynomial01.png, wp-content/uploads/2022/11/polynomial15.png, wp-content/uploads/2022/11/polynomial17.png, wp-content/uploads/2022/11/polynomial07.png, wp-content/uploads/2022/11/polynomial13-1.png, wp-content/uploads/2022/11/polynomial11.png, wp-content/uploads/2022/11/polynomial12.png, wp-content/uploads/2022/11/polynomial16.png, wp-content/uploads/2022/11/polynomial08.png, wp-content/uploads/2022/11/gustave_caillebotte_-_paris_street_rainy_day_-_google_art_project.jpg, wp-content/uploads/2022/11/polynomial05-4.png, wp-content/uploads/2022/11/polynomial06.png, wp-content/uploads/2022/11/polynomial05-3.png, wp-content/uploads/2022/11/polynomial09.png
 	:alt: Ο επίκαιρος πίνακας *Οι δρόμοι του Παρισιού, μία βροχερή μέρα* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 

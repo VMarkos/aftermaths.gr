@@ -1,0 +1,36 @@
+Ασκήσεις πολλαπλής επιλογής στις συναρτήσεις
+############################################
+:date: 2018-12-10 13:49
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: πανελλήνιες, συναρτήσεις, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη
+:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%80%ce%bf%ce%bb%ce%bb%ce%b1%cf%80%ce%bb%ce%ae%cf%82-%ce%b5%cf%80%ce%b9%ce%bb%ce%bf%ce%b3%ce%ae%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd
+:status: published
+:attachments: wp-content/uploads/2018/12/van-gogh-900x660.jpg
+
+.. figure:: /wp-content/uploads/2018/12/van-gogh-900x660.jpg
+	:alt: Ο πίνακας *Ανθισμένη αμυγδαλιά* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ανθισμένη αμυγδαλιά* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+
+
+Σε αυτό το φυλλάδιο περιέχονται κάποιες ασκήσεις πολλαπλής επιλογής στα πλαίσια της ύλης των Μαθηματικών Γ' Λυκείου των ΕΠΑΛ.
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1eA7rkAgkhHzoS-vJ1AFslR2rItRHmmAl/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλή συνέχεια!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: aC0 -DkvSxyU
+
+.. raw:: html
+
+   </figure>

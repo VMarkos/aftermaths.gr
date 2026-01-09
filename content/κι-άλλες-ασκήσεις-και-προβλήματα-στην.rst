@@ -1,12 +1,14 @@
 Κι άλλες ασκήσεις και προβλήματα στην Τριγωνομετρία
 ###################################################
-:date: 2018-12-12 21:42
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, συναρτήσεις, τριγωνομετρία, Β' Λυκείου, ασκήσεις, επανάληψη
-:slug: %ce%ba%ce%b9-%ce%ac%ce%bb%ce%bb%ce%b5%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%ba%ce%b1%ce%b9-%cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b7%ce%bd
-:status: published
-:attachments: wp-content/uploads/2018/12/2073_0_Kandinsky_Stars_1.jpg
+
+.. meta::
+	:date: 2018-12-12 21:42
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, συναρτήσεις, τριγωνομετρία, Β' Λυκείου, ασκήσεις, επανάληψη
+	:slug: %ce%ba%ce%b9-%ce%ac%ce%bb%ce%bb%ce%b5%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%ba%ce%b1%ce%b9-%cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b7%ce%bd
+	:status: published
+	:attachments: wp-content/uploads/2018/12/2073_0_Kandinsky_Stars_1.jpg
 
 .. figure:: /wp-content/uploads/2018/12/2073_0_Kandinsky_Stars_1.jpg
 	:alt: Η λιθογραφία *Αστέρια* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 

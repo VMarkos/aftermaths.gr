@@ -1,12 +1,14 @@
 Η εικασία Collatz (5)
 #####################
-:date: 2021-09-24 18:12
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: Collatz, featured
-:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-5
-:status: published
-:attachments: wp-content/uploads/2021/09/leonid_pasternak_-_boris_and_alexander.jpg
+
+.. meta::
+	:date: 2021-09-24 18:12
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: Collatz, featured
+	:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-5
+	:status: published
+	:attachments: wp-content/uploads/2021/09/leonid_pasternak_-_boris_and_alexander.jpg
 
 .. figure:: /wp-content/uploads/2021/09/leonid_pasternak_-_boris_and_alexander.jpg
 	:alt: *ο Γιος (Boris)* του `Leonid Pasternak <https://en.wikipedia.org/wiki/Leonid_Pasternak>`__\ *.* 

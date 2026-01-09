@@ -1,12 +1,14 @@
 12 Θέματα από το Βιβλίο
 #######################
-:date: 2021-03-18 11:16
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: featured, προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη, θέματα, μαθηματικά
-:slug: 12-%ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%ce%b1%cf%80%cf%8c-%cf%84%ce%bf-%ce%b2%ce%b9%ce%b2%ce%bb%ce%af%ce%bf
-:status: published
-:attachments: wp-content/uploads/2021/03/pierre-auguste_renoir_-_luncheon_of_the_boating_party_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-03-18 11:16
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη, θέματα, μαθηματικά
+	:slug: 12-%ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%ce%b1%cf%80%cf%8c-%cf%84%ce%bf-%ce%b2%ce%b9%ce%b2%ce%bb%ce%af%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2021/03/pierre-auguste_renoir_-_luncheon_of_the_boating_party_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/03/pierre-auguste_renoir_-_luncheon_of_the_boating_party_-_google_art_project.jpg
 	:alt: Ο πίνακας *Γεύμα σε πάρτυ πάνω σε βάρκα* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

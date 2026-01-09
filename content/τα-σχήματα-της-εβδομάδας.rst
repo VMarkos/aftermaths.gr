@@ -1,11 +1,13 @@
 Τα σχήματα της εβδομάδας (10)
 #############################
-:date: 2021-10-19 11:45
-:author: aftermathsgr
-:tags: featured, Μαθηματικά, Tikz
-:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-10
-:status: published
-:attachments: wp-content/uploads/2021/10/henri_fantin-latour_-_a_studio_at_les_batignolles_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-10-19 11:45
+	:author: aftermathsgr
+	:tags: featured, Μαθηματικά, Tikz
+	:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-10
+	:status: published
+	:attachments: wp-content/uploads/2021/10/henri_fantin-latour_-_a_studio_at_les_batignolles_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/10/henri_fantin-latour_-_a_studio_at_les_batignolles_-_google_art_project.jpg
 	:alt: Ο πίνακας *Στούντιο στις Batignolles* του `Henri Fantin-Latour. <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__ 

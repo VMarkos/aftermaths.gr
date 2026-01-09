@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας XIII - Λύσεις
 ################################
-:date: 2020-11-12 20:06
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: πανελλήνιες, τεστ, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xiii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2020/11/werefkin_selbstbildnis_in_matrosenbluse.jpg
+
+.. meta::
+	:date: 2020-11-12 20:06
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: πανελλήνιες, τεστ, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xiii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2020/11/werefkin_selbstbildnis_in_matrosenbluse.jpg
 
 .. figure:: /wp-content/uploads/2020/11/werefkin_selbstbildnis_in_matrosenbluse.jpg
 	:alt: Ο μία αυτοπροσωπογραφία της `Marianne von Werefkin <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__ με ναυτική μπλούζα. 

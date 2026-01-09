@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας V - ν-οστές ρίζες (ξανά)
 ###########################################
-:date: 2021-12-03 12:40
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: ρίζες, τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-v-%ce%bd-%ce%bf%cf%83%cf%84%ce%ad%cf%82-%cf%81%ce%af%ce%b6%ce%b5%cf%82-%ce%be%ce%b1%ce%bd%ce%ac
-:status: published
-:attachments: wp-content/uploads/2021/12/david_etienne_maurice_gerard.jpg
+
+.. meta::
+	:date: 2021-12-03 12:40
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: ρίζες, τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-v-%ce%bd-%ce%bf%cf%83%cf%84%ce%ad%cf%82-%cf%81%ce%af%ce%b6%ce%b5%cf%82-%ce%be%ce%b1%ce%bd%ce%ac
+	:status: published
+	:attachments: wp-content/uploads/2021/12/david_etienne_maurice_gerard.jpg
 
 .. figure:: /wp-content/uploads/2021/12/david_etienne_maurice_gerard.jpg
 	:alt: Το πορτραίτο του Étienne-Maurice Gérard του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 

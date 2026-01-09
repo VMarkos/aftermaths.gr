@@ -1,12 +1,14 @@
 Αναλόγως...
 ###########
-:date: 2023-10-21 14:57
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: φύλλο εργασίας, Β' Λυκείου, ΕΠΑΛ, αναλογίες, γεωμετρία
-:slug: %ce%b1%ce%bd%ce%b1%ce%bb%cf%8c%ce%b3%cf%89%cf%82
-:status: published
-:attachments: wp-content/uploads/2023/10/gugg_composition_in_gray_rag-time.jpg
+
+.. meta::
+	:date: 2023-10-21 14:57
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: φύλλο εργασίας, Β' Λυκείου, ΕΠΑΛ, αναλογίες, γεωμετρία
+	:slug: %ce%b1%ce%bd%ce%b1%ce%bb%cf%8c%ce%b3%cf%89%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2023/10/gugg_composition_in_gray_rag-time.jpg
 
 .. figure:: /wp-content/uploads/2023/10/gugg_composition_in_gray_rag-time.jpg
 	:alt: Ο πίνακας *Σύνθεση σε γκρι* του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 

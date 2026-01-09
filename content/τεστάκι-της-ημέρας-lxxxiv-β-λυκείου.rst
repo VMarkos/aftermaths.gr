@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXXXIV (Β' Λυκείου)
 ######################################
-:date: 2021-04-12 16:08
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: τεστ, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, εκθετική, εξισώσεις
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxxiv-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2021/04/girl_with_a_hoop.jpg
+
+.. meta::
+	:date: 2021-04-12 16:08
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: τεστ, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, εκθετική, εξισώσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxxiv-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2021/04/girl_with_a_hoop.jpg
 
 .. figure:: /wp-content/uploads/2021/04/girl_with_a_hoop.jpg
 	:alt: Ο πίνακας *Κορίτσι με στεφάνι* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

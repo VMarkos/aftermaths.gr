@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXXVIII - Λύσεις
 ###################################
-:date: 2021-03-30 09:43
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: παράγωγος, πανελλήνιες, στατιστική, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxviii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/03/renoir_-_madame_georges_charpentier_et_ses_enfants.jpg
+
+.. meta::
+	:date: 2021-03-30 09:43
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παράγωγος, πανελλήνιες, στατιστική, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxviii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/03/renoir_-_madame_georges_charpentier_et_ses_enfants.jpg
 
 .. figure:: /wp-content/uploads/2021/03/renoir_-_madame_georges_charpentier_et_ses_enfants.jpg
 	:alt: Ο πίνακας *Η κυρία Charpentier και τα παιδιά της* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

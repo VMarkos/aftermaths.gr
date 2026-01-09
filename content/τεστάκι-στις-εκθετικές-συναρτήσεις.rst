@@ -1,12 +1,14 @@
 Τεστάκι στις εκθετικές συναρτήσεις
 ##################################
-:date: 2019-03-25 11:22
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: συναρτήσεις, τεστ, Β' Λυκείου, επανάληψη, εκθετική
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%83%cf%84%ce%b9%cf%82-%ce%b5%ce%ba%ce%b8%ce%b5%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2019/03/393px-allisvanity.jpg
+
+.. meta::
+	:date: 2019-03-25 11:22
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: συναρτήσεις, τεστ, Β' Λυκείου, επανάληψη, εκθετική
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%83%cf%84%ce%b9%cf%82-%ce%b5%ce%ba%ce%b8%ce%b5%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2019/03/393px-allisvanity.jpg
 
 .. figure:: /wp-content/uploads/2019/03/393px-allisvanity.jpg
 	:alt: Ο πίνακας *Τα πάντα* *ματαιότης* του `Charles Allan Gilbert <https://en.wikipedia.org/wiki/Charles_Allan_Gilbert>`__\ *.* 

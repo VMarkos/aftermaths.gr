@@ -1,12 +1,14 @@
 Εισαγωγή στην παράγωγο
 ######################
-:date: 2019-12-03 12:34
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ασκήσεις, εισαγωγή
-:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%b7%ce%bd-%cf%80%ce%b1%cf%81%ce%ac%ce%b3%cf%89%ce%b3%ce%bf
-:status: published
-:attachments: wp-content/uploads/2019/12/pablo_picasso_1911_the_poet_le_poc3a8te_cc3a9ret_oil_on_linen_131.2_c397_89.5_cm_the_solomon_r._guggenheim_foundation_peggy_guggenheim_collection_venice.jpg
+
+.. meta::
+	:date: 2019-12-03 12:34
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ασκήσεις, εισαγωγή
+	:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%b7%ce%bd-%cf%80%ce%b1%cf%81%ce%ac%ce%b3%cf%89%ce%b3%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2019/12/pablo_picasso_1911_the_poet_le_poc3a8te_cc3a9ret_oil_on_linen_131.2_c397_89.5_cm_the_solomon_r._guggenheim_foundation_peggy_guggenheim_collection_venice.jpg
 
 .. figure:: /wp-content/uploads/2019/12/pablo_picasso_1911_the_poet_le_poc3a8te_cc3a9ret_oil_on_linen_131.2_c397_89.5_cm_the_solomon_r._guggenheim_foundation_peggy_guggenheim_collection_venice.jpg
 	:alt: Ο πίνακας *Ο ποιητής* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 

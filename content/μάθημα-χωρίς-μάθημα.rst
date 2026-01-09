@@ -1,12 +1,14 @@
 Μάθημα Χωρίς... Μάθημα
 ######################
-:date: 2024-07-16 15:58
-:author: aftermathsgr
-:category: After-maths, Διδακτικό υλικό, Διδακτική, Μαθηματικά
-:tags: featured, στατιστική, Γ' λυκείου, ΕΠΑΛ
-:slug: %ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-%cf%87%cf%89%cf%81%ce%af%cf%82-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1
-:status: published
-:attachments: wp-content/uploads/2024/07/karl_wilhelm_diefenbach_sterbender_hirsch.jpg
+
+.. meta::
+	:date: 2024-07-16 15:58
+	:author: aftermathsgr
+	:category: After-maths, Διδακτικό υλικό, Διδακτική, Μαθηματικά
+	:tags: featured, στατιστική, Γ' λυκείου, ΕΠΑΛ
+	:slug: %ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-%cf%87%cf%89%cf%81%ce%af%cf%82-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2024/07/karl_wilhelm_diefenbach_sterbender_hirsch.jpg
 
 .. figure:: /wp-content/uploads/2024/07/karl_wilhelm_diefenbach_sterbender_hirsch.jpg
 	:alt: Ο πίνακας *Ελάφι που πεθαίνει* του `Karl Wilhelm Diefenbach <https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach>`__. 

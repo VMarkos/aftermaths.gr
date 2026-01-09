@@ -1,12 +1,14 @@
 Οι λύσεις του προηγούμενου τεστακίου
 ####################################
-:date: 2019-09-23 12:25
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πανελλήνιες, τεστ, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις
-:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%cf%84%ce%b5%cf%83%cf%84%ce%b1%ce%ba%ce%af%ce%bf%cf%85-8
-:status: published
-:attachments: wp-content/uploads/2019/09/vassily_kandinsky_1923_-_on_white_ii.jpg
+
+.. meta::
+	:date: 2019-09-23 12:25
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, τεστ, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις
+	:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%cf%84%ce%b5%cf%83%cf%84%ce%b1%ce%ba%ce%af%ce%bf%cf%85-8
+	:status: published
+	:attachments: wp-content/uploads/2019/09/vassily_kandinsky_1923_-_on_white_ii.jpg
 
 .. figure:: /wp-content/uploads/2019/09/vassily_kandinsky_1923_-_on_white_ii.jpg
 	:alt: Ο πίνακας *Σε λευκό* *ΙΙ* του `W <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ `assily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 

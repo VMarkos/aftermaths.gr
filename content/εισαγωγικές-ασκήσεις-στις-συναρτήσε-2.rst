@@ -1,12 +1,14 @@
 Εισαγωγικές ασκήσεις στις συναρτήσεις (Γ' Λυκείου)
 ##################################################
-:date: 2019-06-21 15:48
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις
-:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5-2
-:status: published
-:attachments: wp-content/uploads/2019/06/453px-reading_henri_matisse.jpg
+
+.. meta::
+	:date: 2019-06-21 15:48
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις
+	:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5-2
+	:status: published
+	:attachments: wp-content/uploads/2019/06/453px-reading_henri_matisse.jpg
 
 .. figure:: /wp-content/uploads/2019/06/453px-reading_henri_matisse.jpg
 	:alt: Ο πίνακας *Γυναίκα που* *διαβάζει* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 

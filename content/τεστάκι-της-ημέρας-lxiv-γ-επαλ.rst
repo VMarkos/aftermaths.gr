@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXIV (Γ' ΕΠΑΛ)
 #################################
-:date: 2021-03-19 09:24
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: παράγωγος, πανελλήνιες, τεστ, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxiv-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
-:status: published
-:attachments: wp-content/uploads/2021/03/775px-auguste_renoir_-_young_girls_at_the_piano_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-03-19 09:24
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παράγωγος, πανελλήνιες, τεστ, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxiv-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2021/03/775px-auguste_renoir_-_young_girls_at_the_piano_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/03/775px-auguste_renoir_-_young_girls_at_the_piano_-_google_art_project.jpg
 	:alt: Ο πίνακας *Κορίτσια στο πιάνο* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

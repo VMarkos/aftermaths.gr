@@ -1,10 +1,12 @@
 Ένα σχήμα την ημέρα
 ###################
-:date: 2021-08-11 16:42
-:author: aftermathsgr
-:slug: %ce%ad%ce%bd%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1-%cf%84%ce%b7%ce%bd-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1
-:status: published
-:attachments: wp-content/uploads/2021/08/fig_2.png
+
+.. meta::
+	:date: 2021-08-11 16:42
+	:author: aftermathsgr
+	:slug: %ce%ad%ce%bd%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1-%cf%84%ce%b7%ce%bd-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2021/08/fig_2.png
 
 .. figure:: /wp-content/uploads/2021/08/fig_2.png
 	:alt: 

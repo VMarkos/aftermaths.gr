@@ -1,12 +1,14 @@
 Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)
 ##################################################
-:date: 2021-06-21 15:34
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, Αξίωμα της πληρότητας, μαθηματικά
-:slug: %cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7-4
-:status: published
-:attachments: wp-content/uploads/2021/06/2560px-deux_femmes_causant_au_bord_de_la_mer_saint_thomas_camille_pissarro_e28093_nga_1985.64.30.jpg
+
+.. meta::
+	:date: 2021-06-21 15:34
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, Αξίωμα της πληρότητας, μαθηματικά
+	:slug: %cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7-4
+	:status: published
+	:attachments: wp-content/uploads/2021/06/2560px-deux_femmes_causant_au_bord_de_la_mer_saint_thomas_camille_pissarro_e28093_nga_1985.64.30.jpg
 
 .. figure:: /wp-content/uploads/2021/06/2560px-deux_femmes_causant_au_bord_de_la_mer_saint_thomas_camille_pissarro_e28093_nga_1985.64.30.jpg
 	:alt: Ο πίνακας *Δύο γυναίκες συζητούν δίπλα στη θάλασσα* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 

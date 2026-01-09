@@ -1,12 +1,14 @@
 Η υπερβατικότητα του π
 ######################
-:date: 2021-09-19 09:15
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, άλγεβρα
-:slug: %ce%b7-%cf%85%cf%80%ce%b5%cf%81%ce%b2%ce%b1%cf%84%ce%b9%ce%ba%cf%8c%cf%84%ce%b7%cf%84%ce%b1-%cf%84%ce%bf%cf%85-%cf%80
-:status: published
-:attachments: wp-content/uploads/2021/09/d09bd0b5d0bed0bdd0b8d0b4_d09e._d09fd0b0d181d182d0b5d180d0bdd0b0d0ba_-_d090d0bbd0b5d0bad181d0b0d0bdd0b4d180_d09fd183d188d0bad0b8d0bd_d0bdd0b0_d0b1d0b5d180d0b5d0b3d183_d0bcd0bed180d18f_189.jpg
+
+.. meta::
+	:date: 2021-09-19 09:15
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, άλγεβρα
+	:slug: %ce%b7-%cf%85%cf%80%ce%b5%cf%81%ce%b2%ce%b1%cf%84%ce%b9%ce%ba%cf%8c%cf%84%ce%b7%cf%84%ce%b1-%cf%84%ce%bf%cf%85-%cf%80
+	:status: published
+	:attachments: wp-content/uploads/2021/09/d09bd0b5d0bed0bdd0b8d0b4_d09e._d09fd0b0d181d182d0b5d180d0bdd0b0d0ba_-_d090d0bbd0b5d0bad181d0b0d0bdd0b4d180_d09fd183d188d0bad0b8d0bd_d0bdd0b0_d0b1d0b5d180d0b5d0b3d183_d0bcd0bed180d18f_189.jpg
 
 .. figure:: /wp-content/uploads/2021/09/d09bd0b5d0bed0bdd0b8d0b4_d09e._d09fd0b0d181d182d0b5d180d0bdd0b0d0ba_-_d090d0bbd0b5d0bad181d0b0d0bdd0b4d180_d09fd183d188d0bad0b8d0bd_d0bdd0b0_d0b1d0b5d180d0b5d0b3d183_d0bcd0bed180d18f_189.jpg
 	:alt: Ο πίνακας *Ο Αλεξάντερ Πούσκιν στην ακροθαλασσιά* του `Leonid Pasternak <https://en.wikipedia.org/wiki/Leonid_Pasternak>`__\ *.* 

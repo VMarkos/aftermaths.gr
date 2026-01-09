@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας XLVIII - Λύσεις
 ##################################
-:date: 2021-01-16 09:44
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: ρίζες, τεστ, Α' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xlviii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/01/borodin_by_repin.jpg
+
+.. meta::
+	:date: 2021-01-16 09:44
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: ρίζες, τεστ, Α' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xlviii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/01/borodin_by_repin.jpg
 
 .. figure:: /wp-content/uploads/2021/01/borodin_by_repin.jpg
 	:alt: Το πορτραίτο του χημικού και συνθέτη Alexander Borodin του *Ilya Repn* 

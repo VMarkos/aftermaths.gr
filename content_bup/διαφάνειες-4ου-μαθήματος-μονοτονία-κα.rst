@@ -1,0 +1,26 @@
+Διαφάνειες 4ου μαθήματος (μονοτονία και ακρότατα)
+#################################################
+:date: 2019-07-03 01:07
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: πανελλήνιες, συναρτήσεις, σημειώσεις, Γ' λυκείου, ακρότατα, διαφάνειες, θεωρία, μονοτονία
+:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-4%ce%bf%cf%85-%ce%bc%ce%b1%ce%b8%ce%ae%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%ce%bc%ce%bf%ce%bd%ce%bf%cf%84%ce%bf%ce%bd%ce%af%ce%b1-%ce%ba%ce%b1
+:status: published
+:attachments: wp-content/uploads/2019/07/study_of_regular_division_of_the_plane_with_reptiles.jpg
+
+.. figure:: /wp-content/uploads/2019/07/study_of_regular_division_of_the_plane_with_reptiles.jpg
+	:alt: Η *Σπουδή στην κάλυψη του επιπέδου με ερπετά* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	:align: center
+
+	Η *Σπουδή στην κάλυψη του επιπέδου με ερπετά* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+
+
+Οι διαφάνειες του 4ου μαθήματος βρίσκονται `εδώ <https://drive.google.com/file/d/1g-0Q9DaL4TQs2k6IJQ778jchOpZeprAB/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Οι διαφάνειες βρίσκονται και στο `Slideshare <https://www.slideshare.net/ssuserbf550d/4-153219733>`__, πάντα σε χαμηλότερη ανάλυση:
+
+[slideshare id=153219733&doc=lesson4-190702220047]
+
+
+
+.. youtube:: fi12f5j1VA0 

@@ -1,12 +1,14 @@
 Επαναληπτικό διαγώνισμα εφ' όλης της ύλης (Γ' Λυκείου)
 ######################################################
-:date: 2019-03-21 21:14
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, διαγώνισμα, επανάληψη
-:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%8d-2
-:status: published
-:attachments: wp-content/uploads/2019/03/762px-caspar_david_friedrich_-_der_einsame_baum_-_google_art_project.jpg
+
+.. meta::
+	:date: 2019-03-21 21:14
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, διαγώνισμα, επανάληψη
+	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%8d-2
+	:status: published
+	:attachments: wp-content/uploads/2019/03/762px-caspar_david_friedrich_-_der_einsame_baum_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2019/03/762px-caspar_david_friedrich_-_der_einsame_baum_-_google_art_project.jpg
 	:alt: Ο πίνακας *Το μοναχικό δένδρο* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 

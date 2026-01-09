@@ -1,0 +1,38 @@
+Πάνω, Κάτω, Αριστερά και Δεξιά...
+#################################
+:date: 2023-10-28 10:38
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: συναρτήσεις, φύλλο εργασίας, Β' Λυκείου, ΕΠΑΛ, άλγεβρα
+:slug: %cf%80%ce%ac%ce%bd%cf%89-%ce%ba%ce%ac%cf%84%cf%89-%ce%b1%cf%81%ce%b9%cf%83%cf%84%ce%b5%cf%81%ce%ac-%ce%ba%ce%b1%ce%b9-%ce%b4%ce%b5%ce%be%ce%b9%ce%ac
+:status: published
+:attachments: wp-content/uploads/2023/10/theo_van_doesburg_166.jpg
+
+.. figure:: /wp-content/uploads/2023/10/theo_van_doesburg_166.jpg
+	:alt: Ο πίνακας *Σύνθεση* του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 
+	:align: center
+
+	Ο πίνακας *Σύνθεση* του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 
+
+
+Ένα μικρό εισαγωγικό φύλλο εργασίας στις συναρτήσεις που εύκολα σπάει και στα δύο. Στο πρώτο σκέλος προσπαθούμε να ανακαλύψουμε τους αυστηρούς ορισμούς πίσω από τις εκφράσεις «η γραφική παράσταση ανεβαίνει» και «η γραφική παράσταση κατεβαίνει». Με λίγο κόπο ακόμα, ξετρυπώνουμε και αυτόν του ακροτάτου. Στο δεύτερο σκέλος, ανακαλύπτουμε κάποια βασικές συμμετρικές γραφικές παραστάσεις και ορίζουμε τις άρτιες και τις περιττές συναρτήσεις.
+
+Το φύλλο εργασίας μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/11Is_4o8gXlud2RZx9KvdY0hG7ookibdE/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+Ένα εισαγωγικό φύλλο εργασίας για το προηγούμενο κεφάλαιο της άλγεβρας της Β' Λυκείου (Συστήματα) μπορείτε να βρείτε `εδώ <https://aftermaths.gr/2023/09/27/%cf%86%cf%81%ce%bf%cf%8d%cf%84%ce%b1-%cf%84%ce%bf%cf%85-%cf%83%cf%85%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%bf%cf%82/>`__.
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: 11POTypBh2I 
+
+.. raw:: html
+
+   </figure>

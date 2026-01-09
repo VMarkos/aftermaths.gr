@@ -1,12 +1,14 @@
 Λίγος Rolle...
 ##############
-:date: 2022-01-25 19:03
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη, Rolle
-:slug: %ce%bb%ce%af%ce%b3%ce%bf%cf%82-rolle
-:status: published
-:attachments: wp-content/uploads/2022/01/emile_claus_-_summer.jpg
+
+.. meta::
+	:date: 2022-01-25 19:03
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη, Rolle
+	:slug: %ce%bb%ce%af%ce%b3%ce%bf%cf%82-rolle
+	:status: published
+	:attachments: wp-content/uploads/2022/01/emile_claus_-_summer.jpg
 
 .. figure:: /wp-content/uploads/2022/01/emile_claus_-_summer.jpg
 	:alt: Ο πίνακας *Καλοκαίρι* του `Emile Claus <https://en.wikipedia.org/wiki/Emile_Claus>`__. 

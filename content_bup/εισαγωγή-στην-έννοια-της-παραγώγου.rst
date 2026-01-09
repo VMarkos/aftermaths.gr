@@ -1,0 +1,36 @@
+Εισαγωγή στην έννοια της Παραγώγου
+##################################
+:date: 2021-12-10 14:58
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: παράγωγος, πανελλήνιες, Γ' λυκείου, ασκήσεις, εφαπτομένη
+:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%b7%ce%bd-%ce%ad%ce%bd%ce%bd%ce%bf%ce%b9%ce%b1-%cf%84%ce%b7%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%bf%cf%85
+:status: published
+:attachments: wp-content/uploads/2021/12/869px-gavin_hamilton_001.jpg
+
+.. figure:: /wp-content/uploads/2021/12/869px-gavin_hamilton_001.jpg
+	:alt: Ο πίνακας *Η παράδοση της Ελένης στον Πάρη ως σύζυγός του από την Αφροδίτη* του `Gavin Hamilton <https://en.wikipedia.org/wiki/Gavin_Hamilton_(artist)>`__. 
+	:align: center
+
+	Ο πίνακας *Η παράδοση της Ελένης στον Πάρη ως σύζυγός του από την Αφροδίτη* του `Gavin Hamilton <https://en.wikipedia.org/wiki/Gavin_Hamilton_(artist)>`__. 
+
+
+Λίγες ασκήσεις και προβλήματα στην έννοια της παραγώγου και τη συνήθη γεωμετρική της ερμηνεία - Μαθηματικά Προσανατολισμού, Γ' Γενικού Λυκείου.
+
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1Acd-uhuMEVbQUW15upORaT1KEgQQ1a2_/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: zc03Qh -5Qn0
+
+.. raw:: html
+
+   </figure>

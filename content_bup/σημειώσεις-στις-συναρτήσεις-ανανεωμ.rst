@@ -1,0 +1,26 @@
+Σημειώσεις στις συναρτήσεις... ανανεωμένες
+##########################################
+:date: 2019-08-25 18:01
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: 1-1, προβλήματα, πανελλήνιες, συναρτήσεις, σημειώσεις, Γ' λυκείου, ασκήσεις, επανάληψη, θεωρία
+:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%b1%ce%bd%ce%b1%ce%bd%ce%b5%cf%89%ce%bc
+:status: published
+:attachments: wp-content/uploads/2019/08/we_are_making_a_new_world_1918_art._iwm_art_1146.jpg
+
+.. figure:: /wp-content/uploads/2019/08/we_are_making_a_new_world_1918_art._iwm_art_1146.jpg
+	:alt: Ο πίνακας *Φτιάχνουμε έναν νέο κόσμο* του `Paul Nash <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Φτιάχνουμε έναν νέο κόσμο* του `Paul Nash <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+
+
+Οι σημειώσεις στην συναρτήσεις (Γ' Λυκείου, μαθηματικά προσανατολισμού) για το ακαδημαϊκό έτος 2019-2020, όπως βρίσκονται `εδώ <https://aftermathsgr.wordpress.com/2019/06/18/%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-2019-2020/>`__, ανανεώθηκαν, απέκτησαν νέο εξώφυλλο, εμπλουτίστηκαν με περισσότερες ασκήσεις και είναι έτοιμες για... διάβασμα!
+
+Τις σημειώσεις μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1_8v3K_PWLAMHQe3YyKT-vndEMjuZDOi3/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. youtube:: 3fmSe24mED4 

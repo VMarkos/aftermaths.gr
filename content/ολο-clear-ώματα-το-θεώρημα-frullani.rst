@@ -1,12 +1,14 @@
 Ολο-clear-ώματα: Το θεώρημα Frullani
 ####################################
-:date: 2021-02-28 20:27
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά, Ολοκληρώματα
-:tags: featured, Frullani, μαθηματικά, ολοκλήρωμα
-:slug: %ce%bf%ce%bb%ce%bf-clear-%cf%8e%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%bf-%ce%b8%ce%b5%cf%8e%cf%81%ce%b7%ce%bc%ce%b1-frullani
-:status: published
-:attachments: wp-content/uploads/2021/02/1280px-the_beach_at_villerville_eugene_boudin_1864.jpg
+
+.. meta::
+	:date: 2021-02-28 20:27
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά, Ολοκληρώματα
+	:tags: featured, Frullani, μαθηματικά, ολοκλήρωμα
+	:slug: %ce%bf%ce%bb%ce%bf-clear-%cf%8e%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%bf-%ce%b8%ce%b5%cf%8e%cf%81%ce%b7%ce%bc%ce%b1-frullani
+	:status: published
+	:attachments: wp-content/uploads/2021/02/1280px-the_beach_at_villerville_eugene_boudin_1864.jpg
 
 .. figure:: /wp-content/uploads/2021/02/1280px-the_beach_at_villerville_eugene_boudin_1864.jpg
 	:alt: Ο πίνακας *Η παραλία στη Vilerville* του `Eugène Boudin <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin>`__. 

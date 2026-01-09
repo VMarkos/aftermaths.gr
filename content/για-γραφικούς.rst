@@ -1,12 +1,14 @@
 Για... γραφικούς
 ################
-:date: 2021-01-26 12:15
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: παράγωγος, πανελλήνιες, συναρτήσεις, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, γραφική παράσταση, επανάληψη, μαθηματικά
-:slug: %ce%b3%ce%b9%ce%b1-%ce%b3%cf%81%ce%b1%cf%86%ce%b9%ce%ba%ce%bf%cf%8d%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/01/maria_feodorovna_by_kramskoj.jpg
+
+.. meta::
+	:date: 2021-01-26 12:15
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παράγωγος, πανελλήνιες, συναρτήσεις, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, γραφική παράσταση, επανάληψη, μαθηματικά
+	:slug: %ce%b3%ce%b9%ce%b1-%ce%b3%cf%81%ce%b1%cf%86%ce%b9%ce%ba%ce%bf%cf%8d%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/01/maria_feodorovna_by_kramskoj.jpg
 
 .. figure:: /wp-content/uploads/2021/01/maria_feodorovna_by_kramskoj.jpg
 	:alt: Το πορτραίτο της Maria Feodorovna του `Ivan Kramskoi <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__. 

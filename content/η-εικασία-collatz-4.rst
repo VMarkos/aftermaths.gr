@@ -1,12 +1,14 @@
 Η εικασία Collatz (4)
 #####################
-:date: 2021-09-18 01:21
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: Collatz, featured
-:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-4
-:status: published
-:attachments: wp-content/uploads/2021/09/2560px-pissarro_camille_-_boulevard_montmartre_a_paris.jpg
+
+.. meta::
+	:date: 2021-09-18 01:21
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: Collatz, featured
+	:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-4
+	:status: published
+	:attachments: wp-content/uploads/2021/09/2560px-pissarro_camille_-_boulevard_montmartre_a_paris.jpg
 
 .. figure:: /wp-content/uploads/2021/09/2560px-pissarro_camille_-_boulevard_montmartre_a_paris.jpg
 	:alt: Ο πίνακας *Η Λεωφόρος Μονμάρτης στο Παρίσι* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 

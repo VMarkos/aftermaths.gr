@@ -1,12 +1,14 @@
 Άλγεβρα, Α' Λυκείου - Μάθημα 6ο
 ###############################
-:date: 2021-10-18 10:55
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, Α' Λυκείου, άλγεβρα, απόλυτη τιμή, ασκήσεις, διαφάνειες, επανάληψη, θεωρία
-:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-6%ce%bf
-:status: published
-:attachments: wp-content/uploads/2021/10/henri_fantin-latour_-_roses_15615114481.jpg
+
+.. meta::
+	:date: 2021-10-18 10:55
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, Α' Λυκείου, άλγεβρα, απόλυτη τιμή, ασκήσεις, διαφάνειες, επανάληψη, θεωρία
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-6%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2021/10/henri_fantin-latour_-_roses_15615114481.jpg
 
 .. figure:: /wp-content/uploads/2021/10/henri_fantin-latour_-_roses_15615114481.jpg
 	:alt: Ο πίνακας *Λευκά τριαντάφυλλα* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 

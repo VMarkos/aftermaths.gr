@@ -1,12 +1,14 @@
 Ασκήσεις στα διαστήματα
 #######################
-:date: 2018-09-14 22:25
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Α' Λυκείου, ασκήσεις, διαστήματα
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b1-%ce%b4%ce%b9%ce%b1%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1
-:status: published
-:attachments: wp-content/uploads/2018/09/red_deer.jpg
+
+.. meta::
+	:date: 2018-09-14 22:25
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, ασκήσεις, διαστήματα
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b1-%ce%b4%ce%b9%ce%b1%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2018/09/red_deer.jpg
 
 .. figure:: /wp-content/uploads/2018/09/red_deer.jpg
 	:alt: Το *Κόκκινο Ελάφι* του `Franz Marc <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 

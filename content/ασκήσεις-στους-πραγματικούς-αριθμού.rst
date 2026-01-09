@@ -1,12 +1,14 @@
 Ασκήσεις στους πραγματικούς αριθμούς
 ####################################
-:date: 2018-09-13 00:30
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Α' Λυκείου, ασκήσεις
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%bf%cf%85%cf%82-%cf%80%cf%81%ce%b1%ce%b3%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%ce%bf%cf%8d%cf%82-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%cf%8d
-:status: published
-:attachments: wp-content/uploads/2018/09/terrace.jpg
+
+.. meta::
+	:date: 2018-09-13 00:30
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, ασκήσεις
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%bf%cf%85%cf%82-%cf%80%cf%81%ce%b1%ce%b3%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%ce%bf%cf%8d%cf%82-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%cf%8d
+	:status: published
+	:attachments: wp-content/uploads/2018/09/terrace.jpg
 
 .. figure:: /wp-content/uploads/2018/09/terrace.jpg
 	:alt: Ο πίνακας `Καφέ Τεράς την νύχτα <https://en.wikipedia.org/wiki/Caf%C3%A9_Terrace_at_Night>`__ του `Vincent van Gogh. <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__ 

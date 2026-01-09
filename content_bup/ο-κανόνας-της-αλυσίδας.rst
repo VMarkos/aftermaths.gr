@@ -1,0 +1,38 @@
+Ο κανόνας της αλυσίδας
+######################
+:date: 2020-10-15 13:56
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη
+:slug: %ce%bf-%ce%ba%ce%b1%ce%bd%cf%8c%ce%bd%ce%b1%cf%82-%cf%84%ce%b7%cf%82-%ce%b1%ce%bb%cf%85%cf%83%ce%af%ce%b4%ce%b1%cf%82
+:status: published
+:attachments: wp-content/uploads/2020/10/781px-hilma_af_klint_-_1907_-_altarpiece_-_no_1_-_group_x_-_altarpieces.jpg
+
+.. figure:: /wp-content/uploads/2020/10/781px-hilma_af_klint_-_1907_-_altarpiece_-_no_1_-_group_x_-_altarpieces.jpg
+	:alt: Ο πίνακας *Ομάδα Χ, Νο. 1* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__. 
+	:align: center
+
+	Ο πίνακας *Ομάδα Χ, Νο. 1* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__. 
+
+
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1c40LeT1YWywxYtiSic5GV0JQ8Z-lHxMM/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. container:: wp-block-group
+
+   .. container:: wp-block-group__inner-container
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: 5rEeEKYbVX8 
+
+.. raw:: html
+
+   </figure>

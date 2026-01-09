@@ -1,12 +1,14 @@
 Λυμένα παραδείγματα στα Μαθηματικά Προσανατολισμού (Γ' Λυκείου)
 ###############################################################
-:date: 2020-01-14 22:24
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: featured, προβλήματα, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, λυμένα παραδείγματα, ολοκλήρωμα
-:slug: %ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%cf%80%ce%b1%cf%81%ce%b1%ce%b4%ce%b5%ce%af%ce%b3%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b1-%ce%bc%ce%b1%ce%b8%ce%b7%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%ce%ac-%cf%80
-:status: published
-:attachments: wp-content/uploads/2020/01/calvinhobbes.jpg
+
+.. meta::
+	:date: 2020-01-14 22:24
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, προβλήματα, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, λυμένα παραδείγματα, ολοκλήρωμα
+	:slug: %ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%cf%80%ce%b1%cf%81%ce%b1%ce%b4%ce%b5%ce%af%ce%b3%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b1-%ce%bc%ce%b1%ce%b8%ce%b7%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%ce%ac-%cf%80
+	:status: published
+	:attachments: wp-content/uploads/2020/01/calvinhobbes.jpg
 
 .. figure:: /wp-content/uploads/2020/01/calvinhobbes.jpg
 	:alt: Ένα πολύ όμορφο στιγμιότυπο από τη δεκαετή ζωή των Calvin και Hobbes. 

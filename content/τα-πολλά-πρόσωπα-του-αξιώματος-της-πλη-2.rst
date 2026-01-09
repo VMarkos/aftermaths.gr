@@ -1,12 +1,14 @@
 Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)
 ##################################################
-:date: 2021-02-07 10:40
-:author: aftermathsgr
-:category: After-maths, Αξίωμα της πληρότητας, Μαθηματικά
-:tags: featured, μαθηματικά
-:slug: %cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7-2
-:status: published
-:attachments: wp-content/uploads/2021/02/aleksander_ivanov_-_d090d0bfd0bfd0b8d0b5d0b2d0b0_d0b4d0bed180d0bed0b3d0b0_via_appia_d0bfd180d0b8_d0b7d0b0d0bad0b0d182d0b5_d181d0bed0bbd0bdd186d0b0_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-02-07 10:40
+	:author: aftermathsgr
+	:category: After-maths, Αξίωμα της πληρότητας, Μαθηματικά
+	:tags: featured, μαθηματικά
+	:slug: %cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7-2
+	:status: published
+	:attachments: wp-content/uploads/2021/02/aleksander_ivanov_-_d090d0bfd0bfd0b8d0b5d0b2d0b0_d0b4d0bed180d0bed0b3d0b0_via_appia_d0bfd180d0b8_d0b7d0b0d0bad0b0d182d0b5_d181d0bed0bbd0bdd186d0b0_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/02/aleksander_ivanov_-_d090d0bfd0bfd0b8d0b5d0b2d0b0_d0b4d0bed180d0bed0b3d0b0_via_appia_d0bfd180d0b8_d0b7d0b0d0bad0b0d182d0b5_d181d0bed0bbd0bdd186d0b0_-_google_art_project.jpg
 	:alt: Ο πίνακας *Η Απία Οδός στο ηλιοβασίλεμα* του `Alexander Ivanov. <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__ 

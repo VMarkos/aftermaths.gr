@@ -1,12 +1,14 @@
 Συστήματα;
 ##########
-:date: 2022-04-18 09:54
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: συστήματα, σημειώσεις, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, επανάληψη, θεωρία, λυμένα παραδείγματα
-:slug: %cf%83%cf%85%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1
-:status: published
-:attachments: wp-content/uploads/2022/04/1267px-eugene_delacroix_-_fantasia_arabe_-_google_art_project.jpg
+
+.. meta::
+	:date: 2022-04-18 09:54
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: συστήματα, σημειώσεις, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, επανάληψη, θεωρία, λυμένα παραδείγματα
+	:slug: %cf%83%cf%85%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2022/04/1267px-eugene_delacroix_-_fantasia_arabe_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2022/04/1267px-eugene_delacroix_-_fantasia_arabe_-_google_art_project.jpg
 	:alt: Ο πίνακας *Αραβική φαντασία* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 

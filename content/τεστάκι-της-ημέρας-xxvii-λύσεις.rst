@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας XXVII - Λύσεις
 #################################
-:date: 2020-11-26 20:46
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: τεστ, Α' Λυκείου, άλγεβρα, απόλυτη τιμή, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxvii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2020/11/macke_-_landschaft_am_teggernsee_mit_lesendem_mann.jpg
+
+.. meta::
+	:date: 2020-11-26 20:46
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τεστ, Α' Λυκείου, άλγεβρα, απόλυτη τιμή, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxvii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2020/11/macke_-_landschaft_am_teggernsee_mit_lesendem_mann.jpg
 
 .. figure:: /wp-content/uploads/2020/11/macke_-_landschaft_am_teggernsee_mit_lesendem_mann.jpg
 	:alt: Ο πίνακας *Τοπίο στο Tegernsee με άντρα που διαβάζει βιβλίο* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__. 

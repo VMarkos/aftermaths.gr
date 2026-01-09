@@ -1,12 +1,14 @@
 Συνοπτικές σημειώσεις θεωρίας και ασκήσεις για την άλγεβρα Γενικής παιδείας της Β' Λυκείου
 ##########################################################################################
-:date: 2019-08-26 20:52
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πολυώνυμα, συστήματα, συναρτήσεις, σημειώσεις, τριγωνομετρία, Β' Λυκείου, ασκήσεις, επανάληψη, εκθετική, θεωρία, λογαριθμική
-:slug: %cf%83%cf%85%ce%bd%ce%bf%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%b8%ce%b5%cf%89%cf%81%ce%af%ce%b1%cf%82-%ce%ba%ce%b1%ce%b9-%ce%b1%cf%83
-:status: published
-:attachments: wp-content/uploads/2019/08/morning_in_the_riesengebirge.jpg
+
+.. meta::
+	:date: 2019-08-26 20:52
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πολυώνυμα, συστήματα, συναρτήσεις, σημειώσεις, τριγωνομετρία, Β' Λυκείου, ασκήσεις, επανάληψη, εκθετική, θεωρία, λογαριθμική
+	:slug: %cf%83%cf%85%ce%bd%ce%bf%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%b8%ce%b5%cf%89%cf%81%ce%af%ce%b1%cf%82-%ce%ba%ce%b1%ce%b9-%ce%b1%cf%83
+	:status: published
+	:attachments: wp-content/uploads/2019/08/morning_in_the_riesengebirge.jpg
 
 .. figure:: /wp-content/uploads/2019/08/morning_in_the_riesengebirge.jpg
 	:alt: Ο πίνακας *Πρωινό στα Γιγαντιαία Βουνά* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 

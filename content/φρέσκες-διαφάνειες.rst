@@ -1,12 +1,14 @@
 Φρέσκες διαφάνειες
 ##################
-:date: 2020-08-29 15:47
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: 1-1, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ακρότατα, αντίστροφη, διαφάνειες, επανάληψη, θεωρία, μονοτονία
-:slug: %cf%86%cf%81%ce%ad%cf%83%ce%ba%ce%b5%cf%82-%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82
-:status: published
-:attachments: wp-content/uploads/2020/08/skagens_jaegere_p._s._kroyer.jpg
+
+.. meta::
+	:date: 2020-08-29 15:47
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: 1-1, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ακρότατα, αντίστροφη, διαφάνειες, επανάληψη, θεωρία, μονοτονία
+	:slug: %cf%86%cf%81%ce%ad%cf%83%ce%ba%ce%b5%cf%82-%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2020/08/skagens_jaegere_p._s._kroyer.jpg
 
 .. figure:: /wp-content/uploads/2020/08/skagens_jaegere_p._s._kroyer.jpg
 	:alt: Ο πίνακας *Οι κυνηγοί του Skagen* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 

@@ -1,12 +1,14 @@
 Επτά χρόνια γρουσουζιά;
 #######################
-:date: 2018-09-20 21:36
-:author: aftermathsgr
-:category: Απόψεις
-:tags: αμπελοφιλοσοφία
-:slug: %ce%b5%cf%80%cf%84%ce%ac-%cf%87%cf%81%cf%8c%ce%bd%ce%b9%ce%b1-%ce%b3%cf%81%ce%bf%cf%85%cf%83%ce%bf%cf%85%ce%b6%ce%b9%ce%ac
-:status: published
-:attachments: wp-content/uploads/2018/09/picasso-girl-before-mirror-resized-600.png
+
+.. meta::
+	:date: 2018-09-20 21:36
+	:author: aftermathsgr
+	:category: Απόψεις
+	:tags: αμπελοφιλοσοφία
+	:slug: %ce%b5%cf%80%cf%84%ce%ac-%cf%87%cf%81%cf%8c%ce%bd%ce%b9%ce%b1-%ce%b3%cf%81%ce%bf%cf%85%cf%83%ce%bf%cf%85%ce%b6%ce%b9%ce%ac
+	:status: published
+	:attachments: wp-content/uploads/2018/09/picasso-girl-before-mirror-resized-600.png
 
 .. figure:: /wp-content/uploads/2018/09/picasso-girl-before-mirror-resized-600.png
 	:alt: 

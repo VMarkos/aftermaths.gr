@@ -1,0 +1,24 @@
+Τεστάκι στα όρια Ι
+##################
+:date: 2019-09-10 11:45
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: πανελλήνιες, τεστ, όρια, Γ' λυκείου, επανάληψη, εισαγωγή
+:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%83%cf%84%ce%b1-%cf%8c%cf%81%ce%b9%ce%b1-%ce%b9
+:status: published
+:attachments: wp-content/uploads/2019/09/caspar_david_friedrich_-_der_sommer_landschaft_mit_liebespaar.jpg
+
+.. figure:: /wp-content/uploads/2019/09/caspar_david_friedrich_-_der_sommer_landschaft_mit_liebespaar.jpg
+	:alt: Ο πίνακας *Το καλοκαίρι* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Το καλοκαίρι* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+
+
+Το τεστάκι βρίσκεται `εδώ <https://drive.google.com/file/d/1S-hXb3gJ_gzc2O5xk_HYorHZ92ej4N20/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+.. youtube:: PSmXAG2mYY4 

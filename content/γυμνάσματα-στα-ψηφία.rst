@@ -1,12 +1,14 @@
 Γυμνάσματα στα ψηφία
 ####################
-:date: 2019-11-18 13:33
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, πανελλήνιες, ΑΕΠΠ, Γ' λυκείου, ασκήσεις, δομή επανάληψης, δομή επιλογής, επανάληψη
-:slug: %ce%b3%cf%85%ce%bc%ce%bd%ce%ac%cf%83%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b1-%cf%88%ce%b7%cf%86%ce%af%ce%b1
-:status: published
-:attachments: wp-content/uploads/2019/11/737px-canaletto_alnwick.jpg
+
+.. meta::
+	:date: 2019-11-18 13:33
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, ΑΕΠΠ, Γ' λυκείου, ασκήσεις, δομή επανάληψης, δομή επιλογής, επανάληψη
+	:slug: %ce%b3%cf%85%ce%bc%ce%bd%ce%ac%cf%83%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b1-%cf%88%ce%b7%cf%86%ce%af%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2019/11/737px-canaletto_alnwick.jpg
 
 .. figure:: /wp-content/uploads/2019/11/737px-canaletto_alnwick.jpg
 	:alt: Ο πίνακας *Το κάστρο του Alnwick* του `Canaletto <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 

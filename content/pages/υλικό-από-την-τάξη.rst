@@ -1,10 +1,12 @@
 Υλικό από την τάξη
 ##################
-:date: 2019-06-16 22:13
-:author: aftermathsgr
-:slug: %cf%85%ce%bb%ce%b9%ce%ba%cf%8c-%ce%b1%cf%80%cf%8c-%cf%84%ce%b7%ce%bd-%cf%84%ce%ac%ce%be%ce%b7
-:status: published
-:attachments: wp-content/uploads/2018/11/vassily_kandinsky_1908_-_houses_in_munich.jpg
+
+.. meta::
+	:date: 2019-06-16 22:13
+	:author: aftermathsgr
+	:slug: %cf%85%ce%bb%ce%b9%ce%ba%cf%8c-%ce%b1%cf%80%cf%8c-%cf%84%ce%b7%ce%bd-%cf%84%ce%ac%ce%be%ce%b7
+	:status: published
+	:attachments: wp-content/uploads/2018/11/vassily_kandinsky_1908_-_houses_in_munich.jpg
 
 .. figure:: /wp-content/uploads/2018/11/vassily_kandinsky_1908_-_houses_in_munich.jpg
 	:alt: 

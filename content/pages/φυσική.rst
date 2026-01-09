@@ -1,10 +1,12 @@
 Φυσική
 ######
-:date: 2020-11-25 23:06
-:author: aftermathsgr
-:slug: %cf%86%cf%85%cf%83%ce%b9%ce%ba%ce%ae
-:status: published
-:attachments: wp-content/uploads/2018/09/t05010_10.jpg
+
+.. meta::
+	:date: 2020-11-25 23:06
+	:author: aftermathsgr
+	:slug: %cf%86%cf%85%cf%83%ce%b9%ce%ba%ce%ae
+	:status: published
+	:attachments: wp-content/uploads/2018/09/t05010_10.jpg
 
 .. figure:: /wp-content/uploads/2018/09/t05010_10.jpg
 	:alt: 

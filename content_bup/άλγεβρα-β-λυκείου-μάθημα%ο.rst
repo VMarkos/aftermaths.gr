@@ -1,0 +1,38 @@
+Άλγεβρα, Β' Λυκείου - Μάθημα 25ο
+################################
+:date: 2022-03-17 09:35
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: Β' Λυκείου, άλγεβρα, ανισώσεις, διαφάνειες, εκθετική, εξισώσεις, θεωρία
+:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-25%ce%bf
+:status: published
+:attachments: wp-content/uploads/2022/03/the_roses_of_heliogabalus.jpg
+
+.. figure:: /wp-content/uploads/2022/03/the_roses_of_heliogabalus.jpg
+	:alt: Ο πίνακας *Τα τριαντάφυλλα του Ηλιογάβαλου* του `Lawrence Alma-Tadema <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
+	:align: center
+
+	Ο πίνακας *Τα τριαντάφυλλα του Ηλιογάβαλου* του `Lawrence Alma-Tadema <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
+
+
+Αλήθεια, πώς τα πάμε με τις εκθετικές εξισώσεις και ανισώσεις; Αν θέλετε να φρεσκάρετε λίγο τις γνώσεις σας δεν έχετε παρά να δείτε τις παρακάτω διαφάνειες! ;)
+
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1eRbfFlsEX19gNY1_yNVad9v5CU995XfS/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2022/03/11/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-24%ce%bf/>`__\ *ενώ τις αντίστοιχες της Α' Λυκείου*\ `εδώ <https://aftermaths.gr/2022/03/15/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-25%ce%bf/>`__\ *.*
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: 4z21flHf8lc 
+
+.. raw:: html
+
+   </figure>

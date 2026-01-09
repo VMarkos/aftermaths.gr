@@ -1,12 +1,14 @@
 Επαναληπτικό Διαγώνισμα - ΑΕΠΠ
 ##############################
-:date: 2021-05-24 22:59
-:author: aftermathsgr
-:category: ΑΕΠΠ, Διδακτικό υλικό
-:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, διαγώνισμα, δομή επανάληψης, δομή επιλογής, επανάληψη, θεωρία
-:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b1%ce%b5%cf%80%cf%80-2
-:status: published
-:attachments: wp-content/uploads/2021/05/bathing_women_auguste_renoir_-_nationalmuseum_-_19163.tif_.jpg
+
+.. meta::
+	:date: 2021-05-24 22:59
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, διαγώνισμα, δομή επανάληψης, δομή επιλογής, επανάληψη, θεωρία
+	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b1%ce%b5%cf%80%cf%80-2
+	:status: published
+	:attachments: wp-content/uploads/2021/05/bathing_women_auguste_renoir_-_nationalmuseum_-_19163.tif_.jpg
 
 .. figure:: /wp-content/uploads/2021/05/bathing_women_auguste_renoir_-_nationalmuseum_-_19163.tif_.jpg
 	:alt: Ο πίνακας *Λουόμενες* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

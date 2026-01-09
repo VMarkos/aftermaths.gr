@@ -1,12 +1,14 @@
 Ένα πρόβλημα σε κεκλιμένο επίπεδο
 #################################
-:date: 2019-02-10 20:31
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Φυσική
-:tags: προβλήματα, Α' Λυκείου, Δυναμική, ασκήσεις, επανάληψη, κεκλιμένο επίπεδο
-:slug: %ce%ad%ce%bd%ce%b1-%cf%80%cf%81%cf%8c%ce%b2%ce%bb%ce%b7%ce%bc%ce%b1-%cf%83%ce%b5-%ce%ba%ce%b5%ce%ba%ce%bb%ce%b9%ce%bc%ce%ad%ce%bd%ce%bf-%ce%b5%cf%80%ce%af%cf%80%ce%b5%ce%b4%ce%bf
-:status: published
-:attachments: wp-content/uploads/2019/02/giuseppe-arcimboldo-winter.jpg
+
+.. meta::
+	:date: 2019-02-10 20:31
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Φυσική
+	:tags: προβλήματα, Α' Λυκείου, Δυναμική, ασκήσεις, επανάληψη, κεκλιμένο επίπεδο
+	:slug: %ce%ad%ce%bd%ce%b1-%cf%80%cf%81%cf%8c%ce%b2%ce%bb%ce%b7%ce%bc%ce%b1-%cf%83%ce%b5-%ce%ba%ce%b5%ce%ba%ce%bb%ce%b9%ce%bc%ce%ad%ce%bd%ce%bf-%ce%b5%cf%80%ce%af%cf%80%ce%b5%ce%b4%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2019/02/giuseppe-arcimboldo-winter.jpg
 
 .. figure:: /wp-content/uploads/2019/02/giuseppe-arcimboldo-winter.jpg
 	:alt: Ο πίνακας *Ο χειμώνας* του `Giuseppe Arcimboldo <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 

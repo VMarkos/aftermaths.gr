@@ -1,12 +1,14 @@
 Έχει Ολικό Μέγιστο;
 ###################
-:date: 2022-03-18 12:32
-:author: aftermathsgr
-:category: After-maths, Διδακτική, Μαθηματικά
-:tags: featured, πανελλήνιες
-:slug: %ce%ad%cf%87%ce%b5%ce%b9-%ce%bf%ce%bb%ce%b9%ce%ba%cf%8c-%ce%bc%ce%ad%ce%b3%ce%b9%cf%83%cf%84%ce%bf
-:status: published
-:attachments: wp-content/uploads/2022/03/henri_leys005.jpg
+
+.. meta::
+	:date: 2022-03-18 12:32
+	:author: aftermathsgr
+	:category: After-maths, Διδακτική, Μαθηματικά
+	:tags: featured, πανελλήνιες
+	:slug: %ce%ad%cf%87%ce%b5%ce%b9-%ce%bf%ce%bb%ce%b9%ce%ba%cf%8c-%ce%bc%ce%ad%ce%b3%ce%b9%cf%83%cf%84%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2022/03/henri_leys005.jpg
 
 .. figure:: /wp-content/uploads/2022/03/henri_leys005.jpg
 	:alt: *η Λειτουργία σε μνήμη της Brental de Haze* του `Jan August Hendrik Leys <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 

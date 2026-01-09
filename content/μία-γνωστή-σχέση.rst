@@ -1,12 +1,14 @@
 Μία γνωστή σχέση...
 ###################
-:date: 2021-08-10 16:18
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, πανελλήνιες, μαθηματικά
-:slug: %ce%bc%ce%af%ce%b1-%ce%b3%ce%bd%cf%89%cf%83%cf%84%ce%ae-%cf%83%cf%87%ce%ad%cf%83%ce%b7
-:status: published
-:attachments: wp-content/uploads/2021/08/camille_pissarro_jalais_hill_pontoise_the_metropolitan_museum_of_art.jpg
+
+.. meta::
+	:date: 2021-08-10 16:18
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, πανελλήνιες, μαθηματικά
+	:slug: %ce%bc%ce%af%ce%b1-%ce%b3%ce%bd%cf%89%cf%83%cf%84%ce%ae-%cf%83%cf%87%ce%ad%cf%83%ce%b7
+	:status: published
+	:attachments: wp-content/uploads/2021/08/camille_pissarro_jalais_hill_pontoise_the_metropolitan_museum_of_art.jpg
 
 .. figure:: /wp-content/uploads/2021/08/camille_pissarro_jalais_hill_pontoise_the_metropolitan_museum_of_art.jpg
 	:alt: Ο πίνακας *Ο λόφος της Jalais, Pontoise*, του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 

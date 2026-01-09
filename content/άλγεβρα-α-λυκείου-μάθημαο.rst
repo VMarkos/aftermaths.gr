@@ -1,12 +1,14 @@
 Άλγεβρα, Α' Λυκείου - Μάθημα 14ο
 ################################
-:date: 2021-12-13 14:17
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, διαφάνειες, επανάληψη, εξισώσεις, θεωρία
-:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-14%ce%bf
-:status: published
-:attachments: wp-content/uploads/2021/12/david_brutus.jpg
+
+.. meta::
+	:date: 2021-12-13 14:17
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, διαφάνειες, επανάληψη, εξισώσεις, θεωρία
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-14%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2021/12/david_brutus.jpg
 
 .. figure:: /wp-content/uploads/2021/12/david_brutus.jpg
 	:alt: Ο πίνακας *Οι ραβδούχοι μεταφέρουν στον Βρούτο τα πτώματα των παιδιών* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 

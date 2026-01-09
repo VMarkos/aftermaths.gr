@@ -1,12 +1,14 @@
 Ασκήσεις στην τριγωνομετρία (Β')
 ################################
-:date: 2018-12-04 13:55
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, συναρτήσεις, τριγωνομετρία, Β' Λυκείου, ασκήσεις, εξισώσεις
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%cf%84%cf%81%ce%b9%ce%b3%cf%89%ce%bd%ce%bf%ce%bc%ce%b5%cf%84%cf%81%ce%af%ce%b1-%ce%b2
-:status: published
-:attachments: wp-content/uploads/2018/12/h0062-l49607344.jpg
+
+.. meta::
+	:date: 2018-12-04 13:55
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, συναρτήσεις, τριγωνομετρία, Β' Λυκείου, ασκήσεις, εξισώσεις
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%cf%84%cf%81%ce%b9%ce%b3%cf%89%ce%bd%ce%bf%ce%bc%ce%b5%cf%84%cf%81%ce%af%ce%b1-%ce%b2
+	:status: published
+	:attachments: wp-content/uploads/2018/12/h0062-l49607344.jpg
 
 .. figure:: /wp-content/uploads/2018/12/h0062-l49607344.jpg
 	:alt: Ο πίνακας *Νεκρή φύση πάνω σε τραπέζι* του `Antoine Vollon <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 

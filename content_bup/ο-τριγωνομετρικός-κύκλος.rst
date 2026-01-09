@@ -1,0 +1,24 @@
+Ο τριγωνομετρικός κύκλος
+########################
+:date: 2019-12-07 16:42
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, τριγωνομετρία, Β' Λυκείου, ασκήσεις, επανάληψη, κύκλος
+:slug: %ce%bf-%cf%84%cf%81%ce%b9%ce%b3%cf%89%ce%bd%ce%bf%ce%bc%ce%b5%cf%84%cf%81%ce%b9%ce%ba%cf%8c%cf%82-%ce%ba%cf%8d%ce%ba%ce%bb%ce%bf%cf%82
+:status: published
+:attachments: wp-content/uploads/2019/12/pablo_picasso_1913_bouteille_clarinette_violon_journal_verre.jpg
+
+.. figure:: /wp-content/uploads/2019/12/pablo_picasso_1913_bouteille_clarinette_violon_journal_verre.jpg
+	:alt: Ο πίνακας *Μπουκάλι, Κλαρίνο, Βιολί, Εφημερίδα, Γυαλιά* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Μπουκάλι, Κλαρίνο, Βιολί, Εφημερίδα, Γυαλιά* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/129ppI77F9PeFOn0LlQ0tsgUksUFcn6zT/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. youtube:: KEFPtG4dP0k 

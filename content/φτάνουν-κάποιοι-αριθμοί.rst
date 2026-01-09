@@ -1,12 +1,14 @@
 Φτάνουν κάποιοι αριθμοί;
 ########################
-:date: 2018-09-15 20:52
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Α' Λυκείου, ασκήσεις
-:slug: %cf%86%cf%84%ce%ac%ce%bd%ce%bf%cf%85%ce%bd-%ce%ba%ce%ac%cf%80%ce%bf%ce%b9%ce%bf%ce%b9-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%ce%af
-:status: published
-:attachments: wp-content/uploads/2018/09/300px-caravaggio_judith_beheading_holofernes.jpg
+
+.. meta::
+	:date: 2018-09-15 20:52
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, ασκήσεις
+	:slug: %cf%86%cf%84%ce%ac%ce%bd%ce%bf%cf%85%ce%bd-%ce%ba%ce%ac%cf%80%ce%bf%ce%b9%ce%bf%ce%b9-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%ce%af
+	:status: published
+	:attachments: wp-content/uploads/2018/09/300px-caravaggio_judith_beheading_holofernes.jpg
 
 .. figure:: /wp-content/uploads/2018/09/300px-caravaggio_judith_beheading_holofernes.jpg
 	:alt: Ο πίνακας `Η Ιουδίθ αποκεφαλίζει τον Ολοφέρνη <https://en.wikipedia.org/wiki/Judith_Beheading_Holofernes_(Caravaggio)>`__ του `Caravaggio <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 

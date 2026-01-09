@@ -1,12 +1,14 @@
 Εισαγωγή στη Στατιστική - Φύλλο Εργασίας
 ########################################
-:date: 2024-06-26 12:12
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πανελλήνιες, στατιστική, φύλλο εργασίας, Γ' λυκείου, ΕΠΑΛ, μαθηματικά
-:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%b7-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84%ce%b9%ce%ba%ce%ae-%cf%86%cf%8d%ce%bb%ce%bb%ce%bf-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%af
-:status: published
-:attachments: wp-content/uploads/2024/06/the_westwood_children_by_joshua_johnson.jpg
+
+.. meta::
+	:date: 2024-06-26 12:12
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, στατιστική, φύλλο εργασίας, Γ' λυκείου, ΕΠΑΛ, μαθηματικά
+	:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%b7-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84%ce%b9%ce%ba%ce%ae-%cf%86%cf%8d%ce%bb%ce%bb%ce%bf-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%af
+	:status: published
+	:attachments: wp-content/uploads/2024/06/the_westwood_children_by_joshua_johnson.jpg
 
 .. figure:: /wp-content/uploads/2024/06/the_westwood_children_by_joshua_johnson.jpg
 	:alt: Ο πίνακας *Τα παιδιά του Westwood* του `Joshua Johnson <https://en.wikipedia.org/wiki/Joshua_Johnson_(painter)>`__. 

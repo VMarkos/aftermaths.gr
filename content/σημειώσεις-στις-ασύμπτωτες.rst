@@ -1,12 +1,14 @@
 Σημειώσεις στις ασύμπτωτες
 ##########################
-:date: 2018-10-26 00:39
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πανελλήνιες, σημειώσεις, όρια, Γ' λυκείου, ασύμπτωτες, λυμένα παραδείγματα
-:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%cf%83%cf%8d%ce%bc%cf%80%cf%84%cf%89%cf%84%ce%b5%cf%82
-:status: published
-:attachments: wp-content/uploads/2018/10/vassily_kandinsky_1906_-_rotterdam_sun.jpg
+
+.. meta::
+	:date: 2018-10-26 00:39
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, σημειώσεις, όρια, Γ' λυκείου, ασύμπτωτες, λυμένα παραδείγματα
+	:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%cf%83%cf%8d%ce%bc%cf%80%cf%84%cf%89%cf%84%ce%b5%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2018/10/vassily_kandinsky_1906_-_rotterdam_sun.jpg
 
 .. figure:: /wp-content/uploads/2018/10/vassily_kandinsky_1906_-_rotterdam_sun.jpg
 	:alt: Ο πίνακας *Ο ήλιος του Ρόττερνταμ* του `Wassily Kandinsky. <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__ 

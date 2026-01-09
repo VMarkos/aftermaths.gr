@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας XXIV (Β' Λυκείου)
 ####################################
-:date: 2020-11-23 07:45
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: 1-1, συναρτήσεις, τεστ, Β' Λυκείου, ασκήσεις, επανάληψη, μαθηματικά
-:slug: xxiv
-:status: published
-:attachments: wp-content/uploads/2020/11/delaunay_portuguese_woman.jpg
+
+.. meta::
+	:date: 2020-11-23 07:45
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: 1-1, συναρτήσεις, τεστ, Β' Λυκείου, ασκήσεις, επανάληψη, μαθηματικά
+	:slug: xxiv
+	:status: published
+	:attachments: wp-content/uploads/2020/11/delaunay_portuguese_woman.jpg
 
 .. figure:: /wp-content/uploads/2020/11/delaunay_portuguese_woman.jpg
 	:alt: Ο πίνακας *Γυναίκα από την Πορτογαλία* του `Robert Delaunay <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 

@@ -1,0 +1,38 @@
+Ασκήσεις στους Κανόνες Παραγώγισης
+##################################
+:date: 2021-12-17 14:18
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη, εφαπτομένη
+:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%bf%cf%85%cf%82-%ce%ba%ce%b1%ce%bd%cf%8c%ce%bd%ce%b5%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%b9%cf%83%ce%b7%cf%82-2
+:status: published
+:attachments: wp-content/uploads/2021/12/865px-jacques-louis_david_-_mars_desarme_par_venus.jpg
+
+.. figure:: /wp-content/uploads/2021/12/865px-jacques-louis_david_-_mars_desarme_par_venus.jpg
+	:alt: Ο πίνακας *Ο αφοπλισμός του Άρη από την Αφροδίτη και τις τρεις Χάριτες* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+	:align: center
+
+	Ο πίνακας *Ο αφοπλισμός του Άρη από την Αφροδίτη και τις τρεις Χάριτες* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+
+
+Λίγες ασκήσεις στους κανόνες παραγώγισης και όχι μόνο - Μαθηματικά Προσανατολισμού, Γ' Γενικού Λυκείου.
+
+Τις ασκήσεις μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1cakVi8x3_Dex-rFcp7cDhItXIT1fJp3G/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Εισαγωγικές ασκήσεις στην έννοια της παραγώγου μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2021/12/10/%ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%b7%ce%bd-%ce%ad%ce%bd%ce%bd%ce%bf%ce%b9%ce%b1-%cf%84%ce%b7%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%bf%cf%85/>`__\ *.*
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: 4 -nRNyylxkY
+
+.. raw:: html
+
+   </figure>

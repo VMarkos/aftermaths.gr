@@ -1,12 +1,14 @@
 Μια εφαρμογή του de L'Hospital στην παραγωγισιμότητα
 ####################################################
-:date: 2020-01-02 14:34
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, παράγωγος, πανελλήνιες, Γ' λυκείου
-:slug: %ce%bc%ce%b9%ce%b1-%ce%b5%cf%86%ce%b1%cf%81%ce%bc%ce%bf%ce%b3%ce%ae-%cf%84%ce%bf%cf%85-de-lhospital-%cf%83%cf%84%ce%b7%ce%bd-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%89%ce%b3%ce%b9%cf%83%ce%b9%ce%bc
-:status: published
-:attachments: wp-content/uploads/2020/01/picasso_massacre_in_korea.jpg
+
+.. meta::
+	:date: 2020-01-02 14:34
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, παράγωγος, πανελλήνιες, Γ' λυκείου
+	:slug: %ce%bc%ce%b9%ce%b1-%ce%b5%cf%86%ce%b1%cf%81%ce%bc%ce%bf%ce%b3%ce%ae-%cf%84%ce%bf%cf%85-de-lhospital-%cf%83%cf%84%ce%b7%ce%bd-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%89%ce%b3%ce%b9%cf%83%ce%b9%ce%bc
+	:status: published
+	:attachments: wp-content/uploads/2020/01/picasso_massacre_in_korea.jpg
 
 .. figure:: /wp-content/uploads/2020/01/picasso_massacre_in_korea.jpg
 	:alt: Ο πίνακας *Η σφαγή της Κορέας* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 

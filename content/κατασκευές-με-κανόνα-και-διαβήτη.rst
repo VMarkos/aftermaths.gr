@@ -1,12 +1,14 @@
 Κατασκευές με Κανόνα και Διαβήτη #02
 ####################################
-:date: 2022-10-18 14:46
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Α' Λυκείου, ΕΠΑΛ, γεωμετρία, κατασκευές
-:slug: %ce%ba%ce%b1%cf%84%ce%b1%cf%83%ce%ba%ce%b5%cf%85%ce%ad%cf%82-%ce%bc%ce%b5-%ce%ba%ce%b1%ce%bd%cf%8c%ce%bd%ce%b1-%ce%ba%ce%b1%ce%b9-%ce%b4%ce%b9%ce%b1%ce%b2%ce%ae%cf%84%ce%b7-02
-:status: published
-:attachments: wp-content/uploads/2022/10/caillebotte_gustave_femme_nue_etendue_sur_un_divan.jpg
+
+.. meta::
+	:date: 2022-10-18 14:46
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, ΕΠΑΛ, γεωμετρία, κατασκευές
+	:slug: %ce%ba%ce%b1%cf%84%ce%b1%cf%83%ce%ba%ce%b5%cf%85%ce%ad%cf%82-%ce%bc%ce%b5-%ce%ba%ce%b1%ce%bd%cf%8c%ce%bd%ce%b1-%ce%ba%ce%b1%ce%b9-%ce%b4%ce%b9%ce%b1%ce%b2%ce%ae%cf%84%ce%b7-02
+	:status: published
+	:attachments: wp-content/uploads/2022/10/caillebotte_gustave_femme_nue_etendue_sur_un_divan.jpg
 
 .. figure:: /wp-content/uploads/2022/10/caillebotte_gustave_femme_nue_etendue_sur_un_divan.jpg
 	:alt: Ο πίνακας *Γυμνή γυναίκα ξαπλωμένη σε ντιβάνι* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__\ *.* 

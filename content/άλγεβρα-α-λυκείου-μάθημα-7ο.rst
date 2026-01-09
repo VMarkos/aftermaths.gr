@@ -1,12 +1,14 @@
 Άλγεβρα, Α' Λυκείου - Μάθημα 7ο
 ###############################
-:date: 2021-10-25 10:44
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, ασκήσεις, ανισώσεις, διαφάνειες, επανάληψη, θεωρία
-:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-7%ce%bf
-:status: published
-:attachments: wp-content/uploads/2021/10/870px-henri_fantin-latour_-_still_life_with_a_carafe_flowers_and_fruit_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-10-25 10:44
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, ασκήσεις, ανισώσεις, διαφάνειες, επανάληψη, θεωρία
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-7%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2021/10/870px-henri_fantin-latour_-_still_life_with_a_carafe_flowers_and_fruit_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/10/870px-henri_fantin-latour_-_still_life_with_a_carafe_flowers_and_fruit_-_google_art_project.jpg
 	:alt: Ο πίνακας *Νεκρή φύση με καράφα, λουλούδια και φρούτα* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 

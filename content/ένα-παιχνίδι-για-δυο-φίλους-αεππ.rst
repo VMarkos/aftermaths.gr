@@ -1,12 +1,14 @@
 Ένα παιχνίδι για δυο φίλους (ΑΕΠΠ)
 ##################################
-:date: 2018-10-01 10:56
-:author: aftermathsgr
-:category: ΑΕΠΠ, Διδακτικό υλικό
-:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επανάληψης, δομή επιλογής
-:slug: %ce%ad%ce%bd%ce%b1-%cf%80%ce%b1%ce%b9%cf%87%ce%bd%ce%af%ce%b4%ce%b9-%ce%b3%ce%b9%ce%b1-%ce%b4%cf%85%ce%bf-%cf%86%ce%af%ce%bb%ce%bf%cf%85%cf%82-%ce%b1%ce%b5%cf%80%cf%80
-:status: published
-:attachments: wp-content/uploads/2018/10/van-willem-vincent-gogh-die-kartoffelesser-03850.jpg
+
+.. meta::
+	:date: 2018-10-01 10:56
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επανάληψης, δομή επιλογής
+	:slug: %ce%ad%ce%bd%ce%b1-%cf%80%ce%b1%ce%b9%cf%87%ce%bd%ce%af%ce%b4%ce%b9-%ce%b3%ce%b9%ce%b1-%ce%b4%cf%85%ce%bf-%cf%86%ce%af%ce%bb%ce%bf%cf%85%cf%82-%ce%b1%ce%b5%cf%80%cf%80
+	:status: published
+	:attachments: wp-content/uploads/2018/10/van-willem-vincent-gogh-die-kartoffelesser-03850.jpg
 
 .. figure:: /wp-content/uploads/2018/10/van-willem-vincent-gogh-die-kartoffelesser-03850.jpg
 	:alt: Ο πίνακας *Οι πατατοφάγοι* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 

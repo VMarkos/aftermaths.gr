@@ -1,12 +1,14 @@
 Και οι 7 Είναι Υπέροχες!
 ########################
-:date: 2023-10-01 14:41
-:author: aftermathsgr
-:category: After-maths, Διδακτική, Μαθηματικά
-:tags: featured, Α' Λυκείου, άρρητοι, άλγεβρα, αποδείξεις
-:slug: %ce%ba%ce%b1%ce%b9-%ce%bf%ce%b9-7-%ce%b5%ce%af%ce%bd%ce%b1%ce%b9-%cf%85%cf%80%ce%ad%cf%81%ce%bf%cf%87%ce%b5%cf%82
-:status: published
-:attachments: wp-content/uploads/2023/09/pythagoras_03.png, wp-content/uploads/2023/09/pythagoras_02.png, wp-content/uploads/2023/09/tennenbaum_02.png, wp-content/uploads/2023/09/pythagoras_01.png, wp-content/uploads/2023/09/karl_wilhelm_diefenbach_-_toteninsel.jpg, wp-content/uploads/2023/09/tennenbaum_01.png, wp-content/uploads/2023/09/tennenbaum_02-1.png, wp-content/uploads/2023/10/construction_01.png, wp-content/uploads/2023/09/pythagoras_04.png, wp-content/uploads/2023/09/pythagoras_05.png
+
+.. meta::
+	:date: 2023-10-01 14:41
+	:author: aftermathsgr
+	:category: After-maths, Διδακτική, Μαθηματικά
+	:tags: featured, Α' Λυκείου, άρρητοι, άλγεβρα, αποδείξεις
+	:slug: %ce%ba%ce%b1%ce%b9-%ce%bf%ce%b9-7-%ce%b5%ce%af%ce%bd%ce%b1%ce%b9-%cf%85%cf%80%ce%ad%cf%81%ce%bf%cf%87%ce%b5%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2023/09/pythagoras_03.png, wp-content/uploads/2023/09/pythagoras_02.png, wp-content/uploads/2023/09/tennenbaum_02.png, wp-content/uploads/2023/09/pythagoras_01.png, wp-content/uploads/2023/09/karl_wilhelm_diefenbach_-_toteninsel.jpg, wp-content/uploads/2023/09/tennenbaum_01.png, wp-content/uploads/2023/09/tennenbaum_02-1.png, wp-content/uploads/2023/10/construction_01.png, wp-content/uploads/2023/09/pythagoras_04.png, wp-content/uploads/2023/09/pythagoras_05.png
 
 .. figure:: /wp-content/uploads/2023/09/pythagoras_03.png, wp-content/uploads/2023/09/pythagoras_02.png, wp-content/uploads/2023/09/tennenbaum_02.png, wp-content/uploads/2023/09/pythagoras_01.png, wp-content/uploads/2023/09/karl_wilhelm_diefenbach_-_toteninsel.jpg, wp-content/uploads/2023/09/tennenbaum_01.png, wp-content/uploads/2023/09/tennenbaum_02-1.png, wp-content/uploads/2023/10/construction_01.png, wp-content/uploads/2023/09/pythagoras_04.png, wp-content/uploads/2023/09/pythagoras_05.png
 	:alt: *το νησί των νεκρών* του `Karl Wilhelm Diefenbach <https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach>`__. 

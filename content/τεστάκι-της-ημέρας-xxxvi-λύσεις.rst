@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας XXXVI - Λύσεις
 #################################
-:date: 2020-12-05 20:22
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: τριγωνομετρία, τεστ, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxxvi-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2020/12/still_life_patrick_henry_bruce.jpeg
+
+.. meta::
+	:date: 2020-12-05 20:22
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τριγωνομετρία, τεστ, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxxvi-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2020/12/still_life_patrick_henry_bruce.jpeg
 
 .. figure:: /wp-content/uploads/2020/12/still_life_patrick_henry_bruce.jpeg
 	:alt: Ο πίνακας *Νεκρή φύση* του `Patrick Henry Bruce <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 

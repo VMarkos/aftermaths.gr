@@ -1,45 +1,47 @@
 Costas - 2020-08-26 14:22:50
 ############################
-:date: 2020-08-26 14:22
-:slug: 6ee9c2a497b5832ee6b942dd12a8ea52
-:status: published
 
-https://aftermathsgr.wordpress.com/%ce%ba%ce%b1%ce%bb%ce%ad%cf%82-%cf%80%cf%81%ce%ac%ce%be%ce%b5%ce%b9%cf%82/
-
-Η καλή πράξη 9...αλλιώς 9=1+8*1
-
-| 9+8*999=
-| 1+8*1+8*999=
-| 1+8*(1+999)=
-| 1+8*1000=1+8000=8001
-
-| Καλά να είμαστε.
-| Πολύ ωραία θέματα.
-| Ευχαριστώ.
-| 
-| AUTHOR: Costas
-| AUTHOR EMAIL: satellite@sch.gr
-| AUTHOR URL:
-| SUBJECT: [Aftermaths] Επικοινωνία
-| IP: 77.49.121.17
-| Array
-| (
-| [1_Όνομα] => Costas
-| [2_Email] => satellite@sch.gr
-| [3_Σχόλιο] => https://aftermathsgr.wordpress.com/%ce%ba%ce%b1%ce%bb%ce%ad%cf%82-%cf%80%cf%81%ce%ac%ce%be%ce%b5%ce%b9%cf%82/
-
-Η καλή πράξη 9...αλλιώς 9=1+8*1
-
-| 9+8*999=
-| 1+8*1+8*999=
-| 1+8*(1+999)=
-| 1+8*1000=1+8000=8001
-
-| Καλά να είμαστε.
-| Πολύ ωραία θέματα.
-| Ευχαριστώ.
-| [email_marketing_consent] =>
-| [entry_title] => Επικοινωνία
-| [entry_permalink] => https://aftermathsgr.wordpress.com/contact/
-| [feedback_id] => 6ee9c2a497b5832ee6b942dd12a8ea52
-| )
+.. meta::
+	:date: 2020-08-26 14:22
+	:slug: 6ee9c2a497b5832ee6b942dd12a8ea52
+	:status: published
+	
+	https://aftermathsgr.wordpress.com/%ce%ba%ce%b1%ce%bb%ce%ad%cf%82-%cf%80%cf%81%ce%ac%ce%be%ce%b5%ce%b9%cf%82/
+	
+	Η καλή πράξη 9...αλλιώς 9=1+8*1
+	
+	| 9+8*999=
+	| 1+8*1+8*999=
+	| 1+8*(1+999)=
+	| 1+8*1000=1+8000=8001
+	
+	| Καλά να είμαστε.
+	| Πολύ ωραία θέματα.
+	| Ευχαριστώ.
+	| 
+	| AUTHOR: Costas
+	| AUTHOR EMAIL: satellite@sch.gr
+	| AUTHOR URL:
+	| SUBJECT: [Aftermaths] Επικοινωνία
+	| IP: 77.49.121.17
+	| Array
+	| (
+	| [1_Όνομα] => Costas
+	| [2_Email] => satellite@sch.gr
+	| [3_Σχόλιο] => https://aftermathsgr.wordpress.com/%ce%ba%ce%b1%ce%bb%ce%ad%cf%82-%cf%80%cf%81%ce%ac%ce%be%ce%b5%ce%b9%cf%82/
+	
+	Η καλή πράξη 9...αλλιώς 9=1+8*1
+	
+	| 9+8*999=
+	| 1+8*1+8*999=
+	| 1+8*(1+999)=
+	| 1+8*1000=1+8000=8001
+	
+	| Καλά να είμαστε.
+	| Πολύ ωραία θέματα.
+	| Ευχαριστώ.
+	| [email_marketing_consent] =>
+	| [entry_title] => Επικοινωνία
+	| [entry_permalink] => https://aftermathsgr.wordpress.com/contact/
+	| [feedback_id] => 6ee9c2a497b5832ee6b942dd12a8ea52
+	| )

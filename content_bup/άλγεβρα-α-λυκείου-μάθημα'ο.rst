@@ -1,0 +1,52 @@
+Άλγεβρα, Α' Λυκείου - Μάθημα 27ο
+################################
+:date: 2022-03-28 08:51
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: παραμετρικές, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, ανισώσεις, διαφάνειες, επανάληψη, εξισώσεις, λυμένα παραδείγματα
+:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-27%ce%bf
+:status: published
+:attachments: wp-content/uploads/2022/03/1280px-gustaf_wappers_1803-74_-_22souvenir_danvers22_-_rcin_406303_-_royal_collection.jpg
+
+.. figure:: /wp-content/uploads/2022/03/1280px-gustaf_wappers_1803-74_-_22souvenir_danvers22_-_rcin_406303_-_royal_collection.jpg
+	:alt: Ο πίνακας *Σουβενίρ από την Αμβέρσα* του `Gustaaf Wappers <https://en.wikipedia.org/wiki/Gustaaf_Wappers>`__. 
+	:align: center
+
+	Ο πίνακας *Σουβενίρ από την Αμβέρσα* του `Gustaaf Wappers <https://en.wikipedia.org/wiki/Gustaaf_Wappers>`__. 
+
+
+Λίγες ασκησούλες για να φρεσκάρουμε τα όσα έχουμε δει φέτος - Άλγεβρα, Α' Γενικού Λυκείου και ΕΠΑΛ.
+
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1_CwDp8ZeVUtZ_tMrvtBa5vl51umJMszA/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2022/03/21/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-26%ce%bf/>`__\ *, ενώ τις αντίστοιχες της Β' Λυκείου*\ `εδώ <https://aftermaths.gr/2022/03/23/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-26%ce%bf/>`__\ *.*
+
+Επίσης, τις διαφάνειες μπορείτε να τις βρείτε πλέον και στο `slideshare <https://www.slideshare.net/ssuserbf550d>`__:
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-slideshare wp-block-embed-slideshare">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.slideshare.net/ssuserbf550d/27-251446007
+
+.. raw:: html
+
+   </figure>
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: uF2mLuiOZWI =PLVElub974Qw35OQgzSV_mUja2hqwFngeH&index=138
+
+.. raw:: html
+
+   </figure>

@@ -1,12 +1,14 @@
 Το ημίτονο, οι άρρητοι και οι πιο... άρρητοι
 ############################################
-:date: 2021-03-15 01:06
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, άρρητοι, μαθηματικά
-:slug: %cf%84%ce%bf-%ce%b7%ce%bc%ce%af%cf%84%ce%bf%ce%bd%ce%bf-%ce%bf%ce%b9-%ce%ac%cf%81%cf%81%ce%b7%cf%84%ce%bf%ce%b9-%ce%ba%ce%b1%ce%b9-%ce%bf%ce%b9-%cf%80%ce%b9%ce%bf-%ce%ac%cf%81%cf%81%ce%b7%cf%84
-:status: published
-:attachments: wp-content/uploads/2021/03/henri_fantin-latour_-_by_the_table_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-03-15 01:06
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, άρρητοι, μαθηματικά
+	:slug: %cf%84%ce%bf-%ce%b7%ce%bc%ce%af%cf%84%ce%bf%ce%bd%ce%bf-%ce%bf%ce%b9-%ce%ac%cf%81%cf%81%ce%b7%cf%84%ce%bf%ce%b9-%ce%ba%ce%b1%ce%b9-%ce%bf%ce%b9-%cf%80%ce%b9%ce%bf-%ce%ac%cf%81%cf%81%ce%b7%cf%84
+	:status: published
+	:attachments: wp-content/uploads/2021/03/henri_fantin-latour_-_by_the_table_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/03/henri_fantin-latour_-_by_the_table_-_google_art_project.jpg
 	:alt: Ο πίνακας *Στο τραπέζι* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__\ *.* 

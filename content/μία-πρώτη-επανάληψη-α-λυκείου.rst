@@ -1,12 +1,14 @@
 Μία πρώτη επανάληψη (Α' Λυκείου)
 ################################
-:date: 2018-09-15 21:33
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: σημειώσεις, Α' Λυκείου, ασκήσεις, επανάληψη
-:slug: %ce%bc%ce%af%ce%b1-%cf%80%cf%81%cf%8e%cf%84%ce%b7-%ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2018/09/the-bird-wassily-kandinsky.jpg
+
+.. meta::
+	:date: 2018-09-15 21:33
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: σημειώσεις, Α' Λυκείου, ασκήσεις, επανάληψη
+	:slug: %ce%bc%ce%af%ce%b1-%cf%80%cf%81%cf%8e%cf%84%ce%b7-%ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2018/09/the-bird-wassily-kandinsky.jpg
 
 .. figure:: /wp-content/uploads/2018/09/the-bird-wassily-kandinsky.jpg
 	:alt: Ο πίνακας *Το πουλί* του `Wassily Kandinsky. <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__ 

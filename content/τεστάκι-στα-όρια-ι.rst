@@ -1,12 +1,14 @@
 Τεστάκι στα όρια Ι
 ##################
-:date: 2019-09-10 11:45
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πανελλήνιες, τεστ, όρια, Γ' λυκείου, επανάληψη, εισαγωγή
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%83%cf%84%ce%b1-%cf%8c%cf%81%ce%b9%ce%b1-%ce%b9
-:status: published
-:attachments: wp-content/uploads/2019/09/caspar_david_friedrich_-_der_sommer_landschaft_mit_liebespaar.jpg
+
+.. meta::
+	:date: 2019-09-10 11:45
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, τεστ, όρια, Γ' λυκείου, επανάληψη, εισαγωγή
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%83%cf%84%ce%b1-%cf%8c%cf%81%ce%b9%ce%b1-%ce%b9
+	:status: published
+	:attachments: wp-content/uploads/2019/09/caspar_david_friedrich_-_der_sommer_landschaft_mit_liebespaar.jpg
 
 .. figure:: /wp-content/uploads/2019/09/caspar_david_friedrich_-_der_sommer_landschaft_mit_liebespaar.jpg
 	:alt: Ο πίνακας *Το καλοκαίρι* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 

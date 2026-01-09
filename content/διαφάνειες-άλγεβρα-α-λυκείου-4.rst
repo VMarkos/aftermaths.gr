@@ -1,12 +1,14 @@
 Διαφάνειες - Άλγεβρα (Α' Λυκείου)
 #################################
-:date: 2020-12-11 11:21
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: σημειώσεις, Α' Λυκείου, απόλυτη τιμή, ασκήσεις, ανισότητες, διαφάνειες, θεωρία, λυμένα παραδείγματα, μαθηματικά
-:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-4
-:status: published
-:attachments: wp-content/uploads/2020/12/composition_v_by_patrick_henry_bruce_1916.jpeg
+
+.. meta::
+	:date: 2020-12-11 11:21
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: σημειώσεις, Α' Λυκείου, απόλυτη τιμή, ασκήσεις, ανισότητες, διαφάνειες, θεωρία, λυμένα παραδείγματα, μαθηματικά
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-4
+	:status: published
+	:attachments: wp-content/uploads/2020/12/composition_v_by_patrick_henry_bruce_1916.jpeg
 
 .. figure:: /wp-content/uploads/2020/12/composition_v_by_patrick_henry_bruce_1916.jpeg
 	:alt: Ο πίνακας *Σύνθεση V* του `Patrick Henry Bruce <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 

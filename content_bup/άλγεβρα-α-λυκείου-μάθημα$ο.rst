@@ -1,0 +1,38 @@
+Άλγεβρα, Α' Λυκείου - Μάθημα 24ο
+################################
+:date: 2022-03-08 08:33
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: συναρτήσεις, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, διαφάνειες, θεωρία, λυμένα παραδείγματα
+:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-24%ce%bf
+:status: published
+:attachments: wp-content/uploads/2022/03/lowenstam.jpg
+
+.. figure:: /wp-content/uploads/2022/03/lowenstam.jpg
+	:alt: Το πορτραίτο του Léopold Lowenstam του `Lawrence Alma-Tadema <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
+	:align: center
+
+	Το πορτραίτο του Léopold Lowenstam του `Lawrence Alma-Tadema <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
+
+
+Γραφικές παραστάσεις, πεδία τιμών και λίγα ακόμα λόγια για το πόσα πράγματα μπορούμε να προσδιορίσουμε μέσα από τη γραφική παράσταση μίας συνάρτησης.
+
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1S5_ZemhMQxIJW2H6DFIpJ5S-O8Bec6IC/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2022/02/28/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-23%ce%bf/>`__\ *ενώ τις αντίστοιχες της Β' Λυκείου*\ `εδώ <https://aftermaths.gr/2022/03/03/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-23%ce%bf/>`__\ *.*
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: krLYZmPRtnc =FLqDthziIOv4A7UhcGH2ynxw&index=1
+
+.. raw:: html
+
+   </figure>

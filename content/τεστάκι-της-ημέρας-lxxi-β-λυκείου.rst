@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXXI (Β' Λυκείου)
 ####################################
-:date: 2021-03-15 17:15
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: Horner, πολυώνυμα, τεστ, Β' Λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, εξισώσεις, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxi-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2021/03/783px-auguste_renoir_-_the_swing_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-03-15 17:15
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: Horner, πολυώνυμα, τεστ, Β' Λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, εξισώσεις, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxi-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2021/03/783px-auguste_renoir_-_the_swing_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/03/783px-auguste_renoir_-_the_swing_-_google_art_project.jpg
 	:alt: Ο πίνακας *Η κούνια* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

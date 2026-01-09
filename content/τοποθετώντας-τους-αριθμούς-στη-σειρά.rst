@@ -1,12 +1,14 @@
 Τοποθετώντας τους αριθμούς στη σειρά...
 #######################################
-:date: 2019-09-04 15:33
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πράξεις, προβλήματα, Α' Λυκείου, αριθμοί, ασκήσεις, εισαγωγή
-:slug: %cf%84%ce%bf%cf%80%ce%bf%ce%b8%ce%b5%cf%84%cf%8e%ce%bd%cf%84%ce%b1%cf%82-%cf%84%ce%bf%cf%85%cf%82-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%cf%8d%cf%82-%cf%83%cf%84%ce%b7-%cf%83%ce%b5%ce%b9%cf%81%ce%ac
-:status: published
-:attachments: wp-content/uploads/2019/09/746px-get_lautrec_1901_examination_at_faculty_of_medicine.jpg
+
+.. meta::
+	:date: 2019-09-04 15:33
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πράξεις, προβλήματα, Α' Λυκείου, αριθμοί, ασκήσεις, εισαγωγή
+	:slug: %cf%84%ce%bf%cf%80%ce%bf%ce%b8%ce%b5%cf%84%cf%8e%ce%bd%cf%84%ce%b1%cf%82-%cf%84%ce%bf%cf%85%cf%82-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%cf%8d%cf%82-%cf%83%cf%84%ce%b7-%cf%83%ce%b5%ce%b9%cf%81%ce%ac
+	:status: published
+	:attachments: wp-content/uploads/2019/09/746px-get_lautrec_1901_examination_at_faculty_of_medicine.jpg
 
 .. figure:: /wp-content/uploads/2019/09/746px-get_lautrec_1901_examination_at_faculty_of_medicine.jpg
 	:alt: Ο πίνακας *Εξέταση στο τμήμα Ιατρικής* του `Henri de Toulouse-Lautrec <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 

@@ -1,10 +1,12 @@
 Γυμνάσιο
 ########
-:date: 2020-07-05 21:39
-:author: aftermathsgr
-:slug: %ce%b3%cf%85%ce%bc%ce%bd%ce%ac%cf%83%ce%b9%ce%bf
-:status: published
-:attachments: wp-content/uploads/2018/11/william_hogarth_-_absurd_perspectives.png
+
+.. meta::
+	:date: 2020-07-05 21:39
+	:author: aftermathsgr
+	:slug: %ce%b3%cf%85%ce%bc%ce%bd%ce%ac%cf%83%ce%b9%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2018/11/william_hogarth_-_absurd_perspectives.png
 
 .. figure:: /wp-content/uploads/2018/11/william_hogarth_-_absurd_perspectives.png
 	:alt: 

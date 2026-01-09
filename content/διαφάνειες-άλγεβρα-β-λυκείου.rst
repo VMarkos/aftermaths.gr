@@ -1,12 +1,14 @@
 Διαφάνειες - Άλγεβρα (Β' Λυκείου)
 #################################
-:date: 2020-11-29 15:16
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: συστήματα, Β' Λυκείου, άλγεβρα, ασκήσεις, διαφάνειες, θεωρία, λυμένα παραδείγματα, μαθηματικά
-:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2020/11/797px-august_macke_004.jpg
+
+.. meta::
+	:date: 2020-11-29 15:16
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: συστήματα, Β' Λυκείου, άλγεβρα, ασκήσεις, διαφάνειες, θεωρία, λυμένα παραδείγματα, μαθηματικά
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2020/11/797px-august_macke_004.jpg
 
 .. figure:: /wp-content/uploads/2020/11/797px-august_macke_004.jpg
 	:alt: Ο πίνακας *Θέα σε ένα σοκάκι* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 

@@ -1,12 +1,14 @@
 Η Ομορφότερη Παράγωγος;
 #######################
-:date: 2023-04-05 15:33
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά, Ολοκληρώματα
-:tags: featured, ολοκλήρωμα
-:slug: %ce%b7-%ce%bf%ce%bc%ce%bf%cf%81%cf%86%cf%8c%cf%84%ce%b5%cf%81%ce%b7-%cf%80%ce%b1%cf%81%ce%ac%ce%b3%cf%89%ce%b3%ce%bf%cf%82
-:status: published
-:attachments: wp-content/uploads/2023/04/convergence_02.png, wp-content/uploads/2023/04/convergence_03.png, wp-content/uploads/2023/03/cantor_density_proof.png, wp-content/uploads/2023/03/fat_cantor_def_01.png, wp-content/uploads/2023/04/func_derivative_01.png, wp-content/uploads/2023/03/cantor_density_proof_03.png, wp-content/uploads/2023/03/cantor_density_proof_02.png, wp-content/uploads/2023/03/cantor_density_proof_04.png, wp-content/uploads/2023/04/convergence_04.png, wp-content/uploads/2023/04/convergence_05.png, wp-content/uploads/2023/04/convergence_01.png, wp-content/uploads/2023/03/diego_velazquez_-_an_old_woman_cooking_eggs_-_google_art_project.jpg
+
+.. meta::
+	:date: 2023-04-05 15:33
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά, Ολοκληρώματα
+	:tags: featured, ολοκλήρωμα
+	:slug: %ce%b7-%ce%bf%ce%bc%ce%bf%cf%81%cf%86%cf%8c%cf%84%ce%b5%cf%81%ce%b7-%cf%80%ce%b1%cf%81%ce%ac%ce%b3%cf%89%ce%b3%ce%bf%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2023/04/convergence_02.png, wp-content/uploads/2023/04/convergence_03.png, wp-content/uploads/2023/03/cantor_density_proof.png, wp-content/uploads/2023/03/fat_cantor_def_01.png, wp-content/uploads/2023/04/func_derivative_01.png, wp-content/uploads/2023/03/cantor_density_proof_03.png, wp-content/uploads/2023/03/cantor_density_proof_02.png, wp-content/uploads/2023/03/cantor_density_proof_04.png, wp-content/uploads/2023/04/convergence_04.png, wp-content/uploads/2023/04/convergence_05.png, wp-content/uploads/2023/04/convergence_01.png, wp-content/uploads/2023/03/diego_velazquez_-_an_old_woman_cooking_eggs_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2023/04/convergence_02.png, wp-content/uploads/2023/04/convergence_03.png, wp-content/uploads/2023/03/cantor_density_proof.png, wp-content/uploads/2023/03/fat_cantor_def_01.png, wp-content/uploads/2023/04/func_derivative_01.png, wp-content/uploads/2023/03/cantor_density_proof_03.png, wp-content/uploads/2023/03/cantor_density_proof_02.png, wp-content/uploads/2023/03/cantor_density_proof_04.png, wp-content/uploads/2023/04/convergence_04.png, wp-content/uploads/2023/04/convergence_05.png, wp-content/uploads/2023/04/convergence_01.png, wp-content/uploads/2023/03/diego_velazquez_-_an_old_woman_cooking_eggs_-_google_art_project.jpg
 	:alt: Ο πίνακας *Ηλικιωμένη γυναίκα τηγανίζει αυγά* του `Diego Velázquez <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__. 

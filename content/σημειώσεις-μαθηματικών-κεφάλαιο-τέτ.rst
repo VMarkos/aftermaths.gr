@@ -1,12 +1,14 @@
 Σημειώσεις μαθηματικών - Κεφάλαιο Τέταρτο
 #########################################
-:date: 2019-01-09 15:42
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: παράγωγος, πανελλήνιες, συναρτήσεις, σημειώσεις, Γ' λυκείου, επανάληψη
-:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b1%ce%b8%ce%b7%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%cf%8e%ce%bd-%ce%ba%ce%b5%cf%86%ce%ac%ce%bb%ce%b1%ce%b9%ce%bf-%cf%84%ce%ad%cf%84
-:status: published
-:attachments: wp-content/uploads/2019/01/the-times-of-day-the-evening-caspar-david-friedrich.jpg
+
+.. meta::
+	:date: 2019-01-09 15:42
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παράγωγος, πανελλήνιες, συναρτήσεις, σημειώσεις, Γ' λυκείου, επανάληψη
+	:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b1%ce%b8%ce%b7%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%cf%8e%ce%bd-%ce%ba%ce%b5%cf%86%ce%ac%ce%bb%ce%b1%ce%b9%ce%bf-%cf%84%ce%ad%cf%84
+	:status: published
+	:attachments: wp-content/uploads/2019/01/the-times-of-day-the-evening-caspar-david-friedrich.jpg
 
 .. figure:: /wp-content/uploads/2019/01/the-times-of-day-the-evening-caspar-david-friedrich.jpg
 	:alt: Ο πίνακας *Οι ώρες της ημέρας - Ο πίνακας του απογεύματος* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 

@@ -1,12 +1,14 @@
 Τετράγωνα και... Τετραγωνάκια
 #############################
-:date: 2023-10-07 13:10
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: πραγματικοί αριθμοί, φύλλο εργασίας, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
-:slug: %cf%84%ce%b5%cf%84%cf%81%ce%ac%ce%b3%cf%89%ce%bd%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b5%cf%84%cf%81%ce%b1%ce%b3%cf%89%ce%bd%ce%ac%ce%ba%ce%b9%ce%b1
-:status: published
-:attachments: wp-content/uploads/2023/10/woman_in_landscape_by_theo_van_doesburg_ab4045.jpg
+
+.. meta::
+	:date: 2023-10-07 13:10
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πραγματικοί αριθμοί, φύλλο εργασίας, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
+	:slug: %cf%84%ce%b5%cf%84%cf%81%ce%ac%ce%b3%cf%89%ce%bd%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b5%cf%84%cf%81%ce%b1%ce%b3%cf%89%ce%bd%ce%ac%ce%ba%ce%b9%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2023/10/woman_in_landscape_by_theo_van_doesburg_ab4045.jpg
 
 .. figure:: /wp-content/uploads/2023/10/woman_in_landscape_by_theo_van_doesburg_ab4045.jpg
 	:alt: Ο πίνακας *Γυναίκα σε τοπίο* του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 

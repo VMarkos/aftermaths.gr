@@ -1,12 +1,14 @@
 Επαναληπτικές «προπονητικές» σημειώσεις (Γ' λυκείου)
 ####################################################
-:date: 2018-09-19 15:11
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: σημειώσεις, Γ' λυκείου, ασκήσεις, επανάληψη, λυμένα παραδείγματα
-:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%cf%81%ce%bf%cf%80%ce%bf%ce%bd%ce%b7%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e
-:status: published
-:attachments: wp-content/uploads/2018/09/turner_-_rain_steam_and_speed_-_national_gallery_file.jpg
+
+.. meta::
+	:date: 2018-09-19 15:11
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: σημειώσεις, Γ' λυκείου, ασκήσεις, επανάληψη, λυμένα παραδείγματα
+	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%cf%81%ce%bf%cf%80%ce%bf%ce%bd%ce%b7%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e
+	:status: published
+	:attachments: wp-content/uploads/2018/09/turner_-_rain_steam_and_speed_-_national_gallery_file.jpg
 
 .. figure:: /wp-content/uploads/2018/09/turner_-_rain_steam_and_speed_-_national_gallery_file.jpg
 	:alt: Ο πίνακας `Βροχή, Ατμός και Ταχύτητα - Ο Μεγάλος Δυτικός Σιδηρόδρομος <https://en.wikipedia.org/wiki/Rain,_Steam_and_Speed_%E2%80%93_The_Great_Western_Railway>`__ του `Joseph Mallord William Turner <https://en.wikipedia.org/wiki/J._M._W._Turner>`__\ *.* 

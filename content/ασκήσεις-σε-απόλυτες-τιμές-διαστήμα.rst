@@ -1,12 +1,14 @@
 Ασκήσεις σε Απόλυτες Τιμές & Διαστήματα
 #######################################
-:date: 2022-11-23 14:39
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, ασκήσεις, διαστήματα
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82-%ce%b4%ce%b9%ce%b1%cf%83%cf%84%ce%ae%ce%bc%ce%b1
-:status: published
-:attachments: wp-content/uploads/2022/11/g._caillebotte_-_villas_a_trouville.jpg
+
+.. meta::
+	:date: 2022-11-23 14:39
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, ασκήσεις, διαστήματα
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82-%ce%b4%ce%b9%ce%b1%cf%83%cf%84%ce%ae%ce%bc%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2022/11/g._caillebotte_-_villas_a_trouville.jpg
 
 .. figure:: /wp-content/uploads/2022/11/g._caillebotte_-_villas_a_trouville.jpg
 	:alt: Ο πίνακας *Βίλες στην Trouville* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 

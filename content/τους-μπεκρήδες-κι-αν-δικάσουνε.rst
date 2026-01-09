@@ -1,12 +1,14 @@
 Τους μπεκρήδες κι αν δικάσουνε...
 #################################
-:date: 2021-03-30 14:40
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, πιθανότητες, μαθηματικά
-:slug: %cf%84%ce%bf%cf%85%cf%82-%ce%bc%cf%80%ce%b5%ce%ba%cf%81%ce%ae%ce%b4%ce%b5%cf%82-%ce%ba%ce%b9-%ce%b1%ce%bd-%ce%b4%ce%b9%ce%ba%ce%ac%cf%83%ce%bf%cf%85%ce%bd%ce%b5
-:status: published
-:attachments: wp-content/uploads/2021/03/pierre_auguste_renoir_-_the_piazza_san_marco_venice_-_google_art_project.jpg
+
+.. meta::
+	:date: 2021-03-30 14:40
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, πιθανότητες, μαθηματικά
+	:slug: %cf%84%ce%bf%cf%85%cf%82-%ce%bc%cf%80%ce%b5%ce%ba%cf%81%ce%ae%ce%b4%ce%b5%cf%82-%ce%ba%ce%b9-%ce%b1%ce%bd-%ce%b4%ce%b9%ce%ba%ce%ac%cf%83%ce%bf%cf%85%ce%bd%ce%b5
+	:status: published
+	:attachments: wp-content/uploads/2021/03/pierre_auguste_renoir_-_the_piazza_san_marco_venice_-_google_art_project.jpg
 
 .. figure:: /wp-content/uploads/2021/03/pierre_auguste_renoir_-_the_piazza_san_marco_venice_-_google_art_project.jpg
 	:alt: Ο πίνακας *Η πλατεία του Αγίου Μάρκου στη Βενετία* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

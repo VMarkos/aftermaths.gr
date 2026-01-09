@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας XXV (Γ' Λυκείου)
 ###################################
-:date: 2020-11-24 08:06
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: πανελλήνιες, τεστ, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, μαθηματικά
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxv-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
-:status: published
-:attachments: wp-content/uploads/2020/11/wla_brooklynmuseum_view_of_brooklyn_bridge.jpg
+
+.. meta::
+	:date: 2020-11-24 08:06
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: πανελλήνιες, τεστ, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, μαθηματικά
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxv-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2020/11/wla_brooklynmuseum_view_of_brooklyn_bridge.jpg
 
 .. figure:: /wp-content/uploads/2020/11/wla_brooklynmuseum_view_of_brooklyn_bridge.jpg
 	:alt: Ο πίνακας *Μια άποψη της γέφυρας του Μπρούκλιν* του `Samuel Halpert <https://en.wikipedia.org/wiki/Samuel_Halpert>`__\ *.* 

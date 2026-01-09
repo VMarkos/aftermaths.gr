@@ -1,12 +1,14 @@
 Διαφάνειες - Άλγεβρα (Γ' ΕΠΑΛ)
 ##############################
-:date: 2020-12-12 12:05
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: παράγωγος, πανελλήνιες, σημειώσεις, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διαφάνειες, επανάληψη, λυμένα παραδείγματα, μαθηματικά
-:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
-:status: published
-:attachments: wp-content/uploads/2020/12/1278px-patrick_henry_bruce_-_peinture.jpg
+
+.. meta::
+	:date: 2020-12-12 12:05
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παράγωγος, πανελλήνιες, σημειώσεις, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διαφάνειες, επανάληψη, λυμένα παραδείγματα, μαθηματικά
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2020/12/1278px-patrick_henry_bruce_-_peinture.jpg
 
 .. figure:: /wp-content/uploads/2020/12/1278px-patrick_henry_bruce_-_peinture.jpg
 	:alt: Ο πίνακας *Ζωγραφιά* του `Patrick Henry Bruce <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 

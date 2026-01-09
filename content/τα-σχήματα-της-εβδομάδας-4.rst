@@ -1,11 +1,13 @@
 Τα σχήματα της εβδομάδας (4)
 ############################
-:date: 2021-09-07 22:31
-:author: aftermathsgr
-:tags: featured, μαθηματικά, Tikz
-:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-4
-:status: published
-:attachments: wp-content/uploads/2021/09/1251px-camille_pissarro_le_verger_the_orchard_1872.jpg
+
+.. meta::
+	:date: 2021-09-07 22:31
+	:author: aftermathsgr
+	:tags: featured, μαθηματικά, Tikz
+	:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-4
+	:status: published
+	:attachments: wp-content/uploads/2021/09/1251px-camille_pissarro_le_verger_the_orchard_1872.jpg
 
 .. figure:: /wp-content/uploads/2021/09/1251px-camille_pissarro_le_verger_the_orchard_1872.jpg
 	:alt: Ο πίνακας *Ανθισμένος Μπαξές στη Louveciennes* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 

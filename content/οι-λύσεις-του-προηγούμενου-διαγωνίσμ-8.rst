@@ -1,12 +1,14 @@
 Οι λύσεις του προηγούμενου διαγωνίσματος (Γ' ΕΠΑΛ)
 ##################################################
-:date: 2021-04-14 12:14
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, παράγωγος, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διαγώνισμα, επανάληψη, λύσεις, μαθηματικά
-:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%ce%b4%ce%b9%ce%b1%ce%b3%cf%89%ce%bd%ce%af%cf%83%ce%bc-8
-:status: published
-:attachments: wp-content/uploads/2021/04/pierre-auguste_renoir_-_suzanne_valadon_-_la_natte_-_girl_braiding_her_hair.jpg
+
+.. meta::
+	:date: 2021-04-14 12:14
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διαγώνισμα, επανάληψη, λύσεις, μαθηματικά
+	:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%ce%b4%ce%b9%ce%b1%ce%b3%cf%89%ce%bd%ce%af%cf%83%ce%bc-8
+	:status: published
+	:attachments: wp-content/uploads/2021/04/pierre-auguste_renoir_-_suzanne_valadon_-_la_natte_-_girl_braiding_her_hair.jpg
 
 .. figure:: /wp-content/uploads/2021/04/pierre-auguste_renoir_-_suzanne_valadon_-_la_natte_-_girl_braiding_her_hair.jpg
 	:alt: Ο πίνακας *Κοπέλα που πλέκει τα μαλλιά της* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 

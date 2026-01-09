@@ -1,12 +1,14 @@
 Τεστάκι της ημέρας LXI - Λύσεις
 ###############################
-:date: 2021-02-16 09:00
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: πολυώνυμα, τεστ, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, λύσεις
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxi-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2021/02/1280px-christoph_ludwig_agricola_zugeschr._-_eine_flusslandschaft_mit_anglern.jpg
+
+.. meta::
+	:date: 2021-02-16 09:00
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: πολυώνυμα, τεστ, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, λύσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxi-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2021/02/1280px-christoph_ludwig_agricola_zugeschr._-_eine_flusslandschaft_mit_anglern.jpg
 
 .. figure:: /wp-content/uploads/2021/02/1280px-christoph_ludwig_agricola_zugeschr._-_eine_flusslandschaft_mit_anglern.jpg
 	:alt: Ο πίνακας *Τοπίο με ποτάμι* του `Christoph Ludwig Agricola <https://en.wikipedia.org/wiki/Christoph_Ludwig_Agricola>`__\ *.* 

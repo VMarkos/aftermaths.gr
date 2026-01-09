@@ -1,12 +1,14 @@
 Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)
 #################################################
-:date: 2020-10-28 21:24
-:author: aftermathsgr
-:category: After-maths
-:tags: featured, πραγματικοί αριθμοί, Αξίωμα της πληρότητας, Μαθηματικά, κλάσματα
-:slug: %cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80
-:status: published
-:attachments: wp-content/uploads/2020/10/hilma_af_klint_-_group_ix_suw_the_swan_no._1_13947.jpg
+
+.. meta::
+	:date: 2020-10-28 21:24
+	:author: aftermathsgr
+	:category: After-maths
+	:tags: featured, πραγματικοί αριθμοί, Αξίωμα της πληρότητας, Μαθηματικά, κλάσματα
+	:slug: %cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80
+	:status: published
+	:attachments: wp-content/uploads/2020/10/hilma_af_klint_-_group_ix_suw_the_swan_no._1_13947.jpg
 
 .. figure:: /wp-content/uploads/2020/10/hilma_af_klint_-_group_ix_suw_the_swan_no._1_13947.jpg
 	:alt: Ο πίνακας *Ο κύκνος Αρ. 1, Group IX/SUW* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__. 

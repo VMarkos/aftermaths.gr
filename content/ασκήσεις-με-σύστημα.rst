@@ -1,12 +1,14 @@
 Ασκήσεις με... σύστημα
 ######################
-:date: 2018-10-02 15:23
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: προβλήματα, συστήματα, Β' Λυκείου, άλγεβρα, ασκήσεις
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b5-%cf%83%cf%8d%cf%83%cf%84%ce%b7%ce%bc%ce%b1
-:status: published
-:attachments: wp-content/uploads/2018/10/800px-claude_monet-madame_monet_en_costume_japonais.jpg
+
+.. meta::
+	:date: 2018-10-02 15:23
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, συστήματα, Β' Λυκείου, άλγεβρα, ασκήσεις
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b5-%cf%83%cf%8d%cf%83%cf%84%ce%b7%ce%bc%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2018/10/800px-claude_monet-madame_monet_en_costume_japonais.jpg
 
 .. figure:: /wp-content/uploads/2018/10/800px-claude_monet-madame_monet_en_costume_japonais.jpg
 	:alt: Ο πίνακας *Η κυρία Μονέ σε ένα γιαπωνέζικο κιμονό* του `Claude Monet <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.* 

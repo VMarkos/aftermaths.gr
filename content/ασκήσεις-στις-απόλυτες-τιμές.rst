@@ -1,12 +1,14 @@
 Ασκήσεις στις απόλυτες τιμές
 ############################
-:date: 2018-09-13 11:10
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά
-:tags: Α' Λυκείου, απόλυτη τιμή, ασκήσεις
-:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82
-:status: published
-:attachments: wp-content/uploads/2018/09/soleil_levant.jpeg
+
+.. meta::
+	:date: 2018-09-13 11:10
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, απόλυτη τιμή, ασκήσεις
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2018/09/soleil_levant.jpeg
 
 .. figure:: /wp-content/uploads/2018/09/soleil_levant.jpeg
 	:alt: Ο πίνακας `Impression, soleil levant <https://en.wikipedia.org/wiki/Impression,_Sunrise>`__ του `Claude Monet <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *. 

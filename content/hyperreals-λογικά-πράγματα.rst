@@ -1,12 +1,14 @@
 Hyperreals: Λογικά πράγματα...
 ##############################
-:date: 2021-02-14 10:39
-:author: aftermathsgr
-:category: After-maths, Μαθηματικά
-:tags: featured, hyperreals, μαθηματικά
-:slug: hyperreals-%ce%bb%ce%bf%ce%b3%ce%b9%ce%ba%ce%ac-%cf%80%cf%81%ce%ac%ce%b3%ce%bc%ce%b1%cf%84%ce%b1
-:status: published
-:attachments: wp-content/uploads/2021/02/le_havre_the_port_eugene_louis_boudin_1884.jpg
+
+.. meta::
+	:date: 2021-02-14 10:39
+	:author: aftermathsgr
+	:category: After-maths, Μαθηματικά
+	:tags: featured, hyperreals, μαθηματικά
+	:slug: hyperreals-%ce%bb%ce%bf%ce%b3%ce%b9%ce%ba%ce%ac-%cf%80%cf%81%ce%ac%ce%b3%ce%bc%ce%b1%cf%84%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2021/02/le_havre_the_port_eugene_louis_boudin_1884.jpg
 
 .. figure:: /wp-content/uploads/2021/02/le_havre_the_port_eugene_louis_boudin_1884.jpg
 	:alt: Ο πίνακας *Η Χάβρη, το λιμάνι* του `Eugène Boudin <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin>`__. 

@@ -1,10 +1,12 @@
 Καλές πράξεις
 #############
-:date: 2020-03-05 18:53
-:author: aftermathsgr
-:slug: %ce%ba%ce%b1%ce%bb%ce%ad%cf%82-%cf%80%cf%81%ce%ac%ce%be%ce%b5%ce%b9%cf%82
-:status: published
-:attachments: wp-content/uploads/2020/03/gd3_b.png, wp-content/uploads/2020/03/gd6w.png, wp-content/uploads/2020/03/gd6_b.png, wp-content/uploads/2020/03/good_deed_2_b.png, wp-content/uploads/2020/04/gd9_b.png, wp-content/uploads/2020/03/gd7_b.png, wp-content/uploads/2020/04/gd9_w.png, wp-content/uploads/2020/08/gd10_w-2.png, wp-content/uploads/2020/09/gdw_13.png, wp-content/uploads/2020/04/gd8_b.png, wp-content/uploads/2020/03/good_deed_2_w.png, wp-content/uploads/2020/03/gd5_b.png, wp-content/uploads/2020/08/gd10_b-3.png, wp-content/uploads/2020/09/gdb_13.png, wp-content/uploads/2020/03/gd4_w.png, wp-content/uploads/2020/04/gd8_w.png, wp-content/uploads/2020/03/gd4_b.png, wp-content/uploads/2020/03/gd3_w.png, wp-content/uploads/2020/03/gd7_white.png, wp-content/uploads/2020/03/gd5_w.png, wp-content/uploads/2020/03/the_good_samaritan_after_delacroix.jpg
+
+.. meta::
+	:date: 2020-03-05 18:53
+	:author: aftermathsgr
+	:slug: %ce%ba%ce%b1%ce%bb%ce%ad%cf%82-%cf%80%cf%81%ce%ac%ce%be%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2020/03/gd3_b.png, wp-content/uploads/2020/03/gd6w.png, wp-content/uploads/2020/03/gd6_b.png, wp-content/uploads/2020/03/good_deed_2_b.png, wp-content/uploads/2020/04/gd9_b.png, wp-content/uploads/2020/03/gd7_b.png, wp-content/uploads/2020/04/gd9_w.png, wp-content/uploads/2020/08/gd10_w-2.png, wp-content/uploads/2020/09/gdw_13.png, wp-content/uploads/2020/04/gd8_b.png, wp-content/uploads/2020/03/good_deed_2_w.png, wp-content/uploads/2020/03/gd5_b.png, wp-content/uploads/2020/08/gd10_b-3.png, wp-content/uploads/2020/09/gdb_13.png, wp-content/uploads/2020/03/gd4_w.png, wp-content/uploads/2020/04/gd8_w.png, wp-content/uploads/2020/03/gd4_b.png, wp-content/uploads/2020/03/gd3_w.png, wp-content/uploads/2020/03/gd7_white.png, wp-content/uploads/2020/03/gd5_w.png, wp-content/uploads/2020/03/the_good_samaritan_after_delacroix.jpg
 
 .. figure:: /wp-content/uploads/2020/03/gd3_b.png, wp-content/uploads/2020/03/gd6w.png, wp-content/uploads/2020/03/gd6_b.png, wp-content/uploads/2020/03/good_deed_2_b.png, wp-content/uploads/2020/04/gd9_b.png, wp-content/uploads/2020/03/gd7_b.png, wp-content/uploads/2020/04/gd9_w.png, wp-content/uploads/2020/08/gd10_w-2.png, wp-content/uploads/2020/09/gdw_13.png, wp-content/uploads/2020/04/gd8_b.png, wp-content/uploads/2020/03/good_deed_2_w.png, wp-content/uploads/2020/03/gd5_b.png, wp-content/uploads/2020/08/gd10_b-3.png, wp-content/uploads/2020/09/gdb_13.png, wp-content/uploads/2020/03/gd4_w.png, wp-content/uploads/2020/04/gd8_w.png, wp-content/uploads/2020/03/gd4_b.png, wp-content/uploads/2020/03/gd3_w.png, wp-content/uploads/2020/03/gd7_white.png, wp-content/uploads/2020/03/gd5_w.png, wp-content/uploads/2020/03/the_good_samaritan_after_delacroix.jpg
 	:alt: Ο πίνακας *Ο καλός Σαμαρείτης* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__ (εμπνευσμένος από έργο του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__). 

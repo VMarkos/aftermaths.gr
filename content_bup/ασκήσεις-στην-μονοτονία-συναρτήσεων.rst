@@ -1,0 +1,26 @@
+Ασκήσεις στην μονοτονία συναρτήσεων (Β' λυκείου)
+################################################
+:date: 2018-11-13 16:27
+:author: aftermathsgr
+:category: Διδακτικό υλικό, Μαθηματικά
+:tags: 1-1, συμμετρία, συναρτήσεις, Β' Λυκείου, μονοτονία
+:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%bc%ce%bf%ce%bd%ce%bf%cf%84%ce%bf%ce%bd%ce%af%ce%b1-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%cf%89%ce%bd
+:status: published
+:attachments: wp-content/uploads/2018/11/39401587912_6f7a7731bc_o.jpg
+
+.. figure:: /wp-content/uploads/2018/11/39401587912_6f7a7731bc_o.jpg
+	:alt: Η ξυλογραφία *Κύκνοι* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	:align: center
+
+	Η ξυλογραφία *Κύκνοι* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+
+
+Σε αυτό το φυλλάδιο περιέχονται κάποιες ασκήσεις σχετικές με τη μονοτονία συναρτήσεων καθώς και με συμμετρία (άρτιες/περιττές) και 1-1 συναρτήσεις.
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1gAYuC6-KP1v3qRPQy3jMjv2j2ElGmgW6/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. youtube:: XFW9wU8Ht3U =0s

@@ -1,12 +1,14 @@
 Τεστάκι #008 - Κι άλλες απόλυτες τιμές
 ######################################
-:date: 2022-11-29 18:05
-:author: aftermathsgr
-:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, εξισώσεις
-:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-008-%ce%ba%ce%b9-%ce%ac%ce%bb%ce%bb%ce%b5%cf%82-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82
-:status: published
-:attachments: wp-content/uploads/2022/11/gustave_caillebotte_-man_at_his_bath.jpg
+
+.. meta::
+	:date: 2022-11-29 18:05
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, εξισώσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-008-%ce%ba%ce%b9-%ce%ac%ce%bb%ce%bb%ce%b5%cf%82-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2022/11/gustave_caillebotte_-man_at_his_bath.jpg
 
 .. figure:: /wp-content/uploads/2022/11/gustave_caillebotte_-man_at_his_bath.jpg
 	:alt: Ο πίνακας *Άντρας στο μπάνιο* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
