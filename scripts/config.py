@@ -9,3 +9,4 @@ class Config:
     BACKUP_DIR = os.path.join(PWD, "__backup")
     CONTENT_ROOT = os.path.join(PWD, "__content")
     CONTENT_TREE = os.path.join(PWD, "content_tree.json")
+    TAGMAP = os.path.join(PWD, "tagmap.json")
