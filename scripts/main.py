@@ -10,6 +10,7 @@ from tqdm import tqdm
 from urllib.parse import unquote
 from config import Config
 from utils import compose, backup_file, get_files_in_dir, restore_backups
+from PostMap import PostMap
 from typing import Callable, Optional
 
 logger = logging.getLogger(__name__)
@@ -221,7 +222,7 @@ def create_content_tree(root: str) -> None:
 
 
 def relocate_file(path: str) -> None:
-    create_content_tree(Config.CONTENT_ROOT)
+    pm = PostMap(path)
 
 
 def main():
@@ -229,6 +230,7 @@ def main():
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
     # Fix content
     fnames = get_files_in_dir(Config.CONTENT_DIR, "rst")
+    create_content_tree(Config.CONTENT_ROOT)
     for file_path in tqdm(map(os.path.abspath, fnames)):
         # fix_math_content(file_path)
         # fix_forward_slashes(file_path)
