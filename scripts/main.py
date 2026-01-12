@@ -4,6 +4,7 @@ import os
 import re
 import json
 import logging
+import shutil as sh
 from pathlib import Path
 from glob import glob
 from tqdm import tqdm
@@ -222,7 +223,11 @@ def create_content_tree(root: str) -> None:
 
 
 def relocate_file(path: str) -> None:
+    fname = os.path.basename(path)
     pm = PostMap(path)
+    pm_path = pm.get_target_path()
+    target_path = os.path.join(pm_path, fname)
+    sh.copyfile(path, target_path)
 
 
 def main():
@@ -238,7 +243,6 @@ def main():
         # fix_main_image(file_path)
         # fix_meta_content(file_path)
         relocate_file(file_path)
-        break
 
 
 if __name__ == "__main__":

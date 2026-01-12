@@ -1,0 +1,22 @@
+Φυσική
+######
+
+.. meta::
+	:date: 2020-11-25 23:06
+	:author: aftermathsgr
+	:slug: %cf%86%cf%85%cf%83%ce%b9%ce%ba%ce%ae
+	:status: published
+	:attachments: wp-content/uploads/2018/09/t05010_10.jpg
+
+.. figure:: /wp-content/uploads/2018/09/t05010_10.jpg
+	:alt: 
+	:align: center
+
+	
+
+
+Διδακτικό υλικό σχετικά με τη φυσική του λυκείου
+
+| **Α' Λυκείου**
+| `Ασκήσεις στην ΕΟΚ <https://drive.google.com/file/d/1_F6twclWee-1p0ta0cEeMydDkjHhgEVE/view?usp=sharing>`__
+| `Διαφάνειες θεωρίας (ενημ.: 13/04/2021) <https://drive.google.com/file/d/176SycR-wvmkSi_Kr9gjrst2XvkJTuHKx/view?usp=sharing>`__

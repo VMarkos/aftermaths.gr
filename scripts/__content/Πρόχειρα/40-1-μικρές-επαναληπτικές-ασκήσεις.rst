@@ -1,0 +1,40 @@
+40-1 Μικρές Επαναληπτικές Ασκήσεις
+##################################
+
+.. meta::
+	:date: 2022-04-27 09:03
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, ολοκλήρωμα
+	:slug: 40-1-%ce%bc%ce%b9%ce%ba%cf%81%ce%ad%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2022/04/1213px-eugene_delacroix_-_christ_on_the_sea_of_galilee_-_google_art_project.jpg
+
+.. figure:: /wp-content/uploads/2022/04/1213px-eugene_delacroix_-_christ_on_the_sea_of_galilee_-_google_art_project.jpg
+	:alt: Ο πίνακας *Ο Χριστός στη θάλασσα της Γαλιλαίας* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+	:align: center
+
+	Ο πίνακας *Ο Χριστός στη θάλασσα της Γαλιλαίας* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+
+
+Λίγες ασκήσεις που δεν έχουν στόχο τόσο να εξετάσουν βαθιά και πολύπλοκα φαινόμενα της ύλης, όσο να επισκεφθούν ξανά τα περισσότερα απλά πράγματα που πρέπει να μπορούμε να κάνουμε: πεδία ορισμού, μονοτονία, ακρότατα, απλά όρια και ολοκληρώματα.
+
+Τις ασκήσεις μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1Xs0fHNSQvCKnoCXL4yds1OG62I6YP1Fh/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Επαναληπτικά θέματα μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/04/26/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-7/>`__\ *κι*\ `εδώ <https://aftermaths.gr/2022/04/23/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-6/>`__\ *, ενώ σχετικό υλικό με τις πανελλήνιες*\ `εδώ <https://aftermaths.gr/tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *κι*\ `εδώ <https://aftermaths.gr/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: 8r67q9uPk8E 
+
+.. raw:: html
+
+   </figure>

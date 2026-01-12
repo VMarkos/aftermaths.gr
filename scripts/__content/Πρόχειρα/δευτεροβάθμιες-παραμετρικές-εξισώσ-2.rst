@@ -1,0 +1,36 @@
+Δευτεροβάθμιες παραμετρικές εξισώσεις και ανισώσεις
+###################################################
+
+.. meta::
+	:date: 2020-03-01 13:52
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, παραμετρικές, Α' Λυκείου, ασκήσεις, ανισώσεις, δευτεροβάθμιες, εξισώσεις
+	:slug: %ce%b4%ce%b5%cf%85%cf%84%ce%b5%cf%81%ce%bf%ce%b2%ce%ac%ce%b8%ce%bc%ce%b9%ce%b5%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%bc%ce%b5%cf%84%cf%81%ce%b9%ce%ba%ce%ad%cf%82-%ce%b5%ce%be%ce%b9%cf%83%cf%8e%cf%83-2
+	:status: published
+	:attachments: wp-content/uploads/2020/03/rembrandt_-_susanna_and_the_elders_-_wga19104.jpg
+
+.. figure:: /wp-content/uploads/2020/03/rembrandt_-_susanna_and_the_elders_-_wga19104.jpg
+	:alt: Ο πίνακας *Η Σουζάνα και οι πρεσβύτεροι* του `Rembrant <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Η Σουζάνα και οι πρεσβύτεροι* του `Rembrant <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1H8vr9DajX60viUmWFyHWKCIG8gwRWHZq/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό μήνα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed-youtube wp-block-embed is-type-rich wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: UWh0jXAHZ4o 
+
+.. raw:: html
+
+   </figure>

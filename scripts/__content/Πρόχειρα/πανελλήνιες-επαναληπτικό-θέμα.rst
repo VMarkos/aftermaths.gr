@@ -1,0 +1,40 @@
+Πανελλήνιες - Επαναληπτικό Θέμα #13
+###################################
+
+.. meta::
+	:date: 2022-05-26 15:22
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη, λυμένα παραδείγματα
+	:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-13
+	:status: published
+	:attachments: wp-content/uploads/2022/05/arab_horses_fighting_in_a_stable_eugene_delacroix_1860.jpg
+
+.. figure:: /wp-content/uploads/2022/05/arab_horses_fighting_in_a_stable_eugene_delacroix_1860.jpg
+	:alt: Ο πίνακας *Αραβικά άλογα μαλώνουν σε στάβλο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+	:align: center
+
+	Ο πίνακας *Αραβικά άλογα μαλώνουν σε στάβλο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+
+
+Μπορούμε να υπολογίσουμε το ολοκλήρωμα μίας συνάρτησης που δεν ξέρουμε τον τύπο της; Δείτε το παρακάτω θέμα για να μάθετε! ;)
+
+Το θέμα μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1kI3uXv6tBnt3dImMIXw5XWFUU8hO8n6o/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Προηγούμενα θέματα μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/05/14/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-11/>`__\ *κι*\ `εδώ <https://aftermaths.gr/2022/05/23/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-12/>`__\ *ενώ λίγες επαναληπτικές ασκήσεις και ερωτήσεις Σωστού-Λάθους μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/04/27/40-1-%ce%bc%ce%b9%ce%ba%cf%81%ce%ad%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82/>`__\ *κι*\ `εδώ <https://aftermaths.gr/2022/05/22/123-%ce%b5%cf%81%cf%89%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%89%cf%83%cf%84%ce%bf%cf%8d-%ce%bb%ce%ac%ce%b8%ce%bf%cf%85%cf%82/>`__\ *αντίστοιχα.*
+
+
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: GX -KDchJkRY
+
+.. raw:: html
+
+   </figure>

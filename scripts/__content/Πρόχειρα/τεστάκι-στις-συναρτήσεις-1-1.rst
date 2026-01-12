@@ -1,0 +1,26 @@
+Τεστάκι στις συναρτήσεις "1-1"
+##############################
+
+.. meta::
+	:date: 2019-07-08 20:50
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: 1-1, πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ασκήσεις, λύσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-1-1
+	:status: published
+	:attachments: wp-content/uploads/2019/07/435px-study_of_a_nude_by_matisse.jpg
+
+.. figure:: /wp-content/uploads/2019/07/435px-study_of_a_nude_by_matisse.jpg
+	:alt: Ο πίνακας *Σπουδή ενός γυμνού* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Σπουδή ενός γυμνού* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+
+
+Το τεστάκι βρίσκεται `εδώ <https://drive.google.com/file/d/11N6z8ZXM3TWd1ZloUpKVnp4w9LiRtrQX/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+.. youtube:: IQTcZRVQAuM 

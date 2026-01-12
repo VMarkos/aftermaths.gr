@@ -1,0 +1,38 @@
+Διαφάνειες - Άλγεβρα Β' Λυκείου
+###############################
+
+.. meta::
+	:date: 2021-02-18 14:28
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: συστήματα, συναρτήσεις, σημειώσεις, τριγωνομετρία, Β' Λυκείου, άλγεβρα, ασκήσεις, διαφάνειες, θεωρία, λυμένα παραδείγματα, μαθηματικά
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-6
+	:status: published
+	:attachments: wp-content/uploads/2021/02/boudin_trouville1864.jpg
+
+.. figure:: /wp-content/uploads/2021/02/boudin_trouville1864.jpg
+	:alt: Ο πίνακας *Trouville* του `Eugène Boudin <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin>`__. 
+	:align: center
+
+	Ο πίνακας *Trouville* του `Eugène Boudin <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin>`__. 
+
+
+Λίγες διαφάνειες - καλά, όχι και τόσο λίγες - στην ύλη της άλγεβρας της Β' λυκείου, καλύπτοντας πλήρως τα τρία πρώτα κεφάλαια - Συστήματα, Συναρτήσεις, Τριγωνομετρία.
+
+Τις `διαφάνειες για την καραντίνα <https://aftermathsgr.wordpress.com/2020/12/11/%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-4/>`__ μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1aV6-z0_D-Yol-sLQ0_iB7A7icT99MXXH/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: UapXq6SyUVc 
+
+.. raw:: html
+
+   </figure>

@@ -1,0 +1,26 @@
+Ασκήσεις στις εκθετικές συναρτήσεις
+###################################
+
+.. meta::
+	:date: 2019-03-21 20:37
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Euler, προβλήματα, συναρτήσεις, Β' Λυκείου, ασκήσεις, εκθετική
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b5%ce%ba%ce%b8%ce%b5%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2019/03/caspar_david_friedrich_the_tree_of_crows.jpg
+
+.. figure:: /wp-content/uploads/2019/03/caspar_david_friedrich_the_tree_of_crows.jpg
+	:alt: Ο πίνακας *Το δέντρο των κορακιών* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Το δέντρο των κορακιών* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1fO8QVy2q47VgYRgcRXqlJrWLSFziWTQH/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+.. youtube:: HsDSMuh0xBI 

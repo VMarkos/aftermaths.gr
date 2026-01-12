@@ -1,0 +1,34 @@
+Ασκήσεις στην ΕΟΚ
+#################
+
+.. meta::
+	:date: 2020-11-26 10:06
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Φυσική
+	:tags: προβλήματα, Α' Λυκείου, ΕΟΚ, ασκήσεις, επανάληψη
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%b5%ce%bf%ce%ba
+	:status: published
+	:attachments: wp-content/uploads/2020/11/879px-august_macke_030.jpg
+
+.. figure:: /wp-content/uploads/2020/11/879px-august_macke_030.jpg
+	:alt: Ο πίνακας *Καθεδρικός της Παναγίας με σκεπές και καμινάδες (Βόννη)* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Καθεδρικός της Παναγίας με σκεπές και καμινάδες (Βόννη)* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+
+
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1_F6twclWee-1p0ta0cEeMydDkjHhgEVE/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: xp8Lgp3zILk =FLqDthziIOv4A7UhcGH2ynxw&index=21
+
+.. raw:: html
+
+   </figure>

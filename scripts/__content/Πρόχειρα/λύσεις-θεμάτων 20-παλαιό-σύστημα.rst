@@ -1,0 +1,38 @@
+Λύσεις θεμάτων 2020 (Παλαιό σύστημα)
+####################################
+
+.. meta::
+	:date: 2020-06-20 20:22
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, πανελλήνιες, θέματα, λύσεις
+	:slug: %ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%ce%b8%ce%b5%ce%bc%ce%ac%cf%84%cf%89%ce%bd-2020-%cf%80%ce%b1%ce%bb%ce%b1%ce%b9%cf%8c-%cf%83%cf%8d%cf%83%cf%84%ce%b7%ce%bc%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2020/06/peder_severin_krc3b8yer_-_a_the_victuallers_when_there_is_no_fishing_-_google_art_project.jpg
+
+.. figure:: /wp-content/uploads/2020/06/peder_severin_krc3b8yer_-_a_the_victuallers_when_there_is_no_fishing_-_google_art_project.jpg
+	:alt: Ο πίνακας *Στο μαγαζί, όταν δεν έχει ψάρια* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Στο μαγαζί, όταν δεν έχει ψάρια* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__\ *.* 
+
+
+Οι λύσεις των θεμάτων των μαθηματικών προσανατολισμού των πανελλαδικών 2020 (παλαιό σύστημα) βρίσκονται `εδώ <https://drive.google.com/file/d/1ErRG8SAjvlPItHQy9voZZG05-zLPddNJ/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Τα θέματα του παλαιού συστήματος βρίσκονται `εδώ <https://www.oefe.gr/panellinies/2020/them_math_hmer_PALAIO_200617.pdf>`__.
+
+
+
+Καλό απόγευμα και καλή συνέχεια στις εξετάσεις!
+
+.. raw:: html
+
+   <figure class="wp-block-embed-youtube wp-block-embed is-type-rich wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: Q_Fs9EEyO6k 
+
+.. raw:: html
+
+   </figure>

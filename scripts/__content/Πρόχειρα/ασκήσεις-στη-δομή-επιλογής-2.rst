@@ -1,0 +1,34 @@
+Ασκήσεις στη δομή επιλογής
+##########################
+
+.. meta::
+	:date: 2020-09-25 21:23
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επιλογής, επανάληψη
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b4%ce%bf%ce%bc%ce%ae-%ce%b5%cf%80%ce%b9%ce%bb%ce%bf%ce%b3%ce%ae%cf%82-2
+	:status: published
+	:attachments: wp-content/uploads/2020/09/787px-paul_fischer_-_knippelsbro_da_jeg_var_dreng_-_1924.png
+
+.. figure:: /wp-content/uploads/2020/09/787px-paul_fischer_-_knippelsbro_da_jeg_var_dreng_-_1924.png
+	:alt: Ο πίνακας *Σκηνή από το Knippelsbro* του `Paul Gustav Fischer <https://en.wikipedia.org/wiki/Paul_Gustav_Fischer>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Σκηνή από το Knippelsbro* του `Paul Gustav Fischer <https://en.wikipedia.org/wiki/Paul_Gustav_Fischer>`__\ *.* 
+
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1aWvcK_TOXg3P85Tg5IlPExSIr2GAyaU9/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: Gcvcp6OsaYQ 
+
+.. raw:: html
+
+   </figure>

@@ -1,0 +1,40 @@
+Πανελλήνιες - Επαναληπτικό Θέμα #10
+###################################
+
+.. meta::
+	:date: 2022-05-08 15:10
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη, λυμένα παραδείγματα
+	:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-10
+	:status: published
+	:attachments: wp-content/uploads/2022/05/eugene_delacroix_-_rider_attacked_by_a_jaguar_-_google_art_project.jpg
+
+.. figure:: /wp-content/uploads/2022/05/eugene_delacroix_-_rider_attacked_by_a_jaguar_-_google_art_project.jpg
+	:alt: Ο πίνακας *Καβαλάρης που δέχεται επίθεση από ιαγουάρο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+	:align: center
+
+	Ο πίνακας *Καβαλάρης που δέχεται επίθεση από ιαγουάρο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+
+
+Ένα ακόμα επαναληπτικό θέμα στην ύλη των Μαθηματικών Προσανατολισμού της Γ' Λυκείου, με λίγο άρωμα σχολικού βιβλίου.
+
+Το θέμα μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1e1EoZvwNgxuuQj-Xoi9Z-rYHRo-hgPLg/view?usp=sharing>`__ και στη σελίδα `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+*Προηγούμενα θέματα μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/04/29/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-8/>`__\ *κι*\ `εδώ <https://aftermaths.gr/2022/05/04/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-9/>`__\ *ενώ υλικό για τις πανελλήνιες*\ `εδώ <https://aftermaths.gr/tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *κι*\ `εδώ <https://aftermaths.gr/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: z7F0GIl2VzA 
+
+.. raw:: html
+
+   </figure>

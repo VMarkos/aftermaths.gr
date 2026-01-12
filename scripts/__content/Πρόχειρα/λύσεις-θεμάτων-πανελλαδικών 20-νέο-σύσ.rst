@@ -1,0 +1,38 @@
+Λύσεις θεμάτων πανελλαδικών 2020 (Νέο Σύστημα)
+##############################################
+
+.. meta::
+	:date: 2020-06-17 15:40
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, προβλήματα, πανελλήνιες, ασκήσεις, θέματα, λύσεις
+	:slug: %ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%ce%b8%ce%b5%ce%bc%ce%ac%cf%84%cf%89%ce%bd-%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%b1%ce%b4%ce%b9%ce%ba%cf%8e%ce%bd-2020-%ce%bd%ce%ad%ce%bf-%cf%83%cf%8d%cf%83
+	:status: published
+	:attachments: wp-content/uploads/2020/06/wilhelm_bendz_-_mountain_landscape._-_google_art_project.jpg
+
+.. figure:: /wp-content/uploads/2020/06/wilhelm_bendz_-_mountain_landscape._-_google_art_project.jpg
+	:alt: Ο πίνακας *Ορεινό τοπίο* του `Wilhelm Bendz <https://en.wikipedia.org/wiki/Wilhelm_Bendz>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ορεινό τοπίο* του `Wilhelm Bendz <https://en.wikipedia.org/wiki/Wilhelm_Bendz>`__\ *.* 
+
+
+Τα μαθηματικά προσανατολισμού εξετάστηκαν και για φέτος, τα θέματα τα είδαμε, τα συζητήσαμε και τα σχολιάσαμε. Τα θέματα μπορείτε να τα βρείτε `εδώ <https://www.oefe.gr/panellinies/2020/them_math_NEO_200617.pdf>`__ ενώ οι λύσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1IrYqtK0TYq7Jg1ow_Gxxsw3fXZbF_p3Q/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Καλά αποτελέσματα και καλή συνέχεια στις εξετάσεις σας!
+
+Έπονται και οι λύσεις των θεμάτων του παλαιού συστήματος.
+
+
+
+.. raw:: html
+
+   <figure class="wp-block-embed-youtube wp-block-embed is-type-rich wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: MC0j31Xi9zk 
+
+.. raw:: html
+
+   </figure>

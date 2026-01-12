@@ -26,7 +26,7 @@ class PostMap:
         flat_tags = {'α-γυμνασίου', 'β-γυμνασίου', 'γ-γυμνασίου', 'φυσική', 'tikz', 'αεππ', 'after-maths'}
         if self.status != "published":
             target_path = self.__tagmap['draft']
-        elif (tag := self.__any()):
+        elif (tag := self.__any(flat_tags)):
             target_path = self.__tagmap[tag]
         elif 'τεστάκι-της-ημέρας' in self.tags:
             target_path = self.__get_nested_tagpath(root='τεστάκι-της-ημέρας', revision=False)
@@ -41,23 +41,25 @@ class PostMap:
     def __get_nested_tagpath(self, root: str, revision: bool) -> str:
         for class_, units in self.__class_map.items():
             if class_ in self.tags:
-                class_path = os.path.join(root, self.__tagmap[class_])
+                class_path = os.path.join(self.__tagmap[root], self.__tagmap[class_])
                 unit, unit_count, is_last = self.__get_first_unit(class_)
                 if revision:
-                    if 'σημειώσεις' self.tags or 'διαφάνειες' in self.tags:
+                    if 'σημειώσεις' in self.tags or 'διαφάνειες' in self.tags:
                         return os.path.join(class_path, self.__tagmap['σημειώσεις'])
                     if is_last and unit_count > 2:
                         return os.path.join(class_path, self.__tagmap['επανάληψη'])
                 return os.path.join(class_path, self.__tagmap[unit])
-        return '', 0
+        return ''
+
+    # FIXME: Append A-Lykeiou in classes needed!
 
 
     def __get_first_unit(self, class_: str) -> tuple[str, int, bool]:
         u = ''
         c = 0
         is_last = False
-        for unit in self.__class_map[class_]:
-            if i, unit in enumerate(self.tags):
+        for i, unit in enumerate(self.__class_map[class_]):
+            if unit in self.tags:
                 c += 1
                 if u == '':
                     u = unit
@@ -85,7 +87,7 @@ class PostMap:
 
     def __preprocess_post(self) -> None:
         c = 0
-        with open(path, 'r') as file:
+        with open(self.path, 'r') as file:
             for line in file.readlines():
                 categories = self.__extract_tag_list(line, 'category')
                 if categories:
@@ -97,14 +99,14 @@ class PostMap:
                     c += 1
                 status = self.__extract_tag_list(line, 'status')
                 if status:
-                    self.status = status[0]
+                    self.status = list(status)[0]
                     c += 1
                 if c == 3:
                     break
 
 
     def __extract_tag_list(self, line: str, head: str) -> set[str]:
-        m = re.search(r'(?<=:{}:).+'.format(head))
+        m = re.search(r'(?<=:{}:).+'.format(head), line)
         if m is None:
             return []
         tags = [t.lower() for t in re.split(r',\s*', m.group(0))]
@@ -112,6 +114,7 @@ class PostMap:
 
 
     def __sanitise_tag(self, tag: str) -> str:
+        tag = tag.strip()
         tag = re.sub(r"'", r"", tag)
         tag = re.sub(r"\s+", r"-", tag)
         return tag

@@ -1,0 +1,38 @@
+Διαφάνειες Φυσικής - Α' Λυκείου
+###############################
+
+.. meta::
+	:date: 2021-03-11 13:27
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Φυσική
+	:tags: Α' Λυκείου, ΕΟΚ, ΕΟΜΚ, έργο, ασκήσεις, δυνάμεις, διαφάνειες, ενέργεια, λυμένα παραδείγματα
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%cf%86%cf%85%cf%83%ce%b9%ce%ba%ce%ae%cf%82-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-3
+	:status: published
+	:attachments: wp-content/uploads/2021/03/1033px-bazille_frederic__summer_scene_1869_oil_on_canvas_fogg_art_museum_cambridge_massachusetts.jpg
+
+.. figure:: /wp-content/uploads/2021/03/1033px-bazille_frederic__summer_scene_1869_oil_on_canvas_fogg_art_museum_cambridge_massachusetts.jpg
+	:alt: Ο πίνακας *Καλοκαιρινή σκηνή* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
+	:align: center
+
+	Ο πίνακας *Καλοκαιρινή σκηνή* του `Frédéric Bazille <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
+
+
+Διαφάνειες στην ύλη της Φυσικής της Α' Λυκείου που καλύπτουν ύλη μέχρι και το έργο δύναμης και την Αρχή Διατήρησης Μηχανικής Ενέργειας (ΑΔΜΕ).
+
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/176SycR-wvmkSi_Kr9gjrst2XvkJTuHKx/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: uN9tulBHr8Y 
+
+.. raw:: html
+
+   </figure>

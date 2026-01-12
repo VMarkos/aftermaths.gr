@@ -1,0 +1,38 @@
+Επαναληπτικό Διαγώνισμα - ΑΕΠΠ
+##############################
+
+.. meta::
+	:date: 2021-05-24 22:59
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, διαγώνισμα, δομή επανάληψης, δομή επιλογής, επανάληψη, θεωρία
+	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b1%ce%b5%cf%80%cf%80-2
+	:status: published
+	:attachments: wp-content/uploads/2021/05/bathing_women_auguste_renoir_-_nationalmuseum_-_19163.tif_.jpg
+
+.. figure:: /wp-content/uploads/2021/05/bathing_women_auguste_renoir_-_nationalmuseum_-_19163.tif_.jpg
+	:alt: Ο πίνακας *Λουόμενες* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Λουόμενες* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
+Ένα επαναληπτικό διαγώνισμα εφ' όλης της κορωνοΰλης του μαθήματος της Ανάπτυξης Εφαρμογών σε Προγραμματιστικό Περιβάλλον (ΑΕΠΠ) στα πλαίσια της προετοιμασίας των πανελληνίων εξετάσεων/
+
+Το διαγώνισμα μπορεί να το βρείτε `εδώ <https://drive.google.com/file/d/13zGP5fWv64apNts0Tv4w3HdSuhR39OjW/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: 7_TR98jP6K4 
+
+.. raw:: html
+
+   </figure>

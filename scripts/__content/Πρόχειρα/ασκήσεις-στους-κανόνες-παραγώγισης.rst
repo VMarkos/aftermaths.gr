@@ -1,0 +1,36 @@
+Ασκήσεις στους κανόνες παραγώγισης
+##################################
+
+.. meta::
+	:date: 2020-10-12 15:26
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, εισαγωγή
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%bf%cf%85%cf%82-%ce%ba%ce%b1%ce%bd%cf%8c%ce%bd%ce%b5%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%b9%cf%83%ce%b7%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2020/10/anton_azbe_1903_the_harem.jpg
+
+.. figure:: /wp-content/uploads/2020/10/anton_azbe_1903_the_harem.jpg
+	:alt: Ο πίνακας *Το χαρέμι* του `Anton Ažbe <https://en.wikipedia.org/wiki/Anton_A%C5%BEbe>`__. 
+	:align: center
+
+	Ο πίνακας *Το χαρέμι* του `Anton Ažbe <https://en.wikipedia.org/wiki/Anton_A%C5%BEbe>`__. 
+
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1bUcfhVFuY65u6GCOARXe0O5IkzsAFdSJ/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: qE1j8dXYkh4 
+
+.. raw:: html
+
+   </figure>

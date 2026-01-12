@@ -1,0 +1,36 @@
+Διαφάνειες στην άλγεβρα (Β' Λυκείου)
+####################################
+
+.. meta::
+	:date: 2021-01-20 13:29
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: συστήματα, συναρτήσεις, σημειώσεις, τριγωνομετρία, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, διαφάνειες, θεωρία, λυμένα παραδείγματα, μαθηματικά
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: wp-content/uploads/2021/01/gogol_by_repin.jpg
+
+.. figure:: /wp-content/uploads/2021/01/gogol_by_repin.jpg
+	:alt: Ο πίνακας *Ο Gogol που καίει το δεύτερο μέρος του έργου του "Νεκρές ψυχές"* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ο Gogol που καίει το δεύτερο μέρος του έργου του "Νεκρές ψυχές"* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+
+
+Τις `διαφάνειες για την καραντίνα <https://aftermathsgr.wordpress.com/2020/11/29/%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85/>`__, που καλύπτουν την ύλη της άλγεβρας της Β' Λυκείου μέχρι και τις γραφικές παραστάσεις τριγωνομετρικών συναρτήσεων (συστήματα, συναρτήσεις, τριγωνομετρία), μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1aV6-z0_D-Yol-sLQ0_iB7A7icT99MXXH/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: 4131Wb06oA0 
+
+.. raw:: html
+
+   </figure>

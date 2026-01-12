@@ -1,0 +1,40 @@
+Επαναληπτικό Διαγώνισμα στη Στατιστική - Λύσεις
+###############################################
+
+.. meta::
+	:date: 2022-11-16 08:24
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, επανάληψη
+	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%cf%83%cf%84%ce%b7-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84-3
+	:status: published
+	:attachments: wp-content/uploads/2022/11/1280px-gustave_caillebotte_-_fruit_displayed_on_a_stand_-_google_art_project.jpg
+
+.. figure:: /wp-content/uploads/2022/11/1280px-gustave_caillebotte_-_fruit_displayed_on_a_stand_-_google_art_project.jpg
+	:alt: Ο πίνακας *Φρούτα σε έναν πάγκο* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+	:align: center
+
+	Ο πίνακας *Φρούτα σε έναν πάγκο* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+
+
+Οι λύσεις του προηγούμενου διαγωνίσματος στη Στατιστική - Μαθηματικά, Γ' ΕΠΑΛ.
+
+Τις λύσεις μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/18aj23PPvpmMaWOXlAggnQl1ZsUdzeXvY/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+*Το διαγώνισμα μπορείτε να το βρείτε*\ `εδώ <https://aftermaths.gr/2022/11/10/%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%cf%83%cf%84%ce%b7-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84-2/>`__\ *και υλικό για όλες τις τάξεις του ΕΠΑΛ*\ `εδώ <https://aftermaths.gr/tag/%ce%b5%cf%80%ce%b1%ce%bb/>`__\ *.*
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   .. youtube:: wNvOUkRTkz8 
+
+.. raw:: html
+
+   </figure>

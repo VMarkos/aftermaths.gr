@@ -1,0 +1,40 @@
+Εισαγωγή στη Συνέχεια
+#####################
+
+.. meta::
+	:date: 2021-11-05 14:09
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, συνέχεια, συναρτήσεις, Γ' λυκείου, ασκήσεις, επανάληψη
+	:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%b7-%cf%83%cf%85%ce%bd%ce%ad%cf%87%ce%b5%ce%b9%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2021/11/743px-portrait_of_sonia.jpg
+
+.. figure:: /wp-content/uploads/2021/11/743px-portrait_of_sonia.jpg
+	:alt: Ο πίνακας *Σόνια* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+	:align: center
+
+	Ο πίνακας *Σόνια* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+
+
+Λίγες εισαγωγικές ασκήσεις στην έννοια της συνέχειας πραγματικών συναρτήσεων - Μαθηματικά Προσανατολισμού, Γ' Λυκείου.
+
+Τις ασκήσεις μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1_I_FL14Epm3NmatXwd0u6gwTeo4Slafn/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Σχετικές σημειώσεις μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2020/09/13/%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%8c%cf%81%ce%b9%ce%b1-%cf%83%cf%85%ce%bd%ce%ad%cf%87%ce%b5%ce%b9%ce%b1/>`__\ *.*
+
+
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+.. raw:: html
+
+   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
+
+.. container:: wp-block-embed__wrapper
+
+   https://www.youtube.com/watch?v=-MgAvs4hKZ4
+
+.. raw:: html
+
+   </figure>
