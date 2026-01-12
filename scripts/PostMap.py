@@ -23,7 +23,7 @@ class PostMap:
     
     def get_target_path(self) -> str:
         target_path = ''
-        flat_tags = {'α-γυμνασίου', 'β-γυμνασίου', 'γ-γυμνασίου', 'φυσική', 'tikz', 'αεππ', 'after-maths'}
+        flat_tags = {'α-γυμνασίου', 'β-γυμνασίου', 'γ-γυμνασίου', 'φυσική', 'tikz', 'αεππ', 'after-maths', 'γεωμετρία'}
         if self.status != "published":
             target_path = self.__tagmap['draft']
         elif (tag := self.__any(flat_tags)):
@@ -44,10 +44,16 @@ class PostMap:
                 class_path = os.path.join(self.__tagmap[root], self.__tagmap[class_])
                 unit, unit_count, is_last = self.__get_first_unit(class_)
                 if revision:
+                    match class_:
+                        case 'γ-λυκείου':
+                            class_path = os.path.join(class_path, self.__tagmap['μαθηματικά'])
+                        case 'α-λυκείου' | 'β-λυκείου':
+                            class_path = os.path.join(class_path, self.__tagmap['άλγεβρα'])
                     if 'σημειώσεις' in self.tags or 'διαφάνειες' in self.tags:
                         return os.path.join(class_path, self.__tagmap['σημειώσεις'])
                     if is_last and unit_count > 2:
                         return os.path.join(class_path, self.__tagmap['επανάληψη'])
+                print(unit)
                 return os.path.join(class_path, self.__tagmap[unit])
         return ''
 
