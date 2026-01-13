@@ -230,6 +230,9 @@ def relocate_file(path: str) -> None:
     sh.copyfile(path, target_path)
 
 
+# TODO: Remove raw html from all places
+
+
 def main():
     # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)

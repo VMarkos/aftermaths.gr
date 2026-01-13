@@ -9,16 +9,19 @@ from config import Config
 
 class PostMap:
     def __init__(self, path: str) -> None:
+        self.__class_map = {
+            'α-λυκείου': ['διαγώνισμα', 'συναρτήσεις', 'πρόοδοι', 'vieta', 'δευτεροβάθμιες', 'πρωτοβάθμιες', 'ρίζες', 'απόλυτη-τιμή', 'εισαγωγή'],
+            'β-λυκείου': ['διαγώνισμα', 'εκθετική', 'λογαριθμική', 'πολυώνυμα', 'τριγωνομετρία', 'συναρτήσεις', 'συστήματα'],
+            'β-προσανατολισμού': ['διαγώνισμα', 'παραβολή', 'κύκλος', 'εξίσωση-ευθείας' ,'διανύσματα'],
+            'γ-γελ': ['διαγώνισμα', 'ολοκλήρωμα', 'παράγωγος', 'συνέχεια', 'όρια', 'συναρτήσεις'],
+            'γ-επαλ': ['διαγώνισμα', 'στατιστική', 'συναρτήσεις'],
+        }
         self.path = path
+        self.fname = os.path.basename(path)
         self.__root = Config.CONTENT_ROOT
         self.__preprocess_post()
+        self.__preprocess_tags()
         self.__load_tagmap()
-        self.__class_map = {
-            'α-λυκείου': ['συναρτήσεις', 'πρόοδοι', 'δευτεροβάθμιες', 'πρωτοβάθμιες', 'ρίζες', 'απόλυτη-τιμή', 'εισαγωγή'],
-            'β-λυκείου': ['εκθετική', 'λογαριθμική', 'πολυώνυμα', 'τριγωνομετρία', 'συναρτήσεις', 'συστήματα'],
-            'γ-γελ': ['ολοκλήρωμα', 'παράγωγος', 'συνέχεια', 'όρια', 'συναρτήσεις'],
-            'γ-επαλ': ['στατιστική', 'συναρτήσεις'],
-        }
 
     
     def get_target_path(self) -> str:
@@ -28,12 +31,12 @@ class PostMap:
             target_path = self.__tagmap['draft']
         elif (tag := self.__any(flat_tags)):
             target_path = self.__tagmap[tag]
-        elif 'τεστάκι-της-ημέρας' in self.tags:
+        elif 'τεστάκι-της-ημέρας' in self.categories:
             target_path = self.__get_nested_tagpath(root='τεστάκι-της-ημέρας', revision=False)
         elif 'διδακτικό-υλικό' in self.categories:
             target_path = self.__get_nested_tagpath(root='διδακτικό-υλικό', revision=True)
         else:
-            target_path = 'misc'
+            target_path = self.__tagmap['misc']
         # Prepend content root
         return self.__prepend_root(target_path)
 
@@ -43,21 +46,22 @@ class PostMap:
             if class_ in self.tags:
                 class_path = os.path.join(self.__tagmap[root], self.__tagmap[class_])
                 unit, unit_count, is_last = self.__get_first_unit(class_)
+                if not unit:
+                    return self.__tagmap['misc']
                 if revision:
                     match class_:
-                        case 'γ-λυκείου':
+                        case 'γ-γελ':
                             class_path = os.path.join(class_path, self.__tagmap['μαθηματικά'])
                         case 'α-λυκείου' | 'β-λυκείου':
                             class_path = os.path.join(class_path, self.__tagmap['άλγεβρα'])
-                    if 'σημειώσεις' in self.tags or 'διαφάνειες' in self.tags:
+                    notes_tags = { 'σημειώσεις', 'διαφάνειες', 'θεωρία' }
+                    if self.tags.intersection(notes_tags) or 'μάθημα' in self.fname:
                         return os.path.join(class_path, self.__tagmap['σημειώσεις'])
                     if is_last and unit_count > 2:
                         return os.path.join(class_path, self.__tagmap['επανάληψη'])
-                print(unit)
                 return os.path.join(class_path, self.__tagmap[unit])
-        return ''
+        return self.__tagmap['misc']
 
-    # FIXME: Append A-Lykeiou in classes needed!
 
 
     def __get_first_unit(self, class_: str) -> tuple[str, int, bool]:
@@ -93,6 +97,8 @@ class PostMap:
 
     def __preprocess_post(self) -> None:
         c = 0
+        self.categories = set()
+        self.tags = set()
         with open(self.path, 'r') as file:
             for line in file.readlines():
                 categories = self.__extract_tag_list(line, 'category')
@@ -109,6 +115,22 @@ class PostMap:
                     c += 1
                 if c == 3:
                     break
+
+
+    def __preprocess_tags(self) -> None:
+        if 'γ-λυκείου' in self.tags:
+            self.tags.remove('γ-λυκείου')
+            if 'επαλ' in self.tags:
+                self.tags.remove('επαλ')
+                self.tags.add('γ-επαλ')
+                function_tags = {'όρια', 'παράγωγος'}
+                if self.tags.intersection(function_tags):
+                    self.tags.add('συναρτήσεις')
+            else:
+                self.tags.add('γ-γελ')
+        if 'β-λυκείου' in self.tags and any(x in self.tags for x in self.__class_map['β-προσανατολισμού']):
+            self.tags.remove('β-λυκείου')
+            self.tags.add('β-προσανατολισμού')
 
 
     def __extract_tag_list(self, line: str, head: str) -> set[str]:
