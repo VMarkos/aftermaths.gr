@@ -25,14 +25,9 @@
 
 *\*Ο όρος ρετάμπλ αναφέρεται, τυπικά, στα έργα (πίνακες, γλυπτά κ.λπ.) που σχεδιάζονταν για να τοποθετηθούν πάνω στα τέμπλα των εκκλησιών.*
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
-.. container:: wp-block-embed__wrapper
 
    .. youtube:: _TdQMn2MUxg 
 
-.. raw:: html
 
-   </figure>

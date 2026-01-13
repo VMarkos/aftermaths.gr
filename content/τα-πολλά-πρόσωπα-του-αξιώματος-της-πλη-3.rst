@@ -67,7 +67,6 @@
 
 Για παράδειγμα, στον παρακάτω πίνακα βλέπουμε κάποιους όρους των ακολουθιών  :math:`a_n,b_n`  για διάφορες τιμές του  :math:`n:` 
 
-.. raw:: html
 
    <figure class="wp-block-table aligncenter is-style-stripes">
 
@@ -82,19 +81,15 @@ n a\ :sub:`n` b\ :sub:`n`
 6 1.414213    1.414214
 = =========== ===========
 
-.. raw:: html
 
    <figcaption>
 
 Οι πρώτοι έξι όροι των ακολουθιών μας.
 
-.. raw:: html
 
    </figcaption>
 
-.. raw:: html
 
-   </figure>
 
 Μπακάλικα, η  :math:`b_n`  είναι η  :math:`a_n`  που της έχουμε αυξήσει το τελευταίο ψηφίο κατά μία μονάδα - με ιδιαίτερη προσοχή όταν αυτό είναι 9.
 
@@ -311,14 +306,9 @@ n a\ :sub:`n` b\ :sub:`n`
 
 
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
-.. container:: wp-block-embed__wrapper
 
    .. youtube:: JD5InOUqR -k
 
-.. raw:: html
 
-   </figure>

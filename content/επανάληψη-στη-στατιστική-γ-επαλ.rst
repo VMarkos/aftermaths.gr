@@ -23,66 +23,41 @@
 
 Μπορείτε επίσης να βρείτε τις διαφάνειες και στο `slideshare <https://www.slideshare.net/ssuserbf550d/>`__:
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-rich is-provider-slideshare wp-block-embed-slideshare">
 
-.. container:: wp-block-embed__wrapper
 
    https://www.slideshare.net/ssuserbf550d/1-251653688
 
-.. raw:: html
 
-   </figure>
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-rich is-provider-slideshare wp-block-embed-slideshare">
 
-.. container:: wp-block-embed__wrapper
 
    https://www.slideshare.net/ssuserbf550d/2-251653712
 
-.. raw:: html
 
-   </figure>
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-rich is-provider-slideshare wp-block-embed-slideshare">
 
-.. container:: wp-block-embed__wrapper
 
    https://www.slideshare.net/ssuserbf550d/3-251653723
 
-.. raw:: html
 
-   </figure>
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-rich is-provider-slideshare wp-block-embed-slideshare">
 
-.. container:: wp-block-embed__wrapper
 
    https://www.slideshare.net/ssuserbf550d/4-251653731
 
-.. raw:: html
 
-   </figure>
 
 
 
 Καλημέρα και καλό διάβασμα!
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
-.. container:: wp-block-embed__wrapper
 
    .. youtube:: qWli4mESroA 
 
-.. raw:: html
 
-   </figure>

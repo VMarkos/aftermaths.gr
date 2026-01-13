@@ -25,7 +25,6 @@
 
 .. container:: wp-block-group
 
-   .. raw:: html
 
       </p>
 
@@ -33,14 +32,9 @@
 
    *Ακολουθήστε το aftermathsgr στα social media:*
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
-.. container:: wp-block-embed__wrapper
 
    .. youtube:: doMu -YNc4wM
 
-.. raw:: html
 
-   </figure>

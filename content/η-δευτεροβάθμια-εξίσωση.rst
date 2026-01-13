@@ -246,14 +246,9 @@ $\rho_1+\rho_2=\frac{5}{2}+u+\frac{5}{2}-u=\frac{5}{2}+\frac{5}{2}=5.$
 
 Και λίγη μουσικούλα από την πατρίδα του `Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__:
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
-.. container:: wp-block-embed__wrapper
 
    .. youtube:: q_j62i63OdQ 
 
-.. raw:: html
 
-   </figure>

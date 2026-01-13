@@ -25,30 +25,20 @@
 
 Επίσης, μπορείτε να βρείτε τις διαφάνειες και στο `slideshare <https://www.slideshare.net/ssuserbf550d/edit_my_uploads>`__:
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-rich is-provider-slideshare wp-block-embed-slideshare">
 
-.. container:: wp-block-embed__wrapper
 
    https://www.slideshare.net/ssuserbf550d/27-251476322
 
-.. raw:: html
 
-   </figure>
 
 
 
 Καλό βράδυ και καλό διάβασμα!
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
 
-.. container:: wp-block-embed__wrapper
 
    .. youtube:: j0L5YudWp_k 
 
-.. raw:: html
 
-   </figure>

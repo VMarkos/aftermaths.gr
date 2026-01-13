@@ -306,14 +306,9 @@ Wellcome!
 
 Καλό βράδυ!
 
-.. raw:: html
 
-   <figure class="wp-block-embed-youtube wp-block-embed is-type-rich wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
-.. container:: wp-block-embed__wrapper
 
    .. youtube:: eZEYvk3zrxk 
 
-.. raw:: html
 
-   </figure>

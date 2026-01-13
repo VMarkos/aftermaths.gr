@@ -9,7 +9,6 @@ Follow us!
 	
 	.. container:: wp-block-group
 	
-	   .. raw:: html
 	
 	      </p>
 	

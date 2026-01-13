@@ -270,14 +270,9 @@
 
 (Κι μία μικρή λειτουργία για να μπαίνουμε σιγά-σιγά σε κλίμα Πάσχα)
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
-.. container:: wp-block-embed__wrapper
 
    .. youtube:: dveq2sKrRPY 
 
-.. raw:: html
 
-   </figure>

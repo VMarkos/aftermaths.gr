@@ -23,7 +23,6 @@
 
 Εντάξει, δε φαίνεται και κανένα ενδιαφέρον παιχνίδι. Αλλά ας δοκιμάσουμε να παίξουμε με κάποιους αριθμούς για να δούμε τι αποτελέσματα θα πάρουμε. Στον ακόλουθο πίνακα φαίνονται οι ακολουθίες που προκύπτουν ξεκινώντας από διάφορους αριθμούς:
 
-.. raw:: html
 
    <figure class="wp-block-table is-style-stripes">
 
@@ -51,19 +50,15 @@
 | 10       | 5        | 16       | 8        | 4        | 2        | 1        | 4        | 2        | 1         | 4         | 2         | 1         |
 +----------+----------+----------+----------+----------+----------+----------+----------+----------+-----------+-----------+-----------+-----------+
 
-.. raw:: html
 
    <figcaption>
 
 Παίζοντας με αριθμούς...
 
-.. raw:: html
 
    </figcaption>
 
-.. raw:: html
 
-   </figure>
 
 Ένας Γερμανός μαθηματικός, ο `Lothar Collatz <https://en.wikipedia.org/wiki/Lothar_Collatz>`__, λίγο πριν την έναρξη του Δευτέρου Παγκοσμίου Πολέμου - το 1937, για την ακρίβεια - διατύπωσε την εξής απλή εικασία:
 
@@ -75,14 +70,9 @@
 
 
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
-.. container:: wp-block-embed__wrapper
 
    .. youtube:: H1PP33Ue_Gg 
 
-.. raw:: html
 
-   </figure>

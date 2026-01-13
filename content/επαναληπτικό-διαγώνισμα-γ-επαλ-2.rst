@@ -23,14 +23,9 @@
 
 Η κεντρική εικόνα μία αυτοπροσωπογραφία του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__.
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
-.. container:: wp-block-embed__wrapper
 
    .. youtube:: tpVjZOB8MYw 
 
-.. raw:: html
 
-   </figure>

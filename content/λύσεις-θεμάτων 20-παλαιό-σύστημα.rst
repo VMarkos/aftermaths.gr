@@ -25,14 +25,9 @@
 
 Καλό απόγευμα και καλή συνέχεια στις εξετάσεις!
 
-.. raw:: html
 
-   <figure class="wp-block-embed-youtube wp-block-embed is-type-rich wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
-.. container:: wp-block-embed__wrapper
 
    .. youtube:: Q_Fs9EEyO6k 
 
-.. raw:: html
 
-   </figure>

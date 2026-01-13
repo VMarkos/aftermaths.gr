@@ -340,16 +340,11 @@ Fractions Can Get You Everywhere!
 	
 	And because it's summer, we close musically, with some `Hugh Laurie <https://en.wikipedia.org/wiki/Hugh_Laurie>`__:
 	
-	.. raw:: html
 	
-	   <figure class="wp-block-embed is-type-rich is-provider-embed-handler wp-block-embed-embed-handler wp-embed-aspect-16-9 wp-has-aspect-ratio">
 	
-	.. container:: wp-block-embed__wrapper
 	
 	   .. youtube:: AzEBH6DZJVk 
 	
-	.. raw:: html
 	
-	   </figure>
 	
 	The central image is the *(small)* tableau\ *of the* `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *\ plane*.

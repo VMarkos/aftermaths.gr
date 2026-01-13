@@ -47,7 +47,6 @@
 
 Από τα παραπάνω πεδία, όπως βλέπουμε, μόνον το πρώτο – όνομα του μαθήματος – είναι υποχρεωτικό, ωστόσο, καλό είναι να συμπληρώσουμε και τα υπόλοιπα πεδία, σε περίπτωση που αυτό είναι εφικτό. Στην περίπτωσή μας, θα συμπληρώσουμε τα εξής στοιχεία:
 
-.. raw:: html
 
    <figure class="wp-block-table">
 
@@ -58,19 +57,15 @@
 **Αίθουσα**         (Κενό)
 =================== =======================
 
-.. raw:: html
 
    <figcaption>
 
 Τα στοιχεία της τάξης μας
 
-.. raw:: html
 
    </figcaption>
 
-.. raw:: html
 
-   </figure>
 
 Στη συνέχεια, πατάμε την επιλογή «Δημιουργία», η οποία, μόλις συμπληρώσουμε το πεδίο «Όνομα μαθήματος» θα έχει γίνει μπλε. Η τάξη μας μόλις δημιουργήθηκε!
 
@@ -328,21 +323,15 @@
 
 `Εδώ <https://www.tate.org.uk/tate-etc/issue-27-spring-2013/first-abstract-artist-and-its-not-kandinsky>`__\ *μπορείτε να βρείτε κι ένα αρκετά ενδιαφέρον άρθρο για την Kilma Af Klint.*
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
-.. container:: wp-block-embed__wrapper
 
    .. youtube:: daepERU8rnE 
 
-.. raw:: html
 
-   </figure>
 
 --------------
 
-.. raw:: html
 
    </p>
 
@@ -354,6 +343,5 @@
 
 --------------
 
-.. raw:: html
 
    </p>

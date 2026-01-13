@@ -348,16 +348,11 @@
 
 Κι επειδή καλοκαίρι είναι, κλείνουμε μουσικά, με λίγο `Hugh Laurie <https://en.wikipedia.org/wiki/Hugh_Laurie>`__:
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
-.. container:: wp-block-embed__wrapper
 
    .. youtube:: AzEBH6DZJVk 
 
-.. raw:: html
 
-   </figure>
 
 

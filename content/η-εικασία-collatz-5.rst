@@ -87,14 +87,9 @@
 
 
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio">
 
-.. container:: wp-block-embed__wrapper
 
    .. youtube:: EGDXQb6Caa0 
 
-.. raw:: html
 
-   </figure>

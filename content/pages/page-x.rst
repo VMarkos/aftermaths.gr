@@ -17,7 +17,6 @@ Page X
 	
 	   .. container:: wp-block-media-text__content
 	
-	      .. raw:: html
 	
 	         </p>
 	
@@ -41,7 +40,6 @@ Page X
 	
 	      .. container:: wp-block-columns
 	
-	         .. raw:: html
 	
 	            </p>
 	

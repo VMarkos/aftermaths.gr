@@ -230,7 +230,21 @@ def relocate_file(path: str) -> None:
     sh.copyfile(path, target_path)
 
 
-# TODO: Remove raw html from all places
+def fix_raw_html_videos(path: str) -> None:
+    fix_content(path, raw_fix_fn)
+
+
+def raw_fix_fn(line: str, params: dict[str, any]=dict()) -> str:
+    bad_lines = {
+        '.. raw:: html',
+        '<figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">',
+        '.. container:: wp-block-embed__wrapper',
+        '</figure>',
+    }
+    stripped = line.strip()
+    if stripped in bad_lines or 'wp-block-embed' in stripped:
+        return ''
+    return line
 
 
 def main():
@@ -238,14 +252,15 @@ def main():
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
     # Fix content
     fnames = get_files_in_dir(Config.CONTENT_DIR, "rst")
-    create_content_tree(Config.CONTENT_ROOT)
+    # create_content_tree(Config.CONTENT_ROOT)
     for file_path in tqdm(map(os.path.abspath, fnames)):
         # fix_math_content(file_path)
         # fix_forward_slashes(file_path)
         # fix_video_urls(file_path)
         # fix_main_image(file_path)
         # fix_meta_content(file_path)
-        relocate_file(file_path)
+        # fix_raw_html_videos(file_path)
+        # relocate_file(file_path)
 
 
 if __name__ == "__main__":

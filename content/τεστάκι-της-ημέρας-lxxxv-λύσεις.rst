@@ -23,14 +23,9 @@
 
 Καλημέρα και καλό διάβασμα!
 
-.. raw:: html
 
-   <figure class="wp-block-embed is-type-rich is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio">
 
-.. container:: wp-block-embed__wrapper
 
    .. youtube:: E4meH3_3l8g =FLqDthziIOv4A7UhcGH2ynxw&index=6
 
-.. raw:: html
 
-   </figure>
