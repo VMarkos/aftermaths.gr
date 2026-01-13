@@ -1,0 +1,24 @@
+Ασκήσεις στην κυρτότητα και τη χάραξη γραφικής παράστασης συνάρτησης
+####################################################################
+
+.. meta::
+	:date: 2019-02-28 14:10
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, παράγωγος, συναρτήσεις, Γ' λυκείου, ασκήσεις, γραφική παράσταση, κυρτότητα
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%ba%cf%85%cf%81%cf%84%cf%8c%cf%84%ce%b7%cf%84%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b7-%cf%87%ce%ac%cf%81%ce%b1%ce%be%ce%b7
+	:status: published
+	:attachments: wp-content/uploads/2019/02/ruinsofteplitzcastle1828.jpg
+
+.. figure:: /wp-content/uploads/2019/02/ruinsofteplitzcastle1828.jpg
+	:alt: Ο πίνακας *Τα ερείπια του κάστρου του Teplitz* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Τα ερείπια του κάστρου του Teplitz* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1j-vpdWrgz0CL1WZkByPUbboQx8_dLINn/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+.. youtube:: xPGC2EYNoXY 

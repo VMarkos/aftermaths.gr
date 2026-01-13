@@ -1,0 +1,31 @@
+Θερινή Επανάληψη (Γ' ΕΠΑΛ)
+##########################
+
+.. meta::
+	:date: 2020-08-10 18:59
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, στατιστική, συναρτήσεις, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη
+	:slug: %ce%b8%ce%b5%cf%81%ce%b9%ce%bd%ce%ae-%ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
+	:status: published
+	:attachments: wp-content/uploads/2020/08/430px-alfred_guillou._1879_portrait.jpg
+
+.. figure:: /wp-content/uploads/2020/08/430px-alfred_guillou._1879_portrait.jpg
+	:alt: Ο πίνακας *Το πορτραίτο του Alfred Guillou* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+	:align: center
+
+	Ο πίνακας *Το πορτραίτο του Alfred Guillou* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+
+
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1SbBBYAFzFV7V4cwvSYhp0GmZ-i_CGN7X/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__. Περιέχει βασικές ασκήσεις πάνω σε κάποιες στοιχειώδεις αλγεβρικές δεξιότητες που χρειάζονται για την ύλη της Γ' ΕΠΑΛ, καθώς και απλές ασκήσεις στατιστικής και υπολογισμού ορίων συναρτήσεων.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: YPaz0p2dpEk 
+
+

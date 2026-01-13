@@ -1,0 +1,35 @@
+Άλγεβρα, Β' Λυκείου - Μάθημα 10ο
+################################
+
+.. meta::
+	:date: 2021-11-17 11:09
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, τριγωνομετρία, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, διαφάνειες, επανάληψη, θεωρία
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-10%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2021/11/le_corps_dhector_-_hectors_body_-_el_cuerpo_de_hector.jpg
+
+.. figure:: /wp-content/uploads/2021/11/le_corps_dhector_-_hectors_body_-_el_cuerpo_de_hector.jpg
+	:alt: Ο πίνακας *Το σώμα του Έκτορα* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+	:align: center
+
+	Ο πίνακας *Το σώμα του Έκτορα* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+
+
+Διαφάνειες στις γραφικές παραστάσεις τριγωνομετρικών συναρτήσεων - Άλγεβρα, Β' Γενικού Λυκείου και ΕΠΑΛ.
+
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1pAkbppmiulgdTWveeJSMYaXEEOuyzQYm/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2021/11/10/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-9%ce%bf/>`__\ *, ενώ τις αντίστοιχες διαφάνειες της Α' Λυκείου μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2021/11/15/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-10%ce%bf/>`__\ *.*
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: quhC8BOG4OU 
+
+

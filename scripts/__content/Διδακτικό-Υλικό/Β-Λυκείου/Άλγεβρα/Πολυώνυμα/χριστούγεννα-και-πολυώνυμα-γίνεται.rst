@@ -1,0 +1,35 @@
+Χριστούγεννα και Πολυώνυμα γίνεται;
+###################################
+
+.. meta::
+	:date: 2021-12-23 11:57
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πολυώνυμα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, διαίρεση
+	:slug: %cf%87%cf%81%ce%b9%cf%83%cf%84%ce%bf%cf%8d%ce%b3%ce%b5%ce%bd%ce%bd%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%80%ce%bf%ce%bb%cf%85%cf%8e%ce%bd%cf%85%ce%bc%ce%b1-%ce%b3%ce%af%ce%bd%ce%b5%cf%84%ce%b1%ce%b9
+	:status: published
+	:attachments: wp-content/uploads/2021/12/emile_claus_-_zonnige_dag.jpg
+
+.. figure:: /wp-content/uploads/2021/12/emile_claus_-_zonnige_dag.jpg
+	:alt: Ο πίνακας *Ηλιόλουστη μέρα* του `Emile Claus <https://en.wikipedia.org/wiki/Emile_Claus>`__. 
+	:align: center
+
+	Ο πίνακας *Ηλιόλουστη μέρα* του `Emile Claus <https://en.wikipedia.org/wiki/Emile_Claus>`__. 
+
+
+Ναι, γίνεται, γιατί όχι; Μία Χριστουγεννιάτικη ( ; ) εισαγωγή στα πολυώνυμα, λοιπόν - Άλγεβρα, Β' Γενικού Λυκείου και ΕΠΑΛ.
+
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1TYtV_YKweiQG0JhhEuiEveMGAkB1ZToN/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Διαφάνειες θεωρίας στα πολυώνυμα μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2021/12/22/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-15%ce%bf/>`__\ *και στα προηγούμενα μαθήματα.*
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: Vcdc2R520EM 
+
+

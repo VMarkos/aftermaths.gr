@@ -1,0 +1,33 @@
+Τεστάκι της Ημέρας - Σύνολα
+###########################
+
+.. meta::
+	:date: 2023-10-06 09:55
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: σύνολα, τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2023/10/luigi_russolo_solidity-of-fog-1912.jpg
+
+.. figure:: /wp-content/uploads/2023/10/luigi_russolo_solidity-of-fog-1912.jpg
+	:alt: Ο πίνακας *Μοναξιά της ομίχλης* του `Luigi Russolo <https://drive.google.com/file/d/19-IjReeh-rmqIGhQcPifNoIXb1sNKvWH/view?usp=sharing>`__. 
+	:align: center
+
+	Ο πίνακας *Μοναξιά της ομίχλης* του `Luigi Russolo <https://drive.google.com/file/d/19-IjReeh-rmqIGhQcPifNoIXb1sNKvWH/view?usp=sharing>`__. 
+
+
+Τα θυμάστε αυτά τα τεστάκια από τις προηγούμενες σεζόν, και φέτος λοιπόν μαζί μας. Τι πιο φυσικό μετά από ένα `φύλλο εργασίας <https://aftermaths.gr/2023/10/04/%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%80%cf%81%ce%ac%ce%be%ce%b5%ce%b9%cf%82/>`__ και λίγες `ασκήσεις <https://aftermaths.gr/2023/10/05/%cf%84%ce%b1-%ce%b2%ce%b1%cf%83%ce%b9%ce%ba%ce%ac-%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1/>`__ στα σύνολα και τις βασικές τους πράξεις, να μην ακολουθήσει ένα τεστάκι; Σαφώς, απευθύνεται σε μαθητές Α' Λυκείου και, αν έχετε όρεξη, και ΕΠΑΛ.
+
+Το τεστάκι μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/19-IjReeh-rmqIGhQcPifNoIXb1sNKvWH/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: nzbiw7dC0gA 
+
+

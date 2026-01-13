@@ -1,0 +1,35 @@
+Άλγεβρα, Α' Λυκείου - Μάθημα 15ο
+################################
+
+.. meta::
+	:date: 2021-12-20 09:51
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παραμετρικές, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, δευτεροβάθμιες, διαφάνειες, εξισώσεις, θεωρία
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-15%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2021/12/emile_claus_-_the_old_gardener.jpg
+
+.. figure:: /wp-content/uploads/2021/12/emile_claus_-_the_old_gardener.jpg
+	:alt: Ο πίνακας *Ο γερο-κηπουρός* του `Emile Claus <https://en.wikipedia.org/wiki/Emile_Claus>`__. 
+	:align: center
+
+	Ο πίνακας *Ο γερο-κηπουρός* του `Emile Claus <https://en.wikipedia.org/wiki/Emile_Claus>`__. 
+
+
+Λίγες διαφάνειες στις δευτεροβάθμιες παραμετρικές εξισώσεις - Άλγεβρα, Α' Γενικού Λυκείου και ΕΠΑΛ.
+
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1jsoROwwcg2gUjfb4mqhESFVQDwLiF5eu/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2021/12/13/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-14%ce%bf/>`__\ *ενώ τις αντίστοιχες διαφάνειες της Β' Λυκείου*\ `εδώ <https://aftermaths.gr/2021/12/15/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-14%ce%bf/>`__\ *.*
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: 2yT7NNvcA0I 
+
+

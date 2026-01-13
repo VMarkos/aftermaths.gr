@@ -1,0 +1,26 @@
+Ασκήσεις στις διαιρέσεις ακεραίων (ΑΕΠΠ)
+########################################
+
+.. meta::
+	:date: 2019-06-29 19:54
+	:author: aftermathsgr
+	:category: ΑΕΠΠ, Διδακτικό υλικό
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, Διαίρεση, ασκήσεις, δομή επιλογής
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b4%ce%b9%ce%b1%ce%b9%cf%81%ce%ad%cf%83%ce%b5%ce%b9%cf%82-%ce%b1%ce%ba%ce%b5%cf%81%ce%b1%ce%af%cf%89%ce%bd-%ce%b1%ce%b5
+	:status: published
+	:attachments: wp-content/uploads/2019/06/matisse_mur_rose.jpg
+
+.. figure:: /wp-content/uploads/2019/06/matisse_mur_rose.jpg
+	:alt: Ο πίνακας *Ο ροζ τοίχος* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ο ροζ τοίχος* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/19iRSrsWXiFB_RdIkSV4lV2qcgMmEEHTA/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. youtube:: wmcT2EQZifk 

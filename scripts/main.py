@@ -252,7 +252,7 @@ def main():
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
     # Fix content
     fnames = get_files_in_dir(Config.CONTENT_DIR, "rst")
-    # create_content_tree(Config.CONTENT_ROOT)
+    create_content_tree(Config.CONTENT_ROOT)
     for file_path in tqdm(map(os.path.abspath, fnames)):
         # fix_math_content(file_path)
         # fix_forward_slashes(file_path)
@@ -260,7 +260,7 @@ def main():
         # fix_main_image(file_path)
         # fix_meta_content(file_path)
         # fix_raw_html_videos(file_path)
-        # relocate_file(file_path)
+        relocate_file(file_path)
 
 
 if __name__ == "__main__":

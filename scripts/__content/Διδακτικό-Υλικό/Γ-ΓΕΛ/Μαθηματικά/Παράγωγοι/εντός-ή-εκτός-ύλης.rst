@@ -1,0 +1,35 @@
+Εντός ή εκτός ύλης;
+###################
+
+.. meta::
+	:date: 2022-03-20 12:46
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παράγωγος, πανελλήνιες, Γ' λυκείου, ΘΜΤ, ασκήσεις
+	:slug: %ce%b5%ce%bd%cf%84%cf%8c%cf%82-%ce%ae-%ce%b5%ce%ba%cf%84%cf%8c%cf%82-%cf%8d%ce%bb%ce%b7%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2022/03/henri_leys_-_self-portrait.jpg
+
+.. figure:: /wp-content/uploads/2022/03/henri_leys_-_self-portrait.jpg
+	:alt: Μία αυτοπροσωπογραφία του `Jan August Hendrick Leys <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 
+	:align: center
+
+	Μία αυτοπροσωπογραφία του `Jan August Hendrick Leys <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 
+
+
+Είναι, αλήθεια, εντός ή εκτός ύλης οι διαφορικές εξισώσεις από την ύλη των πανελληνίων; Κι αν είναι κι αν δεν είναι, μπορούμε να λύσουμε κάποιες που φλερτάρουν με τα εργαλεία της ύλης μας. ;)
+
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/148N778NWqrt3dOb55pCerws6ia0Ogvr1/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Επαναληπτικά θέματα για τις πανελλήνιες μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/03/12/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-2/>`__\ *κι*\ `εδώ <https://aftermaths.gr/2022/03/04/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-1/>`__\ *ενώ, γενικότερα, υλικό για τις πανελλήνιες, μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *κι*\ `εδώ <https://aftermaths.gr/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
+
+
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+
+
+
+   .. youtube:: itKOUFh3rlc 
+
+

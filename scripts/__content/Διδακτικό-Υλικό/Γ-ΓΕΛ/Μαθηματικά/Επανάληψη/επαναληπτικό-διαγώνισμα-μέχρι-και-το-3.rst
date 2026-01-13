@@ -1,0 +1,26 @@
+Επαναληπτικό διαγώνισμα μέχρι και τον ορισμό της παραγώγου (Β' έκδοση)
+######################################################################
+
+.. meta::
+	:date: 2019-01-30 23:53
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασύμπτωτες, ασκήσεις, διαγώνισμα, επανάληψη
+	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%bc%ce%ad%cf%87%cf%81%ce%b9-%ce%ba%ce%b1%ce%b9-%cf%84%ce%bf-3
+	:status: published
+	:attachments: wp-content/uploads/2019/01/800px-c._d._friedrich_-_greifswald_harbour.jpg
+
+.. figure:: /wp-content/uploads/2019/01/800px-c._d._friedrich_-_greifswald_harbour.jpg
+	:alt: Ο πίνακας *Το λιμάνι του Greifswald* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Το λιμάνι του Greifswald* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+
+
+Το διαγώνισμα βρίσκεται `εδώ <https://drive.google.com/file/d/1P4Sf2usFwC02wR12pGNGRJYjD9j9cmk5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+.. youtube:: UAr6LlnScgQ 
