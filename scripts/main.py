@@ -247,6 +247,15 @@ def raw_fix_fn(line: str, params: dict[str, any]=dict()) -> str:
     return line
 
 
+def fix_internal_urls(path: str) -> None:
+    fix_content(path, url_fix_fn)
+
+
+def url_fix_fn(line: str, params: dict=dict()) -> str:
+    ...
+
+
+
 def main():
     # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
