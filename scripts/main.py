@@ -251,8 +251,21 @@ def fix_internal_urls(path: str) -> None:
     fix_content(path, url_fix_fn)
 
 
+def href_repl(m) -> str:
+    href = m.group(0)
+    domains = { 'aftermathsgr.wordpress.com', 'aftermaths.gr' }
+    DOCS_ROOT = 'docs' # FIXME: You might also need a path variable for the project itself
+    if any(x in href for x in domains):
+        target = href.split('/')[-1] + '.rst'
+        for dirpath, dirnames, filenames in os.walk(DOCS_ROOT):
+            if target in filenames:
+                return os.path.join(dirpath, target)
+    return href
+
+
 def url_fix_fn(line: str, params: dict=dict()) -> str:
-    ...
+    fixed_line = re.sub(r'`.+\s+<(.+)>`__', href_repl, line)
+    return fixed_line
 
 
 
@@ -269,7 +282,8 @@ def main():
         # fix_main_image(file_path)
         # fix_meta_content(file_path)
         # fix_raw_html_videos(file_path)
-        relocate_file(file_path)
+        # relocate_file(file_path)
+        fix_internal_urls(file_path)
 
 
 if __name__ == "__main__":
