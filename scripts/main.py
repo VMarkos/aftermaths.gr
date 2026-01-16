@@ -265,7 +265,10 @@ def href_repl(m) -> str:
         target = unencode_filename(target) + '.rst'
         for dirpath, dirnames, filenames in os.walk(Config.CONTENT_STRUCT_DIR):
             if target in filenames:
-                return f'`{text} <{os.path.join(dirpath, target)}>`__'
+                path_split = os.path.split(dirpath)
+                content_index = path_split.index('__content') + 1
+                dirs = os.path.join(path_split[content_index:])
+                return f'`{text} <{os.path.join(dirs, target)}>`__'
     return f'`{text} <{href}>`__'
 
 
