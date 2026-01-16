@@ -1,0 +1,33 @@
+Λυμένα παραδείγματα (όρια)
+##########################
+
+.. meta::
+	:date: 2020-09-01 11:05
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, προβλήματα, πανελλήνιες, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, λυμένα παραδείγματα
+	:slug: %ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%cf%80%ce%b1%cf%81%ce%b1%ce%b4%ce%b5%ce%af%ce%b3%ce%bc%ce%b1%cf%84%ce%b1-%cf%8c%cf%81%ce%b9%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2020/09/1280px-le_malade_imaginaire.jpg
+
+.. figure:: /wp-content/uploads/2020/09/1280px-le_malade_imaginaire.jpg
+	:alt: Ο πίνακας *Ο κατά φαντασίαν ασθενής* του `Honoré Daumier <https://en.wikipedia.org/wiki/Honor%C3%A9_Daumier>`__. 
+	:align: center
+
+	Ο πίνακας *Ο κατά φαντασίαν ασθενής* του `Honoré Daumier <https://en.wikipedia.org/wiki/Honor%C3%A9_Daumier>`__. 
+
+
+Σε συνέχεια των `λυμένων παραδειγμάτων στις συναρτήσεις <https://aftermathsgr.wordpress.com/2020/08/29/%ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%cf%80%ce%b1%cf%81%ce%b1%ce%b4%ce%b5%ce%af%ce%b3%ce%bc%ce%b1%cf%84%ce%b1-%ce%ad%ce%b3%cf%87%cf%81%cf%89%ce%bc%ce%b1/>`__, ακολουθούν κάποια λυμένα παραδείγματα στα όρια. Τα παραδείγματα αυτά καλύπτουν τις βασικές περιπτώσεις απροσδιοριστιών που είναι διαχειρίσιμες χωρίς τη χρήση των κανόνων de l' Hôspital - αυτά τα όρια θα εξεταστούν και θα παρουσιαστούν στο τέλος της ενότητας των παραγώγων, άλλωστε.
+
+Τα λυμένα παραδείγματα βρίσκονται `εδώ <https://drive.google.com/file/d/17pQbGN_ewdQUBnRiU_T189cKTNpKpYcB/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: VJmi7rs5AZ4 
+
+

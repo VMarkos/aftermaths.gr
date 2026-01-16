@@ -1,0 +1,33 @@
+Μία Χριστουγεννιάτικη επανάληψη στην Άλγεβρα (Β' Λυκείου)
+#########################################################
+
+.. meta::
+	:date: 2018-12-20 13:51
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: συστήματα, συναρτήσεις, τριγωνομετρία, Β' Λυκείου, Χριστούγεννα, άλγεβρα, επανάληψη
+	:slug: %ce%bc%ce%af%ce%b1-%cf%87%cf%81%ce%b9%cf%83%cf%84%ce%bf%cf%85%ce%b3%ce%b5%ce%bd%ce%bd%ce%b9%ce%ac%cf%84%ce%b9%ce%ba%ce%b7-%ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%cf%83%cf%84%ce%b7
+	:status: published
+	:attachments: wp-content/uploads/2018/12/2017_NYR_15004_0028A_000vincent_van_gogh_laboureur_dans_un_champ.jpg
+
+.. figure:: /wp-content/uploads/2018/12/2017_NYR_15004_0028A_000vincent_van_gogh_laboureur_dans_un_champ.jpg
+	:alt: Ο πίνακας *Αγρότης σε ένα χωράφι* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Αγρότης σε ένα χωράφι* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+
+
+Μία πολύ συνοπτική παρουσίαση της θεωρίας και των ασκήσεων των τριών πρώτων κεφαλαίων (Συστήματα, Συναρτήσεις, Τριγωνομετρία) για να περάσουμε όμορφα τις διακοπές μας.
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1AMqAJMLpUYh_sGVKQ6JUfMzheWNAN20a/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλά Χριστούγεννα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: foK8SyPqH54 
+
+

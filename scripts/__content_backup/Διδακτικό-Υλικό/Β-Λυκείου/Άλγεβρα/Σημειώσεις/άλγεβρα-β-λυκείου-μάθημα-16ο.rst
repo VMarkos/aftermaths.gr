@@ -1,0 +1,35 @@
+Άλγεβρα, Β' Λυκείου - Μάθημα 16ο
+################################
+
+.. meta::
+	:date: 2022-01-12 08:32
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Horner, πολυώνυμα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, διαφάνειες, εξισώσεις, θεωρία
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-16%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2022/01/emile_claus_-_haystacks_in_the_snow.jpg
+
+.. figure:: /wp-content/uploads/2022/01/emile_claus_-_haystacks_in_the_snow.jpg
+	:alt: Ο πίνακας *Χιονισμένες θημωνιές* του `Emile Claus <https://en.wikipedia.org/wiki/Emile_Claus>`__. 
+	:align: center
+
+	Ο πίνακας *Χιονισμένες θημωνιές* του `Emile Claus <https://en.wikipedia.org/wiki/Emile_Claus>`__. 
+
+
+Λίγες διαφάνειες στις πολυωνυμικές εξισώσεις και το Σχήμα Horner - Άλγεβρα Β' Γενικού Λυκείου και ΕΠΑΛ.
+
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1i5lyRKa0uaRC3U--bj1Kx3iyf5HsZ8bF/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2021/12/22/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-15%ce%bf/>`__\ *ενώ τις αντίστοιχες διαφάνειες της Α' Λυκείου*\ `εδώ <https://aftermaths.gr/2022/01/10/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-16%ce%bf/>`__\ *.*
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: eGkmdPCsMkE =PLVElub974Qw35OQgzSV_mUja2hqwFngeH&index=125
+
+

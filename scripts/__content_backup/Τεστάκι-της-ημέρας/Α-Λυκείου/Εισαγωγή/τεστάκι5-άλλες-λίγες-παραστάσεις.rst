@@ -1,0 +1,35 @@
+Τεστάκι #005 - Άλλες λίγες Παραστάσεις
+######################################
+
+.. meta::
+	:date: 2022-11-03 18:38
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παραστάσεις, τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ανισότητες
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-005-%ce%ac%ce%bb%ce%bb%ce%b5%cf%82-%ce%bb%ce%af%ce%b3%ce%b5%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: wp-content/uploads/2022/11/1280px-gustave_caillebotte_-_rooftops_in_the_snow_snow_effect_-_google_art_project.jpg
+
+.. figure:: /wp-content/uploads/2022/11/1280px-gustave_caillebotte_-_rooftops_in_the_snow_snow_effect_-_google_art_project.jpg
+	:alt: Ο πίνακας *Χιονισμένες Σκεπές* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+	:align: center
+
+	Ο πίνακας *Χιονισμένες Σκεπές* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+
+
+Ένα (ακόμα) μικρό πλην όμως κομψό τεστάκι πάνω στις απλές πράξεις με ανισότητες και τις βασικές τους ιδιότητες - Άλγεβρα, Α' Γενικού Λυκείου και ΕΠΑΛ.
+
+Το τεστάκι μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1-nvaNLj2CZzsHM_OJzmNXfL0KGINS5bS/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+*Το προηγούμενο τεστάκι μπορείτε να το βρείτε*\ `εδώ <https://aftermaths.gr/2022/10/24/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-004-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82-%ce%ba%ce%b1%ce%b9-%ce%bb%ce%af%ce%b3%ce%b5%cf%82-%cf%80%cf%81%ce%ac%ce%be%ce%b5/>`__\ *, ενώ όλα τα τεστάκια*\ `εδώ <https://aftermaths.gr/category/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82/>`__\ *.*
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+
+
+
+   .. youtube:: z_kF4 -ODn2I
+
+

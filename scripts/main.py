@@ -252,19 +252,25 @@ def fix_internal_urls(path: str) -> None:
 
 
 def href_repl(m) -> str:
-    href = m.group(0)
+    text = m.group(1)
+    href = m.group(2)
     domains = { 'aftermathsgr.wordpress.com', 'aftermaths.gr' }
     DOCS_ROOT = 'docs' # FIXME: You might also need a path variable for the project itself
     if any(x in href for x in domains):
-        target = href.split('/')[-1] + '.rst'
+        href_split = href.split('/')
+        if href_split[-1]:
+            target = href_split[-1]
+        else:
+            target = href_split[-2]
+        target = target + '.rst'
         for dirpath, dirnames, filenames in os.walk(DOCS_ROOT):
             if target in filenames:
-                return os.path.join(dirpath, target)
-    return href
+                return f'{text} <{os.path.join(dirpath, target)}>`__'
+    return f'`{text} <{href}>`__'
 
 
 def url_fix_fn(line: str, params: dict=dict()) -> str:
-    fixed_line = re.sub(r'`.+\s+<(.+)>`__', href_repl, line)
+    fixed_line = re.sub(r'`(.+)\s+<(.+)>`__', href_repl, line)
     return fixed_line
 
 
@@ -273,8 +279,8 @@ def main():
     # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
     # Fix content
-    fnames = get_files_in_dir(Config.CONTENT_DIR, "rst")
-    create_content_tree(Config.CONTENT_ROOT)
+    fnames = get_files_in_dir(Config.CONTENT_STRUCT_DIR, "rst")
+    # create_content_tree(Config.CONTENT_ROOT)
     for file_path in tqdm(map(os.path.abspath, fnames)):
         # fix_math_content(file_path)
         # fix_forward_slashes(file_path)

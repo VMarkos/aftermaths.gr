@@ -1,0 +1,46 @@
+Άλγεβρα, Α' Λυκείου - Μάθημα 28ο
+################################
+
+.. meta::
+	:date: 2022-04-04 08:49
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, ΕΠΑΛ, ασκήσεις, διαφάνειες, επανάληψη, θεωρία
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-28%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2022/04/eugene_delacroix_-_jeune_orpheline_au_cimetiere_vers_1824.jpg
+
+.. figure:: /wp-content/uploads/2022/04/eugene_delacroix_-_jeune_orpheline_au_cimetiere_vers_1824.jpg
+	:alt: Ο πίνακας *Ορφανό κορίτσι στο Νεκροταφείο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+	:align: center
+
+	Ο πίνακας *Ορφανό κορίτσι στο Νεκροταφείο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+
+
+Διάφορες επαναληπτικές ασκήσεις από το σχολικό βιβλίο και όχι μόνο. Εξισώσεις, ανισώσεις, αποδείξεις, ιδιότητες πράξεων, όλα όσα είδαμε μέσα στην ύλη - εντάξει, όχι κι όλα, πόσα να χωρέσουν σε έξι (6) διαφάνειες, άλλωστε. Αρκετά, ωστόσο, για να φρεσκάρουμε αρκετά σημεία της ύλης! :)
+
+Στις τελευταίες διαφάνειες περιέχονται κάποιες ερωτήσεις Σωστού/Λάθους για μία ακόμα γρήγορη επανάληψη σε βασικές ιδιότητες των πραγματικών αριθμών.
+
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/16CrODdKd_ZolOuQioKH8vmi5cAPYszmm/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2022/03/28/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-27%ce%bf/>`__\ *ενώ τις αντίστοιχες της Β' Λυκείου*\ `εδώ <https://aftermaths.gr/2022/03/30/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-27%ce%bf/>`__\ *.*
+
+Μπορείτε επίσης να βρείτε τις παραπάνω διαφάνειες και στο `slideshare <https://www.slideshare.net/ssuserbf550d/>`__:
+
+
+
+
+   https://www.slideshare.net/ssuserbf550d/28-251505239
+
+
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: iln67Kh41So 
+
+

@@ -1,0 +1,26 @@
+Επαναληπτικό διαγώνισμα εφ' όλης της ύλης VIII
+##############################################
+
+.. meta::
+	:date: 2019-06-15 13:44
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, διαγώνισμα, επανάληψη
+	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%8d-11
+	:status: published
+	:attachments: wp-content/uploads/2019/06/777px-van_gogh_-_zwei_grabende_bc3a4uerinnen_auf_schneebedecktem_feld.jpeg
+
+.. figure:: /wp-content/uploads/2019/06/777px-van_gogh_-_zwei_grabende_bc3a4uerinnen_auf_schneebedecktem_feld.jpeg
+	:alt: Ο πίνακας *Δύο αγρότισσες σε ένα χιονισμένο λιβάδι* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Δύο αγρότισσες σε ένα χιονισμένο λιβάδι* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+
+
+Το διαγώνισμα βρίσκεται `εδώ <https://drive.google.com/file/d/1de1hlkt5zc4L_x5H1FbFyiUNfh3w9yyu/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. youtube:: Cue7fJIjLJs 

@@ -1,0 +1,35 @@
+Πανελλήνιες - Επαναληπτικό Θέμα #9
+##################################
+
+.. meta::
+	:date: 2022-05-04 13:26
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη, λυμένα παραδείγματα
+	:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-9
+	:status: published
+	:attachments: wp-content/uploads/2022/05/delacroix_andromeda.jpg
+
+.. figure:: /wp-content/uploads/2022/05/delacroix_andromeda.jpg
+	:alt: Ο πίνακας *Περσέας και Ανδρομέδα* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+	:align: center
+
+	Ο πίνακας *Περσέας και Ανδρομέδα* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+
+
+Πώς τα πάμε από τριγωνομετρία; Όπως κι αν τα πηγαίνουμε, ευκαιρία να την ξεσκονίσουμε λίγο πριν τις πανελλήνιες!
+
+Το θέμα μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1NheSoYSLyk3xrNIelKbOJ0Qs9vzpPQZV/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Προηγούμενα θέματα μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/04/26/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-7/>`__\ *κι*\ `εδώ <https://aftermaths.gr/2022/04/29/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-8/>`__\ *, ενώ υλικό για τις πανελλήνιες μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *κι*\ `εδώ <https://aftermaths.gr/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
+
+
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+
+
+
+   .. youtube:: EezTivOQnvE 
+
+

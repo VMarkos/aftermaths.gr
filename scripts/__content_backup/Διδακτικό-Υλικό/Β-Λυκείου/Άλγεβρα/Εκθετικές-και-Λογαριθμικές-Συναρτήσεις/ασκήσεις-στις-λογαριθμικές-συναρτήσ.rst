@@ -1,0 +1,26 @@
+Ασκήσεις στις λογαριθμικές συναρτήσεις
+######################################
+
+.. meta::
+	:date: 2019-04-26 11:38
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, συναρτήσεις, Β' Λυκείου, ασκήσεις, εκθετική, λογαριθμική
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%bb%ce%bf%ce%b3%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%b9%ce%ba%ce%ad%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83
+	:status: published
+	:attachments: wp-content/uploads/2019/04/red_vineyards.jpg
+
+.. figure:: /wp-content/uploads/2019/04/red_vineyards.jpg
+	:alt: Ο πίνακας *Ο κόκκινος αμπελώνας* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ο κόκκινος αμπελώνας* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1XO-Nfic1VFOWP_hBC5fPE4CLKOdS0JWd/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+.. youtube:: IRFCioX7K5k 

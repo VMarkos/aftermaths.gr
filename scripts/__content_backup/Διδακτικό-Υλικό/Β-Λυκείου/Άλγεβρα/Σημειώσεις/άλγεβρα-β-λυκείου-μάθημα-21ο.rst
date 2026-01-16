@@ -1,0 +1,35 @@
+Άλγεβρα, Β' Λυκείου - Μάθημα 21ο
+################################
+
+.. meta::
+	:date: 2022-02-16 12:16
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πολυώνυμα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ανισώσεις, διαφάνειες, θεωρία, λυμένα παραδείγματα
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-21%ce%bf
+	:status: published
+	:attachments: wp-content/uploads/2022/02/814px-anna_alma_tadema_1864-1940_and_laurense_alma_tadema_1865-1940_by_lawrence_alma-tadema.jpg
+
+.. figure:: /wp-content/uploads/2022/02/814px-anna_alma_tadema_1864-1940_and_laurense_alma_tadema_1865-1940_by_lawrence_alma-tadema.jpg
+	:alt: Ο πίνακας *Η γωνιά μας (πορτραίτο της κόρης του καλλιτέχνη)* του `Lawrence Alma-Tadema <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
+	:align: center
+
+	Ο πίνακας *Η γωνιά μας (πορτραίτο της κόρης του καλλιτέχνη)* του `Lawrence Alma-Tadema <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
+
+
+Λίγες τελευταίες πολυωνυμικές και άρρητες ανισώσεις - Άλγεβρα, Β' Γενικού Λυκείου (και λίγο ΕΠΑΛ).
+
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1pjPkFC6eIyqIlyI7luprHaR4wkbWEQ_B/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2022/02/09/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-20%ce%bf/>`__\ *ενώ τις αντίστοιχες διαφάνειες της Α' Λυκείου*\ `εδώ <https://aftermaths.gr/2022/02/14/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-21%ce%bf/>`__\ *.*
+
+
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+
+
+
+   .. youtube:: 5sl_TvBXbsA 
+
+

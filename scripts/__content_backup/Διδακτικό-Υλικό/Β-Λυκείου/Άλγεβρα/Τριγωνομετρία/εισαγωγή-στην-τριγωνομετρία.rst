@@ -1,0 +1,26 @@
+Εισαγωγή στην τριγωνομετρία
+###########################
+
+.. meta::
+	:date: 2019-12-01 23:38
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, τριγωνομετρία, Β' Λυκείου, ασκήσεις, εισαγωγή
+	:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%b7%ce%bd-%cf%84%cf%81%ce%b9%ce%b3%cf%89%ce%bd%ce%bf%ce%bc%ce%b5%cf%84%cf%81%ce%af%ce%b1
+	:status: published
+	:attachments: wp-content/uploads/2019/12/430px-picasso_portrait_of_daniel-henry_kahnweiler_1910.jpg
+
+.. figure:: /wp-content/uploads/2019/12/430px-picasso_portrait_of_daniel-henry_kahnweiler_1910.jpg
+	:alt: Ο πίνακας *Το πορτραίτο του Daniel-Henry Kahnweiler* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Το πορτραίτο του Daniel-Henry Kahnweiler* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+
+
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1B4C5Xi74gnRcpRPa8VMvfmX_WTa_x50K/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+.. youtube:: zq49rymjvNg 
