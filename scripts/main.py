@@ -262,10 +262,10 @@ def href_repl(m) -> str:
             target = href_split[-1]
         else:
             target = href_split[-2]
-        target = target + '.rst'
-        for dirpath, dirnames, filenames in os.walk(DOCS_ROOT):
+        target = unencode_filename(target) + '.rst'
+        for dirpath, dirnames, filenames in os.walk(Config.CONTENT_STRUCT_DIR):
             if target in filenames:
-                return f'{text} <{os.path.join(dirpath, target)}>`__'
+                return f'`{text} <{os.path.join(dirpath, target)}>`__'
     return f'`{text} <{href}>`__'
 
 

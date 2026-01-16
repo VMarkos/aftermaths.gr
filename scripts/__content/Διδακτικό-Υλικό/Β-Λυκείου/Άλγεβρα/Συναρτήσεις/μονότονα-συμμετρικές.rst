@@ -17,7 +17,7 @@
 	Ο πίνακας *Οι χαρτοπαίκτες* του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 
 
 
-Είδαμε ένα `φύλλο εργασίας <https://aftermaths.gr/2023/10/28/%cf%80%ce%ac%ce%bd%cf%89-%ce%ba%ce%ac%cf%84%cf%89-%ce%b1%cf%81%ce%b9%cf%83%cf%84%ce%b5%cf%81%ce%ac-%ce%ba%ce%b1%ce%b9-%ce%b4%ce%b5%ce%be%ce%b9%ce%ac/>`__, καιρός για προπόνηση! Δύο μικρά (ή και όχι τόσο μικρά) θέματα πάνω σε γνησίως μονότονες και συμμετρικές συναρτήσεις.
+Είδαμε ένα φύλλο εργασίας </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Συναρτήσεις/πάνω-κάτω-αριστερά-και-δεξιά.rst>`__, καιρός για προπόνηση! Δύο μικρά (ή και όχι τόσο μικρά) θέματα πάνω σε γνησίως μονότονες και συμμετρικές συναρτήσεις.
 
 Τις ασκήσεις μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1OhOWvELeXzj2IB6enraPNkoEMltE3G-g/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
 

@@ -28,8 +28,8 @@
 Ξεκινάμε, λοιπόν, με τα πρώτα θέματα αυτής της σειράς, τα οποία μπορείτε να τα βρείτε `εδώ <https://drive.google.com/file/d/10ihzLwAr_DkoutN4trlLbrgkCv0MVAID/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 | Τη λίστα με τα θέματα μπορείτε να βρείτε εδώ:
-| `Θέματα από το βιβλίο (1) <https://aftermathsgr.wordpress.com/2020/03/11/%ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%ce%b1%cf%80%cf%8c-%cf%84%ce%bf-%ce%b2%ce%b9%ce%b2%ce%bb%ce%af%ce%bf-1/>`__
-| `Θέματα από το βιβλίο (2) <https://aftermathsgr.wordpress.com/2020/03/16/%ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%ce%b1%cf%80%cf%8c-%cf%84%ce%bf-%ce%b2%ce%b9%ce%b2%ce%bb%ce%af%ce%bf-2/>`__
+| Θέματα από το βιβλίο (1) </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Ολοκληρώματα/θέματα-από-το-βιβλίο-1.rst>`__
+| Θέματα από το βιβλίο (2) </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Ολοκληρώματα/θέματα-από-το-βιβλίο-2.rst>`__
 | `Θέματα από το βιβλίο (3) <https://drive.google.com/file/d/1vFAZEgAfTZz2FEcqnE1n1w0vQ-CNMDQK/view?usp=sharing>`__
 
 

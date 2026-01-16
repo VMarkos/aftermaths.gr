@@ -21,7 +21,7 @@
 
 Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1DdbppDsnDSBEQkwM3heTP70sXQbQFGM4/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
 
-Τις προηγούμενες ασκήσεις στη σύνθεση μπορείτε να τις βρείτε `εδώ <https://aftermaths.gr/2021/07/06/%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%cf%83%cf%8d%ce%bd%ce%b8%ce%b5%cf%83%ce%b7/>`__ και τις λύσεις τους `εδώ <https://aftermaths.gr/2021/07/07/%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%cf%83%cf%8d%ce%bd%ce%b8%ce%b5%cf%83%ce%b7-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82/>`__.
+Τις προηγούμενες ασκήσεις στη σύνθεση μπορείτε να τις βρείτε εδώ <https://aftermaths.gr/2021/07/06/%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%cf%83%cf%8d%ce%bd%ce%b8%ce%b5%cf%83%ce%b7/>`__ και τις λύσεις τους `εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Συναρτήσεις/ασκήσεις-στη-σύνθεση-λύσεις.rst>`__.
 
 Καλό απόγευμα και καλό διάβασμα!
 

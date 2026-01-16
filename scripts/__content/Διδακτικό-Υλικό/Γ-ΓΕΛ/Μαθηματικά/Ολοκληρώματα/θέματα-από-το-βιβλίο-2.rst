@@ -19,7 +19,7 @@
 
 Συνεχίζουμε με το δεύτερο σετ λυμένων θεμάτων από το σχολικό βιβλίο το οποίο μπορείτε να βρείτε `εδώ <https://drive.google.com/file/d/1emXjaMb7Il74TfgPV6HCsEL6bE4xMOwl/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Το πρώτο σετ με θέματα και η λίστα με όλα τα σετ βρίσκεται `εδώ <https://aftermathsgr.wordpress.com/2020/03/11/%ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%ce%b1%cf%80%cf%8c-%cf%84%ce%bf-%ce%b2%ce%b9%ce%b2%ce%bb%ce%af%ce%bf-1/>`__.
+Το πρώτο σετ με θέματα και η λίστα με όλα τα σετ βρίσκεται εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Ολοκληρώματα/θέματα-από-το-βιβλίο-1.rst>`__.
 
 
 

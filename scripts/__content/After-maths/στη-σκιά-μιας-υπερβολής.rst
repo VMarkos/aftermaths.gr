@@ -291,7 +291,7 @@
 
 .. math:: L\left(e^{\ln x}\right)=\ln x.
 
-Εδώ μπορούμε να λάβουμε υπ' όψιν μας και το εξής, όπως έχουμε αναλύσει και σε `προηγούμενη ανάρτηση <https://aftermathsgr.wordpress.com/2019/08/02/%ce%bf%ce%b9-50-%ce%b1%cf%80%ce%bf%cf%87%cf%81%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-e/>`__:
+Εδώ μπορούμε να λάβουμε υπ' όψιν μας και το εξής, όπως έχουμε αναλύσει και σε προηγούμενη ανάρτηση </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/After-maths/οι-50-αποχρώσεις-του-e.rst>`__:
 
 .. math:: \left(1+\dfrac{x}{n}\right)^n\approx e^x,
 
@@ -393,7 +393,7 @@
 
 Αν, τώρα,  :math:`x<0` , η απόδειξη είναι παρόμοια (απλά θα κουβαλάμε ένα «πλην» στο μεγαλύτερο τμήμα της απόδειξης, που δεν είναι κάτι τραγικό).
 
-Κι όμως, σε ένα σημείο έχουμε κλέψει! Εμείς `έχουμε δει <https://aftermathsgr.wordpress.com/2019/08/02/%ce%bf%ce%b9-50-%ce%b1%cf%80%ce%bf%cf%87%cf%81%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-e/>`__ ότι, καθώς το  :math:`n`  παίρνει αυθαίρετα μεγάλες τιμές, η παράσταση:
+Κι όμως, σε ένα σημείο έχουμε κλέψει! Εμείς έχουμε δει </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/After-maths/οι-50-αποχρώσεις-του-e.rst>`__ ότι, καθώς το  :math:`n`  παίρνει αυθαίρετα μεγάλες τιμές, η παράσταση:
 
 .. math:: \left(1+\dfrac{x}{n}\right)^n
 

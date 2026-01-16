@@ -21,7 +21,7 @@
 
 Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/126FtQ0gXWUvVYEsXgLNKMdBVAPtV-8tf/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
-*Αν βαριέστε και θέλετε να κάνετε κάτι για να περάσει η ώρα σας, δείτε*\ `εδώ <https://aftermaths.gr/2021/12/25/111-%cf%84%cf%81%cf%8c%cf%80%ce%bf%ce%b9-%ce%bd%ce%b1-%cf%87%cf%89%ce%bd%ce%ad%cf%88%ce%bf%cf%85%ce%bc%ce%b5-%cf%84%ce%bf-%cf%81%ce%b5%ce%b2%ce%b5%ce%b3%ce%b9%cf%8c%ce%bd/>`__\ *.*
+*Αν βαριέστε και θέλετε να κάνετε κάτι για να περάσει η ώρα σας, δείτε*\ εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Παράγωγοι/111-τρόποι-να-χωνέψουμε-το-ρεβεγιόν.rst>`__\ *.*
 
 
 

@@ -21,7 +21,7 @@
 
 Τις ασκήσεις μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1oa-K_XWm6JP7TRvqtIcfYT1cSbIWlseF/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
 
-Ένα προπαρασκευαστικό φύλλο εργασίας μπορείτε να βρείτε `εδώ <https://aftermaths.gr/2023/10/07/%cf%84%ce%b5%cf%84%cf%81%ce%ac%ce%b3%cf%89%ce%bd%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b5%cf%84%cf%81%ce%b1%ce%b3%cf%89%ce%bd%ce%ac%ce%ba%ce%b9%ce%b1/>`__.
+Ένα προπαρασκευαστικό φύλλο εργασίας μπορείτε να βρείτε εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Τεστάκι-της-ημέρας/Α-Λυκείου/Εισαγωγή/τετράγωνα-και-τετραγωνάκια.rst>`__.
 
 
 
