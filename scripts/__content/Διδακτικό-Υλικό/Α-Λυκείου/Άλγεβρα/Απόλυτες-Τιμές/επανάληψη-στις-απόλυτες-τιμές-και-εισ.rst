@@ -8,16 +8,16 @@
 	:tags: προβλήματα, Α' Λυκείου, απόλυτη τιμή, ασκήσεις, ανισώσεις, διαστήματα, επανάληψη, εξισώσεις
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82-%ce%ba%ce%b1%ce%b9-%ce%b5%ce%b9%cf%83
 	:status: published
-	:attachments: wp-content/uploads/2019/10/800px-vassily_kandinsky_1936_-_composition_ix.jpg
+	:attachments: _static/images/uploads/2019/10/800px-vassily_kandinsky_1936_-_composition_ix.jpg
 
-.. figure:: /wp-content/uploads/2019/10/800px-vassily_kandinsky_1936_-_composition_ix.jpg
-	:alt: Ο πίνακας *Σύνθεση ΙΧ* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+.. figure:: /_static/images/uploads/2019/10/800px-vassily_kandinsky_1936_-_composition_ix.jpg
+	:alt: Ο πίνακας *Σύνθεση ΙΧ* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Σύνθεση ΙΧ* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Σύνθεση ΙΧ* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
 
 
-Το φυλλάδιο βρίσκεται στη `εδώ <https://drive.google.com/file/d/1XKE7zc19gKVkc4p_ksA13FSwUZsfY0TS/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται στη `εδώ  <https://drive.google.com/file/d/1XKE7zc19gKVkc4p_ksA13FSwUZsfY0TS/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

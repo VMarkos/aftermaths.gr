@@ -8,18 +8,18 @@
 	:tags: σύνολα, τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1
 	:status: published
-	:attachments: wp-content/uploads/2023/10/luigi_russolo_solidity-of-fog-1912.jpg
+	:attachments: _static/images/uploads/2023/10/luigi_russolo_solidity-of-fog-1912.jpg
 
-.. figure:: /wp-content/uploads/2023/10/luigi_russolo_solidity-of-fog-1912.jpg
-	:alt: Ο πίνακας *Μοναξιά της ομίχλης* του `Luigi Russolo <https://drive.google.com/file/d/19-IjReeh-rmqIGhQcPifNoIXb1sNKvWH/view?usp=sharing>`__. 
+.. figure:: /_static/images/uploads/2023/10/luigi_russolo_solidity-of-fog-1912.jpg
+	:alt: Ο πίνακας *Μοναξιά της ομίχλης* του `Luigi Russolo  <https://drive.google.com/file/d/19-IjReeh-rmqIGhQcPifNoIXb1sNKvWH/view?usp=sharing>`__. 
 	:align: center
 
-	Ο πίνακας *Μοναξιά της ομίχλης* του `Luigi Russolo <https://drive.google.com/file/d/19-IjReeh-rmqIGhQcPifNoIXb1sNKvWH/view?usp=sharing>`__. 
+	Ο πίνακας *Μοναξιά της ομίχλης* του `Luigi Russolo  <https://drive.google.com/file/d/19-IjReeh-rmqIGhQcPifNoIXb1sNKvWH/view?usp=sharing>`__. 
 
 
-Τα θυμάστε αυτά τα τεστάκια από τις προηγούμενες σεζόν, και φέτος λοιπόν μαζί μας. Τι πιο φυσικό μετά από ένα φύλλο εργασίας <https://aftermaths.gr/2023/10/04/%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%80%cf%81%ce%ac%ce%be%ce%b5%ce%b9%cf%82/>`__ και λίγες `ασκήσεις </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Εισαγωγή/τα-βασικά-σύνολα.rst>`__ στα σύνολα και τις βασικές τους πράξεις, να μην ακολουθήσει ένα τεστάκι; Σαφώς, απευθύνεται σε μαθητές Α' Λυκείου και, αν έχετε όρεξη, και ΕΠΑΛ.
+Τα θυμάστε αυτά τα τεστάκια από τις προηγούμενες σεζόν, και φέτος λοιπόν μαζί μας. Τι πιο φυσικό μετά από ένα `φύλλο εργασίας  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Εισαγωγή/σύνολα-και-πράξεις.rst>`__ και λίγες `ασκήσεις  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Εισαγωγή/τα-βασικά-σύνολα.rst>`__ στα σύνολα και τις βασικές τους πράξεις, να μην ακολουθήσει ένα τεστάκι; Σαφώς, απευθύνεται σε μαθητές Α' Λυκείου και, αν έχετε όρεξη, και ΕΠΑΛ.
 
-Το τεστάκι μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/19-IjReeh-rmqIGhQcPifNoIXb1sNKvWH/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/19-IjReeh-rmqIGhQcPifNoIXb1sNKvWH/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
 
 
 

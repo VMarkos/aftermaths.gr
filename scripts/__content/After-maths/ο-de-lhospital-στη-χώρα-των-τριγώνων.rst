@@ -8,13 +8,13 @@
 	:tags: featured, πανελλήνιες, Γ' λυκείου, l&#039;hospital
 	:slug: %ce%bf-de-lhospital-%cf%83%cf%84%ce%b7-%cf%87%cf%8e%cf%81%ce%b1-%cf%84%cf%89%ce%bd-%cf%84%cf%81%ce%b9%ce%b3%cf%8e%ce%bd%cf%89%ce%bd
 	:status: published
-	:attachments: wp-content/uploads/2022/11/best_approx.png, wp-content/uploads/2022/11/best_approx_02.png, wp-content/uploads/2022/11/dlh_f_g-1.png, wp-content/uploads/2022/11/infty_approx_01.png, wp-content/uploads/2022/11/best_approx_01.png, wp-content/uploads/2022/11/best_approx_04.png, wp-content/uploads/2022/11/gustave_caillebotte_-_the_yellow_fields_at_gennevilliers.jpg, wp-content/uploads/2022/11/dlh_f_g.png, wp-content/uploads/2022/11/infty_approx_02.png, wp-content/uploads/2022/11/best_approx_03.png
+	:attachments: _static/images/uploads/2022/11/best_approx.png, _static/images/uploads/2022/11/best_approx_02.png, _static/images/uploads/2022/11/dlh_f_g-1.png, _static/images/uploads/2022/11/infty_approx_01.png, _static/images/uploads/2022/11/best_approx_01.png, _static/images/uploads/2022/11/best_approx_04.png, _static/images/uploads/2022/11/gustave_caillebotte_-_the_yellow_fields_at_gennevilliers.jpg, _static/images/uploads/2022/11/dlh_f_g.png, _static/images/uploads/2022/11/infty_approx_02.png, _static/images/uploads/2022/11/best_approx_03.png
 
-.. figure:: /wp-content/uploads/2022/11/best_approx.png, wp-content/uploads/2022/11/best_approx_02.png, wp-content/uploads/2022/11/dlh_f_g-1.png, wp-content/uploads/2022/11/infty_approx_01.png, wp-content/uploads/2022/11/best_approx_01.png, wp-content/uploads/2022/11/best_approx_04.png, wp-content/uploads/2022/11/gustave_caillebotte_-_the_yellow_fields_at_gennevilliers.jpg, wp-content/uploads/2022/11/dlh_f_g.png, wp-content/uploads/2022/11/infty_approx_02.png, wp-content/uploads/2022/11/best_approx_03.png
-	:alt: Ο καθ'όλα φθινοπωρινός πίνακας *Τα κίτρινα λιβάδια της Gennevilliers* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+.. figure:: /_static/images/uploads/2022/11/best_approx.png, _static/images/uploads/2022/11/best_approx_02.png, _static/images/uploads/2022/11/dlh_f_g-1.png, _static/images/uploads/2022/11/infty_approx_01.png, _static/images/uploads/2022/11/best_approx_01.png, _static/images/uploads/2022/11/best_approx_04.png, _static/images/uploads/2022/11/gustave_caillebotte_-_the_yellow_fields_at_gennevilliers.jpg, _static/images/uploads/2022/11/dlh_f_g.png, _static/images/uploads/2022/11/infty_approx_02.png, _static/images/uploads/2022/11/best_approx_03.png
+	:alt: Ο καθ'όλα φθινοπωρινός πίνακας *Τα κίτρινα λιβάδια της Gennevilliers* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
 	:align: center
 
-	Ο καθ'όλα φθινοπωρινός πίνακας *Τα κίτρινα λιβάδια της Gennevilliers* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+	Ο καθ'όλα φθινοπωρινός πίνακας *Τα κίτρινα λιβάδια της Gennevilliers* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
 
 
 Ο φόβος κι ο τρόμος όλων των ορίων κι όλων των μαθηματικών της Γ' Λυκείου είναι, αναμφίβολα, οι κανόνες De L'Hôspital (DLH, από εδώ και στο εξής, γιατί αυτό το «ô» είναι πολύ κουραστικό για όσους δεν έχουμε κάποιο γαλλικό layout στο πληκτρολόγιο). Κάνουν τα εύκολα δύσκολα και τα δύσκολα εύκολα όταν πρόκειται για όρια, λύνουν τα χέρια των μαθητών κατά κάποιους και τους αποχαυνώνουν, κατά κάποιους άλλους. Αποκαλύπτουν λεπτά σημεία σε σχέση με τη διαίσθηση των ορίων πηλίκων και συνάμα κρύβουν πολλές φορές την ουσία ενός υπολογισμού. Γενικά, αν δεν το έχετε καταλάβει ήδη, οι κανόνες DLH είναι ίσως ένα από τα πιο αμφίσημα σημεία της σχολικής ύλης. Κι αυτή η αμφισημία τους είναι που τους καθιστά και τόσο ενδιαφέροντες - ή, τουλάχιστον, έτσι λέμε μεταξύ μας οι μαθηματικοί.
@@ -35,7 +35,7 @@
 
 Κεντρικό ρόλο σε όσα θα παρουσιάσουμε παρακάτω θα παίξει η έννοια της εφαπτομένης και, μάλιστα, η έννοια της εφαπτομένης ως βέλτιστης γραμμικής προσέγγισης της γραφικής παράστασης μίας συνάρτησης σ' ένα σημείο. Τώρα, αυτό ακούστηκε λίγο περίπλοκο, αλλά δεν είναι. Για την ακρίβεια, όσα θα συζητήσουμε από εδώ και στο εξής, είναι οι χίλιες λέξεις που αντιστοιχούν στην παρακάτω εικόνα:
 
-.. figure:: {static}wp-content/uploads/2022/11/best_approx.png?w=918
+.. figure:: {static}_static/images/uploads/2022/11/best_approx.png?w=918
    :alt: Ζουμ, ζουμ, ζουμ!
    :figclass: wp-image-11450
 
@@ -68,7 +68,7 @@
 
 Πρακτικά, αν έχουμε ένα όριο της μορφής  :math:`\frac{0}{0}`  και αριθμητής και παρονομαστής είναι παραγωγίσιμοι με το όριο του πηλίκου των παραγώγων τους να υπάρχει, τότε μπορούμε απλούστατα να υπολογίσουμε αυτό αντί για το αρχικό μας όριο. Η παραπάνω διατύπωση είναι αρκετά γενική, είναι η αλήθεια, καθώς δεν υποθέτει τίποτα για τις συναρτήσεις μας σε σχέση με το  :math:`x_0`  - δεν χρειάζεται ούτε καν να ορίζονται εκεί. Ωστόσο, εμείς θα ξεκινήσουμε τη μελέτη μας με κάποιες απλουστευτικές υποθέσεις, για να κάνουμε τη ζωή μας πιο εύκολη. Αρχικά, θα υποθέσουμε ότι οι συναρτήσεις μας είναι είναι ορισμένες και στο  :math:`x_0`  και είναι και παραγωγίσιμες εκεί. Ας μην μένουμε, όμως, μόνο στα λόγια. Ας πάρουμε δύο συναρτήσεις που να ικανοποιούν τις παραπάνω υποθέσεις, όπως φαίνεται και στο παρακάτω σχήμα:
 
-.. figure:: {static}wp-content/uploads/2022/11/best_approx_01.png?w=914
+.. figure:: {static}_static/images/uploads/2022/11/best_approx_01.png?w=914
    :alt: Δύο συναρτήσεις...
    :figclass: wp-image-11451
 
@@ -76,7 +76,7 @@
 
 Τώρα, αφού έχουμε υποθέσει ότι οι συναρτήσεις μας είναι παραγωγίσιμες στο επίμαχο κόκκινο σημείο - το  :math:`x_0`  δηλαδή - μπορούμε να σχεδιάσουμε εκεί τις εφαπτόμενές τους και να πάρουμε το παρακάτω σχήμα:
 
-.. figure:: {static}wp-content/uploads/2022/11/best_approx_02.png?w=914
+.. figure:: {static}_static/images/uploads/2022/11/best_approx_02.png?w=914
    :alt: Δύο συναρτήσεις και οι εφαπτόμενές τους...
    :figclass: wp-image-11452
 
@@ -84,7 +84,7 @@
 
 Αφού έχουμε υποθέσει ότι γύρω από το κόκκινο σημείο οι συναρτήσεις μας είναι παραγωγίσιμες, εκεί κοντά μπορούμε να υποθέσουμε όπως εξηγήσαμε και παραπάνω, ότι οι εφαπτόμενές τους είναι αρκετά καλές προσεγγίσεις τους. Επομένως, μπορούμε να αγνοήσουμε εκεί κοντά τις γραφικές τους παραστάσεις και να ασχοληθούμε μόνο με τις αντίστοιχες εφαπτόμενες. Έτσι, σβήνοντας από το παραπάνω σχήμα τις δύο γραφικές παραστάσεις - και τον μεγεθυντικό μας φακό - έχουμε το ακόλουθο σχήμα:
 
-.. figure:: {static}wp-content/uploads/2022/11/dlh_f_g-1.png?w=1007
+.. figure:: {static}_static/images/uploads/2022/11/dlh_f_g-1.png?w=1007
    :alt: Οι δύο εφαπτόμενες και κάτι... παραπάνω.
    :figclass: wp-image-11517
 
@@ -127,7 +127,7 @@
 
 Για την ακρίβεια, αυτή ακριβώς η παρανόηση - που οδηγεί σε μία ασθενέστερη μορφή του κανόνα - μπορεί να αποτελεί ένα ενδιάμεσο βήμα σε μία πληρέστερη διαισθητική διερεύνηση. Ας υποθέσουμε ότι έχουμε δύο συναρτήσεις που, σε αντίθεση με τις παραπάνω, δεν είναι παραγωγίσιμες στο  :math:`x_0.`  Για την ακρίβεια, ας υποθέσουμε ότι δεν είναι καν ορισμένες εκεί, πράγμα που εύκολα μπορούμε να πετύχουμε, απλά αφαιρώντας το σημείο ενδιαφέροντός μας:
 
-.. figure:: {static}wp-content/uploads/2022/11/best_approx_03.png?w=914
+.. figure:: {static}_static/images/uploads/2022/11/best_approx_03.png?w=914
    :alt: Μία μικρή αλλαγή, που μας κάνει τη ζωή μας πολύυυυ δύσκολη.
    :figclass: wp-image-11457
 
@@ -159,7 +159,7 @@
 
 μπορούμε να το κάνουμε. Μπορεί αυτό το  :math:`x_1`  να πρέπει να είναι πολύ κοντά στο  :math:`x_0`  αλλά αυτό δεν έχει και πολλή σημασία, εμείς μπορούμε να το βρούμε. Παίζοντας τώρα με αυτό το  :math:`x_1`  παίρνουμε εκεί τις εφαπτόμενες των δύο συναρτήσεων και έχουμε μία κατάσταση όπως στο παρακάτω σχήμα:
 
-.. figure:: {static}wp-content/uploads/2022/11/best_approx_04.png?w=868
+.. figure:: {static}_static/images/uploads/2022/11/best_approx_04.png?w=868
    :alt: Ζουμάροντας λίγο δίπλα από τον στόχο...
    :figclass: wp-image-11469
 
@@ -186,7 +186,7 @@
 
 Εντάξει, δε λέμε και κάτι πολύ διαφορετικό, απλώς αντί τα όριά μας να είναι μηδέν, είναι άπειρα - αδιαφορώντας για το πρόσημο. Εδώ η εικόνα είναι ίσως λίγο διαφορετική, τουλάχιστον κατά τα φαινόμενα, αλλά όπως θα δούμε παρακάτω, δεν είναι, δα, και τόσο. Ας πάρουμε δύο συναρτήσεις οι οποίες απειρίζονται κοντά σε ένα  :math:`x_0\in\mathbb{R}`  όπως αυτές που φαίνονται στο παρακάτω σχήμα:
 
-.. figure:: {static}wp-content/uploads/2022/11/infty_approx_01.png?w=1007
+.. figure:: {static}_static/images/uploads/2022/11/infty_approx_01.png?w=1007
    :alt: Δύο συναρτήσεις που απειρίζονται παρέα...
    :figclass: wp-image-11523
 
@@ -202,7 +202,7 @@
 
 Ας πάμε, τώρα να ζωγραφίσουμε και τις εφαπτόμενες των γραφικών παραστάσεων των συναρτήσεων στο  :math:`x_1`  που διαλέξαμε:
 
-.. figure:: {static}wp-content/uploads/2022/11/infty_approx_02.png?w=943
+.. figure:: {static}_static/images/uploads/2022/11/infty_approx_02.png?w=943
    :alt: Πιο κοντά στο άπειρο...
    :figclass: wp-image-11529
 

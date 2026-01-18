@@ -8,20 +8,20 @@
 	:tags: πανελλήνιες, συναρτήσεις, όρια, Γ' λυκείου, διαγώνισμα, επανάληψη, λύσεις
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84-4
 	:status: published
-	:attachments: wp-content/uploads/2022/11/g._caillebotte_-_un_balcon_1880.jpg
+	:attachments: _static/images/uploads/2022/11/g._caillebotte_-_un_balcon_1880.jpg
 
-.. figure:: /wp-content/uploads/2022/11/g._caillebotte_-_un_balcon_1880.jpg
-	:alt: Ο πίνακας *Ένα μπαλκόνι* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+.. figure:: /_static/images/uploads/2022/11/g._caillebotte_-_un_balcon_1880.jpg
+	:alt: Ο πίνακας *Ένα μπαλκόνι* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
 	:align: center
 
-	Ο πίνακας *Ένα μπαλκόνι* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+	Ο πίνακας *Ένα μπαλκόνι* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
 
 
 Οι λύσεις του προηγούμενου διαγωνίσματος στις συναρτήσεις με ολίγα... όρια - Μαθηματικά Προσανατολισμού, Γ' Λυκείου.
 
-Τις λύσεις μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1AaOG3BZj0SXqL3PJwZyPH7F5vrC-g-jN/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+Τις λύσεις μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1AaOG3BZj0SXqL3PJwZyPH7F5vrC-g-jN/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
 
-*Το διαγώνισμα μπορείτε να τα βρείτε*\ `εδώ <https://aftermaths.gr/2022/11/02/%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84-3/>`__\ *ενώ υλικό για τις πανελλήνιες μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *κι*\ `εδώ <https://aftermaths.gr/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
+*Το διαγώνισμα μπορείτε να τα βρείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Διαγωνίσματα/επαναληπτικό-διαγώνισμα-στις-συναρτ-3.rst>`__\ *ενώ υλικό για τις πανελλήνιες μπορείτε να βρείτε*\ `εδώ  <https://aftermaths.gr/tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *κι*\ `εδώ  <https://aftermaths.gr/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
 
 
 

@@ -8,20 +8,20 @@
 	:tags: προβλήματα, συναρτήσεις, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, γραφική παράσταση
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-2
 	:status: published
-	:attachments: wp-content/uploads/2021/11/742px-jacques-louis_david_-_equestrian_portrait_of_stanislaw_kostka_potocki_-_google_art_project.jpg
+	:attachments: _static/images/uploads/2021/11/742px-jacques-louis_david_-_equestrian_portrait_of_stanislaw_kostka_potocki_-_google_art_project.jpg
 
-.. figure:: /wp-content/uploads/2021/11/742px-jacques-louis_david_-_equestrian_portrait_of_stanislaw_kostka_potocki_-_google_art_project.jpg
-	:alt: Ένα *Πορτραίτο του (έφιππου) Stanisław Kostka Potocki* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+.. figure:: /_static/images/uploads/2021/11/742px-jacques-louis_david_-_equestrian_portrait_of_stanislaw_kostka_potocki_-_google_art_project.jpg
+	:alt: Ένα *Πορτραίτο του (έφιππου) Stanisław Kostka Potocki* του `Jacques-Louis David  <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
 	:align: center
 
-	Ένα *Πορτραίτο του (έφιππου) Stanisław Kostka Potocki* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+	Ένα *Πορτραίτο του (έφιππου) Stanisław Kostka Potocki* του `Jacques-Louis David  <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
 
 
 Λίγες εισαγωγικές ασκήσεις στην έννοια της συνάρτησης, του πεδίου ορισμού της και της έννοιας της γραφικής παράστασης συνάρτησης - Άλγεβρα, Β' Γενικού Λυκείου και ΕΠΑΛ.
 
-Τις ασκήσεις μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1kfPK3FsZJ_8Js8ydZf-b7yu-Ug6B2rxh/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+Τις ασκήσεις μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1kfPK3FsZJ_8Js8ydZf-b7yu-Ug6B2rxh/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
-Διαφάνειες θεωρίας σχετικές με τις συναρτήσεις μπορείτε να βρείτε εδώ <https://aftermaths.gr/2021/09/29/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-3%ce%bf/>`__, `εδώ <https://aftermaths.gr/2021/10/06/%ce%b1%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-4%ce%bf/>`__ κι `εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγβερα-β-λυκείου-μάθημα-5ο.rst>`__.
+Διαφάνειες θεωρίας σχετικές με τις συναρτήσεις μπορείτε να βρείτε `εδώ  <docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-β-λυκείου-μάθημα-3ο.rst>`__, `εδώ  <docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/αλγεβρα-β-λυκείου-μάθημα-4ο.rst>`__ κι `εδώ  <docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγβερα-β-λυκείου-μάθημα-5ο.rst>`__.
 
 
 

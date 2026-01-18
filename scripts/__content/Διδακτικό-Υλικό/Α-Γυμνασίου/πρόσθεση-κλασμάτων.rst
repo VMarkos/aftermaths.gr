@@ -8,16 +8,16 @@
 	:tags: πρόσθεση, προβλήματα, Α' Γυμνασίου, ασκήσεις, αφαίρεση, εισαγωγή, κλάσματα
 	:slug: %cf%80%cf%81%cf%8c%cf%83%ce%b8%ce%b5%cf%83%ce%b7-%ce%ba%ce%bb%ce%b1%cf%83%ce%bc%ce%ac%cf%84%cf%89%ce%bd
 	:status: published
-	:attachments: wp-content/uploads/2019/11/giovanni_antonio_canal_il_canaletto_-_grand_canal_-_looking_from_palazzo_balbi_-_wga03875.jpg
+	:attachments: _static/images/uploads/2019/11/giovanni_antonio_canal_il_canaletto_-_grand_canal_-_looking_from_palazzo_balbi_-_wga03875.jpg
 
-.. figure:: /wp-content/uploads/2019/11/giovanni_antonio_canal_il_canaletto_-_grand_canal_-_looking_from_palazzo_balbi_-_wga03875.jpg
-	:alt: Ο πίνακας *Το μεγάλο κανάλι: άποψη από το Palazzo Balbi* του `Canaletto <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+.. figure:: /_static/images/uploads/2019/11/giovanni_antonio_canal_il_canaletto_-_grand_canal_-_looking_from_palazzo_balbi_-_wga03875.jpg
+	:alt: Ο πίνακας *Το μεγάλο κανάλι: άποψη από το Palazzo Balbi* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Το μεγάλο κανάλι: άποψη από το Palazzo Balbi* του `Canaletto <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	Ο πίνακας *Το μεγάλο κανάλι: άποψη από το Palazzo Balbi* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
 
 
-Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1vFAVwxIwM023NuS1TSq0F9gbRoTx6nHw/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1vFAVwxIwM023NuS1TSq0F9gbRoTx6nHw/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

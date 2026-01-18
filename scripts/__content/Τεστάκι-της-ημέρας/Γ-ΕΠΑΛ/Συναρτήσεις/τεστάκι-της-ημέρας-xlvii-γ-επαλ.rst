@@ -8,18 +8,18 @@
 	:tags: πανελλήνιες, συναρτήσεις, τεστ, όρια, Γ' λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xlvii-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
 	:status: published
-	:attachments: wp-content/uploads/2021/01/1280px-alexander_iii_reception_by_repin.jpg
+	:attachments: _static/images/uploads/2021/01/1280px-alexander_iii_reception_by_repin.jpg
 
-.. figure:: /wp-content/uploads/2021/01/1280px-alexander_iii_reception_by_repin.jpg
-	:alt: Ο πίνακας *Υποδοχή του Αλεξάνδρου του ΙΙΙ* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+.. figure:: /_static/images/uploads/2021/01/1280px-alexander_iii_reception_by_repin.jpg
+	:alt: Ο πίνακας *Υποδοχή του Αλεξάνδρου του ΙΙΙ* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Υποδοχή του Αλεξάνδρου του ΙΙΙ* του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	Ο πίνακας *Υποδοχή του Αλεξάνδρου του ΙΙΙ* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
 
 
 Ένα εισαγωγικό τεστ στα όρια συναρτήσεων στα πλαίσια των μαθηματικών γενικής παιδείας (άλγεβρα) της Γ' ΕΠΑΛ.
 
-Το τεστ βρίσκεται `εδώ <https://drive.google.com/file/d/1QA3tyqAfPZmZQrimKHofTzL723Tgpbk9/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/1QA3tyqAfPZmZQrimKHofTzL723Tgpbk9/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

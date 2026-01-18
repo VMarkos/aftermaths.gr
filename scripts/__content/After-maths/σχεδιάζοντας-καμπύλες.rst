@@ -8,13 +8,13 @@
 	:tags: featured, συναρτήσεις, γραφική παράσταση
 	:slug: %cf%83%cf%87%ce%b5%ce%b4%ce%b9%ce%ac%ce%b6%ce%bf%ce%bd%cf%84%ce%b1%cf%82-%ce%ba%ce%b1%ce%bc%cf%80%cf%8d%ce%bb%ce%b5%cf%82
 	:status: published
-	:attachments: wp-content/uploads/2022/11/polynomial13.png, wp-content/uploads/2022/11/polynomial14.png, wp-content/uploads/2022/11/polynomial02.png, wp-content/uploads/2022/11/polynomial03.png, wp-content/uploads/2022/11/polynomial05-2.png, wp-content/uploads/2022/11/polynomial05.png, wp-content/uploads/2022/11/polynomial05-1.png, wp-content/uploads/2022/11/polynomial01.png, wp-content/uploads/2022/11/polynomial15.png, wp-content/uploads/2022/11/polynomial17.png, wp-content/uploads/2022/11/polynomial07.png, wp-content/uploads/2022/11/polynomial13-1.png, wp-content/uploads/2022/11/polynomial11.png, wp-content/uploads/2022/11/polynomial12.png, wp-content/uploads/2022/11/polynomial16.png, wp-content/uploads/2022/11/polynomial08.png, wp-content/uploads/2022/11/gustave_caillebotte_-_paris_street_rainy_day_-_google_art_project.jpg, wp-content/uploads/2022/11/polynomial05-4.png, wp-content/uploads/2022/11/polynomial06.png, wp-content/uploads/2022/11/polynomial05-3.png, wp-content/uploads/2022/11/polynomial09.png
+	:attachments: _static/images/uploads/2022/11/polynomial13.png, _static/images/uploads/2022/11/polynomial14.png, _static/images/uploads/2022/11/polynomial02.png, _static/images/uploads/2022/11/polynomial03.png, _static/images/uploads/2022/11/polynomial05-2.png, _static/images/uploads/2022/11/polynomial05.png, _static/images/uploads/2022/11/polynomial05-1.png, _static/images/uploads/2022/11/polynomial01.png, _static/images/uploads/2022/11/polynomial15.png, _static/images/uploads/2022/11/polynomial17.png, _static/images/uploads/2022/11/polynomial07.png, _static/images/uploads/2022/11/polynomial13-1.png, _static/images/uploads/2022/11/polynomial11.png, _static/images/uploads/2022/11/polynomial12.png, _static/images/uploads/2022/11/polynomial16.png, _static/images/uploads/2022/11/polynomial08.png, _static/images/uploads/2022/11/gustave_caillebotte_-_paris_street_rainy_day_-_google_art_project.jpg, _static/images/uploads/2022/11/polynomial05-4.png, _static/images/uploads/2022/11/polynomial06.png, _static/images/uploads/2022/11/polynomial05-3.png, _static/images/uploads/2022/11/polynomial09.png
 
-.. figure:: /wp-content/uploads/2022/11/polynomial13.png, wp-content/uploads/2022/11/polynomial14.png, wp-content/uploads/2022/11/polynomial02.png, wp-content/uploads/2022/11/polynomial03.png, wp-content/uploads/2022/11/polynomial05-2.png, wp-content/uploads/2022/11/polynomial05.png, wp-content/uploads/2022/11/polynomial05-1.png, wp-content/uploads/2022/11/polynomial01.png, wp-content/uploads/2022/11/polynomial15.png, wp-content/uploads/2022/11/polynomial17.png, wp-content/uploads/2022/11/polynomial07.png, wp-content/uploads/2022/11/polynomial13-1.png, wp-content/uploads/2022/11/polynomial11.png, wp-content/uploads/2022/11/polynomial12.png, wp-content/uploads/2022/11/polynomial16.png, wp-content/uploads/2022/11/polynomial08.png, wp-content/uploads/2022/11/gustave_caillebotte_-_paris_street_rainy_day_-_google_art_project.jpg, wp-content/uploads/2022/11/polynomial05-4.png, wp-content/uploads/2022/11/polynomial06.png, wp-content/uploads/2022/11/polynomial05-3.png, wp-content/uploads/2022/11/polynomial09.png
-	:alt: Ο επίκαιρος πίνακας *Οι δρόμοι του Παρισιού, μία βροχερή μέρα* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+.. figure:: /_static/images/uploads/2022/11/polynomial13.png, _static/images/uploads/2022/11/polynomial14.png, _static/images/uploads/2022/11/polynomial02.png, _static/images/uploads/2022/11/polynomial03.png, _static/images/uploads/2022/11/polynomial05-2.png, _static/images/uploads/2022/11/polynomial05.png, _static/images/uploads/2022/11/polynomial05-1.png, _static/images/uploads/2022/11/polynomial01.png, _static/images/uploads/2022/11/polynomial15.png, _static/images/uploads/2022/11/polynomial17.png, _static/images/uploads/2022/11/polynomial07.png, _static/images/uploads/2022/11/polynomial13-1.png, _static/images/uploads/2022/11/polynomial11.png, _static/images/uploads/2022/11/polynomial12.png, _static/images/uploads/2022/11/polynomial16.png, _static/images/uploads/2022/11/polynomial08.png, _static/images/uploads/2022/11/gustave_caillebotte_-_paris_street_rainy_day_-_google_art_project.jpg, _static/images/uploads/2022/11/polynomial05-4.png, _static/images/uploads/2022/11/polynomial06.png, _static/images/uploads/2022/11/polynomial05-3.png, _static/images/uploads/2022/11/polynomial09.png
+	:alt: Ο επίκαιρος πίνακας *Οι δρόμοι του Παρισιού, μία βροχερή μέρα* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
 	:align: center
 
-	Ο επίκαιρος πίνακας *Οι δρόμοι του Παρισιού, μία βροχερή μέρα* του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+	Ο επίκαιρος πίνακας *Οι δρόμοι του Παρισιού, μία βροχερή μέρα* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
 
 
 Πολλές φορές χρειάζεται κανείς να σχεδιάσει μία καμπύλη με κάποιες συγκεκριμένες καλές ιδιότητες:
@@ -25,12 +25,12 @@
 
 και ούτω καθεξής. Στο χαρτί ή στον πίνακα αυτό είναι σχετικά εύκολο, είναι η αλήθεια, και δε χρειάζεται, δα, και κάποια τρομερή επιδεξιότητα. Ωστόσο, τι γίνεται όταν θέλουμε να σχεδιάσουμε μία τέτοια καμπύλη στον υπολογιστή μας;
 
-Η αλήθεια είναι ότι μία γραφίδα μπορεί, σε έναν μεγάλο βαθμό, να λύσει τέτοια προβλήματα. Ειδικότερα, δε, αν μιλάμε για κάποιο καλό κιτ σχεδίασης γραφικών, τότε το αποτέλεσμα θυμίζει ή, πολλές φορές, ξεπερνά τις προσδοκίες μας. Αλλά, για να κάνουμε μία μικρή γραφική παράσταση δεν είναι κρίμα να ξοδέψουμε τα μαλλιά της κεφαλής μας; Δεν είναι κάπως σαν να παίρνουμε μία καραμπίνα για να σκοτώσουμε ένα τόσο δα κουνουπάκι; - έκφραση δανεισμένη από μαθητή μου, βλ. εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/After-maths/ο-rolle-και-τα-κουνούπια.rst>`__.
+Η αλήθεια είναι ότι μία γραφίδα μπορεί, σε έναν μεγάλο βαθμό, να λύσει τέτοια προβλήματα. Ειδικότερα, δε, αν μιλάμε για κάποιο καλό κιτ σχεδίασης γραφικών, τότε το αποτέλεσμα θυμίζει ή, πολλές φορές, ξεπερνά τις προσδοκίες μας. Αλλά, για να κάνουμε μία μικρή γραφική παράσταση δεν είναι κρίμα να ξοδέψουμε τα μαλλιά της κεφαλής μας; Δεν είναι κάπως σαν να παίρνουμε μία καραμπίνα για να σκοτώσουμε ένα τόσο δα κουνουπάκι; - έκφραση δανεισμένη από μαθητή μου, βλ. `εδώ  <docs/After-maths/ο-rolle-και-τα-κουνούπια.rst>`__.
 
 Τι θα έλεγε ο Karl Weierstrass;
 -------------------------------
 
-Ο `Karl Weierstrass <https://en.wikipedia.org/wiki/Karl_Weierstrass>`__ είναι ένας από τους πρωτεργάτες του σύγχρονου απειροστικού λογισμού. Οπότε, είναι απολύτως λογικό να απευθυνθούμε σε αυτόν για ένα ζήτημα τόσο φλέγον όσο η χάραξη μίας γραφικής παράστασης. Αλλά, επειδή είναι λίγο δύσκολο να του μιλήσουμε απευθείας τα τελευταία χρόνια (λίγο η πανδημία, λίγο το ένα, λίγο το άλλο), θα τα πούμε με έναν από τους πιο γνωστούς απογόνους του: το Θεώρημα Προσέγγισης του Weierstrass.
+Ο `Karl Weierstrass  <https://en.wikipedia.org/wiki/Karl_Weierstrass>`__ είναι ένας από τους πρωτεργάτες του σύγχρονου απειροστικού λογισμού. Οπότε, είναι απολύτως λογικό να απευθυνθούμε σε αυτόν για ένα ζήτημα τόσο φλέγον όσο η χάραξη μίας γραφικής παράστασης. Αλλά, επειδή είναι λίγο δύσκολο να του μιλήσουμε απευθείας τα τελευταία χρόνια (λίγο η πανδημία, λίγο το ένα, λίγο το άλλο), θα τα πούμε με έναν από τους πιο γνωστούς απογόνους του: το Θεώρημα Προσέγγισης του Weierstrass.
 
 Το εν λόγω θεώρημα έχει ως εξής:
 
@@ -38,7 +38,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Πρακτικά, το παραπάνω μας λέει ότι αν μας δώσει κάποιος άνθρωπος μία συνάρτηση με γραφική παράσταση όπως η παρακάτω:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2022/04/image.png?w=409
+.. figure:: https://aftermaths.gr/_static/images/uploads/2022/04/image.png?w=409
    :alt: Μία αμέριμνη γραφική παράσταση...
    :figclass: wp-image-11046
 
@@ -46,17 +46,17 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 κι ένας άλλος άνθρωπος (μπορεί κι ο ίδιος, δεν έχει σημασία) μας ρωτήσει: «Μπορείτε να βρείτε ένα πολυώνυμο με γραφική παράσταση μέσα στην πράσινη "ζώνη";»:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2022/04/image-1.png?w=412
-   :alt: Η πράσινη ζώνη - περισσότερα για το σχήμα εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Tikz/τα-σχήματα-της-εβδομάδας-3.rst>`__.
+.. figure:: https://aftermaths.gr/_static/images/uploads/2022/04/image-1.png?w=412
+   :alt: Η πράσινη ζώνη - περισσότερα για το σχήμα `εδώ  <docs/Tikz/τα-σχήματα-της-εβδομάδας-3.rst>`__.
    :figclass: wp-image-11049
 
-   Η πράσινη ζώνη - περισσότερα για το σχήμα εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Tikz/τα-σχήματα-της-εβδομάδας-3.rst>`__.
+   Η πράσινη ζώνη - περισσότερα για το σχήμα `εδώ  <docs/Tikz/τα-σχήματα-της-εβδομάδας-3.rst>`__.
 
 εμείς θα του απαντήσουμε: «Βεβαίως!»
 
 Πράγματι, όσο «στενή» και να είναι αυτή η πράσινη ζώνη γύρω από τη γραφική παράσταση της συνάρτησής μας, εμείς μπορούμε, γιατί έτσι μας εγγυάται το Θεώρημα Προσέγγισης του Weierstrass, να βρούμε μία πολυωνυμική συνάρτηση με γραφική παράσταση που να «ζει» εκεί μέσα.
 
-Άρα, θα πει κάποιος πιο πονηρεμένος, αν επιλέξουμε αυτή τη ζώνη να είναι αρκετά «στενή», η γραφική παράσταση του πολυωνύμου μας θα μοιάζει αρκετά με αυτήν της συνάρτησής μας. Άρα, αφού θα έχουμε τον τύπο του πολυωνύμου, θα μπορούμε εύκολα να τη σχεδιάσουμε και στον υπολογιστή μας - π.χ. χρησιμοποιώντας το `GeoGebra <https://www.geogebra.org/>`__ ή το `Desmos <https://www.desmos.com/calculator>`__ ή κάποιο άλλο εργαλείο.
+Άρα, θα πει κάποιος πιο πονηρεμένος, αν επιλέξουμε αυτή τη ζώνη να είναι αρκετά «στενή», η γραφική παράσταση του πολυωνύμου μας θα μοιάζει αρκετά με αυτήν της συνάρτησής μας. Άρα, αφού θα έχουμε τον τύπο του πολυωνύμου, θα μπορούμε εύκολα να τη σχεδιάσουμε και στον υπολογιστή μας - π.χ. χρησιμοποιώντας το `GeoGebra  <https://www.geogebra.org/>`__ ή το `Desmos  <https://www.desmos.com/calculator>`__ ή κάποιο άλλο εργαλείο.
 
 Σωστά;
 
@@ -71,7 +71,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Τέλος πάντων, παρεκτραπήκαμε. Μιλώντας, όμως, για πολυώνυμα και ρίζες, ας δούμε τρία περίφημα και ξακουστά μονώνυμα:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2022/04/image-2.png?w=1024
+.. figure:: https://aftermaths.gr/_static/images/uploads/2022/04/image-2.png?w=1024
    :alt: Είναι όντως ξακουστά - όσο ξακουστά μπορεί να είναι τα μονώνυμα...
    :figclass: wp-image-11057
 
@@ -174,7 +174,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Υποσχεθήκαμε παραπάνω ότι η πρόταση που μόλις αποδείξαμε μπορεί να μας βοηθήσει όσα αποτελέσματα συνοψίσαμε για τις πολλαπλότητες των ριζών και τον τρόπο που τέμνει η γραφική παράσταση μίας συνάρτησης τον άξονα  :math:`x'x.`  Ας δούμε τη γραφική παράσταση που φαίνεται στο παρακάτω σχήμα:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial01.png?w=1022
+.. figure:: {static}_static/images/uploads/2022/11/polynomial01.png?w=1022
    :alt: Ωραία γραφική παράσταση, έτσι δεν είναι;
    :figclass: wp-image-11363
    :width: 760px
@@ -216,7 +216,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Αυτά όλα μπορεί να φαίνονται πολύ χαλαρά, αλλά ένα ακόμα σχήμα θα σας πείσει για την αλήθεια των παραπάνω:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial02.png?w=1024
+.. figure:: {static}_static/images/uploads/2022/11/polynomial02.png?w=1024
    :alt: Ζουμ: το βασικότερο εργαλείο κατανόησης του απειροστικού λογισμού.
    :figclass: wp-image-11373
 
@@ -229,7 +229,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Πολλά είπαμε, πολλά αποδείξαμε και «αποδείξαμε», ώρα τώρα να περάσουμε σε αυτό που υποσχεθήκαμε: θα ζωγραφίσουμε. Ας θυμηθούμε το αρχικό μας σχήμα:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2022/04/image.png
+.. figure:: https://aftermaths.gr/_static/images/uploads/2022/04/image.png
    :alt: Η αρχική μας συνάρτηση.
    :figclass: wp-image-11046
 
@@ -246,7 +246,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Η στιγμή της αλήθειας έφτασε, θα σχεδιάσουμε τη γραφική παράσταση του παραπάνω πολυωνύμου και...
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial03.png?w=1022
+.. figure:: {static}_static/images/uploads/2022/11/polynomial03.png?w=1022
    :alt: Πφφφφφ! Είμαστε κοντά, ωστόσο...
    :figclass: wp-image-11380
 
@@ -254,7 +254,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 ...δε θα δούμε αυτό που περιμέναμε. Ωστόσο, χρειαζόμαστε ψυχραιμία, ένα από τα βασικά χαρακτηριστικά κάθε μαθηματικού. Ας βάλουμε λίγο τα σχήματά μας δίπλα-δίπλα, να τα καμαρώσουμε:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial05-4.png?w=1024
+.. figure:: {static}_static/images/uploads/2022/11/polynomial05-4.png?w=1024
    :alt: Σχεδόν κοντά...
    :figclass: wp-image-11387
 
@@ -266,7 +266,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 παίρνουμε το εξής:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial06.png?w=1024
+.. figure:: {static}_static/images/uploads/2022/11/polynomial06.png?w=1024
    :alt: Εντάξει, πετάει η ομάδα!
    :figclass: wp-image-11391
 
@@ -276,7 +276,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Τέλος πάντων, καλά τα είπαμε ως εδώ, αλλά, εντάξει, ήταν λίγο «σικέ» το σκηνικό, δε συμφωνείτε; Ας πάρουμε άλλη μία συνάρτηση:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial07.png?w=1021
+.. figure:: {static}_static/images/uploads/2022/11/polynomial07.png?w=1021
    :alt: Μία «παραλίγο συμμετρική» γραφική παράσταση.
    :figclass: wp-image-11393
 
@@ -288,7 +288,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Ας δούμε τι κάναμε:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial08.png?w=1024
+.. figure:: {static}_static/images/uploads/2022/11/polynomial08.png?w=1024
    :alt: Εεεεεε...
    :figclass: wp-image-11396
 
@@ -296,7 +296,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Εντάξει, δεν τα πήγαμε και τόσο καλά, είναι η αλήθεια. Ας πάρουμε, όμως, μία βαθιά ανάσα και ας προσπαθήσουμε να καταλάβουμε τι πήγε λάθος. Αν το καλοσκεφτείτε, η ουσιώδης δομή της γραφικής μας παράστασης δε βρίσκεται κοντά στον άξονα  :math:`x'x`  αλλά λίγο παραπάνω, όπως φαίνεται και στο παρακάτω σχήμα:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial09.png?w=1021
+.. figure:: {static}_static/images/uploads/2022/11/polynomial09.png?w=1021
    :alt: Είναι σημαντικό σε αυτήν τη ζωή να κοιτάμε ψηλά...
    :figclass: wp-image-11398
 
@@ -314,7 +314,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Το παραπάνω πολυώνυμο είναι ένα πολυώνυμο που έχει όλες τι ιδιότητες που αναφέραμε παραπάνω, απλά όχι επί του άξονα  :math:`x'x`  αλλά επί της ευθείας  :math:`y=1`  που βρίσκεται μία μονάδα πάνω από τον άξονα  :math:`x'x.`  Το παρακάτω σχήμα υποδεικνύει ότι κάναμε (άλλη μία) σωστή μαντεψιά:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial11.png?w=1024
+.. figure:: {static}_static/images/uploads/2022/11/polynomial11.png?w=1024
    :alt: Εντάξει, το έχουμε με τη ζωγραφική, το έχουμε!
    :figclass: wp-image-11402
    :width: 760px
@@ -329,7 +329,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Κι αν νομίζατε ότι «στρίβοντας» εννοούσαμε ότι θα αποχωρήσουμε, θα διαβάσετε την εφημερίδα σας και θα συνεχίσετε την όχι και τόσο ηλιόλουστη Κυριακή σας, κάνατε ένα πολύ μεγάλο λάθος. Πάρα πολύ μεγάλο λάθος. Δε θα στρίψουμε εμείς, αλλά οι γραφικές μας παραστάσεις. Ας χαζέψουμε λίγο το ακόλουθο σχήμα:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial12.png?w=878
+.. figure:: {static}_static/images/uploads/2022/11/polynomial12.png?w=878
    :alt: Ωραίο κι αυτό...
    :figclass: wp-image-11406
 
@@ -337,7 +337,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Εντάξει, θα πει κανείς, εδώ είναι σχετικά εύκολα τα πράγματα. Μπορούμε να κάνουμε κάποια τεχνάσματα όπως και παραπάνω. Για την ακρίβεια, σχεδιάζουμε λίγες γραμμές στο παραπάνω σχήμα που θα μας βοηθήσουμε να βρούμε την άκρη στον μίτο της Αριάδνης:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial13-1.png?w=1024
+.. figure:: {static}_static/images/uploads/2022/11/polynomial13-1.png?w=1024
    :alt: Μετρήσαμε κάποια πράγματα και τώρα θα ζωγραφίσουμε.
    :figclass: wp-image-11412
 
@@ -349,7 +349,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Η εν λόγω γραφική παράσταση φαίνεται παρακάτω:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial14.png?w=1024
+.. figure:: {static}_static/images/uploads/2022/11/polynomial14.png?w=1024
    :alt: Σχεδόν εκεί που θέλαμε...
    :figclass: wp-image-11413
 
@@ -357,7 +357,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Εντάξει, θα χρειαστεί να μικρύνουμε λίγο ακόμα τη γραφική μας παράσταση, οπότε, μετά από λίγες δοκιμές καταφέρνουμε το εξής:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial15.png?w=1024
+.. figure:: {static}_static/images/uploads/2022/11/polynomial15.png?w=1024
    :alt: Τόσο κοντάαααα!
    :figclass: wp-image-11416
 
@@ -373,7 +373,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Ας παρατηρήσουμε λίγο το ακόλουθο σχήμα:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial16.png?w=1024
+.. figure:: {static}_static/images/uploads/2022/11/polynomial16.png?w=1024
    :alt: Μία κάπως ενδιαφέρουσα ευθεία...
    :figclass: wp-image-11420
 
@@ -385,13 +385,13 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Η γραφική της παράσταση φαίνεται παρακάτω:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial17.png?w=1024
+.. figure:: {static}_static/images/uploads/2022/11/polynomial17.png?w=1024
    :alt: Μα καλά, τόση ακρίβεια, πια;
    :figclass: wp-image-11424
 
    Μα καλά, τόση ακρίβεια, πια;
 
-Τώρα καταφέραμε να εντοπίσουμε ακριβώς το πολυώνυμο που είχαμε ζωγραφίσει στην αρχή! Ωστόσο, το βασικότερο που έχουμε να κρατήσουμε από το παραπάνω παράδειγμα είναι αυτό το τέχνασμα με τη «στροφή» μίας γραφικής παράστασης που μπορούμε να την πετύχουμε προσθέτοντας έναν απλό όρο της μορφής  :math:\alpha x.`  Προφανώς, αυτό που πετυχαίνουμε δεν είναι μία κανονική στροφή, αλλά ένας μετασχηματισμός που «μοιάζει» με στροφή και που συχνά χρησιμοποιούμε και αλλού, όπως, π.χ., για να αποδείξουμε το Θεώρημα Μέσης Τιμής μέσω του Θεωρήματος Rolle - βλ. και `εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/σημειώσεις-στις-παραγώγους.rst>`__, σελ. 66.
+Τώρα καταφέραμε να εντοπίσουμε ακριβώς το πολυώνυμο που είχαμε ζωγραφίσει στην αρχή! Ωστόσο, το βασικότερο που έχουμε να κρατήσουμε από το παραπάνω παράδειγμα είναι αυτό το τέχνασμα με τη «στροφή» μίας γραφικής παράστασης που μπορούμε να την πετύχουμε προσθέτοντας έναν απλό όρο της μορφής  :math:`\alpha x.`  Προφανώς, αυτό που πετυχαίνουμε δεν είναι μία κανονική στροφή, αλλά ένας μετασχηματισμός που «μοιάζει» με στροφή και που συχνά χρησιμοποιούμε και αλλού, όπως, π.χ., για να αποδείξουμε το Θεώρημα Μέσης Τιμής μέσω του Θεωρήματος Rolle - βλ. και `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/σημειώσεις-στις-παραγώγους.rst>`__, σελ. 66.
 
 Επίλογος
 --------

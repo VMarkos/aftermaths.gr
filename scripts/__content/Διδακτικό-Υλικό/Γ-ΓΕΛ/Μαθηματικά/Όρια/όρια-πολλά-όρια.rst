@@ -8,20 +8,20 @@
 	:tags: πανελλήνιες, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη
 	:slug: %cf%8c%cf%81%ce%b9%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%8c%cf%81%ce%b9%ce%b1
 	:status: published
-	:attachments: wp-content/uploads/2021/11/charlotte_dubourg_par_fantin-latour.jpg
+	:attachments: _static/images/uploads/2021/11/charlotte_dubourg_par_fantin-latour.jpg
 
-.. figure:: /wp-content/uploads/2021/11/charlotte_dubourg_par_fantin-latour.jpg
-	:alt: Το πορτραίτο της *Charlotte Dubourg* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+.. figure:: /_static/images/uploads/2021/11/charlotte_dubourg_par_fantin-latour.jpg
+	:alt: Το πορτραίτο της *Charlotte Dubourg* του `Henri Fantin-Latour  <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
 	:align: center
 
-	Το πορτραίτο της *Charlotte Dubourg* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+	Το πορτραίτο της *Charlotte Dubourg* του `Henri Fantin-Latour  <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
 
 
 Λίγα (32) όρια για μία σύντομη επανάληψη σε κάποιες από τις βασικές τεχνικές υπολογισμού ορίων - Μαθηματικά Προσανατολισμού, Γ' Λυκείου.
 
-Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1MyfeFDC_UY-O_BdUw8qzHw2f8w7ukYht/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1MyfeFDC_UY-O_BdUw8qzHw2f8w7ukYht/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
-Εισαγωγικές ασκήσεις στην έννοια του ορίου μπορείτε να βρείτε εδώ <https://aftermaths.gr/2021/09/30/%ce%b7-%ce%ad%ce%bd%ce%bd%ce%bf%ce%b9%ce%b1-%cf%84%ce%bf%cf%85-%ce%bf%cf%81%ce%af%ce%bf%cf%85-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85/>`__ ενώ σημειώσεις σχετικές με Συναρτήσεις, Όρια και Συνέχεια μπορείτε να βρείτε `εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/συναρτήσεις-όρια-συνέχεια.rst>`__.
+Εισαγωγικές ασκήσεις στην έννοια του ορίου μπορείτε να βρείτε `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Όρια/η-έννοια-του-ορίου-γ-λυκείου.rst>`__ ενώ σημειώσεις σχετικές με Συναρτήσεις, Όρια και Συνέχεια μπορείτε να βρείτε `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/συναρτήσεις-όρια-συνέχεια.rst>`__.
 
 
 

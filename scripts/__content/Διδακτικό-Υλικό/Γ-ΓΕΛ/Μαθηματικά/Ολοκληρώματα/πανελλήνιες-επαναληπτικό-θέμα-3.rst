@@ -8,20 +8,20 @@
 	:tags: παράγωγος, πανελλήνιες, Γ' λυκείου, γραφική παράσταση, επανάληψη, ολοκλήρωμα
 	:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-3
 	:status: published
-	:attachments: wp-content/uploads/2022/03/henri_leys_-_soldiers_playing_cards.jpeg
+	:attachments: _static/images/uploads/2022/03/henri_leys_-_soldiers_playing_cards.jpeg
 
-.. figure:: /wp-content/uploads/2022/03/henri_leys_-_soldiers_playing_cards.jpeg
-	:alt: Ο πίνακας *Στρατιώτες παίζουν χαρτιά* του `Jan August Hendrick Leys <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 
+.. figure:: /_static/images/uploads/2022/03/henri_leys_-_soldiers_playing_cards.jpeg
+	:alt: Ο πίνακας *Στρατιώτες παίζουν χαρτιά* του `Jan August Hendrick Leys  <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 
 	:align: center
 
-	Ο πίνακας *Στρατιώτες παίζουν χαρτιά* του `Jan August Hendrick Leys <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 
+	Ο πίνακας *Στρατιώτες παίζουν χαρτιά* του `Jan August Hendrick Leys  <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 
 
 
 Λίγη ζωγραφική αυτήν την εβδομάδα, έτσι για να μην ξεχνιόμαστε!
 
-Το θέμα και τις λύσεις του μπορείτε να τα βρείτε `εδώ <https://drive.google.com/file/d/1CKALV_siac2RMQBcdpfcvcUgVn89VXec/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+Το θέμα και τις λύσεις του μπορείτε να τα βρείτε `εδώ  <https://drive.google.com/file/d/1CKALV_siac2RMQBcdpfcvcUgVn89VXec/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
 
-*Τα προηγούμενα θέματα μπορείτε να τα βρείτε*\ `εδώ <https://aftermaths.gr/2022/03/04/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-1/>`__\ *κι*\ `εδώ <https://aftermaths.gr/2022/03/12/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-2/>`__\ *ενώ σχετικό υλικό για τις πανελλήνιες μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *κι*\ `εδώ <https://aftermaths.gr/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
+*Τα προηγούμενα θέματα μπορείτε να τα βρείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Επανάληψη/πανελλήνιες-επαναληπτικό-θέμα-1.rst>`__\ *κι*\ `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Επανάληψη/πανελλήνιες-επαναληπτικό-θέμα-2.rst>`__\ *ενώ σχετικό υλικό για τις πανελλήνιες μπορείτε να βρείτε*\ `εδώ  <https://aftermaths.gr/tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *κι*\ `εδώ  <https://aftermaths.gr/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
 
 
 

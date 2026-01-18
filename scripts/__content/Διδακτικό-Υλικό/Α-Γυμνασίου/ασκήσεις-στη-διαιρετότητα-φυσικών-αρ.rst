@@ -8,16 +8,16 @@
 	:tags: φυσικοί αριθμοί, Α' Γυμνασίου, ΕΚΠ, ΜΚΔ, ασκήσεις, ακέραιοι, επανάληψη
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b4%ce%b9%ce%b1%ce%b9%cf%81%ce%b5%cf%84%cf%8c%cf%84%ce%b7%cf%84%ce%b1-%cf%86%cf%85%cf%83%ce%b9%ce%ba%cf%8e%ce%bd-%ce%b1%cf%81
 	:status: published
-	:attachments: wp-content/uploads/2019/09/720px-caravaggio_-_cena_in_emmaus.jpg
+	:attachments: _static/images/uploads/2019/09/720px-caravaggio_-_cena_in_emmaus.jpg
 
-.. figure:: /wp-content/uploads/2019/09/720px-caravaggio_-_cena_in_emmaus.jpg
-	:alt: Ο πίνακας *Δείπνο στην Εμμαούς* του `Caravaggio <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+.. figure:: /_static/images/uploads/2019/09/720px-caravaggio_-_cena_in_emmaus.jpg
+	:alt: Ο πίνακας *Δείπνο στην Εμμαούς* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Δείπνο στην Εμμαούς* του `Caravaggio <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	Ο πίνακας *Δείπνο στην Εμμαούς* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
 
 
-Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1vVh2zh_jHP43e7KQDaR1e-dVp4NsJZpp/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1vVh2zh_jHP43e7KQDaR1e-dVp4NsJZpp/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

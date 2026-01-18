@@ -8,19 +8,19 @@
 	:tags: featured, επιστήμη, εξωσχολικά
 	:slug: %ce%ba%ce%bb%ce%ac%cf%83%ce%bc%ce%b1%cf%84%ce%b1-%ce%ba%ce%bb%ce%ac%cf%83%ce%bc%ce%b1%cf%84%ce%b1-%cf%80%ce%b1%ce%bd%cf%84%ce%bf%cf%8d
 	:status: published
-	:attachments: wp-content/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png, wp-content/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png, wp-content/uploads/2019/07/ezgif.com-crop3.gif, wp-content/uploads/2019/07/ezgif.com-crop2-1.gif, wp-content/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png, wp-content/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png, wp-content/uploads/2019/07/smaller-1956-tessellation-art-by-m.-c.-escher.jpg
+	:attachments: _static/images/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png, _static/images/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png, _static/images/uploads/2019/07/ezgif.com-crop3.gif, _static/images/uploads/2019/07/ezgif.com-crop2-1.gif, _static/images/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png, _static/images/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png, _static/images/uploads/2019/07/smaller-1956-tessellation-art-by-m.-c.-escher.jpg
 
-.. figure:: /wp-content/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png, wp-content/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png, wp-content/uploads/2019/07/ezgif.com-crop3.gif, wp-content/uploads/2019/07/ezgif.com-crop2-1.gif, wp-content/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png, wp-content/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png, wp-content/uploads/2019/07/smaller-1956-tessellation-art-by-m.-c.-escher.jpg
-	:alt: Ο πίνακας *(Μικρή) κάλυψη του επιπέδου* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+.. figure:: /_static/images/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png, _static/images/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png, _static/images/uploads/2019/07/ezgif.com-crop3.gif, _static/images/uploads/2019/07/ezgif.com-crop2-1.gif, _static/images/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png, _static/images/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png, _static/images/uploads/2019/07/smaller-1956-tessellation-art-by-m.-c.-escher.jpg
+	:alt: Ο πίνακας *(Μικρή) κάλυψη του επιπέδου* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *(Μικρή) κάλυψη του επιπέδου* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	Ο πίνακας *(Μικρή) κάλυψη του επιπέδου* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
 
 
 Εισαγωγή
 ========
 
-«Κλάσματα! Κλάσματα παντού!» θα μπορούσε να είχε τραγουδήσει ο συγχωρεμένος και αγαπητός `Τζίμης Πανούσης <https://el.wikipedia.org/wiki/%CE%A4%CE%B6%CE%AF%CE%BC%CE%B7%CF%82_%CE%A0%CE%B1%CE%BD%CE%BF%CF%8D%CF%83%CE%B7%CF%82>`__, αν είχε ασχοληθεί με τα μαθηματικά. Γιατί, όπως θα δούμε και παρακάτω, είμαστε περιτριγυρισμένοι από κλάσματα, ζουν ανάμεσά μας, που θα έλεγαν και κάποιοι πιο cult τύποι. Αλλά, όπως επίσης θα δούμε, δεν είναι, δα, και τόσα πολλά όσα φαίνονται, για την ακρίβεια, είναι «πολύ λίγα» σε σχέση με όλους τους πραγματικούς αριθμούς. Αλλά, ας πιάσουμε τα πράγματα από την αρχή.
+«Κλάσματα! Κλάσματα παντού!» θα μπορούσε να είχε τραγουδήσει ο συγχωρεμένος και αγαπητός `Τζίμης Πανούσης  <https://el.wikipedia.org/wiki/%CE%A4%CE%B6%CE%AF%CE%BC%CE%B7%CF%82_%CE%A0%CE%B1%CE%BD%CE%BF%CF%8D%CF%83%CE%B7%CF%82>`__, αν είχε ασχοληθεί με τα μαθηματικά. Γιατί, όπως θα δούμε και παρακάτω, είμαστε περιτριγυρισμένοι από κλάσματα, ζουν ανάμεσά μας, που θα έλεγαν και κάποιοι πιο cult τύποι. Αλλά, όπως επίσης θα δούμε, δεν είναι, δα, και τόσα πολλά όσα φαίνονται, για την ακρίβεια, είναι «πολύ λίγα» σε σχέση με όλους τους πραγματικούς αριθμούς. Αλλά, ας πιάσουμε τα πράγματα από την αρχή.
 
 Οι φυσικοί αριθμοί, οι ακέραιοι και τα αριθμήσιμα σύνολα
 ========================================================
@@ -141,9 +141,9 @@
 
 (Θρήνος)
 
-Κι εδώ έρχεται μία ιστορική φυσιογνωμία των μαθηματικών, ο `Georg Cantor <https://en.wikipedia.org/wiki/Georg_Cantor>`__, να μας δώσει τα φώτα του. Η συνεισφορά του Cantor στο πρόβλημά μας είναι ότι παρέθεσε έναν κομψό και ιδιοφυή τρόπο για να παρουσιάσει κανείς τους φυσικούς αριθμούς, έτσι ώστε να φανεί η αριθμησιμότητά τους. Αρχικά, ας πάρουμε δύο άξονες κάθετους μεταξύ τους και ας βάλουμε πάνω σε κάθε άξονα όλους τους φυσικούς αριθμούς όπως φαίνεται στο παρακάτω σχήμα:
+Κι εδώ έρχεται μία ιστορική φυσιογνωμία των μαθηματικών, ο `Georg Cantor  <https://en.wikipedia.org/wiki/Georg_Cantor>`__, να μας δώσει τα φώτα του. Η συνεισφορά του Cantor στο πρόβλημά μας είναι ότι παρέθεσε έναν κομψό και ιδιοφυή τρόπο για να παρουσιάσει κανείς τους φυσικούς αριθμούς, έτσι ώστε να φανεί η αριθμησιμότητά τους. Αρχικά, ας πάρουμε δύο άξονες κάθετους μεταξύ τους και ας βάλουμε πάνω σε κάθε άξονα όλους τους φυσικούς αριθμούς όπως φαίνεται στο παρακάτω σχήμα:
 
-.. figure:: {static}wp-content/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png
+.. figure:: {static}_static/images/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png
    :alt: Οι δύο άξονες.
    :figclass: wp-image-970
 
@@ -151,7 +151,7 @@
 
 Στη συνέχεια, σχεδιάζουμε όλα τα σημεία που έχουν ως συντεταγμένες φυσικούς αριθμούς (π.χ. τα σημεία  :math:`A(1,4)`  και  :math:`B(2,1)` , αλλά όχι το  :math:`C(4,1/12)` ), όπως φαίνεται στο παρακάτω σχήμα:
 
-.. figure:: {static}wp-content/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png
+.. figure:: {static}_static/images/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png
    :alt: Το «πλέγμα» του Cantor.
    :figclass: wp-image-971
 
@@ -159,7 +159,7 @@
 
 Έπειτα, προτείνει να φανταστούμε κάθε αριθμό στον κατακόρυφο άξονα ως παρονομαστή και κάθε αριθμό στον οριζόντιο άξονα ως αριθμητή. Έτσι, κάθε σημείο αντιστοιχεί σε έναν ακριβώς θετικό ρητό αριθμό, όπως φαίνεται παρακάτω:
 
-.. figure:: {static}wp-content/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png
+.. figure:: {static}_static/images/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png
    :alt: Τα κλάσματα σαν πλέγμα.
    :figclass: wp-image-973
 
@@ -167,7 +167,7 @@
 
 Εδώ παρατηρούμε ότι στην πρώτη γραμμή φαίνονται οι φυσικοί αριθμοί, στη δεύτερη τα κλάσματα με παρονομαστή 2, στην τρίτη αυτά με παρονομαστή 3 κ.ο.κ., πράγμα που θυμίζει, λίγο έως πολύ, αυτό που κάναμε και προηγουμένως. Εδώ όμως έρχεται η ιδέα που μας έλειπε. Ας φανταστούμε ότι στεκόμαστε στο σημείο  :math:`A(1,1)` , το οποίο αντιστοιχεί στον αριθμό 1. Ξεκινάμε και κινούμαστε όπως φαίνεται  στο ακόλουθο σχήμα:
 
-.. figure:: {static}wp-content/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png
+.. figure:: {static}_static/images/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png
    :alt: Ο περίπατος του Cantor.
    :figclass: wp-image-975
 
@@ -182,7 +182,7 @@
 
 Αν προσπαθήσουμε πάνω στην ευθεία των πραγματικών αριθμών να τοποθετήσουμε όλους τους φυσικούς αριθμούς, τότε δε θα συναντήσουμε ιδιαίτερη δυσκολία, καθώς πρέπει απλώς να αποφασίσουμε πού θα τοποθετήσουμε την μονάδα μας (1) και στη συνέχεια να προχωράμε με σταθερό βήμα «φυτεύοντας» και όλους τους υπόλοιπους αριθμούς, όπως φαίνεται παρακάτω:
 
-.. figure:: {static}wp-content/uploads/2019/07/ezgif.com-crop2-1.gif
+.. figure:: {static}_static/images/uploads/2019/07/ezgif.com-crop2-1.gif
    :alt: Φυτεύοντας φυσικούς (αριθμούς).
    :figclass: wp-image-984
 
@@ -190,7 +190,7 @@
 
 Τώρα, αν θέλουμε να βάλουμε όλους τους (θετικούς) ρητούς στον άξονα, πώς θα εργαστούμε; Ένας τρόπος είναι να ακολουθήσουμε τα βήματα του Cantor, αλλά θα μας βγει η ψυχή, οπότε μπορούμε, πολύ απλά, να τοποθετήσουμε πρώτα όλους τους φυσικούς, έπειτα όλους τους ρητούς αριθμούς με παρονομαστή δύο, έπειτα όλους τους ρητούς με παρονομαστή 3 κ.ο.κ., όπως φαίνεται στο παρακάτω σχήμα:
 
-.. figure:: {static}wp-content/uploads/2019/07/ezgif.com-crop3.gif
+.. figure:: {static}_static/images/uploads/2019/07/ezgif.com-crop3.gif
    :alt: Φυτεύοντας ρητούς.
    :figclass: wp-image-986
 
@@ -346,7 +346,7 @@
 
 Τι είδαμε ως τώρα; Ότι οι ρητοί κι οι φυσικοί έχουν το ίδιο πλήθος, ότι οι ρητοί είναι πρακτικά παντού πάνω στην ευθεία των αριθμών, ότι οι πραγματικοί αριθμοί είναι «ασύγκριτα» περισσότεροι από τους ρητούς και ότι υπάρχουν αριθμοί που δεν είναι ρητοί, οι άρρητοι, όπως τους λένε, που είναι και αυτοί «ασύγκριτα» περισσότεροι από τους ρητούς. Όπως καταλαβαίνετε, ενός κακού μύρια έπονται, οπότε να αναμένετε συνέχεια...
 
-Κι επειδή καλοκαίρι είναι, κλείνουμε μουσικά, με λίγο `Hugh Laurie <https://en.wikipedia.org/wiki/Hugh_Laurie>`__:
+Κι επειδή καλοκαίρι είναι, κλείνουμε μουσικά, με λίγο `Hugh Laurie  <https://en.wikipedia.org/wiki/Hugh_Laurie>`__:
 
 
 

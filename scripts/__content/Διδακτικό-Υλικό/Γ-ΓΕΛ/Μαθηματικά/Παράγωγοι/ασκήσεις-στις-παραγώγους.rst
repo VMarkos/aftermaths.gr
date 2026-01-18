@@ -8,18 +8,18 @@
 	:tags: παράγωγος, πανελλήνιες, συναρτήσεις, Γ' λυκείου, επανάληψη, εφαπτομένη
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%bf%cf%85%cf%82
 	:status: published
-	:attachments: wp-content/uploads/2019/01/vassily_kandinsky_1936_-_composition_ix.jpg
+	:attachments: _static/images/uploads/2019/01/vassily_kandinsky_1936_-_composition_ix.jpg
 
-.. figure:: /wp-content/uploads/2019/01/vassily_kandinsky_1936_-_composition_ix.jpg
-	:alt: Ο πίνακας *Αφαιρετικές στροφές 150,* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+.. figure:: /_static/images/uploads/2019/01/vassily_kandinsky_1936_-_composition_ix.jpg
+	:alt: Ο πίνακας *Αφαιρετικές στροφές 150,* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Αφαιρετικές στροφές 150,* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Αφαιρετικές στροφές 150,* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
 
 
 Λίγες ασκησούλες στις παραγώγους, όπως είχαμε συμφωνήσει.
 
-Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1dCnf_tr561WdpJdaASBWBcxuKGaqjGZo/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1dCnf_tr561WdpJdaASBWBcxuKGaqjGZo/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

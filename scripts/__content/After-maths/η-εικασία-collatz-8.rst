@@ -8,13 +8,13 @@
 	:tags: Collatz, featured
 	:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-8
 	:status: published
-	:attachments: wp-content/uploads/2021/10/henri_fantin-latour_-_by_the_table_-_google_art_project.jpg
+	:attachments: _static/images/uploads/2021/10/henri_fantin-latour_-_by_the_table_-_google_art_project.jpg
 
-.. figure:: /wp-content/uploads/2021/10/henri_fantin-latour_-_by_the_table_-_google_art_project.jpg
-	:alt: Ο πίνακας *Στο τραπέζι* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+.. figure:: /_static/images/uploads/2021/10/henri_fantin-latour_-_by_the_table_-_google_art_project.jpg
+	:alt: Ο πίνακας *Στο τραπέζι* του `Henri Fantin-Latour  <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
 	:align: center
 
-	Ο πίνακας *Στο τραπέζι* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+	Ο πίνακας *Στο τραπέζι* του `Henri Fantin-Latour  <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
 
 
 Την προηγούμενη εβδομάδα ασχοληθήκαμε αρκετά με μία εναλλακτική προσέγγιση της εικασίας Collatz, η οποία βασίζεται σε μία επαγωγική ιδέα. Για την ακρίβεια, είπαμε ότι αν καταφέρουμε και αποδείξουμε ότι από όποιον αριθμό κι αν ξεκινήσουμε, μετά από πεπερασμένο πλήθος βημάτων καταλήγουμε σε έναν αριθμό μικρότερο από τον αρχικό μας όρο, τότε η εικασία Collatz είναι αληθής. Έτσι, αντί να μελετούμε αν τελικά μία ακολουθία καταλήγει στο 1, αρκεί να εξετάζουμε αν *όλες* οι ακολουθίες Collatz καταλήγουν σε έναν όρο μικρότερο από τον αρχικό τους.
@@ -24,7 +24,7 @@
 Με απλά βήματα...
 -----------------
 
-Ξεκινώντας από πιο ήπιους στόχους, αρχικά θα ασχοληθούμε με τους αριθμούς της μορφής  :math:4k-1`  καθώς, όπως `έχουμε δει </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/After-maths/η-εικασία-collatz-7.rst>`__, αυτοί οι αριθμοί δεν οδηγούν με κάποιον προφανή τρόπο σε κάποιον αριθμό μικρότερο από αυτούς. Για την ακρίβεια, τα πρώτα βήματα κάθε ακολουθίας Collatz που ξεκινάει από έναν τέτοιον αριθμό είναι τα εξής:
+Ξεκινώντας από πιο ήπιους στόχους, αρχικά θα ασχοληθούμε με τους αριθμούς της μορφής  :math:`4k-1`  καθώς, όπως `έχουμε δει  <docs/After-maths/η-εικασία-collatz-7.rst>`__, αυτοί οι αριθμοί δεν οδηγούν με κάποιον προφανή τρόπο σε κάποιον αριθμό μικρότερο από αυτούς. Για την ακρίβεια, τα πρώτα βήματα κάθε ακολουθίας Collatz που ξεκινάει από έναν τέτοιον αριθμό είναι τα εξής:
 
 -  «τριπλασιασμός»,
 -  υποδιπλασιασμός,
@@ -35,7 +35,7 @@
 
 Με αφορμή τα παραπάνω, αποφασίσαμε να σχεδιάσουμε για κάθε τέτοιον αριθμό την ακολουθία των πράξεων που κάνουμε μέχρι να καταλήξουμε σε έναν αριθμό μικρότερο από τον αρχικό όρο. Έτσι, πήραμε ένα σχήμα σαν το ακόλουθο:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/steps_100.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/steps_100.png?w=723
    :alt: Μπλε = «τριπλασιασμός», κόκκινο = υποδιπλασιασμός.
    :figclass: wp-image-9293
 
@@ -45,7 +45,7 @@
 
 Για παράδειγμα, αν σχεδιάσουμε 200 τέτοιες περιπτώσεις αντί για 100, τότε μπορούμε να εντοπίσουμε πιο εύκολα και άλλα μοτίβα σε μεγαλύτερες στήλες:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/steps_200.png?w=1024
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/steps_200.png?w=1024
    :alt: Στριμώχτηκαν λίγο όλα...
    :figclass: wp-image-9497
 
@@ -105,7 +105,7 @@
 
 Με τη βοήθεια του παραπάνω, σχεδιάζουμε το ακόλουθο σχήμα:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/ratio_20.png?w=1024
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/ratio_20.png?w=1024
    :alt: Αρκετά κοντά...
    :figclass: wp-image-9509
 
@@ -113,7 +113,7 @@
 
 Αλλά, τι να μας κάνουν μόνο 20 περιπτώσεις. Ας δούμε πώς πάει η κατάσταση όταν έχουμε μέχρι και 1000 αριθμούς:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/ratio_1000.png?w=1024
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/ratio_1000.png?w=1024
    :alt: Όχι αρκετά κοντά...
    :figclass: wp-image-9510
 
@@ -125,7 +125,7 @@
 
 Με τι πιθανότητα, ξεκινώντας από έναν αριθμό, καταλήγουμε με «βήματα Collatz» σε έναν μικρότερο αριθμό;
 
-Με αυτό το ερώτημα θα κλείσουμε τις σκέψεις μας αυτήν την εβδομάδα. Για περισσότερα, αναμείνατε την επόμενη ανάρτηση της `σειράς <https://aftermaths.gr/category/collatz/>`__!
+Με αυτό το ερώτημα θα κλείσουμε τις σκέψεις μας αυτήν την εβδομάδα. Για περισσότερα, αναμείνατε την επόμενη ανάρτηση της `σειράς  <https://aftermaths.gr/category/collatz/>`__!
 
 Μέχρι τότε, καληνύχτα!
 

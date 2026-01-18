@@ -8,20 +8,20 @@
 	:tags: συναρτήσεις, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, διαφάνειες, θεωρία, λυμένα παραδείγματα
 	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-21%ce%bf
 	:status: published
-	:attachments: wp-content/uploads/2022/02/1280px-alma-tadema_the_education_of_the_children_of_clovis.jpg
+	:attachments: _static/images/uploads/2022/02/1280px-alma-tadema_the_education_of_the_children_of_clovis.jpg
 
-.. figure:: /wp-content/uploads/2022/02/1280px-alma-tadema_the_education_of_the_children_of_clovis.jpg
-	:alt: Ο πίνακας *Η διαπαιδαγώγηση των παιδιών του Βασιλιά Clovis* του `Lawrence Alma-Tadema <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
+.. figure:: /_static/images/uploads/2022/02/1280px-alma-tadema_the_education_of_the_children_of_clovis.jpg
+	:alt: Ο πίνακας *Η διαπαιδαγώγηση των παιδιών του Βασιλιά Clovis* του `Lawrence Alma-Tadema  <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
 	:align: center
 
-	Ο πίνακας *Η διαπαιδαγώγηση των παιδιών του Βασιλιά Clovis* του `Lawrence Alma-Tadema <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
+	Ο πίνακας *Η διαπαιδαγώγηση των παιδιών του Βασιλιά Clovis* του `Lawrence Alma-Tadema  <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
 
 
 Μία μικρή εισαγωγή στην έννοια της συνάρτησης - Άλγεβρα, Α' Λυκείου και ΕΠΑΛ.
 
-Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/10ItLGRH4Na2ZIZ3iw1qhHTq9vFyKo8nA/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/10ItLGRH4Na2ZIZ3iw1qhHTq9vFyKo8nA/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
-*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ εδώ <https://aftermaths.gr/2022/02/07/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-20%ce%bf/>`__\ *ενώ τις αντίστοιχες της Β' Λυκείου*\ `εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-β-λυκείου-μάθημα-20ο.rst>`__\ *.*
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-α-λυκείου-μάθημα-20ο.rst>`__\ *ενώ τις αντίστοιχες της Β' Λυκείου*\ `εδώ  <docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-β-λυκείου-μάθημα-20ο.rst>`__\ *.*
 
 
 

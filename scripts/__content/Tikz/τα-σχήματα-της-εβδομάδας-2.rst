@@ -7,13 +7,13 @@
 	:tags: featured, Μαθηματικά, Tikz
 	:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-2
 	:status: published
-	:attachments: wp-content/uploads/2021/08/road_to_versailles_at_louveciennes_1869_camille_pissarro.jpg
+	:attachments: _static/images/uploads/2021/08/road_to_versailles_at_louveciennes_1869_camille_pissarro.jpg
 
-.. figure:: /wp-content/uploads/2021/08/road_to_versailles_at_louveciennes_1869_camille_pissarro.jpg
-	:alt: *οι δρόμοι για τις Βερσαλλίες* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+.. figure:: /_static/images/uploads/2021/08/road_to_versailles_at_louveciennes_1869_camille_pissarro.jpg
+	:alt: *οι δρόμοι για τις Βερσαλλίες* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 	:align: center
 
-	*οι δρόμοι για τις Βερσαλλίες* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	*οι δρόμοι για τις Βερσαλλίες* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 
 
 Άλλη μία εβδομάδα πέρασε, άλλο ένα σετ με σχήματα που κάπου έχουμε ξανασυναντήσει στο aftermaths θα συζητηθεί εκτενώς. Τα σχήματα αυτής της εβδομάδας κυμαίνονται από σχετικά απλά έως και πολύ απαιτητικά - τουλάχιστον σε σχέση με τα όσα έχουμε δει ως τώρα. Αλλά, επειδή άρχισαν ήδη οι φλυαρίες και δεν έχουμε φτάσει ούτε τις δύο προτάσεις καλά-καλά, ας περάσουμε στο διά ταύτα - πολύ τη χρησιμοποιώ αυτήν την έκφραση τελευταία.
@@ -23,7 +23,7 @@
 
 Το πρώτο σχήμα της περασμένης εβδομάδας ήταν αυτό:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_5.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_5.png?w=723
    :alt: Ένα απλό πολυώνυμο...
    :figclass: wp-image-7780
 
@@ -47,7 +47,7 @@
        \end{tikzpicture}
    \end{document}
 
-Εντάξει, εδώ δεν είχαμε και κάτι τρομακτικό, όλα έμοιαζαν με τα σχήματα της προηγούμενης εβδομάδας </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Tikz/τα-σχήματα-της-εβδομάδας-1.rst>`__: άξονες, πλέγμα, μία γραφική παράσταση και δύο κόμβοι. Αυτό που ίσως έχει αξία να παρατηρήσουμε είναι και πάλι το πώς αποφεύγουμε την ύψωση σε δύναμη αρνητικών αριθμών και προτιμούμε να τη γράψουμε σαν απλό γινόμενο. Επίσης, ίσως όχι τόσο σχετικό με το ``tikz`` αλλά περισσότερο με το πώς βρίσκουμε ένα πολυώνυμο που να μοιάζει «τυχαίο», παρατηρήστε λίγο τον τύπο του πολυωνύμου που χρησιμοποιήσαμε. Για ευκολία, είναι το ακόλουθο:
+Εντάξει, εδώ δεν είχαμε και κάτι τρομακτικό, όλα έμοιαζαν με τα `σχήματα της προηγούμενης εβδομάδας  <docs/Tikz/τα-σχήματα-της-εβδομάδας-1.rst>`__: άξονες, πλέγμα, μία γραφική παράσταση και δύο κόμβοι. Αυτό που ίσως έχει αξία να παρατηρήσουμε είναι και πάλι το πώς αποφεύγουμε την ύψωση σε δύναμη αρνητικών αριθμών και προτιμούμε να τη γράψουμε σαν απλό γινόμενο. Επίσης, ίσως όχι τόσο σχετικό με το ``tikz`` αλλά περισσότερο με το πώς βρίσκουμε ένα πολυώνυμο που να μοιάζει «τυχαίο», παρατηρήστε λίγο τον τύπο του πολυωνύμου που χρησιμοποιήσαμε. Για ευκολία, είναι το ακόλουθο:
 
 .. math:: p(x)=\dfrac{3}{75}(x^2-1)(x-3)(x-5)^2=\dfrac{3}{75}(x-1)(x+1)(x-3)(x-5)^2.
 
@@ -60,7 +60,7 @@
 
 Το επόμενο σχήμα της εβδομάδας ήταν αυτό:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_6.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_6.png?w=723
    :alt: Πόσα πολυώνυμα, πχια;
    :figclass: wp-image-7848
 
@@ -93,7 +93,7 @@
 
 Το επόμενο γαργαλιστικό σχήμα μας είναι το εξής:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_7-2.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_7-2.png?w=723
    :alt: Πού πήγε το πλέγμα;
    :figclass: wp-image-7853
 
@@ -127,7 +127,7 @@
 
 Το επόμενο σχήμα μας είναι το εξής:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_8.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_8.png?w=723
    :alt: Εδώ μπήκε και χρώμα...
    :figclass: wp-image-7855
 
@@ -195,7 +195,7 @@
 
 Το επόμενο σχήμα μας είναι ακόμα πιο τσαχπίνικο:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_9.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_9.png?w=723
    :alt: Κάτι στράβωσε εδώ...
    :figclass: wp-image-7859
 
@@ -251,7 +251,7 @@
 
 Το επόμενο σχήμα της εβδομάδας είναι αυτό:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_10.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_10.png?w=723
    :alt: Ευκολάκι, έτσι;
    :figclass: wp-image-7861
 
@@ -297,7 +297,7 @@
 
 Κλείνουμε αυτήν την αρκετά πολύπλοκη εβδομάδα με ένα σχετικά πολύπλοκο σχήμα:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_11.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_11.png?w=723
    :alt: Πωπω χαμός...
    :figclass: wp-image-7867
 

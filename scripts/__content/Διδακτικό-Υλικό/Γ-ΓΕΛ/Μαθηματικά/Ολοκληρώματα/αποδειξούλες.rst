@@ -8,16 +8,16 @@
 	:tags: featured, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, αποδείξεις, επανάληψη, ολοκλήρωμα
 	:slug: %ce%b1%cf%80%ce%bf%ce%b4%ce%b5%ce%b9%ce%be%ce%bf%cf%8d%ce%bb%ce%b5%cf%82
 	:status: published
-	:attachments: wp-content/uploads/2020/02/proof.png
+	:attachments: _static/images/uploads/2020/02/proof.png
 
-.. figure:: /wp-content/uploads/2020/02/proof.png
-	:alt: Ένα αγαπημένο webcomic του `Randall Munroe <https://xkcd.com/>`__. 
+.. figure:: /_static/images/uploads/2020/02/proof.png
+	:alt: Ένα αγαπημένο webcomic του `Randall Munroe  <https://xkcd.com/>`__. 
 	:align: center
 
-	Ένα αγαπημένο webcomic του `Randall Munroe <https://xkcd.com/>`__. 
+	Ένα αγαπημένο webcomic του `Randall Munroe  <https://xkcd.com/>`__. 
 
 
-`Εδώ <https://drive.google.com/file/d/1QyS671DkusTI-WR0QHFEodnVd3wgb-J_/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__ μπορείτε να βρείτε μία συλλογή όλων των εντός ύλης αποδείξεων των Μαθηματικών Προσανατολισμού της Γ' Λυκείου, με κάποια σχόλια πριν από τις πιο απαιτητικές από αυτές.
+`Εδώ  <https://drive.google.com/file/d/1QyS671DkusTI-WR0QHFEodnVd3wgb-J_/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__ μπορείτε να βρείτε μία συλλογή όλων των εντός ύλης αποδείξεων των Μαθηματικών Προσανατολισμού της Γ' Λυκείου, με κάποια σχόλια πριν από τις πιο απαιτητικές από αυτές.
 
 
 

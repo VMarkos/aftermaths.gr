@@ -8,18 +8,18 @@
 	:tags: προβλήματα, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διασπορά, διακύμανση, επανάληψη, εύρος, μέση τιμή
 	:slug: 9-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84%ce%b9
 	:status: published
-	:attachments: wp-content/uploads/2021/01/repinselfportrait.jpg
+	:attachments: _static/images/uploads/2021/01/repinselfportrait.jpg
 
-.. figure:: /wp-content/uploads/2021/01/repinselfportrait.jpg
-	:alt: Μία αυτοπροσωπογραφία του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__. 
+.. figure:: /_static/images/uploads/2021/01/repinselfportrait.jpg
+	:alt: Μία αυτοπροσωπογραφία του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__. 
 	:align: center
 
-	Μία αυτοπροσωπογραφία του `Ilya Repin <https://en.wikipedia.org/wiki/Ilya_Repin>`__. 
+	Μία αυτοπροσωπογραφία του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__. 
 
 
 Εννιά (9) μικρές και μεγάλες επαναληπτικές ασκήσεις και προβλήματα στη Στατιστική των μαθηματικών γενικής παιδείας (άλγεβρα) της Γ' ΕΠΑΛ.
 
-Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1BHxj_5UBLYqydRk7WJEkGqsIVofz3zls/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1BHxj_5UBLYqydRk7WJEkGqsIVofz3zls/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

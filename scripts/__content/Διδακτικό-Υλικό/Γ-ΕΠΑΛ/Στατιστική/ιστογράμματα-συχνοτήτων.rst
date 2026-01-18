@@ -8,16 +8,16 @@
 	:tags: προβλήματα, πίνακες, πανελλήνιες, στατιστική, συχνοτήτων, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, ιστογράμματα
 	:slug: %ce%b9%cf%83%cf%84%ce%bf%ce%b3%cf%81%ce%ac%ce%bc%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%85%cf%87%ce%bd%ce%bf%cf%84%ce%ae%cf%84%cf%89%ce%bd
 	:status: published
-	:attachments: wp-content/uploads/2020/05/meisje_met_de_parel.jpg
+	:attachments: _static/images/uploads/2020/05/meisje_met_de_parel.jpg
 
-.. figure:: /wp-content/uploads/2020/05/meisje_met_de_parel.jpg
-	:alt: Ο πίνακες *Το κορίτσι με το μαργαριταρένιο σκουλαρίκι* του `Johannes Vermeer <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__. 
+.. figure:: /_static/images/uploads/2020/05/meisje_met_de_parel.jpg
+	:alt: Ο πίνακες *Το κορίτσι με το μαργαριταρένιο σκουλαρίκι* του `Johannes Vermeer  <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__. 
 	:align: center
 
-	Ο πίνακες *Το κορίτσι με το μαργαριταρένιο σκουλαρίκι* του `Johannes Vermeer <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__. 
+	Ο πίνακες *Το κορίτσι με το μαργαριταρένιο σκουλαρίκι* του `Johannes Vermeer  <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__. 
 
 
-Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1Vn03QWypoeY28NeCqa6i2RVsYEw6V4Hs/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1Vn03QWypoeY28NeCqa6i2RVsYEw6V4Hs/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

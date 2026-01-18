@@ -8,16 +8,16 @@
 	:tags: Α' Γυμνασίου, ασκήσεις, επανάληψη, θεωρία
 	:slug: %ce%b5%cf%81%cf%89%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%89%cf%83%cf%84%ce%bf%cf%8d-%ce%bb%ce%ac%ce%b8%ce%bf%cf%85%cf%82-%cf%83%cf%84%ce%bf-1%ce%bf-%ce%ba%ce%b5%cf%86%ce%ac%ce%bb%ce%b1%ce%b9
 	:status: published
-	:attachments: wp-content/uploads/2019/10/800px-view_of_the_entrance_to_the_arsenal_by_canaletto_1732.jpg
+	:attachments: _static/images/uploads/2019/10/800px-view_of_the_entrance_to_the_arsenal_by_canaletto_1732.jpg
 
-.. figure:: /wp-content/uploads/2019/10/800px-view_of_the_entrance_to_the_arsenal_by_canaletto_1732.jpg
-	:alt: Ο πίνακας *Άποψη της εισόδου του Οπλοποιείου της Βενετίας* του `Canaletto <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+.. figure:: /_static/images/uploads/2019/10/800px-view_of_the_entrance_to_the_arsenal_by_canaletto_1732.jpg
+	:alt: Ο πίνακας *Άποψη της εισόδου του Οπλοποιείου της Βενετίας* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Άποψη της εισόδου του Οπλοποιείου της Βενετίας* του `Canaletto <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	Ο πίνακας *Άποψη της εισόδου του Οπλοποιείου της Βενετίας* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
 
 
-Οι ερωτήσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1p9p2wAEXNJhDD4MRmpeZ1uf3QQYcb_pi/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Οι ερωτήσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1p9p2wAEXNJhDD4MRmpeZ1uf3QQYcb_pi/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

@@ -8,18 +8,18 @@
 	:tags: Collatz, featured
 	:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-7
 	:status: published
-	:attachments: wp-content/uploads/2021/10/fantinlatour_danae.jpg
+	:attachments: _static/images/uploads/2021/10/fantinlatour_danae.jpg
 
-.. figure:: /wp-content/uploads/2021/10/fantinlatour_danae.jpg
-	:alt: Ο πίνακας *Δανάη* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+.. figure:: /_static/images/uploads/2021/10/fantinlatour_danae.jpg
+	:alt: Ο πίνακας *Δανάη* του `Henri Fantin-Latour  <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
 	:align: center
 
-	Ο πίνακας *Δανάη* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+	Ο πίνακας *Δανάη* του `Henri Fantin-Latour  <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
 
 
 Την προηγούμενη εβδομάδα είδαμε διάφορα ωραία και ενδιαφέροντα σε σχέση με την εικασία Collatz και το πώς αυτή σχετίζεται με άλλα δύσκολα προβλήματα που αφορούν τους αριθμούς και την ανάλυσή τους σε γινόμενο πρώτων παραγόντων. Για την ακρίβεια είδαμε ότι η εικασία που έχουμε αγαπήσει να μισούμε λύνεται πολύ εύκολα αν μπορούμε να προσδιορίσουμε το ανάπτυγμα σε γινόμενο πρώτων ενός θετικού ακεραίου αριθμού από τον προηγούμενο ή τον επόμενό του. Ωστόσο, αυτό από μόνο του είναι ιδιαίτερα δύσκολο - και ακόμα αναπάντητο.
 
-Αν θέλετε να θυμηθείτε περισσότερα από όσα έχουμε πει δείτε `εδώ <https://aftermaths.gr/2021/10/08/%ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-6/>`__ και `εδώ <https://aftermaths.gr/category/collatz/>`__.
+Αν θέλετε να θυμηθείτε περισσότερα από όσα έχουμε πει δείτε `εδώ  <docs/After-maths/η-εικασία-collatz-6.rst>`__ και `εδώ  <https://aftermaths.gr/category/collatz/>`__.
 
 Επί τρία, διά δύο...
 --------------------
@@ -63,7 +63,7 @@
 
 Ένα σχήμα που είχαμε πάρει την προηγούμενη εβδομάδα είναι το ακόλουθο:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/powers_20.png
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/powers_20.png
    :alt: Πόσες δυνάμεις του 2 χωράνε;
    :figclass: wp-image-9062
 
@@ -122,7 +122,7 @@
 
 Το παραπάνω script μας βοηθάει να σχεδιάσουμε ένα σχήμα σαν το παρακάτω:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/steps_20.png?w=1024
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/steps_20.png?w=1024
    :alt: Κυκλάκια, πολλά κυκλάκια...
    :figclass: wp-image-9286
 
@@ -141,7 +141,7 @@
 
 Πώς όμως μπορούμε να δούμε αν από έναν αριθμό της μορφής  :math:`9k-1`  μπορούμε με πεπερασμένο πλήθος εφαρμογών των βασικών πράξεων που μας έχει καθορίσει ο κύριος Collatz να καταλήξουμε σε έναν αριθμό μικρότερο από τον  :math:`4k-1.`  Από το παραπάνω σχήμα δε φαίνεται, μετά τα 4 πρώτα βήματα, να υπάρχει κάποιο μοτίβο. Ίσως ένα μεγαλύτερο σχήμα να μας βοηθήσει:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/steps_100.png?w=1024
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/steps_100.png?w=1024
    :alt: Χμμμ, κάτι αρχίζει να αχνοφαίνεται...
    :figclass: wp-image-9293
 

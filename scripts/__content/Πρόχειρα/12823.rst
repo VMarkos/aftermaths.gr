@@ -8,9 +8,9 @@
 	:tags: featured, γεωμετρία
 	:slug: 12823
 	:status: draft
-	:attachments: wp-content/uploads/2023/10/sofa_08.png, wp-content/uploads/2023/10/sofa_03.png, wp-content/uploads/2023/10/sofa_09.gif, wp-content/uploads/2023/10/sofa_07.png, wp-content/uploads/2023/10/henri-de-toulouse-lautrec-the-sofa-1896-trivium-art-history-1.webp, wp-content/uploads/2023/10/sofa_01.png, wp-content/uploads/2023/10/sofa_02.png, wp-content/uploads/2023/10/sofa_05.png, wp-content/uploads/2023/10/sofa_04.png, wp-content/uploads/2023/10/sofa_06.png
+	:attachments: _static/images/uploads/2023/10/sofa_08.png, _static/images/uploads/2023/10/sofa_03.png, _static/images/uploads/2023/10/sofa_09.gif, _static/images/uploads/2023/10/sofa_07.png, _static/images/uploads/2023/10/henri-de-toulouse-lautrec-the-sofa-1896-trivium-art-history-1.webp, _static/images/uploads/2023/10/sofa_01.png, _static/images/uploads/2023/10/sofa_02.png, _static/images/uploads/2023/10/sofa_05.png, _static/images/uploads/2023/10/sofa_04.png, _static/images/uploads/2023/10/sofa_06.png
 
-.. figure:: /wp-content/uploads/2023/10/sofa_08.png, wp-content/uploads/2023/10/sofa_03.png, wp-content/uploads/2023/10/sofa_09.gif, wp-content/uploads/2023/10/sofa_07.png, wp-content/uploads/2023/10/henri-de-toulouse-lautrec-the-sofa-1896-trivium-art-history-1.webp, wp-content/uploads/2023/10/sofa_01.png, wp-content/uploads/2023/10/sofa_02.png, wp-content/uploads/2023/10/sofa_05.png, wp-content/uploads/2023/10/sofa_04.png, wp-content/uploads/2023/10/sofa_06.png
+.. figure:: /_static/images/uploads/2023/10/sofa_08.png, _static/images/uploads/2023/10/sofa_03.png, _static/images/uploads/2023/10/sofa_09.gif, _static/images/uploads/2023/10/sofa_07.png, _static/images/uploads/2023/10/henri-de-toulouse-lautrec-the-sofa-1896-trivium-art-history-1.webp, _static/images/uploads/2023/10/sofa_01.png, _static/images/uploads/2023/10/sofa_02.png, _static/images/uploads/2023/10/sofa_05.png, _static/images/uploads/2023/10/sofa_04.png, _static/images/uploads/2023/10/sofa_06.png
 	:alt: 
 	:align: center
 
@@ -36,7 +36,7 @@
 
 Λίγο μετά, οι υπάλληλοι βρίσκονται αντιμέτωποι με την παρακάτω κατάσταση:
 
-.. figure:: {static}wp-content/uploads/2023/10/sofa_01.png?w=535
+.. figure:: {static}_static/images/uploads/2023/10/sofa_01.png?w=535
    :alt: Η κάτοψη της εξόδου του σπιτιού.
    :figclass: wp-image-12846
 
@@ -73,7 +73,7 @@
 
 Ας ρίξουμε μια ματιά στον καναπέ του παρακάτω σχήματος:
 
-.. figure:: {static}wp-content/uploads/2023/10/sofa_02.png?w=535
+.. figure:: {static}_static/images/uploads/2023/10/sofa_02.png?w=535
    :alt: Τετράγωνη λογική...
    :figclass: wp-image-12859
 
@@ -93,7 +93,7 @@
 -  [Υ1] [Χαζογελώντας] Ναι, δεν τον είδες;
 -  [Υ2] Σους! Λοιπόν, ο καναπές αυτός εδώ που είναι τετράγωνος δε στρίβει, δηλαδή δεν εκμεταλλεύεται το σχήμα της γωνίας. Οπότε, σίγουρα θα μπορούμε να φτιάξουμε και μεγαλύτερους καναπέδες που να περνάνε από τη γωνία, αρκεί κάπως να τους στρίψουμε. Να, για παράδειγμα, μπορούμε να κοντύνουμε λίγο τον καναπέ και να τον πλατύνουμε. Έτσι, μάλλον, θα χωράει να στρίψει από τη γωνία:
 
-.. figure:: {static}wp-content/uploads/2023/10/sofa_03.png?w=535
+.. figure:: {static}_static/images/uploads/2023/10/sofa_03.png?w=535
    :alt: Ένας πιο μαζεμένος καναπές.
    :figclass: wp-image-12877
 
@@ -105,7 +105,7 @@
 -  [Υ2] Ρε, κερδίζεις άμα τα μαγειρέψεις καλά, απλά πρέπει να το ψάξουμε λίγο, μην είσαι ξεροκέφαλος, λέμε.
 -  [Υ3] Ειρήνη υμίν, παιδιά. Νομίζω βρήκα τι παίζει με αυτό που λέτε.
 
-.. figure:: {static}wp-content/uploads/2023/10/sofa_04.png?w=535
+.. figure:: {static}_static/images/uploads/2023/10/sofa_04.png?w=535
    :alt: Μικρές στροφές...
    :figclass: wp-image-12881
 
@@ -120,7 +120,7 @@
 -  [Υ1] Εσύ τον σχεδίασες...
 -  [Υ2] Έστω, με τον καναπέ που *εγώ* σχεδίασα. Γιατί, να, δες εδώ:
 
-.. figure:: {static}wp-content/uploads/2023/10/sofa_05.png?w=542
+.. figure:: {static}_static/images/uploads/2023/10/sofa_05.png?w=542
    :alt: Ωχ, πέσαμε έξω...
    :figclass: wp-image-12887
 
@@ -130,7 +130,7 @@
 -  [Υ2] [Ειρωνικά] Χα, χα, χα, ας γελάσουμε...
 -  [Υ3] Εντάξει, σταματήστε! Λοιπόν, ακριβώς αυτό είναι το θέμα, κάποια σημεία, καθώς στρίβει ο καναπές, θα πρέπει να βρεθούν «πίσω» από τους τοίχους. Γενικότερα, αν πάρουμε έναν καναπέ και πάμε να τον στρίψουμε γύρω από τη γωνία τότε πρέπει κάθε στιγμή όλος ο καναπές να βρίσκεται εδώ μέσα [διαγράφει με το δάχτυλό του τη γαλάζια περιοχή]:
 
-.. figure:: {static}wp-content/uploads/2023/10/sofa_06.png?w=535
+.. figure:: {static}_static/images/uploads/2023/10/sofa_06.png?w=535
    :alt: Ο κύκλος των χαμένων... καναπών (;)
    :figclass: wp-image-12890
 
@@ -140,7 +140,7 @@
 -  [Υ3] Ναι, καμάρωνε εσύ... Δε βλέπεις πόσο μικρός είναι ο καναπές που σχεδίασες; Εδώ έχουμε χώρο να κάνουμε παιχνίδι, δε βλέπεις;
 -  [Υ1] Εγώ, το πιο μεγάλο που μπορώ να σκεφτώ είναι αυτό εδώ [δείχνει το ημικύκλιο]:
 
-.. figure:: {static}wp-content/uploads/2023/10/sofa_07.png?w=535
+.. figure:: {static}_static/images/uploads/2023/10/sofa_07.png?w=535
    :alt: Ένας μεγάλος στρογγυλός καναπές.
    :figclass: wp-image-12894
 
@@ -153,7 +153,7 @@
 -  [Υ1] Έστω...
 -  [Υ2] Καλά, και δε μπορούμε να βάλουμε λίγο ακόμα από κάτω δεξιά, εδώ στο κενό;
 
-.. figure:: {static}wp-content/uploads/2023/10/sofa_08.png?w=535
+.. figure:: {static}_static/images/uploads/2023/10/sofa_08.png?w=535
    :alt: Μήπως δε χωράει;
    :figclass: wp-image-12898
 
@@ -166,7 +166,7 @@
 -  [Υ3] Γιατί, εσύ θα κάθεσαι;
 -  [Υ1] [Χαζογελώντας] Και, για να μη λέτε, να πώς παίρνει τις στροφές ο καναπές:
 
-.. figure:: {static}wp-content/uploads/2023/10/sofa_09.gif?w=595
+.. figure:: {static}_static/images/uploads/2023/10/sofa_09.gif?w=595
    :alt: Ένας καναπές που ταξιδεύει μοναχός...
    :figclass: wp-image-12904
 
@@ -183,7 +183,7 @@
 
 Για παράδειγμα, μπορούμε να σπρώξουμε τον καναπέ, να τον στρίψουμε λίγο, μετά να τον ξανασπρώξουμε, να τον ξαναστρίψουμε κ.ο.κ., μέχρι να περάσει όλος από τη γωνία, όπως, για παράδειγμα, στο παρακάτω σχήμα:
 
-Η κεντρική εικόνα είναι, φυσικά, *Ο καναπές* του `Henri de Toulouse-Lautrec <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__.
+Η κεντρική εικόνα είναι, φυσικά, *Ο καναπές* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__.
 
 Καλό απομεσήμερο!
 

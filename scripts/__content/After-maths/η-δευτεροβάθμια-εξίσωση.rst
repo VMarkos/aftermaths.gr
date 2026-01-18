@@ -8,13 +8,13 @@
 	:tags: featured, δευτεροβάθμιες, εξισώσεις
 	:slug: %ce%b7-%ce%b4%ce%b5%cf%85%cf%84%ce%b5%cf%81%ce%bf%ce%b2%ce%ac%ce%b8%ce%bc%ce%b9%ce%b1-%ce%b5%ce%be%ce%af%cf%83%cf%89%cf%83%ce%b7
 	:status: published
-	:attachments: wp-content/uploads/2020/02/p.s._krc3b8yer_-_summer_evening_on_skagens_beach._anna_ancher_and_marie_krc3b8yer_walking_together._-_google_art_project-1.jpg
+	:attachments: _static/images/uploads/2020/02/p.s._krc3b8yer_-_summer_evening_on_skagens_beach._anna_ancher_and_marie_krc3b8yer_walking_together._-_google_art_project-1.jpg
 
-.. figure:: /wp-content/uploads/2020/02/p.s._krc3b8yer_-_summer_evening_on_skagens_beach._anna_ancher_and_marie_krc3b8yer_walking_together._-_google_art_project-1.jpg
-	:alt: Ο πίνακας *Καλοκαιρινό απόγευμα στην νότια παραλία του Skagen* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+.. figure:: /_static/images/uploads/2020/02/p.s._krc3b8yer_-_summer_evening_on_skagens_beach._anna_ancher_and_marie_krc3b8yer_walking_together._-_google_art_project-1.jpg
+	:alt: Ο πίνακας *Καλοκαιρινό απόγευμα στην νότια παραλία του Skagen* του `Peder Severin Krøyer  <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
 	:align: center
 
-	Ο πίνακας *Καλοκαιρινό απόγευμα στην νότια παραλία του Skagen* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+	Ο πίνακας *Καλοκαιρινό απόγευμα στην νότια παραλία του Skagen* του `Peder Severin Krøyer  <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
 
 
 Όλοι μας θυμόμαστε τον πρώτο «δύσκολο» τύπο - σε ό,τι έχει να κάνει με την απομνημόνευσή του - που συναντήσαμε στο σχολείο· αυτόν των ριζών ενός τριωνύμου. Για να ακριβολογούμε, αν  :math:`ax^2+bx+c=0`  είναι μία δευτεροβάθμια εξίσωση, με  :math:`a\neq0` , τότε οι ρίζες της, αν υπάρχουν, δίνονται από τον τύπο:
@@ -143,7 +143,7 @@
 #. να μεταφέρουμε στο δεξί μέλος τους όρους που περισσεύουν,
 #. να διακρίνουμε περιπτώσεις ανάλογα με το τι μας έχει μείνει στο δεξί μέλος.
 
-Ωστόσο, πρόσφατα διάβασα σε ένα αρκετά ενδιαφέρον άρθρο - `Po-Shen Loh <https://arxiv.org/search/math?searchtype=author&query=Loh%2C+P>`__, *A simple proof of the Quadratic fomrula,* `arXiv:1910.06709 <https://arxiv.org/abs/1910.06709>`__ [math.HO] - που παρουσίαζε έναν εναλλακτικό τύπο επίλυσης δευτεροβάθμιων εξισώσεων, αξιοποιώντας την ταυτότητα  :math:`a^2-b^2=(a-b)(a+b)` .
+Ωστόσο, πρόσφατα διάβασα σε ένα αρκετά ενδιαφέρον άρθρο - `Po-Shen Loh  <https://arxiv.org/search/math?searchtype=author&query=Loh%2C+P>`__, *A simple proof of the Quadratic fomrula,* `arXiv:1910.06709  <https://arxiv.org/abs/1910.06709>`__ [math.HO] - που παρουσίαζε έναν εναλλακτικό τύπο επίλυσης δευτεροβάθμιων εξισώσεων, αξιοποιώντας την ταυτότητα  :math:`a^2-b^2=(a-b)(a+b)` .
 
 Οι τύποι του Vieta
 ~~~~~~~~~~~~~~~~~~
@@ -244,7 +244,7 @@ $\rho_1+\rho_2=\frac{5}{2}+u+\frac{5}{2}-u=\frac{5}{2}+\frac{5}{2}=5.$
 
 
 
-Και λίγη μουσικούλα από την πατρίδα του `Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__:
+Και λίγη μουσικούλα από την πατρίδα του `Krøyer  <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__:
 
 
 

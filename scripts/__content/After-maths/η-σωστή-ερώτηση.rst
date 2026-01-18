@@ -8,13 +8,13 @@
 	:tags: featured, Α' Λυκείου, Β' Λυκείου, Γ' λυκείου, ΕΠΑΛ, εξισώσεις
 	:slug: %ce%b7-%cf%83%cf%89%cf%83%cf%84%ce%ae-%ce%b5%cf%81%cf%8e%cf%84%ce%b7%cf%83%ce%b7
 	:status: published
-	:attachments: wp-content/uploads/2021/11/2560px-david_-_the_death_of_socrates.jpg
+	:attachments: _static/images/uploads/2021/11/2560px-david_-_the_death_of_socrates.jpg
 
-.. figure:: /wp-content/uploads/2021/11/2560px-david_-_the_death_of_socrates.jpg
-	:alt: Ο πίνακας *Ο Θάνατος του Σωκράτη* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+.. figure:: /_static/images/uploads/2021/11/2560px-david_-_the_death_of_socrates.jpg
+	:alt: Ο πίνακας *Ο Θάνατος του Σωκράτη* του `Jacques-Louis David  <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
 	:align: center
 
-	Ο πίνακας *Ο Θάνατος του Σωκράτη* του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+	Ο πίνακας *Ο Θάνατος του Σωκράτη* του `Jacques-Louis David  <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
 
 
 Σωστές και λάθος ερωτήσεις, όπως λέμε συνεχώς - και καλά κάνουμε - δεν υπάρχουν. Οπότε ο παραπάνω τίτλος ίσως δεν είναι παρά ένα κακοστημένο click-bait. Ωστόσο, σε κάποιες περιστάσεις, υπάρχουν ερωτήσεις που μπορούν να προάγουν έναν διάλογο κι ερωτήσεις που έχουν πιο τετριμμένα αποτελέσματα. Με αφορμή, λοιπόν, ένα σύνηθες περιστατικό από μια τάξη, θα ασχοληθούμε με μία τέτοια ερώτηση.

@@ -7,25 +7,25 @@
 	:tags: featured, Μαθηματικά, Tikz
 	:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-5
 	:status: published
-	:attachments: wp-content/uploads/2021/09/2560px-camille_pissarro_-_la_recolte_des_foins_eragny_-_google_art_project.jpg
+	:attachments: _static/images/uploads/2021/09/2560px-camille_pissarro_-_la_recolte_des_foins_eragny_-_google_art_project.jpg
 
-.. figure:: /wp-content/uploads/2021/09/2560px-camille_pissarro_-_la_recolte_des_foins_eragny_-_google_art_project.jpg
-	:alt: Ο πίνακας *Η συγκομιδή των σταχυών* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+.. figure:: /_static/images/uploads/2021/09/2560px-camille_pissarro_-_la_recolte_des_foins_eragny_-_google_art_project.jpg
+	:alt: Ο πίνακας *Η συγκομιδή των σταχυών* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Η συγκομιδή των σταχυών* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Η συγκομιδή των σταχυών* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 
 
-Αυτήν την εβδομάδα είχαμε πολύ περισσότερα πράγματα να δούμε από ότι την προηγούμενη </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Tikz/τα-σχήματα-της-εβδομάδας-4.rst>`__. Για την ακρίβεια, ήρθε επιτέλους ( ; ) η ώρα να μιλήσουμε για βιβλιοθήκες του ``tikz``. Αλλά, ας τα πάρουμε ένα-ένα...
+Αυτήν την εβδομάδα είχαμε πολύ περισσότερα πράγματα να δούμε από ότι την `προηγούμενη  <docs/Tikz/τα-σχήματα-της-εβδομάδας-4.rst>`__. Για την ακρίβεια, ήρθε επιτέλους ( ; ) η ώρα να μιλήσουμε για βιβλιοθήκες του ``tikz``. Αλλά, ας τα πάρουμε ένα-ένα...
 
-*Αν θέλετε να θυμηθείτε τι έχουμε δει τις προηγούμενες εβδομάδες, δείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
+*Αν θέλετε να θυμηθείτε τι έχουμε δει τις προηγούμενες εβδομάδες, δείτε*\ `εδώ  <https://aftermaths.gr/category/tikz/>`__\ *.*
 
 Απλό και καλό...
 ----------------
 
 Το πρώτο μας σχήμα είναι αυτό:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_24.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_24.png?w=723
    :alt: Ένα καθημερινό συνημίτονο.
    :figclass: wp-image-8067
 
@@ -55,7 +55,7 @@
 
 ... δεν είναι αυτή της Αλεξάνδρειας αλλά αυτή που φορτώνουμε στο παρακάτω σχήμα:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_25-1.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_25-1.png?w=723
    :alt: Μία συμπαθέστατη παραβολή!
    :figclass: wp-image-8266
 
@@ -102,7 +102,7 @@
 
 Το επόμενο σχήμα είναι το εξής:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_26.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_26.png?w=723
    :alt: Μία ακόμα παραβολή...
    :figclass: wp-image-8119
 
@@ -138,7 +138,7 @@
 
 Το επόμενο σχήμα μας έχει και λίγο χρώμα:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_27.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_27.png?w=723
    :alt: Ένα αρκετά αιχμηρό χωρίο.
    :figclass: wp-image-8122
 
@@ -178,7 +178,7 @@
 
 Το επόμενο σχήμα μας είναι το εξής:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_28.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_28.png?w=723
    :alt: Ένα ωραίο χωρίο ακόμα...
    :figclass: wp-image-8138
 
@@ -212,7 +212,7 @@
        \end{tikzpicture}
    \end{document}
 
-Εδώ, είναι η αλήθεια, δεν έχουμε κάτι καινούργιο με μια πρώτη ματιά, καθώς η φιλοσοφία είναι η ίδια με αυτήν του προηγούμενου σχήματος. Και το `clip`` μας χρησιμοποιήσαμε, και το χωρίο μας το χρωματίσαμε και όλα καλά. Παρατηρήστε μόνο προς το τέλος ότι, αν και γενικά δεν το συνηθίζουμε, δώσαμε στην παράμετρο ``yshift`` απόσταση μετρημένη σε εκατοστά. Γενικά, στις περισσότερες παραμέτρους που αφορούν αποστάσεις μπορούμε να δίνουμε απόσταση σε όποια μονάδα μας εξυπηρετεί, αρκεί αυτή να είναι μία από τις μονάδες μέτρησης του ``tikz`` - αν θέλετε να θυμηθείτε αυτές τις μονάδες, μπορείτε να δείτε τον ακόλουθο πίνακα που είχαμε ξαναδεί `εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Tikz/τα-σχήματα-της-εβδομάδας-3.rst>`__:
+Εδώ, είναι η αλήθεια, δεν έχουμε κάτι καινούργιο με μια πρώτη ματιά, καθώς η φιλοσοφία είναι η ίδια με αυτήν του προηγούμενου σχήματος. Και το ``clip`` μας χρησιμοποιήσαμε, και το χωρίο μας το χρωματίσαμε και όλα καλά. Παρατηρήστε μόνο προς το τέλος ότι, αν και γενικά δεν το συνηθίζουμε, δώσαμε στην παράμετρο ``yshift`` απόσταση μετρημένη σε εκατοστά. Γενικά, στις περισσότερες παραμέτρους που αφορούν αποστάσεις μπορούμε να δίνουμε απόσταση σε όποια μονάδα μας εξυπηρετεί, αρκεί αυτή να είναι μία από τις μονάδες μέτρησης του ``tikz`` - αν θέλετε να θυμηθείτε αυτές τις μονάδες, μπορείτε να δείτε τον ακόλουθο πίνακα που είχαμε ξαναδεί `εδώ  <docs/Tikz/τα-σχήματα-της-εβδομάδας-3.rst>`__:
 
 .. container:: wp-block-image
 
@@ -225,7 +225,7 @@
 
 Το τελευταίο μας σχήμα είναι το ακόλουθο:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_29.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_29.png?w=723
    :alt: Ένα δέντρο όχι σαν τα άλλα, τα πράσινα...
    :figclass: wp-image-8161
 
@@ -276,7 +276,7 @@
 
 Αυτά ήταν τα υπέροχα σχήματα αυτής της εβδομάδας - μετριοπάθεια πάνω απ' όλα. Μέχρι την επόμενη Τρίτη, καλή συνέχεια!
 
-*Για τις υπόλοιπες αναρτήσεις της σειράς, δείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
+*Για τις υπόλοιπες αναρτήσεις της σειράς, δείτε*\ `εδώ  <https://aftermaths.gr/category/tikz/>`__\ *.*
 
 
 

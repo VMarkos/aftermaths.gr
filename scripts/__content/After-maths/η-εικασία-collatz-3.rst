@@ -8,16 +8,16 @@
 	:tags: Collatz, featured, μαθηματικά
 	:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-3
 	:status: published
-	:attachments: wp-content/uploads/2021/09/camille_pissarro_-_the_hay_cart_montfoucault_-_google_art_project.jpg
+	:attachments: _static/images/uploads/2021/09/camille_pissarro_-_the_hay_cart_montfoucault_-_google_art_project.jpg
 
-.. figure:: /wp-content/uploads/2021/09/camille_pissarro_-_the_hay_cart_montfoucault_-_google_art_project.jpg
-	:alt: Ο πίνακας *Το κάρο με τα άχυρα, Montfoucault* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+.. figure:: /_static/images/uploads/2021/09/camille_pissarro_-_the_hay_cart_montfoucault_-_google_art_project.jpg
+	:alt: Ο πίνακας *Το κάρο με τα άχυρα, Montfoucault* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Το κάρο με τα άχυρα, Montfoucault* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Το κάρο με τα άχυρα, Montfoucault* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 
 
-Είχαμε δει στο παρελθόν - το απώτατο παρελθόν, θα έλεγε κανείς - την αρχική διατύπωση της εικασίας Collatz - δείτε εδώ <https://aftermaths.gr/2021/04/21/%ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-1/>`__ για περισσότερα - καθώς και μία κομψή αναδιατύπωσή της - δείτε `εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/After-maths/η-εικασία-collatz-2.rst>`__. Με αυτήν την αναδιατύπωσή της θα ασχοληθούμε λίγο παραπάνω, καθώς φαίνεται αρκετά υποσχόμενη:
+Είχαμε δει στο παρελθόν - το απώτατο παρελθόν, θα έλεγε κανείς - την αρχική διατύπωση της εικασίας Collatz - δείτε `εδώ  <docs/After-maths/η-εικασία-collatz-1.rst>`__ για περισσότερα - καθώς και μία κομψή αναδιατύπωσή της - δείτε `εδώ  <docs/After-maths/η-εικασία-collatz-2.rst>`__. Με αυτήν την αναδιατύπωσή της θα ασχοληθούμε λίγο παραπάνω, καθώς φαίνεται αρκετά υποσχόμενη:
 
 Θεωρώντας τις συναρτήσεις  :math:`d(x)=2x &fg=362e77&bg=d9d9d9 `  και  :math:`t(x)=\dfrac{x-1}{3} &fg=362e77&bg=d9d9d9 `  με την πρώτη ορισμένη για κάθε  :math:`x\in\mathbb{N} &fg=362e77&bg=d9d9d9 `  και τη δεύτερη για  :math:`x=4,7,10,\ldots &fg=362e77&bg=d9d9d9 `  είναι αλήθεια ότι κάθε θετικός ακέραιος αριθμός  :math:`n &fg=362e77&bg=d9d9d9 `  γράφεται στη μορφή  :math:`f(1) &fg=362e77&bg=d9d9d9 `  όπου  :math:`f &fg=362e77&bg=d9d9d9 `  είναι μία συνάρτηση που προκύπτει από πεπερασμένες στο πλήθος συνθέσεις των  :math:`d,t;&fg=362e77&bg=d9d9d9` 
 
@@ -83,7 +83,7 @@
 
 Στην ουσία, απλώς περιγράψαμε τα όσα είπαμε παραπάνω μέσω πλακακίων. Σχηματικά, αυτά μπορούν να φανούν στο ακόλουθο δέντρο:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/collatz_3.png?w=1024
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/collatz_3.png?w=1024
    :alt: Ένα τέτοιο θα στολίσουμε τα Χριστούγεννα!
    :figclass: wp-image-8146
 
@@ -107,13 +107,13 @@
 
 Με αυτές τις νέες πληροφορίες μας, ο χάρτης μας έχει την εξής μορφή:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/collatz_3_1.png?w=1024
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/collatz_3_1.png?w=1024
    :alt: Βασικά, ένα τέτοιο θα στολίσουμε!
    :figclass: wp-image-8151
 
    Βασικά, ένα τέτοιο θα στολίσουμε!
 
-Εδώ το δέντρο έχει αρχίσει να περιπλέκεται ήδη αρκετά. Και να σκεφτείτε ότι εμείς είπαμε να σχεδιάσουμε ένα δέντρο για να κάνουμε τη ζωή μας πιο εύκολη μήπως και βρούμε κανένα μοτίβο. Αλλά, δεν πρέπει να πτοούμαστε. Ως τώρα, και τα δύο δέντρα που σχεδιάσαμε ήταν με το χέρι - και σύντομα ίσως δείτε και τον πηγαίο κώδικα κάποιου από αυτά εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Tikz/ένα-σχήμα-την-ημέρα.rst>`__. Την επόμενη εβδομάδα θα προσπαθήσουμε να αυτοματοποιήσουμε την παραγωγή του παραπάνω δέντρου, έτσι ώστε να δούμε αν μπορούμε να φτιάξουμε, για αρχή, άνετα όσο μεγάλα δέντρα θέλουμε και, κατ' επέκταση, να μελετήσουμε περαιτέρω την εικασία του Collatz.
+Εδώ το δέντρο έχει αρχίσει να περιπλέκεται ήδη αρκετά. Και να σκεφτείτε ότι εμείς είπαμε να σχεδιάσουμε ένα δέντρο για να κάνουμε τη ζωή μας πιο εύκολη μήπως και βρούμε κανένα μοτίβο. Αλλά, δεν πρέπει να πτοούμαστε. Ως τώρα, και τα δύο δέντρα που σχεδιάσαμε ήταν με το χέρι - και σύντομα ίσως δείτε και τον πηγαίο κώδικα κάποιου από αυτά `εδώ  <docs/Tikz/ένα-σχήμα-την-ημέρα.rst>`__. Την επόμενη εβδομάδα θα προσπαθήσουμε να αυτοματοποιήσουμε την παραγωγή του παραπάνω δέντρου, έτσι ώστε να δούμε αν μπορούμε να φτιάξουμε, για αρχή, άνετα όσο μεγάλα δέντρα θέλουμε και, κατ' επέκταση, να μελετήσουμε περαιτέρω την εικασία του Collatz.
 
 Μέχρι την άλλη Παρασκευή, καλή διασκέδαση!
 

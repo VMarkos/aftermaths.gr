@@ -255,7 +255,7 @@ def href_repl(m) -> str:
     text = m.group(1)
     href = m.group(2)
     domains = { 'aftermathsgr.wordpress.com', 'aftermaths.gr' }
-    DOCS_ROOT = 'docs' # FIXME: You might also need a path variable for the project itself
+    DOCS_ROOT = 'docs'
     if any(x in href for x in domains):
         href_split = href.split('/')
         if href_split[-1]:
@@ -265,17 +265,25 @@ def href_repl(m) -> str:
         target = unencode_filename(target) + '.rst'
         for dirpath, dirnames, filenames in os.walk(Config.CONTENT_STRUCT_DIR):
             if target in filenames:
-                path_split = os.path.split(dirpath)
+                path_split = dirpath.split(os.sep)
                 content_index = path_split.index('__content') + 1
-                dirs = os.path.join(path_split[content_index:])
-                return f'`{text} <{os.path.join(dirs, target)}>`__'
+                target_href = os.path.join(DOCS_ROOT, *path_split[content_index:], target)
+                return f'`{text} <{target_href}>`__'
     return f'`{text} <{href}>`__'
 
 
 def url_fix_fn(line: str, params: dict=dict()) -> str:
-    fixed_line = re.sub(r'`(.+)\s+<(.+)>`__', href_repl, line)
+    fixed_line = re.sub(r'`([^<>]+)<([^<>]+)>`__', href_repl, line)
     return fixed_line
 
+
+def fix_content_urls(path: str) -> None:
+    fix_content(path, content_url_fix_fn)
+
+
+def content_url_fix_fn(line: str, params=dict()) -> str:
+    fixed_line = re.sub(r"wp-content", r"_static/images", line)
+    return fixed_line
 
 
 def main():
@@ -292,7 +300,8 @@ def main():
         # fix_meta_content(file_path)
         # fix_raw_html_videos(file_path)
         # relocate_file(file_path)
-        fix_internal_urls(file_path)
+        # fix_internal_urls(file_path)
+        fix_content_urls(file_path)
 
 
 if __name__ == "__main__":

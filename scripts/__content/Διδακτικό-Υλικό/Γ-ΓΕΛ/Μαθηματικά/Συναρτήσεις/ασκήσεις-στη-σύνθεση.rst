@@ -8,18 +8,18 @@
 	:tags: προβλήματα, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις, επανάληψη, μαθηματικά
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%cf%83%cf%8d%ce%bd%ce%b8%ce%b5%cf%83%ce%b7
 	:status: published
-	:attachments: wp-content/uploads/2021/07/848px-camille_pissarro_-_conversation_-_google_art_project.jpg
+	:attachments: _static/images/uploads/2021/07/848px-camille_pissarro_-_conversation_-_google_art_project.jpg
 
-.. figure:: /wp-content/uploads/2021/07/848px-camille_pissarro_-_conversation_-_google_art_project.jpg
-	:alt: Ο πίνακας *Συζήτηση* το `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+.. figure:: /_static/images/uploads/2021/07/848px-camille_pissarro_-_conversation_-_google_art_project.jpg
+	:alt: Ο πίνακας *Συζήτηση* το `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Συζήτηση* το `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Συζήτηση* το `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 
 
 Λίγες ασκήσεις στη σύνθεση συναρτήσεων, τις γραφικές παραστάσεις και πολλά άλλα...
 
-Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1VYnSLtH1q8M3ozpWIUM2AWwFii9V0nOB/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1VYnSLtH1q8M3ozpWIUM2AWwFii9V0nOB/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

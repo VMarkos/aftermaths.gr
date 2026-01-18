@@ -8,20 +8,20 @@
 	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη
 	:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-7
 	:status: published
-	:attachments: wp-content/uploads/2022/04/821px-hamlet_und_horatio_auf_dem_friedhof_eugene_ferdinand_victor_delacroix.jpg
+	:attachments: _static/images/uploads/2022/04/821px-hamlet_und_horatio_auf_dem_friedhof_eugene_ferdinand_victor_delacroix.jpg
 
-.. figure:: /wp-content/uploads/2022/04/821px-hamlet_und_horatio_auf_dem_friedhof_eugene_ferdinand_victor_delacroix.jpg
-	:alt: Ο πίνακας *Ο Άμλετ με τον Οράτιο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+.. figure:: /_static/images/uploads/2022/04/821px-hamlet_und_horatio_auf_dem_friedhof_eugene_ferdinand_victor_delacroix.jpg
+	:alt: Ο πίνακας *Ο Άμλετ με τον Οράτιο* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
 	:align: center
 
-	Ο πίνακας *Ο Άμλετ με τον Οράτιο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+	Ο πίνακας *Ο Άμλετ με τον Οράτιο* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
 
 
 Ένα επαναληπτικό θέμα που πατάει σε μία διαφορική εξίσωση δεύτερης τάξης και σε μία αρκετά γνωστή συνάρτηση - κάνει αρκετές εμφανίσεις και στο σχολικό βιβλίο.
 
-Το θέμα μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1DCBy9WQhLMh81MuTQdCQ1Nr3rKDTW-hj/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+Το θέμα μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1DCBy9WQhLMh81MuTQdCQ1Nr3rKDTW-hj/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
-*Προηγούμενα επαναληπτικά θέματα μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/04/23/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-6/>`__\ *κι*\ `εδώ <https://aftermaths.gr/2022/03/31/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-5/>`__\ *ενώ υλικό για τις πανελλήνιες*\ `εδώ <https://aftermaths.gr/tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *κι*\ `εδώ <https://aftermaths.gr/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
+*Προηγούμενα επαναληπτικά θέματα μπορείτε να βρείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Επανάληψη/πανελλήνιες-επαναληπτικό-θέμα-6.rst>`__\ *κι*\ `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Ολοκληρώματα/πανελλήνιες-επαναληπτικό-θέμα-5.rst>`__\ *ενώ υλικό για τις πανελλήνιες*\ `εδώ  <https://aftermaths.gr/tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *κι*\ `εδώ  <https://aftermaths.gr/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
 
 
 

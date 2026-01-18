@@ -7,9 +7,9 @@
 	:category: Χωρίς κατηγορία
 	:slug: 2328
 	:status: draft
-	:attachments: wp-content/uploads/2020/03/first_try.png, wp-content/uploads/2020/03/second_try.png, wp-content/uploads/2020/03/points.png
+	:attachments: _static/images/uploads/2020/03/first_try.png, _static/images/uploads/2020/03/second_try.png, _static/images/uploads/2020/03/points.png
 
-.. figure:: /wp-content/uploads/2020/03/first_try.png, wp-content/uploads/2020/03/second_try.png, wp-content/uploads/2020/03/points.png
+.. figure:: /_static/images/uploads/2020/03/first_try.png, _static/images/uploads/2020/03/second_try.png, _static/images/uploads/2020/03/points.png
 	:alt: 
 	:align: center
 
@@ -24,7 +24,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/points.png?w=569
+   .. figure:: {static}_static/images/uploads/2020/03/points.png?w=569
       :alt: Τρία αμέριμνα σημεία στο επίπεδο...
       :figclass: wp-image-2382
 
@@ -34,7 +34,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/first_try.png?w=570
+   .. figure:: {static}_static/images/uploads/2020/03/first_try.png?w=570
       :alt: Η αφελέστερη προσέγγιση...
       :figclass: wp-image-2384
 
@@ -44,7 +44,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/second_try.png?w=571
+   .. figure:: {static}_static/images/uploads/2020/03/second_try.png?w=571
       :alt: Η δεύτερη απόπειρα...
       :figclass: wp-image-2386
 

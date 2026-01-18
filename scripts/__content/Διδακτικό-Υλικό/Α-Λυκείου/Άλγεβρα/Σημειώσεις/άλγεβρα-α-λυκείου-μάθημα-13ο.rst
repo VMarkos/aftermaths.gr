@@ -8,20 +8,20 @@
 	:tags: Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, δευτεροβάθμιες, διαφάνειες, επανάληψη, εξισώσεις, θεωρία
 	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-13%ce%bf
 	:status: published
-	:attachments: wp-content/uploads/2021/12/736px-jacques-louis_david_-_portrait_of_the_comte_de_turenne_-_google_art_project.jpg
+	:attachments: _static/images/uploads/2021/12/736px-jacques-louis_david_-_portrait_of_the_comte_de_turenne_-_google_art_project.jpg
 
-.. figure:: /wp-content/uploads/2021/12/736px-jacques-louis_david_-_portrait_of_the_comte_de_turenne_-_google_art_project.jpg
-	:alt: Το πορτραίτο του κόμη του Turenne του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+.. figure:: /_static/images/uploads/2021/12/736px-jacques-louis_david_-_portrait_of_the_comte_de_turenne_-_google_art_project.jpg
+	:alt: Το πορτραίτο του κόμη του Turenne του `Jacques-Louis David  <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
 	:align: center
 
-	Το πορτραίτο του κόμη του Turenne του `Jacques-Louis David <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+	Το πορτραίτο του κόμη του Turenne του `Jacques-Louis David  <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
 
 
 Λίγες διαφάνειες στις εξισώσεις που ανάγονται σε απλούστερες εξισώσεις δευτέρου βαθμού - Άλγεβρα Α' Γενικού Λυκείου και ΕΠΑΛ.
 
-Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/14smJppCK5xDdpp7Y5a6QRtWeNmQZ7QU2/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/14smJppCK5xDdpp7Y5a6QRtWeNmQZ7QU2/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
-*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ εδώ <https://aftermaths.gr/2021/11/29/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-12%ce%bf/>`__\ *ενώ τις αντίστοιχες της Β' Λυκείου*\ `εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-β-λυκείου-μάθημα-12ο.rst>`__\ *.*
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-α-λυκείου-μάθημα-12ο.rst>`__\ *ενώ τις αντίστοιχες της Β' Λυκείου*\ `εδώ  <docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-β-λυκείου-μάθημα-12ο.rst>`__\ *.*
 
 
 

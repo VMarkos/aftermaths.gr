@@ -7,25 +7,25 @@
 	:tags: featured, Μαθηματικά, Tikz
 	:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-6
 	:status: published
-	:attachments: wp-content/uploads/2021/09/camille_pissarro_-_boulevard_montmartre_at_night_-_c_1897_-_national_gallery_uk.jpg
+	:attachments: _static/images/uploads/2021/09/camille_pissarro_-_boulevard_montmartre_at_night_-_c_1897_-_national_gallery_uk.jpg
 
-.. figure:: /wp-content/uploads/2021/09/camille_pissarro_-_boulevard_montmartre_at_night_-_c_1897_-_national_gallery_uk.jpg
-	:alt: Ο πίνακας *Η Λεωφόρος Μονμάρτης τη νύχτα* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+.. figure:: /_static/images/uploads/2021/09/camille_pissarro_-_boulevard_montmartre_at_night_-_c_1897_-_national_gallery_uk.jpg
+	:alt: Ο πίνακας *Η Λεωφόρος Μονμάρτης τη νύχτα* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Η Λεωφόρος Μονμάρτης τη νύχτα* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Η Λεωφόρος Μονμάρτης τη νύχτα* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 
 
 Άλλη μία εβδομάδα πέρασε, άλλα λίγα σχήματα προστέθηκαν στην πλάτη μας. Ας περάσουμε να τα δούμε λίγο αναλυτικότερα.
 
-*Για τα σχήματα της προηγούμενης εβδομάδας, όπου και παρουσιάσαμε την πρώτη μας βιβλιοθήκη του ``tikz`` δείτε*\ `εδώ <https://aftermaths.gr/2021/09/14/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-5/>`__\ *, ενώ όλες τις αναρτήσεις της σειράς μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
+*Για τα σχήματα της προηγούμενης εβδομάδας, όπου και παρουσιάσαμε την πρώτη μας βιβλιοθήκη του ``tikz`` δείτε*\ `εδώ  <docs/Tikz/τα-σχήματα-της-εβδομάδας-5.rst>`__\ *, ενώ όλες τις αναρτήσεις της σειράς μπορείτε να τις βρείτε*\ `εδώ  <https://aftermaths.gr/category/tikz/>`__\ *.*
 
 Άλλη μία γραφική παράσταση...
 -----------------------------
 
 Το πρώτο σχήμα της προηγούμενης εβδομάδας ήταν το ακόλουθο:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_30.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_30.png?w=723
    :alt: Ένα απλό πολυώνυμο!
    :figclass: wp-image-8259
 
@@ -57,7 +57,7 @@
        \end{tikzpicture}
    \end{document}
 
-Εδώ έχουμε ένα σχήμα παρόμοιο με αυτά που είδαμε την προηγούμενη εβδομάδα, όπου κάναμε και την πρώτη μας εισαγωγή στην βιβλιοθήκη `calc``. Κι εδώ, χρησιμοποιήσαμε την εν λόγω βιβλιοθήκη για να υπολογίσουμε διάφορες προβολές από γνωστούς κόμβους. Παρατηρήστε ότι μπορούμε να χρησιμοποιούμε κανονικά πράξεις που κάνουμε μέσω της ``calc`` και για να τοποθετήσουμε κόμβους σε συγκεκριμένες θέσεις - την `προηγούμενη εβδομάδα </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Tikz/τα-σχήματα-της-εβδομάδας-5.rst>`__ είχαμε δει την περίπτωση όπου χρησιμοποιήσαμε προβολές για να σχεδιάσουμε ευθείες.
+Εδώ έχουμε ένα σχήμα παρόμοιο με αυτά που είδαμε την προηγούμενη εβδομάδα, όπου κάναμε και την πρώτη μας εισαγωγή στην βιβλιοθήκη ``calc``. Κι εδώ, χρησιμοποιήσαμε την εν λόγω βιβλιοθήκη για να υπολογίσουμε διάφορες προβολές από γνωστούς κόμβους. Παρατηρήστε ότι μπορούμε να χρησιμοποιούμε κανονικά πράξεις που κάνουμε μέσω της ``calc`` και για να τοποθετήσουμε κόμβους σε συγκεκριμένες θέσεις - την `προηγούμενη εβδομάδα  <docs/Tikz/τα-σχήματα-της-εβδομάδας-5.rst>`__ είχαμε δει την περίπτωση όπου χρησιμοποιήσαμε προβολές για να σχεδιάσουμε ευθείες.
 
 Κι άλλη γραφική παράσταση...
 ----------------------------
@@ -94,7 +94,7 @@
 
 Το τρίτο σχήμα της εβδομάδας μας ήταν το ακόλουθο:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_32.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_32.png?w=723
    :alt: Πολύ γνωστή γραφική παράσταση αυτή.
    :figclass: wp-image-8347
 
@@ -126,7 +126,7 @@
 
 Το επόμενο σχήμα μας περιέχει λογαρίθμους:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_33.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_33.png?w=723
    :alt: Πολλοί λογάριθμοι!
    :figclass: wp-image-8352
 
@@ -170,7 +170,7 @@
 
 Το τελευταίο μας σχήμα για την εβδομάδα που μας πέρασε είναι το ακόλουθο:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_34.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_34.png?w=723
    :alt: Μία ωραία σχέση!
    :figclass: wp-image-8496
 

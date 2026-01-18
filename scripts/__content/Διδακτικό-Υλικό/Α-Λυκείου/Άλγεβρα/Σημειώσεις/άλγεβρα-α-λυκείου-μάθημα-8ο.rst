@@ -8,20 +8,20 @@
 	:tags: προβλήματα, ρίζες, Α' Λυκείου, άλγεβρα, ασκήσεις, διαστήματα, διαφάνειες, επανάληψη, θεωρία
 	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-8%ce%bf
 	:status: published
-	:attachments: wp-content/uploads/2021/11/839px-henri_fantin-latour_-_still_life_primroses_pears_and_promenates_-_google_art_project.jpg
+	:attachments: _static/images/uploads/2021/11/839px-henri_fantin-latour_-_still_life_primroses_pears_and_promenates_-_google_art_project.jpg
 
-.. figure:: /wp-content/uploads/2021/11/839px-henri_fantin-latour_-_still_life_primroses_pears_and_promenates_-_google_art_project.jpg
-	:alt: Ο πίνακας *Πρίμουλες, αχλάδια και ρόδια* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+.. figure:: /_static/images/uploads/2021/11/839px-henri_fantin-latour_-_still_life_primroses_pears_and_promenates_-_google_art_project.jpg
+	:alt: Ο πίνακας *Πρίμουλες, αχλάδια και ρόδια* του `Henri Fantin-Latour  <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
 	:align: center
 
-	Ο πίνακας *Πρίμουλες, αχλάδια και ρόδια* του `Henri Fantin-Latour <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
+	Ο πίνακας *Πρίμουλες, αχλάδια και ρόδια* του `Henri Fantin-Latour  <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
 
 
 Διαφάνειες σχετικές με τα διαστήματα και τις τετραγωνικές ρίζες πραγματικών αριθμών - Άλγεβρα, Α' Λυκείου και ΕΠΑΛ.
 
-Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1ftCy2NyPZKpJe4Kza1Cf-P55rU61sT87/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1ftCy2NyPZKpJe4Kza1Cf-P55rU61sT87/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
-*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ εδώ <https://aftermaths.gr/2021/10/25/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-7%ce%bf/>`__\ *ενώ τις αντίστοιχες διαφάνειες της Β' Λυκείου*\ `εδώ <https://aftermaths.gr/2021/10/27/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-7%ce%bf/>`__\ *- για ασκήσεις στα διαστήματα πραγματικών αριθμών δείτε*\ `εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Εισαγωγή/ανισότητες-διαστήματα.rst>`__\ *.*
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-α-λυκείου-μάθημα-7ο.rst>`__\ *ενώ τις αντίστοιχες διαφάνειες της Β' Λυκείου*\ `εδώ  <docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-β-λυκείου-μάθημα-7ο.rst>`__\ *- για ασκήσεις στα διαστήματα πραγματικών αριθμών δείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Εισαγωγή/ανισότητες-διαστήματα.rst>`__\ *.*
 
 
 

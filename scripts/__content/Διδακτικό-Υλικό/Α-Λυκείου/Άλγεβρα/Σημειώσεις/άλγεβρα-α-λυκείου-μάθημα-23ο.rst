@@ -8,20 +8,20 @@
 	:tags: συναρτήσεις, Α' Λυκείου, άλγεβρα, διαφάνειες, θεωρία, λυμένα παραδείγματα
 	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-23%ce%bf
 	:status: published
-	:attachments: wp-content/uploads/2022/02/1280px-a_dedication_to_bacchus.jpg
+	:attachments: _static/images/uploads/2022/02/1280px-a_dedication_to_bacchus.jpg
 
-.. figure:: /wp-content/uploads/2022/02/1280px-a_dedication_to_bacchus.jpg
-	:alt: Ο πίνακας *Αφιέρωση στον Βάκχο* του `Lawrence Alma-Tadema <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
+.. figure:: /_static/images/uploads/2022/02/1280px-a_dedication_to_bacchus.jpg
+	:alt: Ο πίνακας *Αφιέρωση στον Βάκχο* του `Lawrence Alma-Tadema  <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
 	:align: center
 
-	Ο πίνακας *Αφιέρωση στον Βάκχο* του `Lawrence Alma-Tadema <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
+	Ο πίνακας *Αφιέρωση στον Βάκχο* του `Lawrence Alma-Tadema  <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
 
 
 Τι είναι η γραφική παράσταση μίας συνάρτησης και πόσο χρήσιμες μπορούν να μας φανούν στη μελέτη τους; Λίγες διαφάνειες πάνω στις γραφικές παραστάσεις συναρτήσεων - Άλγεβρα Α' Γενικού Λυκείου.
 
-Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1_X1cSA6s0AuSGzidcv-LIdKGGq2EBlUe/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1_X1cSA6s0AuSGzidcv-LIdKGGq2EBlUe/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
-*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ εδώ <https://aftermaths.gr/2022/02/21/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-22%ce%bf/>`__\ *ενώ τις αντίστοιχες Β' Λυκείου*\ `εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-β-λυκείου-μάθημα-22ο.rst>`__\ *.*
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-α-λυκείου-μάθημα-22ο.rst>`__\ *ενώ τις αντίστοιχες Β' Λυκείου*\ `εδώ  <docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-β-λυκείου-μάθημα-22ο.rst>`__\ *.*
 
 
 

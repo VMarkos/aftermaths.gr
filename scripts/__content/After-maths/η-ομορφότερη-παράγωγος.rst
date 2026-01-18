@@ -8,16 +8,16 @@
 	:tags: featured, ολοκλήρωμα
 	:slug: %ce%b7-%ce%bf%ce%bc%ce%bf%cf%81%cf%86%cf%8c%cf%84%ce%b5%cf%81%ce%b7-%cf%80%ce%b1%cf%81%ce%ac%ce%b3%cf%89%ce%b3%ce%bf%cf%82
 	:status: published
-	:attachments: wp-content/uploads/2023/04/convergence_02.png, wp-content/uploads/2023/04/convergence_03.png, wp-content/uploads/2023/03/cantor_density_proof.png, wp-content/uploads/2023/03/fat_cantor_def_01.png, wp-content/uploads/2023/04/func_derivative_01.png, wp-content/uploads/2023/03/cantor_density_proof_03.png, wp-content/uploads/2023/03/cantor_density_proof_02.png, wp-content/uploads/2023/03/cantor_density_proof_04.png, wp-content/uploads/2023/04/convergence_04.png, wp-content/uploads/2023/04/convergence_05.png, wp-content/uploads/2023/04/convergence_01.png, wp-content/uploads/2023/03/diego_velazquez_-_an_old_woman_cooking_eggs_-_google_art_project.jpg
+	:attachments: _static/images/uploads/2023/04/convergence_02.png, _static/images/uploads/2023/04/convergence_03.png, _static/images/uploads/2023/03/cantor_density_proof.png, _static/images/uploads/2023/03/fat_cantor_def_01.png, _static/images/uploads/2023/04/func_derivative_01.png, _static/images/uploads/2023/03/cantor_density_proof_03.png, _static/images/uploads/2023/03/cantor_density_proof_02.png, _static/images/uploads/2023/03/cantor_density_proof_04.png, _static/images/uploads/2023/04/convergence_04.png, _static/images/uploads/2023/04/convergence_05.png, _static/images/uploads/2023/04/convergence_01.png, _static/images/uploads/2023/03/diego_velazquez_-_an_old_woman_cooking_eggs_-_google_art_project.jpg
 
-.. figure:: /wp-content/uploads/2023/04/convergence_02.png, wp-content/uploads/2023/04/convergence_03.png, wp-content/uploads/2023/03/cantor_density_proof.png, wp-content/uploads/2023/03/fat_cantor_def_01.png, wp-content/uploads/2023/04/func_derivative_01.png, wp-content/uploads/2023/03/cantor_density_proof_03.png, wp-content/uploads/2023/03/cantor_density_proof_02.png, wp-content/uploads/2023/03/cantor_density_proof_04.png, wp-content/uploads/2023/04/convergence_04.png, wp-content/uploads/2023/04/convergence_05.png, wp-content/uploads/2023/04/convergence_01.png, wp-content/uploads/2023/03/diego_velazquez_-_an_old_woman_cooking_eggs_-_google_art_project.jpg
-	:alt: Ο πίνακας *Ηλικιωμένη γυναίκα τηγανίζει αυγά* του `Diego Velázquez <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__. 
+.. figure:: /_static/images/uploads/2023/04/convergence_02.png, _static/images/uploads/2023/04/convergence_03.png, _static/images/uploads/2023/03/cantor_density_proof.png, _static/images/uploads/2023/03/fat_cantor_def_01.png, _static/images/uploads/2023/04/func_derivative_01.png, _static/images/uploads/2023/03/cantor_density_proof_03.png, _static/images/uploads/2023/03/cantor_density_proof_02.png, _static/images/uploads/2023/03/cantor_density_proof_04.png, _static/images/uploads/2023/04/convergence_04.png, _static/images/uploads/2023/04/convergence_05.png, _static/images/uploads/2023/04/convergence_01.png, _static/images/uploads/2023/03/diego_velazquez_-_an_old_woman_cooking_eggs_-_google_art_project.jpg
+	:alt: Ο πίνακας *Ηλικιωμένη γυναίκα τηγανίζει αυγά* του `Diego Velázquez  <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__. 
 	:align: center
 
-	Ο πίνακας *Ηλικιωμένη γυναίκα τηγανίζει αυγά* του `Diego Velázquez <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__. 
+	Ο πίνακας *Ηλικιωμένη γυναίκα τηγανίζει αυγά* του `Diego Velázquez  <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__. 
 
 
-Κουραστήκαμε την προηγούμενη εβδομάδα <https://aftermaths.gr/2023/03/27/%cf%80%cf%8c%cf%83%ce%bf-%cf%83%cf%85%ce%bd%ce%b5%cf%87%ce%ae%cf%82-%ce%b5%ce%af%ce%bd%ce%b1%ce%b9-%ce%bc%ce%b9%ce%b1-%cf%80%ce%b1%cf%81%ce%ac%ce%b3%cf%89%ce%b3%ce%bf%cf%82/>`__, αλλά άξιζε τον κόπο - εντάξει, τώρα η αξία και ο κόπος είναι έννοιες υποκειμενικές, αλλά, για να είστε εδώ, άξιζε τον κόπο. Συνοψίζοντας, ανασύραμε από το `παρελθόν </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/After-maths/ολο-clear-ώματα-ολοκλήρωση-vs-αντιπαραγώγισ.rst>`__ ένα σημαντικό και ζουμερό ερώτημα. Πιο συγκεκριμένα, αναρωτηθήκαμε αν υπάρχει συνάρτηση που να ικανοποιεί όλα τα παρακάτω:
+Κουραστήκαμε την `προηγούμενη εβδομάδα  <docs/After-maths/πόσο-συνεχής-είναι-μια-παράγωγος.rst>`__, αλλά άξιζε τον κόπο - εντάξει, τώρα η αξία και ο κόπος είναι έννοιες υποκειμενικές, αλλά, για να είστε εδώ, άξιζε τον κόπο. Συνοψίζοντας, ανασύραμε από το `παρελθόν  <docs/After-maths/ολο-clear-ώματα-ολοκλήρωση-vs-αντιπαραγώγισ.rst>`__ ένα σημαντικό και ζουμερό ερώτημα. Πιο συγκεκριμένα, αναρωτηθήκαμε αν υπάρχει συνάρτηση που να ικανοποιεί όλα τα παρακάτω:
 
 -  Να είναι παραγωγίσιμη σε κάποιο διάστημα.
 -  Να έχει φραγμένη παράγωγο.
@@ -42,7 +42,7 @@
 
 Όπως είπαμε και την προηγούμενη φορά, ξεκινάμε από το κλειστό διάστημα  :math:`[0,1]`  και αρχίζουμε και πετάμε κομμάτια όπως παρακάτω:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2023/03/cantor_def_01.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2023/03/cantor_def_01.png?w=723
    :alt: Βήμα 1ο στον δρόμο για τον Cantor...
    :figclass: wp-image-11957
 
@@ -50,7 +50,7 @@
 
 Τα κομμάτια που πετάμε είναι πάντοτε τα μεσαία τρίτα των διαστημάτων που μας έχουν απομείνει. Έτσι, μετά το δεύτερο βήμα, το σύνολο που θα έχουμε στα χέρια μας θα μοιάζει κάπως έτσι:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2023/03/cantor_def_02.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2023/03/cantor_def_02.png?w=723
    :alt: Βήμα 2ο στον δρόμο για τον Cantor...
    :figclass: wp-image-11959
    :width: 723px
@@ -60,7 +60,7 @@
 
 Καθώς προχωράμε μας μένουν όλο και λιγότεροι πραγματικοί αριθμοί, όπως φαίνεται και παρακάτω:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2023/03/cantor_def_03-2.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2023/03/cantor_def_03-2.png?w=723
    :alt: Πολλά βήματα προς τον Cantor...
    :figclass: wp-image-12028
 
@@ -70,7 +70,7 @@
 
 Η ιδέα, όπως πάντα λέμε εκ των υστέρων στα μαθηματικά, είναι πολύ απλή. Θα αφαιρέσουμε μικρότερα κομμάτια. Ας πούμε, αντί για το μεσαίο τρίτο, θα αφαιρούμε το μεσαίο πέμπτο - γιατί έτσι μας αρέσει, χωρίς σαφή λόγο. Έτσι, έχουμε μία σχηματική αναπαράσταση σαν την παρακάτω:
 
-.. figure:: {static}wp-content/uploads/2023/03/fat_cantor_def_01.png?w=1024
+.. figure:: {static}_static/images/uploads/2023/03/fat_cantor_def_01.png?w=1024
    :alt: Λίγα βήματα από την κατασκευή ενός καλοταϊσμένου συνόλου Cantor.
    :figclass: wp-image-12063
 
@@ -111,7 +111,7 @@
 
 Ας τα πιάσουμε συνοπτικά από την αρχή. Η όλη ιστορία ξεκίνησε με την ακόλουθη συνάρτηση, ορισμένη εν προκειμένω στο  :math:`[0,1]:` 
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2023/03/func_def_05.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2023/03/func_def_05.png?w=723
    :alt: Τη θυμάστε;
    :figclass: wp-image-12009
 
@@ -154,7 +154,7 @@
 
 Ας θυμηθούμε τώρα κι έναν ωραίο χαρακτηρισμό που είχαμε δώσει για τους αριθμούς του (κάθε) συνόλου Cantor. Είχαμε πει ότι, για παράδειγμα για το «ισχνό» σύνολο Cantor, μπορούμε να περιγράψουμε κάθε αριθμό μέσα από ένα «μονοπάτι» που να οδηγεί σε αυτόν, όπως παρακάτω:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2023/03/cantor_def_04-2.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2023/03/cantor_def_04-2.png?w=723
    :alt: Ένα μονοπάτι στο σύνολο του Cantor.
    :figclass: wp-image-12030
 
@@ -173,7 +173,7 @@
 
 Όπως περιμέναμε από τις ζωγραφιές μας, σε κάθε βήμα το μήκος κάθε μεμονωμένου γαλάζιου διαστήματος μικραίνει αυθαίρετα πολύ. Αυτό εμείς θα το εκμεταλλευτούμε κατάλληλα. Όπως είπαμε παραπάνω, πήραμε έναν αριθμό  :math:`\xi`  και μία απόσταση  :math:`\delta>0`  και αναζητούμε αριθμούς τόσο μέσα όσο κι έξω από το σύνολο  :math:`C_\varepsilon`  και σε κάθε περίπτωση εντός του διαστήματος  :math:`(\xi-\delta,\xi+\delta).`  Δηλαδή, ψάχνουμε αριθμούς μέσα στην παρακάτω χρωματιστή περιοχή:
 
-.. figure:: {static}wp-content/uploads/2023/03/cantor_density_proof.png?w=1024
+.. figure:: {static}_static/images/uploads/2023/03/cantor_density_proof.png?w=1024
    :alt: Ε, μεγάλο είναι το διάστημα, το έχουμε...
    :figclass: wp-image-12107
 
@@ -185,7 +185,7 @@
 
 Έτσι, στο  :math:`n` -οστό βήμα θα έχουμε μία κατάσταση σαν αυτή που φαίνεται παρακάτω:
 
-.. figure:: {static}wp-content/uploads/2023/03/cantor_density_proof_02.png?w=1024
+.. figure:: {static}_static/images/uploads/2023/03/cantor_density_proof_02.png?w=1024
    :alt: Μας έμεινε κάτι μικρό, τελικά...
    :figclass: wp-image-12110
 
@@ -193,7 +193,7 @@
 
 Προσέξτε ότι δεν κεντράραμε το  :math:`\xi`  στο γαλάζιο διάστημα επίτηδες, καθώς από κάθε γαλάζιο διάστημα το μεσαίο τμήμα το πετάμε, επομένως το  :math:`\xi`  θα «στέκεται» κάπου αριστερά ή κάπου δεξιά μέσα στο διάστημά μας. Τώρα θα περάσουμε στο αμέσως επόμενο βήμα, που πετάμε το μεσαίο τμήμα σχετικού μήκους  :math:`a`  και κρατάμε τα άλλα δύο που περισσεύουν, όπως φαίνεται και παρακάτω:
 
-.. figure:: {static}wp-content/uploads/2023/03/cantor_density_proof_03.png?w=1024
+.. figure:: {static}_static/images/uploads/2023/03/cantor_density_proof_03.png?w=1024
    :alt: Τι κρατάμε και τι πετάμε σε αυτή τη ζωή;
    :figclass: wp-image-12113
 
@@ -203,7 +203,7 @@
 
 Μένει τώρα να βρούμε έναν αριθμό μέσα στο  :math:`C_\varepsilon`  εντός του διαστήματος  :math:`(\xi-\delta,\xi+\delta)`  όπως είχαμε υποσχεθεί. Γι' αυτόν τον σκοπό μπορούμε να κοιτάξουμε στο δεξί γαλάζιο διάστημα στο παραπάνω σχήμα. Εκεί μέσα, καθώς εμείς κλαδεύουμε και πετάμε διαστήματα, συνεχίζοντας την κατασκευή του συνόλου  :math:`C_\varepsilon,`  θα βρούμε κι άλλους αριθμούς του  :math:`C_\varepsilon`  (αλήθεια, πόσους νομίζετε ότι θα βρούμε;). Επομένως, έναν από αυτούς μπορούμε να τον βαφτίσουμε  :math:`x`  και να ξεμπερδέψουμε. Τελικά, η κατάσταση θα μοιάζει κάπως έτσι:
 
-.. figure:: {static}wp-content/uploads/2023/03/cantor_density_proof_04.png?w=1024
+.. figure:: {static}_static/images/uploads/2023/03/cantor_density_proof_04.png?w=1024
    :alt: Τα βρήκαμε όλα, άντε γεια!
    :figclass: wp-image-12120
 
@@ -213,13 +213,13 @@
 
 Για την ακρίβεια, ας θυμηθούμε λίγο τη συνάρτησή μας. Στα κόκκινα διαστήματα - αυτά που πετάμε - η παράγωγος είναι ίση με το μηδέν. Στα γαλάζια διαστήματα - αυτά που κρατάμε - η παράγωγος είναι αυτό το τρομακτικό πράγμα που έχουμε ζωγραφίσει παρακάτω:
 
-.. figure:: {static}wp-content/uploads/2023/04/func_derivative_01.png?w=1024
+.. figure:: {static}_static/images/uploads/2023/04/func_derivative_01.png?w=1024
    :alt: Πωπω! Χάλια είναι, έτσι;
    :figclass: wp-image-12125
 
    Πωπω! Χάλια είναι, έτσι;
 
-Τώρα, ας παρατηρήσουμε ότι, αν και η παραπάνω παράγωγος μηδενίζει σε άπειρα σημεία, αυτά είναι αριθμήσιμα στο πλήθος, συνεπώς υπάρχουν υπεραριθμήσιμες στο πλήθος τιμές της  :math:f`  που δεν είναι μηδέν - και, για την ακρίβεια, μπορούν να είναι και αρκετά «μακριά» από το μηδέν. Επομένως, πάντοτε μπορούμε να επιλέξουμε το  :math:`y`  παραπάνω έτσι ώστε  :math:`\|f'(y)|>\frac{1}{2}.`  Έτσι, κοντά σε κάθε αριθμό  :math:`\xi`  του συνόλου  :math:`C_\varepsilon`  μπορούμε να βρούμε τόσο μηδενικές τιμές της  :math:`f'`  όσο και «μεγάλες» τιμές της  :math:`f'`  με αποτέλεσμα η  :math:`f'`  να μην μπορεί να είναι συνεχής στο  :math:`\xi`  - αν δε θυμάστε κάτι τη διαίσθηση πίσω από τον ορισμό της συνέχειας, τον έχουμε παρουσιάσει εκτενώς `εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/After-maths/πόσες-είναι-οι-συνεχείς-συναρτήσεις.rst>`__. Άρα, πράγματι η  :math:`f'`  είναι ασυνεχής στο  :math:`C_\varepsilon,`  όπως είχαμε υποσχεθεί.
+Τώρα, ας παρατηρήσουμε ότι, αν και η παραπάνω παράγωγος μηδενίζει σε άπειρα σημεία, αυτά είναι αριθμήσιμα στο πλήθος, συνεπώς υπάρχουν υπεραριθμήσιμες στο πλήθος τιμές της  :math:`f`  που δεν είναι μηδέν - και, για την ακρίβεια, μπορούν να είναι και αρκετά «μακριά» από το μηδέν. Επομένως, πάντοτε μπορούμε να επιλέξουμε το  :math:`y`  παραπάνω έτσι ώστε  :math:`\|f'(y)|>\frac{1}{2}.`  Έτσι, κοντά σε κάθε αριθμό  :math:`\xi`  του συνόλου  :math:`C_\varepsilon`  μπορούμε να βρούμε τόσο μηδενικές τιμές της  :math:`f'`  όσο και «μεγάλες» τιμές της  :math:`f'`  με αποτέλεσμα η  :math:`f'`  να μην μπορεί να είναι συνεχής στο  :math:`\xi`  - αν δε θυμάστε κάτι τη διαίσθηση πίσω από τον ορισμό της συνέχειας, τον έχουμε παρουσιάσει εκτενώς `εδώ  <docs/After-maths/πόσες-είναι-οι-συνεχείς-συναρτήσεις.rst>`__. Άρα, πράγματι η  :math:`f'`  είναι ασυνεχής στο  :math:`C_\varepsilon,`  όπως είχαμε υποσχεθεί.
 
 Συνοψίζοντας, κατασκευάσαμε μία συνάρτηση που:
 
@@ -227,7 +227,7 @@
 -  έχει φραγμένη παράγωγο,
 -  η παράγωγός της είναι ασυνεχής σε ένα σύνολο μέτρου Lebesgue  :math:`\varepsilon>0.` 
 
-Συνεπώς, η παράγωγός της δεν είναι ολοκληρώσιμη όπως μας έχει πει </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/After-maths/πόσο-συνεχής-είναι-μια-παράγωγος.rst>`__ και ο Lebesgue και άρα, να, ορίστε άπειρες συναρτήσεις που έχουν παράγουσα αλλά δεν είναι ολοκληρώσιμες.
+Συνεπώς, η παράγωγός της δεν είναι ολοκληρώσιμη `όπως μας έχει πει  <docs/After-maths/πόσο-συνεχής-είναι-μια-παράγωγος.rst>`__ και ο Lebesgue και άρα, να, ορίστε άπειρες συναρτήσεις που έχουν παράγουσα αλλά δεν είναι ολοκληρώσιμες.
 
 Πόσο Χειρότερα;
 ---------------
@@ -259,7 +259,7 @@
 
 Σχολική ύλη όλα αυτά, θα έλεγε κανείς. Ας ρίξουμε μια ματιά για λίγο και στο παρακάτω σχήμα:
 
-.. figure:: {static}wp-content/uploads/2023/04/convergence_01.png?w=946
+.. figure:: {static}_static/images/uploads/2023/04/convergence_01.png?w=946
    :alt: Κάποιες συναρτήσεις που παρέα πάνω κάπου...
    :figclass: wp-image-12144
 
@@ -283,7 +283,7 @@
 
 Τώρα, ας ζωγραφίσουμε και κάποιες από αυτές για να έχουμε μία καλύτερη εικόνα:
 
-.. figure:: {static}wp-content/uploads/2023/04/convergence_02.png?w=916
+.. figure:: {static}_static/images/uploads/2023/04/convergence_02.png?w=916
    :alt: Μία κάπως πιο ενδιαφέρουσα ακολουθία συναρτήσεων.
    :figclass: wp-image-12152
 
@@ -295,7 +295,7 @@
 
 Πράγματι, αυτό μπορείτε να το δείτε, όπως υποσχεθήκαμε, και παρακάτω:
 
-.. figure:: {static}wp-content/uploads/2023/04/convergence_03.png?w=916
+.. figure:: {static}_static/images/uploads/2023/04/convergence_03.png?w=916
    :alt: Μα, εντάξει, φαίνεται τώρα, τι να το κουράζουμε.
    :figclass: wp-image-12155
 
@@ -311,7 +311,7 @@
 
 Όμως τα  :math:`f_n`  δεν είναι αριθμοί. Το «κοντά», λοιπόν, σε όρους συναρτήσεων ερμηνεύεται ως εξής. Ας θεωρήσουμε δύο συναρτήσεις όπως οι παρακάτω - θα εξηγήσουμε αυτές τις χρωματιστές ζώνες αμέσως:
 
-.. figure:: {static}wp-content/uploads/2023/04/convergence_04.png?w=872
+.. figure:: {static}_static/images/uploads/2023/04/convergence_04.png?w=872
    :alt: Κοντά, αλλά πόσο κοντά;
    :figclass: wp-image-12162
 
@@ -323,13 +323,13 @@
 
 .. math:: \sup\limits_{x\in I}|f(x)-g(x)|<\varepsilon.
 
-Για το supremum ( :math:\sup` ) έχουμε μιλήσει αρκετά στο `παρελθόν </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/After-maths/τα-πολλά-πρόσωπα-του-αξιώματος-της-π.rst>`__, αλλά για τους σκοπούς μας μπορούμε να το σκεφτόμαστε κάπως σαν ένα «μέγιστο». Δηλαδή, αυτό που μας λέει ο παραπάνω ορισμός δεν είναι παρά ότι για να είναι δύο συναρτήσεις κοντά κατά :math:`\varepsilon`  πρέπει η μέγιστη δυνατή απόστασή μεταξύ τους να είναι μικρότερη από  :math:`\varepsilon`  - το οποίο εποπτικά συμπίπτει με τη ζωγραφιά που κάναμε παραπάνω.
+Για το supremum ( :math:`\sup` ) έχουμε μιλήσει αρκετά στο `παρελθόν  <docs/After-maths/τα-πολλά-πρόσωπα-του-αξιώματος-της-π.rst>`__, αλλά για τους σκοπούς μας μπορούμε να το σκεφτόμαστε κάπως σαν ένα «μέγιστο». Δηλαδή, αυτό που μας λέει ο παραπάνω ορισμός δεν είναι παρά ότι για να είναι δύο συναρτήσεις κοντά κατά :math:`\varepsilon`  πρέπει η μέγιστη δυνατή απόστασή μεταξύ τους να είναι μικρότερη από  :math:`\varepsilon`  - το οποίο εποπτικά συμπίπτει με τη ζωγραφιά που κάναμε παραπάνω.
 
 Παρατηρήστε πώς αυτήν την ομοιομορφία την έχουμε εξασφαλίσει στην πρώτη μας περίπτωση, όπου  :math:`f_n(x)=x+\frac{1}{n}.`  Πράγματι, ακριβώς επειδή όλες οι γραφικές παραστάσεις δεν είναι παρά παράλληλες ευθείες, οι αποστάσεις τους δεν επηρεάζονται από τις τιμές του  :math:`x.`  Έτσι, οι  :math:`f_n`  πλησιάζουν σταδιακά ομοιόμορφα κοντά στην  :math:`f.` 
 
 Με τις  :math:`f_n(x)=x^n`  όμως δε συμβαίνει το ίδιο. Όπως παρατηρεί κανείς, κοντά στο 1 η συμεπριφορά των  :math:`f_n`  είναι αρκετά «εκνευριστική». Πράγματι, εκεί κοντά, καθώς το  :math:`n`  μεγαλώνει, οι  :math:`f_n`  τείνουν να γίνονται πιο απότομες, απομακρυνόμενες από τον οριζόντιο άξονα και, άρα, και από την  :math:`f` . Πιο σωστά, ας ρίξουμε μία ματιά στο ακόλουθο σχήμα:
 
-.. figure:: {static}wp-content/uploads/2023/04/convergence_05.png?w=916
+.. figure:: {static}_static/images/uploads/2023/04/convergence_05.png?w=916
    :alt: Πώς χαλάει η ομοιομορφία, ε;
    :figclass: wp-image-12172
 
@@ -355,7 +355,7 @@
 
 Αντλώντας έμπνευση από τις παραπάνω κατασκευές που παρουσιάσαμε, θα κάνουμε μία ακόμα, λίγο πιο σύνθετη. Λοιπόν, ας πάρουμε ένα ωραίο σύνολο Cantor με μέτρο 1/2 και ας το ονομάσουμε  :math:`C_1.`  Θεωρούμε τώρα και μία συνάρτηση σαν αυτές που φτιάξαμε παραπάνω που είναι παραγωγίσιμη με φραγμένη και ασυνεχή παράγωγο στο  :math:`C_1.`  Ας ονομάσουμε τη συνάρτηση αυτή  :math:`f_1.`  Ως εδώ, τίποτα το καινοτόμο, αλλά, αυτοί οι δείκτες που χρησιμοποιήσαμε μας προϊδεάζουν για κάποια συνέχεια που έπεται. Θυμηθείτε λίγο πώς μοιάζει ένα σύνολο Cantor (ας δούμε ξανά κάποια πρώτα βήματά από την κατασκευή του):
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2023/03/cantor_def_04-2.png?w=723
+.. figure:: https://aftermaths.gr/_static/images/uploads/2023/03/cantor_def_04-2.png?w=723
    :alt: Τα θυμόμαστε αυτά τώρα, τι τα ξαναβλέπουμε;
    :figclass: wp-image-12030
 
@@ -403,7 +403,7 @@
 
 .. math::  \left|\sum_{k=1}^\infty\frac{1}{2^k}f_k(x)\right|\leq\sum_{k=1}^\infty\left|\frac{1}{2^k}f_k(x)\right|\leq\sum_{k=1}^\infty\frac{1}{2^k}=1.
 
-Η παραπάνω «σύγκριση» με μία γνωστή (γεωμετρική) σειρά που συγκλίνει είναι αρκετή για να μας εξασφαλίσει και την ομοιόμορφη σύγκλιση της ακολουθίας  :math:`g_n`  στην  :math:`g`  όπως είπαμε παραπάνω - αυτό είναι ένα γνωστό αποτέλεσμα του Weierstrass, το περιβόητο `M-Test <https://en.wikipedia.org/wiki/Weierstrass_M-test>`__ για το οποίο θα μιλήσουμε στο μέλλον. Συνεπώς, αμέσως-αμέσως παίρνουμε μία συνάρτηση της οποίας μπορεί να μην γνωρίζουμε τον τύπο αλλά γνωρίζουμε ότι είναι συνεχής καθώς και ότι:
+Η παραπάνω «σύγκριση» με μία γνωστή (γεωμετρική) σειρά που συγκλίνει είναι αρκετή για να μας εξασφαλίσει και την ομοιόμορφη σύγκλιση της ακολουθίας  :math:`g_n`  στην  :math:`g`  όπως είπαμε παραπάνω - αυτό είναι ένα γνωστό αποτέλεσμα του Weierstrass, το περιβόητο `M-Test  <https://en.wikipedia.org/wiki/Weierstrass_M-test>`__ για το οποίο θα μιλήσουμε στο μέλλον. Συνεπώς, αμέσως-αμέσως παίρνουμε μία συνάρτηση της οποίας μπορεί να μην γνωρίζουμε τον τύπο αλλά γνωρίζουμε ότι είναι συνεχής καθώς και ότι:
 
 .. math::  g(x)=\lim_{n\to\infty}g_n(x).
 

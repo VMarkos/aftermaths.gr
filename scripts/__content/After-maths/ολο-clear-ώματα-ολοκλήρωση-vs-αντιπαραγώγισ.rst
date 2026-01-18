@@ -8,13 +8,13 @@
 	:tags: featured, παράγουσα, αντιπαραγώγιση, ολοκλήρωμα
 	:slug: %ce%bf%ce%bb%ce%bf-clear-%cf%8e%ce%bc%ce%b1%cf%84%ce%b1-%ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-vs-%ce%b1%ce%bd%cf%84%ce%b9%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%b9%cf%83
 	:status: published
-	:attachments: wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator2.png, wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator.png, wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator1.png, wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator.png, wp-content/uploads/2020/03/michael_ancher_-_den_rc3b8de_redningsbc3a5d_sejler_ud.jpg, wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator1.png
+	:attachments: _static/images/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator2.png, _static/images/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator.png, _static/images/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator1.png, _static/images/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator.png, _static/images/uploads/2020/03/michael_ancher_-_den_rc3b8de_redningsbc3a5d_sejler_ud.jpg, _static/images/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator1.png
 
-.. figure:: /wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator2.png, wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator.png, wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator1.png, wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator.png, wp-content/uploads/2020/03/michael_ancher_-_den_rc3b8de_redningsbc3a5d_sejler_ud.jpg, wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator1.png
-	:alt: Ο πίνακας *Η κόκκινη σωσίβια λέμβος στο δρόμο της προς τη θάλασσα* του `Michael Ancher <https://en.wikipedia.org/wiki/Michael_Ancher>`__\ *.* 
+.. figure:: /_static/images/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator2.png, _static/images/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator.png, _static/images/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator1.png, _static/images/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator.png, _static/images/uploads/2020/03/michael_ancher_-_den_rc3b8de_redningsbc3a5d_sejler_ud.jpg, _static/images/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator1.png
+	:alt: Ο πίνακας *Η κόκκινη σωσίβια λέμβος στο δρόμο της προς τη θάλασσα* του `Michael Ancher  <https://en.wikipedia.org/wiki/Michael_Ancher>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Η κόκκινη σωσίβια λέμβος στο δρόμο της προς τη θάλασσα* του `Michael Ancher <https://en.wikipedia.org/wiki/Michael_Ancher>`__\ *.* 
+	Ο πίνακας *Η κόκκινη σωσίβια λέμβος στο δρόμο της προς τη θάλασσα* του `Michael Ancher  <https://en.wikipedia.org/wiki/Michael_Ancher>`__\ *.* 
 
 
 Wellcome!
@@ -58,7 +58,7 @@ Wellcome!
 -  Τι «χρειάζεται» για να έχει μία συνάρτηση παράγουσα;
 -  Τι «χρειάζεται» για να είναι μία συνάρτηση ολοκληρώσιμη σε ένα (κλειστό) διάστημα;
 
-Ως προς το δεύτερο, είναι απαραίτητο μία συνάρτηση να είναι *φραγμένη* δηλαδή η γραφική της παράσταση να ζει μέσα σε ένα ορθογώνιο. Για το πρώτο, όπως ξέρουμε από το `Θεώρημα του Darboux <https://aftermathsgr.wordpress.com/2019/03/22/%ce%b7-%ce%b9%ce%b4%ce%b9%cf%8c%cf%84%ce%b7%cf%84%ce%b1-darboux-%ce%bf-rolle-%cf%84%ce%bf-%ce%ac%cf%84%ce%bf%cf%80%ce%bf-%ce%ba%ce%b1%ce%b9-%ce%bc%ce%af%ce%b1-%ce%bb%ce%ac%ce%b8%ce%bf%cf%82-%ce%b1/>`__, μία συνάρτηση που είναι η παράγωγος κάποιας άλλης - έχει, με άλλα λόγια, παράγουσα - ικανοποιεί το συμπέρασμα του θεωρήματος ενδιάμεσης τιμής (χωρίς, απαραίτητα, να είναι συνεχής). Επομένως, δεν μπορούμε να πάρουμε μία συνάρτηση της μορφής:
+Ως προς το δεύτερο, είναι απαραίτητο μία συνάρτηση να είναι *φραγμένη* δηλαδή η γραφική της παράσταση να ζει μέσα σε ένα ορθογώνιο. Για το πρώτο, όπως ξέρουμε από το `Θεώρημα του Darboux  <https://aftermathsgr.wordpress.com/2019/03/22/%ce%b7-%ce%b9%ce%b4%ce%b9%cf%8c%cf%84%ce%b7%cf%84%ce%b1-darboux-%ce%bf-rolle-%cf%84%ce%bf-%ce%ac%cf%84%ce%bf%cf%80%ce%bf-%ce%ba%ce%b1%ce%b9-%ce%bc%ce%af%ce%b1-%ce%bb%ce%ac%ce%b8%ce%bf%cf%82-%ce%b1/>`__, μία συνάρτηση που είναι η παράγωγος κάποιας άλλης - έχει, με άλλα λόγια, παράγουσα - ικανοποιεί το συμπέρασμα του θεωρήματος ενδιάμεσης τιμής (χωρίς, απαραίτητα, να είναι συνεχής). Επομένως, δεν μπορούμε να πάρουμε μία συνάρτηση της μορφής:
 
 .. math:: \chi_A(x)=\left\{\begin{array}{ll}1 & x\in A\0 & x\in\mathbb{R}\setminus A\end{array}\right.,
 
@@ -66,11 +66,11 @@ Wellcome!
 
 Κρατώντας αυτά κατά νου, ας ξεκινήσουμε να ψάχνουμε τη συνάρτησή μας. Μία πρώτη ιδέα, φαινομενικά απλοϊκή, θα ήταν να ψάξουμε για μία συνάρτηση  :math:`F`  η οποία να είναι παραγωγίσιμη αλλά η παράγωγός της να μην είναι φραγμένη σε κάποιο κλειστό διάστημα - οπότε εμείς θα πάρουμε την παράγωγο της  :math:`F`  για να κάνουμε τη δουλειά μας. Αφού, λοιπόν, η παράγωγός της δε θα είναι φραγμένη σε κάποιο κλειστό διάστημα, δε θα είναι και συνεχής εκεί - ωστόσο, όπως είπαμε, πρέπει να ικανοποιεί την ιδιότητα της ενδιάμεσης τιμής, από το Θεώρημα του Darboux. Τι σημαίνει, όμως, εποπτικά, μη φραγμένη παράγωγος;
 
-Η παράγωγος σε ένα σημείο, όπως έχουμε συζητήσει και αλλού (π.χ., βλ. `εδώ <https://aftermathsgr.wordpress.com/2019/11/10/%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%cf%80%ce%b1%cf%81%ce%ac%ce%b3%cf%89%ce%b3%ce%bf-%ce%ba%ce%b1%ce%b9-%cf%83%cf%85%ce%bd%ce%ad%cf%87%ce%b5%ce%b9%ce%b1-2019-202/>`__, σελ. 47-49 και αλλού), μπορεί να ερμηνευθεί σαν την *κλίση της εφαπτομένης της γραφικής παράστασης της συνάρτησης σε εκείνο το σημείο.* Επομένως, αφού θέλουμε η παράγωγος της  :math:`F`  να μην είναι φραγμένη, πρέπει να έχει κλίσεις οι οποίες να μπορούν να γίνουν *οσοδήποτε θετικές ή/και αρνητικές θέλουμε.* Με άλλα λόγια, πρέπει η γραφική παράσταση της  :math:`F`  να μπορεί να γίνει οσοδήποτε απότομη θέλουμε σε ένα κλειστό διάστημα του πεδίου ορισμού της. Αυτό, ίσως φέρει σε κάποιους ένα σχήμα όπως το παρακάτω:
+Η παράγωγος σε ένα σημείο, όπως έχουμε συζητήσει και αλλού (π.χ., βλ. `εδώ  <https://aftermathsgr.wordpress.com/2019/11/10/%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%cf%80%ce%b1%cf%81%ce%ac%ce%b3%cf%89%ce%b3%ce%bf-%ce%ba%ce%b1%ce%b9-%cf%83%cf%85%ce%bd%ce%ad%cf%87%ce%b5%ce%b9%ce%b1-2019-202/>`__, σελ. 47-49 και αλλού), μπορεί να ερμηνευθεί σαν την *κλίση της εφαπτομένης της γραφικής παράστασης της συνάρτησης σε εκείνο το σημείο.* Επομένως, αφού θέλουμε η παράγωγος της  :math:`F`  να μην είναι φραγμένη, πρέπει να έχει κλίσεις οι οποίες να μπορούν να γίνουν *οσοδήποτε θετικές ή/και αρνητικές θέλουμε.* Με άλλα λόγια, πρέπει η γραφική παράσταση της  :math:`F`  να μπορεί να γίνει οσοδήποτε απότομη θέλουμε σε ένα κλειστό διάστημα του πεδίου ορισμού της. Αυτό, ίσως φέρει σε κάποιους ένα σχήμα όπως το παρακάτω:
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator.png?w=1024
+   .. figure:: {static}_static/images/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator.png?w=1024
       :alt: Μία «οσοδήποτε απότομη» γραφική παράσταση.
       :figclass: wp-image-2208
 
@@ -84,7 +84,7 @@ Wellcome!
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator1.png?w=1024
+   .. figure:: {static}_static/images/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator1.png?w=1024
       :alt: Η γραφική παράσταση της  :math:`F` . Φαίνονται επίσης και οι περιβάλλουσες  :math:`y=x^2`  και  :math:`y=-x^2` .
       :figclass: wp-image-2211
 
@@ -96,7 +96,7 @@ Wellcome!
 
 Και τώρα, η στιγμή της αλήθειας. Ας δούμε τη γραφική παράσταση της  :math:`f=F'` :
 
-.. figure:: {static}wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator2.png?w=1024
+.. figure:: {static}_static/images/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator2.png?w=1024
    :alt: Φτουυυυ! Είναι φραγμένη...
    :figclass: wp-image-2215
 
@@ -116,7 +116,7 @@ Wellcome!
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator.png?w=1024
+   .. figure:: {static}_static/images/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator.png?w=1024
       :alt: Μία βελτιωμένη εκδοχή της πρώτης μας ιδέας...
       :figclass: wp-image-2220
 
@@ -128,7 +128,7 @@ Wellcome!
 
 Η γραφική παράσταση της παραγώγου είναι:
 
-.. figure:: {static}wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator1.png?w=1024
+.. figure:: {static}_static/images/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator1.png?w=1024
    :alt: Η παράγωγος της  :math:`F`  μαζί με την περιβάλλουσα  :math:`\frac{1}{x}` .
    :figclass: wp-image-2223
 
@@ -145,7 +145,7 @@ Wellcome!
 Συναρτήσεις που δεν έχουν (ή «δεν έχουν») παράγουσα, αλλά είναι ολοκληρώσιμες σε κάποιο κλειστό διάστημα
 --------------------------------------------------------------------------------------------------------
 
-Εδώ τα πράγματα είναι πάρα πολύ απλά. Όπως έχουμε δει και `εδώ <https://aftermathsgr.wordpress.com/2020/01/02/%ce%bc%ce%b9%ce%b1-%ce%b5%cf%86%ce%b1%cf%81%ce%bc%ce%bf%ce%b3%ce%ae-%cf%84%ce%bf%cf%85-de-lhospital-%cf%83%cf%84%ce%b7%ce%bd-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%89%ce%b3%ce%b9%cf%83%ce%b9%ce%bc/>`__ - και μας έχει πει και ο `Darboux <https://aftermathsgr.wordpress.com/2019/03/22/%ce%b7-%ce%b9%ce%b4%ce%b9%cf%8c%cf%84%ce%b7%cf%84%ce%b1-darboux-%ce%bf-rolle-%cf%84%ce%bf-%ce%ac%cf%84%ce%bf%cf%80%ce%bf-%ce%ba%ce%b1%ce%b9-%ce%bc%ce%af%ce%b1-%ce%bb%ce%ac%ce%b8%ce%bf%cf%82-%ce%b1/>`__ - υπάρχουν αρκετές «απλές» συναρτήσεις που δεν έχουν παράγουσα. Μία από αυτές είναι η:
+Εδώ τα πράγματα είναι πάρα πολύ απλά. Όπως έχουμε δει και `εδώ  <docs/After-maths/μια-εφαρμογή-του-de-lhospital-στην-παραγωγισιμ.rst>`__ - και μας έχει πει και ο `Darboux  <https://aftermathsgr.wordpress.com/2019/03/22/%ce%b7-%ce%b9%ce%b4%ce%b9%cf%8c%cf%84%ce%b7%cf%84%ce%b1-darboux-%ce%bf-rolle-%cf%84%ce%bf-%ce%ac%cf%84%ce%bf%cf%80%ce%bf-%ce%ba%ce%b1%ce%b9-%ce%bc%ce%af%ce%b1-%ce%bb%ce%ac%ce%b8%ce%bf%cf%82-%ce%b1/>`__ - υπάρχουν αρκετές «απλές» συναρτήσεις που δεν έχουν παράγουσα. Μία από αυτές είναι η:
 
 .. math:: f(x)=\left\{\begin{array}{ll}1 & x\neq0\0 & x=0\end{array}\right.,
 
@@ -161,13 +161,13 @@ Wellcome!
 
 Αφού προσπαθήσουμε πολύ να βρούμε μία παράγουσα της  :math:`x\cot x` , θα δούμε ότι δε βγαίνει άκρη, οπότε, αρχίζουμε και σκεφτόμαστε μήπως η παράγουσα που ψάχνουμε «δεν έχει τύπο». Όμως, επειδή δεν υπάρχει κάποια έννοια «τύπου» στα μαθηματικά, πρέπει να ξεκαθαρίσουμε πρώτα για τι πράγμα μιλάμε. Υπάρχουν κάποιες συναρτήσεις που ονομάζονται «στοιχειώδεις» και είναι οι παραδοσιακές συναρτήσεις που μεταχειριζόμαστε στα πλαίσια του λυκείου: πολυώνυμα, ημίτονα, συνημίτονα, εκθετικές, λογαριθμικές και οι πράξεις μεταξύ αυτών. Έτσι, παίρνουμε μία τεράστια «γκάμα» συναρτήσεων μέσα στις οποίες είναι και η  :math:`x\cot x` . Οπότε, λέγοντας «δεν έχει τύπο» εννοούμε ότι «δεν μπορεί να εκφραστεί ως στοιχειώδης συνάρτηση».
 
-Τώρα, ενώ παραγωγίζοντας μία «στοιχειώδη» συνάρτηση παίρνουμε πάντα μία στοιχειώδη συνάρτηση - μια ματιά στους κανόνες παραγώγισης μπορεί να σας πείσει - με την αντιπαραγώγιση τα πράγματα δεν είναι τόσο ρόδινα. Μία συνάρτηση που μπορεί να είναι τόσο στοιχειώδης όσο η  :math:`x\cot x`  μπορεί να έχει παράγουσες που δεν είναι (καθόλου) στοιχειώδεις. Αυτό, είναι η αλήθεια, ξεφεύγει κατά πολύ από τους σκοπούς αυτής της σειράς αναρτήσεων, ωστόσο, όποιος έχει όρεξη ή/και περιέργεια - συνήθως, αυτά πάνε μαζί, βέβαια - μπορεί να ασχοληθεί με έναν πολύ ενδιαφέροντα κλάδο των μαθηματικών, τη `Διαφορική Θεωρία Galois <http://www2.im.uj.edu.pl/badania/preprinty/imuj2007/pr0711.pdf>`__. Επίσης, σχετικά με το πρόβλημά μας, μπορεί κανείς να μελετήσει και τον `αλγόριθμο του Risch <https://www.wikiwand.com/en/Risch_algorithm>`__, ο οποίος αποφαίνεται υπό ορισμένες συνθήκες, αν μία συνάρτηση έχει στοιχειώδη παράγουσα και τη βρίσκει, αν αυτή υπάρχει.
+Τώρα, ενώ παραγωγίζοντας μία «στοιχειώδη» συνάρτηση παίρνουμε πάντα μία στοιχειώδη συνάρτηση - μια ματιά στους κανόνες παραγώγισης μπορεί να σας πείσει - με την αντιπαραγώγιση τα πράγματα δεν είναι τόσο ρόδινα. Μία συνάρτηση που μπορεί να είναι τόσο στοιχειώδης όσο η  :math:`x\cot x`  μπορεί να έχει παράγουσες που δεν είναι (καθόλου) στοιχειώδεις. Αυτό, είναι η αλήθεια, ξεφεύγει κατά πολύ από τους σκοπούς αυτής της σειράς αναρτήσεων, ωστόσο, όποιος έχει όρεξη ή/και περιέργεια - συνήθως, αυτά πάνε μαζί, βέβαια - μπορεί να ασχοληθεί με έναν πολύ ενδιαφέροντα κλάδο των μαθηματικών, τη `Διαφορική Θεωρία Galois  <http://www2.im.uj.edu.pl/badania/preprinty/imuj2007/pr0711.pdf>`__. Επίσης, σχετικά με το πρόβλημά μας, μπορεί κανείς να μελετήσει και τον `αλγόριθμο του Risch  <https://www.wikiwand.com/en/Risch_algorithm>`__, ο οποίος αποφαίνεται υπό ορισμένες συνθήκες, αν μία συνάρτηση έχει στοιχειώδη παράγουσα και τη βρίσκει, αν αυτή υπάρχει.
 
 Πίσω στο θέμα μας, είδαμε ότι η συνάρτηση  :math:`x\cot x`  έχει παράγουσα που δεν είναι δυνατόν να εκφραστεί χρησιμοποιώντας στοιχειώδεις συναρτήσεις. Ωστόσο, τίποτα δε μας αποτρέπει να (αποπειραθούμε να) υπολογίσουμε το ολοκλήρωμα:
 
  :math:`\ I=\int_0^{\pi/2}x\cot xdx` ,
 
-Αν πάμε να κάνουμε μία ολοκλήρωση κατά παράγοντες ή κάποια αντικατάσταση ή κάποιο άλλο «σχολικό» τέχνασμα, δε θα βγάλουμε κάτι ζουμερό, τουλάχιστον όχι με μια πρώτη ματιά. Η αλήθεια είναι ότι, αν έβγαινε κάτι ζουμερό με τα «γνωστά κόλπα», πιθανότατα η  :math:`x\cot x`  θα είχε και μία στοιχειώδη παράγουσα, άρα δε θα τη συζητούσαμε τόσο πολύ. Εδώ θα χρειαστούμε μία πιο εξεζητημένη τεχνική - μία από τις πολλές που θα συζητήσουμε σε αυτήν τη σειρά - η οποία είναι η *εναλλαγή της σειράς παραγώγισης και ολοκλήρωσης* - αλλιώς, ο `κανόνας ολοκλήρωσης του Leibniz <https://en.wikipedia.org/wiki/Leibniz_integral_rule>`__. Σύμφωνα με αυτόν τον κανόνα - σε μία από τις απλές μορφές του - αν μία συνάρτηση  :math:`f(x,t)`  δύο μεταβλητών είναι συνεχής και ως προς τις δύο μεταβλητές της και η μερική παράγωγός της ως προς  :math:`x`  είναι επίσης συνεχής και ως προς τις δύο μεταβλητές της σε μία περιοχή του  :math:`(x,t)` -επιπέδου που περιλαμβάνει ένα ορθογώνιο  :math:`[x_1,x_2]\times[a,b]` , τότε, για  :math:`x\in[x_1,x_2]` :
+Αν πάμε να κάνουμε μία ολοκλήρωση κατά παράγοντες ή κάποια αντικατάσταση ή κάποιο άλλο «σχολικό» τέχνασμα, δε θα βγάλουμε κάτι ζουμερό, τουλάχιστον όχι με μια πρώτη ματιά. Η αλήθεια είναι ότι, αν έβγαινε κάτι ζουμερό με τα «γνωστά κόλπα», πιθανότατα η  :math:`x\cot x`  θα είχε και μία στοιχειώδη παράγουσα, άρα δε θα τη συζητούσαμε τόσο πολύ. Εδώ θα χρειαστούμε μία πιο εξεζητημένη τεχνική - μία από τις πολλές που θα συζητήσουμε σε αυτήν τη σειρά - η οποία είναι η *εναλλαγή της σειράς παραγώγισης και ολοκλήρωσης* - αλλιώς, ο `κανόνας ολοκλήρωσης του Leibniz  <https://en.wikipedia.org/wiki/Leibniz_integral_rule>`__. Σύμφωνα με αυτόν τον κανόνα - σε μία από τις απλές μορφές του - αν μία συνάρτηση  :math:`f(x,t)`  δύο μεταβλητών είναι συνεχής και ως προς τις δύο μεταβλητές της και η μερική παράγωγός της ως προς  :math:`x`  είναι επίσης συνεχής και ως προς τις δύο μεταβλητές της σε μία περιοχή του  :math:`(x,t)` -επιπέδου που περιλαμβάνει ένα ορθογώνιο  :math:`[x_1,x_2]\times[a,b]` , τότε, για  :math:`x\in[x_1,x_2]` :
 
 .. math:: \frac{d}{dx}\int_a^bf(x,t)dt=\int_a^b\frac{\partial}{\partial x}f(x,t)dt.
 

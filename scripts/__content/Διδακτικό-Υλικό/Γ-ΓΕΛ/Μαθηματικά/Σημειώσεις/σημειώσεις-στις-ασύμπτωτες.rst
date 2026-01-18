@@ -8,20 +8,20 @@
 	:tags: πανελλήνιες, σημειώσεις, όρια, Γ' λυκείου, ασύμπτωτες, λυμένα παραδείγματα
 	:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%cf%83%cf%8d%ce%bc%cf%80%cf%84%cf%89%cf%84%ce%b5%cf%82
 	:status: published
-	:attachments: wp-content/uploads/2018/10/vassily_kandinsky_1906_-_rotterdam_sun.jpg
+	:attachments: _static/images/uploads/2018/10/vassily_kandinsky_1906_-_rotterdam_sun.jpg
 
-.. figure:: /wp-content/uploads/2018/10/vassily_kandinsky_1906_-_rotterdam_sun.jpg
-	:alt: Ο πίνακας *Ο ήλιος του Ρόττερνταμ* του `Wassily Kandinsky. <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__ 
+.. figure:: /_static/images/uploads/2018/10/vassily_kandinsky_1906_-_rotterdam_sun.jpg
+	:alt: Ο πίνακας *Ο ήλιος του Ρόττερνταμ* του `Wassily Kandinsky.  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__ 
 	:align: center
 
-	Ο πίνακας *Ο ήλιος του Ρόττερνταμ* του `Wassily Kandinsky. <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__ 
+	Ο πίνακας *Ο ήλιος του Ρόττερνταμ* του `Wassily Kandinsky.  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__ 
 
 
 Σε αυτό το φυλλάδιο περιέχονται συμπληρωματικές σημειώσεις στο κεφάλαιο των ορίων για τις ασύμπτωτες γραφικής παράστασης μιας συνάρτησης.
 
-Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1Xa-D9RPirfW4GHy37DZ5er_CSNiRBtrN/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1Xa-D9RPirfW4GHy37DZ5er_CSNiRBtrN/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Οι σημειώσεις των ορίων βρίσκονται εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/σημειώσεις-μαθηματικών-κεφάλαιο-δεύ.rst>`__.
+Οι σημειώσεις των ορίων βρίσκονται `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/σημειώσεις-μαθηματικών-κεφάλαιο-δεύ.rst>`__.
 
 
 

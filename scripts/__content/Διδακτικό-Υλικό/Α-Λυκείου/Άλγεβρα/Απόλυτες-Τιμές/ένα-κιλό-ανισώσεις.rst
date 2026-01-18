@@ -8,18 +8,18 @@
 	:tags: Α' Λυκείου, απόλυτη τιμή, ασκήσεις, ανισώσεις, επανάληψη
 	:slug: %ce%ad%ce%bd%ce%b1-%ce%ba%ce%b9%ce%bb%cf%8c-%ce%b1%ce%bd%ce%b9%cf%83%cf%8e%cf%83%ce%b5%ce%b9%cf%82
 	:status: published
-	:attachments: wp-content/uploads/2019/01/moon-men.jpg
+	:attachments: _static/images/uploads/2019/01/moon-men.jpg
 
-.. figure:: /wp-content/uploads/2019/01/moon-men.jpg
-	:alt: Ο πίνακας *Δύο άντρες ατενίζουν το φεγγάρι* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+.. figure:: /_static/images/uploads/2019/01/moon-men.jpg
+	:alt: Ο πίνακας *Δύο άντρες ατενίζουν το φεγγάρι* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Δύο άντρες ατενίζουν το φεγγάρι* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Δύο άντρες ατενίζουν το φεγγάρι* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
 
 
 Λίγες ανισώσεις με απόλυτες τιμές.
 
-Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1RTMS71z0FgIvg2Tzw1Wl7jdDrCNFpmcj/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1RTMS71z0FgIvg2Tzw1Wl7jdDrCNFpmcj/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

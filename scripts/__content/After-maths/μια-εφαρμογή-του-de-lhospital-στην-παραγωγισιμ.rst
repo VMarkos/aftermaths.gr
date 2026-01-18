@@ -8,13 +8,13 @@
 	:tags: featured, παράγωγος, πανελλήνιες, Γ' λυκείου
 	:slug: %ce%bc%ce%b9%ce%b1-%ce%b5%cf%86%ce%b1%cf%81%ce%bc%ce%bf%ce%b3%ce%ae-%cf%84%ce%bf%cf%85-de-lhospital-%cf%83%cf%84%ce%b7%ce%bd-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%89%ce%b3%ce%b9%cf%83%ce%b9%ce%bc
 	:status: published
-	:attachments: wp-content/uploads/2020/01/picasso_massacre_in_korea.jpg
+	:attachments: _static/images/uploads/2020/01/picasso_massacre_in_korea.jpg
 
-.. figure:: /wp-content/uploads/2020/01/picasso_massacre_in_korea.jpg
-	:alt: Ο πίνακας *Η σφαγή της Κορέας* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+.. figure:: /_static/images/uploads/2020/01/picasso_massacre_in_korea.jpg
+	:alt: Ο πίνακας *Η σφαγή της Κορέας* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Η σφαγή της Κορέας* του `Pablo Picasso <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	Ο πίνακας *Η σφαγή της Κορέας* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
 
 
 Κανόνες de L'Hospital, γνωστοί και μη εξαιρετέοι καθώς είναι από τα αγαπημένα όπλα στο οπλοστάσιο μιας/ενός υποψήφιας/ου των πανελληνίων εξετάσεων. Η αλήθεια είναι ότι οι εν λόγω κανόνες είναι από τα πράγματα που δεν ήθελα ποτέ να διδάσκονται νωρίς στην ενότητα των παραγώγων, μιας και είναι πολύ εύκολο να αρχίσει κανείς να τους εφαρμόζει κυκλικά, σε περιπτώσεις που δεν είναι γνωστή - ή ζητείται - η παραγωγισμότητα των εμπλεκόμενων συναρτήσεων. Αλλά αυτό είναι μία άλλη συζήτηση. Αυτή η ανάρτηση έχει ως σκοπό να πιάσει μία λεπτή - και εκτός ύλης - εφαρμογή των κανόνων του de L'Hospital.
@@ -59,11 +59,11 @@
    .. math:: f'(x)=\left\{\begin{array}{ll}2x\sin\frac{1}{x}-\cos\frac{1}{x}&x\neq0\0&x=0\end{array}\right.
    Αυτή η συνάρτηση τώρα, δεν είναι συνεχής στο  :math:`x_0=0` , μιας και το όριό της στο  :math:`0`  δεν υπάρχει. Για να το δούμε αυτό, ας παρατηρήσουμε λίγο τη γραφική της παράσταση κοντά στο  :math:`0` .
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2020/01/screenshot_2020-01-02-desmos-graphing-calculator.png?w=1024
-   :alt: Μία ουσιωδώς ασυνεχής συνάρτηση - αν θέλετε να παίξετε λίγο μαζί της, μπορείτε να τη βρείτε και `εδώ <https://www.desmos.com/calculator>`__.
+.. figure:: https://aftermaths.gr/_static/images/uploads/2020/01/screenshot_2020-01-02-desmos-graphing-calculator.png?w=1024
+   :alt: Μία ουσιωδώς ασυνεχής συνάρτηση - αν θέλετε να παίξετε λίγο μαζί της, μπορείτε να τη βρείτε και `εδώ  <https://www.desmos.com/calculator>`__.
    :figclass: wp-image-1934
 
-   Μία ουσιωδώς ασυνεχής συνάρτηση - αν θέλετε να παίξετε λίγο μαζί της, μπορείτε να τη βρείτε και `εδώ <https://www.desmos.com/calculator>`__.
+   Μία ουσιωδώς ασυνεχής συνάρτηση - αν θέλετε να παίξετε λίγο μαζί της, μπορείτε να τη βρείτε και `εδώ  <https://www.desmos.com/calculator>`__.
 
 -  Άλλο ένα πράγμα που μπορούμε να συμπεράνουμε από τα παραπάνω είναι ότι δεν προκύπτουν όλες οι συναρτήσεις ως παράγωγοι κάποιας άλλης συνάρτησης. Με λίγα λόγια, συναρτήσεις όπως η ακόλουθη:
    .. math:: f(x)=\left\{\begin{array}{ll}3 & x\neq1\15 & x=1\end{array}\right.

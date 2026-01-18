@@ -8,13 +8,13 @@
 	:tags: Collatz, εικασία, μαθηματικά
 	:slug: %ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-1
 	:status: published
-	:attachments: wp-content/uploads/2021/04/840px-pierre-auguste_renoir_106.jpg
+	:attachments: _static/images/uploads/2021/04/840px-pierre-auguste_renoir_106.jpg
 
-.. figure:: /wp-content/uploads/2021/04/840px-pierre-auguste_renoir_106.jpg
-	:alt: Το πορτραίτο του Ambroise Vollard του `Pierre-Auguste Renoir. <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__ 
+.. figure:: /_static/images/uploads/2021/04/840px-pierre-auguste_renoir_106.jpg
+	:alt: Το πορτραίτο του Ambroise Vollard του `Pierre-Auguste Renoir.  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__ 
 	:align: center
 
-	Το πορτραίτο του Ambroise Vollard του `Pierre-Auguste Renoir. <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__ 
+	Το πορτραίτο του Ambroise Vollard του `Pierre-Auguste Renoir.  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__ 
 
 
 Η αλήθεια είναι ότι συνήθως τα πιο δύσκολα μαθηματικά προβλήματα είναι αυτά που έχουν την πιο απλή διατύπωση. Ένα από αυτά είναι και η περίφημη εικασία του Collatz - Collatz Conjecture - η οποία έχει μία αρκετά απλή και «παιχνιδιάρικη» θα έλεγε κανείς διατύπωση. Για την ακρίβεια, φανταστείτε το εξής παιχνίδι με αριθμούς:
@@ -60,7 +60,7 @@
 
 
 
-Ένας Γερμανός μαθηματικός, ο `Lothar Collatz <https://en.wikipedia.org/wiki/Lothar_Collatz>`__, λίγο πριν την έναρξη του Δευτέρου Παγκοσμίου Πολέμου - το 1937, για την ακρίβεια - διατύπωσε την εξής απλή εικασία:
+Ένας Γερμανός μαθηματικός, ο `Lothar Collatz  <https://en.wikipedia.org/wiki/Lothar_Collatz>`__, λίγο πριν την έναρξη του Δευτέρου Παγκοσμίου Πολέμου - το 1937, για την ακρίβεια - διατύπωσε την εξής απλή εικασία:
 
 Αν ξεκινήσει κανείς με οποιονδήποτε αριθμό και επαναλάβει τα βήματα του παραπάνω παιχνιδιού, κάποια στιγμή θα καταλήξει στο 1.
 

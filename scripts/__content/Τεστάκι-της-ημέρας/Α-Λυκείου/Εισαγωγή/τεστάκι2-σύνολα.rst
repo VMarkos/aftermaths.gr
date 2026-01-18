@@ -8,20 +8,20 @@
 	:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, επανάληψη
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-002-%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1
 	:status: published
-	:attachments: wp-content/uploads/2022/10/caillebotteautoportrait.jpg
+	:attachments: _static/images/uploads/2022/10/caillebotteautoportrait.jpg
 
-.. figure:: /wp-content/uploads/2022/10/caillebotteautoportrait.jpg
-	:alt: Μία αυτοπροσωπογραφία του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+.. figure:: /_static/images/uploads/2022/10/caillebotteautoportrait.jpg
+	:alt: Μία αυτοπροσωπογραφία του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
 	:align: center
 
-	Μία αυτοπροσωπογραφία του `Gustave Caillebotte <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+	Μία αυτοπροσωπογραφία του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
 
 
 Ένα μικρό τεστάκι στα σύνολα, τις βασικές πράξεις και σχέσεις μεταξύ τους - Άλγεβρα, Α' Γενικού Λυκείου και ΕΠΑΛ.
 
-Το τεστάκι μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1hHluFblfdjwu0ux8xGr33eIZ3Uju-rtp/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1hHluFblfdjwu0ux8xGr33eIZ3Uju-rtp/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
 
-Το προηγούμενο τεστάκι μπορείτε να το βρείτε `εδώ <https://aftermaths.gr/2022/09/29/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-001-%cf%84%ce%b9-%ce%b8%cf%85%ce%bc%cf%8c%ce%bc%ce%b1%cf%83%cf%84%ce%b5-%ce%b1%cf%80%cf%8c-%cf%84/>`__.
+Το προηγούμενο τεστάκι μπορείτε να το βρείτε `εδώ  <https://aftermaths.gr/2022/09/29/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-001-%cf%84%ce%b9-%ce%b8%cf%85%ce%bc%cf%8c%ce%bc%ce%b1%cf%83%cf%84%ce%b5-%ce%b1%cf%80%cf%8c-%cf%84/>`__.
 
 
 
