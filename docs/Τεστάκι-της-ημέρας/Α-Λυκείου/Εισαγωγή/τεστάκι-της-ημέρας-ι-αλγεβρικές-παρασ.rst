@@ -1,0 +1,31 @@
+Τεστάκι της ημέρας Ι - Αλγεβρικές παραστασεις
+#############################################
+
+.. meta::
+	:date: 2020-10-29 15:29
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: προβλήματα, παραστάσεις, σύνολα, τεστ, Α' Λυκείου, άλγεβρα, ασκήσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b9-%ce%b1%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83
+	:status: published
+	:attachments: _static/images/uploads/2020/10/gugg_acrobats.jpg
+
+.. figure:: /_static/images/uploads/2020/10/gugg_acrobats.jpg
+	:alt: Ο πίνακας *Οι ακροβάτες* του `Paul Klee  <https://en.wikipedia.org/wiki/Paul_Klee>`__. 
+	:align: center
+
+	Ο πίνακας *Οι ακροβάτες* του `Paul Klee  <https://en.wikipedia.org/wiki/Paul_Klee>`__. 
+
+
+Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1vPQbj55s_dAn2-1Lp-Zhe85AqLSLYEF4/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: 06T600WAPhU 
+
+

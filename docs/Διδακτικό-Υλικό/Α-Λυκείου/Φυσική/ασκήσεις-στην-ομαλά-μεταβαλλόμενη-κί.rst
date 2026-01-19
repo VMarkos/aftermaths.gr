@@ -1,0 +1,28 @@
+Ασκήσεις στην ομαλά μεταβαλλόμενη κίνηση
+########################################
+
+.. meta::
+	:date: 2018-11-22 13:05
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Φυσική
+	:tags: Α' Λυκείου, ασκήσεις, επιταχυνόμενη κίνηση, μεταβαλλόμενη κίνηση
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%bf%ce%bc%ce%b1%ce%bb%ce%ac-%ce%bc%ce%b5%cf%84%ce%b1%ce%b2%ce%b1%ce%bb%ce%bb%cf%8c%ce%bc%ce%b5%ce%bd%ce%b7-%ce%ba%ce%af
+	:status: published
+	:attachments: _static/images/uploads/2018/11/600px-parmigianino_selfportrait.jpg
+
+.. figure:: /_static/images/uploads/2018/11/600px-parmigianino_selfportrait.jpg
+	:alt: Ο πίνακας *Αυτοπροσωπογραφία σε κυρτό* *κάτοπτρο* του `Girolamo Franzesco Maria Mazzola ή Parmigianino.  <https://en.wikipedia.org/wiki/Parmigianino>`__ 
+	:align: center
+
+	Ο πίνακας *Αυτοπροσωπογραφία σε κυρτό* *κάτοπτρο* του `Girolamo Franzesco Maria Mazzola ή Parmigianino.  <https://en.wikipedia.org/wiki/Parmigianino>`__ 
+
+
+Σε αυτό το φυλλάδιο περιέχονται λίγες απλές ασκήσεις στην ευθύγραμμη ομαλά μεταβαλλόμενη κίνηση.
+
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1H33K84Kdg6F7pVz2Rz9Wcy0l69c4rej5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+.. youtube:: VVFnooymyrI 

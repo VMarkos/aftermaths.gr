@@ -1,0 +1,35 @@
+Τεστάκι #007 - Απόλυτες Τιμές
+#############################
+
+.. meta::
+	:date: 2022-11-22 16:19
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, εξισώσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-007-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82
+	:status: published
+	:attachments: _static/images/uploads/2022/11/g._caillebotte_-_homme_portant_une_blouse.jpg
+
+.. figure:: /_static/images/uploads/2022/11/g._caillebotte_-_homme_portant_une_blouse.jpg
+	:alt: Ο πίνακας *Άνδρας που φοράει μία μπλούζα* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+	:align: center
+
+	Ο πίνακας *Άνδρας που φοράει μία μπλούζα* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+
+
+Ένα μικρό τεστάκι στις απόλυτες τιμές - και πολύ το αργήσαμε - και κάποιες από τις απλές και καθημερινές ιδιότητές τους.
+
+Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1pdBxC9rEJKWqqahQ1cSWo7-LIXAkowvl/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+*Το προηγούμενο τεστάκι μπορείτε να το βρείτε*\ `εδώ  <https://aftermaths.gr/2022/11/08/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-006-%ce%b4%ce%b9%ce%b1%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1/>`__\ *ενώ πολλά άλλα τεστάκια μπορείτε να βρείτε*\ `εδώ  <https://aftermaths.gr/category/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82/>`__\ *.*
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: 3H8JTzWITi8 
+
+

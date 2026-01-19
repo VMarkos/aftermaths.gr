@@ -1,0 +1,26 @@
+Ασκήσεις σε διαιρετότητα, δυνάμεις και πρώτους αριθμούς
+#######################################################
+
+.. meta::
+	:date: 2019-09-26 13:18
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πρώτοι, Α' Γυμνασίου, ασκήσεις, δυνάμεις, διαιρετότητα, επανάληψη
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%ce%b4%ce%b9%ce%b1%ce%b9%cf%81%ce%b5%cf%84%cf%8c%cf%84%ce%b7%cf%84%ce%b1-%ce%b4%cf%85%ce%bd%ce%ac%ce%bc%ce%b5%ce%b9%cf%82-%ce%ba%ce%b1
+	:status: published
+	:attachments: _static/images/uploads/2019/09/677px-vassily_kandinsky_1910_-_the_cow.jpg
+
+.. figure:: /_static/images/uploads/2019/09/677px-vassily_kandinsky_1910_-_the_cow.jpg
+	:alt: Ο πίνακας *Η αγελάδα* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Η αγελάδα* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+
+
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1R2vTuFRJFCJZcTcGNvnn0zVHGMY2NlWf/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. youtube:: vyk6Jc8wLEs 

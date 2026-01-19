@@ -1,0 +1,31 @@
+Πεδία ορισμού και γραφικές παραστάσεις
+######################################
+
+.. meta::
+	:date: 2020-05-03 15:04
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, συναρτήσεις, Α' Λυκείου, ασκήσεις, γραφική παράσταση, επανάληψη
+	:slug: %cf%80%ce%b5%ce%b4%ce%af%ce%b1-%ce%bf%cf%81%ce%b9%cf%83%ce%bc%ce%bf%cf%8d-%ce%ba%ce%b1%ce%b9-%ce%b3%cf%81%ce%b1%cf%86%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5
+	:status: published
+	:attachments: _static/images/uploads/2020/05/800px-self-portrait_1628-1629_by_rembrandt.jpg
+
+.. figure:: /_static/images/uploads/2020/05/800px-self-portrait_1628-1629_by_rembrandt.jpg
+	:alt: Μία αυτοπροσωπογραφία του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__ νέου. 
+	:align: center
+
+	Μία αυτοπροσωπογραφία του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__ νέου. 
+
+
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1OsvyMPHin04Fv7qBGeJrSJ4iOlf4dalO/view?usp=sharing>`__ και στη σελίδα `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+| Καλό απόγευμα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: bsrrfvr5uEc 
+
+

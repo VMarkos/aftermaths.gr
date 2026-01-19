@@ -1,0 +1,33 @@
+Θέματα από το βιβλίο (2)
+########################
+
+.. meta::
+	:date: 2020-03-16 13:28
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις, ολοκλήρωμα
+	:slug: %ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%ce%b1%cf%80%cf%8c-%cf%84%ce%bf-%ce%b2%ce%b9%ce%b2%ce%bb%ce%af%ce%bf-2
+	:status: published
+	:attachments: _static/images/uploads/2020/03/rembrandt_harmensz._van_rijn_013.jpg
+
+.. figure:: /_static/images/uploads/2020/03/rembrandt_harmensz._van_rijn_013.jpg
+	:alt: Ο πίνακας *Ο Αριστοτέλης με μία προτομή του Ομήρου* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ο Αριστοτέλης με μία προτομή του Ομήρου* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+
+
+Συνεχίζουμε με το δεύτερο σετ λυμένων θεμάτων από το σχολικό βιβλίο το οποίο μπορείτε να βρείτε `εδώ  <https://drive.google.com/file/d/1emXjaMb7Il74TfgPV6HCsEL6bE4xMOwl/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Το πρώτο σετ με θέματα και η λίστα με όλα τα σετ βρίσκεται `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Ολοκληρώματα/θέματα-από-το-βιβλίο-1.rst>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: qzOmPUu -F_M
+
+

@@ -1,0 +1,33 @@
+Ασκήσεις σε μονοτονία και «1-1» - Λύσεις
+########################################
+
+.. meta::
+	:date: 2021-09-25 12:21
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: 1-1, προβλήματα, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις, μαθηματικά, μονοτονία
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%ce%bc%ce%bf%ce%bd%ce%bf%cf%84%ce%bf%ce%bd%ce%af%ce%b1-%ce%ba%ce%b1%ce%b9-1-1-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: _static/images/uploads/2021/09/le_labourage_berelles.png
+
+.. figure:: /_static/images/uploads/2021/09/le_labourage_berelles.png
+	:alt: Ο πίνακας *Δουλεύοντας, Bérelles* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Δουλεύοντας, Bérelles* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+
+
+Τις λύσεις των προηγούμενων ασκήσεων σε μονότονες και «1-1» συναρτήσεις μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1Zr7gCaMDbeauCfe1Xg-MlDMaath1aWrn/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+*Τις εκφωνήσεις των ασκήσεων μπορείτε να τις βρείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Συναρτήσεις/ασκήσεις-σε-μονοτονία-1-1.rst>`__\ *ενώ ασκήσεις σε προηγούμενες ενότητες μπορείτε να βρείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Συναρτήσεις/ασκήσεις-στη-σύνθεση.rst>`__\ *(σύνθεση) κι*\ `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Συναρτήσεις/εισαγωγικές-ασκήσεις-στις-συναρτήσε-3.rst>`__\ *(ορισμός συνάρτησης και γραφικές παραστάσεις).*
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+
+
+
+
+
+   .. youtube:: vlB1HR4BgUg 
+
+

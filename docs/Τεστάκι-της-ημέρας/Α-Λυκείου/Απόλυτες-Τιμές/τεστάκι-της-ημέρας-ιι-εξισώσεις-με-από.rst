@@ -1,0 +1,35 @@
+Τεστάκι της ημέρας ΙΙ - Εξισώσεις με απόλυτες τιμές
+###################################################
+
+.. meta::
+	:date: 2021-11-13 20:40
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, ασκήσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b9%ce%b9-%ce%b5%ce%be%ce%b9%cf%83%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b5-%ce%b1%cf%80%cf%8c
+	:status: published
+	:attachments: _static/images/uploads/2021/11/jacques-louis_david_-_jupiter_et_antiope.jpg
+
+.. figure:: /_static/images/uploads/2021/11/jacques-louis_david_-_jupiter_et_antiope.jpg
+	:alt: Ο πίνακας *Ο Δίας και η Αντιόπη* του `Jacques-Louis David  <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+	:align: center
+
+	Ο πίνακας *Ο Δίας και η Αντιόπη* του `Jacques-Louis David  <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+
+
+Ένα ακόμα μικρό τεστάκι στις εξισώσεις με απόλυτες τιμές - Άλγεβρα Α' Γενικού Λυκείου και ΕΠΑΛ.
+
+Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1mT54AaH5m5PZbBygX40w1suaujv4L3VE/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Το προηγούμενο τεστ μπορείτε να το βρείτε*\ `εδώ  <docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι-της-ημέρας-ι-απόλυτη-τιμή.rst>`__\ *ενώ σχετικές ασκήσεις μπορείτε να βρείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Απόλυτες-Τιμές/ασκήσεις-στις-απόλυτες-τιμές-2.rst>`__\ *.*
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+
+
+
+   .. youtube:: vmLer_oloZ4 
+
+

@@ -1,0 +1,35 @@
+Άλγεβρα, Α' Λυκείου - Μάθημα 25ο
+################################
+
+.. meta::
+	:date: 2022-03-15 10:36
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: συναρτήσεις, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, διαφάνειες, θεωρία
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-25%ce%bf
+	:status: published
+	:attachments: _static/images/uploads/2022/03/1280px-sir_lawrence_alma-tadema_-_the_finding_of_moses.jpg
+
+.. figure:: /_static/images/uploads/2022/03/1280px-sir_lawrence_alma-tadema_-_the_finding_of_moses.jpg
+	:alt: Ο πίνακας *Η εύρεση του Μωυσή* του `Lawrence Alma-Tadema  <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
+	:align: center
+
+	Ο πίνακας *Η εύρεση του Μωυσή* του `Lawrence Alma-Tadema  <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
+
+
+Πότε μία καμπύλη είναι η γραφική παράσταση μίας συνάρτησης;
+
+Τις σχετικές διαφάνειες μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1PTY38C5dn2EncN2weZ5Ve-DjKxijiPJF/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ  <https://aftermaths.gr/2022/03/08/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-24%ce%bf/>`__\ *ενώ τις αντίστοιχες της Β' Λυκείου*\ `εδώ  <docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-β-λυκείου-μάθημα-24ο.rst>`__\ *.*
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: xwPnSS702Ow 
+
+

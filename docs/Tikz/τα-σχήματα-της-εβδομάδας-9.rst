@@ -1,0 +1,229 @@
+Τα σχήματα της εβδομάδας (9)
+############################
+
+.. meta::
+	:date: 2021-10-12 11:18
+	:author: aftermathsgr
+	:tags: featured, Μαθηματικά, Tikz
+	:slug: %cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-9
+	:status: published
+	:attachments: _static/images/uploads/2021/10/thomas_couture_-_lawyer_going_to_court_-_walters_371204.jpg
+
+.. figure:: /_static/images/uploads/2021/10/thomas_couture_-_lawyer_going_to_court_-_walters_371204.jpg
+	:alt: Ο πίνακας *Δικηγόρος πηγαίνει στο δικαστήριο* του `Thomas Couture  <https://en.wikipedia.org/wiki/Thomas_Couture>`__. 
+	:align: center
+
+	Ο πίνακας *Δικηγόρος πηγαίνει στο δικαστήριο* του `Thomas Couture  <https://en.wikipedia.org/wiki/Thomas_Couture>`__. 
+
+
+Πέρασε κιόλας μία εβδομάδα από την προηγούμενη Τρίτη - γενικά, άπαξ και μπει η σαιζόν, ο χρόνος τρέχει - και λίγα ακόμα σχήματα μπήκαν στη λίστα μας. Αν θέλετε να θυμηθείτε τι συζητήσαμε την προηγούμενη εβδομάδα - καλά θα κάνετε να τα θυμηθείτε γιατί θα τα συναντήσουμε κι εδώ - μπορείτε να τα βρείτε `εδώ  <docs/Tikz/τα-σχήματα-της-εβδομάδας-8.rst>`__.
+
+Αυτήν την εβδομάδα είδαμε ακόμα μία νέα βιβλιοθήκη του ``tikz`` την οποία και θα συζητήσουμε ευθύς αμέσως.
+
+Μία γνωστή ιδιότητα...
+----------------------
+
+Το πρώτο μας σχήμα είναι το εξής:
+
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/fig_44.png?w=723
+   :alt: Μήπως μας θυμίζει κάτι από ΑΟΘ αυτό;
+   :figclass: wp-image-8975
+
+   Μήπως μας θυμίζει κάτι από ΑΟΘ αυτό;
+
+Ο αντίστοιχος κώδικας είναι ο εξής:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \documentclass[tikz, margin=5mm]{standalone}
+   \usepackage[english, greek]{babel}
+   \usepackage[iso-8859-7]{inputenc}
+    
+   \pgfdeclarelayer{bg}
+   \pgfsetlayers{bg,main}
+    
+   \usetikzlibrary{patterns}
+   \usetikzlibrary{intersections}
+    
+   \begin{document}
+       \begin{tikzpicture}
+       \draw[thick,-&gt;,name path=x axis] (-2,0) -- (2,0)node[pos=1,below]{$x$};
+       \draw[thick,-&gt;,name path=y axis] (0,-2) -- (0,2)node[pos=1,left]{$y$};
+       \node[left,yshift=-8pt](O) at (0,0){$O$};
+       \draw[thick, name path=line, samples=200, domain=-1.8:{-1/1.8}, color=blue!50!black] plot (\x,{.9/\x});
+       \draw[thick, name path=line, samples=200, domain={1/1.8}:1.8, color=blue!50!black] plot (\x,{.9/\x});
+       \node[color=blue!50!black] at (-1,1){$ f(x)=\frac{a}{x}$};
+       \node[circle, fill=orange, inner sep=1pt](A) at (1.2,{.9/1.2}){};
+       \draw[-&gt;, color=green!40!black] (0,0) -- (A);
+       \begin{pgfonlayer}{bg}
+       \fill[pattern=north west lines, pattern color=orange] (0,0) rectangle (A);
+       \node[orange](tab) at (1,-.5){Εμβ.=$a$};
+       \end{pgfonlayer}
+       \end{tikzpicture}
+   \end{document}
+
+Εδώ δεν έχουμε κάτι ιδιαίτερο πέρα από τη χρήση μίας νέας βιβλιοθήκης. Αρχικά, σχεδιάσαμε κάποιους άξονες, σχεδιάσαμε και τη γραφική παράσταση μίας υπερβολής, έναν κόμβο, ένα ορθογώνιο κι ένα βελάκι. Απλά όλα, ως εδώ, και γνωστά.
+
+Αυτό που όπως είπαμε είναι καινούργιο είναι η βιβλιοθήκη ``patterns`` που μας επιτρέπει να χρωματίζουμε περιοχές όχι απλά με χρώματα, αλλά χρησιμοποιώντας μοτίβα - εξ ου και το όνομα της βιβλιοθήκης. Η εν λόγω βιβλιοθήκη μας δίνει πρόσβαση σε διάφορες παραμέτρους που αφορούν την εντολή ``\fill`` και την εντολή ``\draw`` κυρίως - είτε και όποια άλλη εντολή έχει να κάνει με κάποιον τρόπο με τον χρωματισμό ενός χωρίου. Ένα σετ παραμέτρων στο οποίο μας δίνει πρόσβαση είναι αυτό που αφορά τη γραμμοσκίαση χωρίων, όπως βλέπετε παραπάνω. Γενικά, για να επιλέξουμε το μοτίβο που θέλουμε από τη βιβλιοθήκη, γράφουμε:
+
+``pattern={το μοτίβο που μας αρέσει}``
+
+Έτσι, παραπάνω επιλέξαμε το μοτίβο north west lines που είναι στην ουσία διαγώνιες γραμμές που ξεκινούν από τα βορειοδυτικά του σχήματος - δηλαδή από πάνω αριστερά. Γενικά, στο ``tikz`` χρησιμοποιούμε αρκετά συχνά τα σημεία του ορίζοντα για να μιλήσουμε για τη σχετική θέση ενός αντικειμένου σε σχέση με ένα άλλο - όπως π.χ. τα anchors των κόμβων που έχουμε δει στο παρελθόν - δείτε `εδώ  <docs/Tikz/τα-σχήματα-της-εβδομάδας-7.rst>`__ για να θυμηθείτε περισσότερα. Μπορείτε να πειραματιστείτε και με άλλα σημεία του ορίζοντα για να δείτε πώς βγαίνουν οι γραμμές - αν και ίσως φαντάζεστε.
+
+Αν θέλουμε, τώρα, να πειράξουμε για παράδειγμα, το χρώμα του μοτίβου που έχουμε εισαγάγει στο σχήμα μας, έχουμε την αρκετά διαισθητική παράμετρο ``pattern color`` στην οποία απλώς δίνουμε το χρώμα που θέλουμε και αυτή χρωματίζει το μοτίβο με αυτό. Αντίστοιχα μπορούμε να χρησιμοποιήσουμε αρκετές παραμέτρους της ``\fill`` με το πρόθεμα ``pattern`` για να πειράξουμε διάφορα χαρακτηριστικά του μοτίβου μας.
+
+*Θα μπορούσαμε να είχαμε κάνει όλα τα παραπάνω χωρίς να φορτώσουμε κάποια βιβλιοθήκη, με απλή χρήση εντολών που έχουμε δει ως τώρα. Μπορείτε να βρείτε πώς; Απαντήσεις στα σχόλια!*
+
+Σύνθεση συναρτήσεων
+-------------------
+
+Το επόμενο σχήμα μας αφορά τη σύνθεση δύο συναρτήσεων:
+
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/fig_45.png?w=723
+   :alt: Σύνθετα πράγματα...
+   :figclass: wp-image-9045
+
+   Σύνθετα πράγματα...
+
+Ο αντίστοιχος κώδικας είναι ο εξής:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \documentclass[tikz, margin=5mm]{standalone}
+    
+   \usetikzlibrary{calc}
+   \usetikzlibrary{intersections}
+    
+   \begin{document}
+       \begin{tikzpicture}
+       \draw[thick] (0,0) ellipse (1.2 and 1.9)node[yshift=-2.4cm,xshift=-1cm]{$A$};
+       \draw[thick] (3,0) ellipse (1.2 and 1.9)node[yshift=-2.4cm,xshift=-1cm]{$B\cup C$};
+       \draw[thick] (6,0) ellipse (1.2 and 1.9)node[yshift=-2.4cm,xshift=-1cm]{$D$};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$a$}](a) at (.4,1.2){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$b$}](b) at (-.4,.4){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$c$}](c) at (.5,-.4){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$d$}](d) at (-.3,-1.2){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$1$}](1) at (3.3,1.2){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$2$}](2) at (2.5,.4){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$3$}](3) at (3.4,-.4){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$4$}](4) at (2.6,-1.2){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$e$}](e) at (6.3,1.2){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$f$}](f) at (5.5,.4){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$g$}](g) at (6.4,-.4){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$h$}](h) at (5.6,-1.2){};
+       \draw[thick,-&gt;,blue!75!black] (a) -- (2);
+       \draw[thick,-&gt;,blue!75!black] (b) -- (3);
+       \draw[thick,-&gt;,blue!75!black] (c) -- (3);
+       \draw[thick,-&gt;,blue!75!black] (d) -- (4);
+       \draw[thick,-&gt;,red] (1) -- (f);
+       \draw[thick,-&gt;,red] (2) -- (e);
+       \draw[thick,-&gt;,red] (3) -- (h);
+       %ASSIST NODES
+       \node[draw=none](a1) at ($(1)+(.1,.3)$){};
+       \node[draw=none](a2) at ($(2)+(-.2,0)$){};
+       \node[draw=none](a3) at ($(3)+(.1,0)$){};
+       \node[draw=none](a22) at ($(2)+(-.2,.4)$){};
+       \node[draw=none](a4) at ($(4)+(0,-.1)$){};
+       \draw[dashed, red, thick, fill=red, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(a1.north) (a2.west) (a3.south east)};
+       \draw[dashed, blue!75!black, thick, fill=blue!75!black, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(a22.north) (a3.east) (a4.south west)};
+       \node[label={above,yshift=2pt}:{$\textcolor{red}{D_g}$}] at (a1){};
+       \node[label={below,xshift=-20pt}:{$\textcolor{blue!75!black}{f(A)}$}] at (a4){};
+       \end{tikzpicture}
+   \end{document}
+
+Τα παραπάνω τα έχουμε δει σε παρόμοια μορφή στο παρελθόν, αλλά λίγη επανάληψη δε βλάπτει - εκτός αυτού, είναι ευκαιρία να συζητήσουμε και κάτι σχετικό με τα χρώματα και το ``tikz``. Αρχικά, σε ό,τι αφορά τις ελλείψεις που φαίνονται, μπορούμε εύκολα να τις σχεδιάσουμε με τη βοήθεια της ``\draw`` και της παραμέτρου ``ellipse`` που έχει, να θυμίσουμε, το εξής συντακτικό:
+
+``(x,y) ellipse (a and b)``
+
+Στο παραπάνω, τα ``x,y`` είναι οι συντεταγμένες του κέντρου της έλλειψης - το μέσο του ευθυγράμμου τμήματος των εστιών της - ενώ τα ``a,b`` είναι τα μήκη των δύο ημιαξόνων όπως τα γνωρίζουμε από το σχολείο. Έπειτα, απλώς προσθέτουμε κόβμους και βελάκια μεταξύ αυτών των κόμβων μέσα στις τρεις ελλείψεις μας. Το ζουμερό - όπως έχουμε δει κι `εδώ  <docs/Tikz/τα-σχήματα-της-εβδομάδας-7.rst>`__ - είναι να σχεδιάσουμε αυτές τις καμπύλες που φαίνονται να αγκαλιάζουν τα σημεία που μας ενδιαφέρουν.
+
+Λοιπόν, αρχικά, όπως έχουμε πει, σχεδιάζουμε κάποιος ακόμα κόμβους, που θα μας εξυπηρετήσουν ως τα «άκρα» των καμπύλων αυτών - καθώς οι υπάρχοντες κόμβοι φέρουν και ετικέτες και θα ήταν λίγο άκομψο και δύσκολο να δουλέψουμε με αυτούς και μόνο. Έπειτα, με μία εντολή σαν την παρακάτω:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \draw[dashed, red, thick, fill=red, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(a1.north) (a2.west) (a3.south east)};
+
+Σχεδιάζουμε την κόκκινη διακεκομμένη γραμμή και γεμίζουμε το εσωτερικό της με ένα απαλό κόκκινο - απαλό γιατί έχουμε επιλέξει ``fill opacity=.1``. Με ανάλογο τρόπο σχεδιάζουμε και την μπλε διακεκομμένη καμπύλη - για να θυμηθείτε τι σημαίνει αυτό το ``smooth cycle`` και αυτό το ``tension=1`` δείτε ξανά `εδώ  <docs/Tikz/τα-σχήματα-της-εβδομάδας-7.rst>`__.
+
+Αυτό που έχει ενδιαφέρον παραπάνω είναι να παρατηρήσουμε τι συμβαίνει στο σημείο τομής των δύο χρωματιστών χωρίων. Το ένα, όπως βλέπουμε, είναι ένα απαλό μπλε ενώ το άλλο, όπως αναφέραμε, ένα απαλό κόκκινο. Η τομή τους έχει ένα απαλό κοκκινομπλέ χρώμα - που κάποιοι θα το έλεγαν και μωβ, αλλά ας μην μπλέξουμε τώρα. Αυτή η συνθετική επικάλυψη των χρωμάτων είναι η συμπεριφορά που έχει εκ προοιμίου του ``tikz`` όταν έχει να κάνει με χωρία που έχουν περισσότερους από έναν χρωματισμούς. Με άλλα λόγια, αν βάζαμε κι άλλα χρώματα, σιγά σιγά το χρώμα του χωρίου θα γινόταν όλο και πιο σκούρο, μέχρι που τελικά θα φαινόταν μαύρο. Έχοντας κατά νου το παραπάνω, μπορούμε να πετύχουμε σε διάφορες περιπτώσεις αρκετά ενδιαφέροντα εφέ σε σχέση με τον χρωματισμό ενός σχήματος - ή απλά να τα κάνουμε όλα μαντάρα.
+
+Μπορούμε επίσης να αλλάξουμε τον τρόπο με τον οποίο το ``tikz`` συνθέτει τα χρώματα έτσι ώστε όταν ένα χρώμα πέφτει πάνω στο άλλο να συμπεριφέρονται σαν φωτεινές ακτίνες - να γίνεται, δηλαδή, η σύνθεσή τους προς το άσπρο, όπως με το φως. Το πώς, θα το δούμε όταν μας χρειαστεί κάτι τέτοιο.
+
+Κι ένα ακόμα ίδιο...
+--------------------
+
+Το επόμενο σχήμα μας είναι το προηγούμενο, στην ουσία, με λίγο πραγματικό μωβ:
+
+.. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/fig_46.png?w=723
+   :alt: Το πεδίο ορισμού μίας σύνθετης συνάρτησης.
+   :figclass: wp-image-9084
+
+   Το πεδίο ορισμού μίας σύνθετης συνάρτησης.
+
+Ο αντίστοιχος κώδικας είναι ο εξής:
+
+.. code:: wp-block-syntaxhighlighter-code
+
+   \documentclass[tikz, margin=5mm]{standalone}
+    
+   \usetikzlibrary{calc}
+   \usetikzlibrary{intersections}
+    
+   \begin{document}
+       \begin{tikzpicture}
+       \draw[thick] (0,0) ellipse (1.2 and 1.9)node[yshift=-2.2cm,xshift=-1cm]{$A$};
+       \draw[thick] (3,0) ellipse (1.2 and 1.9)node[yshift=-2.2cm,xshift=-1cm]{$B\cup C$};
+       \draw[thick] (6,0) ellipse (1.2 and 1.9)node[yshift=-2.2cm,xshift=-1cm]{$D$};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$a$}](a) at (.4,1.2){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$b$}](b) at (-.4,.4){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$c$}](c) at (.5,-.4){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$d$}](d) at (-.3,-1.2){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$1$}](1) at (3.3,1.2){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$2$}](2) at (2.5,.4){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$3$}](3) at (3.4,-.4){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$4$}](4) at (2.6,-1.2){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$e$}](e) at (6.3,1.2){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$f$}](f) at (5.5,.4){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$g$}](g) at (6.4,-.4){};
+       \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$h$}](h) at (5.6,-1.2){};
+       \draw[thick,-&gt;,blue!75!black] (a) -- (2);
+       \draw[thick,-&gt;,blue!75!black] (b) -- (3);
+       \draw[thick,-&gt;,blue!75!black] (c) -- (3);
+       \draw[thick,-&gt;,blue!75!black] (d) -- (4);
+       \draw[thick,-&gt;,red] (1) -- (f);
+       \draw[thick,-&gt;,red] (2) -- (e);
+       \draw[thick,-&gt;,red] (3) -- (h);
+       %ASSIST NODES
+       \node[draw=none](a1) at ($(1)+(.1,.3)$){};
+       \node[draw=none](a2) at ($(2)+(-.2,0)$){};
+       \node[draw=none](a3) at ($(3)+(.1,0)$){};
+       \node[draw=none](a22) at ($(2)+(-.2,.4)$){};
+       \node[draw=none](a4) at ($(4)+(0,-.1)$){};
+       \node[draw=none](aa) at ($(a)+(0,.1)$){};
+       \node[draw=none](ab) at ($(b)+(-.4,0)$){};
+       \node[draw=none](ac) at ($(c)+(.1,-.1)$){};
+       \draw[dashed, red, thick, fill=red, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(a1.north) (a2.west) (a3.south east)};
+       \draw[dashed, blue!75!black, thick, fill=blue!75!black, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(a22.north) (a3.east) (a4.south west)};
+       \draw[dashed, purple!75!black, thick, fill=purple!75!black, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(aa.north) (ab.west) (ac.south east)};
+       \node[label={above,yshift=2pt}:{$\textcolor{red}{D_g}$}] at (a1){};
+       \node[label={below,xshift=-20pt}:{$\textcolor{blue!75!black}{f(A)}$}] at (a4){};
+       \node[label={left,xshift=-6pt}:{$\textcolor{purple!75!black}{D_{g\circ f}}$}] at (ab){};
+       \end{tikzpicture}
+   \end{document}
+
+Ίδιος είναι με το παραπάνω σχήμα, αν εξαιρέσουμε ότι έχουμε προσθέσει μία ακόμα «ακανόνιστη ομαλή καμπύλη» για να αγκαλιάσουμε το πεδίο ορισμού της σύνθεσης των δύο συναρτήσεων. Επί τη ευκαιρία, ας θυμίσουμε εδώ και το συντακτικό
+
+``color1!x!color2``
+
+που μας επιτρέπει να ανακατέψουμε το δύο χρώματα, το πρώτο σε ποσοστό ``x%`` και το δεύτερο σε ποσοστό ``100-x%`` - οπότε και το ``x`` καλό θα ήταν να είναι ένας αριθμός από το 0 έως το 100.
+
+Αυτά είχαμε να πούμε και γι' αυτήν την εβδομάδα, λίγα και καλά! Μέχρι την επόμενη Τρίτη, καλή συνέχεια!
+
+
+
+
+
+
+   .. youtube:: i1MIYBLz2vE 
+
+

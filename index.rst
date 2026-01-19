@@ -15,10 +15,10 @@ documentation for details.
     :glob:
     :caption: After-maths
 
-    docs/after-maths/*
+    docs/After-maths/*
 
 .. toctree::
     :glob:
     :caption: Διδακτικό Υλικό
 
-    docs/Διδακτικό_Υλικό/*
+    docs/Διδακτικό-Υλικό/*

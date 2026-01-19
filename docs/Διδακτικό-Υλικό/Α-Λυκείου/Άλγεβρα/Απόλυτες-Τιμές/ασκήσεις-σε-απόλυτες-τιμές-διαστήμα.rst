@@ -1,0 +1,35 @@
+Ασκήσεις σε Απόλυτες Τιμές & Διαστήματα
+#######################################
+
+.. meta::
+	:date: 2022-11-23 14:39
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, ασκήσεις, διαστήματα
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82-%ce%b4%ce%b9%ce%b1%cf%83%cf%84%ce%ae%ce%bc%ce%b1
+	:status: published
+	:attachments: _static/images/uploads/2022/11/g._caillebotte_-_villas_a_trouville.jpg
+
+.. figure:: /_static/images/uploads/2022/11/g._caillebotte_-_villas_a_trouville.jpg
+	:alt: Ο πίνακας *Βίλες στην Trouville* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+	:align: center
+
+	Ο πίνακας *Βίλες στην Trouville* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+
+
+Αργήσαμε λίγο φέτος, αλλά να μιλήσουμε λίγο και για απόλυτες τιμές, έτσι; Είναι, όπως και να το κάνουμε, από τα highlights της φετινής ύλης.
+
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1SY7yl5D9fEKxLR-7kK5T2vfLtyU-dnmC/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+*Ψάχνετε κι άλλο υλικό για την Α' Λυκείου; Μπορείτε να το βρείτε*\ `εδώ  <https://aftermaths.gr/tag/%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85/>`__\ *.*
+
+
+
+Καλό βροχερό μεσημέρι και καλό διάβασμα!
+
+
+
+
+   .. youtube:: MQywY_Rzw -4
+
+

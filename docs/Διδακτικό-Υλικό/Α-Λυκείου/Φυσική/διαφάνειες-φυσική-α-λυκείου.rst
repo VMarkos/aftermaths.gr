@@ -1,0 +1,31 @@
+Διαφάνειες - Φυσική (Α' Λυκείου)
+################################
+
+.. meta::
+	:date: 2020-12-13 09:35
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Φυσική
+	:tags: σημειώσεις, ΕΟΚ, ΕΟΜΚ, ασκήσεις, διαφάνειες, θεωρία
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%cf%86%cf%85%cf%83%ce%b9%ce%ba%ce%ae-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: _static/images/uploads/2020/12/patrick_henry_bruce_forms_about_1918.jpg
+
+.. figure:: /_static/images/uploads/2020/12/patrick_henry_bruce_forms_about_1918.jpg
+	:alt: Ο πίνακας *Μορφές* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Μορφές* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+
+
+Τις `διαφάνειες για την καραντίνα  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-για-την-καραντίνα.rst>`__ μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/18DxGuzbXkeuC7LYys3Mrt5Ws0vWmWsyG/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: 44Nol2Sinr8 
+
+

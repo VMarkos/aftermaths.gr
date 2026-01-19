@@ -1,0 +1,31 @@
+Διαγώνισμα στη στατιστική (λύσεις)
+##################################
+
+.. meta::
+	:date: 2020-10-20 14:33
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, διαγώνισμα, επανάληψη, λύσεις
+	:slug: %ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%cf%83%cf%84%ce%b7-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84%ce%b9%ce%ba%ce%ae-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: _static/images/uploads/2020/10/1280px-hilma_af_klint_-_group_vi_evolution_no._13_13949.jpg
+
+.. figure:: /_static/images/uploads/2020/10/1280px-hilma_af_klint_-_group_vi_evolution_no._13_13949.jpg
+	:alt: Ο πίνακας *Εξέλιξη, Group VI, Αρ. 13* της `HIlma af Klint  <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Εξέλιξη, Group VI, Αρ. 13* της `HIlma af Klint  <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\ *.* 
+
+
+Οι λύσεις του `διαγωνίσματος  <docs/Διδακτικό-Υλικό/Γ-ΕΠΑΛ/Διαγωνίσματα/επαναληπτικό-διαγώνισμα-στη-στατιστ.rst>`__ βρίσκονται `εδώ  <https://drive.google.com/file/d/1dlxMxjQs1-Bk7_q3c3hzI4QZj6cYKNPI/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: w47NaA1rgFM 
+
+

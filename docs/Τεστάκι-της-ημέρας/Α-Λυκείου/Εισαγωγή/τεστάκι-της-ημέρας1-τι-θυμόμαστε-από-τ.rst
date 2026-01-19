@@ -1,0 +1,33 @@
+Τεστάκι της Ημέρας #001 - Τι θυμόμαστε από το Γυμνάσιο;
+#######################################################
+
+.. meta::
+	:date: 2022-09-29 20:01
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τεστ, Α&#039; Λυκείου, ΕΠΑΛ, άλγεβρα, επανάληψη
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-001-%cf%84%ce%b9-%ce%b8%cf%85%ce%bc%cf%8c%ce%bc%ce%b1%cf%83%cf%84%ce%b5-%ce%b1%cf%80%cf%8c-%cf%84
+	:status: published
+	:attachments: _static/images/uploads/2022/09/gustave_caillebotte_-_jeune_homme_a_sa_fenetre_b_32.jpg
+
+.. figure:: /_static/images/uploads/2022/09/gustave_caillebotte_-_jeune_homme_a_sa_fenetre_b_32.jpg
+	:alt: Ο πίνακας *Νεαρός άνδρας στο παράθυρο* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+	:align: center
+
+	Ο πίνακας *Νεαρός άνδρας στο παράθυρο* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+
+
+Ένα μικρό, πολύ μικρό τεστάκι - του πενταλέπτου, που λέμε - για να δούμε τι μας έμεινε από τη Γ' Γυμνασίου. Λίγες ερωτήσεις Σωστού-Λάθους, μία εξίσωση και μία μικρή συνέντευξη.
+
+Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1L7jV4CgejbNXScHxS3Jz7Tx1koQQ9q08/view?usp=sharing>`__ αλλά και στη σελίδα του `διδακτικού υλικού  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Διαγωνίσματα/λύσεις-του-επαναληπτικού-διαγωνίσμα.rst>`__.
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+
+
+
+   .. youtube:: pXMEXCT5ohY 
+
+

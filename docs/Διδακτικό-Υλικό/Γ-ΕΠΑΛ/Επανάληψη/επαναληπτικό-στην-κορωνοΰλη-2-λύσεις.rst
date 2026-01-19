@@ -1,0 +1,31 @@
+Επαναληπτικό στην κορωνοΰλη (2) - Λύσεις
+########################################
+
+.. meta::
+	:date: 2021-04-28 23:55
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, στατιστική, συναρτήσεις, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διαγώνισμα, επανάληψη, μαθηματικά
+	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%cf%83%cf%84%ce%b7%ce%bd-%ce%ba%ce%bf%cf%81%cf%89%ce%bd%ce%bf%ce%b0%ce%bb%ce%b7-2-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: _static/images/uploads/2021/04/1010px-pierre-auguste_renoir_036.jpg
+
+.. figure:: /_static/images/uploads/2021/04/1010px-pierre-auguste_renoir_036.jpg
+	:alt: Ο πίνακας *Γυναίκα με μαντολίνο* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Γυναίκα με μαντολίνο* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
+Τις λύσεις του `προηγούμενου διαγωνίσματος  <docs/Διδακτικό-Υλικό/Γ-ΕΠΑΛ/Επανάληψη/επαναληπτικό-διαγώνισμα-γ-επαλ.rst>`__ στην κομμένη ύλη στα μαθηματικά της Γ' ΕΠΑΛ μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1bDmNxfsJi5SJQMB2UvqMhdIPqYM__241/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+
+
+
+   .. youtube:: X2DWeQ0xd8g 
+
+

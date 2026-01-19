@@ -1,0 +1,35 @@
+Τεστάκι #006 - Διαστήματα
+#########################
+
+.. meta::
+	:date: 2022-11-08 17:56
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, διαστήματα
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-006-%ce%b4%ce%b9%ce%b1%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1
+	:status: published
+	:attachments: _static/images/uploads/2022/11/g._caillebotte_-_dans_un_cafe.jpg
+
+.. figure:: /_static/images/uploads/2022/11/g._caillebotte_-_dans_un_cafe.jpg
+	:alt: Ο πίνακας *Σε ένα καφέ* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+	:align: center
+
+	Ο πίνακας *Σε ένα καφέ* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+
+
+Ένα μικρό τεστάκι στα διαστήματα και κάποιες βασικές ιδιότητες γύρω από αυτά - Άλγεβρα Α' Γενικού Λυκείου και ΕΠΑΛ.
+
+Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/19Y2OrZ6vSuprSLtNUR95nBBOl3aLCjoU/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+*Το προηγούμενο τεστάκι μπορείτε να το βρείτε*\ `εδώ  <https://aftermaths.gr/2022/11/03/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-005-%ce%ac%ce%bb%ce%bb%ce%b5%cf%82-%ce%bb%ce%af%ce%b3%ce%b5%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82/>`__\ *, ενώ σημειώσεις για το πρώτο κεφάλαιο της ύλης της Α' Λυκείου μπορείτε να βρείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-α-λυκείου-κεφάλαιο-1ο-σημειώσ.rst>`__\ *.*
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: Ch1aVmjvYTI 
+
+

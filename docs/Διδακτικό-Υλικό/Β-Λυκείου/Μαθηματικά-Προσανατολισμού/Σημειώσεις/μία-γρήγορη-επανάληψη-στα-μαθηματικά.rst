@@ -1,0 +1,28 @@
+Μία γρήγορη επανάληψη στα Μαθηματικά προσανατολισμού της Β' Λυκείου
+###################################################################
+
+.. meta::
+	:date: 2019-08-27 15:28
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, σημειώσεις, Β' Λυκείου, ασκήσεις, επανάληψη, εξίσωση ευθείας, θεωρία, λυμένα παραδείγματα, λύσεις
+	:slug: %ce%bc%ce%af%ce%b1-%ce%b3%cf%81%ce%ae%ce%b3%ce%bf%cf%81%ce%b7-%ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%cf%83%cf%84%ce%b1-%ce%bc%ce%b1%ce%b8%ce%b7%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%ce%ac
+	:status: published
+	:attachments: _static/images/uploads/2019/08/1882_toulouse-lautrec_the_marble_polisher.jpg
+
+.. figure:: /_static/images/uploads/2019/08/1882_toulouse-lautrec_the_marble_polisher.jpg
+	:alt: Ο πίνακας *Ο στιλβωτής του μαρμάρου* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Ο στιλβωτής του μαρμάρου* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+
+
+Σε αυτό το αρχείο θα βρείτε μία (πάρα πολύ) συνοπτική παρουσίαση της ύλης των Μαθηματικών Προσανατολισμού της Β' Λυκείου μέχρι και το κεφάλαιο του κύκλου, καθώς και πληθώρα λυμένων παραδειγμάτων και ασκήσεων για επανάληψη εφ' όλης της ύλης.
+
+Τις σημειώσεις μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1utfeAaq0CNXD-R_YECh8JVM1R908l8dk/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. youtube:: 3u -4fxKX8as

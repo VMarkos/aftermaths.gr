@@ -1,0 +1,28 @@
+Οι λύσεις του τέταρτου επαναληπτικού διαγωνίσματος (Γ' Λυκείου)
+###############################################################
+
+.. meta::
+	:date: 2019-05-01 16:37
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, διαγώνισμα, επανάληψη, λύσεις
+	:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%84%ce%ad%cf%84%ce%b1%cf%81%cf%84%ce%bf%cf%85-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%bf%cf%8d
+	:status: published
+	:attachments: _static/images/uploads/2019/05/800px-1889_shishkin_felsige_landschaft_anagoria.jpg
+
+.. figure:: /_static/images/uploads/2019/05/800px-1889_shishkin_felsige_landschaft_anagoria.jpg
+	:alt: Ο πίνακας *Το βραχώδες τοπίο* του `Ivan Shishkin  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Διαγωνίσματα/επαναληπτικό-διαγώνισμα-εφ-όλης-της-ύ-5.rst>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Το βραχώδες τοπίο* του `Ivan Shishkin  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Διαγωνίσματα/επαναληπτικό-διαγώνισμα-εφ-όλης-της-ύ-5.rst>`__\ *.* 
+
+
+Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/14W7ZhKO5GQNApJY1pz_32pvIaoI3T035/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Το διαγώνισμα μπορείτε να το βρείτε `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Διαγωνίσματα/επαναληπτικό-διαγώνισμα-εφ-όλης-της-ύ-5.rst>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. youtube:: U5310fFktbU 

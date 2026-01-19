@@ -1,0 +1,35 @@
+Ασκήσεις στις απόλυτες τιμές
+############################
+
+.. meta::
+	:date: 2021-11-09 12:30
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, ασκήσεις, επανάληψη
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82-2
+	:status: published
+	:attachments: _static/images/uploads/2021/11/david_self_portrait.jpg
+
+.. figure:: /_static/images/uploads/2021/11/david_self_portrait.jpg
+	:alt: Μία αυτοπροσωπογραφία του `Jacques-Lousi David  <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+	:align: center
+
+	Μία αυτοπροσωπογραφία του `Jacques-Lousi David  <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
+
+
+Λίγες ασκήσεις στις απόλυτες τιμές και άλλα συναφή ζητήματα της άλγεβρας της Α' Γενικού Λυκείου και ΕΠΑΛ.
+
+Τις ασκήσεις μπορείτε αν τις βρείτε `εδώ  <https://drive.google.com/file/d/1iwzwzo_iTMgOkGJPhLCetQeBpbrmzCX5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Διαφάνειες θεωρίας σχετικές με τις απόλυτες τιμές μπορείτε να βρείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-α-λυκείου-μάθημα-4ο.rst>`__\ *,*\ `εδώ  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-α-λυκείου-μάθημα-5ο.rst>`__\ *,*\ `εδώ  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-α-λυκείου-μάθημα-6ο.rst>`__\ *κι*\ `εδώ  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-α-λυκείου-μάθημα-7ο.rst>`__\ *.*
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: vNnzxisYY4U 
+
+

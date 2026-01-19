@@ -1,0 +1,350 @@
+Fractions Can Get You Everywhere!
+#################################
+
+.. meta::
+	:date: 2024-10-01 15:28
+	:author: aftermathsgr
+	:category: After-maths, English
+	:tags: Fractions, Mathematics
+	:slug: 14090
+	:status: draft
+	
+	Introduction
+	============
+	
+	"Creatures! Creatures everywhere!" could have been sung by the late and beloved `Jimis Panousis  <https://el.wikipedia.org/wiki/%CE%A4%CE%B6%CE%AF%CE%BC%CE%B7%CF%82_%CE%A0%CE%B1%CE%BD%CE%BF%CF%8D%CF%83%CE%B7%CF%82>`__, if he had taken up mathematics. Because, as we shall see below, we are surrounded by fractions, living among us, as some more cult guys would say. But, as we shall also see, there are, heck, not as many as they seem, in fact, they are "very few" compared to all real numbers. But, let's take things from the beginning.
+	
+	Natural numbers, integers and countable sets
+	============================================
+	
+	The natural numbers
+	-------------------
+	
+	What are the natural numbers? As one of our professors used to joke to us at school, "God gave us the physical numbers". For now, we will content ourselves with this fatalistic approach to the existence and structure of the physics (numbers), which we reserve the right to talk about in another post. The only thing we will clarify here is whether *zero (0) is a natural number or not.*
+	
+	Well, scientifically and quite democratically, **it's not.** I explain. The properties of the natural numbers we are concerned with here do not depend on the "starting point" of the natural numbers (whether it will be 0 or 1 or 5), but on the fact that there is a *first natural number* as well as the fact that for every natural number there is a *subsequent* natural number (e.g. 6 is the next natural number after 5, 159 is the next natural number after 158, and so on). Therefore, for our convenience, we assume that the set of natural numbers, which we will denote by  :math:`\mathbb{N}` , is the set:
+	
+	.. math:: \mathbb{N}=\{1,2,3,\ldots\}.
+	
+	The integers
+	------------
+	
+	One step after the natural numbers are the integers, the set of which we will denote by  :math:`\mathbb{Z}` . The integers, as we know, contain all the naturals, 0, but also all the *opposites of* the naturals, i.e., the set of integers is the:
+	
+	.. math:: \mathbb{Z}=\{0,\pm1,\pm2,\ldots\}.
+	
+	The convenient thing about integers is that we can easily talk about arithmetic in the usual school terms. That is, we can talk about *subtraction* in the sense of *adding the opposite* (in physics there is no opposite to do this) and also about the other operations (addition, multiplication and division by quotient and remainder).
+	
+	Numerable sets
+	--------------
+	
+	If we take the set of physics, we see that it is very easy to write it in a "list", in other words, we can put one element as first, then another as second, then another as third, and so on. For example, the first element can be 1, the second 2, the third 3, etc. This process of creating a "list" is called *numbering* a set and is familiar to us from our childhood (one candy, two candies, three candies,..., pain in the ass).
+	
+	In general, if  :math:`A`  is a set, we will say that  :math:`A`  is *countable* if we can write it as a (finite or infinite) list, i.e., if:
+	
+	.. math:: A=\{a_1,a_2,\ldots\}.
+	
+	Thus, the set  :math:`\mathbb{N}`  of natural numbers is an infinite countable set, while the set  :math:`A=\{1,3,5,6\}`  is a finite countable set. Another set that is countable is that of integers,  :math:`\mathbb{Z}` , since we can write it as follows:
+	
+	.. math:: \mathbb{Z}=\{0,1,-1,2,-2,3,-3,\ldots\},
+	
+	i.e., we start from 0 and begin to write the natural numbers and then from each of them we "insert" its opposite.
+	
+	The above trick also gives us the following idea: if  :math:`A,B`  are two countable sets, then we can write each as a list, i.e:
+	
+	.. math:: A=\{a_1,a_2,\ldots\},\ B=\{b_1,b_2,\ldots\}.
+	
+	For their union,  :math:`A\cup B` , we can see that it is written as a list as follows:
+	
+	.. math:: A\cup B=\{a_1,b_1,a_2,b_2,a_3,b_3,\ldots\}.
+	
+	That is, we alternately write an element of  :math:`A`  and then an element of  :math:`B` , as we did with the set of integers. Therefore, the union of two countable sets is also a countable set. Notice that if some of the elements of  :math:`B`  are also elements of  :math:`A` , then we simply do not include them twice in the above list, which does not affect "which is" the set  :math:`A\cup B` .
+	
+	Also, note that if  :math:`A`  is countable, then every subset of it,  :math:`B\subseteq A`  is also countable, since, if we can write the elements of  :math:`A`  in the form of a list, we can write the elements of  :math:`B`  as a list (we can delete from the list of elements of  :math:`A`  those that do not belong to  :math:`B` ).
+	
+	In general, as far as *infinite countable* sets are concerned, we can think of them as those sets that have as many elements as natural numbers, in the sense that we can talk about the first, second, third, and so on, of an infinite countable set, just as we do with natural numbers.
+	
+	An interesting question one might have is whether there are sets that are not countable, that is, sets whose elements are "so many" that we cannot write them down in a list. We will answer this question below, after first looking at another example of a countable set, but one that "does not seem" to be countable.
+	
+	The explicit numbers
+	====================
+	
+	Definition
+	----------
+	
+	Explicit numbers are, in practice, all numbers that can be written as fractions. Therefore, one can say, denoting the set of explicit ones by  :math:`\mathbb{Q}` :
+	
+	.. math:: \mathbb{Q}=\left\frac{m}{n}:m,n\in\mathbb{Z},\neq0\right}.
+	
+	However, this way we have often gotten the same fractions since, for example, we have:
+	
+	.. math:: \frac{3}{4}=\frac{-3}{-4}=\frac{6}{8}=\ldots,
+	
+	which is not wrong, but why not be a little more elegant in our expressions? We might not allow both the numerator and denominator to be integers, since the sign of the fraction can always be in the numerator. Therefore, we can assume that the numerator is an integer and the denominator is natural, i.e:
+	
+	 :math:`\mathbb{Q}=\left\frac{m}{n}:m\in\mathbb{Z},\in\mathbb{N}\right\` .
+	
+	Even so, although we can no longer talk about fractions like  :math:`\dfrac{-3}{-4}` , we have infinite fractions that are all equal to each other:
+	
+	.. math:: \frac{3}{4}=\frac{6}{8}=\frac{9}{12}=\frac{12}{16}=\ldots,
+	
+	which we would also like to avoid. Here comes the notion of a *reductive fraction*, that is, a fraction that we cannot simplify further, such as, for example,  :math:`\dfrac{25}{12}` . Simplification, as we recall, is essentially dividing the numerator and denominator by the same number (greater than unity). Thus, a fraction  :math:`\___dfrac{m}{n}`  is reducible if we cannot find a number that divides both  :math:`m`  and  :math:`n` . In other words, a fraction is inverse if the maximum common divisor of  :math:`m`  and  :math:`n`  is 1. With this in mind, we define the set  :math:`\mathbb{Q}`  of exponents to be the set:
+	
+	.. math:: \mathbb{Q}=\left\{\frac{m}{n}:m\in\mathbb{Z},\n\in\mathbb{N},\mu\kappa\delta(m,n)=1\right\}.
+	
+	Thus, we have included only reduced fractions within  :math:`\mathbb{Q}` , without taking the "duplicates".
+	
+	The numerosity of expressions
+	-----------------------------
+	
+	Can we write the verbs as a list, like the physics ones? In other words, can we talk about the first, second, third, and so on.
+	
+	First, let's note that we can only deal with the positive verbs, since every negative verb is the opposite of a positive verb, so if we can write the positive verbs as a list, we can write the negative ones as well. We put 0 in one of the two lists and we're done: the verbs will be countable because they will be the union of two countable sets. So, from now on, we'll only be concerned with positive expressions.
+	
+	So let's give it a try. We will take 0 as the first explicit number. The second explicit number could be, for example, 1. Then, we could take 2 as the third explicit number and thus get all the natural numbers. But then, where would we put the genuine fractions (those that do not have a denominator of 1)? Our list is infinite, that is, it has no end, so we cannot say that we will add the fractions at the end.
+	
+	And this is where the idea comes in: why not do the same trick with the integers? That is, let's set  :math:`A_2`  to:
+	
+	.. math::  A_2=\left\{\frac{1}{2},\frac{2}{2},\frac{3}{2},\ldots\right\}.
+	
+	Then,  :math:`\mathbb{N},A_2`  are countable, so their union,  :math:`\mathbb{N}\cup A_2`  will also be countable. Thus, we have shown that the set of physics, together with the fractions with denominator 2, is countable. Analogously, we define the set  :math:`A_3` :
+	
+	.. math::  A_3=\left\{\frac{1}{3},\frac{2}{3},\ldots\right\},
+	
+	which contains all fractions with denominator 3 and is, obviously, countable. Thus, and the set:
+	
+	.. math:: \mathbb{N}\cup A_2\cup A_3,
+	
+	containing the natural and fractions with denominators 2 or 3 is countable. Analogously, we define for each  :math:`k=2,3,\ldots`  the set:
+	
+	.. math::  A_k=\left\{\frac{1}{k},\frac{2}{k},\ldots\right\},
+	
+	containing all fractions with denominator equal to  :math:`k` . As before, all  :math:`A_k`  are countable, hence the set:
+	
+	.. math:: B_n=\mathbb{N}\cup A_2\cup A_3\cup\ldots\cup A_n,
+	
+	is numerable, for any  :math:`n=2,3,\ldots` . Let us observe that, however large  :math:`n`  we choose, the set  :math:`B_n`  contains "many" fractions, but not all! For example, if  :math:`n=100` , then the set  :math:`B_{100}`  does not contain the fraction $latex{1}{101}$. In general, for any  :math:`n` , the set  :math:`B_n`  defined above does not contain the fraction  :math:`\dfrac{1}{n+1}`  (can you explain why?). So, none of  :math:`B_n`  is equal to the set of positive expressions, let's denote it by  :math:`\mathbb{Q}^+` , so we still haven't achieved anything.
+	
+	At this point, we would very much like, since all  :math:`A_k`  are countable and the set of physics,  :math:`\mathbb{N}` , is countable, to say that the set:
+	
+	.. math:: B_{{infty}=\mathbb{N}\cup A_2\cup A_3\cup\ldots,
+	
+	is countable, since  :math:`B_{\infty}`  contains exactly all positive explicit numbers. However, here we are not dealing with the union of two or three or, in general, finite in number numerosity sets (in which case we would be covered), but with infinite in number sets (the  :math:`A_k` , for  :math:`k=2,3,\ldots` ), so we are not guaranteed that we can somehow "stitch" infinite in number lists and get a new list. Therefore, our effort falls on deaf ears.
+	
+	(Lamentation)
+	
+	And here comes a historical figure in mathematics, `Georg Cantor  <https://en.wikipedia.org/wiki/Georg_Cantor>`__, to give us his insights. Cantor's contribution to our problem is that he provided an elegant and ingenious way of presenting natural numbers so that their numerosity can be seen. First, let us take two axes perpendicular to each other and put on each axis all the natural numbers as shown in the figure below:
+	
+	.. figure:: https://aftermaths.gr/_static/images/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png
+	   :alt: The two axes.
+	   :figclass: wp-image-970
+	
+	   The two axes.
+	
+	Next, we plot all points that have natural numbers as coordinates (e.g. points  :math:`A(1,4)`  and  :math:`B(2,1)` , but not  :math:`C(4,1/12)` ), as shown in the figure below:
+	
+	.. figure:: https://aftermaths.gr/_static/images/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png
+	   :alt: Cantor's "grid".
+	   :figclass: wp-image-971
+	
+	   Cantor's "grid".
+	
+	He then suggests that we imagine each number on the vertical axis as a denominator and each number on the horizontal axis as a numerator. Thus, each point corresponds to an exactly positive explicit number, as shown below:
+	
+	.. figure:: https://aftermaths.gr/_static/images/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png
+	   :alt: Fractions as a grid.
+	   :figclass: wp-image-973
+	
+	   Fractions as a grid.
+	
+	Here we notice that the first line shows the natural numbers, the second line shows the fractions with denominator 2, the third line shows the fractions with denominator 3, and so on, which is more or less similar to what we did before. But here comes the idea we were missing. Let's imagine that we are standing at the point  :math:`A(1,1)` , which corresponds to the number 1. We start and move as shown in the following figure:
+	
+	.. figure:: https://aftermaths.gr/_static/images/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png
+	   :alt: Cantor's walk.
+	   :figclass: wp-image-975
+	
+	   Cantor's walk.
+	
+	So, the first number in our list is 1, the second is 2, the third is 1/2, the fourth is 1/3, the fifth is 1, the sixth is 3, and so on.Notice that some numbers appear two and three or more times, but that doesn't bother us, as we have said. What matters is that we managed to write all the positive explicit numbers in a list, so the set of explicit numbers,  :math:`\mathbb{Q}` , is countable.
+	
+	Before closing this section on the numerosity of verbs, consider the following. If someone asked us on the street which numbers seem to be more numerous, the natural or the explicit, then, which are we more likely to answer? Probably the explicit ones, given that the naturals are all contained in the explicit ones (in fact, in the figure above, the naturals are only the first line). However, since we have shown that both sets are countable (and infinite), it follows that they also have the same number of elements, since, just as we talk about the first, second, and so on natural (number), we can now talk about the first, second, and so on explicit numbers.
+	
+	The density of explicit
+	-----------------------
+	
+	If we try to place all the natural numbers on the line of real numbers, then we will not have much difficulty, as we just have to decide where to place our unit (1) and then proceed in a steady step by "planting" all the other numbers, as shown below:
+	
+	.. figure:: https://aftermaths.gr/_static/images/uploads/2019/07/ezgif.com-crop2-1.gif
+	   :alt: Planting physics (numbers).
+	   :figclass: wp-image-984
+	
+	   Planting physics (numbers).
+	
+	Now, if we want to put all the (positive) verbs on the axis, how do we work? One way is to follow Cantor's steps, but we'll get the soul out of it, so we can, quite simply, put all the natural numbers first, then all the explicit numbers with a denominator of two, then all the explicit numbers with a denominator of three, and so on, as shown in the figure below:
+	
+	.. figure:: https://aftermaths.gr/_static/images/uploads/2019/07/ezgif.com-crop3.gif
+	   :alt: Planting sayings.
+	   :figclass: wp-image-986
+	
+	   Planting sayings.
+	
+	We note that there is a substantial difference between natural and explicit numbers with respect to how they are distributed on the line of real numbers. The natural numbers, as can be easily seen, are at least one unit apart from each other, whereas this is not the case for the explicit ones, since, as we add explicit ones onto the line, they seem to "densify" and, almost, cover the line of real numbers. Indeed, we will prove the following property for the explicit numbers:
+	
+	   If  :math:`x,y`  are two real numbers with  :math:`x<y`  then there is at least one explicit number  :math:`q\in\mathbb{Q}`  such that:
+	
+	   .. math:: x<q<y.
+	
+	That is, we will prove that between any two real numbers there is (at least) one explicit number, which expresses the sense that the above figure gives us (we call this property of explicit numbers *density*).
+	
+	For our proof we will need an important principle, the notorious *Archimedes-Eudoxus Principle* (more commonly referred to as the *Archimedes Principle* but Eudoxus uses it in many of his works in a similar form to the one we will formulate - and discuss in another post on the method of exhaustion). This principle tells us something particularly simple: if  :math:`a,b`  are two real numbers with  :math:`a>0` , then, we can find a natural number  :math:`n\in\mathbb{N}`  such that:
+	
+	.. math:: na>b.
+	
+	In other words, no matter how small  :math:`a`  may be compared to  :math:`b` , we can, if we multiply it by a large enough natural number, make it so large that it exceeds  :math:`b`  (this, in practice, is equivalent to saying that there is no natural number that is larger than all the others).
+	
+	We are now going to show that expressions are dense in the real numbers. First we will show something a little simpler: if  :math:`x,y`  are two real numbers with  :math:`x<y`  and  :math:`y-x>1` , then there exists some integer  :math:`n\in\mathbb{Z}`  such that:
+	
+	.. math:: x<n<y.
+	
+	That is, if two numbers are more than one unit apart, then an integer will "fall" between them. This is relatively simple and intuitively obvious to prove:
+	
+	-  If  :math:`y`  is an integer, then  :math:`y-1`  will also be an integer, and indeed:
+	
+	.. math:: y-x>1\Leftrightarrow y-1>x,
+	
+	therefore, by choosing  :math:`n=y-1` , it follows that  :math:`x<n<y` .
+	
+	-  If  :math:`y`  is not an integer, then we take  :math:`n`  to be the integer part of  :math:`y` , i.e.  :math:`y` , without its decimal places. Since we "trimmed"  :math:`y`  of its decimal digits, i.e., something less than 1, it follows that:
+	
+	.. math:: n>y-1\Rightarrow x<n<y.
+	
+	Therefore, in each case, we can find an integer between two real numbers that are more than one unit apart.
+	
+	Let us now take two arbitrary real numbers  :math:`x<y` . Since we do not know that  :math:`x,y`  are more than one unit apart, we cannot say with certainty that there is an integer (hence an explicit one) between them. However, we can "zoom in" enough to make it appear that  :math:`x,y`  are more than one unit apart. Explanation. We observe that  :math:`y-x>0`  so, by the Archimedean-Eudox principle, for  :math:`a=y-x`  and  :math:`b=1`  there is some natural number  :math:`n\in\mathbb{N}`  such that:
+	
+	.. math:: n(y-x)>1\Leftrightarrow ny-nx>1.
+	
+	This means that the numbers  :math:`nx`  and  :math:`ny`  are more than one unit apart, so there is an integer  :math:`m\in\mathbb{Z}`  such that:
+	
+	.. math:: nx<m<ny.
+	
+	Dividing by members with  :math:`n`  we have:
+	
+	.. math:: x<{dfrac{m}{n}<y,
+	
+	and since  :math:`m,n`  are integers,  :math:`\dfrac{m}{n}`  is explicit, so we have found an explicit between  :math:`x`  and  :math:`y` , as we had predicted.
+	
+	Intuitively, what we did by multiplying by  :math:`n`  was to change the "unit of measurement" so that, with the new unit,  :math:`x,y`  are more than one unit apart.
+	
+	Another way to understand this is this: if  :math:`x\in\mathbb{R}`  is a real number, then we can find an explicit number as close to it as we want. Indeed, how close do we want? Shall we say  :math:`10^{-100}` ? Then, between the numbers  :math:`x`  and  :math:`x+10^{-100}`  we can find an explicit  :math:`q\in\mathbb{Q}` , so:
+	
+	.. math:: x<q<x+10^{-100}\Rightarrow \|q-x|<10^{-100},
+	
+	which was the point.
+	
+	Let us now see what we have achieved. On the one hand, we have shown that we can write the verbs in a numbered list, i.e. we can say that this verb is the "first", that that is the "second", and so on. On the other hand, if we take a verb, for example 4, then we have proved that there is no "immediate rightmost" verb (and no "immediate leftmost", of course). Indeed, if we suppose that the predicate  :math:`q\in\mathbb{Q}`  is the immediately rightmost predicate of 4, i.e., that  :math:`4<q`  and there is no other predicate between them, then we end up with an absurdity, because, as we have just shown, there is a predicate between any two real numbers, hence between 4 and  :math:`q` . In short, although we can list the explicit ones in a list, like the natural ones, their "distribution" on the number line is completely different.
+	
+	Put another way, if we ignore the order of the numbers (2 is before three, 5 before 6, etc.) and their spacing, we can "uproot" the natural numbers from their traditional positions, put them in a bag and replant them, the same ones, without omitting or adding any, in other positions in such a way that between every two real numbers there is a natural one.
+	
+	Are there any sets that are not countable?
+	==========================================
+	
+	Because we here are not politicians of the bad times, we do not forget our promises. We said we would answer the above question and we will. Well, we have and we say: all finite sets are countable (check), natural (numbers) are countable (check), integers are countable (check), expressions are countable (check), the union of two countable sets is countable (check), the union of *infinitely many* countable sets,  :math:`A_1,A_2,\ldots` , is countable (check, but notice that we got infinite sets, but enough to be able to number them, i.e. to make a list of them -  :math:`A_1,A_2,\ldots` ). For the latter, the proof is similar to this walk that Cantor did, but we won't write it for brevity (try it yourself if you want). It's easy to say that there's nothing left that isn't numberable, we've got them all. Here, however, Cantor comes again to give us an apostolic answer: Real numbers are not countable! (Originally, this post was titled "Cantor is having fun with us", but it was cut from the editorial).
+	
+	And how do we show this, Mr Cantor? First of all, we will make our lives a little easier. Instead of showing that  :math:`\mathbb{R}`  is not countable, we'll show that  :math:`(0,1)`  is not countable, which is good enough for our work (if  :math:`(0,1)`  is not countable, then  :math:`\mathbb{R}`  cannot be countable either, since, if it were, every subset of it would have to be countable). Also, from now on, we will say that a set is *supernumerary* if it is not countable. Therefore, we conclude that all supernumerary sets are *infinite* (since every finite set is countable).
+	
+	Only with two digits...
+	-----------------------
+	
+	Before we go any further, it will be useful to talk a little bit about the awesome and terrible binary system. As we know from a fairly early age, with the ten digits, 0,1,2,3,4,5,6,7,8,9, we can write any number we want, for example 27. But do we need so many digits, one might say? No, is the answer. It only takes two digits, 0 and 1, to write all the numbers we can write with the ten "traditional" digits.
+	
+	First, let's see how to write an integer number in the binary system, e.g. 27.
+	
+	The first step is to divide our number by 2, with quotient and remainder, so we get:
+	
+	.. math:: 27=13\times2+1.
+	
+	Then take the quotient, 13, and divide it by 2.
+	
+	.. math:: 13=6\times2+1.
+	
+	Repeat the above until we find a quotient equal to 0:
+	
+	.. math:: \begin{array}{rcl}27&=&13\times2+1,\13&=&6\times2+1,\6&=&3\times2+0,\3&=&1\times2+1,\1&=&\boxed{0}\times2+1.\end{array}
+	
+	Now, we read the rest from the bottom up and what we find is the writing of 27 in binary, that is 11011.
+	
+	But what happens when we want to write in binary a decimal number in  :math:`(0,1)` ? Let's take 0.625 for example. We start by doubling the given number:
+	
+	.. math:: 2\times0.625=1.25=1+0.25.
+	
+	Then we take the decimal part of the product, i.e. 0.25, and repeat until we find a product that is an integer. In our case:
+	
+	.. math:: \begin{array}{rcl}2\times0.625&=&1+0.25,\2\times0.25&=&0+0.5,\2\times0.5&=&1+\boxed{0}.\end{array}
+	
+	Here we stop and read the whole parts from top to bottom (101). So 0.625 in binary is written 0.101.
+	
+	When dealing with decimal numbers, the number of binary digits we will find may be infinite. Indeed, let's take the number 0.3. Following the above procedure, we have:
+	
+	.. math:: \begin{array}{rcl}2\times0.3&=&0+\boxed{0.6},\2\times0.6&=&1+0.2,\2\times0.2&=&0+0.4,\2\times0.4&=&0+0.8,\2\times0.8&=&1+\boxed{0.6}.\end{array}
+	
+	And here we notice that we ended up with the same decimal place (0.6) as we had at the beginning, so from now on the same digits will be repeated. So, 0.3 in binary is written:
+	
+	.. math:: 0.010010100101001\ldots=0.\overline{01001}.
+	
+	Therefore, every number in  :math:`(0,1)`  can be written as a (possibly infinite) sequence (i.e. a list) of 0 and 1. That is, if  :math:`x\in(0,1)`  is a real number in  :math:`(0,1)`  then:
+	
+	.. math:: x=0.a_1a_2a_3\ldots,
+	
+	where  :math:`a_1,a_2,a_3\ldots`  are either 0 or 1. For example, if  :math:`x=0.625` , then:
+	
+	.. math:: x=0.1010000\ldots,
+	
+	i.e.  :math:`a_1=1,a_2=0,a_3=1`  and  :math:`a_k=0`  for each  :math:`k=4,5,\ldots` .
+	
+	In the thick of it...
+	---------------------
+	
+	Now let us show that  :math:`(0,1)`  is not countable. For this purpose, let us assume, for the sake of argument, that  :math:`(0,1)`  is countable. Therefore, we can write its elements in a list, i.e. we can say that:
+	
+	.. math:: (0,1)=\{x_1,x_2,x_3,\ldots\}.
+	
+	Each of its elements will be written as a sequence of 0 and 1. Ignoring the integer part, which is always 0, and writing only the decimals (what is to the right of the subtraction), this list has the following form:
+	
+	.. math:: \begin{array}{c|cccccc}x_1 & 0 & 1 & 1 & 1 & 0 & \ldots\x_2 & 0 & 1 & 0 & 0 & 0 & \ldots\x_3 & 1 & 1 & 1 & 0 & 1 & 0 & \ldots\x_4 & 0 & 1 & 1 & 1 & 1 & \ldots\x_5 & 1 & 1 & 0 & 0 & 1 & 0 & \ldots\\vdots & \vdots & \vdots & \vdots & \vdots &\vdots &\vdots & \ddots\end{array}
+	
+	Obviously it is not necessary to display these numbers, but it will look something like this. So far we haven't done much, we've just gathered the numbers of  :math:`(0,1)`  into one place. This is where Cantor's brilliant idea comes in again. Let's go and look at the main diagonal of the above "table":
+	
+	.. math:: \begin{array}{c|cccccc}x_1 & \boxed{0} & 1 & 1 & 1 & 1 & 0 & \ldots\x_2 & 0 & \boxed{1} & 0 & 0 & 0 & \ldots\\x_3 & 1 & 1 & \boxed{0} & 1 & 0 & \ldots\x_4 & 0 & 1 & 1 & \boxed{1} & 1 & \ldots\x_5 & 1 & 1 & 0 & 0 & 1 & \boxed{0} & \ldots\\vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \vdots & \ddots\end{array}
+	
+	We notice that the digits found there form a sequence of 0 and 1, in this case  :math:`01010\ldots` . As genuine reactive formulas, we go and consider the "opposite" sequence  :math:`10101\ldots` , which is the one shown on the diagonal, but with all 0's having become 1's and all 1's having become 0's. Now notice that, in the binary system, this sequence corresponds to some number  :math:`x_0` . To be precise, in our example,  :math:`x_0`  will be o:
+	
+	.. math:: x_0=0.10101\ldots,
+	
+	as we saw above. Therefore,  :math:`x_0`  is a number in the interval  :math:`(0,1)` , so it should appear in our initial list. That is,  :math:`x_0`  must be equal to  :math:`x_5`  or  :math:`x_7`  or  :math:`x_{1453}`  or someone, whatever. Suppose  :math:`x_0=x_5` . Then these two numbers must have the same digits in the binary system. However, in the fifth position of  :math:`x_5`  we have 0, while in the fifth position of  :math:`x_0`  we have 1. Similarly, if we assume that  :math:`x_0=x_9` , then in the ninth position  :math:`x_0`  will have exactly the opposite digit from the one in the ninth position of  :math:`x_9` , so  :math:`x_0`  will not be  :math:`x_9` .
+	
+	In general,  :math:`x_0` , by the way we "constructed" it, differs from all  :math:`x_k`  in the  :math:`k-th position, so ` latex x_0\not\in\in(0,1)$, inappropriate, because  :math:`x_0`  is a number in  :math:`(0,1)` .
+	
+	So, we have just shown that  :math:`(0,1)`  **is not** **countable!** From this we conclude that real numbers are also supernumerary.
+	
+	The latter has, in fact, another interesting conclusion: since explicit numbers are countable while real numbers are not, then not all real numbers can be explicit, so **there are numbers that are not explicit!** Let us denote the set of these numbers, we will call them irrational, by  :math:`\mathbb{A}` . Then, obviously it holds that:
+	
+	.. math:: \mathbb{Q}\cup\mathbb{A}=\mathbb{R}.
+	
+	Thus, we conclude that the negatives are also *supernumerary!* Indeed, if they were countable, then, since the predicates are also countable,  :math:`\mathbb{R}`  should also be countable as a union of countables, incongruous. That is, not only are not all real numbers explicit, but the explicit ones are also too "few" within the reals (remember, however, that they are also very dense, i.e. there is an explicit one between every two reals).
+	
+	Epilogue
+	========
+	
+	What have we seen so far? That the explicit and the physical have the same number, that the explicit are practically everywhere on the number line, that the real numbers are "incomparably" more than the explicit, and that there are numbers that are not explicit, the irrational, as they are called, that are also "incomparably" more than the explicit. As you can see, there is more to come, so expect more to come...
+	
+	And because it's summer, we close musically, with some `Hugh Laurie  <https://en.wikipedia.org/wiki/Hugh_Laurie>`__:
+	
+	
+	
+	
+	   .. youtube:: AzEBH6DZJVk 
+	
+	
+	
+	The central image is the *(small)* tableau\ *of the* `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *\ plane*.

@@ -1,0 +1,26 @@
+Οι λύσεις του προηγούμενου διαγωνίσματος (Γ' ΕΠΑΛ)
+##################################################
+
+.. meta::
+	:date: 2021-05-14 09:51
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, στατιστική, συναρτήσεις, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διαγώνισμα, επανάληψη, λύσεις, μαθηματικά
+	:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%ce%b4%ce%b9%ce%b1%ce%b3%cf%89%ce%bd%ce%af%cf%83%ce%bc-10
+	:status: published
+	:attachments: _static/images/uploads/2021/05/pierre-auguste_renoir_-_torse_effet_de_soleil.jpg
+
+.. figure:: /_static/images/uploads/2021/05/pierre-auguste_renoir_-_torse_effet_de_soleil.jpg
+	:alt: Ο πίνακας *Γυμνό στον ήλιο* του `Pierre-Augusute Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Γυμνό στον ήλιο* του `Pierre-Augusute Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+
+
+Τις λύσεις του `προηγούμενου διαγωνίσματος  <docs/Διδακτικό-Υλικό/Γ-ΕΠΑΛ/Επανάληψη/επαναληπτικό-διαγώνισμα-5-γ-επαλ.rst>`__ στα μαθηματικά γενικής παιδείας της Γ' ΕΠΑΛ μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1cYnVc4jS5JB57kGNMB150anONYvmmSXo/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir
