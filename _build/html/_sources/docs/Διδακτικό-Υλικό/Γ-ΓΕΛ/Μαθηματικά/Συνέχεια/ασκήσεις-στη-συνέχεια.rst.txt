@@ -1,0 +1,28 @@
+Ασκήσεις στη συνέχεια
+#####################
+
+.. meta::
+	:date: 2018-12-03 23:54
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, συνέχεια, συναρτήσεις, Γ' λυκείου, ασκήσεις
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%cf%83%cf%85%ce%bd%ce%ad%cf%87%ce%b5%ce%b9%ce%b1
+	:status: published
+	:attachments: _static/images/uploads/2018/12/still-life-with-onions-antoine-vollon-78b4ff27.jpg
+
+.. figure:: /_static/images/uploads/2018/12/still-life-with-onions-antoine-vollon-78b4ff27.jpg
+	:alt: Ο πίνακας *Νεκρή φύση με κρεμμύδια* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Νεκρή φύση με κρεμμύδια* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+
+
+Σε αυτό το φυλλάδιο περιέχονται λίγες ασκήσεις σε σχέση με τη συνέχεια συναρτήσεων.
+
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1Fj3ZLc6EZCDS_lE8068F-XEC6BLu2VnN/view?usp=sharing>`__ και στη σελίδα `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+.. youtube:: dKkZmgg3X_c 

@@ -1,0 +1,33 @@
+Με φόρα από το δημοτικό...
+##########################
+
+.. meta::
+	:date: 2020-07-06 15:39
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, προβλήματα, Α' Γυμνασίου, ασκήσεις, δημοτικό, επανάληψη
+	:slug: %ce%bc%ce%b5-%cf%86%cf%8c%cf%81%ce%b1-%ce%b1%cf%80%cf%8c-%cf%84%ce%bf-%ce%b4%ce%b7%ce%bc%ce%bf%cf%84%ce%b9%ce%ba%cf%8c
+	:status: published
+	:attachments: _static/images/uploads/2020/07/midsummer_eve_bonfire_on_skagens_beach_-_p.s._krc3b8yer_-_google_cultural_institute.jpg
+
+.. figure:: /_static/images/uploads/2020/07/midsummer_eve_bonfire_on_skagens_beach_-_p.s._krc3b8yer_-_google_cultural_institute.jpg
+	:alt: Ο πίνακας *Πυρσός στην παραλία του Skagen μία νύχτα του καλοκαιριού* του `Peder Severin Krøyer  <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+	:align: center
+
+	Ο πίνακας *Πυρσός στην παραλία του Skagen μία νύχτα του καλοκαιριού* του `Peder Severin Krøyer  <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+
+
+Οι ασκήσεις αυτές - που μπορείτε να βρείτε `εδώ  <https://drive.google.com/file/d/1SlcgZrieTCoTqHdNGr6vgyJhjqVv9nmO/view?usp=sharing>`__ καθώς και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__ - είναι σχεδιασμένες με αφορμή την προετοιμασία και τελική επανάληψη των προηγούμενων μηνών για τις εξετάσεις των πρότυπων γυμνασίων της χώρας. Συνεπώς, αρκετά από αυτά το προβλήματα είναι σχετικά αυξημένης δυσκολίας, χωρίς, ωστόσο, να είναι υπερβολικά δύσκολα.
+
+Πέρα, όμως, από τον αρχικό τους σκοπό, που ήταν η προετοιμασία των παιδιών για τις εισαγωγικές εξετάσεις στα πρότυπα, οι παρακάτω ασκήσεις στοχεύουν και στο να ακονίσουν τα παιδιά που μόλις έχουν τελειώσει το δημοτικό τη σκέψη τους και τις μαθηματικές τους δεξιότητες εν όψει του καλοκαιριού και του γυμνασίου (γιατί, καλοκαίρι χωρίς μαθηματικά δε γίνεται!).
+
+Επομένως, καλή διασκέδαση, καλό καλοκαίρι και, για να μην ξεχνιόμαστε, καλό διάβασμα!
+
+
+
+
+
+
+   .. youtube:: TuNZbcJB26g 
+
+

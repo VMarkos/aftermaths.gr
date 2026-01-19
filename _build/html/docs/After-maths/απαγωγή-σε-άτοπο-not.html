@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2021-11-07 18:21" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Μαθηματικά" name="category"/>
+<meta content="featured, Α' Λυκείου, ΕΠΑΛ, αποδείξεις" name="tags"/>
+<meta content="%ce%b1%cf%80%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%ce%b5-%ce%ac%cf%84%ce%bf%cf%80%ce%bf-not" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2021/11/af-klint-hilma_svanen-nr-8_1915_modernamuseet_press.jpg" name="attachments"/>
+<title>Απαγωγή σε Άτοπο #not | aftermaths</title>
+<meta content="Απαγωγή σε Άτοπο #not | aftermaths" property="og:title"/>
+<meta content="Απαγωγή σε Άτοπο #not | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html" rel="next" title="Η δευτεροβάθμια εξίσωση"/>
+<link href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html" rel="prev" title="Αδύνατο vs Απίθανο - Μέρος Δ”"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Απαγωγή σε Άτοπο #not</span>
+</nav>
+<div id="content" role="main">
+<section id="not">
+<h1>Απαγωγή σε Άτοπο #not<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#not"><span>#</span></a></h1>
+<figure class="align-center" id="id18">
+<img alt="Ο πίνακας *Ο κύκνος, Νο. 8* της `Hilma af Klint  &lt;https://en.wikipedia.org/wiki/Hilma_af_Klint&gt;`__." src="_static/images/uploads/2021/11/af-klint-hilma_svanen-nr-8_1915_modernamuseet_press.jpg"/>
+<figcaption>
+<p><span class="caption-text">Ο πίνακας <em>Ο κύκνος, Νο. 8</em> της <a class="reference external" href="https://en.wikipedia.org/wiki/Hilma_af_Klint">Hilma af Klint</a>.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id18"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Φτάνουμε στην Α” Λυκείου - Γενικού είτε ΕΠΑΛ, δεν έχει τόση σημασία - και μέσα στα όσα λέμε για αποδείξεις συνήθως βρίσκεται και μία αγαπημένη απόδειξη περί της αρρητότητας της τετραγωνικής ρίζας του 2. Χρόνια τώρα - εντάξει, όχι και πολλά - μία ερώτηση στριφογυρίζει στο μυαλό μου:</p>
+<p><em>Γιατί τη διδάσκουμε αυτήν την απόδειξη;</em></p>
+<p>Σαφώς, η παραπάνω απόδειξη επιτελεί δύο στόχους στην πορεία της διδακτές ύλης:</p>
+<ul class="simple">
+<li><p>αφενός, αποδεικνύουμε ότι υπάρχουν πράγματι άρρητοι αριθμοί και ότι δεν τους βγάλαμε από το καπέλο - έστω και στο χαλαρό πλαίσιο του σχολείου,</p></li>
+<li><p>αφετέρου, είναι μία απόδειξη που εισάγει τα παιδιά στην αποδεικτική τεχνική της απαγωγής με άτοπο.</p></li>
+</ul>
+<section id="id1">
+<h2>Η συνήθης απόδειξη<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id1'"><span>#</span></a></h2>
+<p>Πριν πιάσουμε την κουβέντα για την απόδειξη, ας θυμηθούμε στα γρήγορα την ίδια την απόδειξη - όπως συνήθως παρουσιάζεται στην τάξη και στα σχολικά βιβλία.</p>
+<p>Έστω, προς άτοπο, ότι ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  είναι ρητός και έστω, για την ακρίβεια, ότι  <span class="math notranslate nohighlight">\(m,n\)</span>  είναι δύο φυσικοί αριθμοί έτσι ώστε:</p>
+<div class="math notranslate nohighlight">
+\[\sqrt{2}=\dfrac{m}{n}.\]</div>
+<p>Υποθέτουμε, επιπλέον, ότι το κλάσμα είναι ανάγωγο, δηλαδή ότι ο μέγιστος κοινός διαιρέτης του  <span class="math notranslate nohighlight">\(m\)</span>  και του  <span class="math notranslate nohighlight">\(n\)</span>  είναι 1. Τώρα, δεδομένου ότι  <span class="math notranslate nohighlight">\(\sqrt{2}^2=2\)</span>  έπεται ότι:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{m^2}{n^2}=2\Rightarrow m^2=2n^2.\]</div>
+<p>Επομένως, ο  <span class="math notranslate nohighlight">\(m^2\)</span>  είναι άρτιος, άρα το ίδιο είναι και ο  <span class="math notranslate nohighlight">\(m,\)</span>  αφού το τετράγωνο ενός περιττού είναι περιττός - και άρα ο  <span class="math notranslate nohighlight">\(m\)</span>  δεν μπορεί να είναι περιττός. Επομένως, ο  <span class="math notranslate nohighlight">\(m\)</span>  γράφεται  <span class="math notranslate nohighlight">\(m=2k\)</span>  για κάποιον φυσικό αριθμό  <span class="math notranslate nohighlight">\(k\)</span>  και άρα, αντικαθιστώντας παραπάνω, παίρνουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[(2k)^2=2n^2\Rightarrow4k^2=2n^2\Rightarrow n^2=2k^2.\]</div>
+<p>Άρα και ο  <span class="math notranslate nohighlight">\(n^2\)</span>  είναι άρτιος, άρα το ίδιο είναι και ο  <span class="math notranslate nohighlight">\(n.\)</span>  Συνεπώς, οι  <span class="math notranslate nohighlight">\(m,n\)</span>  έχουν κοινό διαιρέτη το 2 - αφού είναι κι οι δύο άρτιοι - άτοπο, καθώς έχουμε υποθέσει ότι έχουν μέγιστο κοινό διαιρέτη 1. Επομένως, ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  δεν μπορεί να γραφτεί σαν πηλίκο ακεραίων, άρα δεν είναι ρητός.</p>
+</section>
+<section id="id2">
+<span id="id3"></span><h2>Τα προβλήματα…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>Η παραπάνω απόδειξη είναι μικρή και απλή, ειδικά, αν αναλογιστούμε το πόσες αποδείξεις υπάρχουν στα μαθηματικά και το πόσο δύσκολες μπορεί να είναι. Τόσο μικρή και τόσο απλή που μπορούμε να βρούμε παραλλαγές της ακόμα και σε πολύ παλιά κείμενα μαθηματικών. Ωστόσο, την παραπάνω απόδειξη δεν την παρουσιάζουμε σε ένα μαθηματικό κοινό αλλά σε παιδιά που μόλις έχουν ξεκινήσει να φοιτούν στα ελληνικά λύκεια. Συνακόλουθα, τα μαθηματικά που αναμένουμε να έχουν δει είναι, ως επί το πλείστον, αυτά του Γυμνασίου.</p>
+<p>Έχοντας αυτό κατά νου, αρχίζουν να φανερώνονται αρκετά μελανά σημεία στην παραπάνω απόδειξη. Για αρχή, οι περισσότερες αποδείξεις που έχουν δει οι μαθητές του Γυμνασίου είναι της μορφής «αποδείξτε ότι ισχύει η παρακάτω ισότητα». Σε τέτοιες αποδείξεις, αυτό που καλούνται να κάνουν τα παιδιά είναι να εφαρμόσουν διάφορα αλγεβρικά (κυρίως) τεχνάσματα και είτε ξεκινώντας από το ένα μέλος της ισότητας, να καταλήξουν στο άλλο είτε ξεκινώντας από την ίδια την ισότητα να προχωρήσουν με ισοδυναμίες και να φτάσουν σε κάτι που ισχύει - το δεύτερο, βέβαια, αναφέρεται κυρίως σε αποδείξεις του Λυκείου και όχι τόσο του Γυμνασίου.</p>
+<p>Επομένως, το να περάσει κανείς από αμιγώς αλγεβρικές και «τεχνικές» αποδείξεις σε μία απόδειξη που παρουσιάζει μία πληθώρα ιδεών είναι από μόνο του προβληματικό, ειδικά δε όταν με αυτήν την απόδειξη αποσκοπεί κανείς να εισαγάγει τα παιδιά σε μία νέα αποδεικτική τεχνική. Μαζί με όλα αυτά, ας βάλουμε και το εξής παράδοξο: τη θεωρία αριθμών. Η παραπάνω απόδειξη κάνει πάρα πολλές επικλήσεις σε απλά αποτελέσματα της θεωρίας αριθμών - πολύ απλά, ίσως. Ωστόσο, σε ποιο σημείο της πορείας τους τα παιδιά έχουν εκτεθεί συστηματικά κι εκτεταμένα στη θεωρία αριθμών;</p>
+<p>Σε κανένα. Σε κανένα απολύτως σημείο δε συζητούνται τόσο συστηματικά οι ιδιότητες της διαιρετότητας. Πολλά, μικρά, απλά και διαισθητικά αποτελέσματα που αφορούν τη διαιρετότητα και τους ακέραιους αριθμούς απλώς δεν αναφέρονται σε κανένα σημείο της σχολικής ύλης. Γιατί, λοιπόν, σε μία απόδειξη που ήδη έχει προβληματικό ρόλο στη διδασκαλία των μαθηματικών στο Λύκειο, να έρθουμε να προσθέσουμε κι αυτό; Σαφώς και δεν έχουμε κανέναν λόγο να το κάνουμε, ακριβώς επειδή η τεχνική και η φιλοσοφία αυτής της απόδειξης είναι ασύνδετη με τα όσα έχουν δει τα παιδιά νωρίτερα στο σχολείο.</p>
+<p>Για να ξεκαθαρίσουμε κάτι, το ότι η απόδειξη η ίδια είναι ξένη προς τα όσα έχουν δει τα παιδιά από μόνο του δεν είναι αυτό που την καθιστά προβληματική - γιατί, κάθε τι νέο, είναι σε έναν βαθμό ξένο. Αυτό που την καθιστά προβληματική είναι το γεγονός ότι είναι τόσο ξένη που δεν μπορεί να τα βοηθήσει να δουν καθαρά τις δύο ιδέες που μας απασχολούν, οι οποίες, μιας και το αναφέραμε, είναι:</p>
+<ol class="arabic simple">
+<li><p>ότι ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  είναι άρρητος και,</p></li>
+<li><p>η τεχνική της απαγωγής σε άτοπο.</p></li>
+</ol>
+<p>Ειδικά σε ό,τι αφορά το δεύτερο, όταν πρέπει πρωτίστως να εστιάσει ένα παιδί στα διάφορα νέα τεχνάσματα και ιδέες που παρουσιάζονται μέσα στην απόδειξη, είναι ακόμα πιο δύσκολο να συγκεντρώσει την προσοχή του στην απαγωγή σε άτοπο, μία νέα και αρκετά απαιτητική αποδεικτική τεχνική.</p>
+<p>Αν όμως δεν κάνουμε αυτήν την απόδειξη, πρέπει με κάποιον τρόπο να παρουσιάσουμε τις δύο ιδέες που μας απασχολούν, δηλαδή την αρρητότητα του  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  και την τεχνική της απαγωγής με άτοπο. Παρακάτω θα ασχοληθούμε κυρίως με το δεύτερο, εξετάζοντας διάφορες εναλλακτικές.</p>
+</section>
+<section id="id4">
+<h2>Και πού είναι το άτοπο;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h2>
+<p>Τα παραπάνω δεν είναι ίσως τίποτα παραπάνω από σκόρπιες σκέψεις για το αν είναι τελικά ή όχι διδακτικά ωφέλιμη μία απόδειξη σαν την παραπάνω στην Α” Λυκείου. Αφήνοντας όμως για λίγο την τάξη κατά μέρους, είναι η παραπάνω απόδειξη πράγματι μία απόδειξη με απαγωγή σε άτοπο;</p>
+<section id="id5">
+<span id="id6"></span><h3>Κατασκευές…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id5'"><span>#</span></a></h3>
+<p>Ναι, θα πείτε τώρα, αφού στο τέλος λέμε «άτοπο». Ωστόσο, το ότι λέμε κάτι δε σημαίνει ότι είναι κι έτσι. Αλλά, πριν εντρυφήσουμε σε αυτές τις λεπτομέρειες, θα μας φανεί πολύ χρήσιμο να φωτίσουμε κάποιες άλλες λεπτομέρειες της μαθηματικής λογικής. Μία πολύ διάσημη αρχή της μαθηματικής λογικής είναι η περιβόητη <a class="reference external" href="https://en.wikipedia.org/wiki/Law_of_excluded_middle">Αρχή του Αποκλειόμενου Τρίτου</a> (ΑΑΤ, για συντομία). Πριν προλάβει και πάει ο νους μας σε ερωτικά τρίγωνα - ή, γενικά, πολύγωνα - και τα συναφή, να πούμε ότι η ΑΑΤ μπορεί να μοιάζει αλλά δεν είναι μία μαθηματική αλληγορία για το «Στους δύο τρίτος δε χωρεί». Ή, μπορεί και να είναι. Τέλος πάντων, όπως και να έχει, η ΑΑΤ μας λέει ότι μία μαθηματική πρόταση  <span class="math notranslate nohighlight">\(\phi\)</span>  είτε είναι αληθής είτε η άρνησή της είναι αληθής. Αυτό μπορούμε σε όρους λογικής να το διατυπώσουμε και πλήρως συμβολικά ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[\phi\lor\neg\phi,\]</div>
+<p>όπου το  <span class="math notranslate nohighlight">\(\lor\)</span>  είναι η λογική διάζευξη («ή») και το  <span class="math notranslate nohighlight">\(\neg\)</span>  η λογική άρνηση («όχι»). Από το παραπάνω, μπορούμε σχετικά εύκολα να συμπεράνουμε και το ακόλουθο:</p>
+<div class="math notranslate nohighlight">
+\[\neg\neg\phi\Leftrightarrow\phi.\]</div>
+<p>Δηλαδή, αν αρνηθούμε μία μαθηματική πρόταση  <span class="math notranslate nohighlight">\(\phi\)</span>  δύο φορές, τότε έχουμε στα χέρια μας ξανά την  <span class="math notranslate nohighlight">\(\phi.\)</span>  Πράγματι, αρχικά η  <span class="math notranslate nohighlight">\(\neg\neg\phi\)</span>  αληθεύει ακριβώς όταν δεν αληθεύει η  <span class="math notranslate nohighlight">\(\neg\phi\)</span>  ενώ από την ΑΑΤ συμπεραίνουμε άμεσα ότι όταν δεν αληθεύει η  <span class="math notranslate nohighlight">\(\neg\phi\)</span>  πρέπει να αληθεύει η  <span class="math notranslate nohighlight">\(\phi\)</span>  και άρα αν  <span class="math notranslate nohighlight">\(\neg\neg\phi\)</span>  αληθής τότε και  <span class="math notranslate nohighlight">\(\phi\)</span>  αληθής, οπότε:</p>
+<div class="math notranslate nohighlight">
+\[\neg\neg\phi\Rightarrow\phi.\]</div>
+<p>Ανάλογα, μπορούμε να αποδείξουμε και την αντίστροφη συνεπαγωγή.</p>
+<p>Μάλιστα, μπορούμε να αποδείξουμε ότι η απαλοιφή της διπλής άρνησης είναι ισοδύναμη με την ΑΑΤ, επομένως συχνά όταν αναφερόμαστε στη μία θα υπονοούμε και την άλλη. Τώρα, τα παραπάνω ίσως χαϊδεύουν τα όρια του προφανούς, αλλά δεν είναι έτσι. Διότι, η απαλοιφή της διπλής άρνησης και, ειδικότερα, αυτή η συνεπαγωγή:</p>
+<div class="math notranslate nohighlight">
+\[\neg\neg\phi\Rightarrow\phi,\]</div>
+<p>έχει αποτελέσει την αιτία πολλών μαθηματικών καυγάδων. Αρχικά, διαβάζοντας την παραπάνω συνεπαγωγή, μπορούμε να πούμε ότι μας λέει το εξής, σε απλά ελληνικά: «Αν γνωρίζουμε ότι δεν ισχύει η άρνηση της  <span class="math notranslate nohighlight">\(\phi\)</span>  τότε ισχύει η  <span class="math notranslate nohighlight">\(\phi.\)</span> » Αθώο, από μόνο του, ωστόσο δεν είναι ακριβώς έτσι. Στην παραπάνω πρόταση κάνουμε το εξής (ενδεχομένως) άλμα: θεωρούμε ότι η αδυναμία μας να στηρίξουμε με κάποιον τρόπο την πρόταση  <span class="math notranslate nohighlight">\(\neg\phi,\)</span>  η οποία εκφράζεται μέσα από τη γνώση μας για την  <span class="math notranslate nohighlight">\(\neg\neg\phi,\)</span>  σημαίνει ότι υποχρεωτικά (λόγω της ΑΑΤ) θα ισχύει η  <span class="math notranslate nohighlight">\(\phi.\)</span>  Επομένως, η ισχύς της  <span class="math notranslate nohighlight">\(\phi\)</span>  εδώ δεν προέρχεται από κάποια κατασκευαστική διαδικασία - κάποια «ευθεία» απόδειξη - από κάποια αξιώματα που έχουμε δεχθεί, αλλά από την απόδειξη, από τα ίδια αξιώματα, της  <span class="math notranslate nohighlight">\(\neg\neg\phi\)</span>  κι έπειτα από την αξιοποίηση της ΑΑΤ.</p>
+<p>Αυτή ακριβώς η μη «κατασκευασιμότητα» της αλήθειας της  <span class="math notranslate nohighlight">\(\phi\)</span>  έχει οδηγήσει σε ένα ολόκληρο ρεύμα μαθηματικών που ονομάζεται <a class="reference external" href="https://en.wikipedia.org/wiki/Intuitionism">ιντουισιονισμός</a><em>.</em> Η βασική ιδέα είναι αυτή που μόλις περιγράψαμε, ότι δηλαδή από μόνη της η γνώση της μη αλήθειας της άρνησης μίας μαθηματικής πρότασης δεν μπορεί να μας οδηγήσει στο συμπέρασμα ότι και η ίδια η πρόταση αληθεύει καθώς, κατά κάποιον τρόπο, η αλήθεια της η ίδια δεν έχει άμεσα «παρατηρηθεί» αλλά έχει προκύψει έμμεσα, από τη μη αλήθεια της άρνησής της. Επομένως, με ιντουισιονιστικά μάτια, το πρόβλημά μας βρίσκεται στην συνεπαγωγή:</p>
+<div class="math notranslate nohighlight">
+\[\neg\neg\phi\Rightarrow\phi,\]</div>
+<p>δηλαδή, ουσιαστικά, στην ΑΑΤ. Κι αυτήν ακριβώς την αρχή είναι που δε δέχονται οι άνθρωποι που ασχολούνται με τα μαθηματικά κατ” αυτόν τον τρόπο - με το παραπάνω επιχείρημα. Στην ουσία, στον ιντουισιονισμό, η έννοια της αλήθειας έχει έναν χαρακτήρα κατασκευασιμότητας και όχι απλώς «αληθοτιμής». Η ΑΑΤ λέει ότι η αλήθεια μίας πρότασης μπορεί να πάρει μονάχα δύο τιμές, ανεξάρτητα από το αν εμείς μπορούμε να έχουμε πρόσβαση σε αυτές - αν μπορούμε δηλαδή να αποδείξουμε ότι ισχύει ή όχι η πρόταση. Ο ιντουισιονισμός δεν δέχεται αυτήν την υπερβατική φύση της αλήθειας και κάνει μία άλλη παραδοχή, ουσιωδώς ασθενέστερη: αν κάτι δεν μπορούμε να αποδείξουμε ότι αληθεύει, τότε δεν ξέρουμε αν αληθεύει - αλλά ούτε και ότι δεν αληθεύει. Έτσι, η συνεπαγωγή:</p>
+<div class="math notranslate nohighlight">
+\[A\Rightarrow B,\]</div>
+<p>στα μάτια των ιντουισιονιστών έχει την εξής έννοια:</p>
+<p><a href="#id7"><span class="problematic" id="id8">*</span></a>Για κάθε απόδειξη της αλήθειας του  <span class="math notranslate nohighlight">\(A\)</span>  μπορούμε, με βάση αυτή, να κατασκευάσουμε μία απόδειξη της αλήθειας του  <span class="math notranslate nohighlight">\(B.\)</span> *</p>
+<p>Έτσι, αυτή η έννοια της αποδειξιμότητας/κατασκευασιμότητας της αλήθειας υπεισέρχεται σε κάθε αποδεικτικό συλλογισμό, δημιουργώντας μία «νέα» και ασθενέστερη πραγματικότητα από αυτήν που έχουμε συνηθίσει - ασθενέστερη, με την έννοια ότι αρκετά τυπικά αποτελέσματα που γνωρίζουμε δεν ισχύουν με μία ιντουισιονιστική ματιά.</p>
+<p>Στα δικά μας, η άρνηση αυτή της ΑΑΤ μας αναγκάζει πολλές φορές, διερευνώντας αν διάφορα αποτελέσματα μπορούν να αποδειχθούν χωρίς αυτήν, να μελετήσουμε διάφορες αποδεικτικές τεχνικές και να διακρίνουμε λεπτές διαφορές ανάμεσα σε αυτές. Με αυτά τα ιντουισιονιστικά μάτια θα προσπαθήσουμε να ξανακοιτάξουμε την παραπάνω απόδειξη και να ανακαλύψουμε ότι, τελικά, δεν είναι μία κατ” ουσίαν απόδειξη με απαγωγή σε άτοπο!</p>
+</section>
+<section id="id9">
+<span id="id10"></span><h3>Άτοπα και αντιφάσεις…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id9'"><span>#</span></a></h3>
+<p>Για να καταφέρουμε να μιλήσουμε για αποδείξεις με απαγωγή σε άτοπο, πρέπει πρώτα να τις περιγράψουμε με κάποιον αυστηρό τρόπο, χρησιμοποιώντας τη γλώσσα της μαθηματικής λογικής. Ας πάρουμε, λοιπόν, μία πρόταση  <span class="math notranslate nohighlight">\(\phi\)</span>  κι ας σκεφτούμε τι κάνουμε όταν την αποδεικνύουμε με απαγωγή σε άτοπο. Αρχικά, υποθέτουμε ότι ισχύει η άρνησή της, κι έπειτα καταλήγουμε σε μία μπούρδα - γνωστή και ως «άτοπο» στο επίσημο λεξικό των μαθηματικών. Έτσι, το γενικό σχήμα μίας τέτοιας απόδειξης είναι το εξής:</p>
+<p>Για να αποδείξουμε την  <span class="math notranslate nohighlight">\(\phi &amp;fg=362e77&amp;bg=d9d9d9\)</span>  υποθέτουμε την  <span class="math notranslate nohighlight">\(\neg\phi&amp;fg=362e77&amp;bg=d9d9d9\)</span>  και έπειτα από πεπερασμένο αριθμό συλλογισμών καταλήγουμε σε μία αντίφαση.</p>
+<p>Ως αντίφαση στα παραπάνω εννοούμε κάτι που είναι πάντοτε λογικά ψευδές. Εδώ να προσέξουμε, πάρα πολύ, ότι για να στέκουν τα παραπάνω χρειαζόμαστε την ΑΑΤ. Πράγματι, αυτό που αποδεικνύουμε μέσω της παραπάνω διαδικασίας είναι στην ουσία η συνεπαγωγή:</p>
+<div class="math notranslate nohighlight">
+\[\neg\phi\Rightarrow\bot,\]</div>
+<p>όπου με  <span class="math notranslate nohighlight">\(\bot\)</span>  συμβολίζουμε κάτι που είναι αντιφατικό - πάντοτε ψευδές. Τώρα, η παραπάνω συνεπαγωγή είναι απλά ένας fancy τρόπος για να πούμε ότι το  <span class="math notranslate nohighlight">\(\neg\phi\)</span>  δεν αληθεύει, δηλαδή ότι  <span class="math notranslate nohighlight">\(\neg\neg\phi\)</span>  - καθώς από αυτό έπεται κάτι καθολικά ψευδές. Επομένως, το αποδεικτικό σχήμα της απαγωγής σε άτοπο βασίζεται ουσιαστικά στην ΑΑΤ, καθώς για να καταλήξουμε από την  <span class="math notranslate nohighlight">\(\neg\neg\phi\)</span>  στην  <span class="math notranslate nohighlight">\(\phi,\)</span>  τη χρειαζόμαστε, όπως είδαμε παραπάνω. Επομένως, πετώντας την ΑΑΤ πετάμε και όλες τις αποδείξεις με απαγωγή σε άτοπο.</p>
+<p>Δηλαδή, θα αναρωτηθεί κανείς, δεν μπορούν οι ιντουισιονιστές να αποδείξουν ότι ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  είναι άρρητος; Κι αν ναι, πώς, αφού δεν μπορούν να κάνουν απαγωγή σε άτοπο; Εδώ έρχεται ένα άλλο αποδεικτικό σχήμα που είναι πολύ κοντινό με την απαγωγή σε άτοπο, αλλά, στη ρίζα του, είναι διαφορετικό: η <em>απόδειξη της άρνησης</em> (proof of negation, αγγλιστί). Το αποδεικτικό σχήμα της απόδειξης της άρνησης είναι το εξής:</p>
+<p>Για να αποδείξουμε την  <span class="math notranslate nohighlight">\(\neg\phi&amp;fg=362e77&amp;bg=d9d9d9\)</span>  υποθέτουμε την  <span class="math notranslate nohighlight">\(\phi&amp;fg=362e77&amp;bg=d9d9d9\)</span>  και έπειτα από πεπερασμένο αριθμό συλλογισμών καταλήγουμε σε μία αντίφαση.</p>
+<p>Και τώρα θα έρθει μία εύλογη ερώτηση: Γιατί αυτό δεν είναι απαγωγή σε άτοπο; Λοιπόν, ίσως φαίνεται χαζό το ότι κάνουμε την παραπάνω διάκριση, καθώς και στις δύο περιπτώσεις υποθέτουμε το λογικά αντίθετο αυτού που θέλουμε και, τελικά, καταλήγουμε σε μία αντίφαση. Ωστόσο, τα δύο παραπάνω αποδεικτικά σχήματα είναι αρκετά διαφορετικά καθώς, όπως θα δούμε, το σχήμα της απόδειξης της άρνησης δεν απαιτεί την ΑΑΤ σε καμία της μορφή. Πράγματι, το να υποθέσουμε την  <span class="math notranslate nohighlight">\(\phi\)</span>  και να αποδείξουμε μία μπούρδα ισοδυναμεί με το να αποδείξουμε τη συνεπαγωγή:</p>
+<div class="math notranslate nohighlight">
+\[\phi\Rightarrow\bot.\]</div>
+<p>Όπως, όμως, είπαμε και παραπάνω, η  <span class="math notranslate nohighlight">\(\phi\Rightarrow\bot\)</span>  δεν είναι άλλο παρά η  <span class="math notranslate nohighlight">\(\neg\phi.\)</span>  Επειδή ακριβώς εδώ έχουμε μία και μόνο άρνηση - και όχι δύο - σε κανένα σημείο δεν εμπλέκεται η έννοια της απόδειξης του  <span class="math notranslate nohighlight">\(\phi\)</span>  από την  <span class="math notranslate nohighlight">\(\neg\neg\phi\)</span>  και άρα ούτε και η ΑΑΤ. Συνεπώς, αν και μοιάζουν πανομοιότυπες, η απόδειξη με άρνηση είναι ουσιωδώς ασθενέστερη της απόδειξης με απαγωγή σε άτοπο καθώς η δεύτερη απαιτεί να δεχθούμε και την ΑΑΤ ενώ η πρώτη είναι φιλική προς τον ιντουισιονισμό.</p>
+<p>Αυτό έχει ως αποτέλεσμα η απόδειξη της αρρητότητας του  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  να μην είναι στα μάτια της λογικής μία απόδειξη με απαγωγή σε άτοπο, καθώς, τελικά, δε χρησιμοποιούμε πουθενά την ΑΑΤ. Πράγματι, αν:</p>
+<div class="math notranslate nohighlight">
+\[\phi\equiv\left(\forall x(x^2=2\Rightarrow x\in\mathbb{Q})\right),\]</div>
+<p>τότε εμείς αποδεικνύουμε την  <span class="math notranslate nohighlight">\(\neg\phi\)</span>  που είναι η:</p>
+<div class="math notranslate nohighlight">
+\[\neg\phi\equiv\left(\exists x(x^2=2\land x\not\in\mathbb{Q})\right),\]</div>
+<p>με την τεχνική της απόδειξης της άρνησης - ακριβώς όπως και στο σχολικό βιβλίο.</p>
+</section>
+<section id="id11">
+<span id="id12"></span><h3>Κι άλλα άτοπα που δεν είναι… άτοπα<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id11'"><span>#</span></a></h3>
+<p>Ένας μικρός θρύλος της σχολικής μας ηλικίας κατέρρευσε: η παραδοσιακή απόδειξη της αρρητότητας του  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  δεν είναι απόδειξη με απαγωγή σε άτοπο στην ουσία της. Όμως, δεν είναι η μόνη που δεν είναι. Για την ακρίβεια, υπάρχει μία άλλη κατηγορία αποδείξεων που μοιάζουν με απαγωγές σε άτοπο, αλλά ούτε αυτές είναι. Ας πάρουμε, για παράδειγμα, την ακόλουθη απλή πρόταση, που εμφανίζεται «εμφωλευμένα» στην παραπάνω απόδειξη:</p>
+<p>Αν το τετράγωνο ενός αριθμού είναι άρτιος, το ίδιο ισχύει και για τον ίδιο τον αριθμό.</p>
+<p>Απλή απόδειξη, είναι η αλήθεια. Έστω ένας φυσικός αριθμός  <span class="math notranslate nohighlight">\(n\)</span>  έτσι ώστε ο  <span class="math notranslate nohighlight">\(n^2\)</span>  να μην είναι άρτιος, άρα να είναι περιττός. Τότε, επειδή το γινόμενο δύο περιττών είναι επίσης περιττός, έπεται ότι και ο  <span class="math notranslate nohighlight">\(n^2\)</span>  θα είναι περιττός. Εδώ, συνήθως, κολλάμε και τη λέξη «άτοπο» στην απόδειξή μας, για να τονίσουμε την αντίφαση σε σχέση με το γεγονός ότι ο  <span class="math notranslate nohighlight">\(n^2\)</span>  έχει υποτεθεί άρτιος. Αλλά, για μισό λεπτό, χρειάστηκε να υποθέσουμε πουθενά κάτι τέτοιο; Αν ονομάσουμε  <span class="math notranslate nohighlight">\(\alpha(n)\)</span>  τον τύπο «ο  <span class="math notranslate nohighlight">\(n^2\)</span>  είναι άρτιος» και  <span class="math notranslate nohighlight">\(\beta(n)\)</span>  τον τύπο «ο  <span class="math notranslate nohighlight">\(n\)</span>  είναι άρτιος» τότε αυτό που θέλουμε να αποδείξουμε είναι η πρόταση:</p>
+<div class="math notranslate nohighlight">
+\[\phi\equiv\left(\forall n(\alpha(n)\Rightarrow\beta(n))\right).\]</div>
+<p>Εμείς, αυτό που κάναμε παραπάνω, ουσιαστικά, είναι να αποδείξουμε την εξής συνεπαγωγή:</p>
+<div class="math notranslate nohighlight">
+\[\hat{\phi}\equiv\left(\forall n(\neg\beta(n)\Rightarrow\neg\alpha(n))\right).\]</div>
+<p>Δηλαδή ότι αν ένας αριθμός είναι περιττός (δηλαδή, δεν είναι άρτιος) τότε το τετράγωνό του είναι περιττό (δηλαδή, δεν είναι άρτιο). Γενικά, αν  <span class="math notranslate nohighlight">\(A\Rightarrow B\)</span>  είναι μία συνεπαγωγή, τότε η συνεπαγωγή  <span class="math notranslate nohighlight">\(\neg B\Rightarrow\neg A\)</span>  λέγεται <em>αντιθετοαντίστροφη</em> της  <span class="math notranslate nohighlight">\(A\Rightarrow B\)</span>  και είναι λογικά ισοδύναμη με αυτήν. Επομένως, παραπάνω αυτό που κάναμε ήταν μία απόδειξη με αντιθετοαντίστροφα και όχι μία γνήσια απόδειξη με απαγωγή σε άτοπο, καθώς στο τέλος δε χρειάζεται να ισχυριστούμε ότι καταλήξαμε σε κάποια αντίφαση - αρκεί που έχουμε αποδείξει την αντιθετοαντίστροφη συνεπαγωγή.</p>
+<p>Προσέξτε ότι η απόδειξη της λογικής ισοδυναμίας των δύο αντιθετοαντίστροφων συνεπαγωγών καθεαυτή, ωστόσο, απαιτεί την ΑΑΤ, καθώς αν εργαστούμε σε ένα ιντουισιονιστικό πλαίσιο, θα τα βρούμε δύσκολα στην προσπάθειά μας να αποδείξουμε ότι από την  <span class="math notranslate nohighlight">\(\neg B\Rightarrow\neg A\)</span>  έπεται η  <span class="math notranslate nohighlight">\(A\Rightarrow B.\)</span>  Πράγματι, δεδομένου ότι η  <span class="math notranslate nohighlight">\(X\Rightarrow Y\)</span>  σε ένα ιντουισιονιστικό πλαίσιο ερμηνεύεται ως: «κάθε απόδειξη του  <span class="math notranslate nohighlight">\(X\)</span>  μπορεί να μετασχηματιστεί σε μία απόδειξη του  <span class="math notranslate nohighlight">\(Y\)</span> », έπεται ότι η  <span class="math notranslate nohighlight">\(\neg B\Rightarrow\neg A\)</span>  σημαίνει ότι κάθε απόδειξη του  <span class="math notranslate nohighlight">\(\neg B\)</span>  δίνει και μία απόδειξη του  <span class="math notranslate nohighlight">\(\neg A.\)</span>  Αν τώρα έχουμε μία απόδειξη του  <span class="math notranslate nohighlight">\(A\)</span>  τότε αυτόματα δεν υπάρχουν αποδείξεις του  <span class="math notranslate nohighlight">\(\neg A\)</span>  - ειδάλλως θα είχαμε αποδείξει την  <span class="math notranslate nohighlight">\(A\land\neg A\)</span>  που δεν γίνεται - επομένως δεν μπορούμε να βρούμε αποδείξεις για το  <span class="math notranslate nohighlight">\(\neg B\)</span>  και άρα έχουμε μόλις αποδείξει το  <span class="math notranslate nohighlight">\(\neg\neg B.\)</span>  Άρα, έχουμε αποδείξει τη συνεπαγωγή:</p>
+<div class="math notranslate nohighlight">
+\[A\Rightarrow\neg\neg B,\]</div>
+<p>που με τα ιντουισιονιστικά μας μάτια δεν είναι η  <span class="math notranslate nohighlight">\(A\Rightarrow B.\)</span>  Συνεπώς, μας χρειάζεται και η ΑΑΤ για να μιλάμε με άνεση για αντιθετοαντίστροφα, όπως μας χρειάζεται και για να μιλάμε για απαγωγές σε άτοπο, χωρίς ωστόσο αυτό να σημαίνει πως τα δύο αποδεικτικά σχήματα είναι τα ίδια - απλώς έχουν κοινά ερείσματα.</p>
+</section>
+</section>
+<section id="id13">
+<h2>Ταξικά ειωθότα<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id13" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id13'"><span>#</span></a></h2>
+<p>Όχι, δεν είναι τίτλος κάποιου μαρξιστικού κειμένου, αλλά άμεση αναφορά στις συνήθειές μας εντός μίας τάξης. Συνήθως, όλα τα παραπάνω δεν τα λαμβάνουμε συχνά υπ” όψιν όταν διδάσκουμε αποδείξεις, ειδικά στην Α” Λυκείου, που εισάγουμε για πρώτη φορά συστηματικά την έννοια της απόδειξης με «άτοπο». Το άτοπο εσκεμμένα έχει μπει σε εισαγωγικά, καθώς είναι άλλο το «άτοπο» μίας τάξης μαθηματικών κι άλλο το άτοπο της λογικής και της θεωρίας αποδείξεων. Σαφώς, όταν μπαίνουμε σε μία τάξη δεν έχει, ίσως, νόημα να μιλήσουμε σε ένα κοινό που δεν έχει εικόνα του τι εστί μαθηματική λογική και να αρχίσουμε να μιλάμε για την Αρχή του Αποκλειόμενου Τρίτου και όλα τα παραπάνω - σίγουρα όχι με τον τρόπο που αυτό γίνεται παραπάνω, με σύμβολα και αποδεικτικά σχήματα.</p>
+<p>Ωστόσο, επίσης δεν έχει νόημα να παρουσιάζουμε μία απόδειξη όπως αυτήν της αρρητότητας του  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  για να εισαχθούμε σε μία έννοια απαγωγής με «άτοπο» - είτε πρόκειται για απόδειξη μίας άρνησης, πραγματική απαγωγή σε άτοπο, είτε απόδειξη με αντιθετοαντίστροφα. Όχι τόσο γιατί, από τη σκοπιά της λογικής, η παραπάνω απόδειξη δεν είναι μία γνήσια απόδειξη με απαγωγή σε άτοπο, όσο γιατί από τη μεριά των μαθητών της Α” Λυκείου, η τεχνική της εν λόγω απόδειξης περιέχει τόσα στοιχεία που τους είναι ξένα που δεν τα βοηθά να εστιάσουν ταυτόχρονα στις νέες τεχνικές και στην ίδια την ευρύτερη αποδεικτική τεχνική της απαγωγής με άτοπο.</p>
+<p>Επομένως, αν και ίσως δεν έχει νόημα να μιλήσουμε για αποδείξεις με αντιθετοαντίστροφα κ.λπ. αντί της απαγωγής σε άτοπο - ας γίνει στο μέλλον αυτή η διάκριση - έχει σίγουρα νόημα να βρούμε και να παρουσιάσουμε αρκετά και πιο απλά και, το σημαντικότερο, οικεία παραδείγματα απαγωγής σε «άτοπο» στην τάξη μας. Παρακάτω θα κάνουμε κάποιες σκέψεις για κάποια συνήθη αποτελέσματα της Α” Λυκείου τα οποία μπορούμε να αποδείξουμε με απαγωγή σε άτοπο, με στόχο να αναδείξουμε την ίδια την τεχνική χωρίς να αποσπάται η προσοχή μας από άλλους… «εξωσχολικούς» παράγοντες.</p>
+<section id="id14">
+<h3>Μία προφανής συνεπαγωγή<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id14" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id14'"><span>#</span></a></h3>
+<p>Για παράδειγμα, ας πούμε ότι θέλουμε να αποδείξουμε το ακόλουθο:</p>
+<div class="math notranslate nohighlight">
+\[ab=0\Rightarrow a=0 ή .. math:: b=0.\]</div>
+<p>Το παραπάνω, συνήθως, περνάει λίγο απαρατήρητο ως προφανές, αλλά ακριβώς αυτή η «προφανοσύνη» του είναι που μας επιτρέπει να παρουσιάσουμε μία αρκετά εύπεπτη απόδειξη με απαγωγή σε «άτοπο». Έστω, λοιπόν, προς άτοπο - ας τα αφήσουμε τα εισαγωγικά πλέον - ότι δεν ισχύει το συμπέρασμα της παραπάνω συνεπαγωγής ενώ ισχύει η υπόθεσή της. Έστω, δηλαδή, ότι  <span class="math notranslate nohighlight">\(ab=0\)</span>  αλλά δεν ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[a=0 ή .. math:: b=0.\]</div>
+<p>Αυτό σημαίνει ότι  <span class="math notranslate nohighlight">\(a\neq0\)</span>  και  <span class="math notranslate nohighlight">\(b\neq0\)</span>  - εδώ ίσως χρειάζεται μία μικρή συζήτηση για το ποια είναι η άρνηση μίας διάζευξης, αλλά πιθανότατα θα είναι εύκολο να γίνει αντιληπτό με ένα-δύο καθημερινά παραδείγματα. Τώρα, αφού  <span class="math notranslate nohighlight">\(a\neq0\)</span>  υπάρχει ο  <span class="math notranslate nohighlight">\(a^{-1}\)</span>  οπότε:</p>
+<div class="math notranslate nohighlight">
+\[ab=0\Rightarrow a^{-1}ab=0\Rightarrow 1b=0\Rightarrow b=0,\]</div>
+<p>το οποίο αντιφάσκει με την υπόθεσή μας ότι  <span class="math notranslate nohighlight">\(b\neq0,\)</span>  άτοπο!</p>
+<p>Ο τρόπος που έχει αποδοθεί η παραπάνω απόδειξη είναι αρκετά σχολαστικός και, σαφώς, μπορεί να προσαρμοστεί - παραλείποντας βήματα ή αντικαθιστώντας την αναφορά στο  <span class="math notranslate nohighlight">\(a^{-1}\)</span>  μέσω μία απλής διαίρεσης - έτσι ώστε να είναι πιο εύπεπτη. Ωστόσο, σε αντίθεση με τη σχολική απόδειξη της αρρητότητας του  <span class="math notranslate nohighlight">\(\sqrt{2},\)</span>  δεν απαιτεί πολλά εξωτικά επιχειρήματα από τη θεωρία αριθμών και αναδεικνύει με αρκετά σαφή τρόπο την τεχνική της απαγωγής σε άτοπο.</p>
+<p>Σε επίπεδο λογικής, μπορούμε εύκολα να μετασχηματίσουμε την παραπάνω απόδειξη έτσι ώστε να είναι μία απόδειξη με αντιθετοαντίστροφα, ωστόσο, είναι αρκετά πιο «βαθύ» το ερώτημα αν μπορούμε να δώσουμε μία ιντουισιονιστική απόδειξη του παραπάνω - δηλαδή, αν μπορούμε να αποφύγουμε την ΑΑΤ. Η αλήθεια είναι ότι η απάντηση που θα δώσουμε εδώ είναι τύπου παλιού ΠΑΣΟΚ: «εξαρτάται».</p>
+<p>Το «εξαρτάται», παραπάνω, αναφέρεται στο κατά πόσο μπορούμε να αποφύγουμε την άμεση αναφορά που κάνουμε στην ΑΑΤ η οποία βρίσκεται στην εξής σκέψη:</p>
+<p>Αν υποθέσουμε ότι δεν αληθεύει ότι  <span class="math notranslate nohighlight">\(a=0&amp;fg=362e77&amp;bg=d9d9d9\)</span>  τότε  <span class="math notranslate nohighlight">\(a\neq0.&amp;fg=362e77&amp;bg=d9d9d9\)</span></p>
+<p>Αυτή η αθώα πρόταση υποθέτει ότι έχουμε δεχθεί και την ΑΑΤ καθώς από την μη αλήθεια της  <span class="math notranslate nohighlight">\(a=0\)</span>  συμπεραίνουμε αμέσως την αλήθεια της λογικά αντίθετής της - κάτι που συνιστά ένα ιντουισιονιστικό έγκλημα. Επομένως, θα θέλαμε να αποφύγουμε την παραπάνω αναφορά στην ΑΑΤ πάση θυσία - τα άλλα, μετά, φτιάχνονται σχετικά απλά. Ένας τρόπος για να το κάνουμε αυτό είναι αντί για τη συνήθη διατύπωση ότι κάθε μη μηδενικός αριθμός έχει αντίστροφο, που συνήθως γράφεται έτσι:</p>
+<div class="math notranslate nohighlight">
+\[\forall x\left(x\neq0\Rightarrow \exists y(xy=1)\right),\]</div>
+<p>να θυγατροθετήσουμε την ακόλουθη διατύπωση:</p>
+<div class="math notranslate nohighlight">
+\[(0\neq1)\land\left(\forall x((x=0)\lor(\exists y(xy=1)))\right).\]</div>
+<p>Δηλαδή, λέμε το «ίδιο» πράγμα με έναν πιο φλύαρο τρόπο: το 0 και το 1 δεν είναι ο ίδιος αριθμός και κάθε αριθμός είτε είναι 0 είτε έχει πολλαπλασιαστικό αντίστροφο. Με το παραπάνω μπορούμε πράγματι να μην επικαλεστούμε την ΑΑΤ για να μεταβούμε από την  <span class="math notranslate nohighlight">\(a\neq0\)</span>  απευθείας στην «υπάρχει ο  <span class="math notranslate nohighlight">\(a^{-1}\)</span> » χωρίς όμως αυτό να σημαίνει ότι μπορούμε να συμπεράνουμε και ότι  <span class="math notranslate nohighlight">\(a\neq0\)</span>  - βγάλαμε λαγό από το καπέλο, με άλλα λόγια.</p>
+<p>Το παραπάνω έχει σαν αποτέλεσμα, αφενός, να μπορούμε να αποδείξουμε τη πολυπόθητη συνεπαγωγή χωρίς να εξαρτόμαστε από την ΑΑΤ, αλλά, εν γένει, η θεωρία που προκύπτει από τα παραπάνω αξιώματα δεν περιγράφει τους πραγματικούς αριθμούς όπως, αλγεβρικά, τους έχουμε συνηθίσει - το γιατί και το πώς είναι μία μεγάλη ιστορία που ίσως συζητήσουμε στο μέλλον.</p>
+<p>Τέλος, πάντων, πολύ φλυαρήσαμε εδώ, το σημαντικό είναι ότι η παραπάνω απλή απόδειξη μπορεί, σε κάθε πλαίσιο, να σταθεί ως μία απόδειξη που μπορεί να αποδώσει τη γενική ιδέα της απαγωγής σε άτοπο χωρίς πολλά επιχειρήματα που δεν έχουν ξαναδεί τα παιδιά ως την Α” Λυκείου.</p>
+</section>
+<section id="id15">
+<h3>Μια ακόμα απλή συνεπαγωγή<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id15" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id15'"><span>#</span></a></h3>
+<p>Στο ίδιο κλίμα με την παραπάνω απόδειξη μπορεί να σταθεί και η απόδειξη της ακόλουθης συνεπαγωγής:</p>
+<div class="math notranslate nohighlight">
+\[a^2=0\Rightarrow a=0.\]</div>
+<p>Έστω, προς άτοπο, ότι ισχύει η υπόθεση και όχι το συμπέρασμα, δηλαδή ότι  <span class="math notranslate nohighlight">\(a^2=0\)</span>  αλλά ότι  <span class="math notranslate nohighlight">\(a\neq0.\)</span>  Τότε μπορούμε να παρατηρήσουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[a^2=0\Rightarrow a^{-1}a^2=0\Rightarrow a=0,\]</div>
+<p>το οποίο αντιβαίνει με την υπόθεσή μας ότι  <span class="math notranslate nohighlight">\(a\neq0,\)</span>  που είναι άτοπο, άρα, η αρχική συνεπαγωγή ισχύει. Κι εδώ, αν κάνουμε το παραπάνω ανακάτεμα στα αξιώματα ενός αλγεβρικού σώματος, μπορούμε να δώσουμε μία ιντουισιονιστική απόδειξη, που να αποφεύγει την επίκληση στην ΑΑΤ, αλλά αυτό μάλλον δε θα μας απασχολήσει και πολύ στην τάξη. Αυτό που διαφοροποιεί κάπως την παραπάνω συνεπαγωγή από την προηγούμενη που παρουσιάσαμε είναι ότι είναι αρκετά απλούστερη, το οποίο, βέβαια, είναι και λίγο «δίκοπο μαχαίρι». Διότι, ακριβώς επειδή είναι τόσο απλή, φωτίζει την τεχνική της απαγωγής σε άτοπο σχεδόν αποκλειστικά - δεν υπάρχουν και πολλά άλλα να αναδειχθούν - μπορεί να είναι και μία συνεπαγωγή που δεν κρίνεται ως «αποδεικτέα». Είναι τόσο απλή που ίσως η ανάγκη απόδειξης - στα μάτια των παιδιών, πάντα - να μην υπάρχει. Αυτό όμως έχει να κάνει με το πόσο σφιχτά ή όχι έχουμε πρόθεση να κινηθούμε στο μάθημά μας σε σχέση με το τι αποδεικνύουμε και τι όχι, οπότε είναι κάτι που δεν μπορούμε να το προ-αποφασίσουμε από τώρα.</p>
+</section>
+<section id="id16">
+<h3>Μία ακόμα απλή συνεπαγωγή<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id16" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id16'"><span>#</span></a></h3>
+<p>Συνεχίζοντας το ίδιο κλίμα, μία απλή απόδειξη με απαγωγή σε άτοπο είναι και η απόδειξη της ακόλουθης συνεπαγωγής:</p>
+<div class="math notranslate nohighlight">
+\[a^2+b^2=0\Rightarrow a=0 και .. math:: b=0.\]</div>
+<p>Ας υποθέσουμε, προς άτοπο, ότι  <span class="math notranslate nohighlight">\(a^2+b^2=0\)</span>  ενώ  <span class="math notranslate nohighlight">\(a\neq0\)</span>  ή  <span class="math notranslate nohighlight">\(b\neq0\)</span>  - και πάλι, ίσως η άρνηση μίας σύζευξης χρήζει περαιτέρω συζήτησης στην τάξη. Για την ακρίβεια, ας υποθέσουμε πρώτα ότι  <span class="math notranslate nohighlight">\(a\neq0\)</span>  ενώ για το  <span class="math notranslate nohighlight">\(b\)</span>  δεν κάνουμε κάποια υπόθεση - η άλλη περίπτωση θα πάει «ομοίως». Τότε έχουμε, από το παραπάνω, ότι:</p>
+<div class="math notranslate nohighlight">
+\[a^2\neq0.\]</div>
+<p>Εδώ θα θεωρήσουμε ως γνωστό - π.χ. από το Γυμνάσιο - ότι  <span class="math notranslate nohighlight">\(a^2\geq0\)</span>  οπότε από το παραπάνω παίρνουμε  <span class="math notranslate nohighlight">\(a^2&gt;0.\)</span>  Τώρα, δεδομένου ότι και  <span class="math notranslate nohighlight">\(b^2\geq0\)</span>  έπεται άμεσα ότι:</p>
+<div class="math notranslate nohighlight">
+\[a^2+b^2&gt;0,\]</div>
+<p>που μας οδηγεί σε αντίφαση με την αρχική μας υπόθεση, άτοπο - εντάξει, κι εδώ, στην πράξη, κάναμε απλά μία απόδειξη με αντιθετοαντίστροφα.</p>
+<p>Η παραπάνω απόδειξη είναι αρκετά απλή, επίσης, και, στην πράξη το δύσκολο επιχείρημα  <span class="math notranslate nohighlight">\(x&gt;0,y\geq0\Rightarrow x+y&gt;0\)</span>  δεν είναι τελικά και τόσο… «δύσκολο» - βέβαια, αυτό είναι εμπειρική παρατήρηση από τάξεις που έχω διδάξει, οπότε μην το πάρουμε και τοις μετρητοίς, δεν έχουμε καλό δείγμα, απαραίτητα. Το νόημα, κι εδώ, είναι το ίδιο με παραπάνω: αφαιρούμε τη δυσκολία από τα άλλα μέρη της απόδειξης με στόχο να εστιάσουμε στην ίδια τη δημιουργία της αντίφασης που μας οδηγεί σε άτοπο.</p>
+</section>
+</section>
+<section id="id17">
+<h2>Επίλογος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id17" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id17'"><span>#</span></a></h2>
+<p>Τα παραπάνω τρία παραδείγματα είναι κυρίως ενδεικτικά του πώς μπορούμε με πολύ απλές αποδείξεις να φωτίσουμε την τεχνική της απαγωγής σε άτοπο - με την λυκειακή έννοια - χωρίς να χρειαστεί να εισάγουμε στην απόδειξή μας «θόρυβο» από άλλα χωράφια των μαθηματικών που δεν έχουν συναντήσει συχνά τα παιδιά στην μαθητική τους πορεία. Σαν τις παραπάνω συνεπαγωγές που να απέχουν λίγο από τα αξιώματα ενός αλγεβρικού σώματος και να είναι και σχετικά σημαντικές μπορεί κανείς να βρει μυριάδες στην άλγεβρα της Α” Λυκείου - εντάξει, όχι κυριολεκτικά μυριάδες, αλλά καταλάβατε τώρα - και οι περισσότερες από αυτές μπορούν να αποδειχθούν και αρκετά συμπαθητικά με απαγωγή σε άτοπο. Επομένως, μία συλλογή από τέτοιες αποδείξεις ίσως είναι πιο χρήσιμη ως προς το να εντάξει τα παιδιά στο κλίμα του πώς χτίζουμε μία τέτοια απόδειξη από την παραδοσιακή απόδειξη της αρρητότητας του  <span class="math notranslate nohighlight">\(\sqrt{2}.\)</span></p>
+<p>Ωστόσο, αν πετάξουμε την απόδειξη της αρρητότητας του  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  κάπως πρέπει να δικαιολογήσουμε τον γνήσιο εγκλεισμό  <span class="math notranslate nohighlight">\(\mathbb{Q}\subset\mathbb{R}\)</span>  για τον οποίο έχουμε μιλήσει. Με άλλα λόγια, κάπως πρέπει να μιλήσουμε για αρρήτους στην Α” Λυκείου, καθώς είναι κομβικός ο ρόλος τους, έτσι ώστε στην πορεία των παιδιών στο λύκειο οι πραγματικοί αριθμοί να εφοδιαστούν και με την αναλυτική τους «διάσταση» - ειδάλλως, αλγεβρικά δεν τους διαφοροποιεί τίποτα στα μάτια τους από τους ρητούς. Αυτό σίγουρα θα μας απασχολήσει στο μέλλον - και σίγουρα όχι σήμερα, γιατί έχει πολύ καλό καιρό έξω…</p>
+<p>Καλό απόγευμα! :)</p>
+<blockquote>
+<div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        Αδύνατο vs Απίθανο - Μέρος Δ”
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">
+        Η δευτεροβάθμια εξίσωση
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id1'" class="reference internal" href="#id1">Η συνήθης απόδειξη</a></li>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Τα προβλήματα…</a></li>
+<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Και πού είναι το άτοπο;</a><ul>
+<li><a :data-current="activeSection === '#id5'" class="reference internal" href="#id5">Κατασκευές…</a></li>
+<li><a :data-current="activeSection === '#id9'" class="reference internal" href="#id9">Άτοπα και αντιφάσεις…</a></li>
+<li><a :data-current="activeSection === '#id11'" class="reference internal" href="#id11">Κι άλλα άτοπα που δεν είναι… άτοπα</a></li>
+</ul>
+</li>
+<li><a :data-current="activeSection === '#id13'" class="reference internal" href="#id13">Ταξικά ειωθότα</a><ul>
+<li><a :data-current="activeSection === '#id14'" class="reference internal" href="#id14">Μία προφανής συνεπαγωγή</a></li>
+<li><a :data-current="activeSection === '#id15'" class="reference internal" href="#id15">Μια ακόμα απλή συνεπαγωγή</a></li>
+<li><a :data-current="activeSection === '#id16'" class="reference internal" href="#id16">Μία ακόμα απλή συνεπαγωγή</a></li>
+</ul>
+</li>
+<li><a :data-current="activeSection === '#id17'" class="reference internal" href="#id17">Επίλογος</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

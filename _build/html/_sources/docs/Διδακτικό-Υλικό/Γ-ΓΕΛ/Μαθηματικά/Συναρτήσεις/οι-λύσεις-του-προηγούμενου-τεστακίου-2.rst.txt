@@ -1,0 +1,26 @@
+Οι λύσεις του προηγούμενου τεστακίου
+####################################
+
+.. meta::
+	:date: 2019-07-01 22:10
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ασκήσεις, γραφική παράσταση, λύσεις
+	:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%cf%84%ce%b5%cf%83%cf%84%ce%b1%ce%ba%ce%af%ce%bf%cf%85-2
+	:status: published
+	:attachments: _static/images/uploads/2019/07/437px-giovanni_battista_piranesi_-_the_drawbridge_-_google_art_project.jpg
+
+.. figure:: /_static/images/uploads/2019/07/437px-giovanni_battista_piranesi_-_the_drawbridge_-_google_art_project.jpg
+	:alt: Το σκίτσο *Η κρεμαστή γέφυρα* του `Giovanni Battista Piranesi  <https://en.wikipedia.org/wiki/Giovanni_Battista_Piranesi>`__\ *.* 
+	:align: center
+
+	Το σκίτσο *Η κρεμαστή γέφυρα* του `Giovanni Battista Piranesi  <https://en.wikipedia.org/wiki/Giovanni_Battista_Piranesi>`__\ *.* 
+
+
+Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1d6tPGStSc2gJ5I8a6dJEBWSml5amdzMd/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+.. youtube:: 0SMYg7_iYW4 

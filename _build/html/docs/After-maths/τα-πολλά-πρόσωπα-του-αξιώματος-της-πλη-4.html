@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2021-06-21 15:34" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Μαθηματικά" name="category"/>
+<meta content="featured, Αξίωμα της πληρότητας, μαθηματικά" name="tags"/>
+<meta content="%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7-4" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2021/06/2560px-deux_femmes_causant_au_bord_de_la_mer_saint_thomas_camille_pissarro_e28093_nga_1985.64.30.jpg" name="attachments"/>
+<title>Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β) | aftermaths</title>
+<meta content="Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β) | aftermaths" property="og:title"/>
+<meta content="Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β) | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html" rel="next" title="Τι λέει το Θεώρημα του Bolzano;"/>
+<link href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html" rel="prev" title="Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</span>
+</nav>
+<div id="content" role="main">
+<section id="id1">
+<h1>Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+<figure class="align-center" id="id15">
+<img alt="Ο πίνακας *Δύο γυναίκες συζητούν δίπλα στη θάλασσα* του `Camille Pissarro  &lt;https://en.wikipedia.org/wiki/Camille_Pissarro&gt;`__\ *.*" src="_static/images/uploads/2021/06/2560px-deux_femmes_causant_au_bord_de_la_mer_saint_thomas_camille_pissarro_e28093_nga_1985.64.30.jpg"/>
+<figcaption>
+<p><span class="caption-text">Ο πίνακας <em>Δύο γυναίκες συζητούν δίπλα στη θάλασσα</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Camille_Pissarro">Camille Pissarro</a><em>.</em></span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id15"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Πριν από λίγες εβδομάδες συζητήσαμε για μία διατύπωση του αξιώματος της πληρότητας χρησιμοποιώντας ένα γνωστό και μη εξαιρετέο θεώρημα του Cantor - για περισσότερα, δείτε <a class="reference external" href="docs/After-maths/τα-πολλά-πρόσωπα-του-αξιώματος-της-πλη-3.rst">εδώ</a>. Με βάση τώρα αυτήν την διατύπωση μέσα από ακολουθίες κλειστών διαστημάτων πραγματικών αριθμών θα παρουσιάσουμε και μία κατασκευή των πραγματικών αριθμών από τους ρητούς που βασίζεται σε ακολουθίες κλειστών διαστημάτων ρητών αριθμών. Η εν λόγω κατασκευή διαφέρει σε επίπεδο τεχνικής από τις άλλες δύο που είδαμε - μέσω <a class="reference external" href="docs/After-maths/τα-πολλά-πρόσωπα-του-αξιώματος-της-π.rst">τομών Dedekind</a> και βασικών <a class="reference external" href="docs/After-maths/τα-πολλά-πρόσωπα-του-αξιώματος-της-πλη-2.rst">ακολουθιών ρητών αριθμών</a> - καθώς χρησιμοποιεί νέες έννοιες και εργαλεία, κάπως πιο περίπλοκα δομικά από όσα έχουμε δει ως τώρα.</p>
+<section id="id2">
+<h2>Η ιδέα της κατασκευής<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>Όπως είπαμε, η ιδέα της κατασκευής θα βασιστεί πάνω σε ακολουθίες κλειστών διαστημάτων ρητών αριθμών οι οποίες θα θυμίζουν το θεώρημα των εγκιβωτισμένων διαστημάτων του Cantor. Είναι σημαντικό εδώ να θυμηθούμε πώς περίπου δρα το θεώρημα των εγκιβωτισμένων διαστημάτων δίνοντας την ύπαρξη συγκεκριμένων πραγματικών αριθμών. Αρχικά, ας ξαναθυμηθούμε το ίδιο το θεώρημα:</p>
+<div class="line-block">
+<div class="line">Έστω μία ακολουθία κλειστών διαστημάτων  <span class="math notranslate nohighlight">\(I_n=[a_n,b_n]&amp;fg=362e77&amp;bg=d9d9d9\)</span>  με  :math:<a href="#id3"><span class="problematic" id="id4">`</span></a>a_n&lt;b_n &amp;fg=362e77&amp;bg=d9d9d9 `  για την οποία ισχύουν τα εξής:</div>
+<div class="line">1.  :math:<a href="#id5"><span class="problematic" id="id6">`</span></a>I_1supseteq I_2supseteq I_3ldots &amp;fg=362e77&amp;bg=d9d9d9 `</div>
+<div class="line">2.  :math:<a href="#id7"><span class="problematic" id="id8">`</span></a>b_n-a_nto0 &amp;fg=362e77&amp;bg=d9d9d9 `</div>
+<div class="line">Τότε η τομή των παραπάνω διαστημάτων,  :math:<a href="#id9"><span class="problematic" id="id10">`</span></a>bigcap_{ninmathbb{N}}I_n &amp;fg=362e77&amp;bg=d9d9d9 `  είναι μονοσύνολο.</div>
+</div>
+<p>Ο τρόπος που ουσιαστικά το παραπάνω θεώρημα μας εγγυάται την ύπαρξη των αρρήτων φαίνεται στο παρακάτω σχήμα:</p>
+<figure class="wp-image-7002 align-default" id="id16">
+<img alt="Γεμίζουμε τις τρύπες με τις τομές των διαστημάτων" src="https://aftermaths.gr/_static/images/uploads/2021/04/ezgif.com-gif-maker2.gif?w=723"/>
+<figcaption>
+<p><span class="caption-text">Γεμίζουμε τις τρύπες με τις τομές των διαστημάτων</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id16"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Πρακτικά, αυτό που μας λέει το θεώρημα είναι ότι όποια ακολουθία διαστημάτων κι αν πάρουμε που συμπεριφέρεται όπως στο παραπάνω σχήμα αυτή τελικά θα συγκλίνει σε ένα μονοσύνολο. Με άλλα λόγια, θα <em>υπάρχει</em> ένας πραγματικός αριθμός που να ανήκει σε όλα αυτά τα διαστήματα - στριμωγμένος εκεί ανάμεσα σε όλα αυτά τα  <span class="math notranslate nohighlight">\(a_n\)</span>  και τα  <span class="math notranslate nohighlight">\(b_n.\)</span>  Επομένως, κάθε φθίνουσα ακολουθία κλειστών διαστημάτων που η διάμετρός τους συγκλίνει προς το μηδέν μας δίνει κι από έναν πραγματικό αριθμό - ίσως βέβαια κάποιες να δίνουν τον ίδιο.</p>
+<p>Θα είναι χρήσιμο, λοιπόν, να θεωρήσουμε αρχικά το σύνολο:</p>
+<div class="math notranslate nohighlight">
+\[\mathcal{I}:=\{I\subseteq\mathbb{Q}:I=\{x\in\mathbb{Q}:a\leq x\leq b\},\ a,b\in\mathbb{Q}\}.\]</div>
+<p>Πιο απλά, το  <span class="math notranslate nohighlight">\(\mathcal{I}\)</span>  είναι το σύνολο όλων των κλειστών διαστημάτων ρητών. Τώρα, από αυτά τα διαστήματα θα φτιάξουμε φθίνουσες ακολουθίες διαστημάτων θεωρώντας το σύνολο:</p>
+<div class="math notranslate nohighlight">
+\[\mathcal{J}:=\{(I_n)_n:I_n\in\mathcal{I}, I_{n+1}\subseteq I_n\ \forall n\in\mathbb{N},\ \ell(I_n)\to0\},\]</div>
+<p>όπου με  <span class="math notranslate nohighlight">\(\ell(I)\)</span>  συμβολίζουμε το μήκος - δηλαδή, τη διάμετρο - ενός διαστήματος  <span class="math notranslate nohighlight">\(I.\)</span>  Τα στοιχεία του  <span class="math notranslate nohighlight">\(\mathcal{J}\)</span>  είναι, πρακτικά, όλες οι φθίνουσες ακολουθίες ρητών διαστημάτων που θα μας απασχολήσουν. Το θεώρημα των εγκιβωτισμένων διαστημάτων του Cantor μας παρακινεί να θεωρήσουμε επίσης και το σύνολο:</p>
+<div class="math notranslate nohighlight">
+\[\mathcal{J}_0:=\left\{\bigcap_{n=1}^\infty I_n:(I_n)_n\in\mathcal{J}\right\}.\]</div>
+<p>Το παραπάνω σύνολο, ουσιαστικά, αποτελείται από τις τομές όλων των φθινουσών ακολουθιών κλειστών ρητών διαστημάτων - με διάμετρο που τείνει στο μηδέν. Η πρόθεσή μας είναι ξεκάθαρη: θα θέλαμε πολύ το παραπάνω σύνολο να αποτελεί το σύνολο των πραγματικών αριθμών δεδομένου ότι κάθε τέτοια τομή <em>πραγματικών</em> διαστημάτων - και όχι ρητών - δίνει κι έναν πραγματικό αριθμό. Ωστόσο, η αγνή αυτή πρόθεσή μας θα παραμείνει μάλλον μία απλή πρόθεση, καθώς τα στοιχεία του συνόλου  <span class="math notranslate nohighlight">\(\mathcal{J}_0\)</span>  είναι πολύ λίγα για να περιγράψουν τους πραγματικούς αριθμούς.</p>
+<p>Πράγματι, ας πάρουμε μία αποσβένουσα ακολουθία ρητών διαστημάτων  <span class="math notranslate nohighlight">\((I_n)_n\in\mathcal{J},\)</span>  και ας θεωρήσουμε την τομή των στοιχείων της:</p>
+<div class="math notranslate nohighlight">
+\[I_0:=\bigcap_{n=1}^\infty I_n.\]</div>
+<p>Επειδή τα  <span class="math notranslate nohighlight">\(I_n\)</span>  περιέχουν όλα τους αποκλειστικά ρητούς αριθμούς, και το  <span class="math notranslate nohighlight">\(I_0\)</span>  περιέχει αποκλειστικά ρητούς αριθμούς. Από την άλλη, η συνθήκη  <span class="math notranslate nohighlight">\(\ell(I_n)\to0\)</span>  - όπως είδαμε κι <a class="reference external" href="docs/After-maths/τα-πολλά-πρόσωπα-του-αξιώματος-της-πλη-3.rst">εδώ</a> - μας περιορίζει ως προς το πόσα στοιχεία θα περιέχει η τομή όλων των παραπάνω διαστημάτων,  <span class="math notranslate nohighlight">\(I_0.\)</span>  Για την ακρίβεια, το  <span class="math notranslate nohighlight">\(I_0\)</span>  θα περιέχει το πολύ έναν (ρητό) αριθμό - δηλαδή θα είναι ή κενό ή μονοσύνολο. Όμως, πόσα μονοσύνολα μπορούμε να κατασκευάσουμε με ρητούς αριθμούς; Σαφώς, τόσα όσοι και οι ρητοί αριθμοί - δηλαδή, υπάρχει ένα αριθμήσιμο πλήθος μη κενών τομών στο  <span class="math notranslate nohighlight">\(\mathcal{J}_0.\)</span>  Αν βάλουμε και το κενό σύνολο, τότε παίρνουμε και πάλι ένα αριθμήσιμο πλήθος από σύνολα - άλλωστε, ένας κούκος δε φέρνει την άνοιξη. Συνεπώς, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\mathcal{J}_0\subseteq\{\{q\}:q\in\mathbb{Q}\}\cup\{\varnothing\}.\]</div>
+<p>Μάλιστα, στην παραπάνω σχέση ισχύει ισότητα (γιατί;) αλλά δε μας απασχολεί (γιατί;). Όπως και να έχει, το  <span class="math notranslate nohighlight">\(\mathcal{J}_0\)</span>  είναι ένα αριθμήσιμο σύνολο και άρα δε γίνεται να το ταυτίσουμε με κάποιον τρόπο με τους πραγματικούς αριθμούς, οι οποίοι είναι <em>υπεραριθμήσιμοι</em> στο πλήθος - για περισσότερα, δείτε <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">εδώ</a>.</p>
+<p>Συνεπώς, δεν μπορούμε απλώς να πάρουμε όλες τις ακολουθίες του  <span class="math notranslate nohighlight">\(\mathcal{J}\)</span>  και να κρατήσουμε τις τομές τους, όπως θα θέλαμε, διότι, πολύ απλά, χάνουμε πολλά στον δρόμο. Άρα, πρέπει να σκεφτούμε κάποιον πιο περίτεχνο και εμπνευσμένο τρόπο για να μπορέσουμε, με τη βοήθεια πάντα των ακολουθιών του  <span class="math notranslate nohighlight">\(\mathcal{J},\)</span>  να περιγράψουμε όλους τους πραγματικούς αριθμούς - δηλαδή, να κατασκευάσουμε ένα σύνολο με ανάλογες ιδιότητες.</p>
+</section>
+<section id="id11">
+<h2>Τροποποιώντας την αρχική ιδέα μας<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id11'"><span>#</span></a></h2>
+<p>Λοιπόν, πήραμε κλειστά διαστήματα ρητών, πήραμε και ακολουθίες από αυτά, πήραμε και τις τομές τους και κάναμε, τελικά, μία τρύπα στο νερό. Το βασικό - θεμελιώδες, θα λέγαμε - πρόβλημα που αντιμετωπίσαμε παραπάνω βρίσκεται στο γεγονός ότι το  <span class="math notranslate nohighlight">\(\mathcal{J}_0\)</span>  περιέχει ελάχιστα στοιχεία - τόσο λίγα που δεν αρκούν παρά για να μιλήσουμε για τους ρητούς αριθμούς. Συνεπώς, αν θέλουμε να χρησιμοποιήσουμε κάπως τις ακολουθίες του  <span class="math notranslate nohighlight">\(\mathcal{J}\)</span>  πρέπει πρώτα να τις επεξεργαστούμε με κάποιον τρόπο και να τις μετασχηματίσουμε σε ένα άλλο σύνολο - όπως περίπου κάναμε και με τις βασικές ακολουθίες ρητών στην <a class="reference external" href="docs/After-maths/τα-πολλά-πρόσωπα-του-αξιώματος-της-πλη-2.rst">αντίστοιχη κατασκευή των πραγματικών αριθμών</a>.</p>
+<p>Κομβικό ρόλο στα παρακάτω θα παίξει η εξής απλή, σε γενικές γραμμές, παρατήρηση. Υπάρχουν αποσβένουσες ακολουθίες κλειστών ρητών διαστημάτων οι οποίες μοιάζουν πολύ περισσότερο μεταξύ τους από ό,τι άλλες. Για παράδειγμα, ας θεωρήσουμε τις ακολουθίες:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}I_n&amp;:=\left[0,\frac{1}{n+30}\right]_{\mathbb{Q}},\J_n&amp;:=\left[0,\frac{1}{n^2}\right]_{\mathbb{Q}}.\end{aligned}\]</div>
+<p>Αυτές οι δύο ακολουθίες κλειστών διαστημάτων, αν και φαίνονται κάπως διαφορετικές, επί της ουσίας είναι ίδιες. Για αρχή, η τομές των όρων και των δύο ακολουθιών είναι το ίδιο σύνολο, αφού:</p>
+<div class="math notranslate nohighlight">
+\[I_0:=\bigcap_{n=1}^\infty I_n=\{0\},\ J_0:=\bigcap_{n=1}^\infty J_n=\{0\}.\]</div>
+<p>Επίσης, αν σχεδιάσουμε τις γραφικές παραστάσεις των συναρτήσεων  <span class="math notranslate nohighlight">\(f(n)=\dfrac{1}{n+30}\)</span>  και  <span class="math notranslate nohighlight">\(g(n)=\dfrac{1}{n^2}\)</span>  τότε παίρνουμε ένα σχήμα σαν το παρακάτω:</p>
+<figure class="wp-image-7193 align-default" id="id17">
+<img alt="Τα άνω άκρα των παραπάνω διαστημάτων." src="https://aftermaths.gr/_static/images/uploads/2021/04/comp_1.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Τα άνω άκρα των παραπάνω διαστημάτων.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id17"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Όπως φαίνεται και παραπάνω, αν και αρχικά οι όροι της ακολουθίας  <span class="math notranslate nohighlight">\(f(n)\)</span>  είναι μικρότεροι, ωστόσο από τον έβδομο όρο και μετά οι όροι της ακολουθίας  <span class="math notranslate nohighlight">\(g(n)\)</span>  είναι διαρκώς μικρότεροι. Αυτό έχει σαν αποτέλεσμα, <em>τελικά</em>, τα διαστήματα της ακολουθίας  <span class="math notranslate nohighlight">\((J_n)_n\)</span>  να περιέχονται στα διαστήματα της ακολουθίας  <span class="math notranslate nohighlight">\(I_n.\)</span>  Αυτή η συνθήκη, όπως μπορεί κανείς εύκολα να δει, είναι ικανή συνθήκη που οδηγεί στο να έχουν και οι δύο ακολουθίες διαστημάτων την ίδια τομή - δεδομένου ότι αμφότερες είναι ακολουθίες από το  <span class="math notranslate nohighlight">\(\mathcal{J}.\)</span>  Ωστόσο, τα πράγματα δε χρειάζεται να είναι τόσο τακτοποιημένα. Ας σκεφτούμε δύο ακολουθίες  <span class="math notranslate nohighlight">\(f(n),g(n)\)</span>  με γραφήματα όπως τα παρακάτω:</p>
+<figure class="wp-image-7197 align-default" id="id18">
+<img alt="Μπλέξαμε τα μπούτια μας..." src="https://aftermaths.gr/_static/images/uploads/2021/04/comp_2.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Μπλέξαμε τα μπούτια μας…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id18"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Αυτό που κάναμε ήταν πρακτικά να ανακατέψουμε τους όρους με περιττό δείκτη των δύο ακολουθιών που είχαμε παραπάνω. Έτσι πήραμε δύο ακολουθίες που δεν έχουν την παραπάνω ιδιότητα - να είναι δηλαδή η μία <em>τελικά</em> μικρότερη της άλλης - ωστόσο, αν  <span class="math notranslate nohighlight">\(I_n=[0,f(n)]\)</span>  και  <span class="math notranslate nohighlight">\(J_n=[0,g(n)]\)</span>  τότε και πάλι οι τομές των δύο ακολουθιών διαστημάτων που προκύπτουν είναι ίσες. Αυτό που κρύβεται πίσω από αυτήν εδώ την πεπλεγμένη περίπτωση είναι το γεγονός ότι, ενώ δεν υπάρχει κάποια τάξη στα διαστήματα που προκύπτουν από τις παραπάνω δύο ακολουθίες, μπορούμε να την… επιβάλλουμε εμείς - δεν είναι πολιτικό σχόλιο αυτό. Το «πώς» φαίνεται στο παρακάτω σχήμα - δεν έχουμε σχεδιάσει τους πρώτους όρους των ακολουθιών γιατί δεν έβγαινε ωραίο το σχήμα:</p>
+<figure class="wp-image-7201 align-default" id="id19">
+<img alt="Εντάξει, δεν κερδίσαμε και πολλά σε θέμα οπτικοποίησης, τελικά..." src="https://aftermaths.gr/_static/images/uploads/2021/04/comp_3.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Εντάξει, δεν κερδίσαμε και πολλά σε θέμα οπτικοποίησης, τελικά…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id19"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Η πράσινη ακολουθία που σχεδιάσαμε παραπάνω - ας την πούμε  <span class="math notranslate nohighlight">\(h(n)\)</span>  - είναι διαρκώς μικρότερη και από την μπλε και από την κόκκινη ακολουθία. Αν τώρα θεωρήσουμε τα διαστήματα  <span class="math notranslate nohighlight">\(K_n=[0,h(n)]\)</span>  τότε σαφώς αυτά περιέχονται τόσο στα  <span class="math notranslate nohighlight">\(I_n\)</span>  όσο και στα  <span class="math notranslate nohighlight">\(J_n\)</span>  για κάθε  <span class="math notranslate nohighlight">\(n\in\mathbb{N}.\)</span>  Αυτό εύκολα μπορείτε να δείτε πώς οδηγεί και πάλι στο ίδιο συμπέρασμα - ότι οι δύο ακολουθίες έχουν την ίδια τομή.</p>
+<p>Όλα τα παραπάνω μας δίνουν την εξής ιδέα, την οποία εκφράζουμε μέσω των παρακάτω ορισμών:</p>
+<p>Η ακολουθία διαστημάτων  <span class="math notranslate nohighlight">\((I_n)_n&amp;fg=362e77&amp;bg=d9d9d9\)</span>  θα λέγεται <em>εκλέπτυνση</em> (ή απλά <em>λεπτότερη</em>) της  <span class="math notranslate nohighlight">\((J_n)_n&amp;fg=362e77&amp;bg=d9d9d9\)</span>  αν για κάθε  <span class="math notranslate nohighlight">\(n\in\mathbb{N}&amp;fg=362e77&amp;bg=d9d9d9\)</span>  ισχύει  <span class="math notranslate nohighlight">\(I_n\subseteq J_n.&amp;fg=362e77&amp;bg=d9d9d9\)</span></p>
+<p>Πρακτικά, μία ακολουθία είναι λεπτότερη από μία άλλη αν όλα τα διαστήματά της είναι υποσύνολα των αντίστοιχων διαστημάτων της άλλης - άρα, κατά μία έννοια, είναι πράγματι λεπτότερη. Με τη βοήθεια του παραπάνω ορισμού μπορούμε να δώσουμε και τον ακόλουθο ορισμό:</p>
+<p>Θα λέμε ότι δύο ακολουθίες διαστημάτων  <span class="math notranslate nohighlight">\((I_n)_n,(J_n)_n\in\mathcal{J}&amp;fg=362e77&amp;bg=d9d9d9\)</span>  είναι ισοδύναμες και θα γράφουμε  <span class="math notranslate nohighlight">\((I_n)_n\simeq(J_n)_n&amp;fg=362e77&amp;bg=d9d9d9\)</span>  αν υπάρχει μία άλλη ακολουθία  <span class="math notranslate nohighlight">\((K_n)_n\in\mathcal{J}&amp;fg=362e77&amp;bg=d9d9d9\)</span>  η οποία να είναι λεπτότερη και από τις δύο.</p>
+<p>Πρακτικά, ο τελευταίος ορισμός καλύπτει στη γενική περίπτωση αυτό που είδαμε αρκετά ειδικά παραπάνω. Είναι αρκετά απλό να δει κανείς ότι η παραπάνω σχέση που ορίσαμε ανάμεσα στις ακολουθίες του  <span class="math notranslate nohighlight">\(\mathcal{J}\)</span>  είναι πράγματι μία σχέση ισοδυναμίας, δηλαδή ότι ισχύουν τα εξής:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\((I_n)_n\simeq(I_n)_n\)</span>  για κάθε  <span class="math notranslate nohighlight">\((I_n)_n\in\mathcal{J},\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\((I_n)_n\simeq(J_n)_n\Rightarrow(J_n)_n\simeq(I_n)_n\)</span>  για κάθε  <span class="math notranslate nohighlight">\((I_n)_n,(J_n)_n\in\mathcal{J},\)</span></p></li>
+<li><p>αν  <span class="math notranslate nohighlight">\((I_n)_n\simeq(J_n)_n\)</span>  και  <span class="math notranslate nohighlight">\((J_n)\simeq (K_n)_n\)</span>  τότε  <span class="math notranslate nohighlight">\((I_n)_n\simeq(K_n)_n\)</span>  για κάθε  <span class="math notranslate nohighlight">\((I_n)_n,(J_n)_n,(K_n)_n\in\mathcal{J}.\)</span></p></li>
+</ul>
+<p>Τώρα, θεωρούμε το σύνολο πηλίκο όλων των κλάσεων ισοδυναμίας που προκύπτουν από την παραπάνω σχέση:</p>
+<div class="math notranslate nohighlight">
+\[\frak{A}:=\mathcal{J}/\simeq.\]</div>
+<p>Αυτό το σύνολο  <span class="math notranslate nohighlight">\(\frak{A}\)</span>  θα αποδείξουμε ότι μπορεί να παίξει πολύ καλά τον ρόλο των πραγματικών αριθμών.</p>
+<p>Πριν όμως το αποδείξουμε, ας δούμε λίγο τι διαφορετικό κάναμε εδώ από ότι στην πρώτη μας απόπειρα να ορίσουμε ένα καλό σύνολο ως το επίδοξο σύνολο των πραγματικών αριθμών. Αρχικά, ταυτίσαμε όλες εκείνες τις ακολουθίες διαστημάτων που είχαν την ίδια τομή. Αυτό είχε ως αποτέλεσμα, αφενός, όλες οι ακολουθίες που είχαν ως τομή κάποιο μονοσύνολο που περιείχε έναν μόνο ρητό να ταυτιστούν - κάτι που δεν είναι κακό. Όμως, με αυτόν τον τρόπο και όλες οι άλλες ακολουθίες που θα θέλαμε να τις ταιριάξουμε με τους άρρητους συμπεριλήφθηκαν στην ίδια κατηγορία, καθώς όλες τους είχαν κενή τομή. Ωστόσο, εμείς δε θα θέλαμε με κανέναν τρόπο να ταυτίσουμε όλες τις αποσβένουσες ακολουθίες ρητών διαστημάτων με κενή τομή μεταξύ τους. Αντιθέτως, θα θέλαμε να ταυτίσουμε μόνο αυτές που τελικά περιγράφουν τον ίδιο άρρητο - δηλαδή, αν μιλούσαμε για πραγματικά διαστήματα αντί για ρητά, τότε θα είχαν όλες τους ως τομή τον ίδιο άρρητο αριθμό  <span class="math notranslate nohighlight">\(r.\)</span></p>
+<p>Αυτό το καταφέραμε με τη δεύτερη προσέγγισή μας. Εδώ πάλι ταυτίσαμε όλες τις ακολουθίες διαστημάτων που είχαν ως τομή κάποιο (το ίδιο) ρητό μονοσύνολο όπως παραπάνω, ωστόσο μεταχειριστήκαμε πολύ διαφορετικά τις υπόλοιπες ακολουθίες. Για την ακρίβεια, αντί να αναφερθούμε άμεσα στην τομή μίας ακολουθίας, κάτι που όπως είδαμε παραπάνω δεν οδηγεί κάπου, περιγράψαμε αυτήν την ιδιότητα της κοινής τομής - ακόμα κι όταν αυτήν δεν υπάρχει στους ρητούς αλλά «γνωρίζουμε» ότι θα υπάρχει στους πραγματικούς - μέσα από την ύπαρξη κοινής λεπτότερης ακολουθίας. Αυτό μας επιτρέπει αφενός να ταυτίσουμε ακολουθίες διαστημάτων που τελικά τα στοιχεία τους συσσωρεύονται γύρω από έναν άρρητο αριθμό - μία «τρύπα» στην ευθεία των ρητών αριθμών, δηλαδή - αλλά μας εμποδίζει από το να ταυτίσουμε όλες αυτές τις ακολουθίες που τελικά θα έχουν κοινή τομή και άρα δεν πέφτουμε στην παγίδα της προηγούμενης περίπτωσης.</p>
+</section>
+<section id="id12">
+<h2>Ώρα για αποδείξεις…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id12" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id12'"><span>#</span></a></h2>
+<p>Ας περάσουμε τώρα στις λεπτομέρειες της κατασκευής του συνόλου των πραγματικών αριθμών. Όπως έχουμε δει και σε άλλες κατασκευές που έχουμε κάνει ως τώρα, πρέπει πριν από όλα να ορίσουμε με φυσιολογικό τρόπο τις πράξεις πάνω στο σύνολο  <span class="math notranslate nohighlight">\(\frak{A}\)</span>  που έχουμε ορίσει καθώς επίσης και μία σχέση διάταξης. Θυμηθείτε ότι το σύνολο  <span class="math notranslate nohighlight">\(\frak{A}\)</span>  αποτελείται από κλάσεις ισοδυναμίας αποσβενουσών ακολουθιών κλειστών ρητών διαστημάτων, οπότε οι πράξεις που θα ορίσουμε καθώς και η σχέση διάταξης θα αφορούν τέτοια πράγματα.</p>
+<p>Ξεκινάμε πρώτα με την πρόσθεση, την οποία θα ορίσουμε, αρχικά, για απλά διαστήματα. Αν  <span class="math notranslate nohighlight">\(I,J\)</span>  είναι δύο ρητά διαστήματα τότε ορίζουμε το άθροισμά τους ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[I+J=\{x+y:x\in I,\ y\in J\}.\]</div>
+<p>Είναι σαφές ότι το  <span class="math notranslate nohighlight">\(I+J\)</span>  είναι ένα διάστημα με άκρα τα αθροίσματα των αντίστοιχων άκρων των επιμέρους διαστημάτων. Τώρα, εντελώς φυσιολογικά μπορούμε να ορίσουμε το άθροισμα δύο ακολουθιών διαστημάτων  <span class="math notranslate nohighlight">\((I_n)_n,(J_n)_n\)</span>  ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[(I_n)_n+(J_n)_n=(I_n+J_n)_n.\]</div>
+<p>Με ανάλογο τρόπο, ορίζουμε το άθροισμα δύο κλάσεων  <span class="math notranslate nohighlight">\([(I_n)_n],[(J_n)_n]\in A\)</span>  ως εξής - θα γράφουμε  <span class="math notranslate nohighlight">\([I_n],[J_n]\)</span>  για τις κλάσεις για να απλοποιήσουμε τον συμβολισμό:</p>
+<div class="math notranslate nohighlight">
+\[[I_n]+[J_n]=[I_n+J_n].\]</div>
+<p>Εδώ καλό θα ήταν να μην προχωρήσουμε έτσι ελαφρά τη καρδία αλλά να επαληθεύσουμε ότι πράγματι η παραπάνω πρόσθεση μεταξύ κλάσεων είναι καλώς ορισμένη, καθώς ενδέχεται το αποτέλεσμα της πράξης να εξαρτάται από το ποιες συγκεκριμένα ακολουθίες  <span class="math notranslate nohighlight">\((I_n)_n,(J_n)_n\)</span>  θα επιλέξουμε - και άρα το άθροισμα δύο κλάσεων να μην είναι μονοσήμαντα ορισμένο. Έστω, λοιπόν,  <span class="math notranslate nohighlight">\((K_n)_n,(L_n)_n\in\mathcal{J}\)</span>  τέτοιες ώστε  <span class="math notranslate nohighlight">\((I_n)_n\sim(K_n)_n\)</span>  και  <span class="math notranslate nohighlight">\((J_n)_n\sim(L_n)_n.\)</span>  Αυτό σημαίνει ότι υπάρχουν κοινές εκλεπτύνσεις  <span class="math notranslate nohighlight">\((A_n)_n,(B_n)_n\)</span>  των  <span class="math notranslate nohighlight">\((I_n)_n,(K_n)_n\)</span>  και  <span class="math notranslate nohighlight">\((J_n)_n,(L_n)_n\)</span>  αντίστοιχα. Θεωρούμε τώρα την ακολουθία  <span class="math notranslate nohighlight">\((A_n+B_n)_n\)</span>  η οποία, αφενός, είναι μία αποσβένουσα ακολουθία κλειστών ρητών διαστημάτων και, αφετέρου, είναι μία ακολουθία που αποτελεί κοινή εκλέπτυνση των  <span class="math notranslate nohighlight">\((I_n+J_n)_n\)</span>  και  <span class="math notranslate nohighlight">\((K_n+L_n)_n.\)</span></p>
+<p>Πράγματι, αρχικά, έχουμε για κάθε  <span class="math notranslate nohighlight">\(n\in\mathbb{N}:\)</span></p>
+<div class="math notranslate nohighlight">
+\[A_n\subseteq I_n και .. math:: A_n\subseteq K_n και .. math:: B_n\subseteq J_n και .. math:: B_n\subseteq L_n.\]</div>
+<p>Από εδώ και από τον ορισμό του αθροίσματος διαστημάτων έχουμε άμεσα τα εξής:</p>
+<div class="math notranslate nohighlight">
+\[A_n+B_n\subseteq I_n+J_n και .. math:: A_n+B_n\subseteq K_n+L_n,\]</div>
+<p>για κάθε  <span class="math notranslate nohighlight">\(n\in\mathbb{N}.\)</span>  Συνεπώς, πράγματι η  <span class="math notranslate nohighlight">\((A_n+B_n)_n\)</span>  είναι η ζητούμενη κοινή εκλέπτυνση, άρα:</p>
+<div class="math notranslate nohighlight">
+\[(I_n+J_n)_n\sim(K_n+L_n)_n,\]</div>
+<p>οπότε η πρόσθεση μεταξύ κλάσεων είναι καλά ορισμένη.</p>
+<p>Τώρα είναι εύκολο να αποδείξουμε τόσο την προσεταιριστική όσο και την αντιμεταθετική ιδιότητα της πρόσθεσης στο  <span class="math notranslate nohighlight">\(\frak{A}.\)</span>  Μένει να ορίσουμε ένα ουδέτερο στοιχείο καθώς και την αντίθετη κλάση μίας κλάσης. Η αλήθεια είναι ότι ούτε αυτό είναι δύσκολο. Θεωρούμε τη (σταθερή) ακολουθία διαστημάτων  <span class="math notranslate nohighlight">\(I_n=\{0\}\)</span>  - τα μονοσύνολα είναι κλειστά διαστήματα, αφού  <span class="math notranslate nohighlight">\(\{a\}=[a,a]\)</span>  - και ορίζουμε ως το ουδέτερο στοιχείο της πράξης μας την κλάση  <span class="math notranslate nohighlight">\([\{0\}].\)</span>  Είναι σαφές ότι αν πάρουμε μία άλλη κλάση  <span class="math notranslate nohighlight">\([I_n]\)</span>  τότε, επειδή  <span class="math notranslate nohighlight">\(I_n+\{0\}=I_n\)</span>  έχουμε άμεσα:</p>
+<div class="math notranslate nohighlight">
+\[[I_n]+[\{0\}]=[I_n],\]</div>
+<p>άρα πράγματι η κλάση  <span class="math notranslate nohighlight">\([\{0\}]\)</span>  είναι το ουδέτερο στοιχείο της πράξης μας. Τώρα, εύκολα βλέπουμε ότι αν ορίσουμε για ένα διάστημα  <span class="math notranslate nohighlight">\(I\)</span>  το αντίθετό του να είναι το:</p>
+<div class="math notranslate nohighlight">
+\[-I:=\{-x:x\in I\},\]</div>
+<p>έχουμε την εξής σχέση:</p>
+<div class="math notranslate nohighlight">
+\[[I_n]+[-I_n]=[\{0\}].\]</div>
+<p>Πράγματι, αν σταθεροποιήσουμε ένα  <span class="math notranslate nohighlight">\(n\in\mathbb{N}\)</span>  τότε παρατηρούμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[0\in I_n+(-I_n)\Leftrightarrow\{0\}\subseteq I_n+(-I_n),\]</div>
+<p>οπότε υπάρχει μία κοινή εκλέπτυνση με την ακολουθία  <span class="math notranslate nohighlight">\((\{0\})_n\)</span>  - η ίδια η ακολουθία - άρα πράγματι  <span class="math notranslate nohighlight">\([I_n+(-I_n)]=[\{0\}].\)</span></p>
+<p>Με τον εντελώς ανάλογο τρόπο μπορούμε να ορίσουμε και τον πολλαπλασιασμό μεταξύ κλάσεων. Αρχικά, αν  <span class="math notranslate nohighlight">\(I,J\)</span>  είναι δύο διαστήματα ρητών αριθμών τότε ορίζουμε το γινόμενό τους ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[IJ:=\{xy:x\in I,\ y\in J\}.\]</div>
+<p>Τώρα, φυσιολογικά ορίζουμε το γινόμενο μεταξύ ακολουθιών διαστημάτων ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[(I_n)_n(J_n)_n=(I_nJ_n)_n.\]</div>
+<p>Επομένως, φυσιολογικά ορίζουμε και το γινόμενο μεταξύ κλάσεων ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[[I_n][J_n]=[I_nJ_n].\]</div>
+<p>Εύκολα μπορούμε να δείξουμε, όπως και προηγουμένως, ότι το παραπάνω γινόμενο είναι καλά ορισμένο και ανεξάρτητο από την επιλογή των αντιπροσώπων - με παρόμοιο τρόπο με την πρόσθεση. Εύκολα επίσης αποδεικνύονται και η αντιμεταθετική και η προσεταιριστική ιδιότητα του πολλαπλασιασμού, αλλά και η επιμεριστική ιδιότητα μεταξύ πρόσθεσης και πολλαπλασιασμού. Εντελώς φυσιολογικά, επίσης, μπορεί να ορίσει κανείς και το ουδέτερο στοιχείο του πολλαπλασιασμού, ως την κλάση  <span class="math notranslate nohighlight">\([\{1\}].\)</span>  Είναι εύκολο να παρατηρήσει κανείς ότι για κάθε διάστημα  <span class="math notranslate nohighlight">\(I\)</span>  ισχύει:</p>
+<div class="math notranslate nohighlight">
+\[I\{1\}=I,\]</div>
+<p>άρα και  <span class="math notranslate nohighlight">\([I_n][\{1\}]=[I_n].\)</span>  Από όλες τις ιδιότητες, αυτή που έχει ενδιαφέρον είναι η ύπαρξη του αντιστρόφου. Αρχικά, πρέπει να δούμε τι είναι μία μη μηδενική κλάση του  <span class="math notranslate nohighlight">\(\frak{A}.\)</span>  Έστω, λοιπόν,  <span class="math notranslate nohighlight">\([I_n]\neq[\{0\}],\)</span>  άρα δεν υπάρχει κοινή εκλέπτυνση ανάμεσα στην  <span class="math notranslate nohighlight">\((I_n)_n\)</span>  και την  <span class="math notranslate nohighlight">\((\{0\})_n.\)</span>  Τώρα, η μόνη πιθανή κοινή εκλέπτυνση των δύο παραπάνω ακολουθιών θα ήταν η  <span class="math notranslate nohighlight">\((\{0\})_n,\)</span>  οπότε το παραπάνω μάς λέει ότι η  <span class="math notranslate nohighlight">\((\{0\})_n\)</span>  δεν είναι εκλέπτυνση της  <span class="math notranslate nohighlight">\((I_n)_n.\)</span>  Συνεπώς, υπάρχει κάποιος δείκτης  <span class="math notranslate nohighlight">\(m\)</span>  έτσι ώστε  <span class="math notranslate nohighlight">\(0\not\in I_m\)</span>  και, λόγω της μονοτονίας της  <span class="math notranslate nohighlight">\(I_n,\)</span>  έχουμε ότι για κάθε  <span class="math notranslate nohighlight">\(n\geq m\)</span>  ισχύει  <span class="math notranslate nohighlight">\(0\not\in I_n.\)</span></p>
+<p>Συνεχίζοντας, για μία μη μηδενική κλάση  <span class="math notranslate nohighlight">\([I_n],\)</span>  έστω  <span class="math notranslate nohighlight">\(m\)</span>  ο δείκτης από τον οποίο και μετά όλα τα διαστήματα της ακολουθίας δεν περιέχουν το μηδέν. Τώρα, για ένα διάστημα  <span class="math notranslate nohighlight">\(I\)</span>  που δεν περιέχει το μηδέν ορίζουμε, γενικά:</p>
+<div class="math notranslate nohighlight">
+\[I^{-1}:=\{x^{-1}:x\in I\}.\]</div>
+<p>Τέλος, για την παραπάνω ακολουθία διαστημάτων ορίζουμε την ακολουθία:</p>
+<div class="math notranslate nohighlight">
+\[J_n:=\left\{\begin{array}{ll}K_n &amp; n&lt;m\I_n^{-1} &amp; n\geq m\end{array}\right.,\]</div>
+<p>όπου  <span class="math notranslate nohighlight">\(K_n\)</span>  είναι τα διαστήματα που προκύπτουν από τα  <span class="math notranslate nohighlight">\(I_n\)</span>  αν διατηρήσουμε μόνο τα αντίστροφα των στοιχείων που είναι ομόσημα με τα στοιχεία του  <span class="math notranslate nohighlight">\(I_m\)</span>  για κάθε  <span class="math notranslate nohighlight">\(n=1,2,\ldots,m-1.\)</span>  Δηλαδή, αν π.χ. τα στοιχεία του  <span class="math notranslate nohighlight">\(I_m\)</span>  είναι όλα τους αρνητικά τότε κρατάμε τα αρνητικά στοιχεία από κάθε  <span class="math notranslate nohighlight">\(I_n\)</span>  και τα αντιστρέφουμε. Δεδομένου ότι  <span class="math notranslate nohighlight">\(I_n\supseteq I_m\)</span>  για κάθε  <span class="math notranslate nohighlight">\(n=1,2,\ldots,m-1\)</span>  έπεται ότι και η  <span class="math notranslate nohighlight">\(J_n\)</span>  είναι φθίνουσα ακολουθία ενώ το γεγονός ότι είναι και αποσβένουσα έπεται από τη συνέχεια της  <span class="math notranslate nohighlight">\(\dfrac{1}{x}\)</span>  - ή, αν φανούμε λίγο παραπάνω σχολαστικοί και αποφύγουμε την επίκληση στη συνέχεια της  <span class="math notranslate nohighlight">\(\dfrac{1}{x},\)</span>  μπορούμε να μιμηθούμε την απόδειξη της συνέχειας της  <span class="math notranslate nohighlight">\(\dfrac{1}{x}\)</span>  για να αποδείξουμε ότι η  <span class="math notranslate nohighlight">\((J_n)_n\)</span>  είναι αποσβένουσα.</p>
+<p>Είναι σχετικά απλό, τώρα, να επαληθεύσει κανείς ότι η ακολουθία  <span class="math notranslate nohighlight">\((\{1\})_n\)</span>  είναι μία εκλέπτυνση της  <span class="math notranslate nohighlight">\((I_nJ_n)_n\)</span>  οπότε και  <span class="math notranslate nohighlight">\([I_nJ_n]=[\{1\}].\)</span></p>
+<p>Ουφ! Ορίσαμε τις πράξεις, βγήκαν τα εννιά αλγεβρικά αξιώματα όπως θα θέλαμε, μένει τώρα η διάταξη και το αξίωμα της πληρότητας. Για τη διάταξη, αν  <span class="math notranslate nohighlight">\([I_n],[J_n]\in A\)</span>  τότε θα λέμε ότι  <span class="math notranslate nohighlight">\([I_n]&lt;[J_n]\)</span>  αν και μόνον αν υπάρχει κάποιο  <span class="math notranslate nohighlight">\(m\)</span>  έτσι ώστε για κάθε  <span class="math notranslate nohighlight">\(x\in I_m\)</span>  και  <span class="math notranslate nohighlight">\(y\in J_m\)</span>  να ισχύει  <span class="math notranslate nohighlight">\(x&lt;y.\)</span>  Με τις παραπάνω πράξεις δεν είναι παρά υπόθεση ρουτίνας να αποδείξουμε και τα συνήθη αξιώματα της διάταξης - ωστόσο, δε θα το κάνουμε γιατί πολύ κουραστήκαμε ως τώρα.</p>
+</section>
+<section id="id13">
+<h2>Η απόδειξη του αξιώματος της πληρότητας<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id13" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id13'"><span>#</span></a></h2>
+<p>Περνάμε τώρα στο ζουμερότερο όλων των αξιωμάτων, που δεν είναι άλλο από αυτό της πληρότητας. Μπορούμε να αποδείξουμε οποιαδήποτε από τις τρεις μορφές του που έχουμε δει ως τώρα ότι είναι ισοδύναμες, ωστόσο, κυρίως για λόγους απλότητας, θα αποδείξουμε τη συνήθη μορφή του. Έστω, λοιπόν, ένα μη κενό υποσύνολο  <span class="math notranslate nohighlight">\(\mathcal{B}\)</span>  του  <span class="math notranslate nohighlight">\(\frak{A}\)</span>  το οποίο υποθέτουμε ότι είναι και άνω φραγμένο. Θα αποδείξουμε ότι το  <span class="math notranslate nohighlight">\(\mathcal{B}\)</span>  έχει ένα ελάχιστο άνω φράγμα.</p>
+<p>Αρχικά, επειδή το  <span class="math notranslate nohighlight">\(\mathcal{B}\)</span>  είναι μη κενό, υπάχει κάποια κλάση  <span class="math notranslate nohighlight">\([B_n]\in\mathcal{B}.\)</span>  Από την άλλη, επειδή είναι άνω φραγμένο υπάρχει μία κλάση  <span class="math notranslate nohighlight">\([C_n]\in A\)</span>  έτσι ώστε για κάθε κλάση  <span class="math notranslate nohighlight">\([I_n]\in\mathcal{B}\)</span>  να ισχύει  <span class="math notranslate nohighlight">\([I_n]\leq[C_n].\)</span>  Από εδώ κι έπειτα, η απόδειξη περιπλέκεται αρκετά, είναι η αλήθεια. Αρχικά, θα κατασκευάσουμε το supremum ενός άλλου συνόλου, το οποίο μετά θα δείξουμε ότι είναι το ίδιο με το supremum του συνόλου που μας απασχολεί. Παρατηρούμε πρώτα ότι η ζουμερή περίπτωση είναι αυτή όπου το  <span class="math notranslate nohighlight">\(\mathcal{B}\)</span>  περιέχει άπειρα στο πλήθος στοιχεία μεγαλύτερα της  <span class="math notranslate nohighlight">\([B_n]\)</span>  καθώς σε αντίθετη περίπτωση επιλέγουμε απλώς το μεγαλύτερο από τα πεπερασμένα στο πλήθος στοιχεία που είναι μεγαλύτερα της  <span class="math notranslate nohighlight">\([B_n].\)</span></p>
+<p>Πριν συνεχίσουμε την απόδειξή μας, ας συμφωνήσουμε να κάνουμε μία ακόμα απλοποίηση του συμβολισμού γιατί αν συνεχίσουμε έτσι παρακάτω θα μας βγουν τα μάτια. Γενικά, θα κρατήσουμε τον απλοποιημένο συμβολισμό  <span class="math notranslate nohighlight">\([I_n]\)</span>  για τις κλάσεις του  <span class="math notranslate nohighlight">\(\frak{A},\)</span>  ωστόσο θα επιλέξουμε να απλοποιήσουμε τον συμβολισμό έτι περαιτέρω όταν πρόκειται για κλάσεις που αναπαριστού ρητούς αριθμούς. Αντί να γράφουμε  <span class="math notranslate nohighlight">\([\{q\}]\)</span>  για μία κλάση που έχει ως αντιπρόσωπο τη σταθερή ακολουθία  <span class="math notranslate nohighlight">\((\{q\})_n,\)</span>  θα γράφουμε απλώς  <span class="math notranslate nohighlight">\(q\)</span>  εκτός αν υπάρχει κίνδυνος να δημιουργηθεί σύγχυση με τον ρητό αριθμό  <span class="math notranslate nohighlight">\(q.\)</span>  Αυτό γίνεται τόσο για λόγους απλότητας όσο και για λόγους εννοιολογικούς καθώς, πράγματι, στην κατασκευή που έχουμε κάνει, αυτές οι κλάσεις ταυτίζονται με τους ρητούς αριθμούς και, άρα, έχει νόημα να τους συμβολίζουμε ως τέτοιους.</p>
+<p>Συνεχίζουμε τώρα με το πρώτο μέρος της απόδειξης του αξιώματος της πληρότητας. Όπως είπαμε, θα ορίσουμε ένα άλλο σύνολο κλάσεων του οποίου το supremum - το οποίο θα δείξουμε ότι υπάρχει - θα συμπίπτει με αυτό το συνόλου  <span class="math notranslate nohighlight">\(\mathcal{B}.\)</span>  Η κατασκευή του παραπάνω συνόλου θα γίνει επαγωγικά:</p>
+<ul class="simple">
+<li><p>Θέτουμε  <span class="math notranslate nohighlight">\(X_0=[B_n]\)</span>  και  <span class="math notranslate nohighlight">\(Y_0=[C_n]\)</span></p></li>
+<li><p>Θεωρούμε την κλάση  <span class="math notranslate nohighlight">\([D_n]=\frac{1}{2}[B_n+C_n]\)</span>  - που είναι, πρακτικά, ο μέσος των κλάσεων  <span class="math notranslate nohighlight">\([B_n],[C_n].\)</span>  Αυτή είτε είναι ένα άνω φράγμα του  <span class="math notranslate nohighlight">\(\mathcal{B}\)</span>  είτε όχι. Αν είναι, θέτουμε  <span class="math notranslate nohighlight">\(X_1=[B_n], Y_1=[D_n]\)</span>  ενώ αν δεν είναι θέτουμε  <span class="math notranslate nohighlight">\(X_1=[D_n], Y_1=[C_n].\)</span></p></li>
+<li><p>Τώρα, θεωρούμε την κλάση  <span class="math notranslate nohighlight">\([D_n]=\frac{1}{2}(X_1+Y_1)\)</span>  και αν αυτή είναι άνω φράγμα του  <span class="math notranslate nohighlight">\(\mathcal{B}\)</span>  τότε θέτουμε  <span class="math notranslate nohighlight">\(X_2=X_1, Y_2=[D_n]\)</span>  ενώ αν δεν είναι θέτουμε  <span class="math notranslate nohighlight">\(X_2=[D_n], Y_2=Y_1.\)</span></p></li>
+<li><p>Επαγωγικά, κατασκευάζουμε δύο ακολουθίες κλάσεων,  <span class="math notranslate nohighlight">\((X_n)_n,(Y_n)_n\)</span>  με τα εξής χαρακτηριστικά:</p>
+<ul>
+<li><p>Για κάθε  <span class="math notranslate nohighlight">\(n\in\mathbb{N}\)</span>  ο όρος  <span class="math notranslate nohighlight">\(X_n\)</span>  δεν είναι άνω φράγμα του  <span class="math notranslate nohighlight">\(\mathcal{B}\)</span>  ενώ ο όρος  <span class="math notranslate nohighlight">\(Y_n\)</span>  είναι.</p></li>
+<li><p>Για κάθε  <span class="math notranslate nohighlight">\(n\in\mathbb{N}\)</span>  έχουμε  <span class="math notranslate nohighlight">\(X_n&lt;Y_n\)</span>  και μάλιστα  <span class="math notranslate nohighlight">\(Y_n-X_n=\frac{1}{2}(Y_{n-1}-X_{n-1}).\)</span>  Από αυτό άμεσα έπεται ότι  <span class="math notranslate nohighlight">\(Y_n-X_n=\frac{1}{2^n}(Y_0-X_0).\)</span></p></li>
+</ul>
+</li>
+</ul>
+<p>Θεωρούμε τώρα το σύνολο:</p>
+<div class="math notranslate nohighlight">
+\[\mathcal{B}_0:=\{X_n:n\in\mathbb{N}\}.\]</div>
+<p>Το σύνολο  <span class="math notranslate nohighlight">\(\mathcal{B}_0\)</span>  αποτελείται από κλάσεις που καμία τους δεν είναι άνω φράγματα του  <span class="math notranslate nohighlight">\(\mathcal{B}\)</span>  και που πλησιάζουν αυθαίρετα κοντά σε άνω φράγματα του  <span class="math notranslate nohighlight">\(\mathcal{B}.\)</span>  Θα δείξουμε τώρα ότι <em>αν υπάρχει</em> το supremum του  <span class="math notranslate nohighlight">\(\mathcal{B}_0\)</span>  τότε υπάρχει και το supremum του  <span class="math notranslate nohighlight">\(\mathcal{B}\)</span>  και μάλιστα είναι ίσα, δηλαδή  <span class="math notranslate nohighlight">\(\sup\mathcal{B}_0=\sup\mathcal{B}.\)</span>  Έστω, λοιπόν, ότι  <span class="math notranslate nohighlight">\(\sup\mathcal{B}_0=s\in A.\)</span>  Θα δείξουμε αρχικά ότι το  <span class="math notranslate nohighlight">\(s\)</span>  είναι ένα άνω φράγμα του  <span class="math notranslate nohighlight">\(\mathcal{B}.\)</span>  Αν, προς άτοπο, δεν είναι ένα άνω φράγμα του, τότε υπάρχει κάποιο στοιχείο  <span class="math notranslate nohighlight">\(t\in\mathcal{B}\)</span>  το οποίο να είναι μεγαλύτερο του  <span class="math notranslate nohighlight">\(s,\)</span>  δηλαδή,  <span class="math notranslate nohighlight">\(s&lt;t.\)</span>  Τώρα, θεωρούμε την κλάση  <span class="math notranslate nohighlight">\(s-t\)</span>  για την οποία παρατηρούμε ότι  <span class="math notranslate nohighlight">\(s-t&gt;0.\)</span>  Εδώ πολύ θα θέλαμε να πούμε ότι μπορούμε να βρούμε έναν δείκτη  <span class="math notranslate nohighlight">\(n\)</span>  έτσι ώστε  <span class="math notranslate nohighlight">\(\frac{1}{2^n}&lt;s-t\)</span>  - όλα αυτά είναι κλάσεις. Το παραπάνω, όμως, απαιτεί να ορίσουμε καλά μία έννοια σύγκλισης στο σύνολο  <span class="math notranslate nohighlight">\(\frak{A},\)</span>  καθώς και ότι  <span class="math notranslate nohighlight">\(\left(\left[\left\{\frac{1}{2^n}\right\}\right]\right)_n\to[\{0\}].\)</span></p>
+<p>Ως τώρα έχουμε αποδείξει ότι ισχύουν στο  <span class="math notranslate nohighlight">\(\frak{A}\)</span>  όλα τα αξιώματα που περιγράφουν τους ρητούς - τα αξιώματα, δηλαδή, ενός ολικά διατεταγμένου σώματος. Έχουμε, επίσης, εντοπίσεις τους ρητούς μέσα στο  <span class="math notranslate nohighlight">\(A\)</span>  - που, όπως είπαμε, είναι οι κλάσεις των σταθερών ακολουθιών ρητών αριθμών. Με αυτά μπορούμε - με τρόπο πανοποιότυπο με αυτόν που κάνουμε για τους ρητούς αριθμούς, όπως π.χ. είδαμε <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">εδώ</a>:</p>
+<ul class="simple">
+<li><p>να αποδείξουμε ότι οι ρητές κλάσεις όπως τις ορίσαμε παραπάνω είναι πυκνές στο  <span class="math notranslate nohighlight">\(\frak{A},\)</span></p></li>
+<li><p>να ορίσουμε μία έννοια σύγκλισης ακολουθιών κλάσεων με τρόπο πανομοιότυπο με αυτόν που την ορίζουμε και στους ρητούς,</p></li>
+<li><p>να ορίσουμε ή να αποδείξουμε όποια ιδιότητα των πραγματικών αριθμών δεν έχει να κάνει με την πληρότητά τους - όποια ιδιότητα δηλαδή ισχύει και για τους ρητούς αριθμούς ή, γενικότερα, σε ένα ολικά διατεταγμένο σώμα.</p></li>
+</ul>
+<p>Έτσι, μπορούμε με σχετική ασφάλεια να ισχυριστούμε πράγματι ότι υπάρχει ένας  <span class="math notranslate nohighlight">\(n\in\mathbb{N}\)</span>  έτσι ώστε να έχουμε  <span class="math notranslate nohighlight">\(0&lt;\frac{1}{2^n}&lt;(s-t)(Y_0-X_0)^{-1}\)</span>  - όπου όλα τα προηγούμενα να επισημάνουμε ξανά ότι είναι κλάσεις και όχι αριθμοί. Τώρα, με αυτό στα χέρια μας μπορούμε να παρατηρήσουμε ότι για τον εν λόγω  <span class="math notranslate nohighlight">\(n\)</span>  έχουμε άμεσα και ότι:</p>
+<div class="math notranslate nohighlight">
+\[0&lt;Y_n-X_n=\frac{1}{2^n}(Y_0-X_0)&lt;s-t.\]</div>
+<p>Αυτό, τώρα, αν το καθαρογράψουμε λίγο, μας δίνει το εξής:</p>
+<div class="math notranslate nohighlight">
+\[Y_n&lt;X_n+s-t\leq s+s-t&lt;t+t-t=t,\]</div>
+<p>άτοπο καθώς το  <span class="math notranslate nohighlight">\(t\in\mathcal{B}\)</span>  ενώ το  <span class="math notranslate nohighlight">\(Y_n\)</span>  είναι άνω φράγμα του  <span class="math notranslate nohighlight">\(\mathcal{B}.\)</span>  Συνεπώς, πράγματι το  <span class="math notranslate nohighlight">\(s\)</span>  είναι ένα άνω φράγμα του  <span class="math notranslate nohighlight">\(\mathcal{B}.\)</span>  Θα δείξουμε τώρα ότι είναι και το ελάχιστο. Έστω, προς άτοπο, ότι υπάρχει ένα άνω φράγμα  <span class="math notranslate nohighlight">\(r\)</span>  του  <span class="math notranslate nohighlight">\(\mathcal{B}\)</span>  τέτοιο ώστε  <span class="math notranslate nohighlight">\(r&lt;s.\)</span>  Τότε, από τον χαρακτηρισμό του supremum - τον οποίο έχουμε δει <a class="reference external" href="docs/After-maths/τα-πολλά-πρόσωπα-του-αξιώματος-της-π.rst">εδώ</a> και ο οποίος δεν εξαρτάται από την πληρότητα των πραγματικών αριθμώ και ισχύει γενικά σε ένα ολικά διατεταγμένο σώμα όπως το  <span class="math notranslate nohighlight">\(\frak{A}\)</span>  - έχουμε ότι υπάρχει ένα στοιχείο  <span class="math notranslate nohighlight">\(X_m\in\mathcal{B}_0\)</span>  τέτοιο ώστε:</p>
+<div class="math notranslate nohighlight">
+\[s-X_m&lt;s-r\Leftrightarrow X_m&gt;r.\]</div>
+<p>Ωστόσο, εξ ορισμού, το  <span class="math notranslate nohighlight">\(X_m\)</span>  δεν είναι άνω φράγμα το  <span class="math notranslate nohighlight">\(\mathcal{B}\)</span>  ενώ το  <span class="math notranslate nohighlight">\(r\)</span>  έχει υποτεθεί ότι είναι, άτοπο, επομένως το  <span class="math notranslate nohighlight">\(s\)</span>  είναι το ελάχιστο άνω φράγμα του  <span class="math notranslate nohighlight">\(\mathcal{B}\)</span>  δηλαδή  <span class="math notranslate nohighlight">\(\sup\mathcal{B}=s.\)</span></p>
+<p>Επομένως, έχουμε δείξει κάτι αρκετά εξυπηρετικό, όπως επισημάναμε και παραπάνω. Αντί να ασχολούμαστε με το  <span class="math notranslate nohighlight">\(\mathcal{B}\)</span>  μπορούμε, σε ό,τι έχει να κάνει την ύπαρξη του supremum του, να ασχολούμαστε μόνο με ένα αριθμήσιμο σύνολο, το  <span class="math notranslate nohighlight">\(\mathcal{B}_0,\)</span>  το οποίο απαρτίζεται από μη άνω φράγματα του  <span class="math notranslate nohighlight">\(\mathcal{B}\)</span>  και ισχύει  <span class="math notranslate nohighlight">\(\sup\mathcal{B}_0=\sup\mathcal{B}\)</span>  - αν το  <span class="math notranslate nohighlight">\(\mathcal{B}_0\)</span>  υπάρχει. Αρκεί, λοιπόν, να δείξουμε ότι υπάρχει του  <span class="math notranslate nohighlight">\(\sup\mathcal{B}_0.\)</span>  Τώρα, για να δείξουμε ότι υπάρχει, θα χρειαστεί να το κατασκευάσουμε. Στην παρακάτω κατασκευή θα μας φανεί αρκετά χρήσιμο το ακόλουθο λήμμα:</p>
+<p>Αν  <span class="math notranslate nohighlight">\([I_n]\in\mathfrak{A}&amp;fg=362e77&amp;bg=d9d9d9\)</span>  είναι μία κλάση ακολουθιών διαστημάτων και  <span class="math notranslate nohighlight">\(a\in\mathbb{Q}&amp;fg=362e77&amp;bg=d9d9d9\)</span>  με  <span class="math notranslate nohighlight">\(a&gt;0&amp;fg=362e77&amp;bg=d9d9d9\)</span>  είναι ένας θετικός ρητός αριθμός, τότε μπορούμε να επιλέξουμε έναν αντιπρόσωπο της κλάσης  <span class="math notranslate nohighlight">\([I_n]&amp;fg=362e77&amp;bg=d9d9d9\)</span>  έτσι ώστε η διάμετρος όλων των διαστημάτων να είναι το πολύ ίση με  <span class="math notranslate nohighlight">\(a.&amp;fg=362e77&amp;bg=d9d9d9\)</span></p>
+<p>Η απόδειξη του παραπάνω είναι σχετικά απλή. Έστω μία κλάση  <span class="math notranslate nohighlight">\([I_n]\in\mathfrak{A}\)</span>  κι έστω κι ένας θετικός ρητός  <span class="math notranslate nohighlight">\(a.\)</span>  Αφού η διάμετρος των διαστημάτων  <span class="math notranslate nohighlight">\(I_n\)</span>  τείνει στο μηδέν, θα υπάρχει κάποιος δείκτης  <span class="math notranslate nohighlight">\(m\)</span>  από τον οποίο και μετά να ισχύει:</p>
+<div class="math notranslate nohighlight">
+\[b_n-a_n&lt;a για κάθε .. math:: n\geq m,\]</div>
+<p>όπου  <span class="math notranslate nohighlight">\(I_n=[a_n,b_n].\)</span>  Τώρα, θεωρούμε την ακολουθία διαστημάτων  <span class="math notranslate nohighlight">\((J_n)_n\)</span>  όπου:</p>
+<div class="math notranslate nohighlight">
+\[J_n=\left\{\begin{array}{ll}I_m &amp; n\leq m\I_n &amp; n\geq m\end{array}\right..\]</div>
+<p>Με άλλα λόγια, κρατάμε σταθερά το διάστημα  <span class="math notranslate nohighlight">\(I_m\)</span>  για τους πρώτους  <span class="math notranslate nohighlight">\(m\)</span>  όρους της ακολουθίας μας και έπειτα συνεχίζουμε κανονικά με τους όρους της  <span class="math notranslate nohighlight">\((I_n)_n.\)</span>  Αυτό έχει ως αποτέλεσμα κάθε όρος της  <span class="math notranslate nohighlight">\(J_n\)</span>  να έχει διάμετρο το πολύ ίση με  <span class="math notranslate nohighlight">\(a.\)</span>  Από την άλλη, σαφώς και η  <span class="math notranslate nohighlight">\((J_n)_n\)</span>  είναι ισοδύναμη με την  <span class="math notranslate nohighlight">\((I_n)_n\)</span>  καθώς η  <span class="math notranslate nohighlight">\((J_n)_n\)</span>  αποτελεί κοινή τους εκλέπτυνσης, επομένως  <span class="math notranslate nohighlight">\((J_n)_n\sim(I_n)_n\)</span>  και άρα  <span class="math notranslate nohighlight">\([I_n]=[J_n]\)</span>  οπότε και το λήμμα αποδείχθηκε.</p>
+<p>Τώρα, αξιοποιώντας το παραπάνω λήμμα, θεωρούμε αντιπροσώπους των κλάσεων  <span class="math notranslate nohighlight">\(X_n,\)</span>  έστω  <span class="math notranslate nohighlight">\((I_{n,k})_k,\)</span>  τέτοιους ώστε η διάμετρος της ακολουθίας  <span class="math notranslate nohighlight">\((I_{n,k})_k\)</span>  να είναι το πολύ  <span class="math notranslate nohighlight">\(\dfrac{1}{2^n}.\)</span>  Δεδομένου ότι το  <span class="math notranslate nohighlight">\(\mathcal{B}_0\)</span>  είναι άνω φραγμένο και ότι τα πλάτη των αντιπροσώπων που διαλέξαμε παραπάνω είναι όροι ακολουθίας της οποίας η αντίστοιχη σειρά συγκλίνει, έπεται ότι τα παρακάτω σύνολα είναι όλα τους άνω φραγμένα:</p>
+<div class="math notranslate nohighlight">
+\[J_k:=\bigcup_{n=1}^\infty I_{n,k}.\]</div>
+<p>Τώρα, αφου τα παραπάνω σύνολα είναι μη κενά και άνω φραγμένα μπορούμε να βρούμε για κάθε  <span class="math notranslate nohighlight">\(k\in\mathbb{N}\)</span>  δύο ρητούς αριθμούς  <span class="math notranslate nohighlight">\(x_k,y_k\)</span>  έτσι ώστε:</p>
+<ul class="simple">
+<li><p>ο  <span class="math notranslate nohighlight">\(y_k\)</span>  είναι ένα άνω φράγμα του  <span class="math notranslate nohighlight">\(J_k,\)</span></p></li>
+<li><p>ο  <span class="math notranslate nohighlight">\(x_k\)</span>  δεν είναι ένα άνω φράγμα του  <span class="math notranslate nohighlight">\(J_k\)</span>  - οπότε και  <span class="math notranslate nohighlight">\(x_k&lt;y_k,\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(x_k-y_k&lt;\dfrac{1}{2^k},\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(x_1\leq x_2\leq\ldots\)</span>  και  <span class="math notranslate nohighlight">\(y_1\geq y_2\geq\ldots\)</span></p></li>
+</ul>
+<p>Την ιδέα της παραπάνω κατασκευής την έχουμε παρουσιάσει αρκετές φορές ως τώρα - και σε αυτήν την ανάρτηση και σε αυτήν τη σειρά - οπότε ας μην την ξαναγράψουμε εδώ. Αυτό που έχει αξία και ενδιαφέρον να παρατηρήσουμε είναι ότι το παραπάνω είναι μία χαρακτηριστική <em>κατά προσέγγιση</em> διατύπωση του αξιώματος της πληρότητας στους ρητούς αριθμούς. Δηλαδή, αν και δεν μπορούμε για κάθε μη κενό και άνω φραγμένο υποσύνολο των ρητών αριθμών να βρούμε ένα ελάχιστο άνω φράγμα, μπορούμε πάντοτε να κατασκευάσουμε δύο ακολουθίες, μία από άνω φράγματα του συνόλου και μία από μη άνω φράγματα του συνόλου, οι όροι των οποίων να βρίσκονται αυθαίρετα κοντά για αυθαίρετα μεγάλες τιμές του  <span class="math notranslate nohighlight">\(n\)</span>  - βασικά, αυτό μπορούμε να το κάνουμε σε κάθε ολικά διατεταγμένο (άπειρο) σώμα.</p>
+<p>Ίσως το μόνο που χρειάζεται να εξηγήσουμε να είναι η μονοτονία των παραπάνω ακολουθιών ρητών, η οποία προκύπτει απλά επιλέγοντας σε κάθε βήμα όρους μεγαλύτερους (ή ίσους) από τους προηγούμενους - για τα  <span class="math notranslate nohighlight">\(x_k\)</span>  - ή μικρότερους (ή ίσους) από τους προηγούμενους - για τα  <span class="math notranslate nohighlight">\(y_k\)</span>  - αυτό μπορεί να γίνει δεδομένου ότι στη χειρότερη περίπτωση απλώς επιλέγουμε συνεχώς τον ίδιο ρητό.</p>
+<p>Θεωρούμε τώρα την ακολουθία διαστημάτων  <span class="math notranslate nohighlight">\((L_k)_k\)</span>  όπου:</p>
+<div class="math notranslate nohighlight">
+\[L_k:=[x_k,y_k].\]</div>
+<p>Η παραπάνω ακολουθία και, για την ακρίβεια, η κλάση της,  <span class="math notranslate nohighlight">\([L_k],\)</span>  θα δείξουμε ότι είναι το supremum του  <span class="math notranslate nohighlight">\(\mathcal{B}_0.\)</span>  Αρχικά, θα δείξουμε ότι είναι ένα άνω φράγμα του. Αν, προς άτοπο, δεν ήταν, τότε θα υπήρχε ένας δείκτης  <span class="math notranslate nohighlight">\(m\)</span>  και μία κλάση  <span class="math notranslate nohighlight">\(X_m\)</span>  έτσι ώστε να ισχύει  <span class="math notranslate nohighlight">\([L_k]&lt;X_m,\)</span>  δηλαδή  <span class="math notranslate nohighlight">\([L_k]&lt;[I_{m,k}].\)</span>  Αυτό, με τον τρόπο που έχουμε ορίσει τη διάταξη στο  <span class="math notranslate nohighlight">\(\mathfrak{A},\)</span>  σημαίνει ότι υπάρχει κάποιος δείκτης  <span class="math notranslate nohighlight">\(k_0\)</span>  έτσι ώστε για κάθε  <span class="math notranslate nohighlight">\(k\geq k_0\)</span>  να ισχύει ότι  <span class="math notranslate nohighlight">\(L_k&lt;I_{m,k}\)</span>  - με την έννοια που ορίσαμε παραπάνω, ότι δηλαδή όλα τα στοιχεία του «μικρότερου» διαστήματος είναι μικρότερα από αυτά του «μεγαλύτερου». Ειδικότερα, το παραπάνω σημαίνει ότι και το άνω άκρο του  <span class="math notranslate nohighlight">\(L_k,\)</span>  δηλαδή το  <span class="math notranslate nohighlight">\(y_k,\)</span>  είναι μικρότερο του  <span class="math notranslate nohighlight">\(m_k\)</span>  για  <span class="math notranslate nohighlight">\(k\geq k_0,\)</span>  όπου  <span class="math notranslate nohighlight">\(m_k\)</span>  είναι τα αριστερό άκρο του  <span class="math notranslate nohighlight">\(I_{m,k}.\)</span>  Τώρα, για κάποιο αρκετά μεγάλο  <span class="math notranslate nohighlight">\(N\)</span>  από τα παραπάνω έχουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[y_N-x_N&lt;\dfrac{1}{2^N}&lt;m_{k_0}-x_{k_0}.\]</div>
+<p>Τώρα, για κάθε  <span class="math notranslate nohighlight">\(k\geq k_0\)</span>  έχουμε επίσης  <span class="math notranslate nohighlight">\(m_k-x_k\geq m_{k_0}-x_{k_0}\)</span>  οπότε για το παραπάνω αρκετά μεγάλο  <span class="math notranslate nohighlight">\(N\)</span>  έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[y_N-x_N&lt;m_N-x_N\Leftrightarrow y_N&lt;m_N.\]</div>
+<p>Ωστόσο, το παραπάνω είναι άτοπο, δεδομένου ότι το  <span class="math notranslate nohighlight">\(y_N\)</span>  είναι ένα άνω φράγμα του  <span class="math notranslate nohighlight">\(J_N\)</span>  αλλά το  <span class="math notranslate nohighlight">\(m_N\in J_N.\)</span>  Συνεπώς, η  <span class="math notranslate nohighlight">\([L_k]\)</span>  είναι ένα άνω φράγμα του  <span class="math notranslate nohighlight">\(\mathcal{B}_0.\)</span></p>
+<p>Μένει να δείξουμε τώρα ότι είναι και το ελάχιστο άνω φράγμα του  <span class="math notranslate nohighlight">\(\mathcal{B}_0.\)</span>  Εντάξει, όπως φαντάζεστε, θα πάμε με απαγωγή σε άτοπο. Έστω, λοιπόν, ότι δεν είναι το ελάχιστο άνω φράγμα του  <span class="math notranslate nohighlight">\(\mathcal{B}_0\)</span>  η κλάση  <span class="math notranslate nohighlight">\([L_k],\)</span>  επομένως θα υπάρχει μία άλλη κλάση, έστω  <span class="math notranslate nohighlight">\([S_k]\)</span>  η οποία θα αποτελεί κι αυτή άνω φράγμα του  <span class="math notranslate nohighlight">\(\mathcal{B}_0\)</span>  και θα ισχύει και ότι  <span class="math notranslate nohighlight">\([S_k]&lt;[L_k].\)</span>  Αυτό, όπως έχουμε πει, σημαίνει ότι υπάρχει ένας δείκτης  <span class="math notranslate nohighlight">\(k_0\)</span>  τέτοιος ώστε για κάθε  <span class="math notranslate nohighlight">\(k\geq k_0\)</span>  να ισχύει ότι  <span class="math notranslate nohighlight">\(S_k&lt;L_k\)</span>  - δηλαδή, όλα τα στοιχεία του αριστερού διαστήματος είναι μικρότερα από όλα τα στοιχεία του δεξιού. Επειδή τα  <span class="math notranslate nohighlight">\(x_k\)</span>  δεν είναι άνω φράγματα του  <span class="math notranslate nohighlight">\(J_k\)</span>  έπεται ότι υπάρχουν  <span class="math notranslate nohighlight">\(z_k\in J_k\)</span>  τέτοια ώστε  <span class="math notranslate nohighlight">\(z_k&gt;x_k.\)</span></p>
+<p>Όπως και παραπάνω, υπάρχει κάποιος αρκετά μεγάλος δείκτης  <span class="math notranslate nohighlight">\(N\)</span>  έτσι ώστε:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{1}{2^N}&lt;x_{k_0}-m_{k_0},\]</div>
+<p>όπου  <span class="math notranslate nohighlight">\(m_k\)</span>  γενικά είναι εδώ το δεξί (άνω) άκρο του  <span class="math notranslate nohighlight">\(S_k.\)</span>  Τότε, για το εν λόγω  <span class="math notranslate nohighlight">\(N\)</span>  έχουμε και:</p>
+<div class="math notranslate nohighlight">
+\[y_N-x_N&lt;\dfrac{1}{2^N}\Rightarrow z_N-x_N&lt;\dfrac{1}{2^N}.\]</div>
+<p>Τώρα, δεδομένου ότι το  <span class="math notranslate nohighlight">\(y_N\)</span>  δεν είναι άνω φράγμα του  <span class="math notranslate nohighlight">\(J_N\)</span>  και  <span class="math notranslate nohighlight">\(y_N-x_N&lt;\dfrac{1}{2^N},\)</span>  έπεται ότι το  <span class="math notranslate nohighlight">\(z_N\)</span>  ανήκει σε κάποιο διάστημα  <span class="math notranslate nohighlight">\(I_{n,N}\)</span>  για  <span class="math notranslate nohighlight">\(n\geq N.\)</span>  Με άλλα λόγια, είναι στοιχείο ενός διαστήματος μίας ακολουθίας που δεν έχει μέγιστο μήκος μεγαλύτερο από  <span class="math notranslate nohighlight">\(\dfrac{1}{2^N}.\)</span>  Ως εκ τούτου, θα πρέπει να έχουμε και  <span class="math notranslate nohighlight">\(I_{n,N}&gt;S_N\)</span>  για το εν λόγω  <span class="math notranslate nohighlight">\(n,\)</span>  άτοπο καθώς η  <span class="math notranslate nohighlight">\([S_k]\)</span>  έχει υποτεθεί άνω φράγμα του  <span class="math notranslate nohighlight">\(\mathcal{B}_0.\)</span></p>
+<p>Συνεπώς, η κλάση  <span class="math notranslate nohighlight">\([L_k]\)</span>  είναι το ελάχιστο άνω φράγμα του  <span class="math notranslate nohighlight">\(\mathcal{B}_0,\)</span>  άρα και του  <span class="math notranslate nohighlight">\(\mathcal{B},\)</span>  οπότε και έχουμε αποδείξει το αξίωμα της πληρότητας (επιτέλους).</p>
+</section>
+<section id="id14">
+<h2>Επίλογος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id14" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id14'"><span>#</span></a></h2>
+<p>Κουραστική κατασκευή και ακόμα πιο κουραστική η τελική απόδειξη του αξιώματος της πληρότητας. Λογικό, από τη μία μεριά, καθώς η δομή του συνόλου που χρησιμοποιήσαμε είναι ιδιαίτερα πολύπλοκη - θυμηθείτε: είναι σύνολο από κλάσεις ισοδυναμίας φθίνουσων ακολουθιών κλειστών διαστημάτων ρητών αριθμών. Ωστόσο, μέσα από την παραπάνω απόδειξη είχαμε την ευκαιρία να δούμε πώς μπορούμε να έχουμε στο μυαλό μας τους πραγματικούς αριθμούς με αρκετά διαφορετικές μορφές - στην προκειμένη, σαν κλάσεις από ακολουθίες διαστημάτων που είπαμε και παραπάνω.</p>
+<p>Μέχρι την επόμενη φορά, καλό απόγευμα!</p>
+<blockquote>
+<div><div class="video_wrapper" style="">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/LZYUHR5KHhY" style="border: 0; height: 345px; width: 560px">
+</iframe></div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">
+        Τι λέει το Θεώρημα του Bolzano;
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Η ιδέα της κατασκευής</a></li>
+<li><a :data-current="activeSection === '#id11'" class="reference internal" href="#id11">Τροποποιώντας την αρχική ιδέα μας</a></li>
+<li><a :data-current="activeSection === '#id12'" class="reference internal" href="#id12">Ώρα για αποδείξεις…</a></li>
+<li><a :data-current="activeSection === '#id13'" class="reference internal" href="#id13">Η απόδειξη του αξιώματος της πληρότητας</a></li>
+<li><a :data-current="activeSection === '#id14'" class="reference internal" href="#id14">Επίλογος</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

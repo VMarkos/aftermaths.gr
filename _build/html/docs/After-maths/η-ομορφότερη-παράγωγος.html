@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2023-04-05 15:33" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Μαθηματικά, Ολοκληρώματα" name="category"/>
+<meta content="featured, ολοκλήρωμα" name="tags"/>
+<meta content="%ce%b7-%ce%bf%ce%bc%ce%bf%cf%81%cf%86%cf%8c%cf%84%ce%b5%cf%81%ce%b7-%cf%80%ce%b1%cf%81%ce%ac%ce%b3%cf%89%ce%b3%ce%bf%cf%82" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2023/04/convergence_02.png, _static/images/uploads/2023/04/convergence_03.png, _static/images/uploads/2023/03/cantor_density_proof.png, _static/images/uploads/2023/03/fat_cantor_def_01.png, _static/images/uploads/2023/04/func_derivative_01.png, _static/images/uploads/2023/03/cantor_density_proof_03.png, _static/images/uploads/2023/03/cantor_density_proof_02.png, _static/images/uploads/2023/03/cantor_density_proof_04.png, _static/images/uploads/2023/04/convergence_04.png, _static/images/uploads/2023/04/convergence_05.png, _static/images/uploads/2023/04/convergence_01.png, _static/images/uploads/2023/03/diego_velazquez_-_an_old_woman_cooking_eggs_-_google_art_project.jpg" name="attachments"/>
+<title>Η Ομορφότερη Παράγωγος; | aftermaths</title>
+<meta content="Η Ομορφότερη Παράγωγος; | aftermaths" property="og:title"/>
+<meta content="Η Ομορφότερη Παράγωγος; | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html" rel="next" title="Η στρατηγική δε μετράει πάντα…"/>
+<link href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html" rel="prev" title="Η εικασία Collatz (8)"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Η Ομορφότερη Παράγωγος;</span>
+</nav>
+<div id="content" role="main">
+<section id="id1">
+<h1>Η Ομορφότερη Παράγωγος;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+<figure class="align-center" id="id7">
+<img alt="Ο πίνακας *Ηλικιωμένη γυναίκα τηγανίζει αυγά* του `Diego Velázquez  &lt;https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez&gt;`__." src="_static/images/uploads/2023/04/convergence_02.png,_static/images/uploads/2023/04/convergence_03.png,_static/images/uploads/2023/03/cantor_density_proof.png,_static/images/uploads/2023/03/fat_cantor_def_01.png,_static/images/uploads/2023/04/func_derivative_01.png,_static/images/uploads/2023/03/cantor_density_proof_03.png,_static/images/uploads/2023/03/cantor_density_proof_02.png,_static/images/uploads/2023/03/cantor_density_proof_04.png,_static/images/uploads/2023/04/convergence_04.png,_static/images/uploads/2023/04/convergence_05.png,_static/images/uploads/2023/04/convergence_01.png,_static/images/uploads/2023/03/diego_velazquez_-_an_old_woman_cooking_eggs_-_google_art_project.jpg"/>
+<figcaption>
+<p><span class="caption-text">Ο πίνακας <em>Ηλικιωμένη γυναίκα τηγανίζει αυγά</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez">Diego Velázquez</a>.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id7"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Κουραστήκαμε την <a class="reference external" href="docs/After-maths/πόσο-συνεχής-είναι-μια-παράγωγος.rst">προηγούμενη εβδομάδα</a>, αλλά άξιζε τον κόπο - εντάξει, τώρα η αξία και ο κόπος είναι έννοιες υποκειμενικές, αλλά, για να είστε εδώ, άξιζε τον κόπο. Συνοψίζοντας, ανασύραμε από το <a class="reference external" href="docs/After-maths/ολο-clear-ώματα-ολοκλήρωση-vs-αντιπαραγώγισ.rst">παρελθόν</a> ένα σημαντικό και ζουμερό ερώτημα. Πιο συγκεκριμένα, αναρωτηθήκαμε αν υπάρχει συνάρτηση που να ικανοποιεί όλα τα παρακάτω:</p>
+<ul class="simple">
+<li><p>Να είναι παραγωγίσιμη σε κάποιο διάστημα.</p></li>
+<li><p>Να έχει φραγμένη παράγωγο.</p></li>
+<li><p>Να μην είναι ολοκληρώσιμη η παράγωγός της.</p></li>
+</ul>
+<p>Για να δώσουμε απάντηση σε αυτό το ζουμερό ερώτημα, διατυπώσαμε έναν πολύ σημαντικό και κομψό χαρακτηρισμό για τις ολοκληρώσιμες συναρτήσεις: είναι ακριβώς αυτές που είναι το πολύ «λίγο» ασυνεχείς. Το πόσο λίγο μας το περιέγραψε αυστηρά ο Lebesgue, με τη βοήθεια του μέτρου του, λέγοντάς μας ότι το σύνολο των ασυνεχειών μίας ολοκληρώσιμης συνάρτησης πρέπει και αρκεί να έχει μηδενικό μέτρο.</p>
+<p>Έχοντας ξεκαθαρίσει τα παραπάνω, φτιάξαμε μία συνάρτηση που:</p>
+<ul class="simple">
+<li><p>Ήταν παραγωγίσιμη στο κλειστό διάστημα  <span class="math notranslate nohighlight">\([0,1]\)</span> .</p></li>
+<li><p>Είχε φραγμένη παράγωγο.</p></li>
+<li><p>Η παράγωγός της ήταν ασυνεχής σε ένα σύνολο που λέγεται σύνολο Cantor (θα το ξαναπιάσουμε αυτό).</p></li>
+</ul>
+<p>Το σύνολο Cantor, μέσα στα πολλά παράδοξά του, ενώ έχει πολλά στοιχεία - όσα και οι πραγματικοί αριθμοί - έχει μέτρο Lebesgue ίσο με το μηδέν. Επομένως, όσο μελάνι χύθηκε για να γραφτούν τα παραπάνω χύθηκε εις μάτην.</p>
+<p>Όμως, τι κάνουμε στα μαθηματικά όταν οι προσπάθειές μας αποτυγχάνουν; - [STRIKEOUT:τα παρατάμε]. Αλλάζουμε λίγο οπτική γωνία - άλλωστε, τα μαθηματικά είναι ένα χάος από μόνα τους, ευαίσθητα σε μικρές αλλαγές θα λέγαμε, εκνευρίζοντας λίγο τους φυσικούς…</p>
+<section id="cantor">
+<h2>Αν ταΐσουμε τον Cantor;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#cantor" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#cantor'"><span>#</span></a></h2>
+<p>Όπως είδαμε παραπάνω, τα κάναμε όλα τέλεια, εκτός από το πού ήταν ασυνεχής η παράγωγός μας. Αν είχαμε καταφέρει να την κατασκευάσουμε έτσι ώστε να είναι ασυνεχής σε ένα λίγο πιο παχύ σύνολο, τότε θα είχαμε λύσει το πρόβλημά μας. Όμως, θα θέλαμε κι ένα σύνολο που να είναι και λίγο ιδιότροπο, όπως αυτό του Cantor, γιατί εκμεταλλευτήκαμε πολλές ιδιότητές του για να «αποδείξουμε» την ασυνέχεια της παραγώγου. Ας θυμηθούμε κάπως αναλυτικότερα την κατασκευή αυτού του συνόλου, μπας και μας έρθει καμία ιδέα.</p>
+<p>Όπως είπαμε και την προηγούμενη φορά, ξεκινάμε από το κλειστό διάστημα  <span class="math notranslate nohighlight">\([0,1]\)</span>  και αρχίζουμε και πετάμε κομμάτια όπως παρακάτω:</p>
+<figure class="wp-image-11957 align-default" id="id8">
+<img alt="Βήμα 1ο στον δρόμο για τον Cantor..." src="https://aftermaths.gr/_static/images/uploads/2023/03/cantor_def_01.png?w=723"/>
+<figcaption>
+<p><span class="caption-text">Βήμα 1ο στον δρόμο για τον Cantor…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id8"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τα κομμάτια που πετάμε είναι πάντοτε τα μεσαία τρίτα των διαστημάτων που μας έχουν απομείνει. Έτσι, μετά το δεύτερο βήμα, το σύνολο που θα έχουμε στα χέρια μας θα μοιάζει κάπως έτσι:</p>
+<figure class="wp-image-11959 align-default" id="id9">
+<a class="reference internal image-reference" href="https://aftermaths.gr/_static/images/uploads/2023/03/cantor_def_02.png?w=723"><img alt="Βήμα 2ο στον δρόμο για τον Cantor..." src="https://aftermaths.gr/_static/images/uploads/2023/03/cantor_def_02.png?w=723" style="width: 723px; height: 246px;"/>
+</a>
+<figcaption>
+<p><span class="caption-text">Βήμα 2ο στον δρόμο για τον Cantor…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Καθώς προχωράμε μας μένουν όλο και λιγότεροι πραγματικοί αριθμοί, όπως φαίνεται και παρακάτω:</p>
+<figure class="wp-image-12028 align-default" id="id10">
+<img alt="Πολλά βήματα προς τον Cantor..." src="https://aftermaths.gr/_static/images/uploads/2023/03/cantor_def_03-2.png?w=723"/>
+<figcaption>
+<p><span class="caption-text">Πολλά βήματα προς τον Cantor…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id10"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Το γεγονός ότι «χάνουμε» πράγματα καθώς προχωράμε έπρεπε να μας έχει κάνει λίγο πιο καχύποπτους ως προς το μέγεθος του συνόλου Cantor τελικά, αλλά δεν πειράζει, γι” αυτό είμαστε εδώ τώρα. Αν μπορούσαμε να δώσουμε λίγο όγκο σε αυτό το ρημάδι το σύνολο - χωρίς να χαλάσει τίποτα άλλο - όλα θα έρθουν όπως τα θέλουμε. Αλλά, πώς μπορούμε να «ταΐσουμε» τον Γιώργη τον Cantor - Georg, για τους γερμανομαθείς - να πάρει λίγο τα πάνω του στα μάτια του Lebesgue;</p>
+<p>Η ιδέα, όπως πάντα λέμε εκ των υστέρων στα μαθηματικά, είναι πολύ απλή. Θα αφαιρέσουμε μικρότερα κομμάτια. Ας πούμε, αντί για το μεσαίο τρίτο, θα αφαιρούμε το μεσαίο πέμπτο - γιατί έτσι μας αρέσει, χωρίς σαφή λόγο. Έτσι, έχουμε μία σχηματική αναπαράσταση σαν την παρακάτω:</p>
+<figure class="wp-image-12063 align-default" id="id11">
+<img alt="Λίγα βήματα από την κατασκευή ενός καλοταϊσμένου συνόλου Cantor." src="docs/After-maths/{static}_static/images/uploads/2023/03/fat_cantor_def_01.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Λίγα βήματα από την κατασκευή ενός καλοταϊσμένου συνόλου Cantor.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Σαφώς, τα πράγματα εδώ είναι κάπως καλύτερα - και πιο «παχιά». Θα ανέμενε κανείς, λοιπόν, από αυτή τη διαδικασία, να μας μείνει στο τέλος κάτι περισσότερο από ένα σύνολο μέτρου μηδέν. Όπως και την προηγούμενη φορά, θα υπολογίσουμε το μέτρο του παχιού συνόλου Cantor αφαιρώντας από τη μονάδα (δηλαδή, το μέγεθος του  <span class="math notranslate nohighlight">\([0,1]\)</span> ) το συνολικό μήκος των διαστημάτων που πετάμε, δηλαδή, με το ίδιο σκεπτικό που αναπτύξαμε την προηγούμενη φορά (δηλαδή, στο  <span class="math notranslate nohighlight">\(n\)</span> -οστό βήμα πετάμε  <span class="math notranslate nohighlight">\(2^{n-1}\)</span>  διαστήματα μήκους  <span class="math notranslate nohighlight">\(1/5^n\)</span> ):</p>
+<div class="math notranslate nohighlight">
+\[\sum_{n=1}^\infty\frac{2^{n-1}}{5^{n}}=\frac{1}{5}\sum_{n=1}^\infty\left(\frac{2}{5}\right)^{n-1}=\frac{1}{5}\sum_{n=0}^\infty\left(\frac{2}{5}\right)^n=\frac{1}{5}\frac{1}{1-2/5}=\frac{1}{3}.\]</div>
+<p>Συνεπώς, αυτό που μας απομένει έχει μέτρο Lebesgue ίσο με:</p>
+<div class="math notranslate nohighlight">
+\[\lambda(C_{1/5})=1-\frac{1}{3}=\frac{2}{3}.\]</div>
+<p>Δηλαδή, το παραπάνω πιο παχύ σύνολο Cantor είναι όντως μεγάλο, καθώς έχει μέτρο  <span class="math notranslate nohighlight">\(2/3\)</span>  - σε αντίθεση με το μέτρο του τυπικού συνόλου Cantor που είναι μηδέν.</p>
+<p>Μάλιστα, δε χρειάζεται να σταματήσουμε εδώ. Μπορούμε να αφαιρούμε κάθε φορά ένα κεντρικό τμήμα που να αντιστοιχεί σε ένα κλάσμα  <span class="math notranslate nohighlight">\(a\in(0,1/3)\)</span>  κάθε διαστήματος που έχει απομείνει. Έτσι, σε κάθε βήμα αφαιρούμε  <span class="math notranslate nohighlight">\(2^{n-1}\)</span>  διαστήματα μήκους  <span class="math notranslate nohighlight">\(a^n\)</span>  το καθένα, οπότε συνολικά αφαιρούμε:</p>
+<div class="math notranslate nohighlight">
+\[\sum_{n=1}^\infty 2^{n-1}a^n=a\sum_{n=1}^\infty 2^{n-1}a^{n-1}=a\sum_{n=0}^\infty(2a)^n=\frac{a}{1-2a}.\]</div>
+<p>Έτσι, το αντίστοιχο παχύ σύνολο Cantor που θα προκύψει θα έχει μέτρο Lebesgue:</p>
+<div class="math notranslate nohighlight">
+\[1-\frac{a}{1-2a}=\frac{1-3a}{1-2a}.\]</div>
+<p>Αν παίξετε λίγο με την παραπάνω παράσταση για  <span class="math notranslate nohighlight">\(a\in(0,1/3)\)</span>  τότε εύκολα μπορείτε να δείτε ότι:</p>
+<div class="math notranslate nohighlight">
+\[\lim_{a\to0^+}\frac{1-3a}{1-2a}=1.\]</div>
+<p>Επίσης, θα παρατηρήσετε και ότι:</p>
+<div class="math notranslate nohighlight">
+\[\lim_{a\to\frac{1}{3}^-}\frac{1-3a}{1-2a}=0.\]</div>
+<p>Επομένως, μπορούμε να κατασκευάσουμε ένα σύνολο Cantor που να είναι οσοδήποτε παχύ θέλουμε. Αυτά τα σύνολα Cantor θα τα λέμε  <span class="math notranslate nohighlight">\(\varepsilon\)</span> -σύνολα Cantor, με το  <span class="math notranslate nohighlight">\(\varepsilon\in(0,1)\)</span>  να εκφράζει το μέτρο Lebesgue τους.</p>
+</section>
+<section id="id2">
+<h2>Επιστροφή στις Κατασκευές<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>Τώρα που χόρτασε ο Cantor, μπορούμε να επιστρέψουμε στην κατασκευή μας. Είχαμε κλείσει το προηγούμενο μέρος λέγοντας ότι αν μπορούσαμε να φτιάξουμε ένα σύνολο σαν του Cantor αλλά με λίγο «ψαχνό» τότε θα είχαμε ξεμπερδέψει. Είναι όμως έτσι; Με άλλα λόγια, μπορούμε να επαναλάβουμε όλη την κατασκευή που κάναμε και την προηγούμενη φορά; Μήπως αυτά τα πιο μεγάλα σύνολα Cantor μας κάνουν τη ζωή πιο δύσκολη;</p>
+<p>Ας τα πιάσουμε συνοπτικά από την αρχή. Η όλη ιστορία ξεκίνησε με την ακόλουθη συνάρτηση, ορισμένη εν προκειμένω στο  <span class="math notranslate nohighlight">\([0,1]:\)</span></p>
+<figure class="wp-image-12009 align-default" id="id12">
+<img alt="Τη θυμάστε;" src="https://aftermaths.gr/_static/images/uploads/2023/03/func_def_05.png?w=723"/>
+<figcaption>
+<p><span class="caption-text">Τη θυμάστε;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id12"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Με βάση το παραπάνω σχήμα, μπορούμε να ζωγραφίσουμε τέτοιες συναρτήσεις σε κάθε διάστημα. Για την ακρίβεια, αν έχουμε ένα κλειστό διάστημα  <span class="math notranslate nohighlight">\([a,b],\)</span>  τότε μία συνάρτηση με γραφική παράσταση σαν την παραπάνω έχει τον ακόλουθο τύπο:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}f_{[a,b]}(x)=\begin{cases}(x-a)^2\sin\frac{1}{x-a} &amp; a&lt;x&lt;c\C &amp; c\leq x\leq d\(b-x)^2\sin\frac{1}{b-x} &amp; d&lt;x&lt;b\\ 0 &amp; x\in\{a,b\}\end{cases}.\end{split}\]</div>
+<p>Παραπάνω, το  <span class="math notranslate nohighlight">\(c\)</span>  είναι μία θέση τοπικού ακροτάτου της  <span class="math notranslate nohighlight">\((x-a)^2\sin\frac{1}{x-a}\)</span>  στο  <span class="math notranslate nohighlight">\((a,\frac{a+b}{2})\)</span>  (δηλαδή στο πρώτο μισό του διαστήματος). Αντίστοιχα, το  <span class="math notranslate nohighlight">\(d\)</span>  είναι το συμμετρικό του  <span class="math notranslate nohighlight">\(c\)</span>  ως προς το  <span class="math notranslate nohighlight">\(\frac{a+b}{2}.\)</span>  Τέλος, το  <span class="math notranslate nohighlight">\(C\)</span>  είναι η τιμή της  <span class="math notranslate nohighlight">\((x-a)^2\sin\frac{1}{x-a}\)</span>  στο  <span class="math notranslate nohighlight">\(c\)</span>  - δηλαδή, η τιμή της στο τοπικό ακρότατο. Αν παίξετε με το παραπάνω θα δείτε ότι όντως μία συνάρτηση με τον παραπάνω τύπο έχει γραφική παράσταση όπως αυτή που ζωγραφίσαμε παραπάνω.</p>
+<p>Στα δικά μας τώρα, είχαμε εκμεταλλευτεί την προηγούμενη φορά το γεγονός ότι το πλήθος των διαστημάτων που αφαιρούμε κατά την κατασκευή του συνόλου Cantor είναι αριθμήσιμο και, συνεπώς, μπορούμε να το βάλουμε σε μία «σειρά». Αυτό είναι κάτι που δεν αλλάζει και στην κατασκευή ενός «ταϊσμένου» συνόλου Cantor. Επομένως, ας πάρουμε ένα σύνολο Cantor με μέτρο  <span class="math notranslate nohighlight">\(\varepsilon\in(0,1),\)</span>  ας το πούμε  <span class="math notranslate nohighlight">\(C_\varepsilon,\)</span>  και ας θεωρήσουμε τα διαστήματα που πετάξαμε, έστω  <span class="math notranslate nohighlight">\((a_n,b_n).\)</span>  Τότε, μπορούμε να ορίσουμε συναρτήσεις  <span class="math notranslate nohighlight">\(f_n\)</span>  όπως παραπάνω, στα αντίστοιχα κλειστά διαστήματα  <span class="math notranslate nohighlight">\([a_n,b_n]\)</span>  οι οποίες και να έχουν όλες αυτές τις καλές ιδιότητες. Έτσι, μπορούμε ξανά να κατασκευάσουμε μία συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span>  ως εξής:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(f(x)=f_n(x)\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in[a_n,b_n]\)</span>  και κάθε  <span class="math notranslate nohighlight">\(n=1,2,\ldots,\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(f(x)=0\)</span>  για κάθε άλλο  <span class="math notranslate nohighlight">\(x\in[0,1].\)</span></p></li>
+</ul>
+<p>Μπορούμε εύκολα να δούμε, δεδομένου ότι  <span class="math notranslate nohighlight">\(f(a_n)=f(b_n)=f'(a_n)=f'(b_n)=0\)</span>  ότι η παραπάνω συνάρτηση είναι:</p>
+<ul class="simple">
+<li><p>Παραγωγίσιμη στο  <span class="math notranslate nohighlight">\([0,1].\)</span></p></li>
+<li><p>Η παράγωγος είναι φραγμένη, γιατί είτε είναι μηδέν είτε είναι κάποια από τις  <span class="math notranslate nohighlight">\(f_n'\)</span>  που είναι όλες τους ομοιόμορφα φραγμένες (δηλαδή, από τον ίδιο αριθμό), για παράδειγμα από το 1.</p></li>
+<li><p>Η παράγωγος είναι συνεχής εκτός του  <span class="math notranslate nohighlight">\(C_\varepsilon\)</span>  και ασυνεχής στα  <span class="math notranslate nohighlight">\(a_n,b_n.\)</span></p></li>
+</ul>
+<p>Αυτό που δεν είναι άμεσα προφανές είναι ότι η  <span class="math notranslate nohighlight">\(f'\)</span>  είναι ασυνεχής σε όλο το  <span class="math notranslate nohighlight">\(C_\varepsilon.\)</span>  Όταν είχαμε στα χέρια μας ένα «ισχνό» σύνολο Cantor, όπως την προηγούμενη φορά, επικαλεστήκαμε στην ουσία το πόσο μικρό ήταν αυτό το σύνολο, για να αποδείξουμε κάπως διαισθητικά την ασυνέχεια της παραγώγου σε αυτό. Τώρα όμως τα πράγματα δεν είναι, δα, και τόσο εύκολα, καθώς το  <span class="math notranslate nohighlight">\(C_\varepsilon\)</span>  έχει κάποιο μέγεθος διόλου ευκαταφρόνητο - μπορεί να είναι σχεδόν όσο μεγάλο θέλουμε.</p>
+<p>Για να πάρουμε μία καλύτερη ιδέα, θα κάνουμε ένα μακροβούτι στη δομή ενός συνόλου Cantor. Ο στόχος μας είναι να δείξουμε ότι για κάθε  <span class="math notranslate nohighlight">\(x\in C_\varepsilon\)</span>  όσο κοντά και αν μας ζητηθεί, μπορούμε να βρούμε έναν άλλο αριθμό του  <span class="math notranslate nohighlight">\(C_\varepsilon\)</span>  αλλά κι έναν άλλον αριθμό εκτός του  <span class="math notranslate nohighlight">\(C_{\varepsilon}.\)</span>  Με άλλα λόγια, οι αριθμοί ενός οποιουδήποτε μεγέθους συνόλου Cantor μπορούν να προσεγγιστούν τόσο από «μέσα» όσο και «απ” έξω» από το σύνολο - αυτό θα μας βοηθήσει να αποδείξουμε και την ασυνέχεια της παραγώγου στο  <span class="math notranslate nohighlight">\(C_\varepsilon\)</span> .</p>
+<p>Αρχικά, ας υποθέσουμε ότι για να κατασκευάσουμε το  <span class="math notranslate nohighlight">\(C_\varepsilon\)</span>  που έχουμε στα χέρια μας κόβαμε κεντρικά τμήματα σχετικού μήκους  <span class="math notranslate nohighlight">\(a\in(0,1/3),\)</span>  οπότε μία σχέση που συνδέει τα  <span class="math notranslate nohighlight">\(\varepsilon,a\)</span>  είναι, όπως είπαμε παραπάνω, η εξής:</p>
+<div class="math notranslate nohighlight">
+\[\varepsilon=\frac{1-3a}{1-2a}\Leftrightarrow a=\frac{1-\varepsilon}{3-2\varepsilon}.\]</div>
+<p>Τώρα, ας πάρουμε έναν αριθμό  <span class="math notranslate nohighlight">\(\xi\in C_\varepsilon\)</span>  και ας πούμε ότι κάποιος σατανικός άνθρωπος μας ζητά να βρούμε έναν αριθμό  <span class="math notranslate nohighlight">\(x\in C_\varepsilon\)</span>  και έναν άλλον αριθμό  <span class="math notranslate nohighlight">\(y\in[0,1]\setminus C_{\varepsilon}\)</span>  έτσι ώστε και οι δύο να είναι κοντά στο  <span class="math notranslate nohighlight">\(\xi\)</span>  κατά ένα συγκεκριμένο  <span class="math notranslate nohighlight">\(\delta&gt;0.\)</span>  Με άλλα λόγια, πρέπει να ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[\|x-\xi|&lt;\delta,\quad \|y-\xi|&lt;\delta.\]</div>
+<p>Ή, σε μορφή διαστήματος, θέλουμε να ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[x\in(\xi-\delta,\xi+\delta),\quad y\in(\xi-\delta,\xi+\delta).\]</div>
+<p>Επειδή το  <span class="math notranslate nohighlight">\(\delta\)</span>  δεν έχει κάποια ιδιαίτερη ιδιότητα, μπορεί να είναι οσοδήποτε μικρό, αν καταφέρουμε αυτό που μας ζητά ο σατανικός αυτός άνθρωπος, θα έχουμε αποδείξει ότι μπορούμε να βρούμε οσοδήποτε κοντά στο  <span class="math notranslate nohighlight">\(\xi\)</span>  θέλουμε αριθμούς τόσο μέσα όσο και έξω από το  <span class="math notranslate nohighlight">\(C_\varepsilon.\)</span></p>
+<p>Ας θυμηθούμε τώρα κι έναν ωραίο χαρακτηρισμό που είχαμε δώσει για τους αριθμούς του (κάθε) συνόλου Cantor. Είχαμε πει ότι, για παράδειγμα για το «ισχνό» σύνολο Cantor, μπορούμε να περιγράψουμε κάθε αριθμό μέσα από ένα «μονοπάτι» που να οδηγεί σε αυτόν, όπως παρακάτω:</p>
+<figure class="wp-image-12030 align-default" id="id13">
+<img alt="Ένα μονοπάτι στο σύνολο του Cantor." src="https://aftermaths.gr/_static/images/uploads/2023/03/cantor_def_04-2.png?w=723"/>
+<figcaption>
+<p><span class="caption-text">Ένα μονοπάτι στο σύνολο του Cantor.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id13"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Η ιδέα πίσω από αυτή τη ζωγραφιά είναι ότι κάθε αριθμός στο σύνολο του Cantor πρέπει να βρίσκεται σε κάθε βήμα μέσα σε κάποιο διάστημα από αυτά που κρατάμε - καθώς σε κάθε βήμα εμείς κάτι «κλαδεύουμε». Επίσης, δεδομένου ότι τα διαστήματα που κρατάμε σε κάθε βήμα (τα γαλάζια) είναι ξένα ανά δύο, σε κάθε βήμα υπάρχει ακριβώς ένα διάστημα που περιέχει τον αριθμό που μας ενδιαφέρει. Έτσι, παίρνοντας σε κάθε βήμα (το είπαμε, «σε κάθε βήμα») αυτό το μοναδικό διάστημα που περιέχει τον αριθμό μας μπορούμε να κατασκευάσουμε μία ακολουθία διαστημάτων που φθίνει, όπως η παρακάτω - για το απλό σύνολο Cantor:</p>
+<div class="math notranslate nohighlight">
+\[[0,1],\ [0,1/3],\ [2/9,3/9],\ [8/27,9/27],\ [24/81,25/81],\ldots\]</div>
+<p>Αυτή η ακολουθία, όπως παρατηρείτε, αντιστοιχεί στο παραπάνω σχήμα και τον αριθμό  <span class="math notranslate nohighlight">\(x\)</span>  που έχουμε ζωγραφίσει. Γενικότερα, για κάθε σύνολο Cantor με μέτρο  <span class="math notranslate nohighlight">\(\varepsilon\)</span>  μπορούμε για κάθε στοιχείο του να βρούμε μία τέτοια φθίνουσα ακολουθία κλειστών διαστημάτων. Μάλιστα, αφού σε κάθε βήμα πετάμε ένα τμήμα σχετικού μήκους  <span class="math notranslate nohighlight">\(a\)</span>  από το προηγούμενο διάστημα, καθένα από τα δύο τμήματα που κρατάμε, θα έχει σχετικό μήκος  <span class="math notranslate nohighlight">\(\frac{1-a}{2}\)</span>  (πετάμε, δηλαδή, από το σύνολο του προηγούμενου διαστήματος ένα τμήμα σχετικού μήκους  <span class="math notranslate nohighlight">\(a\)</span>  και το μοιράζουμε στα δύο μέρη που κρατάμε). Έτσι, ξεκινώντας από το  <span class="math notranslate nohighlight">\([0,1]\)</span>  που έχει μήκος 1:</p>
+<ul class="simple">
+<li><p>Στο πρώτο βήμα, το καθένα από τα δύο (γαλάζια) τμήματα που μας μένουν έχει μήκος  <span class="math notranslate nohighlight">\(\frac{1-a}{2}.\)</span></p></li>
+<li><p>Στο δεύτερο βήμα, το καθένα από τα γαλάζια τμήματα που μας μένουν έχει μήκος  <span class="math notranslate nohighlight">\(\left(\frac{1-a}{2}\right)^2.\)</span></p></li>
+<li><p>Στο τρίτο βήμα, το καθένα από τα γαλάζια τμήματα που μας μένουν έχει μήκος  <span class="math notranslate nohighlight">\(\left(\frac{1-a}{2}\right)^3.\)</span></p></li>
+<li><p>Γενικότερα, στο  <span class="math notranslate nohighlight">\(n\)</span> -οστό βήμα κάθε γαλάζιο διάστημα έχει μήκος  <span class="math notranslate nohighlight">\(\left(\frac{1-a}{2}\right)^n.\)</span></p></li>
+</ul>
+<p>Όπως περιμέναμε από τις ζωγραφιές μας, σε κάθε βήμα το μήκος κάθε μεμονωμένου γαλάζιου διαστήματος μικραίνει αυθαίρετα πολύ. Αυτό εμείς θα το εκμεταλλευτούμε κατάλληλα. Όπως είπαμε παραπάνω, πήραμε έναν αριθμό  <span class="math notranslate nohighlight">\(\xi\)</span>  και μία απόσταση  <span class="math notranslate nohighlight">\(\delta&gt;0\)</span>  και αναζητούμε αριθμούς τόσο μέσα όσο κι έξω από το σύνολο  <span class="math notranslate nohighlight">\(C_\varepsilon\)</span>  και σε κάθε περίπτωση εντός του διαστήματος  <span class="math notranslate nohighlight">\((\xi-\delta,\xi+\delta).\)</span>  Δηλαδή, ψάχνουμε αριθμούς μέσα στην παρακάτω χρωματιστή περιοχή:</p>
+<figure class="wp-image-12107 align-default" id="id14">
+<img alt="Ε, μεγάλο είναι το διάστημα, το έχουμε..." src="docs/After-maths/{static}_static/images/uploads/2023/03/cantor_density_proof.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Ε, μεγάλο είναι το διάστημα, το έχουμε…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id14"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Όπως είπαμε, καθώς προχωράμε, τα διαστήματα που κρατάμε σε κάθε βήμα μικραίνουν και, μάλιστα, μικραίνουν αυθαίρετα πολύ. Έτσι, μπορούμε να βρούμε ένα  <span class="math notranslate nohighlight">\(n\)</span>  έτσι ώστε να ισχύει το παρακάτω:</p>
+<div class="math notranslate nohighlight">
+\[\left(\frac{1-a}{2}\right)^n&lt;\delta.\]</div>
+<p>Έτσι, στο  <span class="math notranslate nohighlight">\(n\)</span> -οστό βήμα θα έχουμε μία κατάσταση σαν αυτή που φαίνεται παρακάτω:</p>
+<figure class="wp-image-12110 align-default" id="id15">
+<img alt="Μας έμεινε κάτι μικρό, τελικά..." src="docs/After-maths/{static}_static/images/uploads/2023/03/cantor_density_proof_02.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Μας έμεινε κάτι μικρό, τελικά…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id15"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Προσέξτε ότι δεν κεντράραμε το  <span class="math notranslate nohighlight">\(\xi\)</span>  στο γαλάζιο διάστημα επίτηδες, καθώς από κάθε γαλάζιο διάστημα το μεσαίο τμήμα το πετάμε, επομένως το  <span class="math notranslate nohighlight">\(\xi\)</span>  θα «στέκεται» κάπου αριστερά ή κάπου δεξιά μέσα στο διάστημά μας. Τώρα θα περάσουμε στο αμέσως επόμενο βήμα, που πετάμε το μεσαίο τμήμα σχετικού μήκους  <span class="math notranslate nohighlight">\(a\)</span>  και κρατάμε τα άλλα δύο που περισσεύουν, όπως φαίνεται και παρακάτω:</p>
+<figure class="wp-image-12113 align-default" id="id16">
+<img alt="Τι κρατάμε και τι πετάμε σε αυτή τη ζωή;" src="docs/After-maths/{static}_static/images/uploads/2023/03/cantor_density_proof_03.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Τι κρατάμε και τι πετάμε σε αυτή τη ζωή;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id16"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Επομένως, στο κόκκινο αυτό κομματάκι γνωρίζουμε ότι δεν πρόκειται να βρούμε ούτε έναν αριθμό στο σύνολο  <span class="math notranslate nohighlight">\(C_\varepsilon\)</span>  καθώς άπαξ και πετάξουμε κάτι, δεν ξαναπαίρνουμε τίποτα από εκεί μέσα. Άρα, μπορούμε να πάρουμε όποιον αριθμό θέλουμε μέσα στο κόκκινο διάστημα και να τον βαφτίσουμε  <span class="math notranslate nohighlight">\(y.\)</span>  Έτσι ξεμπερδέψαμε με τον έναν από τους δύο αριθμούς που ψάχναμε.</p>
+<p>Μένει τώρα να βρούμε έναν αριθμό μέσα στο  <span class="math notranslate nohighlight">\(C_\varepsilon\)</span>  εντός του διαστήματος  <span class="math notranslate nohighlight">\((\xi-\delta,\xi+\delta)\)</span>  όπως είχαμε υποσχεθεί. Γι” αυτόν τον σκοπό μπορούμε να κοιτάξουμε στο δεξί γαλάζιο διάστημα στο παραπάνω σχήμα. Εκεί μέσα, καθώς εμείς κλαδεύουμε και πετάμε διαστήματα, συνεχίζοντας την κατασκευή του συνόλου  <span class="math notranslate nohighlight">\(C_\varepsilon,\)</span>  θα βρούμε κι άλλους αριθμούς του  <span class="math notranslate nohighlight">\(C_\varepsilon\)</span>  (αλήθεια, πόσους νομίζετε ότι θα βρούμε;). Επομένως, έναν από αυτούς μπορούμε να τον βαφτίσουμε  <span class="math notranslate nohighlight">\(x\)</span>  και να ξεμπερδέψουμε. Τελικά, η κατάσταση θα μοιάζει κάπως έτσι:</p>
+<figure class="wp-image-12120 align-default" id="id17">
+<img alt="Τα βρήκαμε όλα, άντε γεια!" src="docs/After-maths/{static}_static/images/uploads/2023/03/cantor_density_proof_04.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Τα βρήκαμε όλα, άντε γεια!</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id17"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Επομένως, δείξαμε ότι όσο κοντά σε οποιονδήποτε αριθμό  <span class="math notranslate nohighlight">\(\xi\in C_\varepsilon\)</span>  και να μας ζητήσει κανείς, μπορούμε να βρούμε αριθμούς τόσο εντός όσο και εκτός του  <span class="math notranslate nohighlight">\(C_\varepsilon.\)</span>  Αν θυμάστε καλά, αυτό το χρειαζόμαστε για να δείξουμε την ασυνέχεια της παραγώγου.</p>
+<p>Για την ακρίβεια, ας θυμηθούμε λίγο τη συνάρτησή μας. Στα κόκκινα διαστήματα - αυτά που πετάμε - η παράγωγος είναι ίση με το μηδέν. Στα γαλάζια διαστήματα - αυτά που κρατάμε - η παράγωγος είναι αυτό το τρομακτικό πράγμα που έχουμε ζωγραφίσει παρακάτω:</p>
+<figure class="wp-image-12125 align-default" id="id18">
+<img alt="Πωπω! Χάλια είναι, έτσι;" src="docs/After-maths/{static}_static/images/uploads/2023/04/func_derivative_01.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Πωπω! Χάλια είναι, έτσι;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id18"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τώρα, ας παρατηρήσουμε ότι, αν και η παραπάνω παράγωγος μηδενίζει σε άπειρα σημεία, αυτά είναι αριθμήσιμα στο πλήθος, συνεπώς υπάρχουν υπεραριθμήσιμες στο πλήθος τιμές της  <span class="math notranslate nohighlight">\(f\)</span>  που δεν είναι μηδέν - και, για την ακρίβεια, μπορούν να είναι και αρκετά «μακριά» από το μηδέν. Επομένως, πάντοτε μπορούμε να επιλέξουμε το  <span class="math notranslate nohighlight">\(y\)</span>  παραπάνω έτσι ώστε  <span class="math notranslate nohighlight">\(\|f'(y)|&gt;\frac{1}{2}.\)</span>  Έτσι, κοντά σε κάθε αριθμό  <span class="math notranslate nohighlight">\(\xi\)</span>  του συνόλου  <span class="math notranslate nohighlight">\(C_\varepsilon\)</span>  μπορούμε να βρούμε τόσο μηδενικές τιμές της  <span class="math notranslate nohighlight">\(f'\)</span>  όσο και «μεγάλες» τιμές της  <span class="math notranslate nohighlight">\(f'\)</span>  με αποτέλεσμα η  <span class="math notranslate nohighlight">\(f'\)</span>  να μην μπορεί να είναι συνεχής στο  <span class="math notranslate nohighlight">\(\xi\)</span>  - αν δε θυμάστε κάτι τη διαίσθηση πίσω από τον ορισμό της συνέχειας, τον έχουμε παρουσιάσει εκτενώς <a class="reference external" href="docs/After-maths/πόσες-είναι-οι-συνεχείς-συναρτήσεις.rst">εδώ</a>. Άρα, πράγματι η  <span class="math notranslate nohighlight">\(f'\)</span>  είναι ασυνεχής στο  <span class="math notranslate nohighlight">\(C_\varepsilon,\)</span>  όπως είχαμε υποσχεθεί.</p>
+<p>Συνοψίζοντας, κατασκευάσαμε μία συνάρτηση που:</p>
+<ul class="simple">
+<li><p>είναι παραγωγίσιμη,</p></li>
+<li><p>έχει φραγμένη παράγωγο,</p></li>
+<li><p>η παράγωγός της είναι ασυνεχής σε ένα σύνολο μέτρου Lebesgue  <span class="math notranslate nohighlight">\(\varepsilon&gt;0.\)</span></p></li>
+</ul>
+<p>Συνεπώς, η παράγωγός της δεν είναι ολοκληρώσιμη <a class="reference external" href="docs/After-maths/πόσο-συνεχής-είναι-μια-παράγωγος.rst">όπως μας έχει πει</a> και ο Lebesgue και άρα, να, ορίστε άπειρες συναρτήσεις που έχουν παράγουσα αλλά δεν είναι ολοκληρώσιμες.</p>
+</section>
+<section id="id3">
+<h2>Πόσο Χειρότερα;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<p>Συμμαζεύοντας λίγο όσα έχουμε πει από την προηγούμενη εβδομάδα, έχουμε δείξει ως τώρα ότι κανείς μπορεί να κατασκευάσει συναρτήσεις που να είναι μεν παραγωγίσιμες, αλλά να μην έχουν ολοκληρώσιμη παράγωγο. Επίσης, μπορούμε να κάνουμε την παράγωγο να είναι ασυνεχής σε «μεγάλα» σύνολα. Για την ακρίβεια, αν έχουμε ορίσει τη συνάρτησή μας στο  <span class="math notranslate nohighlight">\([0,1]\)</span>  τότε μπορούμε να εξασφαλίσουμε την ασυνέχεια της παραγώγου σε ένα σύνολο μέτρου  <span class="math notranslate nohighlight">\(\varepsilon\in[0,1).\)</span>  Δηλαδή, όχι μόνο κατασκευάσαμε μία φραγμένη συνάρτηση με παράγουσα και ταυτόχρονα μη ολοκληρώσιμη, αλλά δώσαμε και τον καλύτερό μας εαυτό.</p>
+<p>Ωστόσο, θα αναρωτηθεί κανείς, θα μπορούσαμε να καταφέρουμε η παράγωγος να είναι ασυνεχής σε ένα σύνολο μέτρου 1; Δηλαδή, να κάνουμε ό,τι καλύτερο (ή χειρότερο) μπορούμε;</p>
+<p>Αν δοκιμάσετε να πάρετε το  <span class="math notranslate nohighlight">\(\varepsilon\)</span>  παραπάνω ίσο με 1 θα προκύψει ένα πρόβλημα. Αρχικά, ας θυμηθούμε ότι το μήκος του συνόλου των ασυνεχειών της παραγώγου σχετίζεται με το ποσοστό  <span class="math notranslate nohighlight">\(a\)</span>  των διαστημάτων που πετάμε σε κάθε βήμα της κατασκευής του  <span class="math notranslate nohighlight">\(C_\varepsilon\)</span>  μέσω της παρακάτω σχέσης:</p>
+<div class="math notranslate nohighlight">
+\[\varepsilon=\frac{1-3a}{1-2a}\Leftrightarrow a=\frac{1-\varepsilon}{3-2\varepsilon}.\]</div>
+<p>Αν πάμε παραπάνω και βάλουμε  <span class="math notranslate nohighlight">\(\varepsilon=1\)</span>  τότε παίρνουμε  <span class="math notranslate nohighlight">\(a=0\)</span>  το οποίο, σαφώς, δεν είναι και πολύ βολικό, διότι δεν μπορούμε να κάνουμε την παραπάνω κατασκευή αφαιρώντας τμήματα μήκους 0 από το κέντρο των διαστημάτων μας. Επομένως, αν είναι εφικτή μία τέτοια κατασκευή, δεν περνάει μέσα από τα μονοπάτια που έχουμε εξερευνήσει ως τώρα.</p>
+<p>[Σκέψεις]</p>
+<p>Μετά από λίγη σκέψη, κάνουμε την εξής παρατήρηση: Οι συναρτήσεις που έχουμε φτιάξει ως τώρα, καθώς μεγαλώνει το μέτρο του συνόλου των ασυνεχειών τους, φαίνεται να έχουν όλο και περισσότερο τη συμπεριφορά που θα θέλαμε. Δηλαδή, καθώς μεγαλώνουμε το μέτρο του συνόλου Cantor, η συνάρτηση που προκύπτει με την παραπάνω κατασκευή σαν να «φέρνει» όλο και περισσότερο προς μία συνάρτηση που θα είχε ασυνεχή παράγωγο σε ένα σύνολο μέτρου 1 - μόνο που καθεμιά τους το «χάνει» για λίγο. Φαίνεται κάπως σαν να μας λείπει μία έννοια «ορίου» συναρτήσεων, αλλά όχι όπως τη μελετάμε στο σχολείο…</p>
+<p>Αυτή είναι, όπως φαντάζεστε, η στιγμή για λίγη ακόμα θεωρία.</p>
+</section>
+<section id="id4">
+<h2>Συναρτήσεις αντί για Αριθμούς<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h2>
+<p>Τι είναι το  <span class="math notranslate nohighlight">\(f(x)\)</span>  στην παρακάτω έκφραση;</p>
+<div class="math notranslate nohighlight">
+\[\lim_{x\to 4}f(x).\]</div>
+<p>Εντάξει, τα ξέρετε αυτά, αριθμός είναι το  <span class="math notranslate nohighlight">\(f(x)\)</span> , άλλο που εμείς και τις συναρτήσεις με τιμές  <span class="math notranslate nohighlight">\(f(x)\)</span>  στα αντίστοια  <span class="math notranslate nohighlight">\(x\)</span>  τις φωνάζουμε «εφ του χι». Καθώς το  <span class="math notranslate nohighlight">\(x\)</span>  παίρνει τιμές αυθαίρετα κοντά στο 4 εμείς θέλουμε να μελετήσουμε την συμπεριφορά της  <span class="math notranslate nohighlight">\(f\)</span>  εκεί γύρω μέσω των τιμών της, δηλαδή των αριθμών  <span class="math notranslate nohighlight">\(f(x)\)</span> . Επομένως, τα όρια που έχουμε μελετήσει στο σχολείο εμπλέκουν ουσιαστικά μόνο αριθμούς και σχέσεις μεταξύ τους.</p>
+<p>Σχολική ύλη όλα αυτά, θα έλεγε κανείς. Ας ρίξουμε μια ματιά για λίγο και στο παρακάτω σχήμα:</p>
+<figure class="wp-image-12144 align-default" id="id19">
+<img alt="Κάποιες συναρτήσεις που παρέα πάνω κάπου..." src="docs/After-maths/{static}_static/images/uploads/2023/04/convergence_01.png?w=946"/>
+<figcaption>
+<p><span class="caption-text">Κάποιες συναρτήσεις που παρέα πάνω κάπου…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id19"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Εδώ έχουμε, όπως φαίνεται, τις γραφικές παραστάσεις των συναρτήσεων  <span class="math notranslate nohighlight">\(f_n(x)=x+\frac{1}{n}\)</span>  για διάφορες τιμές του  <span class="math notranslate nohighlight">\(n=1,2,\ldots\)</span>  Βλέπετε ότι καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  παίρνει ολοένα και μεγαλύτερες τιμές, οι γραφικές παραστάσεις των  <span class="math notranslate nohighlight">\(f_n\)</span>  αρχίζουν και πλησιάζουν απεριόριστα τη γραφική παράσταση της  <span class="math notranslate nohighlight">\(f(x)=x.\)</span>  Αυτό είναι και εν μέρει σαφές από τον τύπο των  <span class="math notranslate nohighlight">\(f_n\)</span>  καθώς όσο το  <span class="math notranslate nohighlight">\(n\)</span>  μεγαλώνει αυθαίρετα πολύ, το  <span class="math notranslate nohighlight">\(\frac{1}{n}\)</span>  γίνεται αυθαίρετα μικρό (άρα, στο όριο είναι μηδέν).</p>
+<p>Θα μπορούσαμε να πούμε ότι ισχύει το εξής:</p>
+<div class="math notranslate nohighlight">
+\[\lim_{n\to\infty}f_n=f.\]</div>
+<p>Δηλαδή, για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{R}\)</span>  ισχύει το εξής:</p>
+<div class="math notranslate nohighlight">
+\[\lim_{n\to\infty}f_n(x)=f(x),\]</div>
+<p>όπου  <span class="math notranslate nohighlight">\(f(x)=x\)</span>  στην περίπτωσή μας. Με άλλα λόγια, εδώ είναι σαν να έχουμε μία ακολουθία συναρτήσεων η οποία, καθώς «περπατάμε» τους όρους της, συγκλίνει προς μία άλλη συνάρτηση.</p>
+<p>Σαφώς, το παραπάνω δεν είναι το μοναδικό παράδειγμα μίας τέτοιας συμπεριφοράς - τουναντίον. Ας θεωρήσουμε την παρακάτω ακολουθία συναρτήσεων:</p>
+<div class="math notranslate nohighlight">
+\[f_n(x)=x^n\qquad x\in[0,1].\]</div>
+<p>Τώρα, ας ζωγραφίσουμε και κάποιες από αυτές για να έχουμε μία καλύτερη εικόνα:</p>
+<figure class="wp-image-12152 align-default" id="id20">
+<img alt="Μία κάπως πιο ενδιαφέρουσα ακολουθία συναρτήσεων." src="docs/After-maths/{static}_static/images/uploads/2023/04/convergence_02.png?w=916"/>
+<figcaption>
+<p><span class="caption-text">Μία κάπως πιο ενδιαφέρουσα ακολουθία συναρτήσεων.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id20"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τώρα, όπως ίσως να παρατηρείτε, η συγκεκριμένη ακολουθία συναρτήσεων συγκλίνει, αλλά σε μία συνάρτηση που δεν μοιάζει τόσο στις  <span class="math notranslate nohighlight">\(f_n.\)</span>  Αν και είναι σχετικά εύκολο να το αποδείξει κανείς και αναλυτικά, εμείς θα αρκεστούμε σε μία ζωγραφιά για να δικαιολογήσουμε ότι οι  <span class="math notranslate nohighlight">\(f_n\)</span>  συγκλίνουν στην παρακάτω συνάρτηση:</p>
+<div class="math notranslate nohighlight">
+\[f(x)=\begin{cases}0 &amp; x\in[0,1)\1 &amp; x=1\end{cases}.\]</div>
+<p>Πράγματι, αυτό μπορείτε να το δείτε, όπως υποσχεθήκαμε, και παρακάτω:</p>
+<figure class="wp-image-12155 align-default" id="id21">
+<img alt="Μα, εντάξει, φαίνεται τώρα, τι να το κουράζουμε." src="docs/After-maths/{static}_static/images/uploads/2023/04/convergence_03.png?w=916"/>
+<figcaption>
+<p><span class="caption-text">Μα, εντάξει, φαίνεται τώρα, τι να το κουράζουμε.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id21"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Σε αντίθεση με την προηγούμενη περίπτωση, που οι ευθείες μας προσέγγιζαν αρκετά κομψά μία άλλη ευθεία που τους έμοιαζε, εδώ τα πράγματα δεν είναι έτσι. Μία κομβική διαφορά είναι ότι στην πρώτη περίπτωση τόσο οι συναρτήσεις  <span class="math notranslate nohighlight">\(f_n\)</span>  όσο και το όριό τους ήταν συνεχείς συναρτήσεις. Εδώ, αντιθέτως, ενώ η ακολουθία απαρτίζεται από συνεχείς συναρτήσεις, το όριό τους δεν είναι, καθώς χάνουμε τη συνέχεια στο 1. Αυτή η διαφορά, δεόντως ανησυχητική, μας παρακινεί στο να κάνουμε μία σημαντική διάκριση ανάμεσα στους διάφορους τύπους σύγκλισης ακολουθιών συναρτήσεων.</p>
+<p>Ξεκινάμε ανάποδα. Στο δεύτερο παράδειγμά μας, όπου  <span class="math notranslate nohighlight">\(f_n(x)=x^n,\)</span>  έχουμε, όπως και στην πρώτη περίπτωση:</p>
+<div class="math notranslate nohighlight">
+\[\lim_{n\to\infty}f_n=f.\]</div>
+<p>Αν τα  <span class="math notranslate nohighlight">\(f_n\)</span>  ήταν αριθμοί, η παραπάνω ισότητα σημαίνει απλώς ότι οσοδήποτε κοντά στο  <span class="math notranslate nohighlight">\(f\)</span>  και να μας ζητηθεί να βρεθούμε, εμείς μπορούμε να το πετύχουμε από κάποιο  <span class="math notranslate nohighlight">\(n\)</span>  και μετά. Δηλαδή, υπάρχει ένας αριθμός  <span class="math notranslate nohighlight">\(n_0\)</span>  έτσι ώστε οι όροι  <span class="math notranslate nohighlight">\(f_{n_0},f_{n_0+1},\ldots\)</span>  να είναι όλοι (τουλάχιστον) τόσο κοντά στο  <span class="math notranslate nohighlight">\(f\)</span>  όσο εμείς επιθυμούμε.</p>
+<p>Όμως τα  <span class="math notranslate nohighlight">\(f_n\)</span>  δεν είναι αριθμοί. Το «κοντά», λοιπόν, σε όρους συναρτήσεων ερμηνεύεται ως εξής. Ας θεωρήσουμε δύο συναρτήσεις όπως οι παρακάτω - θα εξηγήσουμε αυτές τις χρωματιστές ζώνες αμέσως:</p>
+<figure class="wp-image-12162 align-default" id="id22">
+<img alt="Κοντά, αλλά πόσο κοντά;" src="docs/After-maths/{static}_static/images/uploads/2023/04/convergence_04.png?w=872"/>
+<figcaption>
+<p><span class="caption-text">Κοντά, αλλά πόσο κοντά;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id22"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Γύρω από την κόκκινη συνάρτηση, την  <span class="math notranslate nohighlight">\(f\)</span>  στο παραπάνω σχήμα, έχουμε σχεδιάσει δύο ζώνες, μία πλάτους 3 και μία πλάτους 0.4 (εντάξει, κλέψαμε λίγο στο ζύγι αλλά δεν πειράζει). Με βάση το παραπάνω σχήμα, η γαλάζια συνάρτηση, η  <span class="math notranslate nohighlight">\(g,\)</span>  θα λέμε ότι είναι κοντά στην  <span class="math notranslate nohighlight">\(f\)</span>  κατά απόσταση 3, καθώς <em>όλη η γραφική της παράσταση</em> βρίσκεται εντός της ζώνης πλάτους 3. Ωστόσο, δεν είναι κοντά κατά απόσταση 0.4 στην  <span class="math notranslate nohighlight">\(f\)</span>  καθώς δε βρίσκεται όλη η γραφική της παράσταση μέσα στην πιο σκούρα κόκκινη ζώνη.</p>
+<p>Με άλλα λόγια, επειδή όταν μιλάμε για συναρτήσεις σε αντίθεση με «πεζούς» πραγματικούς αριθμούς, δεν έχουμε μία μόνο τιμή στα χέρια μας, αλλά άπειρες, απαιτούμε η έννοια του «κοντά» να έχει μία ομοιομορφία ως προς τις διάφορες τιμές που μπορεί να πάρει μία συνάρτηση. Έτσι, και κάπως πιο αυστηρά, θα λέμε γενικότερα ότι δύο συναρτήσεις  <span class="math notranslate nohighlight">\(f,g\)</span>  ορισμένες σε ένα διάστημα  <span class="math notranslate nohighlight">\(I\)</span>  είναι  <span class="math notranslate nohighlight">\(\varepsilon&gt;0\)</span>  κοντά αν ισχύει το εξής:</p>
+<div class="math notranslate nohighlight">
+\[\sup\limits_{x\in I}|f(x)-g(x)|&lt;\varepsilon.\]</div>
+<p>Για το supremum ( <span class="math notranslate nohighlight">\(\sup\)</span> ) έχουμε μιλήσει αρκετά στο <a class="reference external" href="docs/After-maths/τα-πολλά-πρόσωπα-του-αξιώματος-της-π.rst">παρελθόν</a>, αλλά για τους σκοπούς μας μπορούμε να το σκεφτόμαστε κάπως σαν ένα «μέγιστο». Δηλαδή, αυτό που μας λέει ο παραπάνω ορισμός δεν είναι παρά ότι για να είναι δύο συναρτήσεις κοντά κατά <span class="math notranslate nohighlight">\(\varepsilon\)</span>  πρέπει η μέγιστη δυνατή απόστασή μεταξύ τους να είναι μικρότερη από  <span class="math notranslate nohighlight">\(\varepsilon\)</span>  - το οποίο εποπτικά συμπίπτει με τη ζωγραφιά που κάναμε παραπάνω.</p>
+<p>Παρατηρήστε πώς αυτήν την ομοιομορφία την έχουμε εξασφαλίσει στην πρώτη μας περίπτωση, όπου  <span class="math notranslate nohighlight">\(f_n(x)=x+\frac{1}{n}.\)</span>  Πράγματι, ακριβώς επειδή όλες οι γραφικές παραστάσεις δεν είναι παρά παράλληλες ευθείες, οι αποστάσεις τους δεν επηρεάζονται από τις τιμές του  <span class="math notranslate nohighlight">\(x.\)</span>  Έτσι, οι  <span class="math notranslate nohighlight">\(f_n\)</span>  πλησιάζουν σταδιακά ομοιόμορφα κοντά στην  <span class="math notranslate nohighlight">\(f.\)</span></p>
+<p>Με τις  <span class="math notranslate nohighlight">\(f_n(x)=x^n\)</span>  όμως δε συμβαίνει το ίδιο. Όπως παρατηρεί κανείς, κοντά στο 1 η συμεπριφορά των  <span class="math notranslate nohighlight">\(f_n\)</span>  είναι αρκετά «εκνευριστική». Πράγματι, εκεί κοντά, καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  μεγαλώνει, οι  <span class="math notranslate nohighlight">\(f_n\)</span>  τείνουν να γίνονται πιο απότομες, απομακρυνόμενες από τον οριζόντιο άξονα και, άρα, και από την  <span class="math notranslate nohighlight">\(f\)</span> . Πιο σωστά, ας ρίξουμε μία ματιά στο ακόλουθο σχήμα:</p>
+<figure class="wp-image-12172 align-default" id="id23">
+<img alt="Πώς χαλάει η ομοιομορφία, ε;" src="docs/After-maths/{static}_static/images/uploads/2023/04/convergence_05.png?w=916"/>
+<figcaption>
+<p><span class="caption-text">Πώς χαλάει η ομοιομορφία, ε;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id23"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Είναι σαφές ότι στο δεξί τμήμα του σχήματος, κοντά στο 1, οι γραφικές παραστάσεις των  <span class="math notranslate nohighlight">\(f_n\)</span>  δεν μπορούν να «συγκρατηθούν» μέσα στο γαλάζιο ορθογώνιό μας. Έτσι, δεν μπορούμε να καταφέρουμε αυτό το ομοιόμορφο φράξιμο της απόστασης μεταξύ των  <span class="math notranslate nohighlight">\(f_n\)</span>  και της  <span class="math notranslate nohighlight">\(f\)</span>  που είχαμε προηγουμένως, γεγονός που διαφοροποιεί ουσιωδώς και τις δύο περιπτώσεις.</p>
+<p>Μάλιστα, η παραπάνω διαφορά είναι τόσο κομβική που μας οδηγεί σε δύο διαφορετικούς ορισμούς σύγκλισης. Αν μπορούμε να πετύχουμε αυτήν την ωραία συμπεριφορά που είδαμε στην πρώτη περίπτωση, λέμε ότι οι  <span class="math notranslate nohighlight">\(f_n\)</span>  συγκλίνουν στην  <span class="math notranslate nohighlight">\(f\)</span> <em>ομοιόμορφα</em>. Αντιθέτως, αν έχουμε κατάστάσεις όπως στη δεύτερη περίπτωση, λέμε ότι έχουμε σύγκλιση <em>κατά σημείο</em>. Όπως ίσως φαντάζεστε, όταν έχουμε ακολουθίες συναρτήσεων αγωνιζόμαστε μανιωδώς να εξασφαλίσουμε την ομοιόμορφη σύγκλιση, καθώς αυτή μας δίνει αμέσως κάποιες ιδιότητες για το όριο,  <span class="math notranslate nohighlight">\(f,\)</span>  των  <span class="math notranslate nohighlight">\(f_n.\)</span>  Από όλες αυτές τις ιδιότητες εμάς μάς ενδιαφέρουν οι εξής:</p>
+<ul class="simple">
+<li><p>Αν οι  <span class="math notranslate nohighlight">\(f_n\)</span>  είναι συνεχείς και συγκλίνουν ομοιόμορφα σε κάποια συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span>  τότε και η  <span class="math notranslate nohighlight">\(f\)</span>  είναι συνεχής.</p></li>
+<li><p>Αν οι  <span class="math notranslate nohighlight">\(f_n\)</span>  είναι παραγωγίσιμες και οι παράγωγοί τους συγκλίνουν ομοιόμορφα ενώ, επιπλέον, για κάποιον αριθμό  <span class="math notranslate nohighlight">\(x_0\)</span>  στο πεδίο ορισμού των  <span class="math notranslate nohighlight">\(f_n\)</span>  ισχύει ότι  <span class="math notranslate nohighlight">\(\lim\limits_{n\to\infty}f_n(x_0)\in\mathbb{R}\)</span>  τότε υπάρχει συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span>  έτσι ώστε οι  <span class="math notranslate nohighlight">\(f_n\)</span>  να συγκλίνουν στην  <span class="math notranslate nohighlight">\(f\)</span>  ομοιόμορφα και οι  <span class="math notranslate nohighlight">\(f_n'\)</span>  στην  <span class="math notranslate nohighlight">\(f'\)</span>  (ομοιόμορφα).</p></li>
+</ul>
+<p>Δηλαδή, η ομοιόμορφη σύγκλιση μας εξασφαλίζει αμέσως και τη συνέχεια του ορίου αλλά και την παραγωγισιμότητα, με λίγη παραπάνω προσπάθεια.</p>
+<p>Γιατί τα λέμε εμείς όλα αυτά, όμως;</p>
+<p>[Ο Cantor μπαίνει στη σκηνή]</p>
+</section>
+<section id="id5">
+<h2>Πίσω στον Cantor<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id5'"><span>#</span></a></h2>
+<p>Είδαμε παραπάνω ότι μπορούμε να κατασκευάσουμε «πολύ ασυνεχείς» παραγώγους και γλυκαθήκαμε. Μπορούμε, αναρωτηθήκαμε, να κατασκευάσουμε μία παραγωγίσιμη συνάρτηση ορισμένη στο  <span class="math notranslate nohighlight">\([0,1]\)</span>  με παράγωγο ασυνεχή σε ένα σύνολο μέτρου 1; Αν σκρολάρετε λίγο παραπάνω, θα δείτε ότι η ιδέες που αναπτύξαμε παραπάνω δε μπορούν να δουλέψουν στην περίπτωσή μας. Γι” αυτό αποφασίσαμε να κάνουμε αυτό που κάνουμε όταν τα γνωστά μας πράγματα δε φαίνεται να δουλεύουν: να πάμε στα «άκρα».</p>
+<p>Αντλώντας έμπνευση από τις παραπάνω κατασκευές που παρουσιάσαμε, θα κάνουμε μία ακόμα, λίγο πιο σύνθετη. Λοιπόν, ας πάρουμε ένα ωραίο σύνολο Cantor με μέτρο 1/2 και ας το ονομάσουμε  <span class="math notranslate nohighlight">\(C_1.\)</span>  Θεωρούμε τώρα και μία συνάρτηση σαν αυτές που φτιάξαμε παραπάνω που είναι παραγωγίσιμη με φραγμένη και ασυνεχή παράγωγο στο  <span class="math notranslate nohighlight">\(C_1.\)</span>  Ας ονομάσουμε τη συνάρτηση αυτή  <span class="math notranslate nohighlight">\(f_1.\)</span>  Ως εδώ, τίποτα το καινοτόμο, αλλά, αυτοί οι δείκτες που χρησιμοποιήσαμε μας προϊδεάζουν για κάποια συνέχεια που έπεται. Θυμηθείτε λίγο πώς μοιάζει ένα σύνολο Cantor (ας δούμε ξανά κάποια πρώτα βήματά από την κατασκευή του):</p>
+<figure class="wp-image-12030 align-default" id="id24">
+<img alt="Τα θυμόμαστε αυτά τώρα, τι τα ξαναβλέπουμε;" src="https://aftermaths.gr/_static/images/uploads/2023/03/cantor_def_04-2.png?w=723"/>
+<figcaption>
+<p><span class="caption-text">Τα θυμόμαστε αυτά τώρα, τι τα ξαναβλέπουμε;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id24"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Η κατασκευή γίνεται πετώντας ένα αριθμήσιμο πλήθος από ανοικτά διαστήματα του  <span class="math notranslate nohighlight">\([0,1].\)</span>  Τώρα, αυτές οι «τρύπες» που δημιουργούμε κατά την κατασκευή - απαραίτητες για να έχουμε όλες αυτές τις παράδοξες πλην όμως ενδιαφέρουσες ιδιότητες στα σύνολα Cantor - είναι που μας στερούν λίγο από το μέτρο του  <span class="math notranslate nohighlight">\([0,1].\)</span>  Στην περίπτωσή μας, έχουμε  <span class="math notranslate nohighlight">\(\lambda(C_1)=1/2,\)</span>  επομένως έχουμε πετάξει το μισό  <span class="math notranslate nohighlight">\([0,1]\)</span>  - από άποψη μέτρου. Όμως, αυτό το άλλο το μισό είναι που μας λείπει τώρα…</p>
+<p>Ε, τι να κάνουμε, όπως και με κάθε μεγάλο χωρισμό, θα προσπαθήσουμε να «βουλώσουμε» τα κενά που άφησε πίσω της η παραπάνω διαδικασία όπως-όπως. Αλλά, πρέπει να είμαστε προσεκτικοί με τα βουλώματα που κάνουμε. Δεν μπορούμε απλώς να συμπεριλάβουμε τα διαστήματα που πετάξαμε, καθώς σαφέστατα τότε θα τα διαλύσουμε όλα - θα πάρουμε ξανά όλο το  <span class="math notranslate nohighlight">\([0,1].\)</span>  Μπορούμε όμως να κάνουμε κάτι πιο εκλεπτυσμένο.</p>
+<p>Αν παρατηρήσετε καλά τα σύνολα Cantor, θα δείτε ότι έχουν την τάση να θυμίζουν τον εαυτό τους - είναι αυτό που λέμε <em>αυτο-όμοια</em>. Πράγματι, αυτό προκύπτει άμεσα από την κατασκευή τους, καθώς σε κάθε βήμα επαναλαμβάνουμε τα ίδια πράγματα σε μικρότερη κλίμακα. Αυτήν την ιδιότητα θα την εκμεταλλευτούμε ως εξής: Θα πάμε και θα «βουλώσουμε» καθένα από τα διαστήματα που πετάξαμε κατά την κατασκευή του  <span class="math notranslate nohighlight">\(C_1\)</span>  με συνολάκια Cantor με «σχετικό» μέτρο 1/2 - δηλαδή, το καθένα έχει μέτρο όσο και το μισό του διαστήματος που «βουλώνει». Ονομάζουμε την ένωση των συνόλων αυτών με τα οποία «βουλώνουμε» τις τρύπες  <span class="math notranslate nohighlight">\(D_1\)</span>  και έτσι, φτιάχνουμε ένα σύνολο  <span class="math notranslate nohighlight">\(C_2=C_1\cup D_1\)</span>  με μέτρο ίσο με:</p>
+<div class="math notranslate nohighlight">
+\[\lambda(C_2)=\frac{1}{2}+\frac{1}{2}\frac{1}{2}=\frac{1}{2}+\frac{1}{4}=\frac{3}{4}=1-\frac{1}{4}.\]</div>
+<p>Το  <span class="math notranslate nohighlight">\(D_1\)</span>  που συμπληρώσαμε έχει σαφώς μέτρο όσο το μισό του υπολοίπου του  <span class="math notranslate nohighlight">\(C_1\)</span>  - δηλαδή  <span class="math notranslate nohighlight">\(\frac{1}{2}\cdot\frac{1}{2}=\frac{1}{4}.\)</span>  Το γιατί γράψαμε έτσι παράξενα το 3/4 παραπάνω θα φανεί στην πορεία.</p>
+<p>Τώρα, μπορούμε να ορίσουμε μία συνάρτηση  <span class="math notranslate nohighlight">\(f_2\)</span>  όπως η  <span class="math notranslate nohighlight">\(f_1\)</span>  πάνω στο  <span class="math notranslate nohighlight">\(D_1.\)</span>  Δηλαδή, η  <span class="math notranslate nohighlight">\(f_2\)</span>  είναι παραγωγίσιμη με φραγμένη παράγωγο και ασυνεχή πάνω στο  <span class="math notranslate nohighlight">\(D_1.\)</span></p>
+<p>Όμως, και πάλι μας έχουν μείνει «τρύπες». Οπότε, παίρνουμε κι άλλα συνολάκια Cantor με σχετικό μέτρο 1/2 έτσι ώστε να βουλώσουμε όσες τρύπες έχουν απομείνει (που είναι αριθμήσιμα πολλές). Την ένωσή τους την ονομάζουμε  <span class="math notranslate nohighlight">\(D_2\)</span>  και ορίζουμε και μία συνάρτηση  <span class="math notranslate nohighlight">\(f_3\)</span>  έτσι ώστε η  <span class="math notranslate nohighlight">\(f_3\)</span>  να είναι παραγωγίσιμη στο  <span class="math notranslate nohighlight">\([0,1]\)</span>  όπως παραπάνω με φραγμένη παράγωγο, ασυνεχή στο  <span class="math notranslate nohighlight">\(D_2.\)</span>  Θεωρούμε επίσης και το σύνολο  <span class="math notranslate nohighlight">\(C_3=C_2\cup D_2,\)</span>  για το οποίο ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[\lambda(C_3)=1-\frac{1}{4}+\frac{1}{2}\frac{1}{4}=1-\frac{1}{4}+\frac{1}{8}=1-\frac{1}{8}.\]</div>
+<p>Γενικά, μπορούμε με άνεση να συνεχίσουμε αυτήν την κατασκευή επ” άπειρον. Έτσι, κατασκευάζουμε σύνολα  <span class="math notranslate nohighlight">\(C_n\)</span>  που έχουν τις καλές ιδιότητες των συνόλων Cantor και επιπλέον  <span class="math notranslate nohighlight">\(C_1\subset C_2\subset C_3\cdots\)</span>  ενώ για το μέτρο τους ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[\lambda(C_n)=1-\frac{1}{2^n}.\]</div>
+<p>Επίσης, έχουμε ορίσει και σύνολα  <span class="math notranslate nohighlight">\(D_n\)</span>  που δεν είναι παρά πολλά σύνολα Cantor μαζί έτσι ώστε  <span class="math notranslate nohighlight">\(D_n=C_{n+1}\setminus C_n\)</span>  και  <span class="math notranslate nohighlight">\(\lambda(D_n)=\frac{1}{2^{n+1}}.\)</span>  Α, μην το ξεχάσουμε, έχουμε κατασκευάσει και συναρτήσεις  <span class="math notranslate nohighlight">\(f_n\)</span>  έτσι ώστε:</p>
+<ul class="simple">
+<li><p>να είναι παραγωγίσιμες στο  <span class="math notranslate nohighlight">\([0,1],\)</span></p></li>
+<li><p>να έχουν φραγμένες παραγώγους,</p></li>
+<li><p>οι παράγωγοί τους να είναι ασυνεχείς στα  <span class="math notranslate nohighlight">\(D_n.\)</span></p></li>
+</ul>
+<p>Παρατηρήστε σε αυτό το σημείο ότι ο τρόπος με τον οποίο ορίζουμε τα  <span class="math notranslate nohighlight">\(D_n\)</span>  μας εξασφαλίζει ότι είναι όλα τους «σχεδόν» ξένα μεταξύ τους. Λέμε «σχεδόν» γιατί τα  <span class="math notranslate nohighlight">\(D_n\)</span>  «ακουμπάνε» στα άκρα των ανοικτών διαστημάτων που «βουλώνουν» αλλά αυτά είναι αριθμήσιμα στο πλήθος και δεν μας απασχολούν ιδιαίτερα, καθώς το μέτρο τους είναι μηδέν. Θεωρούμε τώρα την παρακάτω ακολουθία συναρτήσεων:</p>
+<div class="math notranslate nohighlight">
+\[g_n(x)=\sum_{k=1}^n\frac{1}{2^k}f_k(x)=\frac{1}{2}f_1(x)+\frac{1}{4}f_2(x)+\cdots\]</div>
+<p>Πρακτικά, αυτό που κάναμε παραπάνω είναι να προσθέσουμε διαδοχικά όλες τις συναρτήσεις που έχουμε ορίσει στα παραπάνω βήματα. Βάλαμε μπροστά και κάποιους συντελεστές της μορφής  <span class="math notranslate nohighlight">\(\frac{1}{2^k}\)</span>  γιατί καθώς προχωράμε και προσθέτουμε όλο και περισσότερες τέτοιες συναρτήσεις, τα πράγματα μεγαλώνουν πολύ κι αυτό μας ενοχλεί - θέλουμε να πάρουμε ένα όριο, όπως καταλαβαίνετε.</p>
+<p>Και, αφού το αναφέραμε, ας πάρουμε κι ένα όριο στα παραπάνω. Θεωρούμε τη συνάρτηση:</p>
+<div class="math notranslate nohighlight">
+\[g(x)=\lim_{n\to\infty}g_n(x)=\sum_{k=1}^\infty\frac{1}{2^k}f_k(x).\]</div>
+<p>Τώρα, αφού πήραμε ένα όριο, πρέπει να αναρρωτηθούμε: «Υπάρχει;».</p>
+<p>Εδώ κάπου μπαίνουν οι συντελεστές που επιλέξαμε παραπάνω. Όλες αυτές οι συναρτήσεις που κατασκευάζουμε πάνω στα σύνολα Cantor είναι φραγμένες από το 1. Επομένως, ισχύει το εξής:</p>
+<div class="math notranslate nohighlight">
+\[\left|\sum_{k=1}^\infty\frac{1}{2^k}f_k(x)\right|\leq\sum_{k=1}^\infty\left|\frac{1}{2^k}f_k(x)\right|\leq\sum_{k=1}^\infty\frac{1}{2^k}=1.\]</div>
+<p>Η παραπάνω «σύγκριση» με μία γνωστή (γεωμετρική) σειρά που συγκλίνει είναι αρκετή για να μας εξασφαλίσει και την ομοιόμορφη σύγκλιση της ακολουθίας  <span class="math notranslate nohighlight">\(g_n\)</span>  στην  <span class="math notranslate nohighlight">\(g\)</span>  όπως είπαμε παραπάνω - αυτό είναι ένα γνωστό αποτέλεσμα του Weierstrass, το περιβόητο <a class="reference external" href="https://en.wikipedia.org/wiki/Weierstrass_M-test">M-Test</a> για το οποίο θα μιλήσουμε στο μέλλον. Συνεπώς, αμέσως-αμέσως παίρνουμε μία συνάρτηση της οποίας μπορεί να μην γνωρίζουμε τον τύπο αλλά γνωρίζουμε ότι είναι συνεχής καθώς και ότι:</p>
+<div class="math notranslate nohighlight">
+\[g(x)=\lim_{n\to\infty}g_n(x).\]</div>
+<p>Επιπλέον, θεωρούμε τώρα και την παρακάτω σειρά:</p>
+<div class="math notranslate nohighlight">
+\[h(x)=\sum_{k=1}^\infty\frac{1}{2^k}f_k'(x).\]</div>
+<p>Όπως και με τις  <span class="math notranslate nohighlight">\(f_n\)</span>  έτσι και οι παράγωγοί τους είναι όλες τους φραγμένες από το 1, επομένως μπορούμε να κάνουμε το ίδιο τέχνασμα:</p>
+<div class="math notranslate nohighlight">
+\[\left|\sum_{k=1}^\infty\frac{1}{2^k}f_k'(x)\right|\leq\sum_{k=1}^\infty\left|\frac{1}{2^k}f_k'(x)\right|\leq\sum_{k=1}^\infty\frac{1}{2^k}=1.\]</div>
+<p>Έτσι, και η σειρά των παραγώγων (που είναι η παράγωγος της σειράς  <span class="math notranslate nohighlight">\(g(x)\)</span>  όπως βλέπετε) συγκλίνει ομοιόμορφα σε κάποια συνάρτηση, η οποία, όπως είδαμε παραπάνω, δεν είναι παρά η  <span class="math notranslate nohighlight">\(g'.\)</span>  Επομένως, μέσω ορίων και σειρών συναρτήσεων έχουμε ορίσει μία συνάρτηση  <span class="math notranslate nohighlight">\(g\)</span>  η οποία:</p>
+<ul class="simple">
+<li><p>είναι συνεχής στο  <span class="math notranslate nohighlight">\([0,1],\)</span></p></li>
+<li><p>είναι παραγωγίσιμη στο  <span class="math notranslate nohighlight">\([0,1],\)</span></p></li>
+<li><p>έχει φραγμένη παράγωγο από το 1 - βλ. παραπάνω.</p></li>
+</ul>
+<p>Τώρα, θυμηθείτε ότι οι συναρτήσεις  <span class="math notranslate nohighlight">\(f_k\)</span>  που χρησιμοποιήθηκαν για να ορίσουμε τις  <span class="math notranslate nohighlight">\(g_n\)</span>  είχαν αυτή την ενδιαφέρουσα ιδιότητα να είναι ασυνεχείς σε ένα σύνολο «τύπου Cantor». Μήπως αυτή η συμπεριφορά μπορεί να κληρονομηθεί κάπως και στην  <span class="math notranslate nohighlight">\(g\)</span>  μέσω της ομοιόμορφης σύγκλισης;</p>
+<p>Για να το δούμε αυτό, ας θεωρήσουμε αρχικά το σύνολο  <span class="math notranslate nohighlight">\(C=\bigcup_{n=1}^\infty C_n\)</span>  - την ένωση, δηλαδή, όλων αυτών των περίεργων συνόλων που κατασκευάσαμε παραπάνω. Επειδή τα  <span class="math notranslate nohighlight">\(C_n\)</span>  όπως τα κατασκευάσαμε σιγά-σιγά μεγαλώνουν - δηλαδή  <span class="math notranslate nohighlight">\(C_1\subset C_2\subset C_3\subset\cdots\)</span>  - μπορούμε να σκεφτόμαστε το  <span class="math notranslate nohighlight">\(C\)</span>  ως το «όριο» της παραπάνω ακολουθίας συνόλων. Ας θεωρήσουμε κι ένα  <span class="math notranslate nohighlight">\(\xi\in C.\)</span>  Καθώς το  <span class="math notranslate nohighlight">\(C\)</span>  είναι η ένωση μίας ακολουθίας συνόλων, υπάρχει κάποιο  <span class="math notranslate nohighlight">\(n_0\in\mathbb{N}\)</span>  έτσι ώστε  <span class="math notranslate nohighlight">\(\xi\in C_{n_0}.\)</span>  Μάλιστα, μπορούμε να υποθέσουμε ότι το  <span class="math notranslate nohighlight">\(n_0\)</span>  είναι το ελάχιστο δυνατό. Δηλαδή, καθώς «περπατάμε» πάνω από τα σύνολα  <span class="math notranslate nohighlight">\(C_1,C_2,\ldots\)</span>  το  <span class="math notranslate nohighlight">\(C_{n_0}\)</span>  είναι το πρώτο που βρίσκουμε να περιέχει το  <span class="math notranslate nohighlight">\(\xi\)</span>  - και, επειδή η ακολουθία μας είναι αύξουσα, όλα μετά από εκεί θα το περιέχουν.</p>
+<p>Τώρα, θυμηθείτε λίγο πώς κατασκευάζαμε αυτά τα  <span class="math notranslate nohighlight">\(C_n.\)</span>  Παίρναμε το αμέσως προηγούμενο σύνολο, το  <span class="math notranslate nohighlight">\(C_{n-1}\)</span>  και του κολλούσαμε το  <span class="math notranslate nohighlight">\(D_{n-1},\)</span>  το οποίο, για να φρεσκάρουμε τη μνήμη μας, ήταν το σύνολο στο οποίο ήταν ασυνεχής η  <span class="math notranslate nohighlight">\(f_{n-1}'.\)</span>  Επίσης, το  <span class="math notranslate nohighlight">\(D_{n-1}\)</span>  είναι «σχεδόν» ξένο προς το  <span class="math notranslate nohighlight">\(C_{n-1}\)</span>  (πλην ενός συνόλου μέτρου 0).</p>
+<p>«Και τι με όλα αυτά;» θα πείτε τώρα. Και με το δίκιο σας, δηλαδή. Ας δούμε λίγο την παράγωγο της  <span class="math notranslate nohighlight">\(g:\)</span></p>
+<div class="math notranslate nohighlight">
+\[g'(x)=\sum_{k=1}^\infty\frac{1}{2^k}f_k'(x).\]</div>
+<p>Είπαμε ότι η  <span class="math notranslate nohighlight">\(f_{n_0}'\)</span>  είναι ασυνεχής στο  <span class="math notranslate nohighlight">\(\xi\in D_{n_0-1}.\)</span>  Δεδομένου ότι τα  <span class="math notranslate nohighlight">\(D_n\)</span>  είναι «σχεδόν» ξένα ανά δύο, κάθε άλλη  <span class="math notranslate nohighlight">\(f_k'\)</span>  για  <span class="math notranslate nohighlight">\(k\neq n_0\)</span>  είναι συνεχής στο  <span class="math notranslate nohighlight">\(\xi\)</span>  - εντάξει, εκτός ίσως από μία, αν το  <span class="math notranslate nohighlight">\(\xi\)</span>  είναι άκρο κάποιου αφαιρετέου διαστήματος. Θεωρούμε τώρα τη συνάρτηση:</p>
+<div class="math notranslate nohighlight">
+\[\hat{h}(x)=\sum_{\substack{k=1\k\neq n_0}}^\infty\frac{1}{2^k}f_k'(x).\]</div>
+<p>Αυτή δεν είναι παρά η παράγωγος της  <span class="math notranslate nohighlight">\(g\)</span>  μείον την  <span class="math notranslate nohighlight">\(f_k\)</span>  που μας δημιουργεί ένα ζήτημα ασυνέχειας στο  <span class="math notranslate nohighlight">\(\xi.\)</span>  Ως ομοιόμορφο όριο συνεχών συναρτήσεων στο  <span class="math notranslate nohighlight">\(\xi\)</span>  η  <span class="math notranslate nohighlight">\(\hat{h}\)</span>  είναι συνεχής στο  <span class="math notranslate nohighlight">\(\xi.\)</span>  Ισχύει όμως η εξής σχέση:</p>
+<div class="math notranslate nohighlight">
+\[g'(x)=\hat{h}(x)+f_{n_0}'(x).\]</div>
+<p>Η  <span class="math notranslate nohighlight">\(\hat{h}\)</span>  είναι συνεχής στο  <span class="math notranslate nohighlight">\(\xi\)</span>  όπως είδαμε, ενώ η  <span class="math notranslate nohighlight">\(f_{n_0}\)</span>  όχι. Επομένως, το άθροισμά της, δηλαδή η  <span class="math notranslate nohighlight">\(g'\)</span>  δε θα είναι συνεχής στο  <span class="math notranslate nohighlight">\(\xi\)</span>  - αλλιώς θα ήταν και η  <span class="math notranslate nohighlight">\(f_{n_0}'.\)</span>  Συνεπώς, το  <span class="math notranslate nohighlight">\(\xi\)</span>  είναι ένα σημείο ασυνέχειας της  <span class="math notranslate nohighlight">\(g'\)</span>  και, επειδή δεν είχε και κάτι ιδιαίτερο το συγκεκριμένο  <span class="math notranslate nohighlight">\(\xi\in C,\)</span>  η  <span class="math notranslate nohighlight">\(g'\)</span>  είναι ασυνεχής σε όλο το  <span class="math notranslate nohighlight">\(C.\)</span></p>
+<p>Παρατηρήστε τώρα ότι, αφού το  <span class="math notranslate nohighlight">\(C\)</span>  είναι η ένωση όλων των  <span class="math notranslate nohighlight">\(C_n,\)</span>  ισχύει και ότι:</p>
+<div class="math notranslate nohighlight">
+\[\lambda(C)\geq\lambda(C_n)=1-\frac{1}{2^n}.\]</div>
+<p>Αφήνοντας το  <span class="math notranslate nohighlight">\(n\)</span>  να «τρέξει» προς το άπειρο, οριακά παίρνουμε και ότι:</p>
+<div class="math notranslate nohighlight">
+\[\lambda(C)\geq1.\]</div>
+<p>Σαφώς, αφού το  <span class="math notranslate nohighlight">\(C\)</span>  ζει μέσα στο  <span class="math notranslate nohighlight">\([0,1]\)</span>  δε γίνεται να έχει μέτρο πάνω από 1, επομένως έχουμε  <span class="math notranslate nohighlight">\(\lambda(C)=1.\)</span>  Έτσι, έχουμε καταφέρει να κατασκευάσουμε μία συνάρτηση  <span class="math notranslate nohighlight">\(g\)</span>  η οποία:</p>
+<ul class="simple">
+<li><p>είναι παραγωγίσιμη,</p></li>
+<li><p>με φραγμένη παράγωγο,</p></li>
+<li><p>με παράγωγο ασυνεχή σε ένα σύνολο μέτρου 1.</p></li>
+</ul>
+<p>Δηλαδή, αυτή η παράγωγος είναι αυτό που λέμε ασυνεχής «σχεδόν παντού», υπό την έννοια ότι αν επιλέξουμε έναν αριθμό στο  <span class="math notranslate nohighlight">\([0,1]\)</span>  στην τύχη, θα είναι ένα σημείο ασυνέχειας της  <span class="math notranslate nohighlight">\(g'\)</span>  με πιθανότητα 1.</p>
+</section>
+<section id="id6">
+<h2>Κι Άλλες Απορίες<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id6" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id6'"><span>#</span></a></h2>
+<p>Ωραία, καταφέραμε να χαρτογραφήσουμε κάπως καλύτερα πόσο συνεχείς είναι οι παράγωγοι - και είδαμε ότι μπορούν να είναι πολύ ασυνεχείς. Ωστόσο, όπως συμβαίνει πάντα με τα μαθηματικά, μέσα από όλη αυτή την αναζήτηση προκύπτουν κι άλλα ερωτήματα. Ας συζητήσουμε εδώ δύο από αυτά.</p>
+<p>Αρχικά, ξεκινήσαμε από την εντύπωση ότι οι περισσότερες συναρτήσεις που είναι παραγωγίσιμες έχουν παράγωγο που, εντάξει, αν δεν είναι συνεχής, θα είναι σχεδόν παντού συνεχής. Ωστόσο, καταφέραμε μέσα από μία κομψή κατασκευή να δώσουμε παραδείγματα παραγώγων που είναι ασυνεχείς σε ένα σύνολο όσο μεγάλο θέλουμε. Με λίγη ακόμα προσπάθεια, καταφέραμε να κατασκευάσουμε και μία συνάρτηση που είναι συνεχής σε ένα πολύ μικρό - στα μάτια του Lebesgue - σύνολο. Κι εδώ προκύπτει ένα ερώτημα: τελειώσαμε; Μήπως, αφού φτάσαμε τόσο μακριά, μπορούμε να πάμε ως το τέρμα; Μπορούμε να κατασκευάσουμε μία συνάρτηση με παράγωγο που να είναι παντού ασυνεχής; Όχι δηλαδή, σε ένα σύνολο μέτρου όσο και το πεδίο ορισμού της, αλλά σε όλο το πεδίο ορισμού της. (Αφήνεται ως άσκηση, προς το παρόν.)</p>
+<p>Πάμε τώρα στα σχολικά ειωθότα. Εκεί όλες οι παράγωγοι είναι κομψές με μία απλή έννοια: είναι συνήθως τόσο συνεχείς όσο και παραγωγίσιμες και, άντε, οι όποιες ασυνέχειες να εμφανίζονται σε λίγα πεπερασμένα στο πλήθος σημεία. Οι κατασκευές μας όμως αυτές τις δύο εβδομάδες δείχνουν ξεκάθαρα ότι υπάρχουν εκεί έξω ελεύθερες και αρκετές συναρτήσεις με παραγώγους που είναι «πολύ» ασυνεχείς. Τι συμβαίνει, λοιπόν; Ποιες είναι περισσότερες; Οι «καλές» παράγωγοι, που είναι γενικά συνεχείς ή οι «κακές» παράγωγοι, που είναι σχεδόν παντού ασυνεχείς;</p>
+<p>Αυτά και άλλα πολλά στο άμεσο μέλλον…</p>
+<p>Μέχρι τότε, καλό απόγευμα και καλό διάβασμα!</p>
+<p>Καλημέρα και καλό διάβασμα!</p>
+<blockquote>
+<div><div class="video_wrapper" style="">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/tJSbfNQDofc" style="border: 0; height: 345px; width: 560px">
+</iframe></div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        Η εικασία Collatz (8)
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">
+        Η στρατηγική δε μετράει πάντα…
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#cantor'" class="reference internal" href="#cantor">Αν ταΐσουμε τον Cantor;</a></li>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Επιστροφή στις Κατασκευές</a></li>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Πόσο Χειρότερα;</a></li>
+<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Συναρτήσεις αντί για Αριθμούς</a></li>
+<li><a :data-current="activeSection === '#id5'" class="reference internal" href="#id5">Πίσω στον Cantor</a></li>
+<li><a :data-current="activeSection === '#id6'" class="reference internal" href="#id6">Κι Άλλες Απορίες</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

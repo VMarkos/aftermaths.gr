@@ -1,0 +1,33 @@
+Διαφάνειες - Άλγεβρα Α' Λυκείου
+###############################
+
+.. meta::
+	:date: 2021-01-30 12:59
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, ρίζες, σημειώσεις, Α' Λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, εξισώσεις, θεωρία, λυμένα παραδείγματα, μαθηματικά
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-6
+	:status: published
+	:attachments: _static/images/uploads/2021/01/803px-taras_shevchenko_-_portrait_by_ivan_kramskoi.jpg
+
+.. figure:: /_static/images/uploads/2021/01/803px-taras_shevchenko_-_portrait_by_ivan_kramskoi.jpg
+	:alt: Το πορτραίτο του Taras Schevchenko του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+	:align: center
+
+	Το πορτραίτο του Taras Schevchenko του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+
+
+Διαφάνειες στην άλγεβρα της Α' λυκείου που καλύπτουν την ενότητα των ριζών καθώς και απλές πρωτοβάθμιες και δευτεροβάθμιες εξισώσεις, καθώς και εξισώσεις που ανάγονται σε αυτές.
+
+Τις `διαφάνειες για την καραντίνα  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-άλγεβρα-α-λυκείου-3.rst>`__ καθώς και το πρώτο μέρος (απόλυτες τιμές, σύνολα και εισαγωγικές έννοιες) μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1B9fPytFSF9oRnSFsK0RSsS22DzBZFYes/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+
+
+
+   .. youtube:: iVg30U6O764 
+
+

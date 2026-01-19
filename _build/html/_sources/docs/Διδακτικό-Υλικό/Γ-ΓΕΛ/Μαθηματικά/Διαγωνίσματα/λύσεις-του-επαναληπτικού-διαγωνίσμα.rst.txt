@@ -1,0 +1,33 @@
+Λύσεις του Επαναληπτικού Διαγωνίσματος VI
+#########################################
+
+.. meta::
+	:date: 2022-05-31 12:42
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, Γ' λυκείου, διαγώνισμα, επανάληψη
+	:slug: %ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%bf%cf%8d-%ce%b4%ce%b9%ce%b1%ce%b3%cf%89%ce%bd%ce%af%cf%83%ce%bc%ce%b1
+	:status: published
+	:attachments: _static/images/uploads/2022/05/1241px-eugene_delacroix_-_shipwreck_on_the_coast_-_google_art_project.jpg
+
+.. figure:: /_static/images/uploads/2022/05/1241px-eugene_delacroix_-_shipwreck_on_the_coast_-_google_art_project.jpg
+	:alt: Ο πίνακας *Ναυάγιο στην ακτή* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+	:align: center
+
+	Ο πίνακας *Ναυάγιο στην ακτή* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+
+
+Τις λύσεις του `επαναληπτικού διαγωνίσματος VI  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Διαγωνίσματα/επαναληπτικό-διαγώνισμα-εφ-όλης-της-ύ-9.rst>`__ μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1qBKgI4HOv__pl45jujBxC12Vh2ZRlnex/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+*Υλικό για τις πανελλήνιες μπορείτε να βρείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Επανάληψη/123-ερωτήσεις-σωστού-λάθους.rst>`__\ *,*\ `εδώ  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Ολοκληρώματα/40-1-μικρές-επαναληπτικές-ασκήσεις.rst>`__\ *αλλά και*\ `εδώ  <https://aftermaths.gr/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
+
+
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+
+
+
+   .. youtube:: s4kicvt5ASk 
+
+

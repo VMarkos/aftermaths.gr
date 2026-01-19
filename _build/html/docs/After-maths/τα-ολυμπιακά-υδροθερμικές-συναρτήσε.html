@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2024-08-04 10:44" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Μαθηματικά, Τα Ολυμπιακά" name="category"/>
+<meta content="featured, ΙΜΟ, ασκήσεις" name="tags"/>
+<meta content="%cf%84%ce%b1-%ce%bf%ce%bb%cf%85%ce%bc%cf%80%ce%b9%ce%b1%ce%ba%ce%ac-%cf%85%ce%b4%cf%81%ce%bf%ce%b8%ce%b5%cf%81%ce%bc%ce%b9%ce%ba%ce%ad%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2024/07/plot_03.png, _static/images/uploads/2024/07/plot_02.png, _static/images/uploads/2024/07/sym_01.png, _static/images/uploads/2024/08/plot_06.png, _static/images/uploads/2024/07/plot_01.png, _static/images/uploads/2024/07/plot_02-1.png, _static/images/uploads/2024/07/plot_03-1.png, _static/images/uploads/2024/07/plot_05.png, _static/images/uploads/2024/07/samson_captured_by_the_philistines_met_dt503.jpg, _static/images/uploads/2024/07/plot_04.png, _static/images/uploads/2024/07/x_mx_01-1.png, _static/images/uploads/2024/07/x_mx_01.png" name="attachments"/>
+<title>Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις; | aftermaths</title>
+<meta content="Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις; | aftermaths" property="og:title"/>
+<meta content="Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις; | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html" rel="next" title="Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)"/>
+<link href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html" rel="prev" title="45436, 44300, 24900: Ποιος Είναι ο Επόμενος;"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</span>
+</nav>
+<div id="content" role="main">
+<section id="id1">
+<h1>Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+<figure class="align-center" id="id9">
+<img alt="Ο πίνακας *Η αρπαγή του Σαμψών από τους Φιλισταίους* του `Guercino  &lt;https://en.wikipedia.org/wiki/Guercino&gt;`__." src="_static/images/uploads/2024/07/plot_03.png,_static/images/uploads/2024/07/plot_02.png,_static/images/uploads/2024/07/sym_01.png,_static/images/uploads/2024/08/plot_06.png,_static/images/uploads/2024/07/plot_01.png,_static/images/uploads/2024/07/plot_02-1.png,_static/images/uploads/2024/07/plot_03-1.png,_static/images/uploads/2024/07/plot_05.png,_static/images/uploads/2024/07/samson_captured_by_the_philistines_met_dt503.jpg,_static/images/uploads/2024/07/plot_04.png,_static/images/uploads/2024/07/x_mx_01-1.png,_static/images/uploads/2024/07/x_mx_01.png"/>
+<figcaption>
+<p><span class="caption-text">Ο πίνακας <em>Η αρπαγή του Σαμψών από τους Φιλισταίους</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Guercino">Guercino</a>.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Καλοκαιράκι, Ολυμπιακοί Αγώνες, όλα τα μάτια καρφωμένα στους δέκτες μας για λίγο ευ αγωνίζεσθαι, λίγο αθλητισμό και λίγο θέαμα. Λίγο απ” όλα, που λέμε. Ωστόσο, λίγο νωρίτερα μέσα στο ίδιο καλοκαιράκι είχαμε άλλη μία Ολυμπιάδα, στο Μπαθ (αυτό το Bath, που λέμε) του Ηνωμένου Βασιλείου (μην το μπερδέψετε με το «μπαθ» του σπιτιού ή της γειτονιάς). Την <a class="reference external" href="https://www.imo2024.uk/">65 Διεθνή Μαθηματική Ολυμπιάδα</a>, που, όπως κάθε χρόνο, μαθητές από όλο τον κόσμο διαγωνίζονται σε ενδιαφέροντα προβλήματα από τον κόσμο των μαθηματικών.</p>
+<p>Ανάμεσα στα διάφορα προβλήματα που είδαμε φέτος, ένα κομψό και κάπως ζόρικο θέμα είναι και το 6ο θέμα (το τελευταίο, τρίτο θέμα της δεύτερης ημέρας) του διαγωνισμού. Ας δούμε την εκφώνησή του:</p>
+<blockquote>
+<div><p>Έστω  <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>  το σύνολο των ρητών αριθμών. Μία συνάρτηση  <span class="math notranslate nohighlight">\(f : \mathbb{Q} \to \mathbb{Q}\)</span>  λέγεται <em>υδροθερμική</em>, αν ικανοποιείται η ακόλουθη ιδιότητα: για κάθε  <span class="math notranslate nohighlight">\(x, y \in\mathbb{Q}\)</span>  ισχύει τουλάχιστον μία από τις ισότητες:</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(y))=f(x)+y ή .. math:: f(f(x)+y)=x+f(y).\]</div>
+<p>Να αποδείξετε ότι υπάρχει ακέραιος  <span class="math notranslate nohighlight">\(c\)</span>  τέτοιος, ώστε για κάθε υδροθερμική συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span>  να υπάρχουν το πολύ  <span class="math notranslate nohighlight">\(c\)</span>  διαφορετικοί ρητοί αριθμοί που γράφονται στη μορφή  <span class="math notranslate nohighlight">\(f(r)+f(-r)\)</span>  για κάποιο ρητό αριθμό  <span class="math notranslate nohighlight">\(r\)</span> , και να προσδιορίσετε την ελάχιστη δυνατή τιμή του  <span class="math notranslate nohighlight">\(c\)</span> .</p>
+</div></blockquote>
+<p>Ωραίο, ε; Υδροθερμική συνάρτηση, πού τους ήρθε το όνομα, θα πείτε; Αλλά, ας μην ασχοληθούμε τώρα με την ονοματολογία, ας δούμε αν μπορούμε, αρχικά, να βγάλουμε άκρη με την ίδια την άσκηση.</p>
+<p><em>Όλα τα θέματα του διαγωνισμού, καθώς και διάφορα στατιστικά μπορείτε να βρείτε</em><a class="reference external" href="https://www.imo-official.org/year_info.aspx?year=2024">εδώ</a><em>.</em></p>
+<section id="id2">
+<h2>Λίγες Σκόρπιες Σκέψεις<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>Λοιπόν, το επίκεντρο της προσοχής σε αυτό το θέμα, όπως θα φαντάζεστε, είναι η συναρτησιακή σχέση που μας δίνει, η οποία, ωστόσο, δεν είναι και πολύ βολική, καθώς έχει αυτό το «ή». Αλλά, τι να κάνουμε, θα δουλέψουμε με αυτό για αρχή και, αν μας σπάσει αρκετά τα νεύρα, θα δούμε τι εναλλακτικές έχουμε.</p>
+<p>Ωραία, πώς ξεκινάμε να δουλεύουμε;</p>
+<p>[Σκέψη]</p>
+<p>Αρχικά, ας δοκιμάσουμε να δούμε μήπως κάποια γνωστή μας συνάρτηση ικανοποιεί την παραπάνω σχέση, για να πάρουμε μια ιδέα για το πώς μπορεί να μοιάζει μία τέτοια, υδροθερμική, συνάρτηση. Πρώτη μας δοκιμή θα είναι κάτι απελπιστικά απλό, η  <span class="math notranslate nohighlight">\(f(x)=0\)</span> . Σε αυτή την περίπτωση, η δοσμένη σχέση στην πρώτη περίπτωση γίνεται:</p>
+<div class="math notranslate nohighlight">
+\[f(x+0)=0+y\Rightarrow f(x)=y\Rightarrow 0=y\]</div>
+<p>το οποίο, σαφώς, δε γίνεται να ισχύει για κάθε  <span class="math notranslate nohighlight">\(y\in\mathbb{Q}\)</span> . Αντίστοιχα, το δεύτερο σκέλος της δίνει:</p>
+<div class="math notranslate nohighlight">
+\[f(0+y)=x+0\Rightarrow f(y)=x\Rightarrow 0=x\]</div>
+<p>το οποίο και πάλι δε γίνεται να ισχύει για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{Q}\)</span> . Με λίγα λόγια, η μηδενική συνάρτηση σίγουρα δεν είναι υδροθερμική. Αντίστοιχα, δεν μπορεί καμία σταθερή συνάρτηση να ικανοποιεί την παραπάνω σχέση, επομένως, ας πάμε σε μία λίγο πιο «ζωντανή» συνάρτηση, την  <span class="math notranslate nohighlight">\(f(x)=x\)</span> . Σε αυτή την περίπτωση, από την πρώτη περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(y))=f(x)+y\Leftrightarrow f(x+y)=x+y\Leftrightarrow x+y=x+y\]</div>
+<p>που είναι κάτι που ισχύει. Τυπικά, δε χρειάζεται να κοιτάξουμε και το δεύτερο σκέλος του «ή», καθώς αποδείξαμε ότι σε κάθε περίπτωση το πρώτο ισχύει για κάθε  <span class="math notranslate nohighlight">\(x,y\in\mathbb{Q}\)</span> . Αλλά, για λόγους πληρότητας, ορίστε και τι συμβαίνει στο δεύτερο σκέλος:</p>
+<div class="math notranslate nohighlight">
+\[f(f(x)+y)=x+f(y)\Leftrightarrow f(x+y)=x+y\Leftrightarrow x+y=x+y\]</div>
+<p>που, και πάλι, ισχύει. Ωραία, τρώγοντας έρχεται η όρεξη, οπότε γιατί να μη δοκιμάσουμε, γενικά, συναρτήσεις της μορφής  <span class="math notranslate nohighlight">\(f(x)=ax\)</span> ; Ας τις δοκιμάσουμε! Στην πρώτη περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}&amp;\hphantom{{}\Leftrightarrow{}}f(x+f(y))=f(x)+y\&amp;\Leftrightarrow f(x+ay)=ax+y\&amp;\Leftrightarrow a(x+ay)=ax+y\&amp;\Leftrightarrow ax+a^2y=ax+y\&amp;\Leftrightarrow a^2y=y\end{aligned}\]</div>
+<p>Για να είναι ίσα τα δύο μέλη στο τέλος πρέπει, προφανώς, να έχουν τους ίδιους συντελεστές, δηλαδή:</p>
+<div class="math notranslate nohighlight">
+\[a^2=1\Leftrightarrow a=\pm1\]</div>
+<p>Και με το δεύτερο μέλος αν παίξετε, θα πάρετε κάτι ανάλογο, συνεπώς, οι μόνες συναρτήσεις της μορφής  <span class="math notranslate nohighlight">\(f(x)=ax\)</span>  που είναι υδροθερμικές είναι οι  <span class="math notranslate nohighlight">\(f_1(x)=x\)</span>  και  <span class="math notranslate nohighlight">\(f_2(x)=-x\)</span> . Για να μην ξεχνιόμαστε, οι γραφικές τους παραστάσεις είναι αυτές που φαίνονται παρακάτω:</p>
+<figure class="wp-image-13817 align-default" id="id10">
+<img alt="Οι γραφικές παραστάσεις δύο υδροθερμικών συναρτήσεων. Οι γραφικές παραστάσεις είναι «κουκκιδωτές» για να μην ξεχνάμε ότι το πεδίο ορισμού τους δεν είναι οι πραγματικοί αριθμοί αλλά μόνο οι **ρητοί.**" src="docs/After-maths/{static}_static/images/uploads/2024/07/x_mx_01-1.png?w=1015"/>
+<figcaption>
+<p><span class="caption-text">Οι γραφικές παραστάσεις δύο υδροθερμικών συναρτήσεων. Οι γραφικές παραστάσεις είναι «κουκκιδωτές» για να μην ξεχνάμε ότι το πεδίο ορισμού τους δεν είναι οι πραγματικοί αριθμοί αλλά μόνο οι <strong>ρητοί.</strong></span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id10"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Ωραία, εντάξει, δεν είναι, θα πει κανείς, ιδιαίτερα περίπλοκες, από τη μία, αλλά είναι δύο συναρτήσεις που μπορεί να μας βοηθήσουν λίγο να κατευθύνουμε τη σκέψη μας. Για παράδειγμα, γνωρίζοντας ότι αυτές οι δύο συναρτήσεις αποτελούν παραδείγματα υδροθερμικών συναρτήσεων, αντιλαμβανόμαστε αμέσως ότι μάλλον η δοσμένη σχέση δε μας λέει κάτι για το είδος της μονοτονίας μίας υδροθερμικής συνάρτησης, καθώς η μεν  <span class="math notranslate nohighlight">\(f_1\)</span>  είναι γνησίως αύξουσα, η δε  <span class="math notranslate nohighlight">\(f_2\)</span>  είναι γνησίως φθίνουσα. Επομένως, δε θα είναι το πρώτο πράγμα που θα μας απασχολήσει η μονοτονία μίας υδροθερμικής συνάρτησης. Γενικότερα, αν μία ιδιότητα δεν τη μοιράζονται τόσο η  <span class="math notranslate nohighlight">\(f_1\)</span>  όσο και η  <span class="math notranslate nohighlight">\(f_2\)</span>  δε θα έχει νόημα να την αναζητήσουμε σε όλες τις υδροθερμικές συναρτήσεις, καθώς δεν γίνεται να προκύψει με κάποιο τρόπο από τα δεδομένα μας. Με ανάλογο σκεπτικό, ιδιότητες που μοιράζονται οι δύο αυτές συναρτήσεις θα είχε ίσως νόημα να εξετάσουμε αν ικανοποιούνται από κάθε υδροθερμική συνάρτηση. Αυτό, σε αντίθεση με το προηγούμενο, δεν είναι ένα καθαρό και απόλυτο επιχείρημα, υπό την έννοια ότι μπορεί, π.χ., να έτυχε τόσο η  <span class="math notranslate nohighlight">\(f_1\)</span>  όσο και η  <span class="math notranslate nohighlight">\(f_2\)</span>  να περνούν από την αρχή των αξόνων, αλλά, σε κάθε περίπτωση, από κάπου πρέπει κι εμείς να αντλήσουμε έμπνευση, σωστά;</p>
+<p>Και, αφού το έφερε η κουβέντα, τι μπορούμε να πούμε για το  <span class="math notranslate nohighlight">\(f(0)\)</span>  για μία υδροθερμική συνάρτηση; Αν πάρουμε  <span class="math notranslate nohighlight">\(x=y=0\)</span>  τότε έχουμε, στην πρώτη περίπτωση:</p>
+<div class="math notranslate nohighlight">
+\[f(0+f(0))=f(0)+0\Rightarrow f(f(0))=f(0).\]</div>
+<p>Αντίστοιχα, στη δεύτερη περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(f(0)+0)=0+f(0)\Rightarrow f(f(0))=f(0).\]</div>
+<p>Σε κάθε περίπτωση, λοιπόν, για μία υδροθερμική συνάρτηση ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(f(0))=f(0)\]</div>
+<p>ή, με άλλα λόγια, το  <span class="math notranslate nohighlight">\(f(0)\)</span>  είναι ένα σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span> . Αν δεν το θυμάστε, σταθερό σημείο μίας συνάρτησης  <span class="math notranslate nohighlight">\(f\)</span>  χαρακτηρίζουμε κάθε σημείο τομής της γραφικής της παράσταση με τη διχοτόμο  <span class="math notranslate nohighlight">\(y=x\)</span>  δηλαδή τα  <span class="math notranslate nohighlight">\(x\in D_f\)</span>  για τα οποία ισχύει ότι  <span class="math notranslate nohighlight">\(f(x)=x\)</span> . Ο όρος <em>σταθερό σημείο</em> είναι, μάλιστα, αρκετά περιγραφικός, αφού, πρακτικά, η  <span class="math notranslate nohighlight">\(f\)</span>  αφήνει αναλλοίωτο ένα σταθερό της σημείο καθώς δεν «δρα» πάνω του.</p>
+<p>Ωραία, επομένως, δε βρήκαμε ότι  <span class="math notranslate nohighlight">\(f(0)=0\)</span>  όπως ίσως μας «ωθούσαν» οι  <span class="math notranslate nohighlight">\(f_1,f_2\)</span>  να πιστέψουμε, ωστόσο βρήκαμε κάτι εξίσου καλό: όποιο κι αν είναι το  <span class="math notranslate nohighlight">\(f(0)\)</span>  γνωρίζουμε ότι είναι ένας αριθμός τον οποίο κάθε υδροθερμική συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span>  δεν επηρεάζει.</p>
+<p>Αλλά, για ποιον σκοπό τα λέμε όλα αυτά;</p>
+</section>
+<section id="id3">
+<h2>Κοιτάζοντας τον Στόχο<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<p>Τόση ώρα κάναμε κάποιες σκόρπιες σκέψεις, με κύριο στόχο να ζεσταθούμε λίγο και να εξοικειωθούμε με τη δομή της δοσμένης υπόθεσης που είναι λίγο… «κάπως». Αλλά, πρακτικά, τίποτα από όλα όσα έχουμε βρει ως τώρα δεν ξέρουμε αν είναι χρήσιμο στην πορεία μας προς τον στόχο. Βασικά, ποιος είναι ο στόχος, για να έχουμε καλό ερώτημα;</p>
+<p>Ας ρίξουμε μία ματιά ξανά στην εκφώνηση:</p>
+<blockquote>
+<div><p>[…] Να αποδείξετε ότι <strong>υπάρχει ακέραιος</strong> <span class="math notranslate nohighlight">\(c\)</span>  τέτοιος, ώστε <strong>για κάθε υδροθερμική συνάρτηση</strong> <span class="math notranslate nohighlight">\(f\)</span>  να <strong>υπάρχουν το πολύ</strong> <span class="math notranslate nohighlight">\(c\)</span>  διαφορετικοί ρητοί αριθμοί που γράφονται στη μορφή  <span class="math notranslate nohighlight">\(f(r)+f(-r)\)</span> <strong>για κάποιο ρητό</strong> αριθμό  <span class="math notranslate nohighlight">\(r\)</span> , και να προσδιορίσετε την ελάχιστη δυνατή τιμή του  <span class="math notranslate nohighlight">\(c\)</span> .</p>
+</div></blockquote>
+<p>Πωπωπω! Καλά, εδώ μιλάμε για πολλούς ποσοδείκτες. Αρχικά, το βασικό ζητούμενο είναι να δείξουμε ότι υπάρχει ένας ακέραιος, αυτός που ονομάζει  <span class="math notranslate nohighlight">\(c\)</span>  η εκφώνηση. Τώρα, στη συνέχεια, αυτός ο ακέραιος πρέπει να έχει κάποιες ιδιότητες. Για την ακρίβεια, πρέπει, αν διαλέξουμε μία  <span class="math notranslate nohighlight">\(f\)</span>  που να είναι υδροθερμική, να μην υπάρχουν περισσότεροι από  <span class="math notranslate nohighlight">\(c\)</span>  ρητοί που να γράφονται στη μορφή  <span class="math notranslate nohighlight">\(f(r)+f(-r)\)</span> . Αυτό, πρακτικά, σημαίνει ότι αν πάρουμε τη συνάρτηση  <span class="math notranslate nohighlight">\(g:\mathbb{Q}\to\mathbb{Q}\)</span>  που ορίζεται ως:</p>
+<div class="math notranslate nohighlight">
+\[g(x)=f(x)+f(-x)\]</div>
+<p>τότε αυτή θέλουμε να παίρνει το πολύ  <span class="math notranslate nohighlight">\(c\)</span>  διαφορετικές τιμές. Για παράδειγμα, αν το σύνολο τιμών της  <span class="math notranslate nohighlight">\(g\)</span>  για μία δεδομένη  <span class="math notranslate nohighlight">\(f\)</span>  είναι το:</p>
+<div class="math notranslate nohighlight">
+\[g(\mathbb{Q})=\left\{-2,-\frac{3}{2},1,3,\frac{11}{3}\right\}\]</div>
+<p>τότε αυτό που γνωρίζουμε είναι ότι για κάθε ρητό  <span class="math notranslate nohighlight">\(r\in\mathbb{Q}\)</span>  η παράσταση  <span class="math notranslate nohighlight">\(f(r)+f(-r)\)</span>  μπορεί να πάρει μία από αυτές τις πέντε τιμές και καμία άλλη. Και, μάλιστα, κάτι τέτοιο θέλουμε να δείξουμε ανεξάρτητα από το ποια είναι η  <span class="math notranslate nohighlight">\(f\)</span> . Δηλαδή, για μία οποιαδήποτε υδροθερμική συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span> , η αντίστοιχη  <span class="math notranslate nohighlight">\(g\)</span>  δεν μπορεί παρά να παίρνει το πολύ πέντε (ας πούμε, αν  <span class="math notranslate nohighlight">\(c=5\)</span> ) διαφορετικές τιμές.</p>
+<p>Παράξενο, έτσι; Δηλαδή, τι απαίτηση είναι αυτή και πόσο ισχυρή είναι, πια, αυτή η «υδροθερμικότητα» για μία συνάρτηση; Αν θέλουμε να το εκφράσουμε με όρους  <span class="math notranslate nohighlight">\(f\)</span> , αυτό που μας ζητείται, πρέπει, πρακτικά, για κάθε  <span class="math notranslate nohighlight">\(r\in\mathbb{Q}\)</span>  να ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(-r)=g(r)-f(r).\]</div>
+<p>Δεδομένου ότι το  <span class="math notranslate nohighlight">\(g(r)\)</span>  μπορεί να πάρει μόνο πεπερασμένες στο πλήθος τιμές, αυτό που μας λέει η παραπάνω σχέση είναι ότι, για οποιοδήποτε ρητό αριθμό  <span class="math notranslate nohighlight">\(r\)</span>  πρέπει το  <span class="math notranslate nohighlight">\(f(-r)\)</span>  να διαφέρει από το  <span class="math notranslate nohighlight">\(f(r)\)</span>  κατά μία από τις πεπερασμένες στο πλήθος τιμές της  <span class="math notranslate nohighlight">\(g\)</span> . Αυτό οι δύο υδροθερμικές συναρτήσεις που έχουμε εντοπίσει ως τώρα το ικανοποιούν απόλυτα, καθώς:</p>
+<div class="math notranslate nohighlight">
+\[f_1(r)+f_1(-r)=r-r=0\]</div>
+<p>ενώ, αντίστοιχα:</p>
+<div class="math notranslate nohighlight">
+\[f_2(r)+f_2(-r)=-r-(-r)=-r+r=0.\]</div>
+<p>Συνεπώς, εδώ έχουμε την απλούστερη περίπτωση όπου η  <span class="math notranslate nohighlight">\(f\)</span>  είναι είτε άρτια είτε περιττή, επομένως η αντίστοιχη  <span class="math notranslate nohighlight">\(g\)</span>  παίρνει μία και μόνο τιμή (μηδέν). Επομένως, ίσως έχει ενδιαφέρον να εξερευνήσουμε τι συμβαίνει με το  <span class="math notranslate nohighlight">\(f(x)\)</span>  και το  <span class="math notranslate nohighlight">\(f(-x)\)</span> . Ας πάμε να βάλουμε  <span class="math notranslate nohighlight">\(y=-x\)</span>  στη δοσμένη σχέση. Για την πρώτη περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(-x))=f(x)-x\]</div>
+<p>ενώ στη δεύτερη περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(f(x)-x)=x+f(-x).\]</div>
+<p>Ωραία… Αυτά, είναι η αλήθεια, δε φαίνονται και πολύ ενδιαφέροντα, αλλά, τι να κάνουμε. Γενικότερα, θα θέλαμε να μπορούσαμε κάπως να συμπτύξουμε αυτή την υπόθεση από τη μορφή «Α ή Β» στη μορφή «Γ», δηλαδή, να εξαφανίσουμε αυτό το καταραμένο «ή», καθώς, ως τώρα, μας κάνει, κατά κύριο λόγο, τη ζωή δύσκολη. Σε αυτό το σημείο έχουμε δύο επιλογές (τι πιο πρωτότυπο): η πρώτη είναι να αποδείξουμε κάτι της μορφής:</p>
+<div class="math notranslate nohighlight">
+\[A\lor B\Leftrightarrow C\]</div>
+<p>όπου με  <span class="math notranslate nohighlight">\(\lor\)</span>  σημειώνουμε το «ή». Δηλαδή, να αποδείξουμε ότι η δοσμένη υπόθεση είναι ισοδύναμη με μία πιο συμμαζεμένη μορφή, C, η οποία δεν περιλαμβάνει κάποιο «ή» μέσα της και μπορεί να μας κάνει τη ζωή λίγο απλούστερη. Η άλλη εναλλακτική είναι κάπως ασθενέστερη:</p>
+<div class="math notranslate nohighlight">
+\[A\lor B\Rightarrow C.\]</div>
+<p>Δηλαδή, να αποδείξουμε μία απλή συνεπαγωγή, άρα, από την υπόθεσή μας που αποτελεί τον ορισμό της υδροθερμικής συνάρτησης να πάρουμε μία επιμέρους ιδιότητα αυτών των συναρτήσεων, τη C, η οποία, αν είναι αρκετά γενική, θα μας επιτρέψει κάπως να αποδεικνύουμε γενικά πράγματα για τις υδροθερμικές συναρτήσεις με έναν πιο άνετο τρόπο, αποφεύγοντας αυτά τα «ή».</p>
+<p>Τώρα, τι μπορούμε να κάνουμε για να «στρώσουμε» λίγο τη δοσμένη μας σχέση;</p>
+<p>[Σκέψη]</p>
+<p>[Κι άλλη σκέψη]</p>
+<p>Λοιπόν, μία ιδέα θα ήταν να πάμε να βάλουμε όπου  <span class="math notranslate nohighlight">\(y\)</span>  το  <span class="math notranslate nohighlight">\(x\)</span>  για να εξαφανίσουμε τη μία μεταβλητή και, έτσι, ελπίζουμε να φέρουμε τις δύο περιπτώσεις στην ίδια μορφή. Προφανώς, πετώντας μία μεταβλητή, είμαστε στη δεύτερη περίπτωση, όπου πάμε να αποδείξουμε ένα γενικό συμπέρασμα από τον ορισμό μας που, εν γένει, δεν είναι ισοδύναμο με τον ορισμό της «υδροθερμικότητας». Λοιπόν, στην πρώτη περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(x))=f(x)+x.\]</div>
+<p>Στη δεύτερη περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(f(x)+x)=x+f(x).\]</div>
+<p>Δηλαδή, καταλήξαμε σε ένα ενιαίο συμπέρασμα για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{Q}\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(x))=x+f(x).\]</div>
+<p>Τώρα, τι μας λέει το παραπάνω; Πρακτικά, ότι κάθε αριθμός της μορφής  <span class="math notranslate nohighlight">\(x+f(x)\)</span>  αποτελεί ένα σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span> . Δηλαδή, αν έχουμε, για παράδειγμα τον αριθμό  <span class="math notranslate nohighlight">\(x_0=1+f(1)\)</span>  τότε αυτός είναι ένα σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span> , δηλαδή:</p>
+<div class="math notranslate nohighlight">
+\[f(x_0)=x_0.\]</div>
+<p>Μάλιστα, αυτό ισχύει για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{Q}\)</span> . Έτσι, η παραπάνω σχέση φαίνεται σαν να υπονοεί ότι μία υδροθερμική συνάρτηση έχει άπειρα σταθερά σημεία, δηλαδή μοιάζει, κάπως, με την  <span class="math notranslate nohighlight">\(y=x\)</span>  (που είναι μία υδροθερμική συνάρτηση). Είναι όμως έτσι;</p>
+<p>Ακόμα δεν μπορούμε να πούμε πολλά, γιατί δεν ξέρουμε και πολλά για την  <span class="math notranslate nohighlight">\(f\)</span> . Για παράδειγμα, γνωρίζουμε ένα σταθερό σημείο της, το  <span class="math notranslate nohighlight">\(f(0),\)</span>  αφού παραπάνω δείξαμε ότι  <span class="math notranslate nohighlight">\(f(f(0))=f(0)\)</span>  οπότε το παραπάνω μας λέει ότι και το  <span class="math notranslate nohighlight">\(0+f(0)=f(0)\)</span>  είναι ένα σταθερό σημείο το οποίο, όμως, δεν είναι κάτι καινούργιο… Επομένως, μοιάζει σαν να μας έδωσε κάτι η παραπάνω σχέση και, αμέσως αμέσως, να μας το πήρε πίσω. Τι άλλο μπορούμε να κάνουμε τώρα;</p>
+</section>
+<section id="id4">
+<h2>Απόπειρα #002<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h2>
+<p>Λοιπόν, ας ρίξουμε μια ματιά ξανά σε όσα έχουμε αποδείξει ως τώρα:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(f(f(0))=f(0)\)</span> .</p></li>
+<li><p>Οι  <span class="math notranslate nohighlight">\(f_1(x)=x\)</span>  και  <span class="math notranslate nohighlight">\(f_2(x)=-x\)</span>  είναι υδροθερμικές.</p></li>
+<li><p><span class="math notranslate nohighlight">\(f(x+f(x))=x+f(x)\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{Q}\)</span> .</p></li>
+</ul>
+<p>Ωραία, και τι μπορούμε να συμπεράνουμε με βάση αυτά; Ας αντλήσουμε ξανά έμπνευση από τις δύο μοναδικές, προς το παρόν, υδροθερμικές συναρτήσεις που έχουμε εντοπίσει. Τι βλέπουμε να έχουν αυτές κοινό; Είναι αμφότερες γνησίως μονότονες, αλλά, όπως είπαμε, αυτό μάλλον δε μας κάνει, καθώς έχουν διαφορετικό είδος μονοτονίας. Ως γνησίως μονότονες, όμως, είναι και «1-1». Μήπως αυτό μπορούμε να το αποδείξουμε γενικά, για κάθε υδροθερμική συνάρτηση;</p>
+<p>Ας πάρουμε  <span class="math notranslate nohighlight">\(x,y\in\mathbb{Q}\)</span>  τέτοια ώστε  <span class="math notranslate nohighlight">\(f(x)=f(y)\)</span> . Τώρα, από την πρώτη περίπτωση της δοσμένης σχέσης γνωρίζουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(y))=f(x)+y.\]</div>
+<p>Παραπάνω, ωστόσο, δείξαμε ότι  <span class="math notranslate nohighlight">\(f(x+f(x))=x+f(x)\)</span>  και, στην περίπτωσή μας, όπου  <span class="math notranslate nohighlight">\(f(x)=f(y)\)</span>  μπορούμε να γράψουμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(y))=f(x+f(x))=x+f(x).\]</div>
+<p>Εξισώνοντας τα δύο παραπάνω ευρήματά μας έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[x+f(x)=f(x)+y\Leftrightarrow x=y.\]</div>
+<p>Πρέπει, βέβαια, να εξετάσουμε και τη δεύτερη περίπτωση:</p>
+<div class="math notranslate nohighlight">
+\[f(f(x)+y)=x+f(y).\]</div>
+<p>Και πάλι, αφού  <span class="math notranslate nohighlight">\(f(x)=f(y)\)</span>  και  <span class="math notranslate nohighlight">\(f(x+f(x))=x+f(x)\)</span>  έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(f(x)+y)=f(f(y)+y)=y+f(y).\]</div>
+<p>Εξισώνοντας τα παραπάνω έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[y+f(y)=x+f(y)\Leftrightarrow y=x.\]</div>
+<p>Τέλεια, άρα, σε κάθε περίπτωση, αν  <span class="math notranslate nohighlight">\(f(x)=f(y)\)</span>  τότε  <span class="math notranslate nohighlight">\(x=y\)</span>  συνεπώς κάθε υδροθερμική συνάρτηση είναι και «1-1»!</p>
+<p>Με αυτό στα χέρια μας, ας ρίξουμε άλλη μία ματιά σε αυτά που αποδείξαμε ως τώρα, μήπως και κάτι αλλάζει:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(f(f(0))=f(0)\)</span> .</p></li>
+<li><p>Οι  <span class="math notranslate nohighlight">\(f_1(x)=x\)</span>  και  <span class="math notranslate nohighlight">\(f_2(x)=-x\)</span>  είναι υδροθερμικές.</p></li>
+<li><p><span class="math notranslate nohighlight">\(f(x+f(x))=x+f(x)\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{Q}\)</span> .</p></li>
+</ul>
+<p>Αφού η  <span class="math notranslate nohighlight">\(f\)</span>  είναι «1-1» μπορούμε χωρίς τύψεις να την εξαφανίζουμε από ισότητες, επομένως, το πρώτο μας αποτέλεσμα μπορεί να απλοποιηθεί λίγο:</p>
+<div class="math notranslate nohighlight">
+\[f(f(0))=f(0)\Rightarrow f(0)=0.\]</div>
+<p>Αυτό είναι πολύ ωραίο, αρχικά γιατί επιβεβαιώνει και μία αρχική μας υποψία ότι μία υδροθερμική συνάρτηση περνά από την αρχή των αξόνων - όπως κάνουν οι δύο υδροθερμικές συναρτήσεις που έχουμε εντοπίσει ως τώρα. Επομένως, μία υδροθερμική συνάρτηση είναι «1-1», περνάει από την αρχή των αξόνων, αφού  <span class="math notranslate nohighlight">\(f(0)=0\)</span>  και είναι πολύ πιθανό να έχει και πάρα πολλά σταθερά σημεία, καθώς, για να μην ξεχνιόμαστε, για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{Q}\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(x))=x+f(x).\]</div>
+<p>Αυτό, όπως είπαμε, σημαίνει ότι η  <span class="math notranslate nohighlight">\(f\)</span>  έχει μάλλον πολλά σταθερά σημεία αν είναι υδροθερμική. Λέμε «μάλλον» γιατί, για παράδειγμα, η  <span class="math notranslate nohighlight">\(f_(x)=-x\)</span>  που είναι υδροθερμική έχει μονάχα ένα σταθερό σημείο, το  <span class="math notranslate nohighlight">\(x_0=0\)</span>  που το μοιράζονται όλες τους, όπως έχουμε μόλις δείξει. Ας πούμε, όμως, ότι δεν έχουμε την  <span class="math notranslate nohighlight">\(f_2\)</span>  και έχουμε μία άλλη συνάρτηση, συνεπώς σε κάποιο σημείο θα ισχύει  <span class="math notranslate nohighlight">\(f(x_0)\neq-x_0\)</span>  Αυτό, με τη σειρά του, σημαίνει ότι:</p>
+<div class="math notranslate nohighlight">
+\[x_0+f(x_0)\neq0.\]</div>
+<p>Τώρα, από τα παραπάνω, αν  <span class="math notranslate nohighlight">\(x_1=x_0+f(x_0)\)</span>  τότε:</p>
+<div class="math notranslate nohighlight">
+\[f(x_1)=f(x_0+f(x_0))=x_0+f(x_0)=x_1.\]</div>
+<p>Δηλαδή, και το  <span class="math notranslate nohighlight">\(x_1\)</span>  είναι ένα σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span> . Επίσης, από την ίδια σχέση, το  <span class="math notranslate nohighlight">\(x_2=x_1+f(x_1)\)</span>  θα είναι κι αυτό ένα σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span> , αφού:</p>
+<div class="math notranslate nohighlight">
+\[f(x_2)=f(x_1+f(x_1))=x_1+f(x_1)=x_2.\]</div>
+<p>Ανάλογα, το  <span class="math notranslate nohighlight">\(x_3=x_2+f(x_2)\)</span>  θα είναι κι αυτό ένα σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span>  κ.ο.κ.</p>
+<p>Παρατηρήστε τώρα ότι  <span class="math notranslate nohighlight">\(x_2=x_1+f(x_1)=x_1+x_1=2x_1\)</span>  και, αντίστοιχα, ότι  <span class="math notranslate nohighlight">\(x_3=x_2+f(x_2)=x_2+x_2=2x_2\)</span>  δηλαδή  <span class="math notranslate nohighlight">\(x_3=4x_1\)</span> . Γενικότερα, μπορούμε σχετικά εύκολα να αποδείξουμε ότι όλα τα ακόλουθα σημεία είναι σταθερά σημεία της  <span class="math notranslate nohighlight">\(f\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[x_1,2x_1,4x_1,8x_1,\ldots,2^nx_1,\ldots\]</div>
+<p>Δηλαδή, αν μία υδροθερμική συνάρτηση έχει ένα <em>μη μηδενικό</em> σταθερό σημείο, τότε έχει άπειρα! Κι εδώ κάπου μας ανοίγει ξανά η όρεξη… Μήπως, αν έχει ένα μη μηδενικό σταθερό σημείο, τότε είναι τα πάντα σταθερά σημεία; Δηλαδή, μήπως οι μοναδικές υδροθερμικές συναρτήσεις που υπάρχουν είναι οι  <span class="math notranslate nohighlight">\(f_1(x)=x\)</span>  (όλα σταθερά σημεία) και η  <span class="math notranslate nohighlight">\(f_2(x)=-x\)</span>  (μόνο το μηδέν ως σταθερό σημείο);</p>
+</section>
+<section id="id5">
+<h2>Σταθερά… Σημεία<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id5'"><span>#</span></a></h2>
+<p>Είδαμε παραπάνω κάτι ωραίο να διαφαίνεται στον ορίζοντα. Μία υδροθερμική συνάρτηση που έχει ένα μη μηδενικό σταθερό σημείο έχει, αυτομάτως, άπειρα. Για την ακρίβεια, αν  <span class="math notranslate nohighlight">\(x\neq 0\)</span>  είναι ένα σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span>  τότε και όλα τα πολλαπλάσιά του επί κάποια δύναμη του 2 είναι σταθερά της σημεία, δηλαδή οι αριθμοί της μορφής  <span class="math notranslate nohighlight">\(2^nx\)</span>  για  <span class="math notranslate nohighlight">\(n=0,1,2,\ldots\)</span>  Μήπως όμως μπορούμε, για αρχή, να δείξουμε ότι και ο  <span class="math notranslate nohighlight">\(3x\)</span>  είναι σταθερό της σημείο; Στο κάτω κάτω της γραφής  <span class="math notranslate nohighlight">\(3x=2x+x\)</span> , δηλαδή είναι ένα άθροισμα σταθερών της σημείων.</p>
+<p>Έστω, λοιπόν,  <span class="math notranslate nohighlight">\(x,y\)</span>  δύο σταθερά σημεία μίας υδροθερμικής συνάρτησης  <span class="math notranslate nohighlight">\(f\)</span>  οπότε και ισχύουν τα εξής:</p>
+<div class="math notranslate nohighlight">
+\[f(x)=x,\quad f(y)=y.\]</div>
+<p>Τι μπορούμε να πούμε για το άθροισμά τους,  <span class="math notranslate nohighlight">\(x+y\)</span> ; Είναι σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span> ; Από την γενική μας υπόθεση και, ειδικότερα, την πρώτη της περίπτωση, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(y))=f(x)+y=x+y,\]</div>
+<p>και, σαφώς:</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(y))=f(x+y),\]</div>
+<p>οπότε σε αυτή την περίπτωση φαίνεται να είναι. Από τη δεύτερη περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(x+y)=f(f(x)+y)=x+f(y)=x+y,\]</div>
+<p>οπότε, ναι, σε κάθε περίπτωση, αν  <span class="math notranslate nohighlight">\(x,y\)</span>  είναι δύο σταθερά σημεία μίας υδροθερμικής συνάρτησης, τότε σταθερό της σημείο θα είναι και το άθροισμά τους. Έτσι, αν  <span class="math notranslate nohighlight">\(x\)</span>  είναι ένα σταθερό σημείο μίας υδροθερμικής συνάρτησης  <span class="math notranslate nohighlight">\(f\)</span>  τότε με μία μικρή επαγωγή μπορούμε να δείξουμε ότι κάθε πολλαπλάσιο  <span class="math notranslate nohighlight">\(nx\)</span>  με  <span class="math notranslate nohighlight">\(n=1,2,\ldots\)</span>  είναι σταθερό της σημείο. Πράγματι:</p>
+<ul class="simple">
+<li><p>Για  <span class="math notranslate nohighlight">\(n=1\)</span>  το έχουμε υποθέσει, αφού το  <span class="math notranslate nohighlight">\(x\)</span>  είναι εξ ορισμού σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span> .</p></li>
+<li><p>Έστω ότι για κάποιο  <span class="math notranslate nohighlight">\(n=1,2,\ldots\)</span>  το  <span class="math notranslate nohighlight">\(nx\)</span>  είναι σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span> , δηλαδή  <span class="math notranslate nohighlight">\(f(nx)=nx\)</span> .</p></li>
+<li><p>Τώρα, για το  <span class="math notranslate nohighlight">\(n+1\)</span>  έχουμε:</p></li>
+</ul>
+<div class="math notranslate nohighlight">
+\[f((n+1)x)=f(nx+x)=f(nx)+f(x)=nx+x=(n+1)x.\]</div>
+<p>Άρα και το  <span class="math notranslate nohighlight">\((n+1)x\)</span>  είναι σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span>  και τελειώσαμε. Μάλιστα, επειδή και το μηδέν είναι πάντοτε ένα σταθερό σημείο μίας υδροθερμικής συνάρτησης, αν  <span class="math notranslate nohighlight">\(x\)</span>  είναι ένα σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span>  τότε το  <span class="math notranslate nohighlight">\(nx\)</span>  είναι επίσης σταθερό της σημείο για  <span class="math notranslate nohighlight">\(n=0,1,2,\ldots\)</span></p>
+<p>Εύλογη ερώτηση τώρα αποτελεί τι γίνεται με τους υπόλοιπους ακέραιους, δηλαδή τα αρνητικά «πολλαπλάσια» του  <span class="math notranslate nohighlight">\(x\)</span> . Λοιπόν, αρχικά να παρατηρήσουμε ότι αρκεί να δείξουμε ότι αν το  <span class="math notranslate nohighlight">\(x\)</span>  είναι ένα (μη μηδενικό) σταθερό σημείο τότε και το  <span class="math notranslate nohighlight">\(-x\)</span>  είναι ένα σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span> . Για να το δείξουμε αυτό, θα προσπαθήσουμε, αρχικά, να θέσουμε στην αγαπημένη μας υπόθεση όπου  <span class="math notranslate nohighlight">\(y=-x\)</span>  και να δούμε τι θα γίνει. Στην πρώτη περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(-x))=f(x)-x=x-x=0,\]</div>
+<p>επομένως, αφού  <span class="math notranslate nohighlight">\(f(0)=0\)</span>  έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(-x))=f(0)\Rightarrow x+f(-x)=0\Rightarrow f(-x)=-x.\]</div>
+<p>Άρα σε αυτή την περίπτωση έχουμε αυτό που επιθυμούμε. Στη δεύτερη περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(f(x)-x)=x+f(-x)\]</div>
+<p>Για το αριστερό μέλος ας παρατηρήσουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(f(x)-x)=f(x-x)=f(0)=0,\]</div>
+<p>οπότε:</p>
+<div class="math notranslate nohighlight">
+\[x+f(-x)=0\Rightarrow f(-x)=-x.\]</div>
+<p>Σε κάθε περίπτωση, αν  <span class="math notranslate nohighlight">\(x\)</span>  είναι ένα σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span>  τότε το ίδιο είναι και το  <span class="math notranslate nohighlight">\(-x\)</span>  και έτσι έχουμε αποδείξει κάτι αρκετά χρήσιμο - και, πρωτίστως, ωραίο. Αν  <span class="math notranslate nohighlight">\(x\)</span>  είναι ένα σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span>  τότε το  <span class="math notranslate nohighlight">\(nx\)</span>  είναι επίσης σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span>  για κάθε ακέραιο  <span class="math notranslate nohighlight">\(n\)</span> .</p>
+<p>Είμαστε σε πάρα πολύ καλό δρόμο, καθώς κάθε υδροθερμική συνάρτηση που έχει τουλάχιστον ένα μη μηδενικό σταθερό σημείο μοιάζει κάπως με την  <span class="math notranslate nohighlight">\(f_1(x)=x\)</span>  καθώς έχει άπειρα σταθερά σημεία. Ωστόσο, το επόμενο και αποφασιστικό βήμα για να αποδείξουμε ότι κάθε τέτοια υδροθερμική συνάρτηση είναι η  <span class="math notranslate nohighlight">\(f_2\)</span>  είναι, αν βέβαια αυτό ισχύει, να αποδείξουμε ότι αν  <span class="math notranslate nohighlight">\(x\)</span>  είναι ένα σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span>  τότε και το  <span class="math notranslate nohighlight">\(qx\)</span>  είναι σταθερό της σημείο για κάθε <strong>ρητό αριθμό</strong> <span class="math notranslate nohighlight">\(q\)</span> . Αλλά, πώς θα δείξουμε κάτι τέτοιο;</p>
+<p>Αρχικά, ας προσπαθήσουμε να το δείξουμε για το  <span class="math notranslate nohighlight">\(x/2\)</span>  και βλέπουμε πώς πάει το πράγμα. Λοιπόν, τι μπορούμε να κάνουμε για να εμφανίσουμε κλάσματα στο παιχνίδι; Χμμμ… Δειλά-δειλά, ας πάμε να βάλουμε όπου  <span class="math notranslate nohighlight">\(x\)</span>  το  <span class="math notranslate nohighlight">\(\frac{x}{2}\)</span>  στην ακόλουθη σχέση:</p>
+<div class="math notranslate nohighlight">
+\[f\left(\frac{x}{2}+f\left(\frac{x}{2}\right)\right)=\frac{x}{2}+f\left(\frac{x}{2}\right).\]</div>
+<p>Εδώ έχουμε ένα διακριτικό θέμα, καθώς δε φαίνεται να μπορούμε να συνεχίσουμε κάπως, είναι η αλήθεια. Ας πάμε, επομένως, στην αρχική μας σχέση και ας δοκιμάσουμε να θέσουμε  <span class="math notranslate nohighlight">\(\frac{x}{2}\)</span>  στη θέση του  <span class="math notranslate nohighlight">\(y\)</span>  και να δούμε τι θα πάρουμε, αρχικά από την πρώτη περίπτωση:</p>
+<div class="math notranslate nohighlight">
+\[f\left(x+f\left(\frac{x}{2}\right)\right)=f(x)+\frac{x}{2}.\]</div>
+<p>Αντίστοιχα, στη δεύτερη περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f\left(f(x)+\frac{x}{2}\right)=x+f\left(\frac{x}{2}\right).\]</div>
+<p>Τέλεια! Καμία από τις δύο δε φαίνεται να οδηγεί προς αυτό που θέλουμε. Επομένως, ας ξεκινήσουμε λίγο από αυτό που θέλουμε μήπως και πάρουμε κάποια πιο βολική μορφή:</p>
+<div class="math notranslate nohighlight">
+\[f\left(\frac{x}{2}\right)=\frac{x}{2}\Leftrightarrow f\left(\frac{x}{2}\right)-\frac{x}{2}=0\Leftrightarrow f\left(f\left(\frac{x}{2}\right)-\frac{x}{2}\right)=0(=f(0)).\]</div>
+<p>Χμμμ, άρα ίσως να αξίζει τον κόπο να θέσουμε  <span class="math notranslate nohighlight">\(-\frac{x}{2}\)</span>  στη θέση του  <span class="math notranslate nohighlight">\(x\)</span>  και  <span class="math notranslate nohighlight">\(\frac{x}{2}\)</span>  στη θέση του  <span class="math notranslate nohighlight">\(y\)</span> , οπότε, στην πρώτη περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f\left(-\frac{x}{2}+f\left(\frac{x}{2}\right)\right)=f\left(-\frac{x}{2}\right)+\frac{x}{2}.\]</div>
+<p>Δύσπιστα περνάμε και στη δεύτερη περίπτωση:</p>
+<div class="math notranslate nohighlight">
+\[f\left(f\left(-\frac{x}{2}\right)+\frac{x}{2}\right)=-\frac{x}{2}+f\left(\frac{x}{2}\right)\]</div>
+<p>Κι αυτή η απόπειρα άκλαυτη πήγε, είναι η αλήθεια. Λοιπόν, ίσως φταίει η στιγμή, ίσως φταίει που ασχολούμαστε με αυτό το πράγμα τόσην ώρα, που τα μαθηματικά είναι δύσκολα και που η υπόθεση έχει αυτή τη στρυφνή μορφή, ίσως φταίνε πάρα πολλά πράγματα, αλλά, μπορεί να συμβαίνει και το εξής: να μην ισχύει αυτό που πάμε να αποδείξουμε.</p>
+<p>Και τότε, τι;</p>
+</section>
+<section id="id6">
+<h2>Επιστροφή στις Ρίζες<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id6" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id6'"><span>#</span></a></h2>
+<p>Λοιπόν, ας συνοψίσουμε άλλη μία φορά τι έχουμε αποδείξει ως τώρα:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(f(0)=0\)</span> .</p></li>
+<li><p>Οι  <span class="math notranslate nohighlight">\(f_1(x)=x\)</span>  και  <span class="math notranslate nohighlight">\(f_2(x)=-x\)</span>  είναι υδροθερμικές.</p></li>
+<li><p><span class="math notranslate nohighlight">\(f(x+f(x))=x+f(x)\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{Q}\)</span> .</p></li>
+<li><p>Η  <span class="math notranslate nohighlight">\(f\)</span>  είναι «1-1».</p></li>
+<li><p>Αν  <span class="math notranslate nohighlight">\(x\)</span>  είναι ένα σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span>  τότε για κάθε  <span class="math notranslate nohighlight">\(n\in\mathbb{Z}\)</span>  ισχύει ότι και το  <span class="math notranslate nohighlight">\(nx\)</span>  είναι σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span> .</p></li>
+</ul>
+<p>Σαφώς, στα παραπάνω η  <span class="math notranslate nohighlight">\(f\)</span>  εννοείται ότι είναι μία υδροθερμική συνάρτηση. Αρχικά, τώρα που τα ξαναγράψαμε εδώ φαίνεται να έχουμε αφήσει μία μικρή εκκρεμότητα. Αποδείξαμε ότι η  <span class="math notranslate nohighlight">\(f\)</span>  είναι «1-1», οπότε, σαφώς, η  <span class="math notranslate nohighlight">\(f\)</span>  είναι αντιστρέψιμη, επομένως υπάρχει η  <span class="math notranslate nohighlight">\(f^{-1}\)</span>  και, έτσι, εύλογα, προκύπτει το ερώτημα: ποιο είναι το πεδίο ορισμού της; Ισοδύναμα, ποιο είναι το σύνολο τιμών της  <span class="math notranslate nohighlight">\(f\)</span> ;</p>
+<p>Λοιπόν, λοιπόν, για να βρούμε το σύνολο τιμών της  <span class="math notranslate nohighlight">\(f\)</span>  πρέπει να δούμε ποιες είναι οι τιμές που παίρνει η  <span class="math notranslate nohighlight">\(f\)</span> . Με το «μάτι» δε φαίνεται να έχει προκύψει ως τώρα κάποιος περιορισμός. Μάλιστα, οι δύο συναρτήσεις που έχουμε ως τώρα για «υπόδειγμα» είναι και οι δύο «επί» του  <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span> , δηλαδή έχουν ως σύνολο τιμών το σύνολο όλων των ρητών αριθμών. Επομένως, ας πάμε να δοκιμάσουμε να δείξουμε ότι κάθε υδροθερμική  <span class="math notranslate nohighlight">\(f\)</span>  είναι «επί». Για αυτόν τον σκοπό θέλουμε να δείξουμε ότι η εξίσωση  <span class="math notranslate nohighlight">\(f(x)=y\)</span>  έχει λύση ως προς  <span class="math notranslate nohighlight">\(x\)</span>  για κάθε  <span class="math notranslate nohighlight">\(y\in\mathbb{Q}\)</span>  ή, με άλλα λόγια, ότι κάθε ρητός  <span class="math notranslate nohighlight">\(y\)</span>  γράφεται στη μορφή  <span class="math notranslate nohighlight">\(f(\cdots)\)</span> , δηλαδή ως  <span class="math notranslate nohighlight">\(f\)</span>  του «κάτι».</p>
+<p>Ας πάρουμε τη βασική μας υπόθεση και ας αρχίσουμε να παίζουμε. Αρχικά, ας αφήσουμε το  <span class="math notranslate nohighlight">\(x\)</span>  ήσυχο και ας βάλουμε όπου  <span class="math notranslate nohighlight">\(y\)</span>  το  <span class="math notranslate nohighlight">\(f(x)\)</span>  μήπως και βρούμε κάτι ενδιαφέρον. Η πρώτη περίπτωση μας δίνει:</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(f(x)))=f(x)+f(x)=2f(x).\]</div>
+<p>Η δεύτερη περίπτωση μας δίνει:</p>
+<div class="math notranslate nohighlight">
+\[f(f(x)+f(x))=x+f(f(x))\Leftrightarrow f(2f(x))=x+f(f(x)).\]</div>
+<p>Εντάξει, όχι ακριβώς αυτό που θέλαμε, αλλά, προσέξατε αυτό το  <span class="math notranslate nohighlight">\(f(x)+f(x)\)</span>  που εμφανίζεται σε διαφορετικά σημεία σε κάθε περίπτωση; Αν ήταν  <span class="math notranslate nohighlight">\(f(x)-f(x)\)</span>  τότε τα πράγματα θα ήταν πιο βολικά, σκέψη που μας ωθεί να θέσουμε  <span class="math notranslate nohighlight">\(y=-f(x)\)</span>  οπότε και να πάρουμε, στην πρώτη περίπτωση:</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(-f(x)))=f(x)-f(x)=0.\]</div>
+<p>Τώρα, αφού  <span class="math notranslate nohighlight">\(f(0)=0\)</span>  έπεται ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(-f(x)))=f(0)\Leftrightarrow x+f(-f(x))=0.\]</div>
+<p>Στη δεύτερη περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(f(x)-f(x))=x+f(-f(x))\Leftrightarrow f(0)=x+f(-f(x))\Leftrightarrow x+f(-f(x))=0.\]</div>
+<p>Τέλεια, συνεπώς, σε κάθε περίπτωση ισχύει:</p>
+<div class="math notranslate nohighlight">
+\[x+f(-f(x))=0\Leftrightarrow f(-f(x))=-x.\]</div>
+<p>Τώρα, αν βάλουμε  <span class="math notranslate nohighlight">\(-x\)</span>  στη θέση του  <span class="math notranslate nohighlight">\(x\)</span>  έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(-f(-x))=x.\]</div>
+<p>Συνεπώς, κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{Q}\)</span>  γράφεται στη μορφή  <span class="math notranslate nohighlight">\(f(\cdots)\)</span>  όπως θέλαμε, άρα κάθε υδροθερμική συνάρτηση είναι πράγματι «επί». Άρα η  <span class="math notranslate nohighlight">\(f^{-1}\)</span>  ορίζεται για κάθε ρητό αριθμό, κάτι που είναι πολύ όμορφο (;) και ευχάριστο! Και, με αυτό κατά νου, ας ρίξουμε μια ματιά σε αυτό που αποδείξαμε παραπάνω:</p>
+<div class="math notranslate nohighlight">
+\[f(-f(-x))=x.\]</div>
+<p>Εδώ μπορούμε να βάλουμε στη θέση του  <span class="math notranslate nohighlight">\(x\)</span>  το  <span class="math notranslate nohighlight">\(f^{-1}(x)\)</span>  και να δούμε τι θα πάρουμε:</p>
+<div class="math notranslate nohighlight">
+\[f^{-1}(x)=f(-f(-f^{-1}(x))).\]</div>
+<p>Ναι, όχι, εντάξει, αυτό δε φαίνεται κομψό. Ας πάμε στην προηγούμενη μορφή να δούμε:</p>
+<div class="math notranslate nohighlight">
+\[f(-f(x))=-x\Rightarrow f(-f(f^{-1}(x)))=-f^{-1}(x).\]</div>
+<p>Με λίγο ξεσκόνισμα έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f^{-1}(x)=-f(-x).\]</div>
+<p>Τώρα μάλιστα! Αυτό, εντωμεταξύ, μας λέει και κάτι ενδιαφέρον για τη συμμετρία της γραφικής παράστασης της  <span class="math notranslate nohighlight">\(f\)</span> . Αριστερά αυτό που έχουμε είναι η συμμετρική της γραφικής παράστασης της  <span class="math notranslate nohighlight">\(f\)</span>  ως προς την  <span class="math notranslate nohighlight">\(y=x\)</span> . Δεξιά έχουμε μία συνάρτηση με γραφική παράσταση που προκύπτει από αυτή της  <span class="math notranslate nohighlight">\(f\)</span>  αν:</p>
+<ul class="simple">
+<li><p>την ανακλάσουμε ως προς τον άξονα  <span class="math notranslate nohighlight">\(y'y\)</span>  (για να πάρουμε την  <span class="math notranslate nohighlight">\(f(-x),\)</span>  και,</p></li>
+<li><p>αυτό που βρούμε το ανακλάσουμε ως προς τον άξονα  <span class="math notranslate nohighlight">\(x'x\)</span>  (για να πάρουμε την  <span class="math notranslate nohighlight">\(-f(-x)\)</span> .</p></li>
+</ul>
+<p><em>- Μα, καλά, είναι τώρα έκφραση το «θα ανακλάσουμε το Χ»;
+- Ουδέν σχόλιο.
+- «Θα ανακλαστεί ως προς…»; «Θα πάρουμε τη συμμετρική ως προς…»; Χάθηκαν τα Ελληνικά;
+- Ουδέν σχόλιο.</em></p>
+<p>Με άλλα λόγια αν ξεκινήσουμε από τη γραφική παράσταση της  <span class="math notranslate nohighlight">\(f\)</span> , κάνουμε δύο ανακλάσεις ως προς τους δύο άξονες και μία ως προς τη διχοτόμο  <span class="math notranslate nohighlight">\(y=x\)</span>  θα έχουμε ξανά στα χέρια μας τη γραφική παράσταση της  <span class="math notranslate nohighlight">\(f\)</span> . Με ακόμα καλύτερα λόγια, ας θαυμάσουμε λίγο τη σχέση:</p>
+<div class="math notranslate nohighlight">
+\[f(-f(x))=-x.\]</div>
+<p>Τι μας λέει αυτή η σχέση; Θυμηθείτε ότι, πρακτικά, αν πάρουμε ένα σημείο  <span class="math notranslate nohighlight">\(A(x,y)\)</span>  επί της γραφικής παράστασης της  <span class="math notranslate nohighlight">\(f\)</span>  τότε θα ισχύει, σαφώς,  <span class="math notranslate nohighlight">\(y=f(x)\)</span> . Τώρα, με βάση την παραπάνω σχέση, αυτό σημαίνει ότι θα ισχύει:</p>
+<div class="math notranslate nohighlight">
+\[f(-y)=-x.\]</div>
+<p>Δηλαδή, το σημείο  <span class="math notranslate nohighlight">\((-y,-x)\)</span>  επίσης ανήκει στη γραφική παράσταση της  <span class="math notranslate nohighlight">\(f\)</span> . Ας κάνουμε κι ένα σχήμα για να το δούμε αυτό:</p>
+<figure class="wp-image-13914 align-default" id="id11">
+<img alt="Η συμμετρία της σχέσης  :math:`f(-f(x))=-x` ." src="docs/After-maths/{static}_static/images/uploads/2024/07/sym_01.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Η συμμετρία της σχέσης  <span class="math notranslate nohighlight">\(f(-f(x))=-x\)</span> .</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τέλεια, επομένως, μπόνους, μαζί με το «επί» μάθαμε και ότι η γραφική παράσταση της συνάρτησής μας είναι συμμετρική ως προς τη διχοτόμο  <span class="math notranslate nohighlight">\(y=-x\)</span>  ενώ, για την αντίστροφη δείξαμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[f^{-1}(x)=-f(-x).\]</div>
+<p>Λοιπόν, με τα νέα μας όπλα ας δούμε αν μπορούμε να συνεχίσουμε τη σκέψη μας από εκεί που την εγκαταλείψαμε. Είχαμε προσπαθήσει να αποδείξουμε ότι αν  <span class="math notranslate nohighlight">\(x\)</span>  είναι ένα σταθερό σημείο μίας υδροθερμικής  <span class="math notranslate nohighlight">\(f\)</span>  τότε κάθε ρητό πολλαπλάσιο  <span class="math notranslate nohighlight">\(qx\)</span>  θα είναι επίσης σταθερό της σημείο. Το σκεπτικό πίσω από αυτή την πρόθεση είναι είναι αν ισχύει αυτό τότε για κάθε  <span class="math notranslate nohighlight">\(r\)</span>  θα ισχύει, αν  <span class="math notranslate nohighlight">\(x_0\neq 0\)</span>  είναι ένα σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[f(r)=f\left(\frac{r}{x_0}x_0\right)=\frac{r}{x_0}x_0=r,\]</div>
+<p>συνεπώς, οι μόνος δύο υδροθερμικές συναρτήσεις θα είναι οι  <span class="math notranslate nohighlight">\(f_1(x)=x\)</span>  και  <span class="math notranslate nohighlight">\(f_2(x)=-x\)</span> , άρα θα ισχύει και ότι:</p>
+<div class="math notranslate nohighlight">
+\[g(r)=f(r)+f(-r)=\pm r\mp r=0.\]</div>
+<p>Από το παραπάνω, προφανώς, έπεται και ότι  <span class="math notranslate nohighlight">\(c=1\)</span>  είναι η ελάχιστη τιμή του ζητούμενου  <span class="math notranslate nohighlight">\(c\)</span> .</p>
+<p>Ωστόσο, το παραπάνω δεν καταφέραμε να το αποδείξουμε, καθώς καμία αντικατάσταση που δοκιμάσαμε δεν έφερε τα αναμενόμενα αποτελέσματα. Έτσι, μπήκαν ψύλλοι στα αυτιά μας και σκεφτήκαμε: «μήπως  <span class="math notranslate nohighlight">\(c&gt;1\)</span> ;»</p>
+<p>Λοιπόν, ας πάμε να δούμε αν υπάρχει περίπτωση να ισχύουν οι υποψίες μας, δηλαδή να μπορούμε να κατασκευάσουμε μία υδροθερμική συνάρτηση για την οποία η αντίστοιχη  <span class="math notranslate nohighlight">\(g\)</span>  να παίρνει (τουλάχιστον) δύο διαφορετικές τιμές. Για να συμβαίνει αυτό, προφανώς, η  <span class="math notranslate nohighlight">\(f\)</span>  θα πρέπει να μην παίρνει μόνο τιμές όπως οι  <span class="math notranslate nohighlight">\(f_1,f_2\)</span>  παραπάνω, καθώς τότε θα έχουμε  <span class="math notranslate nohighlight">\(g(r)=0\)</span>  σε κάθε περίπτωση. Επομένως, θέλουμε τουλάχιστον ένα  <span class="math notranslate nohighlight">\(x_0\)</span>  τέτοιο ώστε  <span class="math notranslate nohighlight">\(f(x_0)\neq \pm x_0\)</span> . Αλλά, έτσι, αφού  <span class="math notranslate nohighlight">\(f(x_0)\neq -x_0\)</span>  θα ισχύει και ότι:</p>
+<div class="math notranslate nohighlight">
+\[x_0+f(x_0)\neq 0.\]</div>
+<p>Αυτό, με τη σειρά του, σημαίνει ότι το  <span class="math notranslate nohighlight">\(x_1=x_0+f(x_0)\)</span>  θα είναι ένα μη μηδενικό σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span>  και άρα, όπως έχουμε αποδείξει και παραπάνω, όλα τα σημεία της μορφής  <span class="math notranslate nohighlight">\(nx_1\)</span>  για  <span class="math notranslate nohighlight">\(n\in\mathbb{Z}\)</span>  θα είναι επίσης σταθερά σημεία της. Επομένως, μία τέτοια «παράξενη» υδροθερμική συνάρτηση θα έχει σίγουρα άπειρα σταθερά σημεία, απλά θα πρέπει να έχει και σημεία που η γραφική της παράσταση δεν τέμνει καμία από τις δύο διχοτόμους.</p>
+<p>Πφφφφ, άντε να βρούμε τώρα τέτοια συνάρτηση, ε; Λοιπόν, όπως είπαμε, θα έχουμε άπειρα σταθερά σημεία της μορφής  <span class="math notranslate nohighlight">\(nx_1\)</span>  για κάποιο  <span class="math notranslate nohighlight">\(x_1\)</span> . Ωραία, ας πάρουμε για αρχή  <span class="math notranslate nohighlight">\(x_1=1\)</span>  και βλέπουμε. Σε αυτή την περίπτωση, για τη συνάρτησή μας θα ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(n)=n,\quad n\in\mathbb{Z}.\]</div>
+<p>Επομένως, η «λειψή» γραφική παράσταση, μόνο για τους ακεραίους, θα μοιάζει κάπως έτσι:</p>
+<figure class="wp-image-13924 align-default" id="id12">
+<img alt="Λειψή, αλλά είναι μία ιδέα..." src="docs/After-maths/{static}_static/images/uploads/2024/07/plot_01.png?w=1015"/>
+<figcaption>
+<p><span class="caption-text">Λειψή, αλλά είναι μία ιδέα…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id12"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Λοιπόν, τώρα πρέπει να δούμε τι θα κάνουμε με τους ρητούς στα διαστήματα ανάμεσα από τους ακεραίους. Ας πάρουμε, αρχικά, τα διαστήματα ρητών  <span class="math notranslate nohighlight">\((-1,0)\)</span>  και  <span class="math notranslate nohighlight">\((0,1)\)</span> . Γενικά, επειδή δουλεύουμε μόνο με ρητούς σε αυτό το πρόβλημα, δε θα λέμε συνεχώς «διαστήματα ρητών», παρά απλώς διαστήματα, εκτός αν χρειαστεί να τονίσουμε ότι μιλάμε για διάστημα πραγματικών αριθμών.</p>
+<p>Έχουμε και λέμε, λοιπόν, ας ζουμάρουμε λίγο στο  <span class="math notranslate nohighlight">\((-1,1)\)</span>  για να δούμε πώς θα μοιάζει εκεί η γραφική παράσταση της συνάρτησής μας:</p>
+<figure class="wp-image-13939 align-default" id="id13">
+<img alt="Εντάξει, δεν είναι ευφάνταστη, αλλά είναι μια αρχή." src="docs/After-maths/{static}_static/images/uploads/2024/07/plot_02-1.png?w=1015"/>
+<figcaption>
+<p><span class="caption-text">Εντάξει, δεν είναι ευφάνταστη, αλλά είναι μια αρχή.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id13"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Λοιπόν, έχουμε να δούμε τι θα κάνουμε με τους ρητούς στο  <span class="math notranslate nohighlight">\((0,1)\)</span>  αρχικά, και βλέπουμε για τους άλλους στο  <span class="math notranslate nohighlight">\((-1,0)\)</span>  γιατί, άλλωστε, η  <span class="math notranslate nohighlight">\(f\)</span>  πρέπει να είναι και κάπως συμμετρική. Οπότε, ας ξεκινήσουμε με τα δεξιά και βλέπουμε για τα αριστερά. Πρέπει να βρούμε έναν τρόπο κάπως να ανακατέψουμε τους ρητούς στο  <span class="math notranslate nohighlight">\((0,1)\)</span>  καθώς, όπως είπαμε, δε θέλουμε άλλα σταθερά σημεία, πάει, τα εξαντλήσαμε. Επίσης, αν δεν έχουμε ένα σταθερό σημείο, ας το πούμε  <span class="math notranslate nohighlight">\(x_0\)</span>  με  <span class="math notranslate nohighlight">\(f(x_0)\neq x_0\)</span>  πρέπει, αυτόματα,  <span class="math notranslate nohighlight">\(f(x_0/n)\neq x_0/n\)</span>  καθώς κάποιο «υποπολλαπλάσιο» του  <span class="math notranslate nohighlight">\(x_0\)</span>  είναι σταθερό σημείο, θα είναι και το ίδιο το  <span class="math notranslate nohighlight">\(x_0\)</span> . Επομένως, αρκετοί, αν όχι όλοι, οι ρητοί εκεί μέσα δε θα είναι σταθερά σημεία, καθώς, με ένα «μη σταθερό» σημείο έχουμε αυτομάτως άπειρα.</p>
+<p>Χμμμ…</p>
+<p>[Σκέψη]</p>
+<p>[Κι άλλη σκέψη]</p>
+<p>Λοιπόν, ας μην το κουράζουμε, είπαμε ότι δε θέλουμε και πολλά σταθερά σημεία, επομένως μπορούμε να κάνουμε κάτι σαν το εξής:</p>
+<figure class="wp-image-13938 align-default" id="id14">
+<img alt="Εεεε, δηλαδή;" src="docs/After-maths/{static}_static/images/uploads/2024/07/plot_03-1.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Εεεε, δηλαδή;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id14"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Είπαμε, δε θέλουμε πολλά σταθερά σημεία, επομένως πήραμε μία συνάρτηση που να μην περνάει καθόλου από τη διαγώνιο. Τώρα, εντάξει, περνάει από ένα σημείο, το  <span class="math notranslate nohighlight">\((1/2,1/2)\)</span>  αλλά αυτό δε μας πειράζει και πολύ, καθώς απλά θα πρέπει να προσθέσουμε και τους αριθμούς της μορφής  <span class="math notranslate nohighlight">\(n/2\)</span>  στα σταθερά μας σημεία. Και πάλι, όλοι οι άλλοι ρητοί στο  <span class="math notranslate nohighlight">\((0,1)\)</span>  δεν είναι σταθερά σημεία. Λόγω τώρα της συμμετρίας ως προς την  <span class="math notranslate nohighlight">\(y=-x\)</span>  η «υπόλοιπη» γραφική παράσταση θα πρέπει να μοιάζει κάπως έτσι:</p>
+<figure class="wp-image-13936 align-default" id="id15">
+<img alt="Χμμμ, είναι άραγε αυτή υδροθερμική;" src="docs/After-maths/{static}_static/images/uploads/2024/07/plot_04.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Χμμμ, είναι άραγε αυτή υδροθερμική;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id15"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τώρα, τη ζωγραφίσαμε μεν, αλλά μήπως θα ήταν καλό να δώσουμε και έναν τύπο;</p>
+<p>Για το θετικό τμήμα είναι μία απλή ευθεία η  <span class="math notranslate nohighlight">\(1-x\)</span> , ενώ για το αρνητικό τμήμα είναι, επίσης, μία ευθεία, η  <span class="math notranslate nohighlight">\(-1-x\)</span>  συνεπώς, αν περιοριστούμε στο  <span class="math notranslate nohighlight">\([-1,1]\)</span>  η συνάρτησή μας έχει τον τύπο:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}f(x)=\begin{cases}x &amp; x\in\{-1,0,1\}\1-x &amp; x\in(0,1)\\ -1-x &amp; x\in(-1,0)\end{cases}.\end{split}\]</div>
+<p>Τώρα, θα θέλαμε να γενικεύσουμε το παραπάνω παντού, οπότε, σχηματικά, θα θέλαμε κάτι σαν αυτό:</p>
+<figure class="wp-image-13943 align-default" id="id16">
+<img alt="Μία υποψήφια υδροθερμική συνάρτηση..." src="docs/After-maths/{static}_static/images/uploads/2024/07/plot_05.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Μία υποψήφια υδροθερμική συνάρτηση…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id16"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Ωραία, τώρα πώς μπορούμε να περιγράψουμε τον τύπο αυτής της συνάρτησης; Λοιπόν, η ιδέα, γενικά, είναι ότι σε κάθε διάστημα μεταξύ δύο διαδοχικών ακεραίων, ας πούμε στο  <span class="math notranslate nohighlight">\((-3,-2)\)</span>  παίρνουμε τους ρητούς εκεί μέσα και τους ανακατεύουμε λίγο, βάζοντάς τους σε «ανάποδη» σειρά, πρακτικά. Αυτό, για να το πετύχουμε, μπορούμε να παρατηρήσουμε ότι οι ρητοί σε κάθε τέτοιο διαστηματάκι τοποθετούνται, ουσιαστικά, πάνω σε μία ευθεία παράλληλη στη διχοτόμο  <span class="math notranslate nohighlight">\(y=-x\)</span> . Για την ακρίβεια, στο παραπάνω σχήμα:</p>
+<ul class="simple">
+<li><p>Στο  <span class="math notranslate nohighlight">\((0,1)\)</span>  οι ρητοί, όπως είδαμε, τοποθετούνται στην ευθεία  <span class="math notranslate nohighlight">\(y=1-x.\)</span></p></li>
+<li><p>Στο  <span class="math notranslate nohighlight">\((-1,0)\)</span>  οι ρητοί, όπως είδαμε, τοποθετούνται στην ευθεία  <span class="math notranslate nohighlight">\(y=-1-x.\)</span> .</p></li>
+<li><p>Στο  <span class="math notranslate nohighlight">\((1,2)\)</span>  οι ρητοί τοποθετούνται στην ευθεία  <span class="math notranslate nohighlight">\(y=3-x.\)</span></p></li>
+<li><p>Στο  <span class="math notranslate nohighlight">\((2,3)\)</span>  οι ρητοί τοποθετούνται στην ευθεία  <span class="math notranslate nohighlight">\(y=5-x.\)</span></p></li>
+<li><p>Στο  <span class="math notranslate nohighlight">\((3,4)\)</span>  οι ρητοί τοποθετούνται στην ευθεία  <span class="math notranslate nohighlight">\(y=7-x.\)</span></p></li>
+<li><p>Στο  <span class="math notranslate nohighlight">\((-2,-1)\)</span>  οι ρητοί τοποθετούνται στην ευθεία  <span class="math notranslate nohighlight">\(y=-3-x.\)</span></p></li>
+<li><p>Στο  <span class="math notranslate nohighlight">\((-3,-2)\)</span>  οι ρητοί τοποθετούνται στην ευθεία  <span class="math notranslate nohighlight">\(y=-5-x.\)</span></p></li>
+<li><p>Στο  <span class="math notranslate nohighlight">\((-4,-3)\)</span>  οι ρητοί τοποθετούνται στην ευθεία  <span class="math notranslate nohighlight">\(y=-7-x.\)</span></p></li>
+</ul>
+<p>Γενικά, όπως φαίνεται, αν είμαστε στο διάστημα  <span class="math notranslate nohighlight">\((n,n+1)\)</span>  όπου  <span class="math notranslate nohighlight">\(n\in\mathbb{Z}\)</span>  τότε φαίνεται η γραφική παράσταση της  <span class="math notranslate nohighlight">\(f\)</span>  να αντιστοιχεί στην ευθεία:</p>
+<div class="math notranslate nohighlight">
+\[y=2n+1-x\]</div>
+<p>Ωραία, τώρα, αν αυτό είναι ή όχι βολικό θα το διαπιστώσουμε σύντομα. Αρχικά, ας εξετάσουμε το εύκολο, που είναι οι τιμές της  <span class="math notranslate nohighlight">\(g\)</span> . Αρχικά, σε κάθε σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span> , δηλαδή στους ακεραίους και τα μισά τους - ας τους λέμε, όλους μαζί, ημιακέραιους - έχουμε  <span class="math notranslate nohighlight">\(g(r)=0\)</span> . Τώρα, για  <span class="math notranslate nohighlight">\(r\)</span>  που δεν είναι σταθερό σημείο, θα υπάρχει  <span class="math notranslate nohighlight">\(n\in\mathbb{Z}\)</span>  τέτοιο ώστε  <span class="math notranslate nohighlight">\(r\in(n,n+1)\)</span>  οπότε, αντίστοιχα,  <span class="math notranslate nohighlight">\(-r\in(-n-1,n)\)</span> , οπότε θα ισχύει:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}f(r)&amp;=2n+1-r\\quad f(-r)&amp;=2(-n-1)+1-(-r)=-2n-1+r\end{aligned}\end{split}\]</div>
+<p>Συνεπώς, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[g(r)=f(r)+f(-r)=2n+1-r-2n-1+r=0.\]</div>
+<p>Φτου! Τι πήγαμε και κάναμε, άθελά μας;! Επιτρέψαμε στην  <span class="math notranslate nohighlight">\(f\)</span>  να είναι περιττή, επομένως, σαφώς,  <span class="math notranslate nohighlight">\(g(r)=0\)</span>  άσχετα με το πόσο θα θέλαμε να εμείς να μην είναι. Αλλά, εντάξει, επειδή η ιδέα μας είναι καλή (νομίζουμε, τουλάχιστον) μπορούμε να την πειράξουμε λίγο. Ας πούμε, για να χαλάσουμε τη συμμετρία ως προς το κέντρο της  <span class="math notranslate nohighlight">\(f\)</span>  μπορούμε να μετατοπίσουμε λίγο τη γραφική της παράσταση, ας πούμε, προς τα κάτω, κατά μία μονάδα, τουλάχιστον στους μη ακέραιους, που μας κόφτει και περισσότερο. Έτσι, θα πάρουμε τη συνάρτηση:</p>
+<div class="math notranslate nohighlight">
+\[f(x)=\begin{cases}x &amp; x\in\mathbb{Z}\2n-x &amp; x\in(n,n+1),\ n\in\mathbb{Z}\end{cases}.\]</div>
+<p>Πάλι, για τα σταθερά σημεία έχουμε  <span class="math notranslate nohighlight">\(g(r)=0\)</span>  ενώ για ένα μη σταθερό σημείο  <span class="math notranslate nohighlight">\(r\in(n,n+1)\)</span>  έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}f(r)&amp;=2n-r\\ f(-r)&amp;=2(-n-1)-(-r)=-2n-2+r\end{aligned}\end{split}\]</div>
+<p>Ας πάμε με τον απαραίτητο ιερό τρόμο να δούμε τι δίνει η  <span class="math notranslate nohighlight">\(g\)</span>  σε αυτή την περίπτωση:</p>
+<div class="math notranslate nohighlight">
+\[g(r)=f(r)+f(-r)=2n-r-2n-2+r=-2\neq0.\]</div>
+<p>Ναι, όλε! Η  <span class="math notranslate nohighlight">\(g\)</span>  παίρνει, λοιπόν, δύο τιμές, όχι μία, δύο, άρα τώρα, το μόνο που μένει να δείξουμε είναι ότι η  <span class="math notranslate nohighlight">\(f\)</span>  είναι πράγματι υδροθερμική. Λοιπόν, αν  <span class="math notranslate nohighlight">\(x,y\)</span>  είναι δύο ρητοί τότε:</p>
+<ul class="simple">
+<li><p>Αν και οι δύο είναι ακέραιοι, σαφώς ισχύουν και οι δύο περιπτώσεις του ορισμού, αφού  <span class="math notranslate nohighlight">\(f(x)=x\)</span>  και  <span class="math notranslate nohighlight">\(f(y)=y\)</span> .</p></li>
+<li><p>Αν  <span class="math notranslate nohighlight">\(x\in\mathbb{Z}\)</span>  και  <span class="math notranslate nohighlight">\(y\in(n,n+1)\)</span>  για κάποιον ακέραιο  <span class="math notranslate nohighlight">\(n\in\mathbb{Z}\)</span>  τότε έχουμε  <span class="math notranslate nohighlight">\(f(x)=x\)</span>  και  <span class="math notranslate nohighlight">\(f(y)=2n-y\)</span>  οπότε θα έχουμε, αφενός,  <span class="math notranslate nohighlight">\(f(x+f(y))=f(x+2n-y)\)</span> . Τώρα, ο  <span class="math notranslate nohighlight">\(x+2n-y\)</span>  είναι ένας αριθμός που ζει στο διάστημα  <span class="math notranslate nohighlight">\((x+n-1,x+n)\)</span>  αφού ο  <span class="math notranslate nohighlight">\(x\)</span>  είναι ακέραιος ενώ ο  <span class="math notranslate nohighlight">\(2n-y\)</span>  ζει στο  <span class="math notranslate nohighlight">\((n-1,n)\)</span> . Έτσι, από τον ορισμό της  <span class="math notranslate nohighlight">\(f\)</span>  έχουμε  <span class="math notranslate nohighlight">\(f(x+2n-y)=2(x+2n-1)-(x+2n-y)=x+2n-2+y\)</span> . Τώρα, αυτό έχει τη μορφή  <span class="math notranslate nohighlight">\(f(x)+y+2n-2\)</span>  οπότε μας περισσεύει ένα  <span class="math notranslate nohighlight">\(2n-2\)</span>  που μάλλον δε θα το θέλαμε.
+Ας πάμε να εξετάσουμε τη δεύτερη περίπτωση. Εκεί έχουμε  <span class="math notranslate nohighlight">\(f(f(x)+y)=f(x+y)\)</span> . Το  <span class="math notranslate nohighlight">\(x+y\)</span>  είναι ένας μη ακέραιος που ζει στο διάστημα  <span class="math notranslate nohighlight">\((x+n,x+n+1)\)</span>  επομένως  <span class="math notranslate nohighlight">\(f(x+y)=2(x+n)-(x+y)=x+2n-y=x+f(y)\)</span> , οπότε, πράγματι,  <span class="math notranslate nohighlight">\(f(f(x)+y)=x+f(y)\)</span> .</p></li>
+<li><p>Αντίστοιχα, αν  <span class="math notranslate nohighlight">\(y\in\mathbb{Z}\)</span>  ενώ  <span class="math notranslate nohighlight">\(x\not\in\mathbb{Z}\)</span>  τότε, λόγω συμμετρίας, θα ισχύει η πρώτη περίπτωση του ορισμού.</p></li>
+<li><p>Αν αμφότεροι  <span class="math notranslate nohighlight">\(x,y\not\in\mathbb{Z}\)</span>  τότε θα υπάρχουν  <span class="math notranslate nohighlight">\(m,n\in\mathbb{Z}\)</span>  έτσι ώστε  <span class="math notranslate nohighlight">\(x\in(m,m+1)\)</span>  και  <span class="math notranslate nohighlight">\(y\in(n,n+1)\)</span> , επομένως:  <span class="math notranslate nohighlight">\(f(x+f(y))=f(x+2n-y)\)</span> . Τώρα, ο παραπάνω αριθμός ζει, εν γένει, στο διάστημα  <span class="math notranslate nohighlight">\((m+n-1, m+n+1),\)</span>  επομένως, πρέπει να πάρουμε περιπτώσεις:</p>
+<ul>
+<li><p>Αρχικά, αν  <span class="math notranslate nohighlight">\(x+2n-y=m+n\)</span> , δηλαδή αν είναι ακέραιος αυτό το πράγμα, τότε:  <span class="math notranslate nohighlight">\(f(x+2n-y)=x+2n-y=x+f(y)\)</span>  το οποίο είναι άβολο, γιατί εμείς θα θέλαμε το «ανάποδο»:  <span class="math notranslate nohighlight">\(f(x)+y\)</span> . Ωστόσο, δεν ψαρώνουμε. Είπαμε ότι  <span class="math notranslate nohighlight">\(x+2n-y=m+n\Rightarrow x+n-y=m\)</span> . Εμείς θα θέλαμε να προκύψει στο δεξί μέλος η παράσταση  <span class="math notranslate nohighlight">\(f(x)+y=2m-x+y\)</span>  οπότε αρκεί να δείξουμε ότι  <span class="math notranslate nohighlight">\(x+2n-y=2m-x+y\)</span> . Με ισοδυναμίες έχουμε:
+.. math:: begin{aligned}&amp;hphantom{{}Leftrightarrow{}}x+2n-y=2m-x+y&amp;Leftrightarrow 2x+2n=2m+2y&amp;Leftrightarrow x+n=y+mend{aligned}
+που ισχύει, αφού  <span class="math notranslate nohighlight">\(x+n-y=m\)</span> . Άρα, σε αυτή την περίπτωση  <span class="math notranslate nohighlight">\(f(x+f(y))=f(x)+y\)</span> .</p></li>
+<li><p>Αν  <span class="math notranslate nohighlight">\(x+2n-y\in(m+n,m+n+1)\)</span>  τότε έχουμε:
+.. math:: f(x+2n-y)=2(m+n)-(x+2n-y)=2m-x+y=f(x)+y
+όπως θα θέλαμε.</p></li>
+<li><p>Τέλος, αν  <span class="math notranslate nohighlight">\(x+2n-y\in(m+n-1,m+n)\)</span>  τότε έχουμε:
+.. math:: f(x+2n-y)=2(m+n-1)-(x+2n-y)=2m-x-2+y
+Τώρα, αυτό το  <span class="math notranslate nohighlight">\(-2\)</span>  γιατί μας περίσσεψε; Μήπως να δοκιμάσουμε την άλλη περίπτωση του ορισμού; Έχουμε, αρχικά  <span class="math notranslate nohighlight">\(f(f(x)+y)=f(2m-x+y)\)</span> . Τώρα, αυτός ο αριθμός ζει εν γένει στο  <span class="math notranslate nohighlight">\((n+m-1,n+m+1)\)</span>  ωστόσο είμαστε στην ειδική υποπερίτπωση όπου  <span class="math notranslate nohighlight">\(x+2n-y\in(m+n-1,m+n)\)</span> . Τότε έχουμε:
+.. math:: begin{aligned}&amp;hphantom{{}Leftrightarrow{}}x+2n-y&lt;m+n&amp;Leftrightarrow n-m&lt;y-x&amp;Leftrightarrow n+m&lt;y+2m-xend{aligned}
+Συνεπώς, σε αυτή την περίπτωση  <span class="math notranslate nohighlight">\(2m-x+y\in(m+n,m+n+1)\)</span>  και άρα έχουμε:
+.. math:: f(2m-x+y)=2(m+n)-(2m-x+y)=x+2n-y=x+f(y)
+όπως θα θέλαμε.</p></li>
+</ul>
+</li>
+</ul>
+<p>Άρα, σε κάθε περίπτωση ικανοποιείται ο ορισμός μας, άρα η  <span class="math notranslate nohighlight">\(f\)</span>  είναι πράγματι υδροθερμική με  <span class="math notranslate nohighlight">\(c=2\)</span>  σε αυτή την περίπτωση! Και, ιδού η γραφική της παράσταση:</p>
+<figure class="wp-image-13985 align-default" id="id17">
+<img alt="Η γραφική παράσταση μίας υδροθερμικής συνάρτησης με  :math:`c=2` ." src="docs/After-maths/{static}_static/images/uploads/2024/08/plot_06.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Η γραφική παράσταση μίας υδροθερμικής συνάρτησης με  <span class="math notranslate nohighlight">\(c=2\)</span> .</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id17"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Αυτό, όπως καταλαβαίνετε, αλλάζει δραστικά τον τρόπο που πρέπει να αντιμετωπίσουμε το πρόβλημά μας. Προηγουμένως ξεκινήσαμε δειλά-δειλά να δείξουμε ότι  <span class="math notranslate nohighlight">\(c=1\)</span>  αποδεικνύοντας ότι οι μόνες υδροθερμικές συναρτήσεις είναι αυτές οι δύο που είχαμε εντοπίσει στην αρχή. Στη συνέχεια, ωστόσο, είδαμε ότι αυτό δεν πάει καθόλου καλά, φτάνοντας σε ένα αδιέξοδο. Τώρα είδαμε ότι αυτό δε συνέβη αδίκως: υπάρχει συνάρτηση η οποία, ούσα λίγο πιο περίπλοκη, μας δείχνει ότι αυτό που προσπαθούσαμε να αποδείξουμε είναι, εν γένει, αδύνατο. Επομένως, τώρα τι θα πάμε να αποδείξουμε;</p>
+</section>
+<section id="id7">
+<h2>Απόπειρα #003<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id7" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id7'"><span>#</span></a></h2>
+<p>Λοιπόν, όπως είπαμε και παραπάνω, το πλάνο μας να αποδείξουμε ότι  <span class="math notranslate nohighlight">\(c=1\)</span>  απέτυχε παταγωδώς, οπότε πρέπει να σκεφτούμε κάτι άλλο, καθώς, με βάση τα παραπάνω  <span class="math notranslate nohighlight">\(c\geq 2\)</span> , δηλαδή η  <span class="math notranslate nohighlight">\(g\)</span>  στη γενική περίπτωση μπορεί να πάρει τουλάχιστον δύο διαφορετικές τιμές, για κάποιες υδροθερμικές συναρτήσεις. Ας πάρουμε, λοιπόν, δύο αριθμούς,  <span class="math notranslate nohighlight">\(a,b\)</span>  για τους οποίους ισχύει ότι  <span class="math notranslate nohighlight">\(g(a)\neq g(b)\)</span> . Πριν συνεχίσουμε, να πούμε ότι μπορούμε να γράψουμε την υπόθεσή μας σε μία λίγο πιο συμμαζεμένη μορφή με τη βοήθεια της αντίστροφης της  <span class="math notranslate nohighlight">\(f\)</span> . Πράγματι από τη μορφή:</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(y))=f(x)+y) ή .. math:: f(f(x)+y)=x+f(y)\]</div>
+<p>μπορούμε, εφαρμόζοντας την  <span class="math notranslate nohighlight">\(f^{-1}\)</span>  στη δεύτερη, ας πούμε, ισότητα, να πάρουμε το εξής:</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(f(x+f(y))=f(x)+y\)</span>  ή  <span class="math notranslate nohighlight">\(f^{-1}(x+f(y))=f(x)+y\)</span> .</p>
+</div></blockquote>
+<p>Με άλλα λόγια, σε κάθε περίπτωση, είτε η  <span class="math notranslate nohighlight">\(f\)</span>  είτε η  <span class="math notranslate nohighlight">\(f^{-1}\)</span>  «μετατοπίζει» την  <span class="math notranslate nohighlight">\(f\)</span>  από το  <span class="math notranslate nohighlight">\(y\)</span>  στο  <span class="math notranslate nohighlight">\(x\)</span> . Τώρα, ποια από τις δύο μορφές είναι πιο χρήσιμη θα φανεί στην πράξη.</p>
+<p>Λοιπόν, έχουμε πάρει δύο τιμές της  <span class="math notranslate nohighlight">\(g\)</span>  που έχουμε υποθέσει ότι είναι διαφορετικές,  <span class="math notranslate nohighlight">\(g(a)\neq g(b)\)</span> . Αυτό ξέρουμε ότι μπορεί να συμβεί, οπότε δεν τίθεται, σαφώς, προς αμφισβήτηση. Το θέμα είναι, τι μπορούμε να πούμε για αυτές τις τιμές; Μπορούμε, ίσως, να δείξουμε, ότι είναι μονάχα δύο και όχι παραπάνω; Κι αν ναι, πώς μπορούμε να κινηθούμε προς τα εκεί;</p>
+<p>Λοιπόν, ας αρχίσουμε λίγο να μαζεύουμε πάλι όσα έχουμε δείξει ως τώρα, για να έχουμε μία εικόνα του οπλοστασίου μας:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(f(0)=0\)</span> .</p></li>
+<li><p>Οι  <span class="math notranslate nohighlight">\(f_1(x)=x\)</span>  και  <span class="math notranslate nohighlight">\(f_2(x)=-x\)</span>  είναι υδροθερμικές με  <span class="math notranslate nohighlight">\(c=1\)</span> .</p></li>
+<li><p>Υπάρχει υδροθερμική συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span>  με  <span class="math notranslate nohighlight">\(c=2\)</span> .</p></li>
+<li><p><span class="math notranslate nohighlight">\(f(x+f(x))=x+f(x)\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{Q}\)</span> .</p></li>
+<li><p>Η  <span class="math notranslate nohighlight">\(f\)</span>  είναι «1-1».</p></li>
+<li><p>Η  <span class="math notranslate nohighlight">\(f\)</span>  είναι «επί».</p></li>
+<li><p><span class="math notranslate nohighlight">\(f^{-1}(x)=-f(-x)\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{Q}\)</span> .</p></li>
+<li><p><span class="math notranslate nohighlight">\(-x=f(-f(x))\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{Q}\)</span> .</p></li>
+<li><p><span class="math notranslate nohighlight">\(x=f(-f(-x))\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{Q}\)</span> .</p></li>
+<li><p>Αν  <span class="math notranslate nohighlight">\(x\)</span>  είναι ένα σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span>  τότε για κάθε  <span class="math notranslate nohighlight">\(n\in\mathbb{Z}\)</span>  ισχύει ότι και το  <span class="math notranslate nohighlight">\(nx\)</span>  είναι σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span> .</p></li>
+<li><p>Ο ορισμός γράφεται και στη μορφή:  <span class="math notranslate nohighlight">\(f(x+f(y))=f(x)+y\)</span>  ή  <span class="math notranslate nohighlight">\(f^{-1}(x+f(y))=f(x)+y\)</span> .</p></li>
+</ul>
+<p>Τώρα, από όλα τα παραπάνω, κάτι θα μας φανεί χρήσιμο, πού θα πάει; Λοιπόν, αρχικά, να θυμηθούμε λίγο πώς μοιάζει η  <span class="math notranslate nohighlight">\(g\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[g(x)=f(x)+f(-x).\]</div>
+<p>Από εδώ προκύπτει και μία κομψή ιδιότητά της, καθώς  <span class="math notranslate nohighlight">\(g(-x)=g(x)\)</span> , δηλαδή, είναι άρτια. Τώρα, για την  <span class="math notranslate nohighlight">\(f\)</span>  γνωρίζουμε πολλά, είναι η αλήθεια. Γνωρίζουμε, μήπως τίποτα και για τη  <span class="math notranslate nohighlight">\(f(-x)\)</span> ; Αν κοιτάξουμε λίγο παραπάνω θα δούμε ότι η  <span class="math notranslate nohighlight">\(f(-x)\)</span>  σχετίζεται στενά με την αντίστροφη της  <span class="math notranslate nohighlight">\(f\)</span>  καθώς:</p>
+<div class="math notranslate nohighlight">
+\[f^{-1}(x)=-f(-x)\Leftrightarrow f(-x)=-f^{-1}(x).\]</div>
+<p>Συνεπώς, μπορούμε να πούμε και ότι:</p>
+<div class="math notranslate nohighlight">
+\[g(x)=f(x)-f^{-1}(x).\]</div>
+<p>Τώρα, αυτό μας δίνει και μία ενδιαφέρουσα εναλλακτική έκφραση για την  <span class="math notranslate nohighlight">\(f\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[f(x)=g(x)+f^{-1}(x).\]</div>
+<p>Αν αναρωτιέστε γιατί αυτό είναι ενδιαφέρον, δεν έχουμε και πολλά να πούμε… Διαίσθηση, προς το παρόν, συν το γεγονός ότι όσα γνωρίζουμε για την  <span class="math notranslate nohighlight">\(f\)</span>  μπορούμε ίσως να τα εκφράσουμε με δύο τρόπους:</p>
+<ul class="simple">
+<li><p>μέσα από τον ορισμό και όσα έχουμε αποδείξει παραπάνω, και,</p></li>
+<li><p>μέσα από την παραπάνω σχέση, που εμπλέκει και την  <span class="math notranslate nohighlight">\(g\)</span> .</p></li>
+</ul>
+<p>Εκφράζοντας το ίδιο πράγμα με δύο τρόπους επιδιώκουμε, προφανώς, να αποδείξουμε κάποια ισότητα μεταξύ των δύο αυτών εκφράσεων, γεγονός που ίσως μας φανεί χρήσιμο σε κάποια φάση. Εκτός αυτού, στον ορισμό της υδροθερμικότητας εμφανίζονται τόσο η  <span class="math notranslate nohighlight">\(f\)</span>  όσο και η  <span class="math notranslate nohighlight">\(f^{-1}\)</span> , επομένως ίσως έχει νόημα να χρησιμοποιήσουμε το ίδιο «λεξιλόγιο». Θα δούμε…</p>
+<p>Τέλος πάντων, έχουμε δείξει αρκετά πράγματα, ας βάλουμε τώρα στο παιχνίδι και τα  <span class="math notranslate nohighlight">\(a,b\)</span>  που πήραμε παραπάνω έτσι ώστε  <span class="math notranslate nohighlight">\(g(a)\neq g(b)\)</span> . Αρχικά, από τα παραπάνω ισχύει και ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(a)=g(a)+f^{-1}(a),\quad f(b)=g(b)+f^{-1}(b).\]</div>
+<p>Επίσης, μπορούμε να αξιοποιήσουμε και τον ορισμό μας, ο οποίος να θυμίσουμε, είναι ο εξής:</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(f(x+f(y))=f(x)+y\)</span>  ή  <span class="math notranslate nohighlight">\(f^{-1}(x+f(y))=f(x)+y\)</span> .</p>
+</div></blockquote>
+<p>Τι να θέσουμε, όμως, στη θέση των  <span class="math notranslate nohighlight">\(x,y\)</span> ; Το να βάλουμε απλά  <span class="math notranslate nohighlight">\(x=a,y=b\)</span>  δε φαίνεται να δίνει κάτι ενδιαφέρον. Γενικά, αφού  <span class="math notranslate nohighlight">\(g(x)=f(x)+f^{-1}(x)\)</span> , ίσως έχει νόημα μία αντικατάσταση της μορφής  <span class="math notranslate nohighlight">\(x=x\)</span>  και  <span class="math notranslate nohighlight">\(y=f^{-1}(x)\)</span> , καθώς έτσι θα έχουμε:</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(f(x+f(f^{-1}(x)))=f(x)+f^{-1}(x)\)</span>  ή  <span class="math notranslate nohighlight">\(f^{-1}(x+f(f^{-1}(x)))=f(x)+f^{-1}(x)\)</span> .</p>
+</div></blockquote>
+<p>Κάνοντας και λίγες πράξεις, έχουμε:</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(f(2x)=f(x)+f^{-1}(x)\)</span>  ή  <span class="math notranslate nohighlight">\(f^{-1}(2x)=f(x)+f^{-1}(x)\)</span> .</p>
+</div></blockquote>
+<p>Χμ, όχι και πολύ εντυπωσιακό, γιατί δεν εμφανίζεται αυτό το «-» που θα θέλαμε στο δεξί μέλος. Επομένως, ίσως έχει νόημα να θέσουμε  <span class="math notranslate nohighlight">\(y=-f^{-1}(x)\)</span> , οπότε:</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(f(x+f(-f^{-1}(x)))=f(x)-f^{-1}(x)\)</span>  ή  <span class="math notranslate nohighlight">\(f^{-1}(x+f(f^{-1}(x)))=f(x)-f^{-1}(x)\)</span> .</p>
+</div></blockquote>
+<p>Με αυτό το  <span class="math notranslate nohighlight">\(f(-f^{-1}(x))\)</span>  τι θα κάνουμε, όμως; Θυμηθείτε ότι  <span class="math notranslate nohighlight">\(f^{-1}(x)=-f(-x)\)</span>  συνεπώς:</p>
+<div class="math notranslate nohighlight">
+\[f(-f^{-1}(x))=f(f(-x)).\]</div>
+<p>Συνεπώς, το παραπάνω παίρνει τη μορφή:</p>
+<div class="math notranslate nohighlight">
+\[f(x+f(f(-x)))=g(x) ή .. math:: f^{-1}(x+f(f(-x)))=g(x).\]</div>
+<p>Ωραία, και τώρα αυτό πού μπορεί να μας οδηγήσει; Ας το γράψουμε και με  <span class="math notranslate nohighlight">\(x=a\)</span>  και  <span class="math notranslate nohighlight">\(x=b\)</span>  μήπως πάρουμε καμία ιδέα:</p>
+<div class="math notranslate nohighlight">
+\[f(a+f(f(-a)))=g(a) ή .. math:: f^{-1}(a+f(f(-a)))=g(a).\]</div>
+<p>Και, αντίστοιχα:</p>
+<div class="math notranslate nohighlight">
+\[f(b+f(f(-b)))=g(b) ή .. math:: f^{-1}(b+f(f(-b)))=g(b).\]</div>
+<p>Μάλιστα… Βλέπετε κάτι στον ορίζοντα; Όχι, και αυτό γιατί πάμε λίγο χύμα στο κύμα. Λοιπόν, όπως είπαμε, θέλουμε να αποδείξουμε ότι  <span class="math notranslate nohighlight">\(c=2\)</span>  επομένως πήραμε δύο διαφορετικές τιμές της  <span class="math notranslate nohighlight">\(g\)</span>  και προσπαθούμε να βρούμε κάποια σχέση για να ξεκινήσουμε. Πάνω σε αυτό, ας κάνουμε κάποιες ακόμα παρατηρήσεις:</p>
+<ul class="simple">
+<li><p>Αρχικά, αυτή η σχέση καλό θα ήταν να συμπεριλαμβάνει τόσο το  <span class="math notranslate nohighlight">\(a\)</span>  όσο και το  <span class="math notranslate nohighlight">\(b\)</span>  έτσι ώστε να πάρουμε ένα συμπέρασμα και για τα δύο, και όχι για το καθένα ξεχωριστά, όπως παραπάνω. Επομένως, «μεθοδολογικά» μάλλον οι παραπάνω σκέψεις δε θα μας φανούν τόσο χρήσιμες. Θα ήταν πιο λογικό, με άλλα λόγια, να θέτουμε τη μία μεταβλητή ίση με  <span class="math notranslate nohighlight">\(a\)</span>  (ή κάτι παρόμοιο) και την άλλη με  <span class="math notranslate nohighlight">\(b\)</span>  (ή κάτι παρόμοιο).</p></li>
+<li><p>Επίσης, ξεχάσαμε κάτι σημαντικό. Κάθε υδροθερμική συνάρτηση περνά από την αρχή των αξόνων, συνεπώς  <span class="math notranslate nohighlight">\(f(0)=0\)</span>  και άρα  <span class="math notranslate nohighlight">\(g(0)=0\)</span> , οπότε, από τις δύο τιμές της  <span class="math notranslate nohighlight">\(g\)</span>  η μία θα είναι πάντα το μηδέν (αν ισχύει αυτό που θέλουμε να αποδείξουμε).</p></li>
+</ul>
+<p>Μήπως, λοιπόν, έχοντας κατά νου τα παραπάνω, έχει νόημα να προσπαθήσουμε να αποδείξουμε ότι αν  <span class="math notranslate nohighlight">\(a,b\in\mathbb{Q}\)</span>  με  <span class="math notranslate nohighlight">\(g(a)\neq g(b)\)</span>  τότε, αναγκαστικά, ένα από τα δύο είναι μηδέν; Έτσι, μοιραία, αν έχουμε δύο διαφορετικές τιμές της  <span class="math notranslate nohighlight">\(g\)</span>  η μία θα είναι πάντα μηδέν, επομένως η  <span class="math notranslate nohighlight">\(g\)</span>  δεν μπορεί να πάρει πάνω από δύο διαφορετικές τιμές.</p>
+<p>Ωραίος στόχος αυτός, αλλά πώς να ξεκινήσουμε; Λοιπόν, ας πάμε να βάλουμε στην υπόθεσή μας  <span class="math notranslate nohighlight">\(x=x\)</span>  και  <span class="math notranslate nohighlight">\(y=f^{-1}(y)\)</span>  για να δούμε αν παίρνουμε κάτι όμορφο - σαφώς, η πρόθεσή μας είναι να εξαφανίσουμε το  <span class="math notranslate nohighlight">\(f(y)\)</span>  και να μας μείνει μόνο το  <span class="math notranslate nohighlight">\(y\)</span> :</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(f(x+f(f^{-1}(y)))=f(x)+f^{-1}(y)\)</span>  ή  <span class="math notranslate nohighlight">\(f^{-1}(x+f(f^{-1}(y)))=f(x)+f^{-1}(y)\)</span> .</p>
+</div></blockquote>
+<p>Με λίγες πράξεις έχουμε:</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(f(x+y)=f(x)+f^{-1}(y)\)</span>  ή  <span class="math notranslate nohighlight">\(f^{-1}(x+y)=f(x)+f^{-1}(y)\)</span> .</p>
+</div></blockquote>
+<p>Αυτό, για  <span class="math notranslate nohighlight">\(x=a, y=b\)</span>  δίνει:</p>
+<div class="math notranslate nohighlight">
+\[f(a+b)=f(a)+f^{-1}(b) ή .. math:: f^{-1}(a+b)=f(a)+f^{-1}(b).\]</div>
+<p>Παρατηρήστε τώρα ότι αριστερά έχουμε την ποσότητα  <span class="math notranslate nohighlight">\(x+y\)</span>  η οποία είναι ωραία και συμμετρική ως προς τα  <span class="math notranslate nohighlight">\(x,y\)</span>  ενώ δεξιά δε συμβαίνει το ίδιο. Επομένως, αν κάνουμε το «ανάποδο» θέσιμο  <span class="math notranslate nohighlight">\(x=b,y=a\)</span>  θα πάρουμε, λογικά, κάτι καινούργιο. Έτσι, για  <span class="math notranslate nohighlight">\(x=b, y=a\)</span>  έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(a+b)=f(b)+f^{-1}(a) ή .. math:: f^{-1}(a+b)=f(b)+f^{-1}(a).\]</div>
+<p>Τώρα, εδώ έχουμε τέσσερις ισότητες, οι οποίες όμως δεν ισχύουν απαραίτητα όλες. Για την ακρίβεια, από τις πρώτες δύο ισχύει τουλάχιστον μία και από τις άλλες δύο τουλάχιστον μία. Μάλιστα, αν παρατηρήσετε, δεν είναι όλες συμβατές μεταξύ τους. Για παράδειγμα, από τις ισότητες:</p>
+<div class="math notranslate nohighlight">
+\[f(a+b)=f(a)+f^{-1}(b) και .. math:: f(a+b)=f(b)+f^{-1}(a)\]</div>
+<p>(αν ισχύουν και οι δύο) συμπεραίνουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(a)+f^{-1}(b)=f(b)+f^{-1}(a)\Leftrightarrow f(a)-f^{-1}(a)=f(b)-f^{-1}(b)\]</div>
+<p>επομένως  <span class="math notranslate nohighlight">\(g(a)=g(b)\)</span>  που είναι άτοπο από την υπόθεσή μας. Συνεπώς, αν ισχύει η:</p>
+<div class="math notranslate nohighlight">
+\[f(a+b)=f(a)+f^{-1}(b)\]</div>
+<p>τότε από το άλλο ζευγάρι ισχύει η:</p>
+<div class="math notranslate nohighlight">
+\[f^{-1}(a+b)=f(b)+f^{-1}(a).\]</div>
+<p>Αντίστοιχα, αν ισχύει η  <span class="math notranslate nohighlight">\(f^{-1}(a+b)=f(a)+f^{-1}(b)\)</span>  τότε, με παρόμοιο τρόπο, πρέπει (και μπορεί) να ισχύει μόνο η  <span class="math notranslate nohighlight">\(f(a+b)=f(b)+f^{-1}(a)\)</span> . Έτσι, από όλες αυτές τις σχέσεις, έχουμε δύο μόνο από τα τέσσερα πιθανά ζευγάρια που μπορούν να ισχύουν. Ας ξεκινήσουμε με το πρώτο, όπου ισχύουν ταυτόχρονα:</p>
+<div class="math notranslate nohighlight">
+\[f(a+b)=f(a)+f^{-1}(b) και .. math:: f^{-1}(a+b)=f(b)+f^{-1}(a).\]</div>
+<p>Σε αυτή την περίπτωση μία σκέψη θα ήταν να αφαιρέσουμε κατά μέλη, καθώς  <span class="math notranslate nohighlight">\(g(x)=f(x)-f^{-1}(x)\)</span>  οπότε και θα πάρουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(a+b)-f^{-1}(a+b)=f(a)-f^{-1}(a)+f^{-1}(b)-f(b).\]</div>
+<p>Σουλουπώνοντάς το λίγο:</p>
+<div class="math notranslate nohighlight">
+\[g(a+b)=g(a)-g(b).\]</div>
+<p>Ωραία σχέση φαίνεται αυτή, συμμαζεμένη, κομψή, δείχνει και μία ενδιαφέρουσα (μάλλον) ιδιότητα της  <span class="math notranslate nohighlight">\(g\)</span> . Αλλά, τι να την κάνουμε; Εμείς, όπως είπαμε, στοχεύουμε να δείξουμε ότι είτε  <span class="math notranslate nohighlight">\(g(a)=0\)</span>  είτε  <span class="math notranslate nohighlight">\(g(b)=0\)</span> . Οπότε, ας διερευνήσουμε λίγο τι κάνει το καθένα από αυτά:</p>
+<div class="math notranslate nohighlight">
+\[g(a)=f(a)-f^{-1}(a).\]</div>
+<p>Από τα παραπάνω που έχουμε υποθέσει μπορούμε να πούμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(a)=f(a+b)-f^{-1}(b),\]</div>
+<p>οπότε έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[g(a)=f(a+b)-f^{-1}(b)-f^{-1}(a).\]</div>
+<p>Αν πάρουμε και τη δεύτερη σχέση μας, έχουμε  <span class="math notranslate nohighlight">\(f^{-1}(a)=f^{-1}(a+b)-f(b)\)</span>  οπότε:</p>
+<div class="math notranslate nohighlight">
+\[g(a)=f(a+b)-f^{-1}(b)-f^{-1}(a+b)+f(b)=g(a+b)+g(b),\]</div>
+<p>που το αποδείξαμε και παραπάνω και μας είναι και λίγο αδιάφορο. Οπότε, χρειαζόμαστε αλλαγή πορείας και σε αυτό το σημείο.</p>
+<p>[Σκέψη]</p>
+<p>Λοιπόν, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[g(a)=f(a)-f^{-1}(a).\]</div>
+<p>Για να δούμε αν αυτό κάνει 0 θα θέλαμε να το εκφράσουμε με τη βοήθεια κάποιων άλλων σχέσεων και όχι αυτόν που έχουμε ήδη υποθέσει παραπάνω, καθώς αυτές θα μας οδηγήσουν πίσω στο αποτέλεσμα  <span class="math notranslate nohighlight">\(g(a+b)=g(a)-g(b)\)</span>  που φαίνεται λίγο βαρετό. Αν ηρεμήσουμε λίγο, ίσως παρατηρήσουμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[f(a)=f(a+b-b).\]</div>
+<p>Θυμηθείτε τώρα ότι  <span class="math notranslate nohighlight">\(f(-f(x))=-x\)</span>  και αυτό θα βγάλει καλύτερο νόημα:</p>
+<div class="math notranslate nohighlight">
+\[f(a)=f((a+b)+f(-f(b))).\]</div>
+<p>Παραστάσεις της μορφής  <span class="math notranslate nohighlight">\(f(x+f(y))\)</span>  είναι βούτυρο στο ψωμί μας πλέον, επομένως, ας πάμε να δούμε τι μας λέει ο ορισμός μας για  <span class="math notranslate nohighlight">\(x=a+b\)</span>  και  <span class="math notranslate nohighlight">\(y=-f(b)\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[f(a+b+f(-f(b)))=f(a+b)-f(b) ή .. math:: f^{-1}(a+b+f(-f(b)))=f(a+b)-f(b).\]</div>
+<p>Τώρα, από την υπόθεσή μας γνωρίζουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(a+b)=f(a)+f^{-1}(b),\]</div>
+<p>οπότε ο ορισμός μάς λέει το εξής:</p>
+<div class="math notranslate nohighlight">
+\[f(a+b+f(-f(b)))=f(a)+f^{-1}(b)-f(b) ή .. math:: f^{-1}(a+b+f(-f(b)))=f(a)+f^{-1}(b)-f(b).\]</div>
+<p>Τώρα, ας θυμηθούμε και αυτό που είπαμε παραπάνω:</p>
+<div class="math notranslate nohighlight">
+\[a=a+b-b=a+b+f(-f(b)))\]</div>
+<p>και έτσι θα πάρουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(a)=f(a)+f^{-1}(b)-f(b) ή .. math:: f^{-1}(a)=f(a)+f^{-1}(b)-f(b).\]</div>
+<p>Τώρα, στην πρώτη περίπτωση έχουμε εύκολα:</p>
+<div class="math notranslate nohighlight">
+\[f(a)=f(a)+f^{-1}(b)-f(b)\Leftrightarrow f(b)-f^{-1}(b)=0\Leftrightarrow g(b)=0.\]</div>
+<p>Στη δεύτερη περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(b)-f^{-1}(b)=f(a)-f^{-1}(a)\Leftrightarrow g(b)=g(a),\]</div>
+<p>που απορρίπτεται καθώς έχουμε υποθέσει ότι  <span class="math notranslate nohighlight">\(g(b)\neq g(a)\)</span>  και έτσι μας μένει μόνο η πρώτη περίπτωση όπου  <span class="math notranslate nohighlight">\(g(b)=0\)</span>  και τελειώσαμε! Αφού η μία από τις δύο τιμές της  <span class="math notranslate nohighlight">\(g\)</span>  είναι μηδέν, τότε η  <span class="math notranslate nohighlight">\(g\)</span>  μπορεί να πάρει το πολύ δύο διαφορετικές τιμές!</p>
+<p>Όπα, όπα! Έχουμε και την περίπτωση:</p>
+<div class="math notranslate nohighlight">
+\[f^{-1}(a+b)=f(a)+f^{-1}(b) και .. math:: f(a+b)=f(b)+f^{-1}(a).\]</div>
+<p>Εντάξει, αυτό δεν είναι κάτι, πλέον. Συμμετρικά με την προηγούμενη, ας παρατηρήσουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(b)=f(a+b-a)=f((a+b)+f(-f(a))).\]</div>
+<p>Από τον ορισμό, αντίστοιχα, έχουμε, για  <span class="math notranslate nohighlight">\(x=a+b,y=-f(a)\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[f(a+b+f(-f(a)))=f(a+b)-f(a) ή .. math:: f^{-1}(a+b+f(-f(a)))=f(a+b)-f(a).\]</div>
+<p>Αφού σε αυτή την περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(a+b)=f(b)+f^{-1}(a)\]</div>
+<p>παίρνουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(a+b+f(-f(a)))=f(b)+f^{-1}(a)-f(a) ή .. math:: f^{-1}(a+b+f(-f(a)))=f(b)+f^{-1}(a)-f(a).\]</div>
+<p>Ας θυμηθούμε τώρα ότι για τα αριστερά μέλη έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[b=a+b-a=a+b+f(-f(a))\]</div>
+<p>και θα πάρουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(b)=f(b)+f^{-1}(a)-f(a) ή .. math:: f^{-1}(b)=f(b)+f^{-1}(a)-f(a).\]</div>
+<p>Η πρώτη περίπτωση μας δίνει  <span class="math notranslate nohighlight">\(g(a)=0\)</span>  που μας αρέσει ενώ η δεύτερη  <span class="math notranslate nohighlight">\(g(a)=g(b)\)</span>  που δεν ισχύει! Επομένως, σε κάθε περίπτωση, όπως θέλαμε, η  <span class="math notranslate nohighlight">\(g\)</span>  δεν μπορεί να πάρει παρά το πολύ δύο διαφορετικές τιμές, άρα υπάρχει αυτό το διαβόητο  <span class="math notranslate nohighlight">\(c\)</span>  που μας ζητήσανε και μάλιστα  <span class="math notranslate nohighlight">\(c=2\)</span>  είναι η ελάχιστη τιμή του, αφού βρήκαμε και μία υδροθερμική συνάρτηση που να δίνει μία  <span class="math notranslate nohighlight">\(g\)</span>  που να παίρνει ακριβώς δύο τιμές.</p>
+</section>
+<section id="id8">
+<h2>Λίγο Πριν Το Τέλος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id8" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id8'"><span>#</span></a></h2>
+<p>Ωραία, έχετε διαβάσει κοντά 40 συνεχόμενα λεπτά μαθηματικών κι όλα αυτά για να λύσουμε μία άσκηση. Δεν πήγε καθόλου γραμμικά η λύση και δεν ήταν και αυτή η πρόθεσή μας σήμερα. Στόχος ήταν να αναδείξουμε λίγο το σκεπτικό και πώς έγιναν οι πράξεις στο χαρτί πριν καταλήξουν στις οθόνες σας. Γιατί, αν κάτι είναι τα μαθηματικά, πέρα από όλα τα άλλα, είναι αποτυχημένες σκέψεις. Αποτυχίες που, τελικά, οδηγούν σε μικρές επιτυχίες.</p>
+<p>Όμως, όπως πάντα, καμία απάντηση στα μαθηματικά δεν είναι το τέρμα - αντιθέτως. Σε όλα τα παραπάνω έχουμε μία συνάρτηση  <span class="math notranslate nohighlight">\(f:\mathbb{Q}\to\mathbb{Q}\)</span>  ωστόσο, το πεδίο ορισμού της δε μας απασχόλησε ιδιαίτερα. Για την ακρίβεια, μας παραπλάνησε και λίγο. Πράγματι, η πρώτη μου σκέψη όταν είδα το θέμα ήταν ότι κάπως θα δείξουμε μία ιδιότητα της  <span class="math notranslate nohighlight">\(f\)</span>  για όλους τους ρητούς κατασκευαστικά και ότι κάπως έτσι θα αποδείξουμε ότι  <span class="math notranslate nohighlight">\(c=1\)</span>  και οι μόνες υδροθερμικές συναρτήσεις είναι οι δύο ευθείες που βρήκαμε αρχικά. Ωστόσο, κάθε άλλο παρά έτσι ήταν τα πράγματα, όπως είδατε, καθώς, η «προφανής» ιδιότητα «κάθε ρητό πολλαπλάσιο ενός σταθερού σημείου της  <span class="math notranslate nohighlight">\(f\)</span>  είναι επίσης σταθερό της σημείο» είναι… προφανώς λανθασμένη. Και κάπως έτσι μένουμε με την απορία: χρειάζεται η υπόθεση ότι  <span class="math notranslate nohighlight">\(D_f=\mathbb{Q}\)</span> ; Αυτό το παίρνετε σαν άσκηση για το σπίτι.</p>
+<p>Α, και άλλη μία άσκηση για το σπίτι. Βρήκαμε, ως τώρα, τρεις υδροθερμικές συναρτήσεις, δύο προφανείς και μία όχι τόσο προφανή. Αυτή την όχι τόσο προφανή υδροθερμική συνάρτηση με την ακόλουθη γραφική παράσταση:</p>
+<figure class="wp-image-13985 align-default" id="id18">
+<img alt="Τη θυμάστε;" src="docs/After-maths/{static}_static/images/uploads/2024/08/plot_06.png?w=723"/>
+<figcaption>
+<p><span class="caption-text">Τη θυμάστε;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id18"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>μπορούμε να τη γράψουμε με έναν κομψό τρόπο, ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[f(x)=[x]-\{x\},\]</div>
+<p>όπου  <span class="math notranslate nohighlight">\([x]\)</span>  είναι το ακέραιο μέρος του  <span class="math notranslate nohighlight">\(x\)</span>  δηλαδή ο μεγαλύτερος ακέραιος που είναι μικρότερος ή ίσος του  <span class="math notranslate nohighlight">\(x\)</span>  και  <span class="math notranslate nohighlight">\(\{x\}\)</span>  είναι το δεκαδικό μέρος του  <span class="math notranslate nohighlight">\(x\)</span>  ή, αλλιώς, η παράσταση  <span class="math notranslate nohighlight">\(x-[x]\)</span> . Στην περίπτωσή μας, ο  <span class="math notranslate nohighlight">\(\{x\}\)</span>  είναι ένας ρητός αριθμός στο  <span class="math notranslate nohighlight">\([0,1)\)</span>  και, αν αγνοήσουμε τις ακέραιες τιμές του  <span class="math notranslate nohighlight">\(x\)</span>  είναι ένας ρητός στο  <span class="math notranslate nohighlight">\((0,1)\)</span> . Μπορούμε, από την παραπάνω γραφή, να δούμε μία ευρύτερη οικογένεια συναρτήσεων:</p>
+<div class="math notranslate nohighlight">
+\[f_\sigma(x)=[x]-\sigma(\{x\}),\]</div>
+<p>όπου  <span class="math notranslate nohighlight">\(\sigma:\mathbb{Q}\cap(0,1)\to\mathbb{Q}\cap(0,1)\)</span>  είναι μία μετάθεση των ρητών στο  <span class="math notranslate nohighlight">\((0,1)\)</span>  - δηλαδή, μία «1-1» και επί συνάρτηση ορισμένη εκεί. Είναι, άραγε, κάθε τέτοια συνάρτηση υδροθερμική; Και αυτό το παίρνετε σαν άσκηση για το σπίτι…</p>
+<p>Α, και κάτι εύλογο και ακόμα γενικότερο: μπορείτε να περιγράψετε όλες τις υδροθερμικές συναρτήσεις; Είναι μόνο οι τρεις που έχουμε βρει ως τώρα; Έχει σχόλια από κάτω, έχουμε και <a class="reference external" href="https://aftermaths.gr/contact/">email</a>, πείτε μας τι θα βρείτε!</p>
+<p>Μέχρι τότε, καλημέρα και καλό διάβασμα!</p>
+<blockquote>
+<div><div class="video_wrapper" style="">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/fIG1QeIVVX8" style="border: 0; height: 345px; width: 560px">
+</iframe></div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        45436, 44300, 24900: Ποιος Είναι ο Επόμενος;
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">
+        Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Λίγες Σκόρπιες Σκέψεις</a></li>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Κοιτάζοντας τον Στόχο</a></li>
+<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Απόπειρα #002</a></li>
+<li><a :data-current="activeSection === '#id5'" class="reference internal" href="#id5">Σταθερά… Σημεία</a></li>
+<li><a :data-current="activeSection === '#id6'" class="reference internal" href="#id6">Επιστροφή στις Ρίζες</a></li>
+<li><a :data-current="activeSection === '#id7'" class="reference internal" href="#id7">Απόπειρα #003</a></li>
+<li><a :data-current="activeSection === '#id8'" class="reference internal" href="#id8">Λίγο Πριν Το Τέλος</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

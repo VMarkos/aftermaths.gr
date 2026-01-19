@@ -1,0 +1,31 @@
+Πρόχειρες σημειώσεις (Β΄ Λυκείου, άλγεβρα)
+##########################################
+
+.. meta::
+	:date: 2020-09-27 15:42
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: featured, προβλήματα, σημειώσεις, Β' Λυκείου, άλγεβρα, ασκήσεις, θεωρία
+	:slug: %cf%80%cf%81%cf%8c%cf%87%ce%b5%ce%b9%cf%81%ce%b5%cf%82-%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%b2%ce%84%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%ac%ce%bb%ce%b3%ce%b5
+	:status: published
+	:attachments: _static/images/uploads/2020/09/paul_gustav_fischer_kongens_fodselsdag_1925.jpg
+
+.. figure:: /_static/images/uploads/2020/09/paul_gustav_fischer_kongens_fodselsdag_1925.jpg
+	:alt: Ο πίνακας *Τα γενέθλια του βασιλιά* του `Paul Gustav Fischer  <https://en.wikipedia.org/wiki/Paul_Gustav_Fischer>`__. 
+	:align: center
+
+	Ο πίνακας *Τα γενέθλια του βασιλιά* του `Paul Gustav Fischer  <https://en.wikipedia.org/wiki/Paul_Gustav_Fischer>`__. 
+
+
+`Εδώ  <https://drive.google.com/file/d/1Ed76N5ghSxagySHAxSyQojHfMo1PxH6m/view?usp=sharing>`__ αλλά και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__ μπορείτε να βρείτε πρόχειρες σημειώσεις στην ύλη της άλγεβρας της Β' Λυκείου. Οι σημειώσεις περιέχουν σύνοψη της θεωρίας, λυμένα παραδείγματα αλλά και άλυτες ασκήσεις.
+
+Καλό απόγευμα και καλό διάβασμα!
+
+
+
+
+
+
+   .. youtube:: loKu_APkKQY 
+
+

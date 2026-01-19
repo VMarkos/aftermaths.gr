@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2021-04-13 01:20" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Μαθηματικά" name="category"/>
+<meta content="featured, πιθανότητες, μαθηματικά" name="tags"/>
+<meta content="%ce%b7-%cf%83%cf%84%cf%81%ce%b1%cf%84%ce%b7%ce%b3%ce%b9%ce%ba%ce%ae-%ce%b4%ce%b5-%ce%bc%ce%b5%cf%84%cf%81%ce%ac%ce%b5%ce%b9-%cf%80%ce%ac%ce%bd%cf%84%ce%b1" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2021/04/cardshaprs.jpeg" name="attachments"/>
+<title>Η στρατηγική δε μετράει πάντα… | aftermaths</title>
+<meta content="Η στρατηγική δε μετράει πάντα… | aftermaths" property="og:title"/>
+<meta content="Η στρατηγική δε μετράει πάντα… | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html" rel="next" title="Η σωστή ερώτηση…"/>
+<link href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html" rel="prev" title="Η Ομορφότερη Παράγωγος;"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Η στρατηγική δε μετράει πάντα…</span>
+</nav>
+<div id="content" role="main">
+<section id="id1">
+<h1>Η στρατηγική δε μετράει πάντα…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+<figure class="align-center" id="id7">
+<img alt="Ο πίνακας *Cardshaprs* *(αυτοί που κλέβουν στα χαρτιά)* του `Valentin de Boulogne  &lt;https://en.wikipedia.org/wiki/Valentin_de_Boulogne&gt;`__\ *.*" src="_static/images/uploads/2021/04/cardshaprs.jpeg"/>
+<figcaption>
+<p><span class="caption-text">Ο πίνακας <em>Cardshaprs</em> <em>(αυτοί που κλέβουν στα χαρτιά)</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Valentin_de_Boulogne">Valentin de Boulogne</a><em>.</em></span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id7"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Η αλήθεια είναι ότι όταν έρχεται η ώρα για μία μεγάλη απόφαση στη ζωή μας, βάζουμε τα πάντα στο τραπέζι - τουλάχιστον όσα μπορούμε να γνωρίζουμε - και ζυγίζουμε ό,τι είναι να ζυγίσουμε πριν πάρουμε τις αποφάσεις μας. Ωστόσο, είναι αυτό κάτι που έχει πάντοτε νόημα; Χρειάζεται, δηλαδή, να καλοσχεδιάζουμε πάντοτε τις κινήσεις μας πριν τις κάνουμε;</p>
+<section id="id2">
+<h2>Ένα ενδιαφέρον παιχνίδι<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>Στη στήλη Insights του περιοδικού <a class="reference external" href="https://www.quantamagazine.org/zen-and-the-art-of-puzzle-solving-20210210/">quanta</a> τον προηγούμενο μήνα δημοσιεύτηκε, μεταξύ άλλων, ένα ενδιαφέρον πρόβλημα που σχετίζεται άμεσα με τα παραπάνω. Παρουσιάζουμε αμέσως το πρόβλημα, ελαφρώς παραλλαγμένο:</p>
+<p>Σε ένα ιδιόμορφο καζίνο που δε θυμίζει σε τίποτα τα συμβατικά καζίνο, σε ένα τραπέζι κάποιοι παίκτες παίζουν ένα παιχνίδι με χαρτιά. Σε αυτό το παιχνίδι, κάθε παίκτης δίνει κάποια λεφτά για να συμμετέχει - δε μας απασχολεί αυτό προς το παρόν - και του δίνονται στην αρχή 100 ευρώ από αυτά για παίξει.</p>
+<ul class="simple">
+<li><p>Σε κάθε γύρο ο γκρουπιέρης του τραπεζιού τραβάει ένα φύλλο από μία τράπουλα με 52 φύλλα.</p></li>
+<li><p>Κάθε παίκτης ποντάρει ένα ποσό από αυτά που έχει στη διάθεσή του - ενδεχομένως και όλα όσα έχει στη διάθεσή του - ως προς το αν το φύλλο που τραβήχτε είναι μαύρο ή κόκκινο.</p></li>
+<li><p>Ο γκρουπιέρης αποκαλύπτει το φύλλο που έχει τραβήξει.</p></li>
+<li><p>Αν ο παίκτης έχει μαντέψει σωστά τότε κερδίζει ποσό ίσο με το ποντάρισμά του ενώ αν έχει μαντέψει λάθος τότε χάνει το ποντάρισμά του.</p></li>
+<li><p>Το παιχνίδι επαναλαμβάνεται είτε μέχρι να πτωχεύσει ο παίκτης είτε μέχρι να τελειώσει η τράπουλα.</p></li>
+</ul>
+<p>Για παράδειγμα, ας πούμε ότι στον πρώτο γύρο ποντάρουμε 40 ευρώ να έρθει κόκκινο. Αν το πρώτο φύλλο είναι μαύρο τότε θα χάσουμε αυτά τα 40 ευρώ μας και θα μείνουμε με 60. Αν, αντιθέτως, έρθει όντως κόκκινο, τότε θα κερδίσουμε άλλα 40 ευρώ και θα έχουμε στη διάθεσή μας 140 ευρώ.</p>
+<p>Το ζητούμενο είναι στο παραπάνω παιχνίδι να βρούμε εκείνη τη στρατηγική παιξίματος που θα μεγιστοποιήσει τα αναμενόμενα κέρδη μας - με άλλα λόγια, τα μέσα κέρδη μας. Υποθέτουμε γενικά ότι ως παίκτες του παραπάνω παιχνιδιού είμαστε λογικές οντότητες και ότι κάθε στιγμή έχουμε πλήρη γνώση και μνήμη για το τι έχει εμφανιστεί στους προηγούμενους γύρους - με άλλα λόγια, θυμόμαστε ποια χαρτιά έχουν περάσει και, άρα, τι μένει μέσα στην τράπουλα.</p>
+<p>Πριν προχωρήσουμε παρακάτω να παρατηρήσουμε ότι αυτό που μας απασχολεί εδώ είναι να μεγιστοποιήσουμε τη <em>μέση τιμή</em> του κέρδους μας και όχι το μέγιστο κέρδος μας. Δηλαδή, δε μας νοιάζει μία στρατηγική που σε κάποιο ενδεχόμενο θα μας αποφέρει πολλά αλλά μία στρατηγική που <em>μακροπρόθεσμα</em> θα μας δώσει τα περισσότερα κέρδη. Δηλαδή, μας νοιάζει πρωτίστως αν παίξουμε πολλές φορές το παιχνίδι να έχουμε, τελικά, το μεγαλύτερο δυνατό κέρδος.</p>
+<p>Πίσω στο παιχνίδι μας τώρα. Η αλήθεια είναι ότι με μία πρώτη ματιά μπορεί κανείς να σκεφτεί πολλές στρατηγικές που φαίνονται εύλογες. Για παράδειγμα, μπορεί κανείς να ποντάρει συνεχώς ένα σταθερό ποσό ό,τι κι αν συμβεί. Για παράδειγμα, ας υποθέσουμε ότι ποντάρουμε σε κάθε γύρο από 5 ευρώ. Αυτό σημαίνει ότι θα καταφέρουμε να παίξουμε τουλάχιστον 20 γύρους μέχρι να χάσουμε όλη μας την περιουσία, καθώς σε κάθε γύρο, στη χειρότερη περίπτωση, μαντεύουμε λάθος, με αποτέλεσμα να χάνουμε 5 ευρώ. Μία ακόμα πιο επιφυλακτική στρατηγική θα ήταν να παίζουμε σε κάθε γύρω από  <span class="math notranslate nohighlight">\(\dfrac{100}{52}\approx1.92\)</span>  ευρώ έτσι ώστε να μην χρεοκοπήσουμε πριν τελειώσει η τράπουλα και, ταυτόχρονα, να μεγιστοποιήσουμε με «συντηρητικό» τρόπο τα κέρδη μας σε περίπτωση που μαντέψουμε σωστά.</p>
+<p>Ωστόσο, οι παραπάνω στρατηγικές έχουν ένα βασικό πρόβλημα: δεν είναι λογικές. Πράγματι, ένας λογικός παίκτης θα έπαιζε με στόχο να μεγιστοποιήσει τα κέρδη του. Έτσι, αν για παράδειγμα, σε κάποιο σημείο, ας πούμε με 10 χαρτιά ακόμα να απομένουν στην τράπουλα, γνωρίζουμε ότι και τα 10 αυτά χαρτιά είναι όλα μαύρα, τότε θα ποντάρουμε σε κάθε γύρο όλη μας την «περιουσία» στο μαύρο, καθώς έτσι θα καταφέρνουμε σε κάθε γύρο να διπλασιάζουμε τα κέρδη μας. Συνεπώς, λόγω της υπόθεσής μας περί λογικής των παικτών πρέπει κάθε στιγμή να είμαστε έτοιμοι να εγκαταλείψουν την στρατηγική μας και, αν δούμε ότι πλέον εναπομένει μόνο ένα χρώμα στην τράπουλα, να ποντάρουμε σε κάθε γύρο που μένει όλα μας τα χρήματα σε αυτό. Επίσης, η λογική των παικτών που έχουμε υποθέσει επιτάσσει ότι σε κάθε γύρο που τα χαρτιά δεν είναι μοιρασμένα ποντάρουμε υπέρ του χρώματος με τα περισσότερα χαρτιά στην τράπουλα αφού το αντίθετο δε μας εξασφαλίζει πλεονέκτημα - αντιθέτως, «τελικά» χάνουμε.</p>
+</section>
+<section id="id3">
+<h2>Μία μικρή απλοποίηση<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<p>Ακόμα και με αυτήν την υπόθεση περί της λογικής των παικτών, η ανάλυσή μας δε γίνεται ιδιαίτερα εύκολη, καθώς όπως φαντάζεται κανείς, οι στρατηγικές που μπορούμε να επιλέξουμε είναι πάρα πολλές. Επομένως, τι μπορούμε να κάνουμε, για να αποκτήσουμε μία καλύτερη διαίσθηση του παραπάνω προβλήματος; Σαφώς, να μελετήσουμε πρώτα μία απλούστερη εκδοχή του.</p>
+<p>Ας υποθέσουμε, λοιπόν, για αρχή, ότι η τράπουλά μας έχει μόνο δύο χαρτιά, ένα μαύρο κι ένα κόκκινο. Τότε, είναι σαφές ότι αν αποφασίσουμε να ποντάρουμε  <span class="math notranslate nohighlight">\(p\)</span>  ευρώ σε ένα από τα δύο χρώματα, τα μέσα κέρδη μας θα είναι:</p>
+<div class="math notranslate nohighlight">
+\[\frac{1}{2}p+\frac{1}{2}(-p)=\frac{1}{2}(p-p)=0.\]</div>
+<p>Αυτό ήταν λίγο έως πολύ αναμενόμενο. Με όποιον τρόπο κι αν αποφασίσουμε να παίξουμε στην αρχή, η πιθανότητα να κερδίσουμε είναι ίση με την πιθανότητα να χάσουμε, δεδομένου ότι έχουμε από ένα φύλλο από κάθε χρώμα στην μικρή τράπουλά μας, συνεπώς τα δύο ενδεχόμενα είναι ισοπίθανα.</p>
+<p>Παρατηρήστε ωστόσο πώς αυτή η πολύ απλή περίπτωση μας δίνει και κάτι που ισχύει γενικότερα. Κάθε στιγμή που τα φύλλα που απομένουν στην τράπουλα είναι μοιρασμένα σε κόκκινα και μαύρα - για παράδειγμα, 23 κόκκινα και 23 μαύρα - τότε η αμέσως επόμενη μαντεψιά μας δεν επηρεάζει ουσιαστικά τα προσδοκώμενα κέρδη μας διότι ρισκάρουμε να χάσουμε ή να κερδίσουμε το ποσό που ποντάρουμε με ακριβώς την ίδια πιθανότητα.</p>
+<p>Εντούτοις, ίσως το παραπάνω μοντέλο με τα δύο μόλις χαρτιά να μην είναι ιδιαίτερα χρήσιμο για περαιτέρω ανάλυση. Γι” αυτό, ας περάσουμε σε ένα λίγο πιο περίπλοκο μοντέλο το οποίο περιλαμβάνει μία τράπουλα με τέσσερα χαρτιά, δύο από κάθε χρώμα. Ας υποθέσουμε επίσης ότι θέλουμε να αξιολογήσουμε για αρχή την απλή στρατηγική κατά την οποία ποντάρουμε 5 ευρώ στο μαύρο σε κάθε γύρο αν τα φύλλα είναι μοιρασμένα και 10 ευρώ υπέρ του χρώματος με τα περισσότερα φύλλα στην τράπουλα σε άλλη περίπτωση. Ας δούμε ένα παράδειγμα, ενδεικτικά:</p>
+<ul class="simple">
+<li><p>Στον πρώτο γύρο, αφού τα φύλλα είναι μοιρασμένα, ποντάρουμε 5 ευρώ στο μαύρο όπως υπαγορεύει η στρατηγική μας - άλλωστε, δεν έχει ιδιαίτερη σημασία. Ας υποθέσουμε ότι ότι το πρώτο φύλλο που βγαίνει είναι κόκκινο, οπότε χάνουμε τα 5 ευρώ μας και μένουμε με 95.</p></li>
+<li><p>Στον επόμενο γύρο ποντάρουμε 10 ευρώ στο μαύρο, αφού η τράπουλά μας έχει 2 μαύρα κι ένα κόκκινο φύλλο. Ας υποθέσουμε ότι αυτήν τη φορά η τύχη μας χαμογελά και έρχεται πράγματι μαύρο, οπότε κερδίζουμε 10 ευρώ κι έχουμε στην άκρη πλέον 105 ευρώ.</p></li>
+<li><p>Στον τρίτο γύρο τα φύλλα είναι ξανά μοιρασμένα, οπότε ποντάρουμε 5 ευρώ στο μαύρο. Ας υποθέσουμε ότι είμαστε και πάλι τυχεροί κι ότι έρχεται μαύρο φύλλο, οπότε κερδίζουμε άλλα 5 ευρώ κι έχουμε, τελικά, 110 ευρώ στην άκρη.</p></li>
+<li><p>Στον τέταρτο γύρο ξέρουμε ότι έχει μείνει ένα κόκκινο φύλλο, οπότε ποντάρουμε όλη μας την περιουσία (110 ευρώ) στο κόκκινο και κερδίζουμε 110 ευρώ, οπότε τελικά βγαίνουμε από το παιχνίδι με 220 ευρώ.</p></li>
+</ul>
+<p>Το παραπάνω ήταν μία αρκετά καλή παρτίδα, δεδομένου ότι κερδίσαμε, τελικά, 120 ευρώ σε σχέση με τα αρχικά 100 που είχαμε. Ωστόσο, θα μπορούσαμε αν κάναμε μία παραπάνω ήττα (!) να είχαμε κερδίσει περισσότερα. Πράγματι, ας δούμε αυτήν την εξέλιξη:</p>
+<ul class="simple">
+<li><p>Στον πρώτο γύρο, αφού τα φύλλα είναι μοιρασμένα, ποντάρουμε 5 ευρώ στο μαύρο όπως υπαγορεύει η στρατηγική μας - άλλωστε, δεν έχει ιδιαίτερη σημασία. Ας υποθέσουμε ότι ότι το πρώτο φύλλο που βγαίνει είναι κόκκινο, οπότε χάνουμε τα 5 ευρώ μας και μένουμε με 95.</p></li>
+<li><p>Στον επόμενο γύρο ποντάρουμε 10 ευρώ στο μαύρο, αφού η τράπουλά μας έχει 2 μαύρα κι ένα κόκκινο φύλλο. Ας υποθέσουμε ότι ούτε αυτήν τη φορά η τύχη μας χαμογελά και έρχεται κόκκινο, οπότε χάνουμε ευρώ κι έχουμε στην άκρη πλέον 85 ευρώ.</p></li>
+<li><p>Στον τρίτο γύρο τα φύλλα που απομένουν είναι όλα μαύρα, οπότε ποντάρουμε και τα 85 ευρώ μας στο μαύρο, άρα κερδίζουμε 85 ευρώ κι έχουμε πλέον στην άκρη 170 ευρώ.</p></li>
+<li><p>Στον τέταρτο γύρο ομοίως με τον τρίτο έχουμε πλέον ένα μαύρο φύλλο μέσα στην τράπουλα, οπότε ποντάρουμε και τα 170 ευρώ μας και κερδίζουμε άλλα 170 ευρώ, μένοντας τελικά με 340 ευρώ.</p></li>
+</ul>
+<p>Στην παραπάνω σειρά χαρτιών βλέπουμε πώς, αν και χάσαμε δύο φορές μαντεύοντας λάθος, τελικά κερδίσαμε αρκετά περισσότερα ευρώ - 240, ενώ πριν μόλις 120.</p>
+<p>Το παραπάνω ίσως να μας δίνει και μία ιδέα για μία παράδοξη αλλά ενδεχομένως πιο αποδοτική στρατηγική από την παραπάνω. Πριν όμως την περιγράψουμε, ας εξετάσουμε τα μέσα κέρδη που έχουμε από την παραπάνω στρατηγική. Για να το κάνουμε αυτό πρέπει να υπολογίσουμε και τα άλλα πιθανά μοιράσματα των τεσσάρων χαρτιών, πέρα από τους συνδυασμούς ΚΚΜΜ και ΚΜΜΚ - όπου το Κ σημαίνει κόκκινο και το Μ σημαίνει μαύρο. Συνολικά, τα δυνατά μοιράσματα που μπορούν να έρθουν είναι τα εξής:</p>
+<ul class="simple">
+<li><p>ΚΚΜΜ</p></li>
+<li><p>ΚΜΚΜ</p></li>
+<li><p>ΚΜΜΚ</p></li>
+<li><p>ΜΚΚΜ</p></li>
+<li><p>ΜΚΜΚ</p></li>
+<li><p>ΜΜΚΚ</p></li>
+</ul>
+<p>Στον παρακάτω πίνακα έχουμε συνοψίσει όλα πονταρίσματα και την «περιουσία» μας σε κάθε γύρο, αφού αυτός έχει ολοκληρωθεί - άρα η στήλη με το 4ο χαρτί μας δείχνει και το τελικό ποσό μετά το πέρας του παιχνιδιού:</p>
+<blockquote>
+<div><p>&lt;figure class=»wp-block-table aligncenter is-style-stripes»&gt;</p>
+</div></blockquote>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Συνδυασμοί</p></th>
+<th class="head"><p>1ο χαρτί</p></th>
+<th class="head"><p>2ο χαρτί</p></th>
+<th class="head"><p>3ο χαρτί</p></th>
+<th class="head"><p>4ο χαρτί</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ΚΚΜΜ</p></td>
+<td><p>95€</p></td>
+<td><p>85€</p></td>
+<td><p>170€</p></td>
+<td><p>340€</p></td>
+</tr>
+<tr class="row-odd"><td><p>ΚΜΚΜ</p></td>
+<td><p>95€</p></td>
+<td><p>105€</p></td>
+<td><p>100€</p></td>
+<td><p>200€</p></td>
+</tr>
+<tr class="row-even"><td><p>ΚΜΜΚ</p></td>
+<td><p>95€</p></td>
+<td><p>105€</p></td>
+<td><p>110€</p></td>
+<td><p>220€</p></td>
+</tr>
+<tr class="row-odd"><td><p>ΜΚΚΜ</p></td>
+<td><p>105€</p></td>
+<td><p>115€</p></td>
+<td><p>110€</p></td>
+<td><p>220€</p></td>
+</tr>
+<tr class="row-even"><td><p>ΜΚΜΚ</p></td>
+<td><p>105€</p></td>
+<td><p>115€</p></td>
+<td><p>120€</p></td>
+<td><p>240€</p></td>
+</tr>
+<tr class="row-odd"><td><p>ΜΜΚΚ</p></td>
+<td><p>105€</p></td>
+<td><p>95€</p></td>
+<td><p>190€</p></td>
+<td><p>380€</p></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<div><p>&lt;figcaption&gt;</p>
+</div></blockquote>
+<p>Σύνοψη των στρατηγικών μας και του κέρδους που αποφέρει καθεμιά τους.</p>
+<blockquote>
+<div><p>&lt;/figcaption&gt;</p>
+</div></blockquote>
+<p>Εδώ τώρα να παρατηρήσουμε πως οποιαδήποτε από τις 6 διατάξεις φύλλων είναι ισοπίθανη και άρα τα μέσα κέρδη μας είναι ουσιαστικά ο αριθμητικός μέσος των αριθμών που βλέπουμε στην τελευταία στήλη του παραπάνω πίνακα. Αθροίζοντας βλέπουμε ότι όλα τα παραπάνω μας δίνουν 1600€, επομένως τα αναμενόμενα κέρδη μας - μέσα κέρδη - από αυτήν τη στρατηγική είναι 266.67€. Ωραία, η στρατηγική μας ήταν αρκετά μετριοπαθής για να περιμένουμε κάτι τεράστιο, οπότε μπορούμε να πούμε κι «ευχαριστώ» στο καζίνο που μας αφήνει να παίζουμε ένα τέτοιο παιχνίδι.</p>
+<p>Ας μελετήσουμε τώρα μία εναλλακτική στρατηγική, κάπως πιο επιθετική. Παρατηρήστε ότι στον παραπάνω πίνακα, ένα από τα καλύτερα σενάρια είναι να χάσουμε πρώτα δύο φορές και στο τέλος να ποντάρουμε «φορσέ» όλη μας την περιουσία, γνωρίζοντας ότι έχει μείνει ένα χρώμα μέσα στην τράπουλα. Επομένως, ίσως είναι πιο χρήσιμο αντί να ποντάρουμε μόνο ένα δεκάρικο στην «ασφαλή» επιλογή που έχουμε δύο χαρτιά ίδιου χρώματος και ένα από το άλλο χρώμα, να ποντάρουμε πιο πολλά, ας πούμε 40€. Η νέα μας στρατηγική, επομένως, είναι η εξής:</p>
+<ul class="simple">
+<li><p>αν τα φύλλα είναι μοιρασμένα στην τράπουλα τότε επιλέγουμε να ποντάρουμε 5€ στο μαύρο ενώ,</p></li>
+<li><p>αν τα φύλλα στην τράπουλα δεν είναι μοιρασμένα τότε επιλέγουμε να ποντάρουμε 40€ στο φύλλο που έχει τις περισσότερες εμφανίσεις και, όπως πάντα,</p></li>
+<li><p>αν έχουν μείνει φύλλα μόνο ενός χρώματος, τότε ποντάρουμε όλη μας την περιουσία σε αυτό το χρώμα.</p></li>
+</ul>
+<p>Όπως και παραπάνω, μπορούμε να φτιάξουμε έναν ανάλογο πίνακα που να μας δείχνει πόσα ευρώ κερδίζουμε ή χάνουμε τελικά στα έξι πιθανά μοιράσματα:</p>
+<blockquote>
+<div><p>&lt;figure class=»wp-block-table aligncenter is-style-stripes»&gt;</p>
+</div></blockquote>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Συνδυασμοί</p></th>
+<th class="head"><p>1ο χαρτί</p></th>
+<th class="head"><p>2ο χαρτί</p></th>
+<th class="head"><p>3ο χαρτί</p></th>
+<th class="head"><p>4ο χαρτί</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ΚΚΜΜ</p></td>
+<td><p>95€</p></td>
+<td><p>55€</p></td>
+<td><p>110€</p></td>
+<td><p>220€</p></td>
+</tr>
+<tr class="row-odd"><td><p>ΚΜΚΜ</p></td>
+<td><p>95€</p></td>
+<td><p>135€</p></td>
+<td><p>130€</p></td>
+<td><p>260€</p></td>
+</tr>
+<tr class="row-even"><td><p>ΚΜΜΚ</p></td>
+<td><p>95€</p></td>
+<td><p>135€</p></td>
+<td><p>140€</p></td>
+<td><p>280€</p></td>
+</tr>
+<tr class="row-odd"><td><p>ΜΚΚΜ</p></td>
+<td><p>105€</p></td>
+<td><p>145€</p></td>
+<td><p>140€</p></td>
+<td><p>280€</p></td>
+</tr>
+<tr class="row-even"><td><p>ΜΚΜΚ</p></td>
+<td><p>105€</p></td>
+<td><p>145€</p></td>
+<td><p>150€</p></td>
+<td><p>300€</p></td>
+</tr>
+<tr class="row-odd"><td><p>ΜΜΚΚ</p></td>
+<td><p>105€</p></td>
+<td><p>65€</p></td>
+<td><p>130€</p></td>
+<td><p>260€</p></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<div><p>&lt;figcaption&gt;</p>
+</div></blockquote>
+<p>Σύνοψη της επιθετικής στρατηγικής μας.</p>
+<blockquote>
+<div><p>&lt;/figcaption&gt;</p>
+</div></blockquote>
+<p>Αν προσθέσουμε όλα τα παραπάνω θα βρούμε 1600€, συνεπώς και πάλι τα μέσα κέρδη μας από αυτήν τη στρατηγική θα είναι 266.67€. Δηλαδή, παρότι θέσαμε την περιουσία μας σε μεγαλύτερο κίνδυνο, τελικά κατά μέσο όρο θα βγάλουμε τα ίδια.</p>
+<p>Βασικά, αν συγκρίνουμε τους δύο παραπάνω πίνακες, μπορούμε να παρατηρήσουμε ότι η δεύτερη στρατηγική μας, καίτοι φαίνεται αρκετά πιο παράτολμη, μας δίνει λιγότερο διασπαρμένα αποτελέσματα. Πράγματι, για να μετρήσουμε πόσο διασπαρμένα είναι τα αποτελέσματά μας θα χρησιμοποιήσουμε το μέτρο της <em>διασποράς</em>. Πρακτικά, η διασπορά αντιστοιχεί στον μέσο όρο των (τετραγώνων) των αποστάσεων των παρατηρήσεων του δείγματός μας από τη μέση τιμή. Δηλαδή, αν έχουμε παρατηρήσεις  <span class="math notranslate nohighlight">\(t_1,t_2,\ldots,t_n\)</span>  με μέση τιμή  <span class="math notranslate nohighlight">\(\mu\)</span>  τότε η διασπορά,  <span class="math notranslate nohighlight">\(\sigma^2,\)</span>  δίνεται από τη σχέση:</p>
+<div class="math notranslate nohighlight">
+\[\sigma^2=\frac{1}{n}\sum_{k=1}^n|t_k-\mu|^2.\]</div>
+<p>Πριν υπολογίσουμε τις διασπορές των αποτελεσμάτων που έχουμε παραπάνω, να πούμε εδώ ότι ορίζουμε δύο λογιών διασπορές: μία που αναφέρεται σε έναν ολόκληρο πληθυσμό - και δίνεται από την παραπάνω σχέση - και μία που αναφέρεται σε ένα δείγμα (δειγματική διασπορά) και δίνεται από την παρακάτω σχέση:</p>
+<div class="math notranslate nohighlight">
+\[s^2=\frac{1}{n-1}\sum_{k=1}^n|t_k-\mu|^2.\]</div>
+<p>Η διαφορά είναι πρακτικά στον συντελεστή με τον οποίο πολλαπλασιάζουμε το άθροισμα όλων των τετραγωνικών αποστάσεων και οφείλεται στο ότι όταν έχουμε στη διάθεσή μας μόνο ένα δείγμα από έναν πληθυσμό τότε η σταθερά  <span class="math notranslate nohighlight">\(\frac{1}{n-1}\)</span>  αντί της  <span class="math notranslate nohighlight">\(\frac{1}{n}\)</span>  εξασφαλίζει πιο ενδιαφέρουσες και θεμιτές ιδιότητες για τη διασπορά. Εμείς εδώ θα χρησιμοποιήσουμε την πρώτη επιλογή, διότι πρακτικά έχουμε όλον τον πληθυσμό στη διάθεσή μας. Βέβαια, εδώ που τα λέμε, δεδομένου ότι μας ενδιαφέρει μοναχά το ποιο από τα δύο δείγματα τελικών πληρωμών είναι πιο «απλωμένο», όποια από τις δύο εκδοχές και να επιλέγαμε, τα ίδια ποιοτικά συμπεράσματα θα βγάζαμε.</p>
+<p>Πολυλογούμε, ωστόσο και δεν παίρνουμε αποτελέσματα. Χρησιμοποιώντας τον πρώτο τύπο και έναν online υπολογιστή διασπορών - όχι, που θα καθόμαστε να υπολογίζουμε με το χέρι - όπως αυτόν <a class="reference external" href="http://www.alcula.com/calculators/statistics/variance/">εδώ</a>, βρίσκουμε:</p>
+<div class="math notranslate nohighlight">
+\[\sigma_1^2=4622.22,\ \sigma_2^2=622.22.\]</div>
+<p>Αισθητά πιο μεγάλη η διασπορά που παίρνουμε από την πρώτη στρατηγική μας που φαίνεται ιδιαίτερα συντηρητική, ενώ η παράτολμη στρατηγική μας να ποντάρουμε 40€ όποτε μας ευνοούν οι συγκυρίες έχει πιο μικρή διασπορά. Βασικά, για να λέμε και τα πράγματα με το όνομά τους, δεδομένου ότι στους παραπάνω υπολογισμούς όλα είναι υψωμένα στο τετράγωνο, οι μονάδες των  <span class="math notranslate nohighlight">\(\sigma_1^2,\sigma_2^2\)</span>  είναι «τετραγωνικά ευρώ». Ωστόσο, επειδή μάλλον δεν είναι εύκολο να συγκρίνει κανείς ποσότητες που μετριούνται με μονάδες που είναι τόσο μακρινές από την καθημερινή διαίσθηση - αν χρησιμοποιείτε τετραγωνικά ευρώ καθημερινά, γράψτε το στα σχόλια, θα είχε ενδιαφέρον. Συνεπώς, είθισται σε τέτοια μεγέθη να παίρνουμε μετά και μία τετραγωνική ρίζα, έτσι ώστε να διορθώνουμε αυτά τα παράδοξα των μονάδων μέτρησης και να κάνουμε πιο εύκολη τη σύγκριση με τις παρατηρήσεις μας.</p>
+<p>Έχουμε, λοιπόν:</p>
+<div class="math notranslate nohighlight">
+\[\sigma_1=\sqrt{\sigma_1^2}=\sqrt{4622.22}\approx67.97,\ \sigma_2=\sqrt{\sigma_2^2}=\sqrt{622.22}\approx24.94.\]</div>
+<p>Συνεπώς, ενώ στην πρώτη περίπτωση - την κατ” ευφημισμό συντηρητική - έχουμε μία μέση απόκλιση από τη μέση τιμή της τάξης περίπου των 68€, στη δεύτερη περίπτωση - την κατ” ευφημισμό επιθετική - έχουμε μία αισθητά μικρότερη απόκλιση, της τάξεως των περίπου 25€.</p>
+<p>Όπως και να έχει, και οι δύο στρατηγικές, διαφορετικές εν γένει μεταξύ τους, δίνουν τα ίδια αναμενόμενα κέρδη: 266.67€. Ας δούμε τώρα και μία αφελή στρατηγική - αμιγώς τζογαδόρικη. Η τρίτη στρατηγική που θα παρουσιάσουμε θα είναι σε κάθε περίπτωση που δεν έχει απομείνει μόνο ένα χρώμα στην τράπουλα, να ποντάρουμε υπέρ του χρώματος που ευνοείται όλη μας την περιουσία είτε, όταν τα χαρτιά είναι μοιρασμένα, όλα υπέρ του κόκκινου - θα μπορούσαμε και στο μαύρο, απλά το ευνοήσαμε πολύ στις προηγούμενες δύο στρατηγικές. Έτσι, έχουμε τον ακόλουθο πίνακα πληρωμών:</p>
+<blockquote>
+<div><p>&lt;figure class=»wp-block-table aligncenter is-style-stripes»&gt;</p>
+</div></blockquote>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>Συνδυασμοί</p></th>
+<th class="head"><p>1ο χαρτί</p></th>
+<th class="head"><p>2ο χαρτί</p></th>
+<th class="head"><p>3ο χαρτί</p></th>
+<th class="head"><p>4ο χαρτί</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ΚΚΜΜ</p></td>
+<td><p>200€</p></td>
+<td><p>0€</p></td>
+<td><p>0€</p></td>
+<td><p>0€</p></td>
+</tr>
+<tr class="row-odd"><td><p>ΚΜΚΜ</p></td>
+<td><p>200€</p></td>
+<td><p>400€</p></td>
+<td><p>800€</p></td>
+<td><p>1600€</p></td>
+</tr>
+<tr class="row-even"><td><p>ΚΜΜΚ</p></td>
+<td><p>200€</p></td>
+<td><p>0€</p></td>
+<td><p>0€</p></td>
+<td><p>0€</p></td>
+</tr>
+<tr class="row-odd"><td><p>ΜΚΚΜ</p></td>
+<td><p>0€</p></td>
+<td><p>0€</p></td>
+<td><p>0€</p></td>
+<td><p>0€</p></td>
+</tr>
+<tr class="row-even"><td><p>ΜΚΜΚ</p></td>
+<td><p>0€</p></td>
+<td><p>0€</p></td>
+<td><p>0€</p></td>
+<td><p>0€</p></td>
+</tr>
+<tr class="row-odd"><td><p>ΜΜΚΚ</p></td>
+<td><p>0€</p></td>
+<td><p>0€</p></td>
+<td><p>0€</p></td>
+<td><p>0€</p></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<div><p>&lt;figcaption&gt;</p>
+</div></blockquote>
+<p>Σύνοψη της τζογαδόρικης στρατηγικής.</p>
+<blockquote>
+<div><p>&lt;/figcaption&gt;</p>
+</div></blockquote>
+<p>Κι εδώ εύκολα βλέπουμε ότι τα μέσα κέρδη μας είναι 266.67€ αν και, σαφώς, υπάρχει μία τεράστια διασπορά - «με το μάτι» αυτό φαίνεται - αφού κερδίζουμε σε ένα μόνο σενάριο - αλλά πολλά, είναι η αλήθεια. Για να ακριβολογούμε, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\sigma_3^2=355555.56\Rightarrow\sigma_3\approx596.28.\]</div>
+<p>Το εντυπωσιακό, ως τώρα, είναι ότι όσες στρατηγικές κι αν έχουμε δοκιμάσει, τελικά όλες δίνουν τα ίδια αναμενόμενα κέρδη. Δηλαδή, αν παίξουμε αρκετές φορές το εν λόγω παιχνίδι με την ίδια στρατηγική αναμένουμε να βγάζουμε κατά μέσο όρο 266.67€.</p>
+<p><em>Η παραπάνω «οριακή» αντίληψη της μέση τιμής υποκρύπτει τους</em><a class="reference external" href="https://en.wikipedia.org/wiki/Law_of_large_numbers">νόμους των μεγάλων αριθμών</a><em>- που δεν ισχύουν πάντοτε - αλλά στην προκειμένη είναι αρκετά ασφαλές να υποθέσουμε ότι πράγματι τα παραπάνω είναι καλώς τοποθετημένα.</em></p>
+</section>
+<section id="id4">
+<h2>Επιστροφή στο πλήρες πρόβλημα<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h2>
+<p>Είδαμε δύο αρκετά απλές περιπτώσεις του παραπάνω προβλήματος, μία όπου είχαμε μόνο δύο χαρτιά - από την οποία δεν πήραμε και πολλές πληροφορίες - και μία που είχαμε τέσσερα χαρτιά. Η τελευταία μας έδωσε κάτι απροσδόκητα ενδιαφέρον: ότι, τουλάχιστον για τις τρεις στρατηγικές που είδαμε, δεν έχει σημασία πώς παίζουμε, αφού στο τέλος κερδίζουμε κατά μέσο όρο τα ίδια. Ωστόσο, σαφώς η εμπειρική ανάλυσή μας δεν μπορεί να περιοριστεί εδώ καθώς μπορούμε να βρούμε τουλάχιστον δύο σενάρια στα οποία μπορεί τα παραπάνω να μην ισχύουν:</p>
+<ul class="simple">
+<li><p>να υπάρχει μία στρατηγική στην απλοποίηση του παιχνιδιού με τα τέσσερα φύλλα που να μας δίνει μεγαλύτερα ή μικρότερα μέσα κέρδη ή,</p></li>
+<li><p>να ήταν υπερβολικά απλή η προσέγγισή μας με τα τέσσερα φύλλα και να μη γενικεύονται οι παραπάνω παρατηρήσεις καλώς σε τράπουλες με περισσότερα φύλλα.</p></li>
+</ul>
+<p>Επομένως, θα ήταν χρήσιμο να δοκιμάσουμε τα παραπάνω σε τράπουλες με περισσότερα χαρτιά, για αρχή, έτσι ώστε να απορρίψουμε το δεύτερο σενάριο - για το πρώτο θα δούμε τι θα κάνουμε στην πορεία. Ωστόσο, ήδη με τέσσερα χαρτιά είχαμε έξι ισοπίθανους συνδυασμούς χαρτιών να εξετάσουμε. Αν, για παράδειγμα, έχουμε μία τράπουλα με 6 χαρτιά, αναμένουμε να έχουμε ακόμα περισσότερους. Για την ακρίβεια, για να μετρήσουμε τους πιθανούς συνδυασμούς θα χρειαστούμε τον <a class="reference external" href="https://en.wikipedia.org/wiki/Binomial_coefficient">διωνυμικό συντελεστή</a>:</p>
+<div class="math notranslate nohighlight">
+\[\binom{n}{k}=\frac{n!}{k!(n-k)!}.\]</div>
+<p>Ο διωνυμικός συντελεστής μετρά πρακτικά με πόσους τρόπους μπορούμε να διαλέξουμε από ένα σύνολο  <span class="math notranslate nohighlight">\(n\)</span>  στοιχείων  <span class="math notranslate nohighlight">\(k\)</span>  από αυτά χωρίς να μας απασχολεί η σειρά με την οποία τα επιλέγουμε. Τώρα, ας περάσουμε στο σενάριο που μας απασχολεί, το οποίο είναι να έχουμε μία τράπουλα με 6 χαρτιά, 3 κόκκινα και 3 μαύρα. Εδώ, πρακτικά, το να απαριθμήσουμε όλες τις ακολουθίες που μπορούν να εμφανιστούν συνίσταται στο να απαριθμήσουμε τους τρόπους με τους οποίους μπορούμε να αναδιατάξουμε αυτά τα 3+3 χαρτιά που έχουμε αδιαφορώντας για ο,τιδήποτε άλλο πέρα από το χρώμα τους. Αυτό μπορούμε να το κάνουμε επιλέγοντας 3 από τις 6 θέσεις που έχουμε διαθέσιμες ως εκείνες στις οποίες θα εμφανιστούν τα μαύρα χαρτιά κι έπειτα αδιαφορώντας για τα κόκκινα χαρτιά - θα πάνε «φορσέ» στις 3 θέσεις που έχουμε αφήσει κενές. Επομένως, αρκεί να μετρήσουμε τους τρόπους με τους οποίους από τις 6 ελεύθερες θέσεις θα δεσμεύσουμε 3 για τα μαύρα χαρτιά, κάτι που γίνεται με:</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(\binom{6}{3}=\frac{6!}{3!3!}=20\)</span>  τρόπους.</p>
+</div></blockquote>
+<p>Σαφώς, 20 ακολουθίες είναι πολλή δουλειά. Ενδεικτικά, αν θέλαμε να μελετήσουμε την αρχική εκδοχή του παιχνιδιού, με τα 52 φύλλα, θα χρειαζόμαστε:</p>
+<blockquote>
+<div><p><span class="math notranslate nohighlight">\(\binom{52}{26}=\frac{52!}{26!26!}=495\ 918\ 532\ 948\ 104\)</span>  ακολουθίες.</p>
+</div></blockquote>
+<p>Ε, σαφώς δεν πρόκειται να επαναλάβουμε την παραπάνω ανάλυση για περίπου 500 τρισεκατομμύρια ακολουθίες - για να έχουμε ένα μέτρο σύγκρισης, πριν από περίπου 40.3 τρισεκατομμύρια λεπτά γεννήθηκε η Γη. Εδώ θα μας βοηθήσει η τεχνολογία, έτσι ώστε να αποκτήσουμε έστω μία διαίσθηση του φαινομένου. Χρησιμοποιώντας την πολυαγαπημένη python θα γράψουμε αρχικά ένα script που να προσομοιώνει έναν γύρο του παιχνιδιού. Ο αντίστοιχος κώδικας φαίνεται παρακάτω:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">import random
+</span><span id="line-2">
+</span><span id="line-3">def single_round(red, black, pot, strategy):
+</span><span id="line-4">    black_ratio = black/(red + black)
+</span><span id="line-5">    new_card = 0 # 0 stands for red
+</span><span id="line-6">    if random.random() &lt; black_ratio:
+</span><span id="line-7">        new_card = 1
+</span><span id="line-8">    (bet_card, bet_amount) = strategy(red, black, pot)
+</span><span id="line-9">    if bet_card == new_card:
+</span><span id="line-10">        return (new_card, bet_amount)
+</span><span id="line-11">    return (new_card, -bet_amount)
+</span></code></pre></div>
+</div>
+<p>Να εξηγήσουμε λίγο τι έχουμε γράψει παραπάνω, για να είναι σαφές πώς θα επεκτείνουμε στην πορεία τον παραπάνω κώδικα. Αρχικά, φορτώνουμε τη βιβλιοθήκη random της python για να μπορούμε να παράγουμε ψευδοτυχαίους αριθμούς - θα μπορούσαμε να χρησιμοποιήσουμε και τη <a class="reference external" href="docs/After-maths/τίποτα-στην-τύχη-απλές-ιδέες.rst">δική μας γεννήτρια ψευδοτυχαίων αριθμών</a>, αλλά απλά θα γράφαμε περισσότερο κώδικα. Έπειτα, ορίζουμε μία συνάρτηση με τέσσερα ορίσματα:</p>
+<ul class="simple">
+<li><p>τα red και black που αντιπορσωπεύουν το πλήθος κόκκινων και μαύρων χαρτιών που μένουν στην τράπουλα,</p></li>
+<li><p>το pot που είναι το ποσό που έχουμε στη διάθεσή μας εκείνη τη στιγμή και,</p></li>
+<li><p>τη strategy, που είναι <em>συνάρτηση</em> και, όπως θα δούμε παρακάτω, θα εκφράζει την εκάστοτε στρατηγική μας - στη συνέχεια θα δούμε ακριβώς τα ορίσματά της.</p></li>
+</ul>
+<p>Έπειτα, για να προσομοιώσουμε το τράβηγμα ενός φύλλου από την τράπουλά μας, υπολογίζουμε την αναλογία  <span class="math notranslate nohighlight">\(p\)</span>  των μαύρων φύλλων προς όλα τα φύλλα μέσα στην τράπουλα κι επιλέγουμε έναν ψευδοτυχαίο αριθμό στο  <span class="math notranslate nohighlight">\((0,1).\)</span>  Αν αυτός είναι μικρότερος από  <span class="math notranslate nohighlight">\(p\)</span>  τότε θεωρούμε ότι τραβήξαμε μαύρο φύλλο - που το αναπαριστούμε με 1 - ειδάλλως θεωρούμε ότι τραβήξαμε κόκκινο - που το αναπαριστούμε με 0. Στη συνέχεια, καλώντας την συνάρτηση strategy με ορίσματα το πλήθος των κόκκινων και μαύρων φύλλων και την περιουσία μας εκείνη τη στιγμή παίρνουμε το χαρτί που αναμένουμε να τραβήξουμε (κόκκινο ή μαύρο) και το ποσό που ποντάρουμε σε αυτό. Τέλος, αν το χαρτί που μαντέψαμε είναι πράγματι αυτό που βγήκε τότε επιστρέφουμε το νέο χαρτί που τραβήχτηκε από την τράπουλα μαζί με το ποσό που κερδίζουμε, ειδάλλως επιστρέφουμε το χαρτί που τραβήχτηκε από την τράπουλα με το ποσό που χάσαμε.</p>
+<p>Τώρα, χρησιμοποιώντας την παραπάνω συνάρτηση, ορίζουμε τη συνάρτηση game που παίζει ένα παιχνίδι με μία τράπουλα με 2n χαρτιά - n κόκκινα και n μαύρα - όπως φαίνεται παρακάτω:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">def game(n, strategy):
+</span><span id="line-2">    red = n
+</span><span id="line-3">    black = n
+</span><span id="line-4">    pot = 100
+</span><span id="line-5">    while red &gt; 0 and black &gt; 0 and pot &gt; 0:
+</span><span id="line-6">        (new_card, profit) = single_round(red, black, pot, strategy)
+</span><span id="line-7">        pot += profit
+</span><span id="line-8">        if new_card == 1:
+</span><span id="line-9">            black -= 1
+</span><span id="line-10">        else:
+</span><span id="line-11">            red -= 1
+</span><span id="line-12">    pot = max(0,pot*2**(red+black))
+</span><span id="line-13">    return pot
+</span></code></pre></div>
+</div>
+<p>Εδώ τα περισσότερα είναι σαφή. Αρχικά, αρχικοποιούμε τις μεταβλητές μας και στη συνέχεια τραβάμε χαρτιά μέχρι είτε να χρεοκοπήσουμε είτε να ξεμείνουμε από ένα από τα δύο χρώματα. Στο τέλος, επιστρέφουμε όσα μας έμειναν επί  <span class="math notranslate nohighlight">\(2^{r+b}\)</span>  όπου  <span class="math notranslate nohighlight">\(r,b\)</span>  είναι το πλήθος των κόκκινων και μαύρων χαρτιών στην τράπουλα αντίστοιχα. Σαφώς, είτε όσα θα έχουμε στο τέλος θα είναι μηδέν (ή αρνητικός αριθμός αν δεν έχουμε ορίσει καλά τη στρατηγική μας) είτε ένα ακριβώς εκ των $Latex r,b$ θα είναι μηδέν, οπότε με αυτόν τον τρόπο επιτυγχάνουμε συνοπτικά τον τελικό διπλασιασμό του κεφαλαίου μας σε κάθε γύρο του παιχνιδιού που γνωρίζουμε ότι μόνο ένα χρώμα έχει μείνει στην τράπουλα.</p>
+<p>Τώρα, μένει να ορίσουμε και κάποια στρατηγική. Θα ξεκινήσουμε αρχικά με την κατ” ευφημισμόν συντηρητική στρατηγική μας, η οποία μπορεί να οριστεί εύκολα όπως φαίνεται παρακάτω:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">def conservative(red, black, pot):
+</span><span id="line-2">    if red &gt; black:
+</span><span id="line-3">        return (0, 10)
+</span><span id="line-4">    elif red &lt; black:
+</span><span id="line-5">        return (1, 10)
+</span><span id="line-6">    return (1, 5)
+</span></code></pre></div>
+</div>
+<p>Εδώ δεν κάναμε τίποτα άλλο από το να εκφράσουμε τη στρατηγική μας μέσα από ένα απλό if, σχεδόν όπως και με τα λόγια παραπάνω. Τώρα, για να πάρουμε μία εκτίμηση των μέσων κερδών μας, μπορούμε να παίξουμε πολλά παιχνίδια σαν το παραπάνω και να πάρουμε τον (δειγματικό) μέσο τους. Για να πετύχουμε κάτι τέτοιο θα χρειαστούμε την ακόλουθη συνάρτηση main :</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">import matplotlib.pyplot as plt
+</span><span id="line-2">
+</span><span id="line-3">if __name__ == '__main__':
+</span><span id="line-4">    games = 10000
+</span><span id="line-5">    n = 20
+</span><span id="line-6">    results = []
+</span><span id="line-7">    mean = 0
+</span><span id="line-8">    for i in range(games):
+</span><span id="line-9">        result = game(n, conservative)
+</span><span id="line-10">        results.append(result)
+</span><span id="line-11">        mean += result
+</span><span id="line-12">    mean /= games
+</span><span id="line-13">    plt.plot(results, 'bo')
+</span><span id="line-14">    plt.plot([0,games], [mean, mean], 'r-')
+</span><span id="line-15">    plt.title('Δειγματικός μέσος: ' + str(mean))
+</span><span id="line-16">    plt.show()
+</span></code></pre></div>
+</div>
+<p>Παρατηρήστε ότι αποφασίσαμε να παίξουμε 10000 παιχνίδια με μία τράπουλα με 40 φύλλα. Αυτό το κάναμε για να δοκιμάσουμε πρώτα την υλοποίησή μας, καθώς το  <span class="math notranslate nohighlight">\(\binom{40}{20}\)</span>  είναι αρκετά μικρότερος αριθμός από το  <span class="math notranslate nohighlight">\(\binom{52}{26}\)</span>  αφού:</p>
+<div class="math notranslate nohighlight">
+\[\binom{40}{20}=137\ 846\ 528\ 820.\]</div>
+<p>Δηλαδή μιλάμε μόλις για λίγα δισεκατομμύρια διαφορετικές επιλογές - είναι περίπου 2 χιλιάδες φορές λιγότερες από όσες είχαμε στην αρχή.</p>
+<p>Με αυτό έχουμε ολοκληρώσει το script που θα χρησιμοποιήσουμε για αυτά τα πειράματα το οποίο, τελικά, έχει ως εξής:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">import random
+</span><span id="line-2">import matplotlib.pyplot as plt
+</span><span id="line-3">
+</span><span id="line-4">def conservative(red, black, pot):
+</span><span id="line-5">    if red &gt; black:
+</span><span id="line-6">        return (0, 10)
+</span><span id="line-7">    elif red &lt; black:
+</span><span id="line-8">        return (1, 10)
+</span><span id="line-9">    return (1, 5)
+</span><span id="line-10">
+</span><span id="line-11">def single_round(red, black, pot, strategy):
+</span><span id="line-12">    black_ratio = black/(red + black)
+</span><span id="line-13">    new_card = 0 # 0 stands for red
+</span><span id="line-14">    if random.random() &lt; black_ratio:
+</span><span id="line-15">        new_card = 1
+</span><span id="line-16">    (bet_card, bet_amount) = strategy(red, black, pot)
+</span><span id="line-17">    if bet_card == new_card:
+</span><span id="line-18">        return (new_card, bet_amount)
+</span><span id="line-19">    return (new_card, -bet_amount)
+</span><span id="line-20">
+</span><span id="line-21">def game(n, strategy):
+</span><span id="line-22">    red = n
+</span><span id="line-23">    black = n
+</span><span id="line-24">    pot = 100
+</span><span id="line-25">    while red &gt; 0 and black &gt; 0 and pot &gt; 0:
+</span><span id="line-26">        (new_card, profit) = single_round(red, black, pot, strategy)
+</span><span id="line-27">        pot += profit
+</span><span id="line-28">        if new_card == 1:
+</span><span id="line-29">            black -= 1
+</span><span id="line-30">        else:
+</span><span id="line-31">            red -= 1
+</span><span id="line-32">    pot = max([0,pot*2**(red+black)])
+</span><span id="line-33">    return pot
+</span><span id="line-34">
+</span><span id="line-35">if __name__ == '__main__':
+</span><span id="line-36">    games = 10000
+</span><span id="line-37">    n = 20
+</span><span id="line-38">    results = []
+</span><span id="line-39">    mean = 0
+</span><span id="line-40">    for i in range(games):
+</span><span id="line-41">        result = game(n, conservative)
+</span><span id="line-42">        results.append(result)
+</span><span id="line-43">        mean += result
+</span><span id="line-44">    mean /= games
+</span><span id="line-45">    plt.plot(results, 'bo')
+</span><span id="line-46">    plt.plot([0,games], [mean, mean], 'r-')
+</span><span id="line-47">    plt.title('Δειγματικός μέσος: ' + str(mean))
+</span><span id="line-48">    plt.show()
+</span></code></pre></div>
+</div>
+<p>Εκτελώντας το παραπάνω script λογικά θα πάρουμε κάτι σαν κι αυτό εδώ:</p>
+<figure class="wp-image-6792 align-default" id="id8">
+<img alt="Χμμμ, άβολη οπτικοποίηση..." src="https://aftermaths.gr/_static/images/uploads/2021/04/fig_1.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Χμμμ, άβολη οπτικοποίηση…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id8"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Η αλήθεια είναι ότι είναι λίγο άκομψο αυτό που συνέβη εδώ από μεριάς οπτικοποίησης γιατί όλες οι μπλε κουκκίδες βρίσκονται κάτω εκτός από μία που έχει ανέβει αρκετά ψηλά - κάποιος έβγαλε πολλά λεφτά, μάλλον - με αποτέλεσμα να μην κεντράρει καλά το σχήμα μας. Επίσης, αυτός ο συνωστισμός εκεί στα χαμηλά εισοδήματα δε μας βοηθά να έχουμε και μία καλύτερη εικόνα για το δείγμα μας. Γι” αυτόν τον σκοπό, θα αλλάξουμε τος άξονές μας και, για την ακρίβεια, θα μετρήσουμε, όπως λέμε, <em>λογαριθμικά</em> στον κατακόρυφο άξονα. Αυτό σημαίνει ότι αντί η απόσταση μεταξύ δύο ισαπέχουσων γραμμών να είναι σταθερή και ίση όπως παραπάνω με 2000 ευρώ, η απόσταση ανάμεσα στην πρώτη και τη δεύτερη γραμμή θα είναι για παράδειγμα 1, ανάμεσα στη δεύτερη και την τρίτη θα είναι 10, έπειτα 100, έπειτα 1000 κ.ο.κ. Δηλαδή, αντί να προσθέτουμε σταθερά την ίδια μονάδα, <em>πολλαπλασιάζουμε</em> με την ίδια μονάδα - εδώ με το 10, αλλά μικρή σημασία έχει. Αυτό μπορούμε να το πετύχουμε τροποποιώντας τη συνάρτηση main ως εξής:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">if __name__ == '__main__':
+</span><span id="line-2">    games = 10000
+</span><span id="line-3">    n = 20
+</span><span id="line-4">    results = []
+</span><span id="line-5">    mean = 0
+</span><span id="line-6">    for i in range(games):
+</span><span id="line-7">        result = game(n, conservative)
+</span><span id="line-8">        results.append(result)
+</span><span id="line-9">        mean += result
+</span><span id="line-10">    mean /= games
+</span><span id="line-11">    plt.plot(results, 'bo')
+</span><span id="line-12">    plt.plot([0,games], [mean, mean], 'r-')
+</span><span id="line-13">    # plt.yscale('log')
+</span><span id="line-14">    plt.title('Δειγματικός μέσος: ' + str(mean))
+</span><span id="line-15">    plt.show()
+</span></code></pre></div>
+</div>
+<p>Ξανατρέχοντας τα πειράματα έχουμε το εξής αποτέλεσμα:</p>
+<figure class="wp-image-6798 align-default" id="id9">
+<img alt="Αρκετά καλύτερα!" src="https://aftermaths.gr/_static/images/uploads/2021/04/fig_2.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Αρκετά καλύτερα!</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Εδώ φαίνεται πιο ξεκάθαρα τι συμβαίνει. Παρατηρήστε πώς από το ένα πείραμα στο άλλο ο μέσος όρος έχει διαφοροποιηθεί ελαφρώς, χωρίς ωστόσο αυτό να είναι σημαντικό καθώς και στις δύο περιπτώσεις είναι κάπου κοντά στο 800.</p>
+<p>Ωραία, όλα δουλεύουν κανονικά, οπότε ευκαιρία να δοκιμάσουμε και με τα κανονικά μας νούμερα. Θα τρέξουμε το παραπάνω script με μία τράπουλα 52 φύλλων και θα κάνουμε 100000 αντί για 10000 πειράματα με τη συντηρητική στρατηγική μας. Τα αποτελέσματα φαίνονται στο ακόλουθο σχήμα:</p>
+<figure class="wp-image-6805 align-default" id="id10">
+<img alt="Εντάξει, πάλι στριμώχτηκαν οι παρατηρήσεις αλλά δεν μπορούμε να κάνουμε κάτι καλύτερο τώρα." src="https://aftermaths.gr/_static/images/uploads/2021/04/fig_3.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Εντάξει, πάλι στριμώχτηκαν οι παρατηρήσεις αλλά δεν μπορούμε να κάνουμε κάτι καλύτερο τώρα.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id10"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τώρα θα υλοποιήσουμε και τη δεύτερη στρατηγική μας, μέσω της ακόλουθης συνάρτησης:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">def aggressive(red, black, pot):
+</span><span id="line-2">    if red &gt; black:
+</span><span id="line-3">        return (0, 40)
+</span><span id="line-4">    elif red &lt; black:
+</span><span id="line-5">        return (1, 40)
+</span><span id="line-6">    return (1, 5)
+</span></code></pre></div>
+</div>
+<p>Τώρα, τρέχοντας το παραπάνω script καλώντας την aggressive αντί της conservative παίρνουμε το εξής γράφημα:</p>
+<figure class="wp-image-6808 align-default" id="id11">
+<img alt="Εδώ αρχίζει να έχει ενδιαφέρον..." src="https://aftermaths.gr/_static/images/uploads/2021/04/fig_4.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Εδώ αρχίζει να έχει ενδιαφέρον…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Εδώ έχουμε, μεν, μία μέση τιμή συγκρίσιμη με την προηγούμενη μέση τιμή, ωστόσο είναι και αρκετά μακριά για να αρχίσουμε να έχουμε αμφιβολίες. Όπως και να έχει, συνεχίζουμε και με την τρίτη στρατηγική μας και θα τα πούμε αναλυτικά σε λίγο όλα όσα προκύψουν. Γι” αυτήν έχουμε την ακόλουθη συνάρτηση που την υλοποιεί:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">def more_aggressive(red, black, pot):
+</span><span id="line-2">    if red &gt; black:
+</span><span id="line-3">        return (0, pot)
+</span><span id="line-4">    elif red &lt; black:
+</span><span id="line-5">        return (1, pot)
+</span><span id="line-6">    return (1, pot)
+</span></code></pre></div>
+</div>
+<p>Τώρα, με αυτήν έχουμε το ακόλουθο γράφημα:</p>
+<figure class="wp-image-6810 align-default" id="id12">
+<img alt="Ωραίααα..." src="https://aftermaths.gr/_static/images/uploads/2021/04/fig_5.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Ωραίααα…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id12"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Εδώ τώρα τα πράγματα περιπλέχτηκαν έτι περαιτέρω. Το τελευταίο γράφημα λέει ότι με την τελευταία άκρως επιθετική στρατηγική στην οποία ό,τι κι αν συμβεί εμείς ποντάρουμε όλη μας την περιουσία στο μαύρο δεν κερδίζουμε τίποτα. Ας πάρουμε μία βαθειά ανάσα κι ας ξανασκεφτούμε την παραπάνω στρατηγική. Πότε μπορούμε να κερδίσουμε με αυτήν τη στρατηγική; Μόνο σε μία περίπτωση: όταν έρχονται εναλλάξ κόκκιμα και μαύρα φύλλα. Σε κάθε άλλη περίπτωση που χάσουμε έστω και σε έναν γύρο χάνουμε αυτόματα όλη μας την περιουσία. Συνεπώς, για να ήταν το παραπάνω γράφημα κάτι παραπάνω από μία ευθεία γραμμή θα έπρεπε να είχαμε πετύχει αυτήν την μία στις περίπου 500 τρισεκατομμύρια περιπτώσεις να κερδίσουμε. Με 100000 δοκιμές που κάναμε είχαμε πιθανότητα περίπου μηδέν, όπως μάς πληροφορεί μία γνωστή μου αριθμομηχανή:</p>
+<figure class="wp-image-6814 align-default" id="id13">
+<img alt="Ξεπεράσαμε και την αριθμητική ακρίβεια ενός υπολογιστή." src="https://aftermaths.gr/_static/images/uploads/2021/04/image.png?w=764"/>
+<figcaption>
+<p><span class="caption-text">Ξεπεράσαμε και την αριθμητική ακρίβεια ενός υπολογιστή.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id13"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Ωστόσο, δεδομένου ότι σε μόνο μία περίπτωση έχουμε θετικό κέρδος, είναι εύκολο να υπολογίσουμε τη μέση τιμή και χωρίς ηλεκτρονικό υπολογιστή. Πράγματι, στο σενάριο που κερδίζουμε έρχονται διαρκώς εναλλάξ κόκκινα και μαύρα φύλλα και σε κάθε γύρο διπλασιάζουμε την περιουσία μας. Συνολικά, λοιπόν, έχουμε 52 διπλασιασμούς των αρχικών 100 ευρώ μας, δηλαδή:</p>
+<div class="math notranslate nohighlight">
+\[100\cdot2^{52}\approx4.503599627\times10^{17},\]</div>
+<p>ή, σε απλά ελληνικά, περίπου 450 τετράκις εκατομμύρια. Για να καταλάβουμε για τι μέγεθος μιλάμε ας αναλογιστούμε για μία στιγμή ότι η ηλικία της Γης μετρημένη σε δευτερόλεπτα είναι ίση με περίπου 145 τετράκις εκατομμύρια δευτερόλεπτα.</p>
+<p>Τώρα που αναλογιστήκαμε ότι με αρκετή τύχη μπορούμε να χρεώσουμε ένα καζίνο περισσότερο από όσο ρευστό έχει κυκλοφορήσει ποτέ στην αγορά από την εποχή του Κροίσου, ας συνεχίσουμε. Διαιρώντας το παραπάνω με το πλήθος των συνδυασμών που έχουμε στη διάθεσή μας και κάνοντας μία στρογγυλοποίηση στα 2 δεκαδικά ψηφία - μέχρι τα λεπτά του ευρώ, δηλαδή - έχουμε μία μέση τιμή της τάξης των 908.13 ευρώ, που συμφωνεί εκπληκτικά με την πρώτη μας συντηρητική στρατηγική - ποιος το περίμενε ότι μετά από τόσες περιστροφές θα καταλήγαμε εκεί.</p>
+<p>Συνεπώς, η κατά κάποιον τρόπο «προβληματική» στρατηγική φαίνεται να είναι η δεύτερη. Αρχικά, ας παρατηρήσουμε ότι οι παρατηρήσεις που είχαμε κάνει περί διασπορών φαίνεται να γενικεύονται ομαλά και στην κανονική τράπουλα των 52 φύλλων, καθώς οι τιμές που αντιστοιχούν στα κέρδη μας από τη δεύτερη στρατηγική φαίνονται κάπως πιο «συσπειρωμένες» σε σχέση με της πρώτης. Αλλά, σε ό,τι έχει να κάνει με τη μέση τιμή που μας απασχολεί, η αλήθεια είναι ότι δεν μπορούμε να καταλήξουμε σε συμπέρασμα. Από τη μία, θα μπορούσε η δεύτερη στρατηγική να είναι αυτή που διαφοροποιείται από τις άλλες δύο και έτσι να μη μας δίνουν όλες οι στρατηγικές τα ίδια αναμενόμενα κέρδη. Από την άλλη, θα μπορούσε η παραπάνω διαφοροποίηση να ερμηνεύεται και ως απλά μία αδυναμία ενός τόσο μικρού και τυχαία επιλεγμένου δείγματος να αποτυπώσει όλη την πολυπλοκότητα του προβλήματος. Σκεφτείτε ενδεικτικά ότι τα δείγματά μας περιέχουν  <span class="math notranslate nohighlight">\(10^5\)</span>  παρατηρήσεις ενώ ο συνολικός πληθυσμός μας είναι της τάξεως των εκατοντάδων τρισεκατομμυρίων, ήτοι  <span class="math notranslate nohighlight">\(10^{14}.\)</span>  Συνεπώς, ο πληθυσμός μας είναι περίπου ένα δισεκατομμύριο φορές μεγαλύτερος από το δείγμα μας, άρα είναι λογικό να μην μπορούμε να βγάλουμε και με ιδιαίτερη ασφάλεια πολλά συμπεράσματα. Για την ακρίβεια, θα ήταν σαν να προσπαθούσαμε να εκτιμήσουμε τη μέση ηλικία των ανθρώπων στον πλανήτη Γη - που είμαστε περίπου 7.5 δισεκατομμύρια - χρησιμοποιώντας τις ηλικίες 7 ανθρώπων.</p>
+</section>
+<section id="id5">
+<h2>Η ώρα του φορμαλισμού<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id5'"><span>#</span></a></h2>
+<p>Μετά από τόσα διαγράμματα και δοκιμές και έχοντας φτάσει σε ένα αδιέξοδο, ήρθε η ώρα να υπεισέλθει στη συζήτησή μας ο μαθηματικός φορμαλισμός. Η αλήθεια είναι ότι η παραπάνω πορεία είναι ενδεικτική του πώς συνηθίζουμε να αντιμετωπίζουμε ένα σχετικά περίπλοκο πρόβλημα. Αρχικά μελετούμε κάποιες απλές περιπτώσεις του, έπειτα προσπαθούμε να γενικεύσουμε - ή, καλύτερα, να εξετάσουμε αν γενικεύονται - τα συμπεράσματά μας και σε πιο περίπλοκες περιπτώσεις και, στο τέλος, αφού έχουμε αποκτήσει καλή διαίσθηση για αυτό, αρχίζουμε να ασχολούμαστε με το γενικό πρόβλημα.</p>
+<p>Στη συγκεκριμένη περίπτωση, βέβαια, η παραπάνω εμπειρική διερεύνηση μας έχει ελαφρώς μπερδέψει. Είναι ή δεν είναι ίδιες οι μέσες τιμές όλων των στρατηγικών - και, ειδικότερα, των τριών που έχουμε παρουσιάσει παραπάνω; Αν ναι, πώς μπορούμε να το αποδείξουμε; Αν όχι, υπάρχει ένα καλό αντιπαράδειγμα, δηλαδή δύο στρατηγικές που να δίνουν διαφορετικές μέσες τιμές σε ό,τι αφορά τα κέρδη μας παίζοντας με αυτές;</p>
+<p>Ας σκεφτούμε λίγο πώς μπορούμε να περιγράψουμε κάπως πιο αφηρημένα το παιχνίδι μας. Πρακτικά, αν στην τράπουλα μένουν  <span class="math notranslate nohighlight">\(r\)</span>  κόκκινα και  <span class="math notranslate nohighlight">\(b\)</span>  μαύρα χαρτιά τότε το ποσό που κερδίζουμε (ή χάνουμε) μπορεί να εκφραστεί ως το ποσοστό του κεφαλαίου μας θα ποντάρουμε. Συνεπώς, μπορούμε να σκεφτούμε ότι μία στρατηγική μας είναι μία συνάρτηση  <span class="math notranslate nohighlight">\(p:\{0,1,2,\ldots,26\}^2\to[-1,1]\)</span>  που μας δίνει αυτά τα ποσοστά για τις διάφορες τιμές των  <span class="math notranslate nohighlight">\(r,b.\)</span>  Για την ακρίβεια, το  <span class="math notranslate nohighlight">\(p(r,b)\)</span>  μπορούμε να το ταυτίσουμε με το ποντάρισμά μας σε ένα χρώμα, έστω το μαύρο, υπό την προϋπόθεση ότι αρνητικό ποντάρισμα ερμηνεύεται ως ποντάρισμα στο αντίθετο χρώμα - δηλαδή το κόκκινο. Άλλωστε, τα κέρδη μας είναι πάντοτε ίσα με τα πονταρίσματά μας κατ” απόλυτη τιμή, οπότε πρέπει απλά να είμαστε προσεκτικοί με τα πρόσημα που επιλέγουμε στην πορεία.</p>
+<p>Τώρα, αν  <span class="math notranslate nohighlight">\(E(r,b)\)</span>  είναι τα αναμενόμενα (μέσα) κέρδη μας ως ποσοστό επί του αρχικού μας κεφαλαίου αν απομένουν  <span class="math notranslate nohighlight">\(r,b\)</span>  κόκκινα και μαύρα χαρτιά αντίστοιχα τότε θα έχουμε την ακόλουθη αναδρομική σχέση:</p>
+<div class="math notranslate nohighlight">
+\[E(r,b)=\frac{b}{r+b}(1+p(r,b))E(r,b-1)+\frac{r}{r+b}(1-p(r,b))E(r-1,b).\]</div>
+<p>Ας εξηγήσουμε την παραπάνω σχέση με ένα παράδειγμα. Ας πούμε ότι ποντάρουμε σε κάποιον γύρο που υπάρχουν  <span class="math notranslate nohighlight">\(r\)</span>  κόκκινα και  <span class="math notranslate nohighlight">\(b\)</span>  μαύρα χαρτιά στην τράπουλα το 10% του ποσού που έχουμε στην άκρη εκείνη τη στιγμή στο κόκκινο, οπότε  <span class="math notranslate nohighlight">\(p(r,b)=-0.1\)</span>  αφού με αρνητικό ποντάρισμα εννοούμε το ποντάρισμα στο κόκκινο χρώμα. Έχουμε τώρα δύο ξένα μεταξύ τους ενδεχόμενα:</p>
+<ul class="simple">
+<li><p>Να τραβήξουμε ένα μαύρο φύλλο, οπότε και θα χάσουμε 10% της περιουσίας μας και άρα τα αναμενόμενα κέρδη μας ως ποσοστό επί του τρέχοντος κεφαλαίου μας θα είναι το 90% - δηλαδή το  <span class="math notranslate nohighlight">\(1+p(r,b)=1-0.1=0.9\)</span>  - των αναμενόμενων κερδών που έχουμε αν από την τράπουλά μας λείπει ένα μαύρο χαρτί (αυτό που τραβήξαμε) - δηλαδή  <span class="math notranslate nohighlight">\(E(r,b-1).\)</span>  Συνεπώς, σε αυτό το σενάριο έχουμε κέρδη  <span class="math notranslate nohighlight">\((1+p(r,b))E(r,b-1).\)</span>  Ωστόσο, αυτό δε συμβαίνει με βεβαιότητα αλλά με πιθανότητα  <span class="math notranslate nohighlight">\(\frac{b}{r+b},\)</span>  οπότε έτσι προκύπτει ο πρώτος όρος του αθροίσματος παραπάνω.</p></li>
+<li><p>Να τραβήξουμε ένα κόκκινο φύλλο, οπότε και θα χάσουμε 10% της περιουσίας μας και άρα τα αναμενόμενα κέρδη μας ως ποσοστό επί του τρέχοντος κεφαλαίου μας θα είναι το 110% - δηλαδή το  <span class="math notranslate nohighlight">\(1-p(r,b)=1-(-0.1)=1.1\)</span>  - των αναμενόμενων κερδών που έχουμε αν από την τράπουλά μας λείπει ένα κόκκινο χαρτί (αυτό που τραβήξαμε) - δηλαδή  <span class="math notranslate nohighlight">\(E(r-1,b).\)</span>  Συνεπώς, σε αυτό το σενάριο έχουμε κέρδη  <span class="math notranslate nohighlight">\((1-p(r,b))E(r-1,b).\)</span>  Ωστόσο, αυτό δε συμβαίνει με βεβαιότητα αλλά με πιθανότητα  <span class="math notranslate nohighlight">\(\frac{r}{r+b},\)</span>  οπότε έτσι προκύπτει ο δεύτερος όρος του αθροίσματος παραπάνω.</p></li>
+</ul>
+<p>Τέλος, επειδή τα δύο ενδεχόμενα είναι ξένα μπορούμε με ασφάλεια να αθροίσουμε τα παραπάνω.</p>
+<p>Είναι σαφές τώρα ότι όταν έχουμε ένα μόνο μαύρο φύλλο στην τράπουλά μας τότε θα ποντάρουμε το 100% του κεφαλαίου μας στο μαύρο - δηλαδή  <span class="math notranslate nohighlight">\(p(0,1)=1\)</span>  - όπως και αν έχουμε μόνο ένα κόκκινο φύλλο θα ποντάρουμε το 100% του κεφαλαίου μας στο κόκκινο - δηλαδή  <span class="math notranslate nohighlight">\(p(1,0)=-1.\)</span>  Υπολογιστικά μιλώντας, έχουμε πλήρως υπολογίσει τη μέση τιμή καθώς έχουμε μία αναδρομική σχέση και τις απαραίτητες και προφανείς αρχικές συνθήκες. Πράγματι, αρχικά,  <span class="math notranslate nohighlight">\(E(1,0)=2\)</span>  και  <span class="math notranslate nohighlight">\(E(0,1)=2\)</span>  αφού αν υπάρχει μόνο ένα χρώμα το μόνο λογικό σενάριο είναι να ποντάρουμε τα πάντα σε αυτό. Εύκολα επίσης βλέπουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[E(r,0)=2^r,\ E(0,b)=2^b,\]</div>
+<p>πάντοτε υπό την προϋπόθεση ότι παίζουμε λογικά και ποντάρουμε όλο μας το κεφάλαιο στα «σιγουράκια» - όταν, δηλαδή, έχει μείνει μόνο ένα χρώμα στην τράπουλα. Με αυτές τις αρχικές συνθήκες, την παραπάνω αναδρομική σχέση και αρκετή υπομονή μπορούμε να υπολογίσουμε «με το χέρι» κάθε τιμή της μέσης τιμής των κερδών μας για κάθε συνδυασμό  <span class="math notranslate nohighlight">\(r,b.\)</span></p>
+<p>Τώρα, αυτό που θέλουμε εμείς να εξετάσουμε είναι ποια είναι η στρατηγική που μας δίνει τα περισσότερα κέρδη. Για να το δούμε αυτό, ας ξαναθυμηθούμε την αναδρομή σχέση που έχουμε για τα αναμενόμενα κέρδη μας:</p>
+<div class="math notranslate nohighlight">
+\[E(r,b)=\frac{b}{r+b}(1+p(r,b))E(r,b-1)+\frac{r}{r+b}(1-p(r,b))E(r-1,b).\]</div>
+<p>Τα στατιστικά και οι δοκιμές που κάναμε παραπάνω μας έχουν βάλει σε υποψίες ως προς το αν έχει σημασία η στρατηγική που επιλέγουμε. Επομένως, έχει νόημα πρώτα να εξετάσουμε αν όντως υπάρχει στρατηγική που να δίνει διαφορετική μέση τιμή από τις υπόλοιπες ή αν όλες μας εγγυώνται τα ίδια (αναμενόμενα) κέρδη. Στην παραπάνω σχέση, αν ισχύει ότι  <span class="math notranslate nohighlight">\(bE(r,b-1)=rE(r-1,b)\)</span>  τότε παρατηρούμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}E(r,b)&amp;=\frac{b}{r+b}(1+p(r,b))E(r,b-1)+\frac{r}{r+b}(1-p(r,b))E(r-1,b)=\&amp;=\frac{b}{r+b}(1+p(r,b))E(r,b-1)+\frac{b}{r+b}(1-p(r,b))E(r,b-1)=\&amp;=2\frac{b}{r+b}E(r,b-1).\end{aligned}\]</div>
+<p>Δηλαδή, τα αναμενόμενα κέρδη μας δεν εξαρτώνται από το ποντάρισμά μας, άρα ούτε από τη στρατηγική μας. Επομένως, είναι λογικό να εστιάσουμε στο αν μπορούμε να ερμηνεύσουμε και να αποδείξουμε τη σχέση:</p>
+<div class="math notranslate nohighlight">
+\[rE(r-1,b)=bE(r,b-1)\Leftrightarrow\frac{E(r-1,b)}{E(r,b-1)}=\frac{b}{r}.\]</div>
+<p>Η παραπάνω σχέση, διαισθητικά, μας λέει ότι ο λόγος των αναμενόμενων κερδών μας αν τραβήξουμε κόκκινο χαρτί προς τα αναμενόμενα κέρδη μας αν τραβήξουμε μαύρο χαρτί είναι αντιστρόφως ανάλογος του λόγου των κόκκινων χαρτιών προς τα μαύρα. Με άλλα λόγια, ότι όσο περισσότερα είναι, για παράδειγμα, τα κόκκινα χαρτιά μέσα στην τράπουλα τόσο πιο πολλά αναμένουμε να κερδίσουμε στο τέλος αν τραβήξουμε μαύρο παρά κόκκινα. Αυτό ακούγεται λογικό καθώς όσο περισσότερα έχουμε από ένα χρώμα τόσο πιο αργά θα φτάσουμε στο σενάριο που θα έχουμε μόνο ένα χρώμα - καθώς είναι πιο πιθανό να τραβάμε χαρτιά από το χρώμα που κυριαρχεί και όχι από αυτό θα μας εξυπηρετούσε - και άρα τόσο πιο λίγους διπλασιασμούς θα πετύχουμε, οπότε τόσο λιγότερα αναμένουμε να κερδίσουμε σε σχέση με το να πετυχαίναμε περισσότερους σίγουρους διπλασιασμούς. Με άλλα λόγια, είναι σαν αυτή η βεβαιότητα για το παρόν ποντάρισμα να μας «κόβει» κέρδη από τα μελλοντικά πονταρίσματα.</p>
+<p>Ας εξετάσουμε τώρα αν η παραπάνω σχέση ισχύει για μικρές τιμές των  <span class="math notranslate nohighlight">\(r,b:\)</span></p>
+<ul class="simple">
+<li><p>Για  <span class="math notranslate nohighlight">\(r=b=1\)</span>  έχουμε σαφώς  <span class="math notranslate nohighlight">\(E(1,0)=E(0,1)\)</span>  που ισχύει.</p></li>
+<li><p>Για  <span class="math notranslate nohighlight">\(r=2,b=1\)</span>  έχουμε  <span class="math notranslate nohighlight">\(2E(1,1)=E(2,0)\Leftrightarrow 2E(1,1)=4\)</span>  και άρα  <span class="math notranslate nohighlight">\(E(1,1)=2\)</span>  που ισχύει αν κανείς αντικαταστήσει  <span class="math notranslate nohighlight">\(r=1,b=1\)</span>  στην αναδρομική μας σχέση.</p></li>
+<li><p>Αναλόγως, έχουμε και  <span class="math notranslate nohighlight">\(E(0,2)=2E(1,2)\)</span>  αφού  <span class="math notranslate nohighlight">\(E(1,1)=2\)</span>  όπως είπαμε παραπάνω.</p></li>
+<li><p>Για  <span class="math notranslate nohighlight">\(r=b=2\)</span>  παρατηρούμε ότι  <span class="math notranslate nohighlight">\(2E(1,2)=2E(2,1)\Leftrightarrow E(2,1)=E(1,2)\)</span>  που ισχύει λόγω της συμμετρίας του προβλήματος.</p></li>
+</ul>
+<p>Με παντελώς ανάλογο σκεπτικό μπορούμε να συνεχίσουμε και να αποδείξουμε την παραπάνω σχέση τελικά για κάθε ζευγάρι  <span class="math notranslate nohighlight">\(r,b,\)</span>  αξιοποιώντας όπως παραπάνω τη συμμετρία της  <span class="math notranslate nohighlight">\(E(r,b).\)</span>  Πιο αυστηρά, θα εργαστούμε με ισχυρή επαγωγή στο μέγεθος της τράπουλας  <span class="math notranslate nohighlight">\(r+b.\)</span>  Ας υποθέσουμε ότι έχουμε αποδείξει το ζητούμενο για κάθε τράπουλα μεγέθους  <span class="math notranslate nohighlight">\(r+b\)</span> <em>ή μικρότερου</em> για δεδομένα  <span class="math notranslate nohighlight">\(r,b\geq1\)</span>  και έστω ότι προσθέτουμε ένα ακόμα φύλλο. Υποθέτουμε ότι το φύλλο αυτό είναι κόκκινο - και μαύρο να είναι, λόγω της συμμετρίας του προβλήματος δε θα αλλάξει κάτιστα όσα θα πούμε -, οπότε η τράπουλά μας έχει  <span class="math notranslate nohighlight">\(r+1\)</span>  κόκκινα και  <span class="math notranslate nohighlight">\(b\)</span>  μαύρα φύλλα. Θέλουμε να αποδείξουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[(r+1)E(r,b)=bE(r+1,b-1).\]</div>
+<p>Από την αναδρομική σχέση για τη μέση τιμή παίρνουμε:</p>
+<div class="math notranslate nohighlight">
+\[E(r,b)=\frac{b}{r+b}(1+p(r,b))E(r,b-1)+\frac{r}{r+b}(1-p(r,b))E(r-1,b).\]</div>
+<p>Από την επαγωγική υπόθεση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[rE(r-1,b)=bE(r,b-1),\]</div>
+<p>οπότε η από πάνω σχέση γίνεται:</p>
+<div class="math notranslate nohighlight">
+\[E(r,b)=2\frac{b}{r+b}E(r,b-1).\]</div>
+<p>Αντίστοιχα, για το δεξί μέλος παίρνουμε:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}E(r+1,b-1)&amp;=\frac{b-1}{r+b}(1+p(r+1,b-1))E(r+1,b-2)+\&amp;\hphantom{=\ }+\frac{r+1}{r+b}(1-p(r+1,b-1))E(r,b-1).\end{aligned}\]</div>
+<p>Από την επαγωγική υπόθεση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[(b-1)E(r+1,b-2)=(r+1)E(r,b-1),\]</div>
+<p>οπότε, αντικαθιστώντας παραπάνω παίρνουμε:</p>
+<div class="math notranslate nohighlight">
+\[E(r+1,b-1)=2\frac{r+1}{r+b}E(r,b-1).\]</div>
+<p>Αντικαθιστώντας τα ευρήματά μας στη ζητούμενη σχέση παίρνουμε:</p>
+<div class="math notranslate nohighlight">
+\[2\frac{(r+1)b}{r+b}E(r,b-1)=2\frac{b(r+1)}{r+b}E(r,b-1),\]</div>
+<p>που ισχύει.</p>
+<p>Επομένως, αφού ισχύει η παραπάνω σχέση έπεται ότι τα αναμενόμενα κέρδη μας δεν εξαρτώνται από τη στρατηγική μας. Επίσης, χρησιμοποιώντας την αναδρομική σχέση και τη σχέση που αποδείξαμε παραπάνω μπορούμε να βρούμε ότι τα αναμενόμενα κέρδη μας είναι:</p>
+<div class="math notranslate nohighlight">
+\[E(r,b)=\frac{b!r!}{(r+b)!}2^{r+b}.\]</div>
+<p>Δηλαδή, μετά από τόσο κόπο δείξαμε ότι όπως και αν παίξουμε, αν παραμείνουμε λογικοί παίκτες, τότε μακροπρόθεσμα κερδίζουμε τα ίδια κατά μέσο όρο. Μάλιστα, για  <span class="math notranslate nohighlight">\(r=b=26\)</span>  και πολλαπλασιάζοντας το αποτέλεσμα που θα πάρουμε με ένα αρχικό κεφάλαιο 100€ παίρνουμε, όπως βρήκαμε και παραπάνω, αναμενόμενα κέρδη της τάξης των 908,13€. Όχι κι άσχημα, για παιχνίδι που δε χρειάζεται καν να το σκεφτούμε για να παίξουμε!</p>
+</section>
+<section id="id6">
+<h2>Ουφ!<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id6" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id6'"><span>#</span></a></h2>
+<p>Τα καταφέραμε! Αποδείξαμε ότι το να το πολυσκεφτόμαστε σε κάποιες περιπτώσεις δεν έχει και τόσο νόημα!</p>
+<p>Βασικά, για να λέμε και του στραβού το δίκιο, δεν αποδείξαμε ακριβώς αυτό - οπότε και αυτό δεν αποτελεί επιχείρημα υπέρ καμίας προχειρότητας σε μεγάλες αποφάσεις. Αρχικά, υποθέσαμε ότι όλες μας οι κινήσεις είναι λογικές, πράγμα που από μόνο του περιόρισε αισθητά τις στρατηγικές ανάμεσα στις οποίες είχαμε να διαλέξουμε. Επιπρόσθετα, δε θα μπορούσαμε παρά να παρατηρήσουμε ότι, ναι, πράγματι, όλες οι στρατηγικές που μας επιτρέπονται οδηγούν στην ίδια μέση τιμή, ωστόσο, όπως είδαμε ακόμα και σε πολύ απλές περιπτώσεις, οι στρατηγικές αυτές διαφέρουν απίστευτα πολύ ως προς την διασπορά τους. Αυτό, πρακτικά, έχει ως αποτέλεσμα για στρατηγικές σαν την τελευταία - τη τζογαδόρικη - να πρέπει να παίξουμε πάααρα πολλές φορές έτσι ώστε πράγματι να επιτύχουμε τέτοιο μέσο κέρδος - πάλι εδώ κρύβουμε τους νόμους των μεγάλων αριθμών. Επομένως, ναι μεν η στρατηγική με την οποία παίζουμε δεν παίζει ρόλο σε ό,τι έχει να κάνει με τα αναμενόμενα κέρδη μας, επηρεάζει ωστόσο το <em>πότε</em> και <em>πόσο εύκολα</em> μπορούμε να τα επιτύχουμε.</p>
+<p>Μέχρι την επόμενη φορά, καλό βράδυ!</p>
+<blockquote>
+<div><div class="video_wrapper" style="">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/ESbioodSaHQ" style="border: 0; height: 345px; width: 560px">
+</iframe></div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        Η Ομορφότερη Παράγωγος;
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">
+        Η σωστή ερώτηση…
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Ένα ενδιαφέρον παιχνίδι</a></li>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Μία μικρή απλοποίηση</a></li>
+<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Επιστροφή στο πλήρες πρόβλημα</a></li>
+<li><a :data-current="activeSection === '#id5'" class="reference internal" href="#id5">Η ώρα του φορμαλισμού</a></li>
+<li><a :data-current="activeSection === '#id6'" class="reference internal" href="#id6">Ουφ!</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

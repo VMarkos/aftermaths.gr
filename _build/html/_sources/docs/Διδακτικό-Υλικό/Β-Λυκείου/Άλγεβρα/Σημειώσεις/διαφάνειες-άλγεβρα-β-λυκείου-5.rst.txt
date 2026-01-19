@@ -1,0 +1,33 @@
+Διαφάνειες - Άλγεβρα Β' Λυκείου
+###############################
+
+.. meta::
+	:date: 2021-01-28 11:46
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: συστήματα, συναρτήσεις, σημειώσεις, τριγωνομετρία, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, διαφάνειες, θεωρία, λυμένα παραδείγματα, μαθηματικά
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-5
+	:status: published
+	:attachments: _static/images/uploads/2021/01/858px-vladimir-solovyov.jpg
+
+.. figure:: /_static/images/uploads/2021/01/858px-vladimir-solovyov.jpg
+	:alt: Το προτραίτο του Vladimir Solovyov του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+	:align: center
+
+	Το προτραίτο του Vladimir Solovyov του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+
+
+Διαφάνειες θεωρίας με λυμένα παραδείγματα και ασκήσεις στην ύλης της άλγεβρας της Β' Λυκείου. Ειδικότερα, οι διαφάνειες καλύπτουν την ύλη των ενοτήτων των συστημάτων, των συναρτήσεων και της τριγωνομετρίας μέχρι και την επίλυση τριγωνομετρικών εξισώσεων.
+
+Τις `διαφάνειες για την καραντίνα  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/διαφάνειες-για-την-καραντίνα-γ-λυκείο.rst>`__ μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1aV6-z0_D-Yol-sLQ0_iB7A7icT99MXXH/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+
+
+
+   .. youtube:: XXKh50tgnGw 
+
+

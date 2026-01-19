@@ -1,0 +1,26 @@
+Ασκήσεις με δυνάμεις του 10
+###########################
+
+.. meta::
+	:date: 2019-10-22 20:04
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: 10, προβλήματα, Α' Γυμνασίου, ασκήσεις, δυνάμεις, επανάληψη
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b5-%ce%b4%cf%85%ce%bd%ce%ac%ce%bc%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-10
+	:status: published
+	:attachments: _static/images/uploads/2019/10/old_guitarist_chicago.jpg
+
+.. figure:: /_static/images/uploads/2019/10/old_guitarist_chicago.jpg
+	:alt: Ο πίνακας *Γέρος κιθαρίστας* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Γέρος κιθαρίστας* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+
+
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/12AESSLl2GMxy9ocbwDjaAquudfkCQ0qP/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+.. youtube:: FwF0WvcEKOw 

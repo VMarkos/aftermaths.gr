@@ -1,0 +1,28 @@
+Ασκήσεις στις ανισώσεις δευτέρου βαθμού (και όχι μόνο)
+######################################################
+
+.. meta::
+	:date: 2018-09-16 15:14
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, ασκήσεις, ανισώσεις, δευτεροβάθμιες
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%ce%bd%ce%b9%cf%83%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%b4%ce%b5%cf%85%cf%84%ce%ad%cf%81%ce%bf%cf%85-%ce%b2%ce%b1%ce%b8
+	:status: published
+	:attachments: _static/images/uploads/2018/09/300px-sky_and_water_i.jpg
+
+.. figure:: /_static/images/uploads/2018/09/300px-sky_and_water_i.jpg
+	:alt: Η ξυλογραφία `Ουρανός και Θάλασσα Ι  <https://en.wikipedia.org/wiki/Sky_and_Water_I>`__\ *,* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	:align: center
+
+	Η ξυλογραφία `Ουρανός και Θάλασσα Ι  <https://en.wikipedia.org/wiki/Sky_and_Water_I>`__\ *,* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+
+
+Σε αυτό το φυλλάδιο περιέχονται ασκήσεις σχετικές με τις ανισώσεις δευτέρου βαθμού, είτε άμεσα (1 και 4) είτε έμμεσα (2, 3 και 5), ενώ η τελευταία άσκηση έχει ως κύριο στόχο να ωθήσει τους μαθητές στην αναγνώριση ενός μοτίβου στον τρόπο απόδειξης των ζητουμένων, βασιζόμενοι στα προηγούμενα. Με άλλα λόγια, επιχειρείται μία εισαγωγή των μαθητών στην *μαθηματική επαγωγή.*
+
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1lyoy6B60QYAmb2x5Z0zEIi0Tkh_Upqtz/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. youtube:: 3iW7014VGpI 

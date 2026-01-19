@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2021-09-19 09:15" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Μαθηματικά" name="category"/>
+<meta content="featured, άλγεβρα" name="tags"/>
+<meta content="%ce%b7-%cf%85%cf%80%ce%b5%cf%81%ce%b2%ce%b1%cf%84%ce%b9%ce%ba%cf%8c%cf%84%ce%b7%cf%84%ce%b1-%cf%84%ce%bf%cf%85-%cf%80" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2021/09/d09bd0b5d0bed0bdd0b8d0b4_d09e._d09fd0b0d181d182d0b5d180d0bdd0b0d0ba_-_d090d0bbd0b5d0bad181d0b0d0bdd0b4d180_d09fd183d188d0bad0b8d0bd_d0bdd0b0_d0b1d0b5d180d0b5d0b3d183_d0bcd0bed180d18f_189.jpg" name="attachments"/>
+<title>Η υπερβατικότητα του π | aftermaths</title>
+<meta content="Η υπερβατικότητα του π | aftermaths" property="og:title"/>
+<meta content="Η υπερβατικότητα του π | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html" rel="next" title="Και οι 7 Είναι Υπέροχες!"/>
+<link href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html" rel="prev" title="Η σωστή ερώτηση…"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Η υπερβατικότητα του π</span>
+</nav>
+<div id="content" role="main">
+<section id="id1">
+<h1>Η υπερβατικότητα του π<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+<figure class="align-center" id="id27">
+<img alt="Ο πίνακας *Ο Αλεξάντερ Πούσκιν στην ακροθαλασσιά* του `Leonid Pasternak  &lt;https://en.wikipedia.org/wiki/Leonid_Pasternak&gt;`__\ *.*" src="_static/images/uploads/2021/09/d09bd0b5d0bed0bdd0b8d0b4_d09e._d09fd0b0d181d182d0b5d180d0bdd0b0d0ba_-_d090d0bbd0b5d0bad181d0b0d0bdd0b4d180_d09fd183d188d0bad0b8d0bd_d0bdd0b0_d0b1d0b5d180d0b5d0b3d183_d0bcd0bed180d18f_189.jpg"/>
+<figcaption>
+<p><span class="caption-text">Ο πίνακας <em>Ο Αλεξάντερ Πούσκιν στην ακροθαλασσιά</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Leonid_Pasternak">Leonid Pasternak</a><em>.</em></span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id27"><span>#</span></a></p>
+</figcaption>
+</figure>
+<section id="id2">
+<h2>Εισαγωγή<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>Έχουμε δει στο παρελθόν ότι ο γνωστός και μη εξαιρετέος αριθμός  <span class="math notranslate nohighlight">\(\pi\)</span>  είναι άρρητος - δείτε <a class="reference external" href="docs/After-maths/το-ημίτονο-οι-άρρητοι-και-οι-πιο-άρρητ.rst">εδώ</a> για περισσότερες λεπτομέρειες. Έχουμε δει επίσης ότι κι ένας άλλος αριθμός, εξίσου διάσημος, ο  <span class="math notranslate nohighlight">\(e,\)</span>  είναι κι αυτός άρρητος. Ακόμα παραπέρα, ο περιβόητος  <span class="math notranslate nohighlight">\(e\)</span>  δεν είναι ένας όποιος κι όποιος άρρητος, αλλά ένας <em>υπερβατικός αριθμός</em> - λεπτομέρειες της απόδειξης μπορείτε να βρείτε <a class="reference external" href="docs/After-maths/υπeρβάσεις.rst">εδώ</a>. Κι επειδή δεν είμαστε εγκυκλοπαίδειες για θυμόμαστε απ” έξω τι είναι ένας υπερβατικός αριθμός, ας θυμηθούμε τον ορισμό:</p>
+<p>Ένας πραγματικός αριθμός θα λέμε ότι είναι <em>υπερβατικός</em> αν <strong>δεν</strong> είναι ρίζα κανενός πολυωνύμου με ακέραιους συντελεστές.</p>
+<p>Με άλλα λόγια, ένας αριθμός  <span class="math notranslate nohighlight">\(x\)</span>  είναι υπερβατικός αν όσο κι αν προσπαθήσουμε, δεν μπορέσουμε να βρούμε ένα πολυώνυμο με ακέραιους συντελεστές έτσι ώστε να είναι ρίζα του. Σαφώς, αυτό σημαίνει ότι κάθε υπερβατικός αριθμός είναι άρρητος - διότι κάθε ρητός αριθμός είναι ρίζα ενός πρωτοβάθμιου πολυωνύμου με ακέραιους συντελεστές. Επομένως, οι υπερβατικοί είναι, θα έλεγε κανείς, μία κατηγορία αρρήτων με έντονο ταπεραμέντο - αν και αυτό, <a class="reference external" href="docs/After-maths/πόσο-άρρητος-είσαι.rst">δεν είναι ακριβώς έτσι</a>, κατ” ανάγκη.</p>
+<p>Όπως μαρτυρά κι ο τίτλος, θα ασχοληθούμε εδώ με την υπερβατικότητα του  <span class="math notranslate nohighlight">\(\pi\)</span>  και θα δείξουμε ότι είναι κι αυτός σαν τον ξάδερφό του τον  <span class="math notranslate nohighlight">\(e.\)</span></p>
+</section>
+<section id="id3">
+<h2>Μία μεγάλη απόδειξη…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<p>…κι ένα μεγάλο δίλημμα. Ν-λημμα, για την ακρίβεια, θα έλεγε κανείς, αφού έχουμε πάνω από δύο επιλογές στη διάθεσή μας - κακό μαθηματικό χιούμορ. Υπάρχουν πολλές αποδείξεις για την υπερβατικότητα του  <span class="math notranslate nohighlight">\(\pi\)</span>  ωστόσο όλες τους είναι τεράστιες. Δεν είναι, βέβαια, ότι μας τρομάζουν οι μεγάλες αποδείξεις - άλλωστε, αυτή είναι η δουλειά ενός μαθηματικού - αλλά, οι περισσότερες αποδείξεις που κυκλοφορούν ελεύθερες εκεί έξω είναι τόσο μεγάλες που δεν μπορεί κανείς εύκολα να συγκρατήσει τις βασικές τους ιδέες.</p>
+<p>Η παραδοσιακή απόδειξη της υπερβατικότητας του  <span class="math notranslate nohighlight">\(\pi\)</span>  βασίζεται στο θεώρημα των <a class="reference external" href="https://en.wikipedia.org/wiki/Lindemann%E2%80%93Weierstrass_theorem">Weierstrass-Lindemann</a> και είναι αρκετά απλή - δεδομένου του θεωρήματος. Ωστόσο, όλο το ζουμί της απόδειξης και της διαίσθησης βρίσκεται, σαφώς, στην απόδειξη του ίδιου του θεωρήματος - που, όπως φαντάζεστε, δεν είναι εύκολη υπόθεση. Επίσης, το εν λόγω θεώρημα αποδεικνύει κάτι πολύ γενικότερο από αυτό που εμείς θέλουμε να αποδείξουμε, οπότε θα μας ανάγκαζε να κολυμπήσουμε σε πολύ πιο βαθιά νερά από αυτά που αυτή τη στιγμή θέλουμε.</p>
+<p>Μία άλλη μέθοδος με την οποία μπορούμε να προσεγγίσουμε το πρόβλημά μας είναι να χρησιμοποιήσουμε  <span class="math notranslate nohighlight">\(p-\)</span> αδικούς αριθμούς. Συνοπτικά, εκτός από τη συνήθη δεκαδική αναπαράσταση ενός ρητού αριθμού, μπορούμε να χρησιμοποιήσουμε - λίγο πιο περίτεχνα - και άλλες βάσεις αρίθμησης - απλά, όχι με τον τρόπο που φαντάζεστε. Ας πάρουμε, για παράδειγμα, τον ρητό αριθμό  <span class="math notranslate nohighlight">\(\dfrac{1}{5}\)</span>  και ας θεωρήσουμε τον πρώτο αριθμό  <span class="math notranslate nohighlight">\(p=7\)</span>  - η σημασία του να είναι πρώτος ο  <span class="math notranslate nohighlight">\(p\)</span>  θα φανεί παρακάτω. Το  <span class="math notranslate nohighlight">\(\dfrac{1}{5}\)</span>  μπορούμε να το γράψουμε στο δεκαδικό σύστημα ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[\frac{1}{5}=\frac{2}{10}=2\cdot\frac{1}{10}+0\frac{1}{100}+0\frac{1}{1000}+\dots.\]</div>
+<p>Γενικά, κάθε αριθμός μπορεί να γραφεί στο δεκαδικό σύστημα στη μορφή:</p>
+<div class="math notranslate nohighlight">
+\[\sum_{k=0}^NA_k10^k+\sum_{k=1}^\infty a_k10^{-k},\ A_k,a_k\in\{0,1,\ldots,9\}.\]</div>
+<p>Ανάλογα, κάθε αριθμός μπορεί να γραφεί και στη μορφή:</p>
+<div class="math notranslate nohighlight">
+\[\sum_{k=0}^NA_kp^k+\sum_{k=1}^\infty a_kp^{-k},\ A_k,a_k\in\{0,1,\ldots,p-1\},\]</div>
+<p>όπου  <span class="math notranslate nohighlight">\(p\)</span>  είναι κάποιος πρώτος αριθμός. Η αλήθεια είναι ότι η μοναδικότητα του παραπάνω αναπτύγματος χρειάζεται μία εξήγηση, όπως επίσης και το γεγονός ότι στην παραπάνω περίπτωση δεν έχουμε την ίδια έννοια σύγκλισης που έχουμε και στους πραγματικούς αριθμούς - αντιθέτως, χρησιμοποιούμε μία άλλη έννοια απόλυτης τιμής για να μιλήσουμε για την παραπάνω σειρά. Όλα αυτά, μαζί με το γεγονός ότι η απόδειξη που βασίζεται σε τέτοιου είδους αριθμούς, ε, δεν είναι και ιδιαίτερα μικρή και χαριτωμένη, μας αποθαρρύνει και από αυτήν την κατεύθυνση.</p>
+<p>Τέλος, μία άλλη γραμμή από την οποία μπορούμε να επιτεθούμε στο πρόβλημά μας είναι αυτή που περνάει από τα χωράφια των μιγαδικών αριθμών. Η αλήθεια είναι ότι κι εδώ πρέπει να εξηγήσουμε κάποια πράγματα - όπως, αρχικά, τι είναι οι μιγαδικοί αριθμοί - αλλά, σε αντίθεση με τις προηγούμενες αποδείξεις, έχουμε δύο σημαντικά πλεονεκτήματα:</p>
+<ol class="arabic simple">
+<li><p>Δεν είναι τόσο πολύπλοκες οι έννοιες που απαιτείται να εξηγήσουμε.</p></li>
+<li><p>Δεν είναι τόσο πολύπλοκες οι πράξεις που πρέπει να κάνουμε.</p></li>
+</ol>
+<p>Σε διδακτικό επίπεδο, οι αποδείξεις που από το πουθενά εμφανίζουν μιγαδικούς αριθμούς πάντοτε μου άρεσαν, γιατί αναδεικνύουν πόσο χρήσιμο εργαλείο είναι οι μιγαδικοί αριθμοί. Για την ακρίβεια, δρουν, κατά κάποιον τρόπο, σαν καταλύτης σε πολλές αποδείξεις και τις κάνουν συντομότερες και κομψότερες - μη γελιέστε, πάλι με ολοκληρώματα θα μπλέξουμε, απλά θα είναι κάπως πιο μικρά.</p>
+<p>Ένα ακόμα στοιχείο που μας ωθεί προς τα χωράφια των μιγαδικών είναι οι έννοιες που έχουμε να χειριστούμε. Θέλουμε, όπως είπαμε, να αποδείξουμε ότι ο  <span class="math notranslate nohighlight">\(\pi\)</span>  δεν είναι αλγεβρικός. Με άλλα λόγια, θέλουμε να αποδείξουμε ότι δεν είναι ρίζα ενός πολυωνύμου με ακεραίους συντελεστές. Ε, αφού μπλεκόμαστε με πολυώνυμα και ρίζες, γιατί να μην βάλουμε και τους μιγαδικούς αριθμούς στο παιχνίδι; Άλλωστε, στο σύμπαν των μιγαδικών αριθμών, όλα τα πολυώνυμα έχουν ρίζες, άρα πολλά πράγματα αναμένουμε να είναι πιο εύκολα.</p>
+<p>Επομένως, προτού δούμε την απόδειξή μας, ας δούμε κάποια πράγματα για τους μιγαδικούς αριθμούς και τα πολυώνυμα.</p>
+</section>
+<section id="id4">
+<h2>Τι είναι οι Μιγαδικοί Αριθμοί;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h2>
+<div class="line-block">
+<div class="line">Αριθμοί - κυνική απάντηση.</div>
+<div class="line">Ενδιαφέροντες - ενθουσιώδης απάντηση.</div>
+<div class="line">Περίπλοκοι - πεσιμιστική απάντηση.</div>
+</div>
+<p>Μπορούμε να συνεχίσουμε έτσι για ώρες, αλλά ας περάσουμε στο ζουμί της υπόθεσης. Ιστορικά οι μιγαδικοί γεννιούνται με έναν περίπλοκο τρόπο που περνάει μέσα από πολυώνυμα τρίτου βαθμού, μαθηματικές μονομαχίες μεταξύ καθηγητών (και μη) πανεπιστημίων και πολλές περιπέτειες. Ωστόσο, όλα αυτά - αν και αρκετά spicy - μπορούν να συνοψιστούν στην ακόλουθη ερώτηση:</p>
+<p>Γιατί να μην έχει λύση η εξίσωση  :math:<a href="#id5"><span class="problematic" id="id6">`</span></a>x^2+1=0; `</p>
+<p>Χαζή ερώτηση, θα έλεγε κανείς, βιαστικά. Μα, γιατί προφανώς ισχύει ότι  <span class="math notranslate nohighlight">\(x^2\geq0,\)</span>  είναι η πρώτη απάντηση που έρχεται στο μυαλό. «Ναι, αλλά γιατί ισχύει ότι  <span class="math notranslate nohighlight">\(x^2\geq0;\)</span> », θα έλεγε κανείς, αν ήθελε να κάνει τον δικηγόρο του διαβόλου.</p>
+<p>Χμμμ…</p>
+<p>Αν το καλοσκεφτούμε, η ιδιότητα  <span class="math notranslate nohighlight">\(x^2\geq0\)</span>  έπεται από τον τρόπο που σχετίζεται ο πολλαπλασιασμός μεταξύ πραγματικών αριθμών με τη σχέση διάταξης που έχουμε ορίσει στο  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>  - μπορείτε να θυμηθείτε από <a class="reference external" href="docs/After-maths/τα-πολλά-πρόσωπα-του-αξιώματος-της-π.rst">εδώ</a> τα βασικά αξιώματα των πραγματικών αριθμών. Για την ακρίβεια, το ότι  <span class="math notranslate nohighlight">\(x^2\geq0\)</span>  είναι άμεσο πόρισμα του πολύ ισχυρότερου συμπεράσματος ότι το γινόμενο δύο <em>ομόσημων</em> πραγματικών αριθμών είναι <em>θετικό</em>. Το τελευταίο, αποδεικνύεται χρησιμοποιώντας τόσο κάποια από τα αλγεβρικά αξιώματα των πραγματικών αριθμών όσο και τα αξιώματα της διάταξης.</p>
+<p>Όλα αυτά, αν κάνουμε ένα βήμα πίσω, μας οδηγούν στο εξής συμπέρασμα:</p>
+<p>Το επιχείρημα «Επειδή  :math:<a href="#id7"><span class="problematic" id="id8">`</span></a>x^2geq0  `  η εξίσωση  :math:<a href="#id9"><span class="problematic" id="id10">`</span></a>x^2+1=0  `  δεν έχει πραγματικές λύσεις» δεν έχει αμιγώς αλγεβρικό χαρακτήρα.</p>
+<p>Πράγματι, όπως είδαμε παραπάνω - και όπως φαίνεται και από το ίδιο το επιχείρημα, άλλωστε - επικαλούμαστε μία «εξω-αλγεβρική» ιδιότητα των πραγματικών αριθμών, που έχει να κάνει με τη διάταξή τους και όχι μόνο με το πώς ορίζονται και σχετίζονται οι πράξεις μεταξύ τους. Ωστόσο, οι πολυωνυμικές εξισώσεις δεν έχουν, από τη φύση τους, καμία σχέση με όποια σχέση διάταξης, καθώς είναι αμιγώς αλγεβρικά αντικείμενα.</p>
+<p>Επομένως, επιστρέφουμε με λίγες παραπάνω σκέψεις στην όχι και τόσο χαζή τελικά ερώτηση που διατυπώσαμε αρχικά - προσθέτοντας μία διευκρίνιση:</p>
+<p>Γιατί να μην έχει λύση η εξίσωση  :math:<a href="#id11"><span class="problematic" id="id12">`</span></a>x^2+1=0; `  - δεκτά γίνονται μόνο αλγεβρικά επιχειρήματα.</p>
+<p>Με την παραπάνω διευκρίνιση, είναι σαφές ότι δεν μπορούμε να δώσουμε πειστική απάντηση. Όσο κι αν το προσπαθήσουμε, η ύπαρξη λύσης της παραπάνω εξίσωσης - όχι, σαφώς, πραγματικής - δεν παραβιάζει καμία αλγεβρική νομιμότητα. Μόνο αν βάλουμε στο παιχνίδι και την έννοια της συνήθους διάταξης των πραγματικών αριθμών μπορούμε να πούμε ότι έχουμε πρόβλημα. Αλλά, αυτό απλά σημαίνει ότι, εντάξει, τι να κάνουμε, δε θα είναι πραγματικός αριθμός η λύση της εξίσωσης αυτής.</p>
+<p>Ας ονομάσουμε, λοιπόν, μία λύση αυτής της εξίσωσης  <span class="math notranslate nohighlight">\(i.\)</span>  Τότε, θα έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[i^2+1=0\Leftrightarrow i^2=-1.\]</div>
+<p>Τώρα, όπως είπαμε και παραπάνω, το  <span class="math notranslate nohighlight">\(i\)</span>  δε θα είναι ένας πραγματικός αριθμός, άρα το σύνολο  <span class="math notranslate nohighlight">\(C=\mathbb{R}\cup\{i\}\)</span>  δε θα είναι το σύνολο των πραγματικών αριθμών. Αντιθέτως, θα είναι ένα γνήσιο υπερσύνολό τους. Ας παρατηρήσουμε, επίσης, ότι το εν λόγω  <span class="math notranslate nohighlight">\(i\)</span>  που «δημιουργήσαμε» παραπάνω, μπορούμε να το χρησιμοποιήσουμε σε διάφορες πράξεις με άλλους πραγματικούς αριθμούς, καθώς, όπως είπαμε - ίσως λίγο χαλαρά - είναι μία αλγεβρική οντότητα και άρα μπορεί να «συναναστραφεί» με τους υπόλοιπους πραγματικούς αριθμούς. Έτσι, μπορούμε να μιλήσουμε για πράγματα όπως τα ακόλουθα:</p>
+<div class="math notranslate nohighlight">
+\[1+i,\ 2-3i,\ 3\sqrt{2}-5i^3.\]</div>
+<p>Σαφώς, μπορούμε και με τους παραπάνω αριθμούς που μόλις αναφέραμε να κάνουμε πράξεις κ.ο.κ. καθώς κι αυτοί με τη σειρά τους είναι απλές αλγεβρικές οντότητες. Μπορούμε, έτσι, να ορίσουμε το σύνολο  <span class="math notranslate nohighlight">\(\mathbb{C}\)</span>  που θα αποτελείται από όλα τα γινόμενα, αθροίσματα, διαφορές, πηλίκα κ.λπ. όλων των στοιχείων του συνόλου  <span class="math notranslate nohighlight">\(C\)</span>  μεταξύ τους (όσες φορές θέλουμε). Αυτό το σύνολο θα το ονομάζουμε το <em>σύνολο των μιγαδικών αριθμών</em> και θα αποτελέσει ένα πολύ χρήσιμο εργαλείο στην πορεία.</p>
+<p>Όμως, πώς μοιάζουν οι μιγαδικοί αριθμοί; Αρχικά, να πούμε ότι, όπως ίσως φαντάζεστε, δεν μπορούμε να ορίσουμε κάποια «κομψή» σχέση διάταξης στους μιγαδικούς αριθμούς η οποία να επεκτείνει τη σχέση διάταξης που έχουμε στους πραγματικούς αριθμούς. Αλλά, στο τέλος της ημέρας, δε θα μας χρειαστεί για όσα θα πούμε παρακάτω, οπότε, σιγά τ” αυγά. Ένα άλλο σημαντικό στοιχείο που αφορά τους μιγαδικούς και θα είναι χρήσιμο είναι ότι κάθε μιγαδικός αριθμός μπορεί, εν τέλει, να γραφτεί στην ακόλουθη πολύ απλή μορφή:</p>
+<div class="math notranslate nohighlight">
+\[x+iy,\ x,y\in\mathbb{R}.\]</div>
+<p>Τόσο απλά. Το  <span class="math notranslate nohighlight">\(x\)</span>  θα το λέμε το <em>πραγματικό μέρος</em> του αριθμού  <span class="math notranslate nohighlight">\(x+iy\)</span>  και το  <span class="math notranslate nohighlight">\(y\)</span>  το <em>φανταστικό μέρος</em> του - δε θα μπούμε σε λεπτομέρειες για το πώς αυτό μπορεί να αποδειχθεί αυτήν τη στιγμή εδώ, ίσως στο μέλλον. Επίσης, ένα κομβικής σημασίας αποτέλεσμα που ισχύει για πολυώνυμα με μιγαδικούς συντελεστές και μεταβλητές και θα χρειαστούμε παρακάτω είναι το λεγόμενο <em>Θεμελιώδες Θεώρημα της Άλγεβρας</em>, το οποίο μας λέει το εξής:</p>
+<p>Αν  :math:<a href="#id13"><span class="problematic" id="id14">`</span></a>p(x)  `  είναι ένα πολυώνυμο βαθμού  :math:<a href="#id15"><span class="problematic" id="id16">`</span></a>n=1,2,ldots  `  με μιγαδικούς συντελεστές, τότε μπορεί να γραφεί στη μορφή  :math:<a href="#id17"><span class="problematic" id="id18">`</span></a>p(x)=a(x-r_1)(x-r_2)dots(x-r_n),  `  όπου  :math:<a href="#id19"><span class="problematic" id="id20">`</span></a>a,r_1,r_2,ldots,r_n  `  είναι μιγαδικοί αριθμοί - όχι, κατ” ανάγκη διακεκριμένοι μεταξύ τους.</p>
+<p>Ωραίο αυτό, είναι η αλήθεια, καθώς το παραπάνω θεώρημα μας δίνει έναν ωραίο καθολικό τρόπο να γράφουμε κάθε πολυώνυμο με μιγαδικούς συντελεστές - σαφώς, δε γίνεται καμία αναφορά στο <em>ποιες</em> είναι αυτές οι ρίζες, αλλά ούτε αυτό θα μας πολυαπασχολήσει στα επόμενα.</p>
+<p>Επίσης, να πούμε ότι για κάθε μιγαδικό αριθμό μπορούμε να ορίσουμε και μία απόλυτη τιμή, απλώς όχι με τον τρόπο που το κάνουμε για τους πραγματικούς. Για την ακρίβεια, αν  <span class="math notranslate nohighlight">\(x+iy\)</span>  είναι ένας μιγαδικός αριθμός, τότε η απόλυτη τιμή του ορίζεται να είναι η ακόλουθη παράσταση:</p>
+<div class="math notranslate nohighlight">
+\[\|x+iy|=\sqrt{x^2+y^2}.\]</div>
+<p>Μπορούμε να αποδείξουμε ότι η παραπάνω ποσότητα συμπεριφέρεται στις πράξεις με τον ίδιο τρόπο που συμπεριφέρεται και η απόλυτη τιμή των πραγματικών αριθμών, επομένως μπορούμε άφοβα να εφαρμόζουμε όλες τις παραδοσιακές ιδιότητες της απόλυτης τιμής - και, ειδικότερα, την τριγωνική ανισότητα.</p>
+<p>Έχοντας, τώρα, τα βασικά μας εφόδια για τους μιγαδικούς αριθμούς, μπορούμε να προχωρήσουμε κάποια βήματα πιο κοντά στην απόδειξή μας.</p>
+</section>
+<section id="id21">
+<h2>Συμμετρικά πολυώνυμα<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id21" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id21'"><span>#</span></a></h2>
+<p>Χα, την πατήσατε! Έχουμε ακόμα μία έννοια που πρέπει να παρουσιάσουμε πριν παρουσιάσουμε την απόδειξή μας. Το επόμενο μαθηματικό ον που θα χρειαστούμε είναι τα <em>συμμετρικά πολυώνυμα</em>. Γενικά, η έννοια του πολυωνύμου μας είναι γνωστή από το σχολείο - από το γυμνάσιο, κιόλας. Αυτό που ίσως δεν έχουμε συνηθίσει να βλέπουμε στο σχολείο είναι πολυώνυμα πολλών μεταβλητών. Ένα τέτοιο πολυώνυμο είναι, όπως ίσως φαντάζεστε, ένα πολυώνυμο που δεν έχει μόνο μία μεταβλητή, αλλά περισσότερες - πεπερασμένες στο πλήθος, σαφώς. Για παράδειγμα, το παρακάτω είναι ένα πολυώνυμο τριών μεταβλητών:</p>
+<div class="math notranslate nohighlight">
+\[p(x_1,x_2,x_3)=2x_1x_2^2+4x_2^3x_3-\sqrt{2}x_1x_2^2x_3^7.\]</div>
+<p>Επιλέξαμε να βάλουμε δείκτες στις μεταβλητές αντί να χρησιμοποιήσουμε διαφορετικά γράμματα κυρίως γιατί θα μας διευκολύνει παρακάτω. Όπως θα θυμάστε, στο σχολείο συνηθίζαμε τα πολυώνυμα να τα γράφουμε ξεκινώντας με το μονώνυμο μεγαλύτερου βαθμού και παραθέτοντας τα υπόλοιπα με φθίνουσα σειρά - ως προς τον βαθμό τους. Εδώ, όμως, έχουμε πολλές μεταβλητές και άρα δεν είναι τόσο εύκολο να καταλήξουμε στο ποιο μονώνυμο «προηγείται». Ένας απλός τρόπος να το διευθετήσουμε αυτό είναι να θυγατροθετήσουμε μία <em>λεξικογραφική</em> προσέγγιση. Θα παραθέτουμε τους όρους σε ένα πολυώνυμο πολλών μεταβλητών έτσι ώστε πρώτα να βρίσκεται το μονώνυμο με τον μεγαλύτερο βαθμό ως προς  <span class="math notranslate nohighlight">\(x_1\)</span>  και, σε περίπτωση που υπάρχουν περισσότερα του ενός, θα προηγείται αυτό που έχει τον μεγαλύτερο βαθμό της μεταβλητής  <span class="math notranslate nohighlight">\(x_2.\)</span>  Αν και πάλι έχουμε περισσότερα από ένα τέτοια μονώνυμα, θα εξετάζουμε τη μεταβλητή  <span class="math notranslate nohighlight">\(x_3\)</span>  κ.ο.κ. Έτσι, το παραπάνω πολυώνυμο γράφεται λεξικογραφικά ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[p(x_1,x_2,x_3)=-\sqrt{2}x_1x_2^2x_3^7+2x_1x_2^2+4x_2^3x_3.\]</div>
+<p>Έτσι βρήκαμε έναν ενιαίο τρόπο να γράφουμε όλα τα πολυώνυμα πολλών μεταβλητών εν τάξει - πολύ ευχάριστο αυτό. Τώρα, από όλα τα πολυώνυμα πολλών μεταβλητών, ιδιαίτερα ενδιαφέροντα είναι εκείνα που παρουσιάζουν μία συμμετρία, με την ακόλουθη έννοια - θα εξηγηθούμε αμέσως μετά την ακόλουθη μωβ παρένθεση:</p>
+<p>Ένα πολυώνυμο πολλών μεταβλητών θα λέγεται <em>συμμετρικό</em> αν παραμένει αναλλοίωτο από κάθε μετάθεση των μεταβλητών του.</p>
+<p>Με άλλα λόγια, ένα πολυώνυμο είναι συμμετρικό αν για να υπολογίσει κανείς την τιμή του δεν παίζουν ρόλο τα ονόματα των μεταβλητών. Για παράδειγμα, το παραπάνω πολυώνυμο δεν είναι συμμετρικό καθώς αν ανακατέψουμε τις τρεις μεταβλητές του ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[x_1\to x_2,\ x_2\to x_1,\ x_3\to x_3,\]</div>
+<p>τότε παίρνουμε το εξής πολυώνυμο:</p>
+<div class="math notranslate nohighlight">
+\[q(x_1,x_2,x_3)=p(x_2,x_1,x_3)=4x_1^3x_3-\sqrt{2}x_1^2x_2x_3^7+2x_1^2x_2.\]</div>
+<p>Εδώ, σαφώς  <span class="math notranslate nohighlight">\(q\neq p\)</span>  αφού, για παράδειγμα,  <span class="math notranslate nohighlight">\(q(1,0,1)=4\neq0=p(1,0,1).\)</span>  Το ακόλουθο πολυώνυμο, όμως, είναι συμμετρικό:</p>
+<div class="math notranslate nohighlight">
+\[p(x_1,x_2,x_3)=x_1^2x_2+x_1^2x_3+x_1x_2^2+x_1x_3^2+x_2^2x_3+x_2x_3^2+7.\]</div>
+<p>Πράγματι, όποια εναλλαγή κι αν επιχειρήσουμε να κάνουμε ανάμεσα στις μεταβλητές του  <span class="math notranslate nohighlight">\(p\)</span>  θα δούμε ότι τελικά παίρνουμε το ίδιο πολυώνυμο - δοκιμάστε να παίξετε λίγο και θα το δείτε. Τώρα, κι από τα συμμετρικά πολυώνυμα δε μας νοιάζουν όλα, για αρχή. Θα ασχοληθούμε λίγο με εκείνα τα συμμετρικά πολυώνυμα που έχουν την ακόλουθη απλή δομή - τόσο απλή, που τα αποκαλούμε <em>στοιχειώδη</em>:</p>
+<p>Ένα συμμετρικό πολυώνυμο αποκαλείται <em>στοιχειώδες</em> (συμμετρικό πολυώνυμο) όταν αποτελείται από τις μεταθέσεις ενός μόνο μονωνύμου του οποίου οι μεταβλητές έχουν βαθμό το πολύ 1.</p>
+<p>Έτσι, το παραπάνω συμμετρικό πολυώνυμο δεν είναι στοιχειώδες καθώς περιέχει και μονώνυμα με τετραγωνικούς όρους, ενώ το παρακάτω είναι ένα στοιχειώδες συμμετρικό πολυώνυμο:</p>
+<div class="math notranslate nohighlight">
+\[q(x_1,x_2,x_3)=x_1x_2+x_1x_3+x_2x_3.\]</div>
+<p>Πράγματι, αφενός είναι συμμετρικό αφού περιέχει όλες τις δυνατές μεταθέσεις του μονωνύμου  <span class="math notranslate nohighlight">\(x_1x_2\)</span>  - δηλαδή, όλες τα δυνατά γινόμενα που μπορούμε να φτιάξουμε με τις μεταβλητές  <span class="math notranslate nohighlight">\(x_1,x_2,x_3\)</span>  - ενώ από την άλλη καμία μεταβλητή δεν εμφανίζεται πουθενά με εκθέτη μεγαλύτερο της μονάδας. Τώρα, τα στοιχειώδη συμμετρικά πολυώνυμα θα παίξουν έναν σημαντικό ρόλο στην οικονομία της γραφής των συμμετρικών πολυωνύμων, γενικότερα - άλλωστε, πάντα σχεδόν εκεί μας εξυπηρετούν οι στοιχειώδεις οντότητες στα μαθηματικά. Αλλά αυτό θα το συζητήσουμε σε λίγο. Προς το παρόν θα απαριθμήσουμε και θα «τακτοποιήσουμε» τα στοιχειώδη συμμετρικά πολυώνυμα. Αρχικά, έστω  <span class="math notranslate nohighlight">\(n\)</span>  μεταβλητές,  <span class="math notranslate nohighlight">\(x_1,x_2,\ldots,x_n.\)</span>  Πόσα στοιχειώδη συμμετρικά πολυώνυμα μπορούμε να φτιάξουμε με αυτές;</p>
+<p>Χμμμ… Η απάντηση είναι σχετικά απλή, αν κοιτάξουμε τον ορισμό. Κάθε στοιχειώδες συμμετρικό πολυώνυμο αποτελείται από όλες τις μεταθέσεις ενός μονωνύμου στο οποίο οι μεταβλητές όλες εμφανίζονται το πολύ μία φορά - άρα ή μία ή καμία. Τώρα, αυτά τα μονώνυμα είναι τόσα ακριβώς όσα και οι αριθμοί από το 0 έως το  <span class="math notranslate nohighlight">\(n\)</span>  καθώς αν δύο «στοιχειώδη» μονώνυμα έχουν το ίδιο πλήθος μεταβλητών με εκθέτη 1 τότε επάγουν το ίδιο στοιχειώδες συμμετρικό πολυώνυμο. Άρα, έχουμε συνολικά  <span class="math notranslate nohighlight">\(n+1\)</span>  στοιχειώδη συμμετρικά πολυώνυμα με  <span class="math notranslate nohighlight">\(n\)</span>  μεταβλητές.</p>
+<p>Επειδή, τώρα, στα μαθηματικά κάνουμε τα εύκολα δύσκολα, ας δούμε λίγο με ένα παράδειγμα πώς προκύπτει το παραπάνω. Ας πάρουμε, για παράδειγμα, τέσσερις μεταβλητές, έστω  <span class="math notranslate nohighlight">\(x_1,x_2,x_3,x_4.\)</span>  Τότε τα στοιχειώδη συμμετρικά πολυώνυμα που μπορούμε να κατασκευάσουμε είναι τα εξής:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\sigma_{4,0}=1\)</span>  - οποιοδήποτε σταθερό θα μας έκανε, αλλά επιλέξαμε τη μονάδα για λόγους ομοιομορφίας και ψυχαναγκασμού.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\sigma_{4,1}=x_1+x_2+x_3+x_4\)</span>  - το στοιχειώδες μονώνυμο που χρησιμοποιούμε έχει βαθμό 1.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\sigma_{4,2}=x_1x_2+x_1x_3+x_1x_4+x_2x_3+x_2x_4+x_3x_4\)</span>  - το στοιχειώδες μονώνυμο έχει βαθμό 2.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\sigma_{4,3}=x_1x_2x_3+x_1x_2x_4+x_1x_3x_4+x_2x_3x_4\)</span>  - το στοιχειώδες μονώνυμο έχει βαθμό 3.</p></li>
+<li><p><span class="math notranslate nohighlight">\(\sigma_{4,4}=x_1x_2x_3x_4\)</span>  - το στοιχειώδες μονώνυμο έχει βαθμό 4.</p></li>
+</ul>
+<p>Αυτά είναι όλα κι όλα πέντε - δηλαδή  <span class="math notranslate nohighlight">\(4+1,\)</span>  όπως είχαμε υπολογίσει παραπάνω. Παρατηρήστε ότι παραπάνω έχουμε επιλέξει να γράφουμε απλά  <span class="math notranslate nohighlight">\(\sigma_{n,k}\)</span>  αντί για  <span class="math notranslate nohighlight">\(\sigma_{n,k}(x_1,x_2,x_3,x_4)\)</span>  κυρίως για λόγους απλότητας στον συμβολισμό. Επίσης, από εδώ και στο εξής τα  <span class="math notranslate nohighlight">\(n+1\)</span>  στο πλήθος στοιχειώδη συμμετρικά πολυώνυμα  <span class="math notranslate nohighlight">\(n\)</span>  μεταβλητών θα τα συμβολίζουμε με:</p>
+<div class="math notranslate nohighlight">
+\[\sigma_{n,0},\sigma_{n,1},\ldots,\sigma_{n,n},\]</div>
+<p>όπου ο πρώτος δείκτης αντιστοιχεί στο πλήθος των μεταβλητών και ο δεύτερος στο πλήθος των μεταβλητών μη μηδενικού βαθμού σε κάθε όρο του πολυωνύμου.</p>
+<p>Έτσι καταφέραμε και βάλαμε τάξη στα στοιχειώδη συμμετρικά πολυώνυμα - μία τάξη που θα μας βοηθήσει να βάλουμε τάξη και γενικότερα στα συμμετρικά πολυώνυμα, οσονούπω…</p>
+</section>
+<section id="id22">
+<h2>Πολυώνυμα και μιγαδικοί<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id22" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id22'"><span>#</span></a></h2>
+<p>Καιρός να τα μπλέξουμε όλα τώρα. Πριν δούμε την απόδειξη, όπως υποσχεθήκαμε παραπάνω, δεν έχουμε να δούμε καινούργιες έννοιες, έχουμε ωστόσο να μπλέξουμε τις έννοιες που παρουσιάσαμε ως τώρα μεταξύ τους. Αρχικά, να θυμίσουμε ότι, κάθε πολυώνυμο με μιγαδικούς συντελεστές και μιγαδικές μεταβλητές - το δεύτερο είναι το hot - που έχει βαθμό  <span class="math notranslate nohighlight">\(n\geq1\)</span>  μπορεί να γραφτεί στην ακόλουθη μορφή:</p>
+<div class="math notranslate nohighlight">
+\[p(x)=c(x-\rho_1)(x-\rho_2)\dots(x-\rho_n)=c\prod_{k=1}^n(x-\rho_k),\]</div>
+<p>όπου το σύμβολο  <span class="math notranslate nohighlight">\(\ \prod,\)</span>  αν δεν το έχετε ξαναδεί, είναι μία απλή συντομογραφία για το γινόμενο. Τώρα, η παραπάνω μορφή μας προκαλεί να κάνουμε όλες τις επιμεριστικές που βλέπουμε μπροστά μας έτσι ώστε να γράψουμε το πολυώνυμο στη σχολική του μορφή:</p>
+<div class="math notranslate nohighlight">
+\[p(x)=a_nx^n+a_{n-1}x^{n-1}+\dots+a_1x+a_0,\]</div>
+<p>για κατάλληλους συντελεστές. Ωστόσο, αυτό απαιτεί λίγη δουλειά από μέρους μας. Βασικά, δεν είναι και τόσο δύσκολο, καθώς, για να βρούμε τα αποτελέσματα των διάφορων επιμεριστικών αρκεί (και πρέπει) να καταγράψουμε όλους τους συνδυασμούς που μπορούμε να κάνουμε με τις παραπάνω παρενθέσεις. Όπου, ως συνδυασμούς εννοούμε τις επιλογές ανάμεσα σε  <span class="math notranslate nohighlight">\(x\)</span>  και  <span class="math notranslate nohighlight">\(\rho_k\)</span>  που έχουμε να κάνουμε από κάθε παρένθεση. Ας πάμε, λοιπόν, όρο προς όρο:</p>
+<ul class="simple">
+<li><p>Για τον συντελεστή  <span class="math notranslate nohighlight">\(a_n\)</span>  του  <span class="math notranslate nohighlight">\(x^n\)</span>  πρέπει να επιλέξουμε από κάθε παρένθεση τα  <span class="math notranslate nohighlight">\(x\)</span>  καθώς με κάθε άλλον συνδυασμό θα παίρναμε ένα τελικό γινόμενο με βαθμό ως προς  <span class="math notranslate nohighlight">\(x\)</span>  μικρότερο του  <span class="math notranslate nohighlight">\(n.\)</span>  Επομένως, ο συντελεστής του  <span class="math notranslate nohighlight">\(x^n\)</span>  είναι η σταθερά  <span class="math notranslate nohighlight">\(c\)</span>  που έχουμε αφήσει έξω από το κυρίως γινόμενο ή, για να το γράψουμε λίγο καλύτερα,  <span class="math notranslate nohighlight">\(a_n=c\cdot1\)</span>  - θα δείτε σε λίγο γιατί βάλαμε το 1 εκεί δίπλα.</p></li>
+<li><p>Για τον συντελεστή  <span class="math notranslate nohighlight">\(a_{n-1}\)</span>  του  <span class="math notranslate nohighlight">\(x^{n-1}\)</span>  πρέπει να επιλέγουμε συνδυασμούς έτσι ώστε μονό από μία παρένθεση να <em>μην</em> έχουμε επιλέξει το  <span class="math notranslate nohighlight">\(x.\)</span>  Αυτοί οι συνδυασμοί είναι ακριβώς  <span class="math notranslate nohighlight">\(n\)</span>  στο πλήθος και μας δίνουν το άθροισμα όλων των ριζών του πολυωνύμου, οπότε:  <span class="math notranslate nohighlight">\(a_{n-1}=-c(\rho_1+\rho_2+\dots+\rho_n).\)</span></p></li>
+<li><p>Αναλόγως, για να επιτύχουμε βαθμό  <span class="math notranslate nohighlight">\(n-2\)</span>  θα πρέπει να επιλέγουμε από δύο παρενθέσεις τις ρίζες κι από κάθε άλλη το  <span class="math notranslate nohighlight">\(x,\)</span>  οπότε και θα πάρουμε το άθροισμα όλων των ανά δύο γινομένων των ριζών του  <span class="math notranslate nohighlight">\(p.\)</span>  Έτσι, έχουμε:  <span class="math notranslate nohighlight">\(a_{n-2}=c(\rho_1\rho_2+\rho_1\rho_3+\dots+\rho_{n-1}\rho_n).\)</span></p></li>
+</ul>
+<p>Με ανάλογο τρόπο βρίσκουμε τον ακόλουθο τύπο για τους συντελεστές του  <span class="math notranslate nohighlight">\(p:\)</span></p>
+<div class="math notranslate nohighlight">
+\[a_{n-k}=(-1)^{k}c\sum_{1\leq i_1&lt;\dots&lt;i_k\leq n}\rho_{i_1}\dots\rho_{i_k}.\]</div>
+<p>Κακάσχημο! Αλλά, δεν πειράζει, γιατί αν είμαστε λίγο γάτες θα παρατηρήσουμε ότι στους παραπάνω τύπους - που, παρεμπιπτόντως, τους λέμε <a class="reference external" href="https://en.wikipedia.org/wiki/Vieta%27s_formulas">τύπους του Vieta</a> - εμφανίζονται τα αξιολάτρευτα στοιχειώδη συμμετρικά πολυώνυμα που είδαμε παραπάνω. Για την ακρίβεια, ο παραπάνω τύπος μπορεί να γραφτεί πολύ απλούστερα ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[a_{n-k}=(-1)^{k}c\sigma_{n,n-k}(\rho_1,\dots,\rho_n).\]</div>
+<p>Έτσι, κάθε πολυώνυμο μπορεί να γραφτεί συναρτήσει των - μιγαδικών - ριζών του ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[p(x)=c\sum_{k=0}^n(-1)^{k}\sigma_{n,n-k}(\rho_1,\ldots,\rho_n)x^k.\]</div>
+<p>Δεν είναι όμως μόνο αυτή η περίπτωση που τα στοιχειώδη συμμετρικά πολυώνυμα μπορούν να μας φανούν χρήσιμα. Για κάθε συμμετρικό πολυώνυμο  <span class="math notranslate nohighlight">\(n\)</span>  μεταβλητών ισχύει το ακόλουθο εξαιρετικό αποτέλεσμα, γνωστό και ως <em>θεμελιώδες θεώρημα των συμμετρικών πολυωνύμων</em>:</p>
+<p>Αν  <span class="math notranslate nohighlight">\(p\)</span>  είναι ένα συμμετρικό πολυώνυμο  <span class="math notranslate nohighlight">\(n\)</span>  μεταβλητών (με ακέραιους συντελεστές), τότε υπάρχει ένα πολυώνυμο  <span class="math notranslate nohighlight">\(q,\ n\)</span>  μεταβλητών (με ακέραιους συντελεστές) έτσι ώστε  <span class="math notranslate nohighlight">\(p=q(\sigma_{n,1},\sigma_{n,2},\ldots,\sigma_{n,n}).\)</span></p>
+<p>Με άλλα λόγια, κάθε συμμετρικό πολυώνυμο μπορεί να εκφραστεί μέσα από αθροίσματα και γινόμενα στοιχειωδών συμμετρικών πολυωνύμων. Αυτό το αποτέλεσμα θα μας φανεί ιδιαίτερα εξυπηρετικό στην πορεία της απόδειξής μας. Να επισημάνουμε εδώ ότι δεν έχει τόση σημασία για το θεώρημα το ίδιο ότι οι συντελεστές των πολυωνύμων είναι ακέραιοι, καθώς ισχύει γενικά, για κάθε μεταθετικό δακτύλιο με μονάδα αυτό - τώρα, το τι είναι ένας τέτοιος δακτύλιος μπορείτε να το βρείτε <a class="reference external" href="https://en.wikipedia.org/wiki/Ring_theory">εδώ</a>. Ωστόσο, εμάς θα μας απασχολήσουν κυρίως τέτοια πολυώνυμα, οπότε και δε μας νοιάζει κάποια πολύ γενικότερη διατύπωση.</p>
+</section>
+<section id="id23">
+<h2>Η απόδειξη<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id23" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id23'"><span>#</span></a></h2>
+<p>Καιρός ήταν, μετά από τόσες εισαγωγές, να φτάσουμε και στην ουσία της απόδειξής μας - την ίδια την απόδειξη. Η απόδειξη θα ακολουθήσει σε έναν μεγάλο βαθμό την φιλοσοφία της απόδειξης της υπερβατικότητας του  <span class="math notranslate nohighlight">\(e\)</span>  που έχουμε δει <a class="reference external" href="docs/After-maths/υπeρβάσεις.rst">εδώ</a> αλλά και αυτήν της αρρητότητας του  <span class="math notranslate nohighlight">\(\pi\)</span>  που έχουμε δει <a class="reference external" href="docs/After-maths/το-ημίτονο-οι-άρρητοι-και-οι-πιο-άρρητ.rst">εδώ</a>. Για να θυμίσουμε λίγο τη λογική, αμφότερες οι αποδείξεις, όπως αναμενόταν, προχωρούν με απαγωγή σε άτοπο. Αρχικά αποδεικνύαμε με κάποιον αλγεβρικό τρόπο ότι κάποιο πολυώνυμο του  <span class="math notranslate nohighlight">\(\pi\)</span>  παίρνει ακέραιες τιμές σε κάποιες συγκεκριμένες περιπτώσεις και στη συνέχεια, κάπως - συνήθως μέσα από ολοκληρώματα και ολοκλήρωση κατά παράγοντες - καταλήγαμε στο ότι παίρνει και τιμές αυθαίρετα κοντά στο μηδέν ή, εν πάσει περιπτώσει, όχι ακέραιες. Ε, κάτι ανάλογο θα κάνουμε και σε αύτην την περιπτωση, χρησιμοποιώντας τα εργαλεία που έχουμε παρουσιάσει ως τώρα. Για την ακρίβεια, αρχικά θα αποδείξουμε κάποια αποτελέσματα που έχουν αναλυτικό χαρακτήρα και μας οδηγούν στο συμπέρασμα ότι μία δεδομένη έκφραση παίρνει και μη ακέραιες τιμές. Στη συνέχεια, θα αποδείξουμε ότι η ίδια έκφραση παίρνει αποκλειστικά ακέραιες τιμές κι έτσι θα καταλήξουμε σε αντίφαση - όπως το υποσχεθήκαμε.</p>
+<p>Αυτή η τεχνική έχει ένα ιδιαίτερο ενδιαφέρον και αποδεικνύει συνάμα και κάτι που διαφοροποιεί τους υπερβατικούς αριθμούς από τους υπόλοιπους άρρητους - τουλάχιστον κάποιους από αυτούς. Αν και το να μην είναι ένας αριθμός ρητός είναι από μόνο του μία εν γένει αλγεβρική ιδιότητα - υπό την έννοια ότι οι ρητοί μπορούν να καθοριστούν πλήρως αλγεβρικά, άρα και οι άρρητοι ως οι μη ρητοί - το υποσύνολο των αρρήτων που αποκαλούμε υπερβατικούς έχει έναν έντονο αναλυτικό χαρακτήρα. Έτσι, μόνο αλγεβρικά επιχειρήματα δεν επαρκούν για να καταλήξουμε σε αντιφάσεις ως προς το αν είναι ή όχι ρίζες πολυωνύμων με ακεραίους συντελεστές - αλγεβρικοί, δηλαδή - αλλά απαιτείται να επικαλεστούμε και κάποια ιδιαίτερη <em>αναλυτική</em> τους ιδιότητα - όπως έγινε με την α<a class="reference external" href="docs/After-maths/υπeρβάσεις.rst">πόδειξη της υπερβατικότητας</a> του  <span class="math notranslate nohighlight">\(e\)</span>  και θα γίνει ξανά με αυτήν του  <span class="math notranslate nohighlight">\(\pi.\)</span></p>
+<p><em>Η απόδειξη που θα παρουσιάσουμε είναι μία παραλλαγή της απόδειξης του</em><a class="reference external" href="https://en.wikipedia.org/wiki/Ivan_M._Niven">Niven</a><em>, όπως περίπου παρουσιάζεται στο: Formal Proofs of Transedence of  :math:`e`  an  :math:`pi`  as an Application of Multivariate and Symmetric Polynomials, Sophie Bernard, Yves Bertot, Laurence Rideau, Pierre-Yves Strub, arXiv:1512.02791v1 [cs.LO] 9 Dec 2015</em>.</p>
+<section id="id24">
+<h3>Αναλυτικό μέρος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id24" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id24'"><span>#</span></a></h3>
+<p>Όλο το αναλυτικό μέρος της απόδειξής μας βασίζεται σε μία οικογένεια <em>μιγαδικών</em> ολοκληρωμάτων. Αν και ακούγεται τρομακτικός ο όρος «μιγαδικό ολοκλήρωμα», στα πλαίσια που θα μας απασχολήσει εδώ δεν είναι. Γενικά, αν  <span class="math notranslate nohighlight">\(f\)</span>  είναι μία συνάρτηση που παίρνει μιγαδικές τιμές τότε μπορούμε πάντα να τη γράψουμε στη μορφή:</p>
+<div class="math notranslate nohighlight">
+\[f=u+iv,\]</div>
+<p>όπου  <span class="math notranslate nohighlight">\(u,v\)</span>  είναι δύο συναρτήσεις που παίρνουν πραγματικές τιμές - αυτό έπεται άμεσα από τη γραμή κάθε μιγαδικού αριθμού σε  <span class="math notranslate nohighlight">\(x+iy\)</span>  με  <span class="math notranslate nohighlight">\(x,y\)</span>  πραγματικούς. Έτσι, ορίζουμε και το ολοκλήρωμα αυτής της συνάρτησης κατά φυσιολογικό τρόπο ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[\int f(x)dx=\int u(x)dx+i\int v(x)dx.\]</div>
+<p>Με τον παραπάνω ορισμό είναι εύκολο να αποδείξουμε όλες τις αγαπημένες αλγεβρικές ιδιότητες του ολοκληρώματος, τις οποίες και θα χρησιμοποιούμε χωρίς να χολοσκάμε ιδιαιτέρως. Τώρα, ορίζουμε την ακόλουθη οικογένεια ολοκληρωμάτων για ένα μιγαδικό πολυώνυμο  <span class="math notranslate nohighlight">\(p(x):\)</span></p>
+<div class="math notranslate nohighlight">
+\[I_p(a)=\int_0^1ae^{-ax}p(ax)dx.\]</div>
+<p>Αυτά τα ολοκληρώματα έχουν κάποιες πολύ καλές ιδιότητες, όπως θα δούμε σιγά-σιγά. Αρχικά, αν ορίσουμε, για τη δική μας ευκολία, για κάθε πολυώνυμο  <span class="math notranslate nohighlight">\(p\)</span>  βαθμού  <span class="math notranslate nohighlight">\(n\)</span>  ως  <span class="math notranslate nohighlight">\(S_p\)</span>  το άθροισμα των παραγώγων του, δηλαδή:</p>
+<div class="math notranslate nohighlight">
+\[S_p=\sum_{k=0}^np^{(k)},\]</div>
+<p>όπου  <span class="math notranslate nohighlight">\(p^{(0)}=p,\)</span>  τότε μπορούμε να αποδείξουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[I_p(a)=S_p(0)-e^{-a}S_p(a).\]</div>
+<p>Πράγματι, με λίγες πράξεις παρατηρούμε ότι αν  <span class="math notranslate nohighlight">\(p\)</span>  είναι ένα πολυώνυμο  <span class="math notranslate nohighlight">\(n\)</span>  βαθμού:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}\left(S_p(ax)e^{-ax}\right)'&amp;=-ae^{-ax}S_p(ax)+ae^{-ax}S_p'(ax)=\&amp;=ae^{-ax}\left(S_p'(ax)-S_p(ax)\right)=\&amp;=ae^{-ax}\left(\sum_{k=1}^{n+1}p^{(k)}(ax)-\sum_{k=0}^np^{(k)}(ax)\right)=\&amp;=ae^{-ax}\left(p^{(n+1)}(ax)-p(ax)\right)=\&amp;=-ae^{-ax}p(ax),\end{aligned}\]</div>
+<p>δεδομένου ότι οι παράγωγοι του  <span class="math notranslate nohighlight">\(p\)</span>  τάξης μεγαλύτερης του  <span class="math notranslate nohighlight">\(n\)</span>  είναι μηδενικές. Έτσι, ολοκληρώνοντας την παραπάνω ισότητα παίρνουμε:</p>
+<div class="math notranslate nohighlight">
+\[I_p(a)=\int_0^1e^{-ax}p(ax)dx=\left[-S_p(ax)e^{-ax}\right]_0^1=S_p(0)-e^{-a}S_p(a),\]</div>
+<p>όπως είχαμε πει. Τώρα, το παραπάνω είναι απλά ένα τέχνασμα, καθώς η «φυσιολογική» πορεία της απόδειξης είναι να ξεκινήσει κανείς από την αρχική προς ολοκλήρωση ποσότητα και σταδιακά, με ολοκληρώσεις κατά παράγοντες, να φτάσει στην τελική διαφορά. Ωστόσο, η συνάρτηση  <span class="math notranslate nohighlight">\(S_p\)</span>  θα μας φανεί χρήσιμη στην πορεία της απόδειξης και, συν τοις άλλοις, η απόδειξη είναι σχετικά μεγάλη, οπότε αποφασίσαμε να εξοικονομήσουμε λίγο χώρο και χρόνο με αυτό το μικρό κόλπο.</p>
+<p>Επόμενο βήμα της απόδειξής μας είναι να αποδείξουμε ένα ακόμα ενδιάμεσο αποτέλεσμα. Θεωρούμε ένα πολυώνυμο  <span class="math notranslate nohighlight">\(q\)</span>  με ρίζες  <span class="math notranslate nohighlight">\(a_1,a_2,\ldots,a_n\)</span>  και παραγοντοποίηση:</p>
+<div class="math notranslate nohighlight">
+\[p(x)=c(x-a_1)(x-a_2)\dots(x-a_n).\]</div>
+<p>Με βάση αυτό, ορίζουμε το πολυώνυμο:</p>
+<div class="math notranslate nohighlight">
+\[T_m(x)=x^{m-1}(p(x))^m,\]</div>
+<p>όπου  <span class="math notranslate nohighlight">\(m\)</span>  είναι κάποιος θετικός ακέραιος - στην πορεία θα πούμε περισσότερα γι” αυτόν. Τώρα, θα αποδείξουμε το εξής:</p>
+<p>Αν το  <span class="math notranslate nohighlight">\(p\)</span>  έχει ακέραιους συντελεστές τότε οι συντελεστές του  <span class="math notranslate nohighlight">\(\sum_{k\geq m}T_m^{(k)}\)</span>  είναι πολλαπλάσια του  <span class="math notranslate nohighlight">\(p!.\)</span></p>
+<p>Για αρχή, μη σας ξεγελάει το άθροισμα που εμφανίζεται παραπάνω, καθώς δεν είναι άπειρο αλλά πεπερασμένο - αφού οι παράγωγοι κάθε πολυωνύμου από ένα σημείο και μετά είναι μηδενικές. Τώρα, για να αποδείξουμε το παραπάνω δεν έχουμε να κάνουμε και πολλά - ασχέτως αν φαίνεται κάπως τρομακτικό το αποτέλεσμα. Αρκεί να παρατηρήσουμε ότι αν  <span class="math notranslate nohighlight">\(P\)</span>  είναι κάποιο πολυώνυμο με ακέραιους συντελεστές τότε όλοι οι συντελεστές της  <span class="math notranslate nohighlight">\(k-\)</span> οστής (μη τετριμμένης) παραγώγου του είναι πολλαπλάσια του  <span class="math notranslate nohighlight">\(k!.\)</span>  Πράγματι, παρατηρήστε ότι αν:</p>
+<div class="math notranslate nohighlight">
+\[P(x)=b_nx^n+\ldots+b_1x+b_0,\]</div>
+<p>και  <span class="math notranslate nohighlight">\(k\leq n\)</span>  τότε ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[P^{(k)}(x)=n(n-1)\dots(n-k+1)x^{n-k}+\dots+(k+1)k\dots2b_{k+1}x+k!b_k.\]</div>
+<p>Το παραπάνω είναι άμεσο, αφού με κάθε παραγώγιση κατεβαίνει από τον εκθέτη μία δύναμη και εμφανίζεται ακόμα ένας παράγοντας στο γινόμενο μπροστά από τον συντελεστή του αντίστοιχου όρου. Τώρα, παρατηρούμε ότι κάθε συντελεστής είναι το γινόμενο ενός ακεραίου με το γινόμενο  <span class="math notranslate nohighlight">\(k\)</span>  διαδοχικών ακεραίων το οποίο είναι εύκολο να αποδείξουμε ότι διαιρείται από το  <span class="math notranslate nohighlight">\(k!\)</span>  - π.χ. με επαγωγή στο  <span class="math notranslate nohighlight">\(k\)</span>  η παρατηρώντας ότι το πηλίκο ενός τέτοιου γινομένου με το  <span class="math notranslate nohighlight">\(k!\)</span>  είναι ένας διωνυμικός συντελεστής και άρα ακέραιος αριθμός. Επομένως, έπεται το ζητούμενο, καθώς όλοι οι όροι στο άθροισμα:</p>
+<div class="math notranslate nohighlight">
+\[\sum_{k\geq m}T_m^{(k)}\]</div>
+<p>έχουν συντελεστές που διαιρούνται από το  <span class="math notranslate nohighlight">\(m!\)</span>  - δεδομένου ότι ο όρος  <span class="math notranslate nohighlight">\(T_m^{(k)}\)</span>  έχει συντελεστές που διαιρούνται από το  <span class="math notranslate nohighlight">\(k!\)</span>  το οποίο διαιρείται από το  <span class="math notranslate nohighlight">\(m!\)</span>  για κάθε  <span class="math notranslate nohighlight">\(k\geq m.\)</span>  Από το παραπάνω έπεται ότι οι συντελεστές των πολυωνύμων:</p>
+<div class="math notranslate nohighlight">
+\[Q_m:=\frac{1}{m!}\sum_{k\geq m}T_m^{(k)},\]</div>
+<p>είναι ακέραιοι. Τώρα θα αποδείξουμε το επόμενο ενδιάμεσο αποτέλεσμά μας:</p>
+<p>Αν  <span class="math notranslate nohighlight">\(\ p(x)=c\prod_{k=1}^n(x-a_k)\)</span>  είναι ένα πολυώνυμο βαθμού  <span class="math notranslate nohighlight">\(n\)</span>  με ακέραιους συντελεστές και μιγαδικές ρίζες  <span class="math notranslate nohighlight">\(a_1,a_2,\ldots,a_n\)</span>  τότε για κάθε  <span class="math notranslate nohighlight">\(n+1-\)</span> άδα ακεραίων αριθμών  <span class="math notranslate nohighlight">\(c_0,c_1,c_2,\ldots,c_n\)</span>  με  <span class="math notranslate nohighlight">\(c_0\neq0\)</span>  για την οποία ισχύει ότι  <span class="math notranslate nohighlight">\(\ c_0+\sum_{k=1}^nc_ke^{a_k}=0 `  υπάρχει ένας αρκετά μεγάλος πρώτος αριθμός  :math:`m\)</span>  έτσι ώστε  <span class="math notranslate nohighlight">\(\ c^{nm}\sum_{k=1}^nc_kQ_m(a_k)\not\in\mathbb{Z}.\)</span></p>
+<p>Πρακτικά, το παραπάνω μας λέει ότι αν οι ρίζες ενός πολυωνύμου  <span class="math notranslate nohighlight">\(p\)</span>  ικανοποιούν την πρώτη εξίσωση τότε η ποσότητα:</p>
+<div class="math notranslate nohighlight">
+\[c^{nm}\sum_{k=1}^nc_kQ_m(a_k),\]</div>
+<p>παίρνει και μη ακέραιες τιμές για κατάλληλη τιμή του  <span class="math notranslate nohighlight">\(m.\)</span>  Το θέμα είναι, πώς θα το δείξουμε αυτό; Ας ξεκινήσουμε αξιοποιώντας μία σχέση που αποδείξαμε παραπάνω:</p>
+<div class="math notranslate nohighlight">
+\[I_{T_m}(a_k)=S_{T_m}(0)-e^{-a_k}S_{T_m}(a_k).\]</div>
+<p>Με τη βοήθεια της παραπάνω σχέσης παρατηρούμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k)&amp;=\sum_{k=1}^n-c_ke^{a_k}\left(S_{T_m}(0)-e^{-a_k}S_{T_m}(a_k)\right)=\&amp;=\sum_{k=1}^nc_kS_{T_m}(a_k)-\sum_{k=1}^nc_ke^{a_k}S_{T_m}(0).\end{aligned}\]</div>
+<p>Από υπόθεση, γνωρίζουμε ότι  <span class="math notranslate nohighlight">\(c_0+\sum_{k=1}^nc_ke^{a_k}=0,\)</span>  επομένως έχουμε και:</p>
+<div class="math notranslate nohighlight">
+\[-\sum_{k=1}^nc_ke^{a_k}=c_0.\]</div>
+<p>Αντικαθιστώντας το ένα άθροισμα με το παραπάνω και πολλαπλασιάζοντας τη σχέση που προκύπτει με το  <span class="math notranslate nohighlight">\(c^{nm}\)</span> , έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[c^{nm}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k)=c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k).\]</div>
+<p>Θεωρούμε τώρα τον αριθμό:</p>
+<div class="math notranslate nohighlight">
+\[A:=\max\{|a_k|:k=1,2,\ldots,n\},\]</div>
+<p>και παρατηρούμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}\left|I_{T_m}(a_k)\right|&amp;=\left|\int_0^1c_ke^{-ac_kx}T_m(a_kx)dx\right|\&amp;\leq\int_0^1\left|a_ke^{-a_kx}T_m(a_kx)\right|dx\&amp;\leq Ae^A\int_0^1\left|T_m(a_kx)\right|dx\&amp;\leq Ae^A\int_0^1\left|(a_kx)^{m-1}(p(a_kx))^m\right|dx\&amp;\leq Ae^AA^{m-1}\int_0^1\left|x^{m-1}(p(a_kx))^m\right|dx\&amp;\leq A^me^A\int_0^1\left|p(a_kx)\right|^mdx.\end{aligned}\]</div>
+<p>Ωραία ανισότητα, αλλά μπορούμε και καλύτερα. Για την ακρίβεια, αφού το  <span class="math notranslate nohighlight">\(p(a_kx)\)</span>  είναι πολυωνυμική συνάρτηση, είναι και συνεχής και, αφού είναι ορισμένη σε κλειστό διάστημα, παίρνει μέγιστη κι ελάχιστη τιμή - κι ας παίρνει μιγαδικές τιμές, δε μας απασχολεί - επομένως, υπάρχει ένας θετικός πραγματικός αριθμός  <span class="math notranslate nohighlight">\(M&gt;0\)</span>  έτσι ώστε:</p>
+<div class="math notranslate nohighlight">
+\[\left|p(a_kx)\right|\leq M.\]</div>
+<p>Έτσι, τελικά έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}\left|I_{T_m}(a_k)\right|&amp;\leq A^me^A\int_0^1\left|p(a_kx)\right|^mdx\&amp;\leq A^m e^AM^m.\end{aligned}\]</div>
+<p>Επομένως, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\left|c^{nm}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k)\right|\leq|c|^{nm}\sum_{k=1}^n-c_ke^{a_k}A^me^AM^m=|c|^{nm}A^me^AM^mc_0.\]</div>
+<p>Το παραπάνω άνω φράγμα μπορούμε να το γράψουμε ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[\left(|c|^nAe^AMc_0\right)\left(|c|^nAM\right)^{m-1}.\]</div>
+<p>Δηλαδή, αν θέσουμε  <span class="math notranslate nohighlight">\(K=|c|^nAe^AMc_0\)</span>  και  <span class="math notranslate nohighlight">\(L=|c|^nAM\)</span>  τότε έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\left|c^{nm}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k)\right|\leq KL^{m-1},\]</div>
+<p>όπου τα  <span class="math notranslate nohighlight">\(K,L\)</span>  είναι ανεξάρτητα του  <span class="math notranslate nohighlight">\(m\)</span>  - αυτό θα παίξει ρόλο στην πορεία. Τώρα, από το σχολείο, ίσως, γνωρίζουμε ότι το παρακάτω όριο είναι πάντοτε μηδενικό - για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{R}:\)</span></p>
+<div class="math notranslate nohighlight">
+\[\lim_{n\to\infty}\frac{x^n}{n!}=0.\]</div>
+<p>Επομένως, θα έχουμε και:</p>
+<div class="math notranslate nohighlight">
+\[\lim_{m\to\infty}\frac{L^{m-1}}{(m-1)!}=0,\]</div>
+<p>άρα και για αρκετά μεγάλες τιμές του  <span class="math notranslate nohighlight">\(m\)</span>  θα ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[\frac{L^{m-1}}{(m-1)!}&lt;\frac{1}{K}\Rightarrow KL^{m-1}&lt;(m-1)!,\]</div>
+<p>οπότε, τελικά, έχουμε το ακόλουθο κομψό φράγμα:</p>
+<div class="math notranslate nohighlight">
+\[\left|c^{nm}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k)\right|&lt;(m-1)!.\]</div>
+<p>Ωραία, ως εδώ έχουμε βρει ένα όμορφο άνω φράγμα για μία ποσότητα. Θα δούμε τώρα πώς μπορούμε να αξιοποιήσουμε τα παραπάνω. Αρχικά, ας θυμηθούμε ότι τα  <span class="math notranslate nohighlight">\(a_k\)</span>  είναι οι μιγαδικές ρίζες του πολυωνύμου  <span class="math notranslate nohighlight">\(p\)</span>  και, επειδή  <span class="math notranslate nohighlight">\(T_m(x)=x^{m-1}\left(p(x)\right)^{m},\)</span>  έπεται ότι θα είναι και ρίζες του  <span class="math notranslate nohighlight">\(T_m\)</span>  και, μάλιστα, με πολλαπλότητα  <span class="math notranslate nohighlight">\(m,\)</span>  αφού, αναλυτικά έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[T_m(x)=c^mx^{m-1}(x-a_1)^m(x-a_2)^m\dots(x-a_n)^m.\]</div>
+<p>Τώρα, αυτό σημαίνει ότι οι  <span class="math notranslate nohighlight">\(a_k\)</span>  είναι ρίζες και των παραγώγων τάξεως  <span class="math notranslate nohighlight">\(i\)</span>  του  <span class="math notranslate nohighlight">\(T_m\)</span>  για κάθε  <span class="math notranslate nohighlight">\(i=1,2,\ldots,m-1,\)</span>  δηλαδή  <span class="math notranslate nohighlight">\(T^{(i)}(a_k)=0\)</span>  για  <span class="math notranslate nohighlight">\(k=1,2,\ldots,n\)</span>  και  <span class="math notranslate nohighlight">\(i=1,2,\ldots,m-1.\)</span>  Έτσι, έχουμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[S_{T_m}(a_k)=\sum_{i\geq0}T_m^{(i)}(a_k)=\sum_{i\geq m}T_m^{(i)}(a_k),\]</div>
+<p>αφού οι πρώτοι  <span class="math notranslate nohighlight">\(m\)</span>  όροι είναι μηδενικοί. Με ανάλογο σκεπτικό, δεδομένου ότι το 0 είναι ρίζα του  <span class="math notranslate nohighlight">\(T_m\)</span>  με πολλαπλότητα  <span class="math notranslate nohighlight">\(m-1\)</span>  έπεται ότι  <span class="math notranslate nohighlight">\(T_m^{(i)}(0)=0\)</span>  για  <span class="math notranslate nohighlight">\(i&lt;m-1,\)</span>  επομένως έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[S_{T_m}(0)=\sum_{i\geq m-1}T_m^{(i)}(a_k)=T_m^{(m-1)}(0)+\sum_{i\geq m}T_m^{(i)}(0).\]</div>
+<p>Τώρα, το  <span class="math notranslate nohighlight">\(T_m^{(m-1)}(0)\)</span>  είναι ο σταθερός όρος της $m-1$ τάξης παραγώγου του  <span class="math notranslate nohighlight">\(T_m\)</span>  οπότε είναι ίσος με  <span class="math notranslate nohighlight">\((m-1)!\)</span>  επί τον συντελεστή του  <span class="math notranslate nohighlight">\(x^{m-1}\)</span>  στο  <span class="math notranslate nohighlight">\(T_m.\)</span>  Δεδομένου ότι  <span class="math notranslate nohighlight">\(T_m(x)=x^{m-1}\left(p(x)\right)^m,\)</span>  έπεται ότι ο συντελεστής του  <span class="math notranslate nohighlight">\(x^{m-1}\)</span>  είναι  <span class="math notranslate nohighlight">\(p(0)^m\)</span>  - καθώς δεν υπάρχει όρος με μικρότερο βαθμό στο  <span class="math notranslate nohighlight">\(T_m\)</span>  - και άρα:</p>
+<div class="math notranslate nohighlight">
+\[T_m^{(m-1)}(0)=(m-1)!p(0)^m.\]</div>
+<p>Έτσι, έχουμε, τελικά:</p>
+<div class="math notranslate nohighlight">
+\[S_{T_m}(0)=(m-1)!p(0)^m+\sum_{i\geq m}T_m^{(i)}(0).\]</div>
+<p>Με βάση τα παραπάνω παρατηρούμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}&amp;\hphantom{=}\ \,c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k)=\&amp;=c^{nm}c_0(m-1)!p(0)^m+c^{nm}c_0\sum_{i\geq m}T_m^{(i)}(0)+c^{nm}\sum_{k=1}^nc_k\sum_{i\geq m}T_m^{(i)}(a_k).\end{aligned}\]</div>
+<p>Εδώ να θυμηθούμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[Q_m=\frac{1}{m!}\sum_{i\geq m}T_m^{(i)}\Rightarrow \sum_{i\geq m}T_m^{(i)}=m!Q_m.\]</div>
+<p>Έτσι, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}&amp;\hphantom{=}\ \,c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k)=\&amp;=c^{nm}c_0(m-1)!p(0)^m+c^{nm}c_0m!Q_m(0)+c^{nm}\sum_{k=1}^nc_km!Q_m(a_k)=\&amp;=c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!\underbrace{c^{nm}\sum_{k=1}^nc_kQ_m(a_k)}_{\Pi}.\end{aligned}\]</div>
+<p>Η παράσταση  <span class="math notranslate nohighlight">\(\Pi\)</span>  είναι αυτή που θέλουμε να αποδείξουμε ότι παίρνει και μη ακέραιες τιμές για κατάλληλες τιμές του  <span class="math notranslate nohighlight">\(m.\)</span>  Έστω, προς άτοπο, ότι για κάθε επιλογή του  <span class="math notranslate nohighlight">\(m\)</span>  η παράσταση  <span class="math notranslate nohighlight">\(\Pi\)</span>  είναι ακέραια. Τότε, η παραπάνω παράσταση διαιρείται σαφώς από το  <span class="math notranslate nohighlight">\((m-1)!\)</span>  ωστόσο, αν επιλέξουμε τον  <span class="math notranslate nohighlight">\(m\)</span>  αρκετά μεγάλο και <em>πρώτο</em> τότε η παραπάνω παράσταση δε διαιρείται από το  <span class="math notranslate nohighlight">\(m!\)</span>  - για την ακρίβεια, πρέπει να επιλέξουμε  <span class="math notranslate nohighlight">\(m\)</span>  μεγαλύτερο από  <span class="math notranslate nohighlight">\(c_0,c\)</span>  και  <span class="math notranslate nohighlight">\(p(0)\)</span>  - καθώς δε διαιρείται ο πρώτος όρος από το  <span class="math notranslate nohighlight">\(m\)</span>  - εδώ είναι που αξιοποιούμε ότι ο  <span class="math notranslate nohighlight">\(m\)</span>  είναι πρώτος. Έτσι η παράσταση:</p>
+<div class="math notranslate nohighlight">
+\[c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!c^{nm}\sum_{k=1}^nc_kQ_m(a_k)\]</div>
+<p>είναι ένας ακέραιος αριθμός που διαιρείται από το  <span class="math notranslate nohighlight">\((m-1)!\)</span>  και, για αρκετά μεγάλο και πρώτο  <span class="math notranslate nohighlight">\(m,\)</span>  δε διαιρείται από το  <span class="math notranslate nohighlight">\(m!,\)</span>  συνεπώς η απόλυτη τιμή της θα είναι τουλάχιστον ίση με  <span class="math notranslate nohighlight">\((m-1)!.\)</span>  Προσέξτε σε αυτό το σημείο ότι το γεγονός ότι η παραπάνω παράσταση <em>δε διαιρείται</em> από κάποιον αριθμό - εν προκειμένω τον  <span class="math notranslate nohighlight">\(m!\)</span>  - μας οδηγεί στο συμπέρασμα ότι <em>δεν είναι μηδενική</em> το οποίο είναι κρίσιμο - αλλιώς δεν μπορούμε να αποφανθούμε για την απόλυτη τιμή της ότι δεν είναι μηδενική. Τώρα, από το παραπάνω έχουμε, λοιπόν:</p>
+<div class="math notranslate nohighlight">
+\[\left|c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!c^{nm}\sum_{k=1}^nc_kQ_m(a_k)\right|\geq(m-1)!.\]</div>
+<p>Ωστόσο, προηγουμένως είχαμε αποδείξει την ακόλουθη ισότητα:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}&amp;\hphantom{=}\ \,c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!c^{nm}\sum_{k=1}^nc_kQ=\&amp;=c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k)=\&amp;=c^{nm}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k).\end{aligned}\]</div>
+<p>Συνεπώς:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}(m-1)!&amp;\leq\left|c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!c^{nm}\sum_{k=1}^nc_kQ_m(a_k)\right|=\&amp;=\left|c^{nm}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k).\right|\&amp;&lt;(m-1)!,\end{aligned}\]</div>
+<p>που είναι άτοπο! Άρα, για κατάλληλα μεγάλο και πρώτο  <span class="math notranslate nohighlight">\(m\)</span>  πράγματι η παράσταση  <span class="math notranslate nohighlight">\(\Pi\)</span>  δεν παίρνει ακέραιες τιμές, όπως θέλαμε.</p>
+<p>Το παραπάνω αποτέλεσμα αποτελεί τη ραχοκοκαλιά της απόδειξής μας, καθώς από εδώ κι εμπρός ο δρόμος είναι στρωμένος με ροδοπέταλα - σχεδόν…</p>
+</section>
+<section id="id25">
+<h3>Αλγεβρικό μέρος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id25" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id25'"><span>#</span></a></h3>
+<p>Παραπάνω όσα κάναμε ήταν σχεδόν όλα σχετικά με τη μαθηματική ανάλυση: ολοκληρώματα, όρια, ανισότητες, πράξεις. Αν εξαιρέσει κανείς λίγο την επίκλησή μας στους πρώτους αριθμούς στο τέλος, όλα τα άλλα βήματά μας είχαν αμιγώς αναλυτικό χαρακτήρα. Τώρα ήρθε η ώρα για λίγη άλγεβρα - άλλωστε, δε θα ήταν λογικό να αποδεικνύαμε μία αλγεβρική ιδιότητα ενός αριθμού χωρίς να χρησιμοποιήσουμε άλγεβρα.</p>
+<p>Η απόδειξή μας, από τη φύση της μας καλεί να πάμε με απαγωγή σε άτοπο. Αυτό και θα κάνουμε. Έστω ότι ο  <span class="math notranslate nohighlight">\(\pi\)</span>  είναι αλγεβρικός, δηλαδή ότι υπάρχει ένα πολυώνυμο  <span class="math notranslate nohighlight">\(\Pi\)</span>  με ακέραιους συντελεστές έτσι ώστε  <span class="math notranslate nohighlight">\(\Pi(\pi)=0.\)</span>  Αυτό άμεσα σημαίνει ότι και ο φανταστικός αριθμός  <span class="math notranslate nohighlight">\(i\pi\)</span>  είναι αλγεβρικός. Πράγματι, αφού ο  <span class="math notranslate nohighlight">\(\pi\)</span>  είναι αλγεβρικός, το ίδιο θα είναι και ο  <span class="math notranslate nohighlight">\(\pi^4.\)</span>  Αυτό είναι σχετικά απλό αφού, αρχικά:</p>
+<div class="math notranslate nohighlight">
+\[\Pi\left(\pi^2\right)=a\left(\pi^2\right)+\pi b\left(\pi^2\right).\]</div>
+<p>Στην ουσία, απλά στο  <span class="math notranslate nohighlight">\(a\)</span>  συμπεριλάβαμε όλους τους όρους άρτιου βαθμού ενώ στο  <span class="math notranslate nohighlight">\(b\)</span>  όλους τους όρους περιττού βαθμού, αφού βγάλαμε έναν κοινό παράγοντα. Τώρα, παρατηρούμε ότι για το πολυώνυμο:</p>
+<div class="math notranslate nohighlight">
+\[Y(x):=a(x)^2-xb(x)^2,\]</div>
+<p>ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[Y(\pi^2)=a(\pi^2)^2-\pi^2b(\pi^2)^2=\left(a(\pi^2)-\pi b(\pi^2)\right)\left(a(\pi^2)+\pi b(\pi^2)\right)=0,\]</div>
+<p>άρα και ο  <span class="math notranslate nohighlight">\(\pi^2\)</span>  είναι αλγεβρικός, ομοίως και ο  <span class="math notranslate nohighlight">\(\pi^4=(\pi^2)^2.\)</span></p>
+<p>Ωστόσο, επειδή  <span class="math notranslate nohighlight">\(i^4=1,\)</span>  έπεται ότι:</p>
+<div class="math notranslate nohighlight">
+\[\pi^4=(i\pi)^4,\]</div>
+<p>άρα και ο  <span class="math notranslate nohighlight">\((i\pi)^4\)</span>  είναι αλγεβρικός. Τώρα, αυτό σημαίνει ότι για κάποιο πολυώνυμο  <span class="math notranslate nohighlight">\(T\)</span>  με ακέραιους συντελεστές ισχύει ότι  <span class="math notranslate nohighlight">\(T\left((i\pi)^4\right)=0.\)</span>  Θεωρούμε, τώρα, το πολυώνυμο  <span class="math notranslate nohighlight">\(\tau\)</span>  με:</p>
+<div class="math notranslate nohighlight">
+\[\tau(x)=T(x^4),\]</div>
+<p>το οποίο έχει σαφώς ακέραιους συντελεστές και ισχύει ότι  <span class="math notranslate nohighlight">\(\tau(i\pi)=T\left((i\pi)^4\right)=0,\)</span>  επομένως και ο  <span class="math notranslate nohighlight">\(i\pi\)</span>  είναι αλγεβρικός. Τώρα, έστω  <span class="math notranslate nohighlight">\(p\)</span>  το πολυώνυμο <em>ελαχίστου βαθμού</em> με μοναδιαίο συντελεστή μεγιστοβάθμιου όρου το οποίο ικανοποιεί την:</p>
+<div class="math notranslate nohighlight">
+\[p(i\pi)=0.\]</div>
+<p>Αυτό το πολυώνυμο μπορούμε να το γράψουμε στη μορφή:</p>
+<div class="math notranslate nohighlight">
+\[p(x)=\prod_{k=0}^n(x-\rho_k),\]</div>
+<p>όπου υποθέτουμε ότι  <span class="math notranslate nohighlight">\(\rho_0=i\pi\)</span>  και ότι καμία από τις υπόλοιπες ρίζες δεν είναι μηδέν - αν ήταν, τότε το  <span class="math notranslate nohighlight">\(p\)</span>  δε θα ήταν ελαχίστου βαθμού. Έστω τώρα  <span class="math notranslate nohighlight">\(A_0\)</span>  το σύνολο όλων των ριζών  <span class="math notranslate nohighlight">\(\rho_k\)</span>  καθώς και όλων των αθροισμάτων τους. Σαφώς, το  <span class="math notranslate nohighlight">\(A_0\)</span>  είναι πεπερασμένο - έχει το πολύ  <span class="math notranslate nohighlight">\(2^{n+1}-1\)</span>  στοιχεία (γιατί;) - και με βάση αυτό, μπορούμε να παρατηρήσουμε ότι το ακόλουθο γινόμενο γράφεται ως άθροισμα ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[\prod_{k=0}^n(1+e^{\rho_k})=1+\sum_{a\in A_0}e^{a}.\]</div>
+<p>Τώρα, από τη διάσημη <a class="reference external" href="https://en.wikipedia.org/wiki/Euler%27s_identity">ταυτότητα του Euler</a>, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[1+e^{i\pi}=0\Leftrightarrow1+e^{\rho_0}=0\Rightarrow\prod_{k=0}^n(1+e^{\rho_k})=0\Leftrightarrow 1+\sum_{a\in A_0}e^a=0.\]</div>
+<p>Τώρα, θεωρούμε το σύνολο  <span class="math notranslate nohighlight">\(A\)</span>  που ορίζεται ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[A=\{x\in A_0:x\neq0\}.\]</div>
+<p>Με άλλα λόγια, το  <span class="math notranslate nohighlight">\(A\)</span>  περιέχει τα <em>μη μηδενικά</em> αθροίσματα των ριζών του  <span class="math notranslate nohighlight">\(p.\)</span>  Τότε, δεδομένου ότι  <span class="math notranslate nohighlight">\(e^0=1,\)</span>  μπορούμε να γράψουμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[1+\sum_{a\in A_0}e^a=0\Leftrightarrow \underbrace{1+\#A_0-\#A}_{k}+\sum_{a\in A}e^a=0.\]</div>
+<p>Με άλλα λόγια, μαζέψαμε μπροστά όλους τους άσσους και αφήσαμε μέσα στο άθροισμα μόνο εκείνα τα εκθετικά που δεν είναι τετριμμένα. Τώρα, θεωρούμε το πολυώνυμο:</p>
+<div class="math notranslate nohighlight">
+\[P(x)=\prod_{a\in A}(x-a).\]</div>
+<p>Από το κύριο αποτέλεσμα που αποδείξαμε στο αναλυτικό μέρος της απόδειξής μας, για  <span class="math notranslate nohighlight">\(c_k=1,\)</span> <span class="math notranslate nohighlight">\(c_0=k&gt;0\)</span>  και  <span class="math notranslate nohighlight">\(c=1\)</span>  έπεται ότι από την υπόθεση:</p>
+<div class="math notranslate nohighlight">
+\[k+\sum_{a\in A}e^a=0,\]</div>
+<p>υπάρχει ένας αρκετά μεγάλος πρώτος αριθμός  <span class="math notranslate nohighlight">\(m\)</span>  έτσι ώστε:</p>
+<div class="math notranslate nohighlight">
+\[\sum_{a\in A}Q_m(a)\not\in\mathbb{Z},\]</div>
+<p>όπου:</p>
+<div class="math notranslate nohighlight">
+\[Q_m:=\frac{1}{m!}\sum_{k\geq m}T_m^{(k)},\]</div>
+<p>και, φυσικά:</p>
+<div class="math notranslate nohighlight">
+\[T_m(x):=x^{m-1}\left(p(x)\right)^m.\]</div>
+<p>Τώρα, ας παρατηρήσουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[x^{k-1}P(x)=\prod_{a\in A_0}(x-a),\]</div>
+<p>αφού υπάρχουν ακριβώς  <span class="math notranslate nohighlight">\(k-1\)</span>  στο πλήθος στοιχεία στο  <span class="math notranslate nohighlight">\(A_0\)</span>  τα οποία είναι μηδενικά, οπότε και  <span class="math notranslate nohighlight">\(x-a=x\)</span>  για κάθε μηδενικό  <span class="math notranslate nohighlight">\(a\in A_0.\)</span>  Τώρα, από όσα αναφέραμε για τους τύπους του Vieta, γνωρίζουμε ότι οι συντελεστές του πολυωνύμου  <span class="math notranslate nohighlight">\(x^{k-1}P(x)\)</span>  προκύπτουν από τις ρίζες του - δηλαδή τα στοιχεία του  <span class="math notranslate nohighlight">\(A_0\)</span>  - μέσα από την εφαρμογή στοιχειωδών συμμετρικών πολυωνύμων. Τα στοιχεία, όμως, του  <span class="math notranslate nohighlight">\(A_0\)</span>  είναι αθροίσματα (και τετριμμένα) των ριζών  <span class="math notranslate nohighlight">\(\rho_k,\)</span>  και, σαφώς, παραμένουν αναλλοίωτα αν απλώς μεταθέσουμε τη σειρά των ριζών  <span class="math notranslate nohighlight">\(\rho_k,\)</span>  επομένως μπορούμε να πούμε με ασφάλεια ότι οι συντελεστές του  <span class="math notranslate nohighlight">\(x^{k-1}P(x)\)</span>  προκύπτουν από εφαρμογή συμμετρικών (όχι κατ’ανάγκη στοιχειωδών) πολυωνύμων, έστω  <span class="math notranslate nohighlight">\(\tau_j,\)</span>  στις ρίζες  <span class="math notranslate nohighlight">\(\rho_k\)</span>  του  <span class="math notranslate nohighlight">\(p.\)</span></p>
+<p>Από την άλλη, οι συντελεστές του  <span class="math notranslate nohighlight">\(p\)</span>  προκύπτουν από την εφαρμογή στοιχειωδών συμμετρικών πολυωνύμων στις ρίζες  <span class="math notranslate nohighlight">\(\rho_k.\)</span>  Για την ακρίβεια, όπως έχουμε δει, κάθε συντελεστής προκύπτει από την εφαρμογή ενός στοιχειώδους συμμετρικού πολυωνύμου στις ρίζες του  <span class="math notranslate nohighlight">\(p\)</span> . Τώρα, από το θεμελιώδες θεώρημα των συμμετρικών πολυωνύμων συμπεραίνουμε ότι καθένα από τα  <span class="math notranslate nohighlight">\(\tau_j\)</span>  μπορεί να εκφραστεί ως ένα πολυώνυμο με ακέραιους συντελεστές των <em>συντελεστών</em> του  <span class="math notranslate nohighlight">\(p\)</span>  - που είναι στοιχειώδη συμμετρικά πολυώνυμα των ριζών του - συνεπώς κάθε συντελεστής του  <span class="math notranslate nohighlight">\(x^{k-1}P(x)\)</span>  είναι <em>ρητός</em>. Έτσι, αν  <span class="math notranslate nohighlight">\(M\)</span>  είναι το ΕΚΠ όλων των παρονομαστών των συντελεστών του, το πολυώνυμο:</p>
+<div class="math notranslate nohighlight">
+\[Q(x)=MP(x)=M\prod_{x\in A_0}(x-a).\]</div>
+<p>έχει ακέραιους συντελεστές, άρα το ίδιο ισχύει και για το πολυώνυμο:</p>
+<div class="math notranslate nohighlight">
+\[q(x)=Mp(x)=M\prod_{a\in A}(x-a).\]</div>
+<p>Τώρα, από το παραπάνω έπεται ότι και το πολυώνυμο  <span class="math notranslate nohighlight">\(Q_m\)</span>  έχει ακέραιους συντελεστές, επομένως, η παρακάτω έκφραση:</p>
+<div class="math notranslate nohighlight">
+\[\sum_{a\in A}Q_m(a)\]</div>
+<p>προκύπτει - με ανάλογο σκεπτικό - εφαρμόζοντας ένα πολυώνυμο με ακέραιους συντελεστές στους συντελεστές του  <span class="math notranslate nohighlight">\(q(x)\)</span>  οι οποίοι είναι επίσης ακέραιοι. Άρα, η παραπάνω παράσταση είναι ακέραια, άτοπο!</p>
+</section>
+</section>
+<section id="id26">
+<h2>Επίλογος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id26" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id26'"><span>#</span></a></h2>
+<p>Ουφ και πάλι ουφ! Κουραστήκαμε αρκετά αλλά, με αρκετή βοήθεια από πιο προχωρημένες έννοιες των μαθηματικών καταφέραμε να αποδείξουμε ένα από τα πλέον ιστορικά αποτελέσματα των μαθηματικών: ότι δεν υπάρχει πολυώνυμο με ακέραιους συντελεστές που να έχει ως ρίζα του τον  <span class="math notranslate nohighlight">\(\pi!\)</span>  Αυτό το αποτέλεσμα - αν και πρωτοαποδείχθηκε διαφορετικά - αποτελεί τον ακρογωνιαίο λίθο για μία σειρά από πολύ γνωστά και παλιά προβλήματα των μαθηματικών. Περισσότερα επ” αυτού θα πούμε την ερχόμενη εβδομάδα!</p>
+<blockquote>
+<div><div class="video_wrapper" style="">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/fzxPZRpBIXc" style="border: 0; height: 345px; width: 560px">
+</iframe></div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        Η σωστή ερώτηση…
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">
+        Και οι 7 Είναι Υπέροχες!
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Εισαγωγή</a></li>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Μία μεγάλη απόδειξη…</a></li>
+<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Τι είναι οι Μιγαδικοί Αριθμοί;</a></li>
+<li><a :data-current="activeSection === '#id21'" class="reference internal" href="#id21">Συμμετρικά πολυώνυμα</a></li>
+<li><a :data-current="activeSection === '#id22'" class="reference internal" href="#id22">Πολυώνυμα και μιγαδικοί</a></li>
+<li><a :data-current="activeSection === '#id23'" class="reference internal" href="#id23">Η απόδειξη</a><ul>
+<li><a :data-current="activeSection === '#id24'" class="reference internal" href="#id24">Αναλυτικό μέρος</a></li>
+<li><a :data-current="activeSection === '#id25'" class="reference internal" href="#id25">Αλγεβρικό μέρος</a></li>
+</ul>
+</li>
+<li><a :data-current="activeSection === '#id26'" class="reference internal" href="#id26">Επίλογος</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

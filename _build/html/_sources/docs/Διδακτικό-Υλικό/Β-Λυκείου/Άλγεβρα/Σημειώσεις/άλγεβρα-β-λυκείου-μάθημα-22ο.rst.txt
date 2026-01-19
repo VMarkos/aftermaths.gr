@@ -1,0 +1,35 @@
+Άλγεβρα, Β' Λυκείου - Μάθημα 22ο
+################################
+
+.. meta::
+	:date: 2022-02-23 13:14
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: συναρτήσεις, Β' Λυκείου, άλγεβρα, διαφάνειες, εκθετική, θεωρία
+	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-22%ce%bf
+	:status: published
+	:attachments: _static/images/uploads/2022/02/fredegund_by_the_deathbed_of_bishop_praetextatus.jpg
+
+.. figure:: /_static/images/uploads/2022/02/fredegund_by_the_deathbed_of_bishop_praetextatus.jpg
+	:alt: Ο πίνακας *Η Freddegund στο νεκροκρέβατο του Αρχιεπισκόπου Praetextatus* του `Lawrence Alma-Tadema  <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
+	:align: center
+
+	Ο πίνακας *Η Freddegund στο νεκροκρέβατο του Αρχιεπισκόπου Praetextatus* του `Lawrence Alma-Tadema  <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__. 
+
+
+Μία μικρή εισαγωγή στις εκθετικές συναρτήσεις και τη σχέση τους με τους ρητούς εκθέτες - Άλγεβρα Β' Γενικού Λυκείου.
+
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1ZKSgknjxefZ-Vfr6xQI8as9WsDwFJrCt/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-β-λυκείου-μάθημα-21ο.rst>`__\ *ενώ τις αντίστοιχες της Α' Λυκείου*\ `εδώ  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-α-λυκείου-μάθημα-22ο.rst>`__\ *.*
+
+
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+
+
+
+   .. youtube:: 6uGf8VT81fE 
+
+

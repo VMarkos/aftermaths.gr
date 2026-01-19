@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2023-10-01 14:41" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Διδακτική, Μαθηματικά" name="category"/>
+<meta content="featured, Α' Λυκείου, άρρητοι, άλγεβρα, αποδείξεις" name="tags"/>
+<meta content="%ce%ba%ce%b1%ce%b9-%ce%bf%ce%b9-7-%ce%b5%ce%af%ce%bd%ce%b1%ce%b9-%cf%85%cf%80%ce%ad%cf%81%ce%bf%cf%87%ce%b5%cf%82" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2023/09/pythagoras_03.png, _static/images/uploads/2023/09/pythagoras_02.png, _static/images/uploads/2023/09/tennenbaum_02.png, _static/images/uploads/2023/09/pythagoras_01.png, _static/images/uploads/2023/09/karl_wilhelm_diefenbach_-_toteninsel.jpg, _static/images/uploads/2023/09/tennenbaum_01.png, _static/images/uploads/2023/09/tennenbaum_02-1.png, _static/images/uploads/2023/10/construction_01.png, _static/images/uploads/2023/09/pythagoras_04.png, _static/images/uploads/2023/09/pythagoras_05.png" name="attachments"/>
+<title>Και οι 7 Είναι Υπέροχες! | aftermaths</title>
+<meta content="Και οι 7 Είναι Υπέροχες! | aftermaths" property="og:title"/>
+<meta content="Και οι 7 Είναι Υπέροχες! | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html" rel="next" title="Κατασκευαστικές… αδυναμίες"/>
+<link href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html" rel="prev" title="Η υπερβατικότητα του π"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Και οι 7 Είναι Υπέροχες!</span>
+</nav>
+<div id="content" role="main">
+<section id="id1">
+<h1>Και οι 7 Είναι Υπέροχες!<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+<figure class="align-center" id="id9">
+<img alt="*το νησί των νεκρών* του `Karl Wilhelm Diefenbach  &lt;https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach&gt;`__." src="_static/images/uploads/2023/09/pythagoras_03.png,_static/images/uploads/2023/09/pythagoras_02.png,_static/images/uploads/2023/09/tennenbaum_02.png,_static/images/uploads/2023/09/pythagoras_01.png,_static/images/uploads/2023/09/karl_wilhelm_diefenbach_-_toteninsel.jpg,_static/images/uploads/2023/09/tennenbaum_01.png,_static/images/uploads/2023/09/tennenbaum_02-1.png,_static/images/uploads/2023/10/construction_01.png,_static/images/uploads/2023/09/pythagoras_04.png,_static/images/uploads/2023/09/pythagoras_05.png"/>
+<figcaption>
+<p><span class="caption-text"><em>το νησί των νεκρών</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach">Karl Wilhelm Diefenbach</a>.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τα έχουμε <a class="reference external" href="docs/After-maths/τι-λέει-το-θεώρημα-του-bolzano.rst">ξαναπεί</a> και στο παρελθόν, τα μαθηματικά, ιδιαίτερα τα σχολικά, είναι συνυφασμένα με τις εποχές του χρόνου. Και μαζί με τη φθινοπωρινή δροσιά του Σεπτέμβρη έρχονται και οι άρρητοι. Γιατί, κάπου τώρα είναι που σκεφτόμαστε και προβληματιζόμαστε γιατί και πώς να διδάξουμε τη ρημάδα την απόδειξη της αρρητότητας του  <span class="math notranslate nohighlight">\(\sqrt{2}.\)</span>  Τους διδακτικούς στόχους αυτής της απόδειξης τους έχουμε συζητήσει αρκετά στο παρελθόν, όταν και ανακαλύψαμε, με περισσή έκπληξη, ότι η κλασική σχολική απόδειξη <em>δεν είναι μία απόδειξη με απαγωγή σε άτοπο</em> - ναι, ναι, αν δεν το θυμάστε, μπορείτε να κάνετε μία <a class="reference external" href="docs/After-maths/απαγωγή-σε-άτοπο-not.rst">επανάληψη</a>.</p>
+<p>Άντε, πες ότι δεν αποδεικνύουμε έτσι την αρρητότητα του  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  όπως στο σχολικό βιβλίο. Τότε, τι θα απογίνουμε χωρίς τους άρρητους; Πρέπει κάπως να αποδείξουμε στην τάξη ότι κάποιοι αριθμοί δεν μπορούν να γραφτούν ως κλάσματα και, άρα, ότι δεν είναι όλοι οι πραγματικοί αριθμοί ρητοί, οπότε έχει νόημα να μιλάμε για το σύνολο  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>  των πραγματικών αριθμών ως ένα γνήσιο υπερσύνολο του συνόλου  <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>  των ρητών.</p>
+<p>Μπορούμε, άραγε, να παρουσιάσουμε μία κομψή απόδειξη της αρρητότητας του  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  χωρίς να καταφύγουμε στην παραδοσιακή απόδειξη;</p>
+<section id="id2">
+<h2>Η Κλασική Απόδειξη<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>Την έχουμε <a class="reference external" href="docs/After-maths/απαγωγή-σε-άτοπο-not.rst">ξαναδεί</a> αναλυτικά αυτή την απόδειξη, αλλά για λόγους πληρότητας θα την παρουσιάσουμε κι εδώ, ως τη βασική περίπτωση. Λοιπόν, ας υποθέσουμε (προς άτοπο) ότι ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  είναι ρητός, δηλαδή υπάρχουν δύο θετικοί ακέραιοι αριθμοί  <span class="math notranslate nohighlight">\(m,n\)</span>  έτσι ώστε:</p>
+<div class="math notranslate nohighlight">
+\[\sqrt{2}=\frac{m}{n},\]</div>
+<p>και, επιπλέον, υποθέτουμε ότι το παραπάνω κλάσμα είναι ανάγωγο, δηλαδή ότι οι  <span class="math notranslate nohighlight">\(m,n\)</span>  έχουν μέγιστο κοινό διαιρέτη το 1. Υψώνουμε την παραπάνω ισότητα στο τετράγωνο - τι πιο φυσικό να κάνουμε με μία τετραγωνική ρίζα; - οπότε και έχουμε τα εξής:</p>
+<div class="math notranslate nohighlight">
+\[\sqrt{2}^2=\frac{m^2}{n^2}\Leftrightarrow 2n^2=m^2.\]</div>
+<p>Συνεπώς, ο  <span class="math notranslate nohighlight">\(m^2\)</span>  είναι άρτιος - ως πολλαπλάσιο του 2 - και άρα και ο  <span class="math notranslate nohighlight">\(m\)</span>  είναι άρτιος (αυτό θέλει απόδειξη, αλλά είναι εύκολο να το δείτε, καθώς το τετράγωνο ενός περιττού είναι περιττός - βέβαια, το σχολικό βιβλίο το θεωρεί λίγο έως πολύ προφανές ή γνωστό από κάπου αλλού). Τώρα, αφού ο  <span class="math notranslate nohighlight">\(m\)</span>  είναι άρτιος, έπεται άμεσα ότι  <span class="math notranslate nohighlight">\(m=2k\)</span>  για κάποιον θετικό ακέραιο  <span class="math notranslate nohighlight">\(k\)</span>  και άρα έχουμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[2n^2=(2k)^2\Leftrightarrow 2n^2=4k^2\Leftrightarrow n^2=2k^2.\]</div>
+<p>Αυτό, όπως φαντάζεστε, σημαίνει ότι και ο  <span class="math notranslate nohighlight">\(n^2\)</span>  είναι άρτιος και άρα και ο  <span class="math notranslate nohighlight">\(n\)</span>  είναι άρτιος. Επομένως, με λίγο κόπο δείξαμε ότι οι  <span class="math notranslate nohighlight">\(m,n\)</span>  είναι αμφότεροι άρτιοι, άρα έχουν κοινό διαιρέτη το 2. Ωστόσο, είχαμε υποθέσει παραπάνω ότι έχουν μέγιστο κοινό διαιρέτη το 1, πράγμα που μας οδηγεί σε αντίφαση. Άρα δεν ισχύει η υπόθεσή μας ότι ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  είναι ρητός, άρα, μαντέψτε, είναι άρρητος.</p>
+<p>Κλασική, διαχρονική, σχολική (;) απόδειξη. Το βασικό της πρόβλημα όταν πάμε να τη διδάξουμε στην Α” Λυκείου είναι ότι επικαλείται απλά μεν, άγνωστα δε, αποτελέσματα από τη θεωρία αριθμών και, γενικότερα, έχει μία προσέγγιση πλήρως ξένη προς όσες αποδείξεις έχουν παρουσιαστεί μέχρι εκείνη τη στιγμή στη σχολική ύλη. Διότι, από εκεί που τα παιδιά έχουν μάθει να αποδεικνύουν ισότητες και, στο τσακίρ κέφι, και καμία ανισότητα, τώρα ξαφνικά αποδεικνύουμε ένα πιο περίπλοκο ισχυρισμό με αρκετά ασυνήθιστα μέσα.</p>
+<p>Όμως, μη μακρηγορούμε, τα έχουμε πει όλα αυτά πολύ αναλυτικά <a class="reference external" href="docs/After-maths/απαγωγή-σε-άτοπο-not.rst">εδώ</a>. Ας περάσουμε τώρα σε άλλες, ίσως πιο κατάλληλες, σίγουρα όμως αρκετά ενδιαφέρουσες αποδείξεις.</p>
+</section>
+<section id="id3">
+<h2>Το Θυμάστε το Πυθαγόρειο;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<p>Ένα από τα πιο διάσημα επώνυμα θεωρήματα είναι το γνωστό και μη εξαιρετέο Πυθαγόρειο Θεώρημα. Ακόμα καλύτερα, το θεώρημα αυτό το διδάσκεται κανείς πρώτη φορά αρκετά νωρίς, στη Β” Γυμνασίου, οπότε όταν τα παιδιά έρχονται στην Α” Λυκείου, είναι ήδη μέρος του οπλοστασίου τους. Όμως, τι σχέση έχει το Πυθαγόρειο με τον  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  άραγε;</p>
+<p>Ρίξτε μια ματιά στο παρακάτω σχήμα:</p>
+<figure class="wp-image-12632 align-default" id="id10">
+<img alt="Γνωστή κατασκευή, έτσι;" src="docs/After-maths/{static}_static/images/uploads/2023/09/pythagoras_01.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Γνωστή κατασκευή, έτσι;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id10"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Αυτό είναι η κλασική κατασκευή με κανόνα και διαβήτη της τετραγωνικής ρίζας του 2. Για να το πετύχουμε αυτό σχεδιάζουμε ένα ορθογώνιο τρίγωνο με κάθετες πλευρές μήκους 1, οπότε το Πυθαγόρειο Θεώρημα μας πληροφορεί ότι για την υποτείνουσά του, έστω  <span class="math notranslate nohighlight">\(c,\)</span>  ισχύει το εξής:</p>
+<div class="math notranslate nohighlight">
+\[1^2+1^2=c^2\Leftrightarrow c=\sqrt{2}.\]</div>
+<p>Δηλαδή, μας εγγυάται το Πυθαγόρειο Θεώρημα (και το αντίστροφό του) ότι μπορούμε να κατασκευάσουμε ένα ορθογώνιο τρίγωνο με τη μία του πλευρά να είναι ίση με  <span class="math notranslate nohighlight">\(\sqrt{2}.\)</span></p>
+<p>Αλήθεια, μπορούμε να κατασκευάσουμε με κανόνα και διαβήτη κάθε ευθύγραμμο τμήμα; Αν απαντήσατε «ναι» ή αν δεν ξέρετε γιατί απαντήσατε «όχι», ρίξτε μια ματιά <a class="reference external" href="docs/After-maths/κατασκευαστικές-αδυναμίες.rst">εδώ</a>.</p>
+<p>Τώρα, ας υποθέσουμε ότι ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  είναι ρητός, δηλαδή ότι υπάρχουν ακέραιοι  <span class="math notranslate nohighlight">\(m,n\)</span>  τέτοιοι ώστε να ισχύει:</p>
+<div class="math notranslate nohighlight">
+\[\sqrt{2}=\frac{m}{n}.\]</div>
+<p>Επίσης, μπορούμε να υποθέσουμε κατά τα γνωστά ότι το παραπάνω κλάσμα είναι ανάγωγο, δηλαδή, ότι αριθμητής και παρονομαστής έχουν μέγιστο κοινό διαιρέτη ίσο με 1. Αυτό σημαίνει επίσης και ότι τόσο ο αριθμητής όσο κα ιο παρονομαστής είναι οι ελάχιστοι δυνατοί. Δηλαδή, ο αριθμός  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  αν είναι ρητός, δεν μπορεί να γραφτεί ως κλάσμα με μικρότερο αριθμητή ή παρονομαστή - κάτι τέτοιο θα σήμαινε ότι το κλάσμα  <span class="math notranslate nohighlight">\(m/n\)</span>  μπορεί να απλοποιηθεί περαιτέρω, πράγμα που θα σήμαινε ότι δεν είναι ανάγωγο. Κρατήστε αυτήν την παρατήρηση για το μέλλον.</p>
+<p>Τώρα, ας θεωρήσουμε ένα τρίγωνο με δύο πλευρές μήκους  <span class="math notranslate nohighlight">\(n\)</span>  και μία πλευρά μήκους  <span class="math notranslate nohighlight">\(m.\)</span>  Παρατηρήστε ότι σε αυτήν την περίπτωση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[n^2+n^2=2n^2=\sqrt{2}^2n^2=\frac{m^2}{n^2}n^2=m^2.\]</div>
+<p>Με πιο απλά λόγια, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[n^2+n^2=m^2.\]</div>
+<p>Συνεπώς, αυτό δεν είναι παρά ένα ορθογώνιο τρίγωνο, όπως μας πληροφορεί το αντίστροφο του Πυθαγορείου Θεωρήματος. Μάλιστα, αν παρατηρήσετε προσεκτικά, δεν είναι τίποτα άλλο από το αρχικό μας τρίγωνο με πλευρές πολλαπλασιασμένες κατά  <span class="math notranslate nohighlight">\(n\)</span>  - τον παρονομαστή, δηλαδή, του  <span class="math notranslate nohighlight">\(\sqrt{2}.\)</span>  Για την ακρίβεια, τα δύο τρίγωνα θα μοιάζουν κάπως έτσι:</p>
+<figure class="wp-image-12641 align-default" id="id11">
+<img alt="Μεγαλώωωωωωνει!" src="docs/After-maths/{static}_static/images/uploads/2023/09/pythagoras_02.png?w=769"/>
+<figcaption>
+<p><span class="caption-text">Μεγαλώωωωωωνει!</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Αυτό το νέο τριγωνάκι έχει την εξαιρετική ιδιότητα όλες οι πλευρές του να είναι ακέραιοι αριθμοί. Πιάνουμε τώρα τον διαβήτη μας και μεταφέρουμε την πλευρά  <span class="math notranslate nohighlight">\(AB\)</span>  πάνω στην υποτείνουσα του τριγώνου,  <span class="math notranslate nohighlight">\(BC,\)</span>  οπότε και παίρνουμε το παρακάτω σχήμα:</p>
+<figure class="wp-image-12644 align-default" id="id12">
+<img alt="Φανταστείτε ότι η πλευρά AB κρέμεται από το B κι εσείς την κλωτσάτε από τα δεξιά..." src="docs/After-maths/{static}_static/images/uploads/2023/09/pythagoras_03.png?w=602"/>
+<figcaption>
+<p><span class="caption-text">Φανταστείτε ότι η πλευρά AB κρέμεται από το B κι εσείς την κλωτσάτε από τα δεξιά…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id12"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τώρα, φέρουμε μία κάθετη από το  <span class="math notranslate nohighlight">\(D\)</span>  στην  <span class="math notranslate nohighlight">\(BC\)</span>  η οποία τέμνει την  <span class="math notranslate nohighlight">\(AC\)</span>  στο  <span class="math notranslate nohighlight">\(E\)</span>  όπως φαίνεται και παρακάτω:</p>
+<figure class="wp-image-12646 align-default" id="id13">
+<img alt="Σχεδιάσαμε ένα «ίδιο» τρίγωνο μέσα στο αρχικό!" src="docs/After-maths/{static}_static/images/uploads/2023/09/pythagoras_04.png"/>
+<figcaption>
+<p><span class="caption-text">Σχεδιάσαμε ένα «ίδιο» τρίγωνο μέσα στο αρχικό!</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id13"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Παρατηρήστε ότι το τρίγωνο  <span class="math notranslate nohighlight">\(CDE\)</span>  είναι, πέρα από ορθογώνιο, και ισοσκελές, επομένως ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[CD=DE=m-n.\]</div>
+<p>Μένει τώρα να υπολογίσουμε την υποτείνουσα αυτού του τριγώνου. Επειδή είναι ορθογώνιο, αυτό μπορεί να γίνει σχετικά εύκολα με τη βοήθεια του Πυθαγορείου Θεωρήματος:</p>
+<div class="math notranslate nohighlight">
+\[(m-n)^2+(m-n)^2=x^2\Rightarrow x=\sqrt{2}(m-n).\]</div>
+<p>Εδώ κάπου να θυμηθούμε ότι  <span class="math notranslate nohighlight">\(\sqrt{2}=m/n\)</span>  οπότε μπορούμε να κάνουμε την ακόλουθη αντικατάσταση:</p>
+<div class="math notranslate nohighlight">
+\[x=\frac{m}{n}(m-n)=\frac{m^2}{n}-m.\]</div>
+<p>Κι εδώ έρχεται ένα ακόμα μικρό τέχνασμα:</p>
+<div class="math notranslate nohighlight">
+\[x=\frac{m^2}{n^2}n-m=\sqrt{2}^2n-m=2n-m.\]</div>
+<p>Ωραίο, ε; Απλώς εκμεταλλευτήκαμε τον ορισμό της τετραγωνικής ρίζας του 2, τίποτα πιο αθώο από αυτό. Έτσι, το σχήμα μας τελικά έχει τις ακόλουθες διαστάσεις:</p>
+<figure class="wp-image-12652 align-default" id="id14">
+<img alt="Ωραία τα μετρήσαμε, αλλά τι καταφέραμε;" src="docs/After-maths/{static}_static/images/uploads/2023/09/pythagoras_05.png?w=602"/>
+<figcaption>
+<p><span class="caption-text">Ωραία τα μετρήσαμε, αλλά τι καταφέραμε;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id14"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τώρα, ας συνοψίσουμε λίγο τις ιδιότητες του  <span class="math notranslate nohighlight">\(CDE:\)</span></p>
+<ul class="simple">
+<li><p>Είναι ένα ορθογώνιο τρίγωνο με ακέραιες πλευρές (όλες τους είναι διαφορές ακεραίων).</p></li>
+<li><p>Οι δύο κάθετες πλευρές του είναι ίσες.</p></li>
+</ul>
+<p>Ως απόρροια της δεύτερης ιδιότητάς του, ο λόγος της υποτείνουσας προς τις κάθετες πλευρές του πρέπει να είναι ίσος με  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  οπότε και έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\sqrt{2}=\frac{2n-m}{m-n}.\]</div>
+<p>Από την υπόθεσή μας έχουμε επίσης και ότι:</p>
+<div class="math notranslate nohighlight">
+\[\sqrt{2}=\frac{m}{n}.\]</div>
+<p>Είχαμε, μάλιστα, πει, ότι οι  <span class="math notranslate nohighlight">\(m,n\)</span>  είναι οι ελάχιστοι αριθμητές και παρονομαστές στην παραπάνω γραφή, πράγμα που προφανώς έρχεται σε αντίφαση ότι εμείς γράψαμε τον  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  με αριθμητή  <span class="math notranslate nohighlight">\(m-n&lt;m.\)</span>  Συνεπώς, έχουμε αποδείξει ότι ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  δεν μπορεί να είναι ρητός, άρα είναι άρρητος.</p>
+<p>Ωραία απόδειξη, γεωμετρική, με αναφορές κυρίως σε απλές κατασκευές από τη σχολική γεωμετρία, ωστόσο πόσο κατάλληλη είναι μία τέτοια απόδειξη για την τάξη; Η αλήθεια είναι ότι αυτό «παίζεται». Πράγματι, η απόδειξη αυτή φέρνει κοντά γνωστές πλην όμως ασύνδετες έννοιες για τα παιδιά της Α” Λυκείου, όπως το Πυθαγόρειο Θεώρημα και τις κατασκευές με κανόνα και διαβήτη, στα χωράφια της άλγεβρας. Όπως και κάθε τέτοια νέα σύνδεση, έτσι κι αυτή είναι ένα δίκοπο μαχαίρι, αφού εξαρτάται πολύ από το τμήμα που έχει κανείς στα χέρια του και τη διαχείριση μέσα στην τάξη το αν η απόδειξη θα παρακινήσει τα παιδιά ή απλά θα την κοιτάζουν όλο απορία.</p>
+<p>Από την άλλη, ίσως η παραπάνω απόδειξη να βγάζει περισσότερο νόημα καθώς κανείς προχωρά στο σχολικό έτος. Ίσως είναι νωρίς τις πρώτες εβδομάδες, μέσα σε όλη την αναταραχή που φέρνει η άλγεβρα της Α” Λυκείου στο μαθηματικό οικοδόμημα των μαθητών να έρθει και μία κομψή, μεν, αλλά πλατιά ως προς τα μέσα της απόδειξη. Βέβαια, από την άλλη μεριά, ακριβώς αυτό το πλάτος μας δίνει τις απαραίτητες αφορμές να συζητήσουμε στην τάξη πώς δουλεύουν τα μαθηματικά, τονίζοντας αυτόν τον διαθεματικό χαρακτήρα τους - καταλήξαμε σε μία απόδειξη περί αριθμών μέσα από την αξιοποίηση της ομοιότητας τριγώνων και το Πυθαγόρειο Θεώρημα, πραγμάτων που σπάνια εμφανίζονται σε ένα τμήμα άλγεβρας.</p>
+<p>Στο τέλος της ημέρας, η απόδειξη αυτή ίσως να μην είναι απλούστερη από την κλασική απόδειξη που έχει το σχολικό βιβλίο για την αρρητότητα του  <span class="math notranslate nohighlight">\(\sqrt{2},\)</span>  είναι όμως μία απόδειξη που δεν επικαλείται πράγματα που τα παιδιά δεν έχουν διδαχθεί στο παρελθόν. Κι αυτό της το χαρακτηριστικό είναι αρκετά ενδιαφέρον από μόνο του.</p>
+</section>
+<section id="id4">
+<h2>Πέφτοντας στο Διηνεκές<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h2>
+<p>Η απόδειξη που συζητήσαμε μόλις πριν από λίγες γραμμές (και η οποία αποδίδεται στον <a class="reference external" href="https://en.wikipedia.org/wiki/Tom_M._Apostol">Tom M. Apostol</a>) κρύβει πολύ περίτεχνα μία απειρία μέσα της. Αυτήν εδώ την απειρία θα προσπαθήσουμε να βγάλουμε χειρουργικά με την επόμενη απόδειξή μας. Θα εργαστούμε πάλι με μία «σχολική» απαγωγή σε άτοπο, όπως και παραπάνω.</p>
+<p>Τι διαφορά έχει η «σχολική» με την κανονική απαγωγή σε άτοπο; Αν δε θυμάστε, ρίξτε μια ματιά <a class="reference external" href="docs/After-maths/απαγωγή-σε-άτοπο-not.rst">εδώ</a>.</p>
+<p>Ας υποθέσουμε, λοιπόν, ότι ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  είναι ρητός, δηλαδή γράφεται στη μορφή:</p>
+<div class="math notranslate nohighlight">
+\[\sqrt{2}=\frac{m}{n},\]</div>
+<p>όπου  <span class="math notranslate nohighlight">\(m,n\)</span>  είναι θετικοί ακέραιοι και, κατά τα γνωστά, έχουν μέγιστο κοινό διαιρέτη ίσο με 1. Τώρα, επειδή ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[\frac{m^2}{n^2}=2&gt;1\Rightarrow m^2&gt;n^2\Rightarrow m&gt;n,\]</div>
+<p>αν θέσουμε  <span class="math notranslate nohighlight">\(k_1=m-n&gt;0,\)</span>  ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[m=n+k_1.\]</div>
+<p>Αντικαθιστώντας στη σχέση  <span class="math notranslate nohighlight">\(m^2=2n^2\)</span>  παίρνουμε:</p>
+<div class="math notranslate nohighlight">
+\[(n+k_1)^2=2n^2\Rightarrow n^2+2nk_1+k_1^2=2n^2.\]</div>
+<p>Τώρα, αν μαζέψουμε τα  <span class="math notranslate nohighlight">\(n^2\)</span>  μαζί βλέπουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[n^2=2nk_1+k_1^2.\]</div>
+<p>Αγνοώντας το  <span class="math notranslate nohighlight">\(k_1^2&gt;0\)</span>  στο δεξί μέλος, παίρνουμε την ακόλουθη ανισότητα:</p>
+<div class="math notranslate nohighlight">
+\[n^2&gt;2nk_1\Rightarrow n&gt;2k_1.\]</div>
+<p>Επομένως, αν θέσουμε  <span class="math notranslate nohighlight">\(k_2=n-2k_1&gt;0\)</span>  έπεται ότι:</p>
+<div class="math notranslate nohighlight">
+\[n=2k_1+k_2.\]</div>
+<p>Αντικαθιστώντας στη σχέση  <span class="math notranslate nohighlight">\(n^2=2nk_1+k_1^2\)</span>  και κάνοντας λίγες πράξεις παίρνουμε:</p>
+<div class="math notranslate nohighlight">
+\[k_1^2=k_2^2+2k_1k_2.\]</div>
+<p>Επομένως, επειδή  <span class="math notranslate nohighlight">\(k_2^2&gt;0\)</span>  ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[k_1^2&gt;2k_1k_2\Rightarrow k_1&gt;2k_2.\]</div>
+<p>Αν θέσουμε  <span class="math notranslate nohighlight">\(k_3=k_1-2k_2&gt;0\)</span>  τότε έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[k_1=2k_2+k_3.\]</div>
+<p>Αντικαθιστώντας στη σχέση  <span class="math notranslate nohighlight">\(k_1^2=2k_1k_2+k_2^2\)</span>  έπειτα από λίγες πράξεις παίρνουμε τη σχέση:</p>
+<div class="math notranslate nohighlight">
+\[k_2^2=2k_2k_3+k_3^2.\]</div>
+<p>Το βλέπετε πώς πάει, έτσι; Οι τρεις τελευταίες σχέσεις που βγάλαμε είναι οι εξής:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(n^2=2nk_1+k_1^2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(k_1^2=2k_1k_2+k_2^2\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(k_2^2=2k_2k_3+k_3^2\)</span></p></li>
+</ul>
+<p>Επίσης, ισχύει ότι  <span class="math notranslate nohighlight">\(n&gt;k_1&gt;k_2&gt;k_3&gt;0.\)</span>  Αυτό μπορούμε να το συνεχίζουμε επ’άπειρον, καθώς συνέχεια εμφανίζεται η ίδια σχέση, οπότε μπορούμε να επαναλαμβάνουμε συνεχώς το ίδιο κόλπο. Έτσι, μπορούμε να βρούμε άπειρους στο πλήθος αριθμούς  <span class="math notranslate nohighlight">\(k_1,k_2,\ldots\)</span>  που να ικανοποιούν την παρακάτω σχέση:</p>
+<div class="math notranslate nohighlight">
+\[n&gt;k_1&gt;k_2&gt;\cdots&gt;0.\]</div>
+<p>Εδώ κάπου έχουμε ένα θέμα, καθώς έχουμε στριμώξει <strong>άπειρους στο πλήθος ακέραιους αριθμούς</strong> ανάμεσα στο  <span class="math notranslate nohighlight">\(0\)</span>  και το  <span class="math notranslate nohighlight">\(n,\)</span>  κάτι που, όπως φαντάζεστε, είναι λίγο αδύνατο. Επομένως, έχουμε καταλήξει σε αντίφαση με την υπόθεσή μας ότι ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  είναι ρητός, άρα είναι άρρητος.</p>
+<p>Αυτή η απόδειξη, αν και αμιγώς αλγεβρική στην παρουσίασή της, έχει τα ζόρια της. Αρχικά, οι πράξεις φαίνονται να έρχονται λίγο από το πουθενά, κι αυτό δεν είναι παράλογο, καθώς για να τεθούν στο σωστό τους πλαίσιο, θα έπρεπε κάποιος να έχει μιλήσει για την <em>Ανθυφαίρεση</em>, μία διαδικασία που (ίσως και καλώς) δεν παρουσιάζεται στη σχολική ύλη. Πέρα από αυτό, η διαδικασία αυτή αγκαλιάζει μέσα της ουσιαστικά το άπειρο στο παραπάνω παράδειγμα, αφού χρειάζεται να κατασκευάσουμε μία άπειρη ακολουθία θετικών ακεραίων αριθμών για να καταλήξουμε στην αντίφαση. Αυτό από μόνο του, βέβαια, ίσως δεν είναι και τόσο μεγάλο πρόβλημα, καθώς μας δίνει αφορμή να διαπραγματευτούμε λίγο τη ριζική διαφορά που έχουν οι άρρητοι με τους ρητούς και το πώς αυτή σχετίζεται με το άπειρο. Εντούτοις, και πάλι, μία συζήτηση τόσο νωρίς μέσα στη σχολική χρονιά μπορεί αρκετά εύκολα να αποπροσανατολίσει τα παιδιά.</p>
+<p>Να σχολιάσουμε κάπου εδώ ότι, την ίδια ακριβώς απειρία που έχει η παραπάνω κατασκευή κρύβει και η απόδειξη του Apostol που παρουσιάσαμε παραπάνω, απλά τα γεωμετρικά μας επιχειρήματα, περνώντας κρυφά μέσα από την αρχή του ελαχίστου, μας επιτρέπουν να παρακάμψουμε την κατασκευή αυτής της άπειρης φθίνουσας ακολουθίας ισοσκελών ορθογωνίων τριγώνων με ακέραιες πλευρές (που είναι, σαφώς, αδύνατη). Οπότε, αν κανείς για κάποιους λόγους αμφιταλαντεύεται ανάμεσα στις δύο αυτές αποδείξεις, ίσως η πρώτη να είναι κάπως πιο εύπεπτη σε ένα σχολικό πλαίσιο.</p>
+</section>
+<section id="id5">
+<h2>Ποιος Μίλησε για Τετράγωνα;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id5'"><span>#</span></a></h2>
+<p>Η «φυσική» γεωμετρική ερμηνεία της τετραγωνικής ρίζας είναι αυτή της πλευράς τετραγώνου με δοσμένο εμβαδό. Επομένως, φαντάζεται κανείς, θα υπάρχει κάποια απόδειξη που να παντρεύει τετράγωνα με άλγεβρα και να καταλήγει κάπως έτσι στην αρρητότητα της τετραγωνικής ρίζας του δύο. Όποιος το φαντάζεται, πολύ καλά κάνει και το φαντάζεται. Το ίδιο φαντάστηκε κάποτε και ο <a class="reference external" href="https://en.wikipedia.org/wiki/Stanley_Tennenbaum">Stanley Tennenbaum</a>, ο οποίος και έδωσε μία απόδειξη αρκετά παρόμοια με του Apostol (αρκετά πριν τον Apostol, βέβαια). Ας υποθέσουμε όπως έχουμε συνηθίσει, ότι ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  είναι ρητός και γράφεται ως ανάγωγο κλάσμα:</p>
+<div class="math notranslate nohighlight">
+\[\sqrt{2}=\frac{m}{n}.\]</div>
+<p>Τώρα, όπως έχουμε δει, αυτό σημαίνει και ότι:</p>
+<div class="math notranslate nohighlight">
+\[m^2=2n^2.\]</div>
+<p>Φανταστείτε τώρα δύο τετράγωνα πλευράς  <span class="math notranslate nohighlight">\(m\)</span>  και  <span class="math notranslate nohighlight">\(n\)</span>  αντίστοιχα, οπότε, το εμβαδό του μεγαλύτερου τετραγώνου θα είναι διπλάσιο από αυτό του δεύτερου. Τοποθετήστε τώρα εντός του μεγάλου τετραγώνου, πλευράς  <span class="math notranslate nohighlight">\(m,\)</span>  δύο τετράγωνα πλευράς  <span class="math notranslate nohighlight">\(n\)</span>  όπως φαίνεται στο παρακάτω σχήμα:</p>
+<figure class="wp-image-12685 align-default" id="id15">
+<img alt="Πολλά μαζεύτηκαν ξαφνικά..." src="docs/After-maths/{static}_static/images/uploads/2023/09/tennenbaum_01.png?w=903"/>
+<figcaption>
+<p><span class="caption-text">Πολλά μαζεύτηκαν ξαφνικά…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id15"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Όπως βλέπετε, τα δύο τετράγωνα, αν και αθροιστικά έχουν το ίδιο εμβαδό με το μεγάλο, δεν μπορούν να το καλύψουν αφού επικαλύπτονται στο κέντρο του σχήματος. Αυτό το επικαλυπτόμενο τμήμα είναι ένα τετράγωνο με πλευρά  <span class="math notranslate nohighlight">\(2n-m\)</span>  (δηλαδή, ακέραια) και έχει εμβαδό  <span class="math notranslate nohighlight">\((2n-m)^2.\)</span>  Τα δύο τετράγωνα που περισσεύουν έχουν το καθένα εμβαδό  <span class="math notranslate nohighlight">\((m-n)^2.\)</span></p>
+<p>Εδώ έρχεται το σημείο κλειδί της απόδειξης του Tennenbaum: αφού τα δύο κόκκινα τετράγωνα έχουν εμβαδό ακριβώς όσο και το μεγάλο τετράγωνο, θα πρέπει τα δύο τετράγωνα που μένουν ακάλυπτα στο παραπάνω σχήμα να έχουν μαζί εμβαδό ακριβώς όσο και το τμήμα της επικάλυψης. Έτσι, έχουμε ένα τετράγωνο με ακέραια πλευρά  <span class="math notranslate nohighlight">\(2n-m&lt;m\)</span>  το οποίο έχει το ίδιο εμβαδό με δύο άλλα ίσα τετράγωνα με ακέραια πλευρά  <span class="math notranslate nohighlight">\(m-n&lt;n\)</span>  έκαστο. Δηλαδή, έχουμε κάτι σαν το παρακάτω:</p>
+<figure class="wp-image-12691 align-default" id="id16">
+<img alt="Κοίτα πώς τα έφερε ο Tennenbaum!" src="docs/After-maths/{static}_static/images/uploads/2023/09/tennenbaum_02-1.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Κοίτα πώς τα έφερε ο Tennenbaum!</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id16"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τώρα, έχοντας και την εμπειρία των προηγούμενων αποδείξεων, δύο δρόμοι ανοίγονται μπροστά μας:</p>
+<ul class="simple">
+<li><p>Αφενός, μπορούμε να επαναλαμβάνουμε αυτήν την κατασκευή επ” άπειρον, αφού πάντοτε το αλληλοεπικαλυπτόμενο τμήμα έχει εμβαδό όσο ακριβώς και τα δύο τετράγωνα που δεν καλύπτονται. Έτσι, όμως, κατασκευάζουμε απείρως μικρά τετράγωνα με ακέραιες πλευρές, πράγμα που, ε, πώς να το κάνουμε, δε γίνεται.</p></li>
+<li><p>Αφετέρου, μπορούμε να επικαλεστούμε πάλι την ελαχιστότητα των  <span class="math notranslate nohighlight">\(m,n\)</span>  όπως κάναμε και με την απόδειξη του Apostol. Αφού οι  <span class="math notranslate nohighlight">\(m,n\)</span>  είναι οι μικρότεροι θετικοί ακέραιοι έτσι ώστε να ισχύει η σχέση  <span class="math notranslate nohighlight">\(m^2=2n^2\)</span>  τότε δεν μπορούμε να κατασκευάσουμε τετράγωνα με ακέραιες πλευρές μικρότερες των  <span class="math notranslate nohighlight">\(m\)</span>  και  <span class="math notranslate nohighlight">\(n\)</span>  έτσι ώστε το ένα να έχει εμβαδό διπλάσιο του άλλου. Έλα, όμως, που ο Tennenbaum αυτό ακριβώς έκανε παραπάνω. Έτσι, καταλήγουμε απευθείας σε άτοπο, χωρίς να εμπλακεί πουθενά το άπειρο.</p></li>
+</ul>
+<p>Το εντυπωσιακό με την απόδειξη του Tennenbaum είναι ότι μπορεί να μπει στην τάξη όχι από το παράθυρο, αλλά κανονικά, από την πόρτα. Διότι, αν κανείς το επιλέξει, μπορεί να μην αναφερθεί καθόλου στις διαστάσεις των πλευρών των επιμέρους τετραγώνων - η σχέση ανάμεσα στα εμβαδά προκύπτει με στοιχειώδη εποπτικά επιχειρήματα. Αυτό δίνει κατευθείαν το αβαντάζ της προσιτότητας σε αυτήν την απόδειξη έναντι των παραπάνω. Επίσης, αν κανείς επιλέξει να επιχειρηματολογήσει μέσω της ελαχιστότητας των δύο τετραγώνων - για να παρακάμψουμε και τα άπειρα - τότε, αποφεύγει και την απειρία που υπεισέρχεται φυσιολογικά σε αποδείξεις που έχουν να κάνουν με άρρητους.</p>
+<p>Ακόμα και η ιδέα να ζωγραφίσουμε τετράγωνα δεν είναι και τόσο παράταιρη. Η κατασκευή ενός τετραγώνου δεδομένης πλευράς είναι η πλέον άμεση γεωμετρική ερμηνεία της ύψωσης στη δευτέρα, επομένως η παραπάνω απόδειξη φαίνεται να είναι ίσως πολύ καλή για να είναι αληθινή: κρύβει αρκετά αλλά όχι την ουσία. Ακόμα-ακόμα, με αφορμή αυτήν την απόδειξη, μπορεί κανείς να περάσει, σε μία δεύτερη ανάγνωση, στην εμφάνιση του απείρου (αγνοώντας, δηλαδή, την ελαχιστικότητα των  <span class="math notranslate nohighlight">\(m,n\)</span> ) ή να παρουσιάσει ως εναλλακτική απόδειξη αυτήν του Apostol που έχει επίσης γεωμετρικό χαρακτήρα. Γενικά, αν δεν είναι σαφές, αυτή η απόδειξη φαίνεται να είναι κάτι σαν το πολυπόθητο καπάκι που ψάχναμε για τον τέντζερή μας - ή το ανάποδο, ερμηνεύεται αμφίδρομα η παροιμία.</p>
+</section>
+<section id="id6">
+<h2>Όσο πιο Μικρή Γίνεται<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id6" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id6'"><span>#</span></a></h2>
+<p>Στις αποδείξεις που έχουμε παρουσιάσει ως τώρα έχουμε πει πολλά. Πάρα πολλά. Καιρός λοιπόν να συμμαζευόμαστε. Κατά τα γνωστά, υποθέτουμε ότι ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  είναι ρητός, οπότε γράφεται ως ανάγωγο κλάσμα  <span class="math notranslate nohighlight">\(\sqrt{2}=m/n\)</span>  και άρα ισχύει η φοβερή σχέση:</p>
+<div class="math notranslate nohighlight">
+\[m^2=2n^2.\]</div>
+<p>Τώρα, όπως ξέρουμε από το δημοτικό ακόμα - άντε, από το γυμνάσιο - κάθε ακέραιος αριθμός (μεγαλύτερος κατ” απόλυτη τιμή του 1) γράφεται μοναδικά ως γινόμενο πρώτων αριθμών. Αυτό, σαφώς, ισχύει και για τους  <span class="math notranslate nohighlight">\(m,n.\)</span>  Παρατηρήστε τώρα κάτι εξαιρετικό: αν στο ανάπτυγμα σε γινόμενο πρώτων παραγόντων ενός αριθμού  <span class="math notranslate nohighlight">\(x\)</span>  το 2 (και οποιοσδήποτε πρώτος) εμφανίζεται, ας πούμε, 10 φορές, τότε στο ανάπτυγμα του  <span class="math notranslate nohighlight">\(x^2\)</span>  θα εμφανίζεται… 20 φορές.</p>
+<p>Αυτό είναι άμεση απόρροια των ιδιοτήτων των δυνάμεων, ή, ακόμα πιο απλά, του γεγονότος ότι  <span class="math notranslate nohighlight">\(x^2=x\cdot x\)</span>  - άρα παίρνουμε 10 δυάρια από το ένα  <span class="math notranslate nohighlight">\(x\)</span>  και άλλα 10 από το άλλο. Προφανώς, το 10 δεν έχει κάτι ιδιαίτερο και αυτό ισχύει για οποιοδήποτε πλήθος εμφανίσεων ενός πρώτου παράγοντα.</p>
+<p>Επομένως, για κάθε τετράγωνο ισχύει ότι το 2 θα εμφανίζεται στο ανάπτυγμά του ως πρώτος παράγοντας <em>άρτιο πλήθος φορών</em>. Έτσι, τόσο το  <span class="math notranslate nohighlight">\(m^2\)</span>  όσο και το  <span class="math notranslate nohighlight">\(n^2\)</span>  έχουν το 2 ως παράγοντα κάποιο άρτιο πλήθος φορών, έστω  <span class="math notranslate nohighlight">\(s\)</span>  και  <span class="math notranslate nohighlight">\(t,\)</span>  αντίστοιχα. Ωστόσο, προσέξτε ξανά τώρα τη βασική μας σχέση:</p>
+<div class="math notranslate nohighlight">
+\[m^2=2n^2.\]</div>
+<p>Αριστερά το 2 εμφανίζεται ως παράγοντας  <span class="math notranslate nohighlight">\(s\)</span>  φορές, ενώ δεξιά εμφανίζεται  <span class="math notranslate nohighlight">\(t+1\)</span>  φορές ( <span class="math notranslate nohighlight">\(t\)</span>  από το  <span class="math notranslate nohighlight">\(n^2\)</span>  και μία ακόμα, όπως βλέπετε). Αυτό όμως σημαίνει ότι το αριστερό μέλος έχει το 2 ως παράγοντα άρτιο πλήθος φορών, ενώ το δεξί μέλος περιττό πλήθος φορών, άτοπο, καθώς τα δύο μέλη είναι ίσα.</p>
+<p>Αυτή η απόδειξη, χωρίς την τόση επεξήγηση, δε χρειάζεται ούτε μισή γραμμή για να γραφτεί (μην το δοκιμάσετε, ψέματα είπαμε, θέλει 2-3 γραμμές). Και δεν επικαλείται τίποτα πέρα από τη μοναδικότητα του αναπτύγματος σε πρώτους παράγοντες κάθε μη τετριμμένου ακεραίου. Ακόμα καλύτερα, δουλεύει για κάθε πρώτο αριθμό και όχι μόνο για το 2. Κομψή και άμεση, χωρίς καμία περιστροφή, ωστόσο πάσχει από το ίδιο πρόβλημα που πάσχει και η κλασική σχολική απόδειξη: τη θεωρία αριθμών.</p>
+<p>Πράγματι, αν και εδώ τα πράγματα είναι κάπως καλύτερα γιατί τα παιδιά έχουν συναντήσει στο παρελθόν το ανάπτυγμα σε πρώτους παράγοντες, συντρέχουν δύο βασικά προβλήματα:</p>
+<ul class="simple">
+<li><p>αυτό ήταν πολύ παλιά, και,</p></li>
+<li><p>πού την έχουν χρησιμοποιήσει ως τώρα πέρα από ασκήσεις υπολογισμού του αναπτύγματος ενός ακεραίου σε γινόμενο πρώτων;</p></li>
+</ul>
+<p>Σαφώς, κανένα από τα παραπάνω προβλήματα δεν καθιστά την αξιοποίηση αυτής της απόδειξης στην τάξη αδύνατη, αλλά είναι πράγματα που πρέπει να λάβουμε υπόψιν. Ίσως ένα μικρό μασάζ στις μαθηματικές αναμνήσεις των μαθητών πριν από τη συζήτηση / ανακάλυψη της απόδειξης να είναι χρήσιμη, έτσι ώστε να είναι πιο εύκολο για τα παιδιά να ανακαλέσουν στη μνήμη τους τις σχετικές έννοιες - για παράδειγμα, μπορεί να μην θυμούνται καν ποιοι αριθμοί λέγονται πρώτοι. Ειδαλλιώς, θα είναι σαν να κάνουμε την απόδειξη μόνο για τη δική μας τέρψη.</p>
+</section>
+<section id="cauchy">
+<h2>Κύριε Cauchy;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#cauchy" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#cauchy'"><span>#</span></a></h2>
+<p>Τον ξέρετε τον Cauchy, παντού έχωνε τη μύτη του, μην αφήσει στην ησυχία τους τα μαθηματικά λίγο να ηρεμήσουν! Ε, αυτοσχεδιάζοντας κανείς με τις διάφορες σημειώσεις που μας έχει αφήσει μπορεί, λίγο δημιουργικά, να ανακατασκευάσει μία απόδειξη της αρρητότητας του  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  που είναι αναπάντεχα απλή, συγκρινόμενη με τις προηγούμενες. Λοιπόν, αρχικά, είτε με τη βοήθεια της αριθμομηχανής είτε με λίγες πράξεις, μπορούμε να επαληθεύσουμε εύκολα ότι ισχύει το εξής:</p>
+<div class="math notranslate nohighlight">
+\[1&lt;\sqrt{2}&lt;2.\]</div>
+<p>Αυτό, είτε το πιστεύετε είτε όχι, είναι αρκετό για να δείξουμε ότι ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  δεν είναι ρητός. Λοιπόν, κατά τα ειωθότα, ας υποθέσουμε ότι είναι ρητός και ότι γράφεται σαν ανάγωγο κλάσμα,  <span class="math notranslate nohighlight">\(\sqrt{2}=m/n.\)</span>  Τώρα, κάθε πραγματικός αριθμός  <span class="math notranslate nohighlight">\(x\)</span>  μπορεί να γραφτεί ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[x=k+s,\quad k\in\mathbb{Z},\ s\in[0,1).\]</div>
+<p>Δηλαδή, κάθε πραγματικό αριθμό μπορούμε να τον γράψουμε ως άθροισμα ενός ακεραίου (που τον ονομάζουμε <em>το ακέραιο μέρος</em> του  <span class="math notranslate nohighlight">\(x\)</span> ) και ενός μη αρνητικού πραγματικού αριθμού μικρότερου της μονάδας (που τον ονομάζουμε <em>το δεκαδικό μέρος</em> του  <span class="math notranslate nohighlight">\(x\)</span> ). Αυτό είναι πιο απλό από ό,τι φαίνεται. Για παράδειγμα, ο αριθμός  <span class="math notranslate nohighlight">\(x=4.56\)</span>  γράφεται ως:</p>
+<div class="math notranslate nohighlight">
+\[4.56=4+0.56.\]</div>
+<p>Ουάου. Τι είπαμε τώρα, ε; Λοιπόν, αυτό θα πρέπει να ισχύει και για τον  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  συνεπώς θα υπάρχει ένας ακέραιος  <span class="math notranslate nohighlight">\(k\)</span>  και ένας μη αρνητικός και μικρότερος της μονάδας πραγματικός αριθμός  <span class="math notranslate nohighlight">\(s\)</span>  έτσι ώστε:</p>
+<div class="math notranslate nohighlight">
+\[\sqrt{2}=k+s.\]</div>
+<p>Είναι προφανές ότι  <span class="math notranslate nohighlight">\(k=1\)</span>  αφού είπαμε ότι η τετραγωνική ρίζα του 2 ζει εγκλωβισμένη ανάμεσα στο 1 και το 2, συνεπώς, πιο απλά, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\sqrt{2}=1+s.\]</div>
+<p>Τώρα, παρατηρούμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[s=\sqrt{2}-1\Rightarrow s=\frac{m}{n}-1\Rightarrow ns=m-n.\]</div>
+<p>Δηλαδή, ο αριθμός  <span class="math notranslate nohighlight">\(ns\)</span>  είναι ακέραιος - ως διαφορά ακεραίων. Τώρα, παρατηρήστε επίσης ότι:</p>
+<div class="math notranslate nohighlight">
+\[ns\sqrt{2}=(m-n)\frac{m}{n}=\frac{m^2}{n}-m=\frac{m^2}{n^2}n-m=2n-m.\]</div>
+<p>Δηλαδή, ο αριθμός  <span class="math notranslate nohighlight">\(ns\sqrt{2}\)</span>  είναι ακέραιος, ως διαφορά ακεραίων. Αν ο  <span class="math notranslate nohighlight">\(ns\)</span>  είναι διάφορος του μηδενός, τότε μπορούμε να γράψουμε:</p>
+<div class="math notranslate nohighlight">
+\[\sqrt{2}=\frac{2n-m}{ns}.\]</div>
+<p>Ωστόσο, ο  <span class="math notranslate nohighlight">\(ns\)</span>  είναι μικρότερος του  <span class="math notranslate nohighlight">\(n\)</span>  καθώς  <span class="math notranslate nohighlight">\(0\leq s&lt;1\)</span>  οπότε καταλήγουμε σε μία αντίφαση, καθώς οι  <span class="math notranslate nohighlight">\(m,n\)</span>  είναι οι μικρότεροι θετικοί ακέραιοι τέτοιοι ώστε ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  να γράφεται ως πηλίκο δύο ακεραίων. Επομένως θα πρέπει  <span class="math notranslate nohighlight">\(s=0\)</span>  δηλαδή θα πρέπει:</p>
+<div class="math notranslate nohighlight">
+\[\sqrt{2}=1+s\Rightarrow\sqrt{2}=1.\]</div>
+<p>Αυτό τώρα είναι εμφανώς άτοπο, καθώς, τώρα τελευταία,  <span class="math notranslate nohighlight">\(1^2\neq 2.\)</span></p>
+<p>Μικρή απόδειξη κι αυτή και αποφεύγει κάθε έννοια γεωμετρίας - αν για κάποιο λόγο θέλουμε να την αποφύγουμε. Ακόμα και οι έννοιες του ακεραίου και του δεκαδικού μέρους, αν και όχι πλήρως εντός της σχολικής ύλης, είναι αρκετά εύπεπτες και πιθανότατα μπορούν να χρησιμοποιηθούν σε μία σχολική τάξη έπειτα από μία μικρή εισαγωγή. Αυτό που ίσως φανεί προβληματικό είναι αυτή η «ένθετη» απαγωγή σε άτοπο όταν αποδεικνύουμε ότι  <span class="math notranslate nohighlight">\(s=0\)</span>  η οποία όμως μπορεί εύκολα να παρακαμφθεί αν από την αρχή υποθέσουμε ότι  <span class="math notranslate nohighlight">\(s&gt;0\)</span>  θεωρώντας ως δεδομένο ότι  <span class="math notranslate nohighlight">\(\sqrt{2}&gt;1.\)</span>  Επομένως, είναι ένας καλός ανταγωνιστής της απόδειξης του Tennenbaum, αν κανείς δεν τα πάει καλά με τη ζωγραφική.</p>
+<p>Αν η τεχνική της παραπάνω απόδειξης σας θύμισε κάτι, έχετε δίκιο. Μπορείτε να φρεσκάρετε τη μνήμη σας <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">εδώ</a>.</p>
+</section>
+<section id="id7">
+<h2>Και μία Πρωτότυπη<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id7" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id7'"><span>#</span></a></h2>
+<p>Αν ρίξετε μία ματιά σε όλα τα παραπάνω, θα δείτε ότι πρακτικά, μέσα από διαφορετικά χωράφια των μαθηματικών, αναμασάμε την ίδια αποδεικτική ιδέα. Αν γίνεται να ισχύει η σχέση  <span class="math notranslate nohighlight">\(m^2=2n^2\)</span>  για δύο θετικούς ακεραίους, τότε με κάποιον τρόπο καταλήγουμε σε μία αντίφαση. Μάλιστα, οι αποδείξεις αυτές, αν και κάπως ξένες, μοιάζουν ακόμα και στις λεπτομέρειές τους. Διατηρώντας εσκεμμένα τον ίδιο συμβολισμό ως τώρα, οι παραστάσεις  <span class="math notranslate nohighlight">\(m-n,2m-n\)</span>  και άλλες παρόμοιες εμφανίζονται με τον έναν ή τον άλλο τρόπο σχεδόν σε κάθε μία από τις προηγούμενες αποδείξεις. Μπορούμε, άραγε, να ξεφύγουμε από αυτή την ιδέα και να βρούμε μία απόδειξη που να μην είναι σαν όλες τις άλλες;</p>
+<p>Ε, για να ρωτάμε, κάτι θα έχουμε στο μυαλό μας. Λοιπόν, ως τώρα εμείς δείχναμε ότι η τετραγωνική ρίζα του 2 δεν μπορεί να είναι ρητός πατώντας κυρίως πάνω στη θεωρία αριθμών ή τη γεωμετρία, δηλαδή πάνω σε αλγεβρικά χωράφια - λογικό, γιατί μιλάμε για έναν αριθμό, στο τέλος της ημέρας. Τώρα θα δείξουμε ότι ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  δεν είναι ρητός γιατί είναι διαφορετικός από κάθε ρητό που ξέρουμε με έναν αμιγώς κατασκευάστικό τρόπο (χωρίς άτοπα και άλλα τέτοια). Προφανώς, δε θα τους πάρουμε έναν-έναν και θα τους εξετάσουμε, άλλωστε είναι ολίγον άπειροι. Αντιθέτως, θα ξεκινήσουμε ζωγραφίζοντας:</p>
+<figure class="wp-image-12737 align-default" id="id17">
+<img alt="Τι τους θέλουμε όλους τους ρητούς;" src="docs/After-maths/{static}_static/images/uploads/2023/10/construction_01.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Τι τους θέλουμε όλους τους ρητούς;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id17"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Όπως είναι εύκολο να αποδείξει κανείς, ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[1&lt;\sqrt{2}&lt;\frac{3}{2}.\]</div>
+<p>Συνεπώς, οι ρητοί που μας ενδιαφέρουν βρίσκονται όλοι στο παρακάτω σύνολο:</p>
+<div class="math notranslate nohighlight">
+\[A=\mathbb{Q}\cap\left(0,\frac{3}{2}\right).\]</div>
+<p>Θα δείξουμε ότι κανένας από τους αριθμούς αυτού του συνόλου δεν έχει τετράγωνο που να ισούται με 2 αποδεικνύοντας ότι όλοι οι αριθμοί αυτοί απέχουν από τον  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  απόσταση γνήσια θετική. Αρχικά, παρατηρήστε ότι αν  <span class="math notranslate nohighlight">\(x=\frac{m}{n},\ m,n\in\mathbb{Z}_+\)</span>  είναι ένας αριθμός στο  <span class="math notranslate nohighlight">\(A\)</span>  τότε, όπως είδαμε και παραπάνω, δε γίνεται να ισχύει το παρακάτω:</p>
+<div class="math notranslate nohighlight">
+\[m^2=2n^2.\]</div>
+<p>Πράγματι, η ανάλυση σε πρώτους παράγοντες του αριστερού μέλους έχει άρτιο πλήθος από δυάρια, ενώ του δεξιού περιττό. Προσέξτε, μας έχουμε απαγορεύσει να προχωρήσουμε με απαγωγή σε άτοπο, επομένως εδώ δεν μπορούμε να αντιγράψουμε την αντίστοιχη απόδειξη που δώσαμε παραπάνω και να πούμε ότι η τετραγωνική ρίζα του 2 είναι άρρητος! Επομένως, απλώς γνωρίζουμε ότι  <span class="math notranslate nohighlight">\(m^2\neq 2n^2\)</span>  και επειδή μιλάμε για ακεραίους, ισχύει ειδικότερα ότι:</p>
+<div class="math notranslate nohighlight">
+\[\|m^2-2n^2|\geq1.\]</div>
+<p>Αυτό είναι προφανές, καθώς δύο ακέραιοι που δεν είναι ίσοι απέχουν απόσταση τουλάχιστον μίας μονάδας μεταξύ τους. Τώρα, θεωρούμε την απόσταση του  <span class="math notranslate nohighlight">\(x\)</span>  από τον  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  και κάνουμε λίγες πράξεις:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}\left|\sqrt{2}-\frac{m}{n}\right|&amp;=\frac{\left|n\sqrt{2}-m\right|}{n}=\&amp;=\frac{\left|n\sqrt{2}-m\right|\left|n\sqrt{2}+m\right|}{n\left|n\sqrt{2}+m\right|}=\&amp;=\frac{\left|2n^2-m^2\right|}{n\left|n\sqrt{2}+m\right|}\&amp;\geq\frac{1}{n\left|n\sqrt{2}+m\right|}.\end{aligned}\]</div>
+<p>Δεν κάναμε και καμία σοφία: χρησιμοποιήσαμε τη συζυγή παράσταση για να εμφανίσουμε κάτι τετράγωνα και μετά εκμεταλλευτήκαμε την απόσταση των  <span class="math notranslate nohighlight">\(m^2\)</span>  και  <span class="math notranslate nohighlight">\(2n^2.\)</span>  Τώρα έρχεται το ζουμερό κομμάτι της απόδειξης. Αρχικά, παρατηρήστε ότι ο παρονομαστής του παραπάνω κλάσματος μπορεί να γραφτεί χωρίς απόλυτες τιμές - αφού όλοι οι όροι είναι θετικοί - ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[n\left|n\sqrt{2}+m\right|=n^2\sqrt{2}+mn.\]</div>
+<p>Θυμηθείτε ότι  <span class="math notranslate nohighlight">\(m/n&lt;3/2\)</span>  επομένως μπορούμε να κάνουμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[\frac{m}{n}&lt;\frac{3}{2}\overset{\times n^2}{\Rightarrow} mn&lt;\frac{3n^2}{2}.\]</div>
+<p>Επίσης,  <span class="math notranslate nohighlight">\(\sqrt{2}&lt;3/2\)</span>  οπότε έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[n\left|n\sqrt{2}+m\right|=n^2\sqrt{2}+mn&lt;\frac{3n^2}{2}+\frac{3n^2}{2}=3n^2.\]</div>
+<p>Έτσι, έπεται άμεσα ότι:</p>
+<div class="math notranslate nohighlight">
+\[\left|\sqrt{2}-\frac{m}{n}\right|&gt;\frac{1}{3n^2}&gt;0.\]</div>
+<p>Δηλαδή, όπως υποσχεθήκαμε, η τετραγωνική ρίζα του 2 απέχει από κάθε ρητό απόσταση μεγαλύτερη του μηδενός, και άρα δεν μπορεί να είναι ίση με κανέναν τους. Επομένως, μας μένει να είναι άρρητη.</p>
+<p>Σαφώς, αυτή η απόδειξη δεν είναι και η καλύτερη δυνατή για να αποδείξει κανείς την αρρητότητα του  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  στην τάξη, καθώς παρουσιάζει τεχνικές πολύ καινούργιες για τα παιδιά, επιφέροντας ίσως περισσότερη σύγχυση από την επιθυμητή. Εντούτοις, είναι αρκετά ενδιαφέρον ότι με στοιχειώδη αλγεβρικά τεχνάσματα μπορεί κανείς κατασκευαστικά να αποδείξει αυτό που τόση ώρα αποδεικνύουμε με απαγωγές σε άτοπο. Επίσης, αν το πάρει κανείς λίγο ψύχραιμα, αυτή η απόδειξη αξιοποιεί τεχνικές και «κόλπα» που διδάσκονται αργότερα στην ύλη της Α” Λυκείου, επομένως, ίσως μία δεύτερη επίσκεψη στην φύση της τετραγωνικής ρίζας του 2 να είναι επιβεβλημμένη!</p>
+</section>
+<section id="id8">
+<h2>Άρα;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id8" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id8'"><span>#</span></a></h2>
+<p>Είδαμε τόσες αποδείξεις μαζεμένες που ξεχάσαμε τι θέλαμε! Ποιο είναι το «ρεζουμέ», που λέμε, από όλα τα παραπάνω; Αρχικά, ότι ακόμα κι εκεί που νομίζουμε ότι ο τρόπος να κάνουμε το μάθημά μας είναι μοναδικός και, ίσως έπειτα από χρόνια δοκιμών, αξεπέραστος, μάλλον τα πράγματα δεν είναι έτσι. Τόσες αποδείξεις, τόσες διαφορετικές αφορμές για συζήτηση και τόσες τάξεις που περιμένουν την «καταλληλότερη» απόδειξη για την ύπαρξη των αρρήτων. Το ποια θα αξιοποιήσουμε είναι καθαρά δική μας υπόθεση (όπου: «μας» = διδάσκοντες + μαθητές). Γιατί, κάθε χρονιά, κάθε τάξη, κάθε παιδί είναι διαφορετικό, οπότε καλό είναι να είμαστε εφοδιασμένοι με όλα τα απαραίτητα εργαλεία.</p>
+<p>Περισσότερα στο κοντινό μέλλον. Μέχρι τότε, καλό απομεσήμερο!</p>
+<blockquote>
+<div><div class="video_wrapper" style="">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/EUmpfUJspo8" style="border: 0; height: 345px; width: 560px">
+</iframe></div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        Η υπερβατικότητα του π
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">
+        Κατασκευαστικές… αδυναμίες
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Η Κλασική Απόδειξη</a></li>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Το Θυμάστε το Πυθαγόρειο;</a></li>
+<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Πέφτοντας στο Διηνεκές</a></li>
+<li><a :data-current="activeSection === '#id5'" class="reference internal" href="#id5">Ποιος Μίλησε για Τετράγωνα;</a></li>
+<li><a :data-current="activeSection === '#id6'" class="reference internal" href="#id6">Όσο πιο Μικρή Γίνεται</a></li>
+<li><a :data-current="activeSection === '#cauchy'" class="reference internal" href="#cauchy">Κύριε Cauchy;</a></li>
+<li><a :data-current="activeSection === '#id7'" class="reference internal" href="#id7">Και μία Πρωτότυπη</a></li>
+<li><a :data-current="activeSection === '#id8'" class="reference internal" href="#id8">Άρα;</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

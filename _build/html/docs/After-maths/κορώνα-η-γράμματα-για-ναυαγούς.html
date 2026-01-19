@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2020-03-25 14:41" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Μαθηματικά" name="category"/>
+<meta content="featured, προβλήματα, πιθανότητες" name="tags"/>
+<meta content="%ce%ba%ce%bf%cf%81%cf%8e%ce%bd%ce%b1-%ce%b7-%ce%b3%cf%81%ce%ac%ce%bc%ce%bc%ce%b1%cf%84%ce%b1-%ce%b3%ce%b9%ce%b1-%ce%bd%ce%b1%cf%85%ce%b1%ce%b3%ce%bf%cf%8d%cf%82" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2020/03/rembrandt_van_rijn_-_the_mill_-_google_art_project.jpg" name="attachments"/>
+<title>Κορώνα η γράμματα για… ναυαγούς | aftermaths</title>
+<meta content="Κορώνα η γράμματα για… ναυαγούς | aftermaths" property="og:title"/>
+<meta content="Κορώνα η γράμματα για… ναυαγούς | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html" rel="next" title="Λίγες σκέψεις για τον χώρο"/>
+<link href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html" rel="prev" title="Κλάσματα! Κλάσματα παντού!"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Κορώνα η γράμματα για… ναυαγούς</span>
+</nav>
+<div id="content" role="main">
+<section id="id1">
+<h1>Κορώνα η γράμματα για… ναυαγούς<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+<figure class="align-center" id="id5">
+<img alt="Ο πίνακας *Ο Ανεμόμυλος* του `Rembrandt  &lt;https://en.wikipedia.org/wiki/Rembrandt&gt;`__\ *.*" src="_static/images/uploads/2020/03/rembrandt_van_rijn_-_the_mill_-_google_art_project.jpg"/>
+<figcaption>
+<p><span class="caption-text">Ο πίνακας <em>Ο Ανεμόμυλος</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Rembrandt">Rembrandt</a><em>.</em></span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Είμαστε σε ένα ερημονήσι σαν αυτό που βρέθηκε ο Τομ Χανκς στον <em>Ναυαγό</em> και βρισκόμαστε μπροστά σε ένα τρομερό δίλημμα: θα κάνουμε μία σχεδία για να κινήσουμε για το άγνωστο με βάρκα την ελπίδα ή θα μείνουμε στο νησάκι μας εσαεί, δημιουργώντας τον «πολιτισμό» μας από το μηδέν;</p>
+<p>Ξαφνικά, βλέπουμε ένα νόμισμα που έχει ξεβράσει η θάλασσα και, μπροστά στον τρόμο της ευθύνης μίας τόσο δύσκολης απόφασης, πετάμε το «μπαλάκι» στην εξέδρα: θα το παίξουμε κορώνα γράμματα. Για την ακρίβεια: Κορώνα=φεύγουμε, γράμματα=μένουμε - κάτι σαν το Brexit, ένα πράγμα. Στρίβουμε κι έρχεται κορώνα. Αλλά, εδώ που τα λέμε, δεν είναι άδικο να καθορίσουμε το μέλλον μας από ένα και μόνο στρίψιμο; Εδώ ολόκληρος Τομ Χανκς και του πήρε τόσον καιρό. Ας το πάμε στα τρία στριψίματα (να αποφύγουμε και «ισοπαλίες»). Στρίβουμε άλλες δύο φορές και το συνολικό αποτέλεσμα μας απογοητεύει οικτρά: Κορώνα, κορώνα, κορώνα… Λίγο ο φόβος, λίγο που δεν έχουμε τι να κάνουμε, λίγο το ένα λίγο το άλλο, βραδιάζει κι εμείς έχουμε στρίψει 3000 φορές το νόμισμά μας. Το σκορ είναι κάτι παραπάνω από απογοητευτικό: 2697 κορώνες και 303 γράμματα. Με τη στρογγυλοποίηση, το 90% των ρίψεών μας μάς οδηγεί στο να ξαναβουτήξουμε στον ωκεανό που μας ξέβρασε στο νησί.</p>
+<p>Με βαριά καρδιά, ετοιμαζόμαστε να πέσουμε για ύπνο πάνω σε ένα πρόχειρο στρώμα από κλαδάκια που έχουμε φτιάξει όταν μία συγκλονιστική σκέψη διαπερνά το μυαλό μας: αυτό το νόμισμα δεν είναι τίμιο! Όχι επειδή δε μας βολεύει, προς θεού, αλλά επειδή θα περιμέναμε, μετά από 3000 ρίψεις, να έχουμε μοιρασμένα αποτελέσματα και όχι 9 προς 1 αναλογία κορωνών και γραμμάτων. Κάπου εκεί μας πιάνει μία επιστημονική ανησυχία - δεν έχουμε και κάτι καλύτερο να κάνουμε πάνω στην ξερολιθιά. Μήπως γίνεται, ακόμα και με αυτό το «κάλπικο» νόμισμα που έχουμε, να προσομοιώσουμε τη «δουλειά» που θα κάναμε με ένα τίμιο νόμισμα;</p>
+<p>Ας πάρουμε ένα κλαδάκι κι ας καταγράψουμε λίγο τα δεδομένα του προβλήματός μας στην άμμο. Έχουμε ένα νόμισμα που με πιθανότητα  <span class="math notranslate nohighlight">\(p=0.9\)</span>  φέρνει κορώνα και με πιθανότητα  <span class="math notranslate nohighlight">\(1-p=0.1\)</span>  φέρνει γράμματα. Πώς μπορούμε - με περισσότερες από μία ρίψεις, ενδεχομένως και άπειρες - να περιγράψουμε μία διαδικασία που με πιθανότητα 1/2 θα φέρνει «κορώνα» και με πιθανότητα επίσης 1/2 θα φέρνει «γράμματα»;</p>
+<section id="id2">
+<h2>Μία πρώτη προσπάθεια<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>Μας έρχεται μία απλοϊκή ιδέα: να ξεκινήσουμε να ρίχνουμε το νόμισμά μας και να σταματήσουμε μόλις δούμε δύο συνεχόμενα αποτελέσματα να είναι διαφορετικά και να πούμε ότι το αποτέλεσμα αυτής της διαδικασίας είναι το τελευταίο αποτέλεσμα που εμφανίστηκε. Έτσι, συμβολίζοντας με Κ την Κορώνα και με Γ τα Γράμματα - μέσα σε εισαγωγικά θα βάζουμε από εδώ και στο εξής τα αποτελέσματα της παραπάνω διαδικασίας ενώ άνευ εισαγωγικών θα αναφερόμαστε στα αποτελέσματα της ρίψης του «κάλπικου» νομίσματος που έχουμε στα χέρια μας:</p>
+<ul class="simple">
+<li><p>η σειρά αποτελεσμάτων ΚΚΚΚΚΚΚΚΚΓ δίνει σαν τελικό αποτέλεσμα «Γ»,</p></li>
+<li><p>η σειρά αποτελεσμάτων ΓΓΓΓΓΓΚ δίνει σαν τελικό αποτέλεσμα «Κ»,</p></li>
+<li><p>η σειρά αποτελεσμάτων ΚΓ δίνει σαν τελικό αποτέλεσμα «Γ»,</p></li>
+<li><p>η σειρά αποτελεσμάτων ΓΚ δίνει σαν τελικό αποτέλεσμα «Κ».</p></li>
+</ul>
+<p>Μία παρατήρηση που έχουμε να κάνουμε είναι ότι για να καταλήξει η διαδικασία μας σε ένα αποτέλεσμα πρέπει να γίνουν τουλάχιστον δύο ρίψεις. Η ιδέα πίσω από αυτή τη διαδικασία είναι ότι, αφού αναμένουμε να εμφανιστούν πολλές «κορώνες» στις ρίψεις μας, με το να κοιτάμε μόνο τις δύο τελευταίες διαφορετικές ρίψεις «ακυρώνουμε», κατά κάποιον τρόπο, τα αποτελέσματα των πολλών ρίψεων που δεν μας «κάνουν».</p>
+<p>Πριν προχωρήσουμε σε μία θεωρητική μελέτη της ιδέας μας, ας δοκιμάσουμε να κάνουμε ένα «πείραμα». Καταγράφουμε την παραπάνω διαδικασία στο ακόλουθο python script:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">import random
+</span><span id="line-2">
+</span><span id="line-3">def experiment():
+</span><span id="line-4">    previous = random.randint(0,9)//9
+</span><span id="line-5">    current = random.randint(0,9)//9
+</span><span id="line-6">    while (previous == current):
+</span><span id="line-7">        previous = current
+</span><span id="line-8">        current = random.randint(0,9)//9
+</span><span id="line-9">    return current
+</span><span id="line-10">
+</span><span id="line-11">print(experiment())
+</span></code></pre></div>
+</div>
+<p>Αν τρέξουμε τον παραπάνω κώδικα - αν δεν έχετε εγκατεστημένη την python, μία απλή λύση είναι ένας online compiler όπως το <a class="reference external" href="https://www.onlinegdb.com/online_python_compiler">onlinegdb</a> - θα δούμε ότι μας επιστρέφει ή 0 ή 1 - με 0 από εδώ κι εμπρός θα συμβολίζουμε την «κορώνα» και με 1 τα «γράμματα». Ας εξηγήσουμε λίγο αναλυτικότερα τι συμβαίνει εκεί μέσα.</p>
+<ul class="simple">
+<li><p>Στην γραμμή 1 φορτώνουμε το πακέτο random της python που μας χρειάζεται για να παίρνουμε ψευδοτυχαίους αριθμούς.</p></li>
+<li><p>Στη γραμμή 3 ορίζουμε μία συνάρτηση με όνομα experiment που δε δέχεται κανένα όρισμα και αποσκοπούμε στο να προσομοιώνει τη διαδικασία διαδοχικών ρίψεων που παρουσιάσαμε παραπάνω.</p></li>
+<li><p>Στις γραμμές 4 και 5 ρίχνουμε δύο φορές το «κάλπικο» νόμισμά μας - όπως είχαμε παρατηρήσει, θα χρειαστούμε τουλάχιστον δύο ρίψεις πριν ολοκληρώσουμε τη διαδικασία μας. Πιο συγκεκριμένα, η εντολή random.randint(0,9) επιλέγει «τυχαία» έναν ακέραιο αριθμό  <span class="math notranslate nohighlight">\(n\)</span>  από το 0 μέχρι και το 9 - παρατηρήστε ότι συνολικά έχουμε 10 διαφορετικές επιλογές. Έπειτα, χρησιμοποιώντας τον τελεστή <strong>//</strong> παίρνουμε το ακέραιο πηλίκο της διαίρεσης  <span class="math notranslate nohighlight">\(n\div 9\)</span> , με το οποίο πετυχαίνουμε το εξής: σε 9 από τις 10 περιπτώσεις (όταν θα έχουμε  <span class="math notranslate nohighlight">\(n=0,1,...,8\)</span> ) θα πάρουμε 0, δηλαδή κορώνα, ενώ σε μία μόνο περίπτωση (για  <span class="math notranslate nohighlight">\(n=9\)</span> ) θα πάρουμε 1, δηλαδή γράμματα. Έτσι, με πιθανότητα 9/10=0.9 παίρνουμε κορώνα, όπως ακριβώς συμβαίνει και με το πραγματικό «κάλπικο» νόμισμά μας.</p></li>
+<li><p>Στις γραμμές 6-8 μπαίνουμε σε έναν επαναληπτικό βρόχο ο οποίος είναι και η «καρδιά» της διαδικασίας μας. Όσο η προηγούμενη ρίψη είναι ίση με την επόμενη (γραμμή 6), αποθηκεύουμε την τρέχουσα ρίψη ως «προηγούμενη» και ρίχνουμε ξανά το νόμισμά μας (γραμμές 7-8).</p></li>
+<li><p>Τέλος, στη γραμμή 11 εκτυπώνουμε το αποτέλεσμά μας στην οθόνη.</p></li>
+</ul>
+<p>Ας δοκιμάσουμε τώρα να επαναλάβουμε το πείραμά μας 1000 φορές και να καταγράψουμε τη σχετική συχνότητα με την οποία εμφανίζεται «κορώνα» στην τελευταία ρίψη - ελπίζουμε να πέσουμε κοντά στο 1/2, μιας και αυτό θα χρησιμοποιήσουμε σαν εκτίμηση της πιθανότητας να φέρουμε «κορώνα» με αυτή τη διαδικασία που περιγράψαμε. Για αυτόν τον σκοπό, γράφουμε το παρακάτω python script:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">import random
+</span><span id="line-2">
+</span><span id="line-3">def experiment():
+</span><span id="line-4">    previous = random.randint(0,9)//9
+</span><span id="line-5">    current = random.randint(0,9)//9
+</span><span id="line-6">    while (previous == current):
+</span><span id="line-7">        previous = current
+</span><span id="line-8">        current = random.randint(0,9)//9
+</span><span id="line-9">    return current
+</span><span id="line-10">
+</span><span id="line-11">def many_experiments(n):
+</span><span id="line-12">    heads_count = 0
+</span><span id="line-13">    for i in range(n):
+</span><span id="line-14">        if (experiment() == 0):
+</span><span id="line-15">            heads_count += 1
+</span><span id="line-16">    return heads_count/n
+</span><span id="line-17">
+</span><span id="line-18">print(many_experiments(1000))
+</span></code></pre></div>
+</div>
+<p>Στις γραμμές 11-16 δεν κάνουμε τίποτα άλλο από το να ορίζουμε μία συνάρτηση, many_experiments(n), η οποία να δέχεται τον αριθμό των επαναλήψεων  <span class="math notranslate nohighlight">\(n\)</span>  και να επιστρέφει την «πιθανότητα» να έρθει «κορώνα» στην διαδικασία που έχουμε περιγράψει (heads_count/n). Λέμε «πιθανότητα» γιατί, επί της ουσίας, υπολογίζει απλώς τη σχετική συχνότητα εμφάνισης «κορώνας» την οποία εμείς χρησιμοποιούμε ως εκτιμήτρια της (πραγματικής) πιθανότητας να έρθει «κορώνα».</p>
+<p>Αν πάμε να εκτελέσουμε το παραπάνω script μερικές φορές, θα πάρουμε αποτελέσματα παρόμοια με τα παρακάτω:</p>
+<ul class="simple">
+<li><p>0.103</p></li>
+<li><p>0.093</p></li>
+<li><p>0.1</p></li>
+<li><p>0.109</p></li>
+<li><p>0.111</p></li>
+<li><p>0.084</p></li>
+<li><p>0.103</p></li>
+<li><p>0.088</p></li>
+</ul>
+<p>Μα καλά, γιατί δεν παίρνουμε κάτι κοντά στο 1/2; (ήτοι, στο 0.5) Τι πάει λάθος με το σκεπτικό μας;</p>
+<p>Ας βάλουμε κάτω τις γνώσεις μας από τις πιθανότητες. Ας περιγράψουμε λίγο τις σειρές αποτελεσμάτων της διαδικασίας μας οι οποίες μας οδηγούν σε «κορώνα». Όπως είπαμε, για να αποφασίσουμε ότι φέραμε «κορώνα» πρέπει το τελευταίο αποτέλεσμα της σειρά μας να είναι κορώνα και το αμέσως προηγούμενο να είναι γράμματα. Τι πρέπει να είναι όμως το προ-προτελευταίο αποτέλεσμα της σειράς μας;</p>
+<p>Χμμμ… Αν το καλοσκεφτούμε, θα πρέπει κι αυτό να είναι γράμματα, αφού, αν ήταν κορώνα και το επόμενό του (το προτελευταίο, δηλαδή) ήταν γράμματα όπως είπαμε, θα έπρεπε να σταματήσουμε σε αυτό, άρα το αποτέλεσμα της διαδικασίας μας θα ήταν «γράμματα» και όχι «κορώνα». Με παρόμοιο σκεπτικό βλέπουμε ότι, για να καταλήξουμε σε «κορώνα» πρέπει το τελευταίο αποτέλεσμα να είναι κορώνα και όλα τα προηγούμενα αποτελέσματα να είναι γράμματα. Έτσι, οι σειρές αποτελεσμάτων που μας δίνουν «κορώνα» έχουν τη μορφή:</p>
+<p><strong>ΓΓΓ…ΓΚ</strong>.</p>
+<p>Επομένως, η πιθανότητα η παραπάνω διαδικασία να μας δώσει «κορώνα» είναι ίση με:</p>
+<div class="math notranslate nohighlight">
+\[P("K")=P(\underbrace{\Gamma\Gamma\ldots\Gamma K}_{n}:n=2,3,\ldots)\]</div>
+<p>Πρακτικά, αυτό που έχουμε να υπολογίσουμε είναι η πιθανότητα της παρακάτω ένωσης «απλούστερων» ενδεχομένων:</p>
+<div class="math notranslate nohighlight">
+\[\bigcup_{n=2}^\infty\{\underbrace{\Gamma\Gamma\ldots\Gamma K}_{n}\}.\]</div>
+<p>Αν τώρα παρατηρήσουμε καλύτερα θα δούμε ότι τα σύνολα  <span class="math notranslate nohighlight">\(A_n={\underbrace{\Gamma\Gamma\ldots\Gamma K}_{n}}\)</span>  είναι ξένα μεταξύ τους, οπότε, η πιθανότητα της ένωσης θα είναι ίση με το «άθροισμα» των επιμέρους πιθανοτήτων, δηλαδή:</p>
+<div class="math notranslate nohighlight">
+\[P("K")=P\left(\bigcup_{n=2}^\infty\{\underbrace{\Gamma\Gamma\ldots\Gamma K}_{n}\}\right)=\sum_{n=2}^\infty P(\{\underbrace{\Gamma\Gamma\ldots\Gamma K}_{n}\}).\]</div>
+<p>Ας υπολογίσουμε, τώρα, την πιθανότητα  <span class="math notranslate nohighlight">\(p_n=P(\{\underbrace{\Gamma\Gamma\ldots\Gamma K}_{n}\})\)</span> . Πρακτικά, η  <span class="math notranslate nohighlight">\(p_n\)</span>  είναι η πιθανότητα να έχουμε  <span class="math notranslate nohighlight">\(n-1\)</span>  συνεχόμενες φορές γράμματα και στην τελευταία ρίψη κορώνα. Εδώ, για να προχωρήσουμε ομαλά στους υπολογισμούς μας μπορούμε να κάνουμε την εξής υπόθεση: οι ρίψεις του «κάλπικου» νομίσματος είναι μεταξύ τους όλες <a class="reference external" href="https://en.wikipedia.org/wiki/Independence_(probability_theory)">στοχαστικά ανεξάρτητες</a><em>.</em> ανά δύο. Αυτό σημαίνει ότι το αποτέλεσμα μίας ρίψης δεν επηρεάζεται από αυτά των προηγούμενων ρίψεων και δεν επηρεάζει αυτά των επόμενων - κάτι που είναι εύλογο, μιας και το νόμισμά μας δε φαίνεται να έχει κάποια ιδιότητα «μνήμης» με βάση την οποία να καταγράφει κάπως τα προηγούμενα αποτελέσματά του.</p>
+<p>Η παραπάνω υπόθεση - η στοχαστική ανεξαρτησία - μας επιτρέπει να αξιοποιήσουμε το γεγονός ότι η πιθανότητα να συμβούν δύο γεγονότα διαδοχικά είναι ίση με το γινόμενο των πιθανοτήτων τους ή, πιο αυστηρά:</p>
+<div class="math notranslate nohighlight">
+\[P(A\cap B)=P(A)P(B),\]</div>
+<p>όπου  <span class="math notranslate nohighlight">\(A,B\)</span>  είναι δύο στοχαστικά ανεξάρτητα μεταξύ τους ενδεχόμενα. Έτσι, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[P(\{\underbrace{\Gamma\Gamma\ldots\Gamma K}_{n}\})=\underbrace{P(\Gamma)P(\Gamma)\ldots P(\Gamma)P(K)}_{n}=P(\Gamma)^{n-1}P(K)=0.1^{n-1}0.9.\]</div>
+<p>Τώρα, αθροίζουμε τα παραπάνω οπότε παίρνουμε:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}P("K")&amp;=\sum_{n=2}^\infty0.1^{n-1}0.9=0.9\sum_{n=2}^\infty0.1^{n-1}\overset{k=n-1}{=}0.9\sum_{k=1}^\infty0.1^k=\&amp;=0.9\left(\sum_{k=0}^\infty0.1^k-1\right)=0.9\left(\frac{1}{1-0.1}-1\right)=0.1.\end{aligned}\]</div>
+<p>Χεχεχε… Από εκεί που είχαμε ένα νόμισμα που έφερνε κορώνα με πιθανότητα 0.9 και γράμματα με πιθανότητα 0.1 τώρα φτιάξαμε ένα «νόμισμα» που φέρνει «κορώνα» με πιθανότητα 0.1 και «γράμματα» με πιθανότητα 0.9. Μια τρύπα στο νερό, δηλαδή.</p>
+<p>Πριν αφήσουμε αυτήν την προσπάθεια στο χρονοντούλαπο της ιστορίας, ας προσπαθήσουμε λίγο να ερμηνεύσουμε το αποτέλεσμά μας. Η ιδέα να κάνουμε πολλές διαδοχικές ρίψεις και να υιοθετούμε σαν «αποτέλεσμά» μας το τελευταίο αποτέλεσμα της ακολουθίας των αποτελεσμάτων με την προϋπόθεση ότι είναι το πρώτο που διαφοροποιείται από τα προηγούμενά του είχε σαν αποτέλεσμα να παίρνουμε «κορώνα» μόνο στις περιπτώσεις που είχαμε καταφέρει στην <em>πρώτη</em> μας ρίψη να φέρουμε γράμματα - αφού μετά, με την πρώτη κορώνα που θα έρθει σταματάμε. Όμως, το να φέρουμε γράμματα στην πρώτη ρίψη συμβαίνει με πιθανότητα ακριβώς 0.1, άρα και το να φέρουμε «κορώνα» θα συμβαίνει με πιθανότητα 0.1</p>
+</section>
+<section id="id3">
+<h2>Μία δεύτερη, πιο «εξεζητημένη» μέθοδος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<p>Καλή ιδέα φαινόταν η πρώτη, αλλά δε δούλεψε, τελικά. Ίσως όμως η ιδέα να κάνουμε πολλές ρίψεις και να κρατάμε το τελικό αποτέλεσμα ως το αποτέλεσμα της «ρίψης» μας να μην είναι μία κακή ιδέα. Ας σκεφτούμε την παρακάτω παραλλαγή της πρώτης μας ιδέας:</p>
+<ul class="simple">
+<li><p>Αρχικά, στρίβουμε δύο φορές το νόμισμά μας. Αν είναι διαφορετικές τότε λέμε ότι το τελευταίο εκ των δύο αποτελεσμάτων είναι το «αποτέλεσμά» μας.</p></li>
+<li><p>Αν όμως είναι και τα δύο αποτελέσματα ίδια, τότε επαναλαμβάνουμε το πρώτο βήμα.</p></li>
+</ul>
+<p>Η ουσιαστική διαφορά εδώ πέρα είναι ότι «ζευγαρώνουμε» τις ρίψεις μας και δεν τις εξετάζουμε μεμονωμένα. Αυτό ελπίζουμε να έχει σαν αποτέλεσμα, σε αντίθεση με την προηγούμενη απόπειρά μας, όχι μόνο να «ακυρώνουμε» τις πολλές ρίψεις που θα μας φέρουν κορώνα λόγω «καλπικοσύνης» του νομίσματός μας αλλά θα μας δώσουν και την ευκαιρία η διαδικασία μας να τερματίσει με «κορώνα» πιο συχνά από ότι με την πρώτη στρατηγική μας στην οποία, όποτε φέρναμε κορώνα στην πρώτη ρίψη ήταν σίγουρο ότι το τελικό μας αποτέλεσμα θα ήταν «γράμματα». Πάμε όμως να κάνουμε και κάποια πειράματα, για να δούμε τι γίνεται.</p>
+<p>Ας ρίξουμε μία ματιά στο ακόλουθο python script:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">import random
+</span><span id="line-2">
+</span><span id="line-3">def experiment():
+</span><span id="line-4">    previous = random.randint(0,9)//9
+</span><span id="line-5">    current = random.randint(0,9)//9
+</span><span id="line-6">    while (previous == current):
+</span><span id="line-7">        previous = random.randint(0,9)//9
+</span><span id="line-8">        current = random.randint(0,9)//9
+</span><span id="line-9">    return current
+</span><span id="line-10">
+</span><span id="line-11">print(experiment())
+</span></code></pre></div>
+</div>
+<p>Η δουλειά που κάνει η συνάρτηση experiment() είναι παρόμοια με αυτήν της προηγούμενης στρατηγικής μας - στρίβει δύο φορές το νόμισμα και, αν είναι ίδιες, ξαναστρίβει μέχρι να φτάσει σε δύο διαφορετικές, οπότε και επιστρέφει το τελευταίο αποτέλεσμα. Αν δοκιμάσουμε να τρέξουμε 5-6 φορές το παραπάνω script θα πάρουμε αποτελέσματα που μοιάζουν με τα παρακάτω:</p>
+<ul class="simple">
+<li><p>0</p></li>
+<li><p>1</p></li>
+<li><p>0</p></li>
+<li><p>0</p></li>
+<li><p>1</p></li>
+</ul>
+<p>Ενθαρρυντικό το πρώτο μας δείγμα. Ας φτιάξουμε τώρα κι ένα script που θα κάνει πολλά παρόμοια πειράματα για να εκτιμήσουμε την πιθανότητα να έρθει «κορώνα»:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">import random
+</span><span id="line-2">
+</span><span id="line-3">def experiment():
+</span><span id="line-4">    previous = random.randint(0,9)//9
+</span><span id="line-5">    current = random.randint(0,9)//9
+</span><span id="line-6">    while (previous == current):
+</span><span id="line-7">        previous = random.randint(0,9)//9
+</span><span id="line-8">        current = random.randint(0,9)//9
+</span><span id="line-9">    return current
+</span><span id="line-10">
+</span><span id="line-11">def many_experiments(n):
+</span><span id="line-12">    heads_count = 0
+</span><span id="line-13">    for i in range(n):
+</span><span id="line-14">        if (experiment() == 0):
+</span><span id="line-15">            heads_count += 1
+</span><span id="line-16">    return heads_count/n
+</span><span id="line-17">
+</span><span id="line-18">print(many_experiments(1000))
+</span></code></pre></div>
+</div>
+<p>Αν τρέξουμε λίγες φορές το παραπάνω script θα πάρουμε αποτελέσματα που θα μοιάζουν με τα παρακάτω:</p>
+<ul class="simple">
+<li><p>0.525</p></li>
+<li><p>0.499</p></li>
+<li><p>0.512</p></li>
+<li><p>0.481</p></li>
+<li><p>0.516</p></li>
+</ul>
+<p>Πολύ ενθαρρυντικό και το παραπάνω αποτέλεσμα - μάλλον είμαστε στον σωστό δρόμο. Μένει μόνο να δούμε αν και θεωρητικά επαληθεύεται αυτό που δείχνουν τα πειράματά μας. Όπως και πριν, θα υπολογίσουμε την πιθανότητα μίας ένωσης και, ειδικότερα, την:</p>
+<div class="math notranslate nohighlight">
+\[P("K")=P\left(\bigcup_{n=1}^\infty \{\underbrace{XX,XX,\ldots,XX}_{2n-2}\Gamma K\}\right),\]</div>
+<p>όπου τα  <span class="math notranslate nohighlight">\(XX\)</span>  είναι ζεύγη ίδιων αποτελεσμάτων - είτε και τα δύο κορώνες είτε και τα δύο γράμματα. Τώρα, επειδή τα ενδεχόμενά μας είναι ξένα ανά δύο, μπορούμε να γράψουμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[P("K")=\sum_{n=1}^\infty \overbrace{P(\{\underbrace{XX,XX,\ldots,XX}_{2n-2}\Gamma K\})}^{p_n}.\]</div>
+<p>Πρέπει τώρα να υπολογίσουμε την πιθανότητα  <span class="math notranslate nohighlight">\(p_n\)</span>  να έχουμε μία ακολουθία μήκους  <span class="math notranslate nohighlight">\(2n\)</span>  με τα εξής χαρακτηριστικά:</p>
+<ul class="simple">
+<li><p>η ακολουθία μας να καταλήγει με το ζεύγος ΓΚ,</p></li>
+<li><p>η ακολουθία μας να έχει ένα αρχικό μέρος μήκους  <span class="math notranslate nohighlight">\(2n-2\)</span>  το οποίο να αποτελείται από ζεύγη είτε της μορφής ΚΚ είτε της μορφής ΓΓ - με οποιαδήποτε σειρά ή αναλογία.</p></li>
+</ul>
+<p>Ένα κόλπο που μπορούμε να κάνουμε εδώ είναι το εξής: Αντί να κοιτάμε κάθε ρίψη ξεχωριστά, να κοιτάμε τις ρίψεις ως δυάδες. Επομένως:</p>
+<ul class="simple">
+<li><p>η ρίψη ΓΚ έρχεται με πιθανότητα - αξιοποιούμε εδώ τη στοχαστική ανεξαρτησία όπως και παραπάνω -  <span class="math notranslate nohighlight">\(P(\Gamma K)=P(\Gamma)P(K)=0.1\cdot0.9=0.09\)</span> ,</p></li>
+<li><p>η ρίψη ΚΚ έρχεται με πιθανότητα  <span class="math notranslate nohighlight">\(P(KK)=P(K)P(K)=0.9\cdot0.9=0.81\)</span> ,</p></li>
+<li><p>η ρίψη ΓΓ έρχεται με πιθανότητα  <span class="math notranslate nohighlight">\(P(\Gamma\Gamma)=P(\Gamma)P(\Gamma)=0.1\cdot0.1=0.01\)</span> .</p></li>
+</ul>
+<p>Επομένως, μένει να δούμε πόσες διαφορετικές ακολουθίες μπορούμε να κατασκευάσουμε με μήκος  <span class="math notranslate nohighlight">\(2n\)</span>  που να αποτελούνται από ένα σταθερό ζευγάρι ΓΚ στο τέλος και  <span class="math notranslate nohighlight">\(n-1\)</span>  ζεύγη είτε ΚΚ είτε ΓΓ. Για να κατασκευάσουμε μία τέτοια ακολουθία πρέπει πρώτα να αποφασίσουμε πόσα ζεύγη ΚΚ θα βάλουμε σε αυτήν - οπότε, έμμεσα, έχουμε καθορίσει και το πλήθος των ΓΓ που θα περιέχονται. Θέλουμε, επομένως, να επιλέξουμε κάποια, έστω  <span class="math notranslate nohighlight">\(k\)</span>  ζεύγη από τα  <span class="math notranslate nohighlight">\(n-1\)</span>  για να έρθουν κορώνα. Αυτό, από τη συνδυαστική που ξέρουμε, μπορεί να γίνει με τη βοήθεια του <a class="reference external" href="https://en.wikipedia.org/wiki/Binomial_coefficient">διωνυμικού συντελεστή</a>, ο οποίος μας δίνει ακριβώς το πλήθος των τρόπων με τους οποίους μπορούμε να επιλέξουμε  <span class="math notranslate nohighlight">\(k\)</span>  στοιχεία από ένα μεγαλύτερο σύνολο  <span class="math notranslate nohighlight">\(n\)</span>  στοιχείων. Στην περίπτωσή μας, λοιπόν, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\binom{n-1}{k}=\frac{(n-1)!}{k!(n-1-k)!}\]</div>
+<p>τρόπους για να επιλέξουμε  <span class="math notranslate nohighlight">\(k\)</span>  ζεύγη που θα έχουν το αποτέλεσμα ΚΚ από τα συνολικά  <span class="math notranslate nohighlight">\(n-1\)</span>  που έχουμε, για  <span class="math notranslate nohighlight">\(k=0,1,2,\ldots,n-1\)</span>  - σιωπηλά δεχόμαστε ότι ο διωνυμικός συντελεστής είναι 0 όταν  <span class="math notranslate nohighlight">\(n-1=0\)</span>  (δηλαδή, δεν μπορούμε να διαλέξουμε με κανέναν τρόπο κάποια στοιχεία όταν έχουμε στα χέρια μας έχουμε ακριβώς 0 στοιχεία). Τώρα, αν έχουμε σταθεροποιήσει ένα  <span class="math notranslate nohighlight">\(k\)</span> , έχουμε  <span class="math notranslate nohighlight">\(k\)</span>  ζεύγη ΚΚ με πιθανότητα 0.81 το καθένα και  <span class="math notranslate nohighlight">\(n-1-k\)</span>  (τα υπόλοιπα) ζεύγη ΓΓ με πιθανότητα 0.01 το καθένα και το τελευταίο ζεύγος ΓΚ με πιθανότητα 0.09. Επειδή, όπως είπαμε, τα ενδεχόμενά μας είναι όλα ανά δύο στοχαστικά ανεξάρτητα, έπεται ότι η πιθανότητα να έχουμε μία ακολουθία ζευγών όπως τη θέλουμε είναι:</p>
+<div class="math notranslate nohighlight">
+\[\underbrace{0.81\ldots0.81}_{k}\cdot\underbrace{0.01\ldots0.01}_{n-1-k}\cdot0.09=0.81^k0.01^{n-1-k}0.09\]</div>
+<p>Τα παραπάνω αφορούν μία ακολουθία αποτελεσμάτων. Εμείς έχουμε  <span class="math notranslate nohighlight">\(\binom{n-1}{k}\)</span> , άρα, συνολικά θα έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\binom{n-1}{k}0.09=0.81^k0.01^{n-1-k}0.09.\]</div>
+<p>Μας μένει τώρα να αθροίσουμε τα παραπάνω και για κάθε  <span class="math notranslate nohighlight">\(k=0,1,\ldots,n-1\)</span> , οπότε παίρνουμε την πιθανότητα  <span class="math notranslate nohighlight">\(p_n\)</span>  να εμφανιστεί μία ακολουθία όπως τη θέλουμε με μήκος  <span class="math notranslate nohighlight">\(n\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[\sum_{k=0}^{n-1}\binom{n-1}{k}0.81^k0.01^{n-1-k}0.09=0.09\sum_{k=0}^{n-1}\binom{n-1}{k}0.81^k0.01^{n-1-k},\ n=2,3,\ldots,\]</div>
+<p>ενώ, ειδικά για  <span class="math notranslate nohighlight">\(n=1\)</span>  έχουμε μόνο ένα ζεύγος ΓΚ, άρα η ζητούμενη πιθανότητα είναι  <span class="math notranslate nohighlight">\(p_1=0.09\)</span> .</p>
+<p>Εδώ θα χρησιμοποιήσουμε το <a class="reference external" href="https://en.wikipedia.org/wiki/Binomial_theorem">διωνυμικό ανάπτυγμα</a>, δηλαδή την ταυτότητα:</p>
+<div class="math notranslate nohighlight">
+\[(x+y)^n=\sum_{k=0}^n\binom{n}{k}x^ky^{n-k},\]</div>
+<p>για εκθέτη  <span class="math notranslate nohighlight">\(n-1\)</span> ,  <span class="math notranslate nohighlight">\(x=0.81\)</span>  και  <span class="math notranslate nohighlight">\(y=0.01\)</span> , οπότε θα πάρουμε:</p>
+<div class="math notranslate nohighlight">
+\[p_n=0.09\sum_{k=0}^{n-1}\binom{n-1}{k}0.81^k0.01^{n-1-k}=0.09(0.81+0.01)^{n-1}=0.09\cdot0.82^{n-1},\]</div>
+<p>για  <span class="math notranslate nohighlight">\(n=2,3,\ldots\)</span>  και  <span class="math notranslate nohighlight">\(p_1=0.09\)</span> . Μας μένει μόνο να αθροίσουμε όσα έχουμε βρει ως τώρα, συνεπώς:</p>
+<div class="math notranslate nohighlight">
+\[P("K")=\sum_{n=1}^\infty0.09\cdot0.82^{n-1}=0.09\sum_{n=1}^\infty0.82^{n-1}\overset{m=n-1}{=}0.09\sum_{m=0}^\infty0.82^m=0.09\frac{1}{1-0.82}=\frac{0.09}{0.18}=\frac{1}{2},\]</div>
+<p>όπου, όπως και παραπάνω, χρησιμοποιήσαμε τον τύπο μίας γεωμετρικής σειράς με λόγο  <span class="math notranslate nohighlight">\(\lambda&lt;1\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[\sum_{k=0}^\infty\lambda^k=\frac{1}{1-\lambda}.\]</div>
+<p>Τελικά, λοιπόν, αποδείξαμε ότι, πράγματι, η διαδικασία που περιγράψαμε παραπάνω προσομοιώνει ένα «τίμιο» νόμισμα, υπό την έννοια ότι η πιθανότητα να έρθει «κορώνα» είναι ακριβώς 1/2, όπως θα συνέβαινε και με ένα τίμιο νόμισμα.</p>
+</section>
+<section id="id4">
+<h2>Επίλογος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h2>
+<p>Τα παραπάνω είναι αποτελέσματα που γενικεύονται σχετικά εύκολα για οποιαδήποτε πιθανότητα  <span class="math notranslate nohighlight">\(p\)</span>  με την οποία ένα νόμισμα φέρνει κορώνα. Με άλλα λόγια, οποιοδήποτε κάλπικο νόμισμα κι αν πάρουμε, μπορούμε να χρησιμοποιήσουμε την παραπάνω διαδικασία για να καταφέρουμε να έχουμε δύο ισοπίθανα αποτελέσματα και, με αυτόν τον τρόπο, να έχουμε ένα τίμιο «νόμισμα» στα χέρια μας.</p>
+<p>Η κεντρική ιδέα της ανάρτησης προήλθε από μία πολύ ωραία και κλασσική άσκηση πιθανοτήτων που μπορεί κανείς να βρει αν ανατρέξει στις <em>Βασικές αρχές θεωρίας πιθανοτήτων</em> του <em>Sheldon Ross</em>, (επιστημονική επιμέλει ελληνικής έκδοσης: Β. Φελουζής, Παν. Αιγαίου, εκδ. Κλειδάριθμος, σελ. 124, ασκ. 358).</p>
+<p><em>Όπως, ίσως, θα έχετε παρατηρήσει, υπάρχει ένας παροξυσμός εδώ στο aftermaths με τον Rembrandt τον τελευταίο καιρό - αυτός ο πίνακας είναι ένας από τους αγαπημένους μου.</em></p>
+<p>Καλό απόγευμα και χρόνια πολλά!</p>
+<p>(Κι μία μικρή λειτουργία για να μπαίνουμε σιγά-σιγά σε κλίμα Πάσχα)</p>
+<blockquote>
+<div><div class="video_wrapper" style="">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/dveq2sKrRPY" style="border: 0; height: 345px; width: 560px">
+</iframe></div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        Κλάσματα! Κλάσματα παντού!
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">
+        Λίγες σκέψεις για τον χώρο
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Μία πρώτη προσπάθεια</a></li>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Μία δεύτερη, πιο «εξεζητημένη» μέθοδος</a></li>
+<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Επίλογος</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

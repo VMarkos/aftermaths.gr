@@ -1,0 +1,26 @@
+Ασκήσεις στο θεώρημα σταθερής συνάρτησης
+########################################
+
+.. meta::
+	:date: 2019-02-20 23:50
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, σταθερή συνάρτηση, συναρτήσεις, Γ' λυκείου, ΘΜΤ, ασκήσεις, επανάληψη
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%bf-%ce%b8%ce%b5%cf%8e%cf%81%ce%b7%ce%bc%ce%b1-%cf%83%cf%84%ce%b1%ce%b8%ce%b5%cf%81%ce%ae%cf%82-%cf%83%cf%85%ce%bd%ce%ac%cf%81%cf%84
+	:status: published
+	:attachments: _static/images/uploads/2019/02/445px-arcimboldo_air_copy.jpg
+
+.. figure:: /_static/images/uploads/2019/02/445px-arcimboldo_air_copy.jpg
+	:alt: Ο πίνακας *Αέρας* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Αέρας* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+
+
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1sa_BoXzOhcz8Awd9r2tPAxaxqslw4Shc/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό διάβασμα και καλό βράδυ!
+
+.. youtube:: AXhWBpyraqY 

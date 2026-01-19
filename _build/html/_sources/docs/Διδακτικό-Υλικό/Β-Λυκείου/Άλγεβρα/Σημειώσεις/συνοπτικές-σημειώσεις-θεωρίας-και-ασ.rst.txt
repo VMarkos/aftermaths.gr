@@ -1,0 +1,26 @@
+Συνοπτικές σημειώσεις θεωρίας και ασκήσεις για την άλγεβρα Γενικής παιδείας της Β' Λυκείου
+##########################################################################################
+
+.. meta::
+	:date: 2019-08-26 20:52
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: προβλήματα, πολυώνυμα, συστήματα, συναρτήσεις, σημειώσεις, τριγωνομετρία, Β' Λυκείου, ασκήσεις, επανάληψη, εκθετική, θεωρία, λογαριθμική
+	:slug: %cf%83%cf%85%ce%bd%ce%bf%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%b8%ce%b5%cf%89%cf%81%ce%af%ce%b1%cf%82-%ce%ba%ce%b1%ce%b9-%ce%b1%cf%83
+	:status: published
+	:attachments: _static/images/uploads/2019/08/morning_in_the_riesengebirge.jpg
+
+.. figure:: /_static/images/uploads/2019/08/morning_in_the_riesengebirge.jpg
+	:alt: Ο πίνακας *Πρωινό στα Γιγαντιαία Βουνά* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Πρωινό στα Γιγαντιαία Βουνά* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+
+
+Οι σημειώσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1NFGj-v60Q2ZQY5XLtteJCJBcvJRolg4Q/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+.. youtube:: 2h9OWdjmRUo 

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2022-11-19 15:30" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Διδακτική, Μαθηματικά" name="category"/>
+<meta content="featured, πανελλήνιες, Γ' λυκείου, l&amp;#039;hospital" name="tags"/>
+<meta content="%ce%bf-de-lhospital-%cf%83%cf%84%ce%b7-%cf%87%cf%8e%cf%81%ce%b1-%cf%84%cf%89%ce%bd-%cf%84%cf%81%ce%b9%ce%b3%cf%8e%ce%bd%cf%89%ce%bd" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2022/11/best_approx.png, _static/images/uploads/2022/11/best_approx_02.png, _static/images/uploads/2022/11/dlh_f_g-1.png, _static/images/uploads/2022/11/infty_approx_01.png, _static/images/uploads/2022/11/best_approx_01.png, _static/images/uploads/2022/11/best_approx_04.png, _static/images/uploads/2022/11/gustave_caillebotte_-_the_yellow_fields_at_gennevilliers.jpg, _static/images/uploads/2022/11/dlh_f_g.png, _static/images/uploads/2022/11/infty_approx_02.png, _static/images/uploads/2022/11/best_approx_03.png" name="attachments"/>
+<title>Ο De L’Hôspital στην Χώρα των Τριγώνων | aftermaths</title>
+<meta content="Ο De L’Hôspital στην Χώρα των Τριγώνων | aftermaths" property="og:title"/>
+<meta content="Ο De L’Hôspital στην Χώρα των Τριγώνων | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html" rel="next" title="Ο Rolle και τα κουνούπια"/>
+<link href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html" rel="prev" title="Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Ο De L’Hôspital στην Χώρα των Τριγώνων</span>
+</nav>
+<div id="content" role="main">
+<section id="de-l-hospital">
+<h1>Ο De L’Hôspital στην Χώρα των Τριγώνων<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#de-l-hospital"><span>#</span></a></h1>
+<figure class="align-center" id="id8">
+<img alt="Ο καθ'όλα φθινοπωρινός πίνακας *Τα κίτρινα λιβάδια της Gennevilliers* του `Gustave Caillebotte  &lt;https://en.wikipedia.org/wiki/Gustave_Caillebotte&gt;`__." src="_static/images/uploads/2022/11/best_approx.png,_static/images/uploads/2022/11/best_approx_02.png,_static/images/uploads/2022/11/dlh_f_g-1.png,_static/images/uploads/2022/11/infty_approx_01.png,_static/images/uploads/2022/11/best_approx_01.png,_static/images/uploads/2022/11/best_approx_04.png,_static/images/uploads/2022/11/gustave_caillebotte_-_the_yellow_fields_at_gennevilliers.jpg,_static/images/uploads/2022/11/dlh_f_g.png,_static/images/uploads/2022/11/infty_approx_02.png,_static/images/uploads/2022/11/best_approx_03.png"/>
+<figcaption>
+<p><span class="caption-text">Ο καθ’όλα φθινοπωρινός πίνακας <em>Τα κίτρινα λιβάδια της Gennevilliers</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Gustave_Caillebotte">Gustave Caillebotte</a>.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id8"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Ο φόβος κι ο τρόμος όλων των ορίων κι όλων των μαθηματικών της Γ” Λυκείου είναι, αναμφίβολα, οι κανόνες De L’Hôspital (DLH, από εδώ και στο εξής, γιατί αυτό το «ô» είναι πολύ κουραστικό για όσους δεν έχουμε κάποιο γαλλικό layout στο πληκτρολόγιο). Κάνουν τα εύκολα δύσκολα και τα δύσκολα εύκολα όταν πρόκειται για όρια, λύνουν τα χέρια των μαθητών κατά κάποιους και τους αποχαυνώνουν, κατά κάποιους άλλους. Αποκαλύπτουν λεπτά σημεία σε σχέση με τη διαίσθηση των ορίων πηλίκων και συνάμα κρύβουν πολλές φορές την ουσία ενός υπολογισμού. Γενικά, αν δεν το έχετε καταλάβει ήδη, οι κανόνες DLH είναι ίσως ένα από τα πιο αμφίσημα σημεία της σχολικής ύλης. Κι αυτή η αμφισημία τους είναι που τους καθιστά και τόσο ενδιαφέροντες - ή, τουλάχιστον, έτσι λέμε μεταξύ μας οι μαθηματικοί.</p>
+<section id="id1">
+<span id="id2"></span><h2>Θέλω αποδείξεις και ονόματα…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id1'"><span>#</span></a></h2>
+<p>Ένα πολύ ελκυστικό κομμάτι σε ό,τι αφορά τα σχολικά μαθηματικά είναι πώς μπορεί κανείς να «κατεβάσει» διάφορες αποδείξεις στο επίπεδο του λυκείου έτσι ώστε να είναι «χρήσιμες» για την τάξη. Λέγοντας «χρήσιμες», αναφερόμαστε στον <em>επεξηγηματικό</em> χαρακτήρα της απόδειξης κι όχι τόσο στον ρόλο της ως εργαλείο συμπερασμού. Αν ένα αποτέλεσμα φαίνεται πειστικό από μόνο του, πολλές φορές είναι εύκολο να το δεχτούμε και χωρίς απόδειξη, ενώ, σε αντίθετη περίπτωση, συνήθως απαιτούμε κάποια απόδειξη. Μάλιστα, ιδανικά αυτή η απόδειξη πρέπει να είναι και κάπως «πειστική» κι όχι απλά μία τεχνική απόδειξη που δεν αποκαλύπτει καμία ενδότερη πτυχή του φαινομένου που μας απασχολεί. Αυτές είναι κι οι αποδείξεις που έχει περισσότερο νόημα να παρουσιάζουμε σε μία τάξη, δεδομένου, ότι σίγουρα δεν έχουμε ούτε τον χρόνο ούτε τα μέσα να αποδείξουμε κάθε τι που ισχυριζόμαστε, ειδικά στα Μαθηματικά Προσανατολισμού της Γ” Λυκείου.</p>
+<p>Περνώντας στους κανόνες DLH, η πλέον συνηθισμένη απόδειξη περνά μέσα από τα χωράφια του ΘΜΤ του Cauchy, το οποίο μπορεί να αποδειχθεί σχετικά απλά με χρήση του Θεωρήματος Rolle. Για την ακρίβεια, η απόδειξη του ΘΜΤ του Cauchy είναι μία «γενίκευση» της απόδειξης του ΘΜΤ ή, ακόμα καλύτερα, είναι μία «γενίκευση» κάποιων κλασικών τεχνικών που εφαρμόζουμε σε ασκήσεις που απαιτούν εφαρμογή του Θεωρήματος του Rolle. Αλλά, έχει νόημα να αποδείξουμε ένα ολόκληρο θεώρημα, γενίκευση μάλιστα ενός γνωστού θεωρήματος της ύλης, απλά και μόνο για να το χρησιμοποιήσουμε μία και μόνο φορά σε ένα και μόνο σημείο της ύλης;</p>
+<p>Μάλλον όχι, γι” αυτό και πρέπει να σκεφτούμε κάποιον άλλον τρόπο να αποδείξουμε τους κανόνες του DLH στα πλαίσια της ύλης που έχουμε στα χέρια μας. Η αλήθεια είναι ότι δε θα αποδείξουμε ακριβώς αυτούς τους κανόνες, αλλά θα τους «αποδείξουμε», κάνοντας κάποιες μικρές αβαρίες στην πορεία μας. Αν και όχι φορμαλιστικά πλήρεις, οι «αποδείξεις» που θα δούμε παρακάτω κουβαλάνε αρκετή διαίσθηση μαζί τους, πράγμα που συνήθως έχει μεγαλύτερη αξία από μία απλή και στείρα απόδειξη, απλά και μόνο στα πλαίσια μίας άκρατης «αποδειξομανίας».</p>
+</section>
+<section id="id3">
+<h2>Η εφαπτομένη ως βέλτιστη προσέγγιση<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<p>Κεντρικό ρόλο σε όσα θα παρουσιάσουμε παρακάτω θα παίξει η έννοια της εφαπτομένης και, μάλιστα, η έννοια της εφαπτομένης ως βέλτιστης γραμμικής προσέγγισης της γραφικής παράστασης μίας συνάρτησης σ” ένα σημείο. Τώρα, αυτό ακούστηκε λίγο περίπλοκο, αλλά δεν είναι. Για την ακρίβεια, όσα θα συζητήσουμε από εδώ και στο εξής, είναι οι χίλιες λέξεις που αντιστοιχούν στην παρακάτω εικόνα:</p>
+<figure class="wp-image-11450 align-default" id="id9">
+<img alt="Ζουμ, ζουμ, ζουμ!" src="docs/After-maths/{static}_static/images/uploads/2022/11/best_approx.png?w=918"/>
+<figcaption>
+<p><span class="caption-text">Ζουμ, ζουμ, ζουμ!</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Ας πάρουμε μία συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span>  ορισμένη γύρω από έναν αριθμό  <span class="math notranslate nohighlight">\(x_0\in\mathbb{R}\)</span>  κι ας υποθέσουμε ότι η  <span class="math notranslate nohighlight">\(f\)</span>  είναι παραγωγίσιμη στο  <span class="math notranslate nohighlight">\(x_0.\)</span>  Τότε, η εξίσωση της εφαπτομένης της εκεί είναι η ακόλουθη:</p>
+<div class="math notranslate nohighlight">
+\[y=f'(x_0)(x-x_0)+f(x_0).\]</div>
+<p>Ας μελετήσουμε τώρα λίγο το ακόλουθο όριο:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}&amp;\hphantom{=}\ \lim_{x\to x_0}\left(f(x)-(f'(x_0)(x-x_0)+f(x_0))\right)=\&amp;=\lim_{x\to x_0}\left(f(x)-f'(x_0)(x-x_0)-f(x_0)\right)=\&amp;=\lim_{x\to x_0}\left(f(x)-f(x_0)-f'(x_0)(x-x_0)\right)=\&amp;=\lim_{x\to x_0}(x-x_0)\left(\frac{f(x)-f(x_0)}{x-x_0)}-f'(x_0)\right)=\&amp;=0(f'(x_0)-f'(x_0))=\&amp;=0.\end{aligned}\]</div>
+<p>Το παραπάνω όριο δεν είναι τίποτα άλλο παρά η διαφορά της  <span class="math notranslate nohighlight">\(f\)</span>  από την εφαπτομένη της. Συνεπώς, αυτό που καταλαβαίνουμε από τα παραπάνω είναι ότι για μία παραγωγίσιμη συνάρτηση σε κάποιο  <span class="math notranslate nohighlight">\(x_0,\)</span>  αν περιοριστούμε αρκετά κοντά στο  <span class="math notranslate nohighlight">\(x_0\)</span>  τότε αυτό που θα παρατηρήσουμε είναι ότι η γραφική παράσταση της  <span class="math notranslate nohighlight">\(f\)</span>  είναι «σχεδόν» ευθεία. Ή, πιο σωστά, ας υποθέσουμε ότι κάποιος σατανικός μαθηματικός έρχεται και μας ρωτάει:</p>
+<blockquote>
+<div><p>«Υπάρχει κάποιο διάστημα γύρω από το  <span class="math notranslate nohighlight">\(x_0\)</span>  στο οποίο η γραφική παράσταση της  <span class="math notranslate nohighlight">\(f\)</span>  να είναι «σχεδόν» ευθεία;»</p>
+<p>Σατανικός Μαθηματικός, Νοέμβριος, 2022</p>
+</div></blockquote>
+<p>Μπορούμε να απαντήσουμε καταφατικά στην παραπάνω ερώτηση εφόσον η  <span class="math notranslate nohighlight">\(f\)</span>  είναι παραγωγίσιμη - και η απόδειξη είναι ο υπολογισμός που κάναμε παραπάνω. Άρα, μπορούμε να σκεφτόμαστε μία συνάρτηση κοντά σε ένα σημείο του πεδίο ορισμού της που είναι παραγωγίσιμη σαν μία «σχεδόν» ευθεία, χωρίς αυτό μάλιστα να απέχει πολύ από την πραγματικότητα. Αυτή η διαισθητική εικόνα μίας παραγωγίσιμης συνάρτησης θα μας φανεί ιδιαίτερα χρήσιμη σε όσα έπονται.</p>
+</section>
+<section id="dlh">
+<span id="id4"></span><h2>Μία απλή περίπτωση<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#dlh" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#dlh'"><span>#</span></a></h2>
+<p>Στη σχολική ύλη συναντάμε δύο κανόνες DLH και, μάλιστα, σε μία από τις πιο γενικές μορφές τους. Θα ασχοληθούμε πρώτα με τον κανόνα που αφορά όρια της μορφής  <span class="math notranslate nohighlight">\(\frac{0}{0}\)</span>  καθώς είναι κάπως πιο απλός στη διαπραγμάτευσή του - τουλάχιστον, με γεωμετρικούς όρους, όπως θα προσπαθήσουμε να κάνουμε εδώ. Έχουμε και λέμε, λοιπόν:</p>
+<p>Αν  <span class="math notranslate nohighlight">\(f,g&amp;fg=362e77&amp;bg=d9d9d9\)</span>  είναι δύο συναρτήσεις ορισμένες και παραγωγίσιμες κοντά σε κάποιο  <span class="math notranslate nohighlight">\(x_0\in\mathbb{R}&amp;fg=362e77&amp;bg=d9d9d9\)</span>  έτσι ώστε  <span class="math notranslate nohighlight">\(\lim_{x\to x_0}f(x)=\lim_{x\to x_0}g(x)=0&amp;fg=362e77&amp;bg=d9d9d9\)</span>  και το όριο  <span class="math notranslate nohighlight">\(\lim_{x\to x_0}\frac{f'(x)}{g'(x)}&amp;fg=362e77&amp;bg=d9d9d9\)</span>  υπάρχει και είναι είτε πραγματικός αριθμός είτε άπειρο, τότε ισχύει και ότι  <span class="math notranslate nohighlight">\(\lim_{x\to x_0}\frac{f(x)}{g(x)}=\lim_{x\to x_0}\frac{f'(x)}{g'(x)}.&amp;fg=362e77&amp;bg=d9d9d9\)</span></p>
+<p>Πρακτικά, αν έχουμε ένα όριο της μορφής  <span class="math notranslate nohighlight">\(\frac{0}{0}\)</span>  και αριθμητής και παρονομαστής είναι παραγωγίσιμοι με το όριο του πηλίκου των παραγώγων τους να υπάρχει, τότε μπορούμε απλούστατα να υπολογίσουμε αυτό αντί για το αρχικό μας όριο. Η παραπάνω διατύπωση είναι αρκετά γενική, είναι η αλήθεια, καθώς δεν υποθέτει τίποτα για τις συναρτήσεις μας σε σχέση με το  <span class="math notranslate nohighlight">\(x_0\)</span>  - δεν χρειάζεται ούτε καν να ορίζονται εκεί. Ωστόσο, εμείς θα ξεκινήσουμε τη μελέτη μας με κάποιες απλουστευτικές υποθέσεις, για να κάνουμε τη ζωή μας πιο εύκολη. Αρχικά, θα υποθέσουμε ότι οι συναρτήσεις μας είναι είναι ορισμένες και στο  <span class="math notranslate nohighlight">\(x_0\)</span>  και είναι και παραγωγίσιμες εκεί. Ας μην μένουμε, όμως, μόνο στα λόγια. Ας πάρουμε δύο συναρτήσεις που να ικανοποιούν τις παραπάνω υποθέσεις, όπως φαίνεται και στο παρακάτω σχήμα:</p>
+<figure class="wp-image-11451 align-default" id="id10">
+<img alt="Δύο συναρτήσεις..." src="docs/After-maths/{static}_static/images/uploads/2022/11/best_approx_01.png?w=914"/>
+<figcaption>
+<p><span class="caption-text">Δύο συναρτήσεις…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id10"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τώρα, αφού έχουμε υποθέσει ότι οι συναρτήσεις μας είναι παραγωγίσιμες στο επίμαχο κόκκινο σημείο - το  <span class="math notranslate nohighlight">\(x_0\)</span>  δηλαδή - μπορούμε να σχεδιάσουμε εκεί τις εφαπτόμενές τους και να πάρουμε το παρακάτω σχήμα:</p>
+<figure class="wp-image-11452 align-default" id="id11">
+<img alt="Δύο συναρτήσεις και οι εφαπτόμενές τους..." src="docs/After-maths/{static}_static/images/uploads/2022/11/best_approx_02.png?w=914"/>
+<figcaption>
+<p><span class="caption-text">Δύο συναρτήσεις και οι εφαπτόμενές τους…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Αφού έχουμε υποθέσει ότι γύρω από το κόκκινο σημείο οι συναρτήσεις μας είναι παραγωγίσιμες, εκεί κοντά μπορούμε να υποθέσουμε όπως εξηγήσαμε και παραπάνω, ότι οι εφαπτόμενές τους είναι αρκετά καλές προσεγγίσεις τους. Επομένως, μπορούμε να αγνοήσουμε εκεί κοντά τις γραφικές τους παραστάσεις και να ασχοληθούμε μόνο με τις αντίστοιχες εφαπτόμενες. Έτσι, σβήνοντας από το παραπάνω σχήμα τις δύο γραφικές παραστάσεις - και τον μεγεθυντικό μας φακό - έχουμε το ακόλουθο σχήμα:</p>
+<figure class="wp-image-11517 align-default" id="id12">
+<img alt="Οι δύο εφαπτόμενες και κάτι... παραπάνω." src="docs/After-maths/{static}_static/images/uploads/2022/11/dlh_f_g-1.png?w=1007"/>
+<figcaption>
+<p><span class="caption-text">Οι δύο εφαπτόμενες και κάτι… παραπάνω.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id12"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Εντάξει, μας πιάσατε, έχουμε προσθέσει και λίγα ακόμα πράγματα πέρα από τις δύο ευθείες που θα μας βοηθήσουν στην ανάλυσή μας. Αρχικά, αφού έχουμε πει ότι  <span class="math notranslate nohighlight">\(f\approx\varepsilon_f\)</span>  και  <span class="math notranslate nohighlight">\(g\approx\varepsilon_g\)</span>  κοντά στο  <span class="math notranslate nohighlight">\(x_0\)</span>  τότε, εκεί κοντά, θα ισχύουν και τα εξής:</p>
+<div class="math notranslate nohighlight">
+\[f(x)\approx Bx,\ g(x)\approx Ax,\]</div>
+<p>όπου με  <span class="math notranslate nohighlight">\(Ax, Bx\)</span>  εννοούμε το προσημασμένο μήκος των ευθυγράμμων τμημάτων με άκρα  <span class="math notranslate nohighlight">\(A,x\)</span>  και  <span class="math notranslate nohighlight">\(B,x\)</span>  αντίστοιχα. Συνεπώς, το όριο που αναζητούμε είναι, «περίπου», το εξής:</p>
+<div class="math notranslate nohighlight">
+\[\lim_{x\to x_0}\frac{f(x)}{g(x)}=\lim_{x\to x_0}\frac{Ax}{Bx}.\]</div>
+<p>Τώρα, με λίγη απλή τριγωνομετρία, έχουμε τα εξής:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}\frac{Ax}{Bx}=\frac{(x_0x)\tan\theta}{(x_0x)\tan\phi}=\frac{\tan\theta}{\tan\phi}.\end{aligned}\]</div>
+<p>Τώρα, όμως, αν ξύσουμε λίγο το κεφάλι μας, θα θυμηθούμε ότι οι ευθείες  <span class="math notranslate nohighlight">\(\varepsilon_f\)</span>  και  <span class="math notranslate nohighlight">\(\varepsilon_g\)</span>  δεν είναι τίποτε άλλο παρά οι εφαπτόμενες των  <span class="math notranslate nohighlight">\(f\)</span>  και  <span class="math notranslate nohighlight">\(g\)</span>  στο  <span class="math notranslate nohighlight">\(x_0\)</span>  αντίστοιχα, επομένως οι κλίσεις τους συμπίπτουν με τις παραγώγους των  <span class="math notranslate nohighlight">\(f\)</span>  και  <span class="math notranslate nohighlight">\(g\)</span>  εκεί. Άρα, από τα παραπάνω έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{Ax}{Bx}=\dfrac{f'(x_0)}{g'(x_0)}.\]</div>
+<p>Συνεπώς, θα ισχύει και ότι:</p>
+<div class="math notranslate nohighlight">
+\[\lim_{x\to x_0}\frac{f(x)}{g(x)}=\lim_{x\to x_0}\frac{(Ax)}{(Bx)}=\frac{f'(x_0)}{g'(x_0)},\]</div>
+<p>που δεν είναι παρά το αποτέλεσμα που μας εγγυάται και ο αντίστοιχος κανόνας DLH.</p>
+</section>
+<section id="id5">
+<h2>Ή μήπως όχι;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id5'"><span>#</span></a></h2>
+<p>Αυτό που αποδείξαμε παραπάνω είναι το εξής:</p>
+<div class="math notranslate nohighlight">
+\[\lim_{x\to x_0}\frac{f(x)}{g(x)}=\frac{f'(x_0)}{g'(x_0)}.\]</div>
+<p>Ο αντίστοιχος κανόνας DLH λέει κάτι αρκετά γενικότερο, ωστόσο:</p>
+<div class="math notranslate nohighlight">
+\[\lim_{x\to x_0}\frac{f(x)}{g(x)}=\lim_{x\to x_0}\frac{f'(x)}{g'(x)}.\]</div>
+<p>Δηλαδή, στον γενικότερο κανόνα DLH δεν υποθέτουμε σε κανένα σημείο ότι οι παράγωγοι των επιμέρους συναρτήσεων υπάρχουν στο  <span class="math notranslate nohighlight">\(x_0\)</span>  αλλά ότι ορίζονται «εκεί γύρω» και ότι το όριο του πηλίκου τους υπάρχει. Αντιθέτως, στη μορφή του κανόνα που αποδείξαμε έχουμε κάνει την επιπλέον υπόθεση ότι οι παράγωγοι ορίζονται εκεί. Αυτό, τώρα, μπορεί σίγουρα να οδηγήσει σε παρανοήσεις ως προς τη γενικότητα του κανόνα DLH για τη μορφή  <span class="math notranslate nohighlight">\(\frac{0}{0},\)</span>  ωστόσο, δεν παύει να αποτελεί μία χρήσιμη ματιά στη διαίσθηση πίσω από τον κανόνα.</p>
+<p>Για την ακρίβεια, αυτή ακριβώς η παρανόηση - που οδηγεί σε μία ασθενέστερη μορφή του κανόνα - μπορεί να αποτελεί ένα ενδιάμεσο βήμα σε μία πληρέστερη διαισθητική διερεύνηση. Ας υποθέσουμε ότι έχουμε δύο συναρτήσεις που, σε αντίθεση με τις παραπάνω, δεν είναι παραγωγίσιμες στο  <span class="math notranslate nohighlight">\(x_0.\)</span>  Για την ακρίβεια, ας υποθέσουμε ότι δεν είναι καν ορισμένες εκεί, πράγμα που εύκολα μπορούμε να πετύχουμε, απλά αφαιρώντας το σημείο ενδιαφέροντός μας:</p>
+<figure class="wp-image-11457 align-default" id="id13">
+<img alt="Μία μικρή αλλαγή, που μας κάνει τη ζωή μας πολύυυυ δύσκολη." src="docs/After-maths/{static}_static/images/uploads/2022/11/best_approx_03.png?w=914"/>
+<figcaption>
+<p><span class="caption-text">Μία μικρή αλλαγή, που μας κάνει τη ζωή μας πολύυυυ δύσκολη.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id13"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τώρα, τίποτα από όσα είπαμε προηγουμένως δεν μπορεί να δουλέψει, τουλάχιστον όχι άμεσα, καθώς δεν μπορεί να γίνει λόγος για εφαπτόμενες των συναρτήσεών μας στο  <span class="math notranslate nohighlight">\(x_0\)</span>  καθώς δεν ορίζονται εκεί. Ωστόσο, έχουμε διάφορες υποθέσεις στο οπλοστάσιό μας που μπορούν να κάνουν τη ζωή μας κάπως πιο εύκολη.</p>
+<ul class="simple">
+<li><p>Αρχικά, γνωρίζουμε ότι οι συναρτήσεις μας, αν και δεν ορίζονται στο  <span class="math notranslate nohighlight">\(x_0,\)</span>  είναι παραγωγίσιμες «εκεί γύρω».</p></li>
+<li><p>Από το παραπάνω, συμπεραίνουμε ότι είναι και συνεχείς «εκεί γύρω».</p></li>
+<li><p>Συνεπώς, όσα είπαμε παραπάνω, μπορούμε να τα πούμε και πάλι, με το ίδιο ακριβώς σκεπτικό, αλλά όχι για το  <span class="math notranslate nohighlight">\(x_0\)</span>  παρά μόνο για σημεία «εκεί γύρω».</p></li>
+</ul>
+<p>Εγείρεται, λοιπόν, το ερώτημα: Μπορούμε να βρούμε ένα σημείο «γύρω» από το  <span class="math notranslate nohighlight">\(x_0\)</span>  που να είναι «σαν να ήταν το  <span class="math notranslate nohighlight">\(x_0;\)</span> »</p>
+<p>Η απάντηση, παραδόξως (ή και όχι), είναι εμφατικά καταφατική. Αλλά, ας δούμε γιατί. Όπως είπαμε και παραπάνω, οι συναρτήσεις μας είναι συνεχείς κοντά στο  <span class="math notranslate nohighlight">\(x_0\)</span>  και, επιπλέον, ισχύει και εκ προοιμίου ότι:</p>
+<div class="math notranslate nohighlight">
+\[\lim_{x\to x_0}f(x)=\lim_{x\to x_0}g(x)=0.\]</div>
+<p>Επομένως, αν θεωρήσουμε μία συνάρτηση σαν την:</p>
+<div class="math notranslate nohighlight">
+\[\hat{f}(x)=\begin{cases}f(x) &amp; x\in D_f\0 &amp; x=x_0\end{cases},\]</div>
+<p>τότε η  <span class="math notranslate nohighlight">\(\hat{f}\)</span>  είναι συνεχής σε όλο το  <span class="math notranslate nohighlight">\(D_f\cup\{x_0\}\)</span>  - είναι αυτό που λέμε «συνεχής επέκταση» της  <span class="math notranslate nohighlight">\(f.\)</span>  Ανάλογα μπορούμε να εργαστούμε και για την  <span class="math notranslate nohighlight">\(g,\)</span>  ορίζοντας μία συνεχή της επέκταση ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[\hat{g}(x)=\begin{cases}g(x) &amp; x\in D_g\0 &amp; x=x_0\end{cases}.\]</div>
+<p>Τώρα, με τις  <span class="math notranslate nohighlight">\(\hat{f},\hat{g}\)</span>  έχουμε μία κατάσταση σχεδόν όπως πριν, με τη μόνη διαφορά ότι δεν έχουμε την παραγωγισιμότητα στο  <span class="math notranslate nohighlight">\(x_0.\)</span>  Αλλά, εντάξει, μικρό το κακό. Από τη συνέχεια των  <span class="math notranslate nohighlight">\(\hat{f},\hat{g}\)</span>  στο  <span class="math notranslate nohighlight">\(x_0\)</span>  συμπεραίνουμε ότι, ε, αν θέλουμε να βρούμε ένα  <span class="math notranslate nohighlight">\(x_1\)</span>  κοντά στο  <span class="math notranslate nohighlight">\(x_0\)</span>  έτσι ώστε:</p>
+<div class="math notranslate nohighlight">
+\[\hat{f}(x_0)\approx\hat{f}(x_1)\ \hat{g}(x_0)\approx\hat{g}(x_1),\]</div>
+<p>μπορούμε να το κάνουμε. Μπορεί αυτό το  <span class="math notranslate nohighlight">\(x_1\)</span>  να πρέπει να είναι πολύ κοντά στο  <span class="math notranslate nohighlight">\(x_0\)</span>  αλλά αυτό δεν έχει και πολλή σημασία, εμείς μπορούμε να το βρούμε. Παίζοντας τώρα με αυτό το  <span class="math notranslate nohighlight">\(x_1\)</span>  παίρνουμε εκεί τις εφαπτόμενες των δύο συναρτήσεων και έχουμε μία κατάσταση όπως στο παρακάτω σχήμα:</p>
+<figure class="wp-image-11469 align-default" id="id14">
+<img alt="Ζουμάροντας λίγο δίπλα από τον στόχο..." src="docs/After-maths/{static}_static/images/uploads/2022/11/best_approx_04.png?w=868"/>
+<figcaption>
+<p><span class="caption-text">Ζουμάροντας λίγο δίπλα από τον στόχο…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id14"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Στην ουσία, έχουμε την ίδια κατάσταση με παραπάνω, απλά λίγο πιο δίπλα. Επομένως, όπως και παραπάνω, μπορούμε για το  <span class="math notranslate nohighlight">\(x_1\)</span>  να ισχυριστούμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[\lim_{x\to x_1}\frac{f(x)}{g(x)}=\lim_{x\to x_1}\frac{f'(x)}{g'(x)}.\]</div>
+<p>Ε, αλλά, το  <span class="math notranslate nohighlight">\(x_1\)</span>  είναι πολύ κοντά στο  <span class="math notranslate nohighlight">\(x_0,\)</span>  επομένως, μπορούμε να γράψουμε, με την απαραίτητη αυτοπεποίθηση:</p>
+<div class="math notranslate nohighlight">
+\[\lim_{x\to x_0}\frac{f(x)}{g(x)}=\lim_{x\to x_0}\frac{f'(x)}{g'(x)}.\]</div>
+<p>Διαισθητικά, αυτό δεν είναι και πολύ παράλογο, καθώς οι συναρτήσεις μας κοντά στο  <span class="math notranslate nohighlight">\(x_0\)</span>  είναι όπως και κοντά στο  <span class="math notranslate nohighlight">\(x_1\)</span>  (λόγω της συνέχειας) και κοντά στο  <span class="math notranslate nohighlight">\(x_1\)</span>  οι γραφικές τους παραστάσεις συμπίπτουν με τις εφαπτόμενές τους (λόγω παραγωγισιμότητας) και, όπως είπαμε παραπάνω, αυτό ακριβώς είναι που μας λέει και ο κανόνας DLH.</p>
+<p>Συνεπώς, κομψότατα και με ολίγες αβαρίες, «αποδείξαμε» τους κανόνες DLH στην περίπτωση  <span class="math notranslate nohighlight">\(\frac{0}{0}.\)</span>  Τι γίνεται όμως στην περίπτωση  <span class="math notranslate nohighlight">\(\frac{\infty}{\infty};\)</span></p>
+</section>
+<section id="id6">
+<h2>Μακριά από το μηδέν…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id6" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id6'"><span>#</span></a></h2>
+<p>Όλα τα παραπάνω δουλεύουν σαν επιχειρήματα (κοντά) σε συγκεκριμένα σημεία. Ωστόσο, στα σχολικά βιβλία μπορεί κανείς να βρει και μία ακόμα διατύπωση των κανόνων DLH, που έχουν να κάνουν με όρια που απειρίζονται. Ας τους φρεσκάρουμε λίγο:</p>
+<p>Αν  <span class="math notranslate nohighlight">\(f,g&amp;fg=362e77&amp;bg=d9d9d9\)</span>  είναι δύο συναρτήσεις ορισμένες και παραγωγίσιμες κοντά σε κάποιο  <span class="math notranslate nohighlight">\(x_0\in\mathbb{R}&amp;fg=362e77&amp;bg=d9d9d9\)</span>  έτσι ώστε  <span class="math notranslate nohighlight">\(\lim_{x\to x_0}f(x)=\lim_{x\to x_0}g(x)=\pm\infty&amp;fg=362e77&amp;bg=d9d9d9\)</span>  και το όριο  <span class="math notranslate nohighlight">\(\lim_{x\to x_0}\frac{f'(x)}{g'(x)}&amp;fg=362e77&amp;bg=d9d9d9\)</span>  υπάρχει και είναι είτε πραγματικός αριθμός είτε άπειρο, τότε ισχύει και ότι  <span class="math notranslate nohighlight">\(\lim_{x\to x_0}\frac{f(x)}{g(x)}=\lim_{x\to x_0}\frac{f'(x)}{g'(x)}.&amp;fg=362e77&amp;bg=d9d9d9\)</span></p>
+<p>Εντάξει, δε λέμε και κάτι πολύ διαφορετικό, απλώς αντί τα όριά μας να είναι μηδέν, είναι άπειρα - αδιαφορώντας για το πρόσημο. Εδώ η εικόνα είναι ίσως λίγο διαφορετική, τουλάχιστον κατά τα φαινόμενα, αλλά όπως θα δούμε παρακάτω, δεν είναι, δα, και τόσο. Ας πάρουμε δύο συναρτήσεις οι οποίες απειρίζονται κοντά σε ένα  <span class="math notranslate nohighlight">\(x_0\in\mathbb{R}\)</span>  όπως αυτές που φαίνονται στο παρακάτω σχήμα:</p>
+<figure class="wp-image-11523 align-default" id="id15">
+<img alt="Δύο συναρτήσεις που απειρίζονται παρέα..." src="docs/After-maths/{static}_static/images/uploads/2022/11/infty_approx_01.png?w=1007"/>
+<figcaption>
+<p><span class="caption-text">Δύο συναρτήσεις που απειρίζονται παρέα…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id15"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τώρα, στο  <span class="math notranslate nohighlight">\(x_0\)</span>  σαφώς δεν έχει νόημα να πάρουμε τις εφαπτόμενες των δύο γραφικών παραστάσεων, γιατί δεν υπάρχουν - δεν ορίζονται και οι συναρτήσεις μας εκεί, άλλωστε, αλλά και να ορίζονταν, δε θα ήταν παραγωγίσιμες. Συνεπώς, θα στραφούμε στην πιο γενική μεθοδολογία που είδαμε και παραπάνω.</p>
+<p>Ας πάρουμε, λοιπόν, ένα σημείο  <span class="math notranslate nohighlight">\(x_1\)</span>  κοντά στο  <span class="math notranslate nohighlight">\(x_0.\)</span>  Επειδή οι συναρτήσεις μας απειρίζονται εκεί γύρω, αν πάμε «αρκετά κοντά» στο  <span class="math notranslate nohighlight">\(x_0,\)</span>  τότε το  <span class="math notranslate nohighlight">\(f(x_1)\)</span>  θα είναι οσοδήποτε μεγάλο θέλουμε. Με άλλα λόγια, σε πιο χαλαρό πλαίσιο, μπορούμε να γράψουμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[x\approx x_0\Rightarrow f(x)\approx+\infty.\]</div>
+<p>Μπορείτε να γκρινιάξετε όσο, μα όσο, θέλετε για την ασάφεια της παραπάνω πρότασης, αλλά αυτή είναι η διαίσθησή μας για την κατάσταση που βλέπουμε στο παραπάνω σχήμα. Με αυτό κατά νου, αν  <span class="math notranslate nohighlight">\(x_1\approx x_0\)</span>  τότε θα έχουμε και  <span class="math notranslate nohighlight">\(f(x_1)\approx +\infty\)</span>  - κρατήστε το για μετά αυτό.</p>
+<p>Ας πάμε, τώρα να ζωγραφίσουμε και τις εφαπτόμενες των γραφικών παραστάσεων των συναρτήσεων στο  <span class="math notranslate nohighlight">\(x_1\)</span>  που διαλέξαμε:</p>
+<figure class="wp-image-11529 align-default" id="id16">
+<img alt="Πιο κοντά στο άπειρο..." src="docs/After-maths/{static}_static/images/uploads/2022/11/infty_approx_02.png?w=943"/>
+<figcaption>
+<p><span class="caption-text">Πιο κοντά στο άπειρο…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id16"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τώρα, δεν έχουμε παρά να παρατηρήσουμε ότι, όπως και παραπάνω, εκεί κοντά στο  <span class="math notranslate nohighlight">\(x_1\)</span>  θα ισχύει  <span class="math notranslate nohighlight">\(f(x)\approx\varepsilon_f\)</span>  και  <span class="math notranslate nohighlight">\(g(x)\approx\varepsilon_g,\)</span>  συνεπώς:</p>
+<div class="math notranslate nohighlight">
+\[\lim_{x\to x_1}\frac{f(x)}{g(x)}\approx\lim_{x\to x_1}\frac{f'(x)}{g'(x)}.\]</div>
+<p>Τώρα, αφού, όπως επιχειρηματολογήσαμε και παραπάνω, τι  <span class="math notranslate nohighlight">\(x_1\)</span>  τι  <span class="math notranslate nohighlight">\(x_0,\)</span>  το ένα και το αυτό για εμάς, μπορούμε να πούμε:</p>
+<div class="math notranslate nohighlight">
+\[\lim_{x\to x_0}\frac{f(x)}{g(x)}\approx\lim_{x\to x_0}\frac{f'(x)}{g'(x)}.\]</div>
+<p>Αυτό είναι ακριβώς και η διατύπωση του κανόνα DLH για την περίπτωσή μας.</p>
+</section>
+<section id="id7">
+<h2>Και με τα υπόλοιπα;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id7" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id7'"><span>#</span></a></h2>
+<p>Δεν εξετάσαμε καθόλου όρια στα δύο άπειρα, αλλά μπορείτε να φανταστείτε ότι η επιχειρηματολογία μας είναι παρόμοια. Επιλέγουμε ένα σημείο «κοντά στο άπειρο», σχεδιάζουμε εκεί τις δύο εφαπτόμενες και κάνουμε τη βασική γεωμετρία που παρουσιάσαμε παραπάνω για να περάσουμε από το πηλίκο των συναρτήσεών μας στο πηλίκο των παραγώγων τους.</p>
+<p>Αυτό που έχει σημασία δεν είναι τόσο η αυστηρή αποδεικτική διαδικασία - που δεν ακολουθήθηκε. Ειναι ότι μπορούμε, με λίγη σχετικά απλή γεωμετρία, ειδικά στην «πεπερασμένη» περίπτωση του κανόνα DLH, να αναδείξουμε τη σχέση ανάμεσα στα δύο όρια, ακολουθώντας μία σχετικά πειστική διαδρομή. Μπορεί να έχουμε παραλείψει αρκετές λεπτομέρειες στα παραπάνω, ωστόσο, η βασική μας θέση είναι ότι, στο επίπεδο μίας σχολικής τάξης, δε χρειάζονται. Διότι, μπορεί κανείς όλα αυτά τα  <span class="math notranslate nohighlight">\(\approx\)</span>  στα παραπάνω να τα αντικαταστήσει με αυστηρά επιχειρήματα με  <span class="math notranslate nohighlight">\(\varepsilon\)</span>  και  <span class="math notranslate nohighlight">\(\delta,\)</span>  αλλά δεν είναι αυτό το ζητούμενο στην τάξη - τουλάχιστον, δε θα έπρεπε να είναι.</p>
+<p>Οι κανόνες DLH, όπως σχολιάστηκε και παραπάνω, είναι ένα από τα εργαλεία που στο σχολείο εφαρμόζουμε πολλές φορές τυφλά, βιαστικά, εσφαλμένα - και μπορούμε να μας στολίσουμε και με άλλα πολλά επίθετα. Ωστόσο, το νόημα που κουβαλάνε ως κανόνες είναι πολύ σημαντικό. Πέρα από μία κάπως μη προφανή σχέση ανάμεσα σε όρια συναρτήσεων και παραγώγων, μπορεί να μας βοηθήσει και στην ταξινόμηση των συναρτήσεων ως προς την «ταχύτητα σύγκλισής» τους. Αλλά, ας μην προτρέχουμε, θα δούμε πολλά γι” αυτά στο απώτερο μέλλον.</p>
+<p>Μέχρι τότε, καλή συνέχεια!</p>
+<blockquote>
+<div><div class="video_wrapper" style="">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/syLHUBS8H18" style="border: 0; height: 345px; width: 560px">
+</iframe></div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">
+        Ο Rolle και τα κουνούπια
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id1'" class="reference internal" href="#id1">Θέλω αποδείξεις και ονόματα…</a></li>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Η εφαπτομένη ως βέλτιστη προσέγγιση</a></li>
+<li><a :data-current="activeSection === '#dlh'" class="reference internal" href="#dlh">Μία απλή περίπτωση</a></li>
+<li><a :data-current="activeSection === '#id5'" class="reference internal" href="#id5">Ή μήπως όχι;</a></li>
+<li><a :data-current="activeSection === '#id6'" class="reference internal" href="#id6">Μακριά από το μηδέν…</a></li>
+<li><a :data-current="activeSection === '#id7'" class="reference internal" href="#id7">Και με τα υπόλοιπα;</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2021-10-31 16:36" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Μαθηματικά" name="category"/>
+<meta content="featured, πιθανότητες" name="tags"/>
+<meta content="%ce%b1%ce%b4%cf%8d%ce%bd%ce%b1%cf%84%ce%bf-vs-%ce%b1%cf%80%ce%af%ce%b8%ce%b1%ce%bd%ce%bf-%ce%bc%ce%ad%cf%81%ce%bf%cf%82-%ce%b4" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2021/10/2560px-henri_fantin-latour_still_life_with_mustard_pot_1860_nga_164918.jpg" name="attachments"/>
+<title>Αδύνατο vs Απίθανο - Μέρος Δ” | aftermaths</title>
+<meta content="Αδύνατο vs Απίθανο - Μέρος Δ” | aftermaths" property="og:title"/>
+<meta content="Αδύνατο vs Απίθανο - Μέρος Δ” | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html" rel="next" title="Απαγωγή σε Άτοπο #not"/>
+<link href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html" rel="prev" title="Αδύνατο vs Απίθανο - Μέρος Γ”"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Αδύνατο vs Απίθανο - Μέρος Δ”</span>
+</nav>
+<div id="content" role="main">
+<section id="vs">
+<h1>Αδύνατο vs Απίθανο - Μέρος Δ”<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#vs"><span>#</span></a></h1>
+<figure class="align-center" id="id5">
+<img alt="Ο πίνακας *Νεκρή φύση με δοχείο μουστάρδας* του `Henri Fantin-Latour  &lt;https://en.wikipedia.org/wiki/Henri_Fantin-Latour&gt;`__." src="_static/images/uploads/2021/10/2560px-henri_fantin-latour_still_life_with_mustard_pot_1860_nga_164918.jpg"/>
+<figcaption>
+<p><span class="caption-text">Ο πίνακας <em>Νεκρή φύση με δοχείο μουστάρδας</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Henri_Fantin-Latour">Henri Fantin-Latour</a>.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Είδαμε τις προηγούμενες εβδομάδες πολλά και διάφορα για το αν, τελικά, η έννοια του απίθανου συμπίπτει με αυτό που λέμε αδύνατο - δείτε <a class="reference external" href="docs/After-maths/αδύνατο-vs-απίθανο-μέρος-α.rst">εδώ</a>, <a class="reference external" href="docs/After-maths/αδύνατο-vs-απίθανο-μέρος-β.rst">εδώ</a> κι <a class="reference external" href="docs/After-maths/αδύνατο-vs-απίθανο-μέρος-γ.rst">εδώ</a>, αναλυτικότερα. Με λίγα λόγια, καταλήξαμε στο συμπέρασμα ότι, πέρα από πεπερασμένα περιβάλλοντα, όπου το απίθανο και το αδύνατο είναι ένα και το αυτό, εν γένει δεν είναι το ίδιο. Για την ακρίβεια, σε άπειρους και αριθμήσιμους δειγματικούς χώρους βρήκαμε παραδείγματα ενδεχομένων τα οποία ενώ ήταν μη κενά - και άρα όχι αδύνατα - ήταν απίθανα - συνέβαιναν, δηλαδή, με πιθανότητα 0.</p>
+<p>Το ίδιο κάναμε και με υπεραριθμήσιμους δειγματικούς χώρους, αλλά εκεί έχουμε αφήσει ακόμα κάποιες εκκρεμότητες. Για την ακρίβεια, την προηγούμενη εβδομάδα είχαμε ορίσει μία ενδιαφέρουσα σ-άλγεβρα, αυτή των Borel συνόλων που, για να θυμίσουμε πώς ορίζεται, είναι η ελάχιστη σ-άλγεβρα που περιέχει όλα τα διαστήματα πραγματικών αριθμών. Επίσης, είχαμε ορίσει ένα μέτρο, το οποίο το είχαμε ονομάσει <em>μέτρο Lebesgue</em>, και οριζόταν ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[p(A)=\left\{\sum_{k=1}^\infty\ell(I_k):A\subseteq\bigcup_{k=1}^\infty I_k,I_k\in\mathcal{I}\right\},\]</div>
+<p>όπου  <span class="math notranslate nohighlight">\(\mathcal{I}\)</span>  είναι η κλάση όλων των (ανοικτών) διαστημάτων πραγματικών αριθμών.</p>
+<p>Όπως δείξαμε, υπάρχει ένα σύνολο, το οποίο το είχαμε ονομάσει  <span class="math notranslate nohighlight">\(E,\)</span>  το οποίο, με την υπόθεση ότι όλα τα παραπάνω είναι καλώς ορισμένα, είχαμε αποδείξει ότι δεν μπορεί να ανήκει στη σ-άλγεβρα των Borel υποσυνόλων του  <span class="math notranslate nohighlight">\([0,1].\)</span>  Με άλλα λόγια, έχουμε κατασκευάσει ένα σύνολο το οποίο δεν είναι ούτε πιθανό ούτε απίθανο, καθώς δεν μπορούμε με κάποιον τρόπο να αποτιμήσουμε την πιθανότητα αυτό να συμβεί.</p>
+<section id="id1">
+<h2>Ωστόσο…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id1'"><span>#</span></a></h2>
+<p>…τίποτα δεν είναι τόσο εύκολο όταν έχουμε να κάνουμε με τους πραγματικούς αριθμούς. Η αλήθεια είναι ότι ιδρώσαμε για να κατασκευάσουμε το σύνολο  <span class="math notranslate nohighlight">\(E\)</span>  - δείτε <a class="reference external" href="docs/After-maths/αδύνατο-vs-απίθανο-μέρος-γ.rst">εδώ</a> για περισσότερες λεπτομέρειες - αλλά το ότι εμείς κοπιάσαμε δε σημαίνει με κανένα τρόπο ότι άξιζε και τον κόπο. Την προηγούμενη εβδομάδα είχαμε αφήσει ανεπιβεβαίωτη μία ιδιότητα του μέτρου Lebesgue, με την υπόσχεση να προσπαθήσουμε να την αποδείξουμε αυτήν την εβδομάδα. Για την ακρίβεια, είχαμε αποδείξει ότι για κάθε  <span class="math notranslate nohighlight">\(A_1,A_2,\ldots\subseteq[0,1]\)</span>  ισχύει το εξής:</p>
+<div class="math notranslate nohighlight">
+\[p\left(\bigcup_{k=1}^\infty A_k\right)\leq\sum_{k=1}^\infty p(A_k).\]</div>
+<p>Αυτό που μας μένει να αποδείξουμε για να επιβεβαιώσουμε ότι το μέτρο Lebesgue είναι πράγματι ένα μέτρο πιθανότητας είναι η αντίστροφη ανισότητα. Για την ακρίβεια, δε χρειάζεται να την αποδείξουμε για κάθε επιλογή συνόλων  <span class="math notranslate nohighlight">\(A_1,A_2,\ldots\)</span>  παρά μόνο για αυτά που είναι ξένα ανά δύο μεταξύ τους.</p>
+<p>Ωστόσο (δις), έχουμε κι ένα άλλο πρόβλημα. Η σ-άλγεβρα των Borel υποσυνόλων του  <span class="math notranslate nohighlight">\([0,1]\)</span>  είναι μία σ-άλγεβρα που δεν προέκυψε «φυσικά» ως το πεδίο ορισμού του μέτρου Lebesgue. Αντιθέτως, εμείς θεωρήσαμε ότι είναι εύλογο αυτό να είναι ένα καλό πεδίο ορισμού, καθώς εκεί γενικεύονται αρκετά ομαλά ορισμένες ιδιότητες που είναι απαραίτητες για να έχει κάποιο νόημα κοντά στη διαίσθησή μας το μέτρο πιθανότητας που ορίζουμε. Τα μαθηματικά, όμως, δεν είναι υποχρεωμένα με κάποιον υπερφυσικό τρόπο να υπακούν στις επιθυμίες μας. Κάλλιστα, μπορεί το μέτρο Lebesgue να ορίζεται σε μία σ-άλγεβρα ευρύτερη των συνόλων Borel, η οποία να συμπεριλαμβάνει και το «κακό» σύνολο  <span class="math notranslate nohighlight">\(E\)</span>  και άρα όσα λέμε περί συνόλων που δεν είναι ούτε απίθανα ούτε πιθανά να πηγαίνουν περίπατο.</p>
+<p>Για να έχουν, λοιπόν, νόημα όσα λέμε, πρέπει να διευθετήσουμε αυτές τις δύο εκκρεμότητές μας. Σε αυτήν την κατεύθυνση θα μας βοηθήσει μία καινούργια έννοια - γιατί έτσι κάνουμε στα μαθηματικά, όποτε έχουμε πρόβλημα ορίζουμε κάτι νέο. Η έννοια αυτή θα αποτυπώνει μία ακόμα καλή ιδιότητα που θα θέλαμε να έχουν όσα σύνολα έχει νόημα να μπορούμε να αποτιμήσουμε την πιθανότητά τους να συμβούν - να είναι, δηλαδή, ενδεχόμενα.</p>
+<p>Ώπα, θα πρέπει να πείτε εδώ. Αυτό, από την αρχή είχαμε πει ότι το αποτυπώνει η έννοια της σ-άλγεβρας! Και, πράγματι, το αποτυπώνει αρκετά καλά, δεδομένου ότι ικανοποιεί όλες τις απαιτήσεις που θα είχαμε από μία κλάση ενδεχομένων. Ωστόσο, εδώ θα κοιτάξουμε λίγο το πρόβλημα από την ανάποδη. Αν κάποιος κακός άνθρωπος μας δώσει ένα μέτρο πιθανότητας ή, για την ακρίβεια, μας δώσει κάτι «σαν μέτρο πιθανότητας», όπως το  <span class="math notranslate nohighlight">\(p\)</span>  που έχουμε παραπάνω, ποια σύνολα θα είχε νόημα να μετρήσουμε με αυτό; Με άλλα λόγια, ποιο είναι το «φυσικό» πεδίο ορισμού του  <span class="math notranslate nohighlight">\(p\)</span>  στο οποίο ισχύουν όλες οι καλές ιδιότητες ενός μέτρου πιθανότητας;</p>
+<section id="id2">
+<h3>Εξωτερικά μέτρα<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h3>
+<p>Σαφώς, μετά από τόση κουβέντα, αυτό που πρέπει να κάνουμε είναι λίγα μαθηματικά. Λοιπόν, αρχικά, θα πρέπει να αποσαφηνίσουμε τι πάει να πει αυτό το «σαν μέτρο πιθανότητας» που αναφέραμε παραπάνω. Γι” αυτόν τον σκοπό, ορίζουμε την έννοια του <em>εξωτερικού μέτρου πιθανότητας</em> ως εξής:</p>
+<div class="line-block">
+<div class="line">Αν  <span class="math notranslate nohighlight">\(X `  ένα σύνολο και  :math:`p:\mathcal{P}(X)\to[0,1] `  θα λέγεται *εξωτερικό μέτρο πιθανότητας* στο  :math:`X\)</span>  αν:</div>
+<div class="line">1.  <span class="math notranslate nohighlight">\(p(\varnothing)=0\)</span></div>
+<div class="line">2.  <span class="math notranslate nohighlight">\(A\subseteq B\Rightarrow p(A)\leq p(B)\)</span></div>
+<div class="line">3.  <span class="math notranslate nohighlight">\(\ p\left(\bigcup_{k=1}^\infty A_k\right)\leq\sum_{k=1}^\infty p(A_k)\)</span>  για κάθε  <span class="math notranslate nohighlight">\(A_1,A_2,\ldots\subseteq X.\)</span></div>
+</div>
+<p>Τώρα, αν εξαιρέσουμε τη δεύτερη ιδιότητα, το μέτρο Lebesgue ικανοποιεί τις άλλες δύο - το έχουμε αποδείξει αναλυτικά <a class="reference external" href="docs/After-maths/αδύνατο-vs-απίθανο-μέρος-γ.rst">εδώ</a>. Για τη δε μονοτονία δεν έχουμε να παρατηρήσουμε πως αν μπορούμε να καλύψουμε ένα σύνολο  <span class="math notranslate nohighlight">\(B\)</span>  με τα διαστήματα  <span class="math notranslate nohighlight">\(I_1,I_2,\ldots\)</span>  τότε θα μπορούμε να καλύψουμε και κάθε  <span class="math notranslate nohighlight">\(A\subseteq B,\)</span>  επομένως πράγματι  <span class="math notranslate nohighlight">\(p(A)\leq p(B)\)</span>  σε αυτήν την περίπτωση. Έτσι, το μέτρο Lebesgue όπως το έχουμε ορίσει ως τώρα, είναι ένα εξωτερικό μέτρο.</p>
+<p>Επανερχόμαστε τώρα στην ερώτηση που θέσαμε παραπάνω:</p>
+<p>Ποια σύνολα έχει νόημα να μετρήσουμε με το παραπάνω μέτρο έτσι ώστε αυτό, περιορισμένο σε αυτά τα σύνολα να είναι ένα μέτρο πιθανότητας;</p>
+<p>Λοιπόν, για να είναι μέτρο πιθανότητας το  <span class="math notranslate nohighlight">\(p\)</span>  θα θέλαμε να ισχύει η εξής ισότητα:</p>
+<div class="math notranslate nohighlight">
+\[p\left(\bigcup_{k=1}^\infty A_k\right)=\sum_{k=1}^\infty p(A_k),\]</div>
+<p>για κάθε  <span class="math notranslate nohighlight">\(A_1,A_2,\ldots\subseteq X,\)</span>  ξένα ανά δύο. Ωστόσο, δεδομένης της ιδιότητας 3, αρκεί να γνωρίζουμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[p\left(\bigcup_{k=1}^\infty A_k\right)\geq\sum_{k=1}^\infty p(A_k).\]</div>
+<p>Τώρα, το παραπάνω είναι μία κάπως περίπλοκη σχέση, οπότε ίσως μας φανεί χρήσιμο να κάνουμε κάποιες σκέψεις πάνω σ” αυτήν, έτσι ώστε να βρούμε κάτι κομψότερο.</p>
+<p>Αρχικά, με δεδομένη την παραπάνω σχέση και την ιδιότητα 3 θα κάνουμε κάποιες παρατηρήσεις. Ας πάρουμε δύο σύνολα  <span class="math notranslate nohighlight">\(A,B.\)</span>  Τότε, από τα παραπάνω, έχουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[p(B)\leq p(A\cap B)+p(B\setminus A).\]</div>
+<p>Δηλαδή, αν πάρουμε το  <span class="math notranslate nohighlight">\(B\)</span>  και επιλέξουμε να το «κόψουμε» σε δύο ξένα μέρη, όπως μας λέει το σύνολο  <span class="math notranslate nohighlight">\(A,\)</span>  τότε η ιδιότητα 3 μας λέει ότι τα δύο κομμάτια έχουν τουλάχιστον το ίδιο μέγεθος με το αρχικό σύνολό μας. Ωστόσο, αν υποθέσουμε ότι το  <span class="math notranslate nohighlight">\(B\)</span>  δεν είναι ένα οποιοδήποτε σύνολο, αλλά ένα σύνολο που το  <span class="math notranslate nohighlight">\(p\)</span>  το μετράει «καλά», δε θα θέλαμε αντί για  <span class="math notranslate nohighlight">\(\leq\)</span>  στην παραπάνω σχέση να είχαμε  <span class="math notranslate nohighlight">\(=;\)</span>  Διότι, πώς θα το μέτραγε καλά το σύνολο  <span class="math notranslate nohighlight">\(B\)</span>  το  <span class="math notranslate nohighlight">\(p\)</span>  αν μπορούσαμε με τη βοήθειά του να κόψουμε ένα άλλο σύνολο  <span class="math notranslate nohighlight">\(B\)</span>  και να πάρουμε κάτι που είναι γνήσια μεγαλύτερο; - θα ήταν σαν να δημιουργούσαμε χώρο από το πουθενά.</p>
+<p>Επομένως, μία ιδιότητα που θα θέλαμε να έχουμε τα σύνολα που μετράει «καλά» ένα εξωτερικό μέτρο είναι η εξής:</p>
+<div class="math notranslate nohighlight">
+\[p(B)=p(A\cap B)+p(B\setminus A),\]</div>
+<p>για κάθε σύνολο  <span class="math notranslate nohighlight">\(B\subseteq X.\)</span>  Ας συμβολίσουμε αυτήν την κλάση συνόλων που έχουν την παραπάνω ιδιότητα με  <span class="math notranslate nohighlight">\(\mathcal{M}.\)</span></p>
+<p>Τώρα, ας παρατηρήσουμε, για αρχή, ότι το ίδιο το  <span class="math notranslate nohighlight">\(X\)</span>  την έχει αυτήν την ιδιότητα, καθώς αν  <span class="math notranslate nohighlight">\(B\subseteq X\)</span>  τότε έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[p(B)=p(B\cap X)=p(B\cap X)+0=p(B\cap X)+p(\varnothing)=p(B\cap X)+p(B\setminus X),\]</div>
+<p>που είναι ακριβώς αυτό που θέλουμε. Ομοίως, και το κενό σύνολο έχει αυτήν την ιδιότητα, κατά τετριμμένο τρόπο. Αν τώρα  <span class="math notranslate nohighlight">\(A\in\mathcal{M}\)</span>  και  <span class="math notranslate nohighlight">\(B\subseteq X\)</span>  τότε παρατηρούμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[p(B)=p(B\cap A)+p(B\setminus A)=p(B\cap(X\setminus(X\setminus A))+p(B\cap(X\setminus A)),\]</div>
+<p>άρα και το  <span class="math notranslate nohighlight">\(X\setminus A\in\mathcal{M},\)</span>  συνεπώς η  <span class="math notranslate nohighlight">\(\mathcal{M}\)</span>  είναι κλειστή ως προς τα συμπληρώματα.</p>
+<p>Ας πάρουμε τώρα δύο σύνολα  <span class="math notranslate nohighlight">\(A,B\in\mathcal{M}\)</span>  κι ένα σύνολο  <span class="math notranslate nohighlight">\(C\subseteq X.\)</span>  Παρατηρούμε διαδοχικά ότι:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}p(C)&amp;=p(C\cap A)+p(C\setminus A)=\&amp;=p(C\cap A\cap B)+p((C\cap A)\setminus B)+p(C\setminus A)=\&amp;=p(C\cap A\cap B)+p(C\cap A\cap(X\setminus B))+p(C\cap(X\setminus A))=\&amp;=p(C\cap A\cap B)+p(C\cap A\cap(X\setminus (A\cap B)))+p(C\cap(X\setminus A)\cap(X\setminus(A\cap B)))=\&amp;=p(C\cap A\cap B)+p((C\cap(X\setminus (A\cap B)))\cap A)+p(C\cap A\cap B)+p((C\cap(X\setminus (A\cap B)))\cap (X\setminus A))=\&amp;=p(C\cap(A\cap B))+p(C\cap(X\setminus(A\cap B)))=\&amp;=p(C\cap(A\cap B))+p(C\setminus(A\cap B)).\end{aligned}\]</div>
+<p>Αν αγνοήσουμε λίγο τα τεχνάσματα με τις πράξεις συνόλων που κάναμε παραπάνω, αυτό που έχουμε δείξει ως τώρα είναι ότι το  <span class="math notranslate nohighlight">\(A\cap B\)</span>  κόβει επίσης καλά το  <span class="math notranslate nohighlight">\(C,\)</span>  και άρα  <span class="math notranslate nohighlight">\(A\cap B\in\mathcal{M}.\)</span>  Επομένως, η  <span class="math notranslate nohighlight">\(\mathcal{M}\)</span>  είναι μία άλγεβρα. Αν καταφέρουμε και αποδείξουμε ότι είναι επίσης και σ-άλγεβρα, τότε θα έχουμε βρει ένα αρκετά φυσιολογικό πεδίο ορισμού για το  <span class="math notranslate nohighlight">\(p.\)</span></p>
+<p>Λοιπόν, αφού δείξαμε ότι η  <span class="math notranslate nohighlight">\(\mathcal{M}\)</span>  είναι άλγεβρα, θα μας φανεί χρήσιμο να αποδείξουμε ότι και το  <span class="math notranslate nohighlight">\(p\)</span>  είναι (πεπερασμένα) προσθετικό σε αυτήν. Αυτό είναι σχετικά απλό, αφού αν  <span class="math notranslate nohighlight">\(A,B\in\mathcal{M}\)</span>  είναι δύο ξένα σύνολα, τότε έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[p(A\cup B)=p(A)+p(B\setminus A)=p(A)+p(B),\]</div>
+<p>δεδομένου ότι τα  <span class="math notranslate nohighlight">\(A,B\)</span>  είναι ξένα μεταξύ τους και ότι μία άλγεβρα είναι κλειστή και ως προς τις πεπερασμένες ενώσεις.</p>
+<p>Τώρα, με αυτό στα χέρια μας, θα θέλαμε να απποδείξουμε και ότι η  <span class="math notranslate nohighlight">\(\mathcal{M}\)</span>  είναι σ-άλγεβρα και, αντίστοιχα, ότι το  <span class="math notranslate nohighlight">\(p\)</span>  είναι ένα σ-προσθετικό μέτρο σε αυτήν. Έστω, λοιπόν,  <span class="math notranslate nohighlight">\(A_1,A_2,\ldots\in\mathcal{M}\)</span>  κάποια σύνολα της  <span class="math notranslate nohighlight">\(\mathcal{M}\)</span>  που είναι ξένα ανά δύο κι έστω:</p>
+<div class="math notranslate nohighlight">
+\[A:=\bigcup_{k=1}^\infty A_k.\]</div>
+<p>Αυτό που θα αποδείξουμε αρχικά είναι ότι  <span class="math notranslate nohighlight">\(A\in\mathcal{M}.\)</span>  Γι” αυτόν τον σκοπό πρέπει να αποδείξουμε ότι για κάθε άλλο σύνολο  <span class="math notranslate nohighlight">\(B\)</span>  ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[p(B)=p(A\cap B)+p(B\setminus A).\]</div>
+<p>Αρχικά, παρατηρούμε ότι ισχύει το εξής, δεδομένης της πεπερασμένης προσθετικότητας του  <span class="math notranslate nohighlight">\(p\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[p(B)=p(B\cap A_1)+p(B\setminus A_1).\]</div>
+<p>Επίσης, και δύο σύνολα να πάρουμε, πάλι μπορούμε να αποδείξουμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[p(B)=p(B\cap(A_1\cup A_2))+p(B\setminus(A_1\cup A_2))=p(B\cap A_1)+p(B\cap A_2)+p(B\setminus(A_1\cup A_2)).\]</div>
+<p>Γενικότερα, δεδομένου ότι τα  <span class="math notranslate nohighlight">\(A_k\)</span>  είναι ξένα ανά δύο, για κάθε  <span class="math notranslate nohighlight">\(n\)</span>  μπορούμε εύκολα μέσω της πεπερασμένης προσθετικότητας του  <span class="math notranslate nohighlight">\(p\)</span>  να αποδείξουμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[p(B)=\sum_{k=1}^np(B\cap A_k)+p\left(B\setminus\left(\bigcup_{k=1}^nA_k\right)\right).\]</div>
+<p>Τώρα, δεδομένου ότι  <span class="math notranslate nohighlight">\(\bigcup_{k=1}^nA_k\subseteq A\)</span>  για κάθε  <span class="math notranslate nohighlight">\(n\in\mathbb{N}\)</span>  έπεται άμεσα από τη μονοτονία του  <span class="math notranslate nohighlight">\(p\)</span>  και ότι:</p>
+<div class="math notranslate nohighlight">
+\[p(B)\geq\sum_{k=1}^np(B\cap A_k)+p\left(B\setminus A\right).\]</div>
+<p>Παίρνοντας όριο καθώς το  <span class="math notranslate nohighlight">\(n\to\infty\)</span>  έχουμε άμεσα και το ακόλουθο:</p>
+<div class="math notranslate nohighlight">
+\[p(B)\geq\sum_{k=1}^\infty p(B\cap A_k)+p(B\setminus A).\]</div>
+<p>Τώρα, από την υποπροσθετικότητα του μέτρου έχουμε και ότι:</p>
+<div class="math notranslate nohighlight">
+\[\sum_{k=1}^\infty p(B\cap A_k)\geq p(B\cap A),\]</div>
+<p>καθώς επίσης και ότι:</p>
+<div class="math notranslate nohighlight">
+\[p(B\cap A)+p(B\setminus A)\geq p(B).\]</div>
+<p>Συνδυάζοντας τα παραπάνω παίρνουμε την ανισότητα:</p>
+<div class="math notranslate nohighlight">
+\[p(B)\geq\sum_{k=1}^\infty p(B\cap A_k)+p(B\setminus A)\geq p(B\cap A)+p(B\setminus A)\geq p(B),\]</div>
+<p>η οποία μας οδηγεί στην ισότητα:</p>
+<div class="math notranslate nohighlight">
+\[p(B)=\sum_{k=1}^\infty p(B\cap A_k)+p(B\setminus A)=p(B\cap A)+p(B\setminus A).\]</div>
+<p>Από το παραπάνω έπεται άμεσα, αφενός, ότι  <span class="math notranslate nohighlight">\(A\in\mathcal{M}\)</span>  και, αφετέρου, ότι:</p>
+<div class="math notranslate nohighlight">
+\[p(A)=\sum_{k=1}^\infty p(A_k),\]</div>
+<p>αν επιλέξουμε για  <span class="math notranslate nohighlight">\(B=A.\)</span>  Συνεπώς, μ” έναν σμπάρο δυο τρυγόνια, που λέμε, καθώς και δείξαμε ότι η  <span class="math notranslate nohighlight">\(\mathcal{M}\)</span>  είναι μία σ-άλγεβρα αλλά και ότι το  <span class="math notranslate nohighlight">\(p\)</span>  είναι ένα σ-προσθετικό μέτρο όταν περιοριστεί σε αυτήν.</p>
+</section>
+</section>
+<section id="id3">
+<h2>Ναι, αλλά…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<p>…τι γίνεται με τα σύνολα Borel; Καταφέραμε και βρήκαμε ένα «φυσιολογικό» πεδίο ορισμού για το μέτρο Lebesgue, ωστόσο, εξίσου «φυσιολογικά» είναι και τα σύνολα Borel σε ό,τι αφορά τις πιθανότητες και τα όσα συζητάμε. Όπως θα δούμε παρακάτω, η «φυσιολογικότητα» των συνόλων Borel είναι καθόλα συμβατή με τη «φυσιολογικότητα» των Lebesgue μετρήσιμων συνόλων, υπό την έννοια ότι [Spoiler alert] η σ-άλγεβρα των Borel συνόλων είναι υποσύνολο της  <span class="math notranslate nohighlight">\(\mathcal{M}.\)</span>  Συνεπώς, όλα καλά, καθώς η αρχική μας διαίσθηση περί του πεδίου ορισμού του μέτρου Lebesgue και η «τελική» μας διαίσθηση συμβαδίζουν με τρόπο αρκετά ικανοποιητικό.</p>
+<p>Ωστόσο, τα παραπάνω δεν είναι παρά λόγια του αέρα μέχρι να τα αποδείξουμε κιόλας. Επομένως, ας πάρουμε ένα σύνολο Borel κι ας δείξουμε ότι είναι και Lebesgue μετρήσιμο.</p>
+<p>[…]</p>
+<p>Ναι, αλλά πώς μοιάζουν τα σύνολα Borel; Δηλαδή, ποια ιδιότητά τους θα εκμεταλλευτούμε κατά την απόδειξή μας; Η αλήθεια είναι ότι αυτό μας έχει ξαναπροβληματίσει στο παρελθόν, αλλά εδώ δε θα χρειαστεί καθώς αρκεί να αποδείξουμε ότι κάθε κλειστό διάστημα είναι Lebesgue μετρήσιμο. Πράγματι, δεδομένου αυτού θα έχουμε ότι όλα τα κλειστά διαστήματα, και άρα όλα τα συμπληρώματα, οι τομές και οι ενώσεις τους, θα είναι επίσης μετρήσιμα - αφού η  <span class="math notranslate nohighlight">\(\mathcal{M}\)</span>  είναι σ-άλγεβρα. Συνεπώς, θα είναι και όλα τα Borel σύνολα Lebesgue μετρήσιμα, οπότε και θα έχουμε ξεμπερδέψει.</p>
+<p>Ακόμα καλύτερα, κάνουμε αυτήν την εξαιρετική παρατήρηση:</p>
+<div class="math notranslate nohighlight">
+\[[a,b]=[0,b]\setminus[0,a).\]</div>
+<p>Επίσης:</p>
+<div class="math notranslate nohighlight">
+\[[0,a)=\bigcup_{k=1}^\infty\left[0,a-\frac{1}{k}\right],\]</div>
+<p>συνεπώς μπορούμε να περιγράψουμε κάθε κλειστό διάστημα με διαστήματα της μορφής  <span class="math notranslate nohighlight">\([0,b].\)</span>  Έτσι, αρκεί να δείξουμε για αυτά μόνο ότι περιέχονται στην  <span class="math notranslate nohighlight">\(\mathcal{M}\)</span>  αφού έτσι θα περιέχονται και τα κλειστά διαστήματα και άρα και όλα τα σύνολα Borel. Τώρα, αφού απλοποιήσαμε αρκετά το πρόβλημά μας, πρέπει και να το λύσουμε. Έστω, λοιπόν, ένα σύνολο  <span class="math notranslate nohighlight">\(B\)</span>  κι έστω κι ένα διάστημα  <span class="math notranslate nohighlight">\(I=[0,b]\)</span>  για κάποιο  <span class="math notranslate nohighlight">\(b\in[0,1].\)</span>  Θέλουμε να δείξουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[p(B)=p(B\cap I)+p(B\setminus I).\]</div>
+<p>Όπως έχουμε πει, η  <span class="math notranslate nohighlight">\(\leq\)</span>  ισχύει από την υποπροσθετικότητα του  <span class="math notranslate nohighlight">\(p\)</span>  επομένως θέλουμε να αποδείξουμε την  <span class="math notranslate nohighlight">\(\geq.\)</span>  Θεωρούμε ένα  <span class="math notranslate nohighlight">\(\varepsilon&gt;0\)</span>  οπότε υπάρχουν - από τον ορισμό του  <span class="math notranslate nohighlight">\(p\)</span>  - διαστήματα  <span class="math notranslate nohighlight">\(I_1,I_2,\ldots\subseteq[0,1]\)</span>  έτσι ώστε:</p>
+<div class="math notranslate nohighlight">
+\[B\subseteq\bigcup_{k=1}^\infty I_k,\]</div>
+<p>και ταυτόχρονα:</p>
+<div class="math notranslate nohighlight">
+\[\sum_{k=1}^\infty\ell(I_k)\leq p(B)+\varepsilon.\]</div>
+<p>Τώρα, θεωρούμε τα διαστήματα  <span class="math notranslate nohighlight">\(J_k=I_k\cap I\)</span>  και τα διαστήματα  <span class="math notranslate nohighlight">\(K_k=I_k\setminus I\)</span>  και παρατηρούμε άμεσα ότι:</p>
+<div class="math notranslate nohighlight">
+\[B\cap I\subseteq\bigcup_{k=1}^\infty J_k,\ B\setminus I\subseteq\bigcup_{k=1}^\infty K_k.\]</div>
+<p>Επίσης, σαφώς  <span class="math notranslate nohighlight">\(J_k,K_k\subseteq I_k,\)</span>  άρα θα έχουμε και:</p>
+<div class="math notranslate nohighlight">
+\[\bigcup_{k=1}^\infty J_k\subseteq\bigcup_{k=1}^\infty I_k,\ \bigcup_{k=1}^\infty K_k\subseteq\bigcup_{k=1}^\infty I_k.\]</div>
+<p>Τότε, από όλα τα παραπάνω έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[p(A\cap I)+p(A\setminus I)\leq\sum_{k=1}^\infty\ell(J_k)+\sum_{k=1}^\infty\ell(K_k)=\sum_{k=1}^\infty\ell(I_k)&lt;p(A)+\varepsilon.\]</div>
+<p>Συνεπώς, αφού το  <span class="math notranslate nohighlight">\(\varepsilon\)</span>  ήταν αυθαίρετο, έπεται ότι:</p>
+<div class="math notranslate nohighlight">
+\[p(A\cap I)+p(A\setminus I)\leq p(A),\]</div>
+<p>που ήταν και το ζητούμενο.</p>
+<p>Έτσι, πράγματι, όλα τα Borel σύνολα είναι και μετρήσιμα και άρα μπορούμε να κοιμηθούμε ήσυχα.</p>
+</section>
+<section id="id4">
+<h2>Άρα;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h2>
+<p>Έχοντας καθορίσει ένα καλώς ορισμένο μέτρο πιθανότητας για τους πραγματικούς αριθμούς και έχοντας περιγράψει πλήρως τη σ-άλγεβρα στην οποία ορίζεται, επανερχόμαστε σε αυτό με το οποίο κλείσαμε την προηγούμενη σχετική ανάρτηση. Για να θυμηθούμε τι είχαμε κάνει, είχαμε ορίσει ένα σύνολο  <span class="math notranslate nohighlight">\(E\)</span>  το οποίο δεν ήταν μετρήσιμο, με την έννοια που καθορίσαμε παραπάνω. Δηλαδή, <em>δεν μπορούσαμε</em> να αποτιμήσουμε το πόσο είναι ή όχι πιθανό να τραβήξουμε έναν αριθμό από αυτό το σύνολο. Κι εδώ, ερχόμαστε να συνοψίσουμε τα αποτελέσματα που έχουμε δει ως τώρα τις προηγούμενες εβδομάδες:</p>
+<ul class="simple">
+<li><p>Όταν μιλάμε για πεπερασμένους δειγματικούς χώρους, μπορούμε σχετικά απλά να αποτυπώσουμε τη διαίσθησή μας σε αυστηρά μαθηματικά χωρίς να έχουμε «παρατράγουδα».</p></li>
+<li><p>Όταν μιλάμε για άπειρους αλλά αριθμήσιμους δειγματικούς χώρους, έχουμε εγγενείς δυσκολίες στο να αποτυπώσουμε τη διαίσθησή μας με τρόπο που να μην οδηγεί σε πράγματα απίθανα κι όχι και αδύνατα.</p></li>
+<li><p>Όταν μιλάμε για υπεραριθμήσιμους δειγματικούς χώρους, ο τρόπος που επιλέξαμε παραπάνω να αποτυπώσουμε τη διαίσθησή μας περί του τυχαίου είναι μεν συμβατός με τη διαίσθησή μας, γενικά, αλλά ο «χώρος» που μας δίνουν τα υπεραριθμήσιμα στο πλήθος στοιχεία που έχουμε στη διάθεσή μας είναι αρκετός για να κατασκευάσουμε όχι μόνο ενδεχόμενα που είναι απίθανα κι όχι αδύνατα, αλλά και ενδεχόμενα που δεν… ενδέχεται να τα μετρήσουμε με κάποιον τρόπο.</p></li>
+</ul>
+<p>Συνεπώς, πέρα από τη διάκριση που κάνουμε ανάμεσα στο τι είναι απίθανο και το τι είναι αδύνατο, έχει νόημα να μιλήσουμε και για το τι είναι εύλογο να θεωρήσουμε ως πιθανό ή απίθανο. Το παραπάνω μας οδηγεί και στη ακόλουθη φυσιολογική ερώτηση: μήπως μπορούμε με κάποιον άλλο τρόπο να αποτυπώσουμε καλύτερα το τι θεωρούμε ως ενδεχόμενο σε αυτές τις περιπτώσεις έτσι ώστε να μην προκύπτουν τέτοια «παράδοξα» σύνολα; Αυτό ίσως το απαντήσουμε στο μέλλον…</p>
+<p>Μέχρι τότε, καλό απόγευμα!</p>
+<blockquote>
+<div><div class="video_wrapper" style="">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/4JprT6Q6TYg" style="border: 0; height: 345px; width: 560px">
+</iframe></div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        Αδύνατο vs Απίθανο - Μέρος Γ”
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">
+        Απαγωγή σε Άτοπο #not
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id1'" class="reference internal" href="#id1">Ωστόσο…</a><ul>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Εξωτερικά μέτρα</a></li>
+</ul>
+</li>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Ναι, αλλά…</a></li>
+<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Άρα;</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+Διαφάνειες 3ου μαθήματος (Γ' Λυκείου)
+#####################################
+
+.. meta::
+	:date: 2019-06-27 01:00
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: πανελλήνιες, συναρτήσεις, σημειώσεις, Γ' λυκείου, γραφική παράσταση, διαφάνειες, θεωρία
+	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-3%ce%bf%cf%85-%ce%bc%ce%b1%ce%b8%ce%ae%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
+	:status: published
+	:attachments: _static/images/uploads/2019/06/800px-matisse_-_music.jpg
+
+.. figure:: /_static/images/uploads/2019/06/800px-matisse_-_music.jpg
+	:alt: Ο πίνακας *Μουσική* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Μουσική* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+
+
+Οι διαφάνειες βρίσκονται `εδώ  <https://drive.google.com/file/d/1yKjfZFQ4BgdpsydnVXC6dYAdvUGdGln6/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+Οι διαφάνειες βρίσκονται και στο `Slideshare  <https://www.slideshare.net/ssuserbf550d/2-152069917>`__:
+
+[slideshare id=152069917&doc=lesson3-190626215731]
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+.. youtube:: IKSu7RT2wN0 

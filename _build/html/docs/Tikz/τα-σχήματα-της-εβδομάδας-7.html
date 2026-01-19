@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2021-09-28 23:07" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="featured, Μαθηματικά, Tikz" name="tags"/>
+<meta content="%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-7" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2021/09/1896_polenow_christus_unter_den_lehrern_anagoria.jpg" name="attachments"/>
+<title>Τα σχήματα της εβδομάδας (7) | aftermaths</title>
+<meta content="Τα σχήματα της εβδομάδας (7) | aftermaths" property="og:title"/>
+<meta content="Τα σχήματα της εβδομάδας (7) | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Τα σχήματα της εβδομάδας (7)</span>
+</nav>
+<div id="content" role="main">
+<section id="id1">
+<h1>Τα σχήματα της εβδομάδας (7)<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+<figure class="align-center" id="id7">
+<img alt="Ο πίνακας *Ο Χριστός ανάμεσα στους διδασκάλους* του `Vasily Polenov  &lt;https://en.wikipedia.org/wiki/Vasily_Polenov&gt;`__\ *.*" src="_static/images/uploads/2021/09/1896_polenow_christus_unter_den_lehrern_anagoria.jpg"/>
+<figcaption>
+<p><span class="caption-text">Ο πίνακας <em>Ο Χριστός ανάμεσα στους διδασκάλους</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Vasily_Polenov">Vasily Polenov</a><em>.</em></span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id7"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Αυτήν την εβδομάδα είδαμε αρκετά νέα και ενδιαφέρονται σχήματα καθώς επίσης και μία ακόμα βιβλιοθήκη του <code class="docutils literal notranslate"><span class="pre">tikz</span></code>. Όλα με τη σειρά τους, όμως.</p>
+<p><em>Για τα σχήματα της προηγούμενης εβδομάδας δείτε</em><a class="reference external" href="docs/Tikz/τα-σχήματα-της-εβδομάδας-6.rst">εδώ</a><em>ενώ για όλες τις αναρτήσεις της σειράς δείτε</em><a class="reference external" href="https://aftermaths.gr/category/tikz/">εδώ</a><em>.</em></p>
+<section id="id2">
+<h2>Σύνολα τιμών…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>Το πρώτο μας σχήμα ήταν το εξής:</p>
+<figure class="wp-image-8523 align-default" id="id8">
+<img alt="Το σύνολο και το πεδίο τιμών μίας συνάρτησης!" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_35.png?w=723"/>
+<figcaption>
+<p><span class="caption-text">Το σύνολο και το πεδίο τιμών μίας συνάρτησης!</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id8"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Ο αντίστοιχος κώδικας είναι ο εξής:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\usetikzlibrary{calc}
+</span><span id="line-4">
+</span><span id="line-5">\begin{document}
+</span><span id="line-6">    \begin{tikzpicture}
+</span><span id="line-7">    \draw[thick] (0,0) ellipse (1.4 and 2.2)node[yshift=-2.4cm,xshift=-1cm]{$A$};
+</span><span id="line-8">    \draw[thick] (6,0) ellipse (1.4 and 2.2)node[yshift=-2.4cm,xshift=1cm]{$B$};
+</span><span id="line-9">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$a$}](a) at (.4,1.2){};
+</span><span id="line-10">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$b$}](b) at (-.2,.5){};
+</span><span id="line-11">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$c$}](c) at (.5,-.2){};
+</span><span id="line-12">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$d$}](d) at (-.6,-.9){};
+</span><span id="line-13">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$e$}](e) at (.3,-1.2){};
+</span><span id="line-14">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$1$}](1) at (6.3,1.3){};
+</span><span id="line-15">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$2$}](2) at (5.4,.6){};
+</span><span id="line-16">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$3$}](3) at (6.4,-.2){};
+</span><span id="line-17">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$4$}](4) at (6,-.8){};
+</span><span id="line-18">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$5$}](5) at (5.7,-1.5){};
+</span><span id="line-19">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$6$}](6) at (5.3,-.3){};
+</span><span id="line-20">    \draw[thick,-&gt;] (a) -- (2);
+</span><span id="line-21">    \draw[thick,-&gt;] (b) -- (6);
+</span><span id="line-22">    \draw[thick,-&gt;] (c) -- (2);
+</span><span id="line-23">    \draw[thick,-&gt;] (d) -- (5);
+</span><span id="line-24">    \draw[thick,-&gt;] (e) -- (4);
+</span><span id="line-25">    \node[draw=none](x) at ($(2)+(.1,.3)$){};
+</span><span id="line-26">    \node[draw=none](y) at ($(4)+(.3,0)$){};
+</span><span id="line-27">    \node[draw=none](z) at ($(5)+(0,-.3)$){};
+</span><span id="line-28">    \node[draw=none](w) at ($(6)+(-.3,0)$){};
+</span><span id="line-29">    \node[draw=none](m) at ($(6)+(.7,.2)$){};
+</span><span id="line-30">    \draw[dashed, red, thick, fill=red, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(x.north east) (m) (y.north east) (z.south east) (w.west)};
+</span><span id="line-31">    \node[label={above}:{$\textcolor{red}{f(A)}$}] at (x){};
+</span><span id="line-32">    \end{tikzpicture}
+</span><span id="line-33">\end{document}
+</span></code></pre></div>
+</div>
+<p>Η αλήθεια είναι ότι, αν εξαιρέσουμε το σύνολο τιμών της συνάρτησης, όλα τα άλλα είναι πράγματα που έχουμε ξαναδεί. Κόμβοι, <a class="reference external" href="docs/Tikz/τα-σχήματα-της-εβδομάδας-6.rst">ελλείψεις</a>, βελάκια, ετικέτες, όλα γνωστά και πλέον τα χρησιμοποιούμε τόσο συχνά. Επομένως, πάμε απευθείας να σχολιάσουμε το πώς σχεδιάσαμε αυτήν την φαινομενικά περίπλοκη και ακανόνιστη καμπύλη που περιγράφει το σύνολο τιμών της συνάρτησής μας.</p>
+<p>Αρχικά, σχεδιάζουμε όπως βλέπετε, κάποιους κόμβους που έχουν την παράμετρο <code class="docutils literal notranslate"><span class="pre">draw=none</span></code>. Αυτή η επιλογή μας επιτρέπει να τοποθετήσουμε κόμβους στο σχήμα μας που δε θα φαίνονται - χωρίς, ωστόσο, όπως θα δούμε στο μέλλον, αυτό να σημαίνει ότι χάνουν όλες τις σχεδιαστικές τους ιδιότητες - και άρα να εξυπηρετήσουν πιο «χθόνιους» σκοπούς. Για την ακρίβεια, οι κόμβοι που σχεδιάζουμε παραπάνω θα μας αξιοποιηθούν ως τα «άκρα» της καμπύλης που θα αποτελέσει το σύνορο του συνόλου τιμών.</p>
+<p>Ένα άλλο ενδιαφέρον στοιχείο που μπορεί να παρατηρήσει κανείς είναι το πώς καθορίζουμε τη θέση αυτών των κόμβων. Αντί να δώσουμε τις συντεταγμένες τους με το χέρι, επιλέγουμε μία πιο δυναμική τεχνική η οποία μας επιτρέπει, αν για κάποιον λόγο το θελήσουμε, να μετακινήσουμε τα σημεία που βρίσκονται στο πεδίο τιμών και, μαζί με αυτά, να μετακινηθεί και το σύνολο τιμών. Αυτό το πετυχαίνουμε μέσα από το να προσθέσουμε (διανυσματικά) σε ήδη υπάρχοντες κόμβους, μικρές μετατοπίσεις. Έτσι, η εντολή:</p>
+<p><code class="docutils literal notranslate"><span class="pre">\node[draw=none](x)</span> <span class="pre">at</span> <span class="pre">($(2)+(.1,.3)$){};</span></code></p>
+<p>κατασκευάζει έναν αφανή κόμβο ο οποίος θα βρίσκεται 0.1 εκατοστά δεξιότερα και 0.3 εκατοστά πιο πάνω από τον κόμβο με όνομα <code class="docutils literal notranslate"><span class="pre">(2)</span></code>. Έτσι, όπου κι αν μετακινήσουμε τον κόμβο <code class="docutils literal notranslate"><span class="pre">(2)</span></code> θα πάει και ο κόμβος <code class="docutils literal notranslate"><span class="pre">(x)</span></code>. Με τον παραπάνω τρόπο πετυχαίνουμε να προσδώσουμε στο σχήμα μας έναν πιο δυναμικό χαρακτήρα - με τον περιορισμό, βέβαια, ότι δοκιμάσαμε αρκετή ώρα με το χέρι να βρούμε τις βολικές θέσεις για τους κόμβους <code class="docutils literal notranslate"><span class="pre">(x)</span></code>, <code class="docutils literal notranslate"><span class="pre">(y)</span></code>, <code class="docutils literal notranslate"><span class="pre">(z)</span></code> κ.λπ.</p>
+<p>Έχοντας αυτούς τους κόμβους, σχεδιάζουμε πλέον την καμπύλη μας με την ακόλουθη εντολή-σιδηρόδρομο:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\draw[dashed, red, thick, fill=red, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(x.north east) (m) (y.north east) (z.south east) (w.west)};
+</span></code></pre></div>
+</div>
+<p>Ας την εξηγήσουμε βήμα-βήμα:</p>
+<ul class="simple">
+<li><p>Αρχικά, στη λίστα παραμέτρων της <code class="docutils literal notranslate"><span class="pre">\draw</span></code> δίνουμε κάποιες παραμέτρους για το πώς θα φαίνεται η γραμμή και το πώς θα γεμίζει το εσωτερικό της.</p></li>
+<li><p>Στη συνέχεια, χρησιμοποιούμε τη γνωστή μας <code class="docutils literal notranslate"><span class="pre">plot</span></code> αλλά όχι με το συνηθισμένο, για εμάς, συντακτικό της. Αντί να της δώσουμε κάποια σημεία με συντεταγμένες και μία μεταβλητή, της δίνουμε για αρχή μία λίστα παραμέτρων. Για την ακρίβεια, δίνουμε τις παραμέτρους <code class="docutils literal notranslate"><span class="pre">smooth</span></code> και <code class="docutils literal notranslate"><span class="pre">cycle</span></code>. Η τελευταία μάς είναι γνωστή και υποδηλώνει ότι η καμπύλη πρέπει να κλείσει στο τέλος. Η πρώτη υποδηλώνει ότι οι κόμβοι που θα δοθούν στην πορεία - βλ. παρακάτω - πρέπει να συνδεθούν με μία ομαλή καμπύλη (θα εξηγήσουμε σε λίγο πώς προκύπτει, περίπου, αυτή η ομαλή καμπύλη). Επίσης, η παράμετρος <code class="docutils literal notranslate"><span class="pre">tension</span></code> καθορίζει την ομαλότητα της καμπύλης μας - μπορείτε να παίξετε λίγο μαζί της και να δείτε πώς επηρεάζει το σχήμα της καμπύλης μας.</p></li>
+<li><p>Έπειτα, δίνουμε μετά την εντολή <code class="docutils literal notranslate"><span class="pre">coordinates</span></code> ένα σύνολο από συντεταγμένες - κόμβους - από τους οποίους θέλουμε να περάσει η καμπύλη μας. Όπως θα παρατηρήσετε, σε κάποιες περιπτώσεις δε χρησιμοποιούμε τους ίδιους τους κόμβους αλλά τα… σημεία του ορίζοντα. Πρακτικά, τα τέσσερα σημεία του ορίζοντα - με την ανατολή να υποδηλώνει το «δεξιά» και τον βορρά του «πάνω» - χρησιμοποιούνται για έναν κόμβο σαν παράμετροι που υποδηλώνουν από ποια ακριβώς πλευρά του κόμβου επιθυμούμε να συμβεί κάτι - όπως, π.χ., να περάσει μία καμπύλη. Αποτελούν, όπως τα λέμε, τα λεγόμενα anchors ενός κόμβου και το συντακτικό έχει τη μορφή <code class="docutils literal notranslate"><span class="pre">node_name.anchor</span></code>.</p></li>
+</ul>
+<p>Τώρα, να πούμε και λίγα λόγια για τον αλγόριθμο που σχεδιάζει την καμπύλη. Γενικά, χρησιμοποιούνται κάποιες γνωστές καμπύλες στο χώρο της γραφικής σχεδίασης, οι καμπύλες <a class="reference external" href="https://en.wikipedia.org/wiki/B%C3%A9zier_curve">Bézier</a>. Αν και δε θα ασχοληθούμε - τώρα - με αυτές, να πούμε πως η βασική ιδέα του αλγορίθμου είναι η εφαπτομένη της καμπύλης που προκύπτει σε κάθε σημείο που καθορίζουμε - πέρα από το τελικό και το αρχικό - να είναι παράλληλη στην χορδή που καθορίζουν το προηγούμενο και το επόμενο σημείο που έχουμε δώσει.</p>
+<p>Ουφ! Πολλή δουλειά για ένα fancy κυκλάκι, στο τέλος της ημέρα!</p>
+</section>
+<section id="id3">
+<h2>Μία απλή γραφική παράσταση…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<p>Το επόμενο σχήμα μας είναι το εξής:</p>
+<figure class="wp-image-8538 align-default" id="id9">
+<img alt="Μία απλή συνεχής συνάρτηση." src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_36.png?w=723"/>
+<figcaption>
+<p><span class="caption-text">Μία απλή συνεχής συνάρτηση.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Ο αντίστοιχος κώδικας είναι ο ακόλουθος:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\pgfdeclarelayer{bg}
+</span><span id="line-4">\pgfsetlayers{bg,main}
+</span><span id="line-5">
+</span><span id="line-6">\begin{document}
+</span><span id="line-7">    \begin{tikzpicture}
+</span><span id="line-8">    \draw[thick,-&amp;gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-9">    \draw[thick,-&amp;gt;] (0,-2.7) -- (0,3)node[pos=1,left]{$y$};
+</span><span id="line-10">    \begin{scope}
+</span><span id="line-11">    \clip (-4,-2.7) rectangle (4,3);
+</span><span id="line-12">    \draw[thick,blue!50!black, domain={.5}:{3},samples=100] plot (\x,{2/(\x+.5)});
+</span><span id="line-13">    \draw[thick,blue!50!black, domain={-3}:{-1},samples=100] plot (\x,{1.5+\x});
+</span><span id="line-14">    \end{scope}
+</span><span id="line-15">    \node[circle, inner sep=1pt, fill=blue!50!black, draw=blue!50!black, label={left}:{$\scriptstyle\left(-3,-\frac{3}{2}\right)$}](a) at (-3,-1.5){};
+</span><span id="line-16">    \node[circle, inner sep=1pt, fill=white, draw=blue!50!black, label={above}:{$\scriptstyle\left(-1,\frac{1}{2}\right)$}](b) at (-1,.5){};
+</span><span id="line-17">    \node[circle, inner sep=1pt, fill=white, draw=blue!50!black, label={above}:{$\scriptstyle\left(\frac{1}{2},2\right)$}](c) at (.5,2){};
+</span><span id="line-18">    \node[circle, inner sep=1pt, fill=blue!50!black, draw=blue!50!black, label={right}:{$\scriptstyle\left(3,\frac{4}{7}\right)$}](d) at (3,{4/7}){};
+</span><span id="line-19">    \begin{pgfonlayer}{bg}
+</span><span id="line-20">    \draw[dashed, color=blue!50!black] (a) rectangle (0,0);
+</span><span id="line-21">    \draw[dashed, color=blue!50!black] (b) rectangle (0,0);
+</span><span id="line-22">    \draw[dashed, color=blue!50!black] (c) rectangle (0,0);
+</span><span id="line-23">    \draw[dashed, color=blue!50!black] (d) rectangle (0,0);
+</span><span id="line-24">    \end{pgfonlayer}
+</span><span id="line-25">    \end{tikzpicture}
+</span><span id="line-26">\end{document}
+</span></code></pre></div>
+</div>
+<p>Εδώ δεν έχουμε κάτι τρομερό, είναι η αλήθεια, καθώς τα περισσότερα τα έχουμε δει πάρα πολλές φορές. Ίσως όμως είναι ευκαιρία να αναφερθούμε σε μία εντολή του  <span class="math notranslate nohighlight">\(\LaTeX\)</span>  που χρησιμοποιούμε συχνά στο <code class="docutils literal notranslate"><span class="pre">tikz</span></code>: την <code class="docutils literal notranslate"><span class="pre">\scriptstyle</span></code>. Η εν λόγω εντολή χρησιμοποιείται σε μαθηματικό περιβάλλον και μετασχηματίζει όλα τα σύμβολα στην αντίστοιχη μορφή που έχουν όταν εμφανίζονται σε εκθέτες και δείκτες. Έτσι, μπορούμε να πετύχουμε μία άμεση και κομψή σμίκρυνση των χαρακτήρων που μας απασχολεί να μικρύνουμε.</p>
+</section>
+<section id="id4">
+<h2>Σχεδόν το ίδιο…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h2>
+<p>Το επόμενο σχήμα μας δε διαφέρει και πολύ…</p>
+<figure class="wp-image-8613 align-default" id="id10">
+<img alt="Σχεδόν το ίδιο..." src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_37.png?w=723"/>
+<figcaption>
+<p><span class="caption-text">Σχεδόν το ίδιο…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id10"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Ο αντίστοιχος κώδικας, ωστόσο, είναι κάπως πιο πλούσιος:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\usetikzlibrary{calc}
+</span><span id="line-4">\usetikzlibrary{intersections}
+</span><span id="line-5">
+</span><span id="line-6">\pgfdeclarelayer{bg}
+</span><span id="line-7">\pgfsetlayers{bg,main}
+</span><span id="line-8">
+</span><span id="line-9">\begin{document}
+</span><span id="line-10">    \begin{tikzpicture}
+</span><span id="line-11">    \draw[thick,-&amp;gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-12">    \draw[thick,-&amp;gt;] (0,-2.7) -- (0,3)node[pos=1,left]{$y$};
+</span><span id="line-13">    \begin{scope}
+</span><span id="line-14">    \clip (-4,-2.7) rectangle (4,3);
+</span><span id="line-15">    \draw[thick,blue!50!black, domain={.5}:{3}, samples=100, name path global=curve 1] plot (\x,{2/(\x+.5)});
+</span><span id="line-16">    \draw[thick,blue!50!black, domain={-3}:{-1}, samples=100, name path global=curve 2] plot (\x,{1.5+\x});
+</span><span id="line-17">    \end{scope}
+</span><span id="line-18">    \foreach \i in {-2.78,-2.54,...,-1}{
+</span><span id="line-19">        \pgfmathtruncatemacro{\coord}{100*\i}
+</span><span id="line-20">        \draw[draw=none, name path=line \coord] (\i,-2.7) -- (\i,3);
+</span><span id="line-21">        \node[draw=none, name intersections={of=curve 2 and line \coord},inner sep=0pt](a\coord) at (intersection-1){};
+</span><span id="line-22">        \draw[orange,&amp;lt;-] ($(-4,0)!(a\coord)!(4,0)$) -- (a\coord);
+</span><span id="line-23">    }
+</span><span id="line-24">    \foreach \i in {.72,.94,...,3}{
+</span><span id="line-25">        \pgfmathtruncatemacro{\coord}{100*\i}
+</span><span id="line-26">        \draw[draw=none, name path=line \coord] (\i,-2.7) -- (\i,3);
+</span><span id="line-27">        \node[draw=none, name intersections={of=curve 1 and line \coord},inner sep=0pt](a\coord) at (intersection-1){};
+</span><span id="line-28">        \draw[orange,&amp;lt;-] ($(-4,0)!(a\coord)!(4,0)$) -- (a\coord);
+</span><span id="line-29">    }
+</span><span id="line-30">    \node[circle, inner sep=1pt, fill=blue!50!black, draw=blue!50!black, label={left}:{$\scriptstyle\left(-3,-\frac{3}{2}\right)$}](a) at (-3,-1.5){};
+</span><span id="line-31">    \node[circle, inner sep=1pt, fill=white, draw=blue!50!black, label={above}:{$\scriptstyle\left(-1,\frac{1}{2}\right)$}](b) at (-1,.5){};
+</span><span id="line-32">    \node[circle, inner sep=1pt, fill=white, draw=blue!50!black, label={above}:{$\scriptstyle\left(\frac{1}{2},2\right)$}](c) at (.5,2){};
+</span><span id="line-33">    \node[circle, inner sep=1pt, fill=blue!50!black, draw=blue!50!black, label={right}:{$\scriptstyle\left(3,\frac{4}{7}\right)$}](d) at (3,{4/7}){};
+</span><span id="line-34">    \begin{pgfonlayer}{bg}
+</span><span id="line-35">    \draw[dashed, color=blue!50!black] (a) rectangle (0,0);
+</span><span id="line-36">    \draw[dashed, color=blue!50!black] (b) rectangle (0,0);
+</span><span id="line-37">    \draw[dashed, color=blue!50!black] (c) rectangle (0,0);
+</span><span id="line-38">    \draw[dashed, color=blue!50!black] (d) rectangle (0,0);
+</span><span id="line-39">    \end{pgfonlayer}
+</span><span id="line-40">    \draw[orange,thick] (-3,0) -- (-1,0);
+</span><span id="line-41">    \draw[orange,thick] (.5,0) -- (3,0);
+</span><span id="line-42">    \end{tikzpicture}
+</span><span id="line-43">\end{document}
+</span></code></pre></div>
+</div>
+<p><em>Αν εμφανίζονται οι κώδικες html unicode ``&amp;lt;`` και ``&amp;gt;`` είναι γιατί το block που εμφανίζει τον κώδικα έχει ένα μικρό bug. Το ``&amp;lt;`` αντιστοιχεί στο ``&lt;`` και το ``&amp;gt;`` στο ``&gt;``.</em></p>
+<p>Επί της ουσίας, έχουμε προσθέσει κάτι βελάκια από τη γραφική παράσταση προς τον άξονα  <span class="math notranslate nohighlight">\(x'x\)</span>  πράγμα που, αν και είναι απλό με το χέρι, εδώ θέλει λίγη περισσότερη δουλίτσα. Για την ακρίβεια, αρχικά ξεκινάμε μία επανάληψη με την εντολή:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\foreach \i in {-2.78,-2.54,...,-1} {stuff...}
+</span></code></pre></div>
+</div>
+<p>Να θυμίσουμε εδώ ότι η <code class="docutils literal notranslate"><span class="pre">\foreach</span></code> καθορίζει τις τιμές που παίρνει ο μετρητής της μέσω μίας λίστας η οποία είτε περιέχει αναλυτικά τις τιμές είτε έχει την ακόλουθη δομή:</p>
+<p><code class="docutils literal notranslate"><span class="pre">{start,</span> <span class="pre">step,...,</span> <span class="pre">end}</span></code></p>
+<p>Το πρώτο όρισμα καθορίζει το πρώτο στοιχείο της λίστας, το τελευταίο το τελευταίο και το ενδιάμεσο μας λέει κατά πόσο μεγαλύτερο είναι κάθε στοιχείο από το προηγούμενό του - αριθμητική πρόοδος, με λίγα λόγια. Τώρα, εμείς δώσαμε ένα αρχικό σημείο, ένα τελικό κι ένα βήμα όπως βλέπουμε και παραπάνω.</p>
+<p>Αφού ανοίξαμε τον βρόχο, η πρώτη εντολή που δίνουμε είναι αυτό το αλλοπρόσαλλο πράγμα:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\pgfmathtruncatemacro{\coord}{100*\i}
+</span></code></pre></div>
+</div>
+<p>Αυτή η εντολή αποθηκεύει στη μεταβλητή <code class="docutils literal notranslate"><span class="pre">\coord</span></code> την τιμή <code class="docutils literal notranslate"><span class="pre">100*\i</span></code> αφού πρώτα αποκόψει το όποιο δεκαδικό μέρος μπορεί αυτή να έχει. Να σημειώσουμε εδώ πως η μεταβλητή <code class="docutils literal notranslate"><span class="pre">\coord</span></code> αποθηκεύεται στη μνήμη του υπολογιστή ως ακέραιου τύπου, γεγονός που θα μας φανεί χρήσιμο στην πορεία - όπου και θα αξιοποιήσουμε το παραπάνω.</p>
+<p>Έπειτα έχουμε αυτές τις τρεις γραμμές:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\draw[draw=none, name path=line \coord] (\i,-2.7) -- (\i,3);
+</span><span id="line-2">\node[draw=none, name intersections={of=curve 2 and line \coord},inner sep=0pt](a\coord) at (intersection-1){};
+</span><span id="line-3">\draw[orange,&amp;lt;-] ($(-4,0)!(a\coord)!(4,0)$) -- (a\coord);
+</span></code></pre></div>
+</div>
+<p>Με την πρώτη γραμμή σχεδιάζουμε μία… γραμμή που όμως δε φαίνεται αλλά θα μας βοηθήσει στην πορεία. Με τη δεύτερη γραμμή σχεδιάζουμε έναν κόμβο που ούτε αυτός φαίνεται (βαρύ σχήμα, ως τώρα) και ο οποίος βρίσκεται στην τομή της συνάρτησής μας με την ευθεία που σχεδιάσαμε και δε φαίνεται. Για να το κάνουμε αυτό - να βρούμε, δηλαδή, την τομή δύο καμπυλών - χρησιμοποιούμε τη βιβλιοθήκη <code class="docutils literal notranslate"><span class="pre">intersections</span></code>. Η εν λόγω βιβλιοθήκη μας επιτρέπει να χρησιμοποιήσουμε το εξής συντακτικό:</p>
+<p><code class="docutils literal notranslate"><span class="pre">name</span> <span class="pre">intersections={of=curve</span> <span class="pre">1</span> <span class="pre">and</span> <span class="pre">curve</span> <span class="pre">2}</span></code></p>
+<p>το οποίο παράγει μία λίστα από όλα τα σημεία τομής - το πώς τα βρίσκει θα το συζητήσουμε μιαν άλλη στιγμή - μεταξύ των δύο καμπυλών με ονόματα <code class="docutils literal notranslate"><span class="pre">curve</span> <span class="pre">1</span></code> και <code class="docutils literal notranslate"><span class="pre">curve</span> <span class="pre">2</span></code>. Κι εδώ πρέπει να αναφέρουμε κάτι σημαντικό για τα ονόματα των σχημάτων στο <code class="docutils literal notranslate"><span class="pre">tikz</span></code>. Γενικά, μπορούμε να δώσουμε ότι όνομα θέλουμε σε μία καμπύλη το οποίο επιτρέπεται να περιέχει και κενά ακόμα, αλλά, καλό είναι να μην περιέχει δεσμευμένες λέξεις όπως, για παράδειγμα, το <code class="docutils literal notranslate"><span class="pre">and</span></code> παραπάνω αλλά, το σημαντικότερο, να μην περιέχει μη ακέραιους αριθμούς! Κι επειδή εμείς ονομάζουμε αυτές τις αόρατες ευθείες με βάση τον μετρητή <code class="docutils literal notranslate"><span class="pre">\i</span></code> που παίρνει μη ακέραιες τιμές, χρειάστηκε να κατασκευάσουμε την ακέραια μεταβλητή <code class="docutils literal notranslate"><span class="pre">\coord</span></code>.</p>
+<p>Τώρα, εντάξει, φτιάξαμε μία λίστα με τα σημεία τομής που θέλαμε - και που, σε κάθε περίπτωση είναι ακριβώς ένα - αλλά πώς θα τα φωνάξουμε; Το γενικό συντακτικό για να χρησιμοποιήσουμε τις συντεταγμένες του κ-οστού στοιχείου της λίστας των σημείων τομής είναι:</p>
+<p><code class="docutils literal notranslate"><span class="pre">intersection-k</span></code></p>
+<p>οπότε εμείς στα παραπάνω χρησιμοποιούμε τον κώδικα <code class="docutils literal notranslate"><span class="pre">intersection-1</span></code> για να αναφερθούμε στο πρώτο - και μοναδικό - στοιχείο της λίστας μας.</p>
+<p>Έπειτα δεν κάνουμε τίποτα παρά να σχεδιάζουμε ένα σημείο από αυτόν τον αόρατο κόμβο μέχρι και την προβολή του αόρατου κόμβου στον άξονα  <span class="math notranslate nohighlight">\(x'x\)</span>  - που την κάνουμε, κατά τα γνωστά, με τη βοήθεια της <code class="docutils literal notranslate"><span class="pre">calc</span></code>.</p>
+<p>Να σημειώσουμε κάπου εδώ ότι την εντολή που παράγει τη λίστα των σημείων τομής:</p>
+<p><code class="docutils literal notranslate"><span class="pre">name</span> <span class="pre">intersections={of=curve</span> <span class="pre">1</span> <span class="pre">and</span> <span class="pre">curve</span> <span class="pre">2}</span></code></p>
+<p>μπορούμε να τη χρησιμοποιήσουμε στη λίστα παραμέτρων ενός κόμβου ή μίας εντολής <code class="docutils literal notranslate"><span class="pre">\draw</span></code> ή <code class="docutils literal notranslate"><span class="pre">\fill</span></code> - και σε άλλες λίστες παραμέτρων, αλλά ίσως να μην είναι τόσο χρήσιμη. Επίσης, να πούμε ότι αυτή η λίστα χάνεται μόλις εκτελέσουμε την επόμενη εντολή του κώδικά μας, επομένως, αν θέλουμε να «αποθηκεύσουμε» κάποιο σημείο τομής για να το χρησιμοποιήσουμε στο μέλλον σε κάποιο σχέδιο, καλό θα ήταν να το χρησιμοποιήσουμε για να ορίσουμε έναν κόμβο όπως παραπάνω - ή κάποιο άλλο σχήμα που μας χρειάζεται.</p>
+</section>
+<section id="id5">
+<h2>Μία απλή καμπύλη…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id5'"><span>#</span></a></h2>
+<p>Το επόμενο σχήμα μας είναι ντροπιαστικά απλό σε σχέση με το προηγούμενο:</p>
+<figure class="wp-image-8623 align-default" id="id11">
+<img alt="Τ' είν' αυτό;" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_38.png?w=723"/>
+<figcaption>
+<p><span class="caption-text">Τ” είν” αυτό;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Ο αντίστοιχος κώδικας, δε, είναι ακόμα πιο λίγος:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\pgfdeclarelayer{bg}
+</span><span id="line-4">\pgfsetlayers{bg,main}
+</span><span id="line-5">
+</span><span id="line-6">\begin{document}
+</span><span id="line-7">    \begin{tikzpicture}
+</span><span id="line-8">    \draw[thick,-&amp;gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-9">    \draw[thick,-&amp;gt;] (0,-2.7) -- (0,3)node[pos=1,left]{$y$};
+</span><span id="line-10">    \begin{scope}
+</span><span id="line-11">    \clip (-4,-2.7) rectangle (4,3);
+</span><span id="line-12">    \draw[thick,blue!50!black, domain={.5}:{3}, samples=100] (1,-2) .. controls (-6,2) and (2,2) .. (2,-1.85);
+</span><span id="line-13">    \end{scope}
+</span><span id="line-14">    \end{tikzpicture}
+</span><span id="line-15">\end{document}
+</span></code></pre></div>
+</div>
+<p>Τίποτα, απλά σχεδιάσαμε μία καμπύλη. Ή και όχι… Ας προσέξουμε λίγο τη γραμμή που σχεδιάζει την καμπύλη:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\draw[thick,blue!50!black, domain={.5}:{3}, samples=100] (1,-2) .. controls (-6,2) and (2,2) .. (2,-1.85);
+</span></code></pre></div>
+</div>
+<p>Τι είναι αυτό; Εμείς δε θα έπρεπε κανονικά να σχεδιάσουμε την καμπύλη μας ως συνήθως με την <code class="docutils literal notranslate"><span class="pre">plot</span></code>; Εδώ τι είναι αυτό το <code class="docutils literal notranslate"><span class="pre">controls</span></code> και όλα αυτά τα παράξενα;</p>
+<p>Λοιπόν, αυτό το συντακτικό μας επιτρέπει να σχεδιάσουμε καμπύλες <a class="reference external" href="https://en.wikipedia.org/wiki/B%C3%A9zier_curve">Bézier</a> και η εντολή <code class="docutils literal notranslate"><span class="pre">controls</span></code> μας επιτρέπει να καθορίσουμε τα σημεία ελέγχου της καμπύλης. Περισσότερα για τις καμπύλες αυτές θα πούμε στο aftermaths στο άμεσο μέλλον. Μέχρι τότε, μπορείτε να παίξετε με τη θέση των σημείων ελέγχου και να δείτε πώς επηρεάζουν το σχήμα της καμπύλης.</p>
+</section>
+<section id="id6">
+<h2>Και κάτι σύνθετο…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id6" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id6'"><span>#</span></a></h2>
+<p>Κακό λογοπαίγνιο, καθώς το τελευταίο μας σχήμα είναι αυτό:</p>
+<figure class="wp-image-8660 align-default" id="id12">
+<img alt="Σύνθετο σχήμα..." src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_39.png?w=723"/>
+<figcaption>
+<p><span class="caption-text">Σύνθετο σχήμα…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id12"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Ο αντίστοιχος κώδικας είναι ο εξής:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\usepackage{amsmath}
+</span><span id="line-4">
+</span><span id="line-5">\begin{document}
+</span><span id="line-6">    \begin{tikzpicture}
+</span><span id="line-7">    \node(x) at (-.5,0) {$\dfrac{\pi}{6}$};
+</span><span id="line-8">    \node(gx) at (1,0) {$g\left(\dfrac{\pi}{6}\right)$};
+</span><span id="line-9">    \node[right](fgx) at (2,0) {$f\left(g\left(\dfrac{\pi}{6}\right)\right)$};
+</span><span id="line-10">    \draw[blue,|-&amp;gt;] (x) -- (gx)node[pos=.5,above]{$\textcolor{blue}{g}$};
+</span><span id="line-11">    \draw[red,|-&amp;gt;] (gx) -- (fgx)node[pos=.5,above]{$\textcolor{red}{f}$};
+</span><span id="line-12">    \end{tikzpicture}
+</span><span id="line-13">\end{document}
+</span></code></pre></div>
+</div>
+<p>Δεν έχει κάτι το ιδιαίτερο το παραπάνω, καθώς είναι απλοί κόμβοι και βελάκια. Παρατηρήστε, ωστόσο, ότι για να σχεδιάσουμε ένα βελάκι σαν το  <span class="math notranslate nohighlight">\(\mapsto\)</span>  στο <code class="docutils literal notranslate"><span class="pre">tikz</span></code> αρκεί να περάσουμε στη λίστα παραμέτρων την παράμετρο <code class="docutils literal notranslate"><span class="pre">|-&gt;</span></code> που είναι ακριβώς και η μορφή που θέλουμε.</p>
+<p>Αυτά για αυτήν την εβδομάδα! Την επόμενη Τρίτη, αν δεν έχετε ήδη πάρει μία γεύση από <a class="reference external" href="docs/Tikz/ένα-σχήμα-την-ημέρα.rst">εδώ</a>, έχουμε πολύ κομψά σχήματα να μελετήσουμε!</p>
+<p>Μέχρι τότε, καλό βράδυ!</p>
+<blockquote>
+<div><div class="video_wrapper" style="">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/QNmhiTFeyiY" style="border: 0; height: 345px; width: 560px">
+</iframe></div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Σύνολα τιμών…</a></li>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Μία απλή γραφική παράσταση…</a></li>
+<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Σχεδόν το ίδιο…</a></li>
+<li><a :data-current="activeSection === '#id5'" class="reference internal" href="#id5">Μία απλή καμπύλη…</a></li>
+<li><a :data-current="activeSection === '#id6'" class="reference internal" href="#id6">Και κάτι σύνθετο…</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

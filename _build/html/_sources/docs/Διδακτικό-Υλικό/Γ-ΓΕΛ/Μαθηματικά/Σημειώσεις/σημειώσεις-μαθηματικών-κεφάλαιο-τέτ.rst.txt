@@ -1,0 +1,28 @@
+Σημειώσεις μαθηματικών - Κεφάλαιο Τέταρτο
+#########################################
+
+.. meta::
+	:date: 2019-01-09 15:42
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παράγωγος, πανελλήνιες, συναρτήσεις, σημειώσεις, Γ' λυκείου, επανάληψη
+	:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b1%ce%b8%ce%b7%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%cf%8e%ce%bd-%ce%ba%ce%b5%cf%86%ce%ac%ce%bb%ce%b1%ce%b9%ce%bf-%cf%84%ce%ad%cf%84
+	:status: published
+	:attachments: _static/images/uploads/2019/01/the-times-of-day-the-evening-caspar-david-friedrich.jpg
+
+.. figure:: /_static/images/uploads/2019/01/the-times-of-day-the-evening-caspar-david-friedrich.jpg
+	:alt: Ο πίνακας *Οι ώρες της ημέρας - Ο πίνακας του απογεύματος* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:align: center
+
+	Ο πίνακας *Οι ώρες της ημέρας - Ο πίνακας του απογεύματος* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+
+
+Σε συνέχεια των προηγούμενων τριών κεφαλαίων (`πρώτο  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/σημειώσεις-μαθηματικών-κεφάλαιο-πρώ.rst>`__, `δεύτερο  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/σημειώσεις-μαθηματικών-κεφάλαιο-δεύ.rst>`__ και `τρίτο  <docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/σημειώσεις-μαθηματικών-κεφάλαιο-τρί.rst>`__), ολοκληρώθηκαν οι σημειώσεις που αφορούν την παράγωγο, στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γ' Λυκείου (χωρίς ασκήσεις, αυτές θα ανέβουν σε ξεχωριστά φυλλάδια).
+
+Οι σημειώσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1fKNfBbUYP0MhF1ZHjdeyrvTybASpKWKb/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+.. youtube:: SFkuQjpwE6w 

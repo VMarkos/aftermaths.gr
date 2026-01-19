@@ -1,0 +1,28 @@
+Φτάνουν κάποιοι αριθμοί;
+########################
+
+.. meta::
+	:date: 2018-09-15 20:52
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, ασκήσεις
+	:slug: %cf%86%cf%84%ce%ac%ce%bd%ce%bf%cf%85%ce%bd-%ce%ba%ce%ac%cf%80%ce%bf%ce%b9%ce%bf%ce%b9-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%ce%af
+	:status: published
+	:attachments: _static/images/uploads/2018/09/300px-caravaggio_judith_beheading_holofernes.jpg
+
+.. figure:: /_static/images/uploads/2018/09/300px-caravaggio_judith_beheading_holofernes.jpg
+	:alt: Ο πίνακας `Η Ιουδίθ αποκεφαλίζει τον Ολοφέρνη  <https://en.wikipedia.org/wiki/Judith_Beheading_Holofernes_(Caravaggio)>`__ του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	:align: center
+
+	Ο πίνακας `Η Ιουδίθ αποκεφαλίζει τον Ολοφέρνη  <https://en.wikipedia.org/wiki/Judith_Beheading_Holofernes_(Caravaggio)>`__ του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+
+
+Σε αυτό το φυλλάδιο δεν υπάρχουν ασκήσεις παρά μόνο μία ερώτηση στο τέλος μίας μεγάλης συζήτησης. Ο σκοπός αυτού του φυλλαδίου είναι να κάνει λίγο περισσότερο  σαφές  το γεγονός ότι η πειραματική επαγωγική μέθοδος - αυτή, με άλλα λόγια που χρησιμοποιούμε στη φυσική και στις άλλες επιστήμες - δεν είναι επαρκής τρόπος απόδειξης για τα μαθηματικά και να ωθήσει τους μαθητές να δουν την αναγκαιότητα της *τυπικής απόδειξης.*
+
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1AmwOvToDRbjOpr_QpbXHCC8cciX6Imsn/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό βράδυ και καλό διάβασμα!
+
+.. youtube:: O6dskV66rjI 

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2021-03-22 01:43" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Μαθηματικά" name="category"/>
+<meta content="featured, αριθμοί, μαθηματικά" name="tags"/>
+<meta content="%cf%80%cf%8c%cf%83%ce%bf-%ce%ac%cf%81%cf%81%ce%b7%cf%84%ce%bf%cf%82-%ce%b5%ce%af%cf%83%ce%b1%ce%b9" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2021/03/pierre-auguste_renoir_083.jpg" name="attachments"/>
+<title>Πόσο Άρρητος Είσαι; | aftermaths</title>
+<meta content="Πόσο Άρρητος Είσαι; | aftermaths" property="og:title"/>
+<meta content="Πόσο Άρρητος Είσαι; | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html" rel="next" title="Πόσο Διαβάζετε;"/>
+<link href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html" rel="prev" title="Πόσες είναι οι συνεχείς συναρτήσεις;"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Πόσο Άρρητος Είσαι;</span>
+</nav>
+<div id="content" role="main">
+<section id="id1">
+<h1>Πόσο Άρρητος Είσαι;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+<figure class="align-center" id="id8">
+<img alt="Ο πίνακας *Ο Claude Monet ζωγραφίζει στον κήπο του στο Argenteuil* του `Pierre-Auguste Renoir  &lt;https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir&gt;`__\ *.*" src="_static/images/uploads/2021/03/pierre-auguste_renoir_083.jpg"/>
+<figcaption>
+<p><span class="caption-text">Ο πίνακας <em>Ο Claude Monet ζωγραφίζει στον κήπο του στο Argenteuil</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir">Pierre-Auguste Renoir</a><em>.</em></span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id8"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Την προηγούμενη εβδομάδα είδαμε ότι ο  <span class="math notranslate nohighlight">\(\pi\)</span>  είναι άρρητος. Για την ακρίβεια, κοπιάσαμε αρκετά και περάσαμε μέσα από τα δύσβατα χωράφια των ολοκληρωμάτων αλλά, τελικά, καταφέραμε να αποδείξουμε το πολυπόθητο αποτέλεσμα - για περισσότερα για την απόδειξη και τη διαίσθηση πίσω από αυτή, δείτε <a class="reference external" href="docs/After-maths/το-ημίτονο-οι-άρρητοι-και-οι-πιο-άρρητ.rst">εδώ</a>. Υπαινιχθήκαμε, μάλιστα, προς το τέλος της εν λόγω ανάρτησης, ότι ο  <span class="math notranslate nohighlight">\(\pi\)</span>  είναι «πιο άρρητος» από κάποιους άλλους άρρητους αριθμούς. Ωστόσο, τι πάει να πει «πιο άρρητος»; Δηλαδή, κάποιοι αριθμοί είναι περισσότερο άρρητοι από κάποιους άλλους; Βασικά, ένα βήμα παρακάτω, μετριέται η αρρητότητα; - βασικά, ο όρος αρρητοσύνη μου αρέσει περισσότερο, οπότε θα κρατήσουμε αυτόν.</p>
+<section id="id2">
+<h2>Ένα παράδειγμα - ή, μήπως, δύο;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>Η αλήθεια είναι ότι, πράγματι, μπορούμε να μετρήσουμε την αρρητοσύνη. Πριν περάσουμε σε λεπτομέρειες, ας δούμε δύο παραδείγματα για να πάρουμε μία ιδέα για το πώς κάποιοι άρρητοι είναι πιο… άρρητοι.</p>
+<p>Αρχικά, ας πάρουμε ίσως τον πιο γνωστό άρρητο αριθμό: την τετραγωνική ρίζα του δύο. Με τη βοήθεια μίας αριθμομηχανής μπορούμε να βρούμε αρκετά ψηφία του δεκαδικού της αναπτύγματος, όπως αυτά που φαίνονται παρακάτω:</p>
+<div class="math notranslate nohighlight">
+\[\sqrt{2}=1.4142135623730950488016887242097...\]</div>
+<p>Ας υποθέσουμε τώρα ότι θέλουμε να βρούμε έναν ρητό αριθμό  <span class="math notranslate nohighlight">\(q_n\)</span>  που να προσεγγίζει καλά την  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  με ακρίβεια  <span class="math notranslate nohighlight">\(n\)</span>  δεκαδικών ψηφίων - δηλαδή, να συμφωνεί με το παραπάνω ανάπτυγμα στα πρώτα  <span class="math notranslate nohighlight">\(n\)</span>  δεκαδικά ψηφία. Η προφανέστερη επιλογή που έχουμε να κάνουμε, ας πούμε για  <span class="math notranslate nohighlight">\(n=5,\)</span>  είναι να επιλέξουμε τον εξής ρητό:</p>
+<div class="math notranslate nohighlight">
+\[q_5=\dfrac{141421}{100000}.\]</div>
+<p>Αυτός ο ρητός είναι, εν γένει, «άκομψος», καθώς και ο αριθμητής του και ο παρονομαστής του είναι αρκετά μεγάλοι αριθμοί. Για την ακρίβεια, θέλαμε να προσεγγίσουμε με ένα (δεκαδικό) κλάσμα τον  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  με ακρίβεια 5 δεκαδικών και το κλάσμα που κατασκευάσαμε έχει τόσο αριθμητή όσο και παρονομαστή εξαψήφιους ακεραίους. Χειρότερα δε θα μπορούσαμε να τα καταφέρουμε, μιας και 6 ψηφία συνολικά του  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  θέλαμε να «πιάσουμε» (την μονάδα και τα πρώτα πέντε δεκαδικά).</p>
+<p>Ας δούμε τώρα τον εξής άρρητο αριθμό:</p>
+<div class="math notranslate nohighlight">
+\[\ell=0.110001000000000000000001000\ldots,\]</div>
+<p>όπου 0 και 1 εναλλάσσονται με έναν προς το παρόν απροσδιόριστο αλλά απεριοδικό τρόπο - και άρα ο  <span class="math notranslate nohighlight">\(\ell\)</span>  πράγματι δεν είναι ρητός. Εδώ, αν θέλουμε να κάνουμε μία προσέγγιση 5 δεκαδικών ψηφίων μπορούμε πολύ εύκολα να χρησιμοποιήσουμε το κομψότατο κλάσμα:</p>
+<div class="math notranslate nohighlight">
+\[r_5=\dfrac{11}{100}.\]</div>
+<p>Πανέμορφο! Λιτό, με αριθμητή και παρονομαστή με μόλις 2 και 3 ψηφία, αντίστοιχα, καμία σχέση με εκείνο το τερατούργημα το  <span class="math notranslate nohighlight">\(q_5.\)</span>  Μάλιστα, ο  <span class="math notranslate nohighlight">\(\ell\)</span> , αν και άρρητος, είναι αρκετά «ρητός», υπό την έννοια ότι αυτά τα 16 μηδενικά που έχει μετά το έκτο δεκαδικό ψηφίο του μας επιτρέπουν να τον προσεγγίσουμε με ακρίβεια 23 ψηφίων με ένα κλάσμα τόσο απλό όσο το:</p>
+<div class="math notranslate nohighlight">
+\[r_{23}=\dfrac{110001}{1000000}.\]</div>
+<p>Από την άλλη, για να προσεγγίσουμε τον  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  με ακρίβεια 23 δεκαδικών ψηφίων θα χρειαστούμε έναν αριθμό σαν τον:</p>
+<div class="math notranslate nohighlight">
+\[q_{23}=\dfrac{141421356237309504880168}{10^{23}}.\]</div>
+<p>Εντάξει, μπορεί να απλοποιείται λίγο το παραπάνω κλάσμα, αλλά το  <span class="math notranslate nohighlight">\(r_5\)</span>  δεν το φτάνει σε ομορφιά.</p>
+<p>Είναι σαφές από την παραπάνω σύγκριση ότι ο  <span class="math notranslate nohighlight">\(\ell\)</span>  είναι πολύ «πιο ρητός» από τον  <span class="math notranslate nohighlight">\(\sqrt{2},\)</span>  καθώς μπορεί να προσεγγιστεί εύκολα με αρκετά «απλούς» ρητούς. Από την άλλη, ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  είναι «πολύ άρρητος» αφού, εν γένει, αν επιθυμούμε να βρούμε έναν ρητό που να τον προσεγγίζει με μία ακρίβεια  <span class="math notranslate nohighlight">\(n\)</span>  θα χρειαστεί να πάρουμε ένα αρκετά «περίπλοκο» κλάσμα με σχεδόν  <span class="math notranslate nohighlight">\(n-\)</span> ψήφιο αριθμητή και παρονομαστή.</p>
+<p>Αλήθεια, μπορείτε να αποδείξετε ότι η τετραγωνική ρίζα του 2 είναι άρρητος χωρίς να πείτε λέξη; Αν όχι, ρίξτε μια ματιά <a class="reference external" href="docs/After-maths/και-οι-7-είναι-υπέροχες.rst">εδώ</a>.</p>
+</section>
+<section id="id3">
+<h2>Μετρώντας την Αρρητοσύνη<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<p>Έχοντας πλέον μία εικόνα για το πόσο διαφορετικοί μπορεί να είναι κάποιοι άρρητοι αριθμοί, θα προσπαθήσουμε να ορίσουμε ένα μέτρο αυτής της αρρητοσύνης. Για την ακρίβεια, δεν είναι ότι θα το ορίσουμε εμείς, όλη τη δουλειά την έχει κάνει ένας γνωστός και μη εξαιρετέος μαθηματικός, ο <a class="reference external" href="https://en.wikipedia.org/wiki/Joseph_Liouville">Joseph Liouville</a>. Ωστόσο, έχει ένα ενδιαφέρον να ακολουθήσουμε τον δρόμο από τα παραπάνω παραδείγματα μέχρι και τον αυστηρό μαθηματικό ορισμό της αρρητοσύνης.</p>
+<p>Για να δώσουμε έναν καλό μαθηματικό ορισμό, το πρώτο πράγμα που πρέπει να κάνουμε είναι να ξεκαθαρίσουμε <em>τι είναι αυτό που θέλουμε να ορίσουμε.</em> Στην προκειμένη, θέλουμε να δώσουμε έναν ορισμό που κάπως να μας επιτρέπει να διακρίνουμε ανάμεσα σε άρρητους αριθμούς που μπορούν να προσεγγιστούν εύκολα από «απλούς» ρητούς και σε εκείνους που αυτό δεν είναι εφικτό - όπως ο  <span class="math notranslate nohighlight">\(\ell\)</span>  και ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  παραπάνω. Ας, υποθέσουμε, όπως παραπάνω, ότι αναζητούμε κλάσματα που να μπορούν να προσεγγίσουν με ακρίβεια 23 δεκαδικών ψηφίων τους αριθμούς  <span class="math notranslate nohighlight">\(\ell\)</span>  και  <span class="math notranslate nohighlight">\(\sqrt{2}.\)</span>  Αυστηρά, αυτό σημαίνει ότι αναζητούμε ρητούς  <span class="math notranslate nohighlight">\(q,r\in\mathbb{Q}\)</span>  έτσι ώστε:</p>
+<div class="math notranslate nohighlight">
+\[\|\sqrt{2}-q|&lt;\dfrac{1}{10^{23}} και .. math:: \|\ell-r|&lt;\dfrac{1}{10^{23}}.\]</div>
+<p>Παραπάνω είδαμε δύο επιλογές για τους  <span class="math notranslate nohighlight">\(q,r,\)</span>  ωστόσο, όπως φαντάζεστε, δεν είναι οι μόνες. Για την ακρίβεια, υπάρχουν αρκετά περισσότερες και για τους δύο αριθμούς. Ωστόσο, εμάς δε μας ενδιαφέρουν όλες οι ρητές προσεγγίσεις αλλά αυτές που δεν είναι αρκετά «πολύπλοκες». Κι εδώ θα προσπαθήσουμε να περιγράψουμε αυτό το «πολύπλοκες» λίγο σαφέστερα. Κατά βάση, θα εστιάσουμε στους παρονομαστές των κλασμάτων μας. Δεδομένου ότι αποζητούμε προσέγγιση με ακρίβεια  <span class="math notranslate nohighlight">\(10^{-23},\)</span>  είναι λογικό να θέλουμε και οι παρονομαστές των κλασμάτων μας να μην έχουν περισσότερα από 23 δεκαδικά ψηφία. Άλλωστε, πάντοτε μπορούμε να βρούμε μία τέτοια προσέγγιση, όπως εξηγήσαμε παραπάνω - παίρνοντας απλά τα πρώτα 23 ψηφία του δεκαδικού αναπτύγματος του εν λόγω αριθμού.</p>
+<p>Απλουστεύοντας λίγο ακόμα τη ζωή μας, θα ασχοληθούμε μόνο με δεκαδικά κλάσματα για αρχή - όσα θα πούμε θα γενικευτούν αρκετά εύκολα για κάθε κλάσμα στην πορεία. Μία προσέγγιση με παρονομαστή  <span class="math notranslate nohighlight">\(10^{23}\)</span>  για τον  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  είναι, όπως είπαμε, η:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{141421356237309504880168}{10^{23}}.\]</div>
+<p>Αντίστοιχα, για τον  <span class="math notranslate nohighlight">\(\ell\)</span>  μία τέτοια προσέγγιση είναι η:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{110001}{1000000}=\dfrac{110001}{10^6}.\]</div>
+<p>Παρατηρήστε ότι, αυστηρά μιλώντας, αυτό που διαφοροποιεί τις δύο προσεγγίσεις είναι ότι ο πρώτος παρονομαστής είναι  <span class="math notranslate nohighlight">\(10^{23}\)</span>  ενώ ο δεύτερος μόλις  <span class="math notranslate nohighlight">\(10^6.\)</span>  Αυτό πρακτικά σημαίνει ότι χρησιμοποιώντας ένα κλάσμα με παρονομαστή  <span class="math notranslate nohighlight">\(10^{23}\)</span>  καταφέραμε ακρίβεια της τάξης του  <span class="math notranslate nohighlight">\(10^{23}\)</span>  - δηλαδή δεν κερδίσαμε σε ακρίβεια σε σχέση με την προσέγγισή μας - σε ό,τι αφορά τον  <span class="math notranslate nohighlight">\(\sqrt{2}.\)</span>  Από την άλλη, για τον  <span class="math notranslate nohighlight">\(\ell\)</span>  με ένα κλάσμα με παρονομαστή  <span class="math notranslate nohighlight">\(10^6\)</span>  πετύχαμε και πάλι ακρίβεια της τάξης του  <span class="math notranslate nohighlight">\(10^{23}\)</span>  - δηλαδή, κερδίσαμε  <span class="math notranslate nohighlight">\(23/6\approx3.83\)</span>  φορές περισσότερη ακρίβεια από αυτή που «επενδύσαμε».</p>
+<p>Σαν κάτι να αρχίζει να φαίνεται σιγά-σιγά στον ορίζοντα. Στην ουσία, αυτό που παραπάνω λέγαμε «απλό» κλάσμα ήταν ένα κλάσμα με παρονομαστή αρκετά μικρό σε σχέση με την επιθυμητή μας ακρίβεια. Αυτή ακριβώς είναι και η ιδέα που θα γενικεύσουμε. Αν πάρουμε ένα κλάσμα  <span class="math notranslate nohighlight">\(a/b\)</span>  που είναι μη τετριμμένη προσέγγιση ενός πραγματικού αριθμού  <span class="math notranslate nohighlight">\(x\)</span>  - δηλαδή δεν είναι ο ίδιος ο  <span class="math notranslate nohighlight">\(x\)</span>  - τότε πόσο κοντά μπορούμε να πάμε στον  <span class="math notranslate nohighlight">\(x\)</span>  σε σχέση με τον παρονομαστή  <span class="math notranslate nohighlight">\(b\)</span>  του κλάσματος; Στα μαθηματικένια, ποιος είναι ο μέγιστος εκθέτης  <span class="math notranslate nohighlight">\(\mu\geq1\)</span>  για τον οποίο ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[\left|x-\frac{a}{b}\right|&lt;\frac{1}{b^\mu};\]</div>
+<p>Για παράδειγμα, για τον  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  και για  <span class="math notranslate nohighlight">\(b=10^{23}\)</span>  έχουμε  <span class="math notranslate nohighlight">\(\mu\geq1\)</span>  ενώ για τον  <span class="math notranslate nohighlight">\(\ell\)</span>  για  <span class="math notranslate nohighlight">\(b=10^6\)</span>  έχουμε  <span class="math notranslate nohighlight">\(\mu\geq{23}/{6}.\)</span></p>
+<p>Βρήκαμε, άραγε, τον ορισμό που θέλαμε; Όχι, είναι η αλήθεια, Είμαστε κοντά, μιας και έχουμε αποδελτιώσει σε μαθηματική γλώσσα την έννοια του «απλού» κλάσματος, ωστόσο αν αρκεστούμε μόνο στο παραπάνω έχουμε ένα θέμα. Θεωρήστε, για παράδειγμα, τον αριθμό:</p>
+<div class="math notranslate nohighlight">
+\[\ell'= 0.11000100000000000000000141421356237309504880168\ldots\]</div>
+<p>Πρακτικά, ο  <span class="math notranslate nohighlight">\(\ell'\)</span>  ξεκινάει με το ίδιο δεκαδικό ανάπτυγμα όπως ο  <span class="math notranslate nohighlight">\(\ell\)</span>  αλλά συνεχίζει με το δεκαδικό ανάπτυγμα του  <span class="math notranslate nohighlight">\(\sqrt{2}.\)</span>  Επομένως, αναμένουμε για «μικρή» ακρίβεια - μέχρι και 23 δεκαδικά ψηφία - να συμπεριφέρεται όπως ο  <span class="math notranslate nohighlight">\(\ell,\)</span>  σαν ένας «πολύ ρητός» άρρητος, ενώ για μεγάλη ακρίβεια να συμπεριφέρεται όπως ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  - που, όπως φαντάζεστε, είναι «πολύ άρρητος». Επομένως, δε μας αρκεί για κάποιον  <span class="math notranslate nohighlight">\(b\in\mathbb{Z}_+\)</span>  να ισχύουν όλα τα παραπάνω αλλά για <em>άπειρους</em> <span class="math notranslate nohighlight">\(b\in\mathbb{Z}_+\)</span> . Για την ακρίβεια, λαμβάνοντας όλα τα παραπάνω υπόψιν, μπορούμε να δώσουμε τον εξής ορισμό του μέτρου αρρητοσύνης (irrationality measure):</p>
+<p>Ένας πραγματικός αριθμός  <span class="math notranslate nohighlight">\(x&amp;fg=362e77&amp;bg=d9d9d9\)</span>  λέμε ότι έχει <em>μέτρο αρρητοσύνης</em> <span class="math notranslate nohighlight">\(\mu &amp;fg=362e77&amp;bg=d9d9d9 `  αν ο  :math:\)</span>mu &amp;fg=362e77&amp;bg=d9d9d9 `  είναι ο μέγιστος (θετικός) πραγματικός αριθμός για τον οποίον υπάρχουν άπειρα ζεύγη ακεραίων  <span class="math notranslate nohighlight">\(a,b &amp;fg=362e77&amp;bg=d9d9d9 `  με  :math:`b&gt;0 &amp;fg=362e77&amp;bg=d9d9d9 `  έτσι ώστε  :math:\)</span>0&lt;left|x-frac{a}{b}right|&lt;frac{1}{b^mu}. &amp;fg=362e77&amp;bg=d9d9d9`  Λέμε, επίσης ότι ο  <span class="math notranslate nohighlight">\(x &amp;fg=362e77&amp;bg=d9d9d9\)</span>  έχει <em>άπειρο μέτρο αρρητοσύνης</em> αν για κάθε  <span class="math notranslate nohighlight">\(\mu\in\mathbb{R}&amp;fg=362e77&amp;bg=d9d9d9\)</span>  ισχύει η παραπάνω ανισότητα για άπειρα ζεύγη ακεραίων.</p>
+<p>Στην ουσία το μέτρο αρρητοσύνης  <span class="math notranslate nohighlight">\(\mu\)</span>  ενός αριθμού αποτυπώνει όλα όσα είπαμε παραπάνω καθώς αποτελεί το μέγιστο «κέρδος» σε ακρίβεια που μπορούμε να έχουμε καθολικά - για άπειρους στο πλήθος ρητούς.</p>
+<p>Παρατηρήστε πως όσο μεγαλύτερο είναι το μέτρο αρρητοσύνης ενός αριθμού, εν γένει, τόσο πιο «εύκολα» μπορούμε να τον προσεγγίσουμε με «μικρούς» ρητούς και άρα τόσο πιο «ρητός» άρρητος είναι. Αυτό, σαφώς, δε σημαίνει ότι δεν μπορούμε να προσεγγίσουμε κάποιους άρρητους με ρητούς αριθμούς ενώ κάποιους άλλους μπορούμε - άλλωστε, <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">οι ρητοί είναι πυκνοί στους πραγματικούς αριθμούς</a> - αλλά ότι εύκολα και με μικρά κλάσματα κερδίζουμε αρκετή ακρίβεια στις προσεγγίσεις μας για κάποιους άρρητους αριθμούς ενώ για κάποιους άλλους όχι.</p>
+<p>Επίσης, παρατηρήστε ότι ο παραπάνω ορισμός έχει ως συνεπακόλουθο ότι οι τιμές του  <span class="math notranslate nohighlight">\(b\)</span>  - του παρονομαστή - που ικανοποιούν την ανισότητα:</p>
+<div class="math notranslate nohighlight">
+\[0&lt;\left|x-\frac{a}{b}\right|&lt;\frac{1}{b^\mu}\]</div>
+<p>είναι άπειρες στο πλήθος. Πράγματι, αν ήταν πεπερασμένες, τότε θα έπρεπε για κάποιον συγκεκριμένο παρονομαστή  <span class="math notranslate nohighlight">\(b_0\)</span>  να υπάρχουν άπειρες στο πλήθος τιμές του αριθμητή,  <span class="math notranslate nohighlight">\(a_n\)</span>  που να ικανοποιούν την:</p>
+<div class="math notranslate nohighlight">
+\[0&lt;\left|x-\frac{a_n}{b_0}\right|&lt;\frac{1}{b_0^\mu}.\]</div>
+<p>Ωστόσο, επειδή οι  <span class="math notranslate nohighlight">\(a_n\)</span>  είναι άπειροι στο πλήθος ακέραιοι, αυτό σημαίνει ότι η ακολουθία  <span class="math notranslate nohighlight">\(a_n\)</span> <em>δεν είναι φραγμένη</em>, άρα ούτε και η ακολουθία  <span class="math notranslate nohighlight">\(\frac{a_n}{b_0}\)</span> . Αλλά, δεδομένης της παραπάνω ανισότητας, πρέπει ταυτόχρονα όλοι οι  <span class="math notranslate nohighlight">\(\frac{a_n}{b_0}\)</span>  να απέχουν από τον  <span class="math notranslate nohighlight">\(x\)</span>  το πολύ  <span class="math notranslate nohighlight">\(b_0^{-\mu},\)</span>  άρα πρέπει η  <span class="math notranslate nohighlight">\(\frac{a_n}{b_0}\)</span>  να είναι φραγμένη, άτοπο!</p>
+<p>Επομένως, υπάρχουν ρητές προσεγγίσεις με αυθέραιτα μεγάλους παρονομαστές, γεγονός που επιβεβαιώνει και αυτό που θέλαμε για να αποφύγουμε να χαρακτηρίσουμε αριθμούς σαν τον  <span class="math notranslate nohighlight">\(\ell'\)</span>  ως αρκετά «ρητούς».</p>
+</section>
+<section id="id4">
+<h2>Τα μέτρα αρρητοσύνης διάφορων αριθμών<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h2>
+<p>Ωραία, ορίσαμε τι πάει να πει «πολύ» και «λίγο» άρρητος. Τώρα είναι η ώρα να εξετάσουμε διάφορους πραγματικούς αριθμούς και το πόσο άρρητοι είναι.</p>
+<section id="id5">
+<h3>Ρητοί<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id5'"><span>#</span></a></h3>
+<p>Η αλήθεια είναι ότι δε θα περίμενε κανείς οι πρώτοι αριθμοί που θα εξετάσουμε για την αρρητοσύνη τους να είναι οι… ρητοί. Ωστόσο, είναι μία εύκολη περίπτωση και θα μας βοηθήσει να καταλάβουμε λίγο καλύτερα τους μηχανισμούς του ορισμού που δώσαμε παραπάνω. Ας πάρουμε, λοιπόν, έναν ρητό  <span class="math notranslate nohighlight">\(\frac{m}{n}\)</span>  όπου  <span class="math notranslate nohighlight">\(m,n\)</span>  ακέραιοι σχετικά πρώτοι μεταξύ τους - δηλαδή με μέγιστο κοινό διαιρέτη τη μονάδα - και  <span class="math notranslate nohighlight">\(n&gt;0.\)</span>  Ψάχνουμε τον μεγαλύτερο εκθέτη  <span class="math notranslate nohighlight">\(\mu\)</span>  έτσι ώστε να υπάρχουν άπειροι  <span class="math notranslate nohighlight">\(a,b\)</span>  ακέραιοι με  <span class="math notranslate nohighlight">\(b&gt;0\)</span>  που να ικανοποιούν την ανισότητα:</p>
+<div class="math notranslate nohighlight">
+\[0&lt;\left|\frac{m}{n}-\frac{a}{b}\right|&lt;\frac{1}{b^\mu}.\]</div>
+<p>Παρατηρούμε ότι για  <span class="math notranslate nohighlight">\(\mu=1\)</span>  μπορούμε να βρούμε άπειρα τέτοια ζευγάρια. Πράγματι, αναζητούμε άπειρους στο πλήθος ακεραίους  <span class="math notranslate nohighlight">\(a,b,\)</span> <span class="math notranslate nohighlight">\(b&gt;0\)</span>  έτσι ώστε:</p>
+<div class="math notranslate nohighlight">
+\[0&lt;\left|\frac{m}{n}-\frac{a}{b}\right|&lt;\frac{1}{b}\Leftrightarrow\frac{a-1}{b}&lt;\frac{m}{n}&lt;\frac{a+1}{b},\ \frac{m}{n}\neq\frac{a}{b}.\]</div>
+<p>Το παραπάνω ίσως να γίνει λίγο πιο εύπεπτο αν εξαφανίσουμε τους παρονομαστές:</p>
+<div class="math notranslate nohighlight">
+\[(a-1)n&lt;bm&lt;(a+1)n\Leftrightarrow an-n&lt;bm&lt;an+n.\]</div>
+<p>Επομένως, πρέπει να επιλέξουμε  <span class="math notranslate nohighlight">\(a,b\)</span>  έτσι ώστε να ισχύει η παραπάνω ανισότητα. Με άλλα λόγια, αναζητούμε άπειρες επιλογές για το  <span class="math notranslate nohighlight">\(a\)</span>  έτσι ώστε να μπορούμε να βρούμε στο διάστημα  <span class="math notranslate nohighlight">\((an-n,an+n)\)</span>  ένα πολλαπλάσιο του  <span class="math notranslate nohighlight">\(m.\)</span>  Παρατηρούμε τώρα ότι τα διαστήματα  <span class="math notranslate nohighlight">\((an-n,an+n)\)</span>  καλύπτουν όλους τους ακεραίους για  <span class="math notranslate nohighlight">\(a=\ldots,-2,1,0,1,2,\ldots\)</span>  Πράγματι, για  <span class="math notranslate nohighlight">\(a=0\)</span>  έχουμε  <span class="math notranslate nohighlight">\((-n,n),\)</span>  για  <span class="math notranslate nohighlight">\(a=1\)</span>  έχουμε  <span class="math notranslate nohighlight">\((0,2n)\)</span> , για  <span class="math notranslate nohighlight">\(a=2\)</span>  έχουμε  <span class="math notranslate nohighlight">\((n,3n)\)</span>  και, αντίστοιχα, για  <span class="math notranslate nohighlight">\(a=-1\)</span>  έχουμε  <span class="math notranslate nohighlight">\((-2n,0)\)</span>  κ.ο.κ. Συνεπώς, για κάθε επιλογή του  <span class="math notranslate nohighlight">\(b\)</span>  έχουμε ένα πολλαπλάσιο  <span class="math notranslate nohighlight">\(bm\)</span>  του  <span class="math notranslate nohighlight">\(m\)</span>  το οποίο, αφού είναι ακέραιος, θα ανήκει σε κάποιο από τα διαστήματα  <span class="math notranslate nohighlight">\((an-n,an+n)\)</span>  για κατάλληλο  <span class="math notranslate nohighlight">\(a.\)</span>  Με άλλα λόγια, για κάθε  <span class="math notranslate nohighlight">\(b=1,2,\ldots\)</span>  υπάρχει ένας  <span class="math notranslate nohighlight">\(a=a(b)\in\mathbb{Z}\)</span>  έτσι ώστε:</p>
+<div class="math notranslate nohighlight">
+\[an-n&lt;bm&lt;an+n,\]</div>
+<p>που ήταν και το ζητούμενο - αφού έτσι έχουμε άπειρες επιλογές για το ζεύγος  <span class="math notranslate nohighlight">\((a,b).\)</span>  Συνεπώς, για κάθε ρητό αριθμό ισχύει ότι  <span class="math notranslate nohighlight">\(\mu\geq1.\)</span></p>
+<p>Μπορεί, άραγε, ένας ρητός να έχει μέτρο αρρητοσύνης μεγαλύτερο της μονάδας; Ας πάρουμε έναν  <span class="math notranslate nohighlight">\(\mu&gt;1\Leftrightarrow\mu=1+\delta\)</span>  για κάποιο  <span class="math notranslate nohighlight">\(\delta&gt;0\)</span>  κι ας εξετάσουμε την επιθυμητή ανισότητα:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}&amp;\hphantom{\Leftrightarrow}\ \,0&lt;\left|\frac{m}{n}-\frac{a}{b}\right|&lt;\frac{1}{b^{1+\delta}}\&amp;\Leftrightarrow\frac{a}{b}-\frac{1}{b^{1+\delta}}&lt;\frac{m}{n}&lt;\frac{a}{b}+\frac{1}{b^{1+\delta}}\&amp;\Leftrightarrow anb^\delta-n&lt;mb^{1+\delta}&lt;anb^\delta+n.\end{aligned}\]</div>
+<p>Το σκεπτικό μας εδώ είναι παρόμοιο: θέλουμε να βρούμε «πολλαπλάσια» του  <span class="math notranslate nohighlight">\(b\)</span>  της μορφής  <span class="math notranslate nohighlight">\(mb^{1+\delta}\)</span>  μέσα σε διαστήματα της μορφής  <span class="math notranslate nohighlight">\((anb^\delta-n,anb^\delta+n).\)</span>  Θα εξετάσουμε και πάλι τα εν λόγω διαστήματα για διάφορες τιμές του  <span class="math notranslate nohighlight">\(a\in\mathbb{Z}\)</span>  - λόγω συμμετρίας, θα περιοριστούμε σε μη αρνητικές τιμές του  <span class="math notranslate nohighlight">\(a:\)</span></p>
+<ul class="simple">
+<li><p>για  <span class="math notranslate nohighlight">\(a=0\)</span>  έχουμε  <span class="math notranslate nohighlight">\((-n,n),\)</span></p></li>
+<li><p>για  <span class="math notranslate nohighlight">\(a=1\)</span>  έχουμε  <span class="math notranslate nohighlight">\((b^\delta n-n,b^\delta n+n),\)</span></p></li>
+<li><p>για  <span class="math notranslate nohighlight">\(a=2\)</span>  έχουμε  <span class="math notranslate nohighlight">\((2b^\delta n-n,2b^\delta n+n),\)</span></p></li>
+<li><p>για  <span class="math notranslate nohighlight">\(a=3\)</span>  έχουμε  <span class="math notranslate nohighlight">\((3b^\delta n-n,3b^\delta n+n),\)</span></p></li>
+<li><p>…</p></li>
+</ul>
+<p>Από τα παραπάνω δε φαίνεται να προκύπτει κάτι το προβληματικό, τουλάχιστον όχι με μια πρώτη ματιά. Ωστόσο, αν κοιτάξουμε λίγο καλύτερα, θα δούμε ότι αυτό το  <span class="math notranslate nohighlight">\(b^\delta\)</span>  που έχει εμφανιστεί κάνει ζημιά. Για την ακρίβεια, τα παραπάνω διαστήματα δεν μπορούν να καλύψουν επαρκώς τους ακεραίους για όλες τις επιλογές του  <span class="math notranslate nohighlight">\(b.\)</span>  Πράγματι, αν θέλουμε τα παραπάνω διαστήματα να καλύπτουν όλους τους ακεραίους πρέπει το δεξί άκρο ενός διαστήματος να είναι μικρότερο από το αριστερό άκρο του επόμενού του ή, πιο τυπικά, θέλουμε για κάθε  <span class="math notranslate nohighlight">\(a,b\)</span>  να ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[anb^\delta+n&gt;(a+1)nb^\delta-n\Leftrightarrow 2n&gt;nb^\delta\Leftrightarrow 2&gt;b^\delta\Leftrightarrow b&lt;2^{1/\delta}.\]</div>
+<p>Σαφώς, το παραπάνω δεν ισχύει για κάθε  <span class="math notranslate nohighlight">\(b\in\mathbb{Z}_{+}\)</span>  οπότε το προηγούμενο επιχειρημά μας σίγουρα δε δουλεύει σε αυτήν την περίπτωση. Για την ακρίβεια, τα εν λόγω διαστήματα, έστω  <span class="math notranslate nohighlight">\(I_a,\)</span>  για δεδομένο  <span class="math notranslate nohighlight">\(a\in\mathbb{Z}\)</span>  γίνονται ολοένα και πιο «απομακρυσμένα» καθώς η απόσταση μεταξύ του δεξιού άκρου του  <span class="math notranslate nohighlight">\(I_a\)</span>  αριστερού άκρου του  <span class="math notranslate nohighlight">\(I_{a+1}\)</span>  είναι ίση με  <span class="math notranslate nohighlight">\(nb^\delta-2n\)</span>  που γίνεται αυθαίρετα μεγάλη για αρκετά μεγάλες τιμές του  <span class="math notranslate nohighlight">\(b.\)</span></p>
+<p>Σαφώς, τα παραπάνω δεν απαγορεύουν άμεσα σε «πολλαπλάσια» του  <span class="math notranslate nohighlight">\(m\)</span>  της μορφής  <span class="math notranslate nohighlight">\(mb^{1+\delta}\)</span>  να «πέφτουν» μέσα στα εν λόγω διαστήματα για άπειρες στο πλήθος επιλογές για το  <span class="math notranslate nohighlight">\(b\)</span>  - θυμηθείτε ότι είναι <em>αναγκαίο</em> να μπορούμε να επιλέξουμε άπειρους στο πλήθος διαφορετικούς παρονομαστές για να είναι ο  <span class="math notranslate nohighlight">\(\mu=1+\delta\)</span>  μέτρο αρρητοσύνης του  <span class="math notranslate nohighlight">\(\frac{m}{n}.\)</span>  Ενδιαφέρον έχει σε αυτό το σημείο να εξετάσουμε πώς συμπεριφέρονται αυτά τα «πολλαπλάσια» του  <span class="math notranslate nohighlight">\(m\)</span>  για διάφορες τιμές του  <span class="math notranslate nohighlight">\(b=1,2,\ldots\)</span>  Αρχικά, ας πάρουμε δύο διαδοχικά «πολλαπλάσια»:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}m(b+1)^{1+\delta}-mb^{1+\delta}&amp;=m(b+1)(b+1)^\delta-mbb^\delta=\&amp;=m(b+1)^\delta+mb\left((b+1)^\delta-b^\delta\right)\&amp;\geq m(b+1)^\delta.\end{aligned}\]</div>
+<p>Σαφώς, καθώς  <span class="math notranslate nohighlight">\(b\to\infty\)</span>  έχουμε και  <span class="math notranslate nohighlight">\(m(b+1)^\delta\to\infty\)</span>  οπότε και τα «πολλαπλάσια» του  <span class="math notranslate nohighlight">\(m\)</span>  απομακρύνονται απεριόριστα πολύ καθώς μεγαλώνουν οι επιλογές που κάνουμε για τους παρονομαστές μας. Σκουραίνουν ακόμα περισσότερο τα πράγματα καθώς αφενός τα διαστήματα που στοχεύουμε αραιώνουν καθώς προχωράμε προς το  <span class="math notranslate nohighlight">\(+\infty\)</span>  αλλά και τα πολλαπλάσια που θα θέλαμα να «πέφτουν» μέσα στα εν λόγω διαστήματα «αραιώνουν» επίσης.</p>
+<p>Τώρα που πήραμε μία ιδέα για το προς τα πού πρέπει να κινηθούμε, θα αποδείξουμε ότι δε γίνεται να έχουμε άπειρα ζεύγη  <span class="math notranslate nohighlight">\(a,b\)</span>  που να ικανοποιούν την επιθυμητή ανισότητα για  <span class="math notranslate nohighlight">\(\mu&gt;1.\)</span>  Γι” αυτόν τον σκοπό σταθεροποιούμε έναν  <span class="math notranslate nohighlight">\(b\)</span>  και εξατάζουμε υπό ποιες συνθήκες ισχύει ότι  <span class="math notranslate nohighlight">\(mb^{1+\delta}\in I_a.\)</span>  Πρέπει, σαφώς:</p>
+<div class="math notranslate nohighlight">
+\[ab^\delta n-n&lt;mb^{1+\delta}\Leftrightarrow a&lt;\frac{m}{n}b+\frac{1}{b^\delta}.\]</div>
+<p>Από την άλλη, θέλουμε επίσης:</p>
+<div class="math notranslate nohighlight">
+\[mb^{1+\delta}&lt;ab^\delta n+n\Leftrightarrow a&gt;\frac{m}{n}b-\frac{1}{b^\delta}.\]</div>
+<p>Συνεπώς, πρέπει να ισχύει:</p>
+<div class="math notranslate nohighlight">
+\[\frac{m}{n}b-\frac{1}{b^\delta}&lt;a&lt;\frac{m}{n}b+\frac{1}{b^\delta}.\]</div>
+<p>Αναγκαίο για το παραπάνω είναι το διάστημα  <span class="math notranslate nohighlight">\(\left( \frac{m}{n}b-\frac{1}{b^\delta} , \frac{m}{n}b+\frac{1}{b^\delta} \right)\)</span>  να περιέχει ακέραιο, πράγμα αδύνατο αν ο  <span class="math notranslate nohighlight">\(\frac{m}{n}b\)</span>  δεν είναι ακέραιος - καθώς, τελικά,  <span class="math notranslate nohighlight">\(\frac{1}{b^\delta}\to0\)</span>  και άρα η διάμετρος του διαστήματος μικραίνει αρκετά και περιέχει μονάχα αριθμούς που είναι «πολύ κοντά» στον  <span class="math notranslate nohighlight">\(\frac{m}{n}b.\)</span></p>
+<p>Επομένως, πρέπει ο  <span class="math notranslate nohighlight">\(\frac{m}{n}b\)</span>  να είναι ακέραιος, άρα πρέπει - δεδομένου ότι οι  <span class="math notranslate nohighlight">\(m,n\)</span>  είναι σχετικά πρώτοι - ο  <span class="math notranslate nohighlight">\(b\)</span>  να είναι πολλαπλάσιο του  <span class="math notranslate nohighlight">\(n.\)</span>  Έστω, λοιπόν,  <span class="math notranslate nohighlight">\(b=kn\)</span>  για  <span class="math notranslate nohighlight">\(k\)</span>  θετικό ακέραιο. Τότε, για μεγάλες τιμές του  <span class="math notranslate nohighlight">\(k\)</span>  έχουμε  <span class="math notranslate nohighlight">\(\dfrac{1}{b^\delta}&lt;1\)</span>  και άρα ο μόνος ακέραιος που περιέχεται στο διάστημα  <span class="math notranslate nohighlight">\(\left( \frac{m}{n}b-\frac{1}{b^\delta} , \frac{m}{n}b+\frac{1}{b^\delta} \right) `  - και άρα η μοναδική επιλογή για τον  :math:`a\)</span>  - είναι ο:</p>
+<div class="math notranslate nohighlight">
+\[a=\frac{m}{n}b=\frac{m}{n}kn=km.\]</div>
+<p>Όμως, τότε:</p>
+<div class="math notranslate nohighlight">
+\[\frac{a}{b}=\frac{km}{kn}=\frac{m}{n},\]</div>
+<p>άτοπο, καθώς θέλουμε  <span class="math notranslate nohighlight">\(\frac{a}{b}\neq\frac{m}{n}.\)</span>  Συνεπώς, υπάρχουν μόνο πεπερασμένες τιμές του  <span class="math notranslate nohighlight">\(b\)</span>  για τις οποίες μπορούμε να βρούμε κλάσματα  <span class="math notranslate nohighlight">\(\frac{a}{b}\)</span>  που να ικανοποιούν την επιθυμητή ανισότητα, άρα δε γίνεται ένας ρητός να έχει μέτρο αρρητοσύνης  <span class="math notranslate nohighlight">\(\mu&gt;1.\)</span></p>
+<p>Συνεπώς, κάθε ρητός έχει μέτρο αρρητοσύνης ίσο με τη μονάδα. Δηλαδή, δεν μπορούμε να προσεγγίσουμε και πολύ «καλά» έναν ρητό με άλλους… ρητούς! Αν και αυτό ακούγεται λίγο παράδοξο, δεν είναι καθόλου, καθώς ένας ρητός είναι ήδη ρητός και άρα δε θα έπρεπε να περιμένουμε να υπάρχουν κι άλλοι ρητοί που να τον προσεγγίζουν αρκετά εύκολα, υπό την έννοια που έχουμε ορίσει παραπάνω. Για να το δούμε αυτό, ας σκεφτούμε τον αριθμό:</p>
+<div class="math notranslate nohighlight">
+\[c=0.000001=10^{-6}.\]</div>
+<p>Αν τώρα επιλέξουμε ένα κλάσμα με παρονομαστή  <span class="math notranslate nohighlight">\(10^{100},\)</span>  ε, δεν μπορούμε να προσεγγίσουμε το  <span class="math notranslate nohighlight">\(c\)</span>  με ακρίβεια καλύτερη από  <span class="math notranslate nohighlight">\(10^{100}\)</span>  καθώς δεν έχουμε περιθώριο - δεν μπορούμε να περάσουμε τα  <span class="math notranslate nohighlight">\(100\)</span>  δεκαδικά ψηφία, καθώς τότε θα χρειαζόμαστε κάποιο ακέραιο πολλαπλάσιο του  <span class="math notranslate nohighlight">\(10^n\)</span>  για  <span class="math notranslate nohighlight">\(n&gt;100\)</span>  και ο  <span class="math notranslate nohighlight">\(c\)</span>  δε μας δίνει και πολλά περιθώρια, δεδομένου ότι τελικά έχει μόνο μηδενικά στο δεκαδικό του ανάπτυγμα - πράγμα που δε συμβαίνει με τους άρρητους.</p>
+</section>
+<section id="liouville">
+<h3>Οι αριθμοί Liouville<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#liouville" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#liouville'"><span>#</span></a></h3>
+<p>Θα εξετάσουμε τώρα κάποιους αρκετά ενδιαφέροντες άρρητους αριθμούς που είναι, κατά βάθος, αρκετά… ρητοί. Για την ακρίβεια, θα εξηγήσουμε και θα επεκτείνουμε την ιδέα πίσω από τον αριθμό  <span class="math notranslate nohighlight">\(\ell\)</span>  που είδαμε στην αρχή - μία ιδέα που αποδίδεται στον J. Liouville. Θεωρούμε έναν θετικό ακέραιο  <span class="math notranslate nohighlight">\(b\)</span>  και μία (οπιαδήποτε) ακολουθία θετικών ακεραίων  <span class="math notranslate nohighlight">\(a_k\)</span>  έτσι ώστε:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(a_k\neq0\)</span>  για άπειρους στο πλήθος δείκτες  <span class="math notranslate nohighlight">\(k\)</span>  και,</p></li>
+<li><p><span class="math notranslate nohighlight">\(a_k\in\{0,1,2,\ldots,b-1\}.\)</span></p></li>
+</ul>
+<p>Θεωρούμε τώρα τον αριθμό:</p>
+<div class="math notranslate nohighlight">
+\[\ell(a,b)=\sum_{k=1}^\infty\frac{a_k}{b^{k!}}.\]</div>
+<p>Πρακτικά, το παραπάνω αποτελεί το  <span class="math notranslate nohighlight">\(b-\)</span> αδικό ανάπτυγμα του  <span class="math notranslate nohighlight">\(\ell(a,b)\)</span>  - δηλαδή το ανάπτυγμά του σε ένα σύστημα με  <span class="math notranslate nohighlight">\(b\)</span>  ψηφία. Σαφώς, δεδομένου ότι ο παραπάνω αριθμός έχει άπειρο  <span class="math notranslate nohighlight">\(b-\)</span> αδικό ανάπτυγμα - αφού έχει άπειρα στο πλήθος μη μηδενικά ψηφία - και δεν είναι περιοδικός θα είναι άρρητος. Για παράδειγμα, αν επιλέξουμε  <span class="math notranslate nohighlight">\(b=10\)</span>  και  <span class="math notranslate nohighlight">\(a_k=1\)</span>  για κάθε  <span class="math notranslate nohighlight">\(k\)</span>  τότε παίρνουμε τον αριθμό:</p>
+<div class="math notranslate nohighlight">
+\[\ell(a,10)=\sum_{k=1}^\infty\frac{1}{10^{k!}}=0.110001000000000000000001000\ldots\]</div>
+<p>που είδαμε και παραπάνω. Πρακτικά, τα μη μηδενικά ψηφία του παραπάνω αριθμού στο  <span class="math notranslate nohighlight">\(b-\)</span> αδικό σύστημα είναι πολύ «αραιά», καθώς συναντάμε τέτοια ψηφία μόνο κάθε  <span class="math notranslate nohighlight">\(k!\)</span>  θέσεις - όπως φαίνεται κι από τον ορισμό του. Αυτό μας δίνει την πολυτέλεια να μπορούμε να κερδίσουμε πολύ σε ακρίβεια καθώς προσεγγίζουμε με ρητούς και, για την ακρίβεια, μας επιτρέπει να έχουμε οσοδήποτε μεγάλο «κέρδος» σε ακρίβεια θέλουμε. Με άλλα λόγια, το μέτρο αρρητοσύνης των παραπάνω αριθμών είναι άπειρο.</p>
+<p>Για να το δείξουμε αυτό αρκεί να αποδείξουμε ότι για κάθε  <span class="math notranslate nohighlight">\(n\in\mathbb{N}\)</span>  υπάρχουν άπειρα ζεύγη ακεραιών  <span class="math notranslate nohighlight">\((c,d)\)</span>  με  <span class="math notranslate nohighlight">\(d&gt;0\)</span>  έτσι ώστε να ισχύει η ανισότητα:</p>
+<div class="math notranslate nohighlight">
+\[\left|x-\frac{c}{d}\right|&lt;\frac{1}{d^n}.\]</div>
+<p>Περιοριζόμαστε μόνο σε φυσικούς εκθέτες  <span class="math notranslate nohighlight">\(n\)</span>  γιατί αν η παραπάνω ανισότητα ισχύει για έναν εκθέτη  <span class="math notranslate nohighlight">\(n\)</span>  τότε ισχύει άμεσα - για τα ίδια ζεύγη - και για κάθε πραγματικό αριθμό  <span class="math notranslate nohighlight">\(\mu&lt;n.\)</span>  Επιλέγουμε, λοιπόν, έναν θετικό ακέραιο  <span class="math notranslate nohighlight">\(n\)</span>  και θα βρούμε έναν ρητό  <span class="math notranslate nohighlight">\(c_n/d_n\)</span>  που να ικανοποιεί την παραπάνω. Η αλήθεια είναι ότι αυτό είναι σχετικά προφανές - διαισθητικά, τουλάχιστον -, καθώς μία κατάλληλη επιλογή είναι η:</p>
+<div class="math notranslate nohighlight">
+\[d_n=b^{n!},\ c_n=b^{n!}\sum_{k=1}^n\frac{a_k}{b^{k!}}.\]</div>
+<p>Επομένως, η προσέγγιση που εισηγούμαστε είναι η:</p>
+<div class="math notranslate nohighlight">
+\[\frac{c_n}{d_n}=\sum_{k=1}^n\frac{a_k}{b^{k!}}.\]</div>
+<p>Τώρα, παρατηρούμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}\left|\ell(a,b)-\frac{c_n}{d_n}\right|&amp;=\left|\sum_{k=1}^\infty\frac{a_k}{b^{k!}}-\sum_{k=1}^n\frac{a_k}{b^{k!}}\right|=\&amp;=\sum_{k=n+1}^\infty\frac{a_k}{b^{k!}}\&amp;\leq\sum_{k=n+1}^\infty\frac{b-1}{b^{k!}}=\&amp;=(b-1)\sum_{k=n+1}^\infty\frac{1}{b^{k!}}\&amp;&lt;(b-1)\sum_{k=(n+1)!}^\infty\frac{1}{b^k}=\&amp;=(b-1)\sum_{k=0}^\infty\frac{1}{b^{(n+1)!+k}}=\&amp;=\frac{b-1}{b^{(n+1)!}}\sum_{k=0}^\infty\frac{1}{b^k}=\&amp;=\frac{b-1}{b^{(n+1)!}}\frac{1}{1-\frac{1}{b}}=\&amp;= \frac{b-1}{b^{(n+1)!}}\frac{b}{b-1}=\&amp;=\frac{b}{b^{(n+1)!}}=\&amp;=\frac{1}{b^{(n+1)n!-1}}\leq\frac{1}{b^{n!n}}=\frac{1}{d_n^n}.\end{aligned}\]</div>
+<p>Δηλαδή, γιατί με τόσες πράξεις μπορεί να μπλεχτήκαμε:</p>
+<div class="math notranslate nohighlight">
+\[0&lt;\left|\ell(a,b)-\frac{c_n}{d_n}\right|&lt;\frac{1}{d_n^n},\]</div>
+<p>για κάθε  <span class="math notranslate nohighlight">\(n\in\mathbb{N}.\)</span>  Συνεπώς, ο  <span class="math notranslate nohighlight">\(\ell(a,b)\)</span>  έχει αυθαίρετα μεγάλο μέτρο αρρητοσύνης, δηλαδή έχει άπειρο μέτρο αρρητοσύνης.</p>
+<p>Όπως εύκολα μπορεί κανείς να δει, οι αριθμοί Liouville είναι άπειροι στο πλήθος. Για την ακρίβεια, αμέσως από τον ορισμό τους έπεται ότι είναι <em>υπεραριθμήσμοι</em> στο πλήθος - αφού μπορούμε εύκολα να δείξουμε ότι είναι τουλάχιστον τόσοι πολλοί όσες και οι δυαδικές ακολουθίες. Συνεπώς, θα έλεγε κανείς ότι οι «ρητοί» άρρητοι είναι αρκετά πολλοί. Ωστόσο, αυτό είναι αληθές μόνο μέχρι ενός σημείου. Μπορούμε να αποδείξουμε ότι η πιθανότητα να επιλέξουμε έναν αριθμό Liouville αν επιλέγουμε πραγματικούς αριθμούς π.χ. από το  <span class="math notranslate nohighlight">\([0,1]\)</span>  στην τύχη είναι ακριβώς μηδέν, και άρα έμμεσα να συμπεράνουμε ότι, αφενός είναι πολλοί σε ό,τι αφορά το πλήθος τους, αλλά ότι δεν είναι «αρκετά» πολλοί για να τους συναντά κανείς συχνά. Άλλωστε, τι περίμενε κανείς, το «κακό» στα μαθηματικά είναι αυτό που υπερισχύει συνήθως.</p>
+</section>
+<section id="id6">
+<h3>Οι άλλοι άρρητοι;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id6" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id6'"><span>#</span></a></h3>
+<p>Πέρα από τους αρρήτους Liouville, που μάλλον είναι πολλοί αλλά όχι τόσο πολλοί, υπάρχουν κι άλλοι άρρητοι, και μάλιστα αρκετοί. Κανένας από τους «συνήθεις» αρρήτους, άλλωστε, δεν είναι αριθμός Liouville: ούτε ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  ούτε καμία άλλη ρίζα ακεραίου, ούτε ο  <span class="math notranslate nohighlight">\(\pi\)</span>  ούτε ο  <span class="math notranslate nohighlight">\(e.\)</span>  Τι μέτρο αρρητοσύνης να έχουν άραγε αυτοί; Η αλήθεια είναι πως αυτό είναι αρκετά πιο δύσκολο ερώτημα από αυτά που απαντήσαμε παραπάνω. Για την ακρίβεια, το παραπάνω είναι ένα <em>ανοικτό ερώτημα</em> αφού για αριθμούς όπως ο  <span class="math notranslate nohighlight">\(\pi\)</span>  δεν έχουμε κάποια ακριβή τιμή του μέτρου της αρρητοσύνης τους - μόνο ότι είναι μεγαλύτερο ή ίσο του 2 και μικρότερο από μία μυστήρια σταθερά λίγο πάνω από το 7.</p>
+<p>Αυτό που ισχύει γενικά για τους υπόλοιπους άρρητους αριθμούς είναι ότι όλοι τους έχουν μέτρο αρρητοσύνης τουλάχιστον 2 με αρκετούς εξ αυτών - όπως για παράδειγμα τους αλγεβρικούς άρρητους αριθμούς - να έχουν μέτρο ακριβώς 2. Το ότι οι αλγεβρικοί άρρητοι αριθμοί, μάλιστα - δηλαδή οι ρίζες πολυωνύμων με ακέραιους συντελεστές - έχουν μέτρο αρρητοσύνης ακριβώς 2 πολύ θα θέλαμε να το αποδείξουμε σε αυτήν την ανάρτηση αλλά ήταν μία δουλειά που έδωσε στον <a class="reference external" href="https://en.wikipedia.org/wiki/Klaus_Roth">Klaus Roth</a> το Fields Medal και άρα, όπως φαντάζεται κανείς, δεν ήταν δα και κάτι τόσο απλό.</p>
+</section>
+</section>
+<section id="id7">
+<h2>Επίλογος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id7" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id7'"><span>#</span></a></h2>
+<p>Άρρητοι, πιο άρρητοι, λιγότερο άρρητοι, σχεδόν ρητοί άρρητοι… Πολύ περίπλοκη είναι η ευθεία των πραγματικών αριθμών, τελικά. Για την ακρίβεια, πάαααρα πολύ περίπλοκη. Όπως είδαμε, οι άρρητοι μεταξύ τους δεν είναι καθόλου όμοιοι, σε αντίθεση με τους αγαπητούς ρητούς που είναι τάλε-κουάλε και ιδιαίτερα απλοί - <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">ή και όχι</a> - στη δομή τους.</p>
+<p>Μέχρι την επόμενη στιγμή παραφροσύνης πάνω στην πραγματική ευθεία, καλή συνέχεια!</p>
+<p>Καλό ξημέρωμα και καλό διάβασμα!</p>
+<blockquote>
+<div><div class="video_wrapper" style="">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/cGHj6YK7nFw" style="border: 0; height: 345px; width: 560px">
+</iframe></div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        Πόσες είναι οι συνεχείς συναρτήσεις;
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">
+        Πόσο Διαβάζετε;
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Ένα παράδειγμα - ή, μήπως, δύο;</a></li>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Μετρώντας την Αρρητοσύνη</a></li>
+<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Τα μέτρα αρρητοσύνης διάφορων αριθμών</a><ul>
+<li><a :data-current="activeSection === '#id5'" class="reference internal" href="#id5">Ρητοί</a></li>
+<li><a :data-current="activeSection === '#liouville'" class="reference internal" href="#liouville">Οι αριθμοί Liouville</a></li>
+<li><a :data-current="activeSection === '#id6'" class="reference internal" href="#id6">Οι άλλοι άρρητοι;</a></li>
+</ul>
+</li>
+<li><a :data-current="activeSection === '#id7'" class="reference internal" href="#id7">Επίλογος</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+Τεστάκι της ημέρας ΙΙΙ - Συναρτήσεις (Γ' Λυκείου)
+#################################################
+
+.. meta::
+	:date: 2020-10-31 10:48
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ασκήσεις, επανάληψη
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b9%ce%b9%ce%b9-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%b3
+	:status: published
+	:attachments: _static/images/uploads/2020/10/anton_azbe_1886_avtoportret.jpg
+
+.. figure:: /_static/images/uploads/2020/10/anton_azbe_1886_avtoportret.jpg
+	:alt: Μία αυτοπροσωπογραφία του `Anton Ažbe  <https://en.wikipedia.org/wiki/Anton_A%C5%BEbe>`__. 
+	:align: center
+
+	Μία αυτοπροσωπογραφία του `Anton Ažbe  <https://en.wikipedia.org/wiki/Anton_A%C5%BEbe>`__. 
+
+
+Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1t1HSSrQe7FiKxxyUMl5OM4kWN1L1Xk5j/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: KshrtLXBdl8 
+
+

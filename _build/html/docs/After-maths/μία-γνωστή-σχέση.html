@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2021-08-10 16:18" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Μαθηματικά" name="category"/>
+<meta content="featured, πανελλήνιες, μαθηματικά" name="tags"/>
+<meta content="%ce%bc%ce%af%ce%b1-%ce%b3%ce%bd%cf%89%cf%83%cf%84%ce%ae-%cf%83%cf%87%ce%ad%cf%83%ce%b7" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2021/08/camille_pissarro_jalais_hill_pontoise_the_metropolitan_museum_of_art.jpg" name="attachments"/>
+<title>Μία γνωστή σχέση… | aftermaths</title>
+<meta content="Μία γνωστή σχέση… | aftermaths" property="og:title"/>
+<meta content="Μία γνωστή σχέση… | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html" rel="next" title="Μία Πανδύσκολη Εξίσωση!"/>
+<link href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html" rel="prev" title="Μάθημα Χωρίς… Μάθημα"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Μία γνωστή σχέση…</span>
+</nav>
+<div id="content" role="main">
+<section id="id1">
+<h1>Μία γνωστή σχέση…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+<figure class="align-center" id="id30">
+<img alt="Ο πίνακας *Ο λόφος της Jalais, Pontoise*, του `Camille Pissarro  &lt;https://en.wikipedia.org/wiki/Camille_Pissarro&gt;`__\ *.*" src="_static/images/uploads/2021/08/camille_pissarro_jalais_hill_pontoise_the_metropolitan_museum_of_art.jpg"/>
+<figcaption>
+<p><span class="caption-text">Ο πίνακας <em>Ο λόφος της Jalais, Pontoise</em>, του <a class="reference external" href="https://en.wikipedia.org/wiki/Camille_Pissarro">Camille Pissarro</a><em>.</em></span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id30"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τα θερινά φτάνουν σιγά-σιγά στο τέλος τους - θέλω να πιστεύω για τους περισσότερους από εμάς - και μαζί με αυτά κλείνει και μία μικρή εισαγωγή στον κόσμο των συναρτήσεων για τα παιδιά της Γ” Λυκείου. Μέσα σε αυτήν την εισαγωγή θα έχει κάνει την εμφάνισή της και κάποια άσκηση που θα ασχολείται με συναρτησιακές σχέσεις. Ε, και ίσως μία από τις πιο περιβόητες από αυτές να είναι η ακόλουθη:</p>
+<div class="math notranslate nohighlight">
+\[f(x+y)=f(x)f(y),\ x,y\in\mathbb{R}.\]</div>
+<p>Η αλήθεια είναι ότι, κοιτώντας κανείς την παραπάνω σχέση, ίσως το πρώτο πράγμα που του έρχεται στον νου να είναι ότι η  <span class="math notranslate nohighlight">\(f\)</span>  είναι κάποια εκθετική συνάρτηση, δηλαδή ότι  <span class="math notranslate nohighlight">\(f(x)=a^x\)</span>  για κάποιο  <span class="math notranslate nohighlight">\(0&lt;a\neq1\)</span> . Πράγματι, όλες αυτές οι συναρτήσεις ικανοποιούν την παραπάνω ιδιότητα. Ωστόσο, μήπως μπορούμε να βρούμε κι άλλες συναρτήσεις που να ικανοποιούν την παραπάνω ιδιότητα;</p>
+<section id="id2">
+<h2>Πόσο μακριά μπορούμε να πάμε;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>Ξεκινώντας από την παραπάνω σχέση, σίγουρα μπορούμε να αποδείξουμε διάφορες ενδιαφέρουσες ιδιότητες για τη συνάρτηση  <span class="math notranslate nohighlight">\(f.\)</span>  Ας ξεκινήσουμε με τις απλούστερες από αυτές.</p>
+<section id="id3">
+<h3>Τετριμμένες περιπτώσεις<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h3>
+<p>Αρχικά να παρατηρήσουμε ότι πέρα από τις αγαπημένες μας εκθετικές συναρτήσεις, την παραπάνω σχέση ικανοποιούν και οι σταθερές συναρτήσεις  <span class="math notranslate nohighlight">\(f(x)=0\)</span>  και  <span class="math notranslate nohighlight">\(f(x)=1.\)</span>  Μάλιστα, αυτές είναι και οι μοναδικές σταθερές συναρτήσεις που ικανοποιούν την παραπάνω σχέση, μιας και αν  <span class="math notranslate nohighlight">\(f(x)=c\)</span>  είναι μία σταθερή συνάρτηση που ικανοποιεί την παραπάνω σχέση, τότε θα πρέπει να ισχύει:</p>
+<div class="math notranslate nohighlight">
+\[c=c^2\Leftrightarrow c=0 ή .. math:: c=1.\]</div>
+<p>Στο εξής θα ασχοληθούμε με τις πιο ζουμερές περιπτώσεις, όπου η  <span class="math notranslate nohighlight">\(f\)</span>  είναι <em>μη σταθερή</em> - συνεπώς, το σύνολο τιμών της περιέχει τουλάχιστον δύο πραγματικούς αριθμούς. Σε αυτήν την περίπτωση, έχουμε άμεσα ότι  <span class="math notranslate nohighlight">\(f(0)=1.\)</span>  Πράγματι, θέτοντας  <span class="math notranslate nohighlight">\(x=y=0\)</span>  στην αρχική σχέση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(0)=f(0)f(0)\Leftrightarrow f(0)(f(0)-1)=0\Leftrightarrow f(0)=0 ή .. math:: f(0)=1.\]</div>
+<p>Αν  <span class="math notranslate nohighlight">\(f(0)=0\)</span>  τότε θέτοντας  <span class="math notranslate nohighlight">\(y=0\)</span>  στην αρχική σχέση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(x)=f(x)f(0)\Rightarrow f(x)=0,\]</div>
+<p>άρα η  <span class="math notranslate nohighlight">\(f\)</span>  είναι σταθερή, άτοπο. Συνεπώς,  <span class="math notranslate nohighlight">\(f(0)=1.\)</span></p>
+</section>
+<section id="id4">
+<h3>Πρόσημο<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h3>
+<p>Επίσης, να παρατηρήσουμε εδώ ότι με ακριβώς το ίδιο επιχείρημα μπορούμε να αποδείξουμε ότι η  <span class="math notranslate nohighlight">\(f\)</span>  δεν έχει καμία ρίζα. Πράγματι, αν  <span class="math notranslate nohighlight">\(f(a)=0\)</span>  για κάποιο  <span class="math notranslate nohighlight">\(a\in\mathbb{R}\)</span>  τότε, θέτοντας στην αρχική σχέση όπου  <span class="math notranslate nohighlight">\(x\)</span>  το  <span class="math notranslate nohighlight">\(x-a\)</span>  και όπου  <span class="math notranslate nohighlight">\(y\)</span>  το  <span class="math notranslate nohighlight">\(a\)</span>  έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(x-a+a)=f(x-a)f(a)\Leftrightarrow f(x)=0,\]</div>
+<p>που είναι και πάλι άτοπο, εφόσον έχουμε υποθέσει ότι η  <span class="math notranslate nohighlight">\(f\)</span>  είναι μη σταθερή. Συνεπώς, η επόμενη κομψότατη ιδιότητα που έχουμε για την  <span class="math notranslate nohighlight">\(f\)</span>  είναι ότι είναι μη μηδενική - εκτός κι αν είναι σταθερή, οπότε είναι η μηδενική συνάρτηση.</p>
+<p>Μάλιστα, μπορούμε να πάμε ένα βήμα παρακάτω και να βρούμε και το πρόσημο της  <span class="math notranslate nohighlight">\(f\)</span>  σε κάθε περίπτωση. Ας πάρουμε ένα  <span class="math notranslate nohighlight">\(x\in\mathbb{R},\)</span>  οπότε παρατηρούμε ότι ισχύει η (προφανής) σχέση:</p>
+<div class="math notranslate nohighlight">
+\[x=\dfrac{x}{2}+\dfrac{x}{2}.\]</div>
+<p>Εντάξει, δεν είπαμε δα και καμία σοφία. Ωστόσο, αντικαθιστώντας όπου  <span class="math notranslate nohighlight">\(x,y\)</span>  το  <span class="math notranslate nohighlight">\(\frac{x}{2},\)</span>  έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f\left(x\right)=\left(f\left(\frac{x}{2}\right)\right)^2\geq0.\]</div>
+<p>Επειδή, τώρα, αν η  <span class="math notranslate nohighlight">\(f\)</span>  δεν είναι σταθερή είναι άμεσα και μη μηδενική, έπεται ότι  <span class="math notranslate nohighlight">\(f(x)&gt;0\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{R}.\)</span></p>
+<p>Άρα, ως τώρα, μία συνάρτηση που ικανοποιεί την παραπάνω σχέση και δεν είναι μηδενική, είναι γνήσια θετική και μάλιστα  <span class="math notranslate nohighlight">\(f(0)=1.\)</span></p>
+</section>
+<section id="id5">
+<h3>Και με τη διαίρεση;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id5'"><span>#</span></a></h3>
+<p>Όπως είδαμε παραπάνω, η αγαπημένη αυτή συνάρτηση τα πάει αρκετά καλά με τις πράξεις, αφού «μετατρέπει» την πρόσθεση σε πολλαπλασιαμό - όπως ακριβώς κάνουν οι εκθετικές συναρτήσεις. Θα δούμε τώρα ότι με ανάλογο και σχεδόν «φυσιολογικό» τρόπο συσχετίζει και την αφαίρεση με τη διαίρεση. Αρχικά, ας παρατηρήσουμε ότι αν θέσουμε στη θέση του  <span class="math notranslate nohighlight">\(y\)</span>  το  <span class="math notranslate nohighlight">\(-x\)</span>  τότε:</p>
+<div class="math notranslate nohighlight">
+\[f(x-x)=f(x)f(-x)\Leftrightarrow 1=f(x)f(-x)\Leftrightarrow f(-x)=\dfrac{1}{f(x)}.\]</div>
+<p>Τώρα, αν θέσουμε στην αρχική σχέση όπου  <span class="math notranslate nohighlight">\(y\)</span>  το  <span class="math notranslate nohighlight">\(-y\)</span>  τότε έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(x-y)=f(x)f(-y)=\dfrac{f(x)}{f(y)}.\]</div>
+<p>Επομένως, στην περίπτωση που η  <span class="math notranslate nohighlight">\(f\)</span>  είναι μη μηδενική, «μετατρέπει» την πρόσθεση σε πολλαπλασιασμό, την αφαίρεση σε διαίρεση, είναι θετική και  <span class="math notranslate nohighlight">\(f(0)=1.\)</span>  Και να σκεφτείτε ότι έχουμε «απλά» μία σχέση για υπόθεση.</p>
+</section>
+<section id="id6">
+<h3>Μήπως είναι εκθετική;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id6" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id6'"><span>#</span></a></h3>
+<p>Η αλήθεια είναι ότι ως τώρα, στην περίπτωση που η συνάρτησή μας δεν είναι μηδενική, μοιάζει αρκετά με μία τυπική εκθετική συνάρτηση. Οπότε, γιατί όχι, μπορεί οι μόνες μη τετριμμένες περιπτώσεις να είναι οι εκθετικές συναρτήσεις. Ας προσπαθήσουμε να εξερευνήσουμε πόσο κοντά μπορεί να φτάσει μία συνάρτηση που ικανοποιεί την αρχική μας σχέση σε μία εκθετική συνάρτηση. Αρχικά, αν  <span class="math notranslate nohighlight">\(g(x)=a^x\)</span>  είναι μία εκθετική συνάρτηση, τότε παρατηρούμε ότι  <span class="math notranslate nohighlight">\(g(1)=a,\)</span>  επομένως, μπορούμε να πούμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[g(x)=(g(1))^x,\ x\in\mathbb{R}.\]</div>
+<p>Έτσι, αν θέλουμε να δείξουμε ότι κάθε (μη μηδενική) συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span>  που ικανοποιεί την αρχική μας σχέση είναι εκθετική, αρκεί να δείξουμε ότι για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{R}\)</span>  ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(x)=(f(1))^x.\]</div>
+<p>Ας παρατηρήσουμε, αρχικά, το εξής:</p>
+<div class="math notranslate nohighlight">
+\[f(2)=f(1+1)=f(1)f(1)=(f(1))^2.\]</div>
+<p>Καλά πάει αυτό, θέλαμε να το δείξουμε για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{R}\)</span>  και το έχουμε ήδη δείξει για  <span class="math notranslate nohighlight">\(x=2\)</span>  - και  <span class="math notranslate nohighlight">\(x=0\)</span>  και  <span class="math notranslate nohighlight">\(x=1,\)</span>  μην ξεχνιόμαστε. Με ανάλογο τρόπο, σαφώς, έχουμε και:</p>
+<div class="math notranslate nohighlight">
+\[f(3)=f(2+1)=f(2)f(1)=(f(1))^2f(1)=(f(1))^3.\]</div>
+<p>Αν εργαστούμε ανάλογα, εύκολα μπορούμε να δείξουμε για κάθε  <span class="math notranslate nohighlight">\(k=1,2,\ldots\)</span>  ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(k)=(f(1))^k.\]</div>
+<p>Επίσης, αν ο  <span class="math notranslate nohighlight">\(k\)</span>  είναι ένας <em>αρνητικός ακέραιος</em>, όπως για παράδειγμα το -2, τότε επίσης ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(-2)=\dfrac{1}{f(2)}=\dfrac{1}{(f(1))^2}=(f(1))^{-2}.\]</div>
+<p>(θυμηθείτε τη σχέση της  <span class="math notranslate nohighlight">\(f\)</span>  με τη διαίρεση που είδαμε παραπάνω) Γενικότερα, για κάθε <em>ακέραιο</em> αριθμό  <span class="math notranslate nohighlight">\(k\in\mathbb{Z}\)</span>  θα ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(k)=(f(1))^k.\]</div>
+<p>Επομένως, βρισκόμαστε σε καλό δρόμο, αφού σε ό,τι αφορά τους ακεραίους αριθμούς, η  <span class="math notranslate nohighlight">\(f\)</span>  είναι πράγματι κάποια εκθετική συνάρτηση.</p>
+<p>Πάμε τώρα να δούμε τι γίνεται με τους ρητούς αριθμούς. Αρχικά, θα κάνουμε μία γενική παρατήρηση που θα μας διευκολύνει στους υπολογισμούς μας από εδώ και μετά. Η αρχική μας σχέση μπορεί εύκολα να γενικευτεί στην παρακάτω:</p>
+<div class="math notranslate nohighlight">
+\[f(x_1+x_2+\dots+x_n)=f(x_1)f(x_2)\dots f(x_n).\]</div>
+<p>Αυτό είναι εύκολο να το δει κανείς. Για παράδειγμα, για τρία στοιχεία έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(x_1+x_2+x_3)=f(x_1+x_2)f(x_3)=f(x_1)f(x_2)f(x_3).\]</div>
+<p>Επομένως, εφαρμόζοντας πολλές φορές την αρχική μας σχέση, μπορούμε να αποδείξουμε την παραπάνω γενικότερη μορφή της. Τώρα, αν θέσουμε</p>
+<div class="math notranslate nohighlight">
+\[x_1=x_2=\dots=x_n=\dfrac{1}{n},\]</div>
+<p>στην παραπάνω γενική μορφή παίρνουμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[f(1)=f\left(\frac{1}{n}+\frac{1}{n}+\dots+\frac{1}{n}\right)=\left(f\left(\frac{1}{n}\right)\right)^n.\]</div>
+<p>Αν περάσουμε τώρα ρίζες και στα δύο μέλη, θα πάρουμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[f\left(\frac{1}{n}\right)=\left(f(1)\right)^{1/n}.\]</div>
+<p>Ωραία, ήδη έχουμε ένα ευχάριστο αποτέλεσμα για κάθε θετικό ακέραιο αριθμό  <span class="math notranslate nohighlight">\(n.\)</span>  Αν τώρα έχουμε έναν ρητό αριθμό, έστω  <span class="math notranslate nohighlight">\(x=\dfrac{m}{n},\)</span>  όπου  <span class="math notranslate nohighlight">\(m\in\mathbb{Z}\)</span>  και  <span class="math notranslate nohighlight">\(n\)</span>  θετικός ακέραιος, τότε, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f\left(\frac{m}{n}\right)=f\left(\frac{1}{n}+\ldots+\frac{1}{n}\right)=\left(f\left(\frac{1}{n}\right)\right)^m=\left(\left(f(1)\right)^{1/n}\right)^m\left(f(1)\right)^{m/n}.\]</div>
+<p>Επομένως, έχουμε δείξει ως τώρα ότι για κάθε ρητό αριθμό  <span class="math notranslate nohighlight">\(q\in\mathbb{Q}\)</span>  έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(q)=a^q,\]</div>
+<p>όπου  <span class="math notranslate nohighlight">\(a=f(1).\)</span></p>
+<p>Πολύ ωραία, άρα κάθε συνάρτηση που ικανοποιεί αυτήν την απλή και κομψή σχέση που έχουμε είναι <em>περίπου</em> εκθετική - άλλωστε, οι ρητοί είναι <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">πυκνοί στους πραγματικούς αριθμούς</a>. Ε, πόσο δύσκολο να είναι τώρα να αποδείξουμε ότι είναι και <em>ακριβώς</em> εκθετική;</p>
+</section>
+</section>
+<section id="id7">
+<h2>Πραγματικές δυσκολίες…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id7" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id7'"><span>#</span></a></h2>
+<p>Μέχρι εδώ τα πράγματα εξελίχθηκαν αρκετά ομαλά. Ξεκινήσαμε από μία απλή σχέση, αποδείξαμε κάποιες απλές αλγεβρικές ιδιότητες και τσούκου-τσούκου βρήκαμε ότι μία τέτοια συνάρτηση είτε θα είναι μηδενική είτε θα είναι <em>περίπου</em> εκθετική - δηλαδή θα είναι εκθετική αν το όρισμά της είναι ρητός αριθμός. Τώρα θέλουμε, φυσιολογικά, να επεκτείνουμε τα ευρήματά μας και στους άρρητους. Ωστόσο, μπορούμε;</p>
+<p>Η αλήθεια είναι ότι αν παρατηρήσει κανείς τη σχέση που έχουμε δώσει παραπάνω, θα δει ότι αυτή, όπως αναφέραμε, συσχετίζει την πρόσθεση με τον πολλαπλασιασμό. Δηλαδή, συσχετίζει τις δύο πράξεις που έχουμε ορίσει μεταξύ των πραγματικών αριθμών. Η σχέση αυτή έχει, δηλαδή, αλγεβρικό χαρακτήρα και, μάλιστα, είναι κι αυτό που μας περιορίζει ιδιαίτερα, όπως θα δούμε παρακάτω. Αν  <span class="math notranslate nohighlight">\(r,s\)</span>  είναι δύο ρητοί αριθμοί, τότε το άθροισμά τους,  <span class="math notranslate nohighlight">\(r+s\)</span>  είναι επίσης ρητός αριθμός. Επομένως, από την παραπάνω σχέση, δεν μπορούμε να βγάλουμε συμπεράσματα για τιμές της  <span class="math notranslate nohighlight">\(f\)</span>  σε άρρητους αριθμούς. Συνεπώς, δεδομένης της αλγεβρικής φύσης της αρχικής σχέσης και της <em>κλειστότητας</em> των ρητών ως προς τις δύο πράξεις, χρειαζόμαστε άλλα, <em>αναλυτικά</em>, μέσα για να εξετάσουμε τι συμβαίνει με τις τιμές της συνάρτησής μας στους άρρητους.</p>
+<p>Ας πάμε λίγο ανάποδα, για αρχή. Ας υποθέσουμε ότι γνωρίζουμε την τιμή της  <span class="math notranslate nohighlight">\(f\)</span>  σε έναν περιβόητο άρρητο, τον  <span class="math notranslate nohighlight">\(\sqrt{2}.\)</span>  Ας πούμε, για την ακρίβεια, ότι  <span class="math notranslate nohighlight">\(f(\sqrt{2})=b&gt;0.\)</span>  Τι θα μπορούσαμε να κάνουμε με αυτήν την πληροφορία; Αρχικά, ας παρατηρήσουμε ότι από την αρχική μας σχέση μπορούμε εύκολα να συμπεράνουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[f\left(2\sqrt{2}\right)=f\left(\sqrt{2}+\sqrt{2}\right)=f\left(\sqrt{2}\right)f\left(\sqrt{2}\right)=b^2.\]</div>
+<p>Όπως υποψιάζεστε, εύκολα μπορούμε να αποδείξουμε και το εξής:</p>
+<div class="math notranslate nohighlight">
+\[f\left(n\sqrt{2}\right)=b^n,\]</div>
+<p>για κάθε ακέραιο αριθμό  <span class="math notranslate nohighlight">\(n\in\mathbb{Z}.\)</span>  Τώρα, μπορούμε με σκεπτικό ανάλογο με αυτό που παρουσιάσαμε παραπάνω, να αποδείξουμε κάτι λίγο γενικότερο. Ας παρατηρήσουμε, για αρχή, ότι ισχύει το εξής:</p>
+<div class="math notranslate nohighlight">
+\[b=f\left(\sqrt{2}\right)=f\left(\frac{\sqrt{2}}{n}+\dots+\frac{\sqrt{2}}{n}\right)=f\left(\frac{\sqrt{2}}{n}\right)^n\Rightarrow f\left(\frac{\sqrt{2}}{n}\right)=b^{1/n}.\]</div>
+<p>Με εντελώς ανάλογο τρόπο μπορούμε να αποδείξουμε και το παρακάτω:</p>
+<div class="math notranslate nohighlight">
+\[b^m=f\left(m\sqrt{2}\right)=f\left(\frac{m\sqrt{2}}{n}+\dots+\frac{m\sqrt{2}}{n}\right)=f\left(\frac{m}{n}\sqrt{2}\right)^n,\]</div>
+<p>επομένως:</p>
+<div class="math notranslate nohighlight">
+\[f\left(\frac{m}{n}\sqrt{2}\right)=b^{m/n}.\]</div>
+<p>Επομένως, έχουμε αποδείξει ότι για κάθε ρητό αριθμό  <span class="math notranslate nohighlight">\(q\in\mathbb{Q}\)</span>  ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[f\left(q\sqrt{2}\right)=\left(f\left(\sqrt{2}\right)\right)^q.\]</div>
+<p>Μάλιστα, σε όλη την παραπάνω διαδικασία δε χρησιμοποιήσαμε καμία ιδιαίτερη ιδιότητα του  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  - ούτε καν ότι αυτός είναι άρρητος! Επομένως, γενικότερα, θα μπορούσαμε να πούμε ότι αν για δύο πραγματικούς αριθμούς  <span class="math notranslate nohighlight">\(a,b\in\mathbb{R}\)</span>  γνωρίζουμε ότι  <span class="math notranslate nohighlight">\(f(a)=b,\)</span>  τότε μπορούμε - με τρόπο πανομοιότυπο με τον παραπάνω - να αποδείξουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(qa)=b^q,\]</div>
+<p>για κάθε  <span class="math notranslate nohighlight">\(q\in\mathbb{Q}.\)</span>  Συνεπώς, αν γνωρίζουμε την τιμή της  <span class="math notranslate nohighlight">\(f\)</span>  σε κάποιο πραγματικό αριθμό  <span class="math notranslate nohighlight">\(a\in\mathbb{R}\)</span>  τότε η αρχική μας σχέση άμεσα καθορίζει τις τιμές της  <span class="math notranslate nohighlight">\(f\)</span>  και σε κάθε άλλο ρητό πολλαπλάσιο,  <span class="math notranslate nohighlight">\(qa,\ q\in\mathbb{Q},\)</span>  του  <span class="math notranslate nohighlight">\(a.\)</span>  Κι εδώ ακριβώς έρχεται ξανά η παρατήρηση που κάναμε παραπάνω περί της «αλγεβρικότητας» της αρχικής μας σχέσης. Ακριβώς επειδή οι ρητοί αριθμοί είναι, όπως λέμε, <em>κλειστοί</em> ως προς την πρόσθεση και τον πολλαπλασιασμό - δηλαδή αθροίσματα και γινόμενα ρητών είναι πάντοτε ρητοί - δεν μπορούμε παρά να συμπεράνουμε πράγματα σε μία «ρητή εμβέλεια», δεδομένης της τιμής της  <span class="math notranslate nohighlight">\(f\)</span>  σε έναν αυθαίρετο πραγματικό αριθμό  <span class="math notranslate nohighlight">\(a.\)</span>  Αυτή την ασαφή ιδέα θα προσπαθήσουμε να την εκφράσουμε στα μαθηματικένια παρακάτω.</p>
+</section>
+<section id="id8">
+<h2>Ρητές τροχιές<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id8" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id8'"><span>#</span></a></h2>
+<p>Στα παραπάνω μπορούμε να παρατηρήσουμε ότι είτε γνωρίζουμε την τιμή της  <span class="math notranslate nohighlight">\(f\)</span>  στο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  είτε στο  <span class="math notranslate nohighlight">\(5\sqrt{2}\)</span>  μπορούμε να υπολογίσουμε την τιμή της σε κάθε ρητό πολλπαλάσιο του  <span class="math notranslate nohighlight">\(\sqrt{2}.\)</span>  Επομένως, βλέπουμε στο βάθος να αχνοφαίνεται μία έννοια ισοδυναμίας των πραγματικών αριθμών που να σχετίζεται με το ποιος είναι ρητό πολλαπλάσιο ποιανού. Ας παρατηρήσουμε τα εξής</p>
+<ul class="simple">
+<li><p>αν  <span class="math notranslate nohighlight">\(x\in\mathbb{R}\)</span>  είναι ένας πραγματικός αριθμός, τότε  <span class="math notranslate nohighlight">\(x=1\cdot x,\)</span>  άρα είναι ρητό πολλαπλάσιο του εαυτού του - <em>αυτοπάθεια</em>,</p></li>
+<li><p>αν  <span class="math notranslate nohighlight">\(x,y\in\mathbb{R}\)</span>  είναι δύο πραγματικοί αριθμοί έτσι ώστε  <span class="math notranslate nohighlight">\(x=qy,\)</span>  όπου  <span class="math notranslate nohighlight">\(q\in\mathbb{Q}\)</span>  είναι κάποιος ρητός αριθμός, τότε  <span class="math notranslate nohighlight">\(y=q^{-1}x,\)</span>  αν ο  <span class="math notranslate nohighlight">\(q\neq0\)</span>  - <em>συμμετρία</em>,</p></li>
+<li><p>αν  <span class="math notranslate nohighlight">\(x,y,z\in\mathbb{R}\)</span>  είναι τρεις πραγματικοί αριθμοί έτσι ώστε  <span class="math notranslate nohighlight">\(x=qy\)</span>  και  <span class="math notranslate nohighlight">\(y=rz\)</span>  για κάποιους <em>μη μηδενικούς</em> ρητούς  <span class="math notranslate nohighlight">\(q,r\in\mathbb{Q},\)</span>  τότε  <span class="math notranslate nohighlight">\(x=qrz,\)</span>  άρα και ο  <span class="math notranslate nohighlight">\(x\)</span>  είναι ρητό πολλαπλάσιο του  <span class="math notranslate nohighlight">\(z\)</span>  - <em>μεταβατικότητα</em>.</p></li>
+</ul>
+<p>Συνεπώς, με τα παραπάνω κατά νου, μπορούμε να ορίσουμε την ακόλουθη σχέση ισοδυναμίας μεταξύ δύο πραγματικών αριθμών:</p>
+<p>Αν  :math:<a href="#id9"><span class="problematic" id="id10">`</span></a>x,yinmathbb{R} `  είναι δύο πραγματικοί αριθμοί, τότε θα λέμε ότι αυτοί είναι ισοδύναμοι και θα γράφουμε  :math:<a href="#id11"><span class="problematic" id="id12">`</span></a>xsim y `  αν και μόνο αν υπάρχει ένας <em>μη μηδενικός</em> ρητός αριθμός  :math:<a href="#id13"><span class="problematic" id="id14">`</span></a>qinmathbb{Q}setminus{0} `  τέτοιος ώστε  :math:<a href="#id15"><span class="problematic" id="id16">`</span></a>x=qy. `</p>
+<p>Όπως είδαμε παραπάνω, η εν λόγω σχέση είναι πράγματι μία σχέση ισοδυναμίας, επομένως έχει νόημα να μιλήσουμε για τις κλάσεις ισοδυναμίας της παραπάνω σχέσης, που δεν είναι παρά τα σύνολα όλων των πραγματικών αριθμών που είναι ρητά πολλαπλάσια ενός δεδομένου αριθμού. Για την ακρίβεια:</p>
+<div class="math notranslate nohighlight">
+\[[x]=\{qx:q\in\mathbb{Q},\ q\neq0\}.\]</div>
+<p><em>Σε όρους θεωρίας ομάδων, αυτό που κατασκευάσαμε παραπάνω είναι απλώς οι τροχιές της δράσης της πολλαπλασιαστικής ομάδας των ρητών στους πραγματικούς αριθμούς. Για περισσότερα για τις δράσεις ομάδων, μπορείτε να ξεκινήσετε από</em><a class="reference external" href="https://en.wikipedia.org/wiki/Group_action">εδώ</a><em>.</em></p>
+<p>Ας παρατηρήσουμε εδώ ότι, με όσα έχουμε πει και παραπάνω για τη συνάρτηση  <span class="math notranslate nohighlight">\(f,\)</span>  οι τιμές της  <span class="math notranslate nohighlight">\(f\)</span>  καθορίζονται σε κάθε μία από τις παραπάνω κλάσεις με το να καθορίσουμε την τιμή της  <span class="math notranslate nohighlight">\(f\)</span>  σε έναν και μόνο αντιπρόσωπο της κλάσης. Δηλαδή, όπως είδαμε και παραπάνω, αν καθορίσουμε την τιμή της  <span class="math notranslate nohighlight">\(f\)</span>  σε ένα πραγματικό αριθμό  <span class="math notranslate nohighlight">\(a\)</span>  τότε άμεσα έχουμε καθορίσει τις τιμές της  <span class="math notranslate nohighlight">\(f\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in[a]\)</span>  - δηλαδή, για κάθε ρητό πολλαπλάσιο του  <span class="math notranslate nohighlight">\(a.\)</span></p>
+<p>Συνεπώς, δεδομένου ότι οι παραπάνω κλάσεις ισοδυναμίας είναι ξένες μεταξύ τους και η ένωσή τους καλύπτει όλο το σύνολο των πραγματικών αριθμών - είναι, αυτό που λέμε, μία <em>διαμέριση</em> του  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>  - αρκεί για κάθε κλάση να επιλέξουμε έναν αντιπρόσωπο και, γι” αυτόν τον αντιπρόσωπο, να επιλέξουμε την τιμή της  <span class="math notranslate nohighlight">\(f\)</span>  σε αυτόν. Έτσι, θα έχουμε καθορίσει πλήρως τις τιμές της  <span class="math notranslate nohighlight">\(f\)</span>  σε κάθε πραγματικό αριθμό - άρα θα έχουμε καθορίσει πλήρως την  <span class="math notranslate nohighlight">\(f.\)</span></p>
+</section>
+<section id="id17">
+<h2>Δηλαδή έχουμε πολλή δουλειά;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id17" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id17'"><span>#</span></a></h2>
+<p>Ωραία, καλά τα είπαμε παραπάνω. Έχουμε αναγάγει το πρόβλημα του «ποια είναι, τέλος πάντων, η  <span class="math notranslate nohighlight">\(f\)</span> » στο να επιλέξουμε - εμείς, όπως θέλουμε - τις τιμές της σε κάποιους συγκεκριμένους πραγματικούς αριθμούς. Αλλά, πόσο εύκολο είναι αυτό; Βασικά, είναι εφικτό αυτό;</p>
+<p>Αρχικά, ας δούμε πόσες είναι οι κλάσεις ισοδυναμίας που περιγράψαμε παραπάνω. Λοιπόν, κάθε κλάση περιέχει τα ρητά πολλαπλάσια ενός δεδομένου πραγματικού αριθμού. Επομένως, περιέχει ακριβώς τόσα στοιχεία όσα και οι ρητοί αριθμοί - εκτός από την κλάση του μηδενός που περιέχει μόνο το μηδέν και, διακριτικά, θα επιλέξουμε να την αγνοούμε. Έτσι, κάθε κλάση περιέχει <em>αριθμήσιμα στο πλήθος</em> στοιχεία. Τώρα, οι πραγματικοί αριθμοί είναι <em>υπεραριθμήσιμοι</em> και, ως γνωστόν, ένα υπεραριθμήσιμο σύνολο δε γίνεται να γραφτεί σαν μία αριθμήσιμη ένωση από αριθμήσιμα σύνολα - για ένα φρεσκάρισμα στα περί αριθμησιμότητας, δείτε <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">εδώ</a>. Επομένως, δεδομένου ότι η ένωση όλων των κλάσεών μας είναι το σύνολο των πραγματικών αριθμών, έπεται ότι έχουμε στη διάθεσή μας υπεραριθμήσιμες στο πλήθος τέτοιες κλάσεις ισοδυναμίας - τόσες όσοι και οι πραγματικοί αριθμοί, για την ακρίβεια.</p>
+<p>Συνεπώς, το σύνολο:</p>
+<div class="math notranslate nohighlight">
+\[K:=\{[a]:a\in\mathbb{R}\},\]</div>
+<p>είναι ένα υπεραριθμήσιμο σύνολο. Άρα, πρέπει να κάνουμε υπεραριθμήσιμες στο πλήθος επιλογές για τις τιμές της  <span class="math notranslate nohighlight">\(f\)</span>  - από μία για κάθε κλάση στο  <span class="math notranslate nohighlight">\(K\)</span>  - και μετά θα έχουμε καθορίσει πλήρως τη συνάρτηση  <span class="math notranslate nohighlight">\(f.\)</span>  Τώρα, αγνοοώντας, όπως είπαμε, την κλάση  <span class="math notranslate nohighlight">\([0]=\{0\},\)</span>  καθώς σε κάθε μη τετριμμένη περίπτωση,  <span class="math notranslate nohighlight">\(f(0)=1,\)</span>  επιλέγουμε από κάθε κλάση  <span class="math notranslate nohighlight">\([a]\in K\)</span>  από έναν αντιπρόσωπό της και κατασκευάζουμε το σύνολο  <span class="math notranslate nohighlight">\(A\)</span>  που περιέχει αυτούς τους αντιπροσώπους. Να ξεκαθαρίσουμε εδώ ότι στο  <span class="math notranslate nohighlight">\(A\)</span>  έχουμε συμπεριλάβει από κάθε κλάση <em>ακριβώς έναν</em> αντιπρόσωπο, οπότε κάθε κλάση εκπροσωπείται από ακριβώς ένα στοιχείο στο σύνολο  <span class="math notranslate nohighlight">\(A\)</span>  - επομένως τα  <span class="math notranslate nohighlight">\(A,K\)</span>  είναι ισοπληθικά.</p>
+<p>Τώρα έχουμε το ελεύθερο, πλέον, να επιλέξουμε εμείς όπως - μα, όπως - θέλουμε, τις τιμές της συνάρτησης  <span class="math notranslate nohighlight">\(f\)</span>  στα στοιχεία του συνόλου  <span class="math notranslate nohighlight">\(A.\)</span>  Για παράδειγμα, αν θεωρήσουμε τη συνάρτηση  <span class="math notranslate nohighlight">\(g(x)=2^x,\)</span>  όπου  <span class="math notranslate nohighlight">\(x\in A,\)</span>  τότε θα έχουμε καθορίσει ακριβώς κάθε τιμή και της  <span class="math notranslate nohighlight">\(f\)</span>  - αφού, όπως είπαμε, σε κάθε κλάση ισοδυναμίας, η  <span class="math notranslate nohighlight">\(f\)</span>  είναι «εκθετική». Στην παραπάνω περίπτωση, όπως φαντάζεστε, η  <span class="math notranslate nohighlight">\(g(x)=2^x\)</span>  καθορίζει την  <span class="math notranslate nohighlight">\(f\)</span>  ως  <span class="math notranslate nohighlight">\(f(x)=2^x\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{R}.\)</span>  Γενικότερα, αν  <span class="math notranslate nohighlight">\(g:A\to\mathbb{R}\)</span>  είναι μία <em>οποιαδήποτε</em> συνάρτηση, τότε έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(x)=\left\{\begin{array}{ll}1 &amp; x=0\(g(a))^{x/a} &amp; x\sim a,\ a\in A\end{array}\right.\]</div>
+<p>Για τον δεύτερο κλάδο ας παρατηρήσουμε ότι αφού  <span class="math notranslate nohighlight">\(x\sim a\)</span>  έπεται ότι  <span class="math notranslate nohighlight">\(x=qa\)</span>  για κάποιον ρητό αριθμό  <span class="math notranslate nohighlight">\(q\in\mathbb{Q}.\)</span>  Επίσης, έχουμε από τα παραπάνω, ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(x)=f(qa)=(f(a))^q=(g(a))^q=(g(a))^{x/a}.\]</div>
+<p>Έτσι, όχι μόνο δεν είναι αναγκαστικά εκθετική μία συνάρτηση που ικανοποιεί την αρχική μας σχέση, αλλά αντιθέτως μπορεί να είναι αρκετά «άκομψη» - καθώς η  <span class="math notranslate nohighlight">\(g\)</span>  μπορεί πραγματικά να είναι αυθαίρετα «άκομψη».</p>
+<p>Να παρατηρήσουμε εδώ πως οι παραπάνω συναρτήσεις πράγματι ικανοποιούν την αρχική μας σχέση, καθώς:</p>
+<ul class="simple">
+<li><p>την ικναοποιούν σε κάθε κλάση μεμονωμένα,</p></li>
+<li><p>οι κλάσεις είναι ξένες ανά δύο και,</p></li>
+<li><p>οι ρητοί είναι, όπως είπαμε, αλγεβρικά κλειστοί.</p></li>
+</ul>
+<p>Από τα δύο τελευταία συμπεραίνουμε ότι οι τιμές της  <span class="math notranslate nohighlight">\(f\)</span>  σε μία κλάση ισοδυναμίας δεν επηρεάζουν με κάποιον τρόπο τις τιμές της  <span class="math notranslate nohighlight">\(f\)</span>  σε κάποια άλλη κλάση - και άρα, πράγματι, πρέπει και αρκεί να καθορίσουμε τις τιμές της  <span class="math notranslate nohighlight">\(f\)</span>  σε κάθε μία κλάση ξεχωριστά.</p>
+</section>
+<section id="id18">
+<h2>Υποθέσεις…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id18" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id18'"><span>#</span></a></h2>
+<p>Ωραία, συνεπώς, μία συνάρτηση που ικανοποιεί αυτήν την αρχική σχέση είναι περίπου εκθετική, με την έννοια ότι έχει εκθετική μορφή σε κάθε κλάση ισοδυναμίας, όπως τις έχουμε ορίσει παραπάνω, αλλά δεν είναι, εν γένει, εκθετική σε όλο το  <span class="math notranslate nohighlight">\(\mathbb{R}.\)</span>  Εδώ, φυσιολογικά, γεννιέται το εξής ερώτημα:</p>
+<p>Ποιες παραπάνω υποθέσεις πρέπει να κάνουμε για την  :math:<a href="#id19"><span class="problematic" id="id20">`</span></a>f `  έτσι ώστε να είναι εκθετική;</p>
+<section id="id21">
+<h3>Μία πρώτη σκέψη<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id21" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id21'"><span>#</span></a></h3>
+<p>Χμμμμ…</p>
+<p>Η αλήθεια είναι ότι, όπως είδαμε, αν και η αρχική σχέση επιβάλλει κάποιου είδους κανονικότητα στις τιμές της  <span class="math notranslate nohighlight">\(f\)</span>  - σε κάθε κλάση - δεν υπάρχει τρόπος αυτή η «κατά κλάσεις» κανονικότητα να έχει κάποιον πιο γενικό χαρακτήρα. Επομένως, θα θέλαμε μία υπόθεση που να μπορεί να αναγκάσει, κατά κάποιον τρόπο, γειτονικές τιμές της  <span class="math notranslate nohighlight">\(f\)</span>  να συμπεριφέρονται παρόμοια - οπότε, και δεδομένου ότι η  <span class="math notranslate nohighlight">\(f\)</span>  είναι εκθετική σε διάφορα πυκνά σύνολα αριθμών όπως, π.χ. το  <span class="math notranslate nohighlight">\(\mathbb{Q}=[1],\)</span>  θα έχουμε ότι η  <span class="math notranslate nohighlight">\(f\)</span>  είναι, γενικά, εκθετική.</p>
+<p>Ίσως τα παραπάνω να ακούγονται μπακάλικα, αλλά, όπως θα δούμε, είναι μία βασική ιδέα που θα μας οδηγήσει σε αρκετά ομαλά μονοπάτια. Μία συνθήκη που να αναγκάζει τις τιμές μίας συνάρτησης σε κόντινους αριθμούς να είναι κοντινές - με την ευρεία έννοια - είναι η υπόθεση της <em>συνέχειας</em>. Αν υποθέσουμε ότι η  <span class="math notranslate nohighlight">\(f\)</span>  είναι συνεχής, τότε επί της ουσίας υποθέτουμε ότι αν, για παράδειγμα,  <span class="math notranslate nohighlight">\(f(4)=5\)</span>  τότε για  <span class="math notranslate nohighlight">\(x\)</span>  αρκετά κοντά στο  <span class="math notranslate nohighlight">\(4\)</span>  θα έχουμε και  <span class="math notranslate nohighlight">\(f(x)\approx 5.\)</span>  Πιο αυστηρά, ας θυμηθούμε τον επίσημο ορισμό της συνέχειας:</p>
+<div class="line-block">
+<div class="line">Μία συνάρτηση  <span class="math notranslate nohighlight">\(f  `  λέγεται *συνεχής* σε ένα  :math:`x_0\in\mathbb{R}  `  αν για κάθε  :math:\)</span>varepsilon&gt;0  `  υπάρχει ένα  :math:<a href="#id22"><span class="problematic" id="id23">`</span></a>delta&gt;0  `  έτσι ώστε για κάθε  :math:<a href="#id24"><span class="problematic" id="id25">`</span></a>xinmathbb{R}  `  να ισχύει η ακόλουθη συνεπαγωγή:</div>
+<div class="line-block">
+<div class="line">:math:<a href="#id26"><span class="problematic" id="id27">`</span></a>|x-x_0|&lt;deltaRightarrow|f(x)-f(x_0)|&lt;varepsilon.  `</div>
+</div>
+</div>
+<p>Το παραπάνω συνοψίζει με αρκετά πιο φορμαλιστικό τρόπο αυτό που είπαμε χαλαρά. Αν μία συνάρτηση είναι συνεχής στο  <span class="math notranslate nohighlight">\(4\)</span>  με  <span class="math notranslate nohighlight">\(f(4)=5\)</span>  τότε αν θέλουμε να βρεθούμε κοντά στο  <span class="math notranslate nohighlight">\(5\)</span>  με ακρίβεια  <span class="math notranslate nohighlight">\(\varepsilon=10^{-7}\)</span>  τότε θα πρέπει να μπορούμε να βρούμε ένα  <span class="math notranslate nohighlight">\(\delta&gt;0\)</span>  έτσι ώστε αν επιλέγουμε  <span class="math notranslate nohighlight">\(x\in(4-\delta,4+\delta)\)</span>  να ισχύει ότι οι τιμές της  <span class="math notranslate nohighlight">\(f\)</span>  θα απέχουν από το  <span class="math notranslate nohighlight">\(5\)</span>  κατά το πολύ  <span class="math notranslate nohighlight">\(10^{-7},\)</span>  δηλαδή:</p>
+<div class="math notranslate nohighlight">
+\[f(x)\in\left(5-10^{-7},5+10^{-7}\right).\]</div>
+<p>Τώρα, με βάση αυτήν την υπόθεση, παρατηρούμε ότι αν  <span class="math notranslate nohighlight">\(x\in\mathbb{R}\)</span>  είναι κάποιος πραγματικός αριθμός, θα αποδείξουμε ότι  <span class="math notranslate nohighlight">\(f(x)=a^x,\)</span>  όπου, για συντομία, θέσαμε  <span class="math notranslate nohighlight">\(a=f(1).\)</span>  Για να αποδείξουμε το παραπάνω, δεδομένου ότι, όπως είδαμε, θα βασιστούμε σε μία αναλυτική ιδιότητα της  <span class="math notranslate nohighlight">\(f\)</span>  - δηλαδή, τη συνέχειά της - θα χρησιμοποιήσουμε και μία αναλυτική τεχνική. Δηλαδή, δε θα αποδείξουμε ότι  <span class="math notranslate nohighlight">\(f(x)=a^x\)</span>  κάνοντας αλγεβρικές πράξεις - άλλωστε, είδαμε ότι αυτό δεν είναι εφικτό - αλλά θα αποδείξουμε ότι για όποιο  <span class="math notranslate nohighlight">\(\varepsilon&gt;0\)</span>  κι αν επιλέξουμε, ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[\|f(x)-a^x|&lt;\varepsilon.\]</div>
+<p>Αυτό μπορεί να φαίνεται χαζό, καθώς αποδεικνύουμε άπειρες στο πλήθος ανισότητες με στόχο να αποδείξουμε, τελικά, μία ισότητα, αλλά είναι κατά βάθος απόλυτα φυσιολογικό. Δεδομένου ότι είναι φύσει αδύνατο να αποδείξουμε απλώς κάνοντας πράξεις την παραπάνω ισότητα, καταφεύγουμε σε πολύ ισχυρότερες μεθόδους για να καταλήξουμε στο ίδιο συμπέρασμα. Όπως και να έχει, ας ξεκινήσουμε την απόδειξή μας, γιατί πολύ φλυαρούμε. Έστω ένα  <span class="math notranslate nohighlight">\(\varepsilon&gt;0.\)</span>  Θα αποδείξουμε, όπως είπαμε, ότι  <span class="math notranslate nohighlight">\(\|f(x)-a^x|&lt;\varepsilon.\)</span>  Για το δεδομένο  <span class="math notranslate nohighlight">\(\varepsilon,\)</span>  αφού η  <span class="math notranslate nohighlight">\(f\)</span>  είναι συνεχής, θα υπάρχει ένα  <span class="math notranslate nohighlight">\(\delta_1&gt;0\)</span>  έτσι ώστε για κάθε  <span class="math notranslate nohighlight">\(y\in\mathbb{R}\)</span>  να ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[\|x-y|&lt;\delta_1\Rightarrow|f(x)-f(y)|&lt;\frac{\varepsilon}{2}.\]</div>
+<p>(Το γιατί επιλέξαμε τη μισή ακρίβεια από αυτή που ξεκινήσαμε θα φανεί στην πορεία). Επίσης, από τη συνέχεια της  <span class="math notranslate nohighlight">\(a^x\)</span>  υπάρχει κι ένα  <span class="math notranslate nohighlight">\(\delta_2&gt;0\)</span>  έτσι ώστε για κάθε  <span class="math notranslate nohighlight">\(y\in\mathbb{R}\)</span>  να ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[\|x-y|&lt;\delta_2\Rightarrow|a^x-a^y|&lt;\frac{\varepsilon}{2}.\]</div>
+<p>Τώρα, αν επιλέξουμε να περιοριστούμε κοντά στο  <span class="math notranslate nohighlight">\(x\)</span>  κατά  <span class="math notranslate nohighlight">\(\delta=\min\{\delta_1,\delta_2\}\)</span>  τότε, σαφώς, θα αληθεύουν και οι δύο παραπάνω συνεπαγωγές. Δηλαδή, θα έχουμε, αφενός:</p>
+<div class="math notranslate nohighlight">
+\[\|x-y|&lt;\delta\Rightarrow|f(x)-f(y)|&lt;\frac{\varepsilon}{2},\]</div>
+<p>και, αφετέρου:</p>
+<div class="math notranslate nohighlight">
+\[\|x-y|&lt;\delta\Rightarrow|a^x-a^y|&lt;\frac{\varepsilon}{2}.\]</div>
+<p>Τώρα, από την πυκνότητα των ρητών, υπάρχει ένας ρητός αριθμός  <span class="math notranslate nohighlight">\(q\in\mathbb{Q}\)</span>  έτσι ώστε  <span class="math notranslate nohighlight">\(q\in(x-\delta,x+\delta),\)</span>  επομένως  <span class="math notranslate nohighlight">\(\|x-q|&lt;\delta\)</span>  και άρα αληθεύουν τα συμπεράσματα και των δύο παραπάνω συνεπαγωγών. Επομένως, έχουμε - θυμηθείτε ότι  <span class="math notranslate nohighlight">\(f(q)=a^q\)</span>  δεδομένου ότι ο  <span class="math notranslate nohighlight">\(q\)</span>  είναι ρητός:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}|f(x)-a^x|&amp;=|f(x)-f(q)+f(q)-a^x|=\&amp;=|f(x)-f(q)+a^q-a^x|\&amp;\leq|f(x)-f(q)|+|a^q-a^x|\&amp;&lt;\frac{\varepsilon}{2}+\frac{\varepsilon}{2}=\&amp;=\varepsilon.\end{aligned}\]</div>
+<p>Συνεπώς, αποδείξαμε ότι  <span class="math notranslate nohighlight">\(\|f(x)-a^x|&lt;\varepsilon.\)</span>  Επειδή, τώρα, το  <span class="math notranslate nohighlight">\(\varepsilon\)</span>  δεν είχε κάποια ιδιαίτερη ιδιότητα πέρα από το να είναι θετικό, το παραπάνω θα ισχύει για κάθε  <span class="math notranslate nohighlight">\(\varepsilon&gt;0,\)</span>  επομένως  <span class="math notranslate nohighlight">\(\|f(x)-a^x|=0\)</span>  και άρα,  <span class="math notranslate nohighlight">\(f(x)=a^x\)</span>  - κι επειδή και το  <span class="math notranslate nohighlight">\(x\)</span>  ήταν αυθαίρετο, το ίδιο ισχύει και για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{R}.\)</span>  Συνεπώς, πράγματι, η  <span class="math notranslate nohighlight">\(f\)</span>  είναι εκθετική!</p>
+</section>
+<section id="id28">
+<h3>Μία απλούστερη σκέψη<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id28" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id28'"><span>#</span></a></h3>
+<p>Όπως είδαμε μόλις, αν πέρα από την αρχική μας σχέση - και το γεγονός ότι σε όλα τα παραπάνω, σιωπηλά, δεχόμαστε ότι η  <span class="math notranslate nohighlight">\(f\)</span>  είναι μη μηδενική - δεχτούμε ότι η  <span class="math notranslate nohighlight">\(f\)</span>  είναι και συνεχής, τότε αυτόματα οι μόνες συναρτήσεις που «μας κάνουν» είναι οι εκθετικές. Ωστόσο, μπορούμε να βρούμε μία πιο απλή, ασθενέστερη, υπόθεση;</p>
+<p>Ένας τρόπος να βρούμε μία ασθενέστερη υπόθεση έτσι ώστε η  <span class="math notranslate nohighlight">\(f\)</span>  να είναι εκθετική συνάρτηση είναι να βρούμε μία ασθενέστερη υπόθεση που να οδηγεί στο συμπέρασμα ότι η  <span class="math notranslate nohighlight">\(f\)</span>  είναι <em>συνεχής</em> - και άρα και εκθετική, όπως είδαμε παραπάνω. Τώρα, για να βρούμε μία υπόθεση για την  <span class="math notranslate nohighlight">\(f\)</span>  που να οδηγεί στη συνέχειά της, θα χρειαστούμε σίγουρα και τη βοήθεια της αρχικής μας σχέσης. Ας δούμε, λοιπόν, τι έχουμε στη διάθεσή μας:</p>
+<ul class="simple">
+<li><p>Αρχικά, έχουμε ότι  <span class="math notranslate nohighlight">\(f(x+y)=f(x)f(y)\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x,y\in\mathbb{R}.\)</span></p></li>
+<li><p>Έπειτα, έχουμε τον ορισμό της συνέχειας που μας λέει ότι για κάθε  <span class="math notranslate nohighlight">\(x_0\in\mathbb{R}\)</span>  και για κάθε  <span class="math notranslate nohighlight">\(\varepsilon&gt;0\)</span>  υπάρχει ένα  <span class="math notranslate nohighlight">\(\delta&gt;0\)</span>  έτσι ώστε να ισχύει η συνεπαγωγή  <span class="math notranslate nohighlight">\(\|x-x_0|&lt;\delta\Rightarrow|f(x)-f(x_0)|&lt;\varepsilon,\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{R}.\)</span></p></li>
+</ul>
+<p>Ωραία, αυτά τα είπαμε και παραπάνω. Τώρα, εφόσον εμείς θέλουμε να αποδείξουμε ότι η  <span class="math notranslate nohighlight">\(f\)</span>  είναι συνεχής - και άρα ότι είναι εκθετική ή μηδενική κ.λπ. - και η πρόθεσή μας είναι να χρησιμοποιήσουμε την αρχική μας σχέση, είναι λογικό να προσπαθήσουμε να μετασχηματίσουμε πρώτα την αποδεικτέα συνεπαγωγή σε κάτι που να τη θυμίζει. Με άλλα λόγια, πρέπει να πάρουμε αυτό:</p>
+<div class="math notranslate nohighlight">
+\[\|x-x_0|&lt;\delta\Rightarrow|f(x)-f(x_0)|&lt;\varepsilon\]</div>
+<p>και με κάποιον τρόπο να το κάνουμε να θυμίζει αυτό:</p>
+<div class="math notranslate nohighlight">
+\[f(x+y)=f(x)f(y).\]</div>
+<p>Εντάξει, δε θα κάνουμε αυτολεξεί αυτό που είπαμε παραπάνω, γιατί μία συνεπαγωγή δεν μπορεί να θυμίζει ισότητα. Ωστόσο, θα προσπαθήσουμε κάτι στο <em>συμπέρασμα</em> της συνεπαγωγής να θυμίζει κάποιο από τα δύο μέλη της παραπάνω ισότητας. Ας δοκιμάσουμε να πάρουμε το απόλυτο του δεξιού μέλους και να το γράψουμε λίγο διαφορετικά:</p>
+<div class="math notranslate nohighlight">
+\[\|f(x)-f(x_0)|=f(x_0)\left|\dfrac{f(x)}{f(x_0)}-1\right|.\]</div>
+<p>Να θυμίσουμε εδώ ότι εργαζόμαστε στην μη τετριμμένη περίπτωση όπου η  <span class="math notranslate nohighlight">\(f\)</span>  δεν είναι μηδενική και άρα  <span class="math notranslate nohighlight">\(f&gt;0.\)</span>  Ωραία, το παραπάνω τώρα τι σχέση έχει με αυτό:</p>
+<div class="math notranslate nohighlight">
+\[f(x+y)=f(x)f(y);\]</div>
+<p>Εκ πρώτης όψεως, καμία. Θυμηθείτε, όμως, ότι έχουμε αποδείξει ότι από την παραπάνω σχέση μπορούμε να πάρουμε κι αυτήν εδώ τη σχέση:</p>
+<div class="math notranslate nohighlight">
+\[f(x-y)=\dfrac{f(x)}{f(y)}.\]</div>
+<p>Αααα, τώρα αρχίζουμε και μιλάμε τη σωστή γλώσσα. Χρησιμοποιώντας αυτήν τη σχέση, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\|f(x)-f(x_0)|=f(x_0)\left|\dfrac{f(x)}{f(x_0)}-1\right|=f(x_0)|f(x-x_0)-1|.\]</div>
+<p>Επομένως, η αποδεικτέα συνεπαγωγή μπορεί να γραφτεί ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[\|x-x_0|&lt;\delta\Rightarrow f(x_0)|f(x-x_0)-1\| &lt;\varepsilon.\]</div>
+<p>Ωραία, καλά τα είπαμε ως τώρα, αλλά τι καταφέραμε; Ας παρατηρήσουμε ότι ενώ στην αρχική μας σχέση το  <span class="math notranslate nohighlight">\(x\)</span>  εμφανιζόταν σε διάφορες μορφές, με διάφορες «παρέες», τώρα εμφανίζεται μόνο ζευγαρωμένο με το  <span class="math notranslate nohighlight">\(x_0,\)</span>  ως  <span class="math notranslate nohighlight">\(x-x_0.\)</span>  Ας θέσουμε, λοιπόν,  <span class="math notranslate nohighlight">\(y=x-x_0\)</span>  οπότε η παραπάνω σχέση γράφεται:</p>
+<div class="math notranslate nohighlight">
+\[\|y|&lt;\delta\Rightarrow f(x_0)|f(y)-1|&lt;\varepsilon.\]</div>
+<p>Χμμμ, κάτι γίνεται τώρα. Ας θυμηθούμε κι ότι  <span class="math notranslate nohighlight">\(f(0)=1\)</span>  στην μη τετριμμένη περίπτωση, οπότε μπορούμε να γράψουμε το παραπάνω ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[\|y-0|&lt;\delta\Rightarrow f(x_0)|f(y)-f(0)|&lt;\varepsilon.\]</div>
+<p>Και τώρα έχουμε μπροστά στα μάτια μας σχεδόν τη συνεπαγωγή του ορισμού της συνέχειας της  <span class="math notranslate nohighlight">\(f\)</span>  στο 0. Μόνο αυτό το  <span class="math notranslate nohighlight">\(f(x_0)\)</span>  να μην είχαμε εκεί μπροστά και όλα θα ήταν πιο όμορφα. Αλλά, μας ενοχλεί όντως;</p>
+<p>Θυμηθείτε ότι, όπως είπαμε,  <span class="math notranslate nohighlight">\(f(x_0)&gt;0,\)</span>  επομένως μπορούμε να κάνουμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[\|y-0|&lt;\delta\Rightarrow \|f(y)-f(0)|&lt;\dfrac{\varepsilon}{f(x_0)}.\]</div>
+<p>Και τώρα, αν θεωρήσουμε το  <span class="math notranslate nohighlight">\(x_0\)</span>  δεδομένο - δηλαδή, σταθερό - τότε εύκολα μπορούμε να θέσουμε  <span class="math notranslate nohighlight">\(\varepsilon'=\varepsilon/f(x_0)\)</span>  και να πάρουμε:</p>
+<div class="math notranslate nohighlight">
+\[\|y-0|&lt;\delta\Rightarrow \|f(y)-f(0)|&lt;\varepsilon'.\]</div>
+<p>Αυτό τώρα είναι ο ορισμός της συνέχειας της  <span class="math notranslate nohighlight">\(f\)</span>  στο 0 με τόνο!</p>
+<p>Επομένως, χρησιμοποιώντας την αρχική μας σχέση και λίγη φαντασία, μπορούμε να αναχθούμε από τη συνέχεια της  <span class="math notranslate nohighlight">\(f\)</span>  σε κάποιο σημείο στη συνέχειά της στο 0 - και, αν προσέξετε, και αντίστροφα, καθώς δεν κάναμε κάποια παράξενη πράξη στα παραπάνω. Επομένως, μία λογική υπόθεση που θα μας οδηγούσε στη συνέχεια της  <span class="math notranslate nohighlight">\(f\)</span>  είναι η  <span class="math notranslate nohighlight">\(f\)</span>  να είναι συνεχής στο 0. Πράγματι, με δεδομένο αυτό μπορούμε να αποδείξουμε εύκολα τη συνέχεια της  <span class="math notranslate nohighlight">\(f\)</span>  σε κάθε άλλο  <span class="math notranslate nohighlight">\(x_0.\)</span></p>
+<p>Έστω, αρχικά,  <span class="math notranslate nohighlight">\(x_0\in\mathbb{R}\)</span>  και  <span class="math notranslate nohighlight">\(\varepsilon&gt;0.\)</span>  Θέτουμε  <span class="math notranslate nohighlight">\(\varepsilon'=\varepsilon/f(x_0)\)</span>  και παρατηρούμε ότι από τη συνέχεια της  <span class="math notranslate nohighlight">\(f\)</span>  στο 0 υπάρχει ένα  <span class="math notranslate nohighlight">\(\delta&gt;0\)</span>  έτσι ώστε να ισχύει για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{R}\)</span>  η συνεπαγωγή:</p>
+<div class="math notranslate nohighlight">
+\[\|x|&lt;\delta\Rightarrow|f(x)-1|&lt;\varepsilon'.\]</div>
+<p>Επιλέγουμε  <span class="math notranslate nohighlight">\(x\in\mathbb{R}\)</span>  έτσι ώστε  <span class="math notranslate nohighlight">\(\|x-x_0|&lt;\delta\)</span>  οπότε, από την παραπάνω σχέση έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\|f(x-x_0)-1|&lt;\varepsilon'.\]</div>
+<p>Τώρα, από τη σχέση:</p>
+<div class="math notranslate nohighlight">
+\[f(x-y)=\dfrac{f(x)}{f(y)},\]</div>
+<p>έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\left|\dfrac{f(x)}{f(x_0)}-1\right|&lt;\varepsilon'\Rightarrow\left|\dfrac{f(x)-f(x_0)}{f(x_0)}\right|&lt;\dfrac{\varepsilon}{f(x_0)}.\]</div>
+<p>Απλοποιώντας τους παρονομαστές, παίρνουμε:</p>
+<div class="math notranslate nohighlight">
+\[\|f(x)-f(x_0)|&lt;\varepsilon,\]</div>
+<p>επομένως η  <span class="math notranslate nohighlight">\(f\)</span>  είναι πράγματι συνεχής σε κάθε  <span class="math notranslate nohighlight">\(x_0\in\mathbb{R}.\)</span></p>
+<p>Συνεπώς, αυτό που δείξαμε ως τώρα είναι ότι αν μία μη σταθερή συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span>  ικανοποιεί τη σχέση:</p>
+<div class="math notranslate nohighlight">
+\[f(x+y)=f(x)f(y), για κάθε .. math:: x,y\in\mathbb{R},\]</div>
+<p>και επιπλέον είναι συνεχής στο 0, τότε είναι υποχρεωτικά κάποια εκθετική συνάρτηση. Για την ακρίβεια, είναι η:</p>
+<div class="math notranslate nohighlight">
+\[f(x)=\left(f(1)\right)^x.\]</div>
+<p>Αν μη τι άλλο, εντυπωσιακό το πώς η συνέχεια της  <span class="math notranslate nohighlight">\(f\)</span>  σε <em>ένα και μόνο σημείο</em> επιβάλλει την τάξη.</p>
+</section>
+</section>
+<section id="id29">
+<h2>Επίλογος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id29" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id29'"><span>#</span></a></h2>
+<p>Αλήθεια, μήπως μπορούμε να απλοποιήσουμε κι άλλο την παραπάνω συνθήκη για να είναι η  <span class="math notranslate nohighlight">\(f\)</span>  κάποια εκθετική συνάρτηση; Η απάντηση είναι (SPOILER ALERT) «ναι». Αλλά η συνθήκη που χρειαζόμαστε αντί της συνέχειας είναι η <a class="reference external" href="https://en.wikipedia.org/wiki/Measurable_function">μετρησιμότητα</a> της συνάρτησης, κάτι που καλό θα ήταν να αποφύγουμε να συζητήσουμε αυτήν την ώρα γιατί θα μας πάρει άλλο τόσο να μιλήσουμε γι” αυτήν. Κάποια άλλη φορά, λοιπόν!</p>
+<p>Καλή συνέχεια!</p>
+<blockquote>
+<div><div class="video_wrapper" style="">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/gM0zmp0S9Ck" style="border: 0; height: 345px; width: 560px">
+</iframe></div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        Μάθημα Χωρίς… Μάθημα
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">
+        Μία Πανδύσκολη Εξίσωση!
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Πόσο μακριά μπορούμε να πάμε;</a><ul>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Τετριμμένες περιπτώσεις</a></li>
+<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Πρόσημο</a></li>
+<li><a :data-current="activeSection === '#id5'" class="reference internal" href="#id5">Και με τη διαίρεση;</a></li>
+<li><a :data-current="activeSection === '#id6'" class="reference internal" href="#id6">Μήπως είναι εκθετική;</a></li>
+</ul>
+</li>
+<li><a :data-current="activeSection === '#id7'" class="reference internal" href="#id7">Πραγματικές δυσκολίες…</a></li>
+<li><a :data-current="activeSection === '#id8'" class="reference internal" href="#id8">Ρητές τροχιές</a></li>
+<li><a :data-current="activeSection === '#id17'" class="reference internal" href="#id17">Δηλαδή έχουμε πολλή δουλειά;</a></li>
+<li><a :data-current="activeSection === '#id18'" class="reference internal" href="#id18">Υποθέσεις…</a><ul>
+<li><a :data-current="activeSection === '#id21'" class="reference internal" href="#id21">Μία πρώτη σκέψη</a></li>
+<li><a :data-current="activeSection === '#id28'" class="reference internal" href="#id28">Μία απλούστερη σκέψη</a></li>
+</ul>
+</li>
+<li><a :data-current="activeSection === '#id29'" class="reference internal" href="#id29">Επίλογος</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

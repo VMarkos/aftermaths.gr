@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2019-08-02 18:16" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Μαθηματικά, Longreads" name="category"/>
+<meta content="featured, επιστήμη, εκθετική" name="tags"/>
+<meta content="%ce%bf%ce%b9-50-%ce%b1%cf%80%ce%bf%cf%87%cf%81%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-e" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2019/08/lw377-mc-escher-two-intersecting-planes-1952.jpg, _static/images/uploads/2019/08/ezgif.com-crop4.gif, _static/images/uploads/2019/08/ezgif.com-gif-maker-5.gif, _static/images/uploads/2019/08/ezgif-5-ffba512886.pdf-1.png, _static/images/uploads/2019/08/ezgif.com-gif-maker-4.gif, _static/images/uploads/2019/07/ezgif.com-crop2-2.gif, _static/images/uploads/2019/07/ezgif.com-crop3-1.gif" name="attachments"/>
+<title>Οι 50 αποχρώσεις του e | aftermaths</title>
+<meta content="Οι 50 αποχρώσεις του e | aftermaths" property="og:title"/>
+<meta content="Οι 50 αποχρώσεις του e | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html" rel="next" title="Οι Καμπύλες που Άλλαξαν τον Κόσμο"/>
+<link href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html" rel="prev" title="Ο Rolle και τα κουνούπια"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Οι 50 αποχρώσεις του e</span>
+</nav>
+<div id="content" role="main">
+<section id="e">
+<h1>Οι 50 αποχρώσεις του e<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#e"><span>#</span></a></h1>
+<figure class="align-center" id="id7">
+<img alt="Το χαρακτικό σε ξύλο *Δύο τεμνόμενα επίπεδα* του `M  &lt;https://en.wikipedia.org/wiki/M._C._Escher&gt;`__\ `aurits Cornelis Escher  &lt;https://en.wikipedia.org/wiki/M._C._Escher&gt;`__\ *.*" src="_static/images/uploads/2019/08/lw377-mc-escher-two-intersecting-planes-1952.jpg,_static/images/uploads/2019/08/ezgif.com-crop4.gif,_static/images/uploads/2019/08/ezgif.com-gif-maker-5.gif,_static/images/uploads/2019/08/ezgif-5-ffba512886.pdf-1.png,_static/images/uploads/2019/08/ezgif.com-gif-maker-4.gif,_static/images/uploads/2019/07/ezgif.com-crop2-2.gif,_static/images/uploads/2019/07/ezgif.com-crop3-1.gif"/>
+<figcaption>
+<p><span class="caption-text">Το χαρακτικό σε ξύλο <em>Δύο τεμνόμενα επίπεδα</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/M._C._Escher">M</a><a class="reference external" href="https://en.wikipedia.org/wiki/M._C._Escher">aurits Cornelis Escher</a><em>.</em></span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id7"><span>#</span></a></p>
+</figcaption>
+</figure>
+<section id="id1">
+<h2>Εισαγωγή<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id1'"><span>#</span></a></h2>
+<p>Τον αριθμό  <span class="math notranslate nohighlight">\(e\)</span>  τον συναντάμε πρώτη φορά στην άλγεβρα της Β” Λυκείου, σε ό,τι έχει να κάνει με τα αμιγώς σχολικά μαθηματικά. Μήπως όμως έχει τύχει να έρθουμε σε επαφή μαζί του και αρκετά νωρίτερα, απλά δεν το πήραμε μυρωδιά εγκαίρως; Η αλήθεια είναι ότι από τους τρεις πολύ διάσημους άρρητους αριθμούς - τον  <span class="math notranslate nohighlight">\(\pi\)</span> , τον  <span class="math notranslate nohighlight">\(e\)</span>  και την «χρυσή τομή»  <span class="math notranslate nohighlight">\(\phi\)</span>  - ο  <span class="math notranslate nohighlight">\(e\)</span>  ίσως είναι ο λιγότερο διαφημισμένος, για διάφορους λόγους, μέσα στους οποίους μπορεί να είναι και το νεαρό της ηλικίας του (βλέπεται, ο  <span class="math notranslate nohighlight">\(\pi\)</span> , για παράδειγμα, ήταν γνωστός από αρχαιοτάτων χρόνων). Σκοπός μας λοιπόν είναι να αναδείξουμε μερικές περιστάσεις στις οποίες ο  <span class="math notranslate nohighlight">\(e\)</span>  είναι εκεί, αλλά δεν τον βλέπουμε - κάποια παραδείγματα υπάρχουν <a class="reference external" href="docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Εκθετικές-και-Λογαριθμικές-Συναρτήσεις/ασκήσεις-στις-εκθετικές-συναρτήσεις.rst">εδώ</a> καθώς και διάσπαρτα μέσα στις ασκήσεις των εκθετικών συναρτήσεων.</p>
+</section>
+<section id="id2">
+<h2>Το «παραδοσιακό» πρόβλημα του διαρκούς ανατοκισμού<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>Ίσως ο πιο γνωστός τρόπος για να ορίσει κανείς τον αριθμό  <span class="math notranslate nohighlight">\(e\)</span>  είναι μέσα από το πρόβλημα του συνεχούς ανατοκισμού. Ας υποθέσουμε ότι έχουμε το εξωφρενικό ποσό της μία δραχμής (έρχεται, έρχεται) και ότι θέλουμε να το καταθέσουμε σε κάποια τράπεζα. Με το που το σκεφτόμαστε αυτό, επειδή οι τραπεζίτες τα μυρίζονται εγκαίρως αυτά, μας παίρνει η τράπεζα  <span class="math notranslate nohighlight">\(T_1\)</span>  να μας ενημερώσει για το πρόγραμμα προθεσμιακών καταθέσεων «Βάλε μια δραχμή στην άκρη», το οποίο μας δίνει τη δυνατότητα, στο τέλος κάθε έτους, να εισπράξουμε ως τόκο το 100% του ποσού που έχουμε καταθέσει, με την μόνη προϋπόθεση να μείνει δεσμευμένο το ποσό μας στην τράπεζα για όλο το έτος. Με λίγα λόγια, θα εισπράξουμε:</p>
+<div class="math notranslate nohighlight">
+\[1+1=2\]</div>
+<p>δραχμές μέσα σε ένα έτος. Ενθουσιασμένοι, ετοιμαζόμαστε να πάμε από το κατάστημα της τράπεζας γα να κλείσουμε την επικερδή αυτή συμφωνία για εμάς, όταν, ξαφνικά, ξαναχτυπάει το τηλέφωνό μας. Αυτήν τη φορά μας καλούν από την τράπεζα  <span class="math notranslate nohighlight">\(T_2\)</span>  η οποία μας κάνει την εξής προσφορά: αν δεσμεύσουμε το κεφάλαιό μας εκεί για έναν χρόνο, τότε σε κάθε εξάμηνο θα μας δίνει το 50% του ποσού που εκείνη τη στιγμή θα βρίσκεται στον λογαριασμό μας. Δηλαδή, για το πρώτο εξάμηνο θα πάρουμε:</p>
+<div class="math notranslate nohighlight">
+\[1+\dfrac{1}{2}=1.5\]</div>
+<p>δραχμές. Έτσι, στο επόμενο εξάμηνο θα πάρουμε:</p>
+<div class="math notranslate nohighlight">
+\[1.5+1.5\cdot\dfrac{1}{2}=2.25\]</div>
+<p>δραχμές, πράγμα που καθιστά τη δεύτερη προσφορά καλύτερη από την πρώτη. Παρατηρήστε ότι μπορούμε να ξαναγράψουμε το συνολικό μας κέρδος ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[1.5+1.5\cdot\dfrac{1}{2}=1.5\left(1+\dfrac{1}{2}\right)=\left(1+\dfrac{1}{2}\right)\left(1+\dfrac{1}{2}\right)=\left(1+\dfrac{1}{2}\right)^2.\]</div>
+<p>Κι εκεί που νομίζουμε ότι τα έχουμε κανονίσει, πέφτει το μάτι μας σε ένα διαφημιστικό φυλλάδιο της τράπεζας  <span class="math notranslate nohighlight">\(T_3\)</span>  το οποίο, μεταξύ άλλων, έχει και την εξής προσφορά: «Δεσμεύοντας για έναν χρόνο τα λεφτά σας στην τράπεζά μας μπορείτε να εισπράττετε κάθε τετράμηνο το  <span class="math notranslate nohighlight">\(\dfrac{1}{3}\)</span>  των χρημάτων που έχετε εκείνη τη στιγμή στον λογαριασμό σας». Μετά από λίγες πράξεις, βλέπουμε ότι στο τέλος του πρώτου τετραμήνου θα έχουμε κερδίσει:</p>
+<div class="math notranslate nohighlight">
+\[1+\dfrac{1}{3}\]</div>
+<p>δραχμές. Έτσι, στο τέλος το δεύτερου τετραμήνου θα έχουμε κερδίσει:</p>
+<div class="math notranslate nohighlight">
+\[1+\dfrac{1}{3}+\dfrac{1}{3}\left(1+\dfrac{1}{3}\right)=\left(1+\dfrac{1}{3}\right)\left(1+\dfrac{1}{3}\right)=\left(1+\dfrac{1}{3}\right)^2\]</div>
+<p>δραχμές. Συνακόλουθα, στο τέλος του έτους (τρίτο τετράμηνο), θα έχουμε τελικό κέρδος:</p>
+<div class="math notranslate nohighlight">
+\[\left(1+\dfrac{1}{3}\right)^2+\dfrac{1}{3}\left(1+\dfrac{1}{3}\right)^2=\left(1+\dfrac{1}{3}\right)^2\left(1+\dfrac{1}{3}\right)=\left(1+\dfrac{1}{3}\right)^3\]</div>
+<p>δραχμές, δηλαδή, περίπου 2.37037 δραχμές, κέρδος ακόμα μεγαλύτερο από το προηγούμενο. Ανάλογες προτάσεις δεχόμαστε και από την τράπεζα  <span class="math notranslate nohighlight">\(T_4\)</span>  και από την  <span class="math notranslate nohighlight">\(T_5\)</span>  και, γενικότερα, η τράπεζα  <span class="math notranslate nohighlight">\(T_n\)</span>  μας καταθέτει την εξής πρόταση: «Δεσμεύοντας για ένα έτος τα χρήματά σας σε εμάς, εμείς θα χωρίσουμε το έτος σε  <span class="math notranslate nohighlight">\(n\)</span>  ίσα χρονικά διαστήματα και στο τέλος καθενός από αυτά θα σας καταθέτουμε τόκους ίσους με το  <span class="math notranslate nohighlight">\(\dfrac{1}{n}\)</span>  του ποσού που θα βρίσκεται εκείνη τη στιγμή στον λογαριασμό σας». Έτσι, μετά την πρώτη περίοδο θα έχουμε κέρδος:</p>
+<div class="math notranslate nohighlight">
+\[1+\dfrac{1}{n}\]</div>
+<p>δραχμές, ενώ, μετά τη δεύτερη περίοδο θα έχουμε κέρδος:</p>
+<div class="math notranslate nohighlight">
+\[1+\dfrac{1}{n}+\dfrac{1}{n}\left(1+\dfrac{1}{n}\right)=\left(1+\dfrac{1}{n}\right)\left(1+\dfrac{1}{n}\right)=\left(1+\dfrac{1}{n}\right)^2\]</div>
+<p>δραχμές. Συνεχίζοντας ανάλογα, μπορούμε να βρούμε σχετικά εύκολα ότι στο τέλος της  <span class="math notranslate nohighlight">\(n-\)</span> οστής περιόδου (δηλαδή, στο τέλος του έτους), θα έχουμε μαζέψει ακριβώς:</p>
+<div class="math notranslate nohighlight">
+\[\left(1+\dfrac{1}{n}\right)^n\]</div>
+<p>δραχμές. Το ζήτημα είναι, ποια από όλες αυτές τις προσφορές να δεχτούμε;</p>
+<p>Προφανώς, αυτή που μας αποφέρει το μεγαλύτερο κέρδος. Ας δούμε πώς αυξάνονται τα κέρδη μας καθώς μεγαλώνει η προσφορά που δεχόμαστε από την εκάστοτε τράπεζα:</p>
+<div class="wp-block-image alignnone size-full wp-image-1022 docutils container">
+<figure class="wp-image-1022 align-default" id="id8">
+<img alt="Τα κέρδη μας." src="docs/After-maths/{static}_static/images/uploads/2019/07/ezgif.com-crop2-2.gif"/>
+<figcaption>
+<p><span class="caption-text">Τα κέρδη μας.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id8"><span>#</span></a></p>
+</figcaption>
+</figure>
+</div>
+<p>Ενώ στην αρχή φαινόταν να κερδίζουμε λεφτά «με τη σέσουλα», όσο προχωράμε φαίνεται να κερδίζουμε όλο και λιγότερα χρήματα. Για την ακρίβεια, όσο κι αν προχωράμε, φαίνεται να μην μπορούμε να πάμε και πολύ παρακάτω από έναν αριθμό περίπου ίσο με 2.718. Για όσους θυμούνται τα πρώτα δεκαδικά ψηφία του  <span class="math notranslate nohighlight">\(e\)</span> , μπορούν εύκολα να δουν πού πάει η κατάσταση. Ο  <span class="math notranslate nohighlight">\(e\)</span>  έχει το εξής δεκαδικό ανάπτυγμα:</p>
+<div class="math notranslate nohighlight">
+\[e=2.718281828459045\ldots,\]</div>
+<p>το οποίο ταιριάζει «γάντι» με τις προσεγγίσεις που βλέπουμε παραπάνω. Και η αλήθεια είναι ότι μπορούμε να αποδείξουμε το εξής: καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  παίρνει απεριόριστα μεγάλες τιμές, τότε τα κέρδη μας προσεγγίζουν τον  <span class="math notranslate nohighlight">\(e\)</span>  (για την ακρίβεια, αυτός είναι και ο πλέον συνηθισμένος ορισμός που δίνεται για τον  <span class="math notranslate nohighlight">\(e\)</span>  σε ένα τυπικό μάθημα Απειροστικού Λογισμού).</p>
+</section>
+<section id="id3">
+<h2>Ήταν ένας γάιδαρος…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<p>Αυτή ίσως είναι η αγαπημένη μου από όλες τις εμφανίσεις του  <span class="math notranslate nohighlight">\(e\)</span> . Έχουμε έναν λόφο στη βάση του οποίου βρισκόμαστε εμείς, ένα δεμάτι άχυρο και ένας γάιδαρος. Ο στόχος μας είναι να φτάσει στην κορυφή του λόφου όσο μεγαλύτερο μέρος του δεματιού γίνεται, λαμβάνοντας υπ” όψιν τους εξής περιορισμούς:</p>
+<ul class="simple">
+<li><p>εμείς έχουμε την μέση μας και δεν μπορούμε να κουβαλήσουμε τίποτα, οπότε όλα θα τα φορτωθεί το δύσμοιρο το ζωάκι μας,</p></li>
+<li><p>ο γάιδαρός μας έχει ένα κακό συνήθειο: όσο μέρος της διαδρομής διανύει ανεβαίνοντας, τόσο μέρος τρώει από αυτό που κουβαλάει. Για παράδειγμα, αν έχει ανέβει μέχρι τη μέση, θα φάει το μισό από ό,τι είναι στην πλάτη του. Αν έχει ανέβει τα 2/7 της διαδρομής, θα φάει τα 2/7 από ό,τι έχει στην πλάτη του κ.λπ.,</p></li>
+<li><p>ο γάιδαρός μας δεν τρώει τίποτα στο κατέβασμα (μπορείτε να φανταστείτε ότι κατεβαίνει τον λόφο με «βαρελάκι»).</p></li>
+</ul>
+<p>Αν δοκιμάσουμε, λοιπόν, να φορτώσουμε όλο το δεμάτι με το άχυρο στην πλάτη του γαϊδαράκου μας και να ανέβουμε τον λόφο, θα φτάσουμε πάνω και θα δούμε ότι έχει φάει όλο το άχυρο, οπότε σίγουρα πρέπει να σκεφτούμε κάτι καλύτερο για να φτάσει έστω και λίγο άχυρο στην κορυφή. Αυτό που είναι βέβαιο είναι ότι πρέπει να μεσολαβεί κάποια στάση διότι ο,τιδήποτε μεταφέρει ο γάιδαρός μας απευθείας στην κορυφή το «εξαφανίζει» (ξέρουμε πολύ καλά πού καταλήγει, βεβαίως - βεβαίως).</p>
+<p>Ας δοκιμάσουμε το εξής: Θα φορτώσουμε το δεμάτι στον γάιδαρο και θα το ανεβάσουμε μέχρι τη μέση του λόφου, οπότε και θα έχει φτάσει σώο το μισό του φορτίου, δηλαδή:</p>
+<div class="math notranslate nohighlight">
+\[1-\dfrac{1}{2}=\dfrac{1}{2}.\]</div>
+<p>Έπειτα, θα σταματήσουμε, θα πάρουμε δυο ανάσες και θα ξαναφορτώσουμε στον γάιδαρο το μισό δεμάτι που μας έχει απομείνει. Έτσι, αφού θα ανέβουμε τώρα το άλλο μισό του λόφου, ο γάιδαρος θα φάει το μισό από <em>αυτό που έχει στην πλάτη του,</em> δηλαδή στο τέλος θα φτάσει στην κορυφή:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{1}{2}-\dfrac{1}{2}\cdot\dfrac{1}{2}=\dfrac{1}{4}\]</div>
+<p>από το αρχικό μας δεμάτι. Για να το γράψουμε και λίγο πιο όμορφα, μπορούμε να πούμε ότι θα φτάσει στην κορυφή:</p>
+<div class="math notranslate nohighlight">
+\[\left(1-\dfrac{1}{2}\right)-\dfrac{1}{2}\left(1-\dfrac{1}{2}\right)=\left(1-\dfrac{1}{2}\right)\left(1-\dfrac{1}{2}\right)=\left(1-\dfrac{1}{2}\right)^2\]</div>
+<p>από το αρχικό μας δεμάτι.</p>
+<p>Αλλά, γιατί να μην κόψουμε τη διαδρομή μας σε τρία στάδια; Στο πρώτο τρίτο θα έχει φαγωθεί το 1/3 του δεματιού, δηλαδή θα μας έχει μείνει:</p>
+<div class="math notranslate nohighlight">
+\[1-\dfrac{1}{3}\]</div>
+<p>του αρχικού δεματιού. Ανεβαίνοντας και το δεύτερο τρίτο, θα χάσουμε άλλο ένα τρίτο από αυτό που είχαμε πριν, οπότε θα μας μείνει:</p>
+<div class="math notranslate nohighlight">
+\[\left(1-\dfrac{1}{3}\right)-\dfrac{1}{3}\left(1-\dfrac{1}{3}\right)=\left(1-\dfrac{1}{3}\right)\left(1-\dfrac{1}{3}\right)=\left(1-\dfrac{1}{3}\right)^2\]</div>
+<p>του αρχικού δεματιού. Ανεβαίνοντας και το τελευταίο τρίτο της διαδρομής, θα μας απομείνει:</p>
+<div class="math notranslate nohighlight">
+\[\left(1-\dfrac{1}{3}\right)^2-\dfrac{1}{3}\left(1-\dfrac{1}{3}\right)^2=\left(1-\dfrac{1}{3}\right)^2\left(1-\dfrac{1}{3}\right)=\left(1-\dfrac{1}{3}\right)^3\]</div>
+<p>του αρχικού δεματιού. Γενικά, αν «κόψουμε» τη διαδρομή σε  <span class="math notranslate nohighlight">\(n\)</span>  ίσα τμήματα τότε, με ένα παρόμοιο σκεπτικό, μπορούμε να βρούμε ότι θα φτάσει στην κορυφή:</p>
+<div class="math notranslate nohighlight">
+\[\left(1-\dfrac{1}{n}\right)^n\]</div>
+<p>του αρχικού μας δεματιού. Όλα καλά ως εδώ, αλλά τι σχέση έχει αυτό με το  <span class="math notranslate nohighlight">\(e\)</span> ; Για να το διαπιστώσουμε αυτό, ας δούμε τι τιμές παίρνει η παραπάνω ποσότητα για διάφορες τιμές του  <span class="math notranslate nohighlight">\(n\)</span> :</p>
+<div class="wp-block-image alignnone size-full wp-image-1028 docutils container">
+<figure class="wp-image-1028 align-default" id="id9">
+<img alt="Ανεβαίνοντας τον λόφο." src="docs/After-maths/{static}_static/images/uploads/2019/07/ezgif.com-crop3-1.gif"/>
+<figcaption>
+<p><span class="caption-text">Ανεβαίνοντας τον λόφο.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9"><span>#</span></a></p>
+</figcaption>
+</figure>
+</div>
+<p>Ωραία, και τι σχέση έχει αυτό με το  <span class="math notranslate nohighlight">\(e\)</span> ; Σε πρώτο επίπεδο, ίσως καμία. Ας πάρουμε όμως το κομπιουτεράκι μας και ας κάνουμε τη διαίρεση  <span class="math notranslate nohighlight">\(1\div e\)</span> . Τότε, θα βρούμε κάτι σαν το παρακάτω:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{1}{e}=0.36787944117\ldots,\]</div>
+<p>το οποίο, όπως βλέπετε, μοιάζει αρκετά με τις τιμές που παίρνει η ποσότητα:</p>
+<div class="math notranslate nohighlight">
+\[\left(1-\dfrac{1}{n}\right)^n,\]</div>
+<p>για μεγάλες τιμές του  <span class="math notranslate nohighlight">\(n\)</span> . Πράγματι, μπορούμε να αποδείξουμε ότι, καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  μεγαλώνει απεριόριστα, η παραπάνω ποσότητα προσεγγίζει το  <span class="math notranslate nohighlight">\(\dfrac{1}{e}\)</span> .</p>
+</section>
+<section id="euler">
+<h2>Η λοτταρία του Euler<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#euler" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#euler'"><span>#</span></a></h2>
+<p>Στην Άνω Περαραχούλα κάθε μήνα γίνεται μια λοτταρία η οποία έχει τους εξής όρους:</p>
+<ul class="simple">
+<li><p>Όποιος θέλει να συμμετέχει πρέπει να δώσει μία ακολουθία από 50 αριθμούς, όλοι από το 1 μέχρι και το 50.</p></li>
+<li><p>Η σειρά των αριθμών μετράει. Έτσι, είναι διαφορετικό να δώσει κανείς την ακολουθία 1,2,3,4,5,…,50 από το να δώσει την ακολουθία 1,2,4,3,5,…,50.</p></li>
+<li><p>Μπορεί να επαναληφθεί ένας αριθμός οσεσδήποτε φορές το επιθυμούμε. Έτσι, μπορεί κανείς να δώσει μία ακολουθία με 50 άσσους (1,1,1,…,1).</p></li>
+</ul>
+<p>Με αυτούς τους κανόνες, οι δυνατοί συνδυασμοί που μπορούν να εμφανισθούν στην κλήρωση είναι  <span class="math notranslate nohighlight">\(50^{50}\)</span> . Εξηγούμαι. Η κληρωτίδα θα βγάλει μία σειρά από 50 αριθμούς καθένας από τους οποίους μπορεί να είναι οποιοσδήποτε από το 1 μέχρι και το 50. Έτσι, για τον πρώτο αριθμό υπάρχουν 50 διαφορετικές επιλογές. Επίσης, ανεξάρτητα από την επιλογή του πρώτου αριθμού, υπάρχουν και 50 επιλογές για τον δεύτερο αριθμό, επομένως υπάρχουν συνολικά  <span class="math notranslate nohighlight">\(50\times50=50^2\)</span>  επιλογές για τους δύο πρώτους αριθμούς. Για τον τρίτο αριθμό υπάρχουν επίσης 50 επιλογές, το ίδιο και για τον τέταρτο, τον πέμπτο κ.ο.κ., οπότε συνολικά έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[50\times50\times\ldots\times50=50^{50}\]</div>
+<p>δυνατούς συνδυασμούς. Από αυτούς εμείς καταθέτουμε έναν ακριβώς συνδυασμό, άρα η πιθανότητα να κερδίσουμε είναι ακριβώς:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{1}{50^{50}}\approx1.126\times10^{-85}.\]</div>
+<p>Λίγο πιο δίπλα, στην Κάτω Περαραχούλα κάθε μήνα γίνεται η ίδια λοτταρία, αλλά, επειδή οι κάτοικοι του χωριού είναι ιδιαίτερα προληπτικοί, έχουν απαγορεύσει δια ροπάλου τον αριθμό 13 (ούτε κληρώνεται ούτε επιτρέπεται να παιχτεί). Έτσι, για να παίξει κανείς πρέπει να καταθέσει μία σειρά από 50 αριθμούς κανείς από τους οποίους δεν πρέπει να είναι το 13. Συνεπώς, για τον πρώτο αριθμό έχουμε 49 επιλογές, για τον δεύτερο 49, για τον τρίτο  49 κ.λπ., άρα, όλα τα πιθανά αποτελέσματα είναι  <span class="math notranslate nohighlight">\(49^{50}\)</span>  και η πιθανότητά μας να κερδίσουμε είναι:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{1}{49^{50}}\approx3.092\times10^{-85}.\]</div>
+<p>Είναι σαφές ότι, δεδομένου ότι έχουμε να επιλέξουμε ανάμεσα σε 49 και όχι σε 50 αριθμούς, είναι, έστω και λίγο, πιο «εύκολο» να κερδίσουμε στην λοτταρία της Κάτω Περαραχούλας, παρά σε αυτήν της Άνω Περαραχούλας. Ωστόσο, πόσο πιο εύκολο είναι να κερδίσουμε στη μία λοτταρία σε σχέση με την άλλη; Για να το υπολογίσουμε αυτό αρκεί να πάρουμε το πηλίκο των δύο πιθανοτήτων νίκης που έχουμε βρει:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{1/49^{50}}{1/50^{50}}=\dfrac{50^{50}}{49^{50}}=\left(\dfrac{50}{49}\right)^{50}\approx2.745973.\]</div>
+<p>Χμμμ… Κάτι μας θυμίζει αυτό. Για πάμε λίγο να γενικεύσουμε. Αν στην πρώτη λοτταρία δεν είχαμε 50 υποψήφιους αριθμούς αλλά  <span class="math notranslate nohighlight">\(n\)</span> , τότε ποια θα ήταν η πιθανότητα να νικήσουμε; Για τον πρώτο αριθμό που επιλέγουμε έχουμε  <span class="math notranslate nohighlight">\(n\)</span>  επιλογές, για τον δεύτερο και πάλι  <span class="math notranslate nohighlight">\(n\)</span>  κ.ο.κ., επομένως έχουμε συνολικά  <span class="math notranslate nohighlight">\(n^n\)</span>  δυνατές επιλογές. Επομένως, η πιθανότητα νίκης μας είναι ίση με:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{1}{n^n}.\]</div>
+<p>Ανάλογα, στη δεύτερη λοτταρία επιλέγουμε  <span class="math notranslate nohighlight">\(n\)</span>  αριθμούς, αλλά έχουμε  <span class="math notranslate nohighlight">\(n-1\)</span>  επιλογές σε κάθε περίπτωση (θυμηθείτε ότι έχουμε πετάξει έναν αριθμό για «προληπτικούς» λόγους). Έτσι, έχουμε συνολικά  <span class="math notranslate nohighlight">\((n-1)^n\)</span>  δυνατές επιλογές, άρα η πιθανότητα νίκης είναι ίση με:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{1}{(n-1)^n}.\]</div>
+<p>Παίρνοντας τον λόγο των δύο πιθανοτήτων έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{1/(n-1)^n}{1/n^n}=\dfrac{n^n}{(n-1)^n}=\left(\dfrac{n}{n-1}\right)^n.\]</div>
+<p>Αςδούμε κάποιες τιμές της παράστασης  <span class="math notranslate nohighlight">\(\left(\dfrac{n}{n-1}\right)^n\)</span> :</p>
+<div class="wp-block-image alignnone size-full wp-image-1033 docutils container">
+<figure class="wp-image-1033 align-default" id="id10">
+<img alt="Κάτω Περαραχούλα for ever!" src="docs/After-maths/{static}_static/images/uploads/2019/08/ezgif.com-crop4.gif"/>
+<figcaption>
+<p><span class="caption-text">Κάτω Περαραχούλα for ever!</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id10"><span>#</span></a></p>
+</figcaption>
+</figure>
+</div>
+<p>Όπως βλέπουμε, καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  παίρνει αυθαίρετα μεγάλες τιμές η παραπάνω ποσότητα πλησιάζει το  <span class="math notranslate nohighlight">\(e\)</span>  - μπορούμε, προφανώς,να το αποδείξουμε και αυστηρά, αλλά δεν μας απασχολεί αυτό αυτήν τη στιγμή. Έτσι, κατά προσέγγιση, στην Κάτω Περαραχούλα κερδίζουμε περίπου  <span class="math notranslate nohighlight">\(e\)</span>  φορές πιο εύκολα από ότι στην Άνω Περαραχούλα.</p>
+</section>
+<section id="id4">
+<h2>Τα φρουτάκια του Euler<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h2>
+<p>Προφανώς δεν αναφερόμαστε στα φρούτα που μπορεί να έτρωγε ο Euler μετά το μεσημεριανό του ή σε κάτι τέτοιο, αλλά στο γνωστό παιχνίδι τζόγου. Ας υποθέσουμε λοιπόν ότι έχουμε μια μηχανή φρουτακίων με την οποία έχουμε πιθανότητα νίκης:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{1}{200}.\]</div>
+<p>Αποφασίζουμε να ικανοποιήσουμε ένα όνειρο ζωής και να παίξουμε φρουτάκια τόσες πολλές φορές έτσι ώστε να κερδίσουμε τουλάχιστον μία φορά. Επειδή όμως είμαστε και λογικοί άνθρωποι (έχει φανεί αυτό ως τώρα, άλλωστε), δε θέλουμε να πετάξουμε και μια περιουσία, γι” αυτό και αποφασίζουμε να παίξουμε μόλις 200 φορές. Έτσι, σκεφτόμαστε, αφού σε κάθε δοκιμή έχουμε πιθανότητα  <span class="math notranslate nohighlight">\(\dfrac{1}{200}\)</span>  κερδίσουμε, αν παίξουμε 200 φορές, ε, μία θα την κερδίσουμε.</p>
+<p>Μιας και ο διάολος έχει πολλά ποδάρια, όπως ξέρουμε, ας δούμε και ποια είναι η πιθανότητα, παίζοντας 200 φορές φρουτάκια με πιθανότητα νίκης  <span class="math notranslate nohighlight">\(\dfrac{1}{200}\)</span> , να μην κερδίσουμε <em>ούτε μία φορά. *Αρχικά, πρέπει να κάνουμε την εξής παρατήρηση: το αποτέλεσμα που θα φέρουμε σε κάποιο από τα παιχνίδια μας ούτε επηρεάζεται από τα προηγούμενα αποτελέσματά μας ούτε, με τη σειρά του, επηρεάζει τα επόμενα. Δηλαδή, το να κερδίσουμε στην όγδοη προσπάθειά μας δε μας λέει απολύτως τίποτα για το τι θα κάνουμε στην ένατη προσπάθειά μας ούτε για το τι συνέβη στην έβδομη. Τέτοια γεγονότα, των οποίων η έκβαση του ενός δεν επηρεάζει την έκβαση του άλλου, λέγονται *στοχαστικά ανεξάρτητα.</em> Σε αυτές τις περιπτώσεις, όπου έχουμε δύο ή περισσότερα γεγονότα που είναι ανά δύο στοχαστικά ανεξάρτητα, η πιθανότητα να προκύψει ένα συγκεκριμένο αποτέλεσμα προκύπτει ως το γινόμενο των επιμέρους πιθανοτήτων. Επομένως, αφού κάθε νίκη στο παράδειγμά μας έχει πιθανότητα  <span class="math notranslate nohighlight">\(\dfrac{1}{200}\)</span> , οπότε η ήττα θα έχει πιθανότητα:</p>
+<div class="math notranslate nohighlight">
+\[1-\dfrac{1}{200}=\dfrac{199}{200},\]</div>
+<p>αφού θα κάνουμε 200 στοχαστικά ανεξάρτητες προσπάθειες, η πιθανότητα να μην κερδίσουμε σε καμία από αυτές είναι:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{199}{200}\times\dfrac{199}{200}\ldots\times\dfrac{199}{200}=\left(\dfrac{199}{200}\right)^{200}\approx0.36696.\]</div>
+<p>Πριν συνεχίσουμε, ας εξηγήσουμε λίγο γιατί μπορούμε να πάρουμε το γινόμενο των πιθανοτήτων ως την πιθανότητα να συμβούν ταυτόχρονα όσα γεγονότα θέλουμε (στην προκειμένη, να χάσουμε 200 φορές). Μπορούμε να δούμε το κάθε παιχνίδι σαν τη ρίψη ενός ζαριού με 200 έδρες (άλλωστε, <a class="reference external" href="https://en.wikipedia.org/wiki/Dice">δεν έχουν όλα τα ζάρια έξι έδρες</a>), από τις οποίες εμείς προσπαθούμε να μαντέψουμε ποια θα εμφανιστεί. Έτσι, η πιθανότητα να μαντέψουμε σωστά είναι ακριβώς  <span class="math notranslate nohighlight">\(\dfrac{1}{200}\)</span> , άρα, η πιθανότητα αποτυχίας είναι  <span class="math notranslate nohighlight">\(\dfrac{199}{200}\)</span> . Αν τώρα ρίξουμε δύο φορές το ζάρι, τα δυνατά αποτελέσματα είναι  <span class="math notranslate nohighlight">\(200\times200=200^2\)</span> , επομένως, η πιθανότητα να αποτύχουμε και στις δύο μαντεψιές μας είναι να διαλέξουμε την πρώτη φορά κάποιοαπό τα 199 αποτελέσματα που δε θα εμφανιστούν και τη δεύτερη πάλι κάποιο από τα 199 αποτελέσματα που δε θα εμφανιστούν. Δεδομένου ότι η πρώτη ζαριά δεν επηρεάζει με κανέναν τρόπο τη δεύτερη, οι περιπώσεις που δεν μας ευνοούν είναι:</p>
+<div class="math notranslate nohighlight">
+\[199\times199=199^2,\]</div>
+<p>οπότε και η πιθανότητα να αποτύχουμε είναι:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{199^2}{200^2}=\left(\dfrac{199}{200}\right)^2=\dfrac{199}{200}\times\dfrac{199}{200}.\]</div>
+<p>Με άλλα λόγια, η πιθανότητα να αποτύχουμε και στις δύο μαντεψιές είναι το γινόμενο των πιθανοτήτων να αποτύχουμε σε καθεμία από τις μαντεψιές ξεχωριστά (δεδομένου ότι είναι ανεξάρτητες η μία από την άλλη).</p>
+<p>Πίσω στο πρόβλημά μας, τώρα, ας δούμε την κατάσταση λίγο πιο γενικά. Έστω ότι κερδίζουμε με πιθανότητα  <span class="math notranslate nohighlight">\(\dfrac{1}{n}\)</span>  σε ένα παιχνίδι της μηχανής, οπότε και αποφασίζουμε να παίξουμε  <span class="math notranslate nohighlight">\(n\)</span>  παιχνίδια, με το σκεπτικό ότι ένα από αυτά θα το κερδίσουμε. Σε κάθε δοκιμή μας, η πιθανότητα να χάσουμε είναι:</p>
+<div class="math notranslate nohighlight">
+\[1-\dfrac{1}{n},\]</div>
+<p>επομένως, αν παίξουμε  <span class="math notranslate nohighlight">\(n\)</span>  φορές, δεδομένου ότι, όπως είπαμε, τα παιχνίδια είναι ανεξάρτητα το ένα από το άλλο, η πιθανότητα να χάσουμε και τις  <span class="math notranslate nohighlight">\(n\)</span>  φορές είναι:</p>
+<div class="math notranslate nohighlight">
+\[\left(1-\dfrac{1}{n}\right)^n.\]</div>
+<p>Και, καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  μεγαλώνει, πόσο περίπου είναι η παραπάνω πιθαντότητα; Σωστά μαντέψατε:  <span class="math notranslate nohighlight">\(\dfrac{1}{e}\)</span> .</p>
+</section>
+<section id="id5">
+<h2>Τρέχουμε τώρα!<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id5'"><span>#</span></a></h2>
+<p>Ας υποθέσουμε ότι βρισκόμαστε σε κάποιο σημείο ενός πολύ μεγάλου ευθύγραμμου δρόμου και ότι κινούμαστε με τον εξής τρόπο:</p>
+<ul class="simple">
+<li><p>Ορίζουμε ένα σημείο αναφοράς έξω από τον δρόμο και τη χρονική στιγμή  <span class="math notranslate nohighlight">\(t=0s\)</span>  παίρνουμε μία απόσταση από αυτό, ας πούμε  <span class="math notranslate nohighlight">\(x(0)=1m\)</span> .</p></li>
+<li><p>Κάθε στιγμή που κινούμαστε φροντίζουμε έτσι ώστε το μέτρο της ταχύτητας μας (μετρημένο σε  <span class="math notranslate nohighlight">\(m/s\)</span> ) να είναι ίσο, ως καθαρός αριθμός, με την απόστασή μας από αυτό το σημείο. Έτσι, την χρονική στιγμή  <span class="math notranslate nohighlight">\(t=0s\)</span>  θα πρέπει να έχουμε και μία αρχική ταχύτητα  <span class="math notranslate nohighlight">\(v(0)=1m/s\)</span> .</p></li>
+<li><p>Επιτρέπουμε στον χρόνο να έχει αρνητικές τιμές, υπό την εξής έννοια: η χρονική στιγμή  <span class="math notranslate nohighlight">\(t=-5s\)</span>  είναι η στιγμή πέντε δευτερόλεπτα πριν από τη χρονική στιγμή  <span class="math notranslate nohighlight">\(t=0s\)</span>  (άλλωστε, κανείς δεν είπε ότι το φαινόμενο <em>ξεκινάει</em> τη χρονική στιγμή  <span class="math notranslate nohighlight">\(t=0s\)</span> , απλώς τότε <em>ξεκινάμε να το παρατηρούμε</em>).</p></li>
+</ul>
+<p>Αν, λοιπόν, συμβολίσουμε με  <span class="math notranslate nohighlight">\(x(t)\)</span>  την απόστασή μας από το σημείο αναφοράς τη χρονική στιγμή  <span class="math notranslate nohighlight">\(t\)</span>  και με  <span class="math notranslate nohighlight">\(v(t)\)</span>  την ταχύτητά μας τη χρονική στιγμή  <span class="math notranslate nohighlight">\(t\)</span> , τότε αυτό που θέλουμε να ισχύει κάθε χρονική στιγμή  <span class="math notranslate nohighlight">\(t\)</span>  είναι (αγνοώντας τις μονάδες μέτρησης των δύο μεγεθών):</p>
+<div class="math notranslate nohighlight">
+\[v(t)=x(t).\]</div>
+<p>Ας πάρουμε τώρα κάποια χρονική στιγμή  <span class="math notranslate nohighlight">\(t\)</span>  και μία απειροελάχιστη μεταβολή του χρόνου,  <span class="math notranslate nohighlight">\(dt\)</span> . Τότε, στο διάστημα μεταξύ των χρονικών στιγμών  <span class="math notranslate nohighlight">\(t\)</span>  και  <span class="math notranslate nohighlight">\(t+dt\)</span> , η κίνηση που εκτελούμε είναι, κατά προσέγγιση, ευθύγραμμη, επομένως, η ταχύτητα θα δίνεται από τη σχέση (υποθέτουμε ότι  <span class="math notranslate nohighlight">\(dt&gt;0\)</span>  - σε αντίθετη περίπτωση, εργαζόμαστε ανάλογα):</p>
+<div class="math notranslate nohighlight">
+\[v(t)\approx\dfrac{dx(t)}{dt}=\dfrac{x(t+dt)-x(t)}{dt},\]</div>
+<p>όπου με  <span class="math notranslate nohighlight">\(dx(t)\)</span>  συμβολίζουμε την (απειροελάχιστη) μεταβολή της θέσης μας σε αυτό το χρονικό διάστημα, η οποία είναι ίση με  <span class="math notranslate nohighlight">\(x(t+dt)-x(t)\)</span> . Επομένως, κατά προσέγγιση, η σχέση μας ξαναγράφεται ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{x(t+dt)-x(t)}{dt}\approx x(t)\Leftrightarrow x(t+dt)-x(t)\approx x(t)dt\Leftrightarrow x(t+dt)\approx(1+dt)x(t).\]</div>
+<p>Ας προσπαθήσουμε τώρα να κοιτάξουμε λίγο πιο μακριά από το  <span class="math notranslate nohighlight">\(t\)</span> . Για την ακρίβεια, θα προσπαθήσουμε να προσεγγίσουμε το  <span class="math notranslate nohighlight">\(x(t+2dt)\)</span> . Παρατηρούμε ότι, αν πάμε στην παραπάνω σχέση και βάλουμε στη θέση του  <span class="math notranslate nohighlight">\(t\)</span>  το  <span class="math notranslate nohighlight">\(t+dt\)</span>  τότε παίρνουμε:</p>
+<div class="math notranslate nohighlight">
+\[x(t+dt+dt)\approx(1+dt)x(t+dt)\approx(1+dt)(1+dt)x(t)=(1+dt)^2x(t),\]</div>
+<p>όπου χρησιμοποιήσαμε και το γεγονός ότι  <span class="math notranslate nohighlight">\(x(t+dt)\approx(1+dt)x(t)\)</span> . Έτσι, έχουμε δείξει ότι:</p>
+<div class="math notranslate nohighlight">
+\[x(t+2dt)\approx(1+dt)^2x(t).\]</div>
+<p>Ανάλογα, θέτοντας στην αρχική σχέση  <span class="math notranslate nohighlight">\(t+2dt\)</span>  στη θέση του  <span class="math notranslate nohighlight">\(t\)</span>  παίρνουμε:</p>
+<div class="math notranslate nohighlight">
+\[x(t+2dt+dt)\approx(1+dt)x(t+2dt)\approx(1+dt)(1+dt)^2x(t)=(1+dt)^3x(t),\]</div>
+<p>δηλαδή:</p>
+<div class="math notranslate nohighlight">
+\[x(t+3dt)\approx(1+dt)^3x(t).\]</div>
+<p>Γενικότερα, με το ίδιο «τέχνασμα», μπορούμε να αποδείξουμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[x(t+ndt)\approx(1+dt)^nx(t).\]</div>
+<p>Τώρα ήρθε η ώρα να κάνουμε άλλο ένα καθαρά αλγεβρικό τέχνασμα. Αρχικά, στη θέση του  <span class="math notranslate nohighlight">\(t\)</span>  βάζουμε το 0, οπότε παίρνουμε - χρησιμοποιώντας την υπόθεση  <span class="math notranslate nohighlight">\(x(0)=1\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[x(ndt)\approx(1+dt)^n.\]</div>
+<p>Θέτουμε τώρα  <span class="math notranslate nohighlight">\(u=ndt\)</span> , οπότε η παραπάνω σχέση ξαναγράφεται ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[x(u)\approx(1+dt)^{u/dt}=\left(\left(1+\dfrac{1}{1/dt}\right)^{1/dt}\right)^u.\]</div>
+<p>Κι εδώ ας κάνουμε την παρατήρηση ότι, αφού το  <span class="math notranslate nohighlight">\(dt\)</span>  είναι «απειροελάχστο», το  <span class="math notranslate nohighlight">\(\dfrac{1}{dt}\)</span>  θα είνα «πολύ μεγάλο», επομένως η παράσταση:</p>
+<div class="math notranslate nohighlight">
+\[\left(1+\dfrac{1}{1/dt}\right)^{1/dt}\]</div>
+<p>θα είναι σχεδόν ίση με  <span class="math notranslate nohighlight">\(e\)</span> . Έτσι, καταλήγουμε στο ότι:</p>
+<div class="math notranslate nohighlight">
+\[x(u)=e^u,\]</div>
+<p>δηλαδή, αν αντί για  <span class="math notranslate nohighlight">\(u\)</span>  χρησιμοποιήσουμε το γράμμα  <span class="math notranslate nohighlight">\(t\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[x(t)=e^t.\]</div>
+<p>Με άλλα λόγια, για να τρέχουμε με ταχύτητα που είναι κάθε στιγμή ίση με την απομάκρυνσή μας από ένα σταθερό σημείο αναφοράς πρέπει να κινούμαστε με εκθετικούς ρυθμούς.</p>
+<p><em>Τα παραπάνω, προφανώς, δεν συνιστούν αυστηρές μαθηματικές προσεγγίσεις αλλά μία πιο «χαλαρή» αντιμετώπιση του ζητήματος. Ωστόσο, για όποιον κατέχει τις απαραίτητες γνώσεις απειροστικού λογισμού, δε θα είναι δύσκολο να δει τις αυστηρές διατυπώσεις πίσω από τα παραπάνω επιχειρήματα.</em></p>
+</section>
+<section id="id6">
+<h2>Επίλογος - Δύο λόγια για την εκθετική συνάρτηση<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id6" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id6'"><span>#</span></a></h2>
+<p>Δεν είδαμε και λίγες εμφανίσεις του  <span class="math notranslate nohighlight">\(e\)</span>  - αν κάποιος ενδιαφέρεται να δει κι άλλες μπορεί να διαβάσει, για αρχή, <a class="reference external" href="http://kkuniyuk.com/Math151e.pdf">αυτό το άρθρο</a> και τη σχετική βιβλίογραφία. Ας ασχοληθούμε όμως και λίγο με την αγαπημένη εκθετική μας συνάρτηση. Έστω, λοιπόν,  <span class="math notranslate nohighlight">\(f(x)=e^x\)</span>  η εκθετική συνάρτηση με γραφική παράσταση, όπως γνωρίζουμε, την ακόλουθη:</p>
+<div class="wp-block-image alignnone size-full wp-image-1044 docutils container">
+<figure class="wp-image-1044 align-default" id="id11">
+<img alt="Η γραφική παράσταση της εκθετικής." src="docs/After-maths/{static}_static/images/uploads/2019/08/ezgif-5-ffba512886.pdf-1.png"/>
+<figcaption>
+<p><span class="caption-text">Η γραφική παράσταση της εκθετικής.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11"><span>#</span></a></p>
+</figcaption>
+</figure>
+</div>
+<p>Είδαμε παραπάνω ότι, για μεγάλες τιμές του  <span class="math notranslate nohighlight">\(n\)</span> , ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[\left(1+\dfrac{1}{n}\right)^n\approx e,\]</div>
+<p>επομένως, αναμένουμε η συνάρτηση:</p>
+<div class="math notranslate nohighlight">
+\[g_n(x)=\left(\left(1+\dfrac{1}{n}\right)^n\right)^x=\left(1+\dfrac{1}{n}\right)^{nx}\]</div>
+<p>θα «μοιάζει» με την εκθετική. Πράγματι, όπως βλέπουμε και παρακάτω:</p>
+<figure class="wp-image-1045 align-default" id="id12">
+<img alt="Στα χνάρια της εκθετικής." src="docs/After-maths/{static}_static/images/uploads/2019/08/ezgif.com-gif-maker-4.gif"/>
+<figcaption>
+<p><span class="caption-text">Στα χνάρια της εκθετικής.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id12"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Μπορούμε όμως να βρούμε και μία «καλύτερη» προσέγγιση της εκθετικής. Με τον όρο «καλύτερη», εννοούμε μία προσέγγιση που να μην έχει το  <span class="math notranslate nohighlight">\(x\)</span>  (την ανεξάρτητη μεταβλητή) στον εκθέτη (έτσι ώστε να μην προσεγγίσουμε την εκθετική μέσω άλλων εκθετικών συναρτήσεων).</p>
+<p>Αρχικά, ας επιστρέψουμε στην πρώτη μας προσέγγιση, αυτή με τους διαδοχικούς ανατοκισμούς της μίας δραχμής μας. Ποιο θα ήταν το μέγιστο κέρδος (θεωρητικά) που θα μπορούσαμε να πετύχουμε αν οι προσφορές που δεχόμασταν δεν μας εξασφάλιζαν τόκο ίσο με  <span class="math notranslate nohighlight">\(\dfrac{1}{n}\)</span>  αλλά ίσο με  <span class="math notranslate nohighlight">\(\dfrac{x}{n}\)</span> ; Δηλαδή, αν η τράπεζα  <span class="math notranslate nohighlight">\(T_n\)</span>  μας προσέφερε το ίδιο προϊόν, απλώς το επιτόκιο ήταν ελαφρώς τροποιποιημένο (π.χ., θα μπορούσε να είναι  <span class="math notranslate nohighlight">\(\dfrac{0.02}{n}\)</span>  αντί για  <span class="math notranslate nohighlight">\(\dfrac{1}{n}\)</span> ). Τότε, στο πρώτο τμήμα του έτους θα είχαμε ένα κεφάλαιο ίσο με:</p>
+<div class="math notranslate nohighlight">
+\[1+\dfrac{x}{n}\]</div>
+<p>δραχμές, ενώ, πορευόμενοι όπως και στο πρώτο παράδειγμα, βρίσκουμε ότι στο τέλος του έτους έχουμε ένα συνολικό κεφάλαιο ίσο με:</p>
+<div class="math notranslate nohighlight">
+\[\left(1+\dfrac{x}{n}\right)^n.\]</div>
+<p>Πόσο, όμως, είναι αυτό το κέρδος που έχουμε, καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  μεγαλώνει απεριόριστα; Ας κάνουμε πρώτα την εξής παρατήρηση: καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  μεγαλώνει απεριόριστα, έχουμε δει ότι η παρακάτω ποσότητα:</p>
+<div class="math notranslate nohighlight">
+\[\left(1+\dfrac{1}{n}\right)^n\]</div>
+<p>προσεγγίζει το  <span class="math notranslate nohighlight">\(e\)</span> . Γενικά, το γεγονός ότι το  <span class="math notranslate nohighlight">\(n\)</span>  είναι φυσικός δεν παίζει κάποιον ρόλο, αφού αυτό που, πρακτικά, μας απασχολεί είναι το ότι μεγαλώνει απεριόριστα. Έτσι, και η παρακάτω παράσταση προσεγγίζει το  <span class="math notranslate nohighlight">\(e\)</span>  καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  μεγαλώνει απεριόριστα:</p>
+<div class="math notranslate nohighlight">
+\[\left(1+\dfrac{1}{\sqrt{n}}\right)^{\sqrt{n}},\]</div>
+<p>αφού η  <span class="math notranslate nohighlight">\(\sqrt{n}\)</span>  μεγαλώνει απεριόριστα. Λίγο πιο γενικά, αν  <span class="math notranslate nohighlight">\(f(n)\)</span>  είναι μία συνάρτηση με πεδίο ορισμού τους φυσικούς αριθμούς η οποία, καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  μεγαλώνει απεριόριστα, μεγαλώνει και η ίδια απεριόριστα (πιο αυστηρά,  <span class="math notranslate nohighlight">\(\lim\limits_{n\to+\infty}f(n)=+\infty\)</span> ), τότε η παρακάτω ποσότητα, καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  μεγαλώνει απεριόριστα, προσεγγίζει το  <span class="math notranslate nohighlight">\(e\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[\left(1+\dfrac{1}{f(n)}\right)^{f(n)}.\]</div>
+<p>Με αυτό κατά νου, για οποιοδήποτε  <span class="math notranslate nohighlight">\(x&gt;0\)</span>  παρατηρούμε ότι, καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  μεγαλώνει απεριόριστα, το ίδιο κάνει και η παράσταση  <span class="math notranslate nohighlight">\(\dfrac{n}{x}\)</span> , επομένως η παράσταση:</p>
+<div class="math notranslate nohighlight">
+\[\left(1+\dfrac{1}{n/x}\right)^{n/x}\]</div>
+<p>προσεγγίζει το  <span class="math notranslate nohighlight">\(e\)</span>  καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  μεγαλώνει απεριόριστα. Επομένως, ίσως είναι εύλογο να θεωρήσουμε ότι η παρακάτω ποσότητα:</p>
+<div class="math notranslate nohighlight">
+\[\left(\left(1+\dfrac{1}{n/x}\right)^{n/x}\right)^x,\]</div>
+<p>προσεγγίζει το  <span class="math notranslate nohighlight">\(e^x\)</span>  καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  μεγαλώνει απεριόριστα. Αρχικά, ας ξαναγράψουμε λίγο πιο όμορφα την παραπάνω παράσταση:</p>
+<div class="math notranslate nohighlight">
+\[\left(\left(1+\dfrac{1}{n/x}\right)^{n/x}\right)^x=\left(1+\dfrac{x}{n}\right)^{\frac{n}{x}\cdot x}=\left(1+\dfrac{x}{n}\right)^n.\]</div>
+<p>(Παρατηρήστε ότι αυτό που βρήκαμε είναι το θεωρητικό κεφάλαιο που θα έχουμε στο τέλος του χρόνου με επιτόκιο  <span class="math notranslate nohighlight">\(\dfrac{x}{n}\)</span> , όπως είδαμε παραπάνω). Τώρα, σχεδιάζοντας τη γραφική παράσταση της:</p>
+<div class="math notranslate nohighlight">
+\[h_n(x)=\left(1+\dfrac{x}{n}\right)^n,\]</div>
+<p>παρατηρούμε ότι, πράγματι, καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  μεγαλώνει απεριόριστα, η γραφική της παράσταση προσεγγίζει αυτήν της εκθετικής συνάρτησης:</p>
+<div class="wp-block-image alignnone size-full wp-image-1049 docutils container">
+<figure class="wp-image-1049 align-default" id="id13">
+<img alt="Προσεγγίζοντας την εκθετική με πολυώνυμα." src="docs/After-maths/{static}_static/images/uploads/2019/08/ezgif.com-gif-maker-5.gif"/>
+<figcaption>
+<p><span class="caption-text">Προσεγγίζοντας την εκθετική με πολυώνυμα.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id13"><span>#</span></a></p>
+</figcaption>
+</figure>
+</div>
+<p>Μάλιστα, η παραπάνω προσέγγιση δεν ισχύει μόνο για  <span class="math notranslate nohighlight">\(x&gt;0\)</span> , αλλά και για  <span class="math notranslate nohighlight">\(x&lt;0\)</span>  (μπορείτε να εξηγήσετε γιατί συμβαίνει αυτό; - χρησιμοποιήστε την προσέγγιση  <span class="math notranslate nohighlight">\(\left(1-\dfrac{1}{n}\right)^n\)</span>  για το  <span class="math notranslate nohighlight">\(\dfrac{1}{e}\)</span> ).</p>
+<p>Μία τελευταία παρατήρηση, που είναι αρκετά σημαντική, είναι ότι οι συανρτήσεις  <span class="math notranslate nohighlight">\(h_n(x)\)</span>  είναι όλες τους πολυώνυμα και, μάλιστα, αρκετά «απλά» (έχουν όλα ακριβώς από μία ρίζα, την  <span class="math notranslate nohighlight">\(x_n=-n\)</span> ). Έτσι, προσεγγίσαμε την εκθετική συνάρτηση, όπως είχαμε υποσχεθεί, χωρίς να χρησιμοποιήσουμε άλλες εκθετικές συναρτήσεις, αλλά αρκετά απλούστερες (στην προκειμένη, πολυώνυμα).</p>
+<p>Καλό αυγουστιάτικο απόγευμα!</p>
+<blockquote>
+<div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        Ο Rolle και τα κουνούπια
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">
+        Οι Καμπύλες που Άλλαξαν τον Κόσμο
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id1'" class="reference internal" href="#id1">Εισαγωγή</a></li>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Το «παραδοσιακό» πρόβλημα του διαρκούς ανατοκισμού</a></li>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Ήταν ένας γάιδαρος…</a></li>
+<li><a :data-current="activeSection === '#euler'" class="reference internal" href="#euler">Η λοτταρία του Euler</a></li>
+<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Τα φρουτάκια του Euler</a></li>
+<li><a :data-current="activeSection === '#id5'" class="reference internal" href="#id5">Τρέχουμε τώρα!</a></li>
+<li><a :data-current="activeSection === '#id6'" class="reference internal" href="#id6">Επίλογος - Δύο λόγια για την εκθετική συνάρτηση</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

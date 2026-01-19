@@ -1,0 +1,28 @@
+Ασκήσεις στις δευτεροβάθμιες εξισώσεις
+######################################
+
+.. meta::
+	:date: 2018-09-16 14:59
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: Α' Λυκείου, ασκήσεις, δευτεροβάθμιες, εξισώσεις
+	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b4%ce%b5%cf%85%cf%84%ce%b5%cf%81%ce%bf%ce%b2%ce%ac%ce%b8%ce%bc%ce%b9%ce%b5%cf%82-%ce%b5%ce%be%ce%b9%cf%83%cf%8e%cf%83
+	:status: published
+	:attachments: _static/images/uploads/2018/09/1200px-caspar_david_friedrich_-_der_mc3b6nch_am_meer_-_google_art_project.jpg
+
+.. figure:: /_static/images/uploads/2018/09/1200px-caspar_david_friedrich_-_der_mc3b6nch_am_meer_-_google_art_project.jpg
+	:alt: Ο πίνακας `Μοναχός στη θάλασσα  <https://en.wikipedia.org/wiki/The_Monk_by_the_Sea>`__ του `Gaspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__. 
+	:align: center
+
+	Ο πίνακας `Μοναχός στη θάλασσα  <https://en.wikipedia.org/wiki/The_Monk_by_the_Sea>`__ του `Gaspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__. 
+
+
+Σε αυτό το φυλλάδιο περιέχονται διάφορες ασκήσεις σε σχέση με τη δευτεροβάθμια εξίσωση και τη γεωμετρική της ερμηνεία (σημεία τομής παραβολής με τον οριζόντιο άξονα) που έχουν ως στόχο να εισάγουν τους μαθητές στις εξισώσεις μεγαλύτερου βαθμού.
+
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1y5lKwwqUu4B3eHLIQMlFycMKDVHaa1qQ/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+
+
+
+Καλό κυριακάτικο απόγευμα!
+
+.. youtube:: FOCucJw7iT8 

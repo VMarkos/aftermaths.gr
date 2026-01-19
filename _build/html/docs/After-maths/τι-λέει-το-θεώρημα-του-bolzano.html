@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2021-12-19 21:35" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Μαθηματικά" name="category"/>
+<meta content="featured, Αξίωμα της πληρότητας" name="tags"/>
+<meta content="%cf%84%ce%b9-%ce%bb%ce%ad%ce%b5%ce%b9-%cf%84%ce%bf-%ce%b8%ce%b5%cf%8e%cf%81%ce%b7%ce%bc%ce%b1-%cf%84%ce%bf%cf%85-bolzano" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2021/12/emile_claus_-_zonnegloed_1905_-_museum_dhondt-dhaenens_te_deurle_12-02-2010_15-17-56.jpg" name="attachments"/>
+<title>Τι λέει το Θεώρημα του Bolzano; | aftermaths</title>
+<meta content="Τι λέει το Θεώρημα του Bolzano; | aftermaths" property="og:title"/>
+<meta content="Τι λέει το Θεώρημα του Bolzano; | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html" rel="next" title="Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι"/>
+<link href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html" rel="prev" title="Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Τι λέει το Θεώρημα του Bolzano;</span>
+</nav>
+<div id="content" role="main">
+<section id="bolzano">
+<h1>Τι λέει το Θεώρημα του Bolzano;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#bolzano"><span>#</span></a></h1>
+<figure class="align-center" id="id6">
+<img alt="Ο πίνακας *Η λάμψη του Ήλιου* του `Emile Claus  &lt;https://en.wikipedia.org/wiki/Emile_Claus&gt;`__\ *.*" src="_static/images/uploads/2021/12/emile_claus_-_zonnegloed_1905_-_museum_dhondt-dhaenens_te_deurle_12-02-2010_15-17-56.jpg"/>
+<figcaption>
+<p><span class="caption-text">Ο πίνακας <em>Η λάμψη του Ήλιου</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Emile_Claus">Emile Claus</a><em>.</em></span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id6"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p><em>Αυτό το άρθρο θα είχε δημοσιευθεί νωρίτερα, αλλά οι επιταγές της καθημερινής ζωής πήγαν τα πράγματα λίγο πίσω. :) Έτσι, κάποιες αναφορές στον Νοέμβρη που δεν έχουμε πλέον μαζί μας, ας θεωρηθούν «μαθηματική αδεία».</em></p>
+<p>Τώρα που έχει μπει ο Νοέμβρης στα καλά του, γκρι και μουντός όπως πάντα, και που το φθινόπωρο οδεύει προς το τέλος του, έρχεται σιγά-σιγά ο καιρός του Θεωρήματος Bolzano. Γενικά, με τις πανελλήνιες πολλά θεωρήματα της ύλης έχουν αποκτήσει μία ιδιαίτερη σχέση με τις εποχές του χρόνου. Οι παράγωγοι έρχονται εκεί γύρω στα Χριστούγεννα, το ΘΜΤ είναι πρωταγωνιστής τις ημέρες των γιορτών που γαλοπούλες ψήνονται και δέντρα στολίζονται, τα ολοκληρώματα βοηθούν στην πέψη μετά τις γιορτές και μας προετοιμάζουν για το τριώδιο ενώ έννοιες όπως «αντίστροφη συνάρτηση» έχουν ακόμα πάνω τους ένα άρωμα από καλοκαίρι.</p>
+<p>Κάπως έτσι και το θεώρημα του Bolzano έχει μία φθινοπωρινή αύρα, καθώς συνήθως αυτόν τον καιρό είναι που ασχολούμαστε κατά κόρον με ασκήσεις επί ασκήσεων που το επικαλούνται με κάποιον τρόπο για να βγάλουν αυτό το πολυπόθητο αποτέλεσμα: «τουλάχιστον μία ρίζα». Η αλήθεια είναι ότι, ως θεώρημα, αυτό που μας λέει είναι κάτι ίσως πέρα κι από προφανές. Ωστόσο, η σημασία του για τη μαθηματική ανάλυση είναι κάτι παραπάνω από κομβική, θα έλεγε κανείς - κι αυτήν του, κυρίως, την πλευρά, θα φωτίσουμε παρακάτω.</p>
+<section id="id1">
+<h2>Τι μας λέει το θεώρημα;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id1'"><span>#</span></a></h2>
+<p>Πρακτικά, αυτό που μας λέει είναι ότι για να βγούμε από ένα περίκλειστο δωμάτιο πρέπει να περάσουμε την πόρτα (…). Πράγματι, ας δούμε λίγο τη διατύπωσή του:</p>
+<p>Αν  <span class="math notranslate nohighlight">\(f `  είναι μία συνάρτηση συνεχής στο  :math:`[a,b]\)</span>  με  <span class="math notranslate nohighlight">\(f(a)f(b)&lt;0\)</span>  τότε υπάρχει (τουλάχιστον ένα)  <span class="math notranslate nohighlight">\(x_0\in(a,b)\)</span>  έτσι ώστε  <span class="math notranslate nohighlight">\(f(x_0)=0.\)</span></p>
+<p>Πρακτικά, αυτό που μας λέει είναι ότι αν μία συνάρτηση βρίσκεται κάτω από τον οριζόντιο άξονα και λίγο πιο πέρα βρίσκεται πάνω από αυτόν, τότε, αν δεν κάνει κατακόρυφα άλματα και είναι ορισμένη παντού μεταξύ αυτών των δύο θέσεων, θα πρέπει να τέμνει και τον ίδιο τον άξονα.</p>
+<p>Εντάξει, δεν είναι και καμία τρομερή διαπίστωση. Αντιθέτως, είναι ίσως λίγο προφανής. Διότι, πράγματι, πώς θα μπορούσαμε να ξεκινήσουμε κάτω από τον άξονα  <span class="math notranslate nohighlight">\(x'x\)</span>  και σχεδιάζοντας μονοκοντυλιά μία καμπύλη να καταλήξουμε πάνω από αυτόν χωρίς να περάσουμε από πάνω του; Σαφώς και δε θα γινόταν κάτι τέτοιο. Ή μήπως θα γινόταν;</p>
+<p>Η αλήθεια είναι ότι αυτό που περιγράφει το θεώρημα είναι πολύ προφανές για να το χαρακτηρίζουμε ως θεώρημα - και όχι π.χ. ως λήμμα. Αλλά, προφανώς επίσης, για να έχει αποφανθεί η μαθηματική κοινότητα εδώ και τόσους αιώνες ότι, ναι, αυτό το αποτέλεσμα αξίζει να χαρακτηρίζεται θεώρημα, κάτι υπάρχει σε αυτό που το καθιστά, στην ουσία του, μη προφανές.</p>
+<p>Ας πάρουμε το παρακάτω σχήμα, που είναι, αυτό που λέμε, η γεωμετρική ερμηνεία του θεωρήματος - και που το περιγράψαμε παραπάνω με λόγια:</p>
+<div class="wp-block-image docutils container">
+<figure class="wp-image-9893 align-default" id="id7">
+<img alt="Γεωμετρική ερμηνεία του Θεωρήματος του Bolzano." src="https://aftermaths.gr/_static/images/uploads/2021/11/image.png?w=549"/>
+<figcaption>
+<p><span class="caption-text">Γεωμετρική ερμηνεία του Θεωρήματος του Bolzano.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id7"><span>#</span></a></p>
+</figcaption>
+</figure>
+</div>
+<p>Όπως βλέπουμε και παραπάνω, το θεώρημα του Bolzano μας εξασφαλίζει την ύπαρξη του σημείου τομής της γραφικής παράστασης της  <span class="math notranslate nohighlight">\(f\)</span>  με τον οριζόντιο άξονα. Ή ύπαρξη αυτή, ωστόσο, δεν είναι τόσο απλό πράγμα όσο φαίνεται όταν μιλάμε για τους πραγματικούς αριθμούς. Όπως έχουμε δει στο παρελθόν, αν περιοριστούμε σε σχήματα τα οποία είναι κατασκευάσιμα μόνο με κανόνα και διαβήτη, τότε «εξερευνούμε» ένα υποσύνολο, μόνο, του επιπέδου - δείτε <a class="reference external" href="docs/After-maths/κατασκευαστικές-αδυναμίες.rst">εδώ</a> για περισσότερα. Αυτό που μας λέει, λοιπόν, το θεώρημα του Bolzano, είναι ότι <em>όποιας συνεχούς συνάρτησης</em> τη γραφική παράσταση κι αν πάρουμε σε κάποιο διάστημα, αν αυτή βρίσκεται και πάνω και κάτω από τον άξονα  <span class="math notranslate nohighlight">\(x'x\)</span>  τότε θα τον τέμνει κιόλας. Επομένως, μας εξασφαλίζει την ύπαρξη σημείων επί του οριζόντιου άξονα. Αν τώρα, φυσιολογικά, ταυτίσουμε τον οριζόντιο άξονα με την ευθεία των πραγματικών αριθμών, το θεώρημα του Bolzano μας εξασφαλίζει την ύπαρξη πραγματικών αριθμών επί της ευθείας των πραγματικών αριθμών και, άρα, με αυτόν τον τρόπο, υπονοείται η πληρότητα των πραγματικών αριθμών.</p>
+<p>Για να φωτίσουμε την παραπάνω σχέση, ας τη δούμε από την ανάποδη. Αν, ας πούμε, αντί για το  <span class="math notranslate nohighlight">\([a,b]\)</span>  είχαμε ως πεδίο ορισμού μίας συνάρτησης μόνο το  <span class="math notranslate nohighlight">\([a,b]\cap\mathbb{Q}\)</span>  τότε, δεδομένων των υπόλοιπων υποθέσεων του θεωρήματος του Bolzano, δε μπορούμε να βγάλουμε το ίδιο συμπέρασμα. Πράγματι, ας πάρουμε την  <span class="math notranslate nohighlight">\(f(x)=x^2-2\)</span>  ορισμένη στο  <span class="math notranslate nohighlight">\([0,2]\cap\mathbb{Q}.\)</span>  Τότε σαφώς η  <span class="math notranslate nohighlight">\(f\)</span>  είναι συνεχής εκεί (εκτός σχολικής ύλης μία τέτοια απόδειξη) και  <span class="math notranslate nohighlight">\(f(0)&lt;0&lt;f(2),\)</span>  ωστόσο δεν υπάρχει  <span class="math notranslate nohighlight">\(x_0\in[0,2]\cap\mathbb{Q}\)</span>  έτσι ώστε  <span class="math notranslate nohighlight">\(f(x_0)=0\)</span>  ακριβώς διότι η ρίζα της  <span class="math notranslate nohighlight">\(f\)</span>  είναι ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  που είναι άρρητος.</p>
+<p>Αν, ωστόσο, δεχτούμε το θεώρημα του Bolzano ως ένα από τα αξιώματά μας - για την ακρίβεια, αντί του αξιώματος της πληρότητας - τότε φαίνεται να μπορούμε να αποδείξουμε το αξίωμα της πληρότητας ως ένα θεώρημα από αυτό. Αλλά, ας μην μένουμε στο καθιστικό, ας περάσουμε κι ας σερβιρισζτούμε στην τραπεζαρία του απειροστικού λογισμού.</p>
+</section>
+<section id="id2">
+<h2>Από την πληρότητα στον Bolzano<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>Αρχικά, κάπου εδώ να πούμε ότι ο τίτλος αυτής της ανάρτησης θα ήταν «Τα πολλά πρόσωπα του αξιώματος της πληρότητας (4)». Ωστόσο, αυτός ο τίτλος είναι αρκετά μεγάλος και άβολος - γιατί χαλάει όλο το rendering της αρχικής σελίδας, που λένε και στο χωριό μου. Ως εκ τούτου, αν και μέρος της <a class="reference external" href="https://aftermaths.gr/category/%ce%b1%ce%be%ce%af%cf%89%ce%bc%ce%b1-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7%cf%81%cf%8c%cf%84%ce%b7%cf%84%ce%b1%cf%82/">εν λόγω σειράς</a>, ο τίτλος είναι διαφορετικός. Τώρα που βγάλαμε από τη μέση αυτήν την εξωμαθηματική υποχρέωση, ας περάσουμε στα πιο ενδιαφέροντα ζητήματα που θα μας απασχολήσουν παρακάτω. Αρχικά, θα αποδείξουμε το ίδιο το θεώρημα του Bolzano με τρόπο που να κάνει σαφές το πώς αυτό εξαρτάται από την πληρότητα των πραγματικών αριθμών. Γι” αυτόν τον σκοπό θα χρησιμοποιήσουμε την ακόλουθη αναδιατύπωση του αξιώματος της πληρότητας - που έχουμε συζητήσει εκτενώς <a class="reference external" href="docs/After-maths/τα-πολλά-πρόσωπα-του-αξιώματος-της-πλη-3.rst">εδώ</a>:</p>
+<p>Αν  <span class="math notranslate nohighlight">\(I_1\supseteq I_2\supseteq I_3\supseteq\dots `  είναι μία φθίνουσα ακολουθία κλειστών διαστημάτων πραγματικών αριθμών τέτοια ώστε  :math:`{\rm diam}(I_k)\to0\)</span>  τότε υπάρχει μοναδικό  <span class="math notranslate nohighlight">\(c\in\mathbb{R}\)</span>  έτσι ώστε  <span class="math notranslate nohighlight">\(\bigcap_{k=1}^\infty I_k=\{c\}.\)</span></p>
+<p>Η παραπάνω διατύπωση του αξιώματος της πληρότητας, αν και αρκετά πιο «φλύαρη» από τη συνήθη, καθώς μιλά για ακολουθίες διαστημάτων πραγματικών αριθμών, συγκλίσεις και μονοτονίες, είναι αρκετά κομψή και διαισθητική. Για την ακρίβεια, θα μας βοηθήσει στο να δώσουμε κι ένα αλγόριθμο που βρίσκει τη ρίζα που μας υπόσχεται το θεώρημα του Bolzano.</p>
+<p>Αλλά, όλα στην ώρα τους, πρώτα απ” όλα θα κάτσουμε να δούμε λίγο πώς θα πάει η δουλειά με την απόδειξη του θεωρήματος. Λοιπόν, η ιδέα του θεωρήματος είναι, όπως είπαμε, αρκετά απλή: αν κάποτε μία συνάρτηση είναι κάτω από τον οριζόντιο άξομνα και κάποτε πάνω από αυτόν, σε κάποια φάση - δεδομένου ότι είναι συνεχής - θα περάσει και από τον άξονα. Πιο αυστηρά, έστω, χωρίς βλάβη της γενικότητας, ότι έχουμε μία συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span>  που είναι συνεχής στο  <span class="math notranslate nohighlight">\([a,b]\)</span>  και επιπλέον:</p>
+<div class="math notranslate nohighlight">
+\[f(a)&lt;0&lt;f(b).\]</div>
+<p>Τότε, κάπου εκεί ανάμεσα προσδοκούμε να έχει και μία ρίζα. Αλλά πού;</p>
+<p>[Ξύσιμο του κεφαλιού]</p>
+<p>Ε, ας πούμε ότι μία καλή και εύλογη επιλογή θα ήταν η συνάρτησή μας να είχε ως ρίζα το:</p>
+<div class="math notranslate nohighlight">
+\[c_0=\dfrac{a+b}{2}.\]</div>
+<p>Εύλογη μαντεψιά, θα έλεγε κανείς. Τώρα, εδώ έχουμε τρεις περιπτώσεις:</p>
+<ul class="simple">
+<li><p>Να μας λένε Γκαστόνε Γκάντερ και να έχουμε πετύχει όντως μία ρίζα της  <span class="math notranslate nohighlight">\(f\)</span>  και άρα το  <span class="math notranslate nohighlight">\(x_0\)</span>  του θεωρήματος να είναι το  <span class="math notranslate nohighlight">\(c_0.\)</span>  Οπότε σε αυτήν την περίπτωση απλώς σταματάμε την αναζήτησή μας.</p></li>
+<li><p>Να είμαστε φυσιολογικές πάπιες και να ισχύει  <span class="math notranslate nohighlight">\(f(c_0)&gt;0\)</span>  ή  <span class="math notranslate nohighlight">\(f(c_0)&lt;0.\)</span></p></li>
+</ul>
+<p>Στην πρώτη απίθανη - όχι όμως κι <a class="reference external" href="docs/After-maths/αδύνατο-vs-απίθανο-μέρος-α.rst">αδύνατη</a> - περίπτωση δεν έχουμε τίποτα να αποδείξουμε. Στη δεύτερη όμως περίπτωση διακρίνουμε δύο υποπεριπτώσεις:</p>
+<ul class="simple">
+<li><p>Να είναι  <span class="math notranslate nohighlight">\(f(c_0)&gt;0\)</span>  οπότε σε αυτήν την περίπτωση θέτουμε  <span class="math notranslate nohighlight">\(a_1=a\)</span>  και  <span class="math notranslate nohighlight">\(b_1=c_0\)</span>  - θα δούμε παρακάτω γιατί.</p></li>
+<li><p>Να είναι  <span class="math notranslate nohighlight">\(f(c_0)&lt;0\)</span>  οπότε σε αυτήν την περίπτωση θέτουμε  <span class="math notranslate nohighlight">\(a_1=c_0\)</span>  και  <span class="math notranslate nohighlight">\(b_1=b.\)</span></p></li>
+</ul>
+<p>Τώρα, τα  <span class="math notranslate nohighlight">\(a_1,b_1\)</span>  που θέσαμε παραπάνω έχουν μία πολύ ενδιαφέρουσα ιδιότητα:</p>
+<div class="math notranslate nohighlight">
+\[f(a_1)&lt;0&lt;f(b_1).\]</div>
+<p>Επίσης, ικανοποιούν και το εξής:</p>
+<div class="math notranslate nohighlight">
+\[b_1-a_1=\dfrac{b-a}{2}.\]</div>
+<p>Δηλαδή, την κατάσταση που είχαμε αρχικά με την  <span class="math notranslate nohighlight">\(f\)</span>  να είναι συνεχής σε ένα κλειστό διάστημα, αρνητική στο αριστερό του άκρο και θετική στο δεξί του την έχουμε αναπαραγάγει και τώρα, απλώς το διάστημα έχει ακριβώς το μισό μήκος από το αρχικό. Με άλλα λόγια, ακόμα και στην - πιθανότερη - περίπτωση που δεν πετυχαίνουμε τη ρίζα της  <span class="math notranslate nohighlight">\(f\)</span>  με την πρώτη, καταφέρνουμε να κόψουμε στη μέση το διάστημα στο οποίο χρειάζεται να ψάξουμε, χωρίς να χάσουμε καμία από τις καλές ιδιότητες της  <span class="math notranslate nohighlight">\(f\)</span>  σε αυτό.</p>
+<p>Ε, τώρα που έχουμε φτάσει σε μία κατάσταση ίδια με την αρχική, αυτό που θα κάνουμε θα είναι… αυτό που κάναμε και αρχικά. Θέτουμε:</p>
+<div class="math notranslate nohighlight">
+\[c_1=\dfrac{a_1+b_1}{2},\]</div>
+<p>και διακρίνουμε δύο περιπτώσεις:</p>
+<ul class="simple">
+<li><p>Αν το  <span class="math notranslate nohighlight">\(c_1\)</span>  είναι ρίζα της  <span class="math notranslate nohighlight">\(f\)</span>  απλά σταματάμε, γιατί βρήκαμε αυτό που ψάχναμε.</p></li>
+<li><p>Αν όχι, διακρίνουμε όπως και παραπάνω, δύο υποπεριπτώσεις.</p></li>
+</ul>
+<p>Έτσι, σε κάθε βήμα κόβουμε το διάστημα που μας ενδιαφέρει στη μέση, όπως φαίνεται και στο παρακάτω σχήμα:</p>
+<figure class="wp-image-10035 align-default" id="id8">
+<img alt="Καταλαβαίνετε πώς πάει η ιστορία..." src="https://aftermaths.gr/_static/images/uploads/2021/11/bolzano_completeness.gif?w=756"/>
+<figcaption>
+<p><span class="caption-text">Καταλαβαίνετε πώς πάει η ιστορία…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id8"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Από το παραπάνω σχήμα μπορούμε εύκολα να διατυπώσουμε τις βασικές ιδιότητες που έχουν οι ακολουθίες  <span class="math notranslate nohighlight">\(a_n,b_n:\)</span></p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(a_n&lt;b_n.\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(b_n-a_n=\dfrac{b_{n-1}-a_{n-1}}{2}\)</span>  για κάθε  <span class="math notranslate nohighlight">\(n=2,3,\ldots\)</span></p></li>
+<li><p>Η  <span class="math notranslate nohighlight">\(a_n\)</span>  είναι αύξουσα και η  <span class="math notranslate nohighlight">\(b_n\)</span>  φθίνουσα.</p></li>
+<li><p><span class="math notranslate nohighlight">\(f(a_n)&lt;0&lt;f(b_n).\)</span></p></li>
+</ul>
+<p>Προφανώς, τα παραπάνω ισχύουν αν σε κανένα βήμα μας δεν πετύχουμε κάποια ρίζα της  <span class="math notranslate nohighlight">\(f\)</span>  - άλλωστε, η πιθανότητα να συμβεί αυτό είναι ακριβώς 0. Τώρα, σε αυτήν την αποφράδα περίπτωση που δεν πετυχαίνουμε τη ρίζα, από τα παραπάνω μπορούμε εύκολα να ορίσουμε την ακολουθία κλειστών διαστημάτων πραγματικών αριθμών:</p>
+<div class="math notranslate nohighlight">
+\[I_n=[a_n,b_n].\]</div>
+<p>Αυτή η ακολουθία είναι φθίνουσα (άμεσο από την μονοτονία των  <span class="math notranslate nohighlight">\(a_n,b_n\)</span>  κι από το παραπάνω σχήμα) ενώ ισχύει και ότι:</p>
+<div class="math notranslate nohighlight">
+\[{\rm diam}(I_n)=\dfrac{b-a}{2^n}\to0.\]</div>
+<p>Συνεπώς, από τη διατύπωση του αξιώματος της πληρότητας που δώσαμε παραπάνω έπεται ότι υπάρχει μοναδικός πραγματικός αριθμός  <span class="math notranslate nohighlight">\(c\)</span>  έτσι ώστε:</p>
+<div class="math notranslate nohighlight">
+\[\bigcap_{k=1}^\infty I_n=\{c\}.\]</div>
+<p>Αυτό άμεσα σημαίνει και ότι οι ακολουθίες  <span class="math notranslate nohighlight">\(a_n,b_n\)</span>  αμφότερες συγκλίνουν στο  <span class="math notranslate nohighlight">\(c.\)</span>  Τώρα, από τη συνέχεια της  <span class="math notranslate nohighlight">\(f\)</span>  έπεται άμεσα και ότι:</p>
+<div class="math notranslate nohighlight">
+\[f(a_n)\to f(c) και .. math:: f(b_n)\to f(c).\]</div>
+<p><em>Αν δε θυμάστε την παραπάνω ιδιότητα, γνωστή και ως αρχή της μεταφοράς, δείτε</em><a class="reference external" href="docs/After-maths/πόσες-είναι-οι-συνεχείς-συναρτήσεις.rst">εδώ</a><em>μία σύντομη συζήτηση γι” αυτήν αλλά και για τις συνεχείς συναρτήσεις.</em></p>
+<p>Τώρα, αφενός έχουμε  <span class="math notranslate nohighlight">\(f(a_n)&lt;0\)</span>  άρα και  <span class="math notranslate nohighlight">\(f(c)\leq0.\)</span>  Από την άλλη έχουμε  <span class="math notranslate nohighlight">\(f(b_n)&gt;0\)</span>  άρα και  <span class="math notranslate nohighlight">\(f(c)\geq0.\)</span>  Επομένως, για να ισχύουν και οι δύο ανισότητες ταυτόχρονα πρέπει να έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[f(c)=0.\]</div>
+<p>Συνεπώς, βρήκαμε την πολυπόθητη ρίζα που μας υποσχόταν το θεώρημα του Bolzano, άρα έχουμε αποδείξει και το ίδιο το θεώρημα!</p>
+</section>
+<section id="id3">
+<h2>Αλγοριθμικό ιντερλούδιο<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<p>Πριν περάσουμε στο αντίστροφο σκέλος της απόδειξής μας, ας συζητήσουμε λίγο για το πώς από την παραπάνω απόδειξη μπορούμε να πάρουμε, με ίσως παραπάνω από προφανή τρόπο, έναν αλγόριθμο για την αριθμητική προσέγγιση μίας (κάποιας) ρίζας μίας συνεχούς συνάρτησης ορισμένης σε ένα κλειστό διάστημα.</p>
+<p>Ας ξανακοιτάξουμε λίγο το σχήμα που βρίσκεται πίσω από την απόδειξη:</p>
+<figure class="wp-image-10035 align-default" id="id9">
+<img alt="Ξανά τα ίδια..." src="https://aftermaths.gr/_static/images/uploads/2021/11/bolzano_completeness.gif?w=723"/>
+<figcaption>
+<p><span class="caption-text">Ξανά τα ίδια…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Ο αλγόριθμος, πρακτικά, βασίζεται στην κατασκευή των ακολουθιών  <span class="math notranslate nohighlight">\(a_n,b_n\)</span>  όπως παραπάνω, μέχρις ότου οι όροι τους να απέχουν το πολύ όσο μία δεδομένη επιθυμητή ακρίβεια - οπότε και θεωρούμε ότι έχουμε πετύχει μία εκτίμηση κάποιας ρίζας της  <span class="math notranslate nohighlight">\(f\)</span>  με κατάλληλη ακρίβεια. Για να μη μακρυγορούμε, όμως, ας δούμε αμέσως μία υλοποίηση του παραπάνω αλγορίθμου σε python:</p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">def bisection(f, a, b, epsilon): # f: real-valued function, a, b ,epsilon real numbers.
+</span><span id="line-2">    if (b &lt;= a) or f(a) * f(b) &gt;= 0:
+</span><span id="line-3">        return None
+</span><span id="line-4">    c = (a + b) / 2
+</span><span id="line-5">    while (b - a &gt; epsilon and f(c) != 0):
+</span><span id="line-6">        if (f(c) &lt; 0):
+</span><span id="line-7">            a = c
+</span><span id="line-8">        else:
+</span><span id="line-9">            b = c
+</span><span id="line-10">        c = (a + b) / 2
+</span><span id="line-11">    return c
+</span></code></pre></div>
+</div>
+<p>Το παραπάνω, γνωστό και ως <a class="reference external" href="https://en.wikipedia.org/wiki/Bisection_method">αλγόριθμος της διχοτόμησης</a>, δεν είναι παρά μία απλή αποτύπωση της παραπάνω εικόνας σε κώδικα. Σε κάθε βήμα, εξετάζουμε αν έχουμε βρει την επιθυμητή ρίζα κι αν έχουμε φτάσει την επιθυμητή ακρίβεια και, αν όχι, συνεχίζουμε διχοτομώντας το διάστημά μας, φροντίζοντας κάθε φορά οι τιμές της συνάρτησής μας στα άκρα του διαστήματος που επιλέγουμε να είναι ετερόσημες. Για παράδειγμα, με το ακόλουθο τμήμα κώδικα μπορούμε να προσδιορίσουμε αριθμητικά με ακρίβεια εκατομμυριοστού τη μοναδική ρίζα της  <span class="math notranslate nohighlight">\(f(x)=x^3+x+1\)</span>  στο  <span class="math notranslate nohighlight">\((-1,0):\)</span></p>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">def bisection(f, a, b, epsilon): # f: real-valued function, a, b ,epsilon real numbers.
+</span><span id="line-2">    if (b &lt;= a) or f(a) * f(b) &gt;= 0:
+</span><span id="line-3">        return None
+</span><span id="line-4">    c = (a + b) / 2
+</span><span id="line-5">    while (b - a &gt; epsilon and f(c) != 0):
+</span><span id="line-6">        if (f(c) &lt; 0):
+</span><span id="line-7">            a = c
+</span><span id="line-8">        else:
+</span><span id="line-9">            b = c
+</span><span id="line-10">        c = (a + b) / 2
+</span><span id="line-11">    return c
+</span><span id="line-12">
+</span><span id="line-13">def f1(x):
+</span><span id="line-14">    return x ** 3 + x + 1
+</span><span id="line-15">
+</span><span id="line-16">if __name__ == '__main__':
+</span><span id="line-17">    f = f1
+</span><span id="line-18">    a = -1
+</span><span id="line-19">    b = 0
+</span><span id="line-20">    epsilon = 10 ** (-6)
+</span><span id="line-21">    print(bisection(f, a, b, epsilon))
+</span></code></pre></div>
+</div>
+<p>Αν τρέξετε το παραπάνω τμήμα κώδικα, ανάλογα και με τον υπολογιστή στον οποίον θα το τρέξετε, θα βρείτε κάτι σαν το ακόλουθο:  <span class="math notranslate nohighlight">\(-0.6823278038355056.\)</span></p>
+<p>Ο παραπάνω τρόπος επίλυσης της εξίσωσης δεν είναι αλγεβρικός, καθώς δε μας δίνει τη λύση της εξίσωσης μέσω μίας έκφρασης που να συμπεριλαμβάνει διάφορους αριθμούς και τους συντελεστές της  <span class="math notranslate nohighlight">\(f\)</span>  - που είναι μία απλή πολυωνυμική συνάρτηση - αλλά <em>αριθμητικός</em> καθώς μας δίνει μία αριθμητική προσέγγιση της λύσης (με πεπερασμένη ακρίβεια, σαφώς). Σε ό,τι αφορά τις διάφορες εφαρμογές, σαφώς κι αυτό δε μας απασχολεί καθόλου, απλώς είναι καλό να έχουμε κατά νου ότι το σύνολο των εξισώσεων που μπορούμε να επιλύσουμε αριθμητικά είναι, εν γένει, μεγαλύτερο από αυτών που μπορούμε να επιλύσουμε αλγεβρικά.</p>
+<p>Κλείνοντας αυτήν την μικρή αλγοριθμική παρένθεση, να πούμε εδώ ότι η παραπάνω εξίσωση έχει και αλγεβρική λύση, απλά, ο <a class="reference external" href="https://en.wikipedia.org/wiki/Cubic_equation">τύπος του Cardano</a> είναι αρκετά άκομψος, είναι η αλήθεια, τουλάχιστον τόσο ώστε συχνά να είναι αρκετά αποθαρρυντικό να τον χρησιμοποιήσει κανείς. Περισσότερα για αλγορίθμους αριθμητικής επίλυσης δυσεπίλυτων μαθηματικών προβλημάτων θα συζητήσουμε ενδεχομένως στο μέλλον. Αλλά τώρα, πίσω στο θεώρημά μας!</p>
+</section>
+<section id="id4">
+<h2>Από τον Bolzano στην πληρότητα<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h2>
+<p>Τη μία διαδρομή την είδαμε, και η αλήθεια είναι πως ήταν ιδιαίτερα αποκαλυπτική, καθώς σαν bonus κερδίσαμε έναν απλό αλγόριθμο αριθμητικής επίλυσης διαφόρων εξισώσεων που σε θεωρητικό επίπεδο αντιμετωπίζουμε με το θεώρημα του Bolzano. Τώρα ήρθε η ώρα να δούμε και την αντίστροφη πορεία: από το θεώρημα του Bolzano προς το αξίωμα της πληρότητας. Όπως είπαμε και κάπου παραπάνω, το θεώρημα του Bolzano είναι άρρηκτα συνδεδεμένο με την πληρότητα των πραγματικών αριθμών καθώς η ισχύς του εξασφαλίζει και την ύπαρξη διαφόρων αριθμών που δεν μπορούμε να προσδιορίσουμε με τα πενιχρά αλγεβρικά μέσα που μας δίνουν οι πραγματικοί αριθμοί (πενιχρά για τις τεράστιες απαιτήσεις μας).</p>
+<p>Λοιπόν, ας πάρουμε τα πράγματα με τη σειρά. Όπως και σε άλλες αποδείξεις του αξιώματος της πληρότητας, θα υποθέσουμε ότι ισχύουν όλα τα υπόλοιπα αξιώματα των πραγματικών αριθμών και, επιπρόσθετα, θα υποθέσουμε ότι έχουμε στη διάθεσή μας και το θεώρημα του Bolzano ως ένα ακόμα αξίωμα. Γνωρίζουμε δηλαδή, μαζί με τις αλγεβρικές ιδιότητες των αριθμών και ότι αν πάρουμε μία συνεχή συνάρτηση, ορισμένη σε ένα κλειστό διάστημα με ετερόσημες τιμές στα άκρα αυτού του διαστήματος τότε αυτή η συνάρτηση έχει (τουλάχιστον μία) ρίζα στο εσωτερικό του.</p>
+<p>Μιας και παραπάνω αναφερθήκαμε σε συνεχείς συναρτήσεις, ας θυμηθούμε μία ξανά τον ορισμό της συνέχειας μίας συνάρτησης σε ένα σημείο  <span class="math notranslate nohighlight">\(x_0\)</span>  του πεδίου ορισμού της:</p>
+<p>Μία συνάρτηση  <span class="math notranslate nohighlight">\(f&amp;fg=362e77&amp;bg=d9d9d9\)</span>  λέγεται <em>συνεχής</em> σε ένα σημείο  <span class="math notranslate nohighlight">\(x_0&amp;fg=362e77&amp;bg=d9d9d9\)</span>  του πεδίου ορισμού της αν για κάθε  <span class="math notranslate nohighlight">\(\varepsilon&gt;0&amp;fg=362e77&amp;bg=d9d9d9\)</span>  υπάρχει ένα  <span class="math notranslate nohighlight">\(\delta&gt;0&amp;fg=362e77&amp;bg=d9d9d9\)</span>  έτσι ώστε για κάθε  <span class="math notranslate nohighlight">\(x\in D_f&amp;fg=362e77&amp;bg=d9d9d9\)</span>  με  <span class="math notranslate nohighlight">\(\|x-x_0|&lt;\delta&amp;fg=362e77&amp;bg=d9d9d9\)</span>  να ισχύει  <span class="math notranslate nohighlight">\(\|f(x)-f(x_0)|&lt;\varepsilon. &amp;fg=362e77&amp;bg=d9d9d9\)</span></p>
+<p>Δηλαδή, για να φρεσκάρουμε και λίγο τη διαίσθησή μας, συνεχείς είναι οι συναρτήσεις εκείνες που κοντά σε μία τιμή τους παίρνουν τιμές επίσης κοντά σε αυτήν.</p>
+<p>Τώρα, με την βοήθεια των παραπάνω πρέπει να αποδείξουμε κάποια από τις μορφές του αξιώματος της πληρότητας που έχουμε δει ως τώρα - αν θέλετε να τις θυμηθείτε, δείτε <a class="reference external" href="https://aftermaths.gr/category/%ce%b1%ce%be%ce%af%cf%89%ce%bc%ce%b1-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7%cf%81%cf%8c%cf%84%ce%b7%cf%84%ce%b1%cf%82/">εδώ</a>. Για την ακρίβεια, θα επιλέξουμε τη συνήθη διατύπωσή του, κυρίως γιατί είναι η πιο απλή - αλλά και γιατί η απόδειξη έχει ιδιαίτερα κομψές ιδέες να μας παρουσιάσει. Επομένως, έστω ένα μη κενό και άνω φραγμένο υποσύνολο των πραγματικών αριθμών,  <span class="math notranslate nohighlight">\(A.\)</span>  Στόχος μας είναι να αποδείξουμε ότι αυτό έχει ένα ελάχιστο άνω φράγμα, ένα supremum, όπως λέμε. Ε, όπως και με πάρα πολλές αποδείξεις, θα πάμε με απαγωγή σε άτοπο - ή και <a class="reference external" href="docs/After-maths/απαγωγή-σε-άτοπο-not.rst">όχι ακριβώς</a>.</p>
+<p>Έστω, λοιπόν, προς άτοπο, ότι το  <span class="math notranslate nohighlight">\(A\)</span>  δεν έχει ελάχιστο άνω φράγμα. Θεωρούμε τώρα τη συνάρτηση  <span class="math notranslate nohighlight">\(f:\mathbb{R}\to\mathbb{R}\)</span>  η οποία ορίζεται ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[f(x)=\left\{\begin{array}{ll}1 &amp; x\in B\-1 &amp; x\not\in B\end{array}\right.,\]</div>
+<p>όπου  <span class="math notranslate nohighlight">\(B\)</span>  είναι το σύνολο των άνω φραγμάτων του συνόλου  <span class="math notranslate nohighlight">\(A.\)</span>  Έτσι, η  <span class="math notranslate nohighlight">\(f\)</span>  είναι η συνάρτηση που είναι ίση με 1 στους αριθμούς που <em>είναι άνω φράγματα</em> του  <span class="math notranslate nohighlight">\(A\)</span>  και -1 στους αριθμούς που <em>δεν είναι άνω φράγματα</em> του  <span class="math notranslate nohighlight">\(A.\)</span>  Σαφώς, δεδομένου ότι κάθε πραγματικός αριθμός είτε είναι άνω φράγμα του  <span class="math notranslate nohighlight">\(A\)</span>  είτε όχι, το σύνολο τιμών της  <span class="math notranslate nohighlight">\(f\)</span>  είναι το  <span class="math notranslate nohighlight">\(f(\mathbb{R})=\{-1,1\}.\)</span>  Αυτό σημαίνει ότι η  <span class="math notranslate nohighlight">\(f\)</span>  δεν έχει ρίζα, καθώς το 0 δεν είναι στοιχείο του συνόλου τιμών της. Έτσι, αν καταφέρουμε κι αποδείξουμε ότι είναι συνεχής, θα οδηγηθούμε σε άτοπο, γιατί, δεδομένου του θεωρήματος του Bolzano, θα έχουμε αποδείξει ότι η  <span class="math notranslate nohighlight">\(f\)</span>  έχει ρίζα (άτοπο).</p>
+<p>Όμως, πώς γίνεται μία συνάρτηση που παίρνει μόνο τις τιμές  <span class="math notranslate nohighlight">\(-1\)</span>  και  <span class="math notranslate nohighlight">\(1\)</span>  να είναι συνεχής; Πρακτικά, δεδομένου ότι μέχρι ένα σημείο όλοι οι πραγματικοί αριθμοί δεν είναι άνω φράγματα του  <span class="math notranslate nohighlight">\(A\)</span>  ενώ από ένα σημείο και μετά όλοι οι πραγματικοί αριθμοί είναι άνω φράγματα του  <span class="math notranslate nohighlight">\(A\)</span>  η γραφική παράσταση της  <span class="math notranslate nohighlight">\(f\)</span>  θυμίζει ένα σκαλοπατάκι, όπως αυτό που βλέπουμε παρακάτω:</p>
+<figure class="wp-image-10169 align-default" id="id10">
+<img alt="Ένα σκαλοπατάκι..." src="https://aftermaths.gr/_static/images/uploads/2021/12/image-1.png?w=981"/>
+<figcaption>
+<p><span class="caption-text">Ένα σκαλοπατάκι…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id10"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Βέβαια, στα παραπάνω, το ζουμερό είναι το σημείο της «φαινόμενης ασυνέχειας». Τώρα, αφού η  <span class="math notranslate nohighlight">\(f\)</span>  είναι ορισμένη σε όλο το  <span class="math notranslate nohighlight">\(\mathbb{R},\)</span>  θα πρέπει να βάλουμε κάπου πάνω στη διακεκομμένη γραμμή μία κουκκίδα «μαυρισμένη» («μπλαβιασμένη», για την ακρίβεια). Για παράδειγμα, θα μπορούσαμε να κάνουμε το παρακάτω:</p>
+<figure class="wp-image-10171 align-default" id="id11">
+<img alt="Ένα άλλο σκαλοπατάκι..." src="https://aftermaths.gr/_static/images/uploads/2021/12/image-2.png?w=964"/>
+<figcaption>
+<p><span class="caption-text">Ένα άλλο σκαλοπατάκι…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Αυτό, πρακτικά, σημαίνει ότι υπάρχει κάποιος αριθμός που αντιστοιχεί σε αυτό το μπλαβί σημείο, ο οποίος είναι το ελάχιστο άνω φράγμα του  <span class="math notranslate nohighlight">\(A.\)</span>  Αυτό, σαφώς, όπως είπαμε, δεν είναι δυνατό, καθώς έχουμε υποθέσει ότι το  <span class="math notranslate nohighlight">\(A\)</span>  είναι ένα σύνολο που δεν έχει ελάχιστο άνω φράγμα. Συνεπώς, η γραφική παράσταση της  <span class="math notranslate nohighlight">\(f\)</span>  δεν μπορεί να μοιάζει έτσι. Μία ακόμα εναλλακτική που έχουμε είναι αυτή:</p>
+<figure class="wp-image-10174 align-default" id="id12">
+<img alt="Ένα ακόμα σκαλοπατάκι..." src="https://aftermaths.gr/_static/images/uploads/2021/12/image-3.png?w=984"/>
+<figcaption>
+<p><span class="caption-text">Ένα ακόμα σκαλοπατάκι…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id12"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Αυτό τώρα, αν και σημαίνει ότι το  <span class="math notranslate nohighlight">\(A\)</span>  δεν έχει κάποιο ελάχιστο άνω φράγμα, σημαίνει ότι υπάρχει ένα μέγιστο στοιχείο με την ιδιότητα να <em>μην</em> είναι άνω φράγμα του  <span class="math notranslate nohighlight">\(A.\)</span>  Όπως θα δούμε, αυτό είναι επίσης προβληματικό, καθώς τέτοια στοιχεία, γενικά, δε θα θέλαμε να υπάρχουν στους πραγματικούς αριθμούς. Πράγματι, αν ένας αριθμός  <span class="math notranslate nohighlight">\(M\)</span>  είναι το μεγαλύτερο μη άνω φράγμα ενός συνόλου  <span class="math notranslate nohighlight">\(A\)</span> , τότε κάθε αριθμός πάνω από αυτόν πρέπει να είναι ένα άνω φράγμα. Όμως, αφού ο  <span class="math notranslate nohighlight">\(M\)</span>  δεν είναι άνω φράγμα του  <span class="math notranslate nohighlight">\(A\)</span>  πρέπει να υπάρχει κάποιο  <span class="math notranslate nohighlight">\(a\in A\)</span>  με  <span class="math notranslate nohighlight">\(a&gt;M.\)</span>  Έτσι, ο αριθμός  <span class="math notranslate nohighlight">\(\dfrac{a+M}{2}\)</span>  είναι μεγαλύτερος του  <span class="math notranslate nohighlight">\(M\)</span>  και ταυτόχρονα όχι άνω φράγμα του  <span class="math notranslate nohighlight">\(A,\)</span>  άτοπο. Άρα, ούτε η παραπάνω γραφική παράσταση είναι κατάλληλη για να σκεφτόμαστε την  <span class="math notranslate nohighlight">\(f,\)</span>  καθώς αντιστοιχεί σε μία εικόνα που δε θα μπορούσε να συμβαίνει με κανέναν τρόπο στους πραγματικούς αριθμούς όπως τους ξέρουμε.</p>
+<p>Ναι, αλλά ποια κουκκίδα από τις δύο θα μπλαβίσουμε, αν δεν μπορούμε να μπλαβίσουμε καμία; Διότι, αν μπλαβίσουμε τη μία υπονοούμε κάτι που δε γίνεται να συμβαίνει, ενώ αν μπλαβίσουμε την άλλη υπονοούμε κάτι που αντιβαίνει στις υποθέσεις μας.</p>
+<p>Χμμμμμ…</p>
+<p>Η καταλληλότερη αναπαράσταση για τη συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span>  είναι η ακόλουθη:</p>
+<figure class="wp-image-10181 align-default" id="id13">
+<img alt="Το σωστό σκαλοπάτι..." src="https://aftermaths.gr/_static/images/uploads/2021/12/image-4.png?w=964"/>
+<figcaption>
+<p><span class="caption-text">Το σωστό σκαλοπάτι…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id13"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Μα, θα πει κανείς, εδώ λείπει ένα σημείο και η  <span class="math notranslate nohighlight">\(f\)</span>  είναι ορισμένη σε όλο το  <span class="math notranslate nohighlight">\(\mathbb{R}.\)</span>  Ναι, και δίκιο θα έχει όποιος το πει αυτό και πολύ καλά θα κάνει και θα το πει, αλλά, τι να κάνουμε που έτσι είναι «περίπου» η συνάρτηση που κατασκευάσαμε.</p>
+<p>Αλλά, ας πάρουμε τα πράγματα με τη σειρά. Εμείς, όπως θα θυμάστε, ξεκινήσαμε να κάνουμε μία απόδειξη με απαγωγή σε άτοπο. Για την ακρίβεια, υποθέσαμε ότι υπάρχει ένα σύνολο το οποίο είναι άνω φραγμένο, μη κενό, και δεν έχει ελάχιστο άνω φράγμα. Αυτό, όπως γνωρίζουμε ήδη εμείς από την εμπειρία μας με τους πραγματικούς αριθμούς, δεν είναι εφικτό καθώς θα σήμαινε τη μη ύπαρξη ενός πραγματικού αριθμού πάνω στην ευθεία των πραγματικών αριθμών - του supremum του συνόλου μας.</p>
+<p>Σε αυτήν την τελευταία πρόταση κρύβεται και όλο το ζουμί της παραπάνω υπόθεσης. Αφού η υπόθεσή μας είναι ότι, στην ουσία, από την ευθεία των πραγματικών αριθμών λείπει ένας πραγματικός αριθμός, πρέπει αυτό να αποτυπώνεται και στη γραφική παράσταση της συνάρτησης  <span class="math notranslate nohighlight">\(f\)</span>  που σχετίζεται άμεσα με αυτόν, καθώς το σημείο της «φαινόμενης» ασυνέχειάς της είναι ακριβώς αυτό το supremum που έχουμε υποθέσει ότι δεν υπάρχει. Με αυτά κατά νου, η «σωστή» γραφική παράσταση για την  <span class="math notranslate nohighlight">\(f\)</span>  είναι η τελευταία, όπου ένα σημείο λείπει από την ευθεία των πραγματικών αριθμών - δηλαδή το σύμπαν στο οποίο ζει η  <span class="math notranslate nohighlight">\(f\)</span>  έχει «πρόβλημα», όχι η  <span class="math notranslate nohighlight">\(f.\)</span></p>
+<p>Τώρα, από την τελευταία γραφική παράσταση είναι πολύ εύκολο να συμπεράνουμε ότι η  <span class="math notranslate nohighlight">\(f\)</span>  είναι συνεχής στο πεδίο ορισμού της και άρα να καταλήξουμε σε άτοπο με το θεώρημα του Bolzano. Αυτό είναι η πρόθεσή μας τώρα να το κάνουμε και τυπικά. Αρχικά, ας παρατηρήσουμε ότι αν  <span class="math notranslate nohighlight">\(x,y\in\mathbb{R}\)</span>  έτσι ώστε  <span class="math notranslate nohighlight">\(x\not\in B\)</span>  και  <span class="math notranslate nohighlight">\(y\in B\)</span>  τότε άμεσα έπεται ότι  <span class="math notranslate nohighlight">\(x&lt;y\)</span>  - μία απόδειξη αυτού έχουμε κάνει και παραπάνω, ουσιαστικά. Έτσι, όλες οι αρνητικές και όλες οι θετικές τιμές της  <span class="math notranslate nohighlight">\(f\)</span>  είναι πράγματι «μοιρασμένες» όπως φαίνεται σε όλα τα παραπάνω σχήματα.</p>
+<p>Τώρα, για τη συνέχεια θα επιλέξουμε ένα  <span class="math notranslate nohighlight">\(x\in\mathbb{R}\)</span>  και θα επιλέξουμε δύο περιπτώσεις. Αρχικά, αν  <span class="math notranslate nohighlight">\(x\in B\)</span>  τότε αφενός  <span class="math notranslate nohighlight">\(f(x)=1\)</span>  και από την άλλη, ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[(-\infty,x)\cap B\neq\varnothing.\]</div>
+<p>Δηλαδή, υπάρχει ένα άνω φράγμα του  <span class="math notranslate nohighlight">\(A\)</span>  γνήσια μικρότερο του  <span class="math notranslate nohighlight">\(x.\)</span>  Αυτό είναι άμεσο από την υπόθεσή μας, καθώς αν δεν υπάρχει τότε έπεται ότι το  <span class="math notranslate nohighlight">\(x\)</span>  είναι το ελάχιστο άνω φράγμα του  <span class="math notranslate nohighlight">\(A,\)</span>  άτοπο. Συνεπώς, υπάρχει  <span class="math notranslate nohighlight">\(y&lt;x\)</span>  με  <span class="math notranslate nohighlight">\(y\in B\)</span>  και άρα η  <span class="math notranslate nohighlight">\(f\)</span>  είναι σταθερή και ίση με 1 στο  <span class="math notranslate nohighlight">\([y,+\infty).\)</span>  Κατ” επέκταση, είναι και συνεχής στο  <span class="math notranslate nohighlight">\(x\)</span>  αφού είναι τοπικά σταθερή γύρω από αυτό.</p>
+<p>Τώρα, με ανάλογο σκεπτικό, αν το  <span class="math notranslate nohighlight">\(x\not\in B\)</span>  τότε και πάλι, ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[(x,+\infty)\cap (\mathbb{R}\setminus B)\neq\varnothing.\]</div>
+<p>Δηλαδή, υπάρχει στοιχείο γνήσια μεγαλύτερο από το  <span class="math notranslate nohighlight">\(x\)</span>  που δεν είναι άνω φράγμα του  <span class="math notranslate nohighlight">\(A.\)</span>  Αυτό, όμως, όπως είδαμε παραπάνω δεν είναι εφικτό καθώς αν όλοι οι αριθμοί στο  <span class="math notranslate nohighlight">\((x,+\infty)\)</span>  είναι άνω φράγματα του  <span class="math notranslate nohighlight">\(A,\)</span>  έπεται άμεσα ότι κανένας από αυτούς δεν ανήκει στο  <span class="math notranslate nohighlight">\(A\)</span>  - ειδάλλως, όλοι όσοι είναι μικρότεροι από αυτόν δε θα ήταν άνω φράγματα του  <span class="math notranslate nohighlight">\(A.\)</span>  Συνεπώς, για κάθε  <span class="math notranslate nohighlight">\(a\in A\)</span>  ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[a\not\in(x,+\infty)\Leftrightarrow a\leq x,\]</div>
+<p>άρα το  <span class="math notranslate nohighlight">\(x\)</span>  είναι και άνω φράγμα του  <span class="math notranslate nohighlight">\(A,\)</span>  άτοπο, γιατί έχει υποτεθεί ότι  <span class="math notranslate nohighlight">\(x\not\in B.\)</span>  Συνεπώς, υπάρχει  <span class="math notranslate nohighlight">\(y\not\in B\)</span>  με  <span class="math notranslate nohighlight">\(y&gt;x\)</span>  και άρα η  <span class="math notranslate nohighlight">\(f\)</span>  είναι τοπικά σταθερή στο  <span class="math notranslate nohighlight">\((-\infty,y)\)</span>  και άρα και συνεχής σε αυτό - και, ειδικότερα, στο  <span class="math notranslate nohighlight">\(x.\)</span></p>
+<p>Επομένως, όπως κι αν έχει, η  <span class="math notranslate nohighlight">\(f\)</span>  είναι συνεχής στο πεδίο ορισμού της, όπως επιβεβαιώνει και το παραπάνω σχήμα. Δεδομένου, τώρα, ότι παίρνει και θετικές και αρνητικές τιμές, έπεται άμεσα από το θεώρημα του Bolzano ότι παίρνει και την τιμή  <span class="math notranslate nohighlight">\(0,\)</span>  άτοπο, καθώς όπως είδαμε δεν μπορεί να πάρει άλλες τιμές πέρα από το  <span class="math notranslate nohighlight">\(1\)</span>  και το  <span class="math notranslate nohighlight">\(-1.\)</span>  Συνεπώς, δεν υπάρχει μη κενό και άνω φραγμένο σύνολο πραγματικών αριθμών το οποίο να μην έχει ελάχιστο άνω φράγμα, άρα πράγματι το αξίωμα της πληρότητας με τη συνήθη του μορφή ισχύει!</p>
+</section>
+<section id="id5">
+<h2>Επίλογος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id5'"><span>#</span></a></h2>
+<p>Είδαμε εδώ πώς ένα σύνηθες και αρκετά προφανές θεώρημα της σχολικής ανάλυσης βρίσκεται επί της ουσίας στην καρδιά των μαθηματικών, όντας ισοδύναμο με το χαρακτηριστικότερο όλων των αξιωμάτων των πραγματικών αριθμών: το αξίωμα της πληρότητας. Αυτό, πέρα απ” το ότι αποδίδει «τα του Καίσαρος τω Καίσαρι», μας δίνει και την ευκαιρία να βουτήξουμε λίγο βαθύτερα στα νοήματα που κρύβονται πίσω από το θεώρημα του Bolzano. Δεν είναι τόσο η προφανής ιδιότητα των συνεχών συναρτήσεων ορισμένων σε ένα διάστημα να έχουν ρίζα (αν παίρνουν και ετερόσημες τιμές) όσο η ίδια η ύπαρξη του αριθμού που αποτελεί τη ρίζα τους. Η στίξη, στη διατύπωση του θεωρήματος του Bolzano δεν μπαίνει στην ύπαρξη μίας <em>ρίζας</em>, αλλά ενός <em>πραγματικού αριθμού</em> που έχει το ρόλο της ρίζας μίας συνεχούς συνάρτησης. Έτσι, αυτό που μας λέει το θεώρημα του Bolzano είναι πολύ πιο ουσιαστικό από ό,τι αποκαλύπτει μία πρώτη ανάγνωση: μας λέει ότι η ευθεία των πραγματικών αριθμών, στη συμβατική της θεώρηση, δεν έχει «τρύπες».</p>
+<p>Τώρα, αυτό γεννά ένα ενδιαφέρον ερώτημα. Αν το θεώρημα του Bolzano είναι λογικά ισοδύναμο, δεδομένων των υπολοίπων αξιωμάτων, με το αξίωμα της πληρότητας, τότε τα αλγεβρικά αξιώματα των πραγματικών αριθμών μαζί με τα αξιώματα της διάταξης και το θεώρημα του Bolzano είναι επαρκή για να αποδείξουμε κάθε αποτέλεσμα του απειροστικού λογισμού που γνωρίζουμε. Επομένως, ίσως εδώ να υπάρχει πρόσφορο έδαφος για να διδαχθούν (όχι με το σκεπτικό να εξεταστούν, σαφώς) κάποιες αποδείξεις θεωρημάτων στην Γ” Λυκείου που συνήθως αποφεύγουμε να κάνουμε, καθώς επικαλούνται με τρόπο άμεσο το αξίωμα της πληρότητας των πραγματικών αριθμών - του οποίου η συνήθης διατύπωση είναι μακριά από τα όσα συνηθίζουμε σε μία σχολική τάξη μαθηματικών.</p>
+<p>Αυτά, όμως, ας τα αφήσουμε για το μέλλον…</p>
+<p>Μέχρι τότε, καλό διάβασμα!</p>
+<blockquote>
+<div><div class="video_wrapper" style="">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/_TVON0HwRCI" style="border: 0; height: 345px; width: 560px">
+</iframe></div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">
+        Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id1'" class="reference internal" href="#id1">Τι μας λέει το θεώρημα;</a></li>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Από την πληρότητα στον Bolzano</a></li>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Αλγοριθμικό ιντερλούδιο</a></li>
+<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Από τον Bolzano στην πληρότητα</a></li>
+<li><a :data-current="activeSection === '#id5'" class="reference internal" href="#id5">Επίλογος</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

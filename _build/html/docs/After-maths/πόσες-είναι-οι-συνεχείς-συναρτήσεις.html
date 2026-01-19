@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2021-01-02 09:30" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Μαθηματικά" name="category"/>
+<meta content="featured, πραγματικοί αριθμοί, πληθάριθμοι, συνέχεια, συναρτήσεις, σύνολα, μαθηματικά" name="tags"/>
+<meta content="%cf%80%cf%8c%cf%83%ce%b5%cf%82-%ce%b5%ce%af%ce%bd%ce%b1%ce%b9-%ce%bf%ce%b9-%cf%83%cf%85%ce%bd%ce%b5%cf%87%ce%b5%ce%af%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2021/01/ilia_efimovich_repin_1844-1930_-_volga_boatmen_1870-1873.jpg" name="attachments"/>
+<title>Πόσες είναι οι συνεχείς συναρτήσεις; | aftermaths</title>
+<meta content="Πόσες είναι οι συνεχείς συναρτήσεις; | aftermaths" property="og:title"/>
+<meta content="Πόσες είναι οι συνεχείς συναρτήσεις; | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html" rel="next" title="Πόσο Άρρητος Είσαι;"/>
+<link href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html" rel="prev" title="Ολο-clear-ώματα: Το θεώρημα Frullani"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Πόσες είναι οι συνεχείς συναρτήσεις;</span>
+</nav>
+<div id="content" role="main">
+<section id="id1">
+<h1>Πόσες είναι οι συνεχείς συναρτήσεις;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+<figure class="align-center" id="id28">
+<img alt="Ο πίνακας *Άντρες που σέρνουν μία βάρκα στις όχθες του Βόλγα* του `Ilya Repin  &lt;https://en.wikipedia.org/wiki/Ilya_Repin&gt;`__\ *.*" src="_static/images/uploads/2021/01/ilia_efimovich_repin_1844-1930_-_volga_boatmen_1870-1873.jpg"/>
+<figcaption>
+<p><span class="caption-text">Ο πίνακας <em>Άντρες που σέρνουν μία βάρκα στις όχθες του Βόλγα</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Ilya_Repin">Ilya Repin</a><em>.</em></span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id28"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Στο λύκειο ασχολούμαστε κυρίως με συνεχείς συναρτήσεις - συνήθως, δε, και παραγωγίσιμες. Ακόμα και όσες από τις συναρτήσεις που βλέπουμε στα πλαίσια μίας τυπικής προετοιμασίας για τις πανελλήνιες δεν είναι συνεχείς, «το χάνουνε» σε λίγα σημεία, οπότε, θα έλεγε κανείς, είναι «σχεδόν» συνεχείς - αυτό το «σχεδόν» μην το πάρετε ελαφρά τη καρδία, είναι σημαντικό. Είναι, ωστόσο, έτσι τα πράγματα; Είναι «μπόλικες» οι συνεχείς συναρτήσεις και ασχολούμαστε μόνο με αυτές στο λύκειο ή όχι;</p>
+<section id="brainstorming">
+<h2>Brainstorming<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#brainstorming" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#brainstorming'"><span>#</span></a></h2>
+<p>Η αλήθεια είναι ότι «με το μάτι» η απάντηση στα παραπάνω ερωτήματα ίσως και να φαίνεται απλή. Διότι, όλες οι βασικές συναρτήσεις που γνωρίζουμε είναι συνεχείς και, μάλιστα, <em>άπειρες</em> φορές παραγωγίσιμες, Πάρτε τα πολυώνυμα, τις τριγωνομετρικές, τις εκθετικές και τις λογαριθμικές, όλες τους είναι πολύ «καλές» συναρτήσεις. Και, ως γνωστόν, πράξεις μεταξύ συνεχών ή/και παραγωγίσιμων συναρτήσεων δίνουν και πάλι συνεχείς/παραγωγίσιμες συναρτήσεις, επομένως, ακόμα και πιο «στριφνές» συναρτήσεις όπως η παρακάτω:</p>
+<div class="math notranslate nohighlight">
+\[\dfrac{e^{\sin x^2}-2x^{2020}\ln(2x-4)}{\cos^3x+\tan\frac{2}{x}},\]</div>
+<p>είναι συνεχείς και παραγωγίσιμες στο πεδίο ορισμού τους.</p>
+<p>Ως τώρα, όλα φαίνονται ονειρικά. Εντάξει, μπορούμε τα παραπάνω να τα χαλάσουμε αν βάλουμε μέσα στο παιχνίδι απόλυτες τιμές και ρίζες - σε ό,τι αφορά την παραγωγισιμότητα - αλλά, και πάλι, όλες αυτές οι συναρτήσεις είναι συνεχείς στο πεδίο ορισμού τους. Ε, και πόσες ασυνέχειες να βάλουμε, πλέον; Πέντε; Δέκα; Εκατό;</p>
+<p>Η αλήθεια είναι ότι μπορούμε εύκολα, σχετικά, να σχεδιάσουμε μία συνάρτηση με γραφική παράσταση που να έχει άπειρες, στο πλήθος, ασυνέχειες, όπως αυτή που φαίνεται στο παρακάτω σχήμα:</p>
+<figure class="wp-image-4334 align-default" id="id29">
+<img alt="Μία ωραία συνάρτηση με άπειρες ασυνέχειες - μπορείτε να βρείτε έναν τύπο για αυτήν την συνάρτηση;" src="https://aftermaths.gr/_static/images/uploads/2021/01/screenshot_2021-01-01-calculator-suite-geogebra.png?w=733"/>
+<figcaption>
+<p><span class="caption-text">Μία ωραία συνάρτηση με άπειρες ασυνέχειες - μπορείτε να βρείτε έναν τύπο για αυτήν την συνάρτηση;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id29"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Αυτές οι ασυνέχειες, όπως μπορεί να παρατηρήσει κανείς, είναι αριθμήσιμες στο πλήθος τους, δηλαδή δεν είναι περισσότερες από τους φυσικούς αριθμούς - <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">μία μικρή υπενθύμιση περί αριθμησιμότητας</a>. Μπορούμε να σκεφτούμε επίσης και μία συνάρτηση που να έχει υπεραριθμήσιμες στο πλήθος ασυνέχειες όπως αυτήν εδώ:</p>
+<div class="math notranslate nohighlight">
+\[f(x)=\left\{\begin{array}{ll}1 &amp; x\in\mathbb{Q}\0 &amp; x\not\in\mathbb{Q}\end{array}\right.\]</div>
+<p>η οποία αντιστοιχίζει κάθε ρητό στο 1 και κάθε άρρητο στο 0 - είναι, όπως λέμε, η χαρακτηριστική συνάρτηση των ρητών. Για την ακρίβεια, η παραπάνω είναι πολύ «κακή» συνάρτηση, υπό την έννοια ότι είναι ασυνεχής σε κάθε πραγματικό αριθμό! Δυστυχώς, δεν μπορούμε να τη σχεδιάσουμε με ακρίβεια, αλλά μπορείτε να τη φανταστείτε σαν δύο οριζόντιες «γραμμές» γεμάτες τρύπες. Για την ακρίβεια, την  <span class="math notranslate nohighlight">\(y=1\)</span>  και την  <span class="math notranslate nohighlight">\(y=0\)</span>  όπου η πρώτη, που αντιστοιχεί στα «ρητά» σημεία της γραφικής της παράστασης και είναι πιο «αραιή» ενώ η δεύτερη αντιστοιχεί στα «άρρητα» σημεία της γραφικής παράστασης και είναι πιο «πυκνή» και συμπληρωματική της πρώτης. Η πυκνότητα των δύο γραμμών έχει να κάνει με ζητήματα που δε μας αφορούν σε αυτήν την ανάρτηση αλλά σίγουρα θα μας απασχολήσουν σε κάποια μελλοντική ανάρτηση.</p>
+<p>Εξερευνώντας την παθολογία των συνεχών και ασυνεχών συναρτήσεων, μπορούμε να βρούμε και συνεχείς συναρτήσεις αρκετά «αποκρουστικές», όπως τη <a class="reference external" href="https://en.wikipedia.org/wiki/Weierstrass_function">συνάρτηση του Weierstrass</a> που βλέπετε παρακάτω:</p>
+<figure class="wp-image-4338 align-default" id="id30">
+<img alt="Η γλυκούλα που βλέπετε παραπάνω είναι παντού συνεχής και πουθενά παραγωγίσιμη - πηγή εικόνας: `Wikipedia  &lt;https://en.wikipedia.org/wiki/Weierstrass_function&gt;`__." src="https://aftermaths.gr/_static/images/uploads/2021/01/1280px-weierstrassfunction.svg_.png?w=1024"/>
+<figcaption>
+<p><span class="caption-text">Η γλυκούλα που βλέπετε παραπάνω είναι παντού συνεχής και πουθενά παραγωγίσιμη - πηγή εικόνας: <a class="reference external" href="https://en.wikipedia.org/wiki/Weierstrass_function">Wikipedia</a>.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id30"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>η οποία είναι μεν συνεχής σε όλο το  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>  - και περιοδική, τρομάρα της - αλλά δεν είναι πουθενά παραγωγίσιμη.</p>
+<p>Βλέπουμε, λοιπόν, ότι και οι δύο κατηγορίες - αυτή των συνεχών και αυτή των ασυνεχών συναρτήσεων - έχουν να επιδείξουν ιδιαίτερη ποικιλία σε σχέση με τα μέλη τους, επομένως, ίσως να μην είναι και τόσο εύκολο να βρούμε τελικά πόσες είναι οι συνεχείς συναρτήσεις και αν είναι περισσότερες ή λιγότερες από τις ασυνεχείς.</p>
+</section>
+<section id="id2">
+<h2>Θέτοντας το πρόβλημα πιο αυστηρά<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>Για να διερευνήσουμε διεξοδικά τα παραπάνω, χρειάζεται να απαντήσουμε, αρχικά, σε δύο κρίσιμα ερωτήματα:</p>
+<ol class="arabic simple">
+<li><p>Πόσες είναι όλες οι συναρτήσεις  <span class="math notranslate nohighlight">\(f:\mathbb{R}\to\mathbb{R}\)</span> ;</p></li>
+<li><p>Πόσες είναι όλες οι <em>συνεχείς</em> συναρτήσεις  <span class="math notranslate nohighlight">\(f:\mathbb{R}\to\mathbb{R}\)</span> ;</p></li>
+</ol>
+<p>Περιοριζόμαστε σκόπιμα σε συναρτήσεις ορισμένες για όλους τους πραγματικούς αριθμούς μιας και όσα θα βρούμε - αν βρούμε - γενικεύονται εύκολα για συναρτήσεις με αυθαίρετο πεδίο ορισμού - με τη δέουσα, πάντα, προσοχή. Από εδώ κι εμπρός θα αναφερόμαστε σε αυτές τις συναρτήσεις ως <em>πραγματικές</em> και <em>πραγματικές</em> <em>συνεχείς συναρτήσεις</em>, αντίστοιχα.</p>
+<p>Ας πάρουμε τα πράγματα με τη σειρά, λοιπόν. Πόσες είναι οι συναρτήσεις που είναι ορισμένες στο  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> ; Άπειρες, θα πει κανείς. Ε, σιγά την απάντηση. Άπειροι είναι και οι φυσικοί αριθμοί, και οι ρητοί, και οι πραγματικοί, ωστόσο, <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">όπως έχουμε ξαναδεί</a>, οι τελευταίοι είναι «αισθητά» περισσότεροι από τους ρητούς και τους φυσικούς. Επομένως, πρέπει να συγκρίνουμε το πλήθος των πραγματικών συναρτήσεων με διάφορους άλλους άπειρους πληθάριθμους και να δούμε τι είδους συμπεράσματα μπορούμε να βγάλουμε από εκεί.</p>
+<p>Ας παρατηρήσουμε πρώτα ότι μπορούμε για κάθε πραγματικό αριθμό  <span class="math notranslate nohighlight">\(c\in\mathbb{R}\)</span>  να ορίσουμε την αντίστοιχη σταθερή συνάρτηση  <span class="math notranslate nohighlight">\(f_c(x)=c\)</span> , συνεπώς οι πραγματικές συναρτήσεις είναι τουλάχιστον τόσες όσοι οι πραγματικοί αριθμοί. Επειδή οι  <span class="math notranslate nohighlight">\(f_c\)</span>  είναι συνεχείς, το ίδιο συμβαίνει και για τις συνεχείς συναρτήσεις - είναι τουλάχιστον τόσες όσοι και οι πραγματικοί αριθμοί. Ας συμβολίσουμε, για ευκολία, το πλήθος των πραγματικών αριθμών με  <span class="math notranslate nohighlight">\(\|\mathbb{R}|\)</span> , οπότε τα παραπάνω μας λένε ότι υπάρχουν τουλάχιστον  <span class="math notranslate nohighlight">\(\|\mathbb{R}|\)</span>  στο πλήθος πραγματικές (και συνεχείς) συναρτήσεις.</p>
+<p>Τώρα θα έλεγε κανείς ότι, αφού οι σταθερές συναρτήσεις είναι τόσες όσοι και οι πραγματικοί αριθμοί, προφανώς και οι πραγματικές συναρτήσεις στο σύνολό τους - ακόμα και μόνο συνεχείς να είναι - θα είναι πολύ περισσότερες από τους πραγματικούς αριθμούς. Ωστόσο, δεν αρκεί μόνο η διαίσθησή μας για να ισχυριστούμε ότι κάτι είναι μαθηματικά ορθό. Ας περάσουμε, λοιπόν, σε μία διερεύνηση του κατά πόσον μπορούμε να επιβεβαιώσουμε ή όχι τη διαίσθησή μας.</p>
+</section>
+<section id="vs">
+<h2>Πραγματικές συναρτήσεις vs Πραγματικοί αριθμοί<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#vs" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#vs'"><span>#</span></a></h2>
+<p>Ας συμβολίσουμε το σύνολο όλων των πραγματικών συναρτήσεων με  <span class="math notranslate nohighlight">\(\mathbb{R}^{\mathbb{R}}\)</span>  - αυτός είναι ένας αρκετά συνηθισμένος συμβολισμός, είναι η αλήθεια. Το κάτω  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>  στο παραπάνω σύμβολο αναφέρεται στο πεδίο τιμών των συναρτήσεων ενώ το πάνω στο πεδίο ορισμού. Με αυτόν τον συμβολισμό, έχουμε ήδη δείξει παραπάνω ότι  <span class="math notranslate nohighlight">\(\|\mathbb{R}|\leq|\mathbb{R}^\mathbb{R}|\)</span> , μας μένει, επομένως, να εξετάσουμε αν ισχύει ή όχι η ισότητα.</p>
+<p>Όπως ήδη θα ψυλλιάζεστε, μάλλον δεν ισχύει το  <span class="math notranslate nohighlight">\(=\)</span> , καθώς όλες οι συναρτήσεις φαίνεται να είναι πολύ - μα, πάρα πολύ - περισσότερες από τους πραγματικούς αριθμούς. Για να το αποδείξουμε, θα ανακυκλώσουμε εδώ ένα επιχείρημα που <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">έχουμε δει και σε άλλη ανάρτηση</a>, ένα <em>διαγώνιο επιχείρημα</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Georg_Cantor">Cantor</a>, όπως λέμε. Για ζέσταμα, ας θυμηθούμε πρώτα πώς με ένα τέτοιο επιχείρημα μπορούμε να αποδείξουμε ότι  <span class="math notranslate nohighlight">\(\|\mathbb{N}|&lt;|\mathbb{N}^\mathbb{N}|.\)</span>  Υποθέτουμε, αρχικά, προς άτοπο, ότι  <span class="math notranslate nohighlight">\(\|\mathbb{N}|=|\mathbb{N}^\mathbb{N}|\)</span> . Αυτό πρακτικά σημαίνει ότι μπορούμε όλες τις ακολουθίες φυσικών αριθμών - δηλαδή όλα τα στοιχεία του  <span class="math notranslate nohighlight">\(\|\mathbb{N}^\mathbb{N}|\)</span>  - να τις αριθμήσουμε, ήτοι, να τις γράψουμε σε μία «λίστα» της μορφής  <span class="math notranslate nohighlight">\(\{x_1,x_2,\ldots\}\)</span> , δηλαδή, σε μία ακολουθία. Αφού το κάνουμε αυτό, μπορούμε να τις γράψουμε τη μία κάτω από την άλλη στον παρακάτω άπειρο «πίνακα», όπου με  <span class="math notranslate nohighlight">\(x_1(3)\)</span>  συμβολίζουμε το τρίτο (3) στοιχείο της πρώτης (1) ακολουθίας της λίστας μας:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}x_1&amp;:x_1(1),\ x_1(2),\ x_1(3),\ \dots\\ x_2&amp;:x_2(1),\ x_2(2),\ x_2(3),\ \dots\x_3&amp;:x_3(1),\ x_3(2),\ x_3(3),\ \dots\\vdots &amp; \end{aligned}\end{split}\]</div>
+<p>Τώρα, θεωρούμε την ακολουθία φυσικών αριθμών  <span class="math notranslate nohighlight">\(y\)</span>  η οποία κατασκευάζεται ως εξής:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(y(1)=x_1(1)+1\neq x_1(1)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(y(2)=x_2(2)+1\neq x_2(2)\)</span></p></li>
+<li><p><span class="math notranslate nohighlight">\(y(3)=x_3(3)+1\neq x_3(3)\)</span></p></li>
+<li><p>…</p></li>
+</ul>
+<p>Επί της ουσίας, πάμε σε κάθε στοιχείο της διαγωνίου του παραπάνω πίνακα και το αλλάζουμε, επιλέγοντας έναν - οποιονδήποτε - άλλο φυσικό αριθμό. Σαφώς,  <span class="math notranslate nohighlight">\(y\in\mathbb{N}^\mathbb{N}\)</span>  επομένως, από την υπόθεσή μας, θα πρέπει  <span class="math notranslate nohighlight">\(y=x_k\)</span>  για κάποιον δείκτη  <span class="math notranslate nohighlight">\(k\in\mathbb{N}\)</span> . Ωστόσο,  <span class="math notranslate nohighlight">\(y(k)\neq x_k(k)\)</span>  συνεπώς  <span class="math notranslate nohighlight">\(y\neq x_k\)</span> , άτοπο, άρα  <span class="math notranslate nohighlight">\(\|\mathbb{N}|&lt;|\mathbb{N}^\mathbb{N}|\)</span> .</p>
+<p>Το παραπάνω δεν μπορεί να δουλέψει άμεσα στην περίπτωσή μας, γιατί εκμεταλλευτήκαμε την αριθμησιμότητα των φυσικών αριθμών - στο σημείο που είπαμε ότι μπορούμε να γράψουμε όλες τις ακολουθίες φυσικών αριθμών σε μία λίστα. Ωστόσο, αυτό μπορούμε εύκολα να το παρακάμψουμε, ως εξής. Αρχικά, ας υποθέσουμε όπως και παραπάνω, προς άτοπο, ότι  <span class="math notranslate nohighlight">\(\|\mathbb{R}|=|\mathbb{R}^\mathbb{R}|\)</span> . Αυτό σημαίνει ότι μπορούμε κάθε πραγματικό αριθμό να τον αντιστοιχίσουμε <em>αμφιμονοσήμαντα</em> σε μία πραγματική συνάρτηση. Δηλαδή, μπορούμε να γράψουμε το σύνολο  <span class="math notranslate nohighlight">\(\mathbb{R}^\mathbb{R}\)</span>  στην εξής μορφή:</p>
+<div class="math notranslate nohighlight">
+\[\mathbb{R}^\mathbb{R}=\{f_r:r\in\mathbb{R}\}\]</div>
+<p>με κάθε  <span class="math notranslate nohighlight">\(f_r\)</span>  να είναι διαφορετική από τις υπόλοιπες. Αρχικά, μία μικρή σημείωση-απολογία για τον συμβολισμό. Μην μπερδεύετε τις  <span class="math notranslate nohighlight">\(f_r\)</span>  με τις σταθερές συναρτήσεις  <span class="math notranslate nohighlight">\(f_c\)</span>  που ορίσαμε παραπάνω. Απλώς χρησιμοποιήσαμε τον ίδιο συμβολισμό για λόγους συντομίας, ωστόσο, σκεφτείτε ότι τις  <span class="math notranslate nohighlight">\(f_c\)</span>  τις διαγράψαμε από τη «RAM» μας - σαν να μην είχαμε μιλήσει ποτέ για αυτές. Επί της ουσίας, οι  <span class="math notranslate nohighlight">\(f_r\)</span>  είναι όλες οι πραγματικές συναρτήσεις που υπάρχουν και, με βάση την υπόθεσή μας, μπορούμε να τις ξεχωρίσουμε τη μία από την άλλη, κοιτώντας τον δείκτη τους, που είναι ένας πραγματικός αριθμός. Κατά κάποιον τρόπο, έχουμε γράψει όλες τις πραγματικές συναρτήσεις σε μία «λίστα» η οποία, ωστόσο, δεν έχει ως δείκτες φυσικούς αριθμούς - δεν είναι αριθμήσιμη - αλλά πραγματικούς αριθμούς.</p>
+<p>Τώρα, προηγουμένως μπορούσαμε να παραθέσουμε τις ακολουθίες  <span class="math notranslate nohighlight">\(x_i\)</span>  τη μία κάτω από την άλλη, κάτι που ήταν εύκολο, μιας και στους φυσικούς αριθμούς έχουμε μία σαφή έννοια «τάξης»: υπάρχει ο πρώτος φυσικός αριθμός, ο δεύτερος (ο διάδοχος του πρώτου), ο τρίτος (ο διάδοχος του δεύτερου) κ.ο.κ.. Στους πραγματικούς αριθμούς μία τέτοια ιδιότητα δε φαίνεται καθαρά αν υπάρχει ή όχι στον ορίζοντα. Ωστόσο, μπορούμε να εργαστούμε και χωρίς αυτήν την υπόθεση, σχεδόν όπως παραπάνω και να θεωρήσουμε τη συνάρτηση  <span class="math notranslate nohighlight">\(g:\mathbb{R}\to\mathbb{R}\)</span>  η οποία ορίζεται ως:</p>
+<div class="math notranslate nohighlight">
+\[g(x)=f_x(x)+2020.\]</div>
+<p>Σαφώς, το 2020 στον ορισμό δεν παίζει κανέναν ρόλο - κάθε μη μηδενικός πραγματικός αριθμός μας κάνει. Παρατηρούμε τώρα ότι, αφού  <span class="math notranslate nohighlight">\(g\in\mathbb{R}^\mathbb{R}\)</span> , έπεται ότι υπάρχει κάποιο  <span class="math notranslate nohighlight">\(r\in\mathbb{R}\)</span>  τέτοιο ώστε  <span class="math notranslate nohighlight">\(g=f_r\)</span> . Ωστόσο,  <span class="math notranslate nohighlight">\(g(r)\neq f_r(r)\)</span>  άρα  <span class="math notranslate nohighlight">\(g\neq f_r\)</span>  για όποιο  <span class="math notranslate nohighlight">\(r\in\mathbb{R}\)</span>  κι αν επιλέξουμε, άτοπο, συνεπώς  <span class="math notranslate nohighlight">\(\|\mathbb{R}|&lt;|\mathbb{R}^\mathbb{R}|\)</span> , όπως φανταζόμαστε.</p>
+<p>Επί της ουσίας, δε χρειάστηκε να κάνουμε κάποια τρελή παρέκκλιση από το αρχικό μας επιχείρημα για τους φυσικούς αριθμούς, παρά να παρατηρήσουμε ότι η αριθμησιμότητα δε μας ήταν απαραίτητη ως ιδιότητα. Είναι χρήσιμο να παρατηρήσουμε εδώ ότι αν μας δινόταν ένα οποιοδήποτε σύνολο  <span class="math notranslate nohighlight">\(A\)</span>  με τουλάχιστον δύο στοιχεία στη θέση του  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>  και πάλι θα μπορούσαμε με ακριβώς τον ίδιο τρόπο να δείξουμε ότι το σύνολο όλων των συναρτήσεων  <span class="math notranslate nohighlight">\(f:A\to A\)</span> , που το συμβολίζουμε με  <span class="math notranslate nohighlight">\(A^A\)</span> , έχει πληθάριθμο <em>γνήσια μεγαλύτερο</em> του  <span class="math notranslate nohighlight">\(A\)</span> , δηλαδή  <span class="math notranslate nohighlight">\(\|A|&lt;|A^A|\)</span> . Αν επιλέξουμε ως  <span class="math notranslate nohighlight">\(A=\mathbb{N}\)</span>  τότε εύκολα μπορούμε να δούμε ότι μπορούμε να κατασκευάσουμε σύνολα με άπειρους πληθάριθμους που να είναι όλοι τους διαφορετικοί. Άρα, στην fancy ερώτηση «Είναι ένα το άπειρο;» η απάντηση είναι, εμφατικά, «όχι» καθώς άπειροι είναι οι φυσικοί αριθμοί αλλά, ακόμα πιο άπειρα είναι τα στοιχεία του συνόλου  <span class="math notranslate nohighlight">\(\mathbb{N}^\mathbb{N}\)</span>  - σε λίγο πιο χαλαρό επίπεδο τα παραπάνω, προφανώς.</p>
+</section>
+<section id="id3">
+<h2>Συνεχείς συναρτήσεις vs Πραγματικοί αριθμοί<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<p>Ωραία, επιβεβαιώσαμε τη διαίσθησή μας σχετικά αναίμακτα και με bonus ένα ωραίο συμπέρασμα για τους άπειρους πληθάριθμους στην περίπτωση των πραγματικών συναρτήσεων. Ωστόσο, τι γίνεται με τις συνεχείς πραγματικές συναρτήσεις; Εδώ, όπως σχετικά εύκολα μπορείτε να δείτε, το ίδιο τέχνασμα δε θα δουλέψει. Πράγματι, ενώ μπορούμε και πάλι να υποθέσουμε ότι μπορούμε να γράψουμε σαν μία «λίστα» με πραγματικούς δείκτες όλες τις συνεχείς συναρτήσεις, η «διαγώνια» συνάρτηση  <span class="math notranslate nohighlight">\(g\)</span>  που κατασκευάσαμε παραπάνω δε μας εγγυάται κανείς ότι είναι συνεχής - μην πέσετε στην παγίδα να πείτε ότι είναι συνεχής ως πράξεις συνεχών συναρτήσεων!</p>
+<p>Επομένως, πρέπει να βρούμε άλλον τρόπο να διερευνήσουμε την ισχύ ή όχι της διαισθητικής μας εικόνας ότι οι συνεχείς συναρτήσεις είναι κι αυτές «πολλές». Αρχικά, ας θυμηθούμε/δούμε τον ορισμό της συνέχειας - όχι τον λυκειακό, σαφώς:</p>
+<p>Μία συνάρτηση  <span class="math notranslate nohighlight">\(f `  λέγεται συνεχής σε ένα  :math:`x_0 `  του πεδίου ορισμού της αν για κάθε  :math:\)</span>varepsilon&gt;0 `  υπάρχει  <span class="math notranslate nohighlight">\(\delta&gt;0 `  τέτοιος ώστε για κάθε  :math:`x `  του πεδίου ορισμού της να ισχύει:  :math:\)</span>|x-x_0|&lt;deltaRightarrow|f(x)-f(x_0)|&lt;varepsilon ` .</p>
+<p>Μία βολική αναδιατύπωση του παραπάνω ορισμού με όρους ακολουθιών που θα μας φανεί ιδιαίτερα χρήσιμη είναι η ακόλουθη - αποκαλείται <em>αρχή της μεταφοράς</em>:</p>
+<p>Μία συνάρτηση  :math:<a href="#id4"><span class="problematic" id="id5">`</span></a>f `  είναι συνεχής σε ένα  :math:<a href="#id6"><span class="problematic" id="id7">`</span></a>x_0 `  του πεδίου ορισμού της αν για κάθε ακολουθία  :math:<a href="#id8"><span class="problematic" id="id9">`</span></a>x_n `  στοιχείων του πεδίου ορισμού της τέτοια ώστε  :math:<a href="#id10"><span class="problematic" id="id11">`</span></a>x_nto x_0 `  ισχύει και  :math:<a href="#id12"><span class="problematic" id="id13">`</span></a>f(x_n)to f(x_0) ` .</p>
+<p>Δε θα αποδείξουμε ότι τα παραπάνω είναι ισοδύναμα, ωστόσο, δεν είναι και τόσο δύσκολο μιας και τα δύο εκφράζουν σε άλλες γλώσσες την ίδια ιδέα: όσο το  <span class="math notranslate nohighlight">\(x\)</span>  «πλησιάζει» το  <span class="math notranslate nohighlight">\(x_0\)</span>  τόσο το  <span class="math notranslate nohighlight">\(f(x)\)</span>  «πλησιάζει» το  <span class="math notranslate nohighlight">\(f(x_0)\)</span> .</p>
+<p>Με βάση το παραπάνω, θα αποδείξουμε το εξής ιδιαίτερα ενδιαφέρον για τις πραγματικές συνεχείς συναρτήσεις:</p>
+<p>Μία συνεχής συνάρτηση  :math:<a href="#id14"><span class="problematic" id="id15">`</span></a>f:mathbb{R}tomathbb{R} `  για την οποία ισχύει ότι  :math:<a href="#id16"><span class="problematic" id="id17">`</span></a>f(x)=0 `  για κάθε  :math:<a href="#id18"><span class="problematic" id="id19">`</span></a>xinmathbb{Q} `  είναι ταυτοτικά μηδενική, δηλαδή  :math:<a href="#id20"><span class="problematic" id="id21">`</span></a>f(x)=0 `  για κάθε  :math:<a href="#id22"><span class="problematic" id="id23">`</span></a>xinmathbb{R} ` .</p>
+<p>Η απόδειξη του παραπάνω είναι σχετικά απλή. Αν  <span class="math notranslate nohighlight">\(x\in\mathbb{R}\)</span>  είναι ένας πραγματικός αριθμός, τότε, <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">όπως γνωρίζουμε</a>, υπάρχει μία ακολουθία ρητών αριθμών, έστω  <span class="math notranslate nohighlight">\(q_n\)</span>  τέτοια ώστε  <span class="math notranslate nohighlight">\(q_n\to x\)</span> . Από την αρχή της μεταφοράς παίρνουμε ότι  <span class="math notranslate nohighlight">\(f(q_n)\to f(x)\)</span> . Ωστόσο, επειδή  <span class="math notranslate nohighlight">\(q_n\in\mathbb{Q}\)</span>  έπεται ότι  <span class="math notranslate nohighlight">\(f(q_n)=0\)</span>  για κάθε  <span class="math notranslate nohighlight">\(n\in\mathbb{N}\)</span>  επομένως  <span class="math notranslate nohighlight">\(f(q_n)\to0\)</span> . Από τη μοναδικότητα τώρα του ορίου μίας ακολουθίας έπεται ότι  <span class="math notranslate nohighlight">\(f(x)=0\)</span> , άρα πράγματι η  <span class="math notranslate nohighlight">\(f\)</span>  είναι ταυτοτικά μηδενική.</p>
+<p>Δεδομένου τώρα ότι η διαφορά δύο συνεχών συναρτήσεων είναι επίσης συνεχής, έχουμε άμεσα και ότι αν  <span class="math notranslate nohighlight">\(f(x)=g(x)\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in\mathbb{Q}\)</span>  για δύο συνεχείς πραγματικές συναρτήσεις  <span class="math notranslate nohighlight">\(f,g\)</span>  τότε  <span class="math notranslate nohighlight">\(f=g\)</span>  (σε όλο το  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> ).</p>
+<p>Τα παραπάνω εκφράζουν μία ιδιαιτέρως ενδιαφέρουσα ιδιότητα των συνεχών πραγματικών συναρτήσεων. Αν μας απασχολεί να εξετάσουμε αν δύο τέτοιες συναρτήσεις είναι ίσες, δε χρειάζεται να εξετάσουμε κάθε τιμή στο πεδίο ορισμού τους, αλλά αρκεί να εξετάσουμε μόνο τις τιμές που παίρνουν στους <em>ρητούς</em> αριθμούς και η συνέχεια θα κάνει τα υπόλοιπα. Έτσι, οι συνεχείς συναρτήσεις φαίνονται να είναι αρκετά «λίγες» σε σχέση με τις πραγματικές συναρτήσεις στο σύνολό τους, υπό την έννοια ότι, σε αντίθεση με τις συνεχείς, για δύο πραγματικές συναρτήσεις χρειάζεται να εξετάσουμε κάθε τιμή τους - σε κάθε πραγματικό αριθμό - για να αποφανθούμε αν είναι ίσες ή όχι.</p>
+<p>Τώρα κάπως κλονίζεται λίγο η διαίσθησή μας. Είναι τελικά τόσες πολλές οι πραγματικές συναρτήσεις ή μήπως είναι, κόντρα στις αρχικές μας προσδοκίες, ενοχλητικά λίγες; Ήρθε η ώρα να πιάσουμε χαρτί και μολύβι. Ας συμβολίσουμε με  <span class="math notranslate nohighlight">\(C_\mathbb{R}\)</span>  το σύνολο όλων των συνεχών πραγματικών συναρτήσεων. Έχουμε δει αρκετά παραπάνω ότι  <span class="math notranslate nohighlight">\(\|\mathbb{R}|\leq|C_\mathbb{R}|\)</span> . Επίσης, όπως είπαμε, κάθε συνεχής συνάρτηση καθορίζεται κατά μοναδικό τρόπο μόνο από τις τιμές της στους ρητούς αριθμούς. Με άλλα λόγια, δε χρειάζεται να γνωρίζουμε κάθε τιμή μίας συνεχούς συνάρτησης  <span class="math notranslate nohighlight">\(f\)</span>  για να γνωρίζουμε ποια είναι παρά μόνο τις τιμές του συνόλου:</p>
+<div class="math notranslate nohighlight">
+\[f(\mathbb{Q})=\{f(x):x\in\mathbb{Q}\}.\]</div>
+<p>Κι εδώ έρχεται μία κομβική παρατήρηση: το σύνολο  <span class="math notranslate nohighlight">\(f(\mathbb{Q})\)</span>  είναι αριθμήσιμο - αφού οι ρητοί είναι αριθμήσιμοι. Συνεπώς, για κάθε συνεχή συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span>  το σύνολο  <span class="math notranslate nohighlight">\(f(\mathbb{Q})\)</span>  μπορεί να ταυτιστεί με μία ακολουθία πραγματικών αριθμών. Πράγματι, αν υποθέσουμε ότι έχουμε αριθμήσει τους ρητούς με κάποιον τρόπο - αυτό είναι εφικτό αφού είναι αριθμήσιμοι - ας πούμε  <span class="math notranslate nohighlight">\(\mathbb{Q}=\{q_1,q_2,\ldots\}\)</span>  και αν  <span class="math notranslate nohighlight">\(f\)</span>  είναι μία συνεχής συνάρτηση τότε αντιστοιχίζουμε την  <span class="math notranslate nohighlight">\(f\)</span>  στην ακολουθία:</p>
+<div class="math notranslate nohighlight">
+\[a_f:=(f(q_1),f(q_2),\ldots).\]</div>
+<p>Σαφώς, η παραπάνω ακολουθία είναι μοναδική για κάθε συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span>  ενώ κάθε ακολουθία πραγματικών αριθμών καθορίζει μονοσήμαντα και μία συνεχή συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span>  - καθορίζοντας τις τιμές της σε κάθε ρητό. Συνεπώς, έχουμε ένα ενδιαφέρον συμπέρασμα εδώ, το οποίο μας λέει ότι  <span class="math notranslate nohighlight">\(\|C_\mathbb{R}|=|\mathbb{R}^\mathbb{N}|\)</span>  - χρησιμοποιήσαμε τον συμβολισμό  <span class="math notranslate nohighlight">\(A^B\)</span>  για το σύνολο όλων των ακολουθιών πραγματικών αριθμών μιας και μία ακολουθία είναι, ουσιαστικά, μία συνάρτηση με πεδίο ορισμού τους φυσικούς αριθμούς. Από μόνο του αυτό το συμπέρασμα μας λέει κάτι εντυπωσιακό: οι συνεχείς πραγματικές συναρτήσεις είναι τόσες όσες και οι ακολουθίες πραγματικών αριθμών (οι οποίες αναμένουμε να είναι «αισθητά» λιγότερες από τις πραγματικές συναρτήσεις).</p>
+</section>
+<section id="id24">
+<h2>Ωραία, και πόσες είναι οι πραγματικές ακολουθίες;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id24" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id24'"><span>#</span></a></h2>
+<p>Δείξαμε ότι οι πραγματικές συνεχείς συναρτήσεις είναι τόσες όσες και οι πραγματικές ακολουθίες, ωστόσο, ακόμα δεν έχουμε αποδείξει τίποτα που να δίνει μία οριστική απάντηση στο ερώτημά μας, απλώς έχουμε καταφέρει να αναγάγουμε το πρόβλημά μας στη μελέτη ενός άλλου, λίγο πιο «απλού» συνόλου: αυτού των πραγματικών ακολουθιών,  <span class="math notranslate nohighlight">\(\mathbb{R}^\mathbb{N}\)</span> .</p>
+<section id="id25">
+<h3>(Ξανα)μετρώντας τους πραγματικούς αριθμούς<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id25" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id25'"><span>#</span></a></h3>
+<p>Αφήνουμε τις πραγματικές ακολουθίες προς το παρόν στην άκρη για να ασχοληθούμε λίγο με τον πληθάριθμο του συνόλου των πραγματικών αριθμών,  <span class="math notranslate nohighlight">\(\|\mathbb{R}|\)</span> . Αυτό που θα δείξουμε είναι ότι οι πραγματικοί αριθμοί είναι ακριβώς τόσοι όσα και τα υποσύνολα των φυσικών αριθμών, δηλαδή ότι  <span class="math notranslate nohighlight">\(\|\mathbb{R}|=|2^\mathbb{N}|\)</span> , όπου με  <span class="math notranslate nohighlight">\(2^A\)</span>  συμβολίζουμε το δυναμοσύνολο ενός συνόλου  <span class="math notranslate nohighlight">\(A\)</span>  - ο συμβολισμός σαφώς εμπνέεται από την περίπτωση όπου του  <span class="math notranslate nohighlight">\(A\)</span>  είναι πεπερασμένο, οπότε και ισχύει  <span class="math notranslate nohighlight">\(\|2^A|=2^{|A|}\)</span> . Αρχικά, θα κάνουμε μία χρήσιμη, και κρίσιμη, παρατήρηση:  <span class="math notranslate nohighlight">\(\|\mathbb{R}|=|[0,1]|\)</span> . Δηλαδή, οι πραγματικοί αριθμοί είναι τόσοι όσοι και οι (πραγματικοί) αριθμοί μεταξύ των  <span class="math notranslate nohighlight">\(0\)</span>  και  <span class="math notranslate nohighlight">\(1\)</span> . Αυτό, αν και εντυπωσιακό, είναι σχετικά εύκολο να το δει κανείς. Αφενός, προφανώς, αφού  <span class="math notranslate nohighlight">\([0,1]\subseteq\mathbb{R}\)</span>  έπεται ότι  <span class="math notranslate nohighlight">\(\|[0,1]|\leq|\mathbb{R}|\)</span> . Από την άλλη, παρατηρούμε ότι η συνάρτηση:</p>
+<div class="math notranslate nohighlight">
+\[f(x)=\frac{2}{\pi}\arctan x,\ x\in\mathbb{R}\]</div>
+<p>είναι 1-1 (άρα, όπως έχουμε δει και παραπάνω, το πεδίο ορισμού της  <span class="math notranslate nohighlight">\(f\)</span>  έχει το πολύ τόσα στοιχεία όσα το πεδίο τιμών της) και επίσης  <span class="math notranslate nohighlight">\(f(\mathbb{R})=(0,1)\subseteq[0,1]\)</span>  συνεπώς  <span class="math notranslate nohighlight">\(\|\mathbb{R}|\leq|[0,1]|\)</span> . Επομένως,  <span class="math notranslate nohighlight">\(\|\mathbb{R}|=|[0,1]|\)</span> .</p>
+<p>Συνεπώς, αντί να δείξουμε ότι  <span class="math notranslate nohighlight">\(\|2^{\mathbb{N}}|=|\mathbb{R}|\)</span>  μπορούμε να δείξουμε ότι  <span class="math notranslate nohighlight">\(\|2^{\mathbb{N}}|=|[0,1]|\)</span> . Θεωρούμε τώρα ένα  <span class="math notranslate nohighlight">\(X\in2^{\mathbb{N}}\)</span> , δηλαδή ένα υποσύνολο των φυσικών αριθμών,  <span class="math notranslate nohighlight">\(X\subseteq\mathbb{N}\)</span>  και την χαρακτηριστική του συνάρτηση  <span class="math notranslate nohighlight">\(\chi_X\)</span>  η οποία ορίζεται ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[\chi_X=\left\{\begin{array}{ll}1 &amp; x\in X\0 &amp; x\not\in X\end{array}\right.\]</div>
+<p>Επειδή το  <span class="math notranslate nohighlight">\(X\)</span>  είναι υποσύνολο των φυσικών αριθμών, μπορούμε να αναπαραστήσουμε τη χαρακτηριστική του συνάρτηση ως ακολουθία - εδώ αξιοποιούμε την αριθμησιμότητα των φυσικών αριθμών:</p>
+<div class="math notranslate nohighlight">
+\[(\chi_X(1),\chi_X(2),\chi_X(3),\ldots).\]</div>
+<p>Για παράδειγμα, για το σύνολο  <span class="math notranslate nohighlight">\(X=\{2,3,5\}\)</span>  παίρνουμε την ακολουθία  <span class="math notranslate nohighlight">\((0,1,1,0,1,0,\ldots)\)</span> . Προχωράμε ένα βήμα παρακάτω και παρατηρούμε ότι κάθε ακολουθία από 0 και 1 μπορούμε να την ερμηνεύσουμε ως έναν αριθμό στο  <span class="math notranslate nohighlight">\([0,1]\)</span>  θεωρώντας ότι τα 0 και 1 αντιστοιχούν στο δυαδικό ανάπτυγμα του εν λόγω αριθμού. Αυστηρότερα, μπορούμε να πούμε ότι αντιστοιχίζουμε ένα σύνολο  <span class="math notranslate nohighlight">\(X\)</span>  στον αριθμό:</p>
+<div class="math notranslate nohighlight">
+\[\chi_X(1)2^{-1}+\chi_X(2)2^{-2}+\chi_X(3)2^{-3}+\ldots=\sum_{k=1}^\infty\chi_X(k)2^{-k}.\]</div>
+<p>Η παραπάνω αντιστοίχιση είναι σαφώς επί, αφού κάθε ακολουθία από 0 και 1 μπορεί αφενός να προκύψει από την αναπαράσταση ενός αριθμού στο  <span class="math notranslate nohighlight">\([0,1]\)</span>  στο δυαδικό σύστημα και, αφετέρου, να ερμηνευθεί «φυσιολογικά» ως η χαρακτηριστική συνάρτηση ενός συνόλου φυσικών αριθμών. Επομένως, έπεται ότι  <span class="math notranslate nohighlight">\(\|[0,1]|\leq|2^\mathbb{N}|\)</span> .</p>
+<p>Μένει να δείξουμε ότι η παραπάνω αντιστοίχιση είναι 1-1 πράγμα, θα λέγαμε, σχεδόν προφανές. Ωστόσο, τα πράγματα δεν είναι τόσο απλά. Θεωρήστε, για παράδειγμα, το παραπάνω σύνολο  <span class="math notranslate nohighlight">\(X=\{2,3,5\}\)</span> , το οποίο φυσιολογικά θα αντιστοιχιζόταν στον αριθμό:</p>
+<div class="math notranslate nohighlight">
+\[a=0\cdot2^{-1}+1\cdot2^{-2}+1\cdot2^{-3}+0\cdot2^{-4}+1\cdot2^{-5}=\dfrac{13}{32}.\]</div>
+<p>Τώρα, θεωρήστε και το σύνολο  <span class="math notranslate nohighlight">\(Y=\{2,3,6,7,8,9,\ldots\}=\mathbb{N}\setminus\{1,4,5\}\)</span> . Αυτό το σύνολο θα αντιστοιχιζόταν στην ακολουθία:</p>
+<div class="math notranslate nohighlight">
+\[(0,1,1,0,0,1,1,\ldots),\]</div>
+<p>και, συνεπακόλουθα, στον αριθμό:</p>
+<div class="math notranslate nohighlight">
+\[b=0\cdot2^{-1}+1\cdot2^{-2}+1\cdot2^{-3}+0\cdot2^{-4}+0\cdot2^{-5}+1\cdot2^{-6}+1\cdot2^{-7}+\ldots\]</div>
+<p>Πρατηρήστε τώρα ότι:</p>
+<div class="math notranslate nohighlight">
+\[1\cdot2^{-6}+1\cdot2^{-7}+\ldots=2^{-6}\left(1+\frac{1}{2}+\frac{1}{2^2}+\ldots\right)=2^{-6}\cdot2=2^{_5},\]</div>
+<p>συνεπώς:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned}b&amp;=0\cdot2^{-1}+1\cdot2^{-2}+1\cdot2^{-3}+0\cdot2^{-4}+0\cdot2^{-5}+1\cdot2^{-6}+1\cdot2^{-7}+\ldots=\&amp;=0\cdot2^{-1}+1\cdot2^{-2}+1\cdot2^{-3}+0\cdot2^{-4}+1\cdot2^{-5}=a,\end{aligned}\]</div>
+<p>δηλαδή τα διαφορετικά σύνολα  <span class="math notranslate nohighlight">\(X\)</span>  και  <span class="math notranslate nohighlight">\(Y\)</span>  αντιστοιχίζονται στον ίδιο πραγματικό αριθμό, άρα η αντιστοίχισή μας δεν είναι 1-1. Επομένως, πρέπει να σκεφτούμε κάποιον τρόπο να παρακάμψουμε αυτή τη μικρή δυσκολία που έχουμε. Δεδομένου ότι ως τώρα έχουμε δείξει ότι  <span class="math notranslate nohighlight">\(\|[0,1]|\leq|2^\mathbb{N}|\)</span>  αρκεί να δείξουμε και την αντίστροφη ανισότητα,  <span class="math notranslate nohighlight">\(\|2^\mathbb{N}|\leq|[0,1]|\)</span> . Εδώ θα κάνουμε μία ακόμα χρήσιμη παρατήρηση. Το δυναμοσύνολο των φυσικών αριθμών μπορεί να γραφεί λίγο πιο «τακτοποιημένα» με τη βοήθεια των παρακάτω συνόλων:</p>
+<div class="math notranslate nohighlight">
+\[A_k:=\{X\subseteq\mathbb{N}:|X|=k\},\ k=0,1,2,\ldots,\]</div>
+<p>καθώς και του συνόλου:</p>
+<div class="math notranslate nohighlight">
+\[A_\infty=\{X\subseteq\mathbb{N}:|X|&gt;k\ \forall k\in\mathbb{N}\}.\]</div>
+<p>Για την ακρίβεια, εύκολα βλέπει κανείς ότι μπορούμε να γράψουμε:</p>
+<div class="math notranslate nohighlight">
+\[2^\mathbb{N}=\left(\bigcup_{k=0}^\infty A_k\right)\cup A_\infty.\]</div>
+<p>Με λίγα λόγια, «ταξινομήσαμε» τα υποσύνολα των φυσικών αριθμών ανάλογα με το πλήθος των στοιχείων που περιέχουν. Ας παρατηρήσουμε τώρα ότι τα  <span class="math notranslate nohighlight">\(A_k\)</span>  για  <span class="math notranslate nohighlight">\(k\in\mathbb{N}\)</span>  είναι όλα τους αριθμήσιμα. Πράγματι, το  <span class="math notranslate nohighlight">\(A_0=\{\varnothing\}\)</span>  είναι πεπερασμένο άρα αριθμήσιμο. Το  <span class="math notranslate nohighlight">\(A_1\{\{1\},\{2\},\{3\},\ldots\}\)</span>  περιέχει ένα μονοσύνολο για κάθε φυσικό αριθμό, επομένως  <span class="math notranslate nohighlight">\(\|A_1|=|\mathbb{N}|\)</span>  άρα είναι αριθμήσιμο. Για το  <span class="math notranslate nohighlight">\(A_2\)</span> , παρατηρούμε ότι περιέχει όλα τα δισύνολα τα οποία είναι, σαφώς, «λιγότερα» από ότι τα στοιχεία του  <span class="math notranslate nohighlight">\(\mathbb{N}\times\mathbb{N}\)</span> , δηλαδή τα διατεταγμένα ζεύγη φυσικών αριθμών, μιας και στα δεύτερα μετράει η σειρά που γράφουμε τα στοιχεία τους. Έτσι  <span class="math notranslate nohighlight">\(\|A_2|\leq|\mathbb{N}\times\mathbb{N}|\)</span> . Ωστόσο, <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">όπως έχουμε ξαναδεί</a>, μπορούμε να αριθμήσουμε όλα τα ζεύγη φυσικών αριθμών εύκολα, όπως φαίνεται στο παρακάτω σχήμα:</p>
+<figure class="wp-image-975 align-default" id="id31">
+<img alt="Ο περίπατος του Cantor." src="https://aftermaths.gr/_static/images/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png?w=723"/>
+<figcaption>
+<p><span class="caption-text">Ο περίπατος του Cantor.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id31"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Έτσι  <span class="math notranslate nohighlight">\(\|\mathbb{N}\times\mathbb{N}|=|\mathbb{N}|\)</span>  και άρα και  <span class="math notranslate nohighlight">\(\|A_2|=|\mathbb{N}|\)</span> . Αναλόγως, μπορούμε να δείξουμε και ότι  <span class="math notranslate nohighlight">\(\|\mathbb{N}\times\mathbb{N}\times\mathbb{N}|=|\mathbb{N}|\)</span>  και άρα  <span class="math notranslate nohighlight">\(\|A_3|=|\mathbb{N}|\)</span>  και, γενικότερα ότι  <span class="math notranslate nohighlight">\(\|A_k|=|\mathbb{N}|\)</span>  για κάθε  <span class="math notranslate nohighlight">\(k\in\mathbb{N}\)</span> . Συνεπώς, επειδή τα  <span class="math notranslate nohighlight">\(A_k\)</span>  είναι αριθμήσιμα στο πλήθος και αριθμήσιμα και τα ίδια ως σύνολα, έπεται ότι και η ένωσή τους είναι αριθμήσιμη, δηλαδή το σύνολο  <span class="math notranslate nohighlight">\(A_{\text{fin}}=\bigcup\limits_{k=0}^\infty A_k\)</span>  είναι αριθμήσιμο. Πράγματι, αν υποθέσουμε ότι  <span class="math notranslate nohighlight">\(A_k=\{X_{k,1},X_{k,2},X_{k,3},\ldots\}\)</span>  για κάθε  <span class="math notranslate nohighlight">\(k=0,1,2,\ldots\)</span>  τότε μπορούμε να γράψουμε τα στοιχεία του  <span class="math notranslate nohighlight">\(A_{\text{fin}}\)</span>  ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned}1&amp;:X_{0,1}\2&amp;:X_{1,1}\3&amp;:X_{1,2},X_{2,1}\4&amp;:X_{1,3},X_{2,2},X_{3,1}\\vdots\end{aligned}\end{split}\]</div>
+<p>Επί της ουσίας, στο  <span class="math notranslate nohighlight">\(k-\)</span> οστό «βήμα» παίρνουμε όλα τα στοιχεία που οι δείκτες τους αθροίζουν στο  <span class="math notranslate nohighlight">\(k\)</span> . Παρατηρήστε ότι με τον παραπάνω τρόπο θα πάρουμε όλα τα στοιχεία του  <span class="math notranslate nohighlight">\(A_{\text{fin}}\)</span>  καθώς ένα στοιχείο  <span class="math notranslate nohighlight">\(X_{k,i}\)</span>  θα εμφανιστεί στο  <span class="math notranslate nohighlight">\(k+i-\)</span> οστό «βήμα». Παρατηρήστε ότι σε κάθε «βήμα» μας παίρνουμε πεπερασμένα στο πλήθος στοιχεία, επομένως είναι εύκολο να αριθμήσουμε, οπότε το  <span class="math notranslate nohighlight">\(A_{\text{fin}}\)</span>  είναι πράγματι αριθμήσιμο</p>
+<p>Ωστόσο, δεν ισχύει το ίδιο και για το  <span class="math notranslate nohighlight">\(A_\infty\)</span> , το οποίο - spoiler alert - θα δείξουμε ότι είναι υπεραριθμήσιμο. Για την ακρίβεια, θα δείξουμε ότι έχει τουλάχιστον τόσα στοιχεία όσα και το  <span class="math notranslate nohighlight">\((0,1]\)</span> . Θεωρούμε έναν αριθμό  <span class="math notranslate nohighlight">\(x\in(0,1]\)</span>  και επιλέγουμε, αν χρειάζεται, από τα δύο δυαδικά του αναπτύγματα εκείνο που καταλήγει σε άπειρα διαδοχικά 1. Για παράδειγμα, αν έχουμε τον αριθμό  <span class="math notranslate nohighlight">\(x=0.25\)</span> , τότε ένα ανάπτυγμα του αριθμού είναι το «πεπερασμένο»  <span class="math notranslate nohighlight">\(x=0.01\)</span>  ενώ ένα άλλο είναι το «άπειρο»  <span class="math notranslate nohighlight">\(x=0.00111\ldots=0.00\overline{1}\)</span> . Εκ των δύο, επιλέγουμε το «άπειρο» και με βάση αυτό, αντιστοιχίζουμε τον  <span class="math notranslate nohighlight">\(x\)</span>  σε ένα σύνολο φυσικών αριθμών  <span class="math notranslate nohighlight">\(S_x\)</span>  που περιέχει το  <span class="math notranslate nohighlight">\(k\)</span>  αν και μόνο αν στην  <span class="math notranslate nohighlight">\(k-\)</span> οστή θέση του αναπτύγματός του εμφανίζεται το ψηφίο 1. Παρατηρήστε ότι κάθε τέτοιο σύνολο  <span class="math notranslate nohighlight">\(S_x\)</span>  είναι εξ ορισμού άπειρο. Αν ο  <span class="math notranslate nohighlight">\(x\)</span>  έχει άπειρο δυαδικό ανάπτυγμα, τότε σαφώς αυτό θα περιέχει άπειρα 1 άρα το  <span class="math notranslate nohighlight">\(S_x\)</span>  θα είναι άπειρο, ενώ αν ο  <span class="math notranslate nohighlight">\(x\)</span>  έχει πεπερασμένο ανάπτυγμα, τότε αντικαθιστώντας το τελευταίο του 1 με 0 και συναρμόζοντας στο τέλος άπειρα 1 παίρνουμε ένα «άπειρο» ανάπτυγμα αυτού του αριθμού.</p>
+<p>Τώρα, εύκολα βλέπουμε ότι αν  <span class="math notranslate nohighlight">\(S_x=S_y\)</span>  τότε  <span class="math notranslate nohighlight">\(x=y\)</span>  άρα η αντιστοίχιση  <span class="math notranslate nohighlight">\(x\mapsto S_x\)</span>  είναι 1-1 και, μάλιστα, επί του  <span class="math notranslate nohighlight">\(A_\infty\)</span> , συνεπώς  <span class="math notranslate nohighlight">\(\|A_\infty|=|(0,1]|=|[0,1]|\)</span> . Τώρα, το  <span class="math notranslate nohighlight">\(A_\infty\)</span>  με το  <span class="math notranslate nohighlight">\(2^\mathbb{N}\)</span>  διαφέρουν «ελάχιστα» ως προς το πλήθος τους, υπό την έννοια ότι το πρώτο υπολείπεται του δεύτερου κατά ένα αριθμήσιμο σύνολο. Θα δείξουμε ότι, στην πραγματικότητα, είναι ισοπληθικά, αποδεικνύοντας το ακόλουθο:</p>
+<p>Αν  <span class="math notranslate nohighlight">\(A `  είναι ένα **υπεραριθμήσιμο** σύνολο και  :math:`B `  ένα άλλο αριθμήσιμο σύνολο τότε  :math:\)</span>|Acup B|=|A| ` .</p>
+<p>Αφού το  <span class="math notranslate nohighlight">\(A\)</span>  είναι υπεραριθμήσιμο, θα περιέχει ένα αριθμήσιμο υποσύνολο  <span class="math notranslate nohighlight">\(C\subseteq A\)</span> . Έστω  <span class="math notranslate nohighlight">\(C=\{c_1,c_2,\ldots\}\)</span>  μία αρίθμηση των στοιχείων του  <span class="math notranslate nohighlight">\(C\)</span>  και  <span class="math notranslate nohighlight">\(B=\{b_1,b_2,\ldots\}\)</span>  μία αρίθμηση του  <span class="math notranslate nohighlight">\(B\)</span>  και έστω η συνάρτηση  <span class="math notranslate nohighlight">\(f:A\to A\cup B\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}f(x)=\left\{\begin{array}{ll}c_{n} &amp; x=c_{2n}\b_n &amp; x=c_{2n-1}\\ x &amp; x\not\in C\end{array}\right.\end{split}\]</div>
+<p>Ουσιαστικά, απεικονίζουμε όλα τα στοιχεια στον εαυτό τους εκτός από τα στοιχεία του  <span class="math notranslate nohighlight">\(C\)</span>  το οποίο το «απλώνουμε» ως εξής:</p>
+<ul class="simple">
+<li><p>τα στοιχεία με άρτιο δείκτη τα απεικονίζουμε στα στοιχεία με δείκτη ίσο με το μισό του δείκτη τους, δηλαδή  <span class="math notranslate nohighlight">\(c_2\mapsto c_1\)</span> ,  <span class="math notranslate nohighlight">\(c_4\mapsto c_2\)</span>  κ.ο.κ., οπότε έτσι παίρνουμε όλα τα στοιχεία του  <span class="math notranslate nohighlight">\(C\)</span> ,</p></li>
+<li><p>τα στοιχεία με περιττό δείκτη τα απεικονίζουμε στα «αντίστοιχα» στοιχεία του  <span class="math notranslate nohighlight">\(B\)</span> , δηλαδή  <span class="math notranslate nohighlight">\(c_1\to b_1\)</span> ,  <span class="math notranslate nohighlight">\(c_3\to b_2\)</span> ,  <span class="math notranslate nohighlight">\(c_5\to b_3\)</span>  κ.ο.κ., οπότε παίρνουμε έτσι όλα τα στοιχεία του  <span class="math notranslate nohighlight">\(B\)</span> .</p></li>
+</ul>
+<p>Από τον ορισμό της  <span class="math notranslate nohighlight">\(f\)</span>  είναι σαφές ότι αυτή είναι 1-1 και επί, συνεπώς  <span class="math notranslate nohighlight">\(\|A|=|A\cup B|\)</span> .</p>
+<p>Έτσι, και στην περίπτωσή μας, έπεται ότι  <span class="math notranslate nohighlight">\(\|A_\infty|=|2^\mathbb{N}|\)</span>  δηλαδή  <span class="math notranslate nohighlight">\(\|[0,1]|=|2^\mathbb{N}|\)</span>  συνεπώς  <span class="math notranslate nohighlight">\(\|\mathbb{R}|=|2^\mathbb{N}|\)</span> .</p>
+</section>
+<section id="id26">
+<h3>Επιστρέφοντας στις ακολουθίες<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id26" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id26'"><span>#</span></a></h3>
+<p>Ας ανακεφαλαιώσουμε λίγο όσα έχουμε βρει ως τώρα. Αφενός,  <span class="math notranslate nohighlight">\(\|C_\mathbb{R}|=|\mathbb{R}^\mathbb{N}|\)</span> , δηλαδή οι συνεχείς συναρτήσεις είναι τόσες όσες και οι ακολουθίες πραγματικών αριθμών. Αφετέρου, έχουμε δείξει ότι  <span class="math notranslate nohighlight">\(\|2^\mathbb{N}|=|\mathbb{R}|\)</span> , δηλαδή οι πραγματικοί αριθμοί είναι τόσοι όσα και τα υποσύνολα των φυσικών αριθμών. Για τη δεύτερη ισότητα μπορούμε να πούμε κάτι ελαφρώς πιο βολικό. Όπως είδαμε και παραπάνω, κάθε υποσύνολο των φυσικών αριθμών αντιστοιχίζεται σε μία μοναδική συνάρτηση  <span class="math notranslate nohighlight">\(f:\mathbb{N}\to\{0,1\}\)</span>  και, αντίστροφα, κάθε τέτοια συνάρτηση περιγράφει κατά μοναδικό τρόπο ένα υποσύνολο των φυσικών αριθμών. Έτσι, μπορούμε εύκολα να πούμε ότι  <span class="math notranslate nohighlight">\(\|2^\mathbb{N}|=|\{0,1\}^\mathbb{N}|\)</span> , άρα  <span class="math notranslate nohighlight">\(\|\{0,1\}^\mathbb{N}|=|\mathbb{R}|\)</span> .</p>
+<p>Ας πάρουμε τώρα μία ακολουθία  <span class="math notranslate nohighlight">\(a\in\mathbb{R}^\mathbb{N}\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[a=(a_1,a_2,a_3,\ldots).\]</div>
+<p>Κάθε ένας όρος της μπορεί να αντιστοιχιστεί σε μία (και μοναδική) συνάρτηση  <span class="math notranslate nohighlight">\(f_k:\mathbb{N}\to\{0,1\}\)</span> , συνεπώς η ακολουθία  <span class="math notranslate nohighlight">\(a\)</span>  μπορεί να γραφεί ως:</p>
+<div class="math notranslate nohighlight">
+\[a=(f_1,f_2,f_3,\ldots).\]</div>
+<p>Όπως μπορεί να παρατηρήσει κανείς, η  <span class="math notranslate nohighlight">\(a\)</span>  είναι επί της ουσίας μία συνάρτηση δύο μεταβλητών  <span class="math notranslate nohighlight">\(f:\mathbb{N}\times\mathbb{N}\to\{0,1\}\)</span>  της μορφής:</p>
+<div class="math notranslate nohighlight">
+\[f(k,n)=f_k(n),\ k,n\in\mathbb{N}.\]</div>
+<p>Είναι σαφές ότι μία ακολουθία καθορίζει μοναδικά την παραπάνω συνάρτηση  <span class="math notranslate nohighlight">\(f\)</span>  και καθορίζεται μοναδικά από αυτήν, επομένως βρήκαμε άλλη μία 1-1 και επί αντιστοίχιση ανάμεσα στις πραγματικές ακολουθίες και τις συναρτήσεις με πεδίο ορισμού το  <span class="math notranslate nohighlight">\(\mathbb{N}\times\mathbb{N}\)</span>  και πεδίο τιμών το  <span class="math notranslate nohighlight">\(\{0,1\}\)</span> . Όμως, όπως είδαμε και παραπάνω,  <span class="math notranslate nohighlight">\(\|\mathbb{N}\times\mathbb{N}|=|\mathbb{N}|\)</span>  και, συνεπώς, υπάρχει μία συνάρτηση  <span class="math notranslate nohighlight">\(g:\mathbb{N}\to\mathbb{N}\times\mathbb{N}\)</span>  που να είναι 1-1 και επί. Έτσι, κάθε συνάρτηση  <span class="math notranslate nohighlight">\(f\in\{0,1\}^{\mathbb{N}\times\mathbb{N}}\)</span>  μπορεί να αντιστοιχιστεί στη συνάρτηση  <span class="math notranslate nohighlight">\(f\circ g:\mathbb{N}\to\{0,1\}\)</span>  κατά μοναδικό τρόπο. Αντίστροφα, αν έχουμε μία συνάρτηση  <span class="math notranslate nohighlight">\(h:\mathbb{N}\to\{0,1\}\)</span>  τότε αυτή μπορει να αντιστοιχιστεί κατά μοναδικό τρόπο στη συνάρτηση  <span class="math notranslate nohighlight">\(h\circ g^{-1}:\mathbb{N}\times\mathbb{N}\to\{0,1\}\)</span> . Έτσι, παίρνουμε  <span class="math notranslate nohighlight">\(\|\{0,1\}^\mathbb{N}|=|\{0,1\}^{\mathbb{N}\times\mathbb{N}}|\)</span> .</p>
+<p>Συμμαζεύοντας όλες τις παραπάνω ισότητες έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\|C_\mathbb{R}|=|\mathbb{R}^\mathbb{N}|=|\{0,1\}^{\mathbb{N}\times\mathbb{N}}|=|\{0,1\}^\mathbb{N}|=|2^\mathbb{N}|=|\mathbb{R}|.\]</div>
+<p>Δηλαδή, οι συνεχείς συναρτήσεις είναι ακριβώς τόσες όσοι και οι πραγματικοί αριθμοί!</p>
+</section>
+</section>
+<section id="id27">
+<h2>Επίλογος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id27" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id27'"><span>#</span></a></h2>
+<p>Σαν κεραυνός εν αιθρία φαίνεται ήρθε το τελικό μας αποτέλεσμα ότι οι συνεχείς συναρτήσεις είναι, επί της ουσίας, λίγες, υπό την έννοια είναι είναι «μόλις» τόσες όσοι και οι πραγματικοί αριθμοί. Ωστόσο, δεν είναι μόνο αυτό που είναι εντυπωσιακό αλλά και ένα άλλο ενδιάμεσο αποτέλεσμα που αναφέραμε - και μας φάνηκε ιδιαίτερα χρήσιμο: οι συνεχείς συναρτήσεις είναι ακριβώς τόσες όσες και οι ακολουθίες πραγματικών αριθμών. Με άλλα λόγια, από τη σκοπιά των πληθαρίθμων, το να υποθέσουμε ότι μία πραγματική συνάρτηση είναι συνεχής είναι ισοδύναμο με το να υποθέσουμε ότι αυτή έχει πεδίο ορισμού όχι όλο το  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>  αλλά μόνο το σύνολο των φυσικών αριθμών.</p>
+<p>Άλλο ένα εντυπωσιακό αποτέλεσμα είναι ότι οι πραγματικοί αριθμοί μπορούν να περιγραφούν πλήρως χρησιμοποιώντας μόνο σύνολα φυσικών αριθμών. Αυτό είναι εντυπωσιακό διότι οι φυσικοί αριθμοί αποτελούν μία δομή σχεδόν «φυσική» υπό την έννοια ότι φαίνονται πολύ πιο κοντά μας από ό,τι οι πραγματικοί αριθμοί, που περιέχουν «στριφνά» και «παράξενα» όντα - όπως τους αρρήτους - αλλά χρειάζονται και <a class="reference external" href="docs/After-maths/τα-πολλά-πρόσωπα-του-αξιώματος-της-π.rst">ιδιαίτερα λεπτές και περίπλοκες διαδικασίες για να κατασκευαστούν</a>.</p>
+<p>Να παρατηρήσουμε, επίσης, ότι το παραπάνω αποτέλεσμα μας δείχνει ότι μεταξύ των συναρτήσεων, οι περισσότερες - κατά συντριπτική πλειοψηφία, μάλιστα - είναι ασυνεχείς. Αυτό είναι σχετικά εύκολο να το δούμε. Όπως είδαμε παραπάνω  <span class="math notranslate nohighlight">\(\|\mathbb{R}^\mathbb{R}|&gt;|\mathbb{R}|=|C_\mathbb{R}|\)</span> . Το σύνολο  <span class="math notranslate nohighlight">\(\mathbb{R}^\mathbb{R}\setminus C_\mathbb{R}\)</span> , όπως είναι φυσιολογικό, απαρτίζεται από όλες τις ασυνεχείς συναρτήσεις και δεν μπορεί να είναι ισοπληθικό με το  <span class="math notranslate nohighlight">\(\|\mathbb{R}|\)</span>  καθώς τότε θα έπρεπε, όπως θα δείξουμε, και η ένωσή του με το  <span class="math notranslate nohighlight">\(C_\mathbb{R}\)</span>  να είναι ισοπληθική με το  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> , ωστόσο  <span class="math notranslate nohighlight">\(C_\mathbb{R}\cup(\mathbb{R}^\mathbb{R}\setminus C_\mathbb{R})=\mathbb{R}^\mathbb{R}\)</span> , άτοπο.</p>
+<p>Αν, τώρα,  <span class="math notranslate nohighlight">\(A,B\)</span>  είναι δύο σύνολα ισοπληθικά με το  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>  τότε υπάρχουν δύο συναρτήσεις  <span class="math notranslate nohighlight">\(f:A\to\mathbb{R}\)</span>  και  <span class="math notranslate nohighlight">\(g:B\to\mathbb{R}\)</span>  1-1 και επί. Επειδή τώρα ισχύει και ότι  <span class="math notranslate nohighlight">\(\|\mathbb{R}|=|(0,+\infty)|=|(-\infty,0]|\)</span>  υπάρχουν και συναρτήσεις  <span class="math notranslate nohighlight">\(a:\mathbb{R}\to(0,+\infty)\)</span>  και  <span class="math notranslate nohighlight">\(b:\mathbb{R}\to(-\infty,0]\)</span>  1-1 και επί. Θεωρούμε τώρα τη συνάρτηση  <span class="math notranslate nohighlight">\(g:A\cup B\to\mathbb{R}\)</span>  με:</p>
+<div class="math notranslate nohighlight">
+\[h(x)=\left\{\begin{array}{ll}(a\circ f)(x) &amp; x\in A\(b\circ g)(x) &amp; x\in B\end{array}\right.\]</div>
+<p>Η  <span class="math notranslate nohighlight">\(h\)</span>  είναι σαφώς 1-1 και επί, επομένως  <span class="math notranslate nohighlight">\(\|A\cup B|=|\mathbb{R}|\)</span> .</p>
+<p>Έτσι, οι ασυνεχείς συναρτήσεις είναι πράγματι περισσότερες από τις συνεχείς συναρτήσεις.</p>
+<p>Πολλά είπαμε σε αυτήν την ανάρτηση, καλή μας χώνεψη και καλή χρονιά!</p>
+<blockquote>
+<div><div class="video_wrapper" style="">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/wOJdsMcmpDw" style="border: 0; height: 345px; width: 560px">
+</iframe></div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        Ολο-clear-ώματα: Το θεώρημα Frullani
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">
+        Πόσο Άρρητος Είσαι;
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#brainstorming'" class="reference internal" href="#brainstorming">Brainstorming</a></li>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Θέτοντας το πρόβλημα πιο αυστηρά</a></li>
+<li><a :data-current="activeSection === '#vs'" class="reference internal" href="#vs">Πραγματικές συναρτήσεις vs Πραγματικοί αριθμοί</a></li>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Συνεχείς συναρτήσεις vs Πραγματικοί αριθμοί</a></li>
+<li><a :data-current="activeSection === '#id24'" class="reference internal" href="#id24">Ωραία, και πόσες είναι οι πραγματικές ακολουθίες;</a><ul>
+<li><a :data-current="activeSection === '#id25'" class="reference internal" href="#id25">(Ξανα)μετρώντας τους πραγματικούς αριθμούς</a></li>
+<li><a :data-current="activeSection === '#id26'" class="reference internal" href="#id26">Επιστρέφοντας στις ακολουθίες</a></li>
+</ul>
+</li>
+<li><a :data-current="activeSection === '#id27'" class="reference internal" href="#id27">Επίλογος</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

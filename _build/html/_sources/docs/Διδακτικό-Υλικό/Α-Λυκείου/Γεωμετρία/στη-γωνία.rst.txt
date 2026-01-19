@@ -1,0 +1,33 @@
+Στη Γωνία!
+##########
+
+.. meta::
+	:date: 2023-10-23 10:59
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: φύλλο εργασίας, γωνίες, γεωμετρία
+	:slug: %cf%83%cf%84%ce%b7-%ce%b3%cf%89%ce%bd%ce%af%ce%b1
+	:status: published
+	:attachments: _static/images/uploads/2023/10/theo_van_doesburg_-_girl_with_ranunculus_-_google_art_project.jpg
+
+.. figure:: /_static/images/uploads/2023/10/theo_van_doesburg_-_girl_with_ranunculus_-_google_art_project.jpg
+	:alt: Ο πίνακας *Κορίτσι με νεραγκούλες* του `Theo van Doesburg  <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 
+	:align: center
+
+	Ο πίνακας *Κορίτσι με νεραγκούλες* του `Theo van Doesburg  <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 
+
+
+Πρώτες-πρώτες στην ύλη της Γεωμετρίας της Α' Λυκείου είναι οι γωνίες, σχήμα κομβικό, μυστηριώδες και... άπειρο. Με αυτό το φύλλο εργασίας εξερευνούμε τις βασικές πράξεις και έννοιες γύρω από τις γωνίες.
+
+Το φύλλο εργασίας μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1KXOntZp1qXwgBAC5PcV3lKfCi8dvPGYC/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: 7Mf6Q3m7erI 
+
+

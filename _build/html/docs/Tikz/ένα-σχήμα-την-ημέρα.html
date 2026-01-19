@@ -1,0 +1,3152 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2021-08-11 16:42" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="%ce%ad%ce%bd%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1-%cf%84%ce%b7%ce%bd-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2021/08/fig_2.png" name="attachments"/>
+<title>Ένα σχήμα την ημέρα | aftermaths</title>
+<meta content="Ένα σχήμα την ημέρα | aftermaths" property="og:title"/>
+<meta content="Ένα σχήμα την ημέρα | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../After-maths/%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Ένα σχήμα την ημέρα</span>
+</nav>
+<div id="content" role="main">
+<section id="id1">
+<h1>Ένα σχήμα την ημέρα<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+<figure class="align-center">
+<img alt="" src="_static/images/uploads/2021/08/fig_2.png"/>
+</figure>
+<p>Η αλήθεια είναι ότι ένα από τα πιο όμορφα, χρήσιμα και περίπλοκα πράγματα με το  <span class="math notranslate nohighlight">\(\LaTeX\)</span>  είναι το <code class="docutils literal notranslate"><span class="pre">tikz</span></code>. Αν τυχαίνει να μην το γνωρίζετε - που ίσως να είναι και ευχής έργον να <em>μην</em> το γνωρίζετε - το <code class="docutils literal notranslate"><span class="pre">tikz</span></code> είναι ένα πακέτο ανάπτυξης γραφικών που υποστηρίζεται από το  <span class="math notranslate nohighlight">\(\LaTeX\)</span> . Τις «οδηγίες χρήσης» του <code class="docutils literal notranslate"><span class="pre">tikz</span></code> μπορείτε να τις βρείτε ελεύθερα <a class="reference external" href="https://ftp.cc.uoc.gr/mirrors/CTAN/graphics/pgf/base/doc/pgfmanual.pdf">εδώ</a> - τη στιγμή που αυτή η πρόταση γράφεται, είναι μόλις 1321 σελίδες. Η αλήθεια είναι ότι την πρώτη φορά που χρειάστηκε να στοιχειοθετήσω κάποιο σχήμα χρησιμοποιώντας το <code class="docutils literal notranslate"><span class="pre">tikz</span></code> απλά έψαξα για άλλες εναλλακτικές, καθώς οι τότε περίπου 1200 σελίδες του εγχειριδίου χρήσης ήταν τουλάχιστον αποθαρρυντικές.</p>
+<p>Αλλά, έρχεται η μέρα που θες να κάνεις κάτι περίπλοκο που το GeoGebra ή διάφορα άλλα εργαλεία δεν μπορούν να κάνουν κομψά και απλά ή, εν πάση περιπτώσει, η ζωή τα φέρνει έτσι που το <code class="docutils literal notranslate"><span class="pre">tikz</span></code> είναι μονόδρομος. Το να διαβάσει κανείς όμως τις οδηγίες χρήσης δεν είναι. Υπάρχουν παραδείγματα στο διαδίκτυο και ερωτήσεις - ειδικά στο αξιαγάπητο <a class="reference external" href="http://tex.stackexchange.com/">tex.stackexchange.com</a>, οι οποίες καλύπτουν και τις πιο μύχιες επιθυμίες μας (σχεδόν). Μετά από αρκετά χρόνια ενασχόλησης, και μιας και όλη αυτή τη γνώση την πήρα δωρεάν, είπα να την επιστρέψω σχεδόν όπως την πήρα. Σε αυτήν τη στήλη θα βρίσκετε σχήματα στοιχειοθετημένα με <code class="docutils literal notranslate"><span class="pre">tikz</span></code> καθώς και τον πηγαίο κώδικά τους - αν υπάρχει όρεξη, ίσως και κάποια σχόλια σε σχέση με αυτόν.</p>
+<p>Καλή ανάγνωση! :)</p>
+<p><em>Για περισσότερα για κάθε σχήμα, μπορείτε να δείτε και τις δημοσιεύσεις σε</em><a class="reference external" href="https://aftermathsgr.wordpress.com/category/tikz/">αυτήν την κατηγορία</a><em>.</em></p>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-9836 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/11/fig_56.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Τόξα και πάλι τόξα…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[thick,-&gt;] (-1.5,0) -- (1.5,0)node[pos=1,below]{$x$};
+</span><span id="line-6">    \draw[thick,-&gt;] (0,-1.5) -- (0,1.5)node[pos=1,left]{$y$};
+</span><span id="line-7">    \node[left,yshift=-8pt](O) at (0,0){$O$};
+</span><span id="line-8">    \draw[thick] (0,-1) arc (-90:90:1);
+</span><span id="line-9">    \node[circle, draw=black, fill=white, inner sep=1pt] at (0,1){};
+</span><span id="line-10">    \node[circle, draw=black, fill=white, inner sep=1pt] at (0,-1){};
+</span><span id="line-11">    \draw[dashed,-&gt;] (0,2) arc (90:180:2);
+</span><span id="line-12">    \end{tikzpicture}
+</span><span id="line-13">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-9703 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/11/fig_55.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Το φύλλο του Καρτέσιου</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[thick,-&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-6">    \draw[thick,-&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-7">    \node[left,yshift=-8pt](O) at (0,0){$O$};
+</span><span id="line-8">    \draw[thick, samples=200, domain=125:-35] plot(\x:{(3*sin(\x)*cos(\x)/(sin(\x)^3+cos(\x)^3))});
+</span><span id="line-9">    \draw[dashed, domain=-3.3:2.4] plot(\x,{-1-\x});
+</span><span id="line-10">    \end{tikzpicture}
+</span><span id="line-11">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-9693 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/11/fig_54.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μία πολύ απλή γραφική παράσταση</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\usetikzlibrary{calc}
+</span><span id="line-4">\usetikzlibrary{intersections}
+</span><span id="line-5">
+</span><span id="line-6">\begin{document}
+</span><span id="line-7">    \begin{tikzpicture}
+</span><span id="line-8">    \draw[thick,-&gt;,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-9">    \draw[thick,-&gt;,name path=y axis] (0,-3) -- (0,3)node[pos=1,left]{$y$};
+</span><span id="line-10">    \draw[thick, samples=200, name path=curve] (-2,-1) .. controls (1,4) and (1.8,-4) .. (3,2.4);
+</span><span id="line-11">    \draw[draw=none, name path=line] (1.1,0) -- (1.1,3);
+</span><span id="line-12">    \draw[name intersections={of={line and curve}}] (1.1,0) -- (intersection-1)node[pos=0,below]{$x$};
+</span><span id="line-13">    \draw[name intersections={of={line and curve}}] ($(0,0)!(intersection-1)!(0,3)$) -- (intersection-1)node[pos=0,left]{$f(x)$};
+</span><span id="line-14">    \end{tikzpicture}
+</span><span id="line-15">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-9568 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/10/fig_53.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Η ιδέα της γραφικής παράστασης κατά τον <a class="reference external" href="https://en.wikipedia.org/wiki/Nicole_Oresme">Oresme</a>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage{ifthen}
+</span><span id="line-3">
+</span><span id="line-4">\begin{document}
+</span><span id="line-5">    \begin{tikzpicture}
+</span><span id="line-6">    \draw[thick,-&gt;] (-.5,0) -- (4,0)node[pos=1,below]{$t$};
+</span><span id="line-7">    \draw[thick,-&gt;] (0,-.5) -- (0,3)node[pos=1,left]{$v$};
+</span><span id="line-8">    \draw[thick] (0,.5) -- (3.5,2.25)node[pos=0,left]{$v_\alpha$}node[pos=1,right]{$v_\tau$};
+</span><span id="line-9">    \foreach \i in {0,.15,...,3.5}{
+</span><span id="line-10">        \pgfmathsetmacro{\res}{\i/2+.5}
+</span><span id="line-11">        \draw (\i,0) -- (\i,\res);
+</span><span id="line-12">    }
+</span><span id="line-13">    \end{tikzpicture}
+</span><span id="line-14">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-9480 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/10/fig_52.png?w=696"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Τι είναι το αλυσοειδές;</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage{ifthen}
+</span><span id="line-3">
+</span><span id="line-4">\usetikzlibrary{intersections}
+</span><span id="line-5">
+</span><span id="line-6">\begin{document}
+</span><span id="line-7">    \begin{tikzpicture}
+</span><span id="line-8">    \draw[thick,-&gt;,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-9">    \draw[thick,-&gt;,name path=y axis] (0,-1) -- (0,6)node[pos=1,left]{$y$};
+</span><span id="line-10">    \node[above](A) at (-2,4) {$A$};
+</span><span id="line-11">    \node[above](B) at (2,4) {$B$};
+</span><span id="line-12">    \node[below] at (2,0) {$2$};
+</span><span id="line-13">    \node[below] at (-2,0) {$-2$};
+</span><span id="line-14">    \node[left,yshift=.5em] at (0,4) {$4$};
+</span><span id="line-15">    \draw[dashed] (0,0) rectangle (-2,4);
+</span><span id="line-16">    \draw[dashed] (0,0) rectangle (2,4);
+</span><span id="line-17">    \foreach \a in {0.9,1,1.2}{
+</span><span id="line-18">        \pgfmathsetmacro{\res}{\a+4-\a*cosh(2/\a)};
+</span><span id="line-19">        \draw[thick, domain=-2:2, samples=200] plot(\x,{\a*cosh(\x/\a)+4-\a*cosh(2/\a)});
+</span><span id="line-20">        \node[yshift=.8em,xshift=0em] at (0,\res) {\scalebox{.65}{$\hphantom{\a}a=\a\hphantom{a}$}};
+</span><span id="line-21">    }
+</span><span id="line-22">    \end{tikzpicture}
+</span><span id="line-23">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-9457 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/10/fig_51.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Συμμετρία (ξανά)…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage{ifthen}
+</span><span id="line-3">
+</span><span id="line-4">\usetikzlibrary{calc}
+</span><span id="line-5">\usetikzlibrary{intersections}
+</span><span id="line-6">
+</span><span id="line-7">\begin{document}
+</span><span id="line-8">    \begin{tikzpicture}
+</span><span id="line-9">    \draw[thick,-&gt;,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-10">    \draw[thick,-&gt;,name path=y axis] (0,-3.5) -- (0,3.8)node[pos=1,left]{$y$};
+</span><span id="line-11">    \node[left,yshift=-8pt](O) at (0,0){$O$};
+</span><span id="line-12">    \draw[thick, red!75!black, name path=inverse] (-2,3) .. controls (-2,.3) and (2.2,.2) ..(2.2,-3)node[right]{$f^{-1}$};
+</span><span id="line-13">    \draw[thick, blue!75!black, name path=curve] (-3,2.2) .. controls (.2,2.2) and (.3,-2) .. (3,-2)node[below]{$f$};
+</span><span id="line-14">    \draw[purple!75!black, name path=bisectrix] (-3,-3) -- (3,3)node[pos=1,above]{$y=x$};
+</span><span id="line-15">    \draw[draw=none, domain={-3}:{3}, name path=line] plot(\x,{.65-\x});
+</span><span id="line-16">    \node[circle, fill=green!40!black, inner sep=1pt, name intersections={of={curve and line}}, label={right,yshift=8pt}:{$\textcolor{blue!75!black}{(x,f(x))}$}](A) at (intersection-1){};
+</span><span id="line-17">    \node[circle, fill=green!40!black, inner sep=1pt, name intersections={of={inverse and line}}, label={left}:{$\textcolor{red!75!black}{(x,f^{-1}(x))}$}](B) at (intersection-1){};
+</span><span id="line-18">    \draw[orange,&lt;-&gt;] (A) -- (B);
+</span><span id="line-19">    \draw[draw=none, name path=x] (A) -- ($(-4,4)!(A)!(4,4)$);
+</span><span id="line-20">    \draw[draw=none, name path=y] (B) -- ($(4,-4)!(A)!(4,-4)$);
+</span><span id="line-21">    \node[circle, fill=green!40!black, inner sep=1pt, name intersections={of={x and bisectrix}}, label={right}:{$\textcolor{purple!75!black}{(x,x)}$}](C) at (intersection-1){};
+</span><span id="line-22">    \draw[orange,-&gt;] (A) -- (C);
+</span><span id="line-23">    \draw[orange,-&gt;] (C) -- (B);
+</span><span id="line-24">    \end{tikzpicture}
+</span><span id="line-25">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-9421 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/10/fig_50.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μετατόπιση…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage{ifthen}
+</span><span id="line-3">
+</span><span id="line-4">\usetikzlibrary{intersections}
+</span><span id="line-5">
+</span><span id="line-6">\begin{document}
+</span><span id="line-7">    \begin{tikzpicture}
+</span><span id="line-8">    \draw[thick,-&gt;,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-9">    \draw[thick,-&gt;,name path=y axis] (0,-2.5) -- (0,3)node[pos=1,left]{$y$};
+</span><span id="line-10">    \node[left,yshift=-8pt](O) at (0,0){$O$};
+</span><span id="line-11">    \begin{scope}
+</span><span id="line-12">    \clip (-5,-3) rectangle (5,3.3);
+</span><span id="line-13">    \draw[very thick, name path=curve 1, red] (-3,-2) .. controls (-1,3) and (2,-3) .. (3,0)node[pos=.8,below]{$f(x)+c,\ c&lt;0$};
+</span><span id="line-14">    \draw[name path=curve 2, blue!50!black] (-3,-1) .. controls (-1,4) and (2,-2) .. (3,1)node[pos=1,right]{$f$};
+</span><span id="line-15">    \draw[very thick, name path=curve 3, green!40!black] (-3,.5) .. controls (-1,5.5) and (2,-.5) .. (3,2.5)node[pos=1,above]{$f(x)+c,\ c&gt;0$};
+</span><span id="line-16">    \foreach \i in {-3,...,3}{
+</span><span id="line-17">        \draw[draw=none, name path=line \i] (\i,-4) -- (\i,4);
+</span><span id="line-18">        \node[inner sep=0pt, outer sep=0pt, name intersections={of={curve 1 and line \i}}](A\i) at (intersection-1){};
+</span><span id="line-19">        \node[inner sep=0pt, outer sep=0pt, name intersections={of={curve 2 and line \i}}](B\i) at (intersection-1){};
+</span><span id="line-20">        \node[inner sep=0pt, outer sep=0pt, name intersections={of={curve 3 and line \i}}](C\i) at (intersection-1){};
+</span><span id="line-21">        \ifthenelse{\i=-3}{
+</span><span id="line-22">            \draw[orange, &lt;-&gt;] (A\i) -- (B\i)node[pos=.5,left]{$c$};
+</span><span id="line-23">            \draw[orange, &lt;-&gt;] (B\i) -- (C\i)node[pos=.5,left]{$c$};
+</span><span id="line-24">        }
+</span><span id="line-25">        {
+</span><span id="line-26">            \draw[orange, &lt;-&gt;] (A\i) -- (B\i)node[pos=.5,right]{$c$};
+</span><span id="line-27">            \draw[orange, &lt;-&gt;] (B\i) -- (C\i)node[pos=.5,right]{$c$};
+</span><span id="line-28">        }
+</span><span id="line-29">    }
+</span><span id="line-30">    \end{scope}
+</span><span id="line-31">    \end{tikzpicture}
+</span><span id="line-32">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-9265 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/10/fig_49.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Περιττό…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\usetikzlibrary{calc}
+</span><span id="line-4">\usetikzlibrary{intersections}
+</span><span id="line-5">
+</span><span id="line-6">\begin{document}
+</span><span id="line-7">    \begin{tikzpicture}
+</span><span id="line-8">    \draw[thick,-&gt;,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-9">    \draw[thick,-&gt;,name path=y axis] (0,-3) -- (0,3)node[pos=1,left]{$y$};
+</span><span id="line-10">    \node[left,yshift=-8pt](O) at (0,0){$O$};
+</span><span id="line-11">    \begin{scope}
+</span><span id="line-12">    \clip (-4,-3) rectangle (4,3);
+</span><span id="line-13">    \draw[thick, name path=curve 1, blue!50!black] (-3.6,-1) .. controls (-2,4) and (-1,3) .. (0,0);
+</span><span id="line-14">    \draw[thick, name path=curve 2, blue!50!black] (3.6,1) .. controls (2,-4) and (1,-3) .. (0,0)node[pos=0,above]{$f$};
+</span><span id="line-15">    \node[circle, fill=black, inner sep=1pt, label={above}:{$\textcolor{green!40!black}{x}$}](x) at (2.6,0){};
+</span><span id="line-16">    \node[circle, fill=black, inner sep=1pt, label={below}:{$\textcolor{green!40!black}{-x}$}](mx) at (-2.6,0){};
+</span><span id="line-17">    \draw[draw=none, name path=line 2] (2.6,-4) -- (2.6,4);
+</span><span id="line-18">    \draw[draw=none, name path=line 1] (-2.6,-4) -- (-2.6,4);
+</span><span id="line-19">    \node[circle, fill=green!40!black, inner sep=1pt, name intersections={of={line 1 and curve 1}}](A) at (intersection-1){};
+</span><span id="line-20">    \node[circle, fill=green!40!black, inner sep=1pt, name intersections={of={line 2 and curve 2}}](B) at (intersection-1){};
+</span><span id="line-21">    \end{scope}
+</span><span id="line-22">    \draw[dashed,-&gt;,orange] (x) -- (B);
+</span><span id="line-23">    \draw[dashed,-&gt;,orange] (mx) -- (A);
+</span><span id="line-24">    \draw[dashed,&lt;-&gt;,orange] (A) -- (B);
+</span><span id="line-25">    \draw[dashed,-&gt;,orange] (B) -- ($(0,-4)!(B)!(0,4)$)node[pos=1,left]{$f(x)$};
+</span><span id="line-26">    \draw[dashed,-&gt;,orange] (A) -- ($(0,-4)!(A)!(0,4)$)node[pos=1,right]{$-f(x)=f(-x)$};
+</span><span id="line-27">    \end{tikzpicture}
+</span><span id="line-28">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-9247 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/10/fig_48.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Άρτιο…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\usetikzlibrary{intersections}
+</span><span id="line-4">
+</span><span id="line-5">\begin{document}
+</span><span id="line-6">    \begin{tikzpicture}
+</span><span id="line-7">    \draw[thick,-&gt;,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-8">    \draw[thick,-&gt;,name path=y axis] (0,-2) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-9">    \node[left,yshift=-8pt](O) at (0,0){$O$};
+</span><span id="line-10">    \draw[thick, name path=curve 1, blue!50!black] (-3.6,2.5) .. controls (-2,-4) and (-1,3) .. (0,1);
+</span><span id="line-11">    \draw[thick, name path=curve 2, blue!50!black] (3.6,2.5) .. controls (2,-4) and (1,3) .. (0,1)node[pos=0,above]{$f$};
+</span><span id="line-12">    \node[circle, fill=black, inner sep=1pt, green!40!black, label={below}:{$\textcolor{green!40!black}{x}$}](x) at (3.4,0){};
+</span><span id="line-13">    \node[circle, fill=black, inner sep=1pt, green!40!black, label={below}:{$\textcolor{green!40!black}{-x}$}](mx) at (-3.4,0){};
+</span><span id="line-14">    \draw[draw=none, name path=line 2] (3.4,-4) -- (3.4,4);
+</span><span id="line-15">    \draw[draw=none, name path=line 1] (-3.4,-4) -- (-3.4,4);
+</span><span id="line-16">    \node[circle, fill=green!40!black, inner sep=1pt, name intersections={of={line 1 and curve 1}}](A) at (intersection-1){};
+</span><span id="line-17">    \node[circle, fill=green!40!black, inner sep=1pt, name intersections={of={line 2 and curve 2}}](B) at (intersection-1){};
+</span><span id="line-18">    \draw[dashed,-&gt;,orange] (x) -- (B);
+</span><span id="line-19">    \draw[dashed,-&gt;,orange] (mx) -- (A);
+</span><span id="line-20">    \draw[dashed,&lt;-&gt;,orange] (A) -- (B)node[pos=.5,right,yshift=8pt]{$f(x)=f(-x)$};
+</span><span id="line-21">    \end{tikzpicture}
+</span><span id="line-22">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-9211 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/10/fig_47.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Ανισότητες…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\usetikzlibrary{calc}
+</span><span id="line-4">\usetikzlibrary{intersections}
+</span><span id="line-5">
+</span><span id="line-6">\begin{document}
+</span><span id="line-7">    \begin{tikzpicture}
+</span><span id="line-8">    \draw[thick,-&gt;,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-9">    \draw[thick,-&gt;,name path=y axis] (0,-2.7) -- (0,3)node[pos=1,left]{$y$};
+</span><span id="line-10">    %\node[left,yshift=-8pt](O) at (0,0){$O$};
+</span><span id="line-11">    \draw[very thick, blue!75!black, name path=curve 1, samples=200] (-3,-2) .. controls (-.5,2) and (2,-2.7) .. (3,1) node[pos=1,right]{$f$};
+</span><span id="line-12">    \draw[very thick, red, name path=curve 2, samples=200] (-3,3) .. controls (-2,-2.7) and (2.2,3) .. (3,3) node[pos=1,right]{$g$};
+</span><span id="line-13">    \foreach \i in {-3,-2.8,...,3.1}{
+</span><span id="line-14">        \draw[draw=none, name path=line \i] (\i,-3) -- (\i,3);
+</span><span id="line-15">        \pgfmathtruncatemacro{\res}{20*\i}
+</span><span id="line-16">        \node[draw=none, outer sep=0pt, inner sep=0pt, name intersections={of={curve 1 and line \i}}](A\res) at (intersection-1){};
+</span><span id="line-17">        \node[draw=none, outer sep=0pt, inner sep=0pt, name intersections={of={curve 2 and line \i}}](B\res) at (intersection-1){};
+</span><span id="line-18">        \draw[orange, &lt;-&gt;] (A\res) -- (B\res);
+</span><span id="line-19">    }
+</span><span id="line-20">    \end{tikzpicture}
+</span><span id="line-21">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-9084 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/10/fig_46.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Πιο σύνθετα πράγματα…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\usetikzlibrary{calc}
+</span><span id="line-4">\usetikzlibrary{intersections}
+</span><span id="line-5">
+</span><span id="line-6">\begin{document}
+</span><span id="line-7">    \begin{tikzpicture}
+</span><span id="line-8">    \draw[thick] (0,0) ellipse (1.2 and 1.9)node[yshift=-2.2cm,xshift=-1cm]{$A$};
+</span><span id="line-9">    \draw[thick] (3,0) ellipse (1.2 and 1.9)node[yshift=-2.2cm,xshift=-1cm]{$B\cup C$};
+</span><span id="line-10">    \draw[thick] (6,0) ellipse (1.2 and 1.9)node[yshift=-2.2cm,xshift=-1cm]{$D$};
+</span><span id="line-11">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$a$}](a) at (.4,1.2){};
+</span><span id="line-12">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$b$}](b) at (-.4,.4){};
+</span><span id="line-13">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$c$}](c) at (.5,-.4){};
+</span><span id="line-14">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$d$}](d) at (-.3,-1.2){};
+</span><span id="line-15">    \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$1$}](1) at (3.3,1.2){};
+</span><span id="line-16">    \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$2$}](2) at (2.5,.4){};
+</span><span id="line-17">    \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$3$}](3) at (3.4,-.4){};
+</span><span id="line-18">    \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$4$}](4) at (2.6,-1.2){};
+</span><span id="line-19">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$e$}](e) at (6.3,1.2){};
+</span><span id="line-20">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$f$}](f) at (5.5,.4){};
+</span><span id="line-21">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$g$}](g) at (6.4,-.4){};
+</span><span id="line-22">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$h$}](h) at (5.6,-1.2){};
+</span><span id="line-23">    \draw[thick,-&gt;,blue!75!black] (a) -- (2);
+</span><span id="line-24">    \draw[thick,-&gt;,blue!75!black] (b) -- (3);
+</span><span id="line-25">    \draw[thick,-&gt;,blue!75!black] (c) -- (3);
+</span><span id="line-26">    \draw[thick,-&gt;,blue!75!black] (d) -- (4);
+</span><span id="line-27">    \draw[thick,-&gt;,red] (1) -- (f);
+</span><span id="line-28">    \draw[thick,-&gt;,red] (2) -- (e);
+</span><span id="line-29">    \draw[thick,-&gt;,red] (3) -- (h);
+</span><span id="line-30">    %ASSIST NODES
+</span><span id="line-31">    \node[draw=none](a1) at ($(1)+(.1,.3)$){};
+</span><span id="line-32">    \node[draw=none](a2) at ($(2)+(-.2,0)$){};
+</span><span id="line-33">    \node[draw=none](a3) at ($(3)+(.1,0)$){};
+</span><span id="line-34">    \node[draw=none](a22) at ($(2)+(-.2,.4)$){};
+</span><span id="line-35">    \node[draw=none](a4) at ($(4)+(0,-.1)$){};
+</span><span id="line-36">    \node[draw=none](aa) at ($(a)+(0,.1)$){};
+</span><span id="line-37">    \node[draw=none](ab) at ($(b)+(-.4,0)$){};
+</span><span id="line-38">    \node[draw=none](ac) at ($(c)+(.1,-.1)$){};
+</span><span id="line-39">    \draw[dashed, red, thick, fill=red, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(a1.north) (a2.west) (a3.south east)};
+</span><span id="line-40">    \draw[dashed, blue!75!black, thick, fill=blue!75!black, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(a22.north) (a3.east) (a4.south west)};
+</span><span id="line-41">    \draw[dashed, purple!75!black, thick, fill=purple!75!black, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(aa.north) (ab.west) (ac.south east)};
+</span><span id="line-42">    \node[label={above,yshift=2pt}:{$\textcolor{red}{D_g}$}] at (a1){};
+</span><span id="line-43">    \node[label={below,xshift=-20pt}:{$\textcolor{blue!75!black}{f(A)}$}] at (a4){};
+</span><span id="line-44">    \node[label={left,xshift=-6pt}:{$\textcolor{purple!75!black}{D_{g\circ f}}$}] at (ab){};
+</span><span id="line-45">    \end{tikzpicture}
+</span><span id="line-46">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-9045 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/10/fig_45.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Σύνθετα πράγματα…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\usetikzlibrary{calc}
+</span><span id="line-4">\usetikzlibrary{intersections}
+</span><span id="line-5">
+</span><span id="line-6">\begin{document}
+</span><span id="line-7">    \begin{tikzpicture}
+</span><span id="line-8">    \draw[thick] (0,0) ellipse (1.2 and 1.9)node[yshift=-2.4cm,xshift=-1cm]{$A$};
+</span><span id="line-9">    \draw[thick] (3,0) ellipse (1.2 and 1.9)node[yshift=-2.4cm,xshift=-1cm]{$B\cup C$};
+</span><span id="line-10">    \draw[thick] (6,0) ellipse (1.2 and 1.9)node[yshift=-2.4cm,xshift=-1cm]{$D$};
+</span><span id="line-11">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$a$}](a) at (.4,1.2){};
+</span><span id="line-12">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$b$}](b) at (-.4,.4){};
+</span><span id="line-13">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$c$}](c) at (.5,-.4){};
+</span><span id="line-14">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$d$}](d) at (-.3,-1.2){};
+</span><span id="line-15">    \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$1$}](1) at (3.3,1.2){};
+</span><span id="line-16">    \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$2$}](2) at (2.5,.4){};
+</span><span id="line-17">    \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$3$}](3) at (3.4,-.4){};
+</span><span id="line-18">    \node[circle, inner sep=1pt, fill=black, draw=black, label={above}:{$4$}](4) at (2.6,-1.2){};
+</span><span id="line-19">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$e$}](e) at (6.3,1.2){};
+</span><span id="line-20">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$f$}](f) at (5.5,.4){};
+</span><span id="line-21">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$g$}](g) at (6.4,-.4){};
+</span><span id="line-22">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$h$}](h) at (5.6,-1.2){};
+</span><span id="line-23">    \draw[thick,-&gt;,blue!75!black] (a) -- (2);
+</span><span id="line-24">    \draw[thick,-&gt;,blue!75!black] (b) -- (3);
+</span><span id="line-25">    \draw[thick,-&gt;,blue!75!black] (c) -- (3);
+</span><span id="line-26">    \draw[thick,-&gt;,blue!75!black] (d) -- (4);
+</span><span id="line-27">    \draw[thick,-&gt;,red] (1) -- (f);
+</span><span id="line-28">    \draw[thick,-&gt;,red] (2) -- (e);
+</span><span id="line-29">    \draw[thick,-&gt;,red] (3) -- (h);
+</span><span id="line-30">    %ASSIST NODES
+</span><span id="line-31">    \node[draw=none](a1) at ($(1)+(.1,.3)$){};
+</span><span id="line-32">    \node[draw=none](a2) at ($(2)+(-.2,0)$){};
+</span><span id="line-33">    \node[draw=none](a3) at ($(3)+(.1,0)$){};
+</span><span id="line-34">    \node[draw=none](a22) at ($(2)+(-.2,.4)$){};
+</span><span id="line-35">    \node[draw=none](a4) at ($(4)+(0,-.1)$){};
+</span><span id="line-36">    \draw[dashed, red, thick, fill=red, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(a1.north) (a2.west) (a3.south east)};
+</span><span id="line-37">    \draw[dashed, blue!75!black, thick, fill=blue!75!black, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(a22.north) (a3.east) (a4.south west)};
+</span><span id="line-38">    \node[label={above,yshift=2pt}:{$\textcolor{red}{D_g}$}] at (a1){};
+</span><span id="line-39">    \node[label={below,xshift=-20pt}:{$\textcolor{blue!75!black}{f(A)}$}] at (a4){};
+</span><span id="line-40">    \end{tikzpicture}
+</span><span id="line-41">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8975 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/10/fig_44.png?w=777"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Υπερβολές…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage[english, greek]{babel}
+</span><span id="line-3">\usepackage[iso-8859-7]{inputenc}
+</span><span id="line-4">
+</span><span id="line-5">\pgfdeclarelayer{bg}
+</span><span id="line-6">\pgfsetlayers{bg,main}
+</span><span id="line-7">
+</span><span id="line-8">\usetikzlibrary{patterns}
+</span><span id="line-9">\usetikzlibrary{intersections}
+</span><span id="line-10">
+</span><span id="line-11">\begin{document}
+</span><span id="line-12">    \begin{tikzpicture}
+</span><span id="line-13">    \draw[thick,-&gt;,name path=x axis] (-2,0) -- (2,0)node[pos=1,below]{$x$};
+</span><span id="line-14">    \draw[thick,-&gt;,name path=y axis] (0,-2) -- (0,2)node[pos=1,left]{$y$};
+</span><span id="line-15">    \node[left,yshift=-8pt](O) at (0,0){$O$};
+</span><span id="line-16">    \draw[thick, name path=line, samples=200, domain=-1.8:{-1/1.8}, color=blue!50!black] plot (\x,{.9/\x});
+</span><span id="line-17">    \draw[thick, name path=line, samples=200, domain={1/1.8}:1.8, color=blue!50!black] plot (\x,{.9/\x});
+</span><span id="line-18">    \node[color=blue!50!black] at (-1,1){$ f(x)=\frac{a}{x}$};
+</span><span id="line-19">    \node[circle, fill=orange, inner sep=1pt](A) at (1.2,{.9/1.2}){};
+</span><span id="line-20">    \draw[-&gt;, color=green!40!black] (0,0) -- (A);
+</span><span id="line-21">    \begin{pgfonlayer}{bg}
+</span><span id="line-22">    \fill[pattern=north west lines, pattern color=orange] (0,0) rectangle (A);
+</span><span id="line-23">    \node[orange](tab) at (1,-.5){Εμβ.=$a$};
+</span><span id="line-24">    \end{pgfonlayer}
+</span><span id="line-25">    \end{tikzpicture}
+</span><span id="line-26">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8878 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/10/fig_43.png?w=1022"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μία ρίζα…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\pgfdeclarelayer{bg}
+</span><span id="line-4">\pgfsetlayers{bg,main}
+</span><span id="line-5">
+</span><span id="line-6">\usetikzlibrary{calc}
+</span><span id="line-7">\usetikzlibrary{intersections}
+</span><span id="line-8">
+</span><span id="line-9">\begin{document}
+</span><span id="line-10">    \begin{tikzpicture}
+</span><span id="line-11">    \draw[thick,-&gt;,name path=x axis] (-1,0) -- (3,0)node[pos=1,below]{$x$};
+</span><span id="line-12">    \draw[thick,-&gt;,name path=y axis] (0,-2) -- (0,2)node[pos=1,left]{$y$};
+</span><span id="line-13">    \node[left,yshift=-8pt](O) at (0,0){$O$};
+</span><span id="line-14">    \draw[thick, name path=line, samples=200, domain=0:2.7, color=blue!50!black] plot (\x,{.9*sqrt(\x)});
+</span><span id="line-15">    \node[color=blue!50!black] at (1.2,-1){$f(x)=a\sqrt{x}$};
+</span><span id="line-16">    \draw[draw=none, name path=curve] (1,-2) -- (1,2);
+</span><span id="line-17">    \node[circle, fill=orange, inner sep=1pt, name intersections={of={curve and line}}](A) at (intersection-1){};
+</span><span id="line-18">    \begin{pgfonlayer}{bg}
+</span><span id="line-19">    \draw[dashed, orange] (0,0) rectangle (A);
+</span><span id="line-20">    \end{pgfonlayer}
+</span><span id="line-21">    \node[left, orange] at ($(0,-2)!(A)!(0,2)$){$a$};
+</span><span id="line-22">    \node[below, orange] at (1,0){$1$};
+</span><span id="line-23">    \end{tikzpicture}
+</span><span id="line-24">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8855 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_42.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μία απλή απόλυτη τιμή…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\pgfdeclarelayer{bg}
+</span><span id="line-4">\pgfsetlayers{bg,main}
+</span><span id="line-5">
+</span><span id="line-6">\usetikzlibrary{calc}
+</span><span id="line-7">\usetikzlibrary{intersections}
+</span><span id="line-8">
+</span><span id="line-9">\begin{document}
+</span><span id="line-10">    \begin{tikzpicture}
+</span><span id="line-11">    \draw[thick,-&gt;,name path=x axis] (-2,0) -- (2,0)node[pos=1,below]{$x$};
+</span><span id="line-12">    \draw[thick,-&gt;,name path=y axis] (0,-2) -- (0,2)node[pos=1,left]{$y$};
+</span><span id="line-13">    \node[left,yshift=-8pt](O) at (0,0){$O$};
+</span><span id="line-14">    \draw[thick, name path=line, color=blue!50!black] (0,0) -- (1.8,1.4)node[pos=1,above]{$f(x)=a|x|$};
+</span><span id="line-15">    \draw[thick, color=blue!50!black] (0,0) -- (-1.8,1.4);
+</span><span id="line-16">    \draw[draw=none, name path=curve] (1,-2) -- (1,2);
+</span><span id="line-17">    \node[circle, fill=orange, inner sep=1pt, name intersections={of={line and curve}}](A) at (intersection-1){};
+</span><span id="line-18">    \begin{pgfonlayer}{bg}
+</span><span id="line-19">    \draw[dashed, orange] (0,0) rectangle (A);
+</span><span id="line-20">    \end{pgfonlayer}
+</span><span id="line-21">    \node[left, orange] at ($(0,-2)!(A)!(0,2)$){$a$};
+</span><span id="line-22">    \node[below, orange] at (1,0){$1$};
+</span><span id="line-23">    \end{tikzpicture}
+</span><span id="line-24">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8789 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_40.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Πολλά μαζεύτηκαν εδώ…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\usetikzlibrary{calc}
+</span><span id="line-4">\usetikzlibrary{intersections}
+</span><span id="line-5">
+</span><span id="line-6">\pgfdeclarelayer{bg}
+</span><span id="line-7">\pgfsetlayers{bg,main}
+</span><span id="line-8">
+</span><span id="line-9">\begin{document}
+</span><span id="line-10">    \begin{tikzpicture}
+</span><span id="line-11">    \fill[blue!5] (-4,-4) -- (4,4) -- (-4,4) -- cycle node[black, pos=.3, xshift=1cm]{$U$};
+</span><span id="line-12">    \fill[red!5] (-4,-4) -- (4,4) -- (4,-4) -- cycle;
+</span><span id="line-13">    \draw[draw=none, name path=bisectrix] (-4,-4) -- (4,4);
+</span><span id="line-14">    \node[inner sep=0pt, outer sep=0pt](a) at (-2.4,2.7){};
+</span><span id="line-15">    \draw[draw=none, name path={x-coord}] ($(-4,4)!(a)!(4,4)$) -- ($(-4,-4)!(a)!(4,-4)$);
+</span><span id="line-16">    \draw[draw=none, name path={y-coord}] ($(-4,-4)!(a)!(-4,4)$) -- ($(4,-4)!(a)!(4,4)$);
+</span><span id="line-17">    \draw[name intersections={of=bisectrix and y-coord}] (intersection-1) coordinate (b);
+</span><span id="line-18">    \draw[name intersections={of=bisectrix and x-coord}] (intersection-1) coordinate (c);
+</span><span id="line-19">    \fill[blue!15] (a) -- (c) -- (b) -- cycle;
+</span><span id="line-20">    \fill[red!15] ($(-4,-4)!(a)!(4,-4)$) -- (c) -- (b) -- ($(4,-4)!(a)!(4,4)$) -- (4,-4) -- cycle node[black, pos=.3, yshift=2cm]{$L$};
+</span><span id="line-21">    \draw[thick, -&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-22">    \draw[thick, -&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-23">    \draw[thick] (-4,-4) -- (4,4);
+</span><span id="line-24">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={above}:{$A(a,f(a))$}](a-visible) at (a){};
+</span><span id="line-25">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={above, xshift=-.85cm}:{$B(f(a),f(a))$}](b-visible) at (b){};
+</span><span id="line-26">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={right}:{$C(a,a)$}](c-visible) at (c){};
+</span><span id="line-27">    \draw[dashed, thick] ($(-4,-4)!(a)!(4,-4)$) -- (a) -- ($(4,-4)!(a)!(4,4)$);
+</span><span id="line-28">    \node[draw=none, outer sep=0pt, inner sep=0pt](b-right-shift) at ($(b)+(.5,0)$){};
+</span><span id="line-29">    \draw[thick, &lt;-&gt;, red] (b-right-shift) -- ($(-4,-4)!(b-right-shift)!(4,-4)$);
+</span><span id="line-30">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={left,yshift=-8pt}:{$f(a)+1$}](d) at ($(-4,0)!(b-right-shift)!(4,0)$){};
+</span><span id="line-31">    \end{tikzpicture}
+</span><span id="line-32">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8792 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_41.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Ρίζες…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\usepackage{ifthen}
+</span><span id="line-4">
+</span><span id="line-5">\usetikzlibrary{calc}
+</span><span id="line-6">\usetikzlibrary{intersections}
+</span><span id="line-7">
+</span><span id="line-8">\begin{document}
+</span><span id="line-9">    \begin{tikzpicture}
+</span><span id="line-10">    \draw[thick,-&gt;,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-11">    \draw[thick,-&gt;,name path=y axis] (0,-3) -- (0,3)node[pos=1,left]{$y$};
+</span><span id="line-12">    \node[left,yshift=-8pt](O) at (0,0){$O$};
+</span><span id="line-13">    \foreach \i in {-3,-2,...,3}{
+</span><span id="line-14">        \ifthenelse{\i=-3 \OR \i=3}{
+</span><span id="line-15">            \draw (\i,-.1) -- (\i,.1) node[pos=0,below]{};
+</span><span id="line-16">        }
+</span><span id="line-17">        {
+</span><span id="line-18">            \ifthenelse{\NOT \i=0}{
+</span><span id="line-19">                \draw (\i,-.1) -- (\i,.1) node[pos=0,below]{};
+</span><span id="line-20">                \draw (-.1,\i) -- (.1,\i) node[pos=0,left]{};
+</span><span id="line-21">            }{}
+</span><span id="line-22">        }
+</span><span id="line-23">    }
+</span><span id="line-24">    \draw[thick,green!40!black] (-4,0) -- (3.9,0)node[pos=1,above]{$y=0$};
+</span><span id="line-25">    \draw[thick, name path=curve, color=blue!50!black] (-3,-1.5) .. controls (-1.9,3) and (2.6,-3) .. (3,2);
+</span><span id="line-26">    \foreach \i in {1,2,3}{
+</span><span id="line-27">        \node[circle, fill=orange, inner sep=1pt, name intersections={of={curve and x axis}}] (A\i) at (intersection-\i){};
+</span><span id="line-28">    }
+</span><span id="line-29">    \coordinate (O) at (0,0);
+</span><span id="line-30">    \coordinate (X) at (1,1);
+</span><span id="line-31">    \path let \p1=($ (X) -(O) $),\p2=($ (A1) - (O)$),\n1={\x2/\x1} in
+</span><span id="line-32">    node at ($(A1)+(0,.5)$){$\textcolor{orange}{x_1\approx\pgfmathroundtozerofill{\n1}\pgfmathresult}$};
+</span><span id="line-33">
+</span><span id="line-34">    \path let \p1=($ (X) -(O) $),\p2=($ (A2) - (O)$),\n1={\x2/\x1} in
+</span><span id="line-35">    node at ($(A2)+(.4,.5)$){$\textcolor{orange}{x_2\approx\pgfmathroundtozerofill{\n1}\pgfmathresult}$};
+</span><span id="line-36">
+</span><span id="line-37">    \path let \p1=($ (X) -(O) $),\p2=($ (A3) - (O)$),\n1={\x2/\x1} in
+</span><span id="line-38">    node at ($(A3)+(0,-.5)$){$\textcolor{orange}{x_3\approx\pgfmathroundtozerofill{\n1}\pgfmathresult}$};
+</span><span id="line-39">    \end{tikzpicture}
+</span><span id="line-40">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8660 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_39.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Σύνθεση συναρτήσεων!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\usepackage{amsmath}
+</span><span id="line-4">
+</span><span id="line-5">\pgfdeclarelayer{bg}
+</span><span id="line-6">\pgfsetlayers{bg,main}
+</span><span id="line-7">
+</span><span id="line-8">\begin{document}
+</span><span id="line-9">    \begin{tikzpicture}
+</span><span id="line-10">    \node(x) at (-.5,0) {$\dfrac{\pi}{6}$};
+</span><span id="line-11">    \node(gx) at (1,0) {$g\left(\dfrac{\pi}{6}\right)$};
+</span><span id="line-12">    \node[right](fgx) at (2,0) {$f\left(g\left(\dfrac{\pi}{6}\right)\right)$};
+</span><span id="line-13">    \draw[blue,|-&gt;] (x) -- (gx)node[pos=.5,above]{$\textcolor{blue}{g}$};
+</span><span id="line-14">    \draw[red,|-&gt;] (gx) -- (fgx)node[pos=.5,above]{$\textcolor{red}{f}$};
+</span><span id="line-15">    \end{tikzpicture}
+</span><span id="line-16">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8623 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_38.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Παράξενη καμπύλη…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\pgfdeclarelayer{bg}
+</span><span id="line-4">\pgfsetlayers{bg,main}
+</span><span id="line-5">
+</span><span id="line-6">\begin{document}
+</span><span id="line-7">    \begin{tikzpicture}
+</span><span id="line-8">    \draw[thick,-&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-9">    \draw[thick,-&gt;] (0,-2.7) -- (0,3)node[pos=1,left]{$y$};
+</span><span id="line-10">    \begin{scope}
+</span><span id="line-11">    \clip (-4,-2.7) rectangle (4,3);
+</span><span id="line-12">    \draw[thick,blue!50!black, domain={.5}:{3}, samples=100] (1,-2) .. controls (-6,2) and (2,2) .. (2,-1.85);
+</span><span id="line-13">    \end{scope}
+</span><span id="line-14">    \end{tikzpicture}
+</span><span id="line-15">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8613 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_37.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Το πεδίο ορισμού ως προβολή στο οριζόντιο άξονα…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\usetikzlibrary{calc}
+</span><span id="line-4">\usetikzlibrary{intersections}
+</span><span id="line-5">
+</span><span id="line-6">\pgfdeclarelayer{bg}
+</span><span id="line-7">\pgfsetlayers{bg,main}
+</span><span id="line-8">
+</span><span id="line-9">\begin{document}
+</span><span id="line-10">    \begin{tikzpicture}
+</span><span id="line-11">    \draw[thick,-&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-12">    \draw[thick,-&gt;] (0,-2.7) -- (0,3)node[pos=1,left]{$y$};
+</span><span id="line-13">    \begin{scope}
+</span><span id="line-14">    \clip (-4,-2.7) rectangle (4,3);
+</span><span id="line-15">    \draw[thick,blue!50!black, domain={.5}:{3}, samples=100, name path global=curve 1] plot (\x,{2/(\x+.5)});
+</span><span id="line-16">    \draw[thick,blue!50!black, domain={-3}:{-1}, samples=100, name path global=curve 2] plot (\x,{1.5+\x});
+</span><span id="line-17">    \end{scope}
+</span><span id="line-18">    \foreach \i in {-2.78,-2.54,...,-1}{
+</span><span id="line-19">        \pgfmathtruncatemacro{\coord}{100*\i}
+</span><span id="line-20">        \draw[draw=none, name path=line \coord] (\i,-2.7) -- (\i,3);
+</span><span id="line-21">        \node[draw=none, name intersections={of=curve 2 and line \coord},inner sep=0pt](a\coord) at (intersection-1){};
+</span><span id="line-22">        \draw[orange,&lt;-] ($(-4,0)!(a\coord)!(4,0)$) -- (a\coord);
+</span><span id="line-23">    }
+</span><span id="line-24">    \foreach \i in {.72,.94,...,3}{
+</span><span id="line-25">        \pgfmathtruncatemacro{\coord}{100*\i}
+</span><span id="line-26">        \draw[draw=none, name path=line \coord] (\i,-2.7) -- (\i,3);
+</span><span id="line-27">        \node[draw=none, name intersections={of=curve 1 and line \coord},inner sep=0pt](a\coord) at (intersection-1){};
+</span><span id="line-28">        \draw[orange,&lt;-] ($(-4,0)!(a\coord)!(4,0)$) -- (a\coord);
+</span><span id="line-29">    }
+</span><span id="line-30">    \node[circle, inner sep=1pt, fill=blue!50!black, draw=blue!50!black, label={left}:{$\scriptstyle\left(-3,-\frac{3}{2}\right)$}](a) at (-3,-1.5){};
+</span><span id="line-31">    \node[circle, inner sep=1pt, fill=white, draw=blue!50!black, label={above}:{$\scriptstyle\left(-1,\frac{1}{2}\right)$}](b) at (-1,.5){};
+</span><span id="line-32">    \node[circle, inner sep=1pt, fill=white, draw=blue!50!black, label={above}:{$\scriptstyle\left(\frac{1}{2},2\right)$}](c) at (.5,2){};
+</span><span id="line-33">    \node[circle, inner sep=1pt, fill=blue!50!black, draw=blue!50!black, label={right}:{$\scriptstyle\left(3,\frac{4}{7}\right)$}](d) at (3,{4/7}){};
+</span><span id="line-34">    \begin{pgfonlayer}{bg}
+</span><span id="line-35">    \draw[dashed, color=blue!50!black] (a) rectangle (0,0);
+</span><span id="line-36">    \draw[dashed, color=blue!50!black] (b) rectangle (0,0);
+</span><span id="line-37">    \draw[dashed, color=blue!50!black] (c) rectangle (0,0);
+</span><span id="line-38">    \draw[dashed, color=blue!50!black] (d) rectangle (0,0);
+</span><span id="line-39">    \end{pgfonlayer}
+</span><span id="line-40">    \draw[orange,thick] (-3,0) -- (-1,0);
+</span><span id="line-41">    \draw[orange,thick] (.5,0) -- (3,0);
+</span><span id="line-42">    \end{tikzpicture}
+</span><span id="line-43">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8538 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_36.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Είναι συνεχής;</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\pgfdeclarelayer{bg}
+</span><span id="line-4">\pgfsetlayers{bg,main}
+</span><span id="line-5">
+</span><span id="line-6">\begin{document}
+</span><span id="line-7">    \begin{tikzpicture}
+</span><span id="line-8">    \draw[thick,-&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-9">    \draw[thick,-&gt;] (0,-2.7) -- (0,3)node[pos=1,left]{$y$};
+</span><span id="line-10">    \begin{scope}
+</span><span id="line-11">    \clip (-4,-2.7) rectangle (4,3);
+</span><span id="line-12">    \draw[thick,blue!50!black, domain={.5}:{3},samples=100] plot (\x,{2/(\x+.5)});
+</span><span id="line-13">    \draw[thick,blue!50!black, domain={-3}:{-1},samples=100] plot (\x,{1.5+\x});
+</span><span id="line-14">    \end{scope}
+</span><span id="line-15">    \node[circle, inner sep=1pt, fill=blue!50!black, draw=blue!50!black, label={left}:{$\scriptstyle\left(-3,-\frac{3}{2}\right)$}](a) at (-3,-1.5){};
+</span><span id="line-16">    \node[circle, inner sep=1pt, fill=white, draw=blue!50!black, label={above}:{$\scriptstyle\left(-1,\frac{1}{2}\right)$}](b) at (-1,.5){};
+</span><span id="line-17">    \node[circle, inner sep=1pt, fill=white, draw=blue!50!black, label={above}:{$\scriptstyle\left(\frac{1}{2},2\right)$}](c) at (.5,2){};
+</span><span id="line-18">    \node[circle, inner sep=1pt, fill=blue!50!black, draw=blue!50!black, label={right}:{$\scriptstyle\left(3,\frac{4}{7}\right)$}](d) at (3,{4/7}){};
+</span><span id="line-19">    \begin{pgfonlayer}{bg}
+</span><span id="line-20">    \draw[dashed, color=blue!50!black] (a) rectangle (0,0);
+</span><span id="line-21">    \draw[dashed, color=blue!50!black] (b) rectangle (0,0);
+</span><span id="line-22">    \draw[dashed, color=blue!50!black] (c) rectangle (0,0);
+</span><span id="line-23">    \draw[dashed, color=blue!50!black] (d) rectangle (0,0);
+</span><span id="line-24">    \end{pgfonlayer}
+</span><span id="line-25">    \end{tikzpicture}
+</span><span id="line-26">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8523 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_35.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Τι διαφορά έχει το πεδίο από το σύνολο τιμών;</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\usetikzlibrary{calc}
+</span><span id="line-4">
+</span><span id="line-5">\begin{document}
+</span><span id="line-6">    \begin{tikzpicture}
+</span><span id="line-7">    \draw[thick] (0,0) ellipse (1.4 and 2.2)node[yshift=-2.4cm,xshift=-1cm]{$A$};
+</span><span id="line-8">    \draw[thick] (6,0) ellipse (1.4 and 2.2)node[yshift=-2.4cm,xshift=1cm]{$B$};
+</span><span id="line-9">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$a$}](a) at (.4,1.2){};
+</span><span id="line-10">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$b$}](b) at (-.2,.5){};
+</span><span id="line-11">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$c$}](c) at (.5,-.2){};
+</span><span id="line-12">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$d$}](d) at (-.6,-.9){};
+</span><span id="line-13">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$e$}](e) at (.3,-1.2){};
+</span><span id="line-14">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$1$}](1) at (6.3,1.3){};
+</span><span id="line-15">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$2$}](2) at (5.4,.6){};
+</span><span id="line-16">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$3$}](3) at (6.4,-.2){};
+</span><span id="line-17">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$4$}](4) at (6,-.8){};
+</span><span id="line-18">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$5$}](5) at (5.7,-1.5){};
+</span><span id="line-19">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$6$}](6) at (5.3,-.3){};
+</span><span id="line-20">    \draw[thick,-&gt;] (a) -- (2);
+</span><span id="line-21">    \draw[thick,-&gt;] (b) -- (6);
+</span><span id="line-22">    \draw[thick,-&gt;] (c) -- (2);
+</span><span id="line-23">    \draw[thick,-&gt;] (d) -- (5);
+</span><span id="line-24">    \draw[thick,-&gt;] (e) -- (4);
+</span><span id="line-25">    \node[draw=none](x) at ($(2)+(.1,.3)$){};
+</span><span id="line-26">    \node[draw=none](y) at ($(4)+(.3,0)$){};
+</span><span id="line-27">    \node[draw=none](z) at ($(5)+(0,-.3)$){};
+</span><span id="line-28">    \node[draw=none](w) at ($(6)+(-.3,0)$){};
+</span><span id="line-29">    \node[draw=none](m) at ($(6)+(.7,.2)$){};
+</span><span id="line-30">    \draw[dashed, red, thick, fill=red, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(x.north east) (m) (y.north east) (z.south east) (w.west)};
+</span><span id="line-31">    \node[label={above}:{$\textcolor{red}{f(A)}$}] at (x){};
+</span><span id="line-32">    \end{tikzpicture}
+</span><span id="line-33">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8496 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_34.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Είναι η διπλανή σχέση συνάρτηση;</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[thick] (0,0) ellipse (1.4 and 2.2)node[yshift=-2.4cm,xshift=-1cm]{$A$};
+</span><span id="line-6">    \draw[thick] (6,0) ellipse (1.4 and 2.2)node[yshift=-2.4cm,xshift=1cm]{$B$};
+</span><span id="line-7">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$a$}](a) at (.4,1.2){};
+</span><span id="line-8">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$b$}](b) at (-.2,.5){};
+</span><span id="line-9">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$c$}](c) at (.5,-.2){};
+</span><span id="line-10">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$d$}](d) at (-.6,-.9){};
+</span><span id="line-11">    \node[circle, inner sep=1pt, fill=black, draw=black, label={left}:{$e$}](e) at (.3,-1.2){};
+</span><span id="line-12">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$1$}](1) at (6.3,1.3){};
+</span><span id="line-13">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$2$}](2) at (5.4,.6){};
+</span><span id="line-14">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$3$}](3) at (6.4,-.2){};
+</span><span id="line-15">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$4$}](4) at (6,-.8){};
+</span><span id="line-16">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$5$}](5) at (5.7,-1.5){};
+</span><span id="line-17">    \node[circle, inner sep=1pt, fill=black, draw=black, label={right}:{$6$}](6) at (5.3,-.3){};
+</span><span id="line-18">    \draw[thick,-&gt;] (a) -- (2);
+</span><span id="line-19">    \draw[thick,-&gt;] (a) -- (6);
+</span><span id="line-20">    \draw[thick,-&gt;] (c) -- (2);
+</span><span id="line-21">    \draw[thick,-&gt;] (d) -- (5);
+</span><span id="line-22">    \draw[thick,-&gt;] (e) -- (4);
+</span><span id="line-23">    \draw[thick,-&gt;] (d) -- (4);
+</span><span id="line-24">    \end{tikzpicture}
+</span><span id="line-25">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8352 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_33.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Πολλοί λογάριθμοι…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[thick,-&gt;] (-2,0) -- (6,0)node[pos=1,below]{$x$};
+</span><span id="line-6">    \draw[thick,-&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-7">    \node[left,yshift=-8pt](O) at (0,0){$O$};
+</span><span id="line-8">    \draw[thin,samples=200,domain={pow(exp(1),-3)}:{5}] plot (\x,{ln(\x)})node[right]{$y=\ln x$};
+</span><span id="line-9">    \draw[dotted,samples=200,domain={pow(exp(1),-3)-1}:{5}] plot (\x,{ln(\x+1)})node[above]{$y=\ln(x+1)$};
+</span><span id="line-10">    \draw[dashed,samples=200,domain={pow(exp(1),-3)-1}:{5}] plot (\x,{-ln(\x+1)})node[right]{$y=-\ln(x+1)$};
+</span><span id="line-11">    \draw[very thick,samples=200,domain={pow(exp(1),-1)-1}:{5}] plot (\x,{2-ln(\x+1)})node[right,yshift=4pt]{$y=f(x)$};
+</span><span id="line-12">    \end{tikzpicture}
+</span><span id="line-13">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8347 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_32.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Άλλη μία γνωστή γραφική παράσταση - πολύ γνωστή, ίσως…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[thick,-&gt;] (-4,0) -- (4,0)node[below]{$x$};
+</span><span id="line-6">    \draw[thick,-&gt;] (0,-4) -- (0,4)node[left]{$y$};
+</span><span id="line-7">    \node[circle, inner sep=2pt, label={below,xshift=-5pt}:{$O$}] at (0,0){};
+</span><span id="line-8">    \draw[thick, domain={-3}:{-.05}, samples=1000] plot ({\x},{.4*\x*\x*sin((8/(\x)) r)});
+</span><span id="line-9">    \draw[thick, domain={.05}:{3}, samples=1000] plot ({\x},{.4*\x*\x*sin((8/(\x)) r)});
+</span><span id="line-10">    \draw[domain={-3}:{3}, samples=200, dashed] plot ({\x},{.4*\x*\x});
+</span><span id="line-11">    \draw[domain={-3}:{3}, samples=200, dashed] plot ({\x},{-.4*\x*\x});
+</span><span id="line-12">    \node[circle, inner sep=1pt, fill=white, draw=black] at (0,0){};
+</span><span id="line-13">    \end{tikzpicture}
+</span><span id="line-14">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8308 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_31.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Κι άλλη μία…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage{xfrac}
+</span><span id="line-3">\usetikzlibrary{calc}
+</span><span id="line-4">
+</span><span id="line-5">\begin{document}
+</span><span id="line-6">    \begin{tikzpicture}
+</span><span id="line-7">    \draw[thick,-&gt;] (-1,0) -- (6,0)node[pos=1,below]{$x$};
+</span><span id="line-8">    \draw[thick,-&gt;] (0,-1) -- (0,5)node[pos=1,left]{$y$};
+</span><span id="line-9">    \node[circle, inner sep=1.5pt, draw=black, fill=black](o) at (0,0){};
+</span><span id="line-10">    \begin{scope}
+</span><span id="line-11">    \clip (-1,-1) rectangle (6,5);
+</span><span id="line-12">    \draw[thick, domain={.001}:{7},samples=200] plot (\x,{\x*ln(\x)});
+</span><span id="line-13">    \node[circle, inner sep=1.5pt, draw=black, fill=black](a) at ({1/exp(1)},{-1/exp(1)}){};
+</span><span id="line-14">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={below}:{1}](b) at (1,0){};
+</span><span id="line-15">    \draw[dashed] (o) rectangle (a);
+</span><span id="line-16">    \node[left] at ($(0,-1)!(a)!(0,5)$){$-\sfrac{1}{e}$};
+</span><span id="line-17">    \node[above] at ($(-1,0)!(a)!(5,0)$){$\sfrac{1}{e}$};
+</span><span id="line-18">    \end{scope}
+</span><span id="line-19">    \end{tikzpicture}
+</span><span id="line-20">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8259 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_30.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Άλλη μία γραφική παράσταση…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage{xfrac}
+</span><span id="line-3">\usetikzlibrary{calc}
+</span><span id="line-4">
+</span><span id="line-5">\begin{document}
+</span><span id="line-6">    \begin{tikzpicture}
+</span><span id="line-7">    \draw[thick,-&gt;] (-1,0) -- (5,0)node[pos=1,below]{$x$};
+</span><span id="line-8">    \draw[thick,-&gt;] (0,-5) -- (0,1)node[pos=1,left]{$y$};
+</span><span id="line-9">    \draw[thick,domain={0}:{4},samples=100] plot (\x,{\x*\x*\x/3-2.5*\x*\x+4*\x-11/6});
+</span><span id="line-10">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={left}:{$f(0)$}](a) at (0,{-11/6}){};
+</span><span id="line-11">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={above}:{1}](b) at (1,0){};
+</span><span id="line-12">    \node[circle, inner sep=1.5pt, draw=black, fill=black](d) at (2.5,{-27/12}){};
+</span><span id="line-13">    \node[circle, inner sep=1.5pt, draw=black, fill=black](c) at (4,{-27/6}){};
+</span><span id="line-14">    \node[above](e) at ($(0,0)!(c)!(4,0)$){$4$};
+</span><span id="line-15">    \node[left](f) at ($(0,0)!(c)!(0,-3)$){$f(4)$};
+</span><span id="line-16">    \draw[dashed] (0,0) rectangle (c);
+</span><span id="line-17">    \draw[dashed] (0,0) rectangle (d);
+</span><span id="line-18">    \node[left,yshift=-4pt] at ($(0,1)!(d)!(0,-5)$){$f(\sfrac{5}{2})$};
+</span><span id="line-19">    \node[above] at ($(-1,0)!(d)!(5,0)$){$\sfrac{5}{2}$};
+</span><span id="line-20">    \end{tikzpicture}
+</span><span id="line-21">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8161 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_29.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Ένα δέντρο…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage{xfrac} % You know, only for the fancy inline fractions.
+</span><span id="line-3">
+</span><span id="line-4">\begin{document}
+</span><span id="line-5">    \begin{tikzpicture}
+</span><span id="line-6">    \node[circle, minimum size=.9cm, draw=black](1) at (0,0){1};
+</span><span id="line-7">    \node[circle, minimum size=.9cm, draw=black](2) at (2,0){2};
+</span><span id="line-8">    \node[circle, minimum size=.9cm, draw=black](4) at (4,0){4};
+</span><span id="line-9">    \node[circle, minimum size=.9cm, draw=black](8) at (6,0){8};
+</span><span id="line-10">    \node[circle, minimum size=.9cm, draw=black](16) at (8,0){16};
+</span><span id="line-11">    \node[circle, minimum size=.9cm, draw=black](32) at (10,0){32};
+</span><span id="line-12">    \node[circle, minimum size=.9cm, draw=black](5) at (10,2){5};
+</span><span id="line-13">    \node[circle, minimum size=.9cm, draw=black](10) at (12,2){10};
+</span><span id="line-14">    \node[circle, minimum size=.9cm, draw=black](20) at (14,2){20};
+</span><span id="line-15">    \node[circle, minimum size=.9cm, draw=black](3) at (14,4){3};
+</span><span id="line-16">    \node[circle, minimum size=.9cm, draw=black](64) at (12,0){64};
+</span><span id="line-17">    \node[circle, minimum size=.9cm, draw=black](128) at (14,0){128};
+</span><span id="line-18">    \node[circle, minimum size=.8cm, draw=black](21) at (14,-2){21};
+</span><span id="line-19">    \draw[thick, -&gt;] (1) -- (2);
+</span><span id="line-20">    \draw[thick, -&gt;] (2) -- (4);
+</span><span id="line-21">    \draw[thick, -&gt;] (4) -- (8);
+</span><span id="line-22">    \draw[thick, -&gt;] (8) -- (16);
+</span><span id="line-23">    \draw[thick, -&gt;] (16) -- (32);
+</span><span id="line-24">    \draw[thick, -&gt;] (32) -- (64);
+</span><span id="line-25">    \draw[thick, -&gt;] (64) -- (128);
+</span><span id="line-26">    \draw[thick, -&gt;] (64) -- (21);
+</span><span id="line-27">    \draw[thick, -&gt;] (5) -- (10);
+</span><span id="line-28">    \draw[thick, -&gt;] (10) -- (20);
+</span><span id="line-29">    \draw[thick, -&gt;] (10) -- (3);
+</span><span id="line-30">    \draw[thick, -&gt;] (16) -- (5);
+</span><span id="line-31">    \end{tikzpicture}
+</span><span id="line-32">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8138 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_28.png?w=774"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μεγάλο χωρίο…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage{xfrac}
+</span><span id="line-3">
+</span><span id="line-4">\begin{document}
+</span><span id="line-5">    \begin{tikzpicture}
+</span><span id="line-6">    \draw[thick,-&gt;] (-1,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick,-&gt;] (0,-2) -- (0,5)node[pos=1,left]{$y$};
+</span><span id="line-8">    \draw[dashed] (0,0) rectangle (2,4);
+</span><span id="line-9">    \begin{scope}
+</span><span id="line-10">    \clip (-1,-2) rectangle (4,5);
+</span><span id="line-11">    \draw[thick, domain={-1}:{4},samples=200] plot (\x,{\x*\x});
+</span><span id="line-12">    \draw[thick, domain={1.1}:{4},samples=200] plot (\x,{4+4*ln(\x-1)});
+</span><span id="line-13">    \draw[draw=none, fill=blue,fill opacity=0.1, smooth,samples=100,domain=0:2] plot(\x,{\x*\x}) -- (2,4) -- (1,0) -- (0,0) -- cycle;
+</span><span id="line-14">    \draw[draw=none, fill=blue,fill opacity=0.1, smooth,samples=100,domain={1+exp(-1)}:2] plot(\x,{4+4*ln(\x-1)}) -- (2,4) -- (1,0) -- ({1+exp(-1)},0) -- cycle;
+</span><span id="line-15">    \draw[thick,blue,domain={0}:{2},samples=200] plot(\x,{\x*\x});
+</span><span id="line-16">    \draw[thick,blue,domain={(1+exp(-1))}:{2},samples=200] plot(\x,{4+4*ln(\x-1)});
+</span><span id="line-17">    \draw[thick,blue] (0,0) -- ({1+exp(-1)},0);
+</span><span id="line-18">    \node[below] at (2,0){2};
+</span><span id="line-19">    \node[left] at (0,4){4};
+</span><span id="line-20">    \node[below,xshift=-.7cm] at ({1+exp(-1)},0){$1+\sfrac{1}{e}$};
+</span><span id="line-21">    \end{scope}
+</span><span id="line-22">    \end{tikzpicture}
+</span><span id="line-23">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8122 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_27.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Αρχίσαμε τα χρωματιστά, ξανά…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[thick,-&gt;] (-1,0) -- (7,0)node[pos=1,below]{$x$};
+</span><span id="line-6">    \draw[thick,-&gt;] (0,-3) -- (0,5)node[pos=1,left]{$y$};
+</span><span id="line-7">    \begin{scope}
+</span><span id="line-8">    \clip (-1,-3) rectangle (7,5);
+</span><span id="line-9">    \draw[thick, domain={exp(-3)}:{7},samples=200] plot (\x,{ln(\x)});
+</span><span id="line-10">    \draw[thick, domain={-1}:{7}] plot (\x,{\x-1});
+</span><span id="line-11">    \draw[thick, domain={-1}:{7}] plot (\x,{\x/6+ln(6)-1});
+</span><span id="line-12">    \draw[draw=blue, fill=blue,fill opacity=0.1, smooth,samples=100,domain=1:6] plot(\x,{ln(\x)}) -- (6,{ln(6)}) -- ({(6*ln(6))/5},{(6*ln(6))/5-1}) -- (1,0) -- cycle;
+</span><span id="line-13">    \draw[dashed] (0,0) rectangle (6,{ln(6)});
+</span><span id="line-14">    \node[below] at (6,0){$\lambda$};
+</span><span id="line-15">    \node[above,xshift=-.7cm] at ({(6*ln(6))/5},{(6*ln(6))/5-1}){$A(x_0,y_0)$};
+</span><span id="line-16">    \node[left] at (0,{ln(6)}){$\ln\lambda$};
+</span><span id="line-17">    \node[below] at (1,0){1};
+</span><span id="line-18">    \end{scope}
+</span><span id="line-19">    \end{tikzpicture}
+</span><span id="line-20">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8119 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_26.png?w=912"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μάλλον είναι κι αυτό παραβολή…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage{xfrac}
+</span><span id="line-3">\usetikzlibrary{calc}
+</span><span id="line-4">
+</span><span id="line-5">\begin{document}
+</span><span id="line-6">    \begin{tikzpicture}
+</span><span id="line-7">    \draw[thick,-&gt;] (-1,0) -- (6,0)node[pos=1,below]{$x$};
+</span><span id="line-8">    \draw[thick,-&gt;] (0,-6) -- (0,2)node[pos=1,left]{$y$};
+</span><span id="line-9">    \draw[thick, domain={0}:{5}, samples=50] plot (\x,{-.5*(\x-2)*(\x-5)});
+</span><span id="line-10">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={below}:{5}](a) at (5,0){};
+</span><span id="line-11">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={below}:{2}](b) at (2,0){};
+</span><span id="line-12">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={left}:{-5}](c) at (0,-5){};
+</span><span id="line-13">    \node[circle, inner sep=1.5pt, draw=black, fill=black](d) at (3.5,1.125){};
+</span><span id="line-14">    \draw[dashed] (0,0) rectangle (d);
+</span><span id="line-15">    \node[below] at ($(-1,0)!(d)!(6,0)$){$\sfrac{7}{2}$};
+</span><span id="line-16">    \node[left] at ($(0,-5)!(d)!(0,1)$){$\sfrac{9}{8}$};
+</span><span id="line-17">    \end{tikzpicture}
+</span><span id="line-18">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8266 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_25-1.png?w=801"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Απλό και καθημερινό…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage{xfrac}
+</span><span id="line-3">
+</span><span id="line-4">\usetikzlibrary{calc}
+</span><span id="line-5">
+</span><span id="line-6">\begin{document}
+</span><span id="line-7">    \begin{tikzpicture}
+</span><span id="line-8">    \draw[thick,-&gt;] (-1,0) -- (5,0)node[pos=1,below]{$x$};
+</span><span id="line-9">    \draw[thick,-&gt;] (0,-3) -- (0,5)node[pos=1,left]{$y$};
+</span><span id="line-10">    \draw[thick,domain={0}:{4},samples=100] plot (\x,{(\x-1)*(\x-4)});
+</span><span id="line-11">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={left}:{4}](a) at (0,4){};
+</span><span id="line-12">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={above}:{1}](b) at (1,0){};
+</span><span id="line-13">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={above}:{4}](d) at (4,0){};
+</span><span id="line-14">    \node[circle, inner sep=1.5pt, draw=black, fill=black](c) at (2.5,-2.25){};
+</span><span id="line-15">    \node[above](e) at ($(0,0)!(c)!(4,0)$){$\sfrac{5}{2}$};
+</span><span id="line-16">    \node[left](f) at ($(0,0)!(c)!(0,-3)$){$-\sfrac{9}{4}$};
+</span><span id="line-17">    \draw[dashed] (0,0) rectangle (c);
+</span><span id="line-18">    \end{tikzpicture}
+</span><span id="line-19">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8067 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_24.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Ένα απλό συνημίτονο…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[thick, -&gt;] (-1,0) -- (7,0)node[pos=1,below]{$x$};
+</span><span id="line-6">    \draw[thick, -&gt;] (0,-2) -- (0,2)node[pos=1,left]{$y$};
+</span><span id="line-7">    \draw[dashed] (-.99,-1.99) grid (6.99,1.99);
+</span><span id="line-8">    \draw[thick, blue, samples=100, domain={0}:{pi}] plot (\x,{cos(\x r)});
+</span><span id="line-9">    \draw[thick, red, samples=100, domain={pi}:{2*pi}] plot (\x,{cos(\x r)})node[right,yshift=8pt,black]{$y=\cos x$};
+</span><span id="line-10">    \node[circle, draw=black, fill=black, inner sep=1.5pt, label={below,xshift=8pt}:{$\scriptstyle(\pi,-1)$}](a) at (pi,-1){};
+</span><span id="line-11">    \end{tikzpicture}
+</span><span id="line-12">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8064 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_23.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Πώς προκύπτει η μπλε από την μαύρη καμπύλη;</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[dashed] (-3.99,-3.99) grid (3.99,3.99);
+</span><span id="line-6">    \draw[thick, -&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick, -&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-8">    \draw[thick, dashed, domain={-2}:{3}, samples=100] plot (\x,{0.25*(\x-1)*(\x+1)*(\x+1)*(\x-3)});
+</span><span id="line-9">    \draw[thick, blue, domain={-3}:{2}, samples=100] plot (\x,{2-abs(0.25*\x*(\x+2)*(\x+2)*(\x-2))});
+</span><span id="line-10">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={right,yshift=8pt}:{$(3,0)$}] at (3,0){};
+</span><span id="line-11">    \node[circle, inner sep=1.5pt, draw=black, fill=black] at (-2,3.8){};
+</span><span id="line-12">    \node[circle, inner sep=1.5pt, draw=blue, fill=blue, label={right,yshift=8pt}:{}] at (2,2){};
+</span><span id="line-13">    \node[circle, inner sep=1.5pt, draw=blue, fill=blue] at (-3,-1.8){};
+</span><span id="line-14">    \end{tikzpicture}
+</span><span id="line-15">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8060 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_22.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μία λίγο πιο περίπλοκη αντανάκλαση…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[dashed] (-3.99,-3.99) grid (3.99,3.99);
+</span><span id="line-6">    \draw[thick, -&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick, -&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-8">    \draw[thick, blue, domain={-3}:{3}, samples=100] plot (\x,{0.25*(abs(\x)-1)*(abs(\x)+1)*(abs(\x)+1)*(abs(\x)-3)});
+</span><span id="line-9">    \draw[thick, dashed, domain={-2}:{3}, samples=100] plot (\x,{0.25*(\x-1)*(\x+1)*(\x+1)*(\x-3)});
+</span><span id="line-10">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={right,yshift=8pt}:{$(3,0)$}] at (3,0){};
+</span><span id="line-11">    \node[circle, inner sep=1.5pt, draw=black, fill=black] at (-2,3.8){};
+</span><span id="line-12">    \node[circle, inner sep=1.5pt, draw=blue, fill=blue, label={right,yshift=8pt}:{}] at (3,0){};
+</span><span id="line-13">    \node[circle, inner sep=1.5pt, draw=blue, fill=blue] at (-3,0){};
+</span><span id="line-14">    \end{tikzpicture}
+</span><span id="line-15">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8036 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/09/fig_21.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Και μία μεταφορά…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[dashed] (-3.99,-3.99) grid (3.99,3.99);
+</span><span id="line-6">    \draw[thick, -&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick, -&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-8">    \draw[thick, dashed, domain={-2}:{3}, samples=100] plot (\x,{0.25*(\x-1)*(\x+1)*(\x+1)*(\x-3)});
+</span><span id="line-9">    \draw[thick, blue, domain={-4}:{1}, samples=100] plot (\x,{0.25*(\x+1)*(\x+3)*(\x+3)*(\x-1)});
+</span><span id="line-10">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={right,yshift=8pt}:{$(3,0)$}] at (3,0){};
+</span><span id="line-11">    \node[circle, inner sep=1.5pt, draw=black, fill=black] at (-2,3.8){};
+</span><span id="line-12">    \node[circle, inner sep=1.5pt, draw=blue, fill=blue, label={right,yshift=8pt}:{}] at (1,0){};
+</span><span id="line-13">    \node[circle, inner sep=1.5pt, draw=blue, fill=blue] at (-4,3.8){};
+</span><span id="line-14">    \end{tikzpicture}
+</span><span id="line-15">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-8032 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_20.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μία αντανάκλαση ακόμα…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[dashed] (-3.99,-3.99) grid (3.99,3.99);
+</span><span id="line-6">    \draw[thick, -&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick, -&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-8">    \draw[thick, dashed, domain={-2}:{3}, samples=100] plot (\x,{0.25*(\x-1)*(\x+1)*(\x+1)*(\x-3)});
+</span><span id="line-9">    \draw[thick, blue, domain={-3}:{2}, samples=100] plot (\x,{0.25*(-\x-1)*(-\x+1)*(-\x+1)*(-\x-3)});
+</span><span id="line-10">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={right,yshift=8pt}:{$(3,0)$}] at (3,0){};
+</span><span id="line-11">    \node[circle, inner sep=1.5pt, draw=black, fill=black] at (-2,3.8){};
+</span><span id="line-12">    \node[circle, inner sep=1.5pt, draw=blue, fill=blue, label={right,yshift=8pt}:{}] at (-3,0){};
+</span><span id="line-13">    \node[circle, inner sep=1.5pt, draw=blue, fill=blue] at (2,3.8){};
+</span><span id="line-14">    \end{tikzpicture}
+</span><span id="line-15">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7981 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_19.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Απολύτως…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[dashed] (-3.99,-3.99) grid (3.99,3.99);
+</span><span id="line-6">    \draw[thick, -&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick, -&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-8">    \draw[thick, blue, domain={-2}:{3}, samples=100] plot (\x,{abs(0.25*(\x-1)*(\x+1)*(\x+1)*(\x-3))});
+</span><span id="line-9">    \draw[thick, dashed, domain={-2}:{3}, samples=100] plot (\x,{0.25*(\x-1)*(\x+1)*(\x+1)*(\x-3)});
+</span><span id="line-10">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={right,yshift=8pt}:{$(3,0)$}] at (3,0){};
+</span><span id="line-11">    \node[circle, inner sep=1.5pt, draw=black, fill=black] at (-2,3.8){};
+</span><span id="line-12">    \node[circle, inner sep=1.5pt, draw=blue, fill=blue, label={right,yshift=8pt}:{}] at (3,0){};
+</span><span id="line-13">    \node[circle, inner sep=1.5pt, draw=blue, fill=blue] at (-2,3.8){};
+</span><span id="line-14">    \end{tikzpicture}
+</span><span id="line-15">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7965 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_18.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Αντανακλάσεις…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[dashed] (-3.99,-3.99) grid (3.99,3.99);
+</span><span id="line-6">    \draw[thick, -&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick, -&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-8">    \draw[thick, dashed, domain={-2}:{3}, samples=100] plot (\x,{0.25*(\x-1)*(\x+1)*(\x+1)*(\x-3)});
+</span><span id="line-9">    \draw[thick, blue, domain={-2}:{3}, samples=100] plot (\x,{-0.25*(\x-1)*(\x+1)*(\x+1)*(\x-3)});
+</span><span id="line-10">    \node[circle, inner sep=1.5pt, draw=black, fill=black] at (-2,3.8){};
+</span><span id="line-11">    \node[circle, inner sep=1.5pt, draw=blue, fill=blue, label={right,yshift=8pt,black}:{$(3,0)$}] at (3,0){};
+</span><span id="line-12">    \node[circle, inner sep=1.5pt, draw=blue, fill=blue] at (-2,-3.8){};
+</span><span id="line-13">    \end{tikzpicture}
+</span><span id="line-14">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7953 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_17.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μία απλοποίηση του προηγούμενου σχήματος…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[dashed] (-3.99,-3.99) grid (3.99,3.99);
+</span><span id="line-6">    \draw[thick, -&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick, -&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-8">    \draw[thick, dashed, domain={-2}:{3}, samples=100] plot (\x,{0.25*(\x-1)*(\x+1)*(\x+1)*(\x-3)});
+</span><span id="line-9">    \draw[thick, blue, domain={-2}:{3}, samples=100] plot (\x,{0.25*(\x-1)*(\x+1)*(\x+1)*(\x-3)-1});
+</span><span id="line-10">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={right,yshift=8pt}:{$(3,0)$}] at (3,0){};
+</span><span id="line-11">    \node[circle, inner sep=1.5pt, draw=black, fill=black] at (-2,3.8){};
+</span><span id="line-12">    \node[circle, inner sep=1.5pt, draw=blue, fill=blue, label={right,yshift=8pt}:{}] at (3,-1){};
+</span><span id="line-13">    \node[circle, inner sep=1.5pt, draw=blue, fill=blue] at (-2,2.8){};
+</span><span id="line-14">    \end{tikzpicture}
+</span><span id="line-15">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7949 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_16.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Ωραίο πράσινο χωρίο αυτό…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \begin{scope}
+</span><span id="line-6">    \clip (-4,-4) rectangle (4,4);
+</span><span id="line-7">    \draw[thick, dashed, fill=green!40!black, fill opacity=.4, domain={-2}:{3}, samples=100] plot (\x,{0.25*(\x-1)*(\x+1)*(\x+1)*(\x-3)+1}) -- plot ((1-\x,{0.25*(1-\x-1)*(1-\x+1)*(1-\x+1)*(1-\x-3)-1}) -- (-2,4) -- cycle;
+</span><span id="line-8">    \end{scope}
+</span><span id="line-9">    \draw[dashed] (-3.99,-3.99) grid (3.99,3.99);
+</span><span id="line-10">    \draw[thick, -&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-11">    \draw[thick, -&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-12">    \draw[thick, domain={-2}:{3}, samples=100] plot (\x,{0.25*(\x-1)*(\x+1)*(\x+1)*(\x-3)});
+</span><span id="line-13">    \node[circle, inner sep=1.5pt, draw=black, fill=black, label={right,yshift=8pt}:{$(3,0)$}] at (3,0){};
+</span><span id="line-14">    \node[circle, inner sep=1.5pt, draw=black, fill=black] at (-2,3.8){};
+</span><span id="line-15">    \end{tikzpicture}
+</span><span id="line-16">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7946 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_15.png?w=949"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μία κοινή εφαπτομένη…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[dashed] (-3.99,-3.99) grid (3.99,3.99);
+</span><span id="line-6">    \draw[thick,-&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick,-&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-8">    \begin{scope}
+</span><span id="line-9">    \clip (-4,-4) rectangle (4,4);
+</span><span id="line-10">    \draw[thick, purple, samples=200] plot (\x,{\x*\x-2*\x+1});
+</span><span id="line-11">    \draw[thick, orange, samples=200] plot (\x,{-2*\x+1});
+</span><span id="line-12">    \draw[thick, blue, samples=200] plot (\x,{-2*\x*\x-2*\x+1});
+</span><span id="line-13">    \end{scope}
+</span><span id="line-14">    \node[purple, above] at (3,4){$a=1$};
+</span><span id="line-15">    \node[orange, above] at (-1.5,4){$a=0$};
+</span><span id="line-16">    \node[blue, below] at (1,-4){$a=-2$};
+</span><span id="line-17">    \end{tikzpicture}
+</span><span id="line-18">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7941 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_14.png?w=1021"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Ευθείες παντού!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage{xfrac}
+</span><span id="line-3">
+</span><span id="line-4">\begin{document}
+</span><span id="line-5">    \begin{tikzpicture}
+</span><span id="line-6">    \draw[dashed] (-3.99,-3.99) grid (3.99,3.99);
+</span><span id="line-7">    \draw[thick,-&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-8">    \draw[thick,-&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-9">    \begin{scope}
+</span><span id="line-10">    \clip (-4,-4) rectangle (4,4);
+</span><span id="line-11">    \draw[thick, purple] plot (\x,{0});
+</span><span id="line-12">    \draw[thick, orange] plot (\x,{\x});
+</span><span id="line-13">    \draw[thick, blue] plot (\x,{0.5*\x});
+</span><span id="line-14">    \draw[thick, red] plot (\x,{-\x});
+</span><span id="line-15">    \end{scope}
+</span><span id="line-16">    \node[purple, right] at (4,0){$f_0$};
+</span><span id="line-17">    \node[orange, above] at (4,4){$f_1$};
+</span><span id="line-18">    \node[red, right] at (4,-4){$f_{-1}$};
+</span><span id="line-19">    \node[blue, right] at (4,2){$f_{\sfrac{1}{2}}$};
+</span><span id="line-20">    \end{tikzpicture}
+</span><span id="line-21">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7938 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_13.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μάλλον είναι πολλές οι καμπύλες…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[dashed] (-3.99,-3.99) grid (3.99,3.99);
+</span><span id="line-6">    \draw[thick,-&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick,-&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-8">    \begin{scope}
+</span><span id="line-9">    \clip (-4,-4) rectangle (4,4);
+</span><span id="line-10">    \draw[thick, dashed, opacity=.8, purple, samples=50, domain={0.01}:{4}] plot (\x,{1/\x});
+</span><span id="line-11">    \draw[thick, dashed, opacity=.8, purple, samples=50, domain={-4}:{-0.01}] plot (\x,{1/\x});
+</span><span id="line-12">    \draw[thick, dashed, opacity=.8, orange, samples=50, domain={1.01}:{4}] plot (\x,{1/(\x-1)});
+</span><span id="line-13">    \draw[thick, dashed, opacity=.8, orange, samples=50, domain={-4}:{0.99}] plot (\x,{1/(\x-1)});
+</span><span id="line-14">    \draw[thick, blue, samples=50, domain={1.01}:{4}] plot (\x,{1/abs((abs(\x)-1))});
+</span><span id="line-15">    \draw[thick, blue, samples=50, domain={-4}:{-1.01}] plot (\x,{1/abs((abs(\x)-1))});
+</span><span id="line-16">    \draw[thick, blue, samples=50, domain={-0.99}:{0.99}] plot (\x,{1/abs((abs(\x)-1))});
+</span><span id="line-17">    \draw[thick, dashed, opacity=.9, red, samples=50, domain={1.01}:{4}] plot (\x,{1/(abs(\x)-1)});
+</span><span id="line-18">    \draw[thick, dashed, opacity=.9, red, samples=50, domain={-4}:{-1.01}] plot (\x,{1/(abs(\x)-1)});
+</span><span id="line-19">    \draw[thick, dashed, opacity=.9, red, samples=50, domain={-0.99}:{0.99}] plot (\x,{1/(abs(\x)-1)});
+</span><span id="line-20">    \end{scope}
+</span><span id="line-21">    \node[purple, opacity=.9, right] at (4,.2){$\frac{1}{x}$};
+</span><span id="line-22">    \node[orange, opacity=.9, above] at (1,4){$\frac{1}{x-1}$};
+</span><span id="line-23">    \node[red, opacity=.9, left] at (-4,.2){$\frac{1}{|x|-1}$};
+</span><span id="line-24">    \node[blue, above] at (-1,4){$f$};
+</span><span id="line-25">    \end{tikzpicture}
+</span><span id="line-26">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7869 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_12.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Γιατί έπαψες λογάριθμο να θυμίζεις;</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[dashed] (-3.99,-3.99) grid (3.99,3.99);
+</span><span id="line-6">    \draw[thick,-&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick,-&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-8">    \begin{scope}
+</span><span id="line-9">    \clip (-4,-4) rectangle (4,4);
+</span><span id="line-10">    \draw[thick, dashed, opacity=.8, purple, samples=50, domain={0.01}:{4}] plot (\x,{ln(\x)});
+</span><span id="line-11">    \draw[thick, dashed, opacity=.8, orange, samples=50, domain={-4}:{-0.01}] plot (\x,{ln(-\x)});
+</span><span id="line-12">    \draw[thick, dashed, opacity=.8, brown, samples=50, domain={-4}:{1.99}] plot (\x,{ln(2-\x)});
+</span><span id="line-13">    \draw[thick, densely dotted, opacity=.8, green!40!black, samples=50, domain={-1.99}:{1.99}] plot (\x,{ln(2-abs(\x))});
+</span><span id="line-14">    \draw[thick, dashed, opacity=.8, red, samples=50, domain={-1.99}:{1.99}] plot (\x,{-ln(2-abs(\x))});
+</span><span id="line-15">    \draw[thick, blue, samples=50, domain={-1.99}:{1.99}] plot (\x,{1-ln(2-abs(\x))});
+</span><span id="line-16">    \end{scope}
+</span><span id="line-17">    \node[purple, opacity=.9, right] at (4,1.4){$\ln x$};
+</span><span id="line-18">    \node[orange, opacity=.9, left] at (-4,1.4){$\ln(-x)$};
+</span><span id="line-19">    \node[brown, opacity=.9, left] at (-4,1.9){$\ln(2-x)$};
+</span><span id="line-20">    \node[green!40!black, opacity=.9, below] at (-2,-4){$\ln(2-|x|)$};
+</span><span id="line-21">    \node[red, opacity=.9, above] at (2,4){$-\ln(2-|x|)$};
+</span><span id="line-22">    \node[blue, above] at (-2,4){$f$};
+</span><span id="line-23">    \end{tikzpicture}
+</span><span id="line-24">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7867 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_11.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Πολύ χρώμα, ρε παιδί μου…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[dashed] (-3.99,-3.99) grid (3.99,3.99);
+</span><span id="line-6">    \draw[thick,-&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick,-&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-8">    \begin{scope}
+</span><span id="line-9">    \clip (-4,-4) rectangle (4,4);
+</span><span id="line-10">    \draw[thick, thick, blue, samples=200] plot (\x,{1+abs(1-exp(-\x))});
+</span><span id="line-11">    \draw[thick, dashed, opacity=.8, purple, samples=50] plot (\x,{exp(\x)});
+</span><span id="line-12">    \draw[thick, dashed, opacity=.8, orange, samples=50] plot (\x,{exp(-\x)});
+</span><span id="line-13">    \draw[thick, dashed, opacity=.8, brown, samples=50] plot (\x,{-exp(-\x)});
+</span><span id="line-14">    \draw[thick, dashed, opacity=.8, green!40!black, samples=50] plot (\x,{1-exp(-\x)});
+</span><span id="line-15">    \draw[thick, densely dotted, opacity=.8, red, samples=50] plot (\x,{abs(1-exp(-\x))});
+</span><span id="line-16">    \end{scope}
+</span><span id="line-17">    \node[purple, opacity=.9, right] at (1.4,4){$e^x$};
+</span><span id="line-18">    \node[orange, opacity=.9, above] at (-1.3,4){$e^{-x}$};
+</span><span id="line-19">    \node[brown, opacity=.9, left, yshift=-4pt] at (-1.3,-4){$-e^{-x}$};
+</span><span id="line-20">    \node[green!40!black, opacity=.9, right] at (4,1){$1-e^{-x}$};
+</span><span id="line-21">    \node[red, opacity=.9, left] at (-1.5,4){$\left|1-e^{-x}\right|$};
+</span><span id="line-22">    \node[blue, right] at (4,2){$f$};
+</span><span id="line-23">    \end{tikzpicture}
+</span><span id="line-24">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7861 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_10.png?w=983"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μία κυβική καμπύλη - αλήθεια, ποιος είναι ο τύπος της;</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[dashed] (-3.99,-3.99) grid (3.99,3.99);
+</span><span id="line-6">    \draw[thick,-&gt;] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick,-&gt;] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-8">    \begin{scope}
+</span><span id="line-9">    \clip (-4,-4) rectangle (4,4);
+</span><span id="line-10">    \draw[thick, dashed, opacity=.8, purple, samples=50] plot (\x,{\x*\x*\x});
+</span><span id="line-11">    \draw[thick, dashed, opacity=.8, orange, samples=50] plot (\x,{-\x*\x*\x});
+</span><span id="line-12">    \draw[thick, blue, samples=200] plot (\x,{2-\x*\x*\x});
+</span><span id="line-13">    \end{scope}
+</span><span id="line-14">    \node[purple, opacity=.9, right] at (1.5,4){$x^3$};
+</span><span id="line-15">    \node[orange, opacity=.9, right, yshift=-2pt] at (1.5,-4){$-x^3$};
+</span><span id="line-16">    \node[blue, right] at (-1.3,4){$f$};
+</span><span id="line-17">    \end{tikzpicture}
+</span><span id="line-18">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7859 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_9.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μία ακόμα τσαχπινιά σε ένα προηγούμενο σχήμα + χρώματα…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \fill[red!10] (-5,5) -- (6,5) -- (6,-5) -- (5,-5) -- cycle;
+</span><span id="line-6">    \draw[dashed] (-5.99,-4.99) grid (5.99,4.99);
+</span><span id="line-7">    \draw[thick, -&gt;] (-6,0) -- (6,0)node[pos=1,below]{$x$};
+</span><span id="line-8">    \draw[thick, -&gt;] (0,-5) -- (0,5)node[pos=1,left]{$y$};
+</span><span id="line-9">    \draw[thick, domain={-5}:{5}, samples=100] plot (\x,{0.025*(\x-1)*(\x+5)*(\x+2.5)*(\x-4.6)});
+</span><span id="line-10">    \begin{scope}
+</span><span id="line-11">    \clip (-5,5) -- (6,5) -- (6,-5) -- (5,-5) -- cycle;
+</span><span id="line-12">    \draw[thick, red, domain={-5}:{5}, samples=100] plot (\x,{0.025*(\x-1)*(\x+5)*(\x+2.5)*(\x-4.6)});
+</span><span id="line-13">    \end{scope}
+</span><span id="line-14">    \node[circle, draw=black, inner sep=1.5pt, fill=white](a) at (-5,0){};
+</span><span id="line-15">    \node[circle, draw=black, inner sep=1.5pt, fill=white, label={right,yshift=8pt}:{$(5,3)$}](b) at (5,3){};
+</span><span id="line-16">    \draw[thick, domain={-5}:{5}, samples=100] plot (\x,{-\x})node[below]{$y=-x$};
+</span><span id="line-17">    \draw[densely dotted] (-1.42,0) -- (-1.42,1.42);
+</span><span id="line-18">    \draw[densely dotted] (3.5,0) -- (3.5,-3.5);
+</span><span id="line-19">    \draw[very thick, blue] (3.5,0) -- (5,0);
+</span><span id="line-20">    \draw[very thick, blue] (-1.42,0) -- (2,0);
+</span><span id="line-21">    \end{tikzpicture}
+</span><span id="line-22">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7855 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_8.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μία τσαχπινιά σε ένα προηγούμενο σχήμα + χρώματα…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \fill[red!10] (-6,-2) rectangle (6,-5);
+</span><span id="line-6">    \fill[red!10] (-6,1) rectangle (6,5);
+</span><span id="line-7">    \draw[dashed] (-5.99,-4.99) grid (5.99,4.99);
+</span><span id="line-8">    \draw[thick, -&gt;] (-6,0) -- (6,0)node[pos=1,below]{$x$};
+</span><span id="line-9">    \draw[thick, -&gt;] (0,-5) -- (0,5)node[pos=1,left]{$y$};
+</span><span id="line-10">    \begin{scope}
+</span><span id="line-11">    \clip (-6,1) rectangle (6,5);
+</span><span id="line-12">    \draw[thick, red, domain={-5}:{5}, samples=100] plot (\x,{0.025*(\x-1)*(\x+5)*(\x+2.5)*(\x-4.6)});
+</span><span id="line-13">    \end{scope}
+</span><span id="line-14">    \begin{scope}
+</span><span id="line-15">    \clip (-6,-2) rectangle (6,-5);
+</span><span id="line-16">    \draw[thick, red, domain={-5}:{5}, samples=100] plot (\x,{0.025*(\x-1)*(\x+5)*(\x+2.5)*(\x-4.6)});
+</span><span id="line-17">    \end{scope}
+</span><span id="line-18">    \begin{scope}
+</span><span id="line-19">    \clip (-6,-2) rectangle (6,1);
+</span><span id="line-20">    \draw[thick, dashed, blue, domain={-5}:{5}, samples=100] plot (\x,{0.025*(\x-1)*(\x+5)*(\x+2.5)*(\x-4.6)});
+</span><span id="line-21">    \end{scope}
+</span><span id="line-22">    \node[circle, draw=black, inner sep=1.5pt, fill=white](a) at (-5,0){};
+</span><span id="line-23">    \node[circle, draw=black, inner sep=1.5pt, fill=white, label={right,yshift=8pt}:{$(5,3)$}](b) at (5,3){};
+</span><span id="line-24">    \draw[thick] (-6,1) -- (6,1)node[pos=1,right]{$y=1$};
+</span><span id="line-25">    \draw[thick] (-6,-2) -- (6,-2)node[pos=1,right]{$y=-2$};
+</span><span id="line-26">    \draw[densely dotted] (-1.8,0) rectangle (.4,1);
+</span><span id="line-27">    \draw[densely dotted] (4.2,-2) -- (4.2,0);
+</span><span id="line-28">    \draw[densely dotted] (4.75,1) -- (4.75,0);
+</span><span id="line-29">    \draw[thick, red] (-1.8,0) -- (.4,0);
+</span><span id="line-30">    \draw[thick, red] (2,0) -- (4.2,0);
+</span><span id="line-31">    \draw[thick, red] (4.75,0) -- (5,0);
+</span><span id="line-32">    \end{tikzpicture}
+</span><span id="line-33">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7853 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_7-2.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μία τσαχπινιά σε ένα προηγούμενο σχήμα…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[thick, -&gt;] (-6,0) -- (6,0)node[pos=1,below]{$x$};
+</span><span id="line-6">    \draw[thick, -&gt;] (0,-5) -- (0,5)node[pos=1,left]{$y$};
+</span><span id="line-7">    \draw[thick, domain={-5}:{-2.5}, samples=100] plot (\x,{0.025*(\x-1)*(\x+5)*(\x+2.5)*(\x-4.6)});
+</span><span id="line-8">    \draw[thick, domain={1}:{5}, samples=100] plot (\x,{0.025*(\x-1)*(\x+5)*(\x+2.5)*(\x-4.6)});
+</span><span id="line-9">    \draw[thick, dashed, domain={-2.5}:{1}, samples=100] plot (\x,{0.025*(\x-1)*(\x+5)*(\x+2.5)*(\x-4.6)});
+</span><span id="line-10">    \node[circle, draw=black, inner sep=1.5pt, fill=white](a) at (-5,0){};
+</span><span id="line-11">    \node[circle, draw=black, inner sep=1.5pt, fill=white, label={right,yshift=8pt}:{$(5,3)$}](b) at (5,3){};
+</span><span id="line-12">    \draw[thick, domain={-2.5}:{2.5}, samples=100] plot (\x,{2*\x})node[above]{$y=ax$};
+</span><span id="line-13">    \end{tikzpicture}
+</span><span id="line-14">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7848 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_6.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Η γραφική παράσταση ενός πολυωνύμου με λίγη παρέα…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[dashed] (-5.99,-4.99) grid (5.99,4.99);
+</span><span id="line-6">    \draw[thick, -&gt;] (-6,0) -- (6,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick, -&gt;] (0,-5) -- (0,5)node[pos=1,left]{$y$};
+</span><span id="line-8">    \draw[thick, domain={-5}:{5}, samples=100] plot (\x,{0.025*(\x-1)*(\x+5)*(\x+2.5)*(\x-4.6)});
+</span><span id="line-9">    \node[circle, draw=black, inner sep=1.5pt, fill=white](a) at (-5,0){};
+</span><span id="line-10">    \node[circle, draw=black, inner sep=1.5pt, fill=white, label={right,yshift=8pt}:{$(5,3)$}](b) at (5,3){};
+</span><span id="line-11">    \draw[thick, domain={-1.7}:{1.7}, samples=100] plot (\x,{\x*\x*\x})node[above]{$y=x^3$};
+</span><span id="line-12">    \end{tikzpicture}
+</span><span id="line-13">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7780 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_5.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Η γραφική παράσταση ενός πολυωνύμου…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage{xfrac} % You know, only for the fancy inline fractions.
+</span><span id="line-3">
+</span><span id="line-4">\begin{document}
+</span><span id="line-5">    \begin{tikzpicture}
+</span><span id="line-6">    \draw[thick,-&gt;] (-.5,0) -- (7,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick,-&gt;] (0,-1.5) -- (0,5)node[pos=1,left]{$y$};
+</span><span id="line-8">    \draw[thick, domain={0}:{6}, samples=100] plot (\x,{(3/75)*(\x^2-1)*(\x-3)*(\x-5)*(\x-5)});
+</span><span id="line-9">    \draw[dashed] (-.49,-1.49) grid (6.99,4.99);
+</span><span id="line-10">    \node[circle, inner sep=1.5pt, draw=black, fill=white, label={left,yshift=10pt}:{$A(0,3)$}](a) at (0,3){};
+</span><span id="line-11">    \node[circle, inner sep=1.5pt, draw=black, fill=white, label={right}:{$B(6,\sfrac{17}{4})$}](a) at (6,4.25){};
+</span><span id="line-12">    \end{tikzpicture}
+</span><span id="line-13">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7777 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_4-1.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Η γνωστή μας και μη εξαιρετέα καμπάνα της κανονικής κατανομής!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage{ifthen} % In order to use the ifthenelse structure.
+</span><span id="line-3">
+</span><span id="line-4">\begin{document}
+</span><span id="line-5">    \begin{tikzpicture}
+</span><span id="line-6">    \draw[thick, -&gt;] (-4,0) -- (4,0);
+</span><span id="line-7">    \draw[thick, -&gt;] (0,-.1) -- (0,3)node[pos=0,below]{$\mu$};
+</span><span id="line-8">    \draw[dashed] (-3.99,0) grid (3.99,2.99);
+</span><span id="line-9">    \draw[thick, domain={-3.9}:{3.9}, samples=200, draw=blue] plot (\x,{2.6*exp(-\x*\x/2)});
+</span><span id="line-10">    \foreach \i in {-3,-2,-1,1,2,3}{
+</span><span id="line-11">        \ifthenelse{\i&gt;0}{
+</span><span id="line-12">            \draw (\i,-.1) -- (\i,.1)node[pos=0,below]{$+\i\sigma$};
+</span><span id="line-13">        }{
+</span><span id="line-14">            \draw (\i,-.1) -- (\i,.1)node[pos=0,below]{$\i\sigma$};
+</span><span id="line-15">        }
+</span><span id="line-16">    }
+</span><span id="line-17">    \draw[thick, &lt;-&gt;] (-1,-.7) -- (1,-.7)node[pos=.5,below]{$68.2\%$};
+</span><span id="line-18">    \draw[thick, &lt;-&gt;] (-2,-1.4) -- (2,-1.4)node[pos=.5,below]{$95.4\%$};
+</span><span id="line-19">    \draw[thick, &lt;-&gt;] (-3,-2.1) -- (3,-2.1)node[pos=.5,below]{$99.8\%$};
+</span><span id="line-20">    \draw[densely dotted] (-2,-1.4) -- (-2,-.7);
+</span><span id="line-21">    \draw[densely dotted] (2,-1.4) -- (2,-.7);
+</span><span id="line-22">    \draw[densely dotted] (-3,-2.1) -- (-3,-.7);
+</span><span id="line-23">    \draw[densely dotted] (3,-2.1) -- (3,-.7);
+</span><span id="line-24">    \end{tikzpicture}
+</span><span id="line-25">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7757 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_3.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μία απλή απόδειξη ότι το [0,1] και το (0,1) είναι ισοπληθικά…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage{xfrac} % Used to load to \sfrac command which typesets nice inline fractions.
+</span><span id="line-3">
+</span><span id="line-4">\begin{document}
+</span><span id="line-5">    \begin{tikzpicture}
+</span><span id="line-6">    \draw[thick] (-1,0) -- (8,0);
+</span><span id="line-7">    \draw[thick] (-1,-2) -- (8,-2);
+</span><span id="line-8">    \node[circle, inner sep=1pt, draw=black, fill=black, label={above}:{0}](a0) at (0,0){};
+</span><span id="line-9">    \node[circle, inner sep=1pt, draw=black, fill=black, label={above}:{1}](a1) at (1,0){};
+</span><span id="line-10">    \node[circle, inner sep=1pt, draw=black, fill=black, label={above}:{$\sfrac{1}{2}$}](a2) at (2,0){};
+</span><span id="line-11">    \node[circle, inner sep=1pt, draw=black, fill=black, label={above}:{$\sfrac{1}{3}$}](a3) at (3,0){};
+</span><span id="line-12">    \node[circle, inner sep=1pt, draw=black, fill=black, label={above}:{$\sfrac{1}{4}$}](a4) at (4,0){};
+</span><span id="line-13">    \node[circle, inner sep=1pt, draw=black, fill=black, label={above}:{$\sfrac{1}{5}$}](a5) at (5,0){};
+</span><span id="line-14">    \node[circle, inner sep=1pt, draw=black, fill=black, label={above}:{$\sfrac{1}{6}$}](a6) at (6,0){};
+</span><span id="line-15">    \node[circle, inner sep=1pt, draw=black, fill=black, label={above}:{$\sfrac{1}{7}$}](a7) at (7,0){};
+</span><span id="line-16">    \node[circle, inner sep=1pt, draw=black, fill=black, label={below}:{0}](b0) at (0,-2){};
+</span><span id="line-17">    \node[circle, inner sep=1pt, draw=black, fill=black, label={below}:{1}](b1) at (1,-2){};
+</span><span id="line-18">    \node[circle, inner sep=1pt, draw=black, fill=black, label={below}:{$\sfrac{1}{2}$}](b2) at (2,-2){};
+</span><span id="line-19">    \node[circle, inner sep=1pt, draw=black, fill=black, label={below}:{$\sfrac{1}{3}$}](b3) at (3,-2){};
+</span><span id="line-20">    \node[circle, inner sep=1pt, draw=black, fill=black, label={below}:{$\sfrac{1}{4}$}](b4) at (4,-2){};
+</span><span id="line-21">    \node[circle, inner sep=1pt, draw=black, fill=black, label={below}:{$\sfrac{1}{5}$}](b5) at (5,-2){};
+</span><span id="line-22">    \node[circle, inner sep=1pt, draw=black, fill=black, label={below}:{$\sfrac{1}{6}$}](b6) at (6,-2){};
+</span><span id="line-23">    \node[circle, inner sep=1pt, draw=black, fill=black, label={below}:{$\sfrac{1}{7}$}](b7) at (7,-2){};
+</span><span id="line-24">    \draw[thick,-&gt;] (a0) -- (b2);
+</span><span id="line-25">    \draw[thick,-&gt;] (a1) -- (b3);
+</span><span id="line-26">    \draw[thick,-&gt;] (a2) -- (b4);
+</span><span id="line-27">    \draw[thick,-&gt;] (a3) -- (b5);
+</span><span id="line-28">    \draw[thick,-&gt;] (a4) -- (b6);
+</span><span id="line-29">    \draw[thick,-&gt;] (a5) -- (b7);
+</span><span id="line-30">    \end{tikzpicture}
+</span><span id="line-31">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7716 size-full align-default">
+<img alt="" src="docs/Tikz/{static}_static/images/uploads/2021/08/fig_2.png?w=1024"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μία κομψή και ασυνεχής συνάρτηση - εντάξει, ίσως όχι τόσο κομψή…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">\usepackage{xfrac} % Used to load to \sfrac command which typesets nice inline fractions.
+</span><span id="line-3">
+</span><span id="line-4">\begin{document}
+</span><span id="line-5">    \begin{tikzpicture}
+</span><span id="line-6">    \draw[dashed, step=3] (-0.49,-0.49) grid (3.99,3.99);
+</span><span id="line-7">    \draw[thick, -&gt;] (-.5,0) -- (4,0)node[pos=1,below]{$x$};
+</span><span id="line-8">    \draw[thick, -&gt;] (0,-.5) -- (0,4)node[pos=1,left]{$y$};
+</span><span id="line-9">    \draw[thick, domain={0}:{3}, samples=100] plot (\x,{\x});
+</span><span id="line-10">    %               \draw[thick, domain={0}:{3}, samples=100] plot (\x,{\x});
+</span><span id="line-11">    \node[circle, draw=black, inner sep=1.5pt, fill=white, label={right,yshift=8pt}:{(1,1)}](a) at (3,3){};
+</span><span id="line-12">    \node[circle, draw=black, inner sep=1.5pt, fill=white, label={left,yshift=-8pt}:{(0,0)}](b) at (0,0){};
+</span><span id="line-13">    \node[circle, draw=black, inner sep=1.5pt, fill=black, label={left}:{$(0,\sfrac{1}{2})$}](c) at (0,1.5){};
+</span><span id="line-14">    \node[circle, draw=black, inner sep=1.5pt, fill=black, label={right}:{$(1,\sfrac{1}{2})$}](d) at (3,1.5){};
+</span><span id="line-15">    \end{tikzpicture}
+</span><span id="line-16">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<div class="wp-block-group alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-columns alignwide docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-column docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<div class="wp-block-media-text alignwide is-stacked-on-mobile docutils container">
+<figure class="wp-image-7703 size-full align-default">
+<img alt="" src="https://aftermaths.gr/_static/images/uploads/2021/08/fig_1.png?w=723"/>
+</figure>
+<div class="wp-block-media-text-content docutils container">
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+<p>Μία απλή γραφική παράσταση μίας «σχεδόν» γραμμικής συνάρτησης…</p>
+</div>
+</div>
+</div>
+</div>
+<div class="highlight-wp-block-syntaxhighlighter-code notranslate"><div class="highlight"><pre><span></span><code><span id="line-1">\documentclass[tikz, margin=5mm]{standalone}
+</span><span id="line-2">
+</span><span id="line-3">\begin{document}
+</span><span id="line-4">    \begin{tikzpicture}
+</span><span id="line-5">    \draw[dashed] (-2.99,-2.99) grid (2.99,2.99);
+</span><span id="line-6">    \draw[thick, -&gt;] (-3,0) -- (3,0)node[pos=1,below]{$x$};
+</span><span id="line-7">    \draw[thick, -&gt;] (0,-3) -- (0,3)node[pos=1,left]{$y$};
+</span><span id="line-8">    \draw[thick, domain={-3}:{0}, samples=100] plot (\x,{\x+1});
+</span><span id="line-9">    \draw[thick, domain={0}:{3}, samples=100] plot (\x,{\x});
+</span><span id="line-10">    \node[circle, draw=black, inner sep=1.5pt, fill=white](a) at (0,1){};
+</span><span id="line-11">    \node[circle, draw=black, inner sep=1.5pt, fill=black](b) at (0,0){};
+</span><span id="line-12">    \end{tikzpicture}
+</span><span id="line-13">\end{document}
+</span></code></pre></div>
+</div>
+</div>
+<hr class="docutils"/>
+<blockquote>
+<div><p>&lt;/p&gt;</p>
+</div></blockquote>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+</div></div>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

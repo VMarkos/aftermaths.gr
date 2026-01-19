@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2019-07-30 16:15" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="After-maths, Μαθηματικά, Longreads" name="category"/>
+<meta content="featured, επιστήμη, εξωσχολικά" name="tags"/>
+<meta content="%ce%ba%ce%bb%ce%ac%cf%83%ce%bc%ce%b1%cf%84%ce%b1-%ce%ba%ce%bb%ce%ac%cf%83%ce%bc%ce%b1%cf%84%ce%b1-%cf%80%ce%b1%ce%bd%cf%84%ce%bf%cf%8d" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png, _static/images/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png, _static/images/uploads/2019/07/ezgif.com-crop3.gif, _static/images/uploads/2019/07/ezgif.com-crop2-1.gif, _static/images/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png, _static/images/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png, _static/images/uploads/2019/07/smaller-1956-tessellation-art-by-m.-c.-escher.jpg" name="attachments"/>
+<title>Κλάσματα! Κλάσματα παντού! | aftermaths</title>
+<meta content="Κλάσματα! Κλάσματα παντού! | aftermaths" property="og:title"/>
+<meta content="Κλάσματα! Κλάσματα παντού! | aftermaths" name="twitter:title"/>
+<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
+<link href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html" rel="next" title="Κορώνα η γράμματα για… ναυαγούς"/>
+<link href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html" rel="prev" title="Κατασκευαστικές… αδυναμίες"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Κλάσματα! Κλάσματα παντού!</span>
+</nav>
+<div id="content" role="main">
+<section id="id1">
+<h1>Κλάσματα! Κλάσματα παντού!<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+<figure class="align-center" id="id15">
+<img alt="Ο πίνακας *(Μικρή) κάλυψη του επιπέδου* του `Maurits Cornelis Escher  &lt;https://en.wikipedia.org/wiki/M._C._Escher&gt;`__\ *.*" src="_static/images/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png,_static/images/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png,_static/images/uploads/2019/07/ezgif.com-crop3.gif,_static/images/uploads/2019/07/ezgif.com-crop2-1.gif,_static/images/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png,_static/images/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png,_static/images/uploads/2019/07/smaller-1956-tessellation-art-by-m.-c.-escher.jpg"/>
+<figcaption>
+<p><span class="caption-text">Ο πίνακας <em>(Μικρή) κάλυψη του επιπέδου</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/M._C._Escher">Maurits Cornelis Escher</a><em>.</em></span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id15"><span>#</span></a></p>
+</figcaption>
+</figure>
+<section id="id2">
+<h2>Εισαγωγή<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>«Κλάσματα! Κλάσματα παντού!» θα μπορούσε να είχε τραγουδήσει ο συγχωρεμένος και αγαπητός <a class="reference external" href="https://el.wikipedia.org/wiki/%CE%A4%CE%B6%CE%AF%CE%BC%CE%B7%CF%82_%CE%A0%CE%B1%CE%BD%CE%BF%CF%8D%CF%83%CE%B7%CF%82">Τζίμης Πανούσης</a>, αν είχε ασχοληθεί με τα μαθηματικά. Γιατί, όπως θα δούμε και παρακάτω, είμαστε περιτριγυρισμένοι από κλάσματα, ζουν ανάμεσά μας, που θα έλεγαν και κάποιοι πιο cult τύποι. Αλλά, όπως επίσης θα δούμε, δεν είναι, δα, και τόσα πολλά όσα φαίνονται, για την ακρίβεια, είναι «πολύ λίγα» σε σχέση με όλους τους πραγματικούς αριθμούς. Αλλά, ας πιάσουμε τα πράγματα από την αρχή.</p>
+</section>
+<section id="id3">
+<h2>Οι φυσικοί αριθμοί, οι ακέραιοι και τα αριθμήσιμα σύνολα<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<section id="id4">
+<h3>Οι φυσικοί αριθμοί<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h3>
+<p>Ποιοι είναι οι φυσικοί αριθμοί; Όπως μάς έλεγε αστεϊζόμενος ένας καθηγητής μας στη σχολή «τους φυσικούς μας τους έδωσε ο Θεός». Προς το παρόν, θα αρκεστούμε σε αυτήν την μοιρολατρική προσέγγιση για την ύπαρξη και τη δομή των φυσικών (αριθμών), για τους οποίους επιφυλασσόμαστε να μιλήσουμε σε άλλη ανάρτηση. Το μόνο που θα ξεκαθαρίσουμε εδώ είναι το αν <em>το μηδέν (0) είναι φυσικός αριθμός ή όχι</em>.</p>
+<p>Λοιπόν, επιστημονικά και τελείως δημοκρατικά, <strong>δεν είναι</strong>. Εξηγούμαι. Οι ιδιότητες των φυσικών αριθμών που μας απασχολούν εδώ δεν εξαρτώνται από το σημείο «εκκίνησης» των φυσικών αριθμών (αν θα είναι το 0 ή το 1 ή το 5), αλλά από το ότι υπάρχει ο <em>πρώτος φυσικός αριθμός</em> καθώς και από το ότι για κάθε φυσικό αριθμό υπάρχει ένας <em>επόμενος</em> φυσικός αριθμός (π.χ. το 6 είναι ο επόμενος του 5, το 159 ο επόμενος του 158 κ.ο.κ.). Επομένως, για δική μας ευκολία, υποθέτουμε ότι το σύνολο των φυσικών αριθμών, το οποίο θα συμβολίζουμε με  <span class="math notranslate nohighlight">\(\mathbb{N}\)</span> , είναι το σύνολο:</p>
+<div class="math notranslate nohighlight">
+\[\mathbb{N}=\{1,2,3,\ldots\}.\]</div>
+</section>
+<section id="id5">
+<h3>Οι ακέραιοι αριθμοί<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id5'"><span>#</span></a></h3>
+<p>Ένα βήμα μετά τους φυσικούς αριθμούς βρίσκονται οι ακέραιοι αριθμοί, το σύνολο των οποίων θα συμβολίζουμε με  <span class="math notranslate nohighlight">\(\mathbb{Z}\)</span> . Οι ακέραιοι, όπως ξέρουμε, περιέχουν όλους τους φυσικούς, το 0, αλλά και όλους τους <em>αντίθετους</em> των φυσικών αριθμών, δηλαδή, το σύνολο των ακεραίων είναι το:</p>
+<div class="math notranslate nohighlight">
+\[\mathbb{Z}=\{0,\pm1,\pm2,\ldots\}.\]</div>
+<p>Το βολικό με τους ακεραίους είναι ότι μπορούμε να μιλήσουμε εύκολα για αριθμητική με τους συνήθεις σχολικούς όρους. Μπορούμε δηλαδή να μιλάμε και για <em>αφαίρεση</em> με την έννοια της <em>πρόσθεσης τους αντιθέτου</em> (στους φυσικούς δεν υπάρχει αντίθετος για να το κάνουμε αυτό) αλλά και για τις υπόλοιπες πράξεις (πρόσθεση, πολλαπλασιασμό και διαίρεση με πηλίκο και υπόλοιπο).</p>
+</section>
+<section id="id6">
+<h3>Αριθμήσιμα σύνολα<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id6" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id6'"><span>#</span></a></h3>
+<p>Αν πάρουμε το σύνολο των φυσικών, θα δούμε ότι είναι πολύ εύκολο να το γράψουμε σε «λίστα», με άλλα λόγια, μπορούμε να βάλουμε ένα στοιχείο ως πρώτο, μετά ένα άλλο ως δεύτερο, μετά ένα άλλο ως τρίτο κ.ο.κ.. Για παράδειγμα, πρώτο στοιχείο μπορεί να είναι το 1, δεύτερο το 2, τρίτο το 3 κ.λ.π.. Αυτή η διαδικασία δημιουργίας μίας «λίστας» λέγεται <em>αρίθμηση</em> ενός συνόλου και μας είναι οικεία από τα παιδικά μας χρόνια (μία καραμέλα, δύο καραμέλες, τρεις καραμέλες,…, πονόκοιλος).</p>
+<p>Γενικά, αν  <span class="math notranslate nohighlight">\(A\)</span>  είναι ένα σύνολο, θα λέμε ότι το  <span class="math notranslate nohighlight">\(A\)</span>  είναι <em>αριθμήσιμο</em> αν μπορούμε να το γράψουμε σαν μία (πεπερασμένη ή άπειρη) λίστα, δηλαδή αν:</p>
+<div class="math notranslate nohighlight">
+\[A=\{a_1,a_2,\ldots\}.\]</div>
+<p>Έτσι, το σύνολο  <span class="math notranslate nohighlight">\(\mathbb{N}\)</span>  των φυσικών αριθμών είναι ένα άπειρο αριθμήσιμο σύνολο, ενώ το σύνολο  <span class="math notranslate nohighlight">\(A=\{1,3,5,6\}\)</span>  είναι ένα πεπερασμένο αριθμήσιμο σύνολο. Ένα άλλο σύνολο που είναι αριθμήσιμο είναι αυτό των ακεραίων,  <span class="math notranslate nohighlight">\(\mathbb{Z}\)</span> , μιας και μπορούμε να το γράψουμε ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[\mathbb{Z}=\{0,1,-1,2,-2,3,-3,\ldots\},\]</div>
+<p>δηλαδή, ξεκινάμε από το 0 και αρχίζουμε να γράφουμε τους φυσικούς αριθμούς και μετά από τον καθέναν από αυτούς «παρεμβάλλουμε» τον αντίθετό του.</p>
+<p>Το παραπάνω τέχνασμα μας δίνει και την εξής ιδέα: αν  <span class="math notranslate nohighlight">\(A,B\)</span>  είναι δύο αριθμήσιμα σύνολα, τότε θα μπορούμε να γράψουμε το καθένα σαν λίστα, δηλαδή:</p>
+<div class="math notranslate nohighlight">
+\[A=\{a_1,a_2,\ldots\},\ B=\{b_1,b_2,\ldots\}.\]</div>
+<p>Για την ένωσή τους,  <span class="math notranslate nohighlight">\(A\cup B\)</span> , μπορούμε να δούμε ότι αυτή γράφεται σαν λίστα ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[A\cup B=\{a_1,b_1,a_2,b_2,a_3,b_3,\ldots\}.\]</div>
+<p>Δηλαδή, γράφουμε εναλλάξ ένα στοιχείο του  <span class="math notranslate nohighlight">\(A\)</span>  και μετά ένα στοιχείο του  <span class="math notranslate nohighlight">\(B\)</span> , όπως κάναμε και με το σύνολο των ακεραίων. Επομένως, η ένωση δύο αριθμήσιμων συνόλων είναι και αυτή ένα αριθμήσιμο σύνολο. Παρατηρήστε ότι, αν κάποια από τα στοιχεία του  <span class="math notranslate nohighlight">\(B\)</span>  είναι και στοιχεία του  <span class="math notranslate nohighlight">\(A\)</span> , τότε απλά δεν τα συμπεριλαμβάνουμε δύο φορές στην παραπάνω λίστα, πράγμα που δεν επηρεάζει το «ποιο είναι» το σύνολο  <span class="math notranslate nohighlight">\(A\cup B\)</span> .</p>
+<p>Επίσης, να παρατηρήσουμε ότι αν το  <span class="math notranslate nohighlight">\(A\)</span>  είναι αριθμήσιμο, τότε και κάθε υποσύνολό του,  <span class="math notranslate nohighlight">\(B\subseteq A\)</span>  είναι επίσης αριθμήσιμο, αφού, αν μπορούμε να γράψουμε τα στοιχεία του  <span class="math notranslate nohighlight">\(A\)</span>  με τη μορφή λίστας, θα μπορούμε να γράψουμε και τα στοιχεία του  <span class="math notranslate nohighlight">\(B\)</span>  σαν μια λίστα (μπορούμε από τη λίστα των στοιχείων του  <span class="math notranslate nohighlight">\(A\)</span>  να διαγράψουμε όσα δεν ανήκουν στο  <span class="math notranslate nohighlight">\(B\)</span> ).</p>
+<p>Γενικά σε ό,τι αφορά τα <em>άπειρα αριθμήσιμα</em> σύνολα, μπορούμε να τα σκεφτόμαστε σαν αυτά τα σύνολα που έχουν τόσα στοιχεία όσα και οι φυσικοί αριθμοί, υπό την έννοια ότι, μπορούμε να μιλάμε για πρώτο, δεύτερο, τρίτο κ.ο.κ. στοιχείο ενός άπειρου αριθμήσιμου συνόλου, όπως κάνουμε και με τους φυσικούς αριθμούς.</p>
+<p>Μία ενδιαφέρουσα απορία που θα μπορούσε να έχει κανείς είναι αν υπάρχουν σύνολα που δεν είναι αριθμήσιμα, δηλαδή σύνολα των οποίων τα στοιχεία είναι «τόσα πολλά» που δεν μπορούμε να τα γράψουμε σε μία λίστα. Απάντηση σε αυτό το ερώτημα θα δώσουμε παρακάτω, αφού πρώτα δούμε ένα ακόμα παράδειγμα αριθμήσιμου συνόλου, που όμως «δεν του φαίνεται» ότι είναι αριθμήσιμο.</p>
+</section>
+</section>
+<section id="id7">
+<h2>Οι ρητοί αριθμοί<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id7" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id7'"><span>#</span></a></h2>
+<section id="id8">
+<h3>Ορισμός<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id8" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id8'"><span>#</span></a></h3>
+<p>Οι ρητοί αριθμοί είναι, πρακτικά, όλοι οι αριθμοί που μπορούν να γραφούν σαν κλάσματα. Επομένως, μπορεί κανείς να πει, συμβολίζοντας το σύνολο των ρητών με  <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[\mathbb{Q}=\left\{\frac{m}{n}:m,n\in\mathbb{Z},\ n\neq0\right\}.\]</div>
+<p>Όμως, έτσι έχουμε πάρει πολλές φορές τα ίδια κλάσματα αφού, π.χ. έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\frac{3}{4}=\frac{-3}{-4}=\frac{6}{8}=\ldots,\]</div>
+<p>πράγμα που δεν είναι λάθος, αλλά γιατί να μην είμαστε λίγο πιο κομψοί στις εκφράσεις μας; Θα μπορούσαμε να μην επιτρέψουμε και στον αριθμητή και στον παρονομαστή να είναι ακέραιοι, μιας και το πρόσημο του κλάσματος μπορεί πάντα να βρίσκεται στον αριθμητή. Επομένως, μπορούμε να υποθέτουμε ότι ο αριθμητής είναι ακέραιος και ο παρονομαστής φυσικός, δηλαδή:</p>
+<div class="math notranslate nohighlight">
+\[\mathbb{Q}=\left\{\frac{m}{n}:m\in\mathbb{Z},\ n\in\mathbb{N}\right\}.\]</div>
+<p>Ακόμα κι έτσι, αν και δεν μπορούμε πλέον να μιλάμε για κλάσματα σαν το  <span class="math notranslate nohighlight">\(\dfrac{-3}{-4}\)</span> , έχουμε άπειρα κλάσματα που είναι όλα ίσα μεταξύ τους:</p>
+<div class="math notranslate nohighlight">
+\[\frac{3}{4}=\frac{6}{8}=\frac{9}{12}=\frac{12}{16}=\ldots,\]</div>
+<p>πράγμα που επίσης θα θέλαμε αν αποφύγουμε. Εδώ έρχεται η έννοια του <em>ανάγωγου κλάσματος</em>, του κλάσματος, δηλαδή, που δεν μπορούμε να απλοποιήσουμε περαιτέρω, όπως, για παράδειγμα, το  <span class="math notranslate nohighlight">\(\dfrac{25}{12}\)</span> . Η απλοποίηση, όπως θυμόμαστε, είναι ουσιαστικά η διαίρεση αριθμητή και παρονομαστή με τον ίδιο αριθμό (μεγαλύτερο της μονάδας). Έτσι, ένα κλάσμα  <span class="math notranslate nohighlight">\(\dfrac{m}{n}\)</span>  είναι ανάγωγο αν δεν μπορούμε να βρούμε ένα αριθμό που να διαιρεί και το  <span class="math notranslate nohighlight">\(m\)</span>  και το  <span class="math notranslate nohighlight">\(n\)</span> . Με άλλα λόγια, ένα κλάσμα είναι ανάγωγο αν ο μέγιστος κοινός διαιρέτης των  <span class="math notranslate nohighlight">\(m\)</span>  και  <span class="math notranslate nohighlight">\(n\)</span>  είναι 1. Με αυτό κατά νου, ορίζουμε το σύνολο  <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>  των ρητών να είναι το σύνολο:</p>
+<div class="math notranslate nohighlight">
+\[\mathbb{Q}=\left\{\frac{m}{n}:m\in\mathbb{Z},\ n\in\mathbb{N},\ \mu\kappa\delta(m,n)=1\right\}.\]</div>
+<p>Έτσι, έχουμε συμπεριλάβει μόνο ανάγωγα κλάσματα μέσα στο  <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span> , χωρίς να παίρνουμε και τα «διπλότυπα».</p>
+</section>
+<section id="id9">
+<h3>Η αριθμησιμότητα των ρητών<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id9'"><span>#</span></a></h3>
+<p>Μπορούμε να γράψουμε τους ρητούς σαν μία λίστα, όπως και τους φυσικούς; Με άλλα λόγια, μπορούμε να μιλήσουμε για τον πρώτο, τον δεύτερο, τον τρίτο κ.ο.κ. ρητό αριθμό;</p>
+<p>Αρχικά, ας παρατηρήσουμε ότι μπορούμε να ασχοληθούμε μόνο με τους θετικούς ρητούς, αφού, κάθε αρνητικός ρητός είναι το αντίθετο ενός θετικού ρητού, άρα, αν μπορούμε να γράψουμε τους θετικούς ρητούς σαν μια λίστα, θα μπορούμε να γράψουμε και τους αρνητικούς. Βάζουμε σε μία από τις δύο λίστες και το 0 και είμαστε έτοιμοι: οι ρητοί θα είναι αριθμήσιμοι επειδή θα είναι η ένωση δύο αριθμήσιμων συνόλων. Έτσι, από εδώ και μπρος, θα μας απασχολήσουν μόνο οι θετικοί ρητοί.</p>
+<p>Ας κάνουμε, λοιπόν, μία προσπάθεια. Θα πάρουμε ως πρώτο ρητό αριθμό το 0. Δεύτερος ρητός αριθμός θα μπορούσε να είναι, για παράδειγμα, το 1. Μετά, θα μπορούσαμε να πάρουμε σαν τρίτο ρητό αριθμό το 2 και, έτσι, να πάρουμε όλους τους φυσικούς αριθμούς. Αλλά, μετά, πού θα βάλουμε τα γνήσια κλάσματα (αυτά που δεν έχουν παρονομαστή 1); Η λίστα μας είναι άπειρη, δηλαδή δεν έχει τέλος, άρα δεν μπορούμε να πούμε ότι θα προσθέσουμε στο τέλος τα κλάσματα.</p>
+<p>Κι εδώ έρχεται η εξής ιδέα: γιατί να μην κάνουμε το ίδιο κόλπο με τους ακεραίους; Δηλαδή, έστω το σύνολο  <span class="math notranslate nohighlight">\(A_2\)</span>  με:</p>
+<div class="math notranslate nohighlight">
+\[A_2=\left\{\frac{1}{2},\frac{2}{2},\frac{3}{2},\ldots\right\}.\]</div>
+<p>Τότε, τα  <span class="math notranslate nohighlight">\(\mathbb{N},A_2\)</span>  είναι αριθμήσιμα, άρα και η ένωσή τους,  <span class="math notranslate nohighlight">\(\mathbb{N}\cup A_2\)</span>  θα είναι αριθμήσιμη. Έτσι, έχουμε δείξει ότι το σύνολο των φυσικών, μαζί με τα κλάσματα με παρονομαστή 2 είναι αριθμήσιμο. Ανάλογα, ορίζουμε το σύνολο  <span class="math notranslate nohighlight">\(A_3\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[A_3=\left\{\frac{1}{3},\frac{2}{3},\ldots\right\},\]</div>
+<p>που περιέχει όλα τα κλάσματα με παρονομαστή 3 και είναι, προφανώς, αριθμήσιμο. Έτσι, και το σύνολο:</p>
+<div class="math notranslate nohighlight">
+\[\mathbb{N}\cup A_2\cup A_3,\]</div>
+<p>που περιέχει τους φυσικούς και τα κλάσματα με παρονομαστές 2 ή 3 είναι αριθμήσιμο. Ανάλογα, ορίζουμε για κάθε  <span class="math notranslate nohighlight">\(k=2,3,\ldots\)</span>  το σύνολο:</p>
+<div class="math notranslate nohighlight">
+\[A_k=\left\{\frac{1}{k},\frac{2}{k},\ldots\right\},\]</div>
+<p>που περιέχει όλα τα κλάσματα με παρονομαστή ίσο με  <span class="math notranslate nohighlight">\(k\)</span> . Όπως και πριν, όλα τα  <span class="math notranslate nohighlight">\(A_k\)</span>  είναι αριθμήσιμα, άρα και το σύνολο:</p>
+<div class="math notranslate nohighlight">
+\[B_n=\mathbb{N}\cup A_2\cup A_3\cup\ldots\cup A_n,\]</div>
+<p>είναι αριθμήσιμο, για οποιοδήποτε  <span class="math notranslate nohighlight">\(n=2,3,\ldots\)</span> . Ας παρατηρήσουμε ότι, οσοδήποτε μεγάλο κι αν είναι το  <span class="math notranslate nohighlight">\(n\)</span>  που θα επιλέξουμε, το σύνολο  <span class="math notranslate nohighlight">\(B_n\)</span>  περιέχει «πολλά» κλάσματα, αλλά όχι όλα! Για παράδειγμα, αν  <span class="math notranslate nohighlight">\(n=100\)</span> , τότε το σύνολο  <span class="math notranslate nohighlight">\(B_{100}\)</span>  δεν περιέχει το κλάσμα  <span class="math notranslate nohighlight">\(\dfrac{1}{101}\)</span> . Γενικά, για κάθε  <span class="math notranslate nohighlight">\(n\)</span> , το σύνολο  <span class="math notranslate nohighlight">\(B_n\)</span>  που ορίσαμε παραπάνω δεν περιέχει το κλάσμα  <span class="math notranslate nohighlight">\(\dfrac{1}{n+1}\)</span>  (μπορείτε να εξηγήσετε γιατί;). Έτσι, κανένα από τα  <span class="math notranslate nohighlight">\(B_n\)</span>  δεν είναι ίσο με το σύνολο των θετικών ρητών, ας το συμβολίζουμε με  <span class="math notranslate nohighlight">\(\mathbb{Q}^+\)</span> , επομένως, ακόμα δεν έχουμε καταφέρει τίποτα.</p>
+<p>Σε αυτό το σημείο, θα θέλαμε πάρα πολύ, δεδομένου ότι όλα τα  <span class="math notranslate nohighlight">\(A_k\)</span>  είναι αριθμήσιμα και το σύνολο των φυσικών,  <span class="math notranslate nohighlight">\(\mathbb{N}\)</span> , είναι αριθμήσιμο, να πούμε ότι και το σύνολο:</p>
+<div class="math notranslate nohighlight">
+\[B_{\infty}=\mathbb{N}\cup A_2\cup A_3\cup\ldots,\]</div>
+<p>είναι αριθμήσιμο, μιας και το  <span class="math notranslate nohighlight">\(B_{\infty}\)</span>  περιέχει ακριβώς όλους τους θετικούς ρητούς αριθμούς. Ωστόσο, εδώ δεν έχουμε να κάνουμε με την ένωση δύο ή τριών ή, γενικά, πεπερασμένων στο πλήθος αριθμήσιμων συνόλων (οπότε και θα ήμαστε καλυμμένοι), αλλά με άπειρα στο πλήθος σύνολα (τα  <span class="math notranslate nohighlight">\(A_k\)</span> , για  <span class="math notranslate nohighlight">\(k=2,3,\ldots\)</span> ), οπότε δεν μας εγγυάται κανείς ότι μπορούμε με κάποιον τρόπο να «ράψουμε» άπειρες στο πλήθος λίστες και να πάρουμε μία νέα λίστα. Επομένως, η προσπάθειά μας πέφτει στο κενό.</p>
+<p>(Θρήνος)</p>
+<p>Κι εδώ έρχεται μία ιστορική φυσιογνωμία των μαθηματικών, ο <a class="reference external" href="https://en.wikipedia.org/wiki/Georg_Cantor">Georg Cantor</a>, να μας δώσει τα φώτα του. Η συνεισφορά του Cantor στο πρόβλημά μας είναι ότι παρέθεσε έναν κομψό και ιδιοφυή τρόπο για να παρουσιάσει κανείς τους φυσικούς αριθμούς, έτσι ώστε να φανεί η αριθμησιμότητά τους. Αρχικά, ας πάρουμε δύο άξονες κάθετους μεταξύ τους και ας βάλουμε πάνω σε κάθε άξονα όλους τους φυσικούς αριθμούς όπως φαίνεται στο παρακάτω σχήμα:</p>
+<figure class="wp-image-970 align-default" id="id16">
+<img alt="Οι δύο άξονες." src="docs/After-maths/{static}_static/images/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png"/>
+<figcaption>
+<p><span class="caption-text">Οι δύο άξονες.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id16"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Στη συνέχεια, σχεδιάζουμε όλα τα σημεία που έχουν ως συντεταγμένες φυσικούς αριθμούς (π.χ. τα σημεία  <span class="math notranslate nohighlight">\(A(1,4)\)</span>  και  <span class="math notranslate nohighlight">\(B(2,1)\)</span> , αλλά όχι το  <span class="math notranslate nohighlight">\(C(4,1/12)\)</span> ), όπως φαίνεται στο παρακάτω σχήμα:</p>
+<figure class="wp-image-971 align-default" id="id17">
+<img alt="Το «πλέγμα» του Cantor." src="docs/After-maths/{static}_static/images/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png"/>
+<figcaption>
+<p><span class="caption-text">Το «πλέγμα» του Cantor.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id17"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Έπειτα, προτείνει να φανταστούμε κάθε αριθμό στον κατακόρυφο άξονα ως παρονομαστή και κάθε αριθμό στον οριζόντιο άξονα ως αριθμητή. Έτσι, κάθε σημείο αντιστοιχεί σε έναν ακριβώς θετικό ρητό αριθμό, όπως φαίνεται παρακάτω:</p>
+<figure class="wp-image-973 align-default" id="id18">
+<img alt="Τα κλάσματα σαν πλέγμα." src="docs/After-maths/{static}_static/images/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png"/>
+<figcaption>
+<p><span class="caption-text">Τα κλάσματα σαν πλέγμα.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id18"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Εδώ παρατηρούμε ότι στην πρώτη γραμμή φαίνονται οι φυσικοί αριθμοί, στη δεύτερη τα κλάσματα με παρονομαστή 2, στην τρίτη αυτά με παρονομαστή 3 κ.ο.κ., πράγμα που θυμίζει, λίγο έως πολύ, αυτό που κάναμε και προηγουμένως. Εδώ όμως έρχεται η ιδέα που μας έλειπε. Ας φανταστούμε ότι στεκόμαστε στο σημείο  <span class="math notranslate nohighlight">\(A(1,1)\)</span> , το οποίο αντιστοιχεί στον αριθμό 1. Ξεκινάμε και κινούμαστε όπως φαίνεται  στο ακόλουθο σχήμα:</p>
+<figure class="wp-image-975 align-default" id="id19">
+<img alt="Ο περίπατος του Cantor." src="docs/After-maths/{static}_static/images/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png"/>
+<figcaption>
+<p><span class="caption-text">Ο περίπατος του Cantor.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id19"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Έτσι, πρώτος αριθμός της λίστας μας είναι το 1, δεύτερος το 2, τρίτος το 1/2, τέταρτος το 1/3, πέμπτος το 1, έκτος το 3 κ.ο.κ.. Παρατηρήστε ότι κάποιο αριθμοί εμφανίζονται δύο και τρεις και παραπάνω φορές, αλλά αυτό δε μας ενοχλεί, όπως έχουμε πει. Αυτό που έχει σημασία είναι ότι καταφέραμε να γράψουμε όλους τους θετικούς ρητούς σε μία λίστα, άρα το σύνολο των ρητών αριθμών,  <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span> , είναι αριθμήσιμο.</p>
+<p>Πριν κλείσουμε την ενότητα αυτή για την αριθμησιμότητα των ρητών, να σκεφτούμε το εξής. Αν μας ρώταγε κάποιος στον δρόμο ποιοι αριθμοί φαίνονται να είναι περισσότεροι, οι φυσικοί ή οι ρητοί, τότε, τι είναι πιο πιθανό να απαντούσαμε; Μάλλον οι ρητοί, αν σκεφτούμε ότι οι φυσικοί περιέχονται όλοι στους ρητούς (για την ακρίβεια, στο παραπάνω σχήμα οι φυσικοί είναι μόνο η πρώτη γραμμή). Ωστόσο, αφού δείξαμε ότι και τα δύο σύνολα είναι αριθμήσιμα (και άπειρα), έπεται ότι έχουν και το ίδιο πλήθος στοιχείων, μιας και, όπως μιλάμε για τον πρώτο, τον δεύτερο κ.ο.κ. φυσικό (αριθμό), έτσι μπορούμε πλέον να μιλάμε και για τον πρώτο, τον δεύτερο κ.ο.κ. ρητό αριθμό.</p>
+</section>
+<section id="id10">
+<h3>Η πυκνότητα των ρητών<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id10" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id10'"><span>#</span></a></h3>
+<p>Αν προσπαθήσουμε πάνω στην ευθεία των πραγματικών αριθμών να τοποθετήσουμε όλους τους φυσικούς αριθμούς, τότε δε θα συναντήσουμε ιδιαίτερη δυσκολία, καθώς πρέπει απλώς να αποφασίσουμε πού θα τοποθετήσουμε την μονάδα μας (1) και στη συνέχεια να προχωράμε με σταθερό βήμα «φυτεύοντας» και όλους τους υπόλοιπους αριθμούς, όπως φαίνεται παρακάτω:</p>
+<figure class="wp-image-984 align-default" id="id20">
+<img alt="Φυτεύοντας φυσικούς (αριθμούς)." src="docs/After-maths/{static}_static/images/uploads/2019/07/ezgif.com-crop2-1.gif"/>
+<figcaption>
+<p><span class="caption-text">Φυτεύοντας φυσικούς (αριθμούς).</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id20"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τώρα, αν θέλουμε να βάλουμε όλους τους (θετικούς) ρητούς στον άξονα, πώς θα εργαστούμε; Ένας τρόπος είναι να ακολουθήσουμε τα βήματα του Cantor, αλλά θα μας βγει η ψυχή, οπότε μπορούμε, πολύ απλά, να τοποθετήσουμε πρώτα όλους τους φυσικούς, έπειτα όλους τους ρητούς αριθμούς με παρονομαστή δύο, έπειτα όλους τους ρητούς με παρονομαστή 3 κ.ο.κ., όπως φαίνεται στο παρακάτω σχήμα:</p>
+<figure class="wp-image-986 align-default" id="id21">
+<img alt="Φυτεύοντας ρητούς." src="docs/After-maths/{static}_static/images/uploads/2019/07/ezgif.com-crop3.gif"/>
+<figcaption>
+<p><span class="caption-text">Φυτεύοντας ρητούς.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id21"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Παρατηρούμε ότι υπάρχει μία ουσιώδης διαφορά ανάμεσα στους φυσικούς και τους ρητούς αριθμούς σε σχέση με το πώς κατανέμονται πάνω στην ευθεία των πραγματικών αριθμών. Οι φυσικοί, όπως φαίνεται εύκολα, απέχουν τουλάχιστον μία μονάδα ο ένας από τον άλλο, ενώ κάτι τέτοιο δεν ισχύει για τους ρητούς, μιας και, όσο προσθέτουμε ρητούς πάνω στην ευθεία αυτοί φαίνεται να «πυκνώνουν» και, σχεδόν, να καλύπτουν την ευθεία των πραγματικών αριθμών. Πράγματι, θα αποδείξουμε την ακόλουθη ιδιότητα για τους ρητούς αριθμούς:</p>
+<blockquote>
+<div><p>Αν  <span class="math notranslate nohighlight">\(x,y\)</span>  είναι δύο πραγματικοί αριθμοί με  <span class="math notranslate nohighlight">\(x&lt;y\)</span>  τότε υπάρχει τουλάχιστον ένας ρητός αριθμός  <span class="math notranslate nohighlight">\(q\in\mathbb{Q}\)</span>  τέτοιος ώστε:</p>
+<div class="math notranslate nohighlight">
+\[x&lt;q&lt;y.\]</div>
+</div></blockquote>
+<p>Δηλαδή, θα αποδείξουμε ότι ανάμεσα σε δύο οποιουσδήποτε πραγματικούς αριθμούς υπάρχει (τουλάχιστον) ένας ρητός αριθμός, κάτι που εκφράζει αυτήν την αίσθηση που μας δίνει το παραπάνω σχήμα (αυτήν την ιδιότητα των ρητών την ονομάζουμε και <em>πυκνότητα</em>).</p>
+<p>Για την απόδειξή μας θα χρειαστούμε μία σημαντική αρχή, την περιβόητη <em>Αρχή Αρχιμήδους - Ευδόξου * (αναφέρεται πιο συχνά ως *Αρχή του Αρχιμήδη</em> αλλά ο Εύδοξος τη χρησιμοποιεί σε πολλά έργα του σε μία παρόμοια μορφή με αυτήν που θα διατυπώσουμε - και θα τη συζητήσουμε σε άλλη ανάρτηση για τη μέθοδο της εξάντλησης). Η εν λόγω αρχή μας λέει κάτι ιδιαίτερα απλό: αν  <span class="math notranslate nohighlight">\(a,b\)</span>  είναι δύο πραγματικοί αριθμοί με  <span class="math notranslate nohighlight">\(a&gt;0\)</span> , τότε, μπορούμε να βρούμε έναν φυσικό αριθμό  <span class="math notranslate nohighlight">\(n\in\mathbb{N}\)</span>  τέτοιον ώστε:</p>
+<div class="math notranslate nohighlight">
+\[na&gt;b.\]</div>
+<p>Με άλλα λόγια, όσο μικρότερος και αν είναι, ενδεχομένως, ο  <span class="math notranslate nohighlight">\(a\)</span>  από τον  <span class="math notranslate nohighlight">\(b\)</span> , μπορούμε, αν τον πολλαπλασιάσουμε με έναν αρκετά μεγάλο φυσικό αριθμό, να τον κάνουμε τόσο μεγάλο ώστε να ξεπεράσει τον  <span class="math notranslate nohighlight">\(b\)</span>  (αυτό, πρακτικά, ισοδυναμεί με το να πούμε ότι δεν υπάρχει κάποιος φυσικός αριθμός που να είναι μεγαλύτερος από όλους τους άλλους).</p>
+<p>Πάμε να δείξουμε τώρα ότι οι ρητοί είναι πυκνοί μέσα στους πραγματικούς αριθμούς. Αρχικά θα δείξουμε κάτι λίγο πιο απλό: αν  <span class="math notranslate nohighlight">\(x,y\)</span>  είναι δύο πραγματικοί αριθμοί με  <span class="math notranslate nohighlight">\(x&lt;y\)</span>  και  <span class="math notranslate nohighlight">\(y-x&gt;1\)</span> , τότε υπάρχει κάποιος ακέραιος αριθμός  <span class="math notranslate nohighlight">\(n\in\mathbb{Z}\)</span>  τέτοιος ώστε:</p>
+<div class="math notranslate nohighlight">
+\[x&lt;n&lt;y.\]</div>
+<p>Δηλαδή, αν δύο αριθμοί απέχουν περισσότερο από μία μονάδα, τότε κάποιος ακέραιος θα «πέσει» ανάμεσά τους. Αυτό είναι σχετικά απλό και διαισθητικά προφανές να το αποδείξουμε:</p>
+<ul class="simple">
+<li><p>Αν ο  <span class="math notranslate nohighlight">\(y\)</span>  είναι ακέραιος, τότε και ο  <span class="math notranslate nohighlight">\(y-1\)</span>  θα είναι ακέραιος και μάλιστα:</p></li>
+</ul>
+<div class="math notranslate nohighlight">
+\[y-x&gt;1\Leftrightarrow y-1&gt;x,\]</div>
+<p>        επομένως, επιλέγοντας  <span class="math notranslate nohighlight">\(n=y-1\)</span> , έπεται ότι  <span class="math notranslate nohighlight">\(x&lt;n&lt;y\)</span> .</p>
+<ul class="simple">
+<li><p>Αν ο  <span class="math notranslate nohighlight">\(y\)</span>  δεν είναι ακέραιος, τότε παίρνουμε ως  <span class="math notranslate nohighlight">\(n\)</span>  το ακέραιο μέρος του  <span class="math notranslate nohighlight">\(y\)</span> , δηλαδή τον  <span class="math notranslate nohighlight">\(y\)</span> , χωρίς τα δεκαδικά του ψηφία. Εφ” όσον «κόψαμε» από τον  <span class="math notranslate nohighlight">\(y\)</span>  τα δεκαδικά του ψηφία, δηλαδή κάτι λιγότερο από 1, έπεται ότι:</p></li>
+</ul>
+<div class="math notranslate nohighlight">
+\[n&gt;y-1\Rightarrow x&lt;n&lt;y.\]</div>
+<p>Επομένως, σε κάθε περίπτωση, μπορούμε να βρούμε έναν ακέραιο αριθμό ανάμεσα σε δύο πραγματικούς που απέχουν περισσότερο από μία μονάδα.</p>
+<p>Ας πάρουμε τώρα δύο αυθαίρετους πραγματικούς αριθμούς  <span class="math notranslate nohighlight">\(x&lt;y\)</span> . Εφ” όσον δεν ξέρουμε ότι οι  <span class="math notranslate nohighlight">\(x,y\)</span>  απέχουν μεταξύ τους περισσότερο από μία μονάδα, δεν μπορούμε να πούμε με βεβαιότητα ότι υπάρχει κάποιος ακέραιος (άρα και ρητός) ανάμεσά τους. Ωστόσο, μπορούμε να «ζουμάρουμε» αρκετά για να μας φαίνεται ότι οι  <span class="math notranslate nohighlight">\(x,y\)</span>  απέχουν περισσότερο από μία μονάδα. Εξηγούμαι. Παρατηρούμε ότι  <span class="math notranslate nohighlight">\(y-x&gt;0\)</span>  οπότε, από την αρχή Αρχιμήδους - Ευδόξου, για  <span class="math notranslate nohighlight">\(a=y-x\)</span>  και  <span class="math notranslate nohighlight">\(b=1\)</span>  υπάρχει κάποιος φυσικός αριθμός  <span class="math notranslate nohighlight">\(n\in\mathbb{N}\)</span>  τέτοιος ώστε:</p>
+<div class="math notranslate nohighlight">
+\[n(y-x)&gt;1\Leftrightarrow ny-nx&gt;1.\]</div>
+<p>Αυτό σημαίνει ότι οι αριθμοί  <span class="math notranslate nohighlight">\(nx\)</span>  και  <span class="math notranslate nohighlight">\(ny\)</span>  απέχουν μεταξύ τους περισσότερο από μία μονάδα, επομένως υπάρχει κάποιος ακέραιος  <span class="math notranslate nohighlight">\(m\in\mathbb{Z}\)</span>  τέτοιος ώστε:</p>
+<div class="math notranslate nohighlight">
+\[nx&lt;m&lt;ny.\]</div>
+<p>Διαιρώντας κατά  μέλη με  <span class="math notranslate nohighlight">\(n\)</span>  έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[x&lt;\dfrac{m}{n}&lt;y,\]</div>
+<p>και αφού οι  <span class="math notranslate nohighlight">\(m,n\)</span>  είναι ακέραιοι, ο  <span class="math notranslate nohighlight">\(\dfrac{m}{n}\)</span>  είναι ρητός, άρα βρήκαμε έναν ρητό ανάμεσα στους  <span class="math notranslate nohighlight">\(x\)</span>  και  <span class="math notranslate nohighlight">\(y\)</span> , όπως είχαμε προεξαγγείλει.</p>
+<p>Διαισθητικά, αυτό που κάναμε πολλαπλασιάζοντας με  <span class="math notranslate nohighlight">\(n\)</span>  ήταν να αλλάξουμε «μονάδα μέτρησης» έτσι ώστε, με τη νέα μονάδα, οι  <span class="math notranslate nohighlight">\(x,y\)</span>  να απέχουν απόσταση μεγαλύτερη από μία μονάδα.</p>
+<p>Ένας άλλος τρόπος να το καταλάβουμε αυτό είναι ο εξής: αν  <span class="math notranslate nohighlight">\(x\in\mathbb{R}\)</span>  είναι ένας πραγματικός αριθμός, τότε μπορούμε να βρούμε έναν ρητό αριθμό όσο κοντά του θέλουμε. Πράγματι, πόσο κοντά θέλουμε; Να πούμε  <span class="math notranslate nohighlight">\(10^{-100}\)</span> ; Τότε, ανάμεσα στους αριθμούς  <span class="math notranslate nohighlight">\(x\)</span>  και  <span class="math notranslate nohighlight">\(x+10^{-100}\)</span>  μπορούμε να βρούμε έναν ρητό  <span class="math notranslate nohighlight">\(q\in\mathbb{Q}\)</span> , οπότε:</p>
+<div class="math notranslate nohighlight">
+\[x&lt;q&lt;x+10^{-100}\Rightarrow \|q-x|&lt;10^{-100},\]</div>
+<p>που ήταν το ζητούμενο.</p>
+<p>Ας δούμε τώρα τι έχουμε πετύχει. Αφ” ενός, δείξαμε ότι μπορούμε να γράψουμε τους ρητούς σε μία αριθμημένη λίστα, δηλαδή να πούμε ότι ο τάδε ρητός είναι ο «πρώτος», ο δείνα είναι ο «δεύτερος» κ.ο.κ.. Από την άλλη, αν πάρουμε έναν ρητό, για παράδειγμα το 4, τότε έχουμε αποδείξει ότι δεν υπάρχει ο «αμέσος δεξιότερος» ρητός (ούτε ο «αμέσος αριστερότερος», φυσικά). Πράγματι, αν υποθέσουμε ότι ο ρητός  <span class="math notranslate nohighlight">\(q\in\mathbb{Q}\)</span>  είναι ο αμέσως δεξιότερος του 4, δηλαδή ότι  <span class="math notranslate nohighlight">\(4&lt;q\)</span>  και δεν υπάρχει άλλος ρητός ανάμεσά τους, τότε καταλήγουμε σε άτοπο, διότι, όπως μόλις δείξαμε, ανάμεσα σε οποιουσδήποτε δύο πραγματικούς αριθμούς υπάρχει ένας ρητός, άρα και ανάμεσα στους 4 και  <span class="math notranslate nohighlight">\(q\)</span> . Με λίγα λόγια, αν και μπορούμε να καταγράψουμε τους ρητούς σε μία λίστα, όπως τους φυσικούς, η «κατανομή» τους πάνω στην ευθεία τωναριθμών είναι τελείως διαφορετική.</p>
+<p>Θέτοντάς το αλλιώς, αν αγνοήσουμε τη διάταξη των αριθμών (το 2 είναι πριν το τρία, το 5 πριν το 6 κ.λπ.) καθώς και τις αποστάσεις τους, μπορούμε να «ξεριζώσουμε» του φυσικούς αριθμούς από τις παραδοσιακές τους θέσεις, να τους βάλουμε σε ένα σακούλι και να τους ξαναφυτέψουμε, τους ίδιους, χωρίς να παραλείψουμε ή να προσθέσουμε κάποιον, σε άλλες θέσεις με τέτοιον τρόπο ώστε ανάμεσα σε κάθε δύο πραγματικούς αριθμούς να βρίσκεται ένας φυσικός.</p>
+</section>
+</section>
+<section id="id11">
+<h2>Υπάρχουν σύνολα που δεν είναι αριθμήσιμα;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id11'"><span>#</span></a></h2>
+<p>Επειδή εμείς εδώ δεν είμαστε πολιτικοί της κακιάς ώρας, δεν τις ξεχνάμε τις υποσχέσεις μας. Είπαμε ότι θα απαντήσουμε στο παραπάνω ερώτημα και θα το κάνουμε. Λοιπόν, έχουμε και λέμε: όλα τα πεπερασμένα σύνολα είναι αριθμήσιμα (τσεκ), οι φυσικοί (αριθμοί) είναι αριθμήσιμοι (τσεκ), οι ακέραιοι αριθμοί είναι αριθμήσιμοι (τσεκ), οι ρητοί αριθμήσιμοι (τσεκ), η ένωση δύο αριθμήσιμων συνόλων είναι αριθμήσιμη (τσεκ), η ένωση <em>άπειρων στο πλήθος</em> αριθμήσιμων συνόλων,  <span class="math notranslate nohighlight">\(A_1,A_2,\ldots\)</span> , είναι αριθμήσιμη (τσεκ, αλλά προσέξτε ότι πήραμε άπειρα σύνολα, αλλά τόσα ώστε να μπορούμε να τα αριθμήσουμε, δηλαδή να φτιάξουμε μία λίστα από αυτά -  <span class="math notranslate nohighlight">\(A_1,A_2,\ldots\)</span> ). Για το τελευταίο, η απόδειξη είναι παρόμοια με αυτόν τον περίπατο που έκανε ο Cantor, αλλά δε θατη γράψουμε για λογους συντομίας (προσπαθήστε μόνοι σας, αν θέλετε). Εύκολα θα έλεγε κανείς ότι δεν έμεινε και κάτι που να μην είναι αριθμήσιμο, μας τα πήρανε όλα. Εδώ, όμως, ο Cantor έρχεται πάλι να μας δώσει μία αποστομοτική απάντηση: Οι πραγματικοί αριθμοί δεν είναι αριθμήσιμοι! (Αρχικά, η ανάρτηση είχε τίτλο «Μας γλεντάει ο Cantor», αλλά κόπηκε από τη σύνταξη).</p>
+<p>Και πώς θα το δείξουμε αυτό, κύριε Cantor; Αρχικά, θα κάνουμε τη ζωή μας λίγο πιο εύκολη. Αντί να δείξουμε ότι το  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>  δεν είναι αριθμήσιμο, θα δείξουμε ότι το  <span class="math notranslate nohighlight">\((0,1)\)</span>  δεν είναι αριθμήσιμο, πράγμα που είναι αρκετό για τη δουλειά μας (αν το  <span class="math notranslate nohighlight">\((0,1)\)</span>  δεν είναι αριθμήσιμο, δε θα μπορεί να είναι αριθμήσιμο ούτε το  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> , αφού, αν ήταν, θα έπρεπε να είναι αριθμήσιμο και κάθε υποσύνολό του). Επίσης, από εδώ και εμπρός, θα λέμε ότι ένα σύνολο είνια <em>υπεραριθμήσιμο</em> αν δεν είναι αριθμήσιμο. Επομένως, συμπεραίνουμε ότι όλα τα υπεραριθμήσιμα σύνολα είναι <em>άπειρα</em> (αφού κάθε πεπερασμένο σύνολο είναι αριθμήσιμο).</p>
+<section id="id12">
+<h3>Μόνο με δύο ψηφία…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id12" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id12'"><span>#</span></a></h3>
+<p>Πριν πάμε παρακάτω, θα μας φανεί χρήσιμο να μιλήσουμε λίγο για το φοβερό και τρομερό δυαδικό σύστημα. Όπως ξέρουμε από αρκετά μικρή ηλικία, με τα δέκα ψηφία, 0,1,2,3,4,5,6,7,8,9, μπορούμε να γράψουμε οποιονδήποτε αριθμό θέλουμε, για παράδειγμα το 27. Χρειάζονται όμως τόσα πολλά ψηφία, θα πει κανείς; Όχι, είναι η απάντηση. Αρκούν μόνο δύο ψηφία, το 0 και το 1, για να γράψουμε όλους τους αριθμούς που μπορούμε να γράψουμε και με τα δέκα «παραδοσιακά» ψηφία.</p>
+<p>Ας δούμε, αρχικά, πώς γράφουμε έναν ακέραιο αριθμό στο δυαδικό σύστημα, π.χ. το 27.</p>
+<p>Το πρώτο βήμα είναι να διαιρέσουμε, με πηλίκο και υπόλοιπο, τον αριθμό μας με το 2, οπότε παίρνουμε:</p>
+<div class="math notranslate nohighlight">
+\[27=13\times2+1.\]</div>
+<p>Στη συνέχεια, παίρνουμε το πηλίκο, 13, και το διαιρούμε με το 2.</p>
+<div class="math notranslate nohighlight">
+\[13=6\times2+1.\]</div>
+<p>Επαναλαμβάνουμε το παραπάνω μέχρις ότου να βρούμε πηλίκο ίσο με το 0:</p>
+<div class="math notranslate nohighlight">
+\[\begin{array}{rcl}27&amp;=&amp;13\times2+1,\13&amp;=&amp;6\times2+1,\6&amp;=&amp;3\times2+0,\3&amp;=&amp;1\times2+1,\1&amp;=&amp;\boxed{0}\times2+1.\end{array}\]</div>
+<p>Τώρα, διαβάζουμε τα υπόλοιπα από κάτω προς τα πάνω και αυτό που βρίσκουμε είναι η γραφή του 27 στο δυαδικό, δηλαδή 11011.</p>
+<p>Τι γίνεται όμως όταν θέλουμε να γράψουμε στο δυαδικό κάποιον δεκαδικό αριθμό στο  <span class="math notranslate nohighlight">\((0,1)\)</span> ; Ας πάρουμε για παράδειγμα το 0.625. Ξεκινάμε διπλασιάζοντας τον δοσμένο αριθμό:</p>
+<div class="math notranslate nohighlight">
+\[2\times0.625=1.25=1+0.25.\]</div>
+<p>Στη συνέχεια, παίρνουμε το δεκαδικό μέρος του γινομένου, δηλαδή το 0.25 και επαναλαμβάνουμε μέχρι να βρούμε κάποιο γινόμενο που να είναι ακέραιος αριθμός. Στην περίπτωσή μας:</p>
+<div class="math notranslate nohighlight">
+\[\begin{array}{rcl}2\times0.625&amp;=&amp;1+0.25,\2\times0.25&amp;=&amp;0+0.5,\2\times0.5&amp;=&amp;1+\boxed{0}.\end{array}\]</div>
+<p>Εδώ σταματάμε και διαβάζουμε τα ακέραια μέρη από πάνω προς τα κάτω (101). Επομένως ο 0.625 στο δυαδικό γράφεται 0.101.</p>
+<p>Όταν έχουμε να κάνουμε με δεκαδικούς αριθμούς, ενδέχεται τα δυαδικά ψηφία που θα βρούμε να είναι άπειρα. Πράγματι, ας πάρουμε τον αριθμό 0.3. Ακολουθώντας την παραπάνω διαδικασία, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\begin{array}{rcl}2\times0.3&amp;=&amp;0+\boxed{0.6},\2\times0.6&amp;=&amp;1+0.2,\2\times0.2&amp;=&amp;0+0.4,\2\times0.4&amp;=&amp;0+0.8,\2\times0.8&amp;=&amp;1+\boxed{0.6}.\end{array}\]</div>
+<p>Κι εδώ παρατηρούμε ότι καταλήξαμε στο ίδιο δεκαδικό μέρος (0.6) με αυτό που είχαμε στην αρχή, άρα, από εδώ και μετά θα επαναλαμβάνονται τα ίδια ψηφία. Έτσι, το 0.3 στο δυαδικό γράφεται:</p>
+<div class="math notranslate nohighlight">
+\[0.010010100101001\ldots=0.\overline{01001}.\]</div>
+<p>Επομένως, κάθε αριθμός στο  <span class="math notranslate nohighlight">\((0,1)\)</span>  μπορεί να γραφεί σαν μία (ενδεχομένως άπειρη) ακολουθία (δηλαδή μία λίστα) από 0 και 1. Δηλαδή, αν  <span class="math notranslate nohighlight">\(x\in(0,1)\)</span>  είναι ένας πραγματικός αριθμός στο  <span class="math notranslate nohighlight">\((0,1)\)</span>  τότε:</p>
+<div class="math notranslate nohighlight">
+\[x=0.a_1a_2a_3\ldots,\]</div>
+<p>όπου τα  <span class="math notranslate nohighlight">\(a_1,a_2,a_3\ldots\)</span>  είναι είτε 0 είτε 1. Για παράδειγμα, αν  <span class="math notranslate nohighlight">\(x=0.625\)</span> , τότε:</p>
+<div class="math notranslate nohighlight">
+\[x=0.1010000\ldots,\]</div>
+<p>δηλαδή  <span class="math notranslate nohighlight">\(a_1=1,a_2=0,a_3=1\)</span>  και  <span class="math notranslate nohighlight">\(a_k=0\)</span>  για κάθε  <span class="math notranslate nohighlight">\(k=4,5,\ldots\)</span> .</p>
+</section>
+<section id="id13">
+<h3>Στο ζουμί…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id13" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id13'"><span>#</span></a></h3>
+<p>Πάμε τώρα να δείξουμε ότι το  <span class="math notranslate nohighlight">\((0,1)\)</span>  δεν είναι αριθμήσιμο. Για αυτόν τον σκοπό, ας υποθέσουμε, προς άτοπο, ότι το  <span class="math notranslate nohighlight">\((0,1)\)</span>  είναι αριθμήσιμο. Επομένως, μπορούμε να γράψουμε τα στοιχεία του σε μία λίστα, δηλαδή μπορούμε να πούμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[(0,1)=\{x_1,x_2,x_3,\ldots\}.\]</div>
+<p>Κάθε ένα από τα στοιχεία του θα γράφεται σαν μά ακολουθία από 0 και 1. Αγνοώντας το ακεραίο μέρος, το οποίο είναι πάντα 0 και γράφοντας μόνο τα δεκαδικά (ό,τι είναι δεξιά από την υποδιαστολή), η λίστα αυτή έχει την εξής μορφή:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{array}{c|cccccc}x_1 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 0 &amp; \ldots\x_2 &amp; 0 &amp; 1 &amp; 0 &amp; 0 &amp; 0 &amp; \ldots\x_3 &amp; 1 &amp; 1 &amp; 0 &amp; 1 &amp; 0 &amp; \ldots\x_4 &amp; 0 &amp; 1 &amp; 1 &amp; 1 &amp; 1 &amp; \ldots\x_5 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; 0 &amp; \ldots\\vdots &amp; \vdots &amp; \vdots &amp; \vdots &amp; \vdots &amp;\vdots &amp; \ddots\end{array}\end{split}\]</div>
+<p>Προφανώς δεν είναι απαραίτητο να εμφανίζονται αυτά τα νούμερα, αλλά θα μοιάζει κάπως έτσι. Μέχρι εδώ δεν έχουμε κάνει και κάτι, απλά μαζέψαμε τους αριθμούς του  <span class="math notranslate nohighlight">\((0,1)\)</span>  σε ένα μέρος. Εδώ έρχεται ξανά μία ευφυέστατη ιδέα του Cantor. Πάμε και κοιτάμε την κύρια διαγώνιο του παραπάνω «πίνακα»:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{array}{c|cccccc}x_1 &amp; \boxed{0} &amp; 1 &amp; 1 &amp; 1 &amp; 0 &amp; \ldots\x_2 &amp; 0 &amp; \boxed{1} &amp; 0 &amp; 0 &amp; 0 &amp; \ldots\x_3 &amp; 1 &amp; 1 &amp; \boxed{0} &amp; 1 &amp; 0 &amp; \ldots\x_4 &amp; 0 &amp; 1 &amp; 1 &amp; \boxed{1} &amp; 1 &amp; \ldots\x_5 &amp; 1 &amp; 0 &amp; 0 &amp; 1 &amp; \boxed{0} &amp; \ldots\\vdots &amp; \vdots &amp; \vdots &amp; \vdots &amp; \vdots &amp;\vdots &amp; \ddots\end{array}\end{split}\]</div>
+<p>Παρατηρούμε ότι τα ψηφία που συναντάμε εκεί σχηματίζουν μια ακολουθία από 0 και 1, στην προκειμένη την  <span class="math notranslate nohighlight">\(01010\ldots\)</span> . Ως γνήσιοι αντιδραστικοί τύποι, πάμε και θεωρούμε την «αντίθετη» ακολουθία  <span class="math notranslate nohighlight">\(10101\ldots\)</span> , η οποία είναι αυτή που φαίνεται στη διαγώνιο, αλλά με όλα τα 0 να έχουν γίνει 1 και όλα τα 1 να έχουν γίνει 0. Παρατηρούμε τώρα ότι, στο δυαδικό σύστημα, αυτή η ακολουθία αντιστοιχεί σε κάποιον αριθμό  <span class="math notranslate nohighlight">\(x_0\)</span> . Για την ακρίβεια, στο παράδειγμά μας ο  <span class="math notranslate nohighlight">\(x_0\)</span>  θα είναι ο:</p>
+<div class="math notranslate nohighlight">
+\[x_0=0.10101\ldots,\]</div>
+<p>όπως είδαμε και παραπάνω. Επομένως, ο  <span class="math notranslate nohighlight">\(x_0\)</span>  είναι ένας αριθμός στο διάστημα  <span class="math notranslate nohighlight">\((0,1)\)</span> , άρα πρέπει να εμφανίζεται στην αρχική μας λίστα. Δηλαδή, ο  <span class="math notranslate nohighlight">\(x_0\)</span>  πρέπει να είναι ίσος με τον  <span class="math notranslate nohighlight">\(x_5\)</span>  ή με τον  <span class="math notranslate nohighlight">\(x_7\)</span>  ή με τον  <span class="math notranslate nohighlight">\(x_{1453}\)</span>  ή με κάποιον, τέλος πάντων. Ας υποθέσουμε ότι  <span class="math notranslate nohighlight">\(x_0=x_5\)</span> . Τότε θα πρέπει οι δύο αυτοί αριθμοί να έχουν τα ίδια ψηφία στο δυαδικό σύστημα. Ωστόσο, στην πέμπτη θέση του  <span class="math notranslate nohighlight">\(x_5\)</span>  έχουμε 0, ενώ στην πέμπτη θέση του  <span class="math notranslate nohighlight">\(x_0\)</span>  έχουμε 1. Ανάλογα, αν υποθέσουμε ότι  <span class="math notranslate nohighlight">\(x_0=x_9\)</span> , τότε στην ένατη θέση του το  <span class="math notranslate nohighlight">\(x_0\)</span>  θα έχει ακριβώς το αντίθετο ψηφίο απο αυτό που θα βρίσκεται στην ένατη θέση του  <span class="math notranslate nohighlight">\(x_9\)</span> , άρα, το  <span class="math notranslate nohighlight">\(x_0\)</span>  δε θα είναι το  <span class="math notranslate nohighlight">\(x_9\)</span> .</p>
+<p>Γενικά, το  <span class="math notranslate nohighlight">\(x_0\)</span> , από τον τρόπο που το «κατασκευάσαμε», διαφέρει με όλα τα  <span class="math notranslate nohighlight">\(x_k\)</span>  στην  <span class="math notranslate nohighlight">\(k-\)</span> οστή θέση, επομένως το  <span class="math notranslate nohighlight">\(x_0\not\in(0,1)\)</span> , άτοπο, γιατί to  <span class="math notranslate nohighlight">\(x_0\)</span>  είναι ένας αριθμός στο  <span class="math notranslate nohighlight">\((0,1)\)</span> .</p>
+<p>Επομένως, μόλις δείξαμε ότι το  <span class="math notranslate nohighlight">\((0,1)\)</span> <strong>δεν είναι</strong> <strong>αριθμήσιμο!</strong> Από αυτό συμπεραίνουμε ότι και οι πραγματικοί αριθμοί είναι υπεραριθμήσιμοι.</p>
+<p>Το τελευταίο έχει, μάλιστα, και ένα άλλο ενδιαφέρον πόρισμα: αφού οι ρητοί είναι αριθμήσιμοι ενώ οι πραγματικοί δεν είναι, τότε δεν μπορεί να είναι όλοι οι πραγματικοί αριθμοί ρητοί, επομένως <strong>υπάρχουν αριθμοί που δεν είναι ρητοί!</strong> Ας συμβολίσουμε το σύνολο αυτών των αριθμών, θα τους λέμε άρρητους, με  <span class="math notranslate nohighlight">\(\mathbb{A}\)</span> . Τότε, προφανώς ισχύει ότι:</p>
+<div class="math notranslate nohighlight">
+\[\mathbb{Q}\cup\mathbb{A}=\mathbb{R}.\]</div>
+<p>Έτσι, συμπεραίνουμε ότι και οι άρρητοι είναι <em>υπεραριθμήσιμοι!</em> Πράγματι, αν ήταν αριθμήσιμοι, τότε, αφού και οι ρητοί είναι αριθμήσιμοι, θα έπρεπε και το  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>  να είναι αριθμήσιμο ως ένωση αριθμήσιμων, άτοπο. Δηλαδή, όχι μόνον δεν είναι όλοι οι πραγματικοί αριθμοί ρητοί, αλλά οι ρητοί είναι και πάρα πολύ «λίγοι» μέσα στους πραγματικούς (μην ξεχνάμε, ωστόσο, ότι είναι και πολύ πυκνοί, δηλαδή ανάμεσα σε κάθε δύο πραγματικούς βρίσκεται ένας ρητός).</p>
+</section>
+</section>
+<section id="id14">
+<h2>Επίλογος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id14" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id14'"><span>#</span></a></h2>
+<p>Τι είδαμε ως τώρα; Ότι οι ρητοί κι οι φυσικοί έχουν το ίδιο πλήθος, ότι οι ρητοί είναι πρακτικά παντού πάνω στην ευθεία των αριθμών, ότι οι πραγματικοί αριθμοί είναι «ασύγκριτα» περισσότεροι από τους ρητούς και ότι υπάρχουν αριθμοί που δεν είναι ρητοί, οι άρρητοι, όπως τους λένε, που είναι και αυτοί «ασύγκριτα» περισσότεροι από τους ρητούς. Όπως καταλαβαίνετε, ενός κακού μύρια έπονται, οπότε να αναμένετε συνέχεια…</p>
+<p>Κι επειδή καλοκαίρι είναι, κλείνουμε μουσικά, με λίγο <a class="reference external" href="https://en.wikipedia.org/wiki/Hugh_Laurie">Hugh Laurie</a>:</p>
+<blockquote>
+<div><div class="video_wrapper" style="">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/AzEBH6DZJVk" style="border: 0; height: 345px; width: 560px">
+</iframe></div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+<div class="mr-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">
+<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="15 18 9 12 15 6"></polyline>
+</svg>
+        Κατασκευαστικές… αδυναμίες
+      </a>
+</div>
+<div class="ml-auto">
+<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">
+        Κορώνα η γράμματα για… ναυαγούς
+        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<polyline points="9 18 15 12 9 6"></polyline>
+</svg>
+</a>
+</div>
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Εισαγωγή</a></li>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Οι φυσικοί αριθμοί, οι ακέραιοι και τα αριθμήσιμα σύνολα</a><ul>
+<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Οι φυσικοί αριθμοί</a></li>
+<li><a :data-current="activeSection === '#id5'" class="reference internal" href="#id5">Οι ακέραιοι αριθμοί</a></li>
+<li><a :data-current="activeSection === '#id6'" class="reference internal" href="#id6">Αριθμήσιμα σύνολα</a></li>
+</ul>
+</li>
+<li><a :data-current="activeSection === '#id7'" class="reference internal" href="#id7">Οι ρητοί αριθμοί</a><ul>
+<li><a :data-current="activeSection === '#id8'" class="reference internal" href="#id8">Ορισμός</a></li>
+<li><a :data-current="activeSection === '#id9'" class="reference internal" href="#id9">Η αριθμησιμότητα των ρητών</a></li>
+<li><a :data-current="activeSection === '#id10'" class="reference internal" href="#id10">Η πυκνότητα των ρητών</a></li>
+</ul>
+</li>
+<li><a :data-current="activeSection === '#id11'" class="reference internal" href="#id11">Υπάρχουν σύνολα που δεν είναι αριθμήσιμα;</a><ul>
+<li><a :data-current="activeSection === '#id12'" class="reference internal" href="#id12">Μόνο με δύο ψηφία…</a></li>
+<li><a :data-current="activeSection === '#id13'" class="reference internal" href="#id13">Στο ζουμί…</a></li>
+</ul>
+</li>
+<li><a :data-current="activeSection === '#id14'" class="reference internal" href="#id14">Επίλογος</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+<script src="../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>

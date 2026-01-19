@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../../../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<head>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta charset="utf-8"/>
+<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
+<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="2024-07-25 13:58" name="date"/>
+<meta content="aftermathsgr" name="author"/>
+<meta content="Διδακτικό υλικό, Μαθηματικά, Τα Λυμένα" name="category"/>
+<meta content="πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις, λύσεις" name="tags"/>
+<meta content="%cf%84%ce%b1-%ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%ce%b8%ce%ad%ce%bc%ce%b1-003" name="slug"/>
+<meta content="published" name="status"/>
+<meta content="_static/images/uploads/2024/07/003_2425_002.png, _static/images/uploads/2024/07/003_2425_002-1.png, _static/images/uploads/2024/07/1219px-susana_y_los_viejos_guercino.jpg, _static/images/uploads/2024/07/003_2425_001.png" name="attachments"/>
+<title>Τα Λυμένα: Θέμα #003 | aftermaths</title>
+<meta content="Τα Λυμένα: Θέμα #003 | aftermaths" property="og:title"/>
+<meta content="Τα Λυμένα: Θέμα #003 | aftermaths" name="twitter:title"/>
+<link href="../../../../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
+<link href="../../../../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
+<link href="../../../../../search.html" rel="search" title="Αναζήτηση"/>
+<link href="../../../../../genindex.html" rel="index" title="Ευρετήριο"/>
+<script>
+    <!-- Prevent Flash of wrong theme -->
+      const userPreference = localStorage.getItem('darkMode');
+      let mode;
+      if (userPreference === 'dark' || window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        mode = 'dark';
+        document.documentElement.classList.add('dark');
+      } else {
+        mode = 'light';
+      }
+      if (!userPreference) {localStorage.setItem('darkMode', mode)}
+    </script>
+</head>
+<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
+<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+      Skip to content
+    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+<div class="hidden mr-4 md:flex">
+<a class="flex items-center mr-6" href="../../../../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+</a><nav class="flex items-center space-x-6 text-sm font-medium">
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
+<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
+</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
+<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
+</svg>
+<span class="sr-only">Toggle navigation menu</span>
+</button>
+<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../../../../search.html" class="relative flex items-center group" id="searchbox" method="get">
+<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
+<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+<span class="text-xs">⌘</span>
+    K
+  </kbd>
+</form>
+</div>
+<nav class="flex items-center space-x-1">
+<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
+<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
+</svg>
+<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
+</svg>
+</button>
+</nav>
+</div>
+</div>
+</header>
+<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
+<a class="!justify-start text-sm md:!hidden bg-background" href="../../../../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+</a>
+<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+<a href="/about.html">Σχετικά</a>
+<a href="/panellinies.html">Πανελλήνιες</a>
+<a href="/materials.html">Υλικό</a>
+<a href="/tools.html">Εργαλεία</a>
+<a href="/contact.html">Επικοινωνία</a>
+</nav><nav class="table w-full min-w-full my-6 lg:my-8">
+<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/0999.html">0,999… = ???</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/hyperreals-%CE%BB%CE%BF%CE%B3%CE%B9%CE%BA%CE%AC-%CF%80%CF%81%CE%AC%CE%B3%CE%BC%CE%B1%CF%84%CE%B1.html">Hyperreals: Λογικά πράγματα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">Έχει Ολικό Μέγιστο;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B1.html">Αδύνατο vs Απίθανο - Μέρος Α”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B2.html">Αδύνατο vs Απίθανο - Μέρος Β”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B3.html">Αδύνατο vs Απίθανο - Μέρος Γ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">Αδύνατο vs Απίθανο - Μέρος Δ”</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B1%CF%80%CE%B1%CE%B3%CF%89%CE%B3%CE%AE-%CF%83%CE%B5-%CE%AC%CF%84%CE%BF%CF%80%CE%BF-not.html">Απαγωγή σε Άτοπο #not</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Η δευτεροβάθμια εξίσωση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-1.html">Η εικασία Collatz (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-2.html">Η εικασία Collatz (2)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-3.html">Η εικασία Collatz (3)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-4.html">Η εικασία Collatz (4)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-5.html">Η εικασία Collatz (5)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-6.html">Η εικασία Collatz (6)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-7.html">Η εικασία Collatz (7)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B7-%CE%B5%CE%B9%CE%BA%CE%B1%CF%83%CE%AF%CE%B1-collatz-8.html">Η εικασία Collatz (8)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B7-%CE%BF%CE%BC%CE%BF%CF%81%CF%86%CF%8C%CF%84%CE%B5%CF%81%CE%B7-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Η Ομορφότερη Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B7-%CF%83%CF%84%CF%81%CE%B1%CF%84%CE%B7%CE%B3%CE%B9%CE%BA%CE%AE-%CE%B4%CE%B5-%CE%BC%CE%B5%CF%84%CF%81%CE%AC%CE%B5%CE%B9-%CF%80%CE%AC%CE%BD%CF%84%CE%B1.html">Η στρατηγική δε μετράει πάντα…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B7-%CF%83%CF%89%CF%83%CF%84%CE%AE-%CE%B5%CF%81%CF%8E%CF%84%CE%B7%CF%83%CE%B7.html">Η σωστή ερώτηση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%B7-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%B1%CF%84%CE%B9%CE%BA%CF%8C%CF%84%CE%B7%CF%84%CE%B1-%CF%84%CE%BF%CF%85-%CF%80.html">Η υπερβατικότητα του π</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-7-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CF%85%CF%80%CE%AD%CF%81%CE%BF%CF%87%CE%B5%CF%82.html">Και οι 7 Είναι Υπέροχες!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BA%CE%B1%CF%84%CE%B1%CF%83%CE%BA%CE%B5%CF%85%CE%B1%CF%83%CF%84%CE%B9%CE%BA%CE%AD%CF%82-%CE%B1%CE%B4%CF%85%CE%BD%CE%B1%CE%BC%CE%AF%CE%B5%CF%82.html">Κατασκευαστικές… αδυναμίες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CE%BA%CE%BB%CE%AC%CF%83%CE%BC%CE%B1%CF%84%CE%B1-%CF%80%CE%B1%CE%BD%CF%84%CE%BF%CF%8D.html">Κλάσματα! Κλάσματα παντού!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BA%CE%BF%CF%81%CF%8E%CE%BD%CE%B1-%CE%B7-%CE%B3%CF%81%CE%AC%CE%BC%CE%BC%CE%B1%CF%84%CE%B1-%CE%B3%CE%B9%CE%B1-%CE%BD%CE%B1%CF%85%CE%B1%CE%B3%CE%BF%CF%8D%CF%82.html">Κορώνα η γράμματα για… ναυαγούς</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BB%CE%AF%CE%B3%CE%B5%CF%82-%CF%83%CE%BA%CE%AD%CF%88%CE%B5%CE%B9%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF%CE%BD-%CF%87%CF%8E%CF%81%CE%BF.html">Λίγες σκέψεις για τον χώρο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CE%BC%CE%AC%CE%B8%CE%B7%CE%BC%CE%B1.html">Μάθημα Χωρίς… Μάθημα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BC%CE%AF%CE%B1-%CE%B3%CE%BD%CF%89%CF%83%CF%84%CE%AE-%CF%83%CF%87%CE%AD%CF%83%CE%B7.html">Μία γνωστή σχέση…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BC%CE%AF%CE%B1-%CF%80%CE%B1%CE%BD%CE%B4%CF%8D%CF%83%CE%BA%CE%BF%CE%BB%CE%B7-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">Μία Πανδύσκολη Εξίσωση!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BC%CE%AF%CE%B1-%CF%80%CF%81%CF%8C%CF%83%CE%B8%CE%B5%CF%83%CE%B7-%CF%87%CF%89%CF%81%CE%AF%CF%82-%CF%84%CE%AD%CE%BB%CE%BF%CF%82.html">Μία Πρόσθεση χωρίς Τέλος</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BC%CE%B9%CE%B1-%CE%B5%CF%86%CE%B1%CF%81%CE%BC%CE%BF%CE%B3%CE%AE-%CF%84%CE%BF%CF%85-de-lhospital-%CF%83%CF%84%CE%B7%CE%BD-%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%89%CE%B3%CE%B9%CF%83%CE%B9%CE%BC.html">Μια εφαρμογή του de L’Hospital στην παραγωγισιμότητα</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BF-de-lhospital-%CF%83%CF%84%CE%B7-%CF%87%CF%8E%CF%81%CE%B1-%CF%84%CF%89%CE%BD-%CF%84%CF%81%CE%B9%CE%B3%CF%8E%CE%BD%CF%89%CE%BD.html">Ο De L’Hôspital στην Χώρα των Τριγώνων</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BF-rolle-%CE%BA%CE%B1%CE%B9-%CF%84%CE%B1-%CE%BA%CE%BF%CF%85%CE%BD%CE%BF%CF%8D%CF%80%CE%B9%CE%B1.html">Ο Rolle και τα κουνούπια</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BF%CE%B9-50-%CE%B1%CF%80%CE%BF%CF%87%CF%81%CF%8E%CF%83%CE%B5%CE%B9%CF%82-%CF%84%CE%BF%CF%85-e.html">Οι 50 αποχρώσεις του e</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BF%CE%B9-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82-%CF%80%CE%BF%CF%85-%CE%AC%CE%BB%CE%BB%CE%B1%CE%BE%CE%B1%CE%BD-%CF%84%CE%BF%CE%BD-%CE%BA%CF%8C%CF%83%CE%BC%CE%BF.html">Οι Καμπύλες που Άλλαξαν τον Κόσμο</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CE%BF%CE%BB%CE%BF%CE%BA%CE%BB%CE%AE%CF%81%CF%89%CF%83%CE%B7-vs-%CE%B1%CE%BD%CF%84%CE%B9%CF%80%CE%B1%CF%81%CE%B1%CE%B3%CF%8E%CE%B3%CE%B9%CF%83.html">Ολο-clear-ώματα: Ολοκλήρωση vs Αντιπαραγώγιση</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CE%BF%CE%BB%CE%BF-clear-%CF%8E%CE%BC%CE%B1%CF%84%CE%B1-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-frullani.html">Ολο-clear-ώματα: Το θεώρημα Frullani</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%80%CF%8C%CF%83%CE%B5%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%B5%CE%AF%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5%CE%B9%CF%82.html">Πόσες είναι οι συνεχείς συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%80%CF%8C%CF%83%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CF%82-%CE%B5%CE%AF%CF%83%CE%B1%CE%B9.html">Πόσο Άρρητος Είσαι;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%80%CF%8C%CF%83%CE%BF-%CE%B4%CE%B9%CE%B1%CE%B2%CE%AC%CE%B6%CE%B5%CF%84%CE%B5.html">Πόσο Διαβάζετε;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%80%CF%8C%CF%83%CE%BF-%CF%83%CF%85%CE%BD%CE%B5%CF%87%CE%AE%CF%82-%CE%B5%CE%AF%CE%BD%CE%B1%CE%B9-%CE%BC%CE%B9%CE%B1-%CF%80%CE%B1%CF%81%CE%AC%CE%B3%CF%89%CE%B3%CE%BF%CF%82.html">Πόσο Συνεχής είναι μια Παράγωγος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%83%CF%84%CE%B7-%CF%83%CE%BA%CE%B9%CE%AC-%CE%BC%CE%B9%CE%B1%CF%82-%CF%85%CF%80%CE%B5%CF%81%CE%B2%CE%BF%CE%BB%CE%AE%CF%82.html">Στη σκιά μιας υπερβολής…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%83%CF%87%CE%B5%CE%B4%CE%B9%CE%AC%CE%B6%CE%BF%CE%BD%CF%84%CE%B1%CF%82-%CE%BA%CE%B1%CE%BC%CF%80%CF%8D%CE%BB%CE%B5%CF%82.html">Σχεδιάζοντας Καμπύλες</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%84%CE%AF%CF%80%CE%BF%CF%84%CE%B1-%CF%83%CF%84%CE%B7%CE%BD-%CF%84%CF%8D%CF%87%CE%B7-%CE%B1%CF%80%CE%BB%CE%AD%CF%82-%CE%B9%CE%B4%CE%AD%CE%B5%CF%82.html">45436, 44300, 24900: Ποιος Είναι ο Επόμενος;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-2.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-3.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3α)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7-4.html">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (3β)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%84%CE%B9-%CE%BB%CE%AD%CE%B5%CE%B9-%CF%84%CE%BF-%CE%B8%CE%B5%CF%8E%CF%81%CE%B7%CE%BC%CE%B1-%CF%84%CE%BF%CF%85-bolzano.html">Τι λέει το Θεώρημα του Bolzano;</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%84%CE%BF-%CE%B7%CE%BC%CE%AF%CF%84%CE%BF%CE%BD%CE%BF-%CE%BF%CE%B9-%CE%AC%CF%81%CF%81%CE%B7%CF%84%CE%BF%CE%B9-%CE%BA%CE%B1%CE%B9-%CE%BF%CE%B9-%CF%80%CE%B9%CE%BF-%CE%AC%CF%81%CF%81%CE%B7%CF%84.html">Το ημίτονο, οι άρρητοι και οι πιο… άρρητοι</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../After-maths/%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
+<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
+</svg>
+</button>
+</aside>
+<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+<div class="w-full min-w-0 mx-auto">
+<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../../../../index.html">
+<span class="hidden md:inline">aftermaths</span>
+<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
+</svg>
+</a>
+<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Τα Λυμένα: Θέμα #003</span>
+</nav>
+<div id="content" role="main">
+<section id="id1">
+<h1>Τα Λυμένα: Θέμα #003<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+<figure class="align-center" id="id7">
+<img alt="Ο πίνακας *Η Sussana και οι Πρεσβύτεροι* του `Guercino  &lt;https://en.wikipedia.org/wiki/Guercino&gt;`__." src="_static/images/uploads/2024/07/003_2425_002.png,_static/images/uploads/2024/07/003_2425_002-1.png,_static/images/uploads/2024/07/1219px-susana_y_los_viejos_guercino.jpg,_static/images/uploads/2024/07/003_2425_001.png"/>
+<figcaption>
+<p><span class="caption-text">Ο πίνακας <em>Η Sussana και οι Πρεσβύτεροι</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Guercino">Guercino</a>.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id7"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Ένα ακόμα θέμα από τα «Λυμένα», πάλι στις συναρτήσεις, αρκετά φιλικότερο προς τα διαγωνίσματα και τις εξετάσεις αυτή τη φορά - ειδικά σε σχέση με το <a class="reference external" href="https://aftermaths.gr/2024/07/19/%cf%84%ce%b1-%ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%ce%b8%ce%ad%ce%bc%ce%b1-002/">προηγούμενο θέμα</a>.</p>
+<p>Όπως πάντα, όλα τα λυμένα θέματα μπορείτε να τα βρείτε <a class="reference external" href="https://aftermaths.gr/category/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/%cf%84%ce%b1-%ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1/">εδώ</a>.</p>
+<section id="id2">
+<h2>Εκφώνηση<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<p>Δίνεται ένα ημικύκλιο κέντρου  <span class="math notranslate nohighlight">\(O\)</span>  και ακτίνας  <span class="math notranslate nohighlight">\(\rho=2\)</span>  και μία χορδή του,  <span class="math notranslate nohighlight">\(AB\)</span> , παράλληλη στη διάμετρό του. Έστω, επίσης,  <span class="math notranslate nohighlight">\(\Gamma\)</span>  και  <span class="math notranslate nohighlight">\(\Delta\)</span>  οι προβολές των  <span class="math notranslate nohighlight">\(A,B\)</span>  στη διάμετρο του ημικυκλίου, αντίστοιχα και  <span class="math notranslate nohighlight">\(x\in(0,2)\)</span>  το μήκος της  <span class="math notranslate nohighlight">\(A\Gamma\)</span> , όπως φαίνεται στο παρακάτω σχήμα:</p>
+<figure class="wp-image-13722 align-default" id="id8">
+<img alt="Ένα ημικύκλιο, μία χορδή και ένα ορθογώνιο." src="docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Συναρτήσεις/{static}_static/images/uploads/2024/07/003_2425_001.png?w=896"/>
+<figcaption>
+<p><span class="caption-text">Ένα ημικύκλιο, μία χορδή και ένα ορθογώνιο.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id8"><span>#</span></a></p>
+</figcaption>
+</figure>
+<ol class="arabic simple">
+<li><p>Να εκφράσετε το εμβαδόν,  <span class="math notranslate nohighlight">\(E\)</span> , του ορθογωνίου  <span class="math notranslate nohighlight">\(AB\Delta\Gamma\)</span>  ως συνάρτηση του  <span class="math notranslate nohighlight">\(x\)</span> .</p></li>
+<li><p>Αν  <span class="math notranslate nohighlight">\(E(x)=2x\sqrt{4-x^2}\)</span> ,  <span class="math notranslate nohighlight">\(x\in(0,2)\)</span> :</p>
+<ol class="arabic simple">
+<li><p>Να αποδείξετε ότι  <span class="math notranslate nohighlight">\(E(x)\leq4\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in(0,2)\)</span> .</p></li>
+<li><p>Να υπολογίσετε τη μέγιστη τιμή της  <span class="math notranslate nohighlight">\(E\)</span> .</p></li>
+<li><p>Να λύσετε την εξίσωση:
+.. math::  4+(x-1)E(x)=frac{4-E(x)}{x}+4x,quad xin(0,2).</p></li>
+</ol>
+</li>
+</ol>
+<p><strong>Εμπνευσμένη από:</strong> Σ.Β., σελ. 29, 3, 4/Α” Ομάδας.</p>
+</section>
+<section id="id3">
+<h2>Λύση<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<p>Ας τα δούμε ένα-ένα:</p>
+<section id="a">
+<h3>Ερώτημα a.<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#a" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#a'"><span>#</span></a></h3>
+<p>Λοιπόν, για το εμβαδό του ορθογωνίου μπορούμε απλά να το υπολογίσουμε κατά τα γνωστά (βάση επί ύψος):</p>
+<div class="math notranslate nohighlight">
+\[E(x)=(A\Gamma)(\Gamma\Delta).\]</div>
+<p>Τώρα,  <span class="math notranslate nohighlight">\((A\Gamma)=x\)</span> , αλλά τι γίνεται με το  <span class="math notranslate nohighlight">\((\Gamma\Delta)\)</span> ; Αν το πάρουμε λίγο ψύχραιμα, θα δούμε ότι μπορούμε να υπολογίσουμε το μήκος  <span class="math notranslate nohighlight">\((O\Delta)\)</span>  με τη βοήθεια του μακαρίτη του Πυθαγόρα, καθώς το τρίγωνο  <span class="math notranslate nohighlight">\(OB\Delta\)</span>  είναι ορθογώνιο. Επομένως:</p>
+<div class="math notranslate nohighlight">
+\[(OB)^2=(O\Delta)^2+(B\Delta)^2\Leftrightarrow 2^2=(O\Delta)^2+x^2\Leftrightarrow (O\Delta)=\sqrt{4-x^2}.\]</div>
+<p>Συνεπώς, για το εμβαδό έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[E(x)=(A\Gamma)(\Gamma\Delta)=2x\sqrt{4-x^2},\quad x\in(0,2).\]</div>
+</section>
+<section id="b">
+<h3>Ερώτημα b.<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#b" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#b'"><span>#</span></a></h3>
+<p>Λοιπόν, ας τα πάρουμε ένα-ένα, για  <span class="math notranslate nohighlight">\(E(x)=2x\sqrt{4-x^2}\)</span> .</p>
+</section>
+<section id="b-i">
+<h3>Ερώτημα b.i.<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#b-i" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#b-i'"><span>#</span></a></h3>
+<p>Θα ξεκινήσουμε από το ζητούμενο και θα προσπαθήσουμε με ισοδυναμίες να καταλήξουμε σε κάτι που ισχύει (ή όπου μας βγάλει):</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned} &amp;\hphantom{{}\Leftrightarrow{}}E(x)\leq 4\\ &amp;\Leftrightarrow 2x\sqrt{4-x^2}\leq 4\\ &amp;\Leftrightarrow x\sqrt{4-x^2}\leq 2\\ &amp;\Leftrightarrow \left(x\sqrt{4-x^2}\right)^2\leq 2^2\\ &amp;\Leftrightarrow x^2(4-x^2)\leq 4\\ &amp;\Leftrightarrow 4x^2-x^4\leq 4\\ &amp;\Leftrightarrow -x^4+4x^2-4\leq 0\\ &amp;\Leftrightarrow -\left(x^4-4x^2+4\right)\leq 0\\ &amp;\Leftrightarrow -\left((x^2)^2-2\cdot 2\cdot x^2+2^2\right)\leq 0\\ &amp;\Leftrightarrow -\left(x^2-2\right)^2\leq0, \end{aligned}\end{split}\]</div>
+<p>που ισχύει. Συνεπώς ισχύει και το ζητούμενο.</p>
+<p>Αν σας άγχωσε λίγο το σημείο που υψώσαμε στο τετράγωνο, όλα καλά, καθώς και τα δύο μέλη είναι θετικά, αφού  <span class="math notranslate nohighlight">\(x\in(0,2)\)</span> , οπότε υψώνουμε χωρίς τύψεις (αφού για θετικούς αριθμούς, η  <span class="math notranslate nohighlight">\(y=x^2\)</span>  είναι γνησίως αύξουσα).</p>
+</section>
+<section id="b-ii">
+<h3>Ερώτημα b.ii.<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#b-ii" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#b-ii'"><span>#</span></a></h3>
+<p>Λοιπόν, αμέσως πριν δείξαμε ότι  <span class="math notranslate nohighlight">\(E(x)\leq 4\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in(0,2)\)</span> , επομένως, τι άλλο έχουμε να δείξουμε; Σαφώς, έχουμε αυτό που λέμε ένα «άνω φράγμα» για την  <span class="math notranslate nohighlight">\(E(x)\)</span> , ωστόσο δεν έχουμε δείξει καμία ανισότητα της μορφής:</p>
+<div class="math notranslate nohighlight">
+\[E(x)\leq E(x_0).\]</div>
+<p>Επομένως, θα μπορούσε κάλλιστα να ισχύει, ας πούμε, ότι  <span class="math notranslate nohighlight">\(E(x)\leq 1,76\)</span> , οπότε η μέγιστη τιμή θα ήταν σίγουρα μικρότερη του  <span class="math notranslate nohighlight">\(4\)</span> , καθώς το  <span class="math notranslate nohighlight">\(=\)</span>  στην  <span class="math notranslate nohighlight">\(E(x)\leq 4\)</span>  δε θα ίσχυε ποτέ. Συνεπώς, πρέπει να ψάξουμε κάποιο  <span class="math notranslate nohighlight">\(x_0\)</span>  που να είναι η μέγιστη τιμή της  <span class="math notranslate nohighlight">\(E(x)\)</span> , αλλά από πού να ξεκινήσουμε;</p>
+<p>Όπως ίσως θα φαντάζεστε, η πρώτη μας σκέψη θα ήταν να ψάξουμε, όντως, για κάποιο  <span class="math notranslate nohighlight">\(x_0\in(0,2)\)</span>  για το οποίο  <span class="math notranslate nohighlight">\(E(x_0)=4\)</span>  και λίγη παρατηρητικότητα ίσως και να βοηθήσει σε αυτήν την αναζήτηση. Αν ρίξουμε μία ματιά στις πράξεις μας παραπάνω θα δούμε ότι ουσιαστικά αποδείξαμε ότι:</p>
+<div class="math notranslate nohighlight">
+\[E(x)\leq 4\Leftrightarrow-(x^2-2)^2\leq0.\]</div>
+<p>Αυτό τώρα, ισχύει και με  <span class="math notranslate nohighlight">\(=\)</span>  στη θέση του  <span class="math notranslate nohighlight">\(\leq\)</span>  καθώς δεν κάναμε κάτι που δεν ισχύει στην περίπτωση ισότητας, επομένως μπορούμε αναλόγως να αποδείξουμε και ότι:</p>
+<div class="math notranslate nohighlight">
+\[E(x)=4\Leftrightarrow -\left(x^2-2\right)^2=0.\]</div>
+<p>Λίγο παραπέρα, το παραπάνω μας δίνει:</p>
+<div class="math notranslate nohighlight">
+\[-\left(x^2-2\right)^2=0\Leftrightarrow x^2-2=0\Leftrightarrow x=\pm\sqrt{2}.\]</div>
+<p>Στην περίπτωσή μας κρατάμε μόνο το  <span class="math notranslate nohighlight">\(x=\sqrt{2}\)</span> , επομένως θα πρέπει να ισχύει  <span class="math notranslate nohighlight">\(E\left(\sqrt{2}\right)=4\)</span> . Με αυτοπεποίθηση, αφήνουμε το πρόχειρό μας και πάμε στο «καλό» και γράφουμε: «Παρατηρούμε ότι:» συνεχίζοντας ως εξής:</p>
+<div class="math notranslate nohighlight">
+\[E\left(\sqrt{2}\right)=2\sqrt{2}\sqrt{4-\sqrt{2}^2}=2\sqrt{2}\sqrt{4-2}=2\sqrt{2}\sqrt{2}=2\sqrt{2}^2=4.\]</div>
+<p>Συνεπώς,  <span class="math notranslate nohighlight">\(E(x)\leq E\left(\sqrt{2}\right)\)</span> , άρα η μέγιστη τιμή της  <span class="math notranslate nohighlight">\(E\)</span>  είναι η  <span class="math notranslate nohighlight">\(E\left(\sqrt{2}\right)=4\)</span> .</p>
+</section>
+<section id="b-iii">
+<h3>Ερώτημα b.iii.<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#b-iii" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#b-iii'"><span>#</span></a></h3>
+<p>Λοιπόν, η εξίσωσή μας είναι λίγο περίπλοκη, αλλά, τι να κάνουμε, θα δοκιμάσουμε αυτό που έχουμε δει καλύτερα από όλα: να φέρουμε τα πάντα στο ένα μέλος. Λοιπόν, έχουμε, αφού πρώτα κάνουμε τον κόπο να απαλείψουμε παρονομαστές:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned} &amp;\hphantom{{}\Leftrightarrow{}}4+(x-1)E(x)=\frac{4-E(x)}{x}+4x\\ &amp;\Leftrightarrow 4x+x(x-1)E(x)=4-E(x)+4x^2\\ &amp;\Leftrightarrow 4x+x(x-1)E(x)-4+E(x)-4x^2=0. \end{aligned}\end{split}\]</div>
+<p>Ωραία, και τώρα τι καταλάβαμε; Λοιπόν, η  <span class="math notranslate nohighlight">\(E(x)\)</span>  έχει τύπο, μπορούμε κάλλιστα να τον αντικαταστήσουμε και να κάνουμε πράξεις, ελπίζοντας να βγει κάτι. Αλλά, γενικά, όταν μιλάμε για πράξεις, συνήθως μιλάμε και για κόπο, οπότε ας το αφήσουμε για πιο μετά, όταν όλα τα άλλα θα έχουν αποτύχει. Μπορούμε να σκεφτούμε, στο μεταξύ, κάτι άλλο;</p>
+<p>[Σκέψη]</p>
+<p>Λοιπόν, μπορούμε να δοκιμάσουμε το άλλο μεγάλο μας όπλο όταν πρόκειται για λύση εξισώσεων: να παραγοντοποιήσουμε. Ας ξεκινήσουμε, αρχικά, με τα  <span class="math notranslate nohighlight">\(E(x)\)</span>  και ας δούμε πώς θα πάει:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned} &amp;\hphantom{{}\Leftrightarrow{}} 4x+x(x-1)E(x)-4+E(x)-4x^2=0\\ &amp;\Leftrightarrow E(x)\left(x(x-1)+1\right)-4x^2+4x-4=0\\ &amp;\Leftrightarrow E(x)\left(x^2-x+1\right)-4x^2+4x-4=0\\ &amp;\Leftrightarrow E(x)\left(x^2-x+1\right)-4\left(x^2-x+1\right)=0\\ &amp;\Leftrightarrow \left(E(x)-4\right)\left(x^2-x+1\right)=0\\ &amp;\Leftrightarrow \begin{cases}E(x)-4=0\x^2-x+1=0\end{cases} \end{aligned}\end{split}\]</div>
+<p>Εδώ μπορούμε αρχικά να παρατηρήσουμε ότι για το τριώνυμο  <span class="math notranslate nohighlight">\(x^2-x+1\)</span>  έχουμε  <span class="math notranslate nohighlight">\(\Delta=-3&lt;0\)</span> , συνεπώς δεν έχουμε (πραγματικές) ρίζες. Τώρα, για την εξίσωση:</p>
+<div class="math notranslate nohighlight">
+\[E(x)-4=0\Leftrightarrow E(x)=4,\]</div>
+<p>γνωρίζουμε ήδη ότι το  <span class="math notranslate nohighlight">\(x=\sqrt{2}\)</span>  αποτελεί λύση της εξίσωσης. Είναι όμως μοναδική; Για να το δούμε αυτό αρκεί να γυρίσουμε πίσω να ρίξουμε μία ματιά στη ζουμερή ισοδυναμία που γράψαμε παραπάνω:</p>
+<div class="math notranslate nohighlight">
+\[E(x)=4\Leftrightarrow-\left(x^2-2\right)^2=0\Leftrightarrow\cdots\Leftrightarrow x=\sqrt{2}.\]</div>
+<p>Συνεπώς, η μοναδική λύση της εξίσωσης είναι η  <span class="math notranslate nohighlight">\(x=\sqrt{2}\)</span> .</p>
+</section>
+</section>
+<section id="id4">
+<h2>Προβληματισμός<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h2>
+<p>Έχουμε βρει, ως τώρα, τη μέγιστη τιμή της  <span class="math notranslate nohighlight">\(E(x)\)</span> , οπότε ένας εύλογος προβληματισμός θα ήταν αν μπορούμε να πούμε και κάτι για τη μονοτονία της. Μάλιστα, ήταν μία σκέψη αυτό να αποτελεί και το τελευταίο ερώτημα του θέματος, ωστόσο «αυτολογοκρίθηκε» και αποφάσισε να μπει σαν παράθεμα. Μπορείτε, λοιπόν, να μελετήσετε την  <span class="math notranslate nohighlight">\(E(x)\)</span>  ως προς τη μονοτονία;</p>
+</section>
+<section id="id5">
+<span id="id6"></span><h2>Λύση<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id5'"><span>#</span></a></h2>
+<p>Αν δεν μπορείτε, εδώ είμαστε κι εμείς! Λοιπόν, βασικό εργαλείο μας στη μελέτη ως προς τη μονοτονία είναι, όπως ξέρετε πολύ καλά, ο ορισμός. Εδώ, πριν αρχίσουμε το ταξίδι μας, ας σκεφτούμε πώς μπορεί να μοιάζει η γραφική παράσταση της  <span class="math notranslate nohighlight">\(E(x)\)</span> . Δεδομένου ότι έχουμε ένα ολικό μέγιστο ενώ για  <span class="math notranslate nohighlight">\(x\approx 0\)</span>  ή  <span class="math notranslate nohighlight">\(x\approx 2\)</span>  θα πρέπει να είναι  <span class="math notranslate nohighlight">\(E(x)\approx0\)</span> , καθώς το εν λόγω ορθογώνιο γίνεται πολύ στενό (ή κοντό) σε κάθε περίπτωση, θα πρέπει αυτή να μοιάζει κάπως με αυτό που βλέπουμε στο παρακάτω σχήμα:</p>
+<figure class="wp-image-13748 align-default" id="id9">
+<img alt="Κάτι σαν τη γραφική παράσταση της  :math:`E` ." src="docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Συναρτήσεις/{static}_static/images/uploads/2024/07/003_2425_002-1.png?w=916"/>
+<figcaption>
+<p><span class="caption-text">Κάτι σαν τη γραφική παράσταση της  <span class="math notranslate nohighlight">\(E\)</span> .</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9"><span>#</span></a></p>
+</figcaption>
+</figure>
+<p>Τώρα, όπως βλέπετε, αναμένουμε στο σημείο  <span class="math notranslate nohighlight">\((\sqrt{2},4)\)</span>  η  <span class="math notranslate nohighlight">\(E(x)\)</span>  να αλλάζει το είδος της μονοτονίας της, γενικά, καθώς εκεί παρουσιάζει ένα ολικό μέγιστο, άρα, από τα αριστερά θα «ανεβαίνει», ενώ από τα δεξιά του θα «κατεβαίνει»footnote{Αυτό, όπως θα δούμε στο μέλλον, δεν είναι απόλυτα σωστό, αλλά προς το παρόν ας κρατήσουμε τη διαίσθηση.}. Προφανώς, αυτό δε σημαίνει απαραίτητα ότι η  <span class="math notranslate nohighlight">\(E\)</span>  θα είναι γνησίως αύξουσα στο  <span class="math notranslate nohighlight">\(\left(0,\sqrt{2}\right]\)</span>  και γνησίως φθίνουσα στο  <span class="math notranslate nohighlight">\(\left[\sqrt{2},2\right)\)</span> , καθώς, όπως φαίνεται και στο παραπάνω σχήμα, μπορεί κάλλιστα να ανεβοκατεβαίνει σε καθένα από αυτά τα διαστήματα. Τι θα κάνουμε, λοιπόν;</p>
+<p>Λοιπόν, ας πάρουμε  <span class="math notranslate nohighlight">\(x_1,x_2\in\left(0,\sqrt{2}\right]\)</span>  και ας δούμε αν μπορούμε να κάνουμε κάτι εκεί μέσα. Αρχικά, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned} x_14-x_2^2\Rightarrow\sqrt{4-x_1^2}&gt;\sqrt{4-x_2^2} \end{aligned}\]</div>
+<p>Τις παραπάνω δύο σχέσεις δεν μπορούμε, σαφώς, να τις πολλαπλασιάσουμε κατά μέλη, καθώς δεν «κοιτάνε» από την ίδια μεριά. Μπορούμε, όμως, να κάνουμε το εξής τέχνασμα:</p>
+<div class="math notranslate nohighlight">
+\[E(x)=2x\sqrt{4-x^2}=2\sqrt{x^2}\sqrt{4-x^2}=2\sqrt{x^2(4-x^2)}=2\sqrt{4x^2-x^4}.\]</div>
+<p>Μπορούμε, επομένως, να προσπαθήσουμε να «χτίσουμε» αυτή τη μορφή του τύπου της  <span class="math notranslate nohighlight">\(E\)</span> :</p>
+<div class="math notranslate nohighlight">
+\[\begin{aligned} x_1&lt;x-2&amp;\Rightarrow x-1^2&lt;x_2^2\Rightarrow 4x_1^2&lt;4x_2^2\x_1&lt;x_2&amp;\Rightarrow x_1^4&lt;x_2^4\Rightarrow -x_1^4&gt;-x_2^4\end{aligned}\]</div>
+<p>Ουφ, πάλι αδιέξοδο… Αυτές οι δύο ανισότητες, τώρα, δεν μπορούν να προστεθούν κατά μέλη, προφανώς, οπότε πάλι καταλήξαμε στο ίδιο σημείο.</p>
+<p>[Σκέψη]</p>
+<p>Εμείς θέλουμε να καταλήξουμε σε κάποια ανισότητα της μορφής  <span class="math notranslate nohighlight">\(E(x_1)&lt;E(x_2)\)</span>  ή  <span class="math notranslate nohighlight">\(E(x_1)&gt;E(x_2)\)</span>  στην περίπτωσή μας. Επομένως, μπορούμε, ίσως, να ξεκινήσουμε να πειραματιζόμαστε με μία από αυτές και να προχωρήσουμε με ισοδυναμίες προς κάτι που ισχύει:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned} &amp;\hphantom{{}\Leftrightarrow{}}E(x_1)&lt;E(x_2)\\ &amp;\Leftrightarrow 2\sqrt{4x_1^2-x_1^4}&lt;2\sqrt{4x_2^2-x_2^4}\\ &amp;\Leftrightarrow \sqrt{4x_1^2-x_1^4}&lt;\sqrt{4x_2^2-x_2^4}\\ &amp;\Leftrightarrow 4x_1^2-x_1^4&lt;4x_2^2-x_2^4 \end{aligned}\end{split}\]</div>
+<p>Ωραία, και τώρα τι μπορούμε να κάνουμε; Χμμμ… Μπορούμε, όπως πάντα, να τα φέρουμε όλα αριστερά και να δούμε τι θα βγει:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned} &amp;\hphantom{{}\Leftrightarrow{}} 4x_1^2-x_1^4&lt;4x_2^2-x_2^4\\ &amp;\Leftrightarrow 4x_1^2-4x_2^2-x_1^4+x_2^4&lt;0\\ &amp;\Leftrightarrow 4\left(x_1^2-x_2^2\right)-\left(x_1^4-x_2^4\right)&lt;0\\ &amp;\Leftrightarrow 4\left(x_1^2-x_2^2\right)-\left(x_1^2-x_2^2\right)\left(x_1^2+x_2^2\right)&lt;0\\ &amp;\Leftrightarrow \left(x_1^2-x_2^2\right)\left(4-\left(x_1^2+x_2^2\right)\right)&lt;0\\ &amp;\Leftrightarrow (x_1-x_2)(x_1+x_2)\left(4-x_1^2-x_2^2\right)&lt;0. \end{aligned}\end{split}\]</div>
+<p>Τώρα, τι μπορούμε να πούμε για το παραπάνω; Λοιπόν, αρχικά έχουμε υποθέσει ότι:</p>
+<div class="math notranslate nohighlight">
+\[x_1&lt;x_2\Leftrightarrow x_1-x_2&lt;0,\]</div>
+<p>ενώ, επειδή  <span class="math notranslate nohighlight">\(x_1,x_2&gt;0\)</span>  έχουμε  <span class="math notranslate nohighlight">\(x_1+x_2&gt;0\)</span> . Έτσι, μπορούμε να απαλείψουμε τους δύο αυτούς παράγοντες και να πάρουμε το εξής:</p>
+<div class="math notranslate nohighlight">
+\[4-x_1^2-x_2^2&gt;0.\]</div>
+<p>Η ανισότητα αλλάζει φορά καθώς απαλείψαμε έναν αρνητικό και έναν θετικό παράγοντα, άρα, για να είναι το γινόμενο και των τριών αρνητικό θα πρέπει ο τρίτος παράγοντας που μας έμεινε να είναι θετικός. Τώρα, τι μπορούμε να πούμε για αυτό που μας έμεινε; Αρχικά, ας θυμηθούμε ότι έχουμε περιοριστεί, προς το παρόν, στο  <span class="math notranslate nohighlight">\(\left(0,\sqrt{2}\right]\)</span>  καθώς εκεί μπορούμε να ελπίζουμε ότι η  <span class="math notranslate nohighlight">\(E\)</span>  θα είναι γνησίως μονότονη. Έτσι, έχουμε  <span class="math notranslate nohighlight">\(x_1\leq\sqrt{2}\)</span>  και  <span class="math notranslate nohighlight">\(x_2\leq \sqrt{2}\)</span> , οπότε, υψώνοντας στο τετράγωνο μπορούμε να πάρουμε:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned} x_1&lt;\sqrt{2}&amp;\Rightarrow x_1^2&lt;2\\ x_2&lt;\sqrt{2}&amp;\Rightarrow x_2^2&lt;2 \end{aligned}\end{split}\]</div>
+<p>Τώρα, προσθέτοντας κατά μέλη, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[x_1^2+x_2^2&lt;4\Rightarrow 4-x_1^2-x_2^2&gt;0.\]</div>
+<p>Συνεπώς, για  <span class="math notranslate nohighlight">\(x_1,x_2\in\left(0,\sqrt{2}\right]\)</span>  ισχύει το εξής:</p>
+<div class="math notranslate nohighlight">
+\[x_1&lt;x_2\Rightarrow E(x_1)&lt;E(x_2),\]</div>
+<p>συνεπώς η  <span class="math notranslate nohighlight">\(E\)</span>  είναι γνησίως αύξουσα στο  <span class="math notranslate nohighlight">\(\left(0,\sqrt{2}\right]\)</span> .</p>
+<p>Ωραία τα καταφέραμε ως εδώ! Για το  <span class="math notranslate nohighlight">\(\left[\sqrt{2},2\right)\)</span>  τώρα μπορούμε να εργαστούμε ανάλογα, ανακυκλώνοντας το παραπάνω επιχείρημα. Έχουμε δείξει ως τώρα την παρακάτω ισοδυναμία:</p>
+<div class="math notranslate nohighlight">
+\[E(x_1)&lt;E(x_2)\Leftrightarrow 4-x_1^2-x_2^2&gt;0.\]</div>
+<p>Ομοίως, μπορούμε να αποδείξουμε και το εξής:</p>
+<div class="math notranslate nohighlight">
+\[E(x_1)&gt;E(x_2)\Leftrightarrow 4-x_1^2-x_2^2&lt;0.\]</div>
+<p>Τα παραπάνω ισχύουν υπό την προϋπόθεση ότι  <span class="math notranslate nohighlight">\(x_1,x_2\in(0,2)\)</span>  το οποίο ικανοποιείται στην περίπτωσή μας. Για  <span class="math notranslate nohighlight">\(x_1,x_2\in\left[\sqrt{2},2\right)\)</span>  έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}\begin{aligned} x_1&gt;\sqrt{2}&amp;\Rightarrow x_1^2&gt;2\\ x_2&gt;\sqrt{2}&amp;\Rightarrow x_2^2&gt;2 \end{aligned}\end{split}\]</div>
+<p>Συνεπώς, προσθέτοντας κατά μέλη παίρνουμε:</p>
+<div class="math notranslate nohighlight">
+\[x_1^2+x_2^2&gt;4\Rightarrow 4-x_1^2-x_2^2&lt;0,\]</div>
+<p>οπότε, από την παραπάνω ισοδυναμία, έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[4-x_1^2-x_2^2&lt;0\Leftrightarrow E(x_1)&gt;E(x_2),\]</div>
+<p>άρα η  <span class="math notranslate nohighlight">\(E\)</span>  είναι γνησίως φθίνουσα στο  <span class="math notranslate nohighlight">\(\left[\sqrt{2},2\right)\)</span> .</p>
+<p>Μέχρι το επόμενο, καλό μεσημέρι και καλό διάβασμα!</p>
+<p>Το θέμα μπορείτε να το βρείτε και <a class="reference external" href="https://drive.google.com/file/d/1IpuV1UnNUi8n6ltks2HJAQW0bji9BhoF/view?usp=sharing">εδώ</a> καθώς και στη σελίδα του <a class="reference external" href="/διδακτικό-υλικό">διδακτικού υλικού</a>.</p>
+<blockquote>
+<div></div></blockquote>
+</section>
+</section>
+</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
+<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+<ul>
+<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Εκφώνηση</a></li>
+<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Λύση</a><ul>
+<li><a :data-current="activeSection === '#a'" class="reference internal" href="#a">Ερώτημα a.</a></li>
+<li><a :data-current="activeSection === '#b'" class="reference internal" href="#b">Ερώτημα b.</a></li>
+<li><a :data-current="activeSection === '#b-i'" class="reference internal" href="#b-i">Ερώτημα b.i.</a></li>
+<li><a :data-current="activeSection === '#b-ii'" class="reference internal" href="#b-ii">Ερώτημα b.ii.</a></li>
+<li><a :data-current="activeSection === '#b-iii'" class="reference internal" href="#b-iii">Ερώτημα b.iii.</a></li>
+</ul>
+</li>
+<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Προβληματισμός</a></li>
+<li><a :data-current="activeSection === '#id5'" class="reference internal" href="#id5">Λύση</a></li>
+</ul>
+</div>
+</aside>
+</main>
+</div>
+</div><footer class="py-6 border-t border-border md:py-0">
+<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+</div>
+</div>
+</footer>
+</div>
+<script src="../../../../../_static/documentation_options.js?v=1fea401f"></script>
+<script src="../../../../../_static/doctools.js?v=9bcbadda"></script>
+<script src="../../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+<script defer="defer" src="../../../../../_static/theme.js?v=073f68d9"></script>
+<script src="../../../../../_static/translations.js?v=e109e2be"></script>
+<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>
