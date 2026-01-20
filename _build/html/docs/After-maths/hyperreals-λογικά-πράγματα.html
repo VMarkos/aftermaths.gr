@@ -1,29 +1,36 @@
 <!DOCTYPE html>
-
-<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<html lang="el"
+      data-content_root="../../"
+      x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }"
+      x-init="$watch('darkMode', val => localStorage.setItem('darkMode', val))"
+      class="scroll-smooth"
+      :class="{'dark': darkMode === 'dark' || (darkMode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)}"
+>
 <head>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta charset="utf-8"/>
-<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
-<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="2021-02-14 10:39" name="date"/>
-<meta content="aftermathsgr" name="author"/>
-<meta content="After-maths, Μαθηματικά" name="category"/>
-<meta content="featured, hyperreals, μαθηματικά" name="tags"/>
-<meta content="hyperreals-%ce%bb%ce%bf%ce%b3%ce%b9%ce%ba%ce%ac-%cf%80%cf%81%ce%ac%ce%b3%ce%bc%ce%b1%cf%84%ce%b1" name="slug"/>
-<meta content="published" name="status"/>
-<meta content="_static/images/uploads/2021/02/le_havre_the_port_eugene_louis_boudin_1884.jpg" name="attachments"/>
-<title>Hyperreals: Λογικά πράγματα… | aftermaths</title>
-<meta content="Hyperreals: Λογικά πράγματα… | aftermaths" property="og:title"/>
-<meta content="Hyperreals: Λογικά πράγματα… | aftermaths" name="twitter:title"/>
-<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
-<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
-<link href="../../search.html" rel="search" title="Αναζήτηση"/>
-<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
-<link href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html" rel="next" title="Έχει Ολικό Μέγιστο;"/>
-<link href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html" rel="prev" title="Hyperreals: Απειροστά και άπειροι αριθμοί"/>
-<script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="white" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta content="2021-02-14 10:39" name="date" />
+<meta content="aftermathsgr" name="author" />
+<meta content="After-maths, Μαθηματικά" name="category" />
+<meta content="featured, hyperreals, μαθηματικά" name="tags" />
+<meta content="hyperreals-%ce%bb%ce%bf%ce%b3%ce%b9%ce%ba%ce%ac-%cf%80%cf%81%ce%ac%ce%b3%ce%bc%ce%b1%cf%84%ce%b1" name="slug" />
+<meta content="published" name="status" />
+<meta content="_static/images/uploads/2021/02/le_havre_the_port_eugene_louis_boudin_1884.jpg" name="attachments" />
+
+    <title>Hyperreals: Λογικά πράγματα… | aftermaths</title>
+    <meta property="og:title" content="Hyperreals: Λογικά πράγματα… | aftermaths" />
+    <meta name="twitter:title" content="Hyperreals: Λογικά πράγματα… | aftermaths" />
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=e72c8e07" />
+      <link rel="stylesheet" type="text/css" href="../../_static/theme.css?v=42baaae4" />
+        <link rel="search" title="Αναζήτηση" href="../../search.html" />
+        <link rel="index" title="Ευρετήριο" href="../../genindex.html" />
+          <link rel="next" title="Έχει Ολικό Μέγιστο;" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html" />
+          <link rel="prev" title="Hyperreals: Απειροστά και άπειροι αριθμοί" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html" />
+
+    <script>
     <!-- Prevent Flash of wrong theme -->
       const userPreference = localStorage.getItem('darkMode');
       let mode;
@@ -36,58 +43,83 @@
       if (!userPreference) {localStorage.setItem('darkMode', mode)}
     </script>
 </head>
-<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
-<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+  <body x-data="{ showSidebar: false, showScrollTop: false }" class="min-h-screen font-sans antialiased bg-background text-foreground" :class="{ 'overflow-hidden': showSidebar }">
+    <div x-cloak x-show="showSidebar" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" @click.self="showSidebar = false"></div><div id="page" class="relative flex flex-col min-h-screen"><a href="#content" class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100">
       Skip to content
-    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
-<div class="hidden mr-4 md:flex">
-<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
-</a><nav class="flex items-center space-x-6 text-sm font-medium">
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
-</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
-<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
-</svg>
-<span class="sr-only">Toggle navigation menu</span>
-</button>
-<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
-<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
-<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
-<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
-<span class="text-xs">⌘</span>
+    </a><header
+  class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+    <div class="hidden mr-4 md:flex">
+      <a href="../../contents.html" class="flex items-center mr-6"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+      </a><nav class="flex items-center space-x-6 text-sm font-medium">
+        <a href="/about.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Σχετικά</a>
+        <a href="/panellinies.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Πανελλήνιες</a>
+        <a href="../%CE%B4%CE%B9%CE%B4%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CF%8C-%CF%85%CE%BB%CE%B9%CE%BA%CF%8C.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Υλικό</a>
+        <a href="/contact.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Επικοινωνία</a>
+      </nav></div><button
+      class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden"
+      type="button" @click="showSidebar = true">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" aria-hidden="true"
+        fill="currentColor">
+        <path
+          d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z" />
+      </svg>
+      <span class="sr-only">Toggle navigation menu</span>
+    </button>
+    <div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+      <div class="flex-1 w-full md:w-auto md:flex-none"><form id="searchbox"
+      action="../../search.html"
+      method="get"
+      class="relative flex items-center group"
+      @keydown.k.window.meta="$refs.search.focus()">
+  <input x-ref="search"
+          name="q"
+          id="search-input"
+          type="search"
+          aria-label="Search the docs"
+          placeholder="Search ..."
+          class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" />
+  <kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+    <span class="text-xs">⌘</span>
     K
   </kbd>
 </form>
-</div>
-<nav class="flex items-center space-x-1">
-<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
-<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
-</svg>
-<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
-</svg>
-</button>
-</nav>
-</div>
-</div>
+      </div>
+      <nav class="flex items-center space-x-1">
+        <button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'"
+          class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9"
+          type="button"
+          aria-label="Color theme switcher">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" fill="currentColor"
+            class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0">
+            <path
+              d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" fill="currentColor"
+            class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100">
+            <path
+              d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z" />
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </div>
 </header>
-<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
-<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
-</a>
-<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
-<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
-<a href="/about.html">Σχετικά</a>
-<a href="/panellinies.html">Πανελλήνιες</a>
-<a href="/materials.html">Υλικό</a>
-<a href="/tools.html">Εργαλεία</a>
-<a href="/contact.html">Επικοινωνία</a>
+
+    <div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside id="left-sidebar"
+  class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky"
+  :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }">
+
+    <a href="../../contents.html" class="!justify-start text-sm md:!hidden bg-background"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+    </a>
+
+    <div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+      <div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+  <a href="/about.html">Σχετικά</a>
+  <a href="/panellinies.html">Πανελλήνιες</a>
+  <a href="../%CE%B4%CE%B9%CE%B4%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CF%8C-%CF%85%CE%BB%CE%B9%CE%BA%CF%8C.html">Υλικό</a>
+  <a href="/contact.html">Επικοινωνία</a>
 </nav><nav class="table w-full min-w-full my-6 lg:my-8">
-<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+  <p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
 <li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
@@ -145,54 +177,70 @@
 <li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
 <li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
 </ul>
+
 </nav>
-</div>
-</div>
-<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
-<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
-</svg>
-</button>
-</aside>
-<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+      </div>
+    </div>
+    <button type="button" @click="showSidebar = false"
+      class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" fill="currentColor"
+        stroke="none" class="h-4 w-4">
+        <path
+          d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z" />
+      </svg>
+    </button>
+  </aside>
+        <main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
 <div class="w-full min-w-0 mx-auto">
-<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
-<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
-<span class="hidden md:inline">aftermaths</span>
-<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
-<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
-</svg>
-</a>
-<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Hyperreals: Λογικά πράγματα…</span>
+<nav aria-label="breadcrumbs"
+     class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+  <a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground"
+     href="../../contents.html">
+    <span class="hidden md:inline">aftermaths</span>
+    <svg xmlns="http://www.w3.org/2000/svg"
+         height="18"
+         width="18"
+         viewBox="0 96 960 960"
+         aria-label="Home"
+         fill="currentColor"
+         stroke="none"
+         class="md:hidden">
+      <path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z" />
+    </svg>
+  </a>
+  
+<div class="mr-1">/</div><span aria-current="page"
+        class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Hyperreals: Λογικά πράγματα…</span>
 </nav>
-<div id="content" role="main">
-<section id="hyperreals">
-<h1>Hyperreals: Λογικά πράγματα…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#hyperreals"><span>#</span></a></h1>
+
+    <div id="content" role="main">
+      <section id="hyperreals">
+<h1>Hyperreals: Λογικά πράγματα…<a class="headerlink" href="#hyperreals" title="Link to this heading"><span>#</span></a></h1>
 <figure class="align-center" id="id15">
-<img alt="Ο πίνακας *Η Χάβρη, το λιμάνι* του `Eugène Boudin  &lt;https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin&gt;`__." src="../../_images/le_havre_the_port_eugene_louis_boudin_1884.jpg"/>
+<img alt="Ο πίνακας *Η Χάβρη, το λιμάνι* του `Eugène Boudin  &lt;https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin&gt;`__." src="../../_images/le_havre_the_port_eugene_louis_boudin_1884.jpg" />
 <figcaption>
-<p><span class="caption-text">Ο πίνακας <em>Η Χάβρη, το λιμάνι</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin">Eugène Boudin</a>.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id15"><span>#</span></a></p>
+<p><span class="caption-text">Ο πίνακας <em>Η Χάβρη, το λιμάνι</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin">Eugène Boudin</a>.</span><a class="headerlink" href="#id15" title="Link to this image"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Στο <a class="reference external" href="docs/After-maths/hyperreals-απειροστά-και-άπειροι-αριθμοί.rst">πρώτο μέρος της σειράς</a> μας για τους υπερπραγματικούς αριθμούς μιλήσαμε λίγο για απειροστά, λίγο για άπειρους αριθμούς και, γενικά, μιλήσαμε για πώς μπορεί να είναι ο κόσμος των απειροστών, αν αυτά υπάρχουν. Ωστόσο, υπάρχουν;</p>
 <section id="id1">
-<h2>Μία μικρή εισαγωγή στη λογική<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id1'"><span>#</span></a></h2>
+<h2>Μία μικρή εισαγωγή στη λογική<a class="headerlink" href="#id1" title="Link to this heading"><span>#</span></a></h2>
 <p>Πριν ασχοληθούμε άμεσα με το αν υπάρχουν ή οχι απειροστά, θα μας απασχολήσει λίγο ένα πολύ ενδιαφέρον πεδίο των μαθηματικών: η Πρωτοβάθμια Κατηγορηματική Λογική (ΠΚΛ). Η ΠΚΛ είναι ένας σχετικά σύγχρονος κλάδος των μαθηματικών που προέκυψε, μεταξύ άλλων, από την ανάγκη να θεμελιωθούν αυστηρά οι μέθοδοι απόδειξης που χρησιμοποιούνται στα μαθηματικά αλλά, κυρίως, να εξερευνήσουμε σε ποιον βαθμό είναι εφικτό να γίνουν μαθηματικές αποδείξεις αυτόματα και, σε περίπτωση που κάτι τέτοιο είναι εφικτό, σε ποιον βαθμό και υπό ποιες προϋποθέσεις αυτό είναι αποδοτικό. Εμάς, προς το παρόν, δε θα μας απασχολήσουν όλα αυτά, παρά μόνο θα χρησιμοποιήσουμε κάποια αποτελέσματα της ΠΚΛ έτσι ώστε να μπορέσουμε τελικά να συμπεράνουμε αν όσα είπαμε ως τώρα για τα <a class="reference external" href="docs/After-maths/hyperreals-απειροστά-και-άπειροι-αριθμοί.rst">απειροστά</a> είναι… λογικά.</p>
 <section id="id2">
-<h3>Βασικοί ορισμοί<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h3>
+<h3>Βασικοί ορισμοί<a class="headerlink" href="#id2" title="Link to this heading"><span>#</span></a></h3>
 <p>Ξεκινάμε, όπως είναι φυσιολογικό, με κάποια βασικά στοιχεία της ΠΚΛ τα οποία θα μας βοηθήσουν να χτίσουμε πιο περίπλοκες έννοιες. Το πρώτο πράγμα για το οποίο οφείλουμε να μιλήσουμε είναι το «αλφάβητο» της λογικής, με το οποίο θα «εκφραζόμαστε». Υποθέτουμε ότι έχουμε στη διάθεσή μας τα ακόλουθα σύμβολα, των οποίων τον ρόλο θα εξηγήσουμε ευθύς αμέσως:</p>
 <ul class="simple">
 <li><p><strong>Λογικά σύμβολα:</strong></p>
 <ul>
 <li><p><em>Παρενθέσεις:</em> ( και ).</p></li>
-<li><p><em>Σύμβολα προτασιακών συνδέσμων:</em> <span class="math notranslate nohighlight">\(\rightarrow,\ \neq,\ \lor,\ \land\)</span> .</p></li>
+<li><p><em>Σύμβολα προτασιακών συνδέσμων:</em>  <span class="math notranslate nohighlight">\(\rightarrow,\ \neq,\ \lor,\ \land\)</span> .</p></li>
 <li><p><em>Σύμβολα μεταβλητών:</em> Ένα σύμβολο για κάθε θετικό ακέραιο, έστω  <span class="math notranslate nohighlight">\(x_1,x_2,\ldots\)</span></p></li>
-<li><p><em>Σύμβολο ισότητας:</em> <span class="math notranslate nohighlight">\(=\)</span> .</p></li>
+<li><p><em>Σύμβολο ισότητας:</em>  <span class="math notranslate nohighlight">\(=\)</span> .</p></li>
 </ul>
 </li>
 <li><p><strong>Παράμετροι:</strong></p>
 <ul>
-<li><p><em>Σύμβολα ποσοδεικτών:</em> <span class="math notranslate nohighlight">\(\forall,\ \exists\)</span> .</p></li>
+<li><p><em>Σύμβολα ποσοδεικτών:</em>  <span class="math notranslate nohighlight">\(\forall,\ \exists\)</span> .</p></li>
 <li><p><em>Σύμβολα κατηγορημάτων:</em> Για κάθε θετικό ακέραιο  <span class="math notranslate nohighlight">\(n\)</span>  έχουμε ένα, ενδεχομένως κενό, σύνολο συμβόλων,  <span class="math notranslate nohighlight">\(P_n\)</span> , τα στοιχεία του οποίου ονομάζουμε  <span class="math notranslate nohighlight">\(n-\)</span> θέσια σύμβολα κατηγορημάτων.</p></li>
 <li><p><em>Σύμβολα σταθερών:</em> Ένα σύνολο συμβόλων,  <span class="math notranslate nohighlight">\(C\)</span> , ενδεχομένως κενό, τα οποία ονομάζουμε σταθερές.</p></li>
 <li><p><em>Σύμβολα συναρτήσεων:</em> Για κάθε θετικό ακέραιο  <span class="math notranslate nohighlight">\(n\)</span>  έχουμε ένα, ενδεχομένως κενό, σύνολο συμβόλων,  <span class="math notranslate nohighlight">\(F_n\)</span> , τα στοιχεία του οποίου ονομάζουμε  <span class="math notranslate nohighlight">\(n-\)</span> θέσια σύμβολα συναρτήσεων.</p></li>
@@ -228,10 +276,10 @@
 <p>Έχοντας δώσει κάποιες βασικές εξηγήσεις για τη γλώσσα μας, καιρός να περάσουμε σε λίγο βαθύτερα νερά.</p>
 </section>
 <section id="id3">
-<h3>Σύνταξη και Σύμπαντα<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h3>
+<h3>Σύνταξη και Σύμπαντα<a class="headerlink" href="#id3" title="Link to this heading"><span>#</span></a></h3>
 <p>Μπορώ άνετα να φανταστώ το τελευταίο μέρος της σειράς Σταρ Τρεκ να τιτλοφορείται ακριβώς έτσι: <em>Σταρ Τρεκ: Σύνταξη και Σύμπαντα</em>. Ωστόσο, εμείς θα μείνουμε στη Γη - τουλάχιστον όσο συνηθίζουμε να μένουμε στα επίγεια οι μαθηματικοί - και θα συνεχίσουμε να δομούμε τη γλώσσα που θα χρησιμοποιήσουμε στα παρακάτω. Ως τώρα μιλήσαμε για τα βασικά σύμβολα που θα χρησιμοποιούμε και το πώς έχουμε πρόθεση να τα ερμηνεύσουμε. Με άλλα λόγια, προσδιορίσαμε αυστηρά τι μπορεί να αποτελέσει αλφάβητο μίας πρωτοβάθμιας γλώσσας ενώ δώσαμε και κάποιες κατευθύνσεις ως προς τη σημασιολογία της γλώσσας μας - περίπου. Τι μας μένει να προσδιορίσουμε, λοιπόν;</p>
 <section id="id4">
-<h4>Σύνταξη<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4"><span>#</span></a></h4>
+<h4>Σύνταξη<a class="headerlink" href="#id4" title="Link to this heading"><span>#</span></a></h4>
 <p>Σαφώς, τη γραμματική και το συντακτικό αυτής της γλώσσας. Διότι, μιλήσαμε για τα σύμβολα που έχουμε στη διάθεσή μας, αλλά τι θα κάνουμε με αυτά; Θα καθόμαστε να τα κοιτάμε; Προφανώς, όχι. Όπως φαντάζεστε, με αυτά θα σχηματίσουμε λέξεις ή, καλύτερα, εκφράσεις. Για να μπορέσουμε όμως να δομήσουμε μία έκφραση, χρειάζεται να έχουμε και κάποιους κανόνες. Ειδάλλως, το παρακάτω θα μπορούσε να διεκδικήσει επάξια τον ρόλο μίας εκφράσης της γλώσσας μας με νόημα:</p>
 <div class="math notranslate nohighlight">
 \[(((())()\lor)))(\land\rightarrow\rightarrow\rightarrow)))(\]</div>
@@ -271,9 +319,9 @@
 <p>Πολύ καλύτερα τώρα! Μάλιστα, αρκετές φορές είναι χρήσιμο να έχουμε κατά νου και τη δενδρική αναπαράσταση ενός όρου, όπως για παράδειγμα φαίνεται παρακάτω:</p>
 <div class="wp-block-image docutils container">
 <figure class="wp-image-5295 align-default" id="id16">
-<img alt="Η δενδρική αναπαράσταση του  :math:`g(x,g(c,f(x)))` ." src="https://aftermaths.gr/_static/images/uploads/2021/02/tree_1.png?w=1024"/>
+<img alt="Η δενδρική αναπαράσταση του  :math:`g(x,g(c,f(x)))` ." src="https://aftermaths.gr/_static/images/uploads/2021/02/tree_1.png?w=1024" />
 <figcaption>
-<p><span class="caption-text">Η δενδρική αναπαράσταση του  <span class="math notranslate nohighlight">\(g(x,g(c,f(x)))\)</span> .</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id16"><span>#</span></a></p>
+<p><span class="caption-text">Η δενδρική αναπαράσταση του  <span class="math notranslate nohighlight">\(g(x,g(c,f(x)))\)</span> .</span><a class="headerlink" href="#id16" title="Link to this image"><span>#</span></a></p>
 </figcaption>
 </figure>
 </div>
@@ -290,9 +338,9 @@
 <p>Παρακάτω βλέπουμε και την αντίστοιχη δενδρική αναπαράσταση:</p>
 <div class="wp-block-image docutils container">
 <figure class="wp-image-5303 align-default" id="id17">
-<img alt="Άλλη μία δενδρική αναπαράσταση." src="https://aftermaths.gr/_static/images/uploads/2021/02/tree_2.png?w=1024"/>
+<img alt="Άλλη μία δενδρική αναπαράσταση." src="https://aftermaths.gr/_static/images/uploads/2021/02/tree_2.png?w=1024" />
 <figcaption>
-<p><span class="caption-text">Άλλη μία δενδρική αναπαράσταση.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id17"><span>#</span></a></p>
+<p><span class="caption-text">Άλλη μία δενδρική αναπαράσταση.</span><a class="headerlink" href="#id17" title="Link to this image"><span>#</span></a></p>
 </figcaption>
 </figure>
 </div>
@@ -316,7 +364,7 @@
 <p>Να πούμε εδώ ότι τις εξωτερικές παρενθέσεις των ΚΣΤ θα τις παραλείπουμε γενικά, καθώς και ότι θεωρούμε ότι όλων των λογικών συνδέσμων προηγείται η άρνηση, οπότε και σε αυτήν την περίπτωση θα παραλείπουμε τις παρενθέσεις.</p>
 </section>
 <section id="id9">
-<h4>Σύμπαντα<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9"><span>#</span></a></h4>
+<h4>Σύμπαντα<a class="headerlink" href="#id9" title="Link to this heading"><span>#</span></a></h4>
 <p>Τόσην ώρα κάνουμε λόγο για σύμπαντα και ερμηνείες, ωστόσο δεν έχουμε προσδώσει σε αυτά κάποιον αυστηρό και σαφή μαθηματικό ορισμό. Αυτό λοιπόν, όπως φαντάζεστε, θα κάνουμε ευθύς αμέσως. Δίνουμε πρώτα τους ορισμούς αμφότερων των εννοιών και έπειτα θα τους σχολιάσουμε:</p>
 <div class="line-block">
 <div class="line">Δεδομένης μία πρωτοβάθμιας γλώσσας, μία <em>ερμηνεία</em> της γλώσσας είναι μία συνάρτηση  <span class="math notranslate nohighlight">\(I\)</span>  με πεδίο ορισμού το σύνολο των παραμέτρων της γλώσσας και η οποία:</div>
@@ -329,7 +377,7 @@
 </section>
 </section>
 <section id="id10">
-<h3>Αλήθεια και Απονομές<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id10" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id10'"><span>#</span></a></h3>
+<h3>Αλήθεια και Απονομές<a class="headerlink" href="#id10" title="Link to this heading"><span>#</span></a></h3>
 <p>Ήρθε η ώρα να ορίσουμε τι είναι αλήθεια σε μία ερμηνεία μίας γλώσσας. Η έννοια της αλήθεια που θα ορίσουμε θα είναι, για αρχή, «τοπική», υπό την έννοια ότι θα αφορά μία συγκεκριμένη ερμηνεία της γλώσσας μας, χωρίς να μας δεσμεύει ως προς το τι συμβαίνει σε άλλες δομές της γλώσσας. Πριν, όμως, ορίσουμε τι είναι αληθές και τι όχι σε μία ερμηνεία, θα χρειαστεί να ορίσουμε την έννοια της <em>απονομής</em>. Πρακτικά, μία απονομή θα είναι μία συνάρτηση η οποία θα αποδίδει σε κάθε μεταβλητή και μία οντότητα του σύμπαντός μας. Πιο αυστηρά:</p>
 <p>Μία συνάρτηση  <span class="math notranslate nohighlight">\(s:V\to|I|\)</span> , όπου  <span class="math notranslate nohighlight">\(V\)</span>  το σύνολο των μεταβλητών μίας πρωτοβάθμιας γλώσσας και  <span class="math notranslate nohighlight">\(I\)</span>  μία ερμηνεία της, θα λέγεται <em>απονομή</em>.</p>
 <p>Δίνουμε επίσης και τον εξής ορισμό:</p>
@@ -351,7 +399,7 @@
 <div class="math notranslate nohighlight">
 \[\models_I\Sigma[s] αν και μόνον αν .. math:: \models_I\phi[s] για κάθε .. math:: \phi\in\Sigma.\]</div>
 <p>Όπως φαίνεται από τον παραπάω ορισμό και όπως υποσχεθήκαμε εξ αρχής, αυτός ο ορισμός της αλήθειας-ικανοποιησιμότητας - ο όρος ικανοποιησιμότητα, ομολογουμένως, είνα προτιμότερος - είναι ιδιαίτερα τοπικός, καθώς αναφέρεται σε αλήθεια δεδομένης μίας ερμηνείας και μίας απονομής. Προχωρώντας ένα βήμα παρακάτω, δίνουμε και τον εξής ορισμό, που εκφράζει την πολύ σημαντική έννοια της λογικής συνεπαγωγής:</p>
-<p>Έστω ένα σύνολο  <span class="math notranslate nohighlight">\(\Sigma\)</span>  από ΚΣΤ και  <span class="math notranslate nohighlight">\(\phi\)</span>  ένας ΚΣΤ. Θα λέμε ότι το  <span class="math notranslate nohighlight">\(\Sigma\)</span> <em>συνεπάγεται λογικά</em> τον  <span class="math notranslate nohighlight">\(\phi\)</span>  και θα γράφουμε  <span class="math notranslate nohighlight">\(\Sigma\models\phi\)</span>  αν για κάθε ερμηνεία  <span class="math notranslate nohighlight">\(I\)</span>  και κάθε απονομή  <span class="math notranslate nohighlight">\(s\)</span>  που ικανοποιούν το  <span class="math notranslate nohighlight">\(\Sigma\)</span> , ο  <span class="math notranslate nohighlight">\(\phi\)</span>  ικανοποιείται στην  <span class="math notranslate nohighlight">\(I\)</span>  με την  <span class="math notranslate nohighlight">\(s\)</span> . Συμβολικά, για κάθε ερμηνεία  <span class="math notranslate nohighlight">\(I\)</span>  και απονομή  <span class="math notranslate nohighlight">\(s\)</span>  για τις οποίες ισχύει  <span class="math notranslate nohighlight">\(\models_I\Sigma[s]\)</span>  ισχύει και  <span class="math notranslate nohighlight">\(\models_I\phi[s]\)</span> .</p>
+<p>Έστω ένα σύνολο  <span class="math notranslate nohighlight">\(\Sigma\)</span>  από ΚΣΤ και  <span class="math notranslate nohighlight">\(\phi\)</span>  ένας ΚΣΤ. Θα λέμε ότι το  <span class="math notranslate nohighlight">\(\Sigma\)</span>  <em>συνεπάγεται λογικά</em> τον  <span class="math notranslate nohighlight">\(\phi\)</span>  και θα γράφουμε  <span class="math notranslate nohighlight">\(\Sigma\models\phi\)</span>  αν για κάθε ερμηνεία  <span class="math notranslate nohighlight">\(I\)</span>  και κάθε απονομή  <span class="math notranslate nohighlight">\(s\)</span>  που ικανοποιούν το  <span class="math notranslate nohighlight">\(\Sigma\)</span> , ο  <span class="math notranslate nohighlight">\(\phi\)</span>  ικανοποιείται στην  <span class="math notranslate nohighlight">\(I\)</span>  με την  <span class="math notranslate nohighlight">\(s\)</span> . Συμβολικά, για κάθε ερμηνεία  <span class="math notranslate nohighlight">\(I\)</span>  και απονομή  <span class="math notranslate nohighlight">\(s\)</span>  για τις οποίες ισχύει  <span class="math notranslate nohighlight">\(\models_I\Sigma[s]\)</span>  ισχύει και  <span class="math notranslate nohighlight">\(\models_I\phi[s]\)</span> .</p>
 <p>Στην ουσία, ο παραπάνω ορισμός δε λέει κάτι παράλογο, παρά καθορίζει την έννοια της συνεπαγωγής που έχουμε στον νου μας στα μαθηματικά. Πράγματι, αυτό που μας λέει είναι ότι ένας ΚΣΤ θα έπεται λογικά από ένα σύνολο (άλλων) ΚΣΤ αν σε κάθε περίπτωση που ισχύουν αυτοί οι άλλοι ΚΣΤ - σε κάθε τέτοια ερμηνεία και με κάθε τέτοια απονομή, δηλαδή - ισχύει και αυτός. Πιο απλά, ο  <span class="math notranslate nohighlight">\(\phi\)</span>  έπεται λογικά από το  <span class="math notranslate nohighlight">\(\Sigma\)</span>  αν σε κάθε περίσταση που ικανοποιείται το  <span class="math notranslate nohighlight">\(\Sigma\)</span> , ικανοποιείται και ο  <span class="math notranslate nohighlight">\(\phi\)</span> .</p>
 <p>Πριν περάσουμε στο βασικό αποτέλεσμα που θέλουμε να συζητήσουμε για την ΠΚΛ, ας δώσουμε άλλον έναν ορισμό:</p>
 <p>Θα λέμε ότι ένα σύνολο  <span class="math notranslate nohighlight">\(\Sigma\)</span>  από ΚΣΤ είναι <em>ικανοποιήσιμο</em> αν υπάρχει ερμηνεία  <span class="math notranslate nohighlight">\(I\)</span>  και απονομή  <span class="math notranslate nohighlight">\(s\)</span>  τέτοιες ώστε  <span class="math notranslate nohighlight">\(\models_I\Sigma[s]\)</span> .</p>
@@ -359,7 +407,7 @@
 <p>Γενικά, την έννοια της λογικής συνεπαγωγής μπορούμε να τη σκεφτόμαστε ως μία έννοια ύπαρξης απόδειξης του  <span class="math notranslate nohighlight">\(\phi\)</span>  δεδομένων των ΚΣΤ του  <span class="math notranslate nohighlight">\(\Sigma\)</span> . Αν ορίσουμε αυστηρά και κατάλληλα μία έννοια απόδειξης τότε πράγματι μπορούμε να αποδείξουμε ότι η έννοια της αποδειξιμότητας και της λογικής συνεπαγωγής είναι ισοδύναμες. Αυτό, μάλιστα, είναι ένα πασίγνωστο θεώρημα της ΠΚΛ, το Θεώρημα Αξιοπιστίας-Πληρότητας - το σκέλος της πληρότητας οφείλεται στον <a class="reference external" href="https://en.wikipedia.org/wiki/Kurt_G%C3%B6del">Kurt Gödel</a>. Ωστόσο, οι έννοιες που έχουμε παρουσιάσει ως τώρα μας αρκούν για τους σκοπούς μας - που, για να μην ξεχνιόμαστε είναι να εξετάσουμε αν υπάρχουν ή όχι <a class="reference external" href="docs/After-maths/hyperreals-απειροστά-και-άπειροι-αριθμοί.rst">απειροστά</a>.</p>
 </section>
 <section id="id11">
-<h3>Το Θεώρημα της Συμπάγειας<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id11'"><span>#</span></a></h3>
+<h3>Το Θεώρημα της Συμπάγειας<a class="headerlink" href="#id11" title="Link to this heading"><span>#</span></a></h3>
 <p>Όλα όσα λέμε τόσην ώρα για την ΠΚΛ αποσκοπούσαν στο να καταφέρουμε να φτάσουμε αρκετά σύντομα εδώ - ναι, αυτός ήταν ο «αρκετά σύντομος» δρόμος. Το «εδώ» είναι το θεώρημα που θα παρουσιάσουμε ευθύς αμέσως και το οποίο λέει κάτι… αναπάντεχο:</p>
 <p>(Θεώρημα της Συμπάγειας) Αν κάθε πεπερασμένο υποσύνολο ενός συνόλου  <span class="math notranslate nohighlight">\(\Sigma\)</span>  από ΚΣΤ είναι ικανοποιήσιμο τότε και το  <span class="math notranslate nohighlight">\(\Sigma\)</span>  είναι ικανοποιήσιμο.</p>
 <p>[Σιωπή]</p>
@@ -373,7 +421,7 @@
 </section>
 </section>
 <section id="id12">
-<h2>Υπάρχουν τελικά απειροστά;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id12" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id12'"><span>#</span></a></h2>
+<h2>Υπάρχουν τελικά απειροστά;<a class="headerlink" href="#id12" title="Link to this heading"><span>#</span></a></h2>
 <p>Μετά από αρκετό κόπο, φτάσαμε στο καυτό ερώτημα που μας ταλανίζει - ή και όχι - από την αρχή της <a class="reference external" href="docs/After-maths/hyperreals-απειροστά-και-άπειροι-αριθμοί.rst">παρούσας σειράς</a>: υπάρχουν απειροστά; Την απάντηση σε αυτό το ερώτημα θα την πάρουμε με τη βοήθεια του θεωρήματος της συμπάγειας - ποια βοήθεια, δηλαδή, όλα αυτό θα τα κάνει. Πριν από αυτά, όμως - όχι, που θα το δίναμε έτσι απευθείας το αποτέλεσμα - ας δώσουμε έναν ακόμα ορισμό της ΠΚΛ μου μας ξέφυγε παραπάνω:</p>
 <p>Ένας ΚΣΤ θα λέγεται <em>πρόταση</em> αν δεν περιέχει ελεύθερες μεταβλητές.</p>
 <p>Μικρός ορισμός αυτός και κατανοητός. Πρακτικά, αυτά που στα casual μαθηματικά αποκαλούμε θεωρήματα, προτάσεις, λήμματα, πορίσματα κ.λπ. είναι όλα τους, με την κατάλληλη πρωτοβάθμια γλώσσα, προτάσεις - με την έννοια που ορίσαμε παραπάνω. Εμάς θα μας απασχολήσουν στην πορεία κάποιες συγκεκριμένες προτάσεις που θα σχετίζονται άμεσα με τους πραγματικούς αριθμούς.</p>
@@ -406,7 +454,7 @@
 <p>Έτσι, σε κάθε περίπτωση το  <span class="math notranslate nohighlight">\(S\)</span>  είναι ικανοποιήσιμο. Τώρα, επειδή το  <span class="math notranslate nohighlight">\(S\)</span>  ήταν αυθαίρετο, έπεται ότι κάθε πεπερασμένο υποσύνολο του  <span class="math notranslate nohighlight">\(T\)</span>  είναι ικανοποιήσιμο, άρα, από το θεώρημα της συμπάγειας, και το  <span class="math notranslate nohighlight">\(T\)</span>  είναι ικανοποιήσιμο. Συνεπώς, υπάρχει ερμηνεία  <span class="math notranslate nohighlight">\(A\)</span>  και απονομή  <span class="math notranslate nohighlight">\(t\)</span>  τέτοιες ώστε  <span class="math notranslate nohighlight">\(\models_AT[t]\)</span> . Θέτουμε, για ευκολία,  <span class="math notranslate nohighlight">\(\varepsilon=t(x)\)</span> , όπου  <span class="math notranslate nohighlight">\(x\)</span>  είναι η μεταβλητή που εμφανίζεται ελεύθερη στους τύπους του  <span class="math notranslate nohighlight">\(\Phi\)</span> . Τότε, ισχύει  <span class="math notranslate nohighlight">\(0&lt;\varepsilon\)</span>  και  <span class="math notranslate nohighlight">\(\varepsilon&lt;r\)</span>  για κάθε  <span class="math notranslate nohighlight">\(r&gt;0\)</span>  ενώ στο  <span class="math notranslate nohighlight">\(\|A|\)</span>  ισχύουν και όλες οι προτάσεις που ισχύουν για τους πραγματικούς αριθμούς. Επομένως, το σύνολο  <span class="math notranslate nohighlight">\(\|A|\)</span>  είναι ένα σύνολο στο οποίο ισχύει η θεωρία των πραγματικών αριθμών και, επιπρόσθετα, περιέχει κι ένα (γνήσιο) απειροστό!</p>
 </section>
 <section id="id13">
-<h2>Και πώς μοιάζει αυτό το σύνολο;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id13" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id13'"><span>#</span></a></h2>
+<h2>Και πώς μοιάζει αυτό το σύνολο;<a class="headerlink" href="#id13" title="Link to this heading"><span>#</span></a></h2>
 <p>Η αλήθεια είναι ότι ναι μεν δείξαμε ότι υπάρχει ένα σύνολο που περιέχει απειροστά και ικανοποιεί και την πρωτοβάθμια θεωρία των πραγματικών αριθμών. Αλλάααα, τι ακριβώς περιέχει η πρωτοβάθμια αυτή θεωρία των πραγματικών αριθμών; Μήπως τελικά αυτό το σύνολο  <span class="math notranslate nohighlight">\(\|A|\)</span>  δε μοιάζει και τόσο πολύ με τους πραγματικούς αριθμούς;</p>
 <p>Για αρχή, θα συμβολίζουμε αυτό το σύνολο με  <span class="math notranslate nohighlight">\(^*\mathbb{R}\)</span> , κυρίως γιατί αυτό θα μας θυμίζει ότι «γεννήθηκε» μέσα από το  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> . Όπως είπαμε, αυτό το σύνολο περιέχει τουλάχιστον ένα απειροστό και ικανοποιεί όσες προτάσεις των πραγματικών αριθμών μπορούν να εκφραστούν στην πρωτοβάθμια γλώσσα μας. Ωστόσο, πώς θα βρούμε ποιες προτάσεις μπορούν να εκφραστούν στην πρωτοβάθμια γλώσσα μας;</p>
 <p>Εδώ θα αξιοποιήσουμε λίγο όσα έχουμε αναφέρει <a class="reference external" href="docs/After-maths/τα-πολλά-πρόσωπα-του-αξιώματος-της-π.rst">εδώ</a> περί αξιωμάτων των πραγματικών αριθμών. Αρχικά, ας παρατηρήσουμε ότι τα αλγερικά αξιώματα τω πραγματικώ αριθμών καθώς και τα αξιώματα της διάταξης όλα τους μπορούν να εκφραστούν στη γλώσσα μας, επομένως έχουμε άμεσα ότι το  <span class="math notranslate nohighlight">\(^*\mathbb{R}\)</span>  είναι ένα ολικά διατεταγμένο αλγεβρικό σώμα. Αυτό μας δίνει τη δυνατότητα να έχουμε μία ιδιαίτερα πλούσια δομή στη διάθεσή μας, μαζί με το bonus της ύπαρξης ενός και, <a class="reference external" href="docs/After-maths/hyperreals-απειροστά-και-άπειροι-αριθμοί.rst">όπως έχουμε δείξει</a>, άπειρων απειροστών, αλλά και άπειρων αριθμών και όλων των καλών που θα θέλαμε.</p>
@@ -433,7 +481,7 @@
 <p>Το παραπάνω είναι και το καλύτερο που μπορούμε να κάνουμε, καθώς αν επιτρέψουμε και απειροστά στη διατύπωση του αξιώματος της πληρότητας, χάνουμε την μοναδικότητα του supremum του  <span class="math notranslate nohighlight">\(A\)</span> , όπως θα δούμε στο μέλλον και, άρα, και το ίδιο το αξίωμα της πληρότητας.</p>
 </section>
 <section id="id14">
-<h2>Επίλογος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id14" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id14'"><span>#</span></a></h2>
+<h2>Επίλογος<a class="headerlink" href="#id14" title="Link to this heading"><span>#</span></a></h2>
 <p>Είδαμε πολλά σε αυτό το μέρος της σειράς για τους hyperreals. Για την ακρίβεια, πέρα από βασικά στοιχεία της ΠΚΛ, είδαμε πώς με αμιγώς λογικά μέσα (pun intended), καταφέραμε να αποδείξουμε την ύπαρξη ενός συνόλου που μοιάζει σε τεράστιο βαθμό με τους πραγματικούς αριθμούς - για την ακρίβεια, τους «αγκαλιάζει» με όλες τους τις ιδιότητες, θα λέγαμε - και, επιπρόσθετα, περιέχει και απειροστά, καθώς επίσης και άπειρους αριθμούς. Ωστόσο, η αλήθεια είναι ότι δεδομένου ότι χρησιμοποιήσαμε ένα θεώρημα που δεν αποδείξαμε - αλλά ισχύει - ίσως να μας έμεινε λίγο η αίσθηση ότι βγάλαμε τα απειροστά «από το καπέλο». Προς διάψευση των φόβων και των πιο συντηρητικών, θα δούμε και μία ενδιαφέρουσα κατασκευή του συνόλου των υπερπραγματικών αριθμών απευθείας από τους πραγματικούς.</p>
 <p>Ως τότε, καλημέρα!</p>
 <blockquote>
@@ -442,58 +490,83 @@
 </iframe></div></div></blockquote>
 </section>
 </section>
-</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
-<div class="mr-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">
-<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-<polyline points="15 18 9 12 15 6"></polyline>
-</svg>
+
+    </div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+    <div class="mr-auto">
+      <a href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html"
+         class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4">
+        <svg xmlns="http://www.w3.org/2000/svg"
+             width="24"
+             height="24"
+             viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             class="mr-2 h-4 w-4">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
         Hyperreals: Απειροστά και άπειροι αριθμοί
       </a>
-</div>
-<div class="ml-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html">
+    </div>
+    <div class="ml-auto">
+      <a href="%CE%AD%CF%87%CE%B5%CE%B9-%CE%BF%CE%BB%CE%B9%CE%BA%CF%8C-%CE%BC%CE%AD%CE%B3%CE%B9%CF%83%CF%84%CE%BF.html"
+         class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4">
         Έχει Ολικό Μέγιστο;
-        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-<polyline points="9 18 15 12 9 6"></polyline>
-</svg>
-</a>
-</div>
-</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
-<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
-<ul>
-<li><a :data-current="activeSection === '#id1'" class="reference internal" href="#id1">Μία μικρή εισαγωγή στη λογική</a><ul>
-<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Βασικοί ορισμοί</a></li>
-<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Σύνταξη και Σύμπαντα</a><ul>
-<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Σύνταξη</a></li>
-<li><a :data-current="activeSection === '#id9'" class="reference internal" href="#id9">Σύμπαντα</a></li>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             width="24"
+             height="24"
+             viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             class="ml-2 h-4 w-4">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </a>
+    </div>
+</div></div><aside id="right-sidebar" class="hidden text-sm xl:block">
+  <div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+    <ul>
+<li><a class="reference internal" href="#id1">Μία μικρή εισαγωγή στη λογική</a><ul>
+<li><a class="reference internal" href="#id2">Βασικοί ορισμοί</a></li>
+<li><a class="reference internal" href="#id3">Σύνταξη και Σύμπαντα</a><ul>
+<li><a class="reference internal" href="#id4">Σύνταξη</a></li>
+<li><a class="reference internal" href="#id9">Σύμπαντα</a></li>
 </ul>
 </li>
-<li><a :data-current="activeSection === '#id10'" class="reference internal" href="#id10">Αλήθεια και Απονομές</a></li>
-<li><a :data-current="activeSection === '#id11'" class="reference internal" href="#id11">Το Θεώρημα της Συμπάγειας</a></li>
+<li><a class="reference internal" href="#id10">Αλήθεια και Απονομές</a></li>
+<li><a class="reference internal" href="#id11">Το Θεώρημα της Συμπάγειας</a></li>
 </ul>
 </li>
-<li><a :data-current="activeSection === '#id12'" class="reference internal" href="#id12">Υπάρχουν τελικά απειροστά;</a></li>
-<li><a :data-current="activeSection === '#id13'" class="reference internal" href="#id13">Και πώς μοιάζει αυτό το σύνολο;</a></li>
-<li><a :data-current="activeSection === '#id14'" class="reference internal" href="#id14">Επίλογος</a></li>
+<li><a class="reference internal" href="#id12">Υπάρχουν τελικά απειροστά;</a></li>
+<li><a class="reference internal" href="#id13">Και πώς μοιάζει αυτό το σύνολο;</a></li>
+<li><a class="reference internal" href="#id14">Επίλογος</a></li>
 </ul>
 </div>
 </aside>
-</main>
-</div>
-</div><footer class="py-6 border-t border-border md:py-0">
-<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
-<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
-<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+        </main>
+      </div>
+    </div><footer class="py-6 border-t border-border md:py-0">
+    <div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+      <div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+        <p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths&nbsp;Built with <a class="font-medium underline underline-offset-4"
+    href="https://www.sphinx-doc.org"
+    rel="noreferrer">Sphinx 8.2.3</a></p>
 </div>
 </div>
 </footer>
-</div>
-<script src="../../_static/documentation_options.js?v=1fea401f"></script>
-<script src="../../_static/doctools.js?v=9bcbadda"></script>
-<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
-<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
-<script src="../../_static/translations.js?v=e109e2be"></script>
-<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </div>
+  
+    <script src="../../_static/documentation_options.js?v=1fea401f"></script>
+    <script src="../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+    <script src="../../_static/translations.js?v=e109e2be"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
 </body>
 </html>

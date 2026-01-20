@@ -1,29 +1,36 @@
 <!DOCTYPE html>
-
-<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<html lang="el"
+      data-content_root="../../"
+      x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }"
+      x-init="$watch('darkMode', val => localStorage.setItem('darkMode', val))"
+      class="scroll-smooth"
+      :class="{'dark': darkMode === 'dark' || (darkMode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)}"
+>
 <head>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta charset="utf-8"/>
-<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
-<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="2020-10-28 21:24" name="date"/>
-<meta content="aftermathsgr" name="author"/>
-<meta content="After-maths" name="category"/>
-<meta content="featured, πραγματικοί αριθμοί, Αξίωμα της πληρότητας, Μαθηματικά, κλάσματα" name="tags"/>
-<meta content="%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80" name="slug"/>
-<meta content="published" name="status"/>
-<meta content="_static/images/uploads/2020/10/hilma_af_klint_-_group_ix_suw_the_swan_no._1_13947.jpg" name="attachments"/>
-<title>Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1) | aftermaths</title>
-<meta content="Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1) | aftermaths" property="og:title"/>
-<meta content="Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1) | aftermaths" name="twitter:title"/>
-<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
-<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
-<link href="../../search.html" rel="search" title="Αναζήτηση"/>
-<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
-<link href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html" rel="next" title="Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)"/>
-<link href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html" rel="prev" title="Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;"/>
-<script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="white" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta content="2020-10-28 21:24" name="date" />
+<meta content="aftermathsgr" name="author" />
+<meta content="After-maths" name="category" />
+<meta content="featured, πραγματικοί αριθμοί, Αξίωμα της πληρότητας, Μαθηματικά, κλάσματα" name="tags" />
+<meta content="%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%ce%bb%ce%ac-%cf%80%cf%81%cf%8c%cf%83%cf%89%cf%80%ce%b1-%cf%84%ce%bf%cf%85-%ce%b1%ce%be%ce%b9%cf%8e%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%84%ce%b7%cf%82-%cf%80" name="slug" />
+<meta content="published" name="status" />
+<meta content="_static/images/uploads/2020/10/hilma_af_klint_-_group_ix_suw_the_swan_no._1_13947.jpg" name="attachments" />
+
+    <title>Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1) | aftermaths</title>
+    <meta property="og:title" content="Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1) | aftermaths" />
+    <meta name="twitter:title" content="Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1) | aftermaths" />
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=e72c8e07" />
+      <link rel="stylesheet" type="text/css" href="../../_static/theme.css?v=42baaae4" />
+        <link rel="search" title="Αναζήτηση" href="../../search.html" />
+        <link rel="index" title="Ευρετήριο" href="../../genindex.html" />
+          <link rel="next" title="Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html" />
+          <link rel="prev" title="Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html" />
+
+    <script>
     <!-- Prevent Flash of wrong theme -->
       const userPreference = localStorage.getItem('darkMode');
       let mode;
@@ -36,58 +43,83 @@
       if (!userPreference) {localStorage.setItem('darkMode', mode)}
     </script>
 </head>
-<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
-<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+  <body x-data="{ showSidebar: false, showScrollTop: false }" class="min-h-screen font-sans antialiased bg-background text-foreground" :class="{ 'overflow-hidden': showSidebar }">
+    <div x-cloak x-show="showSidebar" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" @click.self="showSidebar = false"></div><div id="page" class="relative flex flex-col min-h-screen"><a href="#content" class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100">
       Skip to content
-    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
-<div class="hidden mr-4 md:flex">
-<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
-</a><nav class="flex items-center space-x-6 text-sm font-medium">
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
-</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
-<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
-</svg>
-<span class="sr-only">Toggle navigation menu</span>
-</button>
-<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
-<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
-<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
-<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
-<span class="text-xs">⌘</span>
+    </a><header
+  class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+    <div class="hidden mr-4 md:flex">
+      <a href="../../contents.html" class="flex items-center mr-6"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+      </a><nav class="flex items-center space-x-6 text-sm font-medium">
+        <a href="/about.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Σχετικά</a>
+        <a href="/panellinies.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Πανελλήνιες</a>
+        <a href="../%CE%B4%CE%B9%CE%B4%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CF%8C-%CF%85%CE%BB%CE%B9%CE%BA%CF%8C.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Υλικό</a>
+        <a href="/contact.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Επικοινωνία</a>
+      </nav></div><button
+      class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden"
+      type="button" @click="showSidebar = true">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" aria-hidden="true"
+        fill="currentColor">
+        <path
+          d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z" />
+      </svg>
+      <span class="sr-only">Toggle navigation menu</span>
+    </button>
+    <div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+      <div class="flex-1 w-full md:w-auto md:flex-none"><form id="searchbox"
+      action="../../search.html"
+      method="get"
+      class="relative flex items-center group"
+      @keydown.k.window.meta="$refs.search.focus()">
+  <input x-ref="search"
+          name="q"
+          id="search-input"
+          type="search"
+          aria-label="Search the docs"
+          placeholder="Search ..."
+          class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" />
+  <kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+    <span class="text-xs">⌘</span>
     K
   </kbd>
 </form>
-</div>
-<nav class="flex items-center space-x-1">
-<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
-<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
-</svg>
-<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
-</svg>
-</button>
-</nav>
-</div>
-</div>
+      </div>
+      <nav class="flex items-center space-x-1">
+        <button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'"
+          class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9"
+          type="button"
+          aria-label="Color theme switcher">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" fill="currentColor"
+            class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0">
+            <path
+              d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" fill="currentColor"
+            class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100">
+            <path
+              d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z" />
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </div>
 </header>
-<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
-<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
-</a>
-<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
-<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
-<a href="/about.html">Σχετικά</a>
-<a href="/panellinies.html">Πανελλήνιες</a>
-<a href="/materials.html">Υλικό</a>
-<a href="/tools.html">Εργαλεία</a>
-<a href="/contact.html">Επικοινωνία</a>
+
+    <div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside id="left-sidebar"
+  class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky"
+  :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }">
+
+    <a href="../../contents.html" class="!justify-start text-sm md:!hidden bg-background"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+    </a>
+
+    <div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+      <div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+  <a href="/about.html">Σχετικά</a>
+  <a href="/panellinies.html">Πανελλήνιες</a>
+  <a href="../%CE%B4%CE%B9%CE%B4%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CF%8C-%CF%85%CE%BB%CE%B9%CE%BA%CF%8C.html">Υλικό</a>
+  <a href="/contact.html">Επικοινωνία</a>
 </nav><nav class="table w-full min-w-full my-6 lg:my-8">
-<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+  <p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
 <li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
@@ -145,43 +177,59 @@
 <li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
 <li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
 </ul>
+
 </nav>
-</div>
-</div>
-<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
-<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
-</svg>
-</button>
-</aside>
-<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+      </div>
+    </div>
+    <button type="button" @click="showSidebar = false"
+      class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" fill="currentColor"
+        stroke="none" class="h-4 w-4">
+        <path
+          d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z" />
+      </svg>
+    </button>
+  </aside>
+        <main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
 <div class="w-full min-w-0 mx-auto">
-<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
-<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
-<span class="hidden md:inline">aftermaths</span>
-<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
-<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
-</svg>
-</a>
-<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</span>
+<nav aria-label="breadcrumbs"
+     class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+  <a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground"
+     href="../../contents.html">
+    <span class="hidden md:inline">aftermaths</span>
+    <svg xmlns="http://www.w3.org/2000/svg"
+         height="18"
+         width="18"
+         viewBox="0 96 960 960"
+         aria-label="Home"
+         fill="currentColor"
+         stroke="none"
+         class="md:hidden">
+      <path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z" />
+    </svg>
+  </a>
+  
+<div class="mr-1">/</div><span aria-current="page"
+        class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)</span>
 </nav>
-<div id="content" role="main">
-<section id="id1">
-<h1>Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+
+    <div id="content" role="main">
+      <section id="id1">
+<h1>Τα πολλά πρόσωπα του αξιώματος της πληρότητας (1)<a class="headerlink" href="#id1" title="Link to this heading"><span>#</span></a></h1>
 <figure class="align-center" id="id11">
-<img alt="Ο πίνακας *Ο κύκνος Αρ. 1, Group IX/SUW* της `Hilma af Klint  &lt;https://en.wikipedia.org/wiki/Hilma_af_Klint&gt;`__." src="../../_images/hilma_af_klint_-_group_ix_suw_the_swan_no._1_13947.jpg"/>
+<img alt="Ο πίνακας *Ο κύκνος Αρ. 1, Group IX/SUW* της `Hilma af Klint  &lt;https://en.wikipedia.org/wiki/Hilma_af_Klint&gt;`__." src="../../_images/hilma_af_klint_-_group_ix_suw_the_swan_no._1_13947.jpg" />
 <figcaption>
-<p><span class="caption-text">Ο πίνακας <em>Ο κύκνος Αρ. 1, Group IX/SUW</em> της <a class="reference external" href="https://en.wikipedia.org/wiki/Hilma_af_Klint">Hilma af Klint</a>.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11"><span>#</span></a></p>
+<p><span class="caption-text">Ο πίνακας <em>Ο κύκνος Αρ. 1, Group IX/SUW</em> της <a class="reference external" href="https://en.wikipedia.org/wiki/Hilma_af_Klint">Hilma af Klint</a>.</span><a class="headerlink" href="#id11" title="Link to this image"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Σε αυτήν τη σειρά αναρτήσεων θα ασχοληθούμε με ένα ελαφρώς πιο προχωρημένο ζήτημα από τα συνήθη «λυκειακά» μαθηματικά, οπότε, κάθε γνώση έστω και λίγου απειροστικού λογισμού είναι ευπρόσδεκτη. Για την ακρίβεια, θα ασχοληθούμε με το αξίωμα της πληρότητας, δηλαδή εκείνο το αξίωμα που μας εξασφαλίζει ότι η ευθεία των πραγματικών αριθμών δεν έχει «τρύπες» αλλά είναι «πλήρης» - εξ ου και το όνομα του διάσημου αυτού αξιώματος.</p>
 <section id="id2">
-<h2>Τι είναι τα αξιώματα;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<h2>Τι είναι τα αξιώματα;<a class="headerlink" href="#id2" title="Link to this heading"><span>#</span></a></h2>
 <p>Πριν ξεκινήσουμε, ας βάλουμε λίγο κάποιες έννοιες στη σειρά. Όπως ίσως έχετε καταλάβει, στα μαθηματικά δε μας νοιάζει μόνο τι είναι «πραγματικά» αλήθεια - ίσως αυτό να μας απασχολεί και στο ελάχιστο - αλλά <em>πώς μπορούμε να συμπεράνουμε μία αλήθεια, δεδομένης μίας άλλης αλήθειας</em>. Γι” αυτό, άλλωστε, και η βασική διαδικασία που χαρακτηρίζει τα μαθηματικά ως επιστήμη είναι αυτή της απόδειξης και όχι του πειράματος, όπως συμβαίνει με τις άλλες θετικές (και όχι μόνο) επιστήμες. Ωστόσο, για να μπορέσουμε να αρχίσουμε να συμπεραίνουμε πράγματα, πρέπει από κάπου να ξεκινήσουμε, πρέπει, πιο «λαϊκά», να κυλήσει νερό στο αυλάκι. Με άλλα λόγια, χρειάζεται να έχουμε μία αρχική αλήθεια από την οποία, με διάφορους «νόμιμους» τρόπους, θα συμπεράνουμε κι άλλες αλήθειες. Αυτές τις βασικές αλήθειες που απλώς τις <em>αποδεχόμαστε</em> και δεν επιδιώκουμε - ούτε μπορούμε - να τις αποδείξουμε, τις ονομάζουμε <em>αξιώματα</em>. Είναι, λοιπόν, τα αξιώματα κάτι σαν το «σύνταγμα» των μαθηματικών «νόμων». Όλη η αλήθεια που έχουμε αποδείξει μπορεί να αναχθεί στην αλήθεια των αρχικών αξιωμάτων που έχουμε επιλέξει.</p>
 <p>Ένα ζήτημα που εμφανίζεται αμέσως είναι το πώς διαλέγουμε αξιώματα; Τι, άντε βουρ πάμε και λέμε «αυτή η πρόταση, κι αυτή η πρόταση, κι αυτή η πρόταση είναι αξιώματα»; Προφανώς, όχι. Αρχικά, σε ένα πιο χαλαρό επίπεδο, μας απασχολεί τα αξιώματά μας να εκφράζουν μία ευλογοφανή αλήθεια. Για παράδειγμα, μία μαθηματική πρόταση που να μας λέει ότι μπορούμε να κόψουμε ένα πορτοκάλι και να κατασκευάσουμε δύο πορτοκάλια ίδια με το αρχικό δεν είναι κάτι που εύκολα θα επιλέγαμε ως αξίωμα - ωστόσο, αυτό δε σημαίνει ότι είναι απαραίτητα και αναληθές. Επιλέγοντας, λοιπόν, τα αξιώματα που θα περιγράφουν τους πραγματικούς αριθμούς προσπαθούμε να έχουμε κατά νου αυτά να περιγράφουν σχετικά προφανείς έννοιες και σχέσεις μεταξύ τους. Πέρα από αυτό, χρειάζεται να έχουμε κι άλλα πράγματα κατά νου, όπως το να μην διαψεύδουν το ένα το άλλο και να είναι, γενικά λίγα και ανεξάρτητα μεταξύ τους - με άλλα λόγια, να μην μπορούμε να αποδείξουμε ένα από αυτά μέσω των άλλων. Συνοπτικά, θα λέγαμε ότι ένα σύνολο αξιωμάτων θέλουμε να είναι λιτό, απέριττο και, πρωτίστως, σχεδόν προφανές ότι όσα λέει αληθεύουν.</p>
 </section>
 <section id="id3">
-<h2>Τα «απλά» αξιώματα των πραγματικών αριθμών<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<h2>Τα «απλά» αξιώματα των πραγματικών αριθμών<a class="headerlink" href="#id3" title="Link to this heading"><span>#</span></a></h2>
 <p>Ωραία όλα αυτά, αλλά ας πάμε λίγο και στο δια ταύτα. Τι αξιώματα διαλέγουμε για να περιγράψουμε τους πραγματικούς αριθμούς; Λοιπόν, αρχικά υποθέτουμε ότι έχουμε μία πολύ ωραία πράξη που τη συμβολίζουμε με  <span class="math notranslate nohighlight">\(+\)</span> , τη «βαφτίζουμε» πρόσθεση και αυτό που κάνει είναι να παίρνει δύο πραγματικούς αριθμούς και τους αντιστοιχίζει σε έναν άλλον πραγματικό αριθμό που θα λέμε ότι είναι το άθροισμά τους. Για αυτήν την πράξη έχουμε τα ακόλουθα αξιώματα να την περιγράφουν:</p>
 <ul class="simple">
 <li><p><em>ύπαρξη του μηδενός:</em> υπάρχει ένας πραγματικός αριθμός που τον συμβολίζουμε με  <span class="math notranslate nohighlight">\(0\)</span>  για τον οποίο ισχύει ότι  <span class="math notranslate nohighlight">\(x+0=0+x=x\)</span>  για κάθε άλλο πραγματικό αριθμό  <span class="math notranslate nohighlight">\(x\)</span> ,</p></li>
@@ -195,7 +243,7 @@
 <li><p><em>ύπαρξη της μονάδας:</em> υπάρχει ένας πραγματικός αριθμός που τον συμβολίζουμε με  <span class="math notranslate nohighlight">\(1\)</span>  για τον οποίο ισχύει ότι  <span class="math notranslate nohighlight">\(x\cdot1=1\cdot x=x\)</span>  για κάθε άλλο πραγματικό αριθμό  <span class="math notranslate nohighlight">\(x\)</span>  και, επιπρόσθετα,  <span class="math notranslate nohighlight">\(1\neq0\)</span> ,</p></li>
 <li><p><em>αντιμεταθετική ιδιότητα:</em> για κάθε δύο πραγματικούς αριθμούς  <span class="math notranslate nohighlight">\(x,y\)</span>  ισχύει ότι  <span class="math notranslate nohighlight">\(x\cdot y=y\cdot x\)</span> ,</p></li>
 <li><p><em>προσεταιριστική ιδιότητα:</em> για κάθε τρεις πραγματικούς αριθμούς  <span class="math notranslate nohighlight">\(x,y,z\)</span>  ισχύει ότι  <span class="math notranslate nohighlight">\((x\cdot y)\cdot z=x\cdot(y\cdot z)\)</span>  - δηλαδή, μπορούμε ελεύθερα να γράφουμε  <span class="math notranslate nohighlight">\(x\cdot y\cdot z\)</span>  χωρίς να μας νοιάζει η σειρά με την οποία πολλαπλασιάζουμε τους  <span class="math notranslate nohighlight">\(x,y,z\)</span> ,</p></li>
-<li><p><em>ύπαρξη του αντιστρόφου:</em> για κάθε πραγματικό αριθμό  <span class="math notranslate nohighlight">\(x\)</span> <em>διάφορο του μηδενός</em> υπάρχει ένας άλλος πραγματικός αριθμός που θα τον συμβολίζουμε με  <span class="math notranslate nohighlight">\(x^{-1}\)</span>  τέτοιος ώστε  <span class="math notranslate nohighlight">\(x\cdot x^{-1}=x^{_1}\cdot x=1\)</span> .</p></li>
+<li><p><em>ύπαρξη του αντιστρόφου:</em> για κάθε πραγματικό αριθμό  <span class="math notranslate nohighlight">\(x\)</span>  <em>διάφορο του μηδενός</em> υπάρχει ένας άλλος πραγματικός αριθμός που θα τον συμβολίζουμε με  <span class="math notranslate nohighlight">\(x^{-1}\)</span>  τέτοιος ώστε  <span class="math notranslate nohighlight">\(x\cdot x^{-1}=x^{_1}\cdot x=1\)</span> .</p></li>
 </ul>
 <p>Εντάξει, κι εδώ όλα καλά, δεν περιγράψαμε και κάτι το παράξενο, είναι η αλήθεια - παρατηρήστε, ότι τα αξιώματα που περιγράφουν τον πολλαπλασιασμό είναι σχεδόν τα ίδια με αυτά που περιγράφουν την πρόσθεση με κάποιες μικροδιαφορές.</p>
 <p>Προσθέτουμε κι άλλο ένα αξίωμα που να συνδέει αυτές τις δύο πράξεις μεταξύ τους:</p>
@@ -214,10 +262,10 @@
 <li><p>για κάθε δύο πραγματικούς αριθμούς  <span class="math notranslate nohighlight">\(x,y\)</span>  ισχύει η εξής συνεπαγωγή: αν  <span class="math notranslate nohighlight">\(x&gt;0\)</span>  και  <span class="math notranslate nohighlight">\(y&gt;0\)</span>  τότε  <span class="math notranslate nohighlight">\(x+y&gt;0\)</span> ,</p></li>
 <li><p>αν δύο πραγματικοί αριθμοί  <span class="math notranslate nohighlight">\(x,y\)</span>  ικανοποιούν την  <span class="math notranslate nohighlight">\(x&lt;y\)</span>  τότε για κάθε άλλο πραγματικό αριθμό  <span class="math notranslate nohighlight">\(z\)</span>  ισχύει ότι  <span class="math notranslate nohighlight">\(x+z&lt;y+z\)</span> .</p></li>
 </ul>
-<p>Τα παραπάνω 12 εύλογα αξιώματα φαίνονται να περιγράφουν σχετικά καλά τους πραγματικούς αριθμούς. Ωστόσο, περιγράφουν κι άλλο ένα <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">υποσύνολο των πραγματικών αριθμών, αρκετά «μικρότερο», μάλιστα: τους ρητούς</a>. Όπως γνωρίζουμε, υπάρχουν αρκετοί αριθμοί που δεν μπορούν να εκφραστούν με τη μορφή κλασμάτων - όπως ο  <span class="math notranslate nohighlight">\(\pi\)</span>  ή <a class="reference external" href="docs/After-maths/οι-50-αποχρώσεις-του-e.rst">η βάση των φυσικών λογαρίθμων</a> <span class="math notranslate nohighlight">\(e\)</span> , οπότε θα θέλαμε κάπως η περιγραφή μας κάπως να περικλείει και αυτά τα «κενά» που έχουμε αφήσει.</p>
+<p>Τα παραπάνω 12 εύλογα αξιώματα φαίνονται να περιγράφουν σχετικά καλά τους πραγματικούς αριθμούς. Ωστόσο, περιγράφουν κι άλλο ένα <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">υποσύνολο των πραγματικών αριθμών, αρκετά «μικρότερο», μάλιστα: τους ρητούς</a>. Όπως γνωρίζουμε, υπάρχουν αρκετοί αριθμοί που δεν μπορούν να εκφραστούν με τη μορφή κλασμάτων - όπως ο  <span class="math notranslate nohighlight">\(\pi\)</span>  ή <a class="reference external" href="docs/After-maths/οι-50-αποχρώσεις-του-e.rst">η βάση των φυσικών λογαρίθμων</a>  <span class="math notranslate nohighlight">\(e\)</span> , οπότε θα θέλαμε κάπως η περιγραφή μας κάπως να περικλείει και αυτά τα «κενά» που έχουμε αφήσει.</p>
 </section>
 <section id="id4">
-<h2>Το αξίωμα της πληρότητας<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h2>
+<h2>Το αξίωμα της πληρότητας<a class="headerlink" href="#id4" title="Link to this heading"><span>#</span></a></h2>
 <p>Σε αυτό ακριβώς το σημείο έρχεται να μας βοηθήσει το αξίωμα της πληρότητας. Ας δούμε την πιο συνηθισμένη, ίσως, διατύπωσή του:</p>
 <p><strong>Κάθε μη κενό και άνω φραγμένο υποσύνολο των πραγματικών αριθμών έχει ελάχιστο άνω φράγμα (το οποίο είναι πραγματικός αριθμός).</strong></p>
 <p>Ωραία, και τι μ’αυτό; Πώς γέμισαν οι «τρύπες» που είχαμε αφήσει με τα προηγούμενα 12 αξιώματα; Βασικά, κάτι ακόμα πιο βασικό: τι λέει το παραπάνω αξίωμα;</p>
@@ -228,14 +276,14 @@
 <p>Μάλλον βάλαμε δύσκολα, ξαφνικά. Το αξίωμα της πληρότητας μάς λέει πώς τέτοια σύνολα δεν υπάρχουν. Ωστόσο, πώς αυτό ταιριάζει με την εικόνα που έχουμε για την ευθεία των πραγματικών αριθμών και, ειδικότερα, πώς μας δίνει την πολυπόθητη ιδιότητα της πληρότητας; Πώς, δηλαδή, γεμίζουν με αυτό το αξίωμα οι «τρύπες» μεταξύ των ρητών αριθμών; Ας πάμε πρώτα να εξετάσουμε την ισχύ του αξιώματος της πληρότητας στο σύνολο των ρητών αριθμών. Γι” αυτόν τον σκοπό θα πρέπει πρώτα να επαναδιατυπώσουμε κατάλληλα το αξίωμα της πληρότητας, έτσι ώστε να αναφέρεται αποκλειστικά σε ρητούς αριθμούς, ως εξής:</p>
 <p><strong>Κάθε μη κενό και άνω φραγμένο υποσύνολο των ρητών αριθμών έχει ελάχιστο άνω φράγμα (το οποίο είναι ρητός αριθμός).</strong></p>
 <p>Ουσιαστικά, δεν κάναμε τίποτα άλλο από το να αντικαταστήσουμε το σύνολο των πραγματικών αριθμών με αυτό των ρητών. Έτσι, το παραπάνω μας λέει ότι αν πάρουμε ένα μη κενό και άνω φραγμένο υποσύνολο των ρητών τότε αυτό θα έχει supremum <em>το οποίο θα είναι ρητός αριθμός.</em> Κι εδώ βρίσκεται η ουσιώδης διαφορά από το «original» αξίωμα της πληρότητας: το ελάχιστο άνω φράγμα υποθέτουμε ότι πρέπει να είναι και αυτό ρητός και όχι, ενδεχομένως, κάποιος πραγματικός αριθμός που δεν είναι ρητός - ίσως έχει αρχίσει να αχνοφαίνεται σιγά-σιγά πώς το «original» αξίωμα «γεμίζει» τις τρύπες που αναφέραμε παραπάνω.</p>
-<p>Πάμε τώρα να εξετάσουμε αν το αξίωμα της πληρότητας ισχύει για το σύνολο των ρητών αριθμών. Θεωρούμε το σύνολο  <span class="math notranslate nohighlight">\(A=\{x\in\mathbb{Q}:x^2&lt;2\}\)</span> , το σύνολο, δηλαδή, των ρητών που έχουν τετράγωνο μικρότερο του  <span class="math notranslate nohighlight">\(2\)</span> . Εμφανώς, αυτό το σύνολο είναι μη κενό - για παράδειγμα, ένας τέτοιος ρητός είναι το  <span class="math notranslate nohighlight">\(0\)</span>  - και άνω φραγμένο - για παράδειγμα, από το  <span class="math notranslate nohighlight">\(3\)</span>  αφού  <span class="math notranslate nohighlight">\(3^2=9\)</span> . Το αξίωμα της πληρότητας όπως το διατυπώσαμε για τους <em>ρητούς</em> αριθμούς - αν υποθέσουμε ότι ισχύει - μας λέει ότι υπάρχει το supremum του συνόλου  <span class="math notranslate nohighlight">\(A\)</span> , ότι υπάρχει, δηλαδή, ένας <em>ρητός αριθμός</em> <span class="math notranslate nohighlight">\(s\)</span>  τέτοιος ώστε για κάθε  <span class="math notranslate nohighlight">\(x\in A\)</span>  να ισχύει  <span class="math notranslate nohighlight">\(x\leq s\)</span>  και για κάθε άλλο άνω φράγμα  <span class="math notranslate nohighlight">\(y\)</span>  του  <span class="math notranslate nohighlight">\(A\)</span>  να ισχύει  <span class="math notranslate nohighlight">\(s\leq y\)</span> . Ωστόσο, υπάρχει πράγματι ένας τέτοιος <em>ρητός</em> αριθμός;</p>
+<p>Πάμε τώρα να εξετάσουμε αν το αξίωμα της πληρότητας ισχύει για το σύνολο των ρητών αριθμών. Θεωρούμε το σύνολο  <span class="math notranslate nohighlight">\(A=\{x\in\mathbb{Q}:x^2&lt;2\}\)</span> , το σύνολο, δηλαδή, των ρητών που έχουν τετράγωνο μικρότερο του  <span class="math notranslate nohighlight">\(2\)</span> . Εμφανώς, αυτό το σύνολο είναι μη κενό - για παράδειγμα, ένας τέτοιος ρητός είναι το  <span class="math notranslate nohighlight">\(0\)</span>  - και άνω φραγμένο - για παράδειγμα, από το  <span class="math notranslate nohighlight">\(3\)</span>  αφού  <span class="math notranslate nohighlight">\(3^2=9\)</span> . Το αξίωμα της πληρότητας όπως το διατυπώσαμε για τους <em>ρητούς</em> αριθμούς - αν υποθέσουμε ότι ισχύει - μας λέει ότι υπάρχει το supremum του συνόλου  <span class="math notranslate nohighlight">\(A\)</span> , ότι υπάρχει, δηλαδή, ένας <em>ρητός αριθμός</em>  <span class="math notranslate nohighlight">\(s\)</span>  τέτοιος ώστε για κάθε  <span class="math notranslate nohighlight">\(x\in A\)</span>  να ισχύει  <span class="math notranslate nohighlight">\(x\leq s\)</span>  και για κάθε άλλο άνω φράγμα  <span class="math notranslate nohighlight">\(y\)</span>  του  <span class="math notranslate nohighlight">\(A\)</span>  να ισχύει  <span class="math notranslate nohighlight">\(s\leq y\)</span> . Ωστόσο, υπάρχει πράγματι ένας τέτοιος <em>ρητός</em> αριθμός;</p>
 <p>Ας υποθέσουμε ότι υπάρχει. Τότε αυτός ο αριθμός θα πρέπει να ικανοποιεί τα εξής:</p>
 <ul class="simple">
 <li><p>να είναι ρητός, δηλαδή  <span class="math notranslate nohighlight">\(s\in\mathbb{Q}\)</span> ,</p></li>
 <li><p>να είναι άνω φράγμα του  <span class="math notranslate nohighlight">\(A\)</span> , δηλαδή να ισχύει  <span class="math notranslate nohighlight">\(x\leq s\)</span>  για κάθε  <span class="math notranslate nohighlight">\(x\in A\)</span> ,</p></li>
 <li><p>να είναι <em>ελάχιστο</em> άνω φράγμα του  <span class="math notranslate nohighlight">\(A\)</span> , δηλαδή, για κάθε άλλο άνω φράγμα  <span class="math notranslate nohighlight">\(y\)</span>  του  <span class="math notranslate nohighlight">\(A\)</span>  να ισχύει ότι  <span class="math notranslate nohighlight">\(s\leq y\)</span> .</p></li>
 </ul>
-<p>Θα δείξουμε, με βάση τη δεύτερη και την τρίτη υπόθεση, ότι  <span class="math notranslate nohighlight">\(s^2=2\)</span> , κάτι που θα μας οδηγήσει σε αντίφαση με το γεγονός ότι ο  <span class="math notranslate nohighlight">\(s\)</span>  είναι ρητός - γιατί, όπως μπορούμε εύκολα να αποδείξουμε, ένας αριθμός ο οποίος στο τετράγωνο είναι ίσος με  <span class="math notranslate nohighlight">\(2\)</span> <a class="reference external" href="http://ebooks.edu.gr/modules/ebook/show.php/DSGL-A100/490/3186,12918/">δεν μπορεί να είναι ρητός</a>. Ας υποθέσουμε, αρχικά, ότι  <span class="math notranslate nohighlight">\(s^2&lt;2\)</span> . Τότε, μπορούμε να βρούμε έναν φυσικό αριθμό  <span class="math notranslate nohighlight">\(n\)</span>  για τον οποίο να ισχύει:</p>
+<p>Θα δείξουμε, με βάση τη δεύτερη και την τρίτη υπόθεση, ότι  <span class="math notranslate nohighlight">\(s^2=2\)</span> , κάτι που θα μας οδηγήσει σε αντίφαση με το γεγονός ότι ο  <span class="math notranslate nohighlight">\(s\)</span>  είναι ρητός - γιατί, όπως μπορούμε εύκολα να αποδείξουμε, ένας αριθμός ο οποίος στο τετράγωνο είναι ίσος με  <span class="math notranslate nohighlight">\(2\)</span>  <a class="reference external" href="http://ebooks.edu.gr/modules/ebook/show.php/DSGL-A100/490/3186,12918/">δεν μπορεί να είναι ρητός</a>. Ας υποθέσουμε, αρχικά, ότι  <span class="math notranslate nohighlight">\(s^2&lt;2\)</span> . Τότε, μπορούμε να βρούμε έναν φυσικό αριθμό  <span class="math notranslate nohighlight">\(n\)</span>  για τον οποίο να ισχύει:</p>
 <div class="math notranslate nohighlight">
 \[n&gt;\frac{2s+1}{2-s^2}.\]</div>
 <p>Το ότι αυτό είναι εφικτό είναι προφανές - αφού το σύνολο των φυσικών δεν είναι άνω φραγμένο - αλλά το γιατί αυτό είναι χρήσιμο ίσως δεν είναι… Αλλά, ας δούμε λίγο τι ακριβώς μπορούμε να συμπεράνουμε από το παραπάνω. Αρχικά, αντιστρέφοντας τα δύο μέλη της ανισότητας παίρνουμε την:</p>
@@ -256,7 +304,7 @@
 <p>Ωραία όλα αυτά, αλλά ακόμα δεν έχουμε αποσαφηνίσει πώς θα γεμίσουν οι τρύπες, σωστά; Λοιπόν, όπως είδαμε παραπάνω, ο αριθμός που <em>από το αξίωμα της πληρότητας γνωρίζουμε ότι υπάρχει</em> και ότι είναι <em>πραγματικός</em> δεν είναι ρητός, επομένως είναι ένας «καινούργιος» αριθμός που δεν υπήρχε μέσα στο σύνολο των ρητών - ήταν, ας πούμε, μία από τις «τρύπες» στην ευθεία των πραγματικών αριθμών. Επομένως, πράγματι, το αξίωμα της πληρότητας περιγράφει - με τον δικό του, λίγο στρυφνό, τρόπο - ένα σύνολο που εκτός από τους ρητούς περιέχει και άλλους αριθμούς. Αυτό το σύνολο θα είναι από εδώ κι εμπρός το σύνολο όλων των πραγματικών αριθμών,  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> .</p>
 </section>
 <section id="id5">
-<h2>Η κατασκευή των πραγματικών αριθμών από τους ρητούς.<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id5'"><span>#</span></a></h2>
+<h2>Η κατασκευή των πραγματικών αριθμών από τους ρητούς.<a class="headerlink" href="#id5" title="Link to this heading"><span>#</span></a></h2>
 <p>Για να αποσαφηνίσουμε ακόμα περισσότερο την παραπάνω ιδέα, θα ξεκινήσουμε με τους ρητούς αριθμούς και θα περιγράψουμε μία διαδικασία κατασκευής των πραγματικών αριθμών, η οποία θα βασίζεται στην ιδέα που είδαμε ακριβώς παραπάνω - να πάρουμε όσα suprema συνόλων ρητών αριθμών δεν είναι ρητοί αριθμοί και να τα «βάλουμε» στο σύνολό των αριθμών μας. Για αυτήν την κατασκευή θα χρειαστεί πρώτα να ορίσουμε μία νέα έννοια, αυτήν της <em>τομής Dedekind.</em> Δίνουμε απευθείας τον ορισμό και θα τον συζητήσουμε μετά εκτενώς για να τον «χωνέψουμε» πιο εύκολα:</p>
 <div class="wp-block-group docutils container">
 <div class="wp-block-group-inner-container docutils container">
@@ -278,7 +326,7 @@
 </div>
 <p>Στην ουσία το  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>  αποτελείται από όλες τις τομές Dedekind που μπορούμε να κατασκευάσουμε, έχει, δηλαδή, ως στοιχεία του διατεταγμένα ζεύγη από σύνολα ρητών που διαμερίζουν το  <span class="math notranslate nohighlight">\(\mathbb{Q}\)</span>  με τον τρόπο που εξηγήσαμε παραπάνω. Θα δείξουμε τώρα ότι δικαίως συμβολίζουμε αυτό το σύνολο με  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> .</p>
 <section id="id6">
-<h3>Τα «εύκολα» αξιώματα<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id6" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id6'"><span>#</span></a></h3>
+<h3>Τα «εύκολα» αξιώματα<a class="headerlink" href="#id6" title="Link to this heading"><span>#</span></a></h3>
 <p>Πριν περάσουμε στο αξίωμα της πληρότητας θα δώσουμε μία ιδέα για το πώς μπορούμε να αποδείξουμε ότι τα υπόλοιπα αξιώματα ισχύουν στο  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> . Αλλά, για να κάνουμε κάτι τέτοιο, πρέπει να ορίσουμε με κάποιον τρόπο δύο πράξεις και μία σχέση διάταξης επί του  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> . Δηλαδή, πρέπει να ορίσουμε πράξεις και διάταξη στο σύνολο όλων των τομών Dedekind που έχουμε πρόθεση να ταυτίσουμε με το σύνολο των πραγματικών αριθμών.</p>
 <p>Ας ξεκινήσουμε από την πρόσθεση, που είναι σχετικά απλός ο ορισμός της. Θεωρούμε δύο τομές Dedekind  <span class="math notranslate nohighlight">\(a=(A_1,B_1)\)</span>  και  <span class="math notranslate nohighlight">\(b=(A_2,B_2)\)</span> . Τότε, το άθροισμα  <span class="math notranslate nohighlight">\(a+b\)</span>  αυτών των τομών θα είναι η τομή  <span class="math notranslate nohighlight">\(a+b:=(A_1+A_2,\mathbb{Q}\setminus(A_1+A_2))\)</span> , όπου, αν  <span class="math notranslate nohighlight">\(X,Y\)</span>  είναι δύο σύνολα τότε με  <span class="math notranslate nohighlight">\(X+Y\)</span>  συμβολίζουμε το σύνολο όλων των αθροισμάτων ενός στοιχείου του  <span class="math notranslate nohighlight">\(X\)</span>  με ένα στοιχείο του  <span class="math notranslate nohighlight">\(Y\)</span> , δηλαδή:</p>
 <div class="math notranslate nohighlight">
@@ -315,7 +363,7 @@
 <p>Με τα παραπάνω μπορούμε να αποδείξουμε όλα τα αξιώματα που περιγράφουν τον πολλαπλασιασμό καθώς και την επιμεριστική ιδιότητα, που συνδέει τις δύο πράξεις μας.</p>
 </section>
 <section id="id7">
-<span id="id8"></span><h3>Το αξίωμα της πληρότητας<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id7" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id7'"><span>#</span></a></h3>
+<span id="id8"></span><h3>Το αξίωμα της πληρότητας<a class="headerlink" href="#id7" title="Link to this heading"><span>#</span></a></h3>
 <p>Ώρα τώρα να αποδείξουμε αναλυτικά το αξίωμα της πληρότητας στο σύνολο που έχουμε κατασκευάσει - δηλαδή, το σύνολο όλων των τομών Dedekind. Αλλά, πριν από αυτό, ας δούμε λίγο τι γράφει η προηγούμενη πρόταση: «…να αποδείξουμε αναλυτικά το αξίωμα…». Στην αρχή δεν είχαμε πει ότι τα αξιώματα <em>δεν τα αποδεικνύουμε, αλλά τα δεχόμαστε;</em> Πώς εδώ λοιπόν θα πάμε να αποδείξουμε το αξίωμα της πληρότητας; Ακόμα χειρότερα, πώς τόσην ώρα «αποδεικνύουμε» τα αξιώματα των πράξεων και της διάταξης, αφού είναι αξιώματα;</p>
 <p>Ας βάλουμε λίγο τα πράγματα στη θέση τους. Τα αξιώματα πράγματι δεν τα αποδεικνύουμε. Ωστόσο, ας δούμε λίγο τι έχουμε κάνει ως τώρα. Ξεκινήσαμε από ένα σύνολο που ικανοποιεί όλα τα αξιώματα της διάταξης και των πράξεων αλλά όχι της πληρότητας - τους <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">ρητούς</a> - και προσπαθούμε να κατασκευάσουμε ένα άλλο σύνολο στο οποίο να ισχύουν όλα αυτά τα αξιώματα που είχαμε και, επιπρόσθετα, <em>για τα στοιχεία αυτού του νέου συνόλου</em> να ισχύει και το αξίωμα της πληρότητας. Έτσι, ακόμα και τα αξιώματα των πράξεων και της διάταξης που έχουμε υποθέσει ότι ισχύουν στους <em>ρητούς</em> ωφείλουμε να αποδείξουμε ότι ισχύουν για το νέο σύνολο που κατασκευάσαμε - μιας και δεν αναφέρονταν σε τομές Dedekind αυτά τα αξιώματα, αλλά σε ρητούς αριθμούς. Έτσι, αυτό που εμείς κάνουμε εδώ είναι να κατασκευάζουμε ένα <em>μοντέλο</em> για τα παραπάνω αξιώματα. Με άλλα λόγια, κατασκευάζουμε ένα σύνολο - στην προκειμένη, το σύνολο όλων των τομών Dedekind - το οποίο αποσκοπούμε στο να ικανοποιεί όλα αυτά τα αξιώματα που ικανοποιούσαν και οι ρητοί και, επιπρόσθετα, να ικανοποιεί και το πολυπόθητο αξίωμα της πληρότητας.</p>
 <p>Επιστρέφουμε τώρα στην απόδειξη του αξιώματος της πληρότητας ή, αν προτιμάτε, στην απόδειξη της ισχύος του αξιώματος της πληρότητας στο σύνολο των τομών Dedekind που έχουμε κατασκευάσει. Ας υπενθυμίσουμε, για αρχή, το ίδιο το αξίωμα της πληρότητας:</p>
@@ -335,7 +383,7 @@
 <p>Έτσι, αποδείξαμε ότι στο νέο σύνολο όλων των τομών Dedekind που κατασκευάσαμε ισχύουν τόσο τα αξιώματα των δύο πράξεων και της διάταξης όσο και το αξίωμα της πληρότητας. Αυτό το νέο σύνολο θα το ονομάζουμε σύνολο των πραγματικών αριθμών και θα το συμβολίζουμε, όπως έχουμε ήδη αναφέρει και αναμέναμε, με  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> .</p>
 </section>
 <section id="id9">
-<h3>Φυτεύοντας κλάσματα<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id9'"><span>#</span></a></h3>
+<h3>Φυτεύοντας κλάσματα<a class="headerlink" href="#id9" title="Link to this heading"><span>#</span></a></h3>
 <p>Δώσαμε μία υπόσχεση κάπου παραπάνω, ότι θα «εμφυτεύσουμε» τους «παραδοσιακούς» ρητούς μέσα στο νέο σύνολο που κατασκευάσαμε. Αρχικά, με τον όρο εμφύτευση εννοούμε ότι θα βρούμε ένα υποσύνολο του  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span> , όπως το έχουμε ορίσει παραπάνω, το οποίο θα έχει ιδιότητες ανάλογες με αυτές του γνωστού μας συνόλου των ρητών αριθμών. Με άλλα λόγια, θα «μεταφέρουμε», κατά κάποιον τρόπο, τους ρητούς αριθμούς στο νέο πλαίσιο μέσα στο οποίο μιλάμε πλέον - αυτό των τομών Dedekind.</p>
 <p>Η εμφύτευση αυτή είναι αρκετά απλή και άμεση, είναι η αλήθεια. Θεωρούμε έναν ρητό  <span class="math notranslate nohighlight">\(q\in\mathbb{Q}\)</span>  και το σύνολο:</p>
 <div class="math notranslate nohighlight">
@@ -354,7 +402,7 @@
 </section>
 </section>
 <section id="id10">
-<h2>Επίλογος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id10" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id10'"><span>#</span></a></h2>
+<h2>Επίλογος<a class="headerlink" href="#id10" title="Link to this heading"><span>#</span></a></h2>
 <p>Σε αυτό το πρώτο μέρος της σειράς μας είδαμε κάποια βασικά περί αξιωμάτων, την κλασσική διατύπωση του αξιώματος της πληρότητας καθώς και το πώς με βάση αυτή τη μορφή του μπορούμε να κατασκευάσουμε με εφαλτήριο τους ρητούς αριθμούς ένα σύνολο που να ικανοποιεί και τα 13 αξιώματα των πραγματικών αριθμών.</p>
 <p>Στην πορεία αυτής της σειράς θα εξερευνήσουμε τα διάφορα πρόσωπα του αξιώματος της πληρότητας - δηλαδή, διάφορες ισοδύναμες διατυπώσεις του - καθώς και το πώς αυτά μπορούν να μας οδηγήσουν σε διάφορες κατασκευές των πραγματικών αριθμών μέσα από τους ρητούς. <a class="reference external" href="docs/After-maths/τα-πολλά-πρόσωπα-του-αξιώματος-της-πλη.rst">Στο επόμενο μέρος της σειράς</a> θα εξετάσουμε τη διατύπωση του αξιώματος της πληρότητας μέσω βασικών ακολουθιών, την ισοδυναμία της με αυτή τη μορφή που δώσαμε τώρα καθώς και μία αρκετά ενδιαφέρουσα κατασκευή των πραγματικών αριθμών βασισμένη σε αυτή τη διατύπωση.</p>
 <p>Μέχρι τότε, εις το επανειδείν!</p>
@@ -364,54 +412,79 @@
 </iframe></div></div></blockquote>
 </section>
 </section>
-</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
-<div class="mr-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html">
-<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-<polyline points="15 18 9 12 15 6"></polyline>
-</svg>
+
+    </div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+    <div class="mr-auto">
+      <a href="%CF%84%CE%B1-%CE%BF%CE%BB%CF%85%CE%BC%CF%80%CE%B9%CE%B1%CE%BA%CE%AC-%CF%85%CE%B4%CF%81%CE%BF%CE%B8%CE%B5%CF%81%CE%BC%CE%B9%CE%BA%CE%AD%CF%82-%CF%83%CF%85%CE%BD%CE%B1%CF%81%CF%84%CE%AE%CF%83%CE%B5.html"
+         class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4">
+        <svg xmlns="http://www.w3.org/2000/svg"
+             width="24"
+             height="24"
+             viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             class="mr-2 h-4 w-4">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
         Τα Ολυμπιακά: Υδροθερμικές Συναρτήσεις;
       </a>
-</div>
-<div class="ml-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html">
+    </div>
+    <div class="ml-auto">
+      <a href="%CF%84%CE%B1-%CF%80%CE%BF%CE%BB%CE%BB%CE%AC-%CF%80%CF%81%CF%8C%CF%83%CF%89%CF%80%CE%B1-%CF%84%CE%BF%CF%85-%CE%B1%CE%BE%CE%B9%CF%8E%CE%BC%CE%B1%CF%84%CE%BF%CF%82-%CF%84%CE%B7%CF%82-%CF%80%CE%BB%CE%B7.html"
+         class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4">
         Τα πολλά πρόσωπα του αξιώματος της πληρότητας (2α)
-        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-<polyline points="9 18 15 12 9 6"></polyline>
-</svg>
-</a>
-</div>
-</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
-<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
-<ul>
-<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Τι είναι τα αξιώματα;</a></li>
-<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Τα «απλά» αξιώματα των πραγματικών αριθμών</a></li>
-<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Το αξίωμα της πληρότητας</a></li>
-<li><a :data-current="activeSection === '#id5'" class="reference internal" href="#id5">Η κατασκευή των πραγματικών αριθμών από τους ρητούς.</a><ul>
-<li><a :data-current="activeSection === '#id6'" class="reference internal" href="#id6">Τα «εύκολα» αξιώματα</a></li>
-<li><a :data-current="activeSection === '#id7'" class="reference internal" href="#id7">Το αξίωμα της πληρότητας</a></li>
-<li><a :data-current="activeSection === '#id9'" class="reference internal" href="#id9">Φυτεύοντας κλάσματα</a></li>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             width="24"
+             height="24"
+             viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             class="ml-2 h-4 w-4">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </a>
+    </div>
+</div></div><aside id="right-sidebar" class="hidden text-sm xl:block">
+  <div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+    <ul>
+<li><a class="reference internal" href="#id2">Τι είναι τα αξιώματα;</a></li>
+<li><a class="reference internal" href="#id3">Τα «απλά» αξιώματα των πραγματικών αριθμών</a></li>
+<li><a class="reference internal" href="#id4">Το αξίωμα της πληρότητας</a></li>
+<li><a class="reference internal" href="#id5">Η κατασκευή των πραγματικών αριθμών από τους ρητούς.</a><ul>
+<li><a class="reference internal" href="#id6">Τα «εύκολα» αξιώματα</a></li>
+<li><a class="reference internal" href="#id7">Το αξίωμα της πληρότητας</a></li>
+<li><a class="reference internal" href="#id9">Φυτεύοντας κλάσματα</a></li>
 </ul>
 </li>
-<li><a :data-current="activeSection === '#id10'" class="reference internal" href="#id10">Επίλογος</a></li>
+<li><a class="reference internal" href="#id10">Επίλογος</a></li>
 </ul>
 </div>
 </aside>
-</main>
-</div>
-</div><footer class="py-6 border-t border-border md:py-0">
-<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
-<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
-<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+        </main>
+      </div>
+    </div><footer class="py-6 border-t border-border md:py-0">
+    <div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+      <div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+        <p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths&nbsp;Built with <a class="font-medium underline underline-offset-4"
+    href="https://www.sphinx-doc.org"
+    rel="noreferrer">Sphinx 8.2.3</a></p>
 </div>
 </div>
 </footer>
-</div>
-<script src="../../_static/documentation_options.js?v=1fea401f"></script>
-<script src="../../_static/doctools.js?v=9bcbadda"></script>
-<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
-<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
-<script src="../../_static/translations.js?v=e109e2be"></script>
-<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </div>
+  
+    <script src="../../_static/documentation_options.js?v=1fea401f"></script>
+    <script src="../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+    <script src="../../_static/translations.js?v=e109e2be"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
 </body>
 </html>

@@ -1,29 +1,36 @@
 <!DOCTYPE html>
-
-<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<html lang="el"
+      data-content_root="../../"
+      x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }"
+      x-init="$watch('darkMode', val => localStorage.setItem('darkMode', val))"
+      class="scroll-smooth"
+      :class="{'dark': darkMode === 'dark' || (darkMode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)}"
+>
 <head>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta charset="utf-8"/>
-<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
-<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="2021-01-24 09:12" name="date"/>
-<meta content="aftermathsgr" name="author"/>
-<meta content="After-maths, Μαθηματικά" name="category"/>
-<meta content="featured, άλγεβρα, απειροστά, εξωσχολικά, μαθηματικά" name="tags"/>
-<meta content="0999" name="slug"/>
-<meta content="published" name="status"/>
-<meta content="_static/images/uploads/2021/01/kazimir_malevich_1915_black_suprematic_square_oil_on_linen_canvas_79.5_x_79.5_cm_tretyakov_gallery_moscow.jpg" name="attachments"/>
-<title>0,999… = ??? | aftermaths</title>
-<meta content="0,999… = ??? | aftermaths" property="og:title"/>
-<meta content="0,999… = ??? | aftermaths" name="twitter:title"/>
-<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
-<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
-<link href="../../search.html" rel="search" title="Αναζήτηση"/>
-<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
-<link href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html" rel="next" title="Hyperreals: Απειροστά και άπειροι αριθμοί"/>
-<link href="../../index.html" rel="prev" title="aftermaths"/>
-<script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="white" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta content="2021-01-24 09:12" name="date" />
+<meta content="aftermathsgr" name="author" />
+<meta content="After-maths, Μαθηματικά" name="category" />
+<meta content="featured, άλγεβρα, απειροστά, εξωσχολικά, μαθηματικά" name="tags" />
+<meta content="0999" name="slug" />
+<meta content="published" name="status" />
+<meta content="_static/images/uploads/2021/01/kazimir_malevich_1915_black_suprematic_square_oil_on_linen_canvas_79.5_x_79.5_cm_tretyakov_gallery_moscow.jpg" name="attachments" />
+
+    <title>0,999… = ??? | aftermaths</title>
+    <meta property="og:title" content="0,999… = ??? | aftermaths" />
+    <meta name="twitter:title" content="0,999… = ??? | aftermaths" />
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=e72c8e07" />
+      <link rel="stylesheet" type="text/css" href="../../_static/theme.css?v=42baaae4" />
+        <link rel="search" title="Αναζήτηση" href="../../search.html" />
+        <link rel="index" title="Ευρετήριο" href="../../genindex.html" />
+          <link rel="next" title="Hyperreals: Απειροστά και άπειροι αριθμοί" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html" />
+          <link rel="prev" title="aftermaths" href="../../contents.html" />
+
+    <script>
     <!-- Prevent Flash of wrong theme -->
       const userPreference = localStorage.getItem('darkMode');
       let mode;
@@ -36,58 +43,83 @@
       if (!userPreference) {localStorage.setItem('darkMode', mode)}
     </script>
 </head>
-<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
-<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+  <body x-data="{ showSidebar: false, showScrollTop: false }" class="min-h-screen font-sans antialiased bg-background text-foreground" :class="{ 'overflow-hidden': showSidebar }">
+    <div x-cloak x-show="showSidebar" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" @click.self="showSidebar = false"></div><div id="page" class="relative flex flex-col min-h-screen"><a href="#content" class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100">
       Skip to content
-    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
-<div class="hidden mr-4 md:flex">
-<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
-</a><nav class="flex items-center space-x-6 text-sm font-medium">
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
-</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
-<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
-</svg>
-<span class="sr-only">Toggle navigation menu</span>
-</button>
-<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
-<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
-<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
-<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
-<span class="text-xs">⌘</span>
+    </a><header
+  class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+    <div class="hidden mr-4 md:flex">
+      <a href="../../contents.html" class="flex items-center mr-6"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+      </a><nav class="flex items-center space-x-6 text-sm font-medium">
+        <a href="/about.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Σχετικά</a>
+        <a href="/panellinies.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Πανελλήνιες</a>
+        <a href="../%CE%B4%CE%B9%CE%B4%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CF%8C-%CF%85%CE%BB%CE%B9%CE%BA%CF%8C.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Υλικό</a>
+        <a href="/contact.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Επικοινωνία</a>
+      </nav></div><button
+      class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden"
+      type="button" @click="showSidebar = true">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" aria-hidden="true"
+        fill="currentColor">
+        <path
+          d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z" />
+      </svg>
+      <span class="sr-only">Toggle navigation menu</span>
+    </button>
+    <div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+      <div class="flex-1 w-full md:w-auto md:flex-none"><form id="searchbox"
+      action="../../search.html"
+      method="get"
+      class="relative flex items-center group"
+      @keydown.k.window.meta="$refs.search.focus()">
+  <input x-ref="search"
+          name="q"
+          id="search-input"
+          type="search"
+          aria-label="Search the docs"
+          placeholder="Search ..."
+          class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" />
+  <kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+    <span class="text-xs">⌘</span>
     K
   </kbd>
 </form>
-</div>
-<nav class="flex items-center space-x-1">
-<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
-<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
-</svg>
-<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
-</svg>
-</button>
-</nav>
-</div>
-</div>
+      </div>
+      <nav class="flex items-center space-x-1">
+        <button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'"
+          class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9"
+          type="button"
+          aria-label="Color theme switcher">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" fill="currentColor"
+            class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0">
+            <path
+              d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" fill="currentColor"
+            class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100">
+            <path
+              d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z" />
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </div>
 </header>
-<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
-<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
-</a>
-<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
-<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
-<a href="/about.html">Σχετικά</a>
-<a href="/panellinies.html">Πανελλήνιες</a>
-<a href="/materials.html">Υλικό</a>
-<a href="/tools.html">Εργαλεία</a>
-<a href="/contact.html">Επικοινωνία</a>
+
+    <div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside id="left-sidebar"
+  class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky"
+  :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }">
+
+    <a href="../../contents.html" class="!justify-start text-sm md:!hidden bg-background"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+    </a>
+
+    <div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+      <div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+  <a href="/about.html">Σχετικά</a>
+  <a href="/panellinies.html">Πανελλήνιες</a>
+  <a href="../%CE%B4%CE%B9%CE%B4%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CF%8C-%CF%85%CE%BB%CE%B9%CE%BA%CF%8C.html">Υλικό</a>
+  <a href="/contact.html">Επικοινωνία</a>
 </nav><nav class="table w-full min-w-full my-6 lg:my-8">
-<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+  <p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
 <ul class="current">
 <li class="toctree-l1 current"><a class="current reference internal" href="#">0,999… = ???</a></li>
 <li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
@@ -145,38 +177,54 @@
 <li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
 <li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
 </ul>
+
 </nav>
-</div>
-</div>
-<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
-<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
-</svg>
-</button>
-</aside>
-<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+      </div>
+    </div>
+    <button type="button" @click="showSidebar = false"
+      class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" fill="currentColor"
+        stroke="none" class="h-4 w-4">
+        <path
+          d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z" />
+      </svg>
+    </button>
+  </aside>
+        <main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
 <div class="w-full min-w-0 mx-auto">
-<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
-<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
-<span class="hidden md:inline">aftermaths</span>
-<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
-<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
-</svg>
-</a>
-<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">0,999… = ???</span>
+<nav aria-label="breadcrumbs"
+     class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+  <a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground"
+     href="../../contents.html">
+    <span class="hidden md:inline">aftermaths</span>
+    <svg xmlns="http://www.w3.org/2000/svg"
+         height="18"
+         width="18"
+         viewBox="0 96 960 960"
+         aria-label="Home"
+         fill="currentColor"
+         stroke="none"
+         class="md:hidden">
+      <path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z" />
+    </svg>
+  </a>
+  
+<div class="mr-1">/</div><span aria-current="page"
+        class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">0,999… = ???</span>
 </nav>
-<div id="content" role="main">
-<section id="id1">
-<h1>0,999… = ???<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1"><span>#</span></a></h1>
+
+    <div id="content" role="main">
+      <section id="id1">
+<h1>0,999… = ???<a class="headerlink" href="#id1" title="Link to this heading"><span>#</span></a></h1>
 <figure class="align-center" id="id4">
-<img alt="Ο πίνακας *Μαύρο Τετράγωνο* του `Kazimir Malevich  &lt;https://en.wikipedia.org/wiki/Kazimir_Malevich&gt;`__\ *.*" src="../../_images/kazimir_malevich_1915_black_suprematic_square_oil_on_linen_canvas_79.5_x_79.5_cm_tretyakov_gallery_moscow.jpg"/>
+<img alt="Ο πίνακας *Μαύρο Τετράγωνο* του `Kazimir Malevich  &lt;https://en.wikipedia.org/wiki/Kazimir_Malevich&gt;`__\ *.*" src="../../_images/kazimir_malevich_1915_black_suprematic_square_oil_on_linen_canvas_79.5_x_79.5_cm_tretyakov_gallery_moscow.jpg" />
 <figcaption>
-<p><span class="caption-text">Ο πίνακας <em>Μαύρο Τετράγωνο</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Kazimir_Malevich">Kazimir Malevich</a><em>.</em></span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4"><span>#</span></a></p>
+<p><span class="caption-text">Ο πίνακας <em>Μαύρο Τετράγωνο</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Kazimir_Malevich">Kazimir Malevich</a><em>.</em></span><a class="headerlink" href="#id4" title="Link to this image"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Κλασσικό σημείο διαμάχης σε διάφορες τάξεις αποτελεί η τιμή της παράστασης  <span class="math notranslate nohighlight">\(0.999\ldots=0.\overline{9}\)</span> . Κάθε τέτοια διαμάχη είναι, σαφώς, και μία ευκαιρία για συζήτηση στην τάξη έτσι ώστε να έρθουν στην επιφάνεια παρανοήσεις σε σχέση με τους πραγματικούς αριθμούς και τη φύση τους - τουλάχιστον σε σχέση με το συμβατικό μοντέλο που έχουμε στο μυαλό μας. Ωστόσο, το ερώτημα «με τι ισούται το  <span class="math notranslate nohighlight">\(0.999\ldots\)</span> ;» ίσως και να κρύβει πολλά περισσότερα πράγματα από όσα να υποπτευόμαστε από πίσω του. Στην παρούσα ανάρτηση θα προσπαθήσουμε να εξερευνήσουμε κάποια από αυτά καθώς και να εξετάσουμε αν μία <a class="reference external" href="docs/After-maths/hyperreals-απειροστά-και-άπειροι-αριθμοί.rst">μη συμβατική θεώρηση των πραγματικών αριθμών</a> είναι ικανή να ερμηνεύσει κάποιες από τις συνήθεις παρανοήσεις των μαθητών - τουλάχιστον σε θεωρηττικό επίπεδο, για αρχή.</p>
 <section id="id2">
-<h2>Μία «συμβατική» αντιμετώπιση<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<h2>Μία «συμβατική» αντιμετώπιση<a class="headerlink" href="#id2" title="Link to this heading"><span>#</span></a></h2>
 <p>Αρχής γενομένης, για να συζητήσουμε για το παραπάνω σύμβολο πρέπει πρώτα να αποσαφηνίσουμε πώς αυτό ερμηνεύεται - με άλλα λόγια, τι υπονοούν αυτές οι τρεις τελείες. Η συνήθης ερμηνεία είναι, γράφοντας  <span class="math notranslate nohighlight">\(x=0.999\ldots\)</span> , να υπονοούμε ένα δεκαδικό ανάπτυγμα που να περιέχει άπειρα στο πλήθος «9». Με άλλα λόγια, υπονοούμε τον αριθμό:</p>
 <div class="math notranslate nohighlight">
 \[x=9\cdot10^{-1}+9\cdot10^{-2}+9\cdot10^{-3}+\ldots=\sum_{k=1}^\infty9\cdot10^{-k}.\]</div>
@@ -218,20 +266,20 @@
 <p>για κάθε  <span class="math notranslate nohighlight">\(n=1,2,\ldots\)</span> , συνεπώς, από τα παραπάνω, θα ισχύει ότι  <span class="math notranslate nohighlight">\(1-0.999\ldots=0\)</span> , δηλαδή  <span class="math notranslate nohighlight">\(0.999\ldots=1\)</span> , όπως θέλαμε.</p>
 <p>Ουσιαστικά, δείξαμε ότι το  <span class="math notranslate nohighlight">\(0.999\ldots\)</span>  και το  <span class="math notranslate nohighlight">\(1\)</span>  βρίσκονται οσοδήποτε κοντά θέλουμε, συνεπώς θα συμπίπτουν. Εισάγοντας μία έννοια «κίνησης» μπορούμε να πούμε ότι τα  <span class="math notranslate nohighlight">\(a_n\)</span>  παρασύρουν τον  <span class="math notranslate nohighlight">\(0.999\ldots\)</span>  στην πορεία τους προς το  <span class="math notranslate nohighlight">\(1\)</span>  - μία απλή ιδέα, αν το καλοσκεφτούμε - όπως φαίνεται και στο παρακάτω σχήμα:</p>
 <figure class="wp-image-4478 align-default" id="id5">
-<img alt="Πλησιάζοντας τη μονάδα..." src="https://aftermaths.gr/_static/images/uploads/2021/01/convergence.gif?w=709"/>
+<img alt="Πλησιάζοντας τη μονάδα..." src="https://aftermaths.gr/_static/images/uploads/2021/01/convergence.gif?w=709" />
 <figcaption>
-<p><span class="caption-text">Πλησιάζοντας τη μονάδα…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5"><span>#</span></a></p>
+<p><span class="caption-text">Πλησιάζοντας τη μονάδα…</span><a class="headerlink" href="#id5" title="Link to this image"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Είναι εμφανές, τώρα, πως επειδή ο  <span class="math notranslate nohighlight">\(0.999\ldots\)</span>  είναι «εγκλωβισμένος» ανάμεσα στο 1 και τα  <span class="math notranslate nohighlight">\(a_n\)</span> , καθώς το  <span class="math notranslate nohighlight">\(n\)</span>  μεγαλώνει αυθαίρετα και συνακόλουθα τα  <span class="math notranslate nohighlight">\(a_n\)</span>  προσεγγίζουν απεριόριστα πολύ το  <span class="math notranslate nohighlight">\(1\)</span>  και, όπως είπαμε, «συμπαρασύρουν» μαζί τους και τον  <span class="math notranslate nohighlight">\(0.999\ldots\)</span> .</p>
 </section>
 <section id="id3">
-<h2>Μία «μη συμβατική» ματιά…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id3" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id3'"><span>#</span></a></h2>
+<h2>Μία «μη συμβατική» ματιά…<a class="headerlink" href="#id3" title="Link to this heading"><span>#</span></a></h2>
 <p>Ωραία όλα αυτά και σίγουρα χρήσιμα όταν θέλουμε να εξηγήσουμε κάπως πιο αυστηρά και να φωτίσουμε διάφορα ζητήματα γύρω από το γιατί  <span class="math notranslate nohighlight">\(0.999\ldots=1\)</span> . Ωστόσο, αρκετά παιδιά δείχνουν ιδιαίτερα δύσπιστα σε σχέση με το γεγονός αυτό, ακόμα κι έπειτα από εκτενή συζήτηση. Ένα από τα κύρια επιχειρήματα που διατυπώνουν είναι ότι ο  <span class="math notranslate nohighlight">\(0.999\ldots\)</span>  δεν είναι ίσος με  <span class="math notranslate nohighlight">\(1\)</span>  αλλά «αμέσως» ή «πάααρα πολύ λίγο» πιο πριν από το  <span class="math notranslate nohighlight">\(1\)</span> . Το «αμέσως» μπορεί σχετικά εύκολα να απορριφθεί, αφού αν  <span class="math notranslate nohighlight">\(0.999\ldots&lt;1\)</span>  τότε ο μέσος όρος τους θα βρίσκεται ακριβώς ανάμεσά τους και θα είναι, σαφώς, πιο κοντά στο  <span class="math notranslate nohighlight">\(1\)</span>  από ό,τι ο  <span class="math notranslate nohighlight">\(0.999\ldots\)</span> , άτοπο, όπως φαίνεται και παρακάτω:</p>
 <figure class="wp-image-4485 align-default" id="id6">
-<img alt="Δεν υπάρχει αμέσως προηγούμενος αριθμός από το 1!" src="https://aftermaths.gr/_static/images/uploads/2021/01/middle-1-1.png?w=945"/>
+<img alt="Δεν υπάρχει αμέσως προηγούμενος αριθμός από το 1!" src="https://aftermaths.gr/_static/images/uploads/2021/01/middle-1-1.png?w=945" />
 <figcaption>
-<p><span class="caption-text">Δεν υπάρχει αμέσως προηγούμενος αριθμός από το 1!</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id6"><span>#</span></a></p>
+<p><span class="caption-text">Δεν υπάρχει αμέσως προηγούμενος αριθμός από το 1!</span><a class="headerlink" href="#id6" title="Link to this image"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Ωστόσο, το «πάαααρα πολύ λίγο» πριν το  <span class="math notranslate nohighlight">\(1\)</span>  δεν είναι τόσο απλό. Σαφώς, αν υποθέσουμε ότι το «πάαααρα πολύ λίγο» είναι πραγματικός αριθμός, τότε όσα είπαμε παραπάνω μας καλύπτουν. Αν όμως το «πάαααρα πολύ λίγο» εκφράζει, με έναν απλοϊκό τρόπο, μία <a class="reference external" href="docs/After-maths/hyperreals-απειροστά-και-άπειροι-αριθμοί.rst">απειροστή</a> απόσταση; Με άλλα λόγια, έχει βάση να θεωρήσουμε ότι ένα παιδί, λέγοντας ότι το  <span class="math notranslate nohighlight">\(0.999\ldots\)</span>  διαφέρει από το  <span class="math notranslate nohighlight">\(1\)</span>  «πάαααρα πολύ λίγο», εννοεί ότι απέχει όχι κατά κάποιον πραγματικό αριθμό, αλλά κατά κάποιο απειροστό;</p>
@@ -251,9 +299,9 @@
 <p>Σε αυτήν την περίπτωση, όπου αυτό που βρίσκεται πίσω από τη διαίσθηση και τα λάθη ενός μαθητή είναι μία λανθάνουσα μη συμβατική θεώρηση των πραγματικών αριθμών και όχι κάποια συθέμελα εσφαλμένη εικόνα τους, ανοίγονται πολλοί δρόμοι σε σχέση με το πώς μπορούμε να εργαστούμε για να ανασκευάσουμε αυτήν την εικόνα και να τη φέρουμε εντός της συμβατικής θεώρησης των αριθμών. Αρχικά, ο πιο απλός τρόπος είναι να αρνηθούμε την ύπαρξη των απειροστών στα πλαίσια της θεωρίας του σχολείου μας και να προχωρήσουμε όπως παραπάνω. Για την ακρίβεια, ίσως αυτός να είναι και ο πλέον ενδεδειγμένος τρόπος να δράσουμε σε μία τάξη, μιας και ο χρόνος πολλές φορές δεν επαρκεί για να υπεισέλθουμε σε λεπτομέρειες περί απειροστών και τα συναφή.</p>
 <p>Από την άλλη μπορούμε σίγουρα να εργαστούμε και διαφορετικά. Αντί να απορρίψουμε την ύπαρξη απειροστών μπορούμε να κάνουμε μία αναφορά σε αυτά, με όποιον τρόπο θεωρούμε δόκιμο και, ενδεχομένως, να αποσαφηνίσουμε το γεγονός ότι, στα πλαίσια της ύλης που εξετάζεται στα σχολικά μαθηματικά, ο συμβολισμός  <span class="math notranslate nohighlight">\(0.999\ldots\)</span>  υπονοεί, επί της ουσίας, ένα όριο ή, ακόμα καλύτερα, ένα άπειρο άθροισμα ή, με πιο απλά λόγια, το «τελικό» αποτέλεσμα μίας διαδικασίας. Έτσι, για παράδειγμα, μπορούμε να σκεφτούμε τον  <span class="math notranslate nohighlight">\(0.999\ldots\)</span>  όπως εικονίζεται παρακάτω:</p>
 <figure class="wp-image-4502 align-default" id="id7">
-<img alt="«Χτίζοντας» τον 0,999..." src="https://aftermaths.gr/_static/images/uploads/2021/01/limit.gif?w=709"/>
+<img alt="«Χτίζοντας» τον 0,999..." src="https://aftermaths.gr/_static/images/uploads/2021/01/limit.gif?w=709" />
 <figcaption>
-<p><span class="caption-text">«Χτίζοντας» τον 0,999…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id7"><span>#</span></a></p>
+<p><span class="caption-text">«Χτίζοντας» τον 0,999…</span><a class="headerlink" href="#id7" title="Link to this image"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Επί της ουσίας, στο παραπάνω υπονοείται πως το «τελικό» αποτέλεσμα του να προσθέτουμε συνεχώς «9» στην ουρά του  <span class="math notranslate nohighlight">\(0.9\)</span>  είναι να πάρουμε, έπειτα από άπειρα στο πλήθος βήματα, τον αριθμό  <span class="math notranslate nohighlight">\(0.999\ldots\)</span>  ο οποίος, σαφώς, προσεγγίζει τη μονάδα - και με ένα λίγο πιο αυστηρό επιχείρημα, μπορούμε να δείξουμε ότι είναι και ίσος με αυτήν.</p>
@@ -265,46 +313,71 @@
 </iframe></div></div></blockquote>
 </section>
 </section>
-</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
-<div class="mr-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="../../index.html">
-<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-<polyline points="15 18 9 12 15 6"></polyline>
-</svg>
+
+    </div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+    <div class="mr-auto">
+      <a href="../../contents.html"
+         class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4">
+        <svg xmlns="http://www.w3.org/2000/svg"
+             width="24"
+             height="24"
+             viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             class="mr-2 h-4 w-4">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
         aftermaths
       </a>
-</div>
-<div class="ml-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">
+    </div>
+    <div class="ml-auto">
+      <a href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html"
+         class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4">
         Hyperreals: Απειροστά και άπειροι αριθμοί
-        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-<polyline points="9 18 15 12 9 6"></polyline>
-</svg>
-</a>
-</div>
-</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
-<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
-<ul>
-<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Μία «συμβατική» αντιμετώπιση</a></li>
-<li><a :data-current="activeSection === '#id3'" class="reference internal" href="#id3">Μία «μη συμβατική» ματιά…</a></li>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             width="24"
+             height="24"
+             viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             class="ml-2 h-4 w-4">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </a>
+    </div>
+</div></div><aside id="right-sidebar" class="hidden text-sm xl:block">
+  <div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+    <ul>
+<li><a class="reference internal" href="#id2">Μία «συμβατική» αντιμετώπιση</a></li>
+<li><a class="reference internal" href="#id3">Μία «μη συμβατική» ματιά…</a></li>
 </ul>
 </div>
 </aside>
-</main>
-</div>
-</div><footer class="py-6 border-t border-border md:py-0">
-<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
-<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
-<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+        </main>
+      </div>
+    </div><footer class="py-6 border-t border-border md:py-0">
+    <div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+      <div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+        <p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths&nbsp;Built with <a class="font-medium underline underline-offset-4"
+    href="https://www.sphinx-doc.org"
+    rel="noreferrer">Sphinx 8.2.3</a></p>
 </div>
 </div>
 </footer>
-</div>
-<script src="../../_static/documentation_options.js?v=1fea401f"></script>
-<script src="../../_static/doctools.js?v=9bcbadda"></script>
-<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
-<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
-<script src="../../_static/translations.js?v=e109e2be"></script>
-<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </div>
+  
+    <script src="../../_static/documentation_options.js?v=1fea401f"></script>
+    <script src="../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+    <script src="../../_static/translations.js?v=e109e2be"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
 </body>
 </html>

@@ -10,15 +10,4 @@ Add your content using ``reStructuredText`` syntax. See the
 `reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
 documentation for details.
 
-
-.. toctree::
-    :glob:
-    :caption: After-maths
-
-    docs/After-maths/*
-
-.. toctree::
-    :glob:
-    :caption: Διδακτικό Υλικό
-
-    docs/Διδακτικό-Υλικό/*
+Κυρίως περιεχόμενο της σελίδας

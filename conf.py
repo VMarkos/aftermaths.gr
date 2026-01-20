@@ -26,6 +26,8 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 language = 'el'
 
+master_doc = "contents"
+
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
@@ -43,8 +45,8 @@ theme_options = ThemeOptions(
     main_nav_links = {
         "Σχετικά": "/about",
         "Πανελλήνιες": "/panellinies",
-        "Υλικό": "/materials",
-        "Εργαλεία": "/tools",
+        "Υλικό": "docs/διδακτικό-υλικό",
+        # "Εργαλεία": "/tools",
         "Επικοινωνία": "/contact",
     },
 )

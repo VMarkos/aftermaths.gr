@@ -1,29 +1,36 @@
 <!DOCTYPE html>
-
-<html :class="{'dark': darkMode === 'dark' || (darkMode === 'system' &amp;&amp; window.matchMedia('(prefers-color-scheme: dark)').matches)}" class="scroll-smooth" data-content_root="../../" lang="el" x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }" x-init="$watch('darkMode', val =&gt; localStorage.setItem('darkMode', val))">
+<html lang="el"
+      data-content_root="../../"
+      x-data="{ darkMode: localStorage.getItem('darkMode') || localStorage.setItem('darkMode', 'system'), activeSection: '' }"
+      x-init="$watch('darkMode', val => localStorage.setItem('darkMode', val))"
+      class="scroll-smooth"
+      :class="{'dark': darkMode === 'dark' || (darkMode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)}"
+>
 <head>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta charset="utf-8"/>
-<meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
-<meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="2021-11-07 18:21" name="date"/>
-<meta content="aftermathsgr" name="author"/>
-<meta content="After-maths, Μαθηματικά" name="category"/>
-<meta content="featured, Α' Λυκείου, ΕΠΑΛ, αποδείξεις" name="tags"/>
-<meta content="%ce%b1%cf%80%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%ce%b5-%ce%ac%cf%84%ce%bf%cf%80%ce%bf-not" name="slug"/>
-<meta content="published" name="status"/>
-<meta content="_static/images/uploads/2021/11/af-klint-hilma_svanen-nr-8_1915_modernamuseet_press.jpg" name="attachments"/>
-<title>Απαγωγή σε Άτοπο #not | aftermaths</title>
-<meta content="Απαγωγή σε Άτοπο #not | aftermaths" property="og:title"/>
-<meta content="Απαγωγή σε Άτοπο #not | aftermaths" name="twitter:title"/>
-<link href="../../_static/pygments.css?v=e72c8e07" rel="stylesheet" type="text/css"/>
-<link href="../../_static/theme.css?v=42baaae4" rel="stylesheet" type="text/css"/>
-<link href="../../search.html" rel="search" title="Αναζήτηση"/>
-<link href="../../genindex.html" rel="index" title="Ευρετήριο"/>
-<link href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html" rel="next" title="Η δευτεροβάθμια εξίσωση"/>
-<link href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html" rel="prev" title="Αδύνατο vs Απίθανο - Μέρος Δ”"/>
-<script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="white" />
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="black" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta content="2021-11-07 18:21" name="date" />
+<meta content="aftermathsgr" name="author" />
+<meta content="After-maths, Μαθηματικά" name="category" />
+<meta content="featured, Α' Λυκείου, ΕΠΑΛ, αποδείξεις" name="tags" />
+<meta content="%ce%b1%cf%80%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%ce%b5-%ce%ac%cf%84%ce%bf%cf%80%ce%bf-not" name="slug" />
+<meta content="published" name="status" />
+<meta content="_static/images/uploads/2021/11/af-klint-hilma_svanen-nr-8_1915_modernamuseet_press.jpg" name="attachments" />
+
+    <title>Απαγωγή σε Άτοπο #not | aftermaths</title>
+    <meta property="og:title" content="Απαγωγή σε Άτοπο #not | aftermaths" />
+    <meta name="twitter:title" content="Απαγωγή σε Άτοπο #not | aftermaths" />
+      <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=e72c8e07" />
+      <link rel="stylesheet" type="text/css" href="../../_static/theme.css?v=42baaae4" />
+        <link rel="search" title="Αναζήτηση" href="../../search.html" />
+        <link rel="index" title="Ευρετήριο" href="../../genindex.html" />
+          <link rel="next" title="Η δευτεροβάθμια εξίσωση" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html" />
+          <link rel="prev" title="Αδύνατο vs Απίθανο - Μέρος Δ”" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html" />
+
+    <script>
     <!-- Prevent Flash of wrong theme -->
       const userPreference = localStorage.getItem('darkMode');
       let mode;
@@ -36,58 +43,83 @@
       if (!userPreference) {localStorage.setItem('darkMode', mode)}
     </script>
 </head>
-<body :class="{ 'overflow-hidden': showSidebar }" class="min-h-screen font-sans antialiased bg-background text-foreground" x-data="{ showSidebar: false, showScrollTop: false }">
-<div @click.self="showSidebar = false" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" x-cloak="" x-show="showSidebar"></div><div class="relative flex flex-col min-h-screen" id="page"><a class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100" href="#content">
+  <body x-data="{ showSidebar: false, showScrollTop: false }" class="min-h-screen font-sans antialiased bg-background text-foreground" :class="{ 'overflow-hidden': showSidebar }">
+    <div x-cloak x-show="showSidebar" class="fixed inset-0 z-50 overflow-hidden bg-background/80 backdrop-blur-sm md:hidden" @click.self="showSidebar = false"></div><div id="page" class="relative flex flex-col min-h-screen"><a href="#content" class="absolute top-0 left-0 z-[100] block bg-background p-4 text-xl transition -translate-x-full opacity-0 focus:translate-x-0 focus:opacity-100">
       Skip to content
-    </a><header class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
-<div class="hidden mr-4 md:flex">
-<a class="flex items-center mr-6" href="../../index.html"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
-</a><nav class="flex items-center space-x-6 text-sm font-medium">
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/about.html">Σχετικά</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/panellinies.html">Πανελλήνιες</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/materials.html">Υλικό</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/tools.html">Εργαλεία</a>
-<a class="transition-colors hover:text-foreground/80 text-foreground/60" href="/contact.html">Επικοινωνία</a>
-</nav></div><button @click="showSidebar = true" class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden" type="button">
-<svg aria-hidden="true" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z"></path>
-</svg>
-<span class="sr-only">Toggle navigation menu</span>
-</button>
-<div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
-<div class="flex-1 w-full md:w-auto md:flex-none"><form @keydown.k.window.meta="$refs.search.focus()" action="../../search.html" class="relative flex items-center group" id="searchbox" method="get">
-<input aria-label="Search the docs" class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" id="search-input" name="q" placeholder="Search ..." type="search" x-ref="search"/>
-<kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
-<span class="text-xs">⌘</span>
+    </a><header
+  class="sticky top-0 z-40 w-full border-b shadow-sm border-border supports-backdrop-blur:bg-background/60 bg-background/95 backdrop-blur"><div class="container flex items-center h-14">
+    <div class="hidden mr-4 md:flex">
+      <a href="../../contents.html" class="flex items-center mr-6"><span class="hidden font-bold sm:inline-block text-clip whitespace-nowrap">aftermaths</span>
+      </a><nav class="flex items-center space-x-6 text-sm font-medium">
+        <a href="/about.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Σχετικά</a>
+        <a href="/panellinies.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Πανελλήνιες</a>
+        <a href="../%CE%B4%CE%B9%CE%B4%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CF%8C-%CF%85%CE%BB%CE%B9%CE%BA%CF%8C.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Υλικό</a>
+        <a href="/contact.html" class="transition-colors hover:text-foreground/80 text-foreground/60">Επικοινωνία</a>
+      </nav></div><button
+      class="inline-flex items-center justify-center h-10 px-0 py-2 mr-2 text-base font-medium transition-colors rounded-md hover:text-accent-foreground hover:bg-transparent md:hidden"
+      type="button" @click="showSidebar = true">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" aria-hidden="true"
+        fill="currentColor">
+        <path
+          d="M152.587 825.087q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440Zm0-203.587q-19.152 0-32.326-13.174T107.087 576q0-19.152 13.174-32.326t32.326-13.174h320q19.152 0 32.326 13.174T518.087 576q0 19.152-13.174 32.326T472.587 621.5h-320Zm0-203.587q-19.152 0-32.326-13.174t-13.174-32.326q0-19.152 13.174-32.326t32.326-13.174h440q19.152 0 32.326 13.174t13.174 32.326q0 19.152-13.174 32.326t-32.326 13.174h-440ZM708.913 576l112.174 112.174q12.674 12.674 12.674 31.826t-12.674 31.826Q808.413 764.5 789.261 764.5t-31.826-12.674l-144-144Q600 594.391 600 576t13.435-31.826l144-144q12.674-12.674 31.826-12.674t31.826 12.674q12.674 12.674 12.674 31.826t-12.674 31.826L708.913 576Z" />
+      </svg>
+      <span class="sr-only">Toggle navigation menu</span>
+    </button>
+    <div class="flex items-center justify-between flex-1 space-x-2 sm:space-x-4 md:justify-end">
+      <div class="flex-1 w-full md:w-auto md:flex-none"><form id="searchbox"
+      action="../../search.html"
+      method="get"
+      class="relative flex items-center group"
+      @keydown.k.window.meta="$refs.search.focus()">
+  <input x-ref="search"
+          name="q"
+          id="search-input"
+          type="search"
+          aria-label="Search the docs"
+          placeholder="Search ..."
+          class="inline-flex items-center font-medium transition-colors bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 ring-offset-background border border-input hover:bg-accent focus:bg-accent hover:text-accent-foreground focus:text-accent-foreground hover:placeholder-accent-foreground py-2 px-4 relative h-9 w-full justify-start rounded-[0.5rem] text-sm text-muted-foreground sm:pr-12 md:w-40 lg:w-64" />
+  <kbd class="pointer-events-none absolute right-1.5 top-2 hidden h-5 select-none text-muted-foreground items-center gap-1 rounded border border-border bg-muted px-1.5 font-mono text-[10px] font-medium opacity-100 sm:flex group-hover:bg-accent group-hover:text-accent-foreground">
+    <span class="text-xs">⌘</span>
     K
   </kbd>
 </form>
-</div>
-<nav class="flex items-center space-x-1">
-<button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'" aria-label="Color theme switcher" class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9" type="button">
-<svg class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z"></path>
-</svg>
-<svg class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100" fill="currentColor" height="24" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z"></path>
-</svg>
-</button>
-</nav>
-</div>
-</div>
+      </div>
+      <nav class="flex items-center space-x-1">
+        <button @click="darkMode = darkMode === 'light' ? 'dark' : 'light'"
+          class="relative inline-flex items-center justify-center px-0 text-sm font-medium transition-colors rounded-md hover:bg-accent hover:text-accent-foreground h-9 w-9"
+          type="button"
+          aria-label="Color theme switcher">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" fill="currentColor"
+            class="absolute transition-all scale-100 rotate-0 dark:-rotate-90 dark:scale-0">
+            <path
+              d="M480 685q45.456 0 77.228-31.772Q589 621.456 589 576q0-45.456-31.772-77.228Q525.456 467 480 467q-45.456 0-77.228 31.772Q371 530.544 371 576q0 45.456 31.772 77.228Q434.544 685 480 685Zm0 91q-83 0-141.5-58.5T280 576q0-83 58.5-141.5T480 376q83 0 141.5 58.5T680 576q0 83-58.5 141.5T480 776ZM80 621.5q-19.152 0-32.326-13.174T34.5 576q0-19.152 13.174-32.326T80 530.5h80q19.152 0 32.326 13.174T205.5 576q0 19.152-13.174 32.326T160 621.5H80Zm720 0q-19.152 0-32.326-13.174T754.5 576q0-19.152 13.174-32.326T800 530.5h80q19.152 0 32.326 13.174T925.5 576q0 19.152-13.174 32.326T880 621.5h-80Zm-320-320q-19.152 0-32.326-13.174T434.5 256v-80q0-19.152 13.174-32.326T480 130.5q19.152 0 32.326 13.174T525.5 176v80q0 19.152-13.174 32.326T480 301.5Zm0 720q-19.152 0-32.326-13.17Q434.5 995.152 434.5 976v-80q0-19.152 13.174-32.326T480 850.5q19.152 0 32.326 13.174T525.5 896v80q0 19.152-13.174 32.33-13.174 13.17-32.326 13.17ZM222.174 382.065l-43-42Q165.5 327.391 166 308.239t13.174-33.065q13.435-13.674 32.587-13.674t32.065 13.674l42.239 43q12.674 13.435 12.555 31.706-.12 18.272-12.555 31.946-12.674 13.674-31.445 13.413-18.772-.261-32.446-13.174Zm494 494.761-42.239-43q-12.674-13.435-12.674-32.087t12.674-31.565Q686.609 756.5 705.38 757q18.772.5 32.446 13.174l43 41.761Q794.5 824.609 794 843.761t-13.174 33.065Q767.391 890.5 748.239 890.5t-32.065-13.674Zm-42-494.761Q660.5 369.391 661 350.62q.5-18.772 13.174-32.446l41.761-43Q728.609 261.5 747.761 262t33.065 13.174q13.674 13.435 13.674 32.587t-13.674 32.065l-43 42.239q-13.435 12.674-31.706 12.555-18.272-.12-31.946-12.555Zm-495 494.761Q165.5 863.391 165.5 844.239t13.674-32.065l43-42.239q13.435-12.674 32.087-12.674t31.565 12.674Q299.5 782.609 299 801.38q-.5 18.772-13.174 32.446l-41.761 43Q231.391 890.5 212.239 890t-33.065-13.174ZM480 576Z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" fill="currentColor"
+            class="absolute transition-all scale-0 rotate-90 dark:rotate-0 dark:scale-100">
+            <path
+              d="M480 936q-151 0-255.5-104.5T120 576q0-138 90-239.5T440 218q25-3 39 18t-1 44q-17 26-25.5 55t-8.5 61q0 90 63 153t153 63q31 0 61.5-9t54.5-25q21-14 43-1.5t19 39.5q-14 138-117.5 229T480 936Zm0-80q88 0 158-48.5T740 681q-20 5-40 8t-40 3q-123 0-209.5-86.5T364 396q0-20 3-40t8-40q-78 32-126.5 102T200 576q0 116 82 198t198 82Zm-10-270Z" />
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </div>
 </header>
-<div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }" class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky" id="left-sidebar">
-<a class="!justify-start text-sm md:!hidden bg-background" href="../../index.html"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
-</a>
-<div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
-<div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
-<a href="/about.html">Σχετικά</a>
-<a href="/panellinies.html">Πανελλήνιες</a>
-<a href="/materials.html">Υλικό</a>
-<a href="/tools.html">Εργαλεία</a>
-<a href="/contact.html">Επικοινωνία</a>
+
+    <div class="flex-1"><div class="container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10"><aside id="left-sidebar"
+  class="fixed inset-y-0 left-0 md:top-14 z-50 md:z-30 bg-background md:bg-transparent transition-all duration-100 -translate-x-full md:translate-x-0 ml-0 p-6 md:p-0 md:-ml-2 md:h-[calc(100vh-3.5rem)] w-5/6 md:w-full shrink-0 overflow-y-auto border-r border-border md:sticky"
+  :aria-hidden="!showSidebar" :class="{ 'translate-x-0': showSidebar }">
+
+    <a href="../../contents.html" class="!justify-start text-sm md:!hidden bg-background"><span class="font-bold text-clip whitespace-nowrap">aftermaths</span>
+    </a>
+
+    <div class="relative overflow-hidden md:overflow-auto my-4 md:my-0 h-[calc(100vh-8rem)] md:h-auto">
+      <div class="overflow-y-auto h-full w-full relative pr-6"><nav class="flex md:hidden flex-col font-medium mt-4">
+  <a href="/about.html">Σχετικά</a>
+  <a href="/panellinies.html">Πανελλήνιες</a>
+  <a href="../%CE%B4%CE%B9%CE%B4%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CF%8C-%CF%85%CE%BB%CE%B9%CE%BA%CF%8C.html">Υλικό</a>
+  <a href="/contact.html">Επικοινωνία</a>
 </nav><nav class="table w-full min-w-full my-6 lg:my-8">
-<p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
+  <p class="caption" role="heading"><span class="caption-text">After-maths</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="0999.html">0,999… = ???</a></li>
 <li class="toctree-l1"><a class="reference internal" href="hyperreals-%CE%B1%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CF%83%CF%84%CE%AC-%CE%BA%CE%B1%CE%B9-%CE%AC%CF%80%CE%B5%CE%B9%CF%81%CE%BF%CE%B9-%CE%B1%CF%81%CE%B9%CE%B8%CE%BC%CE%BF%CE%AF.html">Hyperreals: Απειροστά και άπειροι αριθμοί</a></li>
@@ -145,33 +177,49 @@
 <li class="toctree-l1"><a class="reference internal" href="%CF%84%CE%BF%CF%85%CF%82-%CE%BC%CF%80%CE%B5%CE%BA%CF%81%CE%AE%CE%B4%CE%B5%CF%82-%CE%BA%CE%B9-%CE%B1%CE%BD-%CE%B4%CE%B9%CE%BA%CE%AC%CF%83%CE%BF%CF%85%CE%BD%CE%B5.html">Τους μπεκρήδες κι αν δικάσουνε…</a></li>
 <li class="toctree-l1"><a class="reference internal" href="%CF%85%CF%80e%CF%81%CE%B2%CE%AC%CF%83%CE%B5%CE%B9%CF%82.html">Υπeρβάσεις</a></li>
 </ul>
+
 </nav>
-</div>
-</div>
-<button @click="showSidebar = false" class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100" type="button">
-<svg class="h-4 w-4" fill="currentColor" height="24" stroke="none" viewbox="0 96 960 960" width="24" xmlns="http://www.w3.org/2000/svg">
-<path d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z"></path>
-</svg>
-</button>
-</aside>
-<main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
+      </div>
+    </div>
+    <button type="button" @click="showSidebar = false"
+      class="absolute md:hidden right-4 top-4 rounded-sm opacity-70 transition-opacity hover:opacity-100">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 96 960 960" fill="currentColor"
+        stroke="none" class="h-4 w-4">
+        <path
+          d="M480 632 284 828q-11 11-28 11t-28-11q-11-11-11-28t11-28l196-196-196-196q-11-11-11-28t11-28q11-11 28-11t28 11l196 196 196-196q11-11 28-11t28 11q11 11 11 28t-11 28L536 576l196 196q11 11 11 28t-11 28q-11 11-28 11t-28-11L480 632Z" />
+      </svg>
+    </button>
+  </aside>
+        <main class="relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
 <div class="w-full min-w-0 mx-auto">
-<nav aria-label="breadcrumbs" class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
-<a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground" href="../../index.html">
-<span class="hidden md:inline">aftermaths</span>
-<svg aria-label="Home" class="md:hidden" fill="currentColor" height="18" stroke="none" viewbox="0 96 960 960" width="18" xmlns="http://www.w3.org/2000/svg">
-<path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z"></path>
-</svg>
-</a>
-<div class="mr-1">/</div><span aria-current="page" class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Απαγωγή σε Άτοπο #not</span>
+<nav aria-label="breadcrumbs"
+     class="flex items-center mb-4 space-x-1 text-sm text-muted-foreground">
+  <a class="overflow-hidden text-ellipsis whitespace-nowrap hover:text-foreground"
+     href="../../contents.html">
+    <span class="hidden md:inline">aftermaths</span>
+    <svg xmlns="http://www.w3.org/2000/svg"
+         height="18"
+         width="18"
+         viewBox="0 96 960 960"
+         aria-label="Home"
+         fill="currentColor"
+         stroke="none"
+         class="md:hidden">
+      <path d="M240 856h120V616h240v240h120V496L480 316 240 496v360Zm-80 80V456l320-240 320 240v480H520V696h-80v240H160Zm320-350Z" />
+    </svg>
+  </a>
+  
+<div class="mr-1">/</div><span aria-current="page"
+        class="font-medium text-foreground overflow-hidden text-ellipsis whitespace-nowrap">Απαγωγή σε Άτοπο #not</span>
 </nav>
-<div id="content" role="main">
-<section id="not">
-<h1>Απαγωγή σε Άτοπο #not<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#not"><span>#</span></a></h1>
+
+    <div id="content" role="main">
+      <section id="not">
+<h1>Απαγωγή σε Άτοπο #not<a class="headerlink" href="#not" title="Link to this heading"><span>#</span></a></h1>
 <figure class="align-center" id="id18">
-<img alt="Ο πίνακας *Ο κύκνος, Νο. 8* της `Hilma af Klint  &lt;https://en.wikipedia.org/wiki/Hilma_af_Klint&gt;`__." src="../../_images/af-klint-hilma_svanen-nr-8_1915_modernamuseet_press.jpg"/>
+<img alt="Ο πίνακας *Ο κύκνος, Νο. 8* της `Hilma af Klint  &lt;https://en.wikipedia.org/wiki/Hilma_af_Klint&gt;`__." src="../../_images/af-klint-hilma_svanen-nr-8_1915_modernamuseet_press.jpg" />
 <figcaption>
-<p><span class="caption-text">Ο πίνακας <em>Ο κύκνος, Νο. 8</em> της <a class="reference external" href="https://en.wikipedia.org/wiki/Hilma_af_Klint">Hilma af Klint</a>.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id18"><span>#</span></a></p>
+<p><span class="caption-text">Ο πίνακας <em>Ο κύκνος, Νο. 8</em> της <a class="reference external" href="https://en.wikipedia.org/wiki/Hilma_af_Klint">Hilma af Klint</a>.</span><a class="headerlink" href="#id18" title="Link to this image"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Φτάνουμε στην Α” Λυκείου - Γενικού είτε ΕΠΑΛ, δεν έχει τόση σημασία - και μέσα στα όσα λέμε για αποδείξεις συνήθως βρίσκεται και μία αγαπημένη απόδειξη περί της αρρητότητας της τετραγωνικής ρίζας του 2. Χρόνια τώρα - εντάξει, όχι και πολλά - μία ερώτηση στριφογυρίζει στο μυαλό μου:</p>
@@ -182,7 +230,7 @@
 <li><p>αφετέρου, είναι μία απόδειξη που εισάγει τα παιδιά στην αποδεικτική τεχνική της απαγωγής με άτοπο.</p></li>
 </ul>
 <section id="id1">
-<h2>Η συνήθης απόδειξη<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id1" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id1'"><span>#</span></a></h2>
+<h2>Η συνήθης απόδειξη<a class="headerlink" href="#id1" title="Link to this heading"><span>#</span></a></h2>
 <p>Πριν πιάσουμε την κουβέντα για την απόδειξη, ας θυμηθούμε στα γρήγορα την ίδια την απόδειξη - όπως συνήθως παρουσιάζεται στην τάξη και στα σχολικά βιβλία.</p>
 <p>Έστω, προς άτοπο, ότι ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  είναι ρητός και έστω, για την ακρίβεια, ότι  <span class="math notranslate nohighlight">\(m,n\)</span>  είναι δύο φυσικοί αριθμοί έτσι ώστε:</p>
 <div class="math notranslate nohighlight">
@@ -196,7 +244,7 @@
 <p>Άρα και ο  <span class="math notranslate nohighlight">\(n^2\)</span>  είναι άρτιος, άρα το ίδιο είναι και ο  <span class="math notranslate nohighlight">\(n.\)</span>  Συνεπώς, οι  <span class="math notranslate nohighlight">\(m,n\)</span>  έχουν κοινό διαιρέτη το 2 - αφού είναι κι οι δύο άρτιοι - άτοπο, καθώς έχουμε υποθέσει ότι έχουν μέγιστο κοινό διαιρέτη 1. Επομένως, ο  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  δεν μπορεί να γραφτεί σαν πηλίκο ακεραίων, άρα δεν είναι ρητός.</p>
 </section>
 <section id="id2">
-<span id="id3"></span><h2>Τα προβλήματα…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
+<span id="id3"></span><h2>Τα προβλήματα…<a class="headerlink" href="#id2" title="Link to this heading"><span>#</span></a></h2>
 <p>Η παραπάνω απόδειξη είναι μικρή και απλή, ειδικά, αν αναλογιστούμε το πόσες αποδείξεις υπάρχουν στα μαθηματικά και το πόσο δύσκολες μπορεί να είναι. Τόσο μικρή και τόσο απλή που μπορούμε να βρούμε παραλλαγές της ακόμα και σε πολύ παλιά κείμενα μαθηματικών. Ωστόσο, την παραπάνω απόδειξη δεν την παρουσιάζουμε σε ένα μαθηματικό κοινό αλλά σε παιδιά που μόλις έχουν ξεκινήσει να φοιτούν στα ελληνικά λύκεια. Συνακόλουθα, τα μαθηματικά που αναμένουμε να έχουν δει είναι, ως επί το πλείστον, αυτά του Γυμνασίου.</p>
 <p>Έχοντας αυτό κατά νου, αρχίζουν να φανερώνονται αρκετά μελανά σημεία στην παραπάνω απόδειξη. Για αρχή, οι περισσότερες αποδείξεις που έχουν δει οι μαθητές του Γυμνασίου είναι της μορφής «αποδείξτε ότι ισχύει η παρακάτω ισότητα». Σε τέτοιες αποδείξεις, αυτό που καλούνται να κάνουν τα παιδιά είναι να εφαρμόσουν διάφορα αλγεβρικά (κυρίως) τεχνάσματα και είτε ξεκινώντας από το ένα μέλος της ισότητας, να καταλήξουν στο άλλο είτε ξεκινώντας από την ίδια την ισότητα να προχωρήσουν με ισοδυναμίες και να φτάσουν σε κάτι που ισχύει - το δεύτερο, βέβαια, αναφέρεται κυρίως σε αποδείξεις του Λυκείου και όχι τόσο του Γυμνασίου.</p>
 <p>Επομένως, το να περάσει κανείς από αμιγώς αλγεβρικές και «τεχνικές» αποδείξεις σε μία απόδειξη που παρουσιάζει μία πληθώρα ιδεών είναι από μόνο του προβληματικό, ειδικά δε όταν με αυτήν την απόδειξη αποσκοπεί κανείς να εισαγάγει τα παιδιά σε μία νέα αποδεικτική τεχνική. Μαζί με όλα αυτά, ας βάλουμε και το εξής παράδοξο: τη θεωρία αριθμών. Η παραπάνω απόδειξη κάνει πάρα πολλές επικλήσεις σε απλά αποτελέσματα της θεωρίας αριθμών - πολύ απλά, ίσως. Ωστόσο, σε ποιο σημείο της πορείας τους τα παιδιά έχουν εκτεθεί συστηματικά κι εκτεταμένα στη θεωρία αριθμών;</p>
@@ -210,10 +258,10 @@
 <p>Αν όμως δεν κάνουμε αυτήν την απόδειξη, πρέπει με κάποιον τρόπο να παρουσιάσουμε τις δύο ιδέες που μας απασχολούν, δηλαδή την αρρητότητα του  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  και την τεχνική της απαγωγής με άτοπο. Παρακάτω θα ασχοληθούμε κυρίως με το δεύτερο, εξετάζοντας διάφορες εναλλακτικές.</p>
 </section>
 <section id="id4">
-<h2>Και πού είναι το άτοπο;<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id4" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id4'"><span>#</span></a></h2>
+<h2>Και πού είναι το άτοπο;<a class="headerlink" href="#id4" title="Link to this heading"><span>#</span></a></h2>
 <p>Τα παραπάνω δεν είναι ίσως τίποτα παραπάνω από σκόρπιες σκέψεις για το αν είναι τελικά ή όχι διδακτικά ωφέλιμη μία απόδειξη σαν την παραπάνω στην Α” Λυκείου. Αφήνοντας όμως για λίγο την τάξη κατά μέρους, είναι η παραπάνω απόδειξη πράγματι μία απόδειξη με απαγωγή σε άτοπο;</p>
 <section id="id5">
-<span id="id6"></span><h3>Κατασκευές…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id5" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id5'"><span>#</span></a></h3>
+<span id="id6"></span><h3>Κατασκευές…<a class="headerlink" href="#id5" title="Link to this heading"><span>#</span></a></h3>
 <p>Ναι, θα πείτε τώρα, αφού στο τέλος λέμε «άτοπο». Ωστόσο, το ότι λέμε κάτι δε σημαίνει ότι είναι κι έτσι. Αλλά, πριν εντρυφήσουμε σε αυτές τις λεπτομέρειες, θα μας φανεί πολύ χρήσιμο να φωτίσουμε κάποιες άλλες λεπτομέρειες της μαθηματικής λογικής. Μία πολύ διάσημη αρχή της μαθηματικής λογικής είναι η περιβόητη <a class="reference external" href="https://en.wikipedia.org/wiki/Law_of_excluded_middle">Αρχή του Αποκλειόμενου Τρίτου</a> (ΑΑΤ, για συντομία). Πριν προλάβει και πάει ο νους μας σε ερωτικά τρίγωνα - ή, γενικά, πολύγωνα - και τα συναφή, να πούμε ότι η ΑΑΤ μπορεί να μοιάζει αλλά δεν είναι μία μαθηματική αλληγορία για το «Στους δύο τρίτος δε χωρεί». Ή, μπορεί και να είναι. Τέλος πάντων, όπως και να έχει, η ΑΑΤ μας λέει ότι μία μαθηματική πρόταση  <span class="math notranslate nohighlight">\(\phi\)</span>  είτε είναι αληθής είτε η άρνησή της είναι αληθής. Αυτό μπορούμε σε όρους λογικής να το διατυπώσουμε και πλήρως συμβολικά ως εξής:</p>
 <div class="math notranslate nohighlight">
 \[\phi\lor\neg\phi,\]</div>
@@ -240,7 +288,7 @@
 <p>Στα δικά μας, η άρνηση αυτή της ΑΑΤ μας αναγκάζει πολλές φορές, διερευνώντας αν διάφορα αποτελέσματα μπορούν να αποδειχθούν χωρίς αυτήν, να μελετήσουμε διάφορες αποδεικτικές τεχνικές και να διακρίνουμε λεπτές διαφορές ανάμεσα σε αυτές. Με αυτά τα ιντουισιονιστικά μάτια θα προσπαθήσουμε να ξανακοιτάξουμε την παραπάνω απόδειξη και να ανακαλύψουμε ότι, τελικά, δεν είναι μία κατ” ουσίαν απόδειξη με απαγωγή σε άτοπο!</p>
 </section>
 <section id="id9">
-<span id="id10"></span><h3>Άτοπα και αντιφάσεις…<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id9'"><span>#</span></a></h3>
+<span id="id10"></span><h3>Άτοπα και αντιφάσεις…<a class="headerlink" href="#id9" title="Link to this heading"><span>#</span></a></h3>
 <p>Για να καταφέρουμε να μιλήσουμε για αποδείξεις με απαγωγή σε άτοπο, πρέπει πρώτα να τις περιγράψουμε με κάποιον αυστηρό τρόπο, χρησιμοποιώντας τη γλώσσα της μαθηματικής λογικής. Ας πάρουμε, λοιπόν, μία πρόταση  <span class="math notranslate nohighlight">\(\phi\)</span>  κι ας σκεφτούμε τι κάνουμε όταν την αποδεικνύουμε με απαγωγή σε άτοπο. Αρχικά, υποθέτουμε ότι ισχύει η άρνησή της, κι έπειτα καταλήγουμε σε μία μπούρδα - γνωστή και ως «άτοπο» στο επίσημο λεξικό των μαθηματικών. Έτσι, το γενικό σχήμα μίας τέτοιας απόδειξης είναι το εξής:</p>
 <p>Για να αποδείξουμε την  <span class="math notranslate nohighlight">\(\phi &amp;fg=362e77&amp;bg=d9d9d9\)</span>  υποθέτουμε την  <span class="math notranslate nohighlight">\(\neg\phi&amp;fg=362e77&amp;bg=d9d9d9\)</span>  και έπειτα από πεπερασμένο αριθμό συλλογισμών καταλήγουμε σε μία αντίφαση.</p>
 <p>Ως αντίφαση στα παραπάνω εννοούμε κάτι που είναι πάντοτε λογικά ψευδές. Εδώ να προσέξουμε, πάρα πολύ, ότι για να στέκουν τα παραπάνω χρειαζόμαστε την ΑΑΤ. Πράγματι, αυτό που αποδεικνύουμε μέσω της παραπάνω διαδικασίας είναι στην ουσία η συνεπαγωγή:</p>
@@ -262,7 +310,7 @@
 <p>με την τεχνική της απόδειξης της άρνησης - ακριβώς όπως και στο σχολικό βιβλίο.</p>
 </section>
 <section id="id11">
-<span id="id12"></span><h3>Κι άλλα άτοπα που δεν είναι… άτοπα<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id11'"><span>#</span></a></h3>
+<span id="id12"></span><h3>Κι άλλα άτοπα που δεν είναι… άτοπα<a class="headerlink" href="#id11" title="Link to this heading"><span>#</span></a></h3>
 <p>Ένας μικρός θρύλος της σχολικής μας ηλικίας κατέρρευσε: η παραδοσιακή απόδειξη της αρρητότητας του  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  δεν είναι απόδειξη με απαγωγή σε άτοπο στην ουσία της. Όμως, δεν είναι η μόνη που δεν είναι. Για την ακρίβεια, υπάρχει μία άλλη κατηγορία αποδείξεων που μοιάζουν με απαγωγές σε άτοπο, αλλά ούτε αυτές είναι. Ας πάρουμε, για παράδειγμα, την ακόλουθη απλή πρόταση, που εμφανίζεται «εμφωλευμένα» στην παραπάνω απόδειξη:</p>
 <p>Αν το τετράγωνο ενός αριθμού είναι άρτιος, το ίδιο ισχύει και για τον ίδιο τον αριθμό.</p>
 <p>Απλή απόδειξη, είναι η αλήθεια. Έστω ένας φυσικός αριθμός  <span class="math notranslate nohighlight">\(n\)</span>  έτσι ώστε ο  <span class="math notranslate nohighlight">\(n^2\)</span>  να μην είναι άρτιος, άρα να είναι περιττός. Τότε, επειδή το γινόμενο δύο περιττών είναι επίσης περιττός, έπεται ότι και ο  <span class="math notranslate nohighlight">\(n^2\)</span>  θα είναι περιττός. Εδώ, συνήθως, κολλάμε και τη λέξη «άτοπο» στην απόδειξή μας, για να τονίσουμε την αντίφαση σε σχέση με το γεγονός ότι ο  <span class="math notranslate nohighlight">\(n^2\)</span>  έχει υποτεθεί άρτιος. Αλλά, για μισό λεπτό, χρειάστηκε να υποθέσουμε πουθενά κάτι τέτοιο; Αν ονομάσουμε  <span class="math notranslate nohighlight">\(\alpha(n)\)</span>  τον τύπο «ο  <span class="math notranslate nohighlight">\(n^2\)</span>  είναι άρτιος» και  <span class="math notranslate nohighlight">\(\beta(n)\)</span>  τον τύπο «ο  <span class="math notranslate nohighlight">\(n\)</span>  είναι άρτιος» τότε αυτό που θέλουμε να αποδείξουμε είναι η πρόταση:</p>
@@ -279,12 +327,12 @@
 </section>
 </section>
 <section id="id13">
-<h2>Ταξικά ειωθότα<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id13" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id13'"><span>#</span></a></h2>
+<h2>Ταξικά ειωθότα<a class="headerlink" href="#id13" title="Link to this heading"><span>#</span></a></h2>
 <p>Όχι, δεν είναι τίτλος κάποιου μαρξιστικού κειμένου, αλλά άμεση αναφορά στις συνήθειές μας εντός μίας τάξης. Συνήθως, όλα τα παραπάνω δεν τα λαμβάνουμε συχνά υπ” όψιν όταν διδάσκουμε αποδείξεις, ειδικά στην Α” Λυκείου, που εισάγουμε για πρώτη φορά συστηματικά την έννοια της απόδειξης με «άτοπο». Το άτοπο εσκεμμένα έχει μπει σε εισαγωγικά, καθώς είναι άλλο το «άτοπο» μίας τάξης μαθηματικών κι άλλο το άτοπο της λογικής και της θεωρίας αποδείξεων. Σαφώς, όταν μπαίνουμε σε μία τάξη δεν έχει, ίσως, νόημα να μιλήσουμε σε ένα κοινό που δεν έχει εικόνα του τι εστί μαθηματική λογική και να αρχίσουμε να μιλάμε για την Αρχή του Αποκλειόμενου Τρίτου και όλα τα παραπάνω - σίγουρα όχι με τον τρόπο που αυτό γίνεται παραπάνω, με σύμβολα και αποδεικτικά σχήματα.</p>
 <p>Ωστόσο, επίσης δεν έχει νόημα να παρουσιάζουμε μία απόδειξη όπως αυτήν της αρρητότητας του  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  για να εισαχθούμε σε μία έννοια απαγωγής με «άτοπο» - είτε πρόκειται για απόδειξη μίας άρνησης, πραγματική απαγωγή σε άτοπο, είτε απόδειξη με αντιθετοαντίστροφα. Όχι τόσο γιατί, από τη σκοπιά της λογικής, η παραπάνω απόδειξη δεν είναι μία γνήσια απόδειξη με απαγωγή σε άτοπο, όσο γιατί από τη μεριά των μαθητών της Α” Λυκείου, η τεχνική της εν λόγω απόδειξης περιέχει τόσα στοιχεία που τους είναι ξένα που δεν τα βοηθά να εστιάσουν ταυτόχρονα στις νέες τεχνικές και στην ίδια την ευρύτερη αποδεικτική τεχνική της απαγωγής με άτοπο.</p>
 <p>Επομένως, αν και ίσως δεν έχει νόημα να μιλήσουμε για αποδείξεις με αντιθετοαντίστροφα κ.λπ. αντί της απαγωγής σε άτοπο - ας γίνει στο μέλλον αυτή η διάκριση - έχει σίγουρα νόημα να βρούμε και να παρουσιάσουμε αρκετά και πιο απλά και, το σημαντικότερο, οικεία παραδείγματα απαγωγής σε «άτοπο» στην τάξη μας. Παρακάτω θα κάνουμε κάποιες σκέψεις για κάποια συνήθη αποτελέσματα της Α” Λυκείου τα οποία μπορούμε να αποδείξουμε με απαγωγή σε άτοπο, με στόχο να αναδείξουμε την ίδια την τεχνική χωρίς να αποσπάται η προσοχή μας από άλλους… «εξωσχολικούς» παράγοντες.</p>
 <section id="id14">
-<h3>Μία προφανής συνεπαγωγή<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id14" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id14'"><span>#</span></a></h3>
+<h3>Μία προφανής συνεπαγωγή<a class="headerlink" href="#id14" title="Link to this heading"><span>#</span></a></h3>
 <p>Για παράδειγμα, ας πούμε ότι θέλουμε να αποδείξουμε το ακόλουθο:</p>
 <div class="math notranslate nohighlight">
 \[ab=0\Rightarrow a=0 ή .. math:: b=0.\]</div>
@@ -310,7 +358,7 @@
 <p>Τέλος, πάντων, πολύ φλυαρήσαμε εδώ, το σημαντικό είναι ότι η παραπάνω απλή απόδειξη μπορεί, σε κάθε πλαίσιο, να σταθεί ως μία απόδειξη που μπορεί να αποδώσει τη γενική ιδέα της απαγωγής σε άτοπο χωρίς πολλά επιχειρήματα που δεν έχουν ξαναδεί τα παιδιά ως την Α” Λυκείου.</p>
 </section>
 <section id="id15">
-<h3>Μια ακόμα απλή συνεπαγωγή<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id15" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id15'"><span>#</span></a></h3>
+<h3>Μια ακόμα απλή συνεπαγωγή<a class="headerlink" href="#id15" title="Link to this heading"><span>#</span></a></h3>
 <p>Στο ίδιο κλίμα με την παραπάνω απόδειξη μπορεί να σταθεί και η απόδειξη της ακόλουθης συνεπαγωγής:</p>
 <div class="math notranslate nohighlight">
 \[a^2=0\Rightarrow a=0.\]</div>
@@ -320,7 +368,7 @@
 <p>το οποίο αντιβαίνει με την υπόθεσή μας ότι  <span class="math notranslate nohighlight">\(a\neq0,\)</span>  που είναι άτοπο, άρα, η αρχική συνεπαγωγή ισχύει. Κι εδώ, αν κάνουμε το παραπάνω ανακάτεμα στα αξιώματα ενός αλγεβρικού σώματος, μπορούμε να δώσουμε μία ιντουισιονιστική απόδειξη, που να αποφεύγει την επίκληση στην ΑΑΤ, αλλά αυτό μάλλον δε θα μας απασχολήσει και πολύ στην τάξη. Αυτό που διαφοροποιεί κάπως την παραπάνω συνεπαγωγή από την προηγούμενη που παρουσιάσαμε είναι ότι είναι αρκετά απλούστερη, το οποίο, βέβαια, είναι και λίγο «δίκοπο μαχαίρι». Διότι, ακριβώς επειδή είναι τόσο απλή, φωτίζει την τεχνική της απαγωγής σε άτοπο σχεδόν αποκλειστικά - δεν υπάρχουν και πολλά άλλα να αναδειχθούν - μπορεί να είναι και μία συνεπαγωγή που δεν κρίνεται ως «αποδεικτέα». Είναι τόσο απλή που ίσως η ανάγκη απόδειξης - στα μάτια των παιδιών, πάντα - να μην υπάρχει. Αυτό όμως έχει να κάνει με το πόσο σφιχτά ή όχι έχουμε πρόθεση να κινηθούμε στο μάθημά μας σε σχέση με το τι αποδεικνύουμε και τι όχι, οπότε είναι κάτι που δεν μπορούμε να το προ-αποφασίσουμε από τώρα.</p>
 </section>
 <section id="id16">
-<h3>Μία ακόμα απλή συνεπαγωγή<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id16" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id16'"><span>#</span></a></h3>
+<h3>Μία ακόμα απλή συνεπαγωγή<a class="headerlink" href="#id16" title="Link to this heading"><span>#</span></a></h3>
 <p>Συνεχίζοντας το ίδιο κλίμα, μία απλή απόδειξη με απαγωγή σε άτοπο είναι και η απόδειξη της ακόλουθης συνεπαγωγής:</p>
 <div class="math notranslate nohighlight">
 \[a^2+b^2=0\Rightarrow a=0 και .. math:: b=0.\]</div>
@@ -335,7 +383,7 @@
 </section>
 </section>
 <section id="id17">
-<h2>Επίλογος<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id17" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id17'"><span>#</span></a></h2>
+<h2>Επίλογος<a class="headerlink" href="#id17" title="Link to this heading"><span>#</span></a></h2>
 <p>Τα παραπάνω τρία παραδείγματα είναι κυρίως ενδεικτικά του πώς μπορούμε με πολύ απλές αποδείξεις να φωτίσουμε την τεχνική της απαγωγής σε άτοπο - με την λυκειακή έννοια - χωρίς να χρειαστεί να εισάγουμε στην απόδειξή μας «θόρυβο» από άλλα χωράφια των μαθηματικών που δεν έχουν συναντήσει συχνά τα παιδιά στην μαθητική τους πορεία. Σαν τις παραπάνω συνεπαγωγές που να απέχουν λίγο από τα αξιώματα ενός αλγεβρικού σώματος και να είναι και σχετικά σημαντικές μπορεί κανείς να βρει μυριάδες στην άλγεβρα της Α” Λυκείου - εντάξει, όχι κυριολεκτικά μυριάδες, αλλά καταλάβατε τώρα - και οι περισσότερες από αυτές μπορούν να αποδειχθούν και αρκετά συμπαθητικά με απαγωγή σε άτοπο. Επομένως, μία συλλογή από τέτοιες αποδείξεις ίσως είναι πιο χρήσιμη ως προς το να εντάξει τα παιδιά στο κλίμα του πώς χτίζουμε μία τέτοια απόδειξη από την παραδοσιακή απόδειξη της αρρητότητας του  <span class="math notranslate nohighlight">\(\sqrt{2}.\)</span></p>
 <p>Ωστόσο, αν πετάξουμε την απόδειξη της αρρητότητας του  <span class="math notranslate nohighlight">\(\sqrt{2}\)</span>  κάπως πρέπει να δικαιολογήσουμε τον γνήσιο εγκλεισμό  <span class="math notranslate nohighlight">\(\mathbb{Q}\subset\mathbb{R}\)</span>  για τον οποίο έχουμε μιλήσει. Με άλλα λόγια, κάπως πρέπει να μιλήσουμε για αρρήτους στην Α” Λυκείου, καθώς είναι κομβικός ο ρόλος τους, έτσι ώστε στην πορεία των παιδιών στο λύκειο οι πραγματικοί αριθμοί να εφοδιαστούν και με την αναλυτική τους «διάσταση» - ειδάλλως, αλγεβρικά δεν τους διαφοροποιεί τίποτα στα μάτια τους από τους ρητούς. Αυτό σίγουρα θα μας απασχολήσει στο μέλλον - και σίγουρα όχι σήμερα, γιατί έχει πολύ καλό καιρό έξω…</p>
 <p>Καλό απόγευμα! :)</p>
@@ -343,59 +391,84 @@
 <div></div></blockquote>
 </section>
 </section>
-</div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
-<div class="mr-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html">
-<svg class="mr-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-<polyline points="15 18 9 12 15 6"></polyline>
-</svg>
+
+    </div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">
+    <div class="mr-auto">
+      <a href="%CE%B1%CE%B4%CF%8D%CE%BD%CE%B1%CF%84%CE%BF-vs-%CE%B1%CF%80%CE%AF%CE%B8%CE%B1%CE%BD%CE%BF-%CE%BC%CE%AD%CF%81%CE%BF%CF%82-%CE%B4.html"
+         class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4">
+        <svg xmlns="http://www.w3.org/2000/svg"
+             width="24"
+             height="24"
+             viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             class="mr-2 h-4 w-4">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
         Αδύνατο vs Απίθανο - Μέρος Δ”
       </a>
-</div>
-<div class="ml-auto">
-<a class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4" href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html">
+    </div>
+    <div class="ml-auto">
+      <a href="%CE%B7-%CE%B4%CE%B5%CF%85%CF%84%CE%B5%CF%81%CE%BF%CE%B2%CE%AC%CE%B8%CE%BC%CE%B9%CE%B1-%CE%B5%CE%BE%CE%AF%CF%83%CF%89%CF%83%CE%B7.html"
+         class="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors border border-input hover:bg-accent hover:text-accent-foreground py-2 px-4">
         Η δευτεροβάθμια εξίσωση
-        <svg class="ml-2 h-4 w-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-<polyline points="9 18 15 12 9 6"></polyline>
-</svg>
-</a>
-</div>
-</div></div><aside class="hidden text-sm xl:block" id="right-sidebar">
-<div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
-<ul>
-<li><a :data-current="activeSection === '#id1'" class="reference internal" href="#id1">Η συνήθης απόδειξη</a></li>
-<li><a :data-current="activeSection === '#id2'" class="reference internal" href="#id2">Τα προβλήματα…</a></li>
-<li><a :data-current="activeSection === '#id4'" class="reference internal" href="#id4">Και πού είναι το άτοπο;</a><ul>
-<li><a :data-current="activeSection === '#id5'" class="reference internal" href="#id5">Κατασκευές…</a></li>
-<li><a :data-current="activeSection === '#id9'" class="reference internal" href="#id9">Άτοπα και αντιφάσεις…</a></li>
-<li><a :data-current="activeSection === '#id11'" class="reference internal" href="#id11">Κι άλλα άτοπα που δεν είναι… άτοπα</a></li>
+        <svg xmlns="http://www.w3.org/2000/svg"
+             width="24"
+             height="24"
+             viewBox="0 0 24 24"
+             fill="none"
+             stroke="currentColor"
+             stroke-width="2"
+             stroke-linecap="round"
+             stroke-linejoin="round"
+             class="ml-2 h-4 w-4">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </a>
+    </div>
+</div></div><aside id="right-sidebar" class="hidden text-sm xl:block">
+  <div class="sticky top-16 -mt-10 max-h-[calc(100vh-5rem)] overflow-y-auto pt-6 space-y-2"><p class="font-medium">On this page</p>
+    <ul>
+<li><a class="reference internal" href="#id1">Η συνήθης απόδειξη</a></li>
+<li><a class="reference internal" href="#id2">Τα προβλήματα…</a></li>
+<li><a class="reference internal" href="#id4">Και πού είναι το άτοπο;</a><ul>
+<li><a class="reference internal" href="#id5">Κατασκευές…</a></li>
+<li><a class="reference internal" href="#id9">Άτοπα και αντιφάσεις…</a></li>
+<li><a class="reference internal" href="#id11">Κι άλλα άτοπα που δεν είναι… άτοπα</a></li>
 </ul>
 </li>
-<li><a :data-current="activeSection === '#id13'" class="reference internal" href="#id13">Ταξικά ειωθότα</a><ul>
-<li><a :data-current="activeSection === '#id14'" class="reference internal" href="#id14">Μία προφανής συνεπαγωγή</a></li>
-<li><a :data-current="activeSection === '#id15'" class="reference internal" href="#id15">Μια ακόμα απλή συνεπαγωγή</a></li>
-<li><a :data-current="activeSection === '#id16'" class="reference internal" href="#id16">Μία ακόμα απλή συνεπαγωγή</a></li>
+<li><a class="reference internal" href="#id13">Ταξικά ειωθότα</a><ul>
+<li><a class="reference internal" href="#id14">Μία προφανής συνεπαγωγή</a></li>
+<li><a class="reference internal" href="#id15">Μια ακόμα απλή συνεπαγωγή</a></li>
+<li><a class="reference internal" href="#id16">Μία ακόμα απλή συνεπαγωγή</a></li>
 </ul>
 </li>
-<li><a :data-current="activeSection === '#id17'" class="reference internal" href="#id17">Επίλογος</a></li>
+<li><a class="reference internal" href="#id17">Επίλογος</a></li>
 </ul>
 </div>
 </aside>
-</main>
-</div>
-</div><footer class="py-6 border-t border-border md:py-0">
-<div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
-<div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
-<p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths Built with <a class="font-medium underline underline-offset-4" href="https://www.sphinx-doc.org" rel="noreferrer">Sphinx 8.2.3</a></p>
+        </main>
+      </div>
+    </div><footer class="py-6 border-t border-border md:py-0">
+    <div class="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+      <div class="flex flex-col items-center gap-4 px-8 md:flex-row md:gap-2 md:px-0">
+        <p class="text-sm leading-loose text-center text-muted-foreground md:text-left">© 2026, aftermaths&nbsp;Built with <a class="font-medium underline underline-offset-4"
+    href="https://www.sphinx-doc.org"
+    rel="noreferrer">Sphinx 8.2.3</a></p>
 </div>
 </div>
 </footer>
-</div>
-<script src="../../_static/documentation_options.js?v=1fea401f"></script>
-<script src="../../_static/doctools.js?v=9bcbadda"></script>
-<script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
-<script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
-<script src="../../_static/translations.js?v=e109e2be"></script>
-<script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  </div>
+  
+    <script src="../../_static/documentation_options.js?v=1fea401f"></script>
+    <script src="../../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script defer="defer" src="../../_static/theme.js?v=073f68d9"></script>
+    <script src="../../_static/translations.js?v=e109e2be"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
 </body>
 </html>
