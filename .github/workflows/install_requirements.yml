@@ -1,0 +1,12 @@
+name: install requirements
+
+on: [workflow_dispatch]
+
+jobs:
+  name: Process post contents
+  runs-on: ubuntu-latest
+  steps:
+    - name: setup python
+      uses: actions/setup-python@v5
+      with:
+        python-version: 3.12
