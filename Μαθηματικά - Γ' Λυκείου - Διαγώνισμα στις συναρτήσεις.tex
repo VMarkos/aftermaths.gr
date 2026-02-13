@@ -1,0 +1,99 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[english,greek]{babel}
+\usepackage[iso-8859-7]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsthm,amsmath,amssymb,graphicx,extarrows,float,changepage}
+
+\newcommand{\R}{{\mathbb{R}}}
+
+\let\sin\relax
+\DeclareMathOperator{\sin}{\text{ημ}}
+
+\title{Επαναληπτικό Dιαγώνισμα: Συναρτήσεις / Λίγα Όρια}
+
+\newtheoremstyle{myStyle}
+{\topsep}
+{\topsep}
+{}
+{}
+{\bfseries}
+{}
+{\newline}
+{}
+
+\theoremstyle{myStyle}
+
+\newtheorem{them}{Θέμα}
+
+\begin{document}
+\maketitle
+\begin{them}[25 μονάδες]
+\begin{enumerate}
+\item Πότε λέμε ότι μία συνάρτηση $f:A\to\R$ είναι «1-1»? (3 μονάδες)
+\item Πότε λέμε ότι μία συνάρτηση $f:A\to\R$ είναι άρτια? (3 μονάδες)
+\item Να αποδείξετε ότι αν $P(x)=a_\nu x^\nu+a_{\nu-1}x^{\nu-1}+\cdots+a_1x+a_0$ είναι ένα πολυώνυμο και $x_0\in\R$ τότε (5 μονάδες):
+\[\lim_{x\to x_0}P(x)=P(x_0).\]
+\item Να χαρακτηρίσετε τις παρακάτω προτάσεις ως \textit{Σωστές} ή \textit{Λανθασμένες} (χωρίς αιτιολόγηση) σημειώνοντας στο 
+χαρτί σας τον αριθμό της πρόταση και δίπλα την λέξη \textbf{Σωστό} ή \textbf{Λάθος}, αντίστοιχα (10 μονάδες):
+\begin{enumerate}
+\item Κάθε γνησίως μονότονη συνάρτηση είναι και «1-1».
+\item Αν $\lim\limits_{x\to3}f(x)=4$ τότε $f(x)>\pi$  για $x$ κοντά στο $3$.
+\item Αν $\lim\limits_{x\to-1}|f(x)|=2$ τότε $\lim\limits_{x\to-1}f(x)=2$ ή $\lim\limits_{x\to-1}f(x)=-2$.
+\item Αν $f,g:\R\to\R$ είναι δύο γνησίως αύξουσες συναρτήσεις, η εξίσωση:
+\[f(x)+g(x)=\pi^e\]
+έχει ακριβώς μία λύση.
+\item Αν $f(x)=\ln x$ και $g(x)=e^x$ τότε:
+\[(g\circ f)(x)=x,\ x\in\R.\]
+\end{enumerate}
+\item Να χαρακτηρίσετε την παρακάτω πρόταση ως \textit{Σωστή} ή \textit{Λανθασμένη} και \textbf{να αιτιολογήσετε την απάντησή σας} ($1+3$ μονάδες):
+\begin{adjustwidth}{.5cm}{.5cm}
+Η συνάρτηση $f$ με $\displaystyle f(x)=\frac{1}{x-1}$ είναι γνησίως φθίνουσα στο πεδίο ορισμού της.
+\end{adjustwidth}
+\end{enumerate}
+\end{them}
+\ \\
+\begin{them}[25 μονάδες]
+Δίνεται η συνάρτηση $f$ με τύπο:
+\[f(x)=\frac{x}{x-3}.\]
+\begin{enumerate}
+\item Να βρείτε το πεδίο ορισμού της. (3 μονάδες)
+\item Να μελετήσετε την $f$ ως προς την μονοτονία (8 μονάδες).
+\item Να δείξετε ότι η $f$ είναι αντιστρέψιμη και να βρείτε την αντίστροφή της ($3+4$ μονάδες).
+\item Να χαράξετε τη γραφική παράσταση της $|f|$. (7 μονάδες)
+\end{enumerate}
+\end{them}
+
+\begin{them}[25 μονάδες]
+	Δίνεται η συνάρτηση $f:\R\to\R$ όπου:
+	\[f(x)=\begin{cases}
+		\dfrac{x-\sqrt{x}}{1-\sqrt{x}} & x>1\\
+		ax-2 & x \leq 1
+	\end{cases},\quad a\in\R,\]
+	για την οποία επιπλέον γνωρίζουμε ότι το $\lim\limits_{x\to1}f(x)$ υπάρχει και είναι πραγματικός αριθμός.
+	\begin{enumerate}
+		\item Να δείξετε ότι $a=1$. (6 μονάδες)
+		\item Να μελετήσετε την $f$ ως προς την μονοτονία (6 μονάδες) και τα ακρότατα (3 μονάδες).
+		\item Είναι η $f$ αντιστρέψιμη? (3 μονάδες)
+		\item Να λύσετε την εξίσωση (7 μονάδες):
+		\[f(x)=\sin\frac{3\pi x}{2},\quad x\in\R.\]
+	\end{enumerate}
+\end{them}
+
+\begin{them}[25 μονάδες]
+Δίνεται η συνάρτηση $f:[0,+\infty)\to\R$ με τύπο:
+\[f(x)=\ln\left(x+e^x\right)+2x.\]
+\begin{enumerate}
+\itemΝα μελετήσετε την $f$ ως προς την μονοτονία. (5 μονάδες)
+\itemΝα δείξετε ότι η $f$ είναι αντιστρέψιμη και να λύσετε την εξίσωση ($4+4$ μονάδες):
+\[f(x)=\ln\left(e^2+e^3\right).\]
+\itemΝα μελετήσετε την $f^{-1}$ ως προς την μονοτονία και στη συνέχεια να δείξετε ότι ($2+4$ μονάδες):
+\[f^{-1}(\ln12)<1.\]
+\itemΝα λύσετε την εξίσωση (6 μονάδες):
+\[xe^{2x}+e^{3x}-1=0\tag{$\dagger$}.\]
+\end{enumerate}
+\end{them}
+\ \\
+\vfill
+\centering
+\textbf{\textsc{Καλη Επιτυχια!}}
+\end{document}
