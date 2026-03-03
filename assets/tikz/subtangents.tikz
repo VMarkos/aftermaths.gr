@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+	%\node[left,yshift=-8pt] at (0,0){$O$};
+	\draw[thick] (0,0) -- (3.6,3.6)node[pos=1,right]{$f$};
+	\draw[thick] (0,0) -- (-3.6,3.6);
+	\draw[dashed] (3.6,-3.6) -- (-3.6,3.6)node[pos=0,right]{$y=-x$};
+	\draw[dashed] (-3.6,-3.6) -- (3.6,3.6)node[pos=0,left]{$y=x$};
+	\node[circle, inner sep=1pt, fill=black] at (0,0){};
+	\begin{pgfonlayer}{bg}
+		\foreach \i in {-42,-39,...,42}{
+			\pgfmathsetmacro{\j}{180+\i}
+			\draw[color=gray] (0,0) -- (\i:3.6);
+			\draw[color=gray] (0,0) -- (\j:3.6);
+		}
+	\end{pgfonlayer}
+\end{tikzpicture}

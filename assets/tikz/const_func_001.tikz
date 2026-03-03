@@ -1,0 +1,29 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-1,0) -- (7,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-1) -- (0,7)node[pos=1,left]{$y$};
+	\node[left,yshift=-8pt] at (0,0){$O$};
+	\draw[thick, name path=curve 1] (1,-.5) .. controls (2,-1) and (4,6) .. (6.5,2)node[right]{$f$};
+	\draw[thick, name path=curve 2] (1,.5) .. controls (2,0) and (4,7) .. (6.5,3)node[right]{$g$};
+	\foreach \i in {1.2,2.4,...,6.5}{
+		\pgfmathtruncatemacro{\coord}{10*\i}
+		\pgfmathsetmacro{\j}{\i+0.005}
+		\draw[draw=none, name path=line \coord] (\i,-1) -- (\i,7);
+		\draw[draw=none, name path=nextline \coord] (\j,-1) -- (\j,7);
+		\node[draw=none, inner sep=0pt, outer sep=0pt, name intersections={of=curve 1 and line \coord}](ftan) at (intersection-1){};
+		\node[draw=none, inner sep=0pt, outer sep=0pt, name intersections={of=curve 2 and line \coord}](gtan) at (intersection-1){};
+		\node[draw=none, inner sep=0pt, outer sep=0pt, name intersections={of=curve 1 and nextline \coord}](nextftan) at (intersection-1){};
+		\node[draw=none, inner sep=0pt, outer sep=0pt, name intersections={of=curve 2 and nextline \coord}](nextgtan) at (intersection-1){};
+		\ifthenelse{\coord >50}{
+			\draw[densely dotted,->] (ftan) -- (gtan)node[pos=.3,right]{$c$};
+		}{
+			\draw[densely dotted,->] (ftan) -- (gtan);
+		}
+		\begin{pgfonlayer}{bg}
+			\begin{scope}
+				\clip (-1,-1) rectangle (7,7);
+				\draw[thick, color=gray, shorten >= -3cm, shorten <= -3cm] (ftan) -- (nextftan);
+				\draw[thick, color=gray, shorten >= -3cm, shorten <= -3cm] (gtan) -- (nextgtan);
+			\end{scope}
+		\end{pgfonlayer}
+	}
+\end{tikzpicture}

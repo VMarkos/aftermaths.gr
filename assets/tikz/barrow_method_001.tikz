@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-1,0) -- (5,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-1) -- (0,7)node[pos=1,left]{$y$};
+	\node[left,yshift=-8pt] at (0,0){$O$};
+	\draw[thick, domain={-.9}:{sqrt(6.95)}] plot (\x,{\x*\x})node[left]{$y=x^2$};
+	\node[circle, inner sep=1pt, fill=black, label={right,yshift=-8pt,xshift=-2pt}:{$\scriptstyle P(x,f(x))$}](P) at (1,1){};
+	\node[circle, inner sep=1pt, fill=black, label={right}:{$\scriptstyle Q(x+h,f(x+h))$}](Q) at (2.5,6.25){};
+	\node[circle, inner sep=1pt, fill=black, label={right}:{$\scriptstyle M(x+h,f(x))$}](M) at (2.5,1){};
+	\draw[thick, domain={.5}:{2.7}] plot (\x,{(5.25/1.5)*\x-3.75/1.5})node[right]{$\varepsilon$};
+	\draw[dashed] (0,0) rectangle (P);
+	\draw[dashed] (0,0) rectangle (Q);
+	\draw[dashed] (0,0) rectangle (M);
+	\draw[draw=none] (M) -- (Q)node[pos=.5,right]{$a$};
+	\draw ($(P)+(.4,0)$) arc (0:{atan(5.25/1.5)}:.4)node[pos=.5,right]{$\scriptstyle\phi$};
+\end{tikzpicture}

@@ -1,0 +1,10 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-4,0) -- (3,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-1) -- (0,4)node[pos=1,left]{$y$};
+	\node[left,yshift=-8pt] at (0,0){$O$};
+	\draw[thick, domain={-3.6}:{2}] plot (\x,{(exp(\x)-1)/(\x)})node[right]{$\frac{e^x-1}{x}$};
+	\draw[thick, color=gray, domain={-3.6}:{.7}, samples=200] plot (\x,{1/(1-\x)})node[above,xshift=-1pt]{$\frac{1}{1-x}$};
+	\draw[thick, color=gray] (-4,1) -- (2,1)node[right]{$y=1$};
+	\draw[dashed] (1,-1) -- (1,4)node[right]{$x=1$};
+	\node[circle, inner sep=1pt, fill=black] at (0,1){};
+\end{tikzpicture}

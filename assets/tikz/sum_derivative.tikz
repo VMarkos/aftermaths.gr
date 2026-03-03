@@ -1,0 +1,15 @@
+\begin{tikzpicture}
+	\draw[thick] (0,1) -- (3,1)node[pos=.5,above]{$f$};
+	\draw[thick, color=gray] (3,1) -- (3.4,1)node[pos=.5,above]{$df$};
+	\draw[thick] (0,-1) -- (3.7,-1)node[pos=.5,below]{$g$};
+	\draw[thick, color=gray] (3.7,-1) -- (4.2,-1)node[pos=.5,below]{$dg$};
+	\draw[thick] (0,0) -- (6.7,0)node[pos=0,left]{$f+g$};
+	\draw[thick, color=gray] (6.7,0) -- (7.6,0)node[pos=1,right]{$df+dg$};
+	\draw (3,-.1) -- (3,.1);
+	%\draw (6.7,-.1) -- (6.7,.1);
+	\draw (7.1,-.1) -- (7.1,.1);
+	\draw[dashed,->] (1.5,1) -- (1.5,.05);
+	\draw[dashed,->] (1.75,-1) -- (4.75,-.05);
+	\draw[dashed,->] (3.95,-1) .. controls (4.25,-.5) and (7.05,-.5) .. (7.35,-.05);
+	\draw[dashed,->] (3.2,1) .. controls (3.5,.5) and (6.6,.5) .. (6.9,.05);
+\end{tikzpicture}

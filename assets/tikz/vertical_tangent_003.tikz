@@ -1,0 +1,31 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-3) -- (0,3)node[pos=1,left]{$y$};
+	\node[left,yshift=-1pt] at (0,0){$O$};
+	\draw[thick, domain={0}:{3.6}, samples=200, name path=curve 1] plot (\x,{(\x)^(2/3)})node[right]{$f$};
+	\draw[thick, domain={-3.6}:{0}, samples=200, name path=curve 2] plot (\x,{(-\x)^(2/3)});
+	\node[circle, inner sep=1pt, fill=black](O) at (0,0){};
+	\node[circle, inner sep=1pt, fill=black, label={below}:{$Q$}](Q) at (3,{3^(2/3)}){};
+	\node[circle, inner sep=1pt, fill=black, label={below}:{$Q'$}](Qp) at (-3,{3^(2/3)}){};
+	\draw[thick, shorten >=-1cm, shorten <=-2cm] (O) -- (Qp);
+	\draw[thick, shorten >=-1cm, shorten <=-2cm] (O) -- (Q);
+	\begin{pgfonlayer}{bg}
+		\foreach \i in {3,2.8,...,0}{
+			\pgfmathtruncatemacro{\coord}{10*\i}
+			\pgfmathsetmacro{\j}{-\i}
+			\pgfmathtruncatemacro{\coordm}{10*\j}
+			\draw[draw=none, name path=line \coord] (\i,-3) -- (\i,3);
+			\draw[draw=none, name path=line \coordm] (\j,-3) -- (\j,3);
+			\node[circle, inner sep=1pt,fill=black, name intersections={of=curve 1 and line \coord}](X\coord) at (intersection-1){};
+			\node[circle, inner sep=1pt,fill=black, name intersections={of=curve 2 and line \coordm}](Y\coordm) at (intersection-1){};
+			\draw[very thin, color=gray, shorten >= -1cm, shorten <= -2cm] (O) -- (X\coord);
+			\draw[very thin, color=gray, shorten >= -1cm, shorten <= -2cm] (O) -- (Y\coordm);
+		}
+		\draw[draw=none, name path=line x] (.01,-3) -- (.01,3);
+		\draw[draw=none, name path=line y] (-.01,-3) -- (-.01,3);
+		\node[circle, inner sep=1pt,fill=black, name intersections={of=curve 1 and line x}](Xx) at (intersection-1){};
+		\node[circle, inner sep=1pt,fill=black, name intersections={of=curve 2 and line y}](Yy) at (intersection-1){};
+		\draw[thin, color=gray, shorten >= -2cm, shorten <= -2cm] (O) -- (Xx);
+		\draw[thin, color=gray, shorten >= -2cm, shorten <= -2cm] (O) -- (Yy);
+	\end{pgfonlayer}
+\end{tikzpicture}

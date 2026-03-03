@@ -1,0 +1,7 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-1,0) -- (4,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-1) -- (0,5)node[pos=1,left]{$y$};
+	\node[left,yshift=-8pt] at (0,0){$O$};
+	\draw[thick, domain={-.9}:{sqrt(4.5)}] plot (\x,{\x*\x})node[right]{$y=x^2$};
+	\node[circle, inner sep=1pt, fill=black, label={right}:{$P(a,f(a))$}](P) at (1,1){};
+\end{tikzpicture}

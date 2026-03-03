@@ -1,0 +1,24 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-1,0) -- (7,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-1) -- (0,7)node[pos=1,left]{$y$};
+	\node[left,yshift=8pt] at (0,0){$O$};
+	\draw[thick, domain={-.5}:{6.5}, samples=200, name path=curve] plot (\x,{.45*(\x-3)*(\x-3)+1})node[right]{$f$};
+	\node[circle, inner sep=1pt,outer sep=0pt, fill=black](min) at (3,1){};
+	\begin{scope}
+		\foreach \i in {.05,.15,...,6}{
+			\pgfmathtruncatemacro{\coord}{100*\i}
+			\pgfmathsetmacro{\j}{7-\i}
+			\pgfmathsetmacro{\k}{1+\i}
+			\draw[draw=none, name path=line \i] (\i,0) -- (\i,7);
+			\begin{pgfonlayer}{bg}
+				\clip (-.4,7) rectangle (6.4,-1);
+				\ifthenelse{\coord < 301}{
+					\draw[very thin, color=gray, name intersections={of={curve and line \i}},shorten >= -\k cm, shorten <= -2 cm] (min) -- (intersection-1);
+				}{
+					\draw[very thin, color=gray, name intersections={of={curve and line \i}},shorten >= -\j cm, shorten <= -2 cm] (min) -- (intersection-1);
+				}
+			\end{pgfonlayer}
+		}
+	\end{scope}
+	\draw[thick, dashed] (-1,1) -- (7,1)node[pos=1,below]{$\varepsilon$};
+\end{tikzpicture}

@@ -1,0 +1,26 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-3) -- (0,4)node[pos=1,left]{$y$};
+	\node[left,yshift=8pt] at (0,0){$O$};
+	\draw[thick, domain={-3.6}:{3.6}, samples=200, name path=curve] plot (\x,{.15*(\x+2)*(\x+2)*(\x-3)+1})node[right]{$f$};
+	\node[circle, inner sep=1pt, fill=black](max) at (-2,1){};
+	\draw[dashed] (0,0) rectangle (max);
+	\node[right] at (0,1){$\footnotesize f(x_1)$};
+	\node[below] at (-2,0){$\footnotesize x_1\vphantom{\delta_1}$};
+	\draw[draw=none, name path=max right] (-1.5,0) -- (-1.5,4);
+	\node[draw=none, inner sep=0pt, outer sep=0pt, name intersections={of=curve and max right}](maxr) at (intersection-1){};
+	\draw[densely dotted] (-1.5,0) -- (maxr)node[pos=0,below, xshift=4pt]{$\footnotesize x_{\scriptscriptstyle1}+\delta_1$};
+	\draw[draw=none, name path=max left] (-2.5,0) -- (-2.5,4);
+	\node[draw=none, inner sep=0pt, outer sep=0pt, name intersections={of=curve and max left}](maxl) at (intersection-1){};
+	\draw[densely dotted] (-2.5,0) -- (maxl)node[pos=0,below, xshift=-4pt]{$\footnotesize x_{\scriptscriptstyle1}-\delta_1$};
+	\node[circle, inner sep=1pt, fill=black](min) at ({4/3},{-16/9}){};
+	\draw[dashed] (0,0) rectangle ({4/3},{-16/9});
+	\node[left] at (0,{-16/9}){$\footnotesize f(x_2)$};
+	\node[above] at ({4/3},0){$\footnotesize x_2$};
+	\draw[draw=none, name path=min right] ({2},0) -- (2,-3);
+	\node[draw=none, inner sep=0pt, outer sep=0pt, name intersections={of=curve and min right}](minr) at (intersection-1){};
+	\draw[densely dotted] (2,0) -- (minr)node[pos=0, above, xshift=3pt]{$\footnotesize x_{2}+\delta_2$};
+	\draw[draw=none, name path=min left] ({2/3},0) -- ({2/3},-3);
+	\node[draw=none, inner sep=0pt, outer sep=0pt, name intersections={of=curve and min left}](minl) at (intersection-1){};
+	\draw[densely dotted] ({2/3},0) -- (minl)node[pos=0, above, xshift=-3pt]{$\footnotesize x_{2}-\delta_2$};
+\end{tikzpicture}

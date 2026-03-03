@@ -1,0 +1,8 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-3) -- (0,3)node[pos=1,left]{$y$};
+	\node[left,yshift=8pt] at (0,0){$O$};
+	\draw[thick, domain={-3.6}:{3.6}, samples=200] plot (\x,{(2*sin(2*\x r))})node[right]{$y=\sin x$};
+	\node[circle, inner sep=1pt, fill=black, label={right,yshift=8pt}:{$\scriptstyle P(5\pi/6,1/2)$}](P) at ({5*pi/12},1){};
+	\draw[thick] (-4,1) -- (4,1)node[right]{$y=1/2$};
+\end{tikzpicture}

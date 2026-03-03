@@ -1,0 +1,25 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-1,0) -- (7,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-1) -- (0,7)node[pos=1,left]{$y$};
+	\node[left,yshift=-8pt] at (0,0){$O$};
+	\draw[thick, domain={1}:{6.5}, samples=200, name path=curve] plot (\x,{-.3*(\x-0)*(\x-10)-1.4})node[right]{$f$};
+	\node[circle, inner sep=1pt, fill=black, label={above, xshift=-5pt}:{$A$}](a) at (1,1.3){};
+	\node[circle, inner sep=1pt, fill=black, label={above}:{$B$}](b) at (6.5,5.425){};
+	\node[circle, inner sep=1pt, fill=black, label={right}:{$B'$}](bp) at (6.5,1.3){};
+	\draw[dashed] (0,0) rectangle (a);
+	\draw[dashed] (0,0) rectangle (b);
+	\draw[dashed] (0,0) rectangle (bp);
+	\node[below] at ($(-1,0)!(a)!(7,0)$){$a$};
+	\node[below] at ($(-1,0)!(b)!(7,0)$){$b$};
+	\node[left] at ($(0,-1)!(a)!(0,7)$){$f(a)$};
+	\node[left] at ($(0,-1)!(b)!(0,7)$){$f(b)$};
+	\draw[thin, name path=line ab] (a) -- (b);
+	\draw[thick, domain={1}:{6.5}, samples=200, name path=curve new] plot (\x,{-.3*(\x-0)*(\x-10)-1.4-(4.125/5.5)*(\x-1)})node[below,xshift=-5pt]{$g$};
+	\foreach \i in {1.2,1.4,...,6.5}{
+		\pgfmathtruncatemacro{\coord}{10*\i}
+		\draw[draw=none, name path=line \coord] (\i,-1) -- (\i,7);
+		\node[draw=none, inner sep=0pt, outer sep=0pt, name intersections={of={curve and line \coord}}](A\coord) at (intersection-1){};
+		\node[draw=none, inner sep=0pt, outer sep=0pt, name intersections={of={curve new and line \coord}}](B\coord) at (intersection-1){};
+		\draw[densely dotted, ->] (A\coord) -- (B\coord);
+	}
+\end{tikzpicture}

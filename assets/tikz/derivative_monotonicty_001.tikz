@@ -1,0 +1,28 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-1,0) -- (7,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-1) -- (0,7.5)node[pos=1,left]{$y$};
+	\node[left,yshift=-8pt] at (0,0){$O$};
+	\draw[thick, name path=curve] (1,-.5) .. controls (1.5,6.5) and (5,6.5) .. (6.5,6.5)node[right]{$f$};
+	\draw[draw=none, name path=line] (2.6,-1) -- (2.6,7);
+	\node[circle, inner sep=1pt, fill=black, name intersections={of=curve and line}](x) at (intersection-1){};
+	\draw[dashed] (0,0) rectangle (x);
+	\node[below] at ($(-1,0)!(x)!(7,0)$){$x$};
+	\node[left] at ($(0,-1)!(x)!(0,7)$){$f(x)$};
+	\draw[draw=none, name path=line x] (2.61,-1) -- (2.61,7);
+	\node[draw=none, inner sep=0pt, outer sep=0pt, name intersections={of=curve and line x}](Ax) at (intersection-1){};
+	\begin{scope}
+		\clip (.5,0) rectangle (6.5,7.5);
+		\draw[thick, shorten <= -3.5cm, shorten >= -3.5cm] (x) -- (Ax);
+	\end{scope}
+	\foreach \i in {1.25,1.35,...,4.85}{
+		\pgfmathtruncatemacro{\coord}{10*\i}
+		\draw[draw=none, name path=line \coord] (\i,-1) -- (\i,7);
+		\node[draw=none, inner sep=0pt, outer sep=0pt, name intersections={of=curve and line \coord}](A\coord) at (intersection-1){};
+		\begin{pgfonlayer}{bg}
+			\begin{scope}
+				\clip (.5,-1) rectangle (6.5,7.5);
+				\draw[very thin, color=gray, shorten <= -3.5cm, shorten >= -3.5cm] (x) -- (A\coord);
+			\end{scope}
+		\end{pgfonlayer}
+	}
+\end{tikzpicture}

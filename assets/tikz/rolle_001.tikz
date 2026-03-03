@@ -1,0 +1,23 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-1,0) -- (7,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-1) -- (0,7)node[pos=1,left]{$y$};
+	\node[left,yshift=8pt] at (0,0){$O$};
+	\draw[thick, domain={1}:{6.5}, samples=200, name path=curve] plot (\x,{.3*(\x-1)*(\x-3)*(\x-6.5)+3})node[right]{$f$};
+	\draw[dashed] (0,0) rectangle (1,3);
+	\draw[dashed] (1,0) rectangle (6.5,3);
+	\node[circle, inner sep=1pt, fill=black] at (1,3){};
+	\node[circle, inner sep=1pt, fill=black] at (6.5,3){};
+	\node[below] at (1,0){$a$};
+	\node[below] at (6.5,0){$b$};
+	\node[left] at (0,3){$f(a)=f(b)$};
+	\node[draw=none, inner sep=0pt, outer sep=0pt](max) at ({(21-sqrt(93))/6},0){};
+	\node[draw=none, inner sep=0pt, outer sep=0pt](min) at ({(21+sqrt(93))/6},0){};
+	\draw[draw=none, name path=line max] (max) -- ($(-1,7)!(max)!(7,7)$);
+	\draw[draw=none, name path=line min] (min) -- ($(-1,-1)!(min)!(7,-1)$);
+	\node[draw=none, inner sep=0pt, outer sep=0pt, name intersections={of=curve and line max}](fmax) at (intersection-1){};
+	\node[draw=none, inner sep=0pt, outer sep=0pt, name intersections={of=curve and line min}](fmin) at (intersection-1){};
+	\draw[densely dotted, name intersections={of=curve and line max}] (max) -- (fmax)node[pos=0,below]{$x_0$};
+	\draw[densely dotted, name intersections={of=curve and line min}] (min) -- (fmin)node[pos=0,above]{$\xi_0$};
+	\draw[thick] ($(-1,0)!(fmax)!(-1,7)$) -- ($(7,0)!(fmax)!(7,7)$)node[pos=0,left]{$f'(x_0)=0$};
+	\draw[thick] ($(-1,0)!(fmin)!(-1,7)$) -- ($(7,0)!(fmin)!(7,7)$)node[pos=0,left]{$f'(\xi_0)=0$};
+\end{tikzpicture}

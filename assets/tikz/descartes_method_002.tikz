@@ -1,0 +1,18 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-1,0) -- (6,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-3) -- (0,4)node[pos=1,left]{$y$};
+	\node[left,yshift=-8pt] at (0,0){$O$};
+	\draw[thick, domain={-.9}:{sqrt(3.6)}] plot (\x,{\x*\x})node[left]{$y=x^2$};
+	\node[circle, inner sep=1pt, fill=black, label={left,yshift=-3pt,xshift=2pt}:{$\scriptstyle P(1,1)$}](P) at (1,1){};
+	\draw[thick, domain={-.9}:{2.4}] plot (\x,{2*\x-1})node[right]{$\varepsilon$};
+	\draw[domain={-.9}:{5.5}] plot (\x,{-.5*\x+1.5})node[right]{$\delta$};
+	\node[circle, inner sep=1pt, fill=black, label={below,xshift=-4pt}:{$\scriptstyle K(3,0)$}](K) at (3,0){};
+	\draw (K) circle ({sqrt(5)});
+	\draw[thin, rotate around={-atan(.5):(P)}] (P) rectangle ($(P)+(.2,.2)$);
+	\node[circle, inner sep=1pt, fill=black, label={below,xshift=-1pt,yshift=2pt}:{$\scriptstyle A$}](A) at (1,0){};
+	\draw[dashed] (P) -- (A)node[pos=.65,xshift=-2pt,right]{$\scriptstyle AP=1$};
+	\draw[draw=none] (K) -- (P)node[pos=.5,above,xshift=4pt]{$\scriptstyle\rho=\sqrt{5}$};
+	\draw[draw=none] (K) -- (A)node[pos=.5,below,xshift=-6pt]{$\scriptstyle AK=2$};
+	\draw ($(K)+(.2,0)$) arc (0:{90+atan(2)}:.2)node[pos=.5,above]{$\scriptstyle\theta$};
+	\draw ($(K)-(.45,0)$) arc (180:{90+atan(2)}:.45)node[pos=.7,left]{$\scriptstyle\phi$};
+\end{tikzpicture}

@@ -1,0 +1,10 @@
+\begin{tikzpicture}
+	\draw[thick] (0,0) rectangle (5,3)node[pos=.5]{$fg$};
+	\node[below] at (2.5,0){$f$};
+	\node[left] at (0,1){$g$};
+	\draw[thick, pattern=north west lines, pattern color=gray] (5,0) rectangle (7,3)node[pos=.5]{$g\cdot df$};
+	\draw[thick, pattern=north west lines, pattern color=gray] (0,3) rectangle (5,4.2)node[pos=.5]{$f\cdot dg$};
+	\draw[thick, pattern=dots, pattern color=gray] (5,3) rectangle (7,4.2)node[pos=.5]{$df\cdot dg$};
+	\node[below] at (6,0){$df$};
+	\node[left] at (0,3.6){$dg$};
+\end{tikzpicture}

@@ -1,0 +1,7 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-1) -- (0,4)node[pos=1,left]{$y$};
+	\node[left,yshift=-8pt] at (0,0){$O$};
+	\draw[thick, domain={-3.6}:{ln(3.6)}] plot (\x,{exp(\x)})node[right]{$e^x$};
+	\draw[thick, domain={-1.9}:{2.6}] plot (\x,{\x+1})node[right]{$y=x+1$};
+\end{tikzpicture}

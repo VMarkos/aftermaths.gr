@@ -1,0 +1,213 @@
+\documentclass[10pt,a4paper]{book}
+\usepackage[english,greek]{babel}
+\usepackage[iso-8859-7]{inputenc}
+\usepackage[table]{xcolor}
+\usepackage{amsthm,amsmath,amssymb,graphicx,bbm,mdframed,extarrows,float,tikz,subcaption,ifthen,booktabs,
+	xcolor,hhline,multicol}
+\usepackage{hyperref}
+\usepackage[%
+	right=2.9in,
+	marginparwidth=2.4in,
+	marginparsep=0.2in
+]{geometry}
+\usepackage[inline]{enumitem}
+\usepackage{pdfpages}
+\usepackage[outline]{contour}
+
+% Font
+\usepackage[T1]{fontenc}
+\usepackage{libertinus,libertinust1math}
+
+% Sidenotes
+\usepackage[%
+	mark=arabic,%
+	font=sf,%
+	size=footnote,%
+	shape=up,%
+]{sidenotesplus}
+\usepackage{marginfix}
+\usepackage{adjustbox}
+
+% Set footnotes to symbols
+\usepackage[perpage, symbol]{footmisc}
+
+% Fix header and footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\addtolength{\headwidth}{\marginparwidth}
+\addtolength{\headwidth}{\marginparsep}
+
+\fancyhead[L,C]{}
+\fancyhead[LO,RE]{\thepage}
+\fancyhead[LE]{\nouppercase\rightmark}
+\fancyhead[RO]{\nouppercase\leftmark}
+\fancyfoot[L,C,R]{}
+
+
+% Captions
+\DeclareCaptionFormat{custom}
+{%
+	{\sf\footnotesize\textbf{#1#2}{#3}}
+}
+\captionsetup[sidenotes]{format=custom}
+\captionsetup{format=custom}
+
+
+\DeclareCaptionStyle{widefigure}{options=sidenotes}
+\DeclareCaptionStyle{marginfigure}{options=sidenotes}
+\DeclareCaptionStyle{sidecaption}{options=sidenotes}
+\DeclareCaptionStyle{margintable}{options=sidenotes}
+\DeclareCaptionStyle{widetable}{options=sidenotes}
+
+% Tikz
+\usepackage{tikzscale}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{arrows}
+\usetikzlibrary{shapes}
+\usetikzlibrary{patterns}
+\usetikzlibrary{intersections}
+\usetikzlibrary{calc}
+
+\allowdisplaybreaks
+
+\newtheoremstyle{myStyle}
+{\topsep}
+{\topsep}
+{}
+{}
+{\bfseries}
+{}
+{\newline}
+{}
+
+\theoremstyle{myStyle}
+
+\newtheorem{exc}{¶σκηση}
+\newtheorem{prob}{Πρόβλημα}
+\newtheorem{defi}{Ορισμός}
+\newtheorem{rem}{Παρατήρηση}
+\newtheorem{exm}{Παράδειγμα}
+\newtheorem{prop}{Πρόταση}
+\newtheorem{thm}{Θεώρημα}
+\newtheorem{cor}{Πόρισμα}
+\newtheorem*{prf}{Απόδειξη}
+\newtheorem*{sol}{Λύση}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\pn}[1]{\left(#1\right)}
+\newcommand{\abs}[1]{\left|#1\right|}
+\newcommand{\ellipticbox}[2]{\begin{tikzpicture}\node[ellipse, #1, draw=black, minimum height=8mm] at (0,1){$#2$};\end{tikzpicture}}
+\newcommand{\incarrow}{\centering\begin{tikzpicture}\draw[thick,>->](0,0) -- (1.2,.8);
+		\draw[draw=none] (-.2,-.2) rectangle (1.4,1);\end{tikzpicture}}
+\newcommand{\decarrow}{\centering\begin{tikzpicture}\draw[thick,>->](0,0) -- (1.2,-.8);
+		\draw[draw=none] (.2,.2) rectangle (1.4,-1);\end{tikzpicture}}
+\newcommand{\convarrow}{\centering\begin{tikzpicture}\draw[thick,<-<](0,0) arc (0:-180:.8);
+		\draw[draw=none] (.2,-1) rectangle (-1,.2);\end{tikzpicture}}
+\newcommand{\concarrow}{\centering\begin{tikzpicture}\draw[thick,<-<](0,0) arc (0:180:.8);
+		\draw[draw=none] (.2,-.2) rectangle (-1,1);\end{tikzpicture}}
+\newcommand{\concdownarrow}{\centering\begin{tikzpicture}\draw[thick,<-<](0,0) arc (0:90:.8);
+		\draw[draw=none] (-1,-.2) rectangle (.2,1);\end{tikzpicture}}
+\newcommand{\convuparrow}{\centering\begin{tikzpicture}\draw[thick,<-<](0,0) arc (0:-90:.8);
+		\draw[draw=none] (.2,.2) rectangle (-1,-1);\end{tikzpicture}}
+\newcommand{\convdownarrow}{\centering\begin{tikzpicture}\draw[thick,>->](0,0) arc (180:270:.8);
+		\draw[draw=none] (-.2,.2) rectangle (1,-1);\end{tikzpicture}}
+\newcommand{\concuparrow}{\centering\begin{tikzpicture}\draw[thick,<-<](0,0) arc (90:180:.8);
+		\draw[draw=none] (-1,.2) rectangle (.2,-1);\end{tikzpicture}}
+\newcommand{\vcenterbox}[2]{\let\myheight\relax\newlength{\myheight}\settoheight{\myheight}{\hbox{#1}}\begin{tikzpicture}\node[minimum height=\myheight] at (0,0){#2};\end{tikzpicture}}
+\newcommand{\arrayvline}[1]{\let\myheight\relax\newlength{\myheight}\settoheight{\myheight}{\hbox{#1}}
+	\begin{tikzpicture}\pgfmathsetmacro{\h}{0.03514*\myheight}\draw (0,0) -- (0,\h);\draw (.05,0) -- (.05,\h);\end{tikzpicture}}
+\newcommand{\setatheight}[3]{
+	\let\myheight\relax\newlength{\myheight}\settoheight{\myheight}{\hbox{#1}}
+	\ifthenelse{\equal{#3}{top}}{
+		\begin{tikzpicture}\node at (0,0){};\node[below,outer sep=0pt] at (0,\myheight){#2};\end{tikzpicture}}
+	{}
+	\ifthenelse{\equal{#3}{bot}}{
+		\begin{tikzpicture}\pgfmathsetmacro{\h}{-0.03514*\myheight}\node at (0,0){};\node[outer sep=0pt] at (0,\h){#2};\end{tikzpicture}}
+	{}}
+
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+
+\let\sin\relax
+\DeclareMathOperator{\sin}{\text{ημ}}
+
+\let\cos\relax
+\DeclareMathOperator{\cos}{\text{συν}}
+
+\let\tan\relax
+\DeclareMathOperator{\tan}{\text{εφ}}
+
+\let\cot\relax
+\DeclareMathOperator{\cot}{\text{σφ}}
+
+\hypersetup{colorlinks, citecolor=black, linkcolor=black, urlcolor=black, filecolor=black}
+
+%\title{Εισαγωγή στα Μαθηματικά Προσανατολισμού της Γ' Λυκείου --- Συναρτήσεις}
+
+\begin{document}
+	
+	\begin{titlepage}
+		\newgeometry{left=7.5cm} %defines the geometry for the titlepage
+		\pagecolor{purple}
+		\noindent\Huge
+		\color{white}\contour{white}{$\forall fter-maths$}\\[-1em]
+		\color{white}
+		\makebox[0pt][l]{\rule{1.3\textwidth}{1pt}}
+		\par
+		\noindent\Large
+		\textbf{Μάρκος Βασίλης} \textcolor{white}{\textsc{Αθηνα} 2021}
+		\vfill
+		\noindent
+		{\huge \bf Παράγωγος}
+		\vskip\baselineskip
+		\noindent
+		Γ' Λυκείου: Πρόχειρες σημειώσεις και ασκήσεις
+	\end{titlepage}
+	\restoregeometry % restores the geometry
+	\nopagecolor% Use this to restore the color pages to white
+	
+	\newpage
+	\null\thispagestyle{empty}
+	\newpage
+	
+	\chapter*{Πρόλογος}
+	Στα χέρια σας ή στις οθόνες σας --πιθανότερα το δεύτερο-- βλέπετε το δεύτερο μέρος των σημειώσεων για τα μαθηματικά προσανατολισμού της Γ' Λυκείου. Έχει γίνει, όπως και με το πρώτο μέρος των σημειώσεων, μία εκτεταμένη προσπάθεια να παρουσιαστούν όσες περισσότερες αποδείξεις γίνεται ή, αν αυτό δεν είναι εφικτό, οι διαισθητικές ιδέες πίσω από αυτές. Επίσης, σε σχέση με το σχολικό βιβλίο έχει γίνει μία μικρή αναδιάταξη της ύλης, κυρίως σε σχέση με το θεώρημα του \foreignlanguage{english}{Fermat} το οποίο παρουσιάζεται αρκετά νωρίς. Αυτό έγινε κυρίως γιατί μέσα από το θεώρημα του \foreignlanguage{english}{Fermat} αποδεικνύεται φυσιολογικά το θεώρημα του \foreignlanguage{english}{Rolle} και, το σημαντικότερο, αποκτά νόημα η ύπαρξή του στην ύλη. Πράγματι, το να διδαχθεί κανείς το θεώρημα του \foreignlanguage{english}{Fermat} αφού έχει μάθει ικανές συνθήκες για την εύρεση ακροτάτων μίας συνάρτησης έχει πολύ μικρότερη αξία, καθώς μέσα από το θεώρημα του \foreignlanguage{english}{Fermat} προκύπτουν αναγκαίες συνθήκες για την εύρεση ακροτάτων.
+	
+	Το παρόν αποτελεί μέρος σειράς σημειώσεων, λυμένων παραδειγμάτων και, γενικότερα, διδακτικού υλικού για όλες τις τάξεις του λυκείου που μπορείτε να βρείτε στο \foreignlanguage{english}{\href{https://aftermathsgr.wordpress.com/}{aftermaths.gr}}. Για λάθη, διορθώσεις, παραλείψεις και προτάσεις επικοινωνήστε μαζί μου είτε μέσω \foreignlanguage{english}{e-mail} στη διεύθυνση ηλεκτρονικού ταχυδρομείου \texttt{\foreignlanguage{english}{vassileiosmarkos@gmail.com}} είτε μέσω της φόρμας επικοινωνίας του παραπάνω ιστοτόπου:\\ \foreignlanguage{english}{\href{aftermaths.gr/contact}{aftermaths.gr/contact}}.
+	
+	\ \\
+	
+	Καλό διάβασμα!
+	
+	\clearpage\newpage
+	
+	\tableofcontents
+	%\mainmatter
+	
+	\clearpage\newpage
+	
+	%\chapter{Παράγωγος}
+	\input{tangent.tex}
+	
+	\input{derivative.tex}
+	
+	\input{theorems.tex}
+	
+	\input{mvt_consequences.tex}
+	
+	\input{convexity.tex}
+	
+	\input{lhospital.tex}
+	
+	\input{plots.tex}
+	
+	\input{exercises.tex}
+	
+	\newpage\clearpage
+	\listoffigures
+	\listoftables
+\end{document}

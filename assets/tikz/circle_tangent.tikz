@@ -1,0 +1,8 @@
+\begin{tikzpicture}
+	\draw[thick] (0,0) circle (3cm);
+	\node[circle, inner sep=2pt, fill=black, label={left}:{$O$}](O) at (0,0){};
+	\node[circle, inner sep=2pt, fill=black, label={right}:{$M$}](M) at (30:3){};
+	\draw (O) -- (M)node[pos=.5,above]{$R$};
+	\draw[thick, domain={0}:{5}] plot (\x,{3/sin(30)-cot(30)*\x})node[right]{$\varepsilon$};
+	\draw[thin, rotate around={-150:(M)}] (M) rectangle ($(M)+(.3,.3)$);
+\end{tikzpicture}

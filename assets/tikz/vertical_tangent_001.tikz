@@ -1,0 +1,7 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-3) -- (0,3)node[pos=1,left]{$y$};
+	\node[left,yshift=-8pt] at (0,0){$O$};
+	\draw[thick, domain={0}:{3.6}, samples=200] plot (\x,{(\x)^(1/3)})node[right]{$f$};
+	\draw[thick, domain={-3.6}:{0}, samples=200] plot (\x,{-(-\x)^(1/3)});
+\end{tikzpicture}

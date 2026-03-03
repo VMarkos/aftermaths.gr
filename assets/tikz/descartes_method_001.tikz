@@ -1,0 +1,12 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-1,0) -- (6,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-3) -- (0,4)node[pos=1,left]{$y$};
+	\node[left,yshift=-8pt] at (0,0){$O$};
+	\draw[thick, domain={-.9}:{sqrt(3.6)}] plot (\x,{\x*\x})node[left]{$y=x^2$};
+	\node[circle, inner sep=1pt, fill=black, label={right,xshift=-1pt,yshift=3pt}:{$\scriptstyle P(a,f(a))$}](P) at (1,1){};
+	\draw[thick, domain={-.9}:{2.4}] plot (\x,{2*\x-1})node[right]{$\varepsilon$};
+	\draw[domain={-.9}:{5.5}] plot (\x,{-.5*\x+1.5})node[right]{$\delta$};
+	\node[circle, inner sep=1pt, fill=black, label={below,xshift=-4pt}:{$\scriptstyle K(k,0)$}](K) at (3,0){};
+	\draw (K) circle ({sqrt(5)});
+	\draw[thin, rotate around={{atan(2)-180}:(P)}] (P) rectangle ($(P)+(.2,.2)$);
+\end{tikzpicture}

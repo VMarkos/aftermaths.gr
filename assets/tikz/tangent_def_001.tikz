@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+	\draw[thick,->,name path=x axis] (-1,0) -- (7,0)node[pos=1,below]{$x$};
+	\draw[thick,->,name path=y axis] (0,-1) -- (0,7)node[pos=1,left]{$y$};
+	\node[left,yshift=-8pt] at (0,0){$O$};
+	\draw[thick, name path=curve] (1,1) .. controls (3,6) and (5,-1) .. (6.5, 6.5)node[right]{$f$};
+	\draw[draw=none, name path=line 1] (3.9,-1) -- (3.9,6.5);
+	\draw[draw=none, name path=line 2] (6.2,-1) -- (6.2,6.5);
+	\node[circle, inner sep=1pt, fill=black, name intersections={of=curve and line 1}, label={above}:{$P$}](P) at (intersection-1){};
+	\node[circle, inner sep=1pt, fill=black, name intersections={of=curve and line 2}, label={right}:{$Q$}](Q) at (intersection-1){};
+	\draw[dashed] (0,0) rectangle (P);
+	\draw[dashed] (0,0) rectangle (Q);
+	\node[left] at ($(0,-1)!(P)!(0,4)$){$f(x_0)$};
+	\node[left] at ($(0,-1)!(Q)!(0,4)$){$f(x_0+h)$};
+	\node[below] at ($(-1,0)!(P)!(4,0)$){$x_0$};
+	\node[below] at ($(-1,0)!(Q)!(4,0)$){$x_0+h$};
+	\draw[shorten >= -1cm, shorten <= -5cm] (P) -- (Q);
+\end{tikzpicture}
