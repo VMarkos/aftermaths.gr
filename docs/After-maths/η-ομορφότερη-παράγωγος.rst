@@ -42,7 +42,7 @@
 
 Όπως είπαμε και την προηγούμενη φορά, ξεκινάμε από το κλειστό διάστημα  :math:`[0,1]`  και αρχίζουμε και πετάμε κομμάτια όπως παρακάτω:
 
-.. figure:: https://aftermaths.gr/_static/images/uploads/2023/03/cantor_def_01.png?w=723
+.. figure:: /_static/images/uploads/2023/03/cantor_def_01.png
    :alt: Βήμα 1ο στον δρόμο για τον Cantor...
    :figclass: wp-image-11957
 
