@@ -135,7 +135,7 @@ Fractions Can Get You Everywhere!
 	
 	And here comes a historical figure in mathematics, `Georg Cantor <https://en.wikipedia.org/wiki/Georg_Cantor>`__, to give us his insights. Cantor's contribution to our problem is that he provided an elegant and ingenious way of presenting natural numbers so that their numerosity can be seen. First, let us take two axes perpendicular to each other and put on each axis all the natural numbers as shown in the figure below:
 	
-	.. figure:: https://aftermaths.gr/wp-content/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png
+	.. figure:: /wp-content/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png
 	   :alt: The two axes.
 	   :figclass: wp-image-970
 	
@@ -143,7 +143,7 @@ Fractions Can Get You Everywhere!
 	
 	Next, we plot all points that have natural numbers as coordinates (e.g. points  :math:`A(1,4)`  and  :math:`B(2,1)` , but not  :math:`C(4,1/12)` ), as shown in the figure below:
 	
-	.. figure:: https://aftermaths.gr/wp-content/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png
+	.. figure:: /wp-content/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png
 	   :alt: Cantor's "grid".
 	   :figclass: wp-image-971
 	
@@ -151,7 +151,7 @@ Fractions Can Get You Everywhere!
 	
 	He then suggests that we imagine each number on the vertical axis as a denominator and each number on the horizontal axis as a numerator. Thus, each point corresponds to an exactly positive explicit number, as shown below:
 	
-	.. figure:: https://aftermaths.gr/wp-content/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png
+	.. figure:: /wp-content/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png
 	   :alt: Fractions as a grid.
 	   :figclass: wp-image-973
 	
@@ -159,7 +159,7 @@ Fractions Can Get You Everywhere!
 	
 	Here we notice that the first line shows the natural numbers, the second line shows the fractions with denominator 2, the third line shows the fractions with denominator 3, and so on, which is more or less similar to what we did before. But here comes the idea we were missing. Let's imagine that we are standing at the point  :math:`A(1,1)` , which corresponds to the number 1. We start and move as shown in the following figure:
 	
-	.. figure:: https://aftermaths.gr/wp-content/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png
+	.. figure:: /wp-content/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png
 	   :alt: Cantor's walk.
 	   :figclass: wp-image-975
 	
@@ -174,7 +174,7 @@ Fractions Can Get You Everywhere!
 	
 	If we try to place all the natural numbers on the line of real numbers, then we will not have much difficulty, as we just have to decide where to place our unit (1) and then proceed in a steady step by "planting" all the other numbers, as shown below:
 	
-	.. figure:: https://aftermaths.gr/wp-content/uploads/2019/07/ezgif.com-crop2-1.gif
+	.. figure:: /wp-content/uploads/2019/07/ezgif.com-crop2-1.gif
 	   :alt: Planting physics (numbers).
 	   :figclass: wp-image-984
 	
@@ -182,7 +182,7 @@ Fractions Can Get You Everywhere!
 	
 	Now, if we want to put all the (positive) verbs on the axis, how do we work? One way is to follow Cantor's steps, but we'll get the soul out of it, so we can, quite simply, put all the natural numbers first, then all the explicit numbers with a denominator of two, then all the explicit numbers with a denominator of three, and so on, as shown in the figure below:
 	
-	.. figure:: https://aftermaths.gr/wp-content/uploads/2019/07/ezgif.com-crop3.gif
+	.. figure:: /wp-content/uploads/2019/07/ezgif.com-crop3.gif
 	   :alt: Planting sayings.
 	   :figclass: wp-image-986
 	

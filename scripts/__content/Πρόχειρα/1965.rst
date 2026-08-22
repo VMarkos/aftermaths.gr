@@ -15,7 +15,7 @@
 	
 	Ωραία ξεκινάμε... Καμπύλες μας έταξες, για ευθείες μιλάς! Λοιπόν, ας πάρουμε, αρχής γενομένης, μία ευθεία, για παράδειγμα, την  :math:`x+3y=4`  και ας δούμε με τι μοιάζει:
 	
-	.. figure:: https://aftermaths.gr/wp-content/uploads/2020/01/screenshot_2020-01-17-desmos-graphing-calculator.png?w=1024
+	.. figure:: /wp-content/uploads/2020/01/screenshot_2020-01-17-desmos-graphing-calculator.png
 	   :alt: Η ευθεία μας!
 	   :figclass: wp-image-1968
 	

@@ -24,7 +24,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/points.png?w=569
+   .. figure:: {static}wp-content/uploads/2020/03/points.png
       :alt: Τρία αμέριμνα σημεία στο επίπεδο...
       :figclass: wp-image-2382
 
@@ -34,7 +34,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/first_try.png?w=570
+   .. figure:: {static}wp-content/uploads/2020/03/first_try.png
       :alt: Η αφελέστερη προσέγγιση...
       :figclass: wp-image-2384
 
@@ -44,7 +44,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/second_try.png?w=571
+   .. figure:: {static}wp-content/uploads/2020/03/second_try.png
       :alt: Η δεύτερη απόπειρα...
       :figclass: wp-image-2386
 

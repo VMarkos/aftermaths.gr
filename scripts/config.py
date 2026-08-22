@@ -11,5 +11,5 @@ class Config:
     CONTENT_ROOT = os.path.join(PWD, "__content")
     CONTENT_TREE = os.path.join(PWD, "content_tree.json")
     TAGMAP = os.path.join(PWD, "tagmap.json")
-    SPHINX_WD = os.path.join(PWD, '..', 'sphinx')
+    SPHINX_WD = os.path.join(PWD, '..', '..', 'sphinx')
     SPHINX_DOCS = os.path.join(SPHINX_WD, 'docs')

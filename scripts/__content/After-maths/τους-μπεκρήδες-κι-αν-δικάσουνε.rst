@@ -91,7 +91,7 @@
 
 Η γραφική παράσταση που αναπαριστά τους γύρους που παίξαμε συναρτήσει της πιθανότητας να κερδίσουμε είναι η παρακάτω:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/03/one_test.png?w=1024
+.. figure:: /wp-content/uploads/2021/03/one_test.png
    :alt: Χμμμ, όχι και πολύ διαφωτιστικό...
    :figclass: wp-image-6349
 
@@ -136,7 +136,7 @@
 
 Η αντίστοιχη γραφική παράσταση που θα πάρουμε είναι η εξής:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/03/hundred_test.png?w=1024
+.. figure:: /wp-content/uploads/2021/03/hundred_test.png
    :alt: Κάπως καλύτερα...
    :figclass: wp-image-6359
 
@@ -179,7 +179,7 @@
 
 Τώρα παίρνουμε την ακόλουθη γραφική παράσταση:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/03/many_test.png?w=1024
+.. figure:: /wp-content/uploads/2021/03/many_test.png
    :alt: Χμμμ και πάλι χμμμ...
    :figclass: wp-image-6363
 
@@ -222,7 +222,7 @@
 
 Η αντίστοιχη γραφική παράσταση είναι η ακόλουθη:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/03/many_many_many_test.png?w=1024
+.. figure:: /wp-content/uploads/2021/03/many_many_many_test.png
    :alt: Είναι σαφής η τάση που υπάρχει...
    :figclass: wp-image-6368
 
@@ -293,7 +293,7 @@
 
 Τώρα, ας δοκιμάσουμε να σχεδιάσουμε την παραπάνω πιθανότητα να φτάσει ο περιπατητής μας στο σπίτι συναρτήσει της πιθανότητας να κάνει ένα βήμα προς το σπίτι του δεδομένου ότι έχει ακόμα 5 βήματα για να φτάσει σπίτι του - δηλαδή  :math:`K=5` :
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/03/image.png?w=852
+.. figure:: /wp-content/uploads/2021/03/image.png
    :alt: Κάτι μας θυμίζει αυτό...
    :figclass: wp-image-6417
 

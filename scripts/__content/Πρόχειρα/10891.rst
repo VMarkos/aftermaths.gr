@@ -48,7 +48,7 @@
 	
 	Το άθροισμα των παραπάνω αριθμών θα αποδείξουμε ότι κάνει ακριβώς 1. Για την ακρίβεια, δε θα χρειαστεί να γράψουμε και πολλά, αφού όλα θα μας τα πει ένα GIF:
 	
-	.. figure:: https://aftermaths.gr/wp-content/uploads/2022/04/zenon_square.gif?w=945
+	.. figure:: /wp-content/uploads/2022/04/zenon_square.gif
 	   :alt: Πώς το πετσόκοψες έτσι;
 	   :figclass: wp-image-10909
 	

@@ -67,7 +67,7 @@
 
 Για το 1:
 
-.. figure:: {static}wp-content/uploads/2024/05/horner_001.png?w=808
+.. figure:: {static}wp-content/uploads/2024/05/horner_001.png
    :alt: Πάει το 1...
    :figclass: wp-image-13089
 
@@ -75,7 +75,7 @@
 
 Για το -1:
 
-.. figure:: {static}wp-content/uploads/2024/05/horner_002.png?w=812
+.. figure:: {static}wp-content/uploads/2024/05/horner_002.png
    :alt: Πάει και το -1...
    :figclass: wp-image-13091
 
@@ -83,7 +83,7 @@
 
 Για το 2:
 
-.. figure:: {static}wp-content/uploads/2024/05/horner_003.png?w=802
+.. figure:: {static}wp-content/uploads/2024/05/horner_003.png
    :alt: Πάει και το 2...
    :figclass: wp-image-13093
 
@@ -91,7 +91,7 @@
 
 Για το -2:
 
-.. figure:: {static}wp-content/uploads/2024/05/horner_004.png?w=820
+.. figure:: {static}wp-content/uploads/2024/05/horner_004.png
    :alt: Πάει και το -2!
    :figclass: wp-image-13095
 
@@ -105,7 +105,7 @@
 
 Κάπου σε αυτό το σημείο να θυμίσουμε ότι όλη αυτή η ιστορία με τους διαιρέτες του σταθερού όρου, τον Horner και όλα τα συναφή αφορά αποκλειστικά και μόνο την ύπαρξη **ακέραιων ριζών**. Επομένως, ενδέχεται να υπάρχουν ρίζες της εξίσωσης, οι οποίες απλά δεν είναι ακέραιες. Με μία ζωγραφιά:
 
-.. figure:: {static}wp-content/uploads/2024/05/pir_venn_001.png?w=1024
+.. figure:: {static}wp-content/uploads/2024/05/pir_venn_001.png
    :alt: Οι ακέραιες λύσεις μίας εξίσωσης δεν είναι όλες οι λύσεις της (τουλάχιστον, όχι πάντα...)
    :figclass: wp-image-13099
 
@@ -113,7 +113,7 @@
 
 Τώρα, το παραπάνω είναι η γενική εικόνα. Στην περίπτωσή μας, όπου απορρίψαμε όλους τους διαιρέτες του σταθερού όρου, η εικόνα είναι λίγο διαφορετική:
 
-.. figure:: {static}wp-content/uploads/2024/05/pir_venn_002.png?w=1024
+.. figure:: {static}wp-content/uploads/2024/05/pir_venn_002.png
    :alt: Εδώ δεν ακουμπάνε τα δύο συνολάκια, άρα...
    :figclass: wp-image-13102
 
@@ -148,7 +148,7 @@
 
 Μετά από λίγες δοκιμές με το σχήμα Horner, καταλήγουμε στο εξής:
 
-.. figure:: {static}wp-content/uploads/2024/07/horner_005.png?w=806
+.. figure:: {static}wp-content/uploads/2024/07/horner_005.png
    :alt: Λίγη ώρα μετά, βρίσκουμε μία ωραία ρητή ρίζα!
    :figclass: wp-image-13229
 
@@ -224,7 +224,7 @@
 
 Τώρα μπορούμε να κάνουμε ένα σχήμα σαν το παρακάτω:
 
-.. figure:: {static}wp-content/uploads/2024/07/plot_001.png?w=916
+.. figure:: {static}wp-content/uploads/2024/07/plot_001.png
    :alt: Ωωωω, κοίτα να δεις, από μία εξίσωση βγάλαμε δύο καμπύλες!
    :figclass: wp-image-13246
 
@@ -246,7 +246,7 @@
 
 Στο αριστερό μέλος έχουμε μία ωραία παραβολή, ενώ στο δεξί έχουμε μία επίσης ωραία υπερβολή, όπως φαίνεται και παρακάτω:
 
-.. figure:: {static}wp-content/uploads/2024/07/plot_002.png?w=1002
+.. figure:: {static}wp-content/uploads/2024/07/plot_002.png
    :alt: Πιο «γνωστές» καμπύλες αυτές, έτσι;
    :figclass: wp-image-13253
 
@@ -351,7 +351,7 @@
 
 Εποπτικά, μιλάμε για το σημείο τομής μίας κυβικής καμπύλης με μία ευθεία, όπως παρακάτω:
 
-.. figure:: {static}wp-content/uploads/2024/07/plot_003-1.png?w=1024
+.. figure:: {static}wp-content/uploads/2024/07/plot_003-1.png
    :alt: Μία γραφική αναπαράσταση της νέας μας εξίσωσης.
    :figclass: wp-image-13283
 

@@ -18,14 +18,14 @@
 
 Αυτήν την εβδομάδα είδαμε αρκετά νέα και ενδιαφέρονται σχήματα καθώς επίσης και μία ακόμα βιβλιοθήκη του ``tikz``. Όλα με τη σειρά τους, όμως.
 
-*Για τα σχήματα της προηγούμενης εβδομάδας δείτε*\ `εδώ <https://aftermaths.gr/2021/09/21/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-6/>`__\ *ενώ για όλες τις αναρτήσεις της σειράς δείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
+*Για τα σχήματα της προηγούμενης εβδομάδας δείτε*\ `εδώ </2021/09/21/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-6/>`__\ *ενώ για όλες τις αναρτήσεις της σειράς δείτε*\ `εδώ </category/tikz/>`__\ *.*
 
 Σύνολα τιμών...
 ---------------
 
 Το πρώτο μας σχήμα ήταν το εξής:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_35.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_35.png
    :alt: Το σύνολο και το πεδίο τιμών μίας συνάρτησης!
    :figclass: wp-image-8523
 
@@ -100,7 +100,7 @@
 
 Το επόμενο σχήμα μας είναι το εξής:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_36.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_36.png
    :alt: Μία απλή συνεχής συνάρτηση.
    :figclass: wp-image-8538
 
@@ -144,7 +144,7 @@
 
 Το επόμενο σχήμα μας δε διαφέρει και πολύ...
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_37.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_37.png
    :alt: Σχεδόν το ίδιο...
    :figclass: wp-image-8613
 
@@ -253,7 +253,7 @@
 
 Το επόμενο σχήμα μας είναι ντροπιαστικά απλό σε σχέση με το προηγούμενο:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_38.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_38.png
    :alt: Τ' είν' αυτό;
    :figclass: wp-image-8623
 
@@ -294,7 +294,7 @@
 
 Κακό λογοπαίγνιο, καθώς το τελευταίο μας σχήμα είναι αυτό:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_39.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_39.png
    :alt: Σύνθετο σχήμα...
    :figclass: wp-image-8660
 

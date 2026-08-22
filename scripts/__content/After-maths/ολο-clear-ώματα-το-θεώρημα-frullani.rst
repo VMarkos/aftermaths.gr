@@ -47,7 +47,7 @@
 
 Εποπτικά, μιας και  :math:`f_c>0` , αν πάρουμε κάποια σταθερά  :math:`a,b` , για παράδειγμα  :math:`a=1`  και  :math:`b=2,`  τότε το παραπάνω μας λέει ότι τα παρακάτω εμβαδά είναι όλα τους ίσα με  :math:`\ln2`  - τα εμβαδά αυτά αντιστοιχούν στις συναρτήσεις  :math:`g_c=\dfrac{f_c(x)-f_c(2x)}{x}` .
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/02/f_c.gif?w=945
+.. figure:: /wp-content/uploads/2021/02/f_c.gif
    :alt: Όλα τα παραπάνω εμβαδά είναι ίσα
    :figclass: wp-image-5748
 
@@ -74,7 +74,7 @@
 
 Τώρα, αν  :math:`k=1`  τότε σαφώς  :math:`f(kx)=f(x)`  οπότε δεν έχουμε να πούμε κάτι το ιδιαίτερο. Ας εξετάσουμε πρώτα την περίπτωση  :math:`k>1` . Στο παρακάτω σχήμα φαίνεται η γραφική παράσταση της  :math:`f(kx)`  για διάφορες τιμές  :math:`k>1` :
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/02/func.gif?w=945
+.. figure:: /wp-content/uploads/2021/02/func.gif
    :alt: Η «συμπίεση» της παραπάνω γραφικής παράστασης.
    :figclass: wp-image-5751
 

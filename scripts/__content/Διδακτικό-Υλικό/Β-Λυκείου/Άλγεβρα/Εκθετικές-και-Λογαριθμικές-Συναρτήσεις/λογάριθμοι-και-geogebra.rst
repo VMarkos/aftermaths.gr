@@ -58,7 +58,7 @@
 
 Εδώ θίγεται ένα βασικό ζητούμενο του εν λόγω φύλλου εργασίας. Όπως έχουμε δει από το πρώτο ερώτημα, η αύξηση του πληθυσμού της E. Coli στο τρυβλίο εκθετικοφέρνει. Ωστόσο, με αυτό το ζητούμενο καλούμαστε να κάνουμε αυτή την αόριστη ιδέα περί εκθετικής συμπεριφοράς πιο συγκεκριμένη. Για την ακρίβεια, καλούμαστε να επιλέξουμε ανάμεσα στις εξής τρεις γραφικές παραστάσεις:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/03/ceb5ceb9cebacf8ccebdceb1.png?w=1024
+.. figure:: /wp-content/uploads/2021/03/ceb5ceb9cebacf8ccebdceb1.png
    :alt: Οι τρεις επιλογές μας.
    :figclass: wp-image-5855
 
@@ -125,7 +125,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: https://aftermaths.gr/wp-content/uploads/2021/03/ceb5ceb9cebacf8ccebdceb1-1.png?w=476
+   .. figure:: /wp-content/uploads/2021/03/ceb5ceb9cebacf8ccebdceb1-1.png
       :alt: Περίπου 30 λεπτά, not bad...
       :figclass: wp-image-5891
 
@@ -157,7 +157,7 @@
 
 Μετά από λίγη ώρα, θα έχουμε μία εικόνα σαν και αυτή:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/03/ceb5ceb9cebacf8ccebdceb1-2.png?w=1024
+.. figure:: /wp-content/uploads/2021/03/ceb5ceb9cebacf8ccebdceb1-2.png
    :alt: Η «αποκάλυψη» του λογαρίθμου.
    :figclass: wp-image-5903
 

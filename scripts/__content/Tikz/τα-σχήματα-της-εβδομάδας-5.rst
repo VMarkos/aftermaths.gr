@@ -18,14 +18,14 @@
 
 Αυτήν την εβδομάδα είχαμε πολύ περισσότερα πράγματα να δούμε από ότι την προηγούμενη </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Tikz/τα-σχήματα-της-εβδομάδας-4.rst>`__. Για την ακρίβεια, ήρθε επιτέλους ( ; ) η ώρα να μιλήσουμε για βιβλιοθήκες του ``tikz``. Αλλά, ας τα πάρουμε ένα-ένα...
 
-*Αν θέλετε να θυμηθείτε τι έχουμε δει τις προηγούμενες εβδομάδες, δείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
+*Αν θέλετε να θυμηθείτε τι έχουμε δει τις προηγούμενες εβδομάδες, δείτε*\ `εδώ </category/tikz/>`__\ *.*
 
 Απλό και καλό...
 ----------------
 
 Το πρώτο μας σχήμα είναι αυτό:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_24.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_24.png
    :alt: Ένα καθημερινό συνημίτονο.
    :figclass: wp-image-8067
 
@@ -55,7 +55,7 @@
 
 ... δεν είναι αυτή της Αλεξάνδρειας αλλά αυτή που φορτώνουμε στο παρακάτω σχήμα:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_25-1.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_25-1.png
    :alt: Μία συμπαθέστατη παραβολή!
    :figclass: wp-image-8266
 
@@ -102,7 +102,7 @@
 
 Το επόμενο σχήμα είναι το εξής:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_26.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_26.png
    :alt: Μία ακόμα παραβολή...
    :figclass: wp-image-8119
 
@@ -138,7 +138,7 @@
 
 Το επόμενο σχήμα μας έχει και λίγο χρώμα:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_27.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_27.png
    :alt: Ένα αρκετά αιχμηρό χωρίο.
    :figclass: wp-image-8122
 
@@ -178,7 +178,7 @@
 
 Το επόμενο σχήμα μας είναι το εξής:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_28.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_28.png
    :alt: Ένα ωραίο χωρίο ακόμα...
    :figclass: wp-image-8138
 
@@ -225,7 +225,7 @@
 
 Το τελευταίο μας σχήμα είναι το ακόλουθο:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_29.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_29.png
    :alt: Ένα δέντρο όχι σαν τα άλλα, τα πράσινα...
    :figclass: wp-image-8161
 
@@ -276,7 +276,7 @@
 
 Αυτά ήταν τα υπέροχα σχήματα αυτής της εβδομάδας - μετριοπάθεια πάνω απ' όλα. Μέχρι την επόμενη Τρίτη, καλή συνέχεια!
 
-*Για τις υπόλοιπες αναρτήσεις της σειράς, δείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
+*Για τις υπόλοιπες αναρτήσεις της σειράς, δείτε*\ `εδώ </category/tikz/>`__\ *.*
 
 
 

@@ -255,7 +255,7 @@ def href_repl(m) -> str:
     text = m.group(1)
     href = m.group(2)
     domains = { 'aftermathsgr.wordpress.com', 'aftermaths.gr' }
-    DOCS_ROOT = 'docs' # FIXME: You might also need a path variable for the project itself
+    DOCS_ROOT = 'docs'
     if any(x in href for x in domains):
         href_split = href.split('/')
         if href_split[-1]:
@@ -277,12 +277,24 @@ def url_fix_fn(line: str, params: dict=dict()) -> str:
     return fixed_line
 
 
+def fix_post_images(path: str) -> None:
+    fix_content(path, post_img_fix_fn)
+
+
+def post_img_fix_fn(line: str, params: dict=dict()) -> str:
+    '''Remove foreign domain and dimension suffix'''
+    fixed_line = re.sub(
+        r'https://aftermaths.gr|\?w=\d+', r'', line
+    )
+    fixed_line = re.sub(r'\{static\}', r'/', fixed_line)
+    return fixed_line
+
 
 def main():
     # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
     # Fix content
-    fnames = get_files_in_dir(Config.CONTENT_STRUCT_DIR, "rst")
+    fnames = get_files_in_dir(Config.SPHINX_DOCS, "rst")
     # create_content_tree(Config.CONTENT_ROOT)
     for file_path in tqdm(map(os.path.abspath, fnames)):
         # fix_math_content(file_path)
@@ -292,7 +304,8 @@ def main():
         # fix_meta_content(file_path)
         # fix_raw_html_videos(file_path)
         # relocate_file(file_path)
-        fix_internal_urls(file_path)
+        # fix_internal_urls(file_path)
+        fix_post_images(file_path)
 
 
 if __name__ == "__main__":

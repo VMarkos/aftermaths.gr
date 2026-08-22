@@ -18,14 +18,14 @@
 
 Άλλη μία εβδομάδα πέρασε, άλλα λίγα σχήματα προστέθηκαν στην πλάτη μας. Ας περάσουμε να τα δούμε λίγο αναλυτικότερα.
 
-*Για τα σχήματα της προηγούμενης εβδομάδας, όπου και παρουσιάσαμε την πρώτη μας βιβλιοθήκη του ``tikz`` δείτε*\ `εδώ <https://aftermaths.gr/2021/09/14/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-5/>`__\ *, ενώ όλες τις αναρτήσεις της σειράς μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/category/tikz/>`__\ *.*
+*Για τα σχήματα της προηγούμενης εβδομάδας, όπου και παρουσιάσαμε την πρώτη μας βιβλιοθήκη του ``tikz`` δείτε*\ `εδώ </2021/09/14/%cf%84%ce%b1-%cf%83%cf%87%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%84%ce%b7%cf%82-%ce%b5%ce%b2%ce%b4%ce%bf%ce%bc%ce%ac%ce%b4%ce%b1%cf%82-5/>`__\ *, ενώ όλες τις αναρτήσεις της σειράς μπορείτε να τις βρείτε*\ `εδώ </category/tikz/>`__\ *.*
 
 Άλλη μία γραφική παράσταση...
 -----------------------------
 
 Το πρώτο σχήμα της προηγούμενης εβδομάδας ήταν το ακόλουθο:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_30.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_30.png
    :alt: Ένα απλό πολυώνυμο!
    :figclass: wp-image-8259
 
@@ -94,7 +94,7 @@
 
 Το τρίτο σχήμα της εβδομάδας μας ήταν το ακόλουθο:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_32.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_32.png
    :alt: Πολύ γνωστή γραφική παράσταση αυτή.
    :figclass: wp-image-8347
 
@@ -126,7 +126,7 @@
 
 Το επόμενο σχήμα μας περιέχει λογαρίθμους:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_33.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_33.png
    :alt: Πολλοί λογάριθμοι!
    :figclass: wp-image-8352
 
@@ -170,7 +170,7 @@
 
 Το τελευταίο μας σχήμα για την εβδομάδα που μας πέρασε είναι το ακόλουθο:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_34.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_34.png
    :alt: Μία ωραία σχέση!
    :figclass: wp-image-8496
 

@@ -23,7 +23,7 @@
 
 Το πρώτο σχήμα της περασμένης εβδομάδας ήταν αυτό:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_5.png?w=723
+.. figure:: /wp-content/uploads/2021/08/fig_5.png
    :alt: Ένα απλό πολυώνυμο...
    :figclass: wp-image-7780
 
@@ -60,7 +60,7 @@
 
 Το επόμενο σχήμα της εβδομάδας ήταν αυτό:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_6.png?w=723
+.. figure:: /wp-content/uploads/2021/08/fig_6.png
    :alt: Πόσα πολυώνυμα, πχια;
    :figclass: wp-image-7848
 
@@ -93,7 +93,7 @@
 
 Το επόμενο γαργαλιστικό σχήμα μας είναι το εξής:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_7-2.png?w=723
+.. figure:: /wp-content/uploads/2021/08/fig_7-2.png
    :alt: Πού πήγε το πλέγμα;
    :figclass: wp-image-7853
 
@@ -127,7 +127,7 @@
 
 Το επόμενο σχήμα μας είναι το εξής:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_8.png?w=723
+.. figure:: /wp-content/uploads/2021/08/fig_8.png
    :alt: Εδώ μπήκε και χρώμα...
    :figclass: wp-image-7855
 
@@ -195,7 +195,7 @@
 
 Το επόμενο σχήμα μας είναι ακόμα πιο τσαχπίνικο:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_9.png?w=723
+.. figure:: /wp-content/uploads/2021/08/fig_9.png
    :alt: Κάτι στράβωσε εδώ...
    :figclass: wp-image-7859
 
@@ -251,7 +251,7 @@
 
 Το επόμενο σχήμα της εβδομάδας είναι αυτό:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_10.png?w=723
+.. figure:: /wp-content/uploads/2021/08/fig_10.png
    :alt: Ευκολάκι, έτσι;
    :figclass: wp-image-7861
 
@@ -297,7 +297,7 @@
 
 Κλείνουμε αυτήν την αρκετά πολύπλοκη εβδομάδα με ένα σχετικά πολύπλοκο σχήμα:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_11.png?w=723
+.. figure:: /wp-content/uploads/2021/08/fig_11.png
    :alt: Πωπω χαμός...
    :figclass: wp-image-7867
 

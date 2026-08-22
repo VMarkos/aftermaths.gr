@@ -59,7 +59,7 @@
    .. math:: f'(x)=\left\{\begin{array}{ll}2x\sin\frac{1}{x}-\cos\frac{1}{x}&x\neq0\0&x=0\end{array}\right.
    Αυτή η συνάρτηση τώρα, δεν είναι συνεχής στο  :math:`x_0=0` , μιας και το όριό της στο  :math:`0`  δεν υπάρχει. Για να το δούμε αυτό, ας παρατηρήσουμε λίγο τη γραφική της παράσταση κοντά στο  :math:`0` .
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2020/01/screenshot_2020-01-02-desmos-graphing-calculator.png?w=1024
+.. figure:: /wp-content/uploads/2020/01/screenshot_2020-01-02-desmos-graphing-calculator.png
    :alt: Μία ουσιωδώς ασυνεχής συνάρτηση - αν θέλετε να παίξετε λίγο μαζί της, μπορείτε να τη βρείτε και `εδώ <https://www.desmos.com/calculator>`__.
    :figclass: wp-image-1934
 

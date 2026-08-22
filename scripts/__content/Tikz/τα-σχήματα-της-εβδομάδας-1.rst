@@ -18,7 +18,7 @@
 
 Θα έχετε παρατηρήσει ότι στο aftermaths πρόσφατα δημιουργήθηκε μία νέα σελίδα </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Tikz/ένα-σχήμα-την-ημέρα.rst>`__, που αφορά αμιγώς το Tikz. Αν δεν το έχετε προσέξει, να βοηθήσουμε λίγο, είναι αυτή εδώ:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/screenshot-2021-08-16-at-16-02-53-ce88cebdceb1-cf83cf87ceaecebcceb1-cf84ceb7cebd-ceb7cebcceadcf81ceb1.jpg?w=1024
+.. figure:: /wp-content/uploads/2021/08/screenshot-2021-08-16-at-16-02-53-ce88cebdceb1-cf83cf87ceaecebcceb1-cf84ceb7cebd-ceb7cebcceadcf81ceb1.jpg
    :alt: Μία νέα σελίδα μόλις γεννήθηκε!
    :figclass: wp-image-7785
 
@@ -37,7 +37,7 @@
 
 η οποία μοιάζει κάπως έτσι:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_1.png?w=723
+.. figure:: /wp-content/uploads/2021/08/fig_1.png
    :alt: Απλή, λιτή και απέριττη γραφική παράσταση!
    :figclass: wp-image-7703
 
@@ -78,7 +78,7 @@
 
 Το επόμενο σχήμα μας είναι αυτό:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_2.png?w=723
+.. figure:: /wp-content/uploads/2021/08/fig_2.png
    :alt: Εντάξει, δεν είναι τόσο απλή όσο η προηγούμενη γραφική παράσταση...
    :figclass: wp-image-7716
 
@@ -126,7 +126,7 @@
 
 Το επόμενο σχήμα μας είναι αυτό:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_3.png?w=723
+.. figure:: /wp-content/uploads/2021/08/fig_3.png
    :alt: Μία απόδειξη ότι το [0,1] και το (0,1) είναι ισοπληθικά.
    :figclass: wp-image-7757
 
@@ -180,7 +180,7 @@
 
 Το επόμενο σχήμα μας είναι το εξής:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_4.png?w=723
+.. figure:: /wp-content/uploads/2021/08/fig_4.png
    :alt: Η γνωστή και μη εξαιρετέα κανονική καμπάνα.
    :figclass: wp-image-7768
 

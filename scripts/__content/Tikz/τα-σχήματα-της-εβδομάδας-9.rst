@@ -25,7 +25,7 @@
 
 Το πρώτο μας σχήμα είναι το εξής:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/fig_44.png?w=723
+.. figure:: /wp-content/uploads/2021/10/fig_44.png
    :alt: Μήπως μας θυμίζει κάτι από ΑΟΘ αυτό;
    :figclass: wp-image-8975
 
@@ -79,7 +79,7 @@
 
 Το επόμενο σχήμα μας αφορά τη σύνθεση δύο συναρτήσεων:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/fig_45.png?w=723
+.. figure:: /wp-content/uploads/2021/10/fig_45.png
    :alt: Σύνθετα πράγματα...
    :figclass: wp-image-9045
 
@@ -154,7 +154,7 @@
 
 Το επόμενο σχήμα μας είναι το προηγούμενο, στην ουσία, με λίγο πραγματικό μωβ:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/fig_46.png?w=723
+.. figure:: /wp-content/uploads/2021/10/fig_46.png
    :alt: Το πεδίο ορισμού μίας σύνθετης συνάρτησης.
    :figclass: wp-image-9084
 

@@ -23,7 +23,7 @@
 
 Το πρώτο σχήμα της περασμένης εβδομάδας ήταν αυτό:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_19.png?w=723
+.. figure:: /wp-content/uploads/2021/08/fig_19.png
    :alt: Συμπαθητικό...
    :figclass: wp-image-7981
 
@@ -62,7 +62,7 @@
 
 Το επόμενο σχήμα μας είναι το ακόλουθο:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/08/fig_20.png?w=723
+.. figure:: /wp-content/uploads/2021/08/fig_20.png
    :alt: Απλό κι αυτό...
    :figclass: wp-image-8032
 
@@ -95,7 +95,7 @@
 
 Το επόμενο απλό μας σχήμα είναι αυτό:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_21.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_21.png
    :alt: Μία απλή μεταφορά (κυριολεκτικά)
    :figclass: wp-image-8036
 
@@ -134,7 +134,7 @@
 
 Το επόμενο σχήμα μας ήταν αυτό:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_22.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_22.png
    :alt: Μία ακόμα απλή αντανάκλαση...
    :figclass: wp-image-8060
 
@@ -167,7 +167,7 @@
 
 Το τελευταίο σχήμα της εβδομάδας ήταν αυτό:
 
-.. figure:: https://aftermaths.gr/wp-content/uploads/2021/09/fig_23.png?w=723
+.. figure:: /wp-content/uploads/2021/09/fig_23.png
    :alt: Φαίνεται περίπλοκο, αλλά δεν είναι!
    :figclass: wp-image-8064
 
