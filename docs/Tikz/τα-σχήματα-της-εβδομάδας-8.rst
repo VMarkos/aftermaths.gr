@@ -18,14 +18,14 @@
 
 Άλλη μία εβδομάδα πέρασε, άλλα λίγα σχήματα μπήκαν στο τσουβάλι. Ας τα περάσουμε ένα-ένα, γιατί κι αυτήν την εβδομάδα έχουμε πολλά να πούμε.
 
-*Για τα σχήματα της προηγούμενης εβδομάδας δείτε*\ `εδώ  <docs/Tikz/τα-σχήματα-της-εβδομάδας-7.rst>`__\ *, ενώ για όλες τις αναρτήσεις της σειράς μπορείτε να δείτε*\ `εδώ  <https://aftermaths.gr/category/tikz/>`__\ *.*
+*Για τα σχήματα της προηγούμενης εβδομάδας δείτε*\ `εδώ  <docs/Tikz/τα-σχήματα-της-εβδομάδας-7.rst>`__\ *, ενώ για όλες τις αναρτήσεις της σειράς μπορείτε να δείτε*\ `εδώ  </category/tikz/>`__\ *.*
 
 Ρίζες...
 --------
 
 Το πρώτο σχήμα της εβδομάδας ήταν αυτό:
 
-.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_41.png?w=723
+.. figure:: /_static/images/uploads/2021/09/fig_41.png
    :alt: Υπολογίζοντας ρίζες...
    :figclass: wp-image-8792
 
@@ -136,7 +136,7 @@
 
 Το επόμενο σχήμα μας είναι το εξής:
 
-.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_40.png?w=723
+.. figure:: /_static/images/uploads/2021/09/fig_40.png
    :alt: Μεγάλο σχήμα...
    :figclass: wp-image-8789
 
@@ -224,7 +224,7 @@
 
 Το επόμενο σχήμα μας είναι αυτό:
 
-.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_42.png?w=723
+.. figure:: /_static/images/uploads/2021/09/fig_42.png
    :alt: Πολύ απλό...
    :figclass: wp-image-8855
 
@@ -266,7 +266,7 @@
 
 Το τελευταίο μας σχήμα είναι το εξής:
 
-.. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/fig_43.png?w=723
+.. figure:: /_static/images/uploads/2021/10/fig_43.png
    :alt: Μία ταπεινή ρίζα...
    :figclass: wp-image-8878
 

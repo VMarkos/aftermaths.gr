@@ -32,7 +32,7 @@ Brainstorming
 
 Η αλήθεια είναι ότι μπορούμε εύκολα, σχετικά, να σχεδιάσουμε μία συνάρτηση με γραφική παράσταση που να έχει άπειρες, στο πλήθος, ασυνέχειες, όπως αυτή που φαίνεται στο παρακάτω σχήμα:
 
-.. figure:: https://aftermaths.gr/_static/images/uploads/2021/01/screenshot_2021-01-01-calculator-suite-geogebra.png?w=733
+.. figure:: /_static/images/uploads/2021/01/screenshot_2021-01-01-calculator-suite-geogebra.png
    :alt: Μία ωραία συνάρτηση με άπειρες ασυνέχειες - μπορείτε να βρείτε έναν τύπο για αυτήν την συνάρτηση;
    :figclass: wp-image-4334
 
@@ -46,7 +46,7 @@ Brainstorming
 
 Εξερευνώντας την παθολογία των συνεχών και ασυνεχών συναρτήσεων, μπορούμε να βρούμε και συνεχείς συναρτήσεις αρκετά «αποκρουστικές», όπως τη `συνάρτηση του Weierstrass  <https://en.wikipedia.org/wiki/Weierstrass_function>`__ που βλέπετε παρακάτω:
 
-.. figure:: https://aftermaths.gr/_static/images/uploads/2021/01/1280px-weierstrassfunction.svg_.png?w=1024
+.. figure:: /_static/images/uploads/2021/01/1280px-weierstrassfunction.svg_.png
    :alt: Η γλυκούλα που βλέπετε παραπάνω είναι παντού συνεχής και πουθενά παραγωγίσιμη - πηγή εικόνας: `Wikipedia  <https://en.wikipedia.org/wiki/Weierstrass_function>`__.
    :figclass: wp-image-4338
 
@@ -201,7 +201,7 @@ Brainstorming
 
 Με λίγα λόγια, «ταξινομήσαμε» τα υποσύνολα των φυσικών αριθμών ανάλογα με το πλήθος των στοιχείων που περιέχουν. Ας παρατηρήσουμε τώρα ότι τα  :math:`A_k`  για  :math:`k\in\mathbb{N}`  είναι όλα τους αριθμήσιμα. Πράγματι, το  :math:`A_0=\{\varnothing\}`  είναι πεπερασμένο άρα αριθμήσιμο. Το  :math:`A_1\{\{1\},\{2\},\{3\},\ldots\}`  περιέχει ένα μονοσύνολο για κάθε φυσικό αριθμό, επομένως  :math:`\|A_1|=|\mathbb{N}|`  άρα είναι αριθμήσιμο. Για το  :math:`A_2` , παρατηρούμε ότι περιέχει όλα τα δισύνολα τα οποία είναι, σαφώς, «λιγότερα» από ότι τα στοιχεία του  :math:`\mathbb{N}\times\mathbb{N}` , δηλαδή τα διατεταγμένα ζεύγη φυσικών αριθμών, μιας και στα δεύτερα μετράει η σειρά που γράφουμε τα στοιχεία τους. Έτσι  :math:`\|A_2|\leq|\mathbb{N}\times\mathbb{N}|` . Ωστόσο, `όπως έχουμε ξαναδεί  <docs/After-maths/κλάσματα-κλάσματα-παντού.rst>`__, μπορούμε να αριθμήσουμε όλα τα ζεύγη φυσικών αριθμών εύκολα, όπως φαίνεται στο παρακάτω σχήμα:
 
-.. figure:: https://aftermaths.gr/_static/images/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png?w=723
+.. figure:: /_static/images/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png
    :alt: Ο περίπατος του Cantor.
    :figclass: wp-image-975
 

@@ -121,7 +121,7 @@ Hyperreals: Λογικά πράγματα...
 
 .. container:: wp-block-image
 
-   .. figure:: https://aftermaths.gr/_static/images/uploads/2021/02/tree_1.png?w=1024
+   .. figure:: /_static/images/uploads/2021/02/tree_1.png
       :alt: Η δενδρική αναπαράσταση του  :math:`g(x,g(c,f(x)))` .
       :figclass: wp-image-5295
 
@@ -149,7 +149,7 @@ Hyperreals: Λογικά πράγματα...
 
 .. container:: wp-block-image
 
-   .. figure:: https://aftermaths.gr/_static/images/uploads/2021/02/tree_2.png?w=1024
+   .. figure:: /_static/images/uploads/2021/02/tree_2.png
       :alt: Άλλη μία δενδρική αναπαράσταση.
       :figclass: wp-image-5303
 

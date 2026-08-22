@@ -45,7 +45,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/11/fig_56.png?w=1024
+            .. figure:: /_static/images/uploads/2021/11/fig_56.png
                :alt: 
                :figclass: wp-image-9836 size-full
 
@@ -94,7 +94,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/11/fig_55.png?w=1024
+            .. figure:: /_static/images/uploads/2021/11/fig_55.png
                :alt: 
                :figclass: wp-image-9703 size-full
 
@@ -141,7 +141,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/11/fig_54.png?w=1024
+            .. figure:: /_static/images/uploads/2021/11/fig_54.png
                :alt: 
                :figclass: wp-image-9693 size-full
 
@@ -192,7 +192,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/fig_53.png?w=1024
+            .. figure:: /_static/images/uploads/2021/10/fig_53.png
                :alt: 
                :figclass: wp-image-9568 size-full
 
@@ -242,7 +242,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/fig_52.png?w=696
+            .. figure:: /_static/images/uploads/2021/10/fig_52.png
                :alt: 
                :figclass: wp-image-9480 size-full
 
@@ -301,7 +301,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/fig_51.png?w=1024
+            .. figure:: /_static/images/uploads/2021/10/fig_51.png
                :alt: 
                :figclass: wp-image-9457 size-full
 
@@ -362,7 +362,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/fig_50.png?w=1024
+            .. figure:: /_static/images/uploads/2021/10/fig_50.png
                :alt: 
                :figclass: wp-image-9421 size-full
 
@@ -430,7 +430,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/fig_49.png?w=1024
+            .. figure:: /_static/images/uploads/2021/10/fig_49.png
                :alt: 
                :figclass: wp-image-9265 size-full
 
@@ -494,7 +494,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/fig_48.png?w=1024
+            .. figure:: /_static/images/uploads/2021/10/fig_48.png
                :alt: 
                :figclass: wp-image-9247 size-full
 
@@ -552,7 +552,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/fig_47.png?w=1024
+            .. figure:: /_static/images/uploads/2021/10/fig_47.png
                :alt: 
                :figclass: wp-image-9211 size-full
 
@@ -609,7 +609,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/fig_46.png?w=1024
+            .. figure:: /_static/images/uploads/2021/10/fig_46.png
                :alt: 
                :figclass: wp-image-9084 size-full
 
@@ -691,7 +691,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/fig_45.png?w=1024
+            .. figure:: /_static/images/uploads/2021/10/fig_45.png
                :alt: 
                :figclass: wp-image-9045 size-full
 
@@ -768,7 +768,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/fig_44.png?w=777
+            .. figure:: /_static/images/uploads/2021/10/fig_44.png
                :alt: 
                :figclass: wp-image-8975 size-full
 
@@ -830,7 +830,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/10/fig_43.png?w=1022
+            .. figure:: /_static/images/uploads/2021/10/fig_43.png
                :alt: 
                :figclass: wp-image-8878 size-full
 
@@ -890,7 +890,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_42.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_42.png
                :alt: 
                :figclass: wp-image-8855 size-full
 
@@ -950,7 +950,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_40.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_40.png
                :alt: 
                :figclass: wp-image-8789 size-full
 
@@ -1018,7 +1018,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_41.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_41.png
                :alt: 
                :figclass: wp-image-8792 size-full
 
@@ -1094,7 +1094,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_39.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_39.png
                :alt: 
                :figclass: wp-image-8660 size-full
 
@@ -1146,7 +1146,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_38.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_38.png
                :alt: 
                :figclass: wp-image-8623 size-full
 
@@ -1197,7 +1197,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_37.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_37.png
                :alt: 
                :figclass: wp-image-8613 size-full
 
@@ -1276,7 +1276,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_36.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_36.png
                :alt: 
                :figclass: wp-image-8538 size-full
 
@@ -1338,7 +1338,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_35.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_35.png
                :alt: 
                :figclass: wp-image-8523 size-full
 
@@ -1407,7 +1407,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_34.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_34.png
                :alt: 
                :figclass: wp-image-8496 size-full
 
@@ -1468,7 +1468,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_33.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_33.png
                :alt: 
                :figclass: wp-image-8352 size-full
 
@@ -1517,7 +1517,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_32.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_32.png
                :alt: 
                :figclass: wp-image-8347 size-full
 
@@ -1567,7 +1567,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_31.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_31.png
                :alt: 
                :figclass: wp-image-8308 size-full
 
@@ -1623,7 +1623,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_30.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_30.png
                :alt: 
                :figclass: wp-image-8259 size-full
 
@@ -1680,7 +1680,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_29.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_29.png
                :alt: 
                :figclass: wp-image-8161 size-full
 
@@ -1748,7 +1748,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_28.png?w=774
+            .. figure:: /_static/images/uploads/2021/09/fig_28.png
                :alt: 
                :figclass: wp-image-8138 size-full
 
@@ -1807,7 +1807,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_27.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_27.png
                :alt: 
                :figclass: wp-image-8122 size-full
 
@@ -1863,7 +1863,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_26.png?w=912
+            .. figure:: /_static/images/uploads/2021/09/fig_26.png
                :alt: 
                :figclass: wp-image-8119 size-full
 
@@ -1917,7 +1917,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_25-1.png?w=801
+            .. figure:: /_static/images/uploads/2021/09/fig_25-1.png
                :alt: 
                :figclass: wp-image-8266 size-full
 
@@ -1972,7 +1972,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_24.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_24.png
                :alt: 
                :figclass: wp-image-8067 size-full
 
@@ -2020,7 +2020,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_23.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_23.png
                :alt: 
                :figclass: wp-image-8064 size-full
 
@@ -2071,7 +2071,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_22.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_22.png
                :alt: 
                :figclass: wp-image-8060 size-full
 
@@ -2122,7 +2122,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/fig_21.png?w=1024
+            .. figure:: /_static/images/uploads/2021/09/fig_21.png
                :alt: 
                :figclass: wp-image-8036 size-full
 
@@ -2173,7 +2173,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_20.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_20.png
                :alt: 
                :figclass: wp-image-8032 size-full
 
@@ -2224,7 +2224,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_19.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_19.png
                :alt: 
                :figclass: wp-image-7981 size-full
 
@@ -2275,7 +2275,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_18.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_18.png
                :alt: 
                :figclass: wp-image-7965 size-full
 
@@ -2325,7 +2325,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_17.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_17.png
                :alt: 
                :figclass: wp-image-7953 size-full
 
@@ -2376,7 +2376,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_16.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_16.png
                :alt: 
                :figclass: wp-image-7949 size-full
 
@@ -2428,7 +2428,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_15.png?w=949
+            .. figure:: /_static/images/uploads/2021/08/fig_15.png
                :alt: 
                :figclass: wp-image-7946 size-full
 
@@ -2482,7 +2482,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_14.png?w=1021
+            .. figure:: /_static/images/uploads/2021/08/fig_14.png
                :alt: 
                :figclass: wp-image-7941 size-full
 
@@ -2539,7 +2539,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_13.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_13.png
                :alt: 
                :figclass: wp-image-7938 size-full
 
@@ -2601,7 +2601,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_12.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_12.png
                :alt: 
                :figclass: wp-image-7869 size-full
 
@@ -2661,7 +2661,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_11.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_11.png
                :alt: 
                :figclass: wp-image-7867 size-full
 
@@ -2721,7 +2721,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_10.png?w=983
+            .. figure:: /_static/images/uploads/2021/08/fig_10.png
                :alt: 
                :figclass: wp-image-7861 size-full
 
@@ -2775,7 +2775,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_9.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_9.png
                :alt: 
                :figclass: wp-image-7859 size-full
 
@@ -2833,7 +2833,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_8.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_8.png
                :alt: 
                :figclass: wp-image-7855 size-full
 
@@ -2902,7 +2902,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_7-2.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_7-2.png
                :alt: 
                :figclass: wp-image-7853 size-full
 
@@ -2952,7 +2952,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_6.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_6.png
                :alt: 
                :figclass: wp-image-7848 size-full
 
@@ -3001,7 +3001,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_5.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_5.png
                :alt: 
                :figclass: wp-image-7780 size-full
 
@@ -3050,7 +3050,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_4-1.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_4-1.png
                :alt: 
                :figclass: wp-image-7777 size-full
 
@@ -3111,7 +3111,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_3.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_3.png
                :alt: 
                :figclass: wp-image-7757 size-full
 
@@ -3178,7 +3178,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: {static}_static/images/uploads/2021/08/fig_2.png?w=1024
+            .. figure:: /_static/images/uploads/2021/08/fig_2.png
                :alt: 
                :figclass: wp-image-7716 size-full
 
@@ -3230,7 +3230,7 @@
 
          .. container:: wp-block-media-text alignwide is-stacked-on-mobile
 
-            .. figure:: https://aftermaths.gr/_static/images/uploads/2021/08/fig_1.png?w=723
+            .. figure:: /_static/images/uploads/2021/08/fig_1.png
                :alt: 
                :figclass: wp-image-7703 size-full
 

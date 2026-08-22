@@ -201,7 +201,7 @@
 \[\begin{split}f(x)=\left\{\begin{array}{ll}\ 2x\sin\frac{1}{x^2}-\frac{2}{x}\cos\frac{1}{x^2} &amp; x \neq 0\\ 0 &amp; x = 0\end{array}\right.\end{split}\]</div>
 <p>Η γραφική της παράσταση, όπως υποπτεύεστε, είναι αρκετά άκομψη:</p>
 <figure class="wp-image-11837 align-default" id="id10">
-<a class="reference internal image-reference" href="docs/After-maths/{static}_static/images/uploads/2023/03/image.png?w=711"><img alt="Εντάξει, δεν είναι και ό,τι πιο ωραίο έχετε δει." src="docs/After-maths/{static}_static/images/uploads/2023/03/image.png?w=711" style="width: 711px; height: 608px;"/>
+<a class="reference internal image-reference" href="../../_images/image8.png"><img alt="Εντάξει, δεν είναι και ό,τι πιο ωραίο έχετε δει." src="../../_images/image8.png" style="width: 711px; height: 608px;"/>
 </a>
 <figcaption>
 <p><span class="caption-text">Εντάξει, δεν είναι και ό,τι πιο ωραίο έχετε δει.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id10"><span>#</span></a></p>
@@ -217,14 +217,14 @@
 <p>Πριν ξεκινήσουμε να περιπλανιόμαστε στα αχανή μονοπάτια των άσχημων, άκομψων, πλην όμως άκρως ενδιαφερουσών συναρτήσεων, θα κάνουμε πρώτα μία μικρή συζήτηση με ένα από τους πρωτεργάτες του ολοκληρωτικού λογισμού: τον <a class="reference external" href="https://en.wikipedia.org/wiki/Bernhard_Riemann">Bernhard Riemann</a>. Βασικά, επειδή ο Riemann, πέρα από πρωτεργάτης του ολοκληρωτικού λογισμού είναι και μακαρίτης, θα προσπαθήσουμε να «μιλήσουμε» λίγο με τον ορισμό του ολοκληρώματος Riemann.</p>
 <p>Βασικά, όχι, ο ορισμός του ολοκληρώματος είναι πολύ τυπικός - έχουμε πάρει μία ιδέα στο <a class="reference external" href="docs/After-maths/στη-σκιά-μιας-υπερβολής.rst">παρελθόν</a>. Θα συζητήσουμε λίγο με την ιδέα πίσω από τον ορισμό του ολοκληρώματος Riemann. Ας πάρουμε μία συνάρτηση με γραφική παράσταση όπως αυτή που φαίνεται παρακάτω:</p>
 <figure class="wp-image-11854 align-default" id="id11">
-<img alt="Πόσο πιο τετριμμένη συνάρτηση, πια;" src="docs/After-maths/{static}_static/images/uploads/2023/03/riemann_int_def_func_01-1.png?w=1004"/>
+<img alt="Πόσο πιο τετριμμένη συνάρτηση, πια;" src="../../_images/riemann_int_def_func_01-1.png"/>
 <figcaption>
 <p><span class="caption-text">Πόσο πιο τετριμμένη συνάρτηση, πια;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Ενδιαφερόμαστε να υπολογίσουμε το εμβαδό ανάμεσα στη γραφική παράσταση της  <span class="math notranslate nohighlight">\(f,\)</span>  τον άξονα  <span class="math notranslate nohighlight">\(x'x\)</span>  και τις ευθείες  <span class="math notranslate nohighlight">\(x=a,x=b.\)</span>  Εμείς, όμως, δε γνωρίζουμε και πολλά για το πώς υπολογίζουμε τόσο παράξενα εμβαδά. Τα μόνα που έχουμε δει στο σχολείο είναι κάτι ορθογώνια, κάτι τρίγωνα, άντε και κάτι κύκλους, από καμπύλες. Όπως κάνουμε, όμως, πάντα στα μαθηματικά, θα ξεκινήσουμε από τα γνωστά και θα φτάσουμε στα άγνωστα (ή έτσι ελπίζουμε, τουλάχιστον). Σχεδιάζουμε, λοιπόν, κάποια ορθογώνια που ελπίζουμε να μας βοηθήσουν σε αυτήν την προσπάθεια:</p>
 <figure class="wp-image-11861 align-default" id="id12">
-<img alt="Οκτώ μικρά κι αθώα ορθογώνια..." src="docs/After-maths/{static}_static/images/uploads/2023/03/riemann_int_def_func_02-1.png?w=1004"/>
+<img alt="Οκτώ μικρά κι αθώα ορθογώνια..." src="../../_images/riemann_int_def_func_02-1.png"/>
 <figcaption>
 <p><span class="caption-text">Οκτώ μικρά κι αθώα ορθογώνια…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id12"><span>#</span></a></p>
 </figcaption>
@@ -241,7 +241,7 @@
 <p>Αυτό είναι αρκετά σαφές, καθώς καθένα από τα ορθογωνιάκια έχει εμβαδό  <span class="math notranslate nohighlight">\(f(\xi_k)\Delta x,\)</span>  οπότε αν τα αθροίσουμε θα πάρουμε το συνολικό εμβαδό του χωρίου.</p>
 <p>Ας πάμε τώρα να κάνουμε ό,τι κάνουν οι μαθηματικοί σε αυτές τις περιπτώσεις: θα υπερβάλλουμε. Για την ακρίβεια, γιατί να περιοριστούμε σε 8 ορθογώνια, όταν μπορούμε να σχεδιάσουμε 108; Εντάξει, 108 βαριόμαστε να σχεδιάσουμε, αλλά μπορούμε να σχεδιάσουμε 18, όπως στο παρακάτω σχήμα:</p>
 <figure class="wp-image-11864 align-default" id="id13">
-<img alt="Κι άλλα ορθογώνια..." src="docs/After-maths/{static}_static/images/uploads/2023/03/riemann_int_def_func_03.png?w=1004"/>
+<img alt="Κι άλλα ορθογώνια..." src="../../_images/riemann_int_def_func_03.png"/>
 <figcaption>
 <p><span class="caption-text">Κι άλλα ορθογώνια…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id13"><span>#</span></a></p>
 </figcaption>
@@ -263,7 +263,7 @@
 <p>Δηλαδή, η  <span class="math notranslate nohighlight">\(f\)</span>  πρέπει κοντά στο  <span class="math notranslate nohighlight">\(x_0\)</span>  να μην αρχίζει να τρελαίνεται, αλλά να παίρνει τιμές εκεί κοντά στο  <span class="math notranslate nohighlight">\(f(x_0).\)</span>  Συνεπώς, καθώς εμείς ψιλοκόβουμε αυτά τα ορθογώνια, από ένα σημείο και μετά, επειδή αυτά θα είναι αρκετά «στενά», όλες οι τιμές σε κάθε τέτοιο διάστημα, ε, θα είναι περίπου ίσες. Δηλαδή, σε ένα αρκετά στενό διαστηματάκι  <span class="math notranslate nohighlight">\(I_k,\)</span>  θα ισχύει για κάθε  <span class="math notranslate nohighlight">\(x\in I_k\)</span>  ότι  <span class="math notranslate nohighlight">\(f(x)\approx f(\xi_k).\)</span>  Άρα, αν στενέψουμε αρκετά τα ορθογωνιάκια μας, αυτό το άθροισμα που βλέπουμε παραπάνω θα αρχίσει να γίνεται όλο και πιο «βαρετό», καθώς θα αρχίσει να γίνεται «σχεδόν» σταθερό. Όλο αυτό δεν είναι παρά μία πολύ χαλαρή περιγραφή μιας συμπεριφοράς σύγκλισης - εντάξει, υπάρχουν συνεχείς συναρτήσεις που μπορούν να προκαλέσουν πολύ αυτήν την περιγραφή που δώσαμε, αλλά έτσι έχει μακροσκοπικά η κατάσταση.</p>
 <p>Επομένως, πάει, το λύσαμε, οι συνεχείς (και φραγμένες) συναρτήσεις είναι όλες τους ολοκληρώσιμες. Τι γίνεται όμως με τις ασυνεχείς; Όπως και πριν, ας ξεκινήσουμε με ένα σχήμα:</p>
 <figure class="wp-image-11882 align-default" id="id14">
-<img alt="Από δυο «χωρία» χωριάτες - μα, τι χιούμορ!" src="docs/After-maths/{static}_static/images/uploads/2023/03/riemann_int_def_func_04.png?w=1004"/>
+<img alt="Από δυο «χωρία» χωριάτες - μα, τι χιούμορ!" src="../../_images/riemann_int_def_func_04.png"/>
 <figcaption>
 <p><span class="caption-text">Από δυο «χωρία» χωριάτες - μα, τι χιούμορ!</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id14"><span>#</span></a></p>
 </figcaption>
@@ -293,7 +293,7 @@
 <p>Χάλια, ε; Η παραπάνω συνάρτηση δεν είναι συνεχής σε κανένα σημείο του πεδίου ορισμού της, κι αυτό οφείλεται στην πυκνότητα των ρητών αριθμών - την οποία μπορείτε να θυμηθείτε αναλυτικότατα <a class="reference external" href="docs/After-maths/κλάσματα-κλάσματα-παντού.rst">εδώ</a>. Η ιδέα είναι ότι κοντά σε κάθε αριθμό η παραπάνω συνάρτηση παίρνει τόσο την τιμή 1 όσο και την τιμή 0, καθώς κοντά σε κάθε αριθμό υπάρχουν τόσο άρρητοι όσο και ρητοί. Επομένως, η συνάρτηση «ταλαντώνεται» γύρω από κάθε αριθμό και άρα δεν υπάρχουν τα όριά της πουθενά.</p>
 <p>Θα φαντάζεστε ότι είναι πολύ δύσκολο να σχεδιάσουμε τη γραφική παράσταση μιας τέτοιας συνάρτησης, ωστόσο με θάρρος και παρρησία ισχυριζόμαστε ότι, αν μπορούσαμε να τη σχεδιάσουμε, θα έμοιαζε κάπως έτσι:</p>
 <figure class="wp-image-11902 align-default" id="id15">
-<img alt="Μα, γιατί οι άρρητοι είναι τόσο περισσότεροι;" src="docs/After-maths/{static}_static/images/uploads/2023/03/rationals_characteristic_01.png?w=967"/>
+<img alt="Μα, γιατί οι άρρητοι είναι τόσο περισσότεροι;" src="../../_images/rationals_characteristic_01.png"/>
 <figcaption>
 <p><span class="caption-text">Μα, γιατί οι άρρητοι είναι τόσο περισσότεροι;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id15"><span>#</span></a></p>
 </figcaption>
@@ -315,21 +315,21 @@
 <p>Όμως, λέει τότε ο Lebesgue κοιτώντας τον καθρέφτη του, μήπως είμαι λίγο αγύρτης; Αυτό που όρισα μόλις είναι πολύ «ευαίσθητο» ως προς το ποια διαστήματα θα διαλέξω. Αν αυτά είναι πολύ πλατιά, τότε και το σύνολό μου θα μετρηθεί ως μεγάλο. Επομένως, θα αρχίσω να μικραίνω τα διαστήματά μου όσο περισσότερο με παίρνει - εκεί αναφέρεται το  <span class="math notranslate nohighlight">\(\inf,\)</span>  δηλαδή το <a class="reference external" href="https://en.wikipedia.org/wiki/Infimum_and_supremum">infimum</a>. Με αυτόν τον τρόπο, θα έχω κάνει την καλύτερη δυνατή προσέγγιση του μεγέθους του  <span class="math notranslate nohighlight">\(A\)</span>  χρησιμοποιώντας μονάχα όμορφα ανοικτά διαστήματα.</p>
 <p>Έτσι κάπως πρέπει να έγιναν τα πράγματα στο κεφάλι του Lebesgue. Και να μην έγιναν έτσι, δηλαδή, δεν πειράζει - αυτή είναι η ιδέα. Ας πάρουμε ένα παράδειγμα για να καταλάβουμε τώρα τι παίζεται. Θεωρούμε το σύνολο  <span class="math notranslate nohighlight">\(A=[0,2)\cup\{4,6\}.\)</span>  Αυτό το σύνολο μπορείτε να το θαυμάσετε παρακάτω:</p>
 <figure class="wp-image-11925 align-default" id="id16">
-<img alt="Το σύνολό μας, όχι όμορφο, ούτε κι άσχημο." src="docs/After-maths/{static}_static/images/uploads/2023/03/lebesgue_def_01.png?w=896"/>
+<img alt="Το σύνολό μας, όχι όμορφο, ούτε κι άσχημο." src="../../_images/lebesgue_def_01.png"/>
 <figcaption>
 <p><span class="caption-text">Το σύνολό μας, όχι όμορφο, ούτε κι άσχημο.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id16"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Ωραία, έχουμε ένα σύνολο που δεν είναι διάστημα, άρα θα πρέπει να πάρουμε μία κουβερτούλα από ανοικτά διαστήματα και να το σκεπάσουμε. Μία πρώτη απόπειρα είναι η εξής:</p>
 <figure class="wp-image-11928 align-default" id="id17">
-<img alt="Μεγάλη κουβερτούλα..." src="docs/After-maths/{static}_static/images/uploads/2023/03/lebesgue_def_02-1.png?w=896"/>
+<img alt="Μεγάλη κουβερτούλα..." src="../../_images/lebesgue_def_02-1.png"/>
 <figcaption>
 <p><span class="caption-text">Μεγάλη κουβερτούλα…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id17"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Τώρα εδώ δεν κάναμε καλή δουλειά. Δείτε όλα αυτά τα κομμάτια που βάψαμε γαλάζια αλλά δεν είναι ταυτόχρονα και κόκκινα. Πολλά, πάρα πολλά, και μας δίνουν μία λανθασμένη εικόνα για το μέγεθος του συνόλου μας. Επομένως, μπορούμε να αρχίσουμε να συρρικνώνουμε το κάλυμμά μας όπως φαίνεται παρακάτω:</p>
 <figure class="wp-image-11931 align-default" id="id18">
-<img alt="Ζούμπηγμα: Η βασική ιδέα του Lebesgue." src="docs/After-maths/{static}_static/images/uploads/2023/03/lebesgue_def_03.png?w=896"/>
+<img alt="Ζούμπηγμα: Η βασική ιδέα του Lebesgue." src="../../_images/lebesgue_def_03.png"/>
 <figcaption>
 <p><span class="caption-text">Ζούμπηγμα: Η βασική ιδέα του Lebesgue.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id18"><span>#</span></a></p>
 </figcaption>
@@ -359,14 +359,14 @@
 <p>Λοιπόν, ο Cantor, καθώς έπαιζε με τα άπειρα, τα πεπερασμένα, τους πραγματικούς αριθμούς και όλα αυτά τα πράγματα που παίζουν οι μαθηματικοί, έφτιαξε ένα αρκετά ενδιαφέρον σύνολο. Το σύνολο αυτό κατασκευάζεται σε βήματα (άπειρα, βέβαια, στο πλήθος) και η κατασκευή του είναι η ακόλουθη.</p>
 <p>Αρχικά, παίρνουμε το αγαπημένο μας κλειστό διάστημα  <span class="math notranslate nohighlight">\([0,1]\)</span>  και πετάμε το μεσαίο τρίτο του, όπως φαίνεται παρακάτω:</p>
 <figure class="wp-image-11957 align-default" id="id19">
-<img alt="Απλά τα πράγματα στο μυαλό του Cantor, προς το παρόν." src="docs/After-maths/{static}_static/images/uploads/2023/03/cantor_def_01.png?w=1024"/>
+<img alt="Απλά τα πράγματα στο μυαλό του Cantor, προς το παρόν." src="../../_images/cantor_def_01.png"/>
 <figcaption>
 <p><span class="caption-text">Απλά τα πράγματα στο μυαλό του Cantor, προς το παρόν.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id19"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Εύκολο το πρώτο βήμα, πάμε τώρα για το δεύτερο. Τίποτα το σπουδαίο δεν έκανε ο Cantor, είναι η αλήθεια, παρά, όπως με ειδοποιεί από το κοντρόλ, να πετάξει από τα δύο μπλε τμήματα το μεσαίο τρίτο τους, όπως φαίνεται παρακάτω:</p>
 <figure class="wp-image-11959 align-default" id="id20">
-<img alt="Ράβε, ξύλωνε, ράβε, ξύλωνε..." src="docs/After-maths/{static}_static/images/uploads/2023/03/cantor_def_02.png?w=1024"/>
+<img alt="Ράβε, ξύλωνε, ράβε, ξύλωνε..." src="../../_images/cantor_def_02.png"/>
 <figcaption>
 <p><span class="caption-text">Ράβε, ξύλωνε, ράβε, ξύλωνε…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id20"><span>#</span></a></p>
 </figcaption>
@@ -380,14 +380,14 @@
 <p>Αυτοί οι αριθμοί, όπως φαντάζεστε, αν και όλοι τους ρητοί, είναι αρκετά πολλοί, άπειροι, για την ακρίβεια. Επομένως, έχουμε άπειρους αριθμούς μέσα σε αυτό το φαινομενικά άδειο σύνολο.</p>
 <p>Τα «παράδοξα» δεν σταματούν εδώ, ωστόσο. Στο σχήμα παρακάτω βλέπουμε μόνο τα κομμάτια που κρατάμε σε κάθε βήμα της κατασκευής του συνόλου Cantor μέχρι και το τέταρτο βήμα:</p>
 <figure class="wp-image-12028 align-default" id="id21">
-<img alt="Πετραδάααακι, πεεετραδάαακι..." src="docs/After-maths/{static}_static/images/uploads/2023/03/cantor_def_03-2.png?w=1024"/>
+<img alt="Πετραδάααακι, πεεετραδάαακι..." src="../../_images/cantor_def_03-2.png"/>
 <figcaption>
 <p><span class="caption-text">Πετραδάααακι, πεεετραδάαακι…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id21"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Τώρα, ας σκεφτούμε λίγο έναν αριθμό που μένει μέσα στο σύνολο Cantor μέσα από όλη αυτή τη διαδικασία. Αυτό, όπως είπαμε, σημαίνει ότι επιβιώνει από όλα αυτά τα κοψίματα που κάνουμε, επομένως, σε κάθε βήμα μας αυτός ο αριθμός βρίσκεται σε ένα γαλάζιο κομματάκι. Φανταστείτε τώρα ότι έχουμε μπροστά μας, όπως παραπάνω, ένα άπειρο «χαλί» με όλα τα βήματα που θα κάνουμε. Μπορούμε τότε να μας φανταστούμε να περιπλανιόμαστε πάνω σε αυτό το χαλί με τον εξής τρόπο, ξεκινώντας από το  <span class="math notranslate nohighlight">\([0,1]\)</span>  με στόχο κάποιον αριθμό  <span class="math notranslate nohighlight">\(x\in C:\)</span></p>
 <figure class="wp-image-12030 align-default" id="id22">
-<img alt="Περαπατώ-περπατώ εις το δάσος, όταν ο Cantor δεν είν' εδώ..." src="docs/After-maths/{static}_static/images/uploads/2023/03/cantor_def_04-2.png?w=1024"/>
+<img alt="Περαπατώ-περπατώ εις το δάσος, όταν ο Cantor δεν είν' εδώ..." src="../../_images/cantor_def_04-2.png"/>
 <figcaption>
 <p><span class="caption-text">Περαπατώ-περπατώ εις το δάσος, όταν ο Cantor δεν είν” εδώ…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id22"><span>#</span></a></p>
 </figcaption>
@@ -412,7 +412,7 @@
 \[f(x)=\begin{cases}x^2\sin\frac{1}{x} &amp; x\neq0\0 &amp; x=0\end{cases}.\]</div>
 <p>Σαφώς και τη θυμάστε, γιατί έχει αυτήν την κόμψότατη γραφική παράσταση:</p>
 <figure class="wp-image-11987 align-default" id="id23">
-<img alt="Γνωστή και μη εξαιρετέα." src="docs/After-maths/{static}_static/images/uploads/2023/03/func_def_01.png?w=962"/>
+<img alt="Γνωστή και μη εξαιρετέα." src="../../_images/func_def_01.png"/>
 <figcaption>
 <p><span class="caption-text">Γνωστή και μη εξαιρετέα.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id23"><span>#</span></a></p>
 </figcaption>
@@ -422,7 +422,7 @@
 \[f'(x)=\begin{cases}2x\sin\frac{1}{x}-\cos\frac{1}{x} &amp; x\neq0\0 &amp; x=0\end{cases}.\]</div>
 <p>Η γραφική παράσταση της παραγώγου είναι η εξής:</p>
 <figure class="wp-image-11991 align-default" id="id24">
-<img alt="Εεεε, τι είναι αυτά τώρα;" src="docs/After-maths/{static}_static/images/uploads/2023/03/func_def_02-1.png?w=962"/>
+<img alt="Εεεε, τι είναι αυτά τώρα;" src="../../_images/func_def_02-1.png"/>
 <figcaption>
 <p><span class="caption-text">Εεεε, τι είναι αυτά τώρα;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id24"><span>#</span></a></p>
 </figcaption>
@@ -430,14 +430,14 @@
 <p>Είναι επίσης σαφές ότι η παράγωγος είναι αρκετά προβληματική, ειδικά όσο πλησιάζουμε προς το μηδέν. Λογικό, καθώς εκείνο το συνημίτονο χαλάει όλη τη δουλειά. Ας παρατηρήσουμε ότι η  <span class="math notranslate nohighlight">\(f'\)</span>  είναι φραγμένη εκεί γύρω από το μηδέν ενώ είναι με ουσιαστικό τρόπο ασυνεχής στο μηδέν. Λέγοντας «με ουσιαστικό τρόπο» εννοούμε ότι δεν μπορούμε με κάποιον τρόπο να ορίσουμε την  <span class="math notranslate nohighlight">\(f\)</span>  στο μηδέν έτσι ώστε αυτή να είναι συνεχής εκεί. Αυτή την αλλοπρόσαλλη συμπεριφορά θα προσπαθήσουμε να εκμεταλλευτούμε για να φτιάξουμε μία πραγματικά άσχημη συνάρτηση.</p>
 <p>Αρχικά, θα κόψουμε τη γραφική παράσταση της  <span class="math notranslate nohighlight">\(f\)</span>  και θα κρατήσουμε μόνο το κομμάτι της που ζει στο  <span class="math notranslate nohighlight">\([0,1]\)</span>  όπως φαίνεται παρακάτω:</p>
 <figure class="wp-image-11995 align-default" id="id25">
-<img alt="Τώρα δεν τελειώνει η εποχή του κλαδέματος;" src="docs/After-maths/{static}_static/images/uploads/2023/03/func_def_03.png?w=867"/>
+<img alt="Τώρα δεν τελειώνει η εποχή του κλαδέματος;" src="../../_images/func_def_03.png"/>
 <figcaption>
 <p><span class="caption-text">Τώρα δεν τελειώνει η εποχή του κλαδέματος;</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id25"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Ωραία, και τώρα τι, θα πείτε; Λοιπόν, εμείς έχουμε μία συνάρτηση που είναι παραγωγίσιμη, με φραγμένη παράγωγο που είναι ασυνεχής στο μηδέν. Μπορούμε να κάνουμε μία μικρή τσαχπινιά τώρα, και να χαλάσουμε τη συνέχεια της παραγώγου και στο 1. Για να το πετύχουμε αυτό, μπορούμε «αφελώς» να θεωρήσουμε την ακόλουθη συνάρτηση:</p>
 <figure class="wp-image-11998 align-default" id="id26">
-<img alt="Κοπτοραπτική, ξανά." src="docs/After-maths/{static}_static/images/uploads/2023/03/func_def_04.png?w=1015"/>
+<img alt="Κοπτοραπτική, ξανά." src="../../_images/func_def_04.png"/>
 <figcaption>
 <p><span class="caption-text">Κοπτοραπτική, ξανά.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id26"><span>#</span></a></p>
 </figcaption>
@@ -457,7 +457,7 @@
 </ul>
 <p>Το αποτέλεσμα αυτής της ιδέας φαίνεται παρακάτω:</p>
 <figure class="wp-image-12009 align-default" id="id27">
-<img alt="Την ισιώσαμε την κατάσταση." src="docs/After-maths/{static}_static/images/uploads/2023/03/func_def_05.png?w=1015"/>
+<img alt="Την ισιώσαμε την κατάσταση." src="../../_images/func_def_05.png"/>
 <figcaption>
 <p><span class="caption-text">Την ισιώσαμε την κατάσταση.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id27"><span>#</span></a></p>
 </figcaption>

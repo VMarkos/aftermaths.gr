@@ -219,7 +219,7 @@
 
 Συνεπώς, οι τιμές της  :math:`a^n`  σε αυτήν την περίπτωση απλώς «ταλαντώνονται» ανάμεσα σε θετικές και αρνητικές, ενώ (κατ' απόλυτη τιμή) μεγαλώνουν απεριόριστα. Ενδεικτικά, μπορείτε να δείτε και το παρακάτω σχήμα:
 
-.. figure:: {static}_static/images/uploads/2023/04/exponential_01.png?w=995
+.. figure:: /_static/images/uploads/2023/04/exponential_01.png
    :alt: Μικρό αλλά θαυματουργό το 1.18...
    :figclass: wp-image-12336
 
@@ -302,7 +302,7 @@
 
 Μία τέτοια ακολουθία μπορεί να μοιάζει κάπως έτσι:
 
-.. figure:: {static}_static/images/uploads/2023/04/non_convergent_01.png?w=1011
+.. figure:: /_static/images/uploads/2023/04/non_convergent_01.png
    :alt: Άπειρες, αθώες, γαλάζιες. Κάποιες τιμές μακριά από τις υπόλοιπες...
    :figclass: wp-image-12363
 

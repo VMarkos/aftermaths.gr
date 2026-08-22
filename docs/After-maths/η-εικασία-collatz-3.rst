@@ -83,7 +83,7 @@
 
 Στην ουσία, απλώς περιγράψαμε τα όσα είπαμε παραπάνω μέσω πλακακίων. Σχηματικά, αυτά μπορούν να φανούν στο ακόλουθο δέντρο:
 
-.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/collatz_3.png?w=1024
+.. figure:: /_static/images/uploads/2021/09/collatz_3.png
    :alt: Ένα τέτοιο θα στολίσουμε τα Χριστούγεννα!
    :figclass: wp-image-8146
 
@@ -107,7 +107,7 @@
 
 Με αυτές τις νέες πληροφορίες μας, ο χάρτης μας έχει την εξής μορφή:
 
-.. figure:: https://aftermaths.gr/_static/images/uploads/2021/09/collatz_3_1.png?w=1024
+.. figure:: /_static/images/uploads/2021/09/collatz_3_1.png
    :alt: Βασικά, ένα τέτοιο θα στολίσουμε!
    :figclass: wp-image-8151
 

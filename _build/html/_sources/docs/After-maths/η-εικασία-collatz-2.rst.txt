@@ -67,7 +67,7 @@
 
 Το παραπάνω δεν κάνει τίποτα άλλο από το να υπολογίζει τις πρώτες 1000 ακολουθίες Collatz και να τις αποθηκεύει σε ένα αρχείο sequence.txt που θα δημιουργηθεί στον ίδιο φάκελο με το αρχείο που έχουμε τον παραπάνω κώδικα. Το αρχείο που θα παραχθεί θα έχει αυτή τη μορφή - μπορείτε να το βρείτε κι `εδώ  <https://drive.google.com/file/d/1OadMT2WHcn7KzqbZMpeJp-DYd-5UsQ4a/view?usp=sharing>`__:
 
-.. figure:: https://aftermaths.gr/_static/images/uploads/2021/04/ceb5ceb9cebacf8ccebdceb1.png?w=1024
+.. figure:: /_static/images/uploads/2021/04/ceb5ceb9cebacf8ccebdceb1.png
    :alt: Οι πρώτες 53ακολουθίες Collatz μέσα στο αρχείο.
    :figclass: wp-image-7139
 

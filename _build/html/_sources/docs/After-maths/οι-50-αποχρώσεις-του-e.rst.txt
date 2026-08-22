@@ -71,7 +71,7 @@
 
 .. container:: wp-block-image alignnone size-full wp-image-1022
 
-   .. figure:: {static}_static/images/uploads/2019/07/ezgif.com-crop2-2.gif
+   .. figure:: /_static/images/uploads/2019/07/ezgif.com-crop2-2.gif
       :alt: Τα κέρδη μας.
       :figclass: wp-image-1022
 
@@ -128,7 +128,7 @@
 
 .. container:: wp-block-image alignnone size-full wp-image-1028
 
-   .. figure:: {static}_static/images/uploads/2019/07/ezgif.com-crop3-1.gif
+   .. figure:: /_static/images/uploads/2019/07/ezgif.com-crop3-1.gif
       :alt: Ανεβαίνοντας τον λόφο.
       :figclass: wp-image-1028
 
@@ -185,7 +185,7 @@
 
 .. container:: wp-block-image alignnone size-full wp-image-1033
 
-   .. figure:: {static}_static/images/uploads/2019/08/ezgif.com-crop4.gif
+   .. figure:: /_static/images/uploads/2019/08/ezgif.com-crop4.gif
       :alt: Κάτω Περαραχούλα for ever!
       :figclass: wp-image-1033
 
@@ -302,7 +302,7 @@
 
 .. container:: wp-block-image alignnone size-full wp-image-1044
 
-   .. figure:: {static}_static/images/uploads/2019/08/ezgif-5-ffba512886.pdf-1.png
+   .. figure:: /_static/images/uploads/2019/08/ezgif-5-ffba512886.pdf-1.png
       :alt: Η γραφική παράσταση της εκθετικής.
       :figclass: wp-image-1044
 
@@ -318,7 +318,7 @@
 
 θα «μοιάζει» με την εκθετική. Πράγματι, όπως βλέπουμε και παρακάτω:
 
-.. figure:: {static}_static/images/uploads/2019/08/ezgif.com-gif-maker-4.gif
+.. figure:: /_static/images/uploads/2019/08/ezgif.com-gif-maker-4.gif
    :alt: Στα χνάρια της εκθετικής.
    :figclass: wp-image-1045
 
@@ -366,7 +366,7 @@
 
 .. container:: wp-block-image alignnone size-full wp-image-1049
 
-   .. figure:: {static}_static/images/uploads/2019/08/ezgif.com-gif-maker-5.gif
+   .. figure:: /_static/images/uploads/2019/08/ezgif.com-gif-maker-5.gif
       :alt: Προσεγγίζοντας την εκθετική με πολυώνυμα.
       :figclass: wp-image-1049
 

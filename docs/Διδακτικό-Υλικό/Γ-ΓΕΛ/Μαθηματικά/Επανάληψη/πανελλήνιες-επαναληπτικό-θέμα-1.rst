@@ -23,7 +23,7 @@
 
 Το θέμα μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1RDGbtAPGE46ZXLi0k-eDJj2P0JnJKO7j/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
-*Γενικά, υλικό σχετικό με τις πανελλήνιες μπορείτε να βρείτε*\ `εδώ  <https://aftermaths.gr/tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *και*\ `εδώ  <https://aftermaths.gr/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
+*Γενικά, υλικό σχετικό με τις πανελλήνιες μπορείτε να βρείτε*\ `εδώ  </tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *και*\ `εδώ  </%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82/>`__\ *.*
 
 
 
