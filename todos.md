@@ -1,6 +1,7 @@
 ## Fixes
 
 - [ ] Youtube embeddings do not work
+    - This might be a localhost issue.
 - [ ] Quotations appear like double paragraphs (?) using some sort of <p> tag.
 - [ ] Greek double quote should be apostrophe / keraia.
 - [x] Images inside articles, e.g., "Does it Have a Global Maximum?" do not render - the alt text is shown.

@@ -18,7 +18,8 @@ release = '0.1.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-    'sphinxcontrib.youtube'
+    'sphinxcontrib.youtube',
+    'sphinx_favicon',
 ]
 
 templates_path = ['_templates']
@@ -35,6 +36,10 @@ html_title = 'aftermaths'
 html_permalinks_icon = '<span>#</span>'
 html_theme = 'sphinxawesome_theme'
 html_static_path = ['_static']
+
+favicons = [
+    'icons/favicon.ico',
+]
 
 html_sidebars = {
     '**': ['sidebar_main_nav_links.html', 'sidebar_toc.html']
