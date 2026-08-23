@@ -241,7 +241,7 @@
 
 Πράγματι, με λίγες πράξεις παρατηρούμε ότι αν  :math:`p`  είναι ένα πολυώνυμο  :math:`n`  βαθμού:
 
-.. math:: \begin{aligned}\left(S_p(ax)e^{-ax}\right)'&=-ae^{-ax}S_p(ax)+ae^{-ax}S_p'(ax)=\&=ae^{-ax}\left(S_p'(ax)-S_p(ax)\right)=\&=ae^{-ax}\left(\sum_{k=1}^{n+1}p^{(k)}(ax)-\sum_{k=0}^np^{(k)}(ax)\right)=\&=ae^{-ax}\left(p^{(n+1)}(ax)-p(ax)\right)=\&=-ae^{-ax}p(ax),\end{aligned}
+.. math:: \begin{align}\left(S_p(ax)e^{-ax}\right)'&=-ae^{-ax}S_p(ax)+ae^{-ax}S_p'(ax)=\&=ae^{-ax}\left(S_p'(ax)-S_p(ax)\right)=\&=ae^{-ax}\left(\sum_{k=1}^{n+1}p^{(k)}(ax)-\sum_{k=0}^np^{(k)}(ax)\right)=\&=ae^{-ax}\left(p^{(n+1)}(ax)-p(ax)\right)=\&=-ae^{-ax}p(ax),\end{align}
 
 δεδομένου ότι οι παράγωγοι του  :math:`p`  τάξης μεγαλύτερης του  :math:`n`  είναι μηδενικές. Έτσι, ολοκληρώνοντας την παραπάνω ισότητα παίρνουμε:
 
@@ -291,7 +291,7 @@
 
 Με τη βοήθεια της παραπάνω σχέσης παρατηρούμε ότι:
 
-.. math:: \begin{aligned}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k)&=\sum_{k=1}^n-c_ke^{a_k}\left(S_{T_m}(0)-e^{-a_k}S_{T_m}(a_k)\right)=\&=\sum_{k=1}^nc_kS_{T_m}(a_k)-\sum_{k=1}^nc_ke^{a_k}S_{T_m}(0).\end{aligned}
+.. math:: \begin{align}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k)&=\sum_{k=1}^n-c_ke^{a_k}\left(S_{T_m}(0)-e^{-a_k}S_{T_m}(a_k)\right)=\&=\sum_{k=1}^nc_kS_{T_m}(a_k)-\sum_{k=1}^nc_ke^{a_k}S_{T_m}(0).\end{align}
 
 Από υπόθεση, γνωρίζουμε ότι  :math:`c_0+\sum_{k=1}^nc_ke^{a_k}=0,`  επομένως έχουμε και:
 
@@ -307,7 +307,7 @@
 
 και παρατηρούμε ότι:
 
-.. math:: \begin{aligned}\left|I_{T_m}(a_k)\right|&=\left|\int_0^1c_ke^{-ac_kx}T_m(a_kx)dx\right|\&\leq\int_0^1\left|a_ke^{-a_kx}T_m(a_kx)\right|dx\&\leq Ae^A\int_0^1\left|T_m(a_kx)\right|dx\&\leq Ae^A\int_0^1\left|(a_kx)^{m-1}(p(a_kx))^m\right|dx\&\leq Ae^AA^{m-1}\int_0^1\left|x^{m-1}(p(a_kx))^m\right|dx\&\leq A^me^A\int_0^1\left|p(a_kx)\right|^mdx.\end{aligned}
+.. math:: \begin{align}\left|I_{T_m}(a_k)\right|&=\left|\int_0^1c_ke^{-ac_kx}T_m(a_kx)dx\right|\&\leq\int_0^1\left|a_ke^{-a_kx}T_m(a_kx)\right|dx\&\leq Ae^A\int_0^1\left|T_m(a_kx)\right|dx\&\leq Ae^A\int_0^1\left|(a_kx)^{m-1}(p(a_kx))^m\right|dx\&\leq Ae^AA^{m-1}\int_0^1\left|x^{m-1}(p(a_kx))^m\right|dx\&\leq A^me^A\int_0^1\left|p(a_kx)\right|^mdx.\end{align}
 
 Ωραία ανισότητα, αλλά μπορούμε και καλύτερα. Για την ακρίβεια, αφού το  :math:`p(a_kx)`  είναι πολυωνυμική συνάρτηση, είναι και συνεχής και, αφού είναι ορισμένη σε κλειστό διάστημα, παίρνει μέγιστη κι ελάχιστη τιμή - κι ας παίρνει μιγαδικές τιμές, δε μας απασχολεί - επομένως, υπάρχει ένας θετικός πραγματικός αριθμός  :math:`M>0`  έτσι ώστε:
 
@@ -315,7 +315,7 @@
 
 Έτσι, τελικά έχουμε:
 
-.. math:: \begin{aligned}\left|I_{T_m}(a_k)\right|&\leq A^me^A\int_0^1\left|p(a_kx)\right|^mdx\&\leq A^m e^AM^m.\end{aligned}
+.. math:: \begin{align}\left|I_{T_m}(a_k)\right|&\leq A^me^A\int_0^1\left|p(a_kx)\right|^mdx\&\leq A^m e^AM^m.\end{align}
 
 Επομένως, έχουμε:
 
@@ -367,7 +367,7 @@
 
 Με βάση τα παραπάνω παρατηρούμε ότι:
 
-.. math:: \begin{aligned}&\hphantom{=}\ \,c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k)=\&=c^{nm}c_0(m-1)!p(0)^m+c^{nm}c_0\sum_{i\geq m}T_m^{(i)}(0)+c^{nm}\sum_{k=1}^nc_k\sum_{i\geq m}T_m^{(i)}(a_k).\end{aligned}
+.. math:: \begin{align}&\hphantom{=}\ \,c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k)=\&=c^{nm}c_0(m-1)!p(0)^m+c^{nm}c_0\sum_{i\geq m}T_m^{(i)}(0)+c^{nm}\sum_{k=1}^nc_k\sum_{i\geq m}T_m^{(i)}(a_k).\end{align}
 
 Εδώ να θυμηθούμε ότι:
 
@@ -375,7 +375,7 @@
 
 Έτσι, έχουμε:
 
-.. math:: \begin{aligned}&\hphantom{=}\ \,c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k)=\&=c^{nm}c_0(m-1)!p(0)^m+c^{nm}c_0m!Q_m(0)+c^{nm}\sum_{k=1}^nc_km!Q_m(a_k)=\&=c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!\underbrace{c^{nm}\sum_{k=1}^nc_kQ_m(a_k)}_{\Pi}.\end{aligned}
+.. math:: \begin{align}&\hphantom{=}\ \,c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k)=\&=c^{nm}c_0(m-1)!p(0)^m+c^{nm}c_0m!Q_m(0)+c^{nm}\sum_{k=1}^nc_km!Q_m(a_k)=\&=c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!\underbrace{c^{nm}\sum_{k=1}^nc_kQ_m(a_k)}_{\Pi}.\end{align}
 
 Η παράσταση  :math:`\Pi`  είναι αυτή που θέλουμε να αποδείξουμε ότι παίρνει και μη ακέραιες τιμές για κατάλληλες τιμές του  :math:`m.`  Έστω, προς άτοπο, ότι για κάθε επιλογή του  :math:`m`  η παράσταση  :math:`\Pi`  είναι ακέραια. Τότε, η παραπάνω παράσταση διαιρείται σαφώς από το  :math:`(m-1)!`  ωστόσο, αν επιλέξουμε τον  :math:`m`  αρκετά μεγάλο και *πρώτο* τότε η παραπάνω παράσταση δε διαιρείται από το  :math:`m!`  - για την ακρίβεια, πρέπει να επιλέξουμε  :math:`m`  μεγαλύτερο από  :math:`c_0,c`  και  :math:`p(0)`  - καθώς δε διαιρείται ο πρώτος όρος από το  :math:`m`  - εδώ είναι που αξιοποιούμε ότι ο  :math:`m`  είναι πρώτος. Έτσι η παράσταση:
 
@@ -387,11 +387,11 @@
 
 Ωστόσο, προηγουμένως είχαμε αποδείξει την ακόλουθη ισότητα:
 
-.. math:: \begin{aligned}&\hphantom{=}\ \,c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!c^{nm}\sum_{k=1}^nc_kQ=\&=c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k)=\&=c^{nm}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k).\end{aligned}
+.. math:: \begin{align}&\hphantom{=}\ \,c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!c^{nm}\sum_{k=1}^nc_kQ=\&=c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k)=\&=c^{nm}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k).\end{align}
 
 Συνεπώς:
 
-.. math:: \begin{aligned}(m-1)!&\leq\left|c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!c^{nm}\sum_{k=1}^nc_kQ_m(a_k)\right|=\&=\left|c^{nm}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k).\right|\&<(m-1)!,\end{aligned}
+.. math:: \begin{align}(m-1)!&\leq\left|c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!c^{nm}\sum_{k=1}^nc_kQ_m(a_k)\right|=\&=\left|c^{nm}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k).\right|\&<(m-1)!,\end{align}
 
 που είναι άτοπο! Άρα, για κατάλληλα μεγάλο και πρώτο  :math:`m`  πράγματι η παράσταση  :math:`\Pi`  δεν παίρνει ακέραιες τιμές, όπως θέλαμε.
 

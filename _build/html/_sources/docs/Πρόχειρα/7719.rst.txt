@@ -77,7 +77,7 @@
 	
 	Έχοντας κατά νου τα παραπάνω, εμείς αυτό που κάναμε ήταν να υποθέσουμε ότι η παράμετρος ``sickness_time`` έχει μία κατανομή σαν αυτή που βλέπουμε στο σχήμα μας και ότι η μέση τιμή και η τυπική απόκλιση καθορίζονται από τις ακραίες τιμές της παραμέτρου ως εξής:
 	
-	.. math:: \begin{aligned}\mu&=\frac{{\rm min\mathunderscore sickness\mathunderscore time+ max\mathunderscore sickness\mathunderscore time }}{2}\\sigma&=\frac{{\rm max\mathunderscore sickness\mathunderscore time - min\mathunderscore sickness\mathunderscore time}}{6}\end{aligned}
+	.. math:: \begin{align}\mu&=\frac{{\rm min\mathunderscore sickness\mathunderscore time+ max\mathunderscore sickness\mathunderscore time }}{2}\\sigma&=\frac{{\rm max\mathunderscore sickness\mathunderscore time - min\mathunderscore sickness\mathunderscore time}}{6}\end{align}
 	
 	Τώρα που κανονίσαμε τις λεπτομέρειες του μοντέλου μας, μπορούμε να πάμε παρακάτω.
 	

@@ -88,7 +88,7 @@
 
 Η πρώτη ανισότητα είναι άμεση, ενώ για τη δεύτερη παρατηρούμε ότι:
 
-.. math:: \begin{aligned}f_n(x)&=\frac{x^n(a-bx)^n}{n!}=\&=\frac{b^nx^n(\frac{a}{b}-x)^n}{n!}=\&=\frac{b^nx^n(\pi-x)^n}{n!}.\end{aligned}
+.. math:: \begin{align}f_n(x)&=\frac{x^n(a-bx)^n}{n!}=\&=\frac{b^nx^n(\frac{a}{b}-x)^n}{n!}=\&=\frac{b^nx^n(\pi-x)^n}{n!}.\end{align}
 
 Τώρα, παρατηρούμε ότι:
 
@@ -112,7 +112,7 @@
 
 Αυτή μπορεί να μοιάζει με μία ακόμα συνάρτηση που βγάλαμε από το καπέλο, αλλά δεν είναι. Η παραπάνω συνάρτηση, χρησιμοποιείται για να συντομεύσει την εφαρμογή πολλαπλών παραγοντικών ολοκληρώσεων. Για την ακρίβεια, κάνοντας  :math:`2n`  ολοκληρώσεις κατά παράγοντες, έχουμε:
 
-.. math:: \begin{aligned}I_n&=\int_0^\pi f_n(x)\sin xdx=\&=[-f_n(x)\cos x]_0^\pi+\int_0^\pi f_n'(x)\cos xdx=\&=f_n(0)+f_n(\pi)+\int_0^\pi f_n'(x)\cos xdx=\&=f_n(0)+f_n(\pi)+[f_n(x)\sin x]_0^\pi-\int_0^\pi f_n''(x)\sin xdx=\&=f_n(0)+f_n(\pi)-\int_0^\pi f_n''(x)\sin xdx=\&=\ldots=\&=\sum_{k=0}^n(-1)^k(f_n^{(2k)}(0)+f_n^{(2k)}(\pi))+(-1)^{n+1}\int_0^\pi f_n^{(2n+2)}(x)\sin xdx.\end{aligned}
+.. math:: \begin{align}I_n&=\int_0^\pi f_n(x)\sin xdx=\&=[-f_n(x)\cos x]_0^\pi+\int_0^\pi f_n'(x)\cos xdx=\&=f_n(0)+f_n(\pi)+\int_0^\pi f_n'(x)\cos xdx=\&=f_n(0)+f_n(\pi)+[f_n(x)\sin x]_0^\pi-\int_0^\pi f_n''(x)\sin xdx=\&=f_n(0)+f_n(\pi)-\int_0^\pi f_n''(x)\sin xdx=\&=\ldots=\&=\sum_{k=0}^n(-1)^k(f_n^{(2k)}(0)+f_n^{(2k)}(\pi))+(-1)^{n+1}\int_0^\pi f_n^{(2n+2)}(x)\sin xdx.\end{align}
 
 Για να δούμε καλύτερα το πώς προκύπτει το παραπάνω - πέρα από μία τυπική απόδειξη με επαγωγή - μπορούμε να παρατηρήσουμε ότι:
 
@@ -144,7 +144,7 @@
 
 Γενικότερα, λοιπόν, αν  :math:`p_k`  είναι ο συντελεστής του  :math:`x^k`  αν αναπτύξουμε την  :math:`f_n`  σε δυνάμεις του  :math:`x,`  τότε ο σταθερός όρος της  :math:`f_n^{(k)}`  θα είναι o  :math:`k!p_k.`  Επομένως, για να βρούμε τους πολυπόθητους σταθερούς όρους  :math:`f_n^{(2k)}(0)`  θα πρέπει να βρούμε τους όρους των δυνάμεων του  :math:`x^k`  στο ανάπτυγμα της  :math:`f_n.`  Παρατηρούμε, λοιπόν, χρησιμοποιώντας το `διωνυμικό ανάπτυγμ  <https://en.wikipedia.org/wiki/Binomial_coefficient#Definition_and_interpretations>`__\ α, ότι:
 
-.. math:: \begin{aligned}f_n(x)&=\frac{x^n(a-bx)^n}{n!}=\&=\frac{x^n}{n!}\sum_{k=0}^n\binom{n}{k}(-bx)^ka^{n-k}=\&=\frac{x^n}{n!}\sum_{k=0}^n\binom{n}{k}(-1)^kb^ka^{n-k}x^k=\&=\sum_{k=0}^n\binom{n}{k}(-1)^k\frac{b^ka^{n-k}}{n!}x^{n+k}.\end{aligned}
+.. math:: \begin{align}f_n(x)&=\frac{x^n(a-bx)^n}{n!}=\&=\frac{x^n}{n!}\sum_{k=0}^n\binom{n}{k}(-bx)^ka^{n-k}=\&=\frac{x^n}{n!}\sum_{k=0}^n\binom{n}{k}(-1)^kb^ka^{n-k}x^k=\&=\sum_{k=0}^n\binom{n}{k}(-1)^k\frac{b^ka^{n-k}}{n!}x^{n+k}.\end{align}
 
 Επομένως, ο πολυπόθητος συντελεστής μας είναι ο:
 

@@ -72,7 +72,7 @@
 
 δηλαδή οι όροι  :math:`a_k`  και  :math:`a_{k+1}`  δεν απέχουν περισσότερο από  :math:`10^{-k}`  και αυτό διότι ο όρος  :math:`a_{k+1}`  προκύπτει από τον  :math:`a_k`  συναρμόζοντας ένα δεκαδικό ψηφίο στο τέλος του δεκαδικού αναπτύγματος του  :math:`a_k` . Έτσι, αν  :math:`n>m`  έχουμε:
 
-.. math:: \begin{aligned}|a_n-a_m|&=|a_n-a_{n-1}+a_{n-1}-a_{n-2}+a_{n-2}-\dots-a_{m+1}+a_{m+1}-a_m|\&\leq|a_n-a_{n-1}|+|a_{n-1}-a_{n-2}|+\dots+|a_{m+1}-a_m|\&<10^{-n+1}+10^{-n+2}+\dots+10^{-m}=\&=10^{-m}(1+10^{-1}+10^{-2}+\dots+10^{-n+m+1})=\&=10^{-m}\frac{1-10^{-n+m+2}}{1-10^{-1}}\&<10^{-m}\frac{10}{9}=\&=\frac{10^{-m+1}}{9}.\end{aligned}
+.. math:: \begin{align}|a_n-a_m|&=|a_n-a_{n-1}+a_{n-1}-a_{n-2}+a_{n-2}-\dots-a_{m+1}+a_{m+1}-a_m|\&\leq|a_n-a_{n-1}|+|a_{n-1}-a_{n-2}|+\dots+|a_{m+1}-a_m|\&<10^{-n+1}+10^{-n+2}+\dots+10^{-m}=\&=10^{-m}(1+10^{-1}+10^{-2}+\dots+10^{-n+m+1})=\&=10^{-m}\frac{1-10^{-n+m+2}}{1-10^{-1}}\&<10^{-m}\frac{10}{9}=\&=\frac{10^{-m+1}}{9}.\end{align}
 
 Δηλαδή, δύο οποιοιδήποτε όροι της  :math:`a_k`  απέχουν απόσταση η οποία τελικά φθίνει προς το  :math:`0,`  συνεπώς έχουμε άμεσα ότι η  :math:`a_k`  είναι βασική.
 
@@ -173,7 +173,7 @@ Infimum ενός μη κενού και κάτω φραγμένου συνόλο
 
 Με τα παραπάνω κατά νου παρατηρούμε ότι:
 
-.. math:: \begin{aligned}|a_n-a|&=|a_n-a_N+a_N-s_M+s_M-a|\&\leq|a_n-a_N|+|a_N-s_M|+|s_M-a|\&<\frac{\varepsilon}{3}+\frac{\varepsilon}{3}+\frac{\varepsilon}{3}=\&=\varepsilon.\end{aligned}
+.. math:: \begin{align}|a_n-a|&=|a_n-a_N+a_N-s_M+s_M-a|\&\leq|a_n-a_N|+|a_N-s_M|+|s_M-a|\&<\frac{\varepsilon}{3}+\frac{\varepsilon}{3}+\frac{\varepsilon}{3}=\&=\varepsilon.\end{align}
 
 Επομένως,  :math:`a_k\to a` , άρα η  :math:`a_k`  είναι συγκλίνουσα, όπως θέλαμε.
 
@@ -202,7 +202,7 @@ Infimum ενός μη κενού και κάτω φραγμένου συνόλο
 
 Από τα παραπάνω έπεται άμεσα ότι  :math:`a_n<b_m`  για κάθε  :math:`m,n\in\mathbb{N}`  και ειδικότερα ότι  :math:`a_{n+1}-a_n<b_n-a_n=\frac{1}{2^{n-1}}` . Με αυτήν την ισχυρή πληροφορία θα δείξουμε ότι η  :math:`a_n`  είναι βασική. Πράγματι, αν  :math:`n>m`  τότε:
 
-.. math:: \begin{aligned}|a_n-a_m|&=a_n-a_m=\&=a_n-a_{n-1}+a_{n-1}-a_{n-2}+a_{n-2}-\dots-a_{m+1}+a_{m+1}-a_m\&<\frac{1}{2^{n-2}}+\frac{1}{2^{n-3}}+\dots+\frac{1}{2^{m-1}}=\&=\frac{1}{2^{m-1}}\left(1+\frac{1}{2}+\dots+\frac{1}{2^{n-m-1}}\right)=\&=\frac{1}{2^{m-1}}\frac{1-\frac{1}{2^{n-m}}}{1-\frac{1}{2}}\&<\frac{1}{2^{m-1}}\frac{1}{\frac{1}{2}}=\&=\frac{1}{2^{m-2}}.\end{aligned}
+.. math:: \begin{align}|a_n-a_m|&=a_n-a_m=\&=a_n-a_{n-1}+a_{n-1}-a_{n-2}+a_{n-2}-\dots-a_{m+1}+a_{m+1}-a_m\&<\frac{1}{2^{n-2}}+\frac{1}{2^{n-3}}+\dots+\frac{1}{2^{m-1}}=\&=\frac{1}{2^{m-1}}\left(1+\frac{1}{2}+\dots+\frac{1}{2^{n-m-1}}\right)=\&=\frac{1}{2^{m-1}}\frac{1-\frac{1}{2^{n-m}}}{1-\frac{1}{2}}\&<\frac{1}{2^{m-1}}\frac{1}{\frac{1}{2}}=\&=\frac{1}{2^{m-2}}.\end{align}
 
 Συνεπώς,  :math:`a_n-a_m<\frac{1}{2^{m-2}}`  και άρα εύκολα δείχνουμε ότι η  :math:`a_n`  είναι βασική, άρα, από την υπόθεσή μας, και συγκλίνουσα. Επομένως, υπάρχει  :math:`a\in\mathbb{R}`  με  :math:`a_n\to a` .
 

@@ -233,7 +233,7 @@
 <h3>Ερώτημα b.i.<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#b-i" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#b-i'"><span>#</span></a></h3>
 <p>Θα ξεκινήσουμε από το ζητούμενο και θα προσπαθήσουμε με ισοδυναμίες να καταλήξουμε σε κάτι που ισχύει (ή όπου μας βγάλει):</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} &amp;\hphantom{{}\Leftrightarrow{}}E(x)\leq 4\\ &amp;\Leftrightarrow 2x\sqrt{4-x^2}\leq 4\\ &amp;\Leftrightarrow x\sqrt{4-x^2}\leq 2\\ &amp;\Leftrightarrow \left(x\sqrt{4-x^2}\right)^2\leq 2^2\\ &amp;\Leftrightarrow x^2(4-x^2)\leq 4\\ &amp;\Leftrightarrow 4x^2-x^4\leq 4\\ &amp;\Leftrightarrow -x^4+4x^2-4\leq 0\\ &amp;\Leftrightarrow -\left(x^4-4x^2+4\right)\leq 0\\ &amp;\Leftrightarrow -\left((x^2)^2-2\cdot 2\cdot x^2+2^2\right)\leq 0\\ &amp;\Leftrightarrow -\left(x^2-2\right)^2\leq0, \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} &amp;\hphantom{{}\Leftrightarrow{}}E(x)\leq 4\\ &amp;\Leftrightarrow 2x\sqrt{4-x^2}\leq 4\\ &amp;\Leftrightarrow x\sqrt{4-x^2}\leq 2\\ &amp;\Leftrightarrow \left(x\sqrt{4-x^2}\right)^2\leq 2^2\\ &amp;\Leftrightarrow x^2(4-x^2)\leq 4\\ &amp;\Leftrightarrow 4x^2-x^4\leq 4\\ &amp;\Leftrightarrow -x^4+4x^2-4\leq 0\\ &amp;\Leftrightarrow -\left(x^4-4x^2+4\right)\leq 0\\ &amp;\Leftrightarrow -\left((x^2)^2-2\cdot 2\cdot x^2+2^2\right)\leq 0\\ &amp;\Leftrightarrow -\left(x^2-2\right)^2\leq0, \end{align}\end{split}\]</div>
 <p>που ισχύει. Συνεπώς ισχύει και το ζητούμενο.</p>
 <p>Αν σας άγχωσε λίγο το σημείο που υψώσαμε στο τετράγωνο, όλα καλά, καθώς και τα δύο μέλη είναι θετικά, αφού  <span class="math notranslate nohighlight">\(x\in(0,2)\)</span> , οπότε υψώνουμε χωρίς τύψεις (αφού για θετικούς αριθμούς, η  <span class="math notranslate nohighlight">\(y=x^2\)</span>  είναι γνησίως αύξουσα).</p>
 </section>
@@ -261,12 +261,12 @@
 <h3>Ερώτημα b.iii.<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#b-iii" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#b-iii'"><span>#</span></a></h3>
 <p>Λοιπόν, η εξίσωσή μας είναι λίγο περίπλοκη, αλλά, τι να κάνουμε, θα δοκιμάσουμε αυτό που έχουμε δει καλύτερα από όλα: να φέρουμε τα πάντα στο ένα μέλος. Λοιπόν, έχουμε, αφού πρώτα κάνουμε τον κόπο να απαλείψουμε παρονομαστές:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} &amp;\hphantom{{}\Leftrightarrow{}}4+(x-1)E(x)=\frac{4-E(x)}{x}+4x\\ &amp;\Leftrightarrow 4x+x(x-1)E(x)=4-E(x)+4x^2\\ &amp;\Leftrightarrow 4x+x(x-1)E(x)-4+E(x)-4x^2=0. \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} &amp;\hphantom{{}\Leftrightarrow{}}4+(x-1)E(x)=\frac{4-E(x)}{x}+4x\\ &amp;\Leftrightarrow 4x+x(x-1)E(x)=4-E(x)+4x^2\\ &amp;\Leftrightarrow 4x+x(x-1)E(x)-4+E(x)-4x^2=0. \end{align}\end{split}\]</div>
 <p>Ωραία, και τώρα τι καταλάβαμε; Λοιπόν, η  <span class="math notranslate nohighlight">\(E(x)\)</span>  έχει τύπο, μπορούμε κάλλιστα να τον αντικαταστήσουμε και να κάνουμε πράξεις, ελπίζοντας να βγει κάτι. Αλλά, γενικά, όταν μιλάμε για πράξεις, συνήθως μιλάμε και για κόπο, οπότε ας το αφήσουμε για πιο μετά, όταν όλα τα άλλα θα έχουν αποτύχει. Μπορούμε να σκεφτούμε, στο μεταξύ, κάτι άλλο;</p>
 <p>[Σκέψη]</p>
 <p>Λοιπόν, μπορούμε να δοκιμάσουμε το άλλο μεγάλο μας όπλο όταν πρόκειται για λύση εξισώσεων: να παραγοντοποιήσουμε. Ας ξεκινήσουμε, αρχικά, με τα  <span class="math notranslate nohighlight">\(E(x)\)</span>  και ας δούμε πώς θα πάει:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} &amp;\hphantom{{}\Leftrightarrow{}} 4x+x(x-1)E(x)-4+E(x)-4x^2=0\\ &amp;\Leftrightarrow E(x)\left(x(x-1)+1\right)-4x^2+4x-4=0\\ &amp;\Leftrightarrow E(x)\left(x^2-x+1\right)-4x^2+4x-4=0\\ &amp;\Leftrightarrow E(x)\left(x^2-x+1\right)-4\left(x^2-x+1\right)=0\\ &amp;\Leftrightarrow \left(E(x)-4\right)\left(x^2-x+1\right)=0\\ &amp;\Leftrightarrow \begin{cases}E(x)-4=0\x^2-x+1=0\end{cases} \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} &amp;\hphantom{{}\Leftrightarrow{}} 4x+x(x-1)E(x)-4+E(x)-4x^2=0\\ &amp;\Leftrightarrow E(x)\left(x(x-1)+1\right)-4x^2+4x-4=0\\ &amp;\Leftrightarrow E(x)\left(x^2-x+1\right)-4x^2+4x-4=0\\ &amp;\Leftrightarrow E(x)\left(x^2-x+1\right)-4\left(x^2-x+1\right)=0\\ &amp;\Leftrightarrow \left(E(x)-4\right)\left(x^2-x+1\right)=0\\ &amp;\Leftrightarrow \begin{cases}E(x)-4=0\x^2-x+1=0\end{cases} \end{align}\end{split}\]</div>
 <p>Εδώ μπορούμε αρχικά να παρατηρήσουμε ότι για το τριώνυμο  <span class="math notranslate nohighlight">\(x^2-x+1\)</span>  έχουμε  <span class="math notranslate nohighlight">\(\Delta=-3&lt;0\)</span> , συνεπώς δεν έχουμε (πραγματικές) ρίζες. Τώρα, για την εξίσωση:</p>
 <div class="math notranslate nohighlight">
 \[E(x)-4=0\Leftrightarrow E(x)=4,\]</div>
@@ -292,21 +292,21 @@
 <p>Τώρα, όπως βλέπετε, αναμένουμε στο σημείο  <span class="math notranslate nohighlight">\((\sqrt{2},4)\)</span>  η  <span class="math notranslate nohighlight">\(E(x)\)</span>  να αλλάζει το είδος της μονοτονίας της, γενικά, καθώς εκεί παρουσιάζει ένα ολικό μέγιστο, άρα, από τα αριστερά θα «ανεβαίνει», ενώ από τα δεξιά του θα «κατεβαίνει»footnote{Αυτό, όπως θα δούμε στο μέλλον, δεν είναι απόλυτα σωστό, αλλά προς το παρόν ας κρατήσουμε τη διαίσθηση.}. Προφανώς, αυτό δε σημαίνει απαραίτητα ότι η  <span class="math notranslate nohighlight">\(E\)</span>  θα είναι γνησίως αύξουσα στο  <span class="math notranslate nohighlight">\(\left(0,\sqrt{2}\right]\)</span>  και γνησίως φθίνουσα στο  <span class="math notranslate nohighlight">\(\left[\sqrt{2},2\right)\)</span> , καθώς, όπως φαίνεται και στο παραπάνω σχήμα, μπορεί κάλλιστα να ανεβοκατεβαίνει σε καθένα από αυτά τα διαστήματα. Τι θα κάνουμε, λοιπόν;</p>
 <p>Λοιπόν, ας πάρουμε  <span class="math notranslate nohighlight">\(x_1,x_2\in\left(0,\sqrt{2}\right]\)</span>  και ας δούμε αν μπορούμε να κάνουμε κάτι εκεί μέσα. Αρχικά, έχουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned} x_14-x_2^2\Rightarrow\sqrt{4-x_1^2}&gt;\sqrt{4-x_2^2} \end{aligned}\]</div>
+\[\begin{align} x_14-x_2^2\Rightarrow\sqrt{4-x_1^2}&gt;\sqrt{4-x_2^2} \end{align}\]</div>
 <p>Τις παραπάνω δύο σχέσεις δεν μπορούμε, σαφώς, να τις πολλαπλασιάσουμε κατά μέλη, καθώς δεν «κοιτάνε» από την ίδια μεριά. Μπορούμε, όμως, να κάνουμε το εξής τέχνασμα:</p>
 <div class="math notranslate nohighlight">
 \[E(x)=2x\sqrt{4-x^2}=2\sqrt{x^2}\sqrt{4-x^2}=2\sqrt{x^2(4-x^2)}=2\sqrt{4x^2-x^4}.\]</div>
 <p>Μπορούμε, επομένως, να προσπαθήσουμε να «χτίσουμε» αυτή τη μορφή του τύπου της  <span class="math notranslate nohighlight">\(E\)</span> :</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned} x_1&lt;x-2&amp;\Rightarrow x-1^2&lt;x_2^2\Rightarrow 4x_1^2&lt;4x_2^2\x_1&lt;x_2&amp;\Rightarrow x_1^4&lt;x_2^4\Rightarrow -x_1^4&gt;-x_2^4\end{aligned}\]</div>
+\[\begin{align} x_1&lt;x-2&amp;\Rightarrow x-1^2&lt;x_2^2\Rightarrow 4x_1^2&lt;4x_2^2\x_1&lt;x_2&amp;\Rightarrow x_1^4&lt;x_2^4\Rightarrow -x_1^4&gt;-x_2^4\end{align}\]</div>
 <p>Ουφ, πάλι αδιέξοδο… Αυτές οι δύο ανισότητες, τώρα, δεν μπορούν να προστεθούν κατά μέλη, προφανώς, οπότε πάλι καταλήξαμε στο ίδιο σημείο.</p>
 <p>[Σκέψη]</p>
 <p>Εμείς θέλουμε να καταλήξουμε σε κάποια ανισότητα της μορφής  <span class="math notranslate nohighlight">\(E(x_1)&lt;E(x_2)\)</span>  ή  <span class="math notranslate nohighlight">\(E(x_1)&gt;E(x_2)\)</span>  στην περίπτωσή μας. Επομένως, μπορούμε, ίσως, να ξεκινήσουμε να πειραματιζόμαστε με μία από αυτές και να προχωρήσουμε με ισοδυναμίες προς κάτι που ισχύει:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} &amp;\hphantom{{}\Leftrightarrow{}}E(x_1)&lt;E(x_2)\\ &amp;\Leftrightarrow 2\sqrt{4x_1^2-x_1^4}&lt;2\sqrt{4x_2^2-x_2^4}\\ &amp;\Leftrightarrow \sqrt{4x_1^2-x_1^4}&lt;\sqrt{4x_2^2-x_2^4}\\ &amp;\Leftrightarrow 4x_1^2-x_1^4&lt;4x_2^2-x_2^4 \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} &amp;\hphantom{{}\Leftrightarrow{}}E(x_1)&lt;E(x_2)\\ &amp;\Leftrightarrow 2\sqrt{4x_1^2-x_1^4}&lt;2\sqrt{4x_2^2-x_2^4}\\ &amp;\Leftrightarrow \sqrt{4x_1^2-x_1^4}&lt;\sqrt{4x_2^2-x_2^4}\\ &amp;\Leftrightarrow 4x_1^2-x_1^4&lt;4x_2^2-x_2^4 \end{align}\end{split}\]</div>
 <p>Ωραία, και τώρα τι μπορούμε να κάνουμε; Χμμμ… Μπορούμε, όπως πάντα, να τα φέρουμε όλα αριστερά και να δούμε τι θα βγει:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} &amp;\hphantom{{}\Leftrightarrow{}} 4x_1^2-x_1^4&lt;4x_2^2-x_2^4\\ &amp;\Leftrightarrow 4x_1^2-4x_2^2-x_1^4+x_2^4&lt;0\\ &amp;\Leftrightarrow 4\left(x_1^2-x_2^2\right)-\left(x_1^4-x_2^4\right)&lt;0\\ &amp;\Leftrightarrow 4\left(x_1^2-x_2^2\right)-\left(x_1^2-x_2^2\right)\left(x_1^2+x_2^2\right)&lt;0\\ &amp;\Leftrightarrow \left(x_1^2-x_2^2\right)\left(4-\left(x_1^2+x_2^2\right)\right)&lt;0\\ &amp;\Leftrightarrow (x_1-x_2)(x_1+x_2)\left(4-x_1^2-x_2^2\right)&lt;0. \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} &amp;\hphantom{{}\Leftrightarrow{}} 4x_1^2-x_1^4&lt;4x_2^2-x_2^4\\ &amp;\Leftrightarrow 4x_1^2-4x_2^2-x_1^4+x_2^4&lt;0\\ &amp;\Leftrightarrow 4\left(x_1^2-x_2^2\right)-\left(x_1^4-x_2^4\right)&lt;0\\ &amp;\Leftrightarrow 4\left(x_1^2-x_2^2\right)-\left(x_1^2-x_2^2\right)\left(x_1^2+x_2^2\right)&lt;0\\ &amp;\Leftrightarrow \left(x_1^2-x_2^2\right)\left(4-\left(x_1^2+x_2^2\right)\right)&lt;0\\ &amp;\Leftrightarrow (x_1-x_2)(x_1+x_2)\left(4-x_1^2-x_2^2\right)&lt;0. \end{align}\end{split}\]</div>
 <p>Τώρα, τι μπορούμε να πούμε για το παραπάνω; Λοιπόν, αρχικά έχουμε υποθέσει ότι:</p>
 <div class="math notranslate nohighlight">
 \[x_1&lt;x_2\Leftrightarrow x_1-x_2&lt;0,\]</div>
@@ -315,7 +315,7 @@
 \[4-x_1^2-x_2^2&gt;0.\]</div>
 <p>Η ανισότητα αλλάζει φορά καθώς απαλείψαμε έναν αρνητικό και έναν θετικό παράγοντα, άρα, για να είναι το γινόμενο και των τριών αρνητικό θα πρέπει ο τρίτος παράγοντας που μας έμεινε να είναι θετικός. Τώρα, τι μπορούμε να πούμε για αυτό που μας έμεινε; Αρχικά, ας θυμηθούμε ότι έχουμε περιοριστεί, προς το παρόν, στο  <span class="math notranslate nohighlight">\(\left(0,\sqrt{2}\right]\)</span>  καθώς εκεί μπορούμε να ελπίζουμε ότι η  <span class="math notranslate nohighlight">\(E\)</span>  θα είναι γνησίως μονότονη. Έτσι, έχουμε  <span class="math notranslate nohighlight">\(x_1\leq\sqrt{2}\)</span>  και  <span class="math notranslate nohighlight">\(x_2\leq \sqrt{2}\)</span> , οπότε, υψώνοντας στο τετράγωνο μπορούμε να πάρουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} x_1&lt;\sqrt{2}&amp;\Rightarrow x_1^2&lt;2\\ x_2&lt;\sqrt{2}&amp;\Rightarrow x_2^2&lt;2 \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} x_1&lt;\sqrt{2}&amp;\Rightarrow x_1^2&lt;2\\ x_2&lt;\sqrt{2}&amp;\Rightarrow x_2^2&lt;2 \end{align}\end{split}\]</div>
 <p>Τώρα, προσθέτοντας κατά μέλη, έχουμε:</p>
 <div class="math notranslate nohighlight">
 \[x_1^2+x_2^2&lt;4\Rightarrow 4-x_1^2-x_2^2&gt;0.\]</div>
@@ -331,7 +331,7 @@
 \[E(x_1)&gt;E(x_2)\Leftrightarrow 4-x_1^2-x_2^2&lt;0.\]</div>
 <p>Τα παραπάνω ισχύουν υπό την προϋπόθεση ότι  <span class="math notranslate nohighlight">\(x_1,x_2\in(0,2)\)</span>  το οποίο ικανοποιείται στην περίπτωσή μας. Για  <span class="math notranslate nohighlight">\(x_1,x_2\in\left[\sqrt{2},2\right)\)</span>  έχουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} x_1&gt;\sqrt{2}&amp;\Rightarrow x_1^2&gt;2\\ x_2&gt;\sqrt{2}&amp;\Rightarrow x_2^2&gt;2 \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} x_1&gt;\sqrt{2}&amp;\Rightarrow x_1^2&gt;2\\ x_2&gt;\sqrt{2}&amp;\Rightarrow x_2^2&gt;2 \end{align}\end{split}\]</div>
 <p>Συνεπώς, προσθέτοντας κατά μέλη παίρνουμε:</p>
 <div class="math notranslate nohighlight">
 \[x_1^2+x_2^2&gt;4\Rightarrow 4-x_1^2-x_2^2&lt;0,\]</div>

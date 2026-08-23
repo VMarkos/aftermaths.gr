@@ -136,7 +136,7 @@
 
 Τώρα, με βάση τα όσα έχουμε πει παραπάνω, έχουμε - σιωπηλά και χωρίς να ξυπνήσουμε τη γενικότητα δεχόμαστε ότι  :math:`a<b` :
 
-.. math:: \begin{aligned}I_{a,b}&=I_a-I_b\approx I_{a,r,R}-I_{b,r,R}=\&=\int_{ar}^{aR}\frac{f(x)}{x}dx-\int_{br}^{bR}\frac{f(x)}{x}dx=\&=\int_{ar}^{br}\frac{f(x)}{x}dx-\int_{aR}^{bR}\frac{f(x)}{x}dx.\end{aligned}
+.. math:: \begin{align}I_{a,b}&=I_a-I_b\approx I_{a,r,R}-I_{b,r,R}=\&=\int_{ar}^{aR}\frac{f(x)}{x}dx-\int_{br}^{bR}\frac{f(x)}{x}dx=\&=\int_{ar}^{br}\frac{f(x)}{x}dx-\int_{aR}^{bR}\frac{f(x)}{x}dx.\end{align}
 
 Επιτέλους, μετά από τόσες πράξεις και αλχημείες, φτάσαμε σε κάτι που μπορεί εύκολα να χωνέψει η διαίσθησή μας. Η παραπάνω «ψευδο»-ισότητα μας λέει ότι πρακτικά το  :math:`I_{a,b}`  αποτελείται από δύο μέρη:
 
@@ -187,7 +187,7 @@
 
 Παρατηρούμε τώρα ότι:
 
-.. math:: \begin{aligned}I_a-I_b&=\int_{ar}^{aR}\frac{f(u)}{u}du-\int_{br}^{bR}\frac{f(u)}{u}du=\&=\int_{ar}^{br}\frac{f(u)}{u}du-\int_{aR}^{bR}\frac{f(u)}{u}du.\end{aligned}
+.. math:: \begin{align}I_a-I_b&=\int_{ar}^{aR}\frac{f(u)}{u}du-\int_{br}^{bR}\frac{f(u)}{u}du=\&=\int_{ar}^{br}\frac{f(u)}{u}du-\int_{aR}^{bR}\frac{f(u)}{u}du.\end{align}
 
 Τα παραπάνω ισχύουν, σαφώς, για κάθε  :math:`0<r<R` , επομένως, όταν «έρθει η ώρα» θα τα επιλέξουμε εμείς όπως μας εξυπηρετεί. Πάμε τώρα να υπολογίσουμε το καθένα από τα εν λόγω ολοκληρώματα ξεχωριστά.
 
@@ -197,7 +197,7 @@
 
 Για το πρώτο, έστω  :math:`\varepsilon>0` , οπότε, από τη συνέχεια της  :math:`f`  στο  :math:`0`  υπάρχει ένα  :math:`\delta>0`  έτσι ώστε για κάθε  :math:`x\in[0,\delta)`  να ισχύει  :math:`\|f(x)-f(0)|<\varepsilon',`  όπου  :math:`\varepsilon':=\dfrac{\varepsilon}{\ln\frac{b}{a}}` . Επιλέγουμε τώρα  :math:`\delta':=\dfrac{\delta}{2b}` , οπότε  :math:`ar,br\in[0,\delta)`  για κάθε  :math:`r\in(0,\delta')`  και άρα έχουμε:
 
-.. math:: \begin{aligned}\left|\int_{ar}^{br}\frac{f(u)}{u}du-f(0)\ln\frac{a}{b}\right|&=\left|\int_{ar}^{br}\frac{f(u)}{u}du-f(0)\int_{ar}^{br}\frac{1}{u}du\right|=\&=\left|\int_{ar}^{br}\frac{f(u)-f(0)}{u}du\right|\&\leq\int_{ar}^{br}\frac{|f(u)-f(0)|}{u}du\&\leq\int_{ar}^{br}\frac{\varepsilon'}{u}du=\&=\varepsilon'\int_{ar}^{br}\frac{1}{u}du=\&=\varepsilon'\ln\frac{b}{a}=\&=\varepsilon.\end{aligned}
+.. math:: \begin{align}\left|\int_{ar}^{br}\frac{f(u)}{u}du-f(0)\ln\frac{a}{b}\right|&=\left|\int_{ar}^{br}\frac{f(u)}{u}du-f(0)\int_{ar}^{br}\frac{1}{u}du\right|=\&=\left|\int_{ar}^{br}\frac{f(u)-f(0)}{u}du\right|\&\leq\int_{ar}^{br}\frac{|f(u)-f(0)|}{u}du\&\leq\int_{ar}^{br}\frac{\varepsilon'}{u}du=\&=\varepsilon'\int_{ar}^{br}\frac{1}{u}du=\&=\varepsilon'\ln\frac{b}{a}=\&=\varepsilon.\end{align}
 
 Συνεπώς, εξ ορισμού, έχουμε:
 
@@ -205,7 +205,7 @@
 
 Περνάμε τώρα στο δεύτερο ολοκλήρωμα, οπότε σταθεροποιούμε κι εδώ ένα  :math:`\varepsilon>0` . Εδώ παρατηρούμε ότι, αφού η  :math:`f(x)\to0`  καθώς  :math:`x\to+\infty` , έπεται ότι υπάρχει ένας  :math:`M>0`  τέτοιος ώστε για κάθε  :math:`x>M`  να ισχύει  :math:`\|f(x)|<\varepsilon'` , όπου  :math:`\varepsilon'=\frac{\varepsilon}{\ln\frac{b}{a}}` . Τώρα, παρατηρούμε ότι για  :math:`R>M'` , όπου  :math:`M':=\frac{M}{a}`  έχουμε  :math:`aR,bR>M`  και επίσης:
 
-.. math:: \begin{aligned}\left|\int_{aR}^{bR}\frac{f(u)}{u}du\right|&\leq\int_{aR}^{bR}\frac{|f(u)|}{u}du<\int_{aR}^{bR}\frac{\varepsilon'}{u}du=\&=\varepsilon'\int_{aR}^{bR}\frac{1}{u}du=\frac{\varepsilon}{\ln\frac{b}{a}}\ln\frac{b}{a}=\varepsilon.\end{aligned}
+.. math:: \begin{align}\left|\int_{aR}^{bR}\frac{f(u)}{u}du\right|&\leq\int_{aR}^{bR}\frac{|f(u)|}{u}du<\int_{aR}^{bR}\frac{\varepsilon'}{u}du=\&=\varepsilon'\int_{aR}^{bR}\frac{1}{u}du=\frac{\varepsilon}{\ln\frac{b}{a}}\ln\frac{b}{a}=\varepsilon.\end{align}
 
 Συνεπώς, αφού το  :math:`\varepsilon>0`  ήταν αυθαίρετο έπεται ότι:
 
@@ -254,7 +254,7 @@
 
 Ωστόσο,
 
-.. math:: \begin{aligned}\int_0^\infty\frac{f(ax)-f(bx)}{x}dx&=\int_0^\infty\frac{\frac{\sin(ax)}{ax}-\frac{\sin(bx)}{bx}}{x}dx=\&=\int_0^\infty\frac{b\sin(ax)-a\sin(bx)}{abx^2}dx=\&=\frac{1}{ab}\int_0^\infty\frac{b\sin(ax)-a\sin(bx)}{x^2}dx.\end{aligned}
+.. math:: \begin{align}\int_0^\infty\frac{f(ax)-f(bx)}{x}dx&=\int_0^\infty\frac{\frac{\sin(ax)}{ax}-\frac{\sin(bx)}{bx}}{x}dx=\&=\int_0^\infty\frac{b\sin(ax)-a\sin(bx)}{abx^2}dx=\&=\frac{1}{ab}\int_0^\infty\frac{b\sin(ax)-a\sin(bx)}{x^2}dx.\end{align}
 
 Συνεπώς, πράγματι:
 

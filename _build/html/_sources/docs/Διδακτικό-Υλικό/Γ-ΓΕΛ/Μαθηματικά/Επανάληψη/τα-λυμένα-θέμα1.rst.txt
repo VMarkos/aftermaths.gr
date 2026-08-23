@@ -31,7 +31,7 @@
 
 Δίνονται οι συναρτήσεις  :math:`f,g:\mathbb{R}\to\mathbb{R}` , όπου:
 
-.. math:: \begin{aligned}f(x)&=x+\alpha,\quad \alpha\in\mathbb{R}\\ g(x)&=x^2-4.\end{aligned}
+.. math:: \begin{align}f(x)&=x+\alpha,\quad \alpha\in\mathbb{R}\\ g(x)&=x^2-4.\end{align}
 
 Δίνεται επίσης ότι  :math:`(g\circ f)(x)=x^2+4x` ,  :math:`x\in\mathbb{R}` .
 
@@ -55,11 +55,11 @@
 
 Λοιπόν, έχουμε μία σύνθετη συνάρτηση, άρα, τι κοιτάμε πρώτο; Το πεδίο ορισμού, πολύ σωστά! Επομένως, πριν αρχίσουμε να υπολογίζουμε την  :math:`g\circ f`  ας δούμε λίγο τι γίνεται με το πεδίο ορισμού της:
 
-.. math:: \begin{aligned} D_{g\circ f}&=\left\{x\in D_f:f(x)\in D_g\right\}=\\ &=\left\{x\in\mathbb{R}:x+\alpha\in\mathbb{R}\right\}=\\ &=\mathbb{R}. \end{aligned}
+.. math:: \begin{align} D_{g\circ f}&=\left\{x\in D_f:f(x)\in D_g\right\}=\\ &=\left\{x\in\mathbb{R}:x+\alpha\in\mathbb{R}\right\}=\\ &=\mathbb{R}. \end{align}
 
 Γενικά, με πεδίο ορισμού το  :math:`\mathbb{R}`  είναι εύκολα τα πράγματα, όπως είδατε, γιατί όλα όσα βλέπουμε στην ύλη μας, στο τέλος της ημέρας, πραγματικοί αριθμοί είναι. Συνεπώς, αφού  :math:`D_{g\circ f}=\mathbb{R}`  πάμε τώρα να δούμε και τον τύπο της  :math:`g\circ f` :
 
-.. math:: \begin{aligned} (g\circ f)(x)&=g(f(x))=\\ &=g(x+\alpha)=\\ &=(x+\alpha)^2-4=\\ &=x^2+2\alpha x+\alpha^2-4. \end{aligned}
+.. math:: \begin{align} (g\circ f)(x)&=g(f(x))=\\ &=g(x+\alpha)=\\ &=(x+\alpha)^2-4=\\ &=x^2+2\alpha x+\alpha^2-4. \end{align}
 
 Τώρα, η εκφώνηση μας έχει πει - καθώς, αν δεν το ξέρετε, οι εκφωνήσεις μιλάνε, και, όταν δεν μιλάνε, είναι που σκουραίνουν τα πράγματα - ότι πρέπει να ισχύει  :math:`(g\circ f)(x)=x^2+4x` . Επομένως, θέλουμε να ισχύει:
 
@@ -104,18 +104,18 @@
 Προφανώς, αυτή δεν είναι ούτε η  :math:`f\circ g`  ούτε η  :math:`g\circ f` , επομένως πρέπει να ψάξουμε λίγο πιο επιμελώς για άλλες συνθέσεις. Λοιπόν, αφού έχουμε  :math:`x^2`  στον τύπο μας θα χρειαστούμε σίγουρα και την  :math:`g`  μέσα στο παιχνίδι. Τώρα, προφανώς, η  :math:`g\circ g`  δε μας κάνει, αφού τότε θα είχαμε ένα  :math:`\left(x^2\right)^2`  και άρα θα εμφανιζόταν ένα  :math:`x^4`  το οποίο δε θα μας άρεσε. Επομένως, θα χρειαστούμε συνθέσεις που να έχουν μία ακριβώς φορά την  :math:`g`  και, όπως καταλαβαίνετε, τουλάχιστον δύο φορές την  :math:`f` . Οπότε, ας δοκιμάσουμε:
 
 -   :math:`f\circ g\circ f` : Εδώ την έχουμε έτοιμη την  :math:`g\circ f`  οπότε γλιτώνουμε και λίγες πράξεις:
-   .. math:: \begin{aligned} (f\circ g\circ f)(x)&=f((g\circ f)(x))=\\ &=(g\circ f)(x)+2=\\ &=x^2+4x+2. \end{aligned}
+   .. math:: \begin{align} (f\circ g\circ f)(x)&=f((g\circ f)(x))=\\ &=(g\circ f)(x)+2=\\ &=x^2+4x+2. \end{align}
    Αποτύχαμε, αλλά κάτι κερδίσαμε από εδώ. Αν παίξουμε με την  :math:`g\circ f`  θα μας μείνει αυτό το  :math:`4x` , ενώ εμείς θέλουμε με κάποιον τρόπο να πάρουμε ένα  :math:`8x`  στο τέλος. Επομένως, ίσως έχει νόημα να δοκιμάσουμε το εξής…
 -   :math:`g\circ f\circ f` : Εδώ έχουμε:
-   .. math:: \begin{aligned} (g\circ f\circ f)(x)&=(g\circ f)(f(x))=\\ &=\left(f(x)\right)^2+4f(x)=\\ &=\left(x+2\right)^2+4\left(x+2\right)=\\ &=x^2+4x+4+4x+8=\\ &=x^2+8x+12. \end{aligned}
+   .. math:: \begin{align} (g\circ f\circ f)(x)&=(g\circ f)(f(x))=\\ &=\left(f(x)\right)^2+4f(x)=\\ &=\left(x+2\right)^2+4\left(x+2\right)=\\ &=x^2+4x+4+4x+8=\\ &=x^2+8x+12. \end{align}
 
 Ουφ! Τα καταφέραμε! Τώρα, τυπικά, σε επίπεδο εξέτασης, θα ξεκινούσαμε με τη λέξη-κλειδί που σημαίνει «ψυχανεμιστήκαμε»: «Παρατηρούμε». Παρατηρούμε, λοιπόν, ότι:
 
-.. math:: \begin{aligned} D_{(g\circ f)\circ f}&=\left\{x\in D_f:f(x)\in D_{g\circ f}\right\}=\\ &=\left\{x\in\mathbb{R}:x+2\in\mathbb{R}\right\}=\\ &=\mathbb{R}. \end{aligned}
+.. math:: \begin{align} D_{(g\circ f)\circ f}&=\left\{x\in D_f:f(x)\in D_{g\circ f}\right\}=\\ &=\left\{x\in\mathbb{R}:x+2\in\mathbb{R}\right\}=\\ &=\mathbb{R}. \end{align}
 
 Επίσης, παρατηρούμε ότι:
 
-.. math:: \begin{aligned} (g\circ f\circ f)(x)&=(g\circ f)(f(x))=\\ &=\left(f(x)\right)^2+4f(x)=\\ &=\left(x+2\right)^2+4\left(x+2\right)=\\ &=x^2+4x+4+4x+8=\\ &=x^2+8x+12. \end{aligned}
+.. math:: \begin{align} (g\circ f\circ f)(x)&=(g\circ f)(f(x))=\\ &=\left(f(x)\right)^2+4f(x)=\\ &=\left(x+2\right)^2+4\left(x+2\right)=\\ &=x^2+4x+4+4x+8=\\ &=x^2+8x+12. \end{align}
 
 Εντάξει, απλή αντιγραφή-επικόλληση, αλλά, για τα τυπικά, καταλαβαίνετε τώρα…
 
@@ -134,15 +134,15 @@
 
 Θα τα βρούμε ένα-ένα και μετά θα συναληθεύσουμε. Έχουμε:
 
-.. math:: \begin{aligned} (g\circ f)(x)>g(x)&\Leftrightarrow x^2+4x>x^2-4\\ &\Leftrightarrow 4x>-4\\ &\Leftrightarrow x>-1. \end{aligned}
+.. math:: \begin{align} (g\circ f)(x)>g(x)&\Leftrightarrow x^2+4x>x^2-4\\ &\Leftrightarrow 4x>-4\\ &\Leftrightarrow x>-1. \end{align}
 
 Τώρα, από την άλλη, έχουμε:
 
-.. math:: \begin{aligned} g(x)>f(x)&\Leftrightarrow x^2-4>x+2\\ &\Leftrightarrow x^2-x-6>0. \end{aligned}
+.. math:: \begin{align} g(x)>f(x)&\Leftrightarrow x^2-4>x+2\\ &\Leftrightarrow x^2-x-6>0. \end{align}
 
 Εδώ υπολογίζουμε και μία διακρίνουσα:
 
-.. math:: \begin{aligned} \Delta&=\beta^2-4\alpha\gamma=\\ &=(-1)^2-4\cdot 1\cdot(-6)=\\ &=1+24=\\ &=25>0. \end{aligned}
+.. math:: \begin{align} \Delta&=\beta^2-4\alpha\gamma=\\ &=(-1)^2-4\cdot 1\cdot(-6)=\\ &=1+24=\\ &=25>0. \end{align}
 
 Επομένως, οι δύο ρίζες είναι:
 
@@ -185,11 +185,11 @@
 
 Έτσι, για  :math:`x\geq-2`  έχουμε:
 
-.. math:: \begin{aligned} \phi(x)&=\frac{x+2+x+2}{2}=\\ &=\frac{2x+4}{2}=\\ &=\frac{2(x+2)}{2}=\\ &=x+2. \end{aligned}
+.. math:: \begin{align} \phi(x)&=\frac{x+2+x+2}{2}=\\ &=\frac{2x+4}{2}=\\ &=\frac{2(x+2)}{2}=\\ &=x+2. \end{align}
 
 Αντίστοιχα, για  :math:`x<-2`  έχουμε:
 
-.. math:: \begin{aligned} \phi(x)&=\frac{x+2-x-2}{2}=0. \end{aligned}
+.. math:: \begin{align} \phi(x)&=\frac{x+2-x-2}{2}=0. \end{align}
 
 Συμμαζεύοντας τα παραπάνω, έχουμε:
 

@@ -54,7 +54,7 @@
 
 Από την άλλη τώρα, παρατηρούμε ότι:
 
-.. math:: \begin{aligned}\frac{n!}{(n-k)!n^k}&=\frac{n(n-1)\ldots(n-k+1)}{\underbrace{n\cdot n\cdot\ldots\cdot n}_{k}}\&=\frac{n}{n}\frac{n-1}{n}\frac{n-2}{n}\dots\frac{n-k+1}{n}=\&=1\left(1-\frac{1}{n}\right)\left(1-\frac{2}{n}\right)\dots\left(1-\frac{k-1}{n}\right)\to1\end{aligned}
+.. math:: \begin{align}\frac{n!}{(n-k)!n^k}&=\frac{n(n-1)\ldots(n-k+1)}{\underbrace{n\cdot n\cdot\ldots\cdot n}_{k}}\&=\frac{n}{n}\frac{n-1}{n}\frac{n-2}{n}\dots\frac{n-k+1}{n}=\&=1\left(1-\frac{1}{n}\right)\left(1-\frac{2}{n}\right)\dots\left(1-\frac{k-1}{n}\right)\to1\end{align}
 
 καθώς  :math:`n\to\infty`  για κάθε τιμή του  :math:`k.`  Επίσης, όπως είδαμε και παραπάνω:
 
@@ -133,11 +133,11 @@
 
 Παρατηρούμε τώρα ότι:
 
-.. math:: \begin{aligned}&\hphantom{\Leftrightarrow}\ \,k(k-1)\ldots(b+1)\geq\underbrace{(b+1)(b+1)\ldots(b+1)}_{k-b}=(b+1)^{k-b}\&\Leftrightarrow\frac{1}{k(k-1)\ldots(b+1)}\leq\frac{1}{(b+1)^{k-b}}.\end{aligned}
+.. math:: \begin{align}&\hphantom{\Leftrightarrow}\ \,k(k-1)\ldots(b+1)\geq\underbrace{(b+1)(b+1)\ldots(b+1)}_{k-b}=(b+1)^{k-b}\&\Leftrightarrow\frac{1}{k(k-1)\ldots(b+1)}\leq\frac{1}{(b+1)^{k-b}}.\end{align}
 
 Συνεπώς:
 
-.. math:: \begin{aligned}\sum_{k=b+1}^\infty\frac{1}{k(k-1)\ldots(b+1)}&\leq\sum_{k=b+1}^\infty\frac{1}{(b+1)^{k-b}}=\&=\sum_{k=1}^\infty\frac{1}{(b+1)^k}=\&=\frac{\frac{1}{b+1}}{1-\frac{1}{b+1}}=\&=\frac{1}{b}.\end{aligned}
+.. math:: \begin{align}\sum_{k=b+1}^\infty\frac{1}{k(k-1)\ldots(b+1)}&\leq\sum_{k=b+1}^\infty\frac{1}{(b+1)^{k-b}}=\&=\sum_{k=1}^\infty\frac{1}{(b+1)^k}=\&=\frac{\frac{1}{b+1}}{1-\frac{1}{b+1}}=\&=\frac{1}{b}.\end{align}
 
 Επομένως, έχουμε πλέον την ανισότητα:
 
@@ -161,7 +161,7 @@
 
 Συνεπώς, αθροίζοντας έχουμε:
 
-.. math:: \begin{aligned}\sum_{k=0}^\infty\frac{1}{k!}&=\frac{1}{0!}+\frac{1}{1!}+\sum_{k=2}^\infty\frac{1}{k!}\&<1+1+\sum_{k=2}^\infty\frac{1}{2^{k-1}}=\&=2+\sum_{k=0}^\infty\frac{1}{2^{k+1}}=\&=2+\frac{1}{2}\sum_{k=0}^\infty\frac{1}{2^k}=\&=2+\frac{1}{2}\frac{1}{1-\frac{1}{2}}=3.\end{aligned}
+.. math:: \begin{align}\sum_{k=0}^\infty\frac{1}{k!}&=\frac{1}{0!}+\frac{1}{1!}+\sum_{k=2}^\infty\frac{1}{k!}\&<1+1+\sum_{k=2}^\infty\frac{1}{2^{k-1}}=\&=2+\sum_{k=0}^\infty\frac{1}{2^{k+1}}=\&=2+\frac{1}{2}\sum_{k=0}^\infty\frac{1}{2^k}=\&=2+\frac{1}{2}\frac{1}{1-\frac{1}{2}}=3.\end{align}
 
 Συνεπώς  :math:`2<e<3`  οπότε ο  :math:`e`  δεν είναι ακέραιος, άτοπο! Συνεπώς, ο  :math:`e`  είναι άρρητος.
 
@@ -238,7 +238,7 @@
 
 Εδώ τώρα θα κάνουμε τις απαραίτητες επιμεριστικές και θα ομαδοποιήσουμε τους όρους μας κατάλληλα, ξεχωρίζοντας τους ακεραίους από τα άρρητα σφάλματα. Έχουμε:
 
-.. math:: \begin{aligned}&\hphantom{\Leftrightarrow}\ \,a_0N+a_1M_1+a_1\delta_1+\ldots+a_nM_n+\delta_n=0\&\Leftrightarrow a_0N+a_1M_1+a_2M_2+\ldots+a_nM_n+a_1\delta_1+a_2\delta_2+\ldots+a_n\delta_n=0\&\Leftrightarrow\underbrace{a_0N+\sum_{k=1}^na_kM_k}_{M}+\underbrace{\sum_{k=1}^na_k\delta_k}_{\Delta}=0\end{aligned}
+.. math:: \begin{align}&\hphantom{\Leftrightarrow}\ \,a_0N+a_1M_1+a_1\delta_1+\ldots+a_nM_n+\delta_n=0\&\Leftrightarrow a_0N+a_1M_1+a_2M_2+\ldots+a_nM_n+a_1\delta_1+a_2\delta_2+\ldots+a_n\delta_n=0\&\Leftrightarrow\underbrace{a_0N+\sum_{k=1}^na_kM_k}_{M}+\underbrace{\sum_{k=1}^na_k\delta_k}_{\Delta}=0\end{align}
 
 Παρατηρήστε ότι το το παραπάνω θα πρέπει να ισχύει για όποια  :math:`N,M_k,\delta_k`  κι αν επιλέξουμε τα οποία να αποτελούν εκτιμήσεις των δυνάμεων του  :math:`e`  όπως περιγράψαμε παραπάνω. Επομένως, ο στόχος μας είναι να διαλέξουμε τα  :math:`N,M_k,\delta_k`  με τέτοιον τρόπο που να μην ισχύει η παραπάνω ισότητα για καμία επιλογή ακεραίων  :math:`a_0,a_1,\ldots,a_n.` 
 
@@ -285,7 +285,7 @@
 
 Ωραία, τώρα που έχουμε αυτό μπορούμε σχετικά εύκολα να δούμε, δεδομένης της γραμμικότητας του ολοκληρώματος, ότι:
 
-.. math:: \begin{aligned}I_p&=\int_0^\infty f_p(x)dx=\&=\int_0^\infty \left(\frac{(-1)^{np}(n!)^p}{(p-1)!}x^{p-1}+\sum_{k=1}^{np}\frac{p_k}{(p-1)!}x^{p+k-1}\right)e^{-x}=\&=\frac{(-1)^{np}(n!)^{p}}{(p-1)!}\int_0^\infty x^{p-1}e^{-x}dx+\sum_{k=1}^{np}\frac{p_k}{(p-1)!}\int_0^\infty x^{p+k-1}e^{-x}dx=\&=\frac{(-1)^{np}(n!)^{p}}{(p-1)!}(p-1)!+\sum_{k=1}^{np}\frac{p_k}{(p-1)!}(p+k-1)!=\&=(-1)^{np}(n!)^p+\sum_{k=1}^{np}p_k(p+k-1)(p+k-2)\ldots p.\end{aligned}
+.. math:: \begin{align}I_p&=\int_0^\infty f_p(x)dx=\&=\int_0^\infty \left(\frac{(-1)^{np}(n!)^p}{(p-1)!}x^{p-1}+\sum_{k=1}^{np}\frac{p_k}{(p-1)!}x^{p+k-1}\right)e^{-x}=\&=\frac{(-1)^{np}(n!)^{p}}{(p-1)!}\int_0^\infty x^{p-1}e^{-x}dx+\sum_{k=1}^{np}\frac{p_k}{(p-1)!}\int_0^\infty x^{p+k-1}e^{-x}dx=\&=\frac{(-1)^{np}(n!)^{p}}{(p-1)!}(p-1)!+\sum_{k=1}^{np}\frac{p_k}{(p-1)!}(p+k-1)!=\&=(-1)^{np}(n!)^p+\sum_{k=1}^{np}p_k(p+k-1)(p+k-2)\ldots p.\end{align}
 
 Σαφώς, το παραπάνω είναι ακέραιος - ως άθροισμα γινομένων ακεραίων. Συνεπώς, πράγματι τα  :math:`I_p`  είναι ακέραιοι. Ας παρατηρήσουμε τώρα και κάτι ακόμα. Στην παραπάνω παράσταση, όλοι οι όροι μέσα στο άθροισμα είναι της μορφής:
 
@@ -295,11 +295,11 @@
 
 Τώρα θα μελετήσουμε και κάποια άλλα ολοκληρώματα, παρόμοια με τα παραπάνω - μην ανησυχείτε, δεν έχουμε ξεχάσει τι θέλουμε να αποδείξουμε, απλώς έχουμε ακόμα λίγο δρόμο μπροστά μας. Θεωρούμε τα ολοκληρώματα:
 
-.. math:: \begin{aligned}I_{p,k}&=e^k\int_k^\infty f_p(x)dx,\ k=1,2,\ldots,n.\J_{p,k}&=e^k\int_0^kf_p(x)dx,\ k=1,2,\ldots,n.\end{aligned}
+.. math:: \begin{align}I_{p,k}&=e^k\int_k^\infty f_p(x)dx,\ k=1,2,\ldots,n.\J_{p,k}&=e^k\int_0^kf_p(x)dx,\ k=1,2,\ldots,n.\end{align}
 
 Τα παραπάνω ολοκληρώματα, όπως βλέπει κανείς, μοιάζουν αρκετά με τα ολοκληρώματα  :math:`I_p`  που είδαμε παραπάνω. Ωστόσο, όπως θα δούμε, έχουν κάπως διαφορετική συμπεριφορά. Αρχικά, για να υπολογίσουμε τα ολοκληρώματα  :math:`I_{p,k}`  κάνουμε την αλλαγή μεταβλητής  :math:`u=x-k\Rightarrow du=dx`  έτσι ώστε να τα «φέρουμε» όλα ξανά στο  :math:`[0,+\infty):` 
 
-.. math:: \begin{aligned}I_{p,k}&=e^k\int_0^\infty f_p(u+k)du=\&=e^k\int_0^\infty\dfrac{(u+k)^{p-1}\left((u+k-1)(u+k-2)\ldots(u+k-n)\right)^p}{(p-1)!}e^{-u-k}dx =\&=\int_0^\infty \dfrac{(u+k)^{p-1}\left((u+k-1)(u+k-2)\ldots(u+k-n)\right)^p}{(p-1)!}e^{-u}du.\end{aligned}
+.. math:: \begin{align}I_{p,k}&=e^k\int_0^\infty f_p(u+k)du=\&=e^k\int_0^\infty\dfrac{(u+k)^{p-1}\left((u+k-1)(u+k-2)\ldots(u+k-n)\right)^p}{(p-1)!}e^{-u-k}dx =\&=\int_0^\infty \dfrac{(u+k)^{p-1}\left((u+k-1)(u+k-2)\ldots(u+k-n)\right)^p}{(p-1)!}e^{-u}du.\end{align}
 
 Ωραία, άλλο ένα τεράστιο ολοκλήρωμα. Ωστόσο, κι εδώ θα εφαρμόσουμε τεχνάσματα όπως και παραπάνω. Για την ακρίβεια, ας παρατηρήσουμε ότι στο γινόμενο:
 
@@ -307,7 +307,7 @@
 
 καθώς το  :math:`i`  διατρέχει τις τιμές  :math:`1,2,\ldots,n`  το  :math:`u+k-i`  για  :math:`i=k`  γίνεται  :math:`u,`  συνεπώς, δεδομένου ότι το παραπάνω γινόμενο είναι υψωμένο εις την  :math:`p,`  στα παραπάνω εμφανίζεται ένας παράγοντας  :math:`u^p` . Έτσι, στο παραπάνω ολοκλήρωμα, αν κάνουμε όλες αυτές τις επιμεριστικές θα έχουμε ένα πολύωνυμο με ακέραιους συντελεστές - καθώς όλοι μας οι συντελεστές θα προκύψουν ως γινόμενα και αθροίσματα ακεραίων - του οποίου οι όροι θα κυμαίνονται από  :math:`u^p`  μέχρι και  :math:`u^{np+p-1},`  οπότε έχουμε:
 
-.. math:: \begin{aligned}I_{p,k}&=\int_0^\infty\dfrac{(u+k)^{p-1}\left((u+k-1)(u+k-2)\ldots(u+k-n)\right)^p}{(p-1)!}e^{-u}du=\&=\int_0^\infty\sum_{i=p}^{np+p-1}\frac{q_i}{(p-1)!}u^ie^{-u}du=\&=\sum_{i=p}^{np+p-1} \frac{q_i}{(p-1)!}\int_0^\infty u^ie^{-u}du=\&=\sum_{i=p}^{np+p-1} \frac{q_i}{(p-1)!}i!=\&= \sum_{i=p}^{np+p-1}q_i i(i-1)\ldots p.\end{aligned}
+.. math:: \begin{align}I_{p,k}&=\int_0^\infty\dfrac{(u+k)^{p-1}\left((u+k-1)(u+k-2)\ldots(u+k-n)\right)^p}{(p-1)!}e^{-u}du=\&=\int_0^\infty\sum_{i=p}^{np+p-1}\frac{q_i}{(p-1)!}u^ie^{-u}du=\&=\sum_{i=p}^{np+p-1} \frac{q_i}{(p-1)!}\int_0^\infty u^ie^{-u}du=\&=\sum_{i=p}^{np+p-1} \frac{q_i}{(p-1)!}i!=\&= \sum_{i=p}^{np+p-1}q_i i(i-1)\ldots p.\end{align}
 
 Και πάλι, εδώ, παρατηρούμε ότι οι όροι του παραπάνω αθροίσματος είναι αφενός όλοι τους ακέραιοι και αφετέρου όλοι πολλαπλάσια του  :math:`p,`  συνεπώς και τα ολοκληρώματα  :math:`I_{p,k}`  είναι όχι μόνο ακέραιοι αριθμοί αλλά και πολλαπλάσια του  :math:`p`  - αυτό κρατήστε το, θα μας φανεί χρήσιμο στην πορεία.
 
@@ -333,7 +333,7 @@
 
 Μαζί με τα παραπάνω, ας παρατηρήσουμε και ότι:
 
-.. math:: \begin{aligned}I_{p,k}+J_{p,k}&= e^k\int_k^\infty f_p(x)dx+ e^k\int_0^k f_p(x)dx=\&=e^k\left( \int_0^k f_p(x)dx + \int_k^\infty f_p(x)dx \right)=\&=e^k\int_0^\infty f_p(x)dx=\&=e^kI_p.\end{aligned}
+.. math:: \begin{align}I_{p,k}+J_{p,k}&= e^k\int_k^\infty f_p(x)dx+ e^k\int_0^k f_p(x)dx=\&=e^k\left( \int_0^k f_p(x)dx + \int_k^\infty f_p(x)dx \right)=\&=e^k\int_0^\infty f_p(x)dx=\&=e^kI_p.\end{align}
 
 Δηλαδή:
 

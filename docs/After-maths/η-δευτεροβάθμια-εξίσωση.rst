@@ -154,7 +154,7 @@
 
 αφού, αν  :math:`a\neq1` , μπορούμε να διαιρέσουμε κάθε όρο της με  :math:`x`  και να αναχθούμε στην παραπάνω μορφή. Ας παρατηρήσουμε τώρα και το εξής: συμπληρώνοντας τετράγωνο στην παραπάνω εξίσωση, αυτή ξαναγράφεται:
 
-.. math:: \begin{aligned} x^2+bx+c=0&\Leftrightarrow x^2+2\dfrac{b}{2}x+c=0\&\Leftrightarrow x^2+2\dfrac{b}{2}x+\left(\dfrac{b}{2}\right)^2-\left(\dfrac{b}{2}\right)^2+c=0\&\Leftrightarrow \left(x+\dfrac{b}{2}\right)^2-\dfrac{b^2}{4}+c=0\&\Leftrightarrow \left(x+\dfrac{b}{2}\right)^2-\dfrac{b^2-4c}{4}=0 \end{aligned}
+.. math:: \begin{align} x^2+bx+c=0&\Leftrightarrow x^2+2\dfrac{b}{2}x+c=0\&\Leftrightarrow x^2+2\dfrac{b}{2}x+\left(\dfrac{b}{2}\right)^2-\left(\dfrac{b}{2}\right)^2+c=0\&\Leftrightarrow \left(x+\dfrac{b}{2}\right)^2-\dfrac{b^2}{4}+c=0\&\Leftrightarrow \left(x+\dfrac{b}{2}\right)^2-\dfrac{b^2-4c}{4}=0 \end{align}
 
 Τώρα, ας παρατηρήσουμε ότι  :math:`b^2-4c=\Delta` , αφού έχουμε πάρει  :math:`a=1` , οπότε και έχουμε:
 
@@ -166,7 +166,7 @@
 
 ή, λίγο διαφορετικά - προσθέτοντας τα κλάσματα σε κάθε παρένθεση:
 
-.. math:: \begin{aligned}&\left(x+\dfrac{b-\sqrt{\Delta}}{2}\right)\left(x+\dfrac{b+\sqrt{\Delta}}{2}\right)=0\Leftrightarrow\&\left(x-\dfrac{-b+\sqrt{\Delta}}{2}\right)\left(x-\dfrac{-b-\sqrt{\Delta}}{2}\right)=0.\end{aligned}
+.. math:: \begin{align}&\left(x+\dfrac{b-\sqrt{\Delta}}{2}\right)\left(x+\dfrac{b+\sqrt{\Delta}}{2}\right)=0\Leftrightarrow\&\left(x-\dfrac{-b+\sqrt{\Delta}}{2}\right)\left(x-\dfrac{-b-\sqrt{\Delta}}{2}\right)=0.\end{align}
 
 Αφού έχουμε επιλέξει  :math:`a=1` , αυτά τα κλασματάκι που εμφανίστηκαν μέσα στις παρενθέσεις είναι οι ρίζες του τριωνύμου, έστω  :math:`\rho_1,\rho_2` , οπότε μπορούμε, για συντομία, να γράψουμε:
 

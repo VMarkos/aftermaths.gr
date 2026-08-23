@@ -217,7 +217,7 @@
 \[f(f(x)+y)=x+f(y)\Leftrightarrow f(x+y)=x+y\Leftrightarrow x+y=x+y\]</div>
 <p>που, και πάλι, ισχύει. Ωραία, τρώγοντας έρχεται η όρεξη, οπότε γιατί να μη δοκιμάσουμε, γενικά, συναρτήσεις της μορφής  <span class="math notranslate nohighlight">\(f(x)=ax\)</span> ; Ας τις δοκιμάσουμε! Στην πρώτη περίπτωση έχουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}&amp;\hphantom{{}\Leftrightarrow{}}f(x+f(y))=f(x)+y\&amp;\Leftrightarrow f(x+ay)=ax+y\&amp;\Leftrightarrow a(x+ay)=ax+y\&amp;\Leftrightarrow ax+a^2y=ax+y\&amp;\Leftrightarrow a^2y=y\end{aligned}\]</div>
+\[\begin{align}&amp;\hphantom{{}\Leftrightarrow{}}f(x+f(y))=f(x)+y\&amp;\Leftrightarrow f(x+ay)=ax+y\&amp;\Leftrightarrow a(x+ay)=ax+y\&amp;\Leftrightarrow ax+a^2y=ax+y\&amp;\Leftrightarrow a^2y=y\end{align}\]</div>
 <p>Για να είναι ίσα τα δύο μέλη στο τέλος πρέπει, προφανώς, να έχουν τους ίδιους συντελεστές, δηλαδή:</p>
 <div class="math notranslate nohighlight">
 \[a^2=1\Leftrightarrow a=\pm1\]</div>
@@ -558,7 +558,7 @@
 \[y=2n+1-x\]</div>
 <p>Ωραία, τώρα, αν αυτό είναι ή όχι βολικό θα το διαπιστώσουμε σύντομα. Αρχικά, ας εξετάσουμε το εύκολο, που είναι οι τιμές της  <span class="math notranslate nohighlight">\(g\)</span> . Αρχικά, σε κάθε σταθερό σημείο της  <span class="math notranslate nohighlight">\(f\)</span> , δηλαδή στους ακεραίους και τα μισά τους - ας τους λέμε, όλους μαζί, ημιακέραιους - έχουμε  <span class="math notranslate nohighlight">\(g(r)=0\)</span> . Τώρα, για  <span class="math notranslate nohighlight">\(r\)</span>  που δεν είναι σταθερό σημείο, θα υπάρχει  <span class="math notranslate nohighlight">\(n\in\mathbb{Z}\)</span>  τέτοιο ώστε  <span class="math notranslate nohighlight">\(r\in(n,n+1)\)</span>  οπότε, αντίστοιχα,  <span class="math notranslate nohighlight">\(-r\in(-n-1,n)\)</span> , οπότε θα ισχύει:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned}f(r)&amp;=2n+1-r\\quad f(-r)&amp;=2(-n-1)+1-(-r)=-2n-1+r\end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align}f(r)&amp;=2n+1-r\\quad f(-r)&amp;=2(-n-1)+1-(-r)=-2n-1+r\end{align}\end{split}\]</div>
 <p>Συνεπώς, έχουμε:</p>
 <div class="math notranslate nohighlight">
 \[g(r)=f(r)+f(-r)=2n+1-r-2n-1+r=0.\]</div>
@@ -567,7 +567,7 @@
 \[f(x)=\begin{cases}x &amp; x\in\mathbb{Z}\2n-x &amp; x\in(n,n+1),\ n\in\mathbb{Z}\end{cases}.\]</div>
 <p>Πάλι, για τα σταθερά σημεία έχουμε  <span class="math notranslate nohighlight">\(g(r)=0\)</span>  ενώ για ένα μη σταθερό σημείο  <span class="math notranslate nohighlight">\(r\in(n,n+1)\)</span>  έχουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned}f(r)&amp;=2n-r\\ f(-r)&amp;=2(-n-1)-(-r)=-2n-2+r\end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align}f(r)&amp;=2n-r\\ f(-r)&amp;=2(-n-1)-(-r)=-2n-2+r\end{align}\end{split}\]</div>
 <p>Ας πάμε με τον απαραίτητο ιερό τρόμο να δούμε τι δίνει η  <span class="math notranslate nohighlight">\(g\)</span>  σε αυτή την περίπτωση:</p>
 <div class="math notranslate nohighlight">
 \[g(r)=f(r)+f(-r)=2n-r-2n-2+r=-2\neq0.\]</div>
@@ -580,7 +580,7 @@
 <li><p>Αν αμφότεροι  <span class="math notranslate nohighlight">\(x,y\not\in\mathbb{Z}\)</span>  τότε θα υπάρχουν  <span class="math notranslate nohighlight">\(m,n\in\mathbb{Z}\)</span>  έτσι ώστε  <span class="math notranslate nohighlight">\(x\in(m,m+1)\)</span>  και  <span class="math notranslate nohighlight">\(y\in(n,n+1)\)</span> , επομένως:  <span class="math notranslate nohighlight">\(f(x+f(y))=f(x+2n-y)\)</span> . Τώρα, ο παραπάνω αριθμός ζει, εν γένει, στο διάστημα  <span class="math notranslate nohighlight">\((m+n-1, m+n+1),\)</span>  επομένως, πρέπει να πάρουμε περιπτώσεις:</p>
 <ul>
 <li><p>Αρχικά, αν  <span class="math notranslate nohighlight">\(x+2n-y=m+n\)</span> , δηλαδή αν είναι ακέραιος αυτό το πράγμα, τότε:  <span class="math notranslate nohighlight">\(f(x+2n-y)=x+2n-y=x+f(y)\)</span>  το οποίο είναι άβολο, γιατί εμείς θα θέλαμε το «ανάποδο»:  <span class="math notranslate nohighlight">\(f(x)+y\)</span> . Ωστόσο, δεν ψαρώνουμε. Είπαμε ότι  <span class="math notranslate nohighlight">\(x+2n-y=m+n\Rightarrow x+n-y=m\)</span> . Εμείς θα θέλαμε να προκύψει στο δεξί μέλος η παράσταση  <span class="math notranslate nohighlight">\(f(x)+y=2m-x+y\)</span>  οπότε αρκεί να δείξουμε ότι  <span class="math notranslate nohighlight">\(x+2n-y=2m-x+y\)</span> . Με ισοδυναμίες έχουμε:
-.. math:: begin{aligned}&amp;hphantom{{}Leftrightarrow{}}x+2n-y=2m-x+y&amp;Leftrightarrow 2x+2n=2m+2y&amp;Leftrightarrow x+n=y+mend{aligned}
+.. math:: begin{align}&amp;hphantom{{}Leftrightarrow{}}x+2n-y=2m-x+y&amp;Leftrightarrow 2x+2n=2m+2y&amp;Leftrightarrow x+n=y+mend{align}
 που ισχύει, αφού  <span class="math notranslate nohighlight">\(x+n-y=m\)</span> . Άρα, σε αυτή την περίπτωση  <span class="math notranslate nohighlight">\(f(x+f(y))=f(x)+y\)</span> .</p></li>
 <li><p>Αν  <span class="math notranslate nohighlight">\(x+2n-y\in(m+n,m+n+1)\)</span>  τότε έχουμε:
 .. math:: f(x+2n-y)=2(m+n)-(x+2n-y)=2m-x+y=f(x)+y
@@ -588,7 +588,7 @@
 <li><p>Τέλος, αν  <span class="math notranslate nohighlight">\(x+2n-y\in(m+n-1,m+n)\)</span>  τότε έχουμε:
 .. math:: f(x+2n-y)=2(m+n-1)-(x+2n-y)=2m-x-2+y
 Τώρα, αυτό το  <span class="math notranslate nohighlight">\(-2\)</span>  γιατί μας περίσσεψε; Μήπως να δοκιμάσουμε την άλλη περίπτωση του ορισμού; Έχουμε, αρχικά  <span class="math notranslate nohighlight">\(f(f(x)+y)=f(2m-x+y)\)</span> . Τώρα, αυτός ο αριθμός ζει εν γένει στο  <span class="math notranslate nohighlight">\((n+m-1,n+m+1)\)</span>  ωστόσο είμαστε στην ειδική υποπερίτπωση όπου  <span class="math notranslate nohighlight">\(x+2n-y\in(m+n-1,m+n)\)</span> . Τότε έχουμε:
-.. math:: begin{aligned}&amp;hphantom{{}Leftrightarrow{}}x+2n-y&lt;m+n&amp;Leftrightarrow n-m&lt;y-x&amp;Leftrightarrow n+m&lt;y+2m-xend{aligned}
+.. math:: begin{align}&amp;hphantom{{}Leftrightarrow{}}x+2n-y&lt;m+n&amp;Leftrightarrow n-m&lt;y-x&amp;Leftrightarrow n+m&lt;y+2m-xend{align}
 Συνεπώς, σε αυτή την περίπτωση  <span class="math notranslate nohighlight">\(2m-x+y\in(m+n,m+n+1)\)</span>  και άρα έχουμε:
 .. math:: f(2m-x+y)=2(m+n)-(2m-x+y)=x+2n-y=x+f(y)
 όπως θα θέλαμε.</p></li>

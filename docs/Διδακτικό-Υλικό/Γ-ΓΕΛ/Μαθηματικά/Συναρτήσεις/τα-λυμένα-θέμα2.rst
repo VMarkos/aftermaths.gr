@@ -66,7 +66,7 @@
 
 Τέλειο, έτσι; Αν δεν το παρατηρήσατε, οι τιμές της ποσότητας  :math:`2f(x)`  πέφτουν μέσα στο διάστημα  :math:`\left[-\frac{\pi}{2},\frac{\pi}{2}\right]`  στο οποίο η  :math:`\sin(x)`  είναι γνησίως αύξουσα. Επομένως, μπορούμε να εφαρμόσουμε την  :math:`\sin(x)`  στην παραπάνω ανισότητα και, γενικά, σε ανισότητες που περιέχουν ποσότητες σαν την  :math:`2f(x)` . Επομένως, επιστρέφοντας στα προηγούμενα, αν γνωρίζουμε, ότι  :math:`f(x_1)<f(x_2)`  τότε:
 
-.. math:: \begin{aligned} &\hphantom{{}\Leftrightarrow{}}f(x_1)<f(x_2)\\ &\Leftrightarrow 2f(x_1)<2f(x_2)\\ &\Leftrightarrow \sin(2f(x_1))<\sin(2f(x_2))\\ &\Leftrightarrow 1+\sin(2f(x_1))<1+\sin(2f(x_2)). \end{aligned}
+.. math:: \begin{align} &\hphantom{{}\Leftrightarrow{}}f(x_1)<f(x_2)\\ &\Leftrightarrow 2f(x_1)<2f(x_2)\\ &\Leftrightarrow \sin(2f(x_1))<\sin(2f(x_2))\\ &\Leftrightarrow 1+\sin(2f(x_1))<1+\sin(2f(x_2)). \end{align}
 
 Τώρα, από τη δοσμένη σχέση μπορούμε να γράψουμε το εξής:
 
@@ -111,11 +111,11 @@
 
 Ωραία, αλλά πώς θα τα υπολογίσουμε εμείς αυτά, αφού δεν έχουμε έναν τύπο για την  :math:`f` ; Τύπο μπορεί να μην έχουμε, αλλά έχουμε μία ωραιότατη σχέση για την  :math:`f` , στην οποία μπορούμε να δώσουμε όποια τιμή θέλουμε στο  :math:`x\in\left[0,\frac{2}{3}\right]` . Ας πάμε να υπολογίσουμε, πρώτα, το  :math:`f(0)`  βάζοντας όπου  :math:`x`  το  :math:`0` :
 
-.. math:: \begin{aligned} &\hphantom{{}\Rightarrow{}}1+\sin\left(2f(x)\right)=3x\\ &\overset{x=0}{\Rightarrow}1+\sin\left(2f(0)\right)=3\cdot0\\ &\Rightarrow 1+\sin\left(2f(0)\right)=0\\ &\Rightarrow\sin\left(2f(0)\right)=-1\\ &\Rightarrow\sin\left(2f(0)\right)=\sin\left(-\frac{\pi}{2}\right)\\ &\Rightarrow 2f(0)=2k\pi-\frac{\pi}{2},k\in\mathbb{Z}\\ &\Rightarrow f(0)=k\pi-\frac{\pi}{4},k\in\mathbb{Z}. \end{aligned}
+.. math:: \begin{align} &\hphantom{{}\Rightarrow{}}1+\sin\left(2f(x)\right)=3x\\ &\overset{x=0}{\Rightarrow}1+\sin\left(2f(0)\right)=3\cdot0\\ &\Rightarrow 1+\sin\left(2f(0)\right)=0\\ &\Rightarrow\sin\left(2f(0)\right)=-1\\ &\Rightarrow\sin\left(2f(0)\right)=\sin\left(-\frac{\pi}{2}\right)\\ &\Rightarrow 2f(0)=2k\pi-\frac{\pi}{2},k\in\mathbb{Z}\\ &\Rightarrow f(0)=k\pi-\frac{\pi}{4},k\in\mathbb{Z}. \end{align}
 
 Τώρα, προφανώς, δε γίνεται να έχουμε άπειρες επιλογές για το  :math:`f(0)` . Γνωρίζουμε ότι  :math:`f(0)\in\left[-\frac{\pi}{4},\frac{\pi}{4}\right]` , συνεπώς:
 
-.. math:: \begin{aligned} &\hphantom{{}\Leftrightarrow{}}-\frac{\pi}{4}\leq f(0)\leq\frac{\pi}{4}\\ &\Leftrightarrow-\frac{\pi}{4}\leq k\pi-\frac{\pi}{4}\leq\frac{\pi}{4}\\ &\overset{+\frac{\pi}{4}}{\Leftrightarrow} 0\leq k\pi\leq\frac{\pi}{2}\\ &\overset{\div \pi}{\Leftrightarrow} 0\leq k\leq\frac{1}{2}. \end{aligned}
+.. math:: \begin{align} &\hphantom{{}\Leftrightarrow{}}-\frac{\pi}{4}\leq f(0)\leq\frac{\pi}{4}\\ &\Leftrightarrow-\frac{\pi}{4}\leq k\pi-\frac{\pi}{4}\leq\frac{\pi}{4}\\ &\overset{+\frac{\pi}{4}}{\Leftrightarrow} 0\leq k\pi\leq\frac{\pi}{2}\\ &\overset{\div \pi}{\Leftrightarrow} 0\leq k\leq\frac{1}{2}. \end{align}
 
 Συνεπώς, αφού το  :math:`k`  είναι ένας ακέραιος αριθμός, έπεται ότι  :math:`k=0` , άρα:
 
@@ -123,11 +123,11 @@
 
 Αντίστοιχα, τώρα, για  :math:`x=\frac{2}{3}`  έχουμε:
 
-.. math:: \begin{aligned} &\hphantom{{}\Rightarrow{}}1+\sin\left(2f(x)\right)=3x\\ &\overset{x=\frac{2}{3}}{\Rightarrow}1+\sin\left(2f\left(\frac{2}{3}\right)\right)=3\cdot\frac{2}{3}\\ &\Rightarrow 1+\sin\left(2f\left(\frac{2}{3}\right)\right)=2\\ &\Rightarrow\sin\left(2f\left(\frac{2}{3}\right)\right)=1\\ &\Rightarrow\sin\left(2f\left(\frac{2}{3}\right)\right)=\sin\left(\frac{\pi}{2}\right)\\ &\Rightarrow 2f\left(\frac{2}{3}\right)=2k\pi+\frac{\pi}{2},k\in\mathbb{Z}\\ &\Rightarrow f\left(\frac{2}{3}\right)=k\pi+\frac{\pi}{4},k\in\mathbb{Z}. \end{aligned}
+.. math:: \begin{align} &\hphantom{{}\Rightarrow{}}1+\sin\left(2f(x)\right)=3x\\ &\overset{x=\frac{2}{3}}{\Rightarrow}1+\sin\left(2f\left(\frac{2}{3}\right)\right)=3\cdot\frac{2}{3}\\ &\Rightarrow 1+\sin\left(2f\left(\frac{2}{3}\right)\right)=2\\ &\Rightarrow\sin\left(2f\left(\frac{2}{3}\right)\right)=1\\ &\Rightarrow\sin\left(2f\left(\frac{2}{3}\right)\right)=\sin\left(\frac{\pi}{2}\right)\\ &\Rightarrow 2f\left(\frac{2}{3}\right)=2k\pi+\frac{\pi}{2},k\in\mathbb{Z}\\ &\Rightarrow f\left(\frac{2}{3}\right)=k\pi+\frac{\pi}{4},k\in\mathbb{Z}. \end{align}
 
 Ομοίως, έχουμε:
 
-.. math:: \begin{aligned} &\hphantom{{}\Leftrightarrow{}}-\frac{\pi}{4}\leq f\left(\frac{2}{3}\right)\leq\frac{\pi}{4}\\ &\Leftrightarrow-\frac{\pi}{4}\leq k\pi+\frac{\pi}{4}\leq\frac{\pi}{4}\\ &\overset{-\frac{\pi}{4}}{\Leftrightarrow} -\frac{\pi}{2}\leq k\pi\leq 0\\ &\overset{\div \pi}{\Leftrightarrow} -\frac{1}{2}\leq k\leq 0. \end{aligned}
+.. math:: \begin{align} &\hphantom{{}\Leftrightarrow{}}-\frac{\pi}{4}\leq f\left(\frac{2}{3}\right)\leq\frac{\pi}{4}\\ &\Leftrightarrow-\frac{\pi}{4}\leq k\pi+\frac{\pi}{4}\leq\frac{\pi}{4}\\ &\overset{-\frac{\pi}{4}}{\Leftrightarrow} -\frac{\pi}{2}\leq k\pi\leq 0\\ &\overset{\div \pi}{\Leftrightarrow} -\frac{1}{2}\leq k\leq 0. \end{align}
 
 Επομένως, αφού ο  :math:`k`  είναι ακέραιος, έπεται και πάλι ότι  :math:`k=0` , άρα:
 

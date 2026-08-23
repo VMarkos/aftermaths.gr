@@ -135,7 +135,7 @@
 
 Μπορεί, άραγε, ένας ρητός να έχει μέτρο αρρητοσύνης μεγαλύτερο της μονάδας; Ας πάρουμε έναν  :math:`\mu>1\Leftrightarrow\mu=1+\delta`  για κάποιο  :math:`\delta>0`  κι ας εξετάσουμε την επιθυμητή ανισότητα:
 
-.. math:: \begin{aligned}&\hphantom{\Leftrightarrow}\ \,0<\left|\frac{m}{n}-\frac{a}{b}\right|<\frac{1}{b^{1+\delta}}\&\Leftrightarrow\frac{a}{b}-\frac{1}{b^{1+\delta}}<\frac{m}{n}<\frac{a}{b}+\frac{1}{b^{1+\delta}}\&\Leftrightarrow anb^\delta-n<mb^{1+\delta}<anb^\delta+n.\end{aligned}
+.. math:: \begin{align}&\hphantom{\Leftrightarrow}\ \,0<\left|\frac{m}{n}-\frac{a}{b}\right|<\frac{1}{b^{1+\delta}}\&\Leftrightarrow\frac{a}{b}-\frac{1}{b^{1+\delta}}<\frac{m}{n}<\frac{a}{b}+\frac{1}{b^{1+\delta}}\&\Leftrightarrow anb^\delta-n<mb^{1+\delta}<anb^\delta+n.\end{align}
 
 Το σκεπτικό μας εδώ είναι παρόμοιο: θέλουμε να βρούμε «πολλαπλάσια» του  :math:`b`  της μορφής  :math:`mb^{1+\delta}`  μέσα σε διαστήματα της μορφής  :math:`(anb^\delta-n,anb^\delta+n).`  Θα εξετάσουμε και πάλι τα εν λόγω διαστήματα για διάφορες τιμές του  :math:`a\in\mathbb{Z}`  - λόγω συμμετρίας, θα περιοριστούμε σε μη αρνητικές τιμές του  :math:`a:` 
 
@@ -153,7 +153,7 @@
 
 Σαφώς, τα παραπάνω δεν απαγορεύουν άμεσα σε «πολλαπλάσια» του  :math:`m`  της μορφής  :math:`mb^{1+\delta}`  να «πέφτουν» μέσα στα εν λόγω διαστήματα για άπειρες στο πλήθος επιλογές για το  :math:`b`  - θυμηθείτε ότι είναι *αναγκαίο* να μπορούμε να επιλέξουμε άπειρους στο πλήθος διαφορετικούς παρονομαστές για να είναι ο  :math:`\mu=1+\delta`  μέτρο αρρητοσύνης του  :math:`\frac{m}{n}.`  Ενδιαφέρον έχει σε αυτό το σημείο να εξετάσουμε πώς συμπεριφέρονται αυτά τα «πολλαπλάσια» του  :math:`m`  για διάφορες τιμές του  :math:`b=1,2,\ldots`  Αρχικά, ας πάρουμε δύο διαδοχικά «πολλαπλάσια»:
 
-.. math:: \begin{aligned}m(b+1)^{1+\delta}-mb^{1+\delta}&=m(b+1)(b+1)^\delta-mbb^\delta=\&=m(b+1)^\delta+mb\left((b+1)^\delta-b^\delta\right)\&\geq m(b+1)^\delta.\end{aligned}
+.. math:: \begin{align}m(b+1)^{1+\delta}-mb^{1+\delta}&=m(b+1)(b+1)^\delta-mbb^\delta=\&=m(b+1)^\delta+mb\left((b+1)^\delta-b^\delta\right)\&\geq m(b+1)^\delta.\end{align}
 
 Σαφώς, καθώς  :math:`b\to\infty`  έχουμε και  :math:`m(b+1)^\delta\to\infty`  οπότε και τα «πολλαπλάσια» του  :math:`m`  απομακρύνονται απεριόριστα πολύ καθώς μεγαλώνουν οι επιλογές που κάνουμε για τους παρονομαστές μας. Σκουραίνουν ακόμα περισσότερο τα πράγματα καθώς αφενός τα διαστήματα που στοχεύουμε αραιώνουν καθώς προχωράμε προς το  :math:`+\infty`  αλλά και τα πολλαπλάσια που θα θέλαμα να «πέφτουν» μέσα στα εν λόγω διαστήματα «αραιώνουν» επίσης.
 
@@ -219,7 +219,7 @@
 
 Τώρα, παρατηρούμε ότι:
 
-.. math:: \begin{aligned}\left|\ell(a,b)-\frac{c_n}{d_n}\right|&=\left|\sum_{k=1}^\infty\frac{a_k}{b^{k!}}-\sum_{k=1}^n\frac{a_k}{b^{k!}}\right|=\&=\sum_{k=n+1}^\infty\frac{a_k}{b^{k!}}\&\leq\sum_{k=n+1}^\infty\frac{b-1}{b^{k!}}=\&=(b-1)\sum_{k=n+1}^\infty\frac{1}{b^{k!}}\&<(b-1)\sum_{k=(n+1)!}^\infty\frac{1}{b^k}=\&=(b-1)\sum_{k=0}^\infty\frac{1}{b^{(n+1)!+k}}=\&=\frac{b-1}{b^{(n+1)!}}\sum_{k=0}^\infty\frac{1}{b^k}=\&=\frac{b-1}{b^{(n+1)!}}\frac{1}{1-\frac{1}{b}}=\&= \frac{b-1}{b^{(n+1)!}}\frac{b}{b-1}=\&=\frac{b}{b^{(n+1)!}}=\&=\frac{1}{b^{(n+1)n!-1}}\leq\frac{1}{b^{n!n}}=\frac{1}{d_n^n}.\end{aligned}
+.. math:: \begin{align}\left|\ell(a,b)-\frac{c_n}{d_n}\right|&=\left|\sum_{k=1}^\infty\frac{a_k}{b^{k!}}-\sum_{k=1}^n\frac{a_k}{b^{k!}}\right|=\&=\sum_{k=n+1}^\infty\frac{a_k}{b^{k!}}\&\leq\sum_{k=n+1}^\infty\frac{b-1}{b^{k!}}=\&=(b-1)\sum_{k=n+1}^\infty\frac{1}{b^{k!}}\&<(b-1)\sum_{k=(n+1)!}^\infty\frac{1}{b^k}=\&=(b-1)\sum_{k=0}^\infty\frac{1}{b^{(n+1)!+k}}=\&=\frac{b-1}{b^{(n+1)!}}\sum_{k=0}^\infty\frac{1}{b^k}=\&=\frac{b-1}{b^{(n+1)!}}\frac{1}{1-\frac{1}{b}}=\&= \frac{b-1}{b^{(n+1)!}}\frac{b}{b-1}=\&=\frac{b}{b^{(n+1)!}}=\&=\frac{1}{b^{(n+1)n!-1}}\leq\frac{1}{b^{n!n}}=\frac{1}{d_n^n}.\end{align}
 
 Δηλαδή, γιατί με τόσες πράξεις μπορεί να μπλεχτήκαμε:
 

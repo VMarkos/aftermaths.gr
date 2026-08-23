@@ -58,7 +58,7 @@
 
 που, και πάλι, ισχύει. Ωραία, τρώγοντας έρχεται η όρεξη, οπότε γιατί να μη δοκιμάσουμε, γενικά, συναρτήσεις της μορφής  :math:`f(x)=ax` ; Ας τις δοκιμάσουμε! Στην πρώτη περίπτωση έχουμε:
 
-.. math:: \begin{aligned}&\hphantom{{}\Leftrightarrow{}}f(x+f(y))=f(x)+y\&\Leftrightarrow f(x+ay)=ax+y\&\Leftrightarrow a(x+ay)=ax+y\&\Leftrightarrow ax+a^2y=ax+y\&\Leftrightarrow a^2y=y\end{aligned}
+.. math:: \begin{align}&\hphantom{{}\Leftrightarrow{}}f(x+f(y))=f(x)+y\&\Leftrightarrow f(x+ay)=ax+y\&\Leftrightarrow a(x+ay)=ax+y\&\Leftrightarrow ax+a^2y=ax+y\&\Leftrightarrow a^2y=y\end{align}
 
 Για να είναι ίσα τα δύο μέλη στο τέλος πρέπει, προφανώς, να έχουν τους ίδιους συντελεστές, δηλαδή:
 
@@ -505,7 +505,7 @@
 
 Ωραία, τώρα, αν αυτό είναι ή όχι βολικό θα το διαπιστώσουμε σύντομα. Αρχικά, ας εξετάσουμε το εύκολο, που είναι οι τιμές της  :math:`g` . Αρχικά, σε κάθε σταθερό σημείο της  :math:`f` , δηλαδή στους ακεραίους και τα μισά τους - ας τους λέμε, όλους μαζί, ημιακέραιους - έχουμε  :math:`g(r)=0` . Τώρα, για  :math:`r`  που δεν είναι σταθερό σημείο, θα υπάρχει  :math:`n\in\mathbb{Z}`  τέτοιο ώστε  :math:`r\in(n,n+1)`  οπότε, αντίστοιχα,  :math:`-r\in(-n-1,n)` , οπότε θα ισχύει:
 
-.. math:: \begin{aligned}f(r)&=2n+1-r\\quad f(-r)&=2(-n-1)+1-(-r)=-2n-1+r\end{aligned}
+.. math:: \begin{align}f(r)&=2n+1-r\\quad f(-r)&=2(-n-1)+1-(-r)=-2n-1+r\end{align}
 
 Συνεπώς, έχουμε:
 
@@ -517,7 +517,7 @@
 
 Πάλι, για τα σταθερά σημεία έχουμε  :math:`g(r)=0`  ενώ για ένα μη σταθερό σημείο  :math:`r\in(n,n+1)`  έχουμε:
 
-.. math:: \begin{aligned}f(r)&=2n-r\\ f(-r)&=2(-n-1)-(-r)=-2n-2+r\end{aligned}
+.. math:: \begin{align}f(r)&=2n-r\\ f(-r)&=2(-n-1)-(-r)=-2n-2+r\end{align}
 
 Ας πάμε με τον απαραίτητο ιερό τρόμο να δούμε τι δίνει η  :math:`g`  σε αυτή την περίπτωση:
 
@@ -535,7 +535,7 @@
 -  Αν αμφότεροι  :math:`x,y\not\in\mathbb{Z}`  τότε θα υπάρχουν  :math:`m,n\in\mathbb{Z}`  έτσι ώστε  :math:`x\in(m,m+1)`  και  :math:`y\in(n,n+1)` , επομένως:  :math:`f(x+f(y))=f(x+2n-y)` . Τώρα, ο παραπάνω αριθμός ζει, εν γένει, στο διάστημα  :math:`(m+n-1, m+n+1),`  επομένως, πρέπει να πάρουμε περιπτώσεις:
 
    -  Αρχικά, αν  :math:`x+2n-y=m+n` , δηλαδή αν είναι ακέραιος αυτό το πράγμα, τότε:  :math:`f(x+2n-y)=x+2n-y=x+f(y)`  το οποίο είναι άβολο, γιατί εμείς θα θέλαμε το «ανάποδο»:  :math:`f(x)+y` . Ωστόσο, δεν ψαρώνουμε. Είπαμε ότι  :math:`x+2n-y=m+n\Rightarrow x+n-y=m` . Εμείς θα θέλαμε να προκύψει στο δεξί μέλος η παράσταση  :math:`f(x)+y=2m-x+y`  οπότε αρκεί να δείξουμε ότι  :math:`x+2n-y=2m-x+y` . Με ισοδυναμίες έχουμε:
-      .. math:: \begin{aligned}&\hphantom{{}\Leftrightarrow{}}x+2n-y=2m-x+y\&\Leftrightarrow 2x+2n=2m+2y\&\Leftrightarrow x+n=y+m\end{aligned}
+      .. math:: \begin{align}&\hphantom{{}\Leftrightarrow{}}x+2n-y=2m-x+y\&\Leftrightarrow 2x+2n=2m+2y\&\Leftrightarrow x+n=y+m\end{align}
       που ισχύει, αφού  :math:`x+n-y=m` . Άρα, σε αυτή την περίπτωση  :math:`f(x+f(y))=f(x)+y` .
    -  Αν  :math:`x+2n-y\in(m+n,m+n+1)`  τότε έχουμε:
       .. math:: f(x+2n-y)=2(m+n)-(x+2n-y)=2m-x+y=f(x)+y
@@ -543,7 +543,7 @@
    -  Τέλος, αν  :math:`x+2n-y\in(m+n-1,m+n)`  τότε έχουμε:
       .. math:: f(x+2n-y)=2(m+n-1)-(x+2n-y)=2m-x-2+y
       Τώρα, αυτό το  :math:`-2`  γιατί μας περίσσεψε; Μήπως να δοκιμάσουμε την άλλη περίπτωση του ορισμού; Έχουμε, αρχικά  :math:`f(f(x)+y)=f(2m-x+y)` . Τώρα, αυτός ο αριθμός ζει εν γένει στο  :math:`(n+m-1,n+m+1)`  ωστόσο είμαστε στην ειδική υποπερίτπωση όπου  :math:`x+2n-y\in(m+n-1,m+n)` . Τότε έχουμε:
-      .. math:: \begin{aligned}&\hphantom{{}\Leftrightarrow{}}x+2n-y<m+n\&\Leftrightarrow n-m<y-x\&\Leftrightarrow n+m<y+2m-x\end{aligned}
+      .. math:: \begin{align}&\hphantom{{}\Leftrightarrow{}}x+2n-y<m+n\&\Leftrightarrow n-m<y-x\&\Leftrightarrow n+m<y+2m-x\end{align}
       Συνεπώς, σε αυτή την περίπτωση  :math:`2m-x+y\in(m+n,m+n+1)`  και άρα έχουμε:
       .. math:: f(2m-x+y)=2(m+n)-(2m-x+y)=x+2n-y=x+f(y)
       όπως θα θέλαμε.

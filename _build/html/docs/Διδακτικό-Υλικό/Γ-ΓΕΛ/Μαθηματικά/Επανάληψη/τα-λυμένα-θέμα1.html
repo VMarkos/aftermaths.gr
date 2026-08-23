@@ -198,7 +198,7 @@
 <h2>Εκφώνηση<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id2" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#id2'"><span>#</span></a></h2>
 <p>Δίνονται οι συναρτήσεις  <span class="math notranslate nohighlight">\(f,g:\mathbb{R}\to\mathbb{R}\)</span> , όπου:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned}f(x)&amp;=x+\alpha,\quad \alpha\in\mathbb{R}\\ g(x)&amp;=x^2-4.\end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align}f(x)&amp;=x+\alpha,\quad \alpha\in\mathbb{R}\\ g(x)&amp;=x^2-4.\end{align}\end{split}\]</div>
 <p>Δίνεται επίσης ότι  <span class="math notranslate nohighlight">\((g\circ f)(x)=x^2+4x\)</span> ,  <span class="math notranslate nohighlight">\(x\in\mathbb{R}\)</span> .</p>
 <ol class="arabic simple">
 <li><p>Να βρείτε την τιμή του  <span class="math notranslate nohighlight">\(\alpha\)</span> .</p></li>
@@ -220,10 +220,10 @@
 <h3>Ερώτημα a.<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#a" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#a'"><span>#</span></a></h3>
 <p>Λοιπόν, έχουμε μία σύνθετη συνάρτηση, άρα, τι κοιτάμε πρώτο; Το πεδίο ορισμού, πολύ σωστά! Επομένως, πριν αρχίσουμε να υπολογίζουμε την  <span class="math notranslate nohighlight">\(g\circ f\)</span>  ας δούμε λίγο τι γίνεται με το πεδίο ορισμού της:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} D_{g\circ f}&amp;=\left\{x\in D_f:f(x)\in D_g\right\}=\\ &amp;=\left\{x\in\mathbb{R}:x+\alpha\in\mathbb{R}\right\}=\\ &amp;=\mathbb{R}. \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} D_{g\circ f}&amp;=\left\{x\in D_f:f(x)\in D_g\right\}=\\ &amp;=\left\{x\in\mathbb{R}:x+\alpha\in\mathbb{R}\right\}=\\ &amp;=\mathbb{R}. \end{align}\end{split}\]</div>
 <p>Γενικά, με πεδίο ορισμού το  <span class="math notranslate nohighlight">\(\mathbb{R}\)</span>  είναι εύκολα τα πράγματα, όπως είδατε, γιατί όλα όσα βλέπουμε στην ύλη μας, στο τέλος της ημέρας, πραγματικοί αριθμοί είναι. Συνεπώς, αφού  <span class="math notranslate nohighlight">\(D_{g\circ f}=\mathbb{R}\)</span>  πάμε τώρα να δούμε και τον τύπο της  <span class="math notranslate nohighlight">\(g\circ f\)</span> :</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} (g\circ f)(x)&amp;=g(f(x))=\\ &amp;=g(x+\alpha)=\\ &amp;=(x+\alpha)^2-4=\\ &amp;=x^2+2\alpha x+\alpha^2-4. \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} (g\circ f)(x)&amp;=g(f(x))=\\ &amp;=g(x+\alpha)=\\ &amp;=(x+\alpha)^2-4=\\ &amp;=x^2+2\alpha x+\alpha^2-4. \end{align}\end{split}\]</div>
 <p>Τώρα, η εκφώνηση μας έχει πει - καθώς, αν δεν το ξέρετε, οι εκφωνήσεις μιλάνε, και, όταν δεν μιλάνε, είναι που σκουραίνουν τα πράγματα - ότι πρέπει να ισχύει  <span class="math notranslate nohighlight">\((g\circ f)(x)=x^2+4x\)</span> . Επομένως, θέλουμε να ισχύει:</p>
 <div class="math notranslate nohighlight">
 \[x^2+2\alpha x+\alpha^2-4=x^2+4x.\]</div>
@@ -259,7 +259,7 @@
 </ul>
 <blockquote>
 <div><div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} (f\circ g\circ f)(x)&amp;=f((g\circ f)(x))=\\ &amp;=(g\circ f)(x)+2=\\ &amp;=x^2+4x+2. \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} (f\circ g\circ f)(x)&amp;=f((g\circ f)(x))=\\ &amp;=(g\circ f)(x)+2=\\ &amp;=x^2+4x+2. \end{align}\end{split}\]</div>
 <p>Αποτύχαμε, αλλά κάτι κερδίσαμε από εδώ. Αν παίξουμε με την  <span class="math notranslate nohighlight">\(g\circ f\)</span>  θα μας μείνει αυτό το  <span class="math notranslate nohighlight">\(4x\)</span> , ενώ εμείς θέλουμε με κάποιον τρόπο να πάρουμε ένα  <span class="math notranslate nohighlight">\(8x\)</span>  στο τέλος. Επομένως, ίσως έχει νόημα να δοκιμάσουμε το εξής…</p>
 </div></blockquote>
 <ul class="simple">
@@ -267,14 +267,14 @@
 </ul>
 <blockquote>
 <div><div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} (g\circ f\circ f)(x)&amp;=(g\circ f)(f(x))=\\ &amp;=\left(f(x)\right)^2+4f(x)=\\ &amp;=\left(x+2\right)^2+4\left(x+2\right)=\\ &amp;=x^2+4x+4+4x+8=\\ &amp;=x^2+8x+12. \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} (g\circ f\circ f)(x)&amp;=(g\circ f)(f(x))=\\ &amp;=\left(f(x)\right)^2+4f(x)=\\ &amp;=\left(x+2\right)^2+4\left(x+2\right)=\\ &amp;=x^2+4x+4+4x+8=\\ &amp;=x^2+8x+12. \end{align}\end{split}\]</div>
 </div></blockquote>
 <p>Ουφ! Τα καταφέραμε! Τώρα, τυπικά, σε επίπεδο εξέτασης, θα ξεκινούσαμε με τη λέξη-κλειδί που σημαίνει «ψυχανεμιστήκαμε»: «Παρατηρούμε». Παρατηρούμε, λοιπόν, ότι:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} D_{(g\circ f)\circ f}&amp;=\left\{x\in D_f:f(x)\in D_{g\circ f}\right\}=\\ &amp;=\left\{x\in\mathbb{R}:x+2\in\mathbb{R}\right\}=\\ &amp;=\mathbb{R}. \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} D_{(g\circ f)\circ f}&amp;=\left\{x\in D_f:f(x)\in D_{g\circ f}\right\}=\\ &amp;=\left\{x\in\mathbb{R}:x+2\in\mathbb{R}\right\}=\\ &amp;=\mathbb{R}. \end{align}\end{split}\]</div>
 <p>Επίσης, παρατηρούμε ότι:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} (g\circ f\circ f)(x)&amp;=(g\circ f)(f(x))=\\ &amp;=\left(f(x)\right)^2+4f(x)=\\ &amp;=\left(x+2\right)^2+4\left(x+2\right)=\\ &amp;=x^2+4x+4+4x+8=\\ &amp;=x^2+8x+12. \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} (g\circ f\circ f)(x)&amp;=(g\circ f)(f(x))=\\ &amp;=\left(f(x)\right)^2+4f(x)=\\ &amp;=\left(x+2\right)^2+4\left(x+2\right)=\\ &amp;=x^2+4x+4+4x+8=\\ &amp;=x^2+8x+12. \end{align}\end{split}\]</div>
 <p>Εντάξει, απλή αντιγραφή-επικόλληση, αλλά, για τα τυπικά, καταλαβαίνετε τώρα…</p>
 </section>
 <section id="b-ii">
@@ -291,13 +291,13 @@
 </ul>
 <p>Θα τα βρούμε ένα-ένα και μετά θα συναληθεύσουμε. Έχουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} (g\circ f)(x)&gt;g(x)&amp;\Leftrightarrow x^2+4x&gt;x^2-4\\ &amp;\Leftrightarrow 4x&gt;-4\\ &amp;\Leftrightarrow x&gt;-1. \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} (g\circ f)(x)&gt;g(x)&amp;\Leftrightarrow x^2+4x&gt;x^2-4\\ &amp;\Leftrightarrow 4x&gt;-4\\ &amp;\Leftrightarrow x&gt;-1. \end{align}\end{split}\]</div>
 <p>Τώρα, από την άλλη, έχουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} g(x)&gt;f(x)&amp;\Leftrightarrow x^2-4&gt;x+2\\ &amp;\Leftrightarrow x^2-x-6&gt;0. \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} g(x)&gt;f(x)&amp;\Leftrightarrow x^2-4&gt;x+2\\ &amp;\Leftrightarrow x^2-x-6&gt;0. \end{align}\end{split}\]</div>
 <p>Εδώ υπολογίζουμε και μία διακρίνουσα:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} \Delta&amp;=\beta^2-4\alpha\gamma=\\ &amp;=(-1)^2-4\cdot 1\cdot(-6)=\\ &amp;=1+24=\\ &amp;=25&gt;0. \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} \Delta&amp;=\beta^2-4\alpha\gamma=\\ &amp;=(-1)^2-4\cdot 1\cdot(-6)=\\ &amp;=1+24=\\ &amp;=25&gt;0. \end{align}\end{split}\]</div>
 <p>Επομένως, οι δύο ρίζες είναι:</p>
 <div class="math notranslate nohighlight">
 \[x=\frac{-\beta\pm\sqrt{\Delta}}{2\alpha}=\frac{1\pm\sqrt{25}}{2\cdot 1}=\frac{1\pm5}{-2}=3 ή .. math:: -2.\]</div>
@@ -331,10 +331,10 @@
 \[\begin{split}\left|x+2\right|=\begin{cases} x+2 &amp; x\geq -2\\ -x-2 &amp; x&lt;-2 \end{cases}.\end{split}\]</div>
 <p>Έτσι, για  <span class="math notranslate nohighlight">\(x\geq-2\)</span>  έχουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{split}\begin{aligned} \phi(x)&amp;=\frac{x+2+x+2}{2}=\\ &amp;=\frac{2x+4}{2}=\\ &amp;=\frac{2(x+2)}{2}=\\ &amp;=x+2. \end{aligned}\end{split}\]</div>
+\[\begin{split}\begin{align} \phi(x)&amp;=\frac{x+2+x+2}{2}=\\ &amp;=\frac{2x+4}{2}=\\ &amp;=\frac{2(x+2)}{2}=\\ &amp;=x+2. \end{align}\end{split}\]</div>
 <p>Αντίστοιχα, για  <span class="math notranslate nohighlight">\(x&lt;-2\)</span>  έχουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned} \phi(x)&amp;=\frac{x+2-x-2}{2}=0. \end{aligned}\]</div>
+\[\begin{align} \phi(x)&amp;=\frac{x+2-x-2}{2}=0. \end{align}\]</div>
 <p>Συμμαζεύοντας τα παραπάνω, έχουμε:</p>
 <div class="math notranslate nohighlight">
 \[\begin{split}\phi(x)=\begin{cases} 0 &amp; x&lt;-2\\ x+2 &amp; x\geq -2 \end{cases}.\end{split}\]</div>

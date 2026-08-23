@@ -20,6 +20,7 @@ release = '0.1.0'
 extensions = [
     'sphinxcontrib.youtube',
     'sphinx_favicon',
+    'sphinx.ext.mathjax',
 ]
 
 templates_path = ['_templates']

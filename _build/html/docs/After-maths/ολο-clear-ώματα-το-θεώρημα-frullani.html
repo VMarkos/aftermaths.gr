@@ -280,7 +280,7 @@
 \[I_{a,r,R}=\int_r^R\frac{f(ax)}{x}dx=\int_{br}^{bR}\frac{f(u)}{u}du.\]</div>
 <p>Τώρα, με βάση τα όσα έχουμε πει παραπάνω, έχουμε - σιωπηλά και χωρίς να ξυπνήσουμε τη γενικότητα δεχόμαστε ότι  <span class="math notranslate nohighlight">\(a&lt;b\)</span> :</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}I_{a,b}&amp;=I_a-I_b\approx I_{a,r,R}-I_{b,r,R}=\&amp;=\int_{ar}^{aR}\frac{f(x)}{x}dx-\int_{br}^{bR}\frac{f(x)}{x}dx=\&amp;=\int_{ar}^{br}\frac{f(x)}{x}dx-\int_{aR}^{bR}\frac{f(x)}{x}dx.\end{aligned}\]</div>
+\[\begin{align}I_{a,b}&amp;=I_a-I_b\approx I_{a,r,R}-I_{b,r,R}=\&amp;=\int_{ar}^{aR}\frac{f(x)}{x}dx-\int_{br}^{bR}\frac{f(x)}{x}dx=\&amp;=\int_{ar}^{br}\frac{f(x)}{x}dx-\int_{aR}^{bR}\frac{f(x)}{x}dx.\end{align}\]</div>
 <p>Επιτέλους, μετά από τόσες πράξεις και αλχημείες, φτάσαμε σε κάτι που μπορεί εύκολα να χωνέψει η διαίσθησή μας. Η παραπάνω «ψευδο»-ισότητα μας λέει ότι πρακτικά το  <span class="math notranslate nohighlight">\(I_{a,b}\)</span>  αποτελείται από δύο μέρη:</p>
 <ul class="simple">
 <li><p>ένα «κοντά» στο μηδέν, το  <span class="math notranslate nohighlight">\(\int_{ar}^{br}\frac{f(x)}{x}dx\)</span>  που είναι η «κύρια μάζα» του και,</p></li>
@@ -322,20 +322,20 @@
 \[I_b=\int_r^R\frac{f(bx)}{x}dx=\int_{br}^{bR}\frac{f(u)}{\frac{u}{b}}\frac{du}{b}=\int_{br}^{bR}\frac{f(u)}{u}du.\]</div>
 <p>Παρατηρούμε τώρα ότι:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}I_a-I_b&amp;=\int_{ar}^{aR}\frac{f(u)}{u}du-\int_{br}^{bR}\frac{f(u)}{u}du=\&amp;=\int_{ar}^{br}\frac{f(u)}{u}du-\int_{aR}^{bR}\frac{f(u)}{u}du.\end{aligned}\]</div>
+\[\begin{align}I_a-I_b&amp;=\int_{ar}^{aR}\frac{f(u)}{u}du-\int_{br}^{bR}\frac{f(u)}{u}du=\&amp;=\int_{ar}^{br}\frac{f(u)}{u}du-\int_{aR}^{bR}\frac{f(u)}{u}du.\end{align}\]</div>
 <p>Τα παραπάνω ισχύουν, σαφώς, για κάθε  <span class="math notranslate nohighlight">\(0&lt;r&lt;R\)</span> , επομένως, όταν «έρθει η ώρα» θα τα επιλέξουμε εμείς όπως μας εξυπηρετεί. Πάμε τώρα να υπολογίσουμε το καθένα από τα εν λόγω ολοκληρώματα ξεχωριστά.</p>
 <p>Πριν προχωρήσουμε υποθέτουμε χωρίς βλάβη της γενικότητας ότι  <span class="math notranslate nohighlight">\(a&lt;b\)</span>  και παρατηρούμε ότι για κάθε  <span class="math notranslate nohighlight">\(r&gt;0\)</span>  έχουμε:</p>
 <div class="math notranslate nohighlight">
 \[\ln\frac{b}{a}=\ln\frac{br}{ar}=\ln(br)-\ln(ar)=\int_{ar}^{br}\frac{1}{u}du.\]</div>
 <p>Για το πρώτο, έστω  <span class="math notranslate nohighlight">\(\varepsilon&gt;0\)</span> , οπότε, από τη συνέχεια της  <span class="math notranslate nohighlight">\(f\)</span>  στο  <span class="math notranslate nohighlight">\(0\)</span>  υπάρχει ένα  <span class="math notranslate nohighlight">\(\delta&gt;0\)</span>  έτσι ώστε για κάθε  <span class="math notranslate nohighlight">\(x\in[0,\delta)\)</span>  να ισχύει  <span class="math notranslate nohighlight">\(\|f(x)-f(0)|&lt;\varepsilon',\)</span>  όπου  <span class="math notranslate nohighlight">\(\varepsilon':=\dfrac{\varepsilon}{\ln\frac{b}{a}}\)</span> . Επιλέγουμε τώρα  <span class="math notranslate nohighlight">\(\delta':=\dfrac{\delta}{2b}\)</span> , οπότε  <span class="math notranslate nohighlight">\(ar,br\in[0,\delta)\)</span>  για κάθε  <span class="math notranslate nohighlight">\(r\in(0,\delta')\)</span>  και άρα έχουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}\left|\int_{ar}^{br}\frac{f(u)}{u}du-f(0)\ln\frac{a}{b}\right|&amp;=\left|\int_{ar}^{br}\frac{f(u)}{u}du-f(0)\int_{ar}^{br}\frac{1}{u}du\right|=\&amp;=\left|\int_{ar}^{br}\frac{f(u)-f(0)}{u}du\right|\&amp;\leq\int_{ar}^{br}\frac{|f(u)-f(0)|}{u}du\&amp;\leq\int_{ar}^{br}\frac{\varepsilon'}{u}du=\&amp;=\varepsilon'\int_{ar}^{br}\frac{1}{u}du=\&amp;=\varepsilon'\ln\frac{b}{a}=\&amp;=\varepsilon.\end{aligned}\]</div>
+\[\begin{align}\left|\int_{ar}^{br}\frac{f(u)}{u}du-f(0)\ln\frac{a}{b}\right|&amp;=\left|\int_{ar}^{br}\frac{f(u)}{u}du-f(0)\int_{ar}^{br}\frac{1}{u}du\right|=\&amp;=\left|\int_{ar}^{br}\frac{f(u)-f(0)}{u}du\right|\&amp;\leq\int_{ar}^{br}\frac{|f(u)-f(0)|}{u}du\&amp;\leq\int_{ar}^{br}\frac{\varepsilon'}{u}du=\&amp;=\varepsilon'\int_{ar}^{br}\frac{1}{u}du=\&amp;=\varepsilon'\ln\frac{b}{a}=\&amp;=\varepsilon.\end{align}\]</div>
 <p>Συνεπώς, εξ ορισμού, έχουμε:</p>
 <div class="math notranslate nohighlight">
 \[\lim_{r\to0}\int_{ar}^{br}\frac{f(u)}{u}du=f(0)\ln\frac{b}{a}.\]</div>
 <p>Περνάμε τώρα στο δεύτερο ολοκλήρωμα, οπότε σταθεροποιούμε κι εδώ ένα  <span class="math notranslate nohighlight">\(\varepsilon&gt;0\)</span> . Εδώ παρατηρούμε ότι, αφού η  <span class="math notranslate nohighlight">\(f(x)\to0\)</span>  καθώς  <span class="math notranslate nohighlight">\(x\to+\infty\)</span> , έπεται ότι υπάρχει ένας  <span class="math notranslate nohighlight">\(M&gt;0\)</span>  τέτοιος ώστε για κάθε  <span class="math notranslate nohighlight">\(x&gt;M\)</span>  να ισχύει  <span class="math notranslate nohighlight">\(\|f(x)|&lt;\varepsilon'\)</span> , όπου  <span class="math notranslate nohighlight">\(\varepsilon'=\frac{\varepsilon}{\ln\frac{b}{a}}\)</span> . Τώρα, παρατηρούμε ότι για  <span class="math notranslate nohighlight">\(R&gt;M'\)</span> , όπου  <span class="math notranslate nohighlight">\(M':=\frac{M}{a}\)</span>  έχουμε  <span class="math notranslate nohighlight">\(aR,bR&gt;M\)</span>  και επίσης:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}\left|\int_{aR}^{bR}\frac{f(u)}{u}du\right|&amp;\leq\int_{aR}^{bR}\frac{|f(u)|}{u}du&lt;\int_{aR}^{bR}\frac{\varepsilon'}{u}du=\&amp;=\varepsilon'\int_{aR}^{bR}\frac{1}{u}du=\frac{\varepsilon}{\ln\frac{b}{a}}\ln\frac{b}{a}=\varepsilon.\end{aligned}\]</div>
+\[\begin{align}\left|\int_{aR}^{bR}\frac{f(u)}{u}du\right|&amp;\leq\int_{aR}^{bR}\frac{|f(u)|}{u}du&lt;\int_{aR}^{bR}\frac{\varepsilon'}{u}du=\&amp;=\varepsilon'\int_{aR}^{bR}\frac{1}{u}du=\frac{\varepsilon}{\ln\frac{b}{a}}\ln\frac{b}{a}=\varepsilon.\end{align}\]</div>
 <p>Συνεπώς, αφού το  <span class="math notranslate nohighlight">\(\varepsilon&gt;0\)</span>  ήταν αυθαίρετο έπεται ότι:</p>
 <div class="math notranslate nohighlight">
 \[\lim_{R\to\infty}\int_{aR}^{bR}\frac{f(u)}{u}du=0.\]</div>
@@ -372,7 +372,7 @@
 \[\int_0^\infty\frac{f(ax)-f(bx)}{x}dx=\ln\frac{b}{a}.\]</div>
 <p>Ωστόσο,</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}\int_0^\infty\frac{f(ax)-f(bx)}{x}dx&amp;=\int_0^\infty\frac{\frac{\sin(ax)}{ax}-\frac{\sin(bx)}{bx}}{x}dx=\&amp;=\int_0^\infty\frac{b\sin(ax)-a\sin(bx)}{abx^2}dx=\&amp;=\frac{1}{ab}\int_0^\infty\frac{b\sin(ax)-a\sin(bx)}{x^2}dx.\end{aligned}\]</div>
+\[\begin{align}\int_0^\infty\frac{f(ax)-f(bx)}{x}dx&amp;=\int_0^\infty\frac{\frac{\sin(ax)}{ax}-\frac{\sin(bx)}{bx}}{x}dx=\&amp;=\int_0^\infty\frac{b\sin(ax)-a\sin(bx)}{abx^2}dx=\&amp;=\frac{1}{ab}\int_0^\infty\frac{b\sin(ax)-a\sin(bx)}{x^2}dx.\end{align}\]</div>
 <p>Συνεπώς, πράγματι:</p>
 <div class="math notranslate nohighlight">
 \[\int_0^\infty\frac{b\sin(ax)-a\sin(bx)}{x^2}dx=ab\ln\frac{b}{a}.\]</div>

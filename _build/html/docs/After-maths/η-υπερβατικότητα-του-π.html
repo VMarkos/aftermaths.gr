@@ -346,7 +346,7 @@
 \[I_p(a)=S_p(0)-e^{-a}S_p(a).\]</div>
 <p>Πράγματι, με λίγες πράξεις παρατηρούμε ότι αν  <span class="math notranslate nohighlight">\(p\)</span>  είναι ένα πολυώνυμο  <span class="math notranslate nohighlight">\(n\)</span>  βαθμού:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}\left(S_p(ax)e^{-ax}\right)'&amp;=-ae^{-ax}S_p(ax)+ae^{-ax}S_p'(ax)=\&amp;=ae^{-ax}\left(S_p'(ax)-S_p(ax)\right)=\&amp;=ae^{-ax}\left(\sum_{k=1}^{n+1}p^{(k)}(ax)-\sum_{k=0}^np^{(k)}(ax)\right)=\&amp;=ae^{-ax}\left(p^{(n+1)}(ax)-p(ax)\right)=\&amp;=-ae^{-ax}p(ax),\end{aligned}\]</div>
+\[\begin{align}\left(S_p(ax)e^{-ax}\right)'&amp;=-ae^{-ax}S_p(ax)+ae^{-ax}S_p'(ax)=\&amp;=ae^{-ax}\left(S_p'(ax)-S_p(ax)\right)=\&amp;=ae^{-ax}\left(\sum_{k=1}^{n+1}p^{(k)}(ax)-\sum_{k=0}^np^{(k)}(ax)\right)=\&amp;=ae^{-ax}\left(p^{(n+1)}(ax)-p(ax)\right)=\&amp;=-ae^{-ax}p(ax),\end{align}\]</div>
 <p>δεδομένου ότι οι παράγωγοι του  <span class="math notranslate nohighlight">\(p\)</span>  τάξης μεγαλύτερης του  <span class="math notranslate nohighlight">\(n\)</span>  είναι μηδενικές. Έτσι, ολοκληρώνοντας την παραπάνω ισότητα παίρνουμε:</p>
 <div class="math notranslate nohighlight">
 \[I_p(a)=\int_0^1e^{-ax}p(ax)dx=\left[-S_p(ax)e^{-ax}\right]_0^1=S_p(0)-e^{-a}S_p(a),\]</div>
@@ -381,7 +381,7 @@
 \[I_{T_m}(a_k)=S_{T_m}(0)-e^{-a_k}S_{T_m}(a_k).\]</div>
 <p>Με τη βοήθεια της παραπάνω σχέσης παρατηρούμε ότι:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k)&amp;=\sum_{k=1}^n-c_ke^{a_k}\left(S_{T_m}(0)-e^{-a_k}S_{T_m}(a_k)\right)=\&amp;=\sum_{k=1}^nc_kS_{T_m}(a_k)-\sum_{k=1}^nc_ke^{a_k}S_{T_m}(0).\end{aligned}\]</div>
+\[\begin{align}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k)&amp;=\sum_{k=1}^n-c_ke^{a_k}\left(S_{T_m}(0)-e^{-a_k}S_{T_m}(a_k)\right)=\&amp;=\sum_{k=1}^nc_kS_{T_m}(a_k)-\sum_{k=1}^nc_ke^{a_k}S_{T_m}(0).\end{align}\]</div>
 <p>Από υπόθεση, γνωρίζουμε ότι  <span class="math notranslate nohighlight">\(c_0+\sum_{k=1}^nc_ke^{a_k}=0,\)</span>  επομένως έχουμε και:</p>
 <div class="math notranslate nohighlight">
 \[-\sum_{k=1}^nc_ke^{a_k}=c_0.\]</div>
@@ -393,13 +393,13 @@
 \[A:=\max\{|a_k|:k=1,2,\ldots,n\},\]</div>
 <p>και παρατηρούμε ότι:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}\left|I_{T_m}(a_k)\right|&amp;=\left|\int_0^1c_ke^{-ac_kx}T_m(a_kx)dx\right|\&amp;\leq\int_0^1\left|a_ke^{-a_kx}T_m(a_kx)\right|dx\&amp;\leq Ae^A\int_0^1\left|T_m(a_kx)\right|dx\&amp;\leq Ae^A\int_0^1\left|(a_kx)^{m-1}(p(a_kx))^m\right|dx\&amp;\leq Ae^AA^{m-1}\int_0^1\left|x^{m-1}(p(a_kx))^m\right|dx\&amp;\leq A^me^A\int_0^1\left|p(a_kx)\right|^mdx.\end{aligned}\]</div>
+\[\begin{align}\left|I_{T_m}(a_k)\right|&amp;=\left|\int_0^1c_ke^{-ac_kx}T_m(a_kx)dx\right|\&amp;\leq\int_0^1\left|a_ke^{-a_kx}T_m(a_kx)\right|dx\&amp;\leq Ae^A\int_0^1\left|T_m(a_kx)\right|dx\&amp;\leq Ae^A\int_0^1\left|(a_kx)^{m-1}(p(a_kx))^m\right|dx\&amp;\leq Ae^AA^{m-1}\int_0^1\left|x^{m-1}(p(a_kx))^m\right|dx\&amp;\leq A^me^A\int_0^1\left|p(a_kx)\right|^mdx.\end{align}\]</div>
 <p>Ωραία ανισότητα, αλλά μπορούμε και καλύτερα. Για την ακρίβεια, αφού το  <span class="math notranslate nohighlight">\(p(a_kx)\)</span>  είναι πολυωνυμική συνάρτηση, είναι και συνεχής και, αφού είναι ορισμένη σε κλειστό διάστημα, παίρνει μέγιστη κι ελάχιστη τιμή - κι ας παίρνει μιγαδικές τιμές, δε μας απασχολεί - επομένως, υπάρχει ένας θετικός πραγματικός αριθμός  <span class="math notranslate nohighlight">\(M&gt;0\)</span>  έτσι ώστε:</p>
 <div class="math notranslate nohighlight">
 \[\left|p(a_kx)\right|\leq M.\]</div>
 <p>Έτσι, τελικά έχουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}\left|I_{T_m}(a_k)\right|&amp;\leq A^me^A\int_0^1\left|p(a_kx)\right|^mdx\&amp;\leq A^m e^AM^m.\end{aligned}\]</div>
+\[\begin{align}\left|I_{T_m}(a_k)\right|&amp;\leq A^me^A\int_0^1\left|p(a_kx)\right|^mdx\&amp;\leq A^m e^AM^m.\end{align}\]</div>
 <p>Επομένως, έχουμε:</p>
 <div class="math notranslate nohighlight">
 \[\left|c^{nm}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k)\right|\leq|c|^{nm}\sum_{k=1}^n-c_ke^{a_k}A^me^AM^m=|c|^{nm}A^me^AM^mc_0.\]</div>
@@ -438,13 +438,13 @@
 \[S_{T_m}(0)=(m-1)!p(0)^m+\sum_{i\geq m}T_m^{(i)}(0).\]</div>
 <p>Με βάση τα παραπάνω παρατηρούμε ότι:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}&amp;\hphantom{=}\ \,c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k)=\&amp;=c^{nm}c_0(m-1)!p(0)^m+c^{nm}c_0\sum_{i\geq m}T_m^{(i)}(0)+c^{nm}\sum_{k=1}^nc_k\sum_{i\geq m}T_m^{(i)}(a_k).\end{aligned}\]</div>
+\[\begin{align}&amp;\hphantom{=}\ \,c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k)=\&amp;=c^{nm}c_0(m-1)!p(0)^m+c^{nm}c_0\sum_{i\geq m}T_m^{(i)}(0)+c^{nm}\sum_{k=1}^nc_k\sum_{i\geq m}T_m^{(i)}(a_k).\end{align}\]</div>
 <p>Εδώ να θυμηθούμε ότι:</p>
 <div class="math notranslate nohighlight">
 \[Q_m=\frac{1}{m!}\sum_{i\geq m}T_m^{(i)}\Rightarrow \sum_{i\geq m}T_m^{(i)}=m!Q_m.\]</div>
 <p>Έτσι, έχουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}&amp;\hphantom{=}\ \,c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k)=\&amp;=c^{nm}c_0(m-1)!p(0)^m+c^{nm}c_0m!Q_m(0)+c^{nm}\sum_{k=1}^nc_km!Q_m(a_k)=\&amp;=c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!\underbrace{c^{nm}\sum_{k=1}^nc_kQ_m(a_k)}_{\Pi}.\end{aligned}\]</div>
+\[\begin{align}&amp;\hphantom{=}\ \,c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k)=\&amp;=c^{nm}c_0(m-1)!p(0)^m+c^{nm}c_0m!Q_m(0)+c^{nm}\sum_{k=1}^nc_km!Q_m(a_k)=\&amp;=c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!\underbrace{c^{nm}\sum_{k=1}^nc_kQ_m(a_k)}_{\Pi}.\end{align}\]</div>
 <p>Η παράσταση  <span class="math notranslate nohighlight">\(\Pi\)</span>  είναι αυτή που θέλουμε να αποδείξουμε ότι παίρνει και μη ακέραιες τιμές για κατάλληλες τιμές του  <span class="math notranslate nohighlight">\(m.\)</span>  Έστω, προς άτοπο, ότι για κάθε επιλογή του  <span class="math notranslate nohighlight">\(m\)</span>  η παράσταση  <span class="math notranslate nohighlight">\(\Pi\)</span>  είναι ακέραια. Τότε, η παραπάνω παράσταση διαιρείται σαφώς από το  <span class="math notranslate nohighlight">\((m-1)!\)</span>  ωστόσο, αν επιλέξουμε τον  <span class="math notranslate nohighlight">\(m\)</span>  αρκετά μεγάλο και <em>πρώτο</em> τότε η παραπάνω παράσταση δε διαιρείται από το  <span class="math notranslate nohighlight">\(m!\)</span>  - για την ακρίβεια, πρέπει να επιλέξουμε  <span class="math notranslate nohighlight">\(m\)</span>  μεγαλύτερο από  <span class="math notranslate nohighlight">\(c_0,c\)</span>  και  <span class="math notranslate nohighlight">\(p(0)\)</span>  - καθώς δε διαιρείται ο πρώτος όρος από το  <span class="math notranslate nohighlight">\(m\)</span>  - εδώ είναι που αξιοποιούμε ότι ο  <span class="math notranslate nohighlight">\(m\)</span>  είναι πρώτος. Έτσι η παράσταση:</p>
 <div class="math notranslate nohighlight">
 \[c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!c^{nm}\sum_{k=1}^nc_kQ_m(a_k)\]</div>
@@ -453,10 +453,10 @@
 \[\left|c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!c^{nm}\sum_{k=1}^nc_kQ_m(a_k)\right|\geq(m-1)!.\]</div>
 <p>Ωστόσο, προηγουμένως είχαμε αποδείξει την ακόλουθη ισότητα:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}&amp;\hphantom{=}\ \,c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!c^{nm}\sum_{k=1}^nc_kQ=\&amp;=c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k)=\&amp;=c^{nm}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k).\end{aligned}\]</div>
+\[\begin{align}&amp;\hphantom{=}\ \,c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!c^{nm}\sum_{k=1}^nc_kQ=\&amp;=c^{nm}c_0S_{T_m}(0)+c^{nm}\sum_{k=1}^nc_kS_{T_m}(a_k)=\&amp;=c^{nm}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k).\end{align}\]</div>
 <p>Συνεπώς:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}(m-1)!&amp;\leq\left|c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!c^{nm}\sum_{k=1}^nc_kQ_m(a_k)\right|=\&amp;=\left|c^{nm}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k).\right|\&amp;&lt;(m-1)!,\end{aligned}\]</div>
+\[\begin{align}(m-1)!&amp;\leq\left|c^{nm}c_0(m-1)!\left(p(0)^m+mQ_m(0)\right)+m!c^{nm}\sum_{k=1}^nc_kQ_m(a_k)\right|=\&amp;=\left|c^{nm}\sum_{k=1}^n-c_ke^{a_k}I_{T_m}(a_k).\right|\&amp;&lt;(m-1)!,\end{align}\]</div>
 <p>που είναι άτοπο! Άρα, για κατάλληλα μεγάλο και πρώτο  <span class="math notranslate nohighlight">\(m\)</span>  πράγματι η παράσταση  <span class="math notranslate nohighlight">\(\Pi\)</span>  δεν παίρνει ακέραιες τιμές, όπως θέλαμε.</p>
 <p>Το παραπάνω αποτέλεσμα αποτελεί τη ραχοκοκαλιά της απόδειξής μας, καθώς από εδώ κι εμπρός ο δρόμος είναι στρωμένος με ροδοπέταλα - σχεδόν…</p>
 </section>

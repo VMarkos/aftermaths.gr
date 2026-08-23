@@ -215,7 +215,7 @@
 \[\left(1+\frac{1}{n}\right)^n\leq\sum_{k=1}^n\frac{1}{k!}.\]</div>
 <p>Από την άλλη τώρα, παρατηρούμε ότι:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}\frac{n!}{(n-k)!n^k}&amp;=\frac{n(n-1)\ldots(n-k+1)}{\underbrace{n\cdot n\cdot\ldots\cdot n}_{k}}\&amp;=\frac{n}{n}\frac{n-1}{n}\frac{n-2}{n}\dots\frac{n-k+1}{n}=\&amp;=1\left(1-\frac{1}{n}\right)\left(1-\frac{2}{n}\right)\dots\left(1-\frac{k-1}{n}\right)\to1\end{aligned}\]</div>
+\[\begin{align}\frac{n!}{(n-k)!n^k}&amp;=\frac{n(n-1)\ldots(n-k+1)}{\underbrace{n\cdot n\cdot\ldots\cdot n}_{k}}\&amp;=\frac{n}{n}\frac{n-1}{n}\frac{n-2}{n}\dots\frac{n-k+1}{n}=\&amp;=1\left(1-\frac{1}{n}\right)\left(1-\frac{2}{n}\right)\dots\left(1-\frac{k-1}{n}\right)\to1\end{align}\]</div>
 <p>καθώς  <span class="math notranslate nohighlight">\(n\to\infty\)</span>  για κάθε τιμή του  <span class="math notranslate nohighlight">\(k.\)</span>  Επίσης, όπως είδαμε και παραπάνω:</p>
 <div class="math notranslate nohighlight">
 \[\frac{n!}{(n-k)!n^k}\leq1.\]</div>
@@ -274,10 +274,10 @@
 \[\sum_{k=b+1}^\infty\frac{1}{k!}=\frac{1}{b!}\sum_{k=b+1}^\infty\frac{1}{k(k-1)\ldots(b+1)}.\]</div>
 <p>Παρατηρούμε τώρα ότι:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}&amp;\hphantom{\Leftrightarrow}\ \,k(k-1)\ldots(b+1)\geq\underbrace{(b+1)(b+1)\ldots(b+1)}_{k-b}=(b+1)^{k-b}\&amp;\Leftrightarrow\frac{1}{k(k-1)\ldots(b+1)}\leq\frac{1}{(b+1)^{k-b}}.\end{aligned}\]</div>
+\[\begin{align}&amp;\hphantom{\Leftrightarrow}\ \,k(k-1)\ldots(b+1)\geq\underbrace{(b+1)(b+1)\ldots(b+1)}_{k-b}=(b+1)^{k-b}\&amp;\Leftrightarrow\frac{1}{k(k-1)\ldots(b+1)}\leq\frac{1}{(b+1)^{k-b}}.\end{align}\]</div>
 <p>Συνεπώς:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}\sum_{k=b+1}^\infty\frac{1}{k(k-1)\ldots(b+1)}&amp;\leq\sum_{k=b+1}^\infty\frac{1}{(b+1)^{k-b}}=\&amp;=\sum_{k=1}^\infty\frac{1}{(b+1)^k}=\&amp;=\frac{\frac{1}{b+1}}{1-\frac{1}{b+1}}=\&amp;=\frac{1}{b}.\end{aligned}\]</div>
+\[\begin{align}\sum_{k=b+1}^\infty\frac{1}{k(k-1)\ldots(b+1)}&amp;\leq\sum_{k=b+1}^\infty\frac{1}{(b+1)^{k-b}}=\&amp;=\sum_{k=1}^\infty\frac{1}{(b+1)^k}=\&amp;=\frac{\frac{1}{b+1}}{1-\frac{1}{b+1}}=\&amp;=\frac{1}{b}.\end{align}\]</div>
 <p>Επομένως, έχουμε πλέον την ανισότητα:</p>
 <div class="math notranslate nohighlight">
 \[\sum_{k=b+1}^\infty\frac{1}{k!}\leq\frac{1}{b!b}.\]</div>
@@ -295,7 +295,7 @@
 \[k!\geq\underbrace{2\cdot2\cdot\ldots\cdot2}_{k-1}\cdot1=2^{k-1}\Leftrightarrow\frac{1}{k!}&lt;\frac{1}{2^{k-1}}.\]</div>
 <p>Συνεπώς, αθροίζοντας έχουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}\sum_{k=0}^\infty\frac{1}{k!}&amp;=\frac{1}{0!}+\frac{1}{1!}+\sum_{k=2}^\infty\frac{1}{k!}\&amp;&lt;1+1+\sum_{k=2}^\infty\frac{1}{2^{k-1}}=\&amp;=2+\sum_{k=0}^\infty\frac{1}{2^{k+1}}=\&amp;=2+\frac{1}{2}\sum_{k=0}^\infty\frac{1}{2^k}=\&amp;=2+\frac{1}{2}\frac{1}{1-\frac{1}{2}}=3.\end{aligned}\]</div>
+\[\begin{align}\sum_{k=0}^\infty\frac{1}{k!}&amp;=\frac{1}{0!}+\frac{1}{1!}+\sum_{k=2}^\infty\frac{1}{k!}\&amp;&lt;1+1+\sum_{k=2}^\infty\frac{1}{2^{k-1}}=\&amp;=2+\sum_{k=0}^\infty\frac{1}{2^{k+1}}=\&amp;=2+\frac{1}{2}\sum_{k=0}^\infty\frac{1}{2^k}=\&amp;=2+\frac{1}{2}\frac{1}{1-\frac{1}{2}}=3.\end{align}\]</div>
 <p>Συνεπώς  <span class="math notranslate nohighlight">\(2&lt;e&lt;3\)</span>  οπότε ο  <span class="math notranslate nohighlight">\(e\)</span>  δεν είναι ακέραιος, άτοπο! Συνεπώς, ο  <span class="math notranslate nohighlight">\(e\)</span>  είναι άρρητος.</p>
 </section>
 <section id="id3">
@@ -346,7 +346,7 @@
 \[a_0N+\sum_{k=1}^na_k(M_k+\delta_k)=0\Leftrightarrow a_0N+a_1(M_1+\delta_1)+\ldots+a_n(M_n+\delta_n)=0.\]</div>
 <p>Εδώ τώρα θα κάνουμε τις απαραίτητες επιμεριστικές και θα ομαδοποιήσουμε τους όρους μας κατάλληλα, ξεχωρίζοντας τους ακεραίους από τα άρρητα σφάλματα. Έχουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}&amp;\hphantom{\Leftrightarrow}\ \,a_0N+a_1M_1+a_1\delta_1+\ldots+a_nM_n+\delta_n=0\&amp;\Leftrightarrow a_0N+a_1M_1+a_2M_2+\ldots+a_nM_n+a_1\delta_1+a_2\delta_2+\ldots+a_n\delta_n=0\&amp;\Leftrightarrow\underbrace{a_0N+\sum_{k=1}^na_kM_k}_{M}+\underbrace{\sum_{k=1}^na_k\delta_k}_{\Delta}=0\end{aligned}\]</div>
+\[\begin{align}&amp;\hphantom{\Leftrightarrow}\ \,a_0N+a_1M_1+a_1\delta_1+\ldots+a_nM_n+\delta_n=0\&amp;\Leftrightarrow a_0N+a_1M_1+a_2M_2+\ldots+a_nM_n+a_1\delta_1+a_2\delta_2+\ldots+a_n\delta_n=0\&amp;\Leftrightarrow\underbrace{a_0N+\sum_{k=1}^na_kM_k}_{M}+\underbrace{\sum_{k=1}^na_k\delta_k}_{\Delta}=0\end{align}\]</div>
 <p>Παρατηρήστε ότι το το παραπάνω θα πρέπει να ισχύει για όποια  <span class="math notranslate nohighlight">\(N,M_k,\delta_k\)</span>  κι αν επιλέξουμε τα οποία να αποτελούν εκτιμήσεις των δυνάμεων του  <span class="math notranslate nohighlight">\(e\)</span>  όπως περιγράψαμε παραπάνω. Επομένως, ο στόχος μας είναι να διαλέξουμε τα  <span class="math notranslate nohighlight">\(N,M_k,\delta_k\)</span>  με τέτοιον τρόπο που να μην ισχύει η παραπάνω ισότητα για καμία επιλογή ακεραίων  <span class="math notranslate nohighlight">\(a_0,a_1,\ldots,a_n.\)</span></p>
 <p>Αν παρατηρήσουμε λίγο την παραπάνω εξίσωση θα δούμε ότι ο  <span class="math notranslate nohighlight">\(M\)</span>  είναι ακέραιος καθώς προκύπτει από αθροίσματα και γινόμενα άλλων ακεραίων, ενώ ο  <span class="math notranslate nohighlight">\(\Delta\)</span>  μπορεί κάλλιστα να μην είναι ακέραιος - αφού είναι ένα άθροισμα πολλαπλασίων αρρήτων, το οποίο μπορεί να είναι σαφώς και ρητό και άρρητο, ανάλογα με το ποιοι είναι οι  <span class="math notranslate nohighlight">\(\delta_k.\)</span>  Αυτό λοιπόν που έχουμε να κάνουμε είναι να επιλέξουμε τα  <span class="math notranslate nohighlight">\(N,M_k,\delta_k\)</span>  έτσι ώστε αφενός τα  <span class="math notranslate nohighlight">\(M,\Delta\)</span>  να μην είναι και τα δύο μηδέν και, συνάμα, το  <span class="math notranslate nohighlight">\(\Delta\)</span>  να είναι άρρητος ή, εν πάσει περιπτώσει, όχι ακέραιος - και γνήσια ρητός να είναι, αν δεν είναι ακέραιος πάλι καταλήγουμε σε άτοπο από την εξίσωση  <span class="math notranslate nohighlight">\(M+\Delta=0,\)</span>  στην περίπτωση που ο  <span class="math notranslate nohighlight">\(M\)</span>  είναι μη μηδενικός ακέραιος.</p>
 <p>Εδώ κάπου μπαίνουν τα ολοκληρώματα…</p>
@@ -380,23 +380,23 @@
 </ul>
 <p>Ωραία, τώρα που έχουμε αυτό μπορούμε σχετικά εύκολα να δούμε, δεδομένης της γραμμικότητας του ολοκληρώματος, ότι:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}I_p&amp;=\int_0^\infty f_p(x)dx=\&amp;=\int_0^\infty \left(\frac{(-1)^{np}(n!)^p}{(p-1)!}x^{p-1}+\sum_{k=1}^{np}\frac{p_k}{(p-1)!}x^{p+k-1}\right)e^{-x}=\&amp;=\frac{(-1)^{np}(n!)^{p}}{(p-1)!}\int_0^\infty x^{p-1}e^{-x}dx+\sum_{k=1}^{np}\frac{p_k}{(p-1)!}\int_0^\infty x^{p+k-1}e^{-x}dx=\&amp;=\frac{(-1)^{np}(n!)^{p}}{(p-1)!}(p-1)!+\sum_{k=1}^{np}\frac{p_k}{(p-1)!}(p+k-1)!=\&amp;=(-1)^{np}(n!)^p+\sum_{k=1}^{np}p_k(p+k-1)(p+k-2)\ldots p.\end{aligned}\]</div>
+\[\begin{align}I_p&amp;=\int_0^\infty f_p(x)dx=\&amp;=\int_0^\infty \left(\frac{(-1)^{np}(n!)^p}{(p-1)!}x^{p-1}+\sum_{k=1}^{np}\frac{p_k}{(p-1)!}x^{p+k-1}\right)e^{-x}=\&amp;=\frac{(-1)^{np}(n!)^{p}}{(p-1)!}\int_0^\infty x^{p-1}e^{-x}dx+\sum_{k=1}^{np}\frac{p_k}{(p-1)!}\int_0^\infty x^{p+k-1}e^{-x}dx=\&amp;=\frac{(-1)^{np}(n!)^{p}}{(p-1)!}(p-1)!+\sum_{k=1}^{np}\frac{p_k}{(p-1)!}(p+k-1)!=\&amp;=(-1)^{np}(n!)^p+\sum_{k=1}^{np}p_k(p+k-1)(p+k-2)\ldots p.\end{align}\]</div>
 <p>Σαφώς, το παραπάνω είναι ακέραιος - ως άθροισμα γινομένων ακεραίων. Συνεπώς, πράγματι τα  <span class="math notranslate nohighlight">\(I_p\)</span>  είναι ακέραιοι. Ας παρατηρήσουμε τώρα και κάτι ακόμα. Στην παραπάνω παράσταση, όλοι οι όροι μέσα στο άθροισμα είναι της μορφής:</p>
 <div class="math notranslate nohighlight">
 \[p_k(p+k-1)(p+k-2)\ldots p,\]</div>
 <p>είναι, δηλαδή, πολλαπλάσια του  <span class="math notranslate nohighlight">\(p.\)</span>  Ωστόσο, ο όρος που βρίσκεται εκτός του αρθοίσματος,  <span class="math notranslate nohighlight">\((-1)^{np}(n!)^p,\)</span>  αν επιλέξουμε αρκετά μεγάλο πρώτο αριθμό  <span class="math notranslate nohighlight">\(p\)</span>  - μπορούμε, σαφώς, γιατί είναι άπειροι οι πρώτοι αριθμοί - δεν είναι πολλαπλάσιο του  <span class="math notranslate nohighlight">\(p.\)</span>  Επομένως, για αρκετά μεγάλους πρώτους - για την αρκίβεια, για  <span class="math notranslate nohighlight">\(p&gt;n\)</span>  - ο πρώτος όρος του παραπάνω αθροίσματος,  <span class="math notranslate nohighlight">\((-1)^{np}(n!)^p,\)</span>  δεν είναι πολλαπλάσιο του  <span class="math notranslate nohighlight">\(p.\)</span>  Συνεπώς, ούτε το  <span class="math notranslate nohighlight">\(I_p\)</span>  είναι πολλαπλάσιο του  <span class="math notranslate nohighlight">\(p\)</span>  για αρκετά μεγάλους  <span class="math notranslate nohighlight">\(p\)</span>  - καθώς τότε θα έπρεπε να είναι και το  <span class="math notranslate nohighlight">\((-1)^{np}(n!)^p.\)</span></p>
 <p>Τώρα θα μελετήσουμε και κάποια άλλα ολοκληρώματα, παρόμοια με τα παραπάνω - μην ανησυχείτε, δεν έχουμε ξεχάσει τι θέλουμε να αποδείξουμε, απλώς έχουμε ακόμα λίγο δρόμο μπροστά μας. Θεωρούμε τα ολοκληρώματα:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}I_{p,k}&amp;=e^k\int_k^\infty f_p(x)dx,\ k=1,2,\ldots,n.\J_{p,k}&amp;=e^k\int_0^kf_p(x)dx,\ k=1,2,\ldots,n.\end{aligned}\]</div>
+\[\begin{align}I_{p,k}&amp;=e^k\int_k^\infty f_p(x)dx,\ k=1,2,\ldots,n.\J_{p,k}&amp;=e^k\int_0^kf_p(x)dx,\ k=1,2,\ldots,n.\end{align}\]</div>
 <p>Τα παραπάνω ολοκληρώματα, όπως βλέπει κανείς, μοιάζουν αρκετά με τα ολοκληρώματα  <span class="math notranslate nohighlight">\(I_p\)</span>  που είδαμε παραπάνω. Ωστόσο, όπως θα δούμε, έχουν κάπως διαφορετική συμπεριφορά. Αρχικά, για να υπολογίσουμε τα ολοκληρώματα  <span class="math notranslate nohighlight">\(I_{p,k}\)</span>  κάνουμε την αλλαγή μεταβλητής  <span class="math notranslate nohighlight">\(u=x-k\Rightarrow du=dx\)</span>  έτσι ώστε να τα «φέρουμε» όλα ξανά στο  <span class="math notranslate nohighlight">\([0,+\infty):\)</span></p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}I_{p,k}&amp;=e^k\int_0^\infty f_p(u+k)du=\&amp;=e^k\int_0^\infty\dfrac{(u+k)^{p-1}\left((u+k-1)(u+k-2)\ldots(u+k-n)\right)^p}{(p-1)!}e^{-u-k}dx =\&amp;=\int_0^\infty \dfrac{(u+k)^{p-1}\left((u+k-1)(u+k-2)\ldots(u+k-n)\right)^p}{(p-1)!}e^{-u}du.\end{aligned}\]</div>
+\[\begin{align}I_{p,k}&amp;=e^k\int_0^\infty f_p(u+k)du=\&amp;=e^k\int_0^\infty\dfrac{(u+k)^{p-1}\left((u+k-1)(u+k-2)\ldots(u+k-n)\right)^p}{(p-1)!}e^{-u-k}dx =\&amp;=\int_0^\infty \dfrac{(u+k)^{p-1}\left((u+k-1)(u+k-2)\ldots(u+k-n)\right)^p}{(p-1)!}e^{-u}du.\end{align}\]</div>
 <p>Ωραία, άλλο ένα τεράστιο ολοκλήρωμα. Ωστόσο, κι εδώ θα εφαρμόσουμε τεχνάσματα όπως και παραπάνω. Για την ακρίβεια, ας παρατηρήσουμε ότι στο γινόμενο:</p>
 <div class="math notranslate nohighlight">
 \[(u+k)^{p-1}(u+k-1)(u+k-2)\ldots(u+k-n)\]</div>
 <p>καθώς το  <span class="math notranslate nohighlight">\(i\)</span>  διατρέχει τις τιμές  <span class="math notranslate nohighlight">\(1,2,\ldots,n\)</span>  το  <span class="math notranslate nohighlight">\(u+k-i\)</span>  για  <span class="math notranslate nohighlight">\(i=k\)</span>  γίνεται  <span class="math notranslate nohighlight">\(u,\)</span>  συνεπώς, δεδομένου ότι το παραπάνω γινόμενο είναι υψωμένο εις την  <span class="math notranslate nohighlight">\(p,\)</span>  στα παραπάνω εμφανίζεται ένας παράγοντας  <span class="math notranslate nohighlight">\(u^p\)</span> . Έτσι, στο παραπάνω ολοκλήρωμα, αν κάνουμε όλες αυτές τις επιμεριστικές θα έχουμε ένα πολύωνυμο με ακέραιους συντελεστές - καθώς όλοι μας οι συντελεστές θα προκύψουν ως γινόμενα και αθροίσματα ακεραίων - του οποίου οι όροι θα κυμαίνονται από  <span class="math notranslate nohighlight">\(u^p\)</span>  μέχρι και  <span class="math notranslate nohighlight">\(u^{np+p-1},\)</span>  οπότε έχουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}I_{p,k}&amp;=\int_0^\infty\dfrac{(u+k)^{p-1}\left((u+k-1)(u+k-2)\ldots(u+k-n)\right)^p}{(p-1)!}e^{-u}du=\&amp;=\int_0^\infty\sum_{i=p}^{np+p-1}\frac{q_i}{(p-1)!}u^ie^{-u}du=\&amp;=\sum_{i=p}^{np+p-1} \frac{q_i}{(p-1)!}\int_0^\infty u^ie^{-u}du=\&amp;=\sum_{i=p}^{np+p-1} \frac{q_i}{(p-1)!}i!=\&amp;= \sum_{i=p}^{np+p-1}q_i i(i-1)\ldots p.\end{aligned}\]</div>
+\[\begin{align}I_{p,k}&amp;=\int_0^\infty\dfrac{(u+k)^{p-1}\left((u+k-1)(u+k-2)\ldots(u+k-n)\right)^p}{(p-1)!}e^{-u}du=\&amp;=\int_0^\infty\sum_{i=p}^{np+p-1}\frac{q_i}{(p-1)!}u^ie^{-u}du=\&amp;=\sum_{i=p}^{np+p-1} \frac{q_i}{(p-1)!}\int_0^\infty u^ie^{-u}du=\&amp;=\sum_{i=p}^{np+p-1} \frac{q_i}{(p-1)!}i!=\&amp;= \sum_{i=p}^{np+p-1}q_i i(i-1)\ldots p.\end{align}\]</div>
 <p>Και πάλι, εδώ, παρατηρούμε ότι οι όροι του παραπάνω αθροίσματος είναι αφενός όλοι τους ακέραιοι και αφετέρου όλοι πολλαπλάσια του  <span class="math notranslate nohighlight">\(p,\)</span>  συνεπώς και τα ολοκληρώματα  <span class="math notranslate nohighlight">\(I_{p,k}\)</span>  είναι όχι μόνο ακέραιοι αριθμοί αλλά και πολλαπλάσια του  <span class="math notranslate nohighlight">\(p\)</span>  - αυτό κρατήστε το, θα μας φανεί χρήσιμο στην πορεία.</p>
 <p>Θα μελετήσουμε τώρα και τα ολοκληρώματα  <span class="math notranslate nohighlight">\(J_{p,k}\)</span>  αλλά με έναν διαφορετικό τρόπο από ό,τι παραπάνω. Αρχικά, παρατηρούμε ότι για κάθε  <span class="math notranslate nohighlight">\(x\in[0,k]\)</span>  έχουμε  <span class="math notranslate nohighlight">\(e^{-x}\leq1\)</span>  καθώς επίσης και ότι  <span class="math notranslate nohighlight">\(x^{p-1}\leq k^{p-1}\leq n^{p-1}\)</span>  οπότε έχουμε:</p>
 <div class="math notranslate nohighlight">
@@ -416,7 +416,7 @@
 </ul>
 <p>Μαζί με τα παραπάνω, ας παρατηρήσουμε και ότι:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}I_{p,k}+J_{p,k}&amp;= e^k\int_k^\infty f_p(x)dx+ e^k\int_0^k f_p(x)dx=\&amp;=e^k\left( \int_0^k f_p(x)dx + \int_k^\infty f_p(x)dx \right)=\&amp;=e^k\int_0^\infty f_p(x)dx=\&amp;=e^kI_p.\end{aligned}\]</div>
+\[\begin{align}I_{p,k}+J_{p,k}&amp;= e^k\int_k^\infty f_p(x)dx+ e^k\int_0^k f_p(x)dx=\&amp;=e^k\left( \int_0^k f_p(x)dx + \int_k^\infty f_p(x)dx \right)=\&amp;=e^k\int_0^\infty f_p(x)dx=\&amp;=e^kI_p.\end{align}\]</div>
 <p>Δηλαδή:</p>
 <div class="math notranslate nohighlight">
 \[I_{p,k}+J_{p,k}=e^kI_p\Leftrightarrow e^k=\dfrac{I_{p,k}+J_{p,k}}{I_p}.\]</div>

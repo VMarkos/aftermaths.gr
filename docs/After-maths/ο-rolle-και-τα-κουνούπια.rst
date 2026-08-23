@@ -98,11 +98,11 @@
 
 Ωστόσο, δε χρειάζεται να απογοητευόμαστε! Μετά από λίγη σκέψη και λίγες πράξεις στο τετράδιό μας μπορούμε να καταλήξουμε στο εξής:
 
-.. math:: \begin{aligned}x&=\frac{a+c\pm\sqrt{a^2-ac+c^2}}{3c}=\&=\frac{a+c\pm\sqrt{c^2\left(\frac{a^2}{c^2}-\frac{a}{c}+1\right)}}{3c}=\&=\frac{a+c\pm|c|\sqrt{\frac{a^2}{c^2}-\frac{a}{c}+1}}{3c}.\end{aligned}
+.. math:: \begin{align}x&=\frac{a+c\pm\sqrt{a^2-ac+c^2}}{3c}=\&=\frac{a+c\pm\sqrt{c^2\left(\frac{a^2}{c^2}-\frac{a}{c}+1\right)}}{3c}=\&=\frac{a+c\pm|c|\sqrt{\frac{a^2}{c^2}-\frac{a}{c}+1}}{3c}.\end{align}
 
 Εδώ τώρα, να πούμε ότι αυτό το  :math:`\pm|c|`  είναι ένας πλεονασμός, καθώς, αν κάνουμε τον κόπο και διακρίνουμε περιπτώσεις για το πρόσημο του  :math:`c`  θα δούμε ότι είναι το ίδιο με το να έχουμε την παράσταση  :math:`\pm c,`  επομένως, μπορούμε να απλοποιήσουμε λίγο ακόμα το παραπάνω και να συνεχίσουμε τις πράξεις μας:
 
-.. math:: \begin{aligned}x&=\frac{a+c\pm c\sqrt{\frac{a^2}{c^2}-\frac{a}{c}+1}}{3c}=\&=\frac{c\left(\frac{a}{c}+1\pm \sqrt{\frac{a^2}{c^2}-\frac{a}{c}+1}\right)}{3c}=\&=\frac{\frac{a}{c}+1\pm \sqrt{\frac{a^2}{c^2}-\frac{a}{c}+1}}{3}.\end{aligned}
+.. math:: \begin{align}x&=\frac{a+c\pm c\sqrt{\frac{a^2}{c^2}-\frac{a}{c}+1}}{3c}=\&=\frac{c\left(\frac{a}{c}+1\pm \sqrt{\frac{a^2}{c^2}-\frac{a}{c}+1}\right)}{3c}=\&=\frac{\frac{a}{c}+1\pm \sqrt{\frac{a^2}{c^2}-\frac{a}{c}+1}}{3}.\end{align}
 
 Ωραία, και τώρα τι καταφέραμε; Λοιπόν, όπως ίσως θα παρατηρήσατε, στα παραπάνω, οι δύο παράμετροί μας εμφανίζονται μόνο ως πηλίκο  :math:`\frac{a}{c}`  ή ως κάποια δύναμή του. Επομένως, αν θέσουμε, για ευκολία,  :math:`t=\frac{a}{c}`  τότε η παραπάνω παράσταση μπορεί να γραφτεί ως εξής:
 
@@ -118,15 +118,15 @@
 
 επομένως ίσως είναι καλύτερα να ξεκινήσουμε τη διερεύνησή μας από το  :math:`x_2`  - όχι ότι κανείς μας εγγυάται ότι θα βρούμε κάτι χρήσιμο, απλά το παραπάνω αποτέλεσμα είναι αρκετά αποθαρρυντικό για να ξεκινήσουμε από το  :math:`x_1.`  Ας κάνουμε λίγες πράξεις, λοιπόν:
 
-.. math:: \begin{aligned}0<x_2<1&\Leftrightarrow0<\frac{t+1-\sqrt{t^2-t+1}}{3}<1\&\Leftrightarrow0<t+1-\sqrt{t^2-t+1}<3.\end{aligned}
+.. math:: \begin{align}0<x_2<1&\Leftrightarrow0<\frac{t+1-\sqrt{t^2-t+1}}{3}<1\&\Leftrightarrow0<t+1-\sqrt{t^2-t+1}<3.\end{align}
 
 Εδώ ας πάρουμε καθεμιά από τις δύο ανισότητες ξεχωριστά, γιατί αλλιώς θα μπλεχτούμε:
 
-.. math:: \begin{aligned}0<t+1-\sqrt{t^2-t+1}&\Leftrightarrow\sqrt{t^2-t+1}<t+1\&\Leftrightarrow t^2-t+1<(t+1)^2\&\Leftrightarrow t^2-t+1<t^2+2t+1\&\Leftrightarrow 0<3t\&\Leftrightarrow t>0,\end{aligned}
+.. math:: \begin{align}0<t+1-\sqrt{t^2-t+1}&\Leftrightarrow\sqrt{t^2-t+1}<t+1\&\Leftrightarrow t^2-t+1<(t+1)^2\&\Leftrightarrow t^2-t+1<t^2+2t+1\&\Leftrightarrow 0<3t\&\Leftrightarrow t>0,\end{align}
 
 που ισχύει, άρα η αριστερή ανισότητα ισχύει (για  :math:`t>0` ). Πάμε τώρα στη δεξιά:
 
-.. math:: \begin{aligned}t+1-sqrt{t^2-t+1}<3&\Leftrightarrow t+1-3<\sqrt{t^2-t+1}\&\Leftrightarrow t-2<\sqrt{t^2-t+1}.\end{aligned}
+.. math:: \begin{align}t+1-sqrt{t^2-t+1}<3&\Leftrightarrow t+1-3<\sqrt{t^2-t+1}\&\Leftrightarrow t-2<\sqrt{t^2-t+1}.\end{align}
 
 Εδώ τώρα έχουμε δύο απλές υπο-περιπτώσεις:
 
@@ -137,17 +137,17 @@
 
 Πάμε τώρα να ασχοληθούμε με την περίπτωση να είναι  :math:`t<0.`  Κατ' αναλογία με τα παραπάνω, εδώ θα εστιάσουμε στο  :math:`x_1.`  Θέλουμε, λοιπόν,  :math:`x_1\in(0,1),`  επομένως έχουμε τα εξής:
 
-.. math:: \begin{aligned}0<x_1<1&\Leftrightarrow 0<\frac{t+1+\sqrt{t^2-t+1}}{3}<1\&\Leftrightarrow 0<t+1+\sqrt{t^2-t+1}<3.\end{aligned}
+.. math:: \begin{align}0<x_1<1&\Leftrightarrow 0<\frac{t+1+\sqrt{t^2-t+1}}{3}<1\&\Leftrightarrow 0<t+1+\sqrt{t^2-t+1}<3.\end{align}
 
 Εδώ τώρα θα ακολουθήσουμε ανάλογη πορεία με την προηγούμενη περίπτωση, αποδεικνύοντας ξεχωριστά τις δύο ανισότητες. Αρχικά θα ξεκινήσουμε με την αριστερή ανισότητα:
 
-.. math:: \begin{aligned}0<t+1+\sqrt{t^2-t+1}&\Leftrightarrow -\sqrt{t^2-t+1}<t+1\&\Leftrightarrow \left(-\sqrt{t^2-t+1}\right)^2>(t+1)^2\&\Leftrightarrow t^2-t+1>t^2+2t+1\&\Leftrightarrow 0>3t\&\Leftrightarrow 0>t,\end{aligned}
+.. math:: \begin{align}0<t+1+\sqrt{t^2-t+1}&\Leftrightarrow -\sqrt{t^2-t+1}<t+1\&\Leftrightarrow \left(-\sqrt{t^2-t+1}\right)^2>(t+1)^2\&\Leftrightarrow t^2-t+1>t^2+2t+1\&\Leftrightarrow 0>3t\&\Leftrightarrow 0>t,\end{align}
 
 που ισχύει. Πριν συνεχίσουμε, απλώς να παρατηρήσουμε ότι στο σημείο που υψώσαμε παραπάνω στο τετράγωνο, αλλάξαμε φορά στην ανισότητα καθώς και τα δύο μέλη της είναι αρνητικά.
 
 Συνεχίζουμε τώρα με τη δεξιά ανισότητα, που θα πάει περίπου όπως και η προηγούμενη περίπτωση:
 
-.. math:: \begin{aligned}t+1+\sqrt{t^2-t+1}<3&\Leftrightarrow t-2<-\sqrt{t^2-t+1}\&\Leftrightarrow(t-2)^2>\left(-\sqrt{t^2-t+1}\right)^2\&\Leftrightarrow t^2-4t+4>t^2-t+1\&\Leftrightarrow 3>3t\&\Leftrightarrow t<1,\end{aligned}
+.. math:: \begin{align}t+1+\sqrt{t^2-t+1}<3&\Leftrightarrow t-2<-\sqrt{t^2-t+1}\&\Leftrightarrow(t-2)^2>\left(-\sqrt{t^2-t+1}\right)^2\&\Leftrightarrow t^2-4t+4>t^2-t+1\&\Leftrightarrow 3>3t\&\Leftrightarrow t<1,\end{align}
 
 που ισχύει, καθώς  :math:`t<0.`  Συνεπώς, σε κάθε περίπτωση, αν  :math:`t<0`  τότε  :math:`0<x_1<1.` 
 

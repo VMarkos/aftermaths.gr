@@ -47,7 +47,7 @@
 
 Ας μελετήσουμε τώρα λίγο το ακόλουθο όριο:
 
-.. math:: \begin{aligned}&\hphantom{=}\ \lim_{x\to x_0}\left(f(x)-(f'(x_0)(x-x_0)+f(x_0))\right)=\&=\lim_{x\to x_0}\left(f(x)-f'(x_0)(x-x_0)-f(x_0)\right)=\&=\lim_{x\to x_0}\left(f(x)-f(x_0)-f'(x_0)(x-x_0)\right)=\&=\lim_{x\to x_0}(x-x_0)\left(\frac{f(x)-f(x_0)}{x-x_0)}-f'(x_0)\right)=\&=0(f'(x_0)-f'(x_0))=\&=0.\end{aligned}
+.. math:: \begin{align}&\hphantom{=}\ \lim_{x\to x_0}\left(f(x)-(f'(x_0)(x-x_0)+f(x_0))\right)=\&=\lim_{x\to x_0}\left(f(x)-f'(x_0)(x-x_0)-f(x_0)\right)=\&=\lim_{x\to x_0}\left(f(x)-f(x_0)-f'(x_0)(x-x_0)\right)=\&=\lim_{x\to x_0}(x-x_0)\left(\frac{f(x)-f(x_0)}{x-x_0)}-f'(x_0)\right)=\&=0(f'(x_0)-f'(x_0))=\&=0.\end{align}
 
 Το παραπάνω όριο δεν είναι τίποτα άλλο παρά η διαφορά της  :math:`f`  από την εφαπτομένη της. Συνεπώς, αυτό που καταλαβαίνουμε από τα παραπάνω είναι ότι για μία παραγωγίσιμη συνάρτηση σε κάποιο  :math:`x_0,`  αν περιοριστούμε αρκετά κοντά στο  :math:`x_0`  τότε αυτό που θα παρατηρήσουμε είναι ότι η γραφική παράσταση της  :math:`f`  είναι «σχεδόν» ευθεία. Ή, πιο σωστά, ας υποθέσουμε ότι κάποιος σατανικός μαθηματικός έρχεται και μας ρωτάει:
 
@@ -100,7 +100,7 @@
 
 Τώρα, με λίγη απλή τριγωνομετρία, έχουμε τα εξής:
 
-.. math:: \begin{aligned}\frac{Ax}{Bx}=\frac{(x_0x)\tan\theta}{(x_0x)\tan\phi}=\frac{\tan\theta}{\tan\phi}.\end{aligned}
+.. math:: \begin{align}\frac{Ax}{Bx}=\frac{(x_0x)\tan\theta}{(x_0x)\tan\phi}=\frac{\tan\theta}{\tan\phi}.\end{align}
 
 Τώρα, όμως, αν ξύσουμε λίγο το κεφάλι μας, θα θυμηθούμε ότι οι ευθείες  :math:`\varepsilon_f`  και  :math:`\varepsilon_g`  δεν είναι τίποτε άλλο παρά οι εφαπτόμενες των  :math:`f`  και  :math:`g`  στο  :math:`x_0`  αντίστοιχα, επομένως οι κλίσεις τους συμπίπτουν με τις παραγώγους των  :math:`f`  και  :math:`g`  εκεί. Άρα, από τα παραπάνω έχουμε:
 

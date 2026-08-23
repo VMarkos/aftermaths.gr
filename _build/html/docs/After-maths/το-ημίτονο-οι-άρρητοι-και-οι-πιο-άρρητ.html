@@ -245,7 +245,7 @@
 \[f_n(x)\sin x\leq f_n(x)\leq\frac{1}{n!}\left(\frac{a^2}{4b}\right)^n.\]</div>
 <p>Η πρώτη ανισότητα είναι άμεση, ενώ για τη δεύτερη παρατηρούμε ότι:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}f_n(x)&amp;=\frac{x^n(a-bx)^n}{n!}=\&amp;=\frac{b^nx^n(\frac{a}{b}-x)^n}{n!}=\&amp;=\frac{b^nx^n(\pi-x)^n}{n!}.\end{aligned}\]</div>
+\[\begin{align}f_n(x)&amp;=\frac{x^n(a-bx)^n}{n!}=\&amp;=\frac{b^nx^n(\frac{a}{b}-x)^n}{n!}=\&amp;=\frac{b^nx^n(\pi-x)^n}{n!}.\end{align}\]</div>
 <p>Τώρα, παρατηρούμε ότι:</p>
 <div class="math notranslate nohighlight">
 \[f_n\left(\frac{\pi}{2}-x\right)=\frac{b^n(\frac{\pi}{2}-x)^n(\frac{\pi}{2}+x)^n}{n!}=f_n\left(\frac{\pi}{2}+x\right),\]</div>
@@ -261,7 +261,7 @@
 \[F_n(x)=f_n(x)-f_n^{(2)}(x)+f_n^{(4)}(x)+\dots+f_n^{(2n)}(x).\]</div>
 <p>Αυτή μπορεί να μοιάζει με μία ακόμα συνάρτηση που βγάλαμε από το καπέλο, αλλά δεν είναι. Η παραπάνω συνάρτηση, χρησιμοποιείται για να συντομεύσει την εφαρμογή πολλαπλών παραγοντικών ολοκληρώσεων. Για την ακρίβεια, κάνοντας  <span class="math notranslate nohighlight">\(2n\)</span>  ολοκληρώσεις κατά παράγοντες, έχουμε:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}I_n&amp;=\int_0^\pi f_n(x)\sin xdx=\&amp;=[-f_n(x)\cos x]_0^\pi+\int_0^\pi f_n'(x)\cos xdx=\&amp;=f_n(0)+f_n(\pi)+\int_0^\pi f_n'(x)\cos xdx=\&amp;=f_n(0)+f_n(\pi)+[f_n(x)\sin x]_0^\pi-\int_0^\pi f_n''(x)\sin xdx=\&amp;=f_n(0)+f_n(\pi)-\int_0^\pi f_n''(x)\sin xdx=\&amp;=\ldots=\&amp;=\sum_{k=0}^n(-1)^k(f_n^{(2k)}(0)+f_n^{(2k)}(\pi))+(-1)^{n+1}\int_0^\pi f_n^{(2n+2)}(x)\sin xdx.\end{aligned}\]</div>
+\[\begin{align}I_n&amp;=\int_0^\pi f_n(x)\sin xdx=\&amp;=[-f_n(x)\cos x]_0^\pi+\int_0^\pi f_n'(x)\cos xdx=\&amp;=f_n(0)+f_n(\pi)+\int_0^\pi f_n'(x)\cos xdx=\&amp;=f_n(0)+f_n(\pi)+[f_n(x)\sin x]_0^\pi-\int_0^\pi f_n''(x)\sin xdx=\&amp;=f_n(0)+f_n(\pi)-\int_0^\pi f_n''(x)\sin xdx=\&amp;=\ldots=\&amp;=\sum_{k=0}^n(-1)^k(f_n^{(2k)}(0)+f_n^{(2k)}(\pi))+(-1)^{n+1}\int_0^\pi f_n^{(2n+2)}(x)\sin xdx.\end{align}\]</div>
 <p>Για να δούμε καλύτερα το πώς προκύπτει το παραπάνω - πέρα από μία τυπική απόδειξη με επαγωγή - μπορούμε να παρατηρήσουμε ότι:</p>
 <div class="math notranslate nohighlight">
 \[\int_0^\pi g(x)\sin xdx=g(0)+g(\pi)-\int_0^\pi g''(x)\sin xdx,\]</div>
@@ -284,7 +284,7 @@
 <p>Πρακτικά, με κάθε πααραγώγιση όλοι οι όροι μικραίνουν κατά μία δύναμη και ο προηγούμενος σταθερός όρος εξαφανίζεται. Έτσι, μετά από τρεις παραγωγίσεις ο συντελεστής του όρου που αρχικά ήταν τριτοβάθμιος τώρα θα είναι πλέον ο σταθερός όρος της τρίτης παραγώγου. Για την ακρίβεια, επειδή σε κάθε παραγώγιση ο όρος αυτός θα πολλαπλασιάζεται και με τον εκθέτη του  <span class="math notranslate nohighlight">\(x\)</span>  που έχει δίπλα του, επομένως, στο παράδειγμά μας, θα έχει πολλαπλασιαστεί τελικά με τον  <span class="math notranslate nohighlight">\(3\cdot2\cdot1=3!\)</span> .</p>
 <p>Γενικότερα, λοιπόν, αν  <span class="math notranslate nohighlight">\(p_k\)</span>  είναι ο συντελεστής του  <span class="math notranslate nohighlight">\(x^k\)</span>  αν αναπτύξουμε την  <span class="math notranslate nohighlight">\(f_n\)</span>  σε δυνάμεις του  <span class="math notranslate nohighlight">\(x,\)</span>  τότε ο σταθερός όρος της  <span class="math notranslate nohighlight">\(f_n^{(k)}\)</span>  θα είναι o  <span class="math notranslate nohighlight">\(k!p_k.\)</span>  Επομένως, για να βρούμε τους πολυπόθητους σταθερούς όρους  <span class="math notranslate nohighlight">\(f_n^{(2k)}(0)\)</span>  θα πρέπει να βρούμε τους όρους των δυνάμεων του  <span class="math notranslate nohighlight">\(x^k\)</span>  στο ανάπτυγμα της  <span class="math notranslate nohighlight">\(f_n.\)</span>  Παρατηρούμε, λοιπόν, χρησιμοποιώντας το <a class="reference external" href="https://en.wikipedia.org/wiki/Binomial_coefficient#Definition_and_interpretations">διωνυμικό ανάπτυγμ</a>α, ότι:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}f_n(x)&amp;=\frac{x^n(a-bx)^n}{n!}=\&amp;=\frac{x^n}{n!}\sum_{k=0}^n\binom{n}{k}(-bx)^ka^{n-k}=\&amp;=\frac{x^n}{n!}\sum_{k=0}^n\binom{n}{k}(-1)^kb^ka^{n-k}x^k=\&amp;=\sum_{k=0}^n\binom{n}{k}(-1)^k\frac{b^ka^{n-k}}{n!}x^{n+k}.\end{aligned}\]</div>
+\[\begin{align}f_n(x)&amp;=\frac{x^n(a-bx)^n}{n!}=\&amp;=\frac{x^n}{n!}\sum_{k=0}^n\binom{n}{k}(-bx)^ka^{n-k}=\&amp;=\frac{x^n}{n!}\sum_{k=0}^n\binom{n}{k}(-1)^kb^ka^{n-k}x^k=\&amp;=\sum_{k=0}^n\binom{n}{k}(-1)^k\frac{b^ka^{n-k}}{n!}x^{n+k}.\end{align}\]</div>
 <p>Επομένως, ο πολυπόθητος συντελεστής μας είναι ο:</p>
 <div class="math notranslate nohighlight">
 \[p_k:=\binom{n}{k}\frac{b^ka^{n-k}}{n!}=\frac{M_{k,n}}{n!},\]</div>

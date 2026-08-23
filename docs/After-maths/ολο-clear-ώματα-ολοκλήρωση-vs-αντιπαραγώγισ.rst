@@ -104,7 +104,7 @@ Wellcome!
 
 Δυστυχώς, όπως λέει και η λεζάντα, η  :math:`f`  είναι φραγμένη... Ας πάμε να δούμε τι πήγε «λάθος» στην επιλογή της  :math:`F` . Προφανώς, επιδιώκουμε να «χαλάσουμε» το φράξιμο της  :math:`f`  κοντά στο 0, οπότε και θα θέλαμε να εμφανιστεί μετά την παραγώγιση ένας όρος της μορφής  :math:`\dfrac{1}{x}` . Παραγωγίζοντας την  :math:`F` , βλέπουμε ότι:
 
-.. math:: \begin{aligned}\left(x^2\sin\dfrac{1}{x}\right)'&=(x^2)'\sin\dfrac{1}{x}+x^2\left(\sin\dfrac{1}{x}\right)'\&=2x\sin\dfrac{1}{x}+x^2\cos\dfrac{1}{x}\left(\dfrac{1}{x}\right)'\&=2x\sin\dfrac{1}{x}+x^2\cos\dfrac{1}{x}\left(-\dfrac{1}{x^2}\right)\&=2x\sin\dfrac{1}{x}-\cos\dfrac{1}{x}.\end{aligned}
+.. math:: \begin{align}\left(x^2\sin\dfrac{1}{x}\right)'&=(x^2)'\sin\dfrac{1}{x}+x^2\left(\sin\dfrac{1}{x}\right)'\&=2x\sin\dfrac{1}{x}+x^2\cos\dfrac{1}{x}\left(\dfrac{1}{x}\right)'\&=2x\sin\dfrac{1}{x}+x^2\cos\dfrac{1}{x}\left(-\dfrac{1}{x^2}\right)\&=2x\sin\dfrac{1}{x}-\cos\dfrac{1}{x}.\end{align}
 
 Αν είχαμε έναν παράγοντα της μορφής  :math:`\dfrac{1}{x}`  δίπλα στο  :math:`\cos\frac{1}{x}` , τότε θα ήταν όλα όμορφα. Όμως, το  :math:`-\dfrac{1}{x^2}`  που εμφανίζεται κατά την παραγώγιση «σκοτώνεται» με το  :math:`x^2` .
 
@@ -223,7 +223,7 @@ Wellcome!
 
 Αυτό το ολοκληρωματάκι, υπολογίζεται χρησιμοποιώντας την ταυτότητα  :math:`\cos^2s=\dfrac{1+\cos2s}{2}` :
 
-.. math:: \begin{aligned}\int_0^{\pi/2}\cos^2sds&=\int_0^{\pi/2}\frac{1+\cos2s}{2}ds=\&=\left[\frac{s}{2}+\frac{\sin2s}{4}\right]_0^{\pi/2}=\&=\frac{\pi}{4}.\end{aligned}
+.. math:: \begin{align}\int_0^{\pi/2}\cos^2sds&=\int_0^{\pi/2}\frac{1+\cos2s}{2}ds=\&=\left[\frac{s}{2}+\frac{\sin2s}{4}\right]_0^{\pi/2}=\&=\frac{\pi}{4}.\end{align}
 
 Για  :math:`t\neq\pm1`  και  :math:`t\neq0`  θα θέλαμε να κάνουμε την παραδοσιακή διάσπαση απλούστερα κλάσματα. Η αλήθεια είναι ότι, αντί να διασπάσουμε την προς ολοκλήρωση συνάρτηση, θα διασπάσουμε την απλούστερη συνάρτηση:
 
@@ -259,7 +259,7 @@ Wellcome!
 
 Ανάλογα μπορούμε να δουλέψουμε και για το πρώτο ολοκλήρωμα, θέτοντας  :math:`u=\dfrac{\tan s}{t}` , οπότε  :math:`du=\dfrac{ds}{t\cos^2s}`  και:
 
-.. math:: \begin{aligned}\int_0^\infty\frac{1}{1+t^2u^2}du&=\int_0^{\pi/2}\frac{1}{t\cos^2s(1+\tan^2s)}ds=\&=\int_0^{\pi/2}\frac{1}{t}ds=\&=\frac{\pi}{2t}.\end{aligned}
+.. math:: \begin{align}\int_0^\infty\frac{1}{1+t^2u^2}du&=\int_0^{\pi/2}\frac{1}{t\cos^2s(1+\tan^2s)}ds=\&=\int_0^{\pi/2}\frac{1}{t}ds=\&=\frac{\pi}{2t}.\end{align}
 
 Επομένως, μετά κόπων και βασάνων, έχουμε βρει ότι, για  :math:`t\neq\pm1`  και  :math:`t\neq0` :
 

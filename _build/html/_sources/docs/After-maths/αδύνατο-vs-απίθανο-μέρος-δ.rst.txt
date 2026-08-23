@@ -92,7 +92,7 @@
 
 Ας πάρουμε τώρα δύο σύνολα  :math:`A,B\in\mathcal{M}`  κι ένα σύνολο  :math:`C\subseteq X.`  Παρατηρούμε διαδοχικά ότι:
 
-.. math:: \begin{aligned}p(C)&=p(C\cap A)+p(C\setminus A)=\&=p(C\cap A\cap B)+p((C\cap A)\setminus B)+p(C\setminus A)=\&=p(C\cap A\cap B)+p(C\cap A\cap(X\setminus B))+p(C\cap(X\setminus A))=\&=p(C\cap A\cap B)+p(C\cap A\cap(X\setminus (A\cap B)))+p(C\cap(X\setminus A)\cap(X\setminus(A\cap B)))=\&=p(C\cap A\cap B)+p((C\cap(X\setminus (A\cap B)))\cap A)+p(C\cap A\cap B)+p((C\cap(X\setminus (A\cap B)))\cap (X\setminus A))=\&=p(C\cap(A\cap B))+p(C\cap(X\setminus(A\cap B)))=\&=p(C\cap(A\cap B))+p(C\setminus(A\cap B)).\end{aligned}
+.. math:: \begin{align}p(C)&=p(C\cap A)+p(C\setminus A)=\&=p(C\cap A\cap B)+p((C\cap A)\setminus B)+p(C\setminus A)=\&=p(C\cap A\cap B)+p(C\cap A\cap(X\setminus B))+p(C\cap(X\setminus A))=\&=p(C\cap A\cap B)+p(C\cap A\cap(X\setminus (A\cap B)))+p(C\cap(X\setminus A)\cap(X\setminus(A\cap B)))=\&=p(C\cap A\cap B)+p((C\cap(X\setminus (A\cap B)))\cap A)+p(C\cap A\cap B)+p((C\cap(X\setminus (A\cap B)))\cap (X\setminus A))=\&=p(C\cap(A\cap B))+p(C\cap(X\setminus(A\cap B)))=\&=p(C\cap(A\cap B))+p(C\setminus(A\cap B)).\end{align}
 
 Αν αγνοήσουμε λίγο τα τεχνάσματα με τις πράξεις συνόλων που κάναμε παραπάνω, αυτό που έχουμε δείξει ως τώρα είναι ότι το  :math:`A\cap B`  κόβει επίσης καλά το  :math:`C,`  και άρα  :math:`A\cap B\in\mathcal{M}.`  Επομένως, η  :math:`\mathcal{M}`  είναι μία άλγεβρα. Αν καταφέρουμε και αποδείξουμε ότι είναι επίσης και σ-άλγεβρα, τότε θα έχουμε βρει ένα αρκετά φυσιολογικό πεδίο ορισμού για το  :math:`p.` 
 

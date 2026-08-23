@@ -331,7 +331,7 @@
 
 Τώρα, ας πάρουμε τον παραπάνω αριθμό κι ας ακολουθήσουμε το μονοπάτι τον κατασκευάσιμων πράξεων που μας οδήγησαν σε αυτόν προς τα πίσω:
 
-.. math:: \begin{aligned}&\hphantom{\Leftrightarrow}\ a=\sqrt[8]{3+\frac{2}{1+\sqrt{2}}}\&\Leftrightarrow a^8=3+\frac{2}{1+\sqrt{2}}\&\Leftrightarrow a^8-3=\frac{1}{1+\sqrt{2}}\&\Leftrightarrow a^8-3=\frac{1-\sqrt{2}}{(1+\sqrt{2})(1-\sqrt{2})}\&\Leftrightarrow a^8-3=\frac{1-\sqrt{2}}{3}\&\Leftrightarrow 3a^8-9=1-\sqrt{2}\&\Leftrightarrow3a^8-10=-\sqrt{2}\&\Leftrightarrow-3a^8+10=\sqrt{2}\&\Leftrightarrow\left(-3a^8+10\right)^2=2\&\Leftrightarrow\left(-3a^8+10\right)^2-2=0.\end{aligned}
+.. math:: \begin{align}&\hphantom{\Leftrightarrow}\ a=\sqrt[8]{3+\frac{2}{1+\sqrt{2}}}\&\Leftrightarrow a^8=3+\frac{2}{1+\sqrt{2}}\&\Leftrightarrow a^8-3=\frac{1}{1+\sqrt{2}}\&\Leftrightarrow a^8-3=\frac{1-\sqrt{2}}{(1+\sqrt{2})(1-\sqrt{2})}\&\Leftrightarrow a^8-3=\frac{1-\sqrt{2}}{3}\&\Leftrightarrow 3a^8-9=1-\sqrt{2}\&\Leftrightarrow3a^8-10=-\sqrt{2}\&\Leftrightarrow-3a^8+10=\sqrt{2}\&\Leftrightarrow\left(-3a^8+10\right)^2=2\&\Leftrightarrow\left(-3a^8+10\right)^2-2=0.\end{align}
 
 Ωραία, αυτό που καταφέραμε ίσως φαίνεται χαζό, αλλά είναι πολύ σημαντικό. Μόλις δείξαμε ότι ο  :math:`a`  που είναι ένας κακάσχημος κατασκευάσιμος αριθμός είναι ρίζα ενός πολυωνύμου. Μάλιστα, το πολυώνυμο που καταλήξαμε δεν είναι ό,τι κι ό,τι, αλλά ένα πολυώνυμο με *ακέραιους συντελεστές!* Συνεπώς, ο  :math:`a`  είναι αυτό που λέμε *αλγεβρικός αριθμός* - τους είδαμε πρόσφατα `εδώ  <docs/After-maths/η-υπερβατικότητα-του-π.rst>`__ και παλιότερα `εδώ  <docs/After-maths/υπeρβάσεις.rst>`__. Μπορούμε, άραγε, να γενικεύσουμε το παραπάνω παράδειγμα και να αποδείξουμε ότι κάθε κατασκευάσιμος αριθμός είναι και αλγεβρικός;
 
@@ -397,7 +397,7 @@
 
 Κάνουμε λίγες πράξεις και παρατηρούμε ότι:
 
-.. math:: \begin{aligned}p(x+y\sqrt{q_n})&=\left(x+y\sqrt{q_n}\right)^3-2=\&=x^3+3x^2y\sqrt{q_n}+3xy^2q_n+y^3q_n\sqrt{q_n}-2=\&=\underbrace{x^3+3xy^2q_n-2}_{A}+\underbrace{3x^2y+y^3q_n}_{B}\sqrt{q_n}.\end{aligned}
+.. math:: \begin{align}p(x+y\sqrt{q_n})&=\left(x+y\sqrt{q_n}\right)^3-2=\&=x^3+3x^2y\sqrt{q_n}+3xy^2q_n+y^3q_n\sqrt{q_n}-2=\&=\underbrace{x^3+3xy^2q_n-2}_{A}+\underbrace{3x^2y+y^3q_n}_{B}\sqrt{q_n}.\end{align}
 
 Παρατηρούμε επίσης ότι  :math:`A,B\in\mathbb{Q}[a_1,\ldots,a_{n-1}]`  ενώ, αφού  :math:`p(x+y\sqrt{q_n})=0`  έπεται ότι:
 
@@ -436,7 +436,7 @@
 
 Επειδή έχουμε να κάνουμε με τριχοτόμηση, θα αποδείξουμε στα γρήγορα μία ταυτότητα που έχει να κάνει με τριπλάσια τόξα:
 
-.. math:: \begin{aligned}\cos3x&=\cos(x+2x)=\&=\cos x\cos2x-\sin x\sin2x=\&=\cos x\left(2\cos^2x-1\right)-\sin x(2\sin x\cos x)=\&=2\cos^3x-\cos x-2\sin^2x\cos x=\&=2\cos^3x-\cos x-2\left(1-\cos^2x\right)\cos x=\&=4\cos^3x-3\cos x.\end{aligned}
+.. math:: \begin{align}\cos3x&=\cos(x+2x)=\&=\cos x\cos2x-\sin x\sin2x=\&=\cos x\left(2\cos^2x-1\right)-\sin x(2\sin x\cos x)=\&=2\cos^3x-\cos x-2\sin^2x\cos x=\&=2\cos^3x-\cos x-2\left(1-\cos^2x\right)\cos x=\&=4\cos^3x-3\cos x.\end{align}
 
 Συνεπώς, θέτοντας  :math:`x=20^\circ`  παρατηρούμε ότι:
 

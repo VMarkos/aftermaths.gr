@@ -280,7 +280,7 @@
 
 Τώρα, από την πυκνότητα των ρητών, υπάρχει ένας ρητός αριθμός  :math:`q\in\mathbb{Q}`  έτσι ώστε  :math:`q\in(x-\delta,x+\delta),`  επομένως  :math:`\|x-q|<\delta`  και άρα αληθεύουν τα συμπεράσματα και των δύο παραπάνω συνεπαγωγών. Επομένως, έχουμε - θυμηθείτε ότι  :math:`f(q)=a^q`  δεδομένου ότι ο  :math:`q`  είναι ρητός:
 
-.. math:: \begin{aligned}|f(x)-a^x|&=|f(x)-f(q)+f(q)-a^x|=\&=|f(x)-f(q)+a^q-a^x|\&\leq|f(x)-f(q)|+|a^q-a^x|\&<\frac{\varepsilon}{2}+\frac{\varepsilon}{2}=\&=\varepsilon.\end{aligned}
+.. math:: \begin{align}|f(x)-a^x|&=|f(x)-f(q)+f(q)-a^x|=\&=|f(x)-f(q)+a^q-a^x|\&\leq|f(x)-f(q)|+|a^q-a^x|\&<\frac{\varepsilon}{2}+\frac{\varepsilon}{2}=\&=\varepsilon.\end{align}
 
 Συνεπώς, αποδείξαμε ότι  :math:`\|f(x)-a^x|<\varepsilon.`  Επειδή, τώρα, το  :math:`\varepsilon`  δεν είχε κάποια ιδιαίτερη ιδιότητα πέρα από το να είναι θετικό, το παραπάνω θα ισχύει για κάθε  :math:`\varepsilon>0,`  επομένως  :math:`\|f(x)-a^x|=0`  και άρα,  :math:`f(x)=a^x`  - κι επειδή και το  :math:`x`  ήταν αυθαίρετο, το ίδιο ισχύει και για κάθε  :math:`x\in\mathbb{R}.`  Συνεπώς, πράγματι, η  :math:`f`  είναι εκθετική!
 

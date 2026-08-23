@@ -261,7 +261,7 @@
 </figure>
 <p>Δυστυχώς, όπως λέει και η λεζάντα, η  <span class="math notranslate nohighlight">\(f\)</span>  είναι φραγμένη… Ας πάμε να δούμε τι πήγε «λάθος» στην επιλογή της  <span class="math notranslate nohighlight">\(F\)</span> . Προφανώς, επιδιώκουμε να «χαλάσουμε» το φράξιμο της  <span class="math notranslate nohighlight">\(f\)</span>  κοντά στο 0, οπότε και θα θέλαμε να εμφανιστεί μετά την παραγώγιση ένας όρος της μορφής  <span class="math notranslate nohighlight">\(\dfrac{1}{x}\)</span> . Παραγωγίζοντας την  <span class="math notranslate nohighlight">\(F\)</span> , βλέπουμε ότι:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}\left(x^2\sin\dfrac{1}{x}\right)'&amp;=(x^2)'\sin\dfrac{1}{x}+x^2\left(\sin\dfrac{1}{x}\right)'\&amp;=2x\sin\dfrac{1}{x}+x^2\cos\dfrac{1}{x}\left(\dfrac{1}{x}\right)'\&amp;=2x\sin\dfrac{1}{x}+x^2\cos\dfrac{1}{x}\left(-\dfrac{1}{x^2}\right)\&amp;=2x\sin\dfrac{1}{x}-\cos\dfrac{1}{x}.\end{aligned}\]</div>
+\[\begin{align}\left(x^2\sin\dfrac{1}{x}\right)'&amp;=(x^2)'\sin\dfrac{1}{x}+x^2\left(\sin\dfrac{1}{x}\right)'\&amp;=2x\sin\dfrac{1}{x}+x^2\cos\dfrac{1}{x}\left(\dfrac{1}{x}\right)'\&amp;=2x\sin\dfrac{1}{x}+x^2\cos\dfrac{1}{x}\left(-\dfrac{1}{x^2}\right)\&amp;=2x\sin\dfrac{1}{x}-\cos\dfrac{1}{x}.\end{align}\]</div>
 <p>Αν είχαμε έναν παράγοντα της μορφής  <span class="math notranslate nohighlight">\(\dfrac{1}{x}\)</span>  δίπλα στο  <span class="math notranslate nohighlight">\(\cos\frac{1}{x}\)</span> , τότε θα ήταν όλα όμορφα. Όμως, το  <span class="math notranslate nohighlight">\(-\dfrac{1}{x^2}\)</span>  που εμφανίζεται κατά την παραγώγιση «σκοτώνεται» με το  <span class="math notranslate nohighlight">\(x^2\)</span> .</p>
 <p>Με αυτό κατά νου, ας δούμε τι θα έκανε η συνάρτηση:</p>
 <div class="math notranslate nohighlight">
@@ -349,7 +349,7 @@
 \[g'(\pm1)=\int_0^{\pi/2}\frac{1}{\cos^2(1+\tan^2s)^2}ds=\int_0^{\pi/2}\cos^2sds.\]</div>
 <p>Αυτό το ολοκληρωματάκι, υπολογίζεται χρησιμοποιώντας την ταυτότητα  <span class="math notranslate nohighlight">\(\cos^2s=\dfrac{1+\cos2s}{2}\)</span> :</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}\int_0^{\pi/2}\cos^2sds&amp;=\int_0^{\pi/2}\frac{1+\cos2s}{2}ds=\&amp;=\left[\frac{s}{2}+\frac{\sin2s}{4}\right]_0^{\pi/2}=\&amp;=\frac{\pi}{4}.\end{aligned}\]</div>
+\[\begin{align}\int_0^{\pi/2}\cos^2sds&amp;=\int_0^{\pi/2}\frac{1+\cos2s}{2}ds=\&amp;=\left[\frac{s}{2}+\frac{\sin2s}{4}\right]_0^{\pi/2}=\&amp;=\frac{\pi}{4}.\end{align}\]</div>
 <p>Για  <span class="math notranslate nohighlight">\(t\neq\pm1\)</span>  και  <span class="math notranslate nohighlight">\(t\neq0\)</span>  θα θέλαμε να κάνουμε την παραδοσιακή διάσπαση απλούστερα κλάσματα. Η αλήθεια είναι ότι, αντί να διασπάσουμε την προς ολοκλήρωση συνάρτηση, θα διασπάσουμε την απλούστερη συνάρτηση:</p>
 <div class="math notranslate nohighlight">
 \[\dfrac{1}{(1+t^2v)(1+v)}.\]</div>
@@ -376,7 +376,7 @@
 \[\int_0^\infty\frac{1}{1+u^2}du=\frac{\pi}{2}.\]</div>
 <p>Ανάλογα μπορούμε να δουλέψουμε και για το πρώτο ολοκλήρωμα, θέτοντας  <span class="math notranslate nohighlight">\(u=\dfrac{\tan s}{t}\)</span> , οπότε  <span class="math notranslate nohighlight">\(du=\dfrac{ds}{t\cos^2s}\)</span>  και:</p>
 <div class="math notranslate nohighlight">
-\[\begin{aligned}\int_0^\infty\frac{1}{1+t^2u^2}du&amp;=\int_0^{\pi/2}\frac{1}{t\cos^2s(1+\tan^2s)}ds=\&amp;=\int_0^{\pi/2}\frac{1}{t}ds=\&amp;=\frac{\pi}{2t}.\end{aligned}\]</div>
+\[\begin{align}\int_0^\infty\frac{1}{1+t^2u^2}du&amp;=\int_0^{\pi/2}\frac{1}{t\cos^2s(1+\tan^2s)}ds=\&amp;=\int_0^{\pi/2}\frac{1}{t}ds=\&amp;=\frac{\pi}{2t}.\end{align}\]</div>
 <p>Επομένως, μετά κόπων και βασάνων, έχουμε βρει ότι, για  <span class="math notranslate nohighlight">\(t\neq\pm1\)</span>  και  <span class="math notranslate nohighlight">\(t\neq0\)</span> :</p>
 <div class="math notranslate nohighlight">
 \[g'(t)=-\frac{t^2}{1-t^2}\frac{\pi}{2t}+\frac{\pi}{2}\frac{1}{1-t^2}=\frac{\pi}{2}\frac{1-t}{1-t^2}=\frac{\pi}{2}\frac{1}{1+t}.\]</div>

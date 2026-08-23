@@ -173,7 +173,7 @@
 
 Τέλος, ας παρατηρήσουμε τώρα ότι οι  :math:`(a_n),(b_n')`  είναι φραγμένες, ως βασικές, επομένως υπάρχουν  :math:`M,N>0`  με  :math:`\|a_n|\leq M`  και  :math:`\|b_n'|\leq N`  και έχουμε:
 
-.. math:: \begin{aligned}|a_nb_n-a_n'b_n'|&=|a_n(b_n-b_n')+b_n'(a_n-a_n')|\&\leq|a_n||b_n-b_n'|+|b_n'||a_n-a_n'|\&\leq M|b_n-b_n'|+N|a_n-a_n'|\to0,\end{aligned}
+.. math:: \begin{align}|a_nb_n-a_n'b_n'|&=|a_n(b_n-b_n')+b_n'(a_n-a_n')|\&\leq|a_n||b_n-b_n'|+|b_n'||a_n-a_n'|\&\leq M|b_n-b_n'|+N|a_n-a_n'|\to0,\end{align}
 
 συνεπώς και  :math:`a_nb_n-a_n'b_n'\to0`  όπως θέλαμε.
 
@@ -193,7 +193,7 @@
 
 Η παραπάνω ακολουθία μπορούμε να δείξουμε ότι είναι βασική, αφού για κάθε  :math:`n>m>k`  ισχύει:
 
-.. math:: \begin{aligned}|b_n-b_m|&=\left|\frac{1}{a_n}-\frac{1}{a_m}\right|=\&=\left|\frac{a_m-a_n}{a_na_m}\right|=\&=\frac{|a_n-a_m|}{|a_na_m|}\end{aligned}
+.. math:: \begin{align}|b_n-b_m|&=\left|\frac{1}{a_n}-\frac{1}{a_m}\right|=\&=\left|\frac{a_m-a_n}{a_na_m}\right|=\&=\frac{|a_n-a_m|}{|a_na_m|}\end{align}
 
 Εδώ παρατηρούμε ότι  :math:`\|a_n|>\frac{\varepsilon_0}{2}\Leftrightarrow\frac{1}{|a_n|}<\frac{2}{\varepsilon_0}`  για κάθε  :math:`n>k`  και άρα  :math:`\frac{1}{|a_na_m|}<\frac{4}{\varepsilon_0^2}` , συνεπώς:
 
