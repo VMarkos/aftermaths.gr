@@ -5,7 +5,7 @@
 	:date: 2020-04-16 08:44
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πίνακες, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, επανάληψη
+	:tags: πίνακες, πανελλήνιες, στατιστική, Γʹ λυκείου, ΕΠΑΛ, επανάληψη
 	:slug: %cf%80%ce%af%ce%bd%ce%b1%ce%ba%ce%b5%cf%82-%cf%83%cf%85%cf%87%ce%bd%ce%bf%cf%84%ce%ae%cf%84%cf%89%ce%bd
 	:status: published
 	:attachments: _static/images/uploads/2020/04/rembrandt_harmensz._van_rijn_-_portret_van_een_paar_als_oudtestamentische_figuren_genaamd_het_joodse_bruidje_-_google_art_project.jpg

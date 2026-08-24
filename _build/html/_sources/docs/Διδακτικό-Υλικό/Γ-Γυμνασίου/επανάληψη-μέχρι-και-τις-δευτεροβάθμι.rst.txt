@@ -5,7 +5,7 @@
 	:date: 2020-03-14 12:50
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, παραγοντοποίηση, ταυτότητες, Γ' Γυμνασίου, ασκήσεις, δευτεροβάθμιες, επανάληψη, εξισώσεις
+	:tags: προβλήματα, παραγοντοποίηση, ταυτότητες, Γʹ Γυμνασίου, ασκήσεις, δευτεροβάθμιες, επανάληψη, εξισώσεις
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%ce%bc%ce%ad%cf%87%cf%81%ce%b9-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b9%cf%82-%ce%b4%ce%b5%cf%85%cf%84%ce%b5%cf%81%ce%bf%ce%b2%ce%ac%ce%b8%ce%bc%ce%b9
 	:status: published
 	:attachments: _static/images/uploads/2020/03/rembrandt_de_aartsengel_verlaat_tobias_en_zijn_gezin._1637.jpg

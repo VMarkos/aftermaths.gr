@@ -5,7 +5,7 @@
 	:date: 2019-11-19 12:27
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, Workshop
+	:tags: προβλήματα, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γʹ λυκείου, ασκήσεις, επανάληψη, Workshop
 	:slug: 4o-workshop
 	:status: published
 	:attachments: _static/images/uploads/2019/11/800px-warwick_castle_the_east_front_by_canaletto_1752.jpg

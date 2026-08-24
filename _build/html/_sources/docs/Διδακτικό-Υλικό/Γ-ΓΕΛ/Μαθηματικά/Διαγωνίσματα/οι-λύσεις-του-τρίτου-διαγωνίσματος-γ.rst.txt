@@ -1,11 +1,11 @@
-Οι λύσεις του τρίτου διαγωνίσματος (Γ' Λυκείου)
+Οι λύσεις του τρίτου διαγωνίσματος (Γʹ Λυκείου)
 ###############################################
 
 .. meta::
 	:date: 2019-04-04 21:45
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, διαγώνισμα, επανάληψη, λύσεις
+	:tags: προβλήματα, πανελλήνιες, Γʹ λυκείου, ασκήσεις, διαγώνισμα, επανάληψη, λύσεις
 	:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%84%cf%81%ce%af%cf%84%ce%bf%cf%85-%ce%b4%ce%b9%ce%b1%ce%b3%cf%89%ce%bd%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%ce%b3
 	:status: published
 	:attachments: _static/images/uploads/2019/04/cafc3a9tafel_met_absint_-_s0186v1962_-_van_gogh_museum.jpg

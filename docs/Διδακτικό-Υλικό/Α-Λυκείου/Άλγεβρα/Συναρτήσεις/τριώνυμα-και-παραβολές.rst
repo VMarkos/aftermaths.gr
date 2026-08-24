@@ -5,7 +5,7 @@
 	:date: 2020-05-09 14:27
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, παραβολή, συναρτήσεις, τριώνυμο, Α' Λυκείου, ασκήσεις, δευτεροβάθμιες
+	:tags: προβλήματα, παραβολή, συναρτήσεις, τριώνυμο, Αʹ Λυκείου, ασκήσεις, δευτεροβάθμιες
 	:slug: %cf%84%cf%81%ce%b9%cf%8e%ce%bd%cf%85%ce%bc%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%80%ce%b1%cf%81%ce%b1%ce%b2%ce%bf%ce%bb%ce%ad%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2020/05/789px-delftsedonderslag.jpg

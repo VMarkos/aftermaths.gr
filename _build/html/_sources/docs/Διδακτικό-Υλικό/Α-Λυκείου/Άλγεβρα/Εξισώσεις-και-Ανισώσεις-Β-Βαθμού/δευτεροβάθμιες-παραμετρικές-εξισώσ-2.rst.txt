@@ -5,7 +5,7 @@
 	:date: 2020-03-01 13:52
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, παραμετρικές, Α' Λυκείου, ασκήσεις, ανισώσεις, δευτεροβάθμιες, εξισώσεις
+	:tags: προβλήματα, παραμετρικές, Αʹ Λυκείου, ασκήσεις, ανισώσεις, δευτεροβάθμιες, εξισώσεις
 	:slug: %ce%b4%ce%b5%cf%85%cf%84%ce%b5%cf%81%ce%bf%ce%b2%ce%ac%ce%b8%ce%bc%ce%b9%ce%b5%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%bc%ce%b5%cf%84%cf%81%ce%b9%ce%ba%ce%ad%cf%82-%ce%b5%ce%be%ce%b9%cf%83%cf%8e%cf%83-2
 	:status: published
 	:attachments: _static/images/uploads/2020/03/rembrandt_-_susanna_and_the_elders_-_wga19104.jpg

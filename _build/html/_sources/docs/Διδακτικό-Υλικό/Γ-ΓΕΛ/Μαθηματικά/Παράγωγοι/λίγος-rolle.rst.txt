@@ -5,7 +5,7 @@
 	:date: 2022-01-25 19:03
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη, Rolle
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, Γʹ λυκείου, ασκήσεις, επανάληψη, Rolle
 	:slug: %ce%bb%ce%af%ce%b3%ce%bf%cf%82-rolle
 	:status: published
 	:attachments: _static/images/uploads/2022/01/emile_claus_-_summer.jpg

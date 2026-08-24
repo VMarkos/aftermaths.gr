@@ -5,7 +5,7 @@
 	:date: 2019-02-28 11:37
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πολυώνυμα, τεστ, Β' Λυκείου, ασκήσεις, ανισώσεις, λύσεις
+	:tags: προβλήματα, πολυώνυμα, τεστ, Βʹ Λυκείου, ασκήσεις, ανισώσεις, λύσεις
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%80%ce%bf%ce%bb%cf%85%cf%89%ce%bd%cf%85%ce%bc%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%ce%bd%ce%b9%cf%83%cf%8c%cf%84%ce%b7%cf%84
 	:status: published
 	:attachments: _static/images/uploads/2019/02/caspar_david_friedrich_-_riesengebirge_landscape_with_rising_fog_-_wga8257.jpg

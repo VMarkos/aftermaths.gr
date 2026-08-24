@@ -5,7 +5,7 @@
 	:date: 2018-09-16 15:14
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: Α' Λυκείου, ασκήσεις, ανισώσεις, δευτεροβάθμιες
+	:tags: Αʹ Λυκείου, ασκήσεις, ανισώσεις, δευτεροβάθμιες
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%ce%bd%ce%b9%cf%83%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%b4%ce%b5%cf%85%cf%84%ce%ad%cf%81%ce%bf%cf%85-%ce%b2%ce%b1%ce%b8
 	:status: published
 	:attachments: _static/images/uploads/2018/09/300px-sky_and_water_i.jpg

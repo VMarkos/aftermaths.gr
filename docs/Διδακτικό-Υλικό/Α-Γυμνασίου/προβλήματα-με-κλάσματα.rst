@@ -5,7 +5,7 @@
 	:date: 2019-11-19 14:10
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πράξεις, προβλήματα, ποσοστά, Α' Γυμνασίου, ασκήσεις, επανάληψη, κλάσματα
+	:tags: πράξεις, προβλήματα, ποσοστά, Αʹ Γυμνασίου, ασκήσεις, επανάληψη, κλάσματα
 	:slug: %cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%ce%bc%ce%b5-%ce%ba%ce%bb%ce%ac%cf%83%ce%bc%ce%b1%cf%84%ce%b1
 	:status: published
 	:attachments: _static/images/uploads/2019/11/800px-giovanni_antonio_canal_called_il_canaletto_-_prc3a0_della_valle_in_padua_-_google_art_project.jpg

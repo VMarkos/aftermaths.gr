@@ -1,11 +1,11 @@
-Ασκήσεις στα ακρότατα αριθμητικών παραστάσεων (Α' λυκείου)
+Ασκήσεις στα ακρότατα αριθμητικών παραστάσεων (Αʹ λυκείου)
 ##########################################################
 
 .. meta::
 	:date: 2018-10-13 14:49
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: παραστάσεις, Α' Λυκείου, ασκήσεις, επανάληψη
+	:tags: παραστάσεις, Αʹ Λυκείου, ασκήσεις, επανάληψη
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b1-%ce%b1%ce%ba%cf%81%cf%8c%cf%84%ce%b1%cf%84%ce%b1-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%b7%cf%84%ce%b9%ce%ba%cf%8e%ce%bd-%cf%80%ce%b1
 	:status: published
 	:attachments: _static/images/uploads/2018/10/800px-trompe_loeil-_brevvc3a6g_med_kamfoder_og_nodehc3a6fte.jpg

@@ -5,7 +5,7 @@
 	:date: 2019-02-20 23:37
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πολυώνυμα, τεστ, Β' Λυκείου, εξισώσεις
+	:tags: πολυώνυμα, τεστ, Βʹ Λυκείου, εξισώσεις
 	:slug: %ce%ad%ce%bd%ce%b1-%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%83%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%cf%85%cf%8e%ce%bd%cf%85%ce%bc%ce%b1
 	:status: published
 	:attachments: _static/images/uploads/2019/02/405px-arcimboldo_earth.jpg

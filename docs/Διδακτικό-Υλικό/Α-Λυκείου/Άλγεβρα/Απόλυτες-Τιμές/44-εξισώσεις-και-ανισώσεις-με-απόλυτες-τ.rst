@@ -5,7 +5,7 @@
 	:date: 2019-11-18 12:51
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, Α' Λυκείου, απόλυτη τιμή, ασκήσεις, ανισώσεις, επανάληψη, εξισώσεις
+	:tags: προβλήματα, Αʹ Λυκείου, απόλυτη τιμή, ασκήσεις, ανισώσεις, επανάληψη, εξισώσεις
 	:slug: 44-%ce%b5%ce%be%ce%b9%cf%83%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%ba%ce%b1%ce%b9-%ce%b1%ce%bd%ce%b9%cf%83%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b5-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84
 	:status: published
 	:attachments: _static/images/uploads/2019/11/800px-canaletto_-_s._geremia_and_the_entrance_to_the_cannaregio_rcin_400532.jpg

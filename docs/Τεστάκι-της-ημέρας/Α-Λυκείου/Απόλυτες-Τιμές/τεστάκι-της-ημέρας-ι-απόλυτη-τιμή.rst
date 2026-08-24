@@ -5,7 +5,7 @@
 	:date: 2021-11-12 11:29
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-	:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, ασκήσεις, επανάληψη
+	:tags: τεστ, Αʹ Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, ασκήσεις, επανάληψη
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-%ce%b9-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b7-%cf%84%ce%b9%ce%bc%ce%ae
 	:status: published
 	:attachments: _static/images/uploads/2021/11/796px-jacques-louis_david_-_marat_assassinated_-_google_art_project_2.jpg
@@ -17,7 +17,7 @@
 	Ο πίνακας *Ο θάνατος του Μαράτ* του `Jacques-Louis David  <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
 
 
-Ένα μικρό τεστ στον υπολογισμό της απόλυτης τιμής παραστάσεων - Άλγεβρα, Α' Γενικού Λυκείου και ΕΠΑΛ.
+Ένα μικρό τεστ στον υπολογισμό της απόλυτης τιμής παραστάσεων - Άλγεβρα, Αʹ Γενικού Λυκείου και ΕΠΑΛ.
 
 Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1lOid3cWFSHzlXgd-pl9lfodkjLF1vPVB/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 

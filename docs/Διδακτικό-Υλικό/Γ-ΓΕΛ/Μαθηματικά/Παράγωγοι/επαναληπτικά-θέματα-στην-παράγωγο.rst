@@ -5,7 +5,7 @@
 	:date: 2020-02-04 17:29
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, Γʹ λυκείου, ασκήσεις, επανάληψη
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ac-%ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b7%ce%bd-%cf%80%ce%b1%cf%81%ce%ac%ce%b3%cf%89%ce%b3%ce%bf
 	:status: published
 	:attachments: _static/images/uploads/2020/02/408px-rembrandt_van_rijn_-_a_polish_nobleman.jpg

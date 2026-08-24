@@ -5,7 +5,7 @@
 	:date: 2022-03-06 11:59
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, Vieta
+	:tags: προβλήματα, Αʹ Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, Vieta
 	:slug: %ce%ba%ce%ac%cf%84%ce%b9-%cf%84%cf%8d%cf%80%ce%bf%ce%b9-%cf%83%ce%b1%ce%bd-%cf%84%ce%bf%ce%bd-vieta
 	:status: published
 	:attachments: _static/images/uploads/2022/03/1280px-lawrence_alma-tadema_-_portrait_of_ignacy_jan_paderewski_-_google_art_project.jpg

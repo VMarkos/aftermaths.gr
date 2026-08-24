@@ -5,7 +5,7 @@
 	:date: 2020-02-16 20:58
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, διαγώνισμα, επανάληψη, λύσεις
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γʹ λυκείου, ασκήσεις, διαγώνισμα, επανάληψη, λύσεις
 	:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%ce%b4%ce%b9%ce%b1%ce%b3%cf%89%ce%bd%ce%af%cf%83%ce%bc-6
 	:status: published
 	:attachments: _static/images/uploads/2020/02/800px-rembrandt-lapidation-saint-c389tienne-mba-lyon.jpg

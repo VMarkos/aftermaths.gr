@@ -5,7 +5,7 @@
 	:date: 2019-07-01 22:10
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ασκήσεις, γραφική παράσταση, λύσεις
+	:tags: προβλήματα, πανελλήνιες, συναρτήσεις, τεστ, Γʹ λυκείου, ασκήσεις, γραφική παράσταση, λύσεις
 	:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%cf%84%ce%b5%cf%83%cf%84%ce%b1%ce%ba%ce%af%ce%bf%cf%85-2
 	:status: published
 	:attachments: _static/images/uploads/2019/07/437px-giovanni_battista_piranesi_-_the_drawbridge_-_google_art_project.jpg

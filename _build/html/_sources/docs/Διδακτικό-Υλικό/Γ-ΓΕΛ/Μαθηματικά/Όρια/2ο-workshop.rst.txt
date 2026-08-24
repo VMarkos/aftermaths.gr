@@ -5,7 +5,7 @@
 	:date: 2019-11-06 14:08
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πανελλήνιες, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, μονοτονία, Workshop
+	:tags: προβλήματα, πανελλήνιες, συναρτήσεις, όρια, Γʹ λυκείου, ασκήσεις, μονοτονία, Workshop
 	:slug: 2%ce%bf-workshop
 	:status: published
 	:attachments: _static/images/uploads/2019/11/470px-giovanni_antonio_canal_il_canaletto_-_the_piazzetta_towards_san_giorgio_maggiore_-_wga03873.jpg

@@ -5,7 +5,7 @@
 	:date: 2019-11-19 12:45
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πράξεις, προβλήματα, Α' Γυμνασίου, ασκήσεις, επανάληψη, κλάσματα
+	:tags: πράξεις, προβλήματα, Αʹ Γυμνασίου, ασκήσεις, επανάληψη, κλάσματα
 	:slug: %cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%ce%bc%ce%b5-%cf%80%cf%81%ce%ac%ce%be%ce%b5%ce%b9%cf%82-%ce%ba%ce%bb%ce%b1%cf%83%ce%bc%ce%ac%cf%84%cf%89%ce%bd
 	:status: published
 	:attachments: _static/images/uploads/2019/11/800px-northumberland_house_by_canaletto_1752.jpg

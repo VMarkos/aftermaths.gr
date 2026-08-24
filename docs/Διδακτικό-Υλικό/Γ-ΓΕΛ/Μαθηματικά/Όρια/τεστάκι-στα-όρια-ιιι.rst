@@ -5,7 +5,7 @@
 	:date: 2019-09-16 12:40
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πανελλήνιες, τεστ, όρια, Γ' λυκείου, ασκήσεις
+	:tags: πανελλήνιες, τεστ, όρια, Γʹ λυκείου, ασκήσεις
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%83%cf%84%ce%b1-%cf%8c%cf%81%ce%b9%ce%b1-%ce%b9%ce%b9%ce%b9
 	:status: published
 	:attachments: _static/images/uploads/2019/09/800px-saint_francis_of_assisi_in_ecstasy-caravaggio_c.1595.jpg

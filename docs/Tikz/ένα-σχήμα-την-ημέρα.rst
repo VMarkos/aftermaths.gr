@@ -56,7 +56,7 @@
 
                Τόξα και πάλι τόξα...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -105,7 +105,7 @@
 
                Το φύλλο του Καρτέσιου
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -152,7 +152,7 @@
 
                Μία πολύ απλή γραφική παράσταση
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -203,7 +203,7 @@
 
                Η ιδέα της γραφικής παράστασης κατά τον `Oresme  <https://en.wikipedia.org/wiki/Nicole_Oresme>`__.
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage{ifthen}
@@ -253,7 +253,7 @@
 
                Τι είναι το αλυσοειδές;
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage{ifthen}
@@ -312,7 +312,7 @@
 
                Συμμετρία (ξανά)...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage{ifthen}
@@ -373,7 +373,7 @@
 
                Μετατόπιση...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage{ifthen}
@@ -441,7 +441,7 @@
 
                Περιττό...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -505,7 +505,7 @@
 
                Άρτιο...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -563,7 +563,7 @@
 
                Ανισότητες...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -620,7 +620,7 @@
 
                Πιο σύνθετα πράγματα...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -702,7 +702,7 @@
 
                Σύνθετα πράγματα...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -779,7 +779,7 @@
 
                Υπερβολές...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage[english, greek]{babel}
@@ -841,7 +841,7 @@
 
                Μία ρίζα...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -901,7 +901,7 @@
 
                Μία απλή απόλυτη τιμή...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -961,7 +961,7 @@
 
                Πολλά μαζεύτηκαν εδώ...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -1029,7 +1029,7 @@
 
                Ρίζες...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -1105,7 +1105,7 @@
 
                Σύνθεση συναρτήσεων!
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -1157,7 +1157,7 @@
 
                Παράξενη καμπύλη...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -1208,7 +1208,7 @@
 
                Το πεδίο ορισμού ως προβολή στο οριζόντιο άξονα...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -1287,7 +1287,7 @@
 
                Είναι συνεχής;
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -1349,7 +1349,7 @@
 
                Τι διαφορά έχει το πεδίο από το σύνολο τιμών;
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -1418,7 +1418,7 @@
 
                Είναι η διπλανή σχέση συνάρτηση;
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -1479,7 +1479,7 @@
 
                Πολλοί λογάριθμοι...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -1528,7 +1528,7 @@
 
                Άλλη μία γνωστή γραφική παράσταση - πολύ γνωστή, ίσως...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -1578,7 +1578,7 @@
 
                Κι άλλη μία...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage{xfrac}
@@ -1634,7 +1634,7 @@
 
                Άλλη μία γραφική παράσταση...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage{xfrac}
@@ -1691,7 +1691,7 @@
 
                Ένα δέντρο...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage{xfrac} % You know, only for the fancy inline fractions.
@@ -1759,7 +1759,7 @@
 
                Μεγάλο χωρίο...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage{xfrac}
@@ -1818,7 +1818,7 @@
 
                Αρχίσαμε τα χρωματιστά, ξανά...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -1874,7 +1874,7 @@
 
                Μάλλον είναι κι αυτό παραβολή...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage{xfrac}
@@ -1928,7 +1928,7 @@
 
                Απλό και καθημερινό...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage{xfrac}
@@ -1983,7 +1983,7 @@
 
                Ένα απλό συνημίτονο...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2031,7 +2031,7 @@
 
                Πώς προκύπτει η μπλε από την μαύρη καμπύλη;
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2082,7 +2082,7 @@
 
                Μία λίγο πιο περίπλοκη αντανάκλαση...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2133,7 +2133,7 @@
 
                Και μία μεταφορά...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2184,7 +2184,7 @@
 
                Μία αντανάκλαση ακόμα...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2235,7 +2235,7 @@
 
                Απολύτως...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2286,7 +2286,7 @@
 
                Αντανακλάσεις...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2336,7 +2336,7 @@
 
                Μία απλοποίηση του προηγούμενου σχήματος...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2387,7 +2387,7 @@
 
                Ωραίο πράσινο χωρίο αυτό...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2439,7 +2439,7 @@
 
                Μία κοινή εφαπτομένη...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2493,7 +2493,7 @@
 
                Ευθείες παντού!
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage{xfrac}
@@ -2550,7 +2550,7 @@
 
                Μάλλον είναι πολλές οι καμπύλες...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2612,7 +2612,7 @@
 
                Γιατί έπαψες λογάριθμο να θυμίζεις;
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2672,7 +2672,7 @@
 
                Πολύ χρώμα, ρε παιδί μου...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2732,7 +2732,7 @@
 
                Μία κυβική καμπύλη - αλήθεια, ποιος είναι ο τύπος της;
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2786,7 +2786,7 @@
 
                Μία ακόμα τσαχπινιά σε ένα προηγούμενο σχήμα + χρώματα...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2844,7 +2844,7 @@
 
                Μία τσαχπινιά σε ένα προηγούμενο σχήμα + χρώματα...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2913,7 +2913,7 @@
 
                Μία τσαχπινιά σε ένα προηγούμενο σχήμα...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -2963,7 +2963,7 @@
 
                Η γραφική παράσταση ενός πολυωνύμου με λίγη παρέα...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 
@@ -3012,7 +3012,7 @@
 
                Η γραφική παράσταση ενός πολυωνύμου...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage{xfrac} % You know, only for the fancy inline fractions.
@@ -3061,7 +3061,7 @@
 
                Η γνωστή μας και μη εξαιρετέα καμπάνα της κανονικής κατανομής!
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage{ifthen} % In order to use the ifthenelse structure.
@@ -3122,7 +3122,7 @@
 
                Μία απλή απόδειξη ότι το [0,1] και το (0,1) είναι ισοπληθικά...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage{xfrac} % Used to load to \sfrac command which typesets nice inline fractions.
@@ -3189,7 +3189,7 @@
 
                Μία κομψή και ασυνεχής συνάρτηση - εντάξει, ίσως όχι τόσο κομψή...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
       \usepackage{xfrac} % Used to load to \sfrac command which typesets nice inline fractions.
@@ -3241,7 +3241,7 @@
 
                Μία απλή γραφική παράσταση μίας «σχεδόν» γραμμικής συνάρτησης...
 
-   .. code:: wp-block-syntaxhighlighter-code
+   .. code:: 
 
       \documentclass[tikz, margin=5mm]{standalone}
 

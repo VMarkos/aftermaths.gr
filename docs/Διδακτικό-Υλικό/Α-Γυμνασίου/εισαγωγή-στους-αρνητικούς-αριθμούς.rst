@@ -5,7 +5,7 @@
 	:date: 2019-09-05 15:09
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, Α' Γυμνασίου, αρνητικοί, ασκήσεις, επανάληψη
+	:tags: προβλήματα, Αʹ Γυμνασίου, αρνητικοί, ασκήσεις, επανάληψη
 	:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%bf%cf%85%cf%82-%ce%b1%cf%81%ce%bd%ce%b7%cf%84%ce%b9%ce%ba%ce%bf%cf%8d%cf%82-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%cf%8d%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2019/09/caspar_david_friedrich_-_felsenriff_am_meeresstrand_1824.jpg

@@ -5,7 +5,7 @@
 	:date: 2020-11-19 19:28
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-	:tags: 1-1, συναρτήσεις, τεστ, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, λύσεις, μαθηματικά, μονοτονία
+	:tags: 1-1, συναρτήσεις, τεστ, Βʹ Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, λύσεις, μαθηματικά, μονοτονία
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xx-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2020/11/robert_delaunay_lhomme_a_la_tulipe_portrait_de_jean_metzinger_1906.jpg

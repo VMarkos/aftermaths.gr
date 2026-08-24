@@ -5,7 +5,7 @@
 	:date: 2020-02-11 15:42
 	:author: aftermathsgr
 	:category: ΑΕΠΠ, Διδακτικό υλικό
-	:tags: πίνακες, πανελλήνιες, ταξινόμηση, Γ' λυκείου, αναζήτηση, βασικές επεξεργασίες, επανάληψη, ελάχιστο, μέγιστο, μονοδιάστατοι
+	:tags: πίνακες, πανελλήνιες, ταξινόμηση, Γʹ λυκείου, αναζήτηση, βασικές επεξεργασίες, επανάληψη, ελάχιστο, μέγιστο, μονοδιάστατοι
 	:slug: %ce%b2%ce%b1%cf%83%ce%b9%ce%ba%ce%ad%cf%82-%ce%b5%cf%80%ce%b5%ce%be%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%af%ce%b5%cf%82-%cf%80%ce%b9%ce%bd%ce%ac%ce%ba%cf%89%ce%bd
 	:status: published
 	:attachments: _static/images/uploads/2020/02/452px-mann_mit_dem_goldhelm.jpg

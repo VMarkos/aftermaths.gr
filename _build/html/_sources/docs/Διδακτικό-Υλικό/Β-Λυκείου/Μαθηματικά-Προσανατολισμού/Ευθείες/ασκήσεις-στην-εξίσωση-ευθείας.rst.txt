@@ -5,7 +5,7 @@
 	:date: 2018-09-17 15:36
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: Β' Λυκείου, ασκήσεις, εξίσωση ευθείας
+	:tags: Βʹ Λυκείου, ασκήσεις, εξίσωση ευθείας
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%b5%ce%be%ce%af%cf%83%cf%89%cf%83%ce%b7-%ce%b5%cf%85%ce%b8%ce%b5%ce%af%ce%b1%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2018/09/kms1989.jpg
@@ -17,7 +17,7 @@
 	Ο πίνακας `Η πίσω όψη ενός πίνακα  <https://theibtaurisblog.com/2016/02/02/painting-of-the-week105-2/>`__ του `Cornelis Norbertus Gysbrechts  <https://en.wikipedia.org/wiki/Cornelis_Norbertus_Gysbrechts>`__\ *.* 
 
 
-Σε αυτό το φυλλάδιο περιέχονται ασκήσεις που αποσκοπούν, αφ' ενός στο να εξοικειώσουν τους μαθητές με την εξίσωση της ευθείας και, αφ' ετέρου, να καταδείξουν τη σημασία της αναλυτικής γεωμετρίας σαν εργαλείο επίλυσης προβλημάτων της κλασσικής Ευκλείδειας γεωμετρίας.
+Σε αυτό το φυλλάδιο περιέχονται ασκήσεις που αποσκοπούν, αφʹ ενός στο να εξοικειώσουν τους μαθητές με την εξίσωση της ευθείας και, αφʹ ετέρου, να καταδείξουν τη σημασία της αναλυτικής γεωμετρίας σαν εργαλείο επίλυσης προβλημάτων της κλασσικής Ευκλείδειας γεωμετρίας.
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1UNjerwX2dhXzzPI4xPwR3Rk2AipXqnSd/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 

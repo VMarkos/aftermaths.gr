@@ -5,7 +5,7 @@
 	:date: 2019-12-01 23:38
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, τριγωνομετρία, Β' Λυκείου, ασκήσεις, εισαγωγή
+	:tags: προβλήματα, τριγωνομετρία, Βʹ Λυκείου, ασκήσεις, εισαγωγή
 	:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%b7%ce%bd-%cf%84%cf%81%ce%b9%ce%b3%cf%89%ce%bd%ce%bf%ce%bc%ce%b5%cf%84%cf%81%ce%af%ce%b1
 	:status: published
 	:attachments: _static/images/uploads/2019/12/430px-picasso_portrait_of_daniel-henry_kahnweiler_1910.jpg

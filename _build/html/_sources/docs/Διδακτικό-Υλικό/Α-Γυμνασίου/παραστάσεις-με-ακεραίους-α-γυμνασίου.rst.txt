@@ -1,11 +1,11 @@
-Παραστάσεις με ακεραίους (Α' Γυμνασίου)
+Παραστάσεις με ακεραίους (Αʹ Γυμνασίου)
 #######################################
 
 .. meta::
 	:date: 2019-09-10 11:33
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πράξεις, προβλήματα, Α' Γυμνασίου, ασκήσεις, ακέραιοι
+	:tags: πράξεις, προβλήματα, Αʹ Γυμνασίου, ασκήσεις, ακέραιοι
 	:slug: %cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b5-%ce%b1%ce%ba%ce%b5%cf%81%ce%b1%ce%af%ce%bf%cf%85%cf%82-%ce%b1-%ce%b3%cf%85%ce%bc%ce%bd%ce%b1%cf%83%ce%af%ce%bf%cf%85
 	:status: published
 	:attachments: _static/images/uploads/2019/09/800px-caspar_david_friedrich_065.jpg

@@ -31,7 +31,7 @@
 
 Ο αντίστοιχος κώδικας φαίνεται παρακάτω:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -51,7 +51,7 @@
 
 Εδώ το μοτίβο είναι ίδιο με άλλα σχήματα που έχουμε δει στο παρελθόν: άξονες, πλέγματα, καμπύλες. Εφόσον, λοιπόν, δεν έχουμε και κάτι καινούργιο να πούμε, ας συζητήσουμε λίγο για το τι πράγματα μπορούμε να κάνουμε μέσα στην εντολή ``plot``. Όπως θα έχετε δει, στην εντολή ``plot`` δίνουμε συντεταγμένες σημείων που θέλουμε να σχεδιαστούν και να συνδεθούν με μικρά ευθύγραμμα τμήματα - ανάλογα με την τιμή της παραμέτρου ``samples``. Γενικά, η σύνταξη της εντολής είναι:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    plot ({stuff},{stuff})
 
@@ -70,7 +70,7 @@
 
 Ο αντίστοιχος κώδικας είναι ο εξής:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -103,7 +103,7 @@
 
 Ο αντίστοιχος κώδικας είναι ο εξής:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -123,7 +123,7 @@
 
 Κι εδώ όλα καλά κι απλά. Πολύ απλά, δηλαδή, με κλειστά τα μάτια έπρεπε να μπορείτε να κάνετε το παραπάνω σχήμα - τόσα παρόμοια έχουμε δει, άλλωστε. Αλλά, μια και το αναφέραμε, ας δούμε λίγο στον προτελευταίο κόμβο την ετικέτα του:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    label={right,yshift=8pt}:{}
 
@@ -142,7 +142,7 @@
 
 Ο αντίστοιχος κώδικας:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -175,7 +175,7 @@
 
 Ο αντίστοιχος κώδικας:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     

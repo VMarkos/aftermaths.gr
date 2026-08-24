@@ -5,7 +5,7 @@
 	:date: 2020-09-02 14:32
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: featured, πανελλήνιες, σημειώσεις, Γ' λυκείου, αποδείξεις, επανάληψη, θεωρία
+	:tags: featured, πανελλήνιες, σημειώσεις, Γʹ λυκείου, αποδείξεις, επανάληψη, θεωρία
 	:slug: %cf%8c%ce%bb%ce%b5%cf%82-%ce%bf%ce%b9-%ce%b1%cf%80%ce%bf%ce%b4%ce%b5%ce%af%ce%be%ce%b5%ce%b9%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2020/09/1280px-honore_daumier_the_third-class_carriage_-_the_metropolitan_museum_of_art.jpg

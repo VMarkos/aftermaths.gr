@@ -5,7 +5,7 @@
 	:date: 2021-12-17 14:18
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη, εφαπτομένη
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, Γʹ λυκείου, ασκήσεις, επανάληψη, εφαπτομένη
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%bf%cf%85%cf%82-%ce%ba%ce%b1%ce%bd%cf%8c%ce%bd%ce%b5%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%b9%cf%83%ce%b7%cf%82-2
 	:status: published
 	:attachments: _static/images/uploads/2021/12/865px-jacques-louis_david_-_mars_desarme_par_venus.jpg
@@ -17,7 +17,7 @@
 	Ο πίνακας *Ο αφοπλισμός του Άρη από την Αφροδίτη και τις τρεις Χάριτες* του `Jacques-Louis David  <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
 
 
-Λίγες ασκήσεις στους κανόνες παραγώγισης και όχι μόνο - Μαθηματικά Προσανατολισμού, Γ' Γενικού Λυκείου.
+Λίγες ασκήσεις στους κανόνες παραγώγισης και όχι μόνο - Μαθηματικά Προσανατολισμού, Γʹ Γενικού Λυκείου.
 
 Τις ασκήσεις μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1cakVi8x3_Dex-rFcp7cDhItXIT1fJp3G/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 

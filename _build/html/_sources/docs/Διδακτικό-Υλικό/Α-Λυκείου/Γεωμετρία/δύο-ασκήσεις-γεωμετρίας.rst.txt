@@ -5,7 +5,7 @@
 	:date: 2019-12-06 01:19
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, σύγκριση, τρίγωνα, Α' Λυκείου, ασκήσεις, γεωμετρία
+	:tags: προβλήματα, σύγκριση, τρίγωνα, Αʹ Λυκείου, ασκήσεις, γεωμετρία
 	:slug: %ce%b4%cf%8d%ce%bf-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%b3%ce%b5%cf%89%ce%bc%ce%b5%cf%84%cf%81%ce%af%ce%b1%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2019/12/462px-pablo_picasso_1911-12_violon_violin_oil_on_canvas_krc3b6ller-mc3bcller_museum_otterlo_netherlands.jpg

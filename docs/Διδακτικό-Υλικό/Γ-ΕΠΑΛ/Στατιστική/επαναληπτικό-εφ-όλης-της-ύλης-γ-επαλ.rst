@@ -1,11 +1,11 @@
-Επαναληπτικό εφ' όλης της ύλης (Γ' ΕΠΑΛ)
+Επαναληπτικό εφʹ όλης της ύλης (Γʹ ΕΠΑΛ)
 ########################################
 
 .. meta::
 	:date: 2021-06-03 14:34
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, παράγωγος, πανελλήνιες, στατιστική, συναρτήσεις, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, στατιστική, συναρτήσεις, όρια, Γʹ λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%8d%ce%bb%ce%b7%cf%82-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
 	:status: published
 	:attachments: _static/images/uploads/2021/06/pierre_auguste_renoir_les_baigneuses.jpg
@@ -17,7 +17,7 @@
 	Ο πίνακας *Λουόμενες* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 
 
-Ένα ακόμα επαναληπτικό διαγώνισμα στην κομμένη ύλη των μαθηματικών της Γ' ΕΠΑΛ.
+Ένα ακόμα επαναληπτικό διαγώνισμα στην κομμένη ύλη των μαθηματικών της Γʹ ΕΠΑΛ.
 
 Το διαγώνισμα μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1JKsRrgUYShQ5NohYBwT-yhCe640GIRY_/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 

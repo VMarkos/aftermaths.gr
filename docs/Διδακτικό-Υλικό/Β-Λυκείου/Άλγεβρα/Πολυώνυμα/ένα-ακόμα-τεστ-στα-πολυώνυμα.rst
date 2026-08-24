@@ -5,7 +5,7 @@
 	:date: 2019-03-10 19:08
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πολυώνυμα, τεστ, Β' Λυκείου, ανισώσεις, επανάληψη, εξισώσεις
+	:tags: πολυώνυμα, τεστ, Βʹ Λυκείου, ανισώσεις, επανάληψη, εξισώσεις
 	:slug: %ce%ad%ce%bd%ce%b1-%ce%b1%ce%ba%cf%8c%ce%bc%ce%b1-%cf%84%ce%b5%cf%83%cf%84-%cf%83%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%cf%85%cf%8e%ce%bd%cf%85%ce%bc%ce%b1
 	:status: published
 	:attachments: _static/images/uploads/2019/03/721px-caravaggio_-_i_musici.jpg

@@ -5,7 +5,7 @@
 	:date: 2020-05-25 15:49
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πίνακες, πανελλήνιες, στατιστική, συχνοτήτων, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διάμεσος, επανάληψη, μέση τιμή
+	:tags: προβλήματα, πίνακες, πανελλήνιες, στατιστική, συχνοτήτων, Γʹ λυκείου, ΕΠΑΛ, ασκήσεις, διάμεσος, επανάληψη, μέση τιμή
 	:slug: %ce%bc%ce%ad%cf%83%ce%b7-%cf%84%ce%b9%ce%bc%ce%ae-%ce%ba%ce%b1%ce%b9-%ce%b4%ce%b9%ce%ac%ce%bc%ce%b5%cf%83%ce%bf%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2020/05/523px-johannes_vermeer_-_lady_at_the_virginal_with_a_gentleman_the_music_lesson_-_google_art_project.jpg

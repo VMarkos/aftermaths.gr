@@ -5,7 +5,7 @@
 	:date: 2020-07-05 21:52
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, διαφάνειες, εισαγωγή, θεωρία, μέση τιμή
+	:tags: πανελλήνιες, στατιστική, Γʹ λυκείου, ΕΠΑΛ, διαφάνειες, εισαγωγή, θεωρία, μέση τιμή
 	:slug: %cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84%ce%b9%ce%ba%ce%ae-%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-1
 	:status: published
 	:attachments: _static/images/uploads/2020/07/mariekroyer-selfportrait.jpg

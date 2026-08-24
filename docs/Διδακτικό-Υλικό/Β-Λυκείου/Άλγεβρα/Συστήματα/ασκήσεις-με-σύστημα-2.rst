@@ -5,7 +5,7 @@
 	:date: 2021-11-04 14:30
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: συστήματα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη
+	:tags: συστήματα, Βʹ Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b5-%cf%83%cf%8d%cf%83%cf%84%ce%b7%ce%bc%ce%b1-2
 	:status: published
 	:attachments: _static/images/uploads/2021/11/1066px-henri_fantin-latour_-_dawn_-_google_art_project.jpg
@@ -17,7 +17,7 @@
 	Ο πίνακας *Αυγή* του `Henri Fantin-Latour  <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__. 
 
 
-Λίγες ασκήσεις στα γραμμικά και όχι μόνο συστήματα της άλγεβρας της Β' Γενικού Λυκείου και ΕΠΑΛ.
+Λίγες ασκήσεις στα γραμμικά και όχι μόνο συστήματα της άλγεβρας της Βʹ Γενικού Λυκείου και ΕΠΑΛ.
 
 Τις ασκήσεις μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1EZA-PCk9o02gxjJl_QSzTSHGloGcY7O3/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 

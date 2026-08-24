@@ -1,11 +1,11 @@
-Δύο λυμένα παραδείγματα (Α' λυκείου)
+Δύο λυμένα παραδείγματα (Αʹ λυκείου)
 ####################################
 
 .. meta::
 	:date: 2019-01-27 21:19
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πρωτοβάθμιες, Α' Λυκείου, απόλυτη τιμή, ανισώσεις, εξισώσεις, λυμένα παραδείγματα
+	:tags: πρωτοβάθμιες, Αʹ Λυκείου, απόλυτη τιμή, ανισώσεις, εξισώσεις, λυμένα παραδείγματα
 	:slug: %ce%b4%cf%8d%ce%bf-%ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%cf%80%ce%b1%cf%81%ce%b1%ce%b4%ce%b5%ce%af%ce%b3%ce%bc%ce%b1%cf%84%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
 	:status: published
 	:attachments: _static/images/uploads/2019/01/caspar_david_friedrich_033.jpg

@@ -5,7 +5,7 @@
 	:date: 2018-10-27 18:20
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πανελλήνιες, όρια, Γ' λυκείου, ασκήσεις, επανάληψη
+	:tags: πανελλήνιες, όρια, Γʹ λυκείου, ασκήσεις, επανάληψη
 	:slug: %ce%bb%ce%af%ce%b3%ce%b1-%cf%8c%cf%81%ce%b9%ce%b1-%ce%b3%ce%b9%ce%b1-%ce%b5%ce%be%ce%ac%cf%83%ce%ba%ce%b7%cf%83%ce%b7
 	:status: published
 	:attachments: _static/images/uploads/2018/10/vassilly_kandinsky_1912_-_landscape_with_two_poplars.jpg

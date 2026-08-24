@@ -5,7 +5,7 @@
 	:date: 2018-11-08 10:59
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Φυσική
-	:tags: προβλήματα, Α' Λυκείου, ΕΟΚ, ασκήσεις
+	:tags: προβλήματα, Αʹ Λυκείου, ΕΟΚ, ασκήσεις
 	:slug: %cf%8c%cf%84%ce%b1%ce%bd-%ce%bf-bale-%ce%ad%cf%84%cf%81%ce%b5%cf%87%ce%b5
 	:status: published
 	:attachments: _static/images/uploads/2018/11/stilleven_met_bijbel_-_s0008v1962_-_van_gogh_museum.jpg

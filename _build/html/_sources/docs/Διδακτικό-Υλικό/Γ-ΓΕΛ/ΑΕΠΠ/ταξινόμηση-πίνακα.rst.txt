@@ -5,7 +5,7 @@
 	:date: 2020-02-24 21:09
 	:author: aftermathsgr
 	:category: ΑΕΠΠ, Διδακτικό υλικό
-	:tags: πίνακες, πανελλήνιες, ταξινόμηση, Γ' λυκείου, βασικές επεξεργασίες, μονοδιάστατοι
+	:tags: πίνακες, πανελλήνιες, ταξινόμηση, Γʹ λυκείου, βασικές επεξεργασίες, μονοδιάστατοι
 	:slug: %cf%84%ce%b1%ce%be%ce%b9%ce%bd%cf%8c%ce%bc%ce%b7%cf%83%ce%b7-%cf%80%ce%af%ce%bd%ce%b1%ce%ba%ce%b1
 	:status: published
 	:attachments: _static/images/uploads/2020/02/484px-rembrandt_harmensz._van_rijn_151.jpg

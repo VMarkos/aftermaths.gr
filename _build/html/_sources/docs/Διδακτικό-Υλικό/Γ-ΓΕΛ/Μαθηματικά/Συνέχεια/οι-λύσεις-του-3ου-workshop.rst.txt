@@ -5,7 +5,7 @@
 	:date: 2019-11-12 14:11
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις, Workshop
+	:tags: προβλήματα, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γʹ λυκείου, ασκήσεις, επανάληψη, λύσεις, Workshop
 	:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-3%ce%bf%cf%85-workshop
 	:status: published
 	:attachments: _static/images/uploads/2019/11/800px-giovanni_antonio_canal_il_canaletto_-_the_grand_canal_near_santa_maria_della_caritc3a0_-_wga03863.jpg

@@ -1,11 +1,11 @@
-Επαναληπτικό διαγώνισμα εφ' όλης της ύλης VIII
+Επαναληπτικό διαγώνισμα εφʹ όλης της ύλης VIII
 ##############################################
 
 .. meta::
 	:date: 2019-06-15 13:44
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, διαγώνισμα, επανάληψη
+	:tags: προβλήματα, πανελλήνιες, Γʹ λυκείου, ασκήσεις, διαγώνισμα, επανάληψη
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%8d-11
 	:status: published
 	:attachments: _static/images/uploads/2019/06/777px-van_gogh_-_zwei_grabende_bc3a4uerinnen_auf_schneebedecktem_feld.jpeg

@@ -5,7 +5,7 @@
 	:date: 2021-03-02 15:33
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
+	:tags: προβλήματα, πανελλήνιες, στατιστική, Γʹ λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
 	:slug: %ce%ac%ce%bb%ce%bb%ce%b1-%cf%84%cf%81%ce%af%ce%b1-%ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84%ce%b9%ce%ba%ce%ae%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2021/03/854px-renoir_by_bazille.jpg

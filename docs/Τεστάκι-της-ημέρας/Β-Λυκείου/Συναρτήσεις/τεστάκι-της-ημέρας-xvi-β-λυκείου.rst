@@ -1,11 +1,11 @@
-Τεστάκι της ημέρας XVI (Β' Λυκείου)
+Τεστάκι της ημέρας XVI (Βʹ Λυκείου)
 ###################################
 
 .. meta::
 	:date: 2020-11-15 08:47
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-	:tags: συμμετρία, συναρτήσεις, τεστ, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη
+	:tags: συμμετρία, συναρτήσεις, τεστ, Βʹ Λυκείου, άλγεβρα, ασκήσεις, επανάληψη
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xvi-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
 	:status: published
 	:attachments: _static/images/uploads/2020/11/1024px-franz_marc-the_fate_of_the_animals-1913.jpg

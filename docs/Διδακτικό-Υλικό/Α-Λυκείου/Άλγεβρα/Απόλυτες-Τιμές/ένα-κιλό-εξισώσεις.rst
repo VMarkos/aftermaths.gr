@@ -5,7 +5,7 @@
 	:date: 2018-12-24 20:05
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: Α' Λυκείου, Χριστούγεννα, απόλυτη τιμή, ασκήσεις, επανάληψη, εξισώσεις
+	:tags: Αʹ Λυκείου, Χριστούγεννα, απόλυτη τιμή, ασκήσεις, επανάληψη, εξισώσεις
 	:slug: %ce%ad%ce%bd%ce%b1-%ce%ba%ce%b9%ce%bb%cf%8c-%ce%b5%ce%be%ce%b9%cf%83%cf%8e%cf%83%ce%b5%ce%b9%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2018/12/de93a359-5ab0-446f-882b-349e8d4a230e.jpg

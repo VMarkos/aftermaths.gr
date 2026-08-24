@@ -5,7 +5,7 @@
 	:date: 2019-10-01 13:39
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πανελλήνιες, τεστ, όρια, Γ' λυκείου, ασκήσεις, επανάληψη
+	:tags: πανελλήνιες, τεστ, όρια, Γʹ λυκείου, ασκήσεις, επανάληψη
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%83%cf%84%ce%b1-%cf%8c%cf%81%ce%b9%ce%b1-v
 	:status: published
 	:attachments: _static/images/uploads/2019/10/456px-conversion_on_the_way_to_damascus-caravaggio_c.1600-1.jpg

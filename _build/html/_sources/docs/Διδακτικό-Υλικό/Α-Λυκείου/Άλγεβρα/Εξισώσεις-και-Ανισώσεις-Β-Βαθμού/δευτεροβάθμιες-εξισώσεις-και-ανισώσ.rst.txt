@@ -5,7 +5,7 @@
 	:date: 2020-02-02 12:36
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: Α' Λυκείου, ασκήσεις, ανισώσεις, δευτεροβάθμιες, επανάληψη, εξισώσεις
+	:tags: Αʹ Λυκείου, ασκήσεις, ανισώσεις, δευτεροβάθμιες, επανάληψη, εξισώσεις
 	:slug: %ce%b4%ce%b5%cf%85%cf%84%ce%b5%cf%81%ce%bf%ce%b2%ce%ac%ce%b8%ce%bc%ce%b9%ce%b5%cf%82-%ce%b5%ce%be%ce%b9%cf%83%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%ba%ce%b1%ce%b9-%ce%b1%ce%bd%ce%b9%cf%83%cf%8e%cf%83
 	:status: published
 	:attachments: _static/images/uploads/2020/02/rembrandt_christ_in_the_storm_on_the_lake_of_galilee.jpg

@@ -5,7 +5,7 @@
 	:date: 2020-02-18 15:34
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: Fermat, προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ασκήσεις, λύσεις, Rolle, Workshop
+	:tags: Fermat, προβλήματα, παράγωγος, πανελλήνιες, Γʹ λυκείου, ασκήσεις, λύσεις, Rolle, Workshop
 	:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-6%ce%bf%cf%85-workshop
 	:status: published
 	:attachments: _static/images/uploads/2020/02/412px-rembrandt_abraham_en_isaac_1634.jpg

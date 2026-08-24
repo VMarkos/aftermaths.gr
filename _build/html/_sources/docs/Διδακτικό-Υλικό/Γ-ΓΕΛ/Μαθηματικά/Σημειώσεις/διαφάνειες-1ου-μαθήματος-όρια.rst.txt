@@ -5,7 +5,7 @@
 	:date: 2019-09-15 19:23
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πανελλήνιες, σημειώσεις, όρια, Γ' λυκείου, διαφάνειες, εισαγωγή, θεωρία
+	:tags: πανελλήνιες, σημειώσεις, όρια, Γʹ λυκείου, διαφάνειες, εισαγωγή, θεωρία
 	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-1%ce%bf%cf%85-%ce%bc%ce%b1%ce%b8%ce%ae%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%cf%8c%cf%81%ce%b9%ce%b1
 	:status: published
 	:attachments: _static/images/uploads/2019/09/800px-caspar_david_friedrich_021.jpg

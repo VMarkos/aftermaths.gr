@@ -5,7 +5,7 @@
 	:date: 2019-01-27 20:44
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, διαγώνισμα, επανάληψη
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γʹ λυκείου, διαγώνισμα, επανάληψη
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%bc%ce%ad%cf%87%cf%81%ce%b9-%ce%ba%ce%b1%ce%b9-%cf%84%ce%bf-2
 	:status: published
 	:attachments: _static/images/uploads/2019/01/1920px-caspar_david_friedrich_-_meeresstrand_mit_fischer_ca.1807.jpg

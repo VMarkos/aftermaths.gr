@@ -5,7 +5,7 @@
 	:date: 2022-10-07 08:26
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-	:tags: τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, επανάληψη
+	:tags: τεστ, Αʹ Λυκείου, ΕΠΑΛ, άλγεβρα, επανάληψη
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-002-%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1
 	:status: published
 	:attachments: _static/images/uploads/2022/10/caillebotteautoportrait.jpg
@@ -17,7 +17,7 @@
 	Μία αυτοπροσωπογραφία του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
 
 
-Ένα μικρό τεστάκι στα σύνολα, τις βασικές πράξεις και σχέσεις μεταξύ τους - Άλγεβρα, Α' Γενικού Λυκείου και ΕΠΑΛ.
+Ένα μικρό τεστάκι στα σύνολα, τις βασικές πράξεις και σχέσεις μεταξύ τους - Άλγεβρα, Αʹ Γενικού Λυκείου και ΕΠΑΛ.
 
 Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1hHluFblfdjwu0ux8xGr33eIZ3Uju-rtp/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
 

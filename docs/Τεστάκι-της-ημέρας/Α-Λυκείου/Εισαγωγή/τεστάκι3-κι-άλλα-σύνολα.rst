@@ -5,7 +5,7 @@
 	:date: 2022-10-15 13:55
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-	:tags: σύνολα, τεστ, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
+	:tags: σύνολα, τεστ, Αʹ Λυκείου, ΕΠΑΛ, άλγεβρα
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-003-%ce%ba%ce%b9-%ce%ac%ce%bb%ce%bb%ce%b1-%cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1
 	:status: published
 	:attachments: _static/images/uploads/2022/10/g._caillebotte_-_lyerres_pluie.jpg
@@ -17,7 +17,7 @@
 	Ο πίνακας *Ο ποταμός Γιερ* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__\ *.* 
 
 
-Ένα ακόμα τεστάκι πάνω στα σύνολα και... λίγο παρακάτω - Άλγεβρα, Α' Γενικού Λυκείου και ΕΠΑΛ.
+Ένα ακόμα τεστάκι πάνω στα σύνολα και... λίγο παρακάτω - Άλγεβρα, Αʹ Γενικού Λυκείου και ΕΠΑΛ.
 
 Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1_C37n344YOLdLZ4dXet1AUzNQONKqoV5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
 

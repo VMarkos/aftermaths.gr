@@ -5,7 +5,7 @@
 	:date: 2019-08-31 20:57
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πανελλήνιες, σημειώσεις, όρια, Γ' λυκείου, ασκήσεις, θεωρία
+	:tags: προβλήματα, πανελλήνιες, σημειώσεις, όρια, Γʹ λυκείου, ασκήσεις, θεωρία
 	:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b1-%cf%8c%cf%81%ce%b9%ce%b1-2019-2020
 	:status: published
 	:attachments: _static/images/uploads/2019/08/henri_matisse_1916-17_le_peintre_dans_son_atelier_the_painter_and_his_model_oil_on_canvas_146.5_x_97_cm_musc3a9e_national_dart_moderne_centre_georges_pompidou_paris.jpg

@@ -5,7 +5,7 @@
 	:date: 2018-10-01 21:19
 	:author: aftermathsgr
 	:category: ΑΕΠΠ, Διδακτικό υλικό
-	:tags: πίνακες, πανελλήνιες, Γ' λυκείου, ασκήσεις, μονοδιάστατοι
+	:tags: πίνακες, πανελλήνιες, Γʹ λυκείου, ασκήσεις, μονοδιάστατοι
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%bf%cf%85%cf%82-%ce%bc%ce%bf%ce%bd%ce%bf%ce%b4%ce%b9%ce%ac%cf%83%cf%84%ce%b1%cf%84%ce%bf%cf%85%cf%82-%cf%80%ce%af%ce%bd%ce%b1%ce%ba
 	:status: published
 	:attachments: _static/images/uploads/2018/10/1280px-piet_mondrian_1908-10_evening_red_tree_avond_de_rode_boom_oil_on_canvas_70_x_99_cm_gemeentemuseum_den_haag.jpg

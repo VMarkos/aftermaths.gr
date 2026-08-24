@@ -5,7 +5,7 @@
 	:date: 2019-09-14 15:48
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πράξεις, παραγοντοποίηση, ταυτότητες, Α' Λυκείου, ασκήσεις, επανάληψη
+	:tags: πράξεις, παραγοντοποίηση, ταυτότητες, Αʹ Λυκείου, ασκήσεις, επανάληψη
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%cf%83%ce%b5-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%ce%bf%ce%bd%cf%84%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b1%cf%85
 	:status: published
 	:attachments: _static/images/uploads/2019/09/caspar_david_friedrich_-_abend_1824.jpg

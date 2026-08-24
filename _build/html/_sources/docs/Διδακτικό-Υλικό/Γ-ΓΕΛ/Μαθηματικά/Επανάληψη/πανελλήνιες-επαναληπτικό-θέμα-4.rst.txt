@@ -5,7 +5,7 @@
 	:date: 2022-03-26 13:57
 	:author: aftermathsgr
 	:category: Διδακτική, Μαθηματικά
-	:tags: πανελλήνιες, Γ' λυκείου, Διδακτικό υλικό, ασκήσεις, επανάληψη, λυμένα παραδείγματα
+	:tags: πανελλήνιες, Γʹ λυκείου, Διδακτικό υλικό, ασκήσεις, επανάληψη, λυμένα παραδείγματα
 	:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-4
 	:status: published
 	:attachments: _static/images/uploads/2022/03/ferdinand_de_braekeleer_lancien_-_courting-1.jpg, _static/images/uploads/2022/03/netherlands-4426_-_arrival_of_napoleon_at_amsterdam_281208317937429.jpg

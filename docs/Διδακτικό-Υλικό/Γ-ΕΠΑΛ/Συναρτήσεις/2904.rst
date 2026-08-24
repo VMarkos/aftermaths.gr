@@ -5,7 +5,7 @@
 	:date: 2020-09-20 13:07
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: παράγωγος, πανελλήνιες, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, εφαπτομένη, εισαγωγή
+	:tags: παράγωγος, πανελλήνιες, Γʹ λυκείου, ΕΠΑΛ, ασκήσεις, εφαπτομένη, εισαγωγή
 	:slug: 2904
 	:status: published
 	:attachments: _static/images/uploads/2020/09/baron_otto_ditlev_rosenorn-lehn.jpg

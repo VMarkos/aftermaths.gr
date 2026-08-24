@@ -1,11 +1,11 @@
-Λίγες πρωτοβάθμιες εξισώσεις (Α' λυκείου)
+Λίγες πρωτοβάθμιες εξισώσεις (Αʹ λυκείου)
 #########################################
 
 .. meta::
 	:date: 2019-01-20 19:30
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πρωτοβάθμιες, Α' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, εξισώσεις
+	:tags: πρωτοβάθμιες, Αʹ Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, εξισώσεις
 	:slug: %ce%bb%ce%af%ce%b3%ce%b5%cf%82-%cf%80%cf%81%cf%89%cf%84%ce%bf%ce%b2%ce%ac%ce%b8%ce%bc%ce%b9%ce%b5%cf%82-%ce%b5%ce%be%ce%b9%cf%83%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af
 	:status: published
 	:attachments: _static/images/uploads/2019/01/caspar_david_friedrich_-_uttewalder_grund.jpg

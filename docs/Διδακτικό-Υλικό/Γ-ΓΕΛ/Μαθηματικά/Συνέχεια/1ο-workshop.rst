@@ -5,7 +5,7 @@
 	:date: 2019-10-28 21:19
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, Workshop
+	:tags: προβλήματα, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γʹ λυκείου, ασκήσεις, επανάληψη, Workshop
 	:slug: 1%ce%bf-workshop
 	:status: published
 	:attachments: _static/images/uploads/2019/10/754px-canaletto_capriccio_gotica.jpg

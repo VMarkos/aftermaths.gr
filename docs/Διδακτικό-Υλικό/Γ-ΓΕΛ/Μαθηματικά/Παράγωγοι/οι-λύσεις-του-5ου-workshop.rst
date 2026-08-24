@@ -5,7 +5,7 @@
 	:date: 2019-12-11 21:11
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις, Workshop
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, συνέχεια, συναρτήσεις, όρια, Γʹ λυκείου, ασκήσεις, επανάληψη, λύσεις, Workshop
 	:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-5%ce%bf%cf%85-workshop
 	:status: published
 	:attachments: _static/images/uploads/2019/12/pablo_picasso_1919_sleeping_peasants_gouache_watercolor_and_pencil_on_paper_31.1_x_48.9_cm_museum_of_modern_art_new_york.jpg

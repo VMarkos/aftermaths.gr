@@ -5,7 +5,7 @@
 	:date: 2019-02-28 14:10
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, παράγωγος, συναρτήσεις, Γ' λυκείου, ασκήσεις, γραφική παράσταση, κυρτότητα
+	:tags: προβλήματα, παράγωγος, συναρτήσεις, Γʹ λυκείου, ασκήσεις, γραφική παράσταση, κυρτότητα
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%ba%cf%85%cf%81%cf%84%cf%8c%cf%84%ce%b7%cf%84%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b7-%cf%87%ce%ac%cf%81%ce%b1%ce%be%ce%b7
 	:status: published
 	:attachments: _static/images/uploads/2019/02/ruinsofteplitzcastle1828.jpg

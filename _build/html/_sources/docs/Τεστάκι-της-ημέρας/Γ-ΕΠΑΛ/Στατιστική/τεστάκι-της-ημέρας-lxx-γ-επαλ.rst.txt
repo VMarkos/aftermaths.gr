@@ -1,11 +1,11 @@
-Τεστάκι της ημέρας LXX (Γ' ΕΠΑΛ)
+Τεστάκι της ημέρας LXX (Γʹ ΕΠΑΛ)
 ################################
 
 .. meta::
 	:date: 2021-03-10 09:49
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-	:tags: πανελλήνιες, στατιστική, συναρτήσεις, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
+	:tags: πανελλήνιες, στατιστική, συναρτήσεις, τεστ, Γʹ λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxx-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
 	:status: published
 	:attachments: _static/images/uploads/2021/03/bazille_frederic_e28094_flowers_e28094_1868.jpg
@@ -17,7 +17,7 @@
 	Ο πίνακας *Λουλούδια* του `Frédéric Bazille  <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
 
 
-Ένα τεστάκι εφ' όλης της ύλης των συναρτήσεων στα μαθηματικά της Γ' ΕΠΑΛ.
+Ένα τεστάκι εφʹ όλης της ύλης των συναρτήσεων στα μαθηματικά της Γʹ ΕΠΑΛ.
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1cDGiMy_3pcJ5Cr-QnvX7370RRzn75kv3/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 

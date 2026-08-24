@@ -5,7 +5,7 @@
 	:date: 2019-07-08 20:50
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: 1-1, πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ασκήσεις, λύσεις
+	:tags: 1-1, πανελλήνιες, συναρτήσεις, τεστ, Γʹ λυκείου, ασκήσεις, λύσεις
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-1-1
 	:status: published
 	:attachments: _static/images/uploads/2019/07/435px-study_of_a_nude_by_matisse.jpg

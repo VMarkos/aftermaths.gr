@@ -1,11 +1,11 @@
-Επανάληψη από το Δημοτικό (Α' Γυμνασίου) - Β' Μέρος
+Επανάληψη από το Δημοτικό (Αʹ Γυμνασίου) - Βʹ Μέρος
 ###################################################
 
 .. meta::
 	:date: 2019-08-29 23:46
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πράξεις, προβλήματα, παραστάσεις, Α' Γυμνασίου, ασκήσεις, επανάληψη
+	:tags: πράξεις, προβλήματα, παραστάσεις, Αʹ Γυμνασίου, ασκήσεις, επανάληψη
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%ce%b1%cf%80%cf%8c-%cf%84%ce%bf-%ce%b4%ce%b7%ce%bc%ce%bf%cf%84%ce%b9%ce%ba%cf%8c-%ce%b1-%ce%b3%cf%85%ce%bc%ce%bd%ce%b1%cf%83%ce%af%ce%bf%cf%85
 	:status: published
 	:attachments: _static/images/uploads/2019/08/caspar_david_friedrich_-_blick_auf_arkona_mit_aufgehendem_mond.jpg

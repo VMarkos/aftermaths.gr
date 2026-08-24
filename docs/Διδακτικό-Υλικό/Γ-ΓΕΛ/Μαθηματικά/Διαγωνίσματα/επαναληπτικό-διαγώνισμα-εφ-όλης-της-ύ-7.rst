@@ -1,11 +1,11 @@
-Επαναληπτικό διαγώνισμα εφ' όλης της ύλης V
+Επαναληπτικό διαγώνισμα εφʹ όλης της ύλης V
 ###########################################
 
 .. meta::
 	:date: 2019-05-01 16:53
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, διαγώνισμα, επανάληψη
+	:tags: προβλήματα, πανελλήνιες, Γʹ λυκείου, ασκήσεις, διαγώνισμα, επανάληψη
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%8d-7
 	:status: published
 	:attachments: _static/images/uploads/2019/05/800px-d098d0b2d0b0d0bd_d0a8d0b8d188d0bad0b8d0bd_d09fd0bed181d0bbd0b5_d188d182d0bed180d0bcd0b0_d0b2_d09cd0b5d180d0b8-d0a5d0bed0b2d0b8_1891.jpg

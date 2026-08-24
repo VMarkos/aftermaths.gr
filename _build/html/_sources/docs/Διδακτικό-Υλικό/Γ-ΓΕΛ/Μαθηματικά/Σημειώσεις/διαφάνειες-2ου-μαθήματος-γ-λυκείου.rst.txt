@@ -1,11 +1,11 @@
-Διαφάνειες 2ου μαθήματος (Γ' λυκείου)
+Διαφάνειες 2ου μαθήματος (Γʹ λυκείου)
 #####################################
 
 .. meta::
 	:date: 2019-06-23 21:05
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πανελλήνιες, συναρτήσεις, σημειώσεις, Γ' λυκείου, διαφάνειες
+	:tags: πανελλήνιες, συναρτήσεις, σημειώσεις, Γʹ λυκείου, διαφάνειες
 	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-2%ce%bf%cf%85-%ce%bc%ce%b1%ce%b8%ce%ae%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
 	:status: published
 	:attachments: _static/images/uploads/2019/06/758px-matisse_-_vase_bottle_and_fruit_1906.jpg

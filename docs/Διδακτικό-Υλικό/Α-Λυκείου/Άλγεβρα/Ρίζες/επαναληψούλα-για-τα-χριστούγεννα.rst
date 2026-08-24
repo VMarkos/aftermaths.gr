@@ -5,7 +5,7 @@
 	:date: 2019-12-28 21:33
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, ρίζες, ρητοί εκθέτες, Α' Λυκείου, απόλυτη τιμή, ασκήσεις, επανάληψη
+	:tags: προβλήματα, ρίζες, ρητοί εκθέτες, Αʹ Λυκείου, απόλυτη τιμή, ασκήσεις, επανάληψη
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%88%ce%bf%cf%8d%ce%bb%ce%b1-%ce%b3%ce%b9%ce%b1-%cf%84%ce%b1-%cf%87%cf%81%ce%b9%cf%83%cf%84%ce%bf%cf%8d%ce%b3%ce%b5%ce%bd%ce%bd%ce%b1
 	:status: published
 	

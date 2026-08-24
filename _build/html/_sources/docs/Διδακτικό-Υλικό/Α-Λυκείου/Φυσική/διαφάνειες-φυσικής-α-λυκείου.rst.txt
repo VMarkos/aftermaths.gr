@@ -1,4 +1,4 @@
-Διαφάνειες Φυσικής (Α' Λυκείου)
+Διαφάνειες Φυσικής (Αʹ Λυκείου)
 ###############################
 
 .. meta::
@@ -17,7 +17,7 @@
 	Ο πίνακας *Δύο κορίτσια* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__. 
 
 
-Τις `διαφάνειες για την καραντίνα  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-για-την-καραντίνα.rst>`__ για το μάθημα της φυσικής της Α' λυκείου μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/176SycR-wvmkSi_Kr9gjrst2XvkJTuHKx/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τις `διαφάνειες για την καραντίνα  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-για-την-καραντίνα.rst>`__ για το μάθημα της φυσικής της Αʹ λυκείου μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/176SycR-wvmkSi_Kr9gjrst2XvkJTuHKx/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

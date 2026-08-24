@@ -5,7 +5,7 @@
 	:date: 2020-05-25 14:06
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, παραβολή, συναρτήσεις, Α' Λυκείου, ασκήσεις, γραφική παράσταση, επανάληψη
+	:tags: προβλήματα, παραβολή, συναρτήσεις, Αʹ Λυκείου, ασκήσεις, γραφική παράσταση, επανάληψη
 	:slug: %ce%b3%cf%81%ce%b1%cf%86%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b2%ce%bf%ce%bb%cf%8e%ce%bd
 	:status: published
 	:attachments: _static/images/uploads/2020/05/506px-johannes_vermeer_-_a_lady_and_two_gentlemen_-_wga24639.jpg

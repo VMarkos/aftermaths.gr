@@ -5,7 +5,7 @@
 	:date: 2020-10-12 15:26
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, εισαγωγή
+	:tags: προβλήματα, παράγωγος, πανελλήνιες, Γʹ λυκείου, ΕΠΑΛ, ασκήσεις, εισαγωγή
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%bf%cf%85%cf%82-%ce%ba%ce%b1%ce%bd%cf%8c%ce%bd%ce%b5%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%b9%cf%83%ce%b7%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2020/10/anton_azbe_1903_the_harem.jpg

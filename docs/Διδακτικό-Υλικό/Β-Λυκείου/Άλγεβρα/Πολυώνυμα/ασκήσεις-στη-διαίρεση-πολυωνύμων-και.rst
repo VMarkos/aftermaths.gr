@@ -5,7 +5,7 @@
 	:date: 2019-01-30 21:20
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, παραγοντοποίηση, πολυώνυμα, Β' Λυκείου, ασκήσεις
+	:tags: προβλήματα, παραγοντοποίηση, πολυώνυμα, Βʹ Λυκείου, ασκήσεις
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b4%ce%b9%ce%b1%ce%af%cf%81%ce%b5%cf%83%ce%b7-%cf%80%ce%bf%ce%bb%cf%85%cf%89%ce%bd%cf%8d%ce%bc%cf%89%ce%bd-%ce%ba%ce%b1%ce%b9
 	:status: published
 	:attachments: _static/images/uploads/2019/01/1280px-caspar_david_friedrich_-_felspartie_im_harz.jpg

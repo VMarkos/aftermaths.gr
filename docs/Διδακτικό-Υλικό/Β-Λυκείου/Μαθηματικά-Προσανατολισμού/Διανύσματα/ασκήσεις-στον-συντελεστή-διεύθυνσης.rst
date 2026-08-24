@@ -5,7 +5,7 @@
 	:date: 2018-09-16 19:24
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: συντελεστής διεύθυνσης, Β' Λυκείου, ασκήσεις, διανύσματα
+	:tags: συντελεστής διεύθυνσης, Βʹ Λυκείου, ασκήσεις, διανύσματα
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%bf%ce%bd-%cf%83%cf%85%ce%bd%cf%84%ce%b5%ce%bb%ce%b5%cf%83%cf%84%ce%ae-%ce%b4%ce%b9%ce%b5%cf%8d%ce%b8%cf%85%ce%bd%cf%83%ce%b7%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2018/09/mound_of_butter.jpg

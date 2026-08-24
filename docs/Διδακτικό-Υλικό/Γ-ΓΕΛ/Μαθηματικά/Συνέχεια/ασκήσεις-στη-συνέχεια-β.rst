@@ -1,11 +1,11 @@
-Ασκήσεις στη συνέχεια (Β')
+Ασκήσεις στη συνέχεια (Βʹ)
 ##########################
 
 .. meta::
 	:date: 2018-12-04 11:42
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πανελλήνιες, συνέχεια, συναρτήσεις, Γ' λυκείου, ασκήσεις
+	:tags: προβλήματα, πανελλήνιες, συνέχεια, συναρτήσεις, Γʹ λυκείου, ασκήσεις
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%cf%83%cf%85%ce%bd%ce%ad%cf%87%ce%b5%ce%b9%ce%b1-%ce%b2
 	:status: published
 	:attachments: _static/images/uploads/2018/12/still-life-with-lobster-antoine-vollon.jpg

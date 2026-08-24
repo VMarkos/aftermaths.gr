@@ -5,7 +5,7 @@
 	:date: 2020-08-29 15:47
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: 1-1, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ακρότατα, αντίστροφη, διαφάνειες, επανάληψη, θεωρία, μονοτονία
+	:tags: 1-1, πανελλήνιες, συναρτήσεις, Γʹ λυκείου, ακρότατα, αντίστροφη, διαφάνειες, επανάληψη, θεωρία, μονοτονία
 	:slug: %cf%86%cf%81%ce%ad%cf%83%ce%ba%ce%b5%cf%82-%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2020/08/skagens_jaegere_p._s._kroyer.jpg
@@ -17,7 +17,7 @@
 	Ο πίνακας *Οι κυνηγοί του Skagen* του `Peder Severin Krøyer  <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
 
 
-Ανανεωμένες και διορθωμένες διαφάνειες στην ύλη των συναρτήσεων των μαθηματικών προσανατολισμού της Γ' λυκείου. Μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1xgp5GLhIHmKIgACSMlf9IT_gp3tSQBnx/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Ανανεωμένες και διορθωμένες διαφάνειες στην ύλη των συναρτήσεων των μαθηματικών προσανατολισμού της Γʹ λυκείου. Μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1xgp5GLhIHmKIgACSMlf9IT_gp3tSQBnx/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

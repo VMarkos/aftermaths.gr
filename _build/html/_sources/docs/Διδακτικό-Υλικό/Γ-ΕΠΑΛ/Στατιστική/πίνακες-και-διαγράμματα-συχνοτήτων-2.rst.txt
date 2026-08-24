@@ -5,7 +5,7 @@
 	:date: 2020-04-26 13:13
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πίνακες, πανελλήνιες, στατιστική, συχνοτήτων, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη
+	:tags: προβλήματα, πίνακες, πανελλήνιες, στατιστική, συχνοτήτων, Γʹ λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη
 	:slug: %cf%80%ce%af%ce%bd%ce%b1%ce%ba%ce%b5%cf%82-%ce%ba%ce%b1%ce%b9-%ce%b4%ce%b9%ce%b1%ce%b3%cf%81%ce%ac%ce%bc%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%85%cf%87%ce%bd%ce%bf%cf%84%ce%ae%cf%84%cf%89%ce%bd-2
 	:status: published
 	

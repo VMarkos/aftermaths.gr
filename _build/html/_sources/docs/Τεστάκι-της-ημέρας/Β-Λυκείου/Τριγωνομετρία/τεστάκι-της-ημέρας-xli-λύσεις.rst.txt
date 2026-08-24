@@ -5,7 +5,7 @@
 	:date: 2020-12-19 09:47
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-	:tags: τριγωνομετρία, τεστ, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
+	:tags: τριγωνομετρία, τεστ, Βʹ Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xli-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2020/12/983px-william_merritt_chase_-_the_young_orphan_1884.jpg

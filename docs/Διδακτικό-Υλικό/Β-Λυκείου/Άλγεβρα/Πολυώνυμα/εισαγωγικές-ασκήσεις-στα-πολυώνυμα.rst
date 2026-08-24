@@ -5,7 +5,7 @@
 	:date: 2019-01-25 22:25
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πολυώνυμα, Β' Λυκείου, Διαίρεση, ασκήσεις, επανάληψη
+	:tags: πολυώνυμα, Βʹ Λυκείου, Διαίρεση, ασκήσεις, επανάληψη
 	:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%cf%85%cf%8e%ce%bd%cf%85%ce%bc%ce%b1
 	:status: published
 	:attachments: _static/images/uploads/2019/01/caspar_david_friedrich_-_meeresstrand_im_nebel.jpg

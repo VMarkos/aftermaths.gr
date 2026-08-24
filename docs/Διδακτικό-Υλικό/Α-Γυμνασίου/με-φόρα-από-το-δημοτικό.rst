@@ -5,7 +5,7 @@
 	:date: 2020-07-06 15:39
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: featured, προβλήματα, Α' Γυμνασίου, ασκήσεις, δημοτικό, επανάληψη
+	:tags: featured, προβλήματα, Αʹ Γυμνασίου, ασκήσεις, δημοτικό, επανάληψη
 	:slug: %ce%bc%ce%b5-%cf%86%cf%8c%cf%81%ce%b1-%ce%b1%cf%80%cf%8c-%cf%84%ce%bf-%ce%b4%ce%b7%ce%bc%ce%bf%cf%84%ce%b9%ce%ba%cf%8c
 	:status: published
 	:attachments: _static/images/uploads/2020/07/midsummer_eve_bonfire_on_skagens_beach_-_p.s._krc3b8yer_-_google_cultural_institute.jpg

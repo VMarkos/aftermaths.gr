@@ -5,7 +5,7 @@
 	:date: 2019-12-07 16:42
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, τριγωνομετρία, Β' Λυκείου, ασκήσεις, επανάληψη, κύκλος
+	:tags: προβλήματα, τριγωνομετρία, Βʹ Λυκείου, ασκήσεις, επανάληψη, κύκλος
 	:slug: %ce%bf-%cf%84%cf%81%ce%b9%ce%b3%cf%89%ce%bd%ce%bf%ce%bc%ce%b5%cf%84%cf%81%ce%b9%ce%ba%cf%8c%cf%82-%ce%ba%cf%8d%ce%ba%ce%bb%ce%bf%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2019/12/pablo_picasso_1913_bouteille_clarinette_violon_journal_verre.jpg

@@ -5,7 +5,7 @@
 	:date: 2018-09-20 15:40
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: Α' Λυκείου, ασκήσεις, διαστήματα
+	:tags: Αʹ Λυκείου, ασκήσεις, διαστήματα
 	:slug: %cf%80%ce%b1%ce%af%ce%b6%ce%bf%ce%bd%cf%84%ce%b1%cf%82-%ce%bc%ce%b5-%cf%84%ce%b1-%ce%b4%ce%b9%ce%b1%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1
 	:status: published
 	:attachments: _static/images/uploads/2018/09/1280px-jan_brueghel_-_rivieroever.jpg

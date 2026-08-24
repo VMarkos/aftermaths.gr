@@ -5,7 +5,7 @@
 	:date: 2019-04-21 18:09
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: συναρτήσεις, φύλλο εργασίας, Β' Λυκείου, εκθετική, λογαριθμική
+	:tags: συναρτήσεις, φύλλο εργασίας, Βʹ Λυκείου, εκθετική, λογαριθμική
 	:slug: %cf%86%cf%8d%ce%bb%ce%bb%ce%bf-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%af%ce%b1%cf%82-%ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%bf%cf%85%cf%82-%ce%bb%ce%bf%ce%b3%ce%b1%cf%81%ce%af
 	:status: published
 	:attachments: _static/images/uploads/2019/04/444px-vincent_van_gogh_-_brug_in_de_regen-_naar_hiroshige_-_google_art_project.jpg

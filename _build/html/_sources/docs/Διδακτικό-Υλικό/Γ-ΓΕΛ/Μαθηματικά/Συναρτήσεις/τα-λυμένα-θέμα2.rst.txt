@@ -5,7 +5,7 @@
 	:date: 2024-07-19 16:35
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά, Τα Λυμένα
-	:tags: πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις
+	:tags: πανελλήνιες, συναρτήσεις, Γʹ λυκείου, ασκήσεις
 	:slug: %cf%84%ce%b1-%ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%ce%b8%ce%ad%ce%bc%ce%b1-002
 	:status: published
 	:attachments: _static/images/uploads/2024/07/002_2425_005.png, _static/images/uploads/2024/07/002_2425_002.png, _static/images/uploads/2024/07/guercino_giovanni_francesco_barbieri_-_christ_and_the_woman_of_samaria_-_google_art_project.jpg, _static/images/uploads/2024/07/002_2425_001.png, _static/images/uploads/2024/07/002_2425_004.png, _static/images/uploads/2024/07/002_2425_003.png
@@ -17,7 +17,7 @@
 	Ο πίνακας *Ο Χριστός και η Σαμαρείτισσα* του `Guercino  <https://en.wikipedia.org/wiki/Guercino>`__. 
 
 
-Το δεύτερο θέμα της σειράς, πάλι για τη Γ' Γενικού Λυκείου, ωστόσο με λιγότερο εξεταστικό πνεύμα. Πράγματι, το τελευταίο πράγμα που θα ήθελα θα ήταν να μπει τέτοιο θέμα σε εξετάσεις, μιας και έχει αρκετό... ξεψάχνισμα. Ωστόσο, είναι μία αφορμή για πολλούς προβληματισμούς σε σχέση με λεπτά σημεία της θεωρίας που χρήζουν ιδιαίτερης προσοχής. Και, μεταξύ άλλων, είναι και μία αφορμή να φρεσκάρουμε λίγο την τριγωνομετρία μας από τη Β' Λυκείου.
+Το δεύτερο θέμα της σειράς, πάλι για τη Γʹ Γενικού Λυκείου, ωστόσο με λιγότερο εξεταστικό πνεύμα. Πράγματι, το τελευταίο πράγμα που θα ήθελα θα ήταν να μπει τέτοιο θέμα σε εξετάσεις, μιας και έχει αρκετό... ξεψάχνισμα. Ωστόσο, είναι μία αφορμή για πολλούς προβληματισμούς σε σχέση με λεπτά σημεία της θεωρίας που χρήζουν ιδιαίτερης προσοχής. Και, μεταξύ άλλων, είναι και μία αφορμή να φρεσκάρουμε λίγο την τριγωνομετρία μας από τη Βʹ Λυκείου.
 
 Το προηγούμενο θέμα μπορείτε να το βρείτε `εδώ  </2024/07/13/%cf%84%ce%b1-%ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%ce%b8%ce%ad%ce%bc%ce%b1-001/>`__, ενώ όλα τα σχετικά θέματα μπορείτε να τα βρίσκετε, γενικά, `εδώ  </category/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/%cf%84%ce%b1-%ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1/>`__.
 
@@ -34,7 +34,7 @@
    .. math::  f^{-1}(x)=\frac{1+\sin(2x)}{3},\quad x\in\left[-\frac{\pi}{4},\frac{\pi}{4}\right].
 -  Να σχεδιάσετε τη γραφική παράσταση της  :math:`f` .
 
-**Εμπνευσμένη από:** Σ.Β., σελ. 38-39, 1, 2, 3/Α' Ομάδας.
+**Εμπνευσμένη από:** Σ.Β., σελ. 38-39, 1, 2, 3/Αʹ Ομάδας.
 
 Λύση
 ----
@@ -66,7 +66,7 @@
 
 Τέλειο, έτσι; Αν δεν το παρατηρήσατε, οι τιμές της ποσότητας  :math:`2f(x)`  πέφτουν μέσα στο διάστημα  :math:`\left[-\frac{\pi}{2},\frac{\pi}{2}\right]`  στο οποίο η  :math:`\sin(x)`  είναι γνησίως αύξουσα. Επομένως, μπορούμε να εφαρμόσουμε την  :math:`\sin(x)`  στην παραπάνω ανισότητα και, γενικά, σε ανισότητες που περιέχουν ποσότητες σαν την  :math:`2f(x)` . Επομένως, επιστρέφοντας στα προηγούμενα, αν γνωρίζουμε, ότι  :math:`f(x_1)<f(x_2)`  τότε:
 
-.. math:: \begin{align} &\hphantom{{}\Leftrightarrow{}}f(x_1)<f(x_2)\\ &\Leftrightarrow 2f(x_1)<2f(x_2)\\ &\Leftrightarrow \sin(2f(x_1))<\sin(2f(x_2))\\ &\Leftrightarrow 1+\sin(2f(x_1))<1+\sin(2f(x_2)). \end{align}
+.. math::  &\hphantom{{}\Leftrightarrow{}}f(x_1)<f(x_2)\\ &\Leftrightarrow 2f(x_1)<2f(x_2)\\ &\Leftrightarrow \sin(2f(x_1))<\sin(2f(x_2))\\ &\Leftrightarrow 1+\sin(2f(x_1))<1+\sin(2f(x_2)). 
 
 Τώρα, από τη δοσμένη σχέση μπορούμε να γράψουμε το εξής:
 
@@ -111,11 +111,11 @@
 
 Ωραία, αλλά πώς θα τα υπολογίσουμε εμείς αυτά, αφού δεν έχουμε έναν τύπο για την  :math:`f` ; Τύπο μπορεί να μην έχουμε, αλλά έχουμε μία ωραιότατη σχέση για την  :math:`f` , στην οποία μπορούμε να δώσουμε όποια τιμή θέλουμε στο  :math:`x\in\left[0,\frac{2}{3}\right]` . Ας πάμε να υπολογίσουμε, πρώτα, το  :math:`f(0)`  βάζοντας όπου  :math:`x`  το  :math:`0` :
 
-.. math:: \begin{align} &\hphantom{{}\Rightarrow{}}1+\sin\left(2f(x)\right)=3x\\ &\overset{x=0}{\Rightarrow}1+\sin\left(2f(0)\right)=3\cdot0\\ &\Rightarrow 1+\sin\left(2f(0)\right)=0\\ &\Rightarrow\sin\left(2f(0)\right)=-1\\ &\Rightarrow\sin\left(2f(0)\right)=\sin\left(-\frac{\pi}{2}\right)\\ &\Rightarrow 2f(0)=2k\pi-\frac{\pi}{2},k\in\mathbb{Z}\\ &\Rightarrow f(0)=k\pi-\frac{\pi}{4},k\in\mathbb{Z}. \end{align}
+.. math::  &\hphantom{{}\Rightarrow{}}1+\sin\left(2f(x)\right)=3x\\ &\overset{x=0}{\Rightarrow}1+\sin\left(2f(0)\right)=3\cdot0\\ &\Rightarrow 1+\sin\left(2f(0)\right)=0\\ &\Rightarrow\sin\left(2f(0)\right)=-1\\ &\Rightarrow\sin\left(2f(0)\right)=\sin\left(-\frac{\pi}{2}\right)\\ &\Rightarrow 2f(0)=2k\pi-\frac{\pi}{2},k\in\mathbb{Z}\\ &\Rightarrow f(0)=k\pi-\frac{\pi}{4},k\in\mathbb{Z}. 
 
 Τώρα, προφανώς, δε γίνεται να έχουμε άπειρες επιλογές για το  :math:`f(0)` . Γνωρίζουμε ότι  :math:`f(0)\in\left[-\frac{\pi}{4},\frac{\pi}{4}\right]` , συνεπώς:
 
-.. math:: \begin{align} &\hphantom{{}\Leftrightarrow{}}-\frac{\pi}{4}\leq f(0)\leq\frac{\pi}{4}\\ &\Leftrightarrow-\frac{\pi}{4}\leq k\pi-\frac{\pi}{4}\leq\frac{\pi}{4}\\ &\overset{+\frac{\pi}{4}}{\Leftrightarrow} 0\leq k\pi\leq\frac{\pi}{2}\\ &\overset{\div \pi}{\Leftrightarrow} 0\leq k\leq\frac{1}{2}. \end{align}
+.. math::  &\hphantom{{}\Leftrightarrow{}}-\frac{\pi}{4}\leq f(0)\leq\frac{\pi}{4}\\ &\Leftrightarrow-\frac{\pi}{4}\leq k\pi-\frac{\pi}{4}\leq\frac{\pi}{4}\\ &\overset{+\frac{\pi}{4}}{\Leftrightarrow} 0\leq k\pi\leq\frac{\pi}{2}\\ &\overset{\div \pi}{\Leftrightarrow} 0\leq k\leq\frac{1}{2}. 
 
 Συνεπώς, αφού το  :math:`k`  είναι ένας ακέραιος αριθμός, έπεται ότι  :math:`k=0` , άρα:
 
@@ -123,11 +123,11 @@
 
 Αντίστοιχα, τώρα, για  :math:`x=\frac{2}{3}`  έχουμε:
 
-.. math:: \begin{align} &\hphantom{{}\Rightarrow{}}1+\sin\left(2f(x)\right)=3x\\ &\overset{x=\frac{2}{3}}{\Rightarrow}1+\sin\left(2f\left(\frac{2}{3}\right)\right)=3\cdot\frac{2}{3}\\ &\Rightarrow 1+\sin\left(2f\left(\frac{2}{3}\right)\right)=2\\ &\Rightarrow\sin\left(2f\left(\frac{2}{3}\right)\right)=1\\ &\Rightarrow\sin\left(2f\left(\frac{2}{3}\right)\right)=\sin\left(\frac{\pi}{2}\right)\\ &\Rightarrow 2f\left(\frac{2}{3}\right)=2k\pi+\frac{\pi}{2},k\in\mathbb{Z}\\ &\Rightarrow f\left(\frac{2}{3}\right)=k\pi+\frac{\pi}{4},k\in\mathbb{Z}. \end{align}
+.. math::  &\hphantom{{}\Rightarrow{}}1+\sin\left(2f(x)\right)=3x\\ &\overset{x=\frac{2}{3}}{\Rightarrow}1+\sin\left(2f\left(\frac{2}{3}\right)\right)=3\cdot\frac{2}{3}\\ &\Rightarrow 1+\sin\left(2f\left(\frac{2}{3}\right)\right)=2\\ &\Rightarrow\sin\left(2f\left(\frac{2}{3}\right)\right)=1\\ &\Rightarrow\sin\left(2f\left(\frac{2}{3}\right)\right)=\sin\left(\frac{\pi}{2}\right)\\ &\Rightarrow 2f\left(\frac{2}{3}\right)=2k\pi+\frac{\pi}{2},k\in\mathbb{Z}\\ &\Rightarrow f\left(\frac{2}{3}\right)=k\pi+\frac{\pi}{4},k\in\mathbb{Z}. 
 
 Ομοίως, έχουμε:
 
-.. math:: \begin{align} &\hphantom{{}\Leftrightarrow{}}-\frac{\pi}{4}\leq f\left(\frac{2}{3}\right)\leq\frac{\pi}{4}\\ &\Leftrightarrow-\frac{\pi}{4}\leq k\pi+\frac{\pi}{4}\leq\frac{\pi}{4}\\ &\overset{-\frac{\pi}{4}}{\Leftrightarrow} -\frac{\pi}{2}\leq k\pi\leq 0\\ &\overset{\div \pi}{\Leftrightarrow} -\frac{1}{2}\leq k\leq 0. \end{align}
+.. math::  &\hphantom{{}\Leftrightarrow{}}-\frac{\pi}{4}\leq f\left(\frac{2}{3}\right)\leq\frac{\pi}{4}\\ &\Leftrightarrow-\frac{\pi}{4}\leq k\pi+\frac{\pi}{4}\leq\frac{\pi}{4}\\ &\overset{-\frac{\pi}{4}}{\Leftrightarrow} -\frac{\pi}{2}\leq k\pi\leq 0\\ &\overset{\div \pi}{\Leftrightarrow} -\frac{1}{2}\leq k\leq 0. 
 
 Επομένως, αφού ο  :math:`k`  είναι ακέραιος, έπεται και πάλι ότι  :math:`k=0` , άρα:
 
@@ -171,7 +171,7 @@
 Ερώτημα d.
 ~~~~~~~~~~
 
-Α, ωραία, τώρα θέλει και γραφική παράσταση μίας συνάρτησης που δεν την ξέρουμε, ουσιαστικά… Λοιπόν, προφανώς, θα πρέπει για χιλιοστή φορά να αξιοποιήσουμε τη δοσμένη σχέση και όσα έχουμε βρει παραπάνω. Γνωρίζουμε, από το προηγούμενο ερώτημα, ποια είναι η αντίστροφη της  :math:`f` , η οποία είναι μία κομψή τριγωνομετρική συνάρτηση, της οποίας μπορούμε σχετικά εύκολα να σχεδιάσουμε τη γραφική παράσταση, με γνώσεις από τη Β' Λυκείου. Αρχικά, ας τη θυμηθούμε:
+Α, ωραία, τώρα θέλει και γραφική παράσταση μίας συνάρτησης που δεν την ξέρουμε, ουσιαστικά… Λοιπόν, προφανώς, θα πρέπει για χιλιοστή φορά να αξιοποιήσουμε τη δοσμένη σχέση και όσα έχουμε βρει παραπάνω. Γνωρίζουμε, από το προηγούμενο ερώτημα, ποια είναι η αντίστροφη της  :math:`f` , η οποία είναι μία κομψή τριγωνομετρική συνάρτηση, της οποίας μπορούμε σχετικά εύκολα να σχεδιάσουμε τη γραφική παράσταση, με γνώσεις από τη Βʹ Λυκείου. Αρχικά, ας τη θυμηθούμε:
 
 .. math::  f^{-1}(x)=\frac{1+\sin(2x)}{3},\quad x\in\left[-\frac{\pi}{4},\frac{\pi}{4}\right].
 

@@ -5,7 +5,7 @@
 	:date: 2018-12-29 22:17
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πανελλήνιες, συνέχεια, συναρτήσεις, σημειώσεις, Γ' λυκείου, ασκήσεις, επανάληψη
+	:tags: προβλήματα, πανελλήνιες, συνέχεια, συναρτήσεις, σημειώσεις, Γʹ λυκείου, ασκήσεις, επανάληψη
 	:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b1%ce%b8%ce%b7%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%cf%8e%ce%bd-%ce%ba%ce%b5%cf%86%ce%ac%ce%bb%ce%b1%ce%b9%ce%bf-%cf%84%cf%81%ce%af
 	:status: published
 	:attachments: _static/images/uploads/2018/12/aabe52cd1a4e02e4cde9f5104c25a2aa-caspar-david-friedrich-the-forest.jpg

@@ -5,7 +5,7 @@
 	:date: 2018-10-24 16:14
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Φυσική
-	:tags: προβλήματα, Α' Λυκείου, ΕΟΚ, ασκήσεις, επανάληψη
+	:tags: προβλήματα, Αʹ Λυκείου, ΕΟΚ, ασκήσεις, επανάληψη
 	:slug: %ce%bb%ce%af%ce%b3%ce%b1-%ce%b1%ce%ba%cf%8c%ce%bc%ce%b1-%cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b7%ce%bd-%ce%b5%ce%bf%ce%ba
 	:status: published
 	:attachments: _static/images/uploads/2018/10/1280px-lautrec_in_bed_1893.jpg

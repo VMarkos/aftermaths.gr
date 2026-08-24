@@ -5,7 +5,7 @@
 	:date: 2018-09-26 18:37
 	:author: aftermathsgr
 	:category: ΑΕΠΠ, Διδακτικό υλικό
-	:tags: πανελλήνιες, Γ' λυκείου, Διαίρεση, Ευκλείδεια, ασκήσεις, αλγόριθμοι
+	:tags: πανελλήνιες, Γʹ λυκείου, Διαίρεση, Ευκλείδεια, ασκήσεις, αλγόριθμοι
 	:slug: %ce%b5%cf%85%ce%ba%ce%bb%ce%b5%ce%af%ce%b4%ce%b5%ce%b9%ce%b1-%ce%b4%ce%b9%ce%b1%ce%af%cf%81%ce%b5%cf%83%ce%b7-%ce%b1%ce%b5%cf%80%cf%80
 	:status: published
 	:attachments: _static/images/uploads/2018/09/vg104-2024_1024x1024.jpg

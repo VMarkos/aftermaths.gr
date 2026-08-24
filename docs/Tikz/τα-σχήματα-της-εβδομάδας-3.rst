@@ -33,7 +33,7 @@
 
 Ο αντίστοιχος κώδικας είναι ο εξής:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -77,7 +77,7 @@
 
 Ο αντίστοιχος κώδικας φαίνεται παρακάτω:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -108,7 +108,7 @@
 
 Κι εδώ οι ιδέες που παρουσιάζονται είναι παρόμοιες με το παραπάνω σχήμα. Δηλαδή, αν εξαιρέσουμε τις συναρτήσεις που απεικονίζονται, οι τεχνικές μας είναι ακριβώς οι ίδιες. Κι εδώ ας παρατηρήσουμε ότι επειδή τα πεδία ορισμού όλων των παραπάνω συναρτήσεων περιέχουν διάφορα ανοικτά άκρα, τα αποφεύγουμε διακριτικά. Και, αφού το αναφέραμε, ας δούμε και μία μικρή λεπτομέρεια. Η συνάρτηση  :math:`f(x)=\dfrac{1}{x},`  όπως γνωρίζουμε, δεν ορίζεται στο 0 ενώ ορίζεται κανονικά σε κάθε μη μηδενικό πραγματικό αριθμό. Επομένως, για να τη σχεδιάσουμε χρειάζεται να τη «σπάσουμε» σε δύο κλάδους, έναν με τις αρνητικές και έναν με τις θετικές τιμές της. Ωστόσο, ο παρακάτω κώδικας, αν και μαθηματικά λάθος, δε δίνει πάντα εσφαλμένα αποτελέσματα:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \draw[thick, samples=50, domain={-4}:{4}] plot (\x,{1/\x});
 
@@ -127,7 +127,7 @@
 
 Ο αντίστοιχος κώδικας είναι ο εξής:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
    \usepackage{xfrac}
@@ -166,7 +166,7 @@
 
 Ο αντίστοιχος κώδικας είναι ο εξής:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -202,7 +202,7 @@
 
 Ο αντίστοιχος κώδικας είναι ο εξής:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -254,7 +254,7 @@
 
 Ο αντίστοιχος κώδικας:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -287,7 +287,7 @@
 
 Ο αντίστοιχος κώδικας είναι ο εξής:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -306,7 +306,7 @@
 
 Απλό κι αυτό το σχήμα, δεν έχει, θα λέγαμε, κάτι το ιδιαίτερο. Ωστόσο, αφού έχουμε το περιθώριο, ας σχολιάσουμε λίγο τις παραμέτρους που δίνουμε στους διάφορους κόμβους που σχεδιάζουμε. Για την ακρίβεια, ας εστιάσουμε λίγο στις ταμπέλες των κόμβων και ειδικότερα, στον παρακάτω:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \node[circle, inner sep=1.5pt, draw=blue, fill=blue, label={right,yshift=8pt,black}:{$(3,0)$}] at (3,0){};
 

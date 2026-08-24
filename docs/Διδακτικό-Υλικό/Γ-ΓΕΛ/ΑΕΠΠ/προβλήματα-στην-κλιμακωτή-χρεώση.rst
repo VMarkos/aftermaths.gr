@@ -5,7 +5,7 @@
 	:date: 2019-09-07 15:30
 	:author: aftermathsgr
 	:category: ΑΕΠΠ, Διδακτικό υλικό
-	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επιλογής, επανάληψη, κλιμακωτή χρέωση
+	:tags: προβλήματα, πανελλήνιες, Γʹ λυκείου, ασκήσεις, δομή επιλογής, επανάληψη, κλιμακωτή χρέωση
 	:slug: %cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b7%ce%bd-%ce%ba%ce%bb%ce%b9%ce%bc%ce%b1%ce%ba%cf%89%cf%84%ce%ae-%cf%87%cf%81%ce%b5%cf%8e%cf%83%ce%b7
 	:status: published
 	:attachments: _static/images/uploads/2019/09/300px-caspar_david_friedrich_018.jpg

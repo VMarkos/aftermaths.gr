@@ -33,7 +33,7 @@
 
 Ο αντίστοιχος κώδικας είναι ο εξής:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
    \usepackage[english, greek]{babel}
@@ -87,7 +87,7 @@
 
 Ο αντίστοιχος κώδικας είναι ο εξής:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -139,7 +139,7 @@
 
 Λοιπόν, αρχικά, όπως έχουμε πει, σχεδιάζουμε κάποιος ακόμα κόμβους, που θα μας εξυπηρετήσουν ως τα «άκρα» των καμπύλων αυτών - καθώς οι υπάρχοντες κόμβοι φέρουν και ετικέτες και θα ήταν λίγο άκομψο και δύσκολο να δουλέψουμε με αυτούς και μόνο. Έπειτα, με μία εντολή σαν την παρακάτω:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \draw[dashed, red, thick, fill=red, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(a1.north) (a2.west) (a3.south east)};
 
@@ -162,7 +162,7 @@
 
 Ο αντίστοιχος κώδικας είναι ο εξής:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -217,7 +217,7 @@
 
 που μας επιτρέπει να ανακατέψουμε το δύο χρώματα, το πρώτο σε ποσοστό ``x%`` και το δεύτερο σε ποσοστό ``100-x%`` - οπότε και το ``x`` καλό θα ήταν να είναι ένας αριθμός από το 0 έως το 100.
 
-Αυτά είχαμε να πούμε και γι' αυτήν την εβδομάδα, λίγα και καλά! Μέχρι την επόμενη Τρίτη, καλή συνέχεια!
+Αυτά είχαμε να πούμε και γιʹ αυτήν την εβδομάδα, λίγα και καλά! Μέχρι την επόμενη Τρίτη, καλή συνέχεια!
 
 
 

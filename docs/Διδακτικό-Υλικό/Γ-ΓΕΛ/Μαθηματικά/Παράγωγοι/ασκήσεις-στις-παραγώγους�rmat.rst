@@ -5,7 +5,7 @@
 	:date: 2019-01-25 22:17
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: Fermat, προβλήματα, παράγωγος, πανελλήνιες, Γ' λυκείου, ασκήσεις, επανάληψη
+	:tags: Fermat, προβλήματα, παράγωγος, πανελλήνιες, Γʹ λυκείου, ασκήσεις, επανάληψη
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%80%ce%b1%cf%81%ce%b1%ce%b3%cf%8e%ce%b3%ce%bf%cf%85%cf%82-fermat
 	:status: published
 	:attachments: _static/images/uploads/2019/01/caspar_david_friedrich_-_graveyard_under_snow_-_museum_der_bildenden_künste.jpg

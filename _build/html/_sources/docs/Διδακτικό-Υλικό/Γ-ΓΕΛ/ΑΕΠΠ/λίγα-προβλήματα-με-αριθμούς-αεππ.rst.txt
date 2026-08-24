@@ -5,7 +5,7 @@
 	:date: 2018-09-27 21:35
 	:author: aftermathsgr
 	:category: ΑΕΠΠ, Διδακτικό υλικό
-	:tags: πανελλήνιες, Γ' λυκείου, ασκήσεις, αλγόριθμοι
+	:tags: πανελλήνιες, Γʹ λυκείου, ασκήσεις, αλγόριθμοι
 	:slug: %ce%bb%ce%af%ce%b3%ce%b1-%cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%ce%bc%ce%b5-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%cf%8d%cf%82-%ce%b1%ce%b5%cf%80%cf%80
 	:status: published
 	:attachments: _static/images/uploads/2018/09/1faa55c9433daa0c0a75088a22fe42fe.jpg

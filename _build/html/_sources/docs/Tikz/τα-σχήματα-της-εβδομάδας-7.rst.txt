@@ -33,7 +33,7 @@
 
 Ο αντίστοιχος κώδικας είναι ο εξής:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -81,7 +81,7 @@
 
 Έχοντας αυτούς τους κόμβους, σχεδιάζουμε πλέον την καμπύλη μας με την ακόλουθη εντολή-σιδηρόδρομο:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \draw[dashed, red, thick, fill=red, fill opacity=.1] plot [smooth cycle, tension=1] coordinates {(x.north east) (m) (y.north east) (z.south east) (w.west)};
 
@@ -108,7 +108,7 @@
 
 Ο αντίστοιχος κώδικας είναι ο ακόλουθος:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -152,7 +152,7 @@
 
 Ο αντίστοιχος κώδικας, ωστόσο, είναι κάπως πιο πλούσιος:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -200,9 +200,9 @@
 
 *Αν εμφανίζονται οι κώδικες html unicode ``&lt;`` και ``&gt;`` είναι γιατί το block που εμφανίζει τον κώδικα έχει ένα μικρό bug. Το ``&lt;`` αντιστοιχεί στο ``<`` και το ``&gt;`` στο ``>``.*
 
-Επί της ουσίας, έχουμε προσθέσει κάτι βελάκια από τη γραφική παράσταση προς τον άξονα  :math:`x'x`  πράγμα που, αν και είναι απλό με το χέρι, εδώ θέλει λίγη περισσότερη δουλίτσα. Για την ακρίβεια, αρχικά ξεκινάμε μία επανάληψη με την εντολή:
+Επί της ουσίας, έχουμε προσθέσει κάτι βελάκια από τη γραφική παράσταση προς τον άξονα  :math:`xʹx`  πράγμα που, αν και είναι απλό με το χέρι, εδώ θέλει λίγη περισσότερη δουλίτσα. Για την ακρίβεια, αρχικά ξεκινάμε μία επανάληψη με την εντολή:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \foreach \i in {-2.78,-2.54,...,-1} {stuff...}
 
@@ -214,7 +214,7 @@
 
 Αφού ανοίξαμε τον βρόχο, η πρώτη εντολή που δίνουμε είναι αυτό το αλλοπρόσαλλο πράγμα:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \pgfmathtruncatemacro{\coord}{100*\i}
 
@@ -222,7 +222,7 @@
 
 Έπειτα έχουμε αυτές τις τρεις γραμμές:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \draw[draw=none, name path=line \coord] (\i,-2.7) -- (\i,3);
    \node[draw=none, name intersections={of=curve 2 and line \coord},inner sep=0pt](a\coord) at (intersection-1){};
@@ -240,7 +240,7 @@
 
 οπότε εμείς στα παραπάνω χρησιμοποιούμε τον κώδικα ``intersection-1`` για να αναφερθούμε στο πρώτο - και μοναδικό - στοιχείο της λίστας μας.
 
-Έπειτα δεν κάνουμε τίποτα παρά να σχεδιάζουμε ένα σημείο από αυτόν τον αόρατο κόμβο μέχρι και την προβολή του αόρατου κόμβου στον άξονα  :math:`x'x`  - που την κάνουμε, κατά τα γνωστά, με τη βοήθεια της ``calc``.
+Έπειτα δεν κάνουμε τίποτα παρά να σχεδιάζουμε ένα σημείο από αυτόν τον αόρατο κόμβο μέχρι και την προβολή του αόρατου κόμβου στον άξονα  :math:`xʹx`  - που την κάνουμε, κατά τα γνωστά, με τη βοήθεια της ``calc``.
 
 Να σημειώσουμε κάπου εδώ ότι την εντολή που παράγει τη λίστα των σημείων τομής:
 
@@ -254,14 +254,14 @@
 Το επόμενο σχήμα μας είναι ντροπιαστικά απλό σε σχέση με το προηγούμενο:
 
 .. figure:: /_static/images/uploads/2021/09/fig_38.png
-   :alt: Τ' είν' αυτό;
+   :alt: Τʹ είνʹ αυτό;
    :figclass: wp-image-8623
 
-   Τ' είν' αυτό;
+   Τʹ είνʹ αυτό;
 
 Ο αντίστοιχος κώδικας, δε, είναι ακόμα πιο λίγος:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -281,7 +281,7 @@
 
 Τίποτα, απλά σχεδιάσαμε μία καμπύλη. Ή και όχι... Ας προσέξουμε λίγο τη γραμμή που σχεδιάζει την καμπύλη:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \draw[thick,blue!50!black, domain={.5}:{3}, samples=100] (1,-2) .. controls (-6,2) and (2,2) .. (2,-1.85);
 
@@ -302,7 +302,7 @@
 
 Ο αντίστοιχος κώδικας είναι ο εξής:
 
-.. code:: wp-block-syntaxhighlighter-code
+.. code:: 
 
    \documentclass[tikz, margin=5mm]{standalone}
     

@@ -5,7 +5,7 @@
 	:date: 2019-09-11 12:47
 	:author: aftermathsgr
 	:category: ΑΕΠΠ, Διδακτικό υλικό
-	:tags: προβλήματα, πανελλήνιες, Γ' λυκείου, ασκήσεις, δομή επιλογής, επανάληψη
+	:tags: προβλήματα, πανελλήνιες, Γʹ λυκείου, ασκήσεις, δομή επιλογής, επανάληψη
 	:slug: 1089-%ce%b1%ce%b5%cf%80%cf%80
 	:status: published
 	:attachments: _static/images/uploads/2019/09/800px-lautrec_equestrienne_at_the_cirque_fernando_1887-8.jpg

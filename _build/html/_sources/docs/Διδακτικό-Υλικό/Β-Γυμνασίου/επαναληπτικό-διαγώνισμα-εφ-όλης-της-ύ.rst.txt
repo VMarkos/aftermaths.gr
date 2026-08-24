@@ -1,11 +1,11 @@
-Επαναληπτικό διαγώνισμα εφ' όλης της ύλης στη Β Γυμνασίου
+Επαναληπτικό διαγώνισμα εφʹ όλης της ύλης στη Β Γυμνασίου
 #########################################################
 
 .. meta::
 	:date: 2019-06-15 13:55
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, Β' Γυμνασίου, ασκήσεις, διαγώνισμα, επανάληψη
+	:tags: προβλήματα, Βʹ Γυμνασίου, ασκήσεις, διαγώνισμα, επανάληψη
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%8d-12
 	:status: published
 	:attachments: _static/images/uploads/2019/06/436px-vincent_van_gogh_-_eugc3a8ne_boch_-_google_art_project.jpg

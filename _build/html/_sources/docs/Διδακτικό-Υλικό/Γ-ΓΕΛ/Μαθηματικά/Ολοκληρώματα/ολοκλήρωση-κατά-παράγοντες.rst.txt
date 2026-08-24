@@ -5,7 +5,7 @@
 	:date: 2020-02-27 13:56
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, παραγοντική, πανελλήνιες, Γ' λυκείου, ασκήσεις, ολοκλήρωση κατά παράγοντες, ολοκλήρωμα
+	:tags: προβλήματα, παραγοντική, πανελλήνιες, Γʹ λυκείου, ασκήσεις, ολοκλήρωση κατά παράγοντες, ολοκλήρωμα
 	:slug: %ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%cf%83%ce%b7-%ce%ba%ce%b1%cf%84%ce%ac-%cf%80%ce%b1%cf%81%ce%ac%ce%b3%ce%bf%ce%bd%cf%84%ce%b5%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2020/02/800px-rembrandt_krajobraz_z_mic582osiernym_samarytaninem.jpg

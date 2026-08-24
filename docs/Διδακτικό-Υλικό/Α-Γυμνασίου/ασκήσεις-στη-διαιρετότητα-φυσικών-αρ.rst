@@ -5,7 +5,7 @@
 	:date: 2019-09-17 14:19
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: φυσικοί αριθμοί, Α' Γυμνασίου, ΕΚΠ, ΜΚΔ, ασκήσεις, ακέραιοι, επανάληψη
+	:tags: φυσικοί αριθμοί, Αʹ Γυμνασίου, ΕΚΠ, ΜΚΔ, ασκήσεις, ακέραιοι, επανάληψη
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7-%ce%b4%ce%b9%ce%b1%ce%b9%cf%81%ce%b5%cf%84%cf%8c%cf%84%ce%b7%cf%84%ce%b1-%cf%86%cf%85%cf%83%ce%b9%ce%ba%cf%8e%ce%bd-%ce%b1%cf%81
 	:status: published
 	:attachments: _static/images/uploads/2019/09/720px-caravaggio_-_cena_in_emmaus.jpg

@@ -5,7 +5,7 @@
 	:date: 2019-09-10 18:24
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, Α' Λυκείου, αποδείξεις, ασκήσεις, ανισότητες
+	:tags: προβλήματα, Αʹ Λυκείου, αποδείξεις, ασκήσεις, ανισότητες
 	:slug: 15-%ce%b1%ce%bd%ce%b9%cf%83%cf%8c%cf%84%ce%b7%cf%84%ce%b5%cf%82-%ce%b3%ce%b9%ce%b1-%cf%80%cf%81%ce%bf%cf%80%cf%8c%ce%bd%ce%b7%cf%83%ce%b7
 	:status: published
 	:attachments: _static/images/uploads/2019/09/467px-henri_de_toulouse-lautrec_018.jpg

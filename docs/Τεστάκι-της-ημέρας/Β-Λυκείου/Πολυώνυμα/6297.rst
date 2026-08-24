@@ -5,7 +5,7 @@
 	:date: 2021-03-25 09:42
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-	:tags: πολυώνυμα, τεστ, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, λύσεις
+	:tags: πολυώνυμα, τεστ, Βʹ Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, λύσεις
 	:slug: 6297
 	:status: published
 	:attachments: _static/images/uploads/2021/03/515px-pierre-auguste_renoir_089.jpg

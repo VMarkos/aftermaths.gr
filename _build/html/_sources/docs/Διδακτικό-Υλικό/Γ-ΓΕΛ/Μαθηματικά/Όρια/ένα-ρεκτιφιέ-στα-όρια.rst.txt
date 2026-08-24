@@ -5,7 +5,7 @@
 	:date: 2019-09-27 14:36
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πανελλήνιες, συναρτήσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη
+	:tags: προβλήματα, πανελλήνιες, συναρτήσεις, όρια, Γʹ λυκείου, ασκήσεις, επανάληψη
 	:slug: %ce%ad%ce%bd%ce%b1-%cf%81%ce%b5%ce%ba%cf%84%ce%b9%cf%86%ce%b9%ce%ad-%cf%83%cf%84%ce%b1-%cf%8c%cf%81%ce%b9%ce%b1
 	:status: published
 	:attachments: _static/images/uploads/2019/09/wassily_kandinsky_1911_reiter_lyrishes_oil_on_canvas_94_x_130_cm_museum_boijmans_van_beuningen.jpg

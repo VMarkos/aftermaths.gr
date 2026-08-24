@@ -5,7 +5,7 @@
 	:date: 2018-12-24 19:01
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Φυσική
-	:tags: προβλήματα, Α' Λυκείου, ΕΟΚ, Χριστούγεννα, ασκήσεις, επανάληψη, ευθύγραμμη ομαλά μεταβαλλόμενη, ελεύθερη πτώση
+	:tags: προβλήματα, Αʹ Λυκείου, ΕΟΚ, Χριστούγεννα, ασκήσεις, επανάληψη, ευθύγραμμη ομαλά μεταβαλλόμενη, ελεύθερη πτώση
 	:slug: %ce%bc%ce%b9%ce%b1-%ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%cf%83%cf%84%ce%b9%cf%82-%ce%b5%cf%85%ce%b8%cf%8d%ce%b3%cf%81%ce%b1%ce%bc%ce%bc%ce%b5%cf%82-%ce%ba%ce%b9%ce%bd%ce%ae%cf%83
 	:status: published
 	:attachments: _static/images/uploads/2018/12/vangoghmuseum-s0011V1962-3840.jpg
@@ -17,7 +17,7 @@
 	Ο πίνακας *Παπούτσια* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
 
 
-Μία μικρή επαναληψούλα στις ευθύγραμμες κινήσεις (Α' λυκείου).
+Μία μικρή επαναληψούλα στις ευθύγραμμες κινήσεις (Αʹ λυκείου).
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1fOUZThciisNwqZjJ6CmD5yPizXiM0N9F/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 

@@ -5,7 +5,7 @@
 	:date: 2021-01-27 12:27
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πολυώνυμα, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
+	:tags: προβλήματα, πολυώνυμα, Βʹ Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b1-%cf%80%ce%bf%ce%bb%cf%85%cf%8e%ce%bd%cf%85%ce%bc%ce%b1
 	:status: published
 	:attachments: _static/images/uploads/2021/01/792px-1881_kramskoi_frauenportraet_anagoria.jpg
@@ -17,7 +17,7 @@
 	Το πορτραίτο μίας γυναίκας που διαβάζει του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
 
 
-Ένα φυλλάδιο με ασκήσεις και προβλήματα στα πολυώνυμα, στα πλαίσια της ύλης της Β' Λυκείου - Γενικού και ΕΠΑΛ.
+Ένα φυλλάδιο με ασκήσεις και προβλήματα στα πολυώνυμα, στα πλαίσια της ύλης της Βʹ Λυκείου - Γενικού και ΕΠΑΛ.
 
 Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1fHbonOJjqCmnFbHxC5ZaOzZVv_tHNNyy/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 

@@ -5,7 +5,7 @@
 	:date: 2021-12-07 15:52
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: ρίζες, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, ασκήσεις, ανισώσεις, επανάληψη, εξισώσεις
+	:tags: ρίζες, Αʹ Λυκείου, ΕΠΑΛ, άλγεβρα, απόλυτη τιμή, ασκήσεις, ανισώσεις, επανάληψη, εξισώσεις
 	:slug: %ce%b1%cf%83%ce%ba%ce%b7%cf%83%ce%bf%cf%8d%ce%bb%ce%b5%cf%82-%cf%83%cf%84%ce%bf%cf%85%cf%82-%cf%80%cf%81%ce%b1%ce%b3%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%ce%bf%cf%8d%cf%82-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc
 	:status: published
 	:attachments: _static/images/uploads/2021/12/1280px-jacques-louis_david_-_the_anger_of_achilles_-_google_art_project.jpg
@@ -17,7 +17,7 @@
 	Ο πίνακας *Ο θυμός του Αχιλλέα* του `Jacques-Louis David  <https://en.wikipedia.org/wiki/Jacques-Louis_David>`__. 
 
 
-Λίγες βαρετές επαναληπτικές ασκήσεις στο κεφάλαιο των πραγματικών αριθμών - Άλγεβρα Α' Γενικού Λυκείου και ΕΠΑΛ.
+Λίγες βαρετές επαναληπτικές ασκήσεις στο κεφάλαιο των πραγματικών αριθμών - Άλγεβρα Αʹ Γενικού Λυκείου και ΕΠΑΛ.
 
 Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1mWSn4-2dFZwhILvtQePD6VTHmXCWI_oo/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 

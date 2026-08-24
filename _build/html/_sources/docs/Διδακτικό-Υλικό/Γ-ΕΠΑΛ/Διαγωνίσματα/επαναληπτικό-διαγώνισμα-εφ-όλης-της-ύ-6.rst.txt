@@ -1,11 +1,11 @@
-Επαναληπτικό διαγώνισμα εφ' όλης της ύλης (ΕΠΑΛ Γ')
+Επαναληπτικό διαγώνισμα εφʹ όλης της ύλης (ΕΠΑΛ Γʹ)
 ###################################################
 
 .. meta::
 	:date: 2019-04-06 14:34
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διαγώνισμα, επανάληψη
+	:tags: προβλήματα, πανελλήνιες, στατιστική, Γʹ λυκείου, ΕΠΑΛ, ασκήσεις, διαγώνισμα, επανάληψη
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%8d-6
 	:status: published
 	:attachments: _static/images/uploads/2019/04/398px-caravaggio_-_la_deposizione_di_cristo.jpg

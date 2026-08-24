@@ -5,7 +5,7 @@
 	:date: 2020-06-28 18:51
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: προβλήματα, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διάμεσος, μέση τιμή, ομαδοποιημένα δεδομένα
+	:tags: προβλήματα, πανελλήνιες, στατιστική, Γʹ λυκείου, ΕΠΑΛ, ασκήσεις, διάμεσος, μέση τιμή, ομαδοποιημένα δεδομένα
 	:slug: %ce%bc%ce%ad%cf%84%cf%81%ce%b1-%ce%b8%ce%ad%cf%83%ce%b7%cf%82-%ce%ba%ce%b1%ce%b9-%ce%b4%ce%b9%ce%b1%cf%83%cf%80%ce%bf%cf%81%ce%ac%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2020/06/800px-p_s_krc3b8yer_1897_-_dc3b8trene_benzon.jpg

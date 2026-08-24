@@ -5,7 +5,7 @@
 	:date: 2018-10-01 20:56
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά
-	:tags: πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις
+	:tags: πανελλήνιες, συναρτήσεις, Γʹ λυκείου, ασκήσεις
 	:slug: %ce%bb%ce%af%ce%b3%ce%b5%cf%82-%cf%84%ce%b5%cf%87%ce%bd%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%bf-%cf%80%ce%b5%ce%b4%ce%af%ce%bf-%ce%bf%cf%81%ce%b9
 	:status: published
 	:attachments: _static/images/uploads/2018/10/piet_mondrian_1911_gray_tree_de_grijze_boom_oil_on_canvas_79-7_x_109-1_cm_gemeentemuseum_den_haag_netherlands.jpg

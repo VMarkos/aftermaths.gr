@@ -5,7 +5,7 @@
 	:date: 2021-11-20 15:16
 	:author: aftermathsgr
 	:category: After-maths, Διδακτική, Μαθηματικά
-	:tags: featured, Α' Λυκείου, Β' Λυκείου, Γ' λυκείου, ΕΠΑΛ, εξισώσεις
+	:tags: featured, Αʹ Λυκείου, Βʹ Λυκείου, Γʹ λυκείου, ΕΠΑΛ, εξισώσεις
 	:slug: %ce%b7-%cf%83%cf%89%cf%83%cf%84%ce%ae-%ce%b5%cf%81%cf%8e%cf%84%ce%b7%cf%83%ce%b7
 	:status: published
 	:attachments: _static/images/uploads/2021/11/2560px-david_-_the_death_of_socrates.jpg
@@ -125,7 +125,7 @@
 
 Επομένως, η επίλυση μίας εξίσωσης ανάγεται στην εξεύρεση των κατάλληλων τελεστών  :math:`T_1,T_2,\ldots,T_n`  έτσι ώστε, αν έχουμε μία εξίσωση  :math:`\phi=\psi`  με  :math:`\phi,\psi\in\mathcal{E},`  να κάνουμε το εξής:
 
-.. math:: \begin{align}\phi=\psi&\Leftrightarrow T_1(\phi)=T_1(\psi)\&\Leftrightarrow T_2(T_1(\phi))=T_2(T_1(\psi))\&\cdots\&\Leftrightarrow T_n(\cdots T_2(T_1(\phi)))=T_n(\cdots T_2(T_1(\psi))).\end{align}
+.. math:: \phi=\psi&\Leftrightarrow T_1(\phi)=T_1(\psi)\\ &\Leftrightarrow T_2(T_1(\phi))=T_2(T_1(\psi))\\ &\cdots\\ &\Leftrightarrow T_n(\cdots T_2(T_1(\phi)))=T_n(\cdots T_2(T_1(\psi))).
 
 Και, μετά, από την τελευταία ισότητα, εύκολα να μεταβούμε σε μία ισοδύναμη έκφραση της μορφής  :math:`x\in A.`  Ή, αν θέλουμε να είμαστε κάπως λακωνικότεροι, θωρούμε τον τελεστή:
 

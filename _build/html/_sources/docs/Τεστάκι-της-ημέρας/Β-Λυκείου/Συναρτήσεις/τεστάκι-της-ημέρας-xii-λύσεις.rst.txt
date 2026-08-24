@@ -5,7 +5,7 @@
 	:date: 2020-11-11 19:44
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-	:tags: συναρτήσεις, τεστ, Β' Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, λύσεις
+	:tags: συναρτήσεις, τεστ, Βʹ Λυκείου, άλγεβρα, ασκήσεις, επανάληψη, λύσεις
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2020/11/jawlensky-alexej-von_tete-de-femme-meduse_lumiere-et-ombre_1923.jpg

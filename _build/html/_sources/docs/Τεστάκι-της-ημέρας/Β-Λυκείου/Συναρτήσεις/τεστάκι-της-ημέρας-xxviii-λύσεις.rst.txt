@@ -5,7 +5,7 @@
 	:date: 2020-11-27 20:28
 	:author: aftermathsgr
 	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
-	:tags: 1-1, συναρτήσεις, τεστ, Β' Λυκείου, ασκήσεις, λύσεις, μαθηματικά
+	:tags: 1-1, συναρτήσεις, τεστ, Βʹ Λυκείου, ασκήσεις, λύσεις, μαθηματικά
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxviii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
 	:status: published
 	:attachments: _static/images/uploads/2020/11/1280px-1912_macke_walterchens_spielsachen_anagoria.jpg
