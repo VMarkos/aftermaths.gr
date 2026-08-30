@@ -8,20 +8,20 @@
 	:tags: πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, διαφάνειες, επανάληψη, θεωρία
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%ac%ce%bb%ce%b7%cf%88%ce%b7-%cf%83%cf%84%ce%b7-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84%ce%b9%ce%ba%ce%ae-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
 	:status: published
-	:attachments: wp-content/uploads/2022/04/judische_hochzeit_in_marokko-1024.jpg
+	:attachments: _static/images/uploads/2022/04/judische_hochzeit_in_marokko-1024.jpg
 
-.. figure:: /wp-content/uploads/2022/04/judische_hochzeit_in_marokko-1024.jpg
-	:alt: Ο πίνακας *Εβραϊκός Γάμος στο Μαρόκο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\ *.* 
+.. figure:: /_static/images/uploads/2022/04/judische_hochzeit_in_marokko-1024.jpg
+	:alt: Ο πίνακας *Εβραϊκός Γάμος στο Μαρόκο* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Εβραϊκός Γάμος στο Μαρόκο* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\ *.* 
+	Ο πίνακας *Εβραϊκός Γάμος στο Μαρόκο* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\ *.* 
 
 
 Λίγες επαναληπτικές διαφάνειες στη Στατιστική της Γ' ΕΠΑΛ, καθώς πλησιάζουν οι πανελλήνιες.
 
-Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/14vAucLKTV_w8toMAj76FRT1Wdm0uKoEe/view?usp=sharing>`__, `εδώ <https://drive.google.com/file/d/1r2zv_UwCzF1xMIWx8dBWippZcBOhzeVc/view?usp=sharing>`__, `εδώ <https://drive.google.com/file/d/10LnbeY_h-mKySMYBrymPMA0wP5sqDfvi/view?usp=sharing>`__ κι `εδώ <https://drive.google.com/file/d/1m6RyQ-uvJ1KSkg4hpuDOKmUDxYMLO4E5/view?usp=sharing>`__, αλλά και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/14vAucLKTV_w8toMAj76FRT1Wdm0uKoEe/view?usp=sharing>`__, `εδώ  <https://drive.google.com/file/d/1r2zv_UwCzF1xMIWx8dBWippZcBOhzeVc/view?usp=sharing>`__, `εδώ  <https://drive.google.com/file/d/10LnbeY_h-mKySMYBrymPMA0wP5sqDfvi/view?usp=sharing>`__ κι `εδώ  <https://drive.google.com/file/d/1m6RyQ-uvJ1KSkg4hpuDOKmUDxYMLO4E5/view?usp=sharing>`__, αλλά και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
-Μπορείτε επίσης να βρείτε τις διαφάνειες και στο `slideshare <https://www.slideshare.net/ssuserbf550d/>`__:
+Μπορείτε επίσης να βρείτε τις διαφάνειες και στο `slideshare  <https://www.slideshare.net/ssuserbf550d/>`__:
 
 
 

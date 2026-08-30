@@ -8,16 +8,16 @@
 	:tags: πίνακες, Α' Λυκείου, απόλυτη τιμή, επανάληψη, εξισώσεις, θεωρία
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%cf%80%cf%8c%ce%bb%cf%85%cf%84%ce%b5%cf%82-%cf%84%ce%b9%ce%bc%ce%ad%cf%82-%ce%b5%ce%be%ce%b9%cf%83%cf%8e%cf%83%ce%b5
 	:status: published
-	:attachments: wp-content/uploads/2019/09/800px-vassily_kandinsky_1906_-_rotterdam_sun.jpg
+	:attachments: _static/images/uploads/2019/09/800px-vassily_kandinsky_1906_-_rotterdam_sun.jpg
 
-.. figure:: /wp-content/uploads/2019/09/800px-vassily_kandinsky_1906_-_rotterdam_sun.jpg
-	:alt: Ο πίνακας *Ο ήλιος του Ρόττερνταμ* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+.. figure:: /_static/images/uploads/2019/09/800px-vassily_kandinsky_1906_-_rotterdam_sun.jpg
+	:alt: Ο πίνακας *Ο ήλιος του Ρόττερνταμ* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Ο ήλιος του Ρόττερνταμ* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Ο ήλιος του Ρόττερνταμ* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
 
 
-Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/17D-imBb1aNzxVMDXfLEu0r3YXphMUJoH/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/17D-imBb1aNzxVMDXfLEu0r3YXphMUJoH/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

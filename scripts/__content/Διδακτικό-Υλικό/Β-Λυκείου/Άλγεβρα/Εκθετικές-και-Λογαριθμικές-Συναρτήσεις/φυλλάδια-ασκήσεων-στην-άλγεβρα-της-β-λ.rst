@@ -8,16 +8,16 @@
 	:tags: προβλήματα, πολυώνυμα, συστήματα, συναρτήσεις, τριγωνομετρία, Β' Λυκείου, ασκήσεις, επανάληψη, εκθετική, λογαριθμική
 	:slug: %cf%86%cf%85%ce%bb%ce%bb%ce%ac%ce%b4%ce%b9%ce%b1-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%cf%89%ce%bd-%cf%83%cf%84%ce%b7%ce%bd-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%cf%84%ce%b7%cf%82-%ce%b2-%ce%bb
 	:status: published
-	:attachments: wp-content/uploads/2019/08/henri_matisse_1914_les_poissons_rouges_interior_with_a_goldfish_bowl_oil_on_canvas_147_x_97_cm_centre_georges_pompidou_paris.jpg
+	:attachments: _static/images/uploads/2019/08/henri_matisse_1914_les_poissons_rouges_interior_with_a_goldfish_bowl_oil_on_canvas_147_x_97_cm_centre_georges_pompidou_paris.jpg
 
-.. figure:: /wp-content/uploads/2019/08/henri_matisse_1914_les_poissons_rouges_interior_with_a_goldfish_bowl_oil_on_canvas_147_x_97_cm_centre_georges_pompidou_paris.jpg
-	:alt: Ο πίνακας *Εσωτερικός χώρος με μία γυάλα με* *χρυσόψαρο* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+.. figure:: /_static/images/uploads/2019/08/henri_matisse_1914_les_poissons_rouges_interior_with_a_goldfish_bowl_oil_on_canvas_147_x_97_cm_centre_georges_pompidou_paris.jpg
+	:alt: Ο πίνακας *Εσωτερικός χώρος με μία γυάλα με* *χρυσόψαρο* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Εσωτερικός χώρος με μία γυάλα με* *χρυσόψαρο* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Εσωτερικός χώρος με μία γυάλα με* *χρυσόψαρο* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
 
 
-Σε αυτήν την έκδοση έχουν συμπεριληφθεί όλα τα φυλλάδια ασκήσεων στην άλγεβρα της Β' λυκείου του προηγούμενου ακαδημαϊκού έτους (2018-2019). Τα φυλλάδια μπορείτε να τα βρείτε `εδώ <https://drive.google.com/file/d/18C-RwZoMpAD_XPBD5BsFrY225K9tw98e/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Σε αυτήν την έκδοση έχουν συμπεριληφθεί όλα τα φυλλάδια ασκήσεων στην άλγεβρα της Β' λυκείου του προηγούμενου ακαδημαϊκού έτους (2018-2019). Τα φυλλάδια μπορείτε να τα βρείτε `εδώ  <https://drive.google.com/file/d/18C-RwZoMpAD_XPBD5BsFrY225K9tw98e/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

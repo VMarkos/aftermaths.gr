@@ -8,16 +8,16 @@
 	:tags: πανελλήνιες, στατιστική, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διασπορά, διακύμανση, λύσεις
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxx-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
 	:status: published
-	:attachments: wp-content/uploads/2020/11/macke_-_rotes_haus_im_park.jpg
+	:attachments: _static/images/uploads/2020/11/macke_-_rotes_haus_im_park.jpg
 
-.. figure:: /wp-content/uploads/2020/11/macke_-_rotes_haus_im_park.jpg
-	:alt: Ο πίνακας *Κόκκινο σπίτι στο πάρκο* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+.. figure:: /_static/images/uploads/2020/11/macke_-_rotes_haus_im_park.jpg
+	:alt: Ο πίνακας *Κόκκινο σπίτι στο πάρκο* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Κόκκινο σπίτι στο πάρκο* του `August Macke <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	Ο πίνακας *Κόκκινο σπίτι στο πάρκο* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
 
 
-Οι λύσεις του `προηγούμενου τεστ <https://aftermathsgr.wordpress.com/2020/11/29/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xxx-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb/>`__ βρίσκονται `εδώ <https://drive.google.com/file/d/1z8lDNt0jl_aVb0Y4lwqzb9tgHjfjgsqc/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Οι λύσεις του `προηγούμενου τεστ  <docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xxx-γ-επαλ.rst>`__ βρίσκονται `εδώ  <https://drive.google.com/file/d/1z8lDNt0jl_aVb0Y4lwqzb9tgHjfjgsqc/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

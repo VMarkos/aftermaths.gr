@@ -8,18 +8,18 @@
 	:tags: συναρτήσεις, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, μονοτονία
 	:slug: %ce%bc%ce%bf%ce%bd%cf%8c%cf%84%ce%bf%ce%bd%ce%b1-%cf%83%cf%85%ce%bc%ce%bc%ce%b5%cf%84%cf%81%ce%b9%ce%ba%ce%ad%cf%82
 	:status: published
-	:attachments: wp-content/uploads/2023/10/theo_van_doesburg_-_card_players_-_google_art_project.jpg
+	:attachments: _static/images/uploads/2023/10/theo_van_doesburg_-_card_players_-_google_art_project.jpg
 
-.. figure:: /wp-content/uploads/2023/10/theo_van_doesburg_-_card_players_-_google_art_project.jpg
-	:alt: Ο πίνακας *Οι χαρτοπαίκτες* του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 
+.. figure:: /_static/images/uploads/2023/10/theo_van_doesburg_-_card_players_-_google_art_project.jpg
+	:alt: Ο πίνακας *Οι χαρτοπαίκτες* του `Theo van Doesburg  <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 
 	:align: center
 
-	Ο πίνακας *Οι χαρτοπαίκτες* του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 
+	Ο πίνακας *Οι χαρτοπαίκτες* του `Theo van Doesburg  <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 
 
 
-Είδαμε ένα φύλλο εργασίας </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Συναρτήσεις/πάνω-κάτω-αριστερά-και-δεξιά.rst>`__, καιρός για προπόνηση! Δύο μικρά (ή και όχι τόσο μικρά) θέματα πάνω σε γνησίως μονότονες και συμμετρικές συναρτήσεις.
+Είδαμε ένα `φύλλο εργασίας  <docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Συναρτήσεις/πάνω-κάτω-αριστερά-και-δεξιά.rst>`__, καιρός για προπόνηση! Δύο μικρά (ή και όχι τόσο μικρά) θέματα πάνω σε γνησίως μονότονες και συμμετρικές συναρτήσεις.
 
-Τις ασκήσεις μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1OhOWvELeXzj2IB6enraPNkoEMltE3G-g/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
+Τις ασκήσεις μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1OhOWvELeXzj2IB6enraPNkoEMltE3G-g/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
 
 
 

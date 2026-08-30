@@ -8,16 +8,16 @@
 	:tags: προβλήματα, Α' Γυμνασίου, ασκήσεις, ακέραιοι, επανάληψη, ευθεία αριθμών
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%b5%cf%85%ce%b8%ce%b5%ce%af%ce%b1-%cf%84%cf%89%ce%bd-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%cf%8e%ce%bd
 	:status: published
-	:attachments: wp-content/uploads/2019/09/455px-van_gogh_-_bildnis_der_mutter_des_kc3bcnstlers.jpeg
+	:attachments: _static/images/uploads/2019/09/455px-van_gogh_-_bildnis_der_mutter_des_kc3bcnstlers.jpeg
 
-.. figure:: /wp-content/uploads/2019/09/455px-van_gogh_-_bildnis_der_mutter_des_kc3bcnstlers.jpeg
-	:alt: Ο πίνακας *Πορτραίτο της μητέρα του καλλιτέχνη* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+.. figure:: /_static/images/uploads/2019/09/455px-van_gogh_-_bildnis_der_mutter_des_kc3bcnstlers.jpeg
+	:alt: Ο πίνακας *Πορτραίτο της μητέρα του καλλιτέχνη* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Πορτραίτο της μητέρα του καλλιτέχνη* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Πορτραίτο της μητέρα του καλλιτέχνη* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
 
 
-Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1sZOyc-hEcnBjc_EmC1sLYUHzOm6ceg-g/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1sZOyc-hEcnBjc_EmC1sLYUHzOm6ceg-g/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

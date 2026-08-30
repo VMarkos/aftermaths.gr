@@ -8,13 +8,13 @@
 	:tags: πανελλήνιες, στατιστική, φύλλο εργασίας, Γ' λυκείου, ΕΠΑΛ, μαθηματικά
 	:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%b7-%cf%83%cf%84%ce%b1%cf%84%ce%b9%cf%83%cf%84%ce%b9%ce%ba%ce%ae-%cf%86%cf%8d%ce%bb%ce%bb%ce%bf-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%af
 	:status: published
-	:attachments: wp-content/uploads/2024/06/the_westwood_children_by_joshua_johnson.jpg
+	:attachments: _static/images/uploads/2024/06/the_westwood_children_by_joshua_johnson.jpg
 
-.. figure:: /wp-content/uploads/2024/06/the_westwood_children_by_joshua_johnson.jpg
-	:alt: Ο πίνακας *Τα παιδιά του Westwood* του `Joshua Johnson <https://en.wikipedia.org/wiki/Joshua_Johnson_(painter)>`__. 
+.. figure:: /_static/images/uploads/2024/06/the_westwood_children_by_joshua_johnson.jpg
+	:alt: Ο πίνακας *Τα παιδιά του Westwood* του `Joshua Johnson  <https://en.wikipedia.org/wiki/Joshua_Johnson_(painter)>`__. 
 	:align: center
 
-	Ο πίνακας *Τα παιδιά του Westwood* του `Joshua Johnson <https://en.wikipedia.org/wiki/Joshua_Johnson_(painter)>`__. 
+	Ο πίνακας *Τα παιδιά του Westwood* του `Joshua Johnson  <https://en.wikipedia.org/wiki/Joshua_Johnson_(painter)>`__. 
 
 
 Ζέστη, ήλιος, καλοκαίρι, Ιούνιος, καύσωνας και... θερινά.
@@ -23,7 +23,7 @@
 
 Το φύλλο εργασίας αποσκοπεί να είναι αρκετά χαλαρό και να δώσει μία ευκαιρία στα παιδιά να ανακαλύψουν μόνα τους έννοιες και εργαλεία της στατιστική που ίσως τα βοηθήσουν να βγάλουν άκρη με τα δεδομένα που θα συλλέξουν. Στόχος, βέβαια, όπως προδίδουν και οι ασκήσεις για το σπίτι στη δεύτερη σελίδα, είναι να συζητηθούν οι βασικές έννοιες της συχνότητας εμφάνισης μίας παρατήρησης - απόλυτης και σχετικής - καθώς και βασικά διαγράμματα, όπως τα ραβδογράμματα (συχνοτήτων).
 
-Το φύλλο εργασίας μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1yaj_w_FZQcdmk04Z2-frHx5kmR-SSvnB/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού </διδακτικό-υλικό>`__.
+Το φύλλο εργασίας μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1yaj_w_FZQcdmk04Z2-frHx5kmR-SSvnB/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  </διδακτικό-υλικό>`__.
 
 
 

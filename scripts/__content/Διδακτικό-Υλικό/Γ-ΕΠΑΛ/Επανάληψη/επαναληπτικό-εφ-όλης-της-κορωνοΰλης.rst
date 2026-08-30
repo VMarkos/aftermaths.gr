@@ -8,20 +8,20 @@
 	:tags: παράγωγος, πανελλήνιες, στατιστική, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διαγώνισμα, επανάληψη, κορωνοϊός
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%ce%ba%ce%bf%cf%81%cf%89%ce%bd%ce%bf%ce%b0%ce%bb%ce%b7%cf%82
 	:status: published
-	:attachments: wp-content/uploads/2021/03/822px-pierre-auguste_renoir_110.jpg
+	:attachments: _static/images/uploads/2021/03/822px-pierre-auguste_renoir_110.jpg
 
-.. figure:: /wp-content/uploads/2021/03/822px-pierre-auguste_renoir_110.jpg
-	:alt: Το πορτραίτο του Alfred Sisley του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+.. figure:: /_static/images/uploads/2021/03/822px-pierre-auguste_renoir_110.jpg
+	:alt: Το πορτραίτο του Alfred Sisley του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 	:align: center
 
-	Το πορτραίτο του Alfred Sisley του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Το πορτραίτο του Alfred Sisley του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 
 
 Ένα επαναληπτικό διαγώνισμα προετοιμασίας για τις πανελλήνιες στα μαθηματικά της Γ' ΕΠΑΛ πάνω στην κομμένη κορωνοΰλη.
 
 *\*Στο 2ο θέμα εκ παραδρομής λείπει η πληροφορία "η πρώτη και οι τρίτη κλάση περιέχουν τον ίδιο αριθμό παρατηρήσεων". Θα διορθωθεί σύντομα και στο αρχείο! :)*
 
-Το διαγώνισμα μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1vgX0SXhpEv4HzaWfe50YV3PTvg-HjNcF/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το διαγώνισμα μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1vgX0SXhpEv4HzaWfe50YV3PTvg-HjNcF/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

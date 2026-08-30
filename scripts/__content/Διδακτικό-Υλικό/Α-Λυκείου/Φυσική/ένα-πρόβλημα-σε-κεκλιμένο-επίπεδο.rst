@@ -8,16 +8,16 @@
 	:tags: προβλήματα, Α' Λυκείου, Δυναμική, ασκήσεις, επανάληψη, κεκλιμένο επίπεδο
 	:slug: %ce%ad%ce%bd%ce%b1-%cf%80%cf%81%cf%8c%ce%b2%ce%bb%ce%b7%ce%bc%ce%b1-%cf%83%ce%b5-%ce%ba%ce%b5%ce%ba%ce%bb%ce%b9%ce%bc%ce%ad%ce%bd%ce%bf-%ce%b5%cf%80%ce%af%cf%80%ce%b5%ce%b4%ce%bf
 	:status: published
-	:attachments: wp-content/uploads/2019/02/giuseppe-arcimboldo-winter.jpg
+	:attachments: _static/images/uploads/2019/02/giuseppe-arcimboldo-winter.jpg
 
-.. figure:: /wp-content/uploads/2019/02/giuseppe-arcimboldo-winter.jpg
-	:alt: Ο πίνακας *Ο χειμώνας* του `Giuseppe Arcimboldo <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+.. figure:: /_static/images/uploads/2019/02/giuseppe-arcimboldo-winter.jpg
+	:alt: Ο πίνακας *Ο χειμώνας* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Ο χειμώνας* του `Giuseppe Arcimboldo <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+	Ο πίνακας *Ο χειμώνας* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
 
 
-Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1qDOUYkqxymCALrXbgo2bGL0st90Iw6ew/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1qDOUYkqxymCALrXbgo2bGL0st90Iw6ew/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

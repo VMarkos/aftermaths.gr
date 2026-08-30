@@ -8,18 +8,18 @@
 	:tags: πολυώνυμα, τεστ, Β' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, ανισώσεις, επανάληψη, μαθηματικά
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxvi-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
 	:status: published
-	:attachments: wp-content/uploads/2021/03/pierre-auguste_renoir_090.jpg
+	:attachments: _static/images/uploads/2021/03/pierre-auguste_renoir_090.jpg
 
-.. figure:: /wp-content/uploads/2021/03/pierre-auguste_renoir_090.jpg
-	:alt: Ο πίνακας *Port-Neuf* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+.. figure:: /_static/images/uploads/2021/03/pierre-auguste_renoir_090.jpg
+	:alt: Ο πίνακας *Port-Neuf* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Port-Neuf* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Port-Neuf* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 
 
 Ένα τεστάκι στις πολυωνυμικές ανισώσεις στα πλαίσια της ύλης της άλγεβρας Β' Λυκείου και ΕΠΑΛ.
 
-Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1QJFfEasmKZloCqm8ackXvaKHJ7vqaUBp/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1QJFfEasmKZloCqm8ackXvaKHJ7vqaUBp/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

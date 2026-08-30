@@ -8,9 +8,9 @@
 	:tags: 1-1, προβλήματα, πανελλήνιες, συναρτήσεις, σημειώσεις, Γ' λυκείου, ασκήσεις, επανάληψη
 	:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b1%ce%b8%ce%b7%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%cf%8e%ce%bd-%ce%ba%ce%b5%cf%86%ce%ac%ce%bb%ce%b1%ce%b9%ce%bf-%cf%80%cf%81%cf%8e
 	:status: published
-	:attachments: wp-content/uploads/2018/09/caspar_david_friedrich_-_mondaufgang_am_meer_-_google_art_project.jpg
+	:attachments: _static/images/uploads/2018/09/caspar_david_friedrich_-_mondaufgang_am_meer_-_google_art_project.jpg
 
-.. figure:: /wp-content/uploads/2018/09/caspar_david_friedrich_-_mondaufgang_am_meer_-_google_art_project.jpg
+.. figure:: /_static/images/uploads/2018/09/caspar_david_friedrich_-_mondaufgang_am_meer_-_google_art_project.jpg
 	:alt: 
 	:align: center
 
@@ -29,11 +29,11 @@
 
 Στη συνέχεια, ακολουθεί μία συζήτηση γύρω από την έννοια της συνάρτησης και το πώς δεν είναι, τελικά, όλες οι αντιστοιχίσεις του κόσμου συναρτήσεις. Δίνεται, επίσης, έμφαση και στην έννοια της γραφικής παράστασης συνάρτησης αφού αυτή είναι ένα από τα κύρια εποπτικά μέσα που έχουμε στη διάθεσή μας για να διαχειριστούμε όλους αυτούς τους τεχνικούς ορισμούς της ανάλυσης (ακόμα και ο ορισμός της μονοτονίας δεν είναι τόσο «φιλικός» προς τον μαθητή χωρίς ένα σχετικό σχήμα για επεξήγηση). Ακόμα και μετά την εισαγωγή των πράξεων μεταξύ συναρτήσεων, δίνονται βασικές τεχνικές για τη χάραξη γραφικών παραστάσεων συναρτήσεων που προκύπτουν με βάση τις γραφικές παραστάσεις των βασικών συναρτήσεων και κάποιες πράξεις (π.χ. οριζόντια/κατακόρυφη μεταφορά ή απόλυτη τιμή συνάρτησης κ.λπ.). Τέλος, δίνονται και δύο βασικές εφαρμογές των εννοιών που παρουσιάζονται σε αυτό το κεφάλαιο, σε σχέση με την επίλυση εξισώσεων και ανισώσεων οι οποίες ακολουθούνται από ασκήσεις πάνω στην προαναφερθείσα ύλη.
 
-Επιπρόσθετα, όπως αναφέρεται και στο εξώφυλλο, η έκδοση είναι πρόχειρη, επομένως, περιέχει αρκετά λάθη, είτε τυπογραφικά είτε μικρο-αριθμητικά αλλά και άλλα. Θα ήταν, επομένως, θεμιτό, όσοι από εσάς ασχοληθείτε με τις εν λόγω σημειώσεις και εντοπίζετε τέτοια λάθη, να τα επισημαίνετε μέσω της `σελίδας επικοινωνίας <https://aftermathsgr.wordpress.com/contact/>`__.
+Επιπρόσθετα, όπως αναφέρεται και στο εξώφυλλο, η έκδοση είναι πρόχειρη, επομένως, περιέχει αρκετά λάθη, είτε τυπογραφικά είτε μικρο-αριθμητικά αλλά και άλλα. Θα ήταν, επομένως, θεμιτό, όσοι από εσάς ασχοληθείτε με τις εν λόγω σημειώσεις και εντοπίζετε τέτοια λάθη, να τα επισημαίνετε μέσω της `σελίδας επικοινωνίας  <https://aftermathsgr.wordpress.com/contact/>`__.
 
-Οι σημειώσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1Eo9htNnh18X6ZGONh1e-og9yJAFNQDRb/view?usp=sharing>`__ καθώς και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Οι σημειώσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1Eo9htNnh18X6ZGONh1e-og9yJAFNQDRb/view?usp=sharing>`__ καθώς και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η γελοιογραφία του εξωφύλλου προέρχεται από `εδώ <https://xkcd.com/435/>`__, ενώ, η κεντρική εικόνα του άρθρου είναι ο πίνακας `Ανατολή της Σελήνης πλάι στη θάλασσα <https://en.wikipedia.org/wiki/Moonrise_by_the_Sea>`__, του `Caspar David Friedrich. <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__
+Η γελοιογραφία του εξωφύλλου προέρχεται από `εδώ  <https://xkcd.com/435/>`__, ενώ, η κεντρική εικόνα του άρθρου είναι ο πίνακας `Ανατολή της Σελήνης πλάι στη θάλασσα  <https://en.wikipedia.org/wiki/Moonrise_by_the_Sea>`__, του `Caspar David Friedrich.  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__
 
 Καλό μας βράδυ!
 

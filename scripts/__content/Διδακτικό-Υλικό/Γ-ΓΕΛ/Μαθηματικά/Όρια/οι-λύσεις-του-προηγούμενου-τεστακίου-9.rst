@@ -8,16 +8,16 @@
 	:tags: πανελλήνιες, τεστ, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις
 	:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%cf%84%ce%b5%cf%83%cf%84%ce%b1%ce%ba%ce%af%ce%bf%cf%85-9
 	:status: published
-	:attachments: wp-content/uploads/2019/10/397px-death_of_the_virgin-caravaggio_1606.jpg
+	:attachments: _static/images/uploads/2019/10/397px-death_of_the_virgin-caravaggio_1606.jpg
 
-.. figure:: /wp-content/uploads/2019/10/397px-death_of_the_virgin-caravaggio_1606.jpg
-	:alt: Ο πίνακας *Ο θάνατος της Παρθένου* του `Caravaggio. <https://en.wikipedia.org/wiki/Caravaggio>`__ 
+.. figure:: /_static/images/uploads/2019/10/397px-death_of_the_virgin-caravaggio_1606.jpg
+	:alt: Ο πίνακας *Ο θάνατος της Παρθένου* του `Caravaggio.  <https://en.wikipedia.org/wiki/Caravaggio>`__ 
 	:align: center
 
-	Ο πίνακας *Ο θάνατος της Παρθένου* του `Caravaggio. <https://en.wikipedia.org/wiki/Caravaggio>`__ 
+	Ο πίνακας *Ο θάνατος της Παρθένου* του `Caravaggio.  <https://en.wikipedia.org/wiki/Caravaggio>`__ 
 
 
-Οι λύσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1SurMNAKoSDwEsgy9pt60NIxSFl78RabX/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1SurMNAKoSDwEsgy9pt60NIxSFl78RabX/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

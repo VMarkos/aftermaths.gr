@@ -6,15 +6,15 @@
 	:author: aftermathsgr
 	:slug: %cf%85%ce%bb%ce%b9%ce%ba%cf%8c-%ce%b1%cf%80%cf%8c-%cf%84%ce%b7%ce%bd-%cf%84%ce%ac%ce%be%ce%b7
 	:status: published
-	:attachments: wp-content/uploads/2018/11/vassily_kandinsky_1908_-_houses_in_munich.jpg
+	:attachments: _static/images/uploads/2018/11/vassily_kandinsky_1908_-_houses_in_munich.jpg
 
-.. figure:: /wp-content/uploads/2018/11/vassily_kandinsky_1908_-_houses_in_munich.jpg
+.. figure:: /_static/images/uploads/2018/11/vassily_kandinsky_1908_-_houses_in_munich.jpg
 	:alt: 
 	:align: center
 
 	
 
 
-`Αρχική <http://aftermathsgr.wordpress.com>`__ > `Διδακτικό Υλικό <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__ > `2019-2020 <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/2019-2020/>`__ > `Λύκειο <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/2019-2020/%ce%bb%cf%8d%ce%ba%ce%b5%ce%b9%ce%bf/>`__ > `ΑΕΠΠ <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/2019-2020/%ce%bb%cf%8d%ce%ba%ce%b5%ce%b9%ce%bf/%ce%b1%ce%b5%cf%80%cf%80/>`__ > **Υλικό από την τάξη**
+`Αρχική  <http://aftermathsgr.wordpress.com>`__ > `Διδακτικό Υλικό  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__ > `2019-2020  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/2019-2020/>`__ > `Λύκειο  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/2019-2020/%ce%bb%cf%8d%ce%ba%ce%b5%ce%b9%ce%bf/>`__ > `ΑΕΠΠ  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/2019-2020/%ce%bb%cf%8d%ce%ba%ce%b5%ce%b9%ce%bf/%ce%b1%ce%b5%cf%80%cf%80/>`__ > **Υλικό από την τάξη**
 
-Εφαρμογές και λύσεις ασκήσεων, όπως έγιναν από τους μαθητές, στον `ακόλουθο σύνδεσμο <https://drive.google.com/drive/folders/1CsYT9JgYZUHmFPYhjYW78C7gTXSxH29a?usp=sharing>`__.
+Εφαρμογές και λύσεις ασκήσεων, όπως έγιναν από τους μαθητές, στον `ακόλουθο σύνδεσμο  <https://drive.google.com/drive/folders/1CsYT9JgYZUHmFPYhjYW78C7gTXSxH29a?usp=sharing>`__.

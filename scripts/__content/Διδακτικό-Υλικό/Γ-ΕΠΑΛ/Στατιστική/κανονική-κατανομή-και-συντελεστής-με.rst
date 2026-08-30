@@ -8,16 +8,16 @@
 	:tags: προβλήματα, πανελλήνιες, στατιστική, συντελεστής μεταβολής, Μαθηματικά, ασκήσεις, επανάληψη, κανονική κατανομή
 	:slug: %ce%ba%ce%b1%ce%bd%ce%bf%ce%bd%ce%b9%ce%ba%ce%ae-%ce%ba%ce%b1%cf%84%ce%b1%ce%bd%ce%bf%ce%bc%ce%ae-%ce%ba%ce%b1%ce%b9-%cf%83%cf%85%ce%bd%cf%84%ce%b5%ce%bb%ce%b5%cf%83%cf%84%ce%ae%cf%82-%ce%bc%ce%b5
 	:status: published
-	:attachments: wp-content/uploads/2020/06/fishermen.1.jpg
+	:attachments: _static/images/uploads/2020/06/fishermen.1.jpg
 
-.. figure:: /wp-content/uploads/2020/06/fishermen.1.jpg
-	:alt: Ο πίνακας *Δύο ψαράδες πλάι σε μια βάρκα* του `Michael Ancher <https://en.wikipedia.org/wiki/Michael_Ancher>`__. 
+.. figure:: /_static/images/uploads/2020/06/fishermen.1.jpg
+	:alt: Ο πίνακας *Δύο ψαράδες πλάι σε μια βάρκα* του `Michael Ancher  <https://en.wikipedia.org/wiki/Michael_Ancher>`__. 
 	:align: center
 
-	Ο πίνακας *Δύο ψαράδες πλάι σε μια βάρκα* του `Michael Ancher <https://en.wikipedia.org/wiki/Michael_Ancher>`__. 
+	Ο πίνακας *Δύο ψαράδες πλάι σε μια βάρκα* του `Michael Ancher  <https://en.wikipedia.org/wiki/Michael_Ancher>`__. 
 
 
-Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1lCUh-RLCwYUTfGsfbIasPVCEniAaRVP5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://Διδακτικό%20υλικό>`__.
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1lCUh-RLCwYUTfGsfbIasPVCEniAaRVP5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://Διδακτικό%20υλικό>`__.
 
 
 
