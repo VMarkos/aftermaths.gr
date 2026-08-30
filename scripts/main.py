@@ -290,6 +290,34 @@ def post_img_fix_fn(line: str, params: dict=dict()) -> str:
     return fixed_line
 
 
+def fix_aligned_math(path: str) -> None:
+    fix_content(path, alignment_fix_fn)
+
+
+def alignment_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(r'(?:\\begin|\\end)\{align\}', r'', line)
+    fixed_line = re.sub(r'(?<!\\)\\&', r'\\\\ &', fixed_line)
+    return fixed_line
+
+
+def fix_keraia(path: str) -> None:
+    fix_content(path, keraia_fix_fn)
+
+
+def keraia_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(r"(?<=\w)'", r'ʹ', line)
+    return fixed_line
+
+
+def remove_wp_code(path: str) -> None:
+    fix_content(path, wp_remove_fn)
+
+
+def wp_remove_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(r'wp-block-syntaxhighlighter-code', r'', line)
+    return fixed_line
+
+
 def main():
     # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
@@ -305,7 +333,10 @@ def main():
         # fix_raw_html_videos(file_path)
         # relocate_file(file_path)
         # fix_internal_urls(file_path)
-        fix_post_images(file_path)
+        # fix_post_images(file_path)
+        # fix_aligned_math(file_path)
+        # fix_keraia(file_path)
+        remove_wp_code(file_path)
 
 
 if __name__ == "__main__":
