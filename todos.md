@@ -10,8 +10,8 @@
 - [ ] There is a "Misplaced &" error, maybe due to colouring (?), e.g., in "Reductio ad Absurdum #not".
 - [ ] Inline or display math in lists sometimes appear as plain text, e.g., in "The second order equation".
 - [x] No favicon shows.
-- [ ] Table captions appear erroneously as figcaptions, e.g., in "The Collatz Conjecture (1)"
+- [x] Table captions appear erroneously as figcaptions, e.g., in "The Collatz Conjecture (1)"
 - [ ] Python code blocks are not styled, e.g., in "The Collatz Conjecture (2)".
-- [ ] Some central pictures do not show, e.g., in "The Most Beutiful Derivative?".
+- [x] Some central pictures do not show, e.g., in "The Most Beutiful Derivative?".
 - [ ] Various math rendering issues in "The Most Beautiful Derivative?".
 - [ ] Fix `wp-block-syntax-highlighter-code` blocks appearing all over the place, e.g., in tikz posts.

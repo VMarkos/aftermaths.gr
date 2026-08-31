@@ -239,10 +239,8 @@
 <li><p>ΜΜΚΚ</p></li>
 </ul>
 <p>Στον παρακάτω πίνακα έχουμε συνοψίσει όλα πονταρίσματα και την «περιουσία» μας σε κάθε γύρο, αφού αυτός έχει ολοκληρωθεί - άρα η στήλη με το 4ο χαρτί μας δείχνει και το τελικό ποσό μετά το πέρας του παιχνιδιού:</p>
-<blockquote>
-<div><p>&lt;figure class=»wp-block-table aligncenter is-style-stripes»&gt;</p>
-</div></blockquote>
-<table class="docutils align-default">
+<table class="docutils align-default" id="id8">
+<caption><span class="caption-text">Σύνοψη των στρατηγικών μας και του κέρδους που αποφέρει καθεμιά τους.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id8"><span>#</span></a></caption>
 <thead>
 <tr class="row-odd"><th class="head"><p>Συνδυασμοί</p></th>
 <th class="head"><p>1ο χαρτί</p></th>
@@ -290,13 +288,6 @@
 </tr>
 </tbody>
 </table>
-<blockquote>
-<div><p>&lt;figcaption&gt;</p>
-</div></blockquote>
-<p>Σύνοψη των στρατηγικών μας και του κέρδους που αποφέρει καθεμιά τους.</p>
-<blockquote>
-<div><p>&lt;/figcaption&gt;</p>
-</div></blockquote>
 <p>Εδώ τώρα να παρατηρήσουμε πως οποιαδήποτε από τις 6 διατάξεις φύλλων είναι ισοπίθανη και άρα τα μέσα κέρδη μας είναι ουσιαστικά ο αριθμητικός μέσος των αριθμών που βλέπουμε στην τελευταία στήλη του παραπάνω πίνακα. Αθροίζοντας βλέπουμε ότι όλα τα παραπάνω μας δίνουν 1600€, επομένως τα αναμενόμενα κέρδη μας - μέσα κέρδη - από αυτήν τη στρατηγική είναι 266.67€. Ωραία, η στρατηγική μας ήταν αρκετά μετριοπαθής για να περιμένουμε κάτι τεράστιο, οπότε μπορούμε να πούμε κι «ευχαριστώ» στο καζίνο που μας αφήνει να παίζουμε ένα τέτοιο παιχνίδι.</p>
 <p>Ας μελετήσουμε τώρα μία εναλλακτική στρατηγική, κάπως πιο επιθετική. Παρατηρήστε ότι στον παραπάνω πίνακα, ένα από τα καλύτερα σενάρια είναι να χάσουμε πρώτα δύο φορές και στο τέλος να ποντάρουμε «φορσέ» όλη μας την περιουσία, γνωρίζοντας ότι έχει μείνει ένα χρώμα μέσα στην τράπουλα. Επομένως, ίσως είναι πιο χρήσιμο αντί να ποντάρουμε μόνο ένα δεκάρικο στην «ασφαλή» επιλογή που έχουμε δύο χαρτιά ίδιου χρώματος και ένα από το άλλο χρώμα, να ποντάρουμε πιο πολλά, ας πούμε 40€. Η νέα μας στρατηγική, επομένως, είναι η εξής:</p>
 <ul class="simple">
@@ -305,64 +296,6 @@
 <li><p>αν έχουν μείνει φύλλα μόνο ενός χρώματος, τότε ποντάρουμε όλη μας την περιουσία σε αυτό το χρώμα.</p></li>
 </ul>
 <p>Όπως και παραπάνω, μπορούμε να φτιάξουμε έναν ανάλογο πίνακα που να μας δείχνει πόσα ευρώ κερδίζουμε ή χάνουμε τελικά στα έξι πιθανά μοιράσματα:</p>
-<blockquote>
-<div><p>&lt;figure class=»wp-block-table aligncenter is-style-stripes»&gt;</p>
-</div></blockquote>
-<table class="docutils align-default">
-<thead>
-<tr class="row-odd"><th class="head"><p>Συνδυασμοί</p></th>
-<th class="head"><p>1ο χαρτί</p></th>
-<th class="head"><p>2ο χαρτί</p></th>
-<th class="head"><p>3ο χαρτί</p></th>
-<th class="head"><p>4ο χαρτί</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>ΚΚΜΜ</p></td>
-<td><p>95€</p></td>
-<td><p>55€</p></td>
-<td><p>110€</p></td>
-<td><p>220€</p></td>
-</tr>
-<tr class="row-odd"><td><p>ΚΜΚΜ</p></td>
-<td><p>95€</p></td>
-<td><p>135€</p></td>
-<td><p>130€</p></td>
-<td><p>260€</p></td>
-</tr>
-<tr class="row-even"><td><p>ΚΜΜΚ</p></td>
-<td><p>95€</p></td>
-<td><p>135€</p></td>
-<td><p>140€</p></td>
-<td><p>280€</p></td>
-</tr>
-<tr class="row-odd"><td><p>ΜΚΚΜ</p></td>
-<td><p>105€</p></td>
-<td><p>145€</p></td>
-<td><p>140€</p></td>
-<td><p>280€</p></td>
-</tr>
-<tr class="row-even"><td><p>ΜΚΜΚ</p></td>
-<td><p>105€</p></td>
-<td><p>145€</p></td>
-<td><p>150€</p></td>
-<td><p>300€</p></td>
-</tr>
-<tr class="row-odd"><td><p>ΜΜΚΚ</p></td>
-<td><p>105€</p></td>
-<td><p>65€</p></td>
-<td><p>130€</p></td>
-<td><p>260€</p></td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<div><p>&lt;figcaption&gt;</p>
-</div></blockquote>
-<p>Σύνοψη της επιθετικής στρατηγικής μας.</p>
-<blockquote>
-<div><p>&lt;/figcaption&gt;</p>
-</div></blockquote>
 <p>Αν προσθέσουμε όλα τα παραπάνω θα βρούμε 1600€, συνεπώς και πάλι τα μέσα κέρδη μας από αυτήν τη στρατηγική θα είναι 266.67€. Δηλαδή, παρότι θέσαμε την περιουσία μας σε μεγαλύτερο κίνδυνο, τελικά κατά μέσο όρο θα βγάλουμε τα ίδια.</p>
 <p>Βασικά, αν συγκρίνουμε τους δύο παραπάνω πίνακες, μπορούμε να παρατηρήσουμε ότι η δεύτερη στρατηγική μας, καίτοι φαίνεται αρκετά πιο παράτολμη, μας δίνει λιγότερο διασπαρμένα αποτελέσματα. Πράγματι, για να μετρήσουμε πόσο διασπαρμένα είναι τα αποτελέσματά μας θα χρησιμοποιήσουμε το μέτρο της <em>διασποράς</em>. Πρακτικά, η διασπορά αντιστοιχεί στον μέσο όρο των (τετραγώνων) των αποστάσεων των παρατηρήσεων του δείγματός μας από τη μέση τιμή. Δηλαδή, αν έχουμε παρατηρήσεις  <span class="math notranslate nohighlight">\(t_1,t_2,\ldots,t_n\)</span>  με μέση τιμή  <span class="math notranslate nohighlight">\(\mu\)</span>  τότε η διασπορά,  <span class="math notranslate nohighlight">\(\sigma^2,\)</span>  δίνεται από τη σχέση:</p>
 <div class="math notranslate nohighlight">
@@ -380,64 +313,6 @@
 \[\sigma_1=\sqrt{\sigma_1^2}=\sqrt{4622.22}\approx67.97,\ \sigma_2=\sqrt{\sigma_2^2}=\sqrt{622.22}\approx24.94.\]</div>
 <p>Συνεπώς, ενώ στην πρώτη περίπτωση - την κατʹ ευφημισμό συντηρητική - έχουμε μία μέση απόκλιση από τη μέση τιμή της τάξης περίπου των 68€, στη δεύτερη περίπτωση - την κατʹ ευφημισμό επιθετική - έχουμε μία αισθητά μικρότερη απόκλιση, της τάξεως των περίπου 25€.</p>
 <p>Όπως και να έχει, και οι δύο στρατηγικές, διαφορετικές εν γένει μεταξύ τους, δίνουν τα ίδια αναμενόμενα κέρδη: 266.67€. Ας δούμε τώρα και μία αφελή στρατηγική - αμιγώς τζογαδόρικη. Η τρίτη στρατηγική που θα παρουσιάσουμε θα είναι σε κάθε περίπτωση που δεν έχει απομείνει μόνο ένα χρώμα στην τράπουλα, να ποντάρουμε υπέρ του χρώματος που ευνοείται όλη μας την περιουσία είτε, όταν τα χαρτιά είναι μοιρασμένα, όλα υπέρ του κόκκινου - θα μπορούσαμε και στο μαύρο, απλά το ευνοήσαμε πολύ στις προηγούμενες δύο στρατηγικές. Έτσι, έχουμε τον ακόλουθο πίνακα πληρωμών:</p>
-<blockquote>
-<div><p>&lt;figure class=»wp-block-table aligncenter is-style-stripes»&gt;</p>
-</div></blockquote>
-<table class="docutils align-default">
-<thead>
-<tr class="row-odd"><th class="head"><p>Συνδυασμοί</p></th>
-<th class="head"><p>1ο χαρτί</p></th>
-<th class="head"><p>2ο χαρτί</p></th>
-<th class="head"><p>3ο χαρτί</p></th>
-<th class="head"><p>4ο χαρτί</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>ΚΚΜΜ</p></td>
-<td><p>200€</p></td>
-<td><p>0€</p></td>
-<td><p>0€</p></td>
-<td><p>0€</p></td>
-</tr>
-<tr class="row-odd"><td><p>ΚΜΚΜ</p></td>
-<td><p>200€</p></td>
-<td><p>400€</p></td>
-<td><p>800€</p></td>
-<td><p>1600€</p></td>
-</tr>
-<tr class="row-even"><td><p>ΚΜΜΚ</p></td>
-<td><p>200€</p></td>
-<td><p>0€</p></td>
-<td><p>0€</p></td>
-<td><p>0€</p></td>
-</tr>
-<tr class="row-odd"><td><p>ΜΚΚΜ</p></td>
-<td><p>0€</p></td>
-<td><p>0€</p></td>
-<td><p>0€</p></td>
-<td><p>0€</p></td>
-</tr>
-<tr class="row-even"><td><p>ΜΚΜΚ</p></td>
-<td><p>0€</p></td>
-<td><p>0€</p></td>
-<td><p>0€</p></td>
-<td><p>0€</p></td>
-</tr>
-<tr class="row-odd"><td><p>ΜΜΚΚ</p></td>
-<td><p>0€</p></td>
-<td><p>0€</p></td>
-<td><p>0€</p></td>
-<td><p>0€</p></td>
-</tr>
-</tbody>
-</table>
-<blockquote>
-<div><p>&lt;figcaption&gt;</p>
-</div></blockquote>
-<p>Σύνοψη της τζογαδόρικης στρατηγικής.</p>
-<blockquote>
-<div><p>&lt;/figcaption&gt;</p>
-</div></blockquote>
 <p>Κι εδώ εύκολα βλέπουμε ότι τα μέσα κέρδη μας είναι 266.67€ αν και, σαφώς, υπάρχει μία τεράστια διασπορά - «με το μάτι» αυτό φαίνεται - αφού κερδίζουμε σε ένα μόνο σενάριο - αλλά πολλά, είναι η αλήθεια. Για να ακριβολογούμε, έχουμε:</p>
 <div class="math notranslate nohighlight">
 \[\sigma_3^2=355555.56\Rightarrow\sigma_3\approx596.28.\]</div>
@@ -584,10 +459,10 @@
 </span></code></pre></div>
 </div>
 <p>Εκτελώντας το παραπάνω script λογικά θα πάρουμε κάτι σαν κι αυτό εδώ:</p>
-<figure class="wp-image-6792 align-default" id="id8">
+<figure class="wp-image-6792 align-default" id="id9">
 <img alt="Χμμμ, άβολη οπτικοποίηση..." src="../../_images/fig_1.png"/>
 <figcaption>
-<p><span class="caption-text">Χμμμ, άβολη οπτικοποίηση…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id8"><span>#</span></a></p>
+<p><span class="caption-text">Χμμμ, άβολη οπτικοποίηση…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Η αλήθεια είναι ότι είναι λίγο άκομψο αυτό που συνέβη εδώ από μεριάς οπτικοποίησης γιατί όλες οι μπλε κουκκίδες βρίσκονται κάτω εκτός από μία που έχει ανέβει αρκετά ψηλά - κάποιος έβγαλε πολλά λεφτά, μάλλον - με αποτέλεσμα να μην κεντράρει καλά το σχήμα μας. Επίσης, αυτός ο συνωστισμός εκεί στα χαμηλά εισοδήματα δε μας βοηθά να έχουμε και μία καλύτερη εικόνα για το δείγμα μας. Γιʹ αυτόν τον σκοπό, θα αλλάξουμε τος άξονές μας και, για την ακρίβεια, θα μετρήσουμε, όπως λέμε, <em>λογαριθμικά</em> στον κατακόρυφο άξονα. Αυτό σημαίνει ότι αντί η απόσταση μεταξύ δύο ισαπέχουσων γραμμών να είναι σταθερή και ίση όπως παραπάνω με 2000 ευρώ, η απόσταση ανάμεσα στην πρώτη και τη δεύτερη γραμμή θα είναι για παράδειγμα 1, ανάμεσα στη δεύτερη και την τρίτη θα είναι 10, έπειτα 100, έπειτα 1000 κ.ο.κ. Δηλαδή, αντί να προσθέτουμε σταθερά την ίδια μονάδα, <em>πολλαπλασιάζουμε</em> με την ίδια μονάδα - εδώ με το 10, αλλά μικρή σημασία έχει. Αυτό μπορούμε να το πετύχουμε τροποποιώντας τη συνάρτηση main ως εξής:</p>
@@ -609,18 +484,18 @@
 </span></code></pre></div>
 </div>
 <p>Ξανατρέχοντας τα πειράματα έχουμε το εξής αποτέλεσμα:</p>
-<figure class="wp-image-6798 align-default" id="id9">
+<figure class="wp-image-6798 align-default" id="id10">
 <img alt="Αρκετά καλύτερα!" src="../../_images/fig_21.png"/>
 <figcaption>
-<p><span class="caption-text">Αρκετά καλύτερα!</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9"><span>#</span></a></p>
+<p><span class="caption-text">Αρκετά καλύτερα!</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id10"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Εδώ φαίνεται πιο ξεκάθαρα τι συμβαίνει. Παρατηρήστε πώς από το ένα πείραμα στο άλλο ο μέσος όρος έχει διαφοροποιηθεί ελαφρώς, χωρίς ωστόσο αυτό να είναι σημαντικό καθώς και στις δύο περιπτώσεις είναι κάπου κοντά στο 800.</p>
 <p>Ωραία, όλα δουλεύουν κανονικά, οπότε ευκαιρία να δοκιμάσουμε και με τα κανονικά μας νούμερα. Θα τρέξουμε το παραπάνω script με μία τράπουλα 52 φύλλων και θα κάνουμε 100000 αντί για 10000 πειράματα με τη συντηρητική στρατηγική μας. Τα αποτελέσματα φαίνονται στο ακόλουθο σχήμα:</p>
-<figure class="wp-image-6805 align-default" id="id10">
+<figure class="wp-image-6805 align-default" id="id11">
 <img alt="Εντάξει, πάλι στριμώχτηκαν οι παρατηρήσεις αλλά δεν μπορούμε να κάνουμε κάτι καλύτερο τώρα." src="../../_images/fig_3.png"/>
 <figcaption>
-<p><span class="caption-text">Εντάξει, πάλι στριμώχτηκαν οι παρατηρήσεις αλλά δεν μπορούμε να κάνουμε κάτι καλύτερο τώρα.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id10"><span>#</span></a></p>
+<p><span class="caption-text">Εντάξει, πάλι στριμώχτηκαν οι παρατηρήσεις αλλά δεν μπορούμε να κάνουμε κάτι καλύτερο τώρα.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Τώρα θα υλοποιήσουμε και τη δεύτερη στρατηγική μας, μέσω της ακόλουθης συνάρτησης:</p>
@@ -633,10 +508,10 @@
 </span></code></pre></div>
 </div>
 <p>Τώρα, τρέχοντας το παραπάνω script καλώντας την aggressive αντί της conservative παίρνουμε το εξής γράφημα:</p>
-<figure class="wp-image-6808 align-default" id="id11">
+<figure class="wp-image-6808 align-default" id="id12">
 <img alt="Εδώ αρχίζει να έχει ενδιαφέρον..." src="../../_images/fig_4.png"/>
 <figcaption>
-<p><span class="caption-text">Εδώ αρχίζει να έχει ενδιαφέρον…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id11"><span>#</span></a></p>
+<p><span class="caption-text">Εδώ αρχίζει να έχει ενδιαφέρον…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id12"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Εδώ έχουμε, μεν, μία μέση τιμή συγκρίσιμη με την προηγούμενη μέση τιμή, ωστόσο είναι και αρκετά μακριά για να αρχίσουμε να έχουμε αμφιβολίες. Όπως και να έχει, συνεχίζουμε και με την τρίτη στρατηγική μας και θα τα πούμε αναλυτικά σε λίγο όλα όσα προκύψουν. Γιʹ αυτήν έχουμε την ακόλουθη συνάρτηση που την υλοποιεί:</p>
@@ -649,17 +524,17 @@
 </span></code></pre></div>
 </div>
 <p>Τώρα, με αυτήν έχουμε το ακόλουθο γράφημα:</p>
-<figure class="wp-image-6810 align-default" id="id12">
+<figure class="wp-image-6810 align-default" id="id13">
 <img alt="Ωραίααα..." src="../../_images/fig_5.png"/>
 <figcaption>
-<p><span class="caption-text">Ωραίααα…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id12"><span>#</span></a></p>
+<p><span class="caption-text">Ωραίααα…</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id13"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Εδώ τώρα τα πράγματα περιπλέχτηκαν έτι περαιτέρω. Το τελευταίο γράφημα λέει ότι με την τελευταία άκρως επιθετική στρατηγική στην οποία ό,τι κι αν συμβεί εμείς ποντάρουμε όλη μας την περιουσία στο μαύρο δεν κερδίζουμε τίποτα. Ας πάρουμε μία βαθειά ανάσα κι ας ξανασκεφτούμε την παραπάνω στρατηγική. Πότε μπορούμε να κερδίσουμε με αυτήν τη στρατηγική; Μόνο σε μία περίπτωση: όταν έρχονται εναλλάξ κόκκιμα και μαύρα φύλλα. Σε κάθε άλλη περίπτωση που χάσουμε έστω και σε έναν γύρο χάνουμε αυτόματα όλη μας την περιουσία. Συνεπώς, για να ήταν το παραπάνω γράφημα κάτι παραπάνω από μία ευθεία γραμμή θα έπρεπε να είχαμε πετύχει αυτήν την μία στις περίπου 500 τρισεκατομμύρια περιπτώσεις να κερδίσουμε. Με 100000 δοκιμές που κάναμε είχαμε πιθανότητα περίπου μηδέν, όπως μάς πληροφορεί μία γνωστή μου αριθμομηχανή:</p>
-<figure class="wp-image-6814 align-default" id="id13">
+<figure class="wp-image-6814 align-default" id="id14">
 <img alt="Ξεπεράσαμε και την αριθμητική ακρίβεια ενός υπολογιστή." src="../../_images/image2.png"/>
 <figcaption>
-<p><span class="caption-text">Ξεπεράσαμε και την αριθμητική ακρίβεια ενός υπολογιστή.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id13"><span>#</span></a></p>
+<p><span class="caption-text">Ξεπεράσαμε και την αριθμητική ακρίβεια ενός υπολογιστή.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id14"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Ωστόσο, δεδομένου ότι σε μόνο μία περίπτωση έχουμε θετικό κέρδος, είναι εύκολο να υπολογίσουμε τη μέση τιμή και χωρίς ηλεκτρονικό υπολογιστή. Πράγματι, στο σενάριο που κερδίζουμε έρχονται διαρκώς εναλλάξ κόκκινα και μαύρα φύλλα και σε κάθε γύρο διπλασιάζουμε την περιουσία μας. Συνολικά, λοιπόν, έχουμε 52 διπλασιασμούς των αρχικών 100 ευρώ μας, δηλαδή:</p>
