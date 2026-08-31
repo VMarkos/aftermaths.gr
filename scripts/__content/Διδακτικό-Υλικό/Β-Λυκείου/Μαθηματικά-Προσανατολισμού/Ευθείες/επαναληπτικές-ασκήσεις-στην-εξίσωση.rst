@@ -8,18 +8,18 @@
 	:tags: Β' Λυκείου, ασκήσεις, εξίσωση ευθείας
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%ce%b5%ce%be%ce%af%cf%83%cf%89%cf%83%ce%b7
 	:status: published
-	:attachments: _static/images/uploads/2018/09/hans_memling_076.jpg
+	:attachments: wp-content/uploads/2018/09/hans_memling_076.jpg
 
-.. figure:: /_static/images/uploads/2018/09/hans_memling_076.jpg
-	:alt: Ο πίνακας *Βάζο με λουλούδια* του `Hans Memling.  <https://en.wikipedia.org/wiki/Hans_Memling>`__ 
+.. figure:: /wp-content/uploads/2018/09/hans_memling_076.jpg
+	:alt: Ο πίνακας *Βάζο με λουλούδια* του `Hans Memling. <https://en.wikipedia.org/wiki/Hans_Memling>`__ 
 	:align: center
 
-	Ο πίνακας *Βάζο με λουλούδια* του `Hans Memling.  <https://en.wikipedia.org/wiki/Hans_Memling>`__ 
+	Ο πίνακας *Βάζο με λουλούδια* του `Hans Memling. <https://en.wikipedia.org/wiki/Hans_Memling>`__ 
 
 
 Σε αυτό το φυλλάδιο περιέχονται ασκήσεις πάνω στην εξίσωση ευθείας,ξεκινώντας από απλές εφαρμογές γνωστών διαδικασιών μέχρι και πιο σύνθετα προβλήματα που απαιτούν, σε ορισμένες περιπτώσεις, και κάποια γνώση της κλασσικής Ευκλείδειας γεωμετρίας.
 
-Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1M7VuCEqDOn-04QR2DSS-nuXIz0DdI8wo/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1M7VuCEqDOn-04QR2DSS-nuXIz0DdI8wo/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

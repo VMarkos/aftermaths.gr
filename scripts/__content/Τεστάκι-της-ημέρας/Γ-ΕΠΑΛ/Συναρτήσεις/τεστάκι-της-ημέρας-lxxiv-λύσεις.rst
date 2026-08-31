@@ -8,16 +8,16 @@
 	:tags: παράγωγος, πανελλήνιες, τεστ, όρια, Γ' λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxxiv-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
 	:status: published
-	:attachments: _static/images/uploads/2021/03/838px-lise_sewing_-_1866.jpg
+	:attachments: wp-content/uploads/2021/03/838px-lise_sewing_-_1866.jpg
 
-.. figure:: /_static/images/uploads/2021/03/838px-lise_sewing_-_1866.jpg
-	:alt: Ο πίνακας *Η Lise πλέκει* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+.. figure:: /wp-content/uploads/2021/03/838px-lise_sewing_-_1866.jpg
+	:alt: Ο πίνακας *Η Lise πλέκει* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Η Lise πλέκει* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Η Lise πλέκει* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 
 
-Τις λύσεις του `προηγούμενου τεστ  <docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Συναρτήσεις/τεστάκι-της-ημέρας-lxiv-γ-επαλ.rst>`__ στα παραμετρικά όρια των μαθηματικών της Γ΄ ΕΠΑΛ - προετοιμασία για πανελλήνιες - μπορείτε να τα βρείτε `εδώ  <https://drive.google.com/file/d/1eB7dKm_0MT5E5iR58t9L7aoxHUpByd54/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τις λύσεις του `προηγούμενου τεστ <https://aftermathsgr.wordpress.com/2021/03/19/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxiv-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb/>`__ στα παραμετρικά όρια των μαθηματικών της Γ΄ ΕΠΑΛ - προετοιμασία για πανελλήνιες - μπορείτε να τα βρείτε `εδώ <https://drive.google.com/file/d/1eB7dKm_0MT5E5iR58t9L7aoxHUpByd54/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

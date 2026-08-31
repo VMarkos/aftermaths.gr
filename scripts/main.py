@@ -71,8 +71,8 @@ def fix_display_math(math_str: str) -> str:
 
 def fix_content(
     path: str,
-    fix_fn: Callable[[str, dict[str, any]], str],
-    post_process: Callable[[str, dict[str, any]], None] | None = None,
+    fix_fn: Callable[[str, dict[str, object]], str],
+    post_process: Callable[[str, dict[str, object]], None] | None = None,
     backup: bool = False,
 ) -> None:
     with open(path, "r") as file:
@@ -88,7 +88,7 @@ def fix_content(
         post_process(path, fix_params)
 
 
-def math_fix_fn(line: str, params: dict[str, any] = dict()) -> str:
+def math_fix_fn(line: str, params: dict[str, object] = dict()) -> str:
     if re.match(r"^\s*\$\s*latex\s+.+\$$", line):
         clean_line = fix_display_math(line)
     else:
@@ -100,7 +100,7 @@ def fix_math_content(path: str) -> None:
     fix_content(path, math_fix_fn)
 
 
-def fwslash_fix_fn(line: str, params: dict[str, any] = dict()) -> str:
+def fwslash_fix_fn(line: str, params: dict[str, object] = dict()) -> str:
     clean_line = re.sub(r"\\\\", r"\\", line)
     clean_line = re.sub(r"\\displaystyle", r"", clean_line)
     return clean_line
@@ -110,7 +110,7 @@ def fix_forward_slashes(path: str) -> None:
     fix_content(path, fwslash_fix_fn)
 
 
-def video_fix_fn(line: str, params: dict[str, any] = dict()) -> str:
+def video_fix_fn(line: str, params: dict[str, object] = dict()) -> str:
     fixed_line = re.sub(
         r"https://www.youtube.com/watch\?v=(\w+)(?:&\w*)?", r".. youtube:: \1 ", line
     )
@@ -137,7 +137,7 @@ def find_image_caption(line) -> str | None:
     return None
 
 
-def main_image_fix_fn(line: str, params: dict[str, any] = dict()) -> str:
+def main_image_fix_fn(line: str, params: dict[str, object] = dict()) -> str:
     att_path = find_attachment_path(line)
     if att_path:
         params["attachment"] = att_path
@@ -160,7 +160,7 @@ def build_rst_figure(attachment: str, caption: str) -> str:
     )
 
 
-def main_image_pp(path: str, params: dict[str, any]) -> None:
+def main_image_pp(path: str, params: dict[str, object]) -> None:
     with open(path, "r") as file:
         old_lines = file.readlines()
     if 'attachment' not in params.keys():
@@ -182,7 +182,7 @@ def fix_main_image(path: str) -> None:
     fix_content(path, main_image_fix_fn, main_image_pp)
 
 
-def meta_fix_fn(line: str, params: dict[str, any]) -> str:
+def meta_fix_fn(line: str, params: dict[str, object]) -> str | None:
     in_meta = params.get('meta')
     match in_meta:
         case None:
@@ -318,11 +318,58 @@ def wp_remove_fn(line: str, params: dict=dict()) -> str:
     return fixed_line
 
 
+def fix_tables(path: str) -> None:
+    fix_content(path, table_fix_fn)
+
+
+def table_fix_fn(line: str, params: dict=dict()) -> str:
+    # If we are parsing a table, just consume the next line
+    #if any(params.values()):
+    #    print(params)
+    # Check what we are parsing, i.e., table, caption or anything else
+    # Check if we are parsing a table
+    parsing_table = params.get('parsing_table')
+    if parsing_table is None:
+        params['parsing_table'] = False
+        params['table_str'] = ''
+    if re.match(r'^\s*\<figure class="wp-block-table.+"\>.*$', line):
+        params['parsing_table'] = True
+        params['table_str'] = '\t:widths: auto\n' # Caption / Title is prepended later.
+        return ''
+    # Check whether we are parsing a caption
+    parsing_caption = params.get('parsing_caption')
+    if parsing_caption is None:
+        params['parsing_caption'] = False
+        params['caption_str'] = ''
+    if re.match(r'^\s*\<figcaption\>.*$', line):
+        params['parsing_caption'] = True
+        params['parsing_table'] = False
+        return ''
+    # Check if parsing has ended
+    if re.match(r'^\s*\</figcaption\>.*$', line):
+        params['parsing_caption'] = False
+        return (
+            f'.. table:: {params["caption_str"]}'
+            f'{params["table_str"]}'
+        )
+    # Take cases accordingly
+    if parsing_table:
+        params['table_str'] = params['table_str'] + '\t' + line
+        return ''
+    # If we match a figcaption
+    if parsing_caption:
+        if re.match(r'.+', line.strip()):
+            params['caption_str'] = params['caption_str'] + ' ' + line
+        return ''
+    return line
+
+
 def main():
     # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
     # Fix content
     fnames = get_files_in_dir(Config.SPHINX_DOCS, "rst")
+    # fnames = get_files_in_dir(Config.CONTENT_STRUCT_DIR, 'rst')
     # create_content_tree(Config.CONTENT_ROOT)
     for file_path in tqdm(map(os.path.abspath, fnames)):
         # fix_math_content(file_path)
@@ -336,7 +383,8 @@ def main():
         # fix_post_images(file_path)
         # fix_aligned_math(file_path)
         # fix_keraia(file_path)
-        remove_wp_code(file_path)
+        # remove_wp_code(file_path)
+        fix_tables(file_path)
 
 
 if __name__ == "__main__":

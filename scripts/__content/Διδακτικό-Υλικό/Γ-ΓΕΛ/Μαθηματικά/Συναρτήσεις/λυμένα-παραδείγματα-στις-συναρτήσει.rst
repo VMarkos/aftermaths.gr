@@ -8,13 +8,13 @@
 	:tags: featured, προβλήματα, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις, επανάληψη, λυμένα παραδείγματα
 	:slug: %ce%bb%cf%85%ce%bc%ce%ad%ce%bd%ce%b1-%cf%80%ce%b1%cf%81%ce%b1%ce%b4%ce%b5%ce%af%ce%b3%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9
 	:status: published
-	:attachments: _static/images/uploads/2020/07/peder_severin_krc3b8yer-boys_bathing_in_skagen_summer_evening-statens_museum_for_kunst.jpg
+	:attachments: wp-content/uploads/2020/07/peder_severin_krc3b8yer-boys_bathing_in_skagen_summer_evening-statens_museum_for_kunst.jpg
 
-.. figure:: /_static/images/uploads/2020/07/peder_severin_krc3b8yer-boys_bathing_in_skagen_summer_evening-statens_museum_for_kunst.jpg
-	:alt: Ο πίνακας *Λουόμενα αγόρια στην παραλία του Skagen ένα απόγευμα του καλοκαιριού* του `Peder Severin Krøyer  <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+.. figure:: /wp-content/uploads/2020/07/peder_severin_krc3b8yer-boys_bathing_in_skagen_summer_evening-statens_museum_for_kunst.jpg
+	:alt: Ο πίνακας *Λουόμενα αγόρια στην παραλία του Skagen ένα απόγευμα του καλοκαιριού* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
 	:align: center
 
-	Ο πίνακας *Λουόμενα αγόρια στην παραλία του Skagen ένα απόγευμα του καλοκαιριού* του `Peder Severin Krøyer  <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
+	Ο πίνακας *Λουόμενα αγόρια στην παραλία του Skagen ένα απόγευμα του καλοκαιριού* του `Peder Severin Krøyer <https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer>`__. 
 
 
 Σε αυτή τη μικρή συλλογή παρουσιάζονται κάποια λυμένα παραδείγματα ταξινομημένα ανά «τεχνική» σε σχέση με το κεφάλαιο των συναρτήσεων. Σκοπός, προφανώς, δεν είναι να μαζέψουμε τα μαθηματικά σε «κουτάκια», αλλά να βάλουμε μία μικρή τάξη σε όσα έχουμε δει μέσα στο κεφάλαιο των συναρτήσεων και να ξεκαθαρίσουμε τις όποιες παρανοήσεις έχουν να κάνουν με βασικές τεχνικές, διαδικασίες κ.λπ. Στο τέλος, παρουσιάζονται και κάποια λυμένα θέματα που σχετίζονται με το κεφάλαιο, αρκετές ταχύτητες πιο πάνω από τα υπόλοιπα παραδείγματα, που αποσκοπούν κυρίως στο να συνδυάσουν όλες τις παραπάνω απλές διαδικασίες και έννοιες, πολλές φορές με τρόπο... μη αναμενόμενο.

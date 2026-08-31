@@ -8,16 +8,16 @@
 	:tags: featured, πανελλήνιες, σημειώσεις, Γ' λυκείου, αποδείξεις, επανάληψη, θεωρία
 	:slug: %cf%8c%ce%bb%ce%b5%cf%82-%ce%bf%ce%b9-%ce%b1%cf%80%ce%bf%ce%b4%ce%b5%ce%af%ce%be%ce%b5%ce%b9%cf%82
 	:status: published
-	:attachments: _static/images/uploads/2020/09/1280px-honore_daumier_the_third-class_carriage_-_the_metropolitan_museum_of_art.jpg
+	:attachments: wp-content/uploads/2020/09/1280px-honore_daumier_the_third-class_carriage_-_the_metropolitan_museum_of_art.jpg
 
-.. figure:: /_static/images/uploads/2020/09/1280px-honore_daumier_the_third-class_carriage_-_the_metropolitan_museum_of_art.jpg
-	:alt: Ο πίνακας *Το βαγόνι της οικονομικής θέσης* του `Honoré Daumier  <https://en.wikipedia.org/wiki/Honor%C3%A9_Daumier>`__. 
+.. figure:: /wp-content/uploads/2020/09/1280px-honore_daumier_the_third-class_carriage_-_the_metropolitan_museum_of_art.jpg
+	:alt: Ο πίνακας *Το βαγόνι της οικονομικής θέσης* του `Honoré Daumier <https://en.wikipedia.org/wiki/Honor%C3%A9_Daumier>`__. 
 	:align: center
 
-	Ο πίνακας *Το βαγόνι της οικονομικής θέσης* του `Honoré Daumier  <https://en.wikipedia.org/wiki/Honor%C3%A9_Daumier>`__. 
+	Ο πίνακας *Το βαγόνι της οικονομικής θέσης* του `Honoré Daumier <https://en.wikipedia.org/wiki/Honor%C3%A9_Daumier>`__. 
 
 
-`Εδώ  <https://drive.google.com/file/d/1iCi9SFWoNVESEFq0R0OSRXPPA-dylWBt/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__ μπορείτε να βρείτε όλες τις αποδείξεις της ύλης των Μαθηματικών Προσανατολισμού που είναι εντός της εξεταστέας ύλης για τις πανελλήνιες εξετάσεις. Δίπλα σε πολλές από τις αποδείξεις βρίσκονται σχόλια σχετικά με την ιδέα πίσω από την απόδειξη τα οποία αποσκοπούν:
+`Εδώ <https://drive.google.com/file/d/1iCi9SFWoNVESEFq0R0OSRXPPA-dylWBt/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__ μπορείτε να βρείτε όλες τις αποδείξεις της ύλης των Μαθηματικών Προσανατολισμού που είναι εντός της εξεταστέας ύλης για τις πανελλήνιες εξετάσεις. Δίπλα σε πολλές από τις αποδείξεις βρίσκονται σχόλια σχετικά με την ιδέα πίσω από την απόδειξη τα οποία αποσκοπούν:
 
 -  στο να βοηθήσουν στην απομνημόνευση των πιο δύσκολων αποδείξεων,
 -  στο να ξεκαθαριστούν οι διαισθητικές ιδέες πίσω από πολλές αποδείξεις.

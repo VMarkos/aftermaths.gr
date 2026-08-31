@@ -8,18 +8,18 @@
 	:tags: πίνακες, πανελλήνιες, Γ' λυκείου, δύο διαστάσεων, επανάληψη, μονοδιάστατοι
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%bf%cf%85%cf%82-%cf%80%ce%af%ce%bd%ce%b1%ce%ba%ce%b5
 	:status: published
-	:attachments: _static/images/uploads/2018/10/1024px-claude_monet_022.jpg
+	:attachments: wp-content/uploads/2018/10/1024px-claude_monet_022.jpg
 
-.. figure:: /_static/images/uploads/2018/10/1024px-claude_monet_022.jpg
-	:alt: Ο πίνακας *Γυναίκα σε κήπο* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.'* 
+.. figure:: /wp-content/uploads/2018/10/1024px-claude_monet_022.jpg
+	:alt: Ο πίνακας *Γυναίκα σε κήπο* του `Claude Monet <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.'* 
 	:align: center
 
-	Ο πίνακας *Γυναίκα σε κήπο* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.'* 
+	Ο πίνακας *Γυναίκα σε κήπο* του `Claude Monet <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.'* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται επαναληπτικές ασκήσεις στους πίνακες καθώς και κάποια σχετικά προβλήματα.
 
-Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1n4Mlm3cIeEOH-ROx1O1MfGgGV4uyfjkQ/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1n4Mlm3cIeEOH-ROx1O1MfGgGV4uyfjkQ/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

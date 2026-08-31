@@ -9,7 +9,7 @@
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%88%ce%bf%cf%8d%ce%bb%ce%b1-%ce%b3%ce%b9%ce%b1-%cf%84%ce%b1-%cf%87%cf%81%ce%b9%cf%83%cf%84%ce%bf%cf%8d%ce%b3%ce%b5%ce%bd%ce%bd%ce%b1
 	:status: published
 	
-	Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1Y2W2wQTe7YQ6gCCcAtabR9-q7UcpF4Mm/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+	Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1Y2W2wQTe7YQ6gCCcAtabR9-q7UcpF4Mm/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 	
 	
 	

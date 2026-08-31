@@ -8,18 +8,18 @@
 	:tags: προβλήματα, παράγωγος, πανελλήνιες, στατιστική, συναρτήσεις, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, μαθηματικά
 	:slug: 10-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ac-%ce%b8%ce%ad%ce%bc%ce%b1%cf%84%ce%b1-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
 	:status: published
-	:attachments: _static/images/uploads/2021/05/769px-pierre-auguste_renoir_030.jpg
+	:attachments: wp-content/uploads/2021/05/769px-pierre-auguste_renoir_030.jpg
 
-.. figure:: /_static/images/uploads/2021/05/769px-pierre-auguste_renoir_030.jpg
-	:alt: Ο πίνακας *Η γυναίκα και το πηγάδι* του `Pierre-Auguste Renoir.  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__ 
+.. figure:: /wp-content/uploads/2021/05/769px-pierre-auguste_renoir_030.jpg
+	:alt: Ο πίνακας *Η γυναίκα και το πηγάδι* του `Pierre-Auguste Renoir. <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__ 
 	:align: center
 
-	Ο πίνακας *Η γυναίκα και το πηγάδι* του `Pierre-Auguste Renoir.  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__ 
+	Ο πίνακας *Η γυναίκα και το πηγάδι* του `Pierre-Auguste Renoir. <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__ 
 
 
 10 μικρά και όχι τόσο μικρά επαναληπτικά θέματα στην κομμένη ύλη των Μαθηματικών Γενικής Παιδείας της Γ' ΕΠΑΛ.
 
-Τα θέματα μπορείτε να τα βρείτε `εδώ  <https://drive.google.com/file/d/18oJjbjzFR5dJo1RyKWfO_xVxj0n_FlKv/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τα θέματα μπορείτε να τα βρείτε `εδώ <https://drive.google.com/file/d/18oJjbjzFR5dJo1RyKWfO_xVxj0n_FlKv/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

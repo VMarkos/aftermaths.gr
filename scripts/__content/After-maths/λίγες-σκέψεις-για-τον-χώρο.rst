@@ -430,72 +430,72 @@
 
       .. youtube:: hy3W -3HPMWg
 
-.. |image1| image:: {static}wp-content/uploads/2018/09/9899c-cartesianplane.png
+.. |image1| image:: {static}wp-content/uploads/2018/09/9899c-cartesianplane.png?w=300
    :class: aligncenter
    :width: 400px
    :height: 298px
    :target: {static}wp-content/uploads/2018/09/9899c-cartesianplane.png
-.. |image2| image:: {static}wp-content/uploads/2018/09/d7242-coords.png
+.. |image2| image:: {static}wp-content/uploads/2018/09/d7242-coords.png?w=300
    :class: aligncenter
    :width: 400px
    :height: 298px
    :target: {static}wp-content/uploads/2018/09/d7242-coords.png
-.. |image3| image:: {static}wp-content/uploads/2018/09/dd29c-dist.png
+.. |image3| image:: {static}wp-content/uploads/2018/09/dd29c-dist.png?w=300
    :class: aligncenter
    :width: 400px
    :height: 298px
    :target: {static}wp-content/uploads/2018/09/dd29c-dist.png
-.. |image4| image:: {static}wp-content/uploads/2018/09/863a3-dist_1.png
+.. |image4| image:: {static}wp-content/uploads/2018/09/863a3-dist_1.png?w=300
    :class: aligncenter
    :width: 400px
    :height: 298px
    :target: {static}wp-content/uploads/2018/09/863a3-dist_1.png
-.. |image5| image:: {static}wp-content/uploads/2018/09/189b8-dist_2.png
+.. |image5| image:: {static}wp-content/uploads/2018/09/189b8-dist_2.png?w=300
    :class: aligncenter
    :width: 400px
    :height: 298px
    :target: {static}wp-content/uploads/2018/09/189b8-dist_2.png
-.. |image6| image:: {static}wp-content/uploads/2018/09/5c759-triangineq.png
+.. |image6| image:: {static}wp-content/uploads/2018/09/5c759-triangineq.png?w=300
    :class: aligncenter
    :width: 400px
    :height: 298px
    :target: {static}wp-content/uploads/2018/09/5c759-triangineq.png
-.. |image7| image:: {static}wp-content/uploads/2018/09/0e0dd-euccirc.png
+.. |image7| image:: {static}wp-content/uploads/2018/09/0e0dd-euccirc.png?w=300
    :class: aligncenter
    :width: 400px
    :height: 297px
    :target: {static}wp-content/uploads/2018/09/0e0dd-euccirc.png
-.. |image8| image:: {static}wp-content/uploads/2018/09/22e53-neuccirc.png
+.. |image8| image:: {static}wp-content/uploads/2018/09/22e53-neuccirc.png?w=300
    :class: aligncenter
    :width: 400px
    :height: 297px
    :target: {static}wp-content/uploads/2018/09/22e53-neuccirc.png
-.. |image9| image:: {static}wp-content/uploads/2018/09/b88f5-bothcircs.png
+.. |image9| image:: {static}wp-content/uploads/2018/09/b88f5-bothcircs.png?w=300
    :class: aligncenter
    :width: 400px
    :height: 297px
    :target: {static}wp-content/uploads/2018/09/b88f5-bothcircs.png
-.. |image10| image:: {static}wp-content/uploads/2018/09/9fa37-eucplane.png
+.. |image10| image:: {static}wp-content/uploads/2018/09/9fa37-eucplane.png?w=300
    :class: aligncenter
    :width: 400px
    :height: 296px
    :target: {static}wp-content/uploads/2018/09/9fa37-eucplane.png
-.. |image11| image:: {static}wp-content/uploads/2018/09/57549-noneucplane.png
+.. |image11| image:: {static}wp-content/uploads/2018/09/57549-noneucplane.png?w=300
    :class: aligncenter
    :width: 400px
    :height: 297px
    :target: {static}wp-content/uploads/2018/09/57549-noneucplane.png
-.. |image12| image:: {static}wp-content/uploads/2018/09/897df-bothplanes.png
+.. |image12| image:: {static}wp-content/uploads/2018/09/897df-bothplanes.png?w=300
    :class: aligncenter
    :width: 400px
    :height: 297px
    :target: {static}wp-content/uploads/2018/09/897df-bothplanes.png
-.. |image13| image:: {static}wp-content/uploads/2018/09/eb061-25ce258c25ce25bb25ce25b325ce25b1.png
+.. |image13| image:: {static}wp-content/uploads/2018/09/eb061-25ce258c25ce25bb25ce25b325ce25b1.png?w=295
    :class: aligncenter
    :width: 392px
    :height: 400px
    :target: {static}wp-content/uploads/2018/09/eb061-25ce258c25ce25bb25ce25b325ce25b1.png
-.. |image14| image:: {static}wp-content/uploads/2018/09/66bfd-25ce258c25ce25bb25ce25b325ce25b1_2.png
+.. |image14| image:: {static}wp-content/uploads/2018/09/66bfd-25ce258c25ce25bb25ce25b325ce25b1_2.png?w=295
    :class: aligncenter
    :width: 392px
    :height: 400px

@@ -8,16 +8,16 @@
 	:tags: προβλήματα, πανελλήνιες, ρητή συνάρτηση, Γ' λυκείου, ασκήσεις, ολοκλήρωμα
 	:slug: %ce%bf%ce%bb%ce%bf%ce%ba%ce%bb%ce%ae%cf%81%cf%89%ce%bc%ce%b1-%cf%81%ce%b7%cf%84%ce%ae%cf%82-%cf%83%cf%85%ce%bd%ce%ac%cf%81%cf%84%ce%b7%cf%83%ce%b7%cf%82-%ce%ba%ce%b1%ce%b9-%ce%ac%ce%bb%ce%bb%ce%b1
 	:status: published
-	:attachments: _static/images/uploads/2020/02/666px-rembrandt_harmensz._van_rijn_026.jpg
+	:attachments: wp-content/uploads/2020/02/666px-rembrandt_harmensz._van_rijn_026.jpg
 
-.. figure:: /_static/images/uploads/2020/02/666px-rembrandt_harmensz._van_rijn_026.jpg
-	:alt: Ο πίνακας *Δανάη* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__. 
+.. figure:: /wp-content/uploads/2020/02/666px-rembrandt_harmensz._van_rijn_026.jpg
+	:alt: Ο πίνακας *Δανάη* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__. 
 	:align: center
 
-	Ο πίνακας *Δανάη* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__. 
+	Ο πίνακας *Δανάη* του `Rembrandt <https://en.wikipedia.org/wiki/Rembrandt>`__. 
 
 
-Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1hTaF4I_VmL32CzKv5f1mwr6K4caQNRyZ/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1hTaF4I_VmL32CzKv5f1mwr6K4caQNRyZ/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

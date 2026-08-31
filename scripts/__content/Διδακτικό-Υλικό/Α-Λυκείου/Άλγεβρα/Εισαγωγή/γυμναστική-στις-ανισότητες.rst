@@ -8,18 +8,18 @@
 	:tags: Α' Λυκείου, ΕΠΑΛ, άλγεβρα, αποδείξεις, ασκήσεις, ανισότητες
 	:slug: %ce%b3%cf%85%ce%bc%ce%bd%ce%b1%cf%83%cf%84%ce%b9%ce%ba%ce%ae-%cf%83%cf%84%ce%b9%cf%82-%ce%b1%ce%bd%ce%b9%cf%83%cf%8c%cf%84%ce%b7%cf%84%ce%b5%cf%82
 	:status: published
-	:attachments: _static/images/uploads/2023/11/theo_van_doesburg_-_composition_with_window_with_coloured_glass_iii.jpg
+	:attachments: wp-content/uploads/2023/11/theo_van_doesburg_-_composition_with_window_with_coloured_glass_iii.jpg
 
-.. figure:: /_static/images/uploads/2023/11/theo_van_doesburg_-_composition_with_window_with_coloured_glass_iii.jpg
-	:alt: Ο πίνακας *Σύνθεση με παράθυρο με χρωματιστό γυαλί ΙΙΙ* του `Theo van Doesburg  <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 
+.. figure:: /wp-content/uploads/2023/11/theo_van_doesburg_-_composition_with_window_with_coloured_glass_iii.jpg
+	:alt: Ο πίνακας *Σύνθεση με παράθυρο με χρωματιστό γυαλί ΙΙΙ* του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 
 	:align: center
 
-	Ο πίνακας *Σύνθεση με παράθυρο με χρωματιστό γυαλί ΙΙΙ* του `Theo van Doesburg  <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 
+	Ο πίνακας *Σύνθεση με παράθυρο με χρωματιστό γυαλί ΙΙΙ* του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__. 
 
 
-Περάσαμε ένα `φύλλο εργασίας  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Εισαγωγή/ανισότητες-και-αποδείξεις.rst>`__ στις ανισότητες, ώρα για... γυμναστική. Σε αυτό το σετ ασκήσεων αποδεικνύουμε με μία μικρή βοήθεια όπου χρειάζεται κάποιες κλασικές ανισότητες μεταξύ πραγματικών αριθμών.
+Περάσαμε ένα `φύλλο εργασίας <https://aftermaths.gr/2023/10/30/%ce%b1%ce%bd%ce%b9%cf%83%cf%8c%cf%84%ce%b7%cf%84%ce%b5%cf%82-%ce%ba%ce%b1%ce%b9-%ce%b1%cf%80%ce%bf%ce%b4%ce%b5%ce%af%ce%be%ce%b5%ce%b9%cf%82/>`__ στις ανισότητες, ώρα για... γυμναστική. Σε αυτό το σετ ασκήσεων αποδεικνύουμε με μία μικρή βοήθεια όπου χρειάζεται κάποιες κλασικές ανισότητες μεταξύ πραγματικών αριθμών.
 
-Τις ασκήσεις μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/19KZkp1LamBiNvQ0YD0Onn18dnNDz2wBK/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
+Τις ασκήσεις μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/19KZkp1LamBiNvQ0YD0Onn18dnNDz2wBK/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
 
 
 

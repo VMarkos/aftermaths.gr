@@ -8,18 +8,18 @@
 	:tags: προβλήματα, ρίζες, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, ασκήσεις, επανάληψη, μαθηματικά
 	:slug: %ce%b5%cf%80%ce%b9%cf%83%cf%84%cf%81%ce%bf%cf%86%ce%ae-%cf%83%cf%84%ce%b9%cf%82-%cf%81%ce%af%ce%b6%ce%b5%cf%82
 	:status: published
-	:attachments: _static/images/uploads/2021/01/759px-iwan_nikolajewitsch_kramskoj_005.jpg
+	:attachments: wp-content/uploads/2021/01/759px-iwan_nikolajewitsch_kramskoj_005.jpg
 
-.. figure:: /_static/images/uploads/2021/01/759px-iwan_nikolajewitsch_kramskoj_005.jpg
-	:alt: Το πορτραίτο του Ivan Shishkin του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__. 
+.. figure:: /wp-content/uploads/2021/01/759px-iwan_nikolajewitsch_kramskoj_005.jpg
+	:alt: Το πορτραίτο του Ivan Shishkin του `Ivan Kramskoi <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__. 
 	:align: center
 
-	Το πορτραίτο του Ivan Shishkin του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__. 
+	Το πορτραίτο του Ivan Shishkin του `Ivan Kramskoi <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__. 
 
 
 Ένα σετ με ασκήσεις στις ρίζες - άλγεβρα Α' Λυκείου/ΕΠΑΛ - αλλά και προβλήματα στις... παρυφές της ύλης. Οι ασκήσεις αφορούν τόσο τετραγωνικές ρίζες όσο και ν-οστές ρίζες αλλά και δυνάμεις με ρητό εκθέτη.
 
-Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/16TRF-fN4Wj0Pd7wa1K5yB4isTnWs-ZM_/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/16TRF-fN4Wj0Pd7wa1K5yB4isTnWs-ZM_/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

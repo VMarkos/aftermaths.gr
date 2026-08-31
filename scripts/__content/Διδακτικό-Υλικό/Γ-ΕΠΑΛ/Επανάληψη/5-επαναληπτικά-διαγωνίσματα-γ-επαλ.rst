@@ -8,18 +8,18 @@
 	:tags: προβλήματα, παράγωγος, πανελλήνιες, στατιστική, συναρτήσεις, όρια, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διαγώνισμα, επανάληψη, λύσεις
 	:slug: 5-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%ce%ac-%ce%b4%ce%b9%ce%b1%ce%b3%cf%89%ce%bd%ce%af%cf%83%ce%bc%ce%b1%cf%84%ce%b1-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb
 	:status: published
-	:attachments: _static/images/uploads/2021/05/1244px-pierre-auguste_renoir_-_trois_baigneuses_au_crabe.jpg
+	:attachments: wp-content/uploads/2021/05/1244px-pierre-auguste_renoir_-_trois_baigneuses_au_crabe.jpg
 
-.. figure:: /_static/images/uploads/2021/05/1244px-pierre-auguste_renoir_-_trois_baigneuses_au_crabe.jpg
-	:alt: Ο πίνακας *Τρεις λουόμενες* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+.. figure:: /wp-content/uploads/2021/05/1244px-pierre-auguste_renoir_-_trois_baigneuses_au_crabe.jpg
+	:alt: Ο πίνακας *Τρεις λουόμενες* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Τρεις λουόμενες* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Τρεις λουόμενες* του `Pierre-Auguste Renoir <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 
 
 Στην εν λόγω συλλογή μπορείτε να βρείτε πέντε (5) επαναληπτικά διαγωνίσματα στην ύλη των Μαθηματικών Γενικής Παιδείας της Γ' ΕΠΑΛ μαζί με τις λύσεις τους.
 
-Τα διαγωνίσματα μπορείτε να τα βρείτε `εδώ  <https://drive.google.com/file/d/1RCT7sV6KbYkbUobOoKlvvbFQoC-Svj3e/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τα διαγωνίσματα μπορείτε να τα βρείτε `εδώ <https://drive.google.com/file/d/1RCT7sV6KbYkbUobOoKlvvbFQoC-Svj3e/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

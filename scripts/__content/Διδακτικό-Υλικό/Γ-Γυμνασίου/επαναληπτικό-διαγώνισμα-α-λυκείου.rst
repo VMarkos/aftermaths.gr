@@ -8,16 +8,16 @@
 	:tags: σύνολα, Α' Λυκείου, Γ' Γυμνασίου, άλγεβρα, αποδείξεις, διαγώνισμα, επανάληψη, εισαγωγή
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
 	:status: published
-	:attachments: _static/images/uploads/2020/10/hilma_af_klint_-_group_ix_uw_no._25_the_dove_no._1_13912.jpg
+	:attachments: wp-content/uploads/2020/10/hilma_af_klint_-_group_ix_uw_no._25_the_dove_no._1_13912.jpg
 
-.. figure:: /_static/images/uploads/2020/10/hilma_af_klint_-_group_ix_uw_no._25_the_dove_no._1_13912.jpg
-	:alt: Ο πίνακας *Το περιστέρι Αρ. 1, Group IX/UW, Αρ. 25* της `Hilma af Klint  <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\ *.* 
+.. figure:: /wp-content/uploads/2020/10/hilma_af_klint_-_group_ix_uw_no._25_the_dove_no._1_13912.jpg
+	:alt: Ο πίνακας *Το περιστέρι Αρ. 1, Group IX/UW, Αρ. 25* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Το περιστέρι Αρ. 1, Group IX/UW, Αρ. 25* της `Hilma af Klint  <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\ *.* 
+	Ο πίνακας *Το περιστέρι Αρ. 1, Group IX/UW, Αρ. 25* της `Hilma af Klint <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\ *.* 
 
 
-Το διαγώνισμα μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1AcCeSUn7_1AFdlCCEmUise8nHPxyAx2H/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το διαγώνισμα μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1AcCeSUn7_1AFdlCCEmUise8nHPxyAx2H/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

@@ -8,20 +8,20 @@
 	:tags: πανελλήνιες, συναρτήσεις, σημειώσεις, Γ' λυκείου, διαφάνειες
 	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-1%ce%bf%cf%85-%ce%bc%ce%b1%ce%b8%ce%ae%ce%bc%ce%b1%cf%84%ce%bf%cf%82-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%b1
 	:status: published
-	:attachments: _static/images/uploads/2019/06/800px-pilgrimage_at_sunset_sunrise.jpg
+	:attachments: wp-content/uploads/2019/06/800px-pilgrimage_at_sunset_sunrise.jpg
 
-.. figure:: /_static/images/uploads/2019/06/800px-pilgrimage_at_sunset_sunrise.jpg
-	:alt: Ο πίνακας *Προσκύνημα κατά τη δύση (ανατολή)* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+.. figure:: /wp-content/uploads/2019/06/800px-pilgrimage_at_sunset_sunrise.jpg
+	:alt: Ο πίνακας *Προσκύνημα κατά τη δύση (ανατολή)* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Προσκύνημα κατά τη δύση (ανατολή)* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Προσκύνημα κατά τη δύση (ανατολή)* του `Caspar David Friedrich <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
 
 
 Συμπληρωματικά στις σημειώσεις του μαθήματος (εντός ημερών αναμένεται η νέα, αναθεωρημένη έκδοση), θα δημοσιεύονται φέτος και σχετικές διαφάνειες, για ευκολότερη επανάληψη και ταχύτερο συμμάζεμα της ύλης.
 
-Το πρώτο σετ διαφανειών βρίσκεται `εδώ  <https://drive.google.com/file/d/1fxHlJ2yGgjfjXdCnG-ymU1D4GxaA-1aj/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το πρώτο σετ διαφανειών βρίσκεται `εδώ <https://drive.google.com/file/d/1fxHlJ2yGgjfjXdCnG-ymU1D4GxaA-1aj/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Επίσης, σε χαμηλότερη βέβαια ανάλυση, βρίσκεται και στο `Slideshare  <https://www.slideshare.net/ssuserbf550d/1-150231582>`__\ `:  <https://www.slideshare.net/ssuserbf550d/1-150046556>`__
+Επίσης, σε χαμηλότερη βέβαια ανάλυση, βρίσκεται και στο `Slideshare <https://www.slideshare.net/ssuserbf550d/1-150231582>`__\ `: <https://www.slideshare.net/ssuserbf550d/1-150046556>`__
 
 [slideshare id=150231582&doc=lesson1-190617182447]
 

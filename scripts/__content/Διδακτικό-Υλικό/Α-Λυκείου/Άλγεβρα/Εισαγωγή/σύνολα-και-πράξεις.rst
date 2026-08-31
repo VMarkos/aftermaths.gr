@@ -8,20 +8,20 @@
 	:tags: σύνολα, φύλλο εργασίας, Α' Λυκείου, ΕΠΑΛ, άλγεβρα
 	:slug: %cf%83%cf%8d%ce%bd%ce%bf%ce%bb%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%80%cf%81%ce%ac%ce%be%ce%b5%ce%b9%cf%82
 	:status: published
-	:attachments: _static/images/uploads/2023/10/luigi_russolo_1912_sintesi_plastica_dei_movimenti_di_una_donna_synthese_plastique_des_mouvements_dune_femme_oil_on_canvas_86_x_65_cm_musee_de_grenoble.jpg
+	:attachments: wp-content/uploads/2023/10/luigi_russolo_1912_sintesi_plastica_dei_movimenti_di_una_donna_synthese_plastique_des_mouvements_dune_femme_oil_on_canvas_86_x_65_cm_musee_de_grenoble.jpg
 
-.. figure:: /_static/images/uploads/2023/10/luigi_russolo_1912_sintesi_plastica_dei_movimenti_di_una_donna_synthese_plastique_des_mouvements_dune_femme_oil_on_canvas_86_x_65_cm_musee_de_grenoble.jpg
-	:alt: Ο πίνακας *Πλαστική σύνθεση των κινήσεων μίας κυρίας* του `Luigi Russolo  <https://en.wikipedia.org/wiki/Luigi_Russolo>`__. 
+.. figure:: /wp-content/uploads/2023/10/luigi_russolo_1912_sintesi_plastica_dei_movimenti_di_una_donna_synthese_plastique_des_mouvements_dune_femme_oil_on_canvas_86_x_65_cm_musee_de_grenoble.jpg
+	:alt: Ο πίνακας *Πλαστική σύνθεση των κινήσεων μίας κυρίας* του `Luigi Russolo <https://en.wikipedia.org/wiki/Luigi_Russolo>`__. 
 	:align: center
 
-	Ο πίνακας *Πλαστική σύνθεση των κινήσεων μίας κυρίας* του `Luigi Russolo  <https://en.wikipedia.org/wiki/Luigi_Russolo>`__. 
+	Ο πίνακας *Πλαστική σύνθεση των κινήσεων μίας κυρίας* του `Luigi Russolo <https://en.wikipedia.org/wiki/Luigi_Russolo>`__. 
 
 
 Ένα μικρό εισαγωγικό φύλλο εργασίας στα σύνολα και τις βασικές πράξεις τους. Σαφώς, το φύλλο εργασίας απευθύνεται σε μαθητές κυρίως Α' Γενικού Λυκείου (αλλά και ΕΠΑΛ, αν έχει όρεξη κανείς). Στόχος είναι να παρουσιαστούν σε ένα απλό (πεπερασμένο) παράδειγμα οι βασικές πράξεις και η ερμηνεία των τόσων νέων συμβόλων που εισάγονται σε αυτή την ενότητα της εισαγωγής τους σχολικού βιβλίου.
 
-Το φύλλο εργασίας μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/19-EAl8TSOLyVxMaJ-Hf1sDKfEABUiH90/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
+Το φύλλο εργασίας μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/19-EAl8TSOLyVxMaJ-Hf1sDKfEABUiH90/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
 
-Ανάλογο υλικό μπορείτε να βρείτε στο υλικό `προηγούμενων σχολικών ετών  <http://aftermaths.gr/διδακτικό-υλικό>`__.
+Ανάλογο υλικό μπορείτε να βρείτε στο υλικό `προηγούμενων σχολικών ετών <http://aftermaths.gr/διδακτικό-υλικό>`__.
 
 
 

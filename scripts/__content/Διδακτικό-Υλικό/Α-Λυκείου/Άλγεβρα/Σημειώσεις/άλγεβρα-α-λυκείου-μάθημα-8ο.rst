@@ -21,7 +21,7 @@
 
 Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1ftCy2NyPZKpJe4Kza1Cf-P55rU61sT87/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
-*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ εδώ </2021/10/25/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-7%ce%bf/>`__\ *ενώ τις αντίστοιχες διαφάνειες της Β' Λυκείου*\ `εδώ </2021/10/27/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-7%ce%bf/>`__\ *- για ασκήσεις στα διαστήματα πραγματικών αριθμών δείτε*\ `εδώ </home/bill/Documents/Projects/aftermaths/__export/scripts/__content/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Εισαγωγή/ανισότητες-διαστήματα.rst>`__\ *.*
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ `εδώ <https://aftermaths.gr/2021/10/25/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-7%ce%bf/>`__\ *ενώ τις αντίστοιχες διαφάνειες της Β' Λυκείου*\ `εδώ <https://aftermaths.gr/2021/10/27/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-7%ce%bf/>`__\ *- για ασκήσεις στα διαστήματα πραγματικών αριθμών δείτε*\ `εδώ <https://aftermaths.gr/2021/10/29/%ce%b1%ce%bd%ce%b9%cf%83%cf%8c%cf%84%ce%b7%cf%84%ce%b5%cf%82-%ce%b4%ce%b9%ce%b1%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1/>`__\ *.*
 
 
 

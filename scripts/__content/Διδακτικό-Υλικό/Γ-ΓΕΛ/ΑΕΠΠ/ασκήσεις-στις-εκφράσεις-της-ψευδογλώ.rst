@@ -8,16 +8,16 @@
 	:tags: παραστάσεις, πανελλήνιες, Γ' λυκείου, Μαθηματικά, ασκήσεις, αλγόριθμοι
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%ce%b5%ce%ba%cf%86%cf%81%ce%ac%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%b7%cf%82-%cf%88%ce%b5%cf%85%ce%b4%ce%bf%ce%b3%ce%bb%cf%8e
 	:status: published
-	:attachments: _static/images/uploads/2019/06/matisse_-_view_of_collioure_1905.jpg
+	:attachments: wp-content/uploads/2019/06/matisse_-_view_of_collioure_1905.jpg
 
-.. figure:: /_static/images/uploads/2019/06/matisse_-_view_of_collioure_1905.jpg
-	:alt: Ο πίνακας *Οι στέγες του Collioure* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+.. figure:: /wp-content/uploads/2019/06/matisse_-_view_of_collioure_1905.jpg
+	:alt: Ο πίνακας *Οι στέγες του Collioure* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Οι στέγες του Collioure* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Οι στέγες του Collioure* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
 
 
-Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1FJRPMWUay3eUQuIpbFpWP59OQyd4yHHk/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1FJRPMWUay3eUQuIpbFpWP59OQyd4yHHk/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

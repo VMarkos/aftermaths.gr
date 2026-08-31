@@ -8,16 +8,16 @@
 	:tags: προβλήματα, πολυώνυμα, φύλλο εργασίας, Β' Λυκείου, ασκήσεις, γραφική παράσταση
 	:slug: %cf%86%cf%8d%ce%bb%ce%bb%ce%bf-%ce%b5%cf%81%ce%b3%ce%b1%cf%83%ce%af%ce%b1%cf%82-%cf%80%ce%bf%ce%bb%cf%85%cf%8e%ce%bd%cf%85%ce%bc%ce%b1-%ce%ba%ce%b1%ce%b9-%ce%b3%cf%81%ce%b1%cf%86%ce%b9%ce%ba%ce%ad
 	:status: published
-	:attachments: _static/images/uploads/2019/02/jurist.jpg
+	:attachments: wp-content/uploads/2019/02/jurist.jpg
 
-.. figure:: /_static/images/uploads/2019/02/jurist.jpg
-	:alt: Ο πίνακας *Ο δικαστής* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+.. figure:: /wp-content/uploads/2019/02/jurist.jpg
+	:alt: Ο πίνακας *Ο δικαστής* του `Giuseppe Arcimboldo <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Ο δικαστής* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+	Ο πίνακας *Ο δικαστής* του `Giuseppe Arcimboldo <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
 
 
-Το φύλλο εργασίας βρίσκεται `εδώ  <https://drive.google.com/file/d/13KrM-EssOMPofXeoCuilwuBLT6RwTw0S/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φύλλο εργασίας βρίσκεται `εδώ <https://drive.google.com/file/d/13KrM-EssOMPofXeoCuilwuBLT6RwTw0S/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

@@ -8,16 +8,16 @@
 	:tags: παράγωγος, πανελλήνιες, τεστ, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις, μονοτονία
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
 	:status: published
-	:attachments: _static/images/uploads/2021/02/voiliers_devant_trouville_by_eugene_louis_boudin.jpeg.jpeg
+	:attachments: wp-content/uploads/2021/02/voiliers_devant_trouville_by_eugene_louis_boudin.jpeg.jpeg
 
-.. figure:: /_static/images/uploads/2021/02/voiliers_devant_trouville_by_eugene_louis_boudin.jpeg.jpeg
-	:alt: Ο πίνακας *Ψαρόβαρκες στην Trouville* του `Eugène Boudin  <https://en.wikipedia.org/wiki/Eugène_Boudin>`__. 
+.. figure:: /wp-content/uploads/2021/02/voiliers_devant_trouville_by_eugene_louis_boudin.jpeg.jpeg
+	:alt: Ο πίνακας *Ψαρόβαρκες στην Trouville* του `Eugène Boudin <https://en.wikipedia.org/wiki/Eugène_Boudin>`__. 
 	:align: center
 
-	Ο πίνακας *Ψαρόβαρκες στην Trouville* του `Eugène Boudin  <https://en.wikipedia.org/wiki/Eugène_Boudin>`__. 
+	Ο πίνακας *Ψαρόβαρκες στην Trouville* του `Eugène Boudin <https://en.wikipedia.org/wiki/Eugène_Boudin>`__. 
 
 
-Τις λύσεις του `προηγούμενου τεστ  <docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Παράγωγοι/τεστάκι-της-ημέρας-lxii-γ-λυκείου.rst>`__ στην μονοτονία παραγωγίσιμων συναρτήσεων - προετοιμασία για πανελλήνιες - μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1CRTq-sWyaHUp094tW3yBBnVw-f8Ahdxc/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τις λύσεις του `προηγούμενου τεστ <https://aftermathsgr.wordpress.com/2021/02/17/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lxii-%ce%b3-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85/>`__ στην μονοτονία παραγωγίσιμων συναρτήσεων - προετοιμασία για πανελλήνιες - μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1CRTq-sWyaHUp094tW3yBBnVw-f8Ahdxc/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

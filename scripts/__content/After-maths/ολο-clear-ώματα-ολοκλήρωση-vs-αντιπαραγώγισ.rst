@@ -70,7 +70,7 @@ Wellcome!
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator.png
+   .. figure:: {static}wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator.png?w=1024
       :alt: Μία «οσοδήποτε απότομη» γραφική παράσταση.
       :figclass: wp-image-2208
 
@@ -84,7 +84,7 @@ Wellcome!
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator1.png
+   .. figure:: {static}wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator1.png?w=1024
       :alt: Η γραφική παράσταση της  :math:`F` . Φαίνονται επίσης και οι περιβάλλουσες  :math:`y=x^2`  και  :math:`y=-x^2` .
       :figclass: wp-image-2211
 
@@ -96,7 +96,7 @@ Wellcome!
 
 Και τώρα, η στιγμή της αλήθειας. Ας δούμε τη γραφική παράσταση της  :math:`f=F'` :
 
-.. figure:: {static}wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator2.png
+.. figure:: {static}wp-content/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator2.png?w=1024
    :alt: Φτουυυυ! Είναι φραγμένη...
    :figclass: wp-image-2215
 
@@ -116,7 +116,7 @@ Wellcome!
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator.png
+   .. figure:: {static}wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator.png?w=1024
       :alt: Μία βελτιωμένη εκδοχή της πρώτης μας ιδέας...
       :figclass: wp-image-2220
 
@@ -128,7 +128,7 @@ Wellcome!
 
 Η γραφική παράσταση της παραγώγου είναι:
 
-.. figure:: {static}wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator1.png
+.. figure:: {static}wp-content/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator1.png?w=1024
    :alt: Η παράγωγος της  :math:`F`  μαζί με την περιβάλλουσα  :math:`\frac{1}{x}` .
    :figclass: wp-image-2223
 

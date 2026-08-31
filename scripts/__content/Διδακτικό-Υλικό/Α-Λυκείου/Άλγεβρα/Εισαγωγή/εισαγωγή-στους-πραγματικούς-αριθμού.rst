@@ -8,20 +8,20 @@
 	:tags: πραγματικοί αριθμοί, ΕΠΑΛ, άλγεβρα, ασκήσεις
 	:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%ae-%cf%83%cf%84%ce%bf%cf%85%cf%82-%cf%80%cf%81%ce%b1%ce%b3%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%ce%bf%cf%8d%cf%82-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%bf%cf%8d
 	:status: published
-	:attachments: _static/images/uploads/2023/10/theo_van_doesburg_selfportrait_with_hat.jpg
+	:attachments: wp-content/uploads/2023/10/theo_van_doesburg_selfportrait_with_hat.jpg
 
-.. figure:: /_static/images/uploads/2023/10/theo_van_doesburg_selfportrait_with_hat.jpg
-	:alt: Μία αυτοπροσωπογραφία του `Theo van Doesburg  <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__ με καπέλο. 
+.. figure:: /wp-content/uploads/2023/10/theo_van_doesburg_selfportrait_with_hat.jpg
+	:alt: Μία αυτοπροσωπογραφία του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__ με καπέλο. 
 	:align: center
 
-	Μία αυτοπροσωπογραφία του `Theo van Doesburg  <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__ με καπέλο. 
+	Μία αυτοπροσωπογραφία του `Theo van Doesburg <https://en.wikipedia.org/wiki/Theo_van_Doesburg>`__ με καπέλο. 
 
 
 Λίγες ασκήσεις ως επί το πλείστον εισαγωγικές στις βασικές έννοιες των πραγματικών αριθμών και των πράξεών τους. Ειδικότερα, θυμόμαστε επί τροχάδην τις βασικές ιδιότητες των δυνάμεων καθώς και κάποιες βασικές ταυτότητες από το Γυμνάσιο. Το φυλλάδιο απευθύνεται σε μαθητές Α' Λυκείου και ΕΠΑΛ.
 
-Τις ασκήσεις μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1oa-K_XWm6JP7TRvqtIcfYT1cSbIWlseF/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
+Τις ασκήσεις μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1oa-K_XWm6JP7TRvqtIcfYT1cSbIWlseF/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
 
-Ένα προπαρασκευαστικό φύλλο εργασίας μπορείτε να βρείτε `εδώ  <docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Εισαγωγή/τετράγωνα-και-τετραγωνάκια.rst>`__.
+Ένα προπαρασκευαστικό φύλλο εργασίας μπορείτε να βρείτε `εδώ <https://aftermaths.gr/2023/10/07/%cf%84%ce%b5%cf%84%cf%81%ce%ac%ce%b3%cf%89%ce%bd%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%84%ce%b5%cf%84%cf%81%ce%b1%ce%b3%cf%89%ce%bd%ce%ac%ce%ba%ce%b9%ce%b1/>`__.
 
 
 

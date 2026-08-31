@@ -8,16 +8,16 @@
 	:tags: τεστ, Α' Λυκείου, άλγεβρα, απόλυτη τιμή, ασκήσεις, επανάληψη, μαθηματικά
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xl-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
 	:status: published
-	:attachments: _static/images/uploads/2020/12/william_merritt_chase_-_still_life_-_google_art_project.jpg
+	:attachments: wp-content/uploads/2020/12/william_merritt_chase_-_still_life_-_google_art_project.jpg
 
-.. figure:: /_static/images/uploads/2020/12/william_merritt_chase_-_still_life_-_google_art_project.jpg
-	:alt: Μία *Νεκρή Φύση* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+.. figure:: /wp-content/uploads/2020/12/william_merritt_chase_-_still_life_-_google_art_project.jpg
+	:alt: Μία *Νεκρή Φύση* του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
 	:align: center
 
-	Μία *Νεκρή Φύση* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	Μία *Νεκρή Φύση* του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
 
 
-Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1x2-sFbyIzTI3ichOJH6hGJL0HR2ouLfX/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το τεστ μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1x2-sFbyIzTI3ichOJH6hGJL0HR2ouLfX/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

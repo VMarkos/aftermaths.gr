@@ -8,18 +8,18 @@
 	:tags: προβλήματα, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ασκήσεις
 	:slug: %ce%b5%ce%b9%cf%83%ce%b1%ce%b3%cf%89%ce%b3%ce%b9%ce%ba%ce%ad%cf%82-%ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5-3
 	:status: published
-	:attachments: _static/images/uploads/2021/06/camille_pissarro_-_dans_le_jardin_des_mathurins_pontoise_-_503.jpg
+	:attachments: wp-content/uploads/2021/06/camille_pissarro_-_dans_le_jardin_des_mathurins_pontoise_-_503.jpg
 
-.. figure:: /_static/images/uploads/2021/06/camille_pissarro_-_dans_le_jardin_des_mathurins_pontoise_-_503.jpg
-	:alt: Ο πίνακας *Ο κήπος του Pontoise* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+.. figure:: /wp-content/uploads/2021/06/camille_pissarro_-_dans_le_jardin_des_mathurins_pontoise_-_503.jpg
+	:alt: Ο πίνακας *Ο κήπος του Pontoise* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Ο κήπος του Pontoise* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Ο κήπος του Pontoise* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 
 
 Στο παρακάτω φυλλάδιο μπορείτε να βρείτε εισαγωγικές ασκήσεις στις βασικές έννοιες περί συναρτήσεων - κυρίως σε σχέση με τον ορισμό τους, την «1-1» ιδιότητα και τις γραφικές παραστάσεις.
 
-Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1nImIMfIxitzuCaZPEYkP3TdNuO3PGOqU/view?usp=sharing>`__ και στη σελίδα του `Διδακτικού Υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/2018-2019/%ce%bb%cf%8d%ce%ba%ce%b5%ce%b9%ce%bf-2/%ce%bb%cf%8d%ce%ba%ce%b5%ce%b9%ce%bf/>`__.
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1nImIMfIxitzuCaZPEYkP3TdNuO3PGOqU/view?usp=sharing>`__ και στη σελίδα του `Διδακτικού Υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/2018-2019/%ce%bb%cf%8d%ce%ba%ce%b5%ce%b9%ce%bf-2/%ce%bb%cf%8d%ce%ba%ce%b5%ce%b9%ce%bf/>`__.
 
 
 

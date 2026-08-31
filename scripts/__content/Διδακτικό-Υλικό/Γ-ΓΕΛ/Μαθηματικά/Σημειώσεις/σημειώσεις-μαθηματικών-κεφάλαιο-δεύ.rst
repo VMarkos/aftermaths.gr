@@ -8,9 +8,9 @@
 	:tags: προβλήματα, πανελλήνιες, συναρτήσεις, σημειώσεις, όρια, Γ' λυκείου, ασκήσεις, επανάληψη
 	:slug: %cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%ce%bc%ce%b1%ce%b8%ce%b7%ce%bc%ce%b1%cf%84%ce%b9%ce%ba%cf%8e%ce%bd-%ce%ba%ce%b5%cf%86%ce%ac%ce%bb%ce%b1%ce%b9%ce%bf-%ce%b4%ce%b5%cf%8d
 	:status: published
-	:attachments: _static/images/uploads/2018/09/arcimboldo.jpg
+	:attachments: wp-content/uploads/2018/09/arcimboldo.jpg
 
-.. figure:: /_static/images/uploads/2018/09/arcimboldo.jpg
+.. figure:: /wp-content/uploads/2018/09/arcimboldo.jpg
 	:alt: 
 	:align: center
 
@@ -27,9 +27,9 @@
 
 Τέλος, μετά από την εμφάνιση μέσα σε παραδείγματα διαφόρων απροσδιόριστων μορφών, γίνεται η σχετική συζήτηση για την αντιμετώπιση κάποιων εξ αυτών, στο κεφάλαιο που αφορά τις τεχνικές υπολογισμού ορίων. Να σημειωθεί εδώ ότι, όρια τα οποία στα πλαίσια της ύλης του λυκείου μπορούν να υπολογισθούν μόνο με χρήση του κανόνα de l' Hospital δεν υπολογίζονται αλλά μένουν σαν ανοικτά προβλήματα που θα αξιοποιηθούν στο κεφάλαιο της παραγώγου για να καταδείξουν την αναγκαιότητα αυτού του κανόνα για την ανάλυση.
 
-Οι σημειώσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1MuPg1zBVPwK_IDQ5TKkuEKWVxbsgK45o/view?usp=sharing>`__ καθώς και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Οι σημειώσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1MuPg1zBVPwK_IDQ5TKkuEKWVxbsgK45o/view?usp=sharing>`__ καθώς και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
-Η κεντρική εικόνα της ανάρτησης είναι ο πίνακας `Τέσσερις Εποχές  <https://de.wikipedia.org/wiki/Vier_Jahreszeiten_(Arcimboldo)>`__ του `Giuseppe Arcimboldo.  <https://de.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__
+Η κεντρική εικόνα της ανάρτησης είναι ο πίνακας `Τέσσερις Εποχές <https://de.wikipedia.org/wiki/Vier_Jahreszeiten_(Arcimboldo)>`__ του `Giuseppe Arcimboldo. <https://de.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__
 
 Καλό - συννεφιασμένο - απόγευμα!
 

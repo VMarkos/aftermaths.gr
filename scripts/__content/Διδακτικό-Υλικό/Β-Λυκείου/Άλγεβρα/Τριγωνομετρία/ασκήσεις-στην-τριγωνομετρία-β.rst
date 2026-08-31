@@ -8,18 +8,18 @@
 	:tags: προβλήματα, συναρτήσεις, τριγωνομετρία, Β' Λυκείου, ασκήσεις, εξισώσεις
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b7%ce%bd-%cf%84%cf%81%ce%b9%ce%b3%cf%89%ce%bd%ce%bf%ce%bc%ce%b5%cf%84%cf%81%ce%af%ce%b1-%ce%b2
 	:status: published
-	:attachments: _static/images/uploads/2018/12/h0062-l49607344.jpg
+	:attachments: wp-content/uploads/2018/12/h0062-l49607344.jpg
 
-.. figure:: /_static/images/uploads/2018/12/h0062-l49607344.jpg
-	:alt: Ο πίνακας *Νεκρή φύση πάνω σε τραπέζι* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+.. figure:: /wp-content/uploads/2018/12/h0062-l49607344.jpg
+	:alt: Ο πίνακας *Νεκρή φύση πάνω σε τραπέζι* του `Antoine Vollon <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Νεκρή φύση πάνω σε τραπέζι* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	Ο πίνακας *Νεκρή φύση πάνω σε τραπέζι* του `Antoine Vollon <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
 
 
 Και σε αυτό το φυλλάδιο περιέχονται κάποιες ασκήσεις και προβλήματα σχετικά με την ύλη της τριγωνομετρίας της Β' Λυκείου.
 
-Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1CsyKnZBOGaHmLAe7l-6t4OlPPUxrY63C/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1CsyKnZBOGaHmLAe7l-6t4OlPPUxrY63C/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

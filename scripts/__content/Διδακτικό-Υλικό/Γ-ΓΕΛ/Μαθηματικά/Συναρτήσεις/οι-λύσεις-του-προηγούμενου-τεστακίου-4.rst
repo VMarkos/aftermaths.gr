@@ -8,16 +8,16 @@
 	:tags: 1-1, προβλήματα, πανελλήνιες, συναρτήσεις, τεστ, Γ' λυκείου, ασκήσεις, λύσεις
 	:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%cf%84%ce%b5%cf%83%cf%84%ce%b1%ce%ba%ce%af%ce%bf%cf%85-4
 	:status: published
-	:attachments: _static/images/uploads/2019/07/atelier_rouge_matisse_1.jpg
+	:attachments: wp-content/uploads/2019/07/atelier_rouge_matisse_1.jpg
 
-.. figure:: /_static/images/uploads/2019/07/atelier_rouge_matisse_1.jpg
-	:alt: Ο πίνακας *Το κόκκινο ατελιέ* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+.. figure:: /wp-content/uploads/2019/07/atelier_rouge_matisse_1.jpg
+	:alt: Ο πίνακας *Το κόκκινο ατελιέ* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Το κόκκινο ατελιέ* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Το κόκκινο ατελιέ* του `Henri Matisse <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
 
 
-Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1rb1zwJMIJ-VZ4Lws0j9lIRCX4PYKIW3v/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Οι λύσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1rb1zwJMIJ-VZ4Lws0j9lIRCX4PYKIW3v/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

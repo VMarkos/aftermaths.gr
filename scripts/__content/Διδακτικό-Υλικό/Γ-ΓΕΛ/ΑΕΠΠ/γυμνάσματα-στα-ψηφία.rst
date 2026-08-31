@@ -8,16 +8,16 @@
 	:tags: προβλήματα, πανελλήνιες, ΑΕΠΠ, Γ' λυκείου, ασκήσεις, δομή επανάληψης, δομή επιλογής, επανάληψη
 	:slug: %ce%b3%cf%85%ce%bc%ce%bd%ce%ac%cf%83%ce%bc%ce%b1%cf%84%ce%b1-%cf%83%cf%84%ce%b1-%cf%88%ce%b7%cf%86%ce%af%ce%b1
 	:status: published
-	:attachments: _static/images/uploads/2019/11/737px-canaletto_alnwick.jpg
+	:attachments: wp-content/uploads/2019/11/737px-canaletto_alnwick.jpg
 
-.. figure:: /_static/images/uploads/2019/11/737px-canaletto_alnwick.jpg
-	:alt: Ο πίνακας *Το κάστρο του Alnwick* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+.. figure:: /wp-content/uploads/2019/11/737px-canaletto_alnwick.jpg
+	:alt: Ο πίνακας *Το κάστρο του Alnwick* του `Canaletto <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Το κάστρο του Alnwick* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	Ο πίνακας *Το κάστρο του Alnwick* του `Canaletto <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
 
 
-Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/18e6fxJZ4yjspGXgdNMkUOWVHtJRr6nks/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/18e6fxJZ4yjspGXgdNMkUOWVHtJRr6nks/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

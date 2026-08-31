@@ -8,16 +8,16 @@
 	:tags: CV, πανελλήνιες, στατιστική, συντελεστής μεταβλητότητας, τεστ, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, επανάληψη, λύσεις, μαθηματικά
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xliii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
 	:status: published
-	:attachments: _static/images/uploads/2020/12/chase_william_merritt_in_the_studio_c1892-3.jpg
+	:attachments: wp-content/uploads/2020/12/chase_william_merritt_in_the_studio_c1892-3.jpg
 
-.. figure:: /_static/images/uploads/2020/12/chase_william_merritt_in_the_studio_c1892-3.jpg
-	:alt: Ο πίνακας *Στο στούντιο* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+.. figure:: /wp-content/uploads/2020/12/chase_william_merritt_in_the_studio_c1892-3.jpg
+	:alt: Ο πίνακας *Στο στούντιο* του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Στο στούντιο* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	Ο πίνακας *Στο στούντιο* του `William Merritt Chase <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
 
 
-Τις λύσεις του `προηγούμενου τεστ  <docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xliii-γ-επαλ.rst>`__ μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1Qmc7BqbVgnQaYED_vT-98neXGSFcweYn/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τις λύσεις του `προηγούμενου τεστ <https://aftermathsgr.wordpress.com/2020/12/23/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xliii-%ce%b3-%ce%b5%cf%80%ce%b1%ce%bb/>`__ μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1Qmc7BqbVgnQaYED_vT-98neXGSFcweYn/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

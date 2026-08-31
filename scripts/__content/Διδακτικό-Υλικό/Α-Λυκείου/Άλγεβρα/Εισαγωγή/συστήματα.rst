@@ -8,20 +8,20 @@
 	:tags: συστήματα, σημειώσεις, Α' Λυκείου, ΕΠΑΛ, άλγεβρα, επανάληψη, θεωρία, λυμένα παραδείγματα
 	:slug: %cf%83%cf%85%cf%83%cf%84%ce%ae%ce%bc%ce%b1%cf%84%ce%b1
 	:status: published
-	:attachments: _static/images/uploads/2022/04/1267px-eugene_delacroix_-_fantasia_arabe_-_google_art_project.jpg
+	:attachments: wp-content/uploads/2022/04/1267px-eugene_delacroix_-_fantasia_arabe_-_google_art_project.jpg
 
-.. figure:: /_static/images/uploads/2022/04/1267px-eugene_delacroix_-_fantasia_arabe_-_google_art_project.jpg
-	:alt: Ο πίνακας *Αραβική φαντασία* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+.. figure:: /wp-content/uploads/2022/04/1267px-eugene_delacroix_-_fantasia_arabe_-_google_art_project.jpg
+	:alt: Ο πίνακας *Αραβική φαντασία* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
 	:align: center
 
-	Ο πίνακας *Αραβική φαντασία* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
+	Ο πίνακας *Αραβική φαντασία* του `Eugène Delacroix <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
 
 
 Η αλήθεια είναι ότι, με τις καραντίνες κι όλα αυτά τα τελευταία δύο χρόνια, η φετινή Α' Λυκείου δεν έχει διδαχθεί ποτέ της συστήματα εξισώσεων (τουλάχιστον, όχι... συστηματικά). Το παρακάτω φυλλάδιο, λοιπόν, στοχεύει, όσο γίνεται, να συνοψίσει τα βασικά περί συστημάτων, με έμφαση κυρίως στα παραδείγματα και τις διάφορες τεχνικές που έχουμε για να αντιμετωπίζουμε διάφορα συνηθισμένα (ή και όχι) συστήματα.
 
-Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1HyO4aQdDgD8JoKQ9XXzAHPbzRRLm7aMq/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ <https://drive.google.com/file/d/1HyO4aQdDgD8JoKQ9XXzAHPbzRRLm7aMq/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό/>`__.
 
-*Διαφάνειες στην ύλη της Α' Λυκείου μπορείτε να βρείτε*\ `εδώ  <docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-α-λυκείου-μάθημα-29ο.rst>`__\ *.*
+*Διαφάνειες στην ύλη της Α' Λυκείου μπορείτε να βρείτε*\ `εδώ <https://aftermaths.gr/2022/04/13/%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-29%ce%bf/>`__\ *.*
 
 
 

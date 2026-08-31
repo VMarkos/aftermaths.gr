@@ -8,16 +8,16 @@
 	:tags: προβλήματα, πανελλήνιες, στατιστική, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, διαγώνισμα, επανάληψη
 	:slug: %ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b4%ce%b9%ce%b1%ce%b3%cf%8e%ce%bd%ce%b9%cf%83%ce%bc%ce%b1-%ce%b5%cf%86-%cf%8c%ce%bb%ce%b7%cf%82-%cf%84%ce%b7%cf%82-%cf%8d-6
 	:status: published
-	:attachments: _static/images/uploads/2019/04/398px-caravaggio_-_la_deposizione_di_cristo.jpg
+	:attachments: wp-content/uploads/2019/04/398px-caravaggio_-_la_deposizione_di_cristo.jpg
 
-.. figure:: /_static/images/uploads/2019/04/398px-caravaggio_-_la_deposizione_di_cristo.jpg
-	:alt: Ο πίνακας *Ο ενταφιασμός του Χριστού* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+.. figure:: /wp-content/uploads/2019/04/398px-caravaggio_-_la_deposizione_di_cristo.jpg
+	:alt: Ο πίνακας *Ο ενταφιασμός του Χριστού* του `Caravaggio <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Ο ενταφιασμός του Χριστού* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	Ο πίνακας *Ο ενταφιασμός του Χριστού* του `Caravaggio <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
 
 
-Το διαγώνισμα βρίσκεται `εδώ  <https://drive.google.com/file/d/1sA41g3K8VbSjvrnoWHnrNA4i9KqYkZ5x/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το διαγώνισμα βρίσκεται `εδώ <https://drive.google.com/file/d/1sA41g3K8VbSjvrnoWHnrNA4i9KqYkZ5x/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

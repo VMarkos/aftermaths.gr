@@ -8,16 +8,16 @@
 	:tags: προβλήματα, Α' Γυμνασίου, ασκήσεις, δυνάμεις, διαιρετότητα, επανάληψη
 	:slug: %ce%b1%cf%83%ce%ba%ce%ae%cf%83%ce%b5%ce%b9%cf%82-%cf%83%ce%b5-%ce%b4%ce%b9%ce%b1%ce%b9%cf%81%ce%b5%cf%84%cf%8c%cf%84%ce%b7%cf%84%ce%b1-%ce%ba%ce%b1%ce%b9-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac
 	:status: published
-	:attachments: _static/images/uploads/2019/10/462px-vassily_kandinsky_1922_-_kleine_welten_i.jpg
+	:attachments: wp-content/uploads/2019/10/462px-vassily_kandinsky_1922_-_kleine_welten_i.jpg
 
-.. figure:: /_static/images/uploads/2019/10/462px-vassily_kandinsky_1922_-_kleine_welten_i.jpg
-	:alt: Ο πίνακας *Μικροί κόσμοι* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+.. figure:: /wp-content/uploads/2019/10/462px-vassily_kandinsky_1922_-_kleine_welten_i.jpg
+	:alt: Ο πίνακας *Μικροί κόσμοι* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Μικροί κόσμοι* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Μικροί κόσμοι* του `Wassily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
 
 
-Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1JRRMo3Kz8uxtYcHNMJXFhGdn5SLGidLn/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1JRRMo3Kz8uxtYcHNMJXFhGdn5SLGidLn/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

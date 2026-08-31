@@ -23,7 +23,7 @@
 
 Το πρώτο σχήμα μας ήταν το εξής:
 
-.. figure:: /wp-content/uploads/2021/10/fig_50.png
+.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/fig_50.png?w=723
    :alt: Κατακόρυφη μετατόπιση
    :figclass: wp-image-9421
 
@@ -104,7 +104,7 @@
 
 Το επόμενο σχήμα μας ήταν αυτό:
 
-.. figure:: /wp-content/uploads/2021/10/fig_51.png
+.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/fig_51.png?w=723
    :alt: Μία συνάρτηση και η αντίστροφή της
    :figclass: wp-image-9457
 
@@ -164,7 +164,7 @@
 
 Το τελευταίο σχήμα μας είναι το εξής:
 
-.. figure:: /wp-content/uploads/2021/10/fig_52.png
+.. figure:: https://aftermaths.gr/wp-content/uploads/2021/10/fig_52.png?w=696
    :alt: Αλυσίδες...
    :figclass: wp-image-9480
 

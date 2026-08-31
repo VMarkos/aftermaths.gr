@@ -8,18 +8,18 @@
 	:tags: ΕΟΚ, ΕΟΜΚ, ασκήσεις, δυνάμεις, διαφάνειες, επανάληψη, θεωρία
 	:slug: %ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%cf%86%cf%85%cf%83%ce%b9%ce%ba%ce%ae%cf%82-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-2
 	:status: published
-	:attachments: _static/images/uploads/2021/02/etude_de_ciel_boudin.jpg
+	:attachments: wp-content/uploads/2021/02/etude_de_ciel_boudin.jpg
 
-.. figure:: /_static/images/uploads/2021/02/etude_de_ciel_boudin.jpg
-	:alt: Ο πίνακας *Σπουδή του ουρανού* του `Eugène Boudin  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin>`__. 
+.. figure:: /wp-content/uploads/2021/02/etude_de_ciel_boudin.jpg
+	:alt: Ο πίνακας *Σπουδή του ουρανού* του `Eugène Boudin <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin>`__. 
 	:align: center
 
-	Ο πίνακας *Σπουδή του ουρανού* του `Eugène Boudin  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin>`__. 
+	Ο πίνακας *Σπουδή του ουρανού* του `Eugène Boudin <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Boudin>`__. 
 
 
 Διαφάνειες στην ύλη της Φυσικής της Α' Λυκείου μέχρι και την ενότητα της δυναμικής - με παραδείγματα με τριβές, τροχαλίες, απώλεια επαφής κ.λπ.
 
-Τις `διαφάνειες για την καραντίνα  <docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-άλγεβρα-β-λυκείου-2.rst>`__ μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1SNeWNnts4f05EZwCrayUfgnk-u8dEvR5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τις `διαφάνειες για την καραντίνα <https://aftermathsgr.wordpress.com/2020/12/09/%ce%b4%ce%b9%ce%b1%cf%86%ce%ac%ce%bd%ce%b5%ce%b9%ce%b5%cf%82-%ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-2/>`__ μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1SNeWNnts4f05EZwCrayUfgnk-u8dEvR5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

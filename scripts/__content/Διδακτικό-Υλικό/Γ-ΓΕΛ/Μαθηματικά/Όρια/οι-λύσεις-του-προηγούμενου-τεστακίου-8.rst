@@ -8,16 +8,16 @@
 	:tags: πανελλήνιες, τεστ, όρια, Γ' λυκείου, ασκήσεις, επανάληψη, λύσεις
 	:slug: %ce%bf%ce%b9-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-%cf%80%cf%81%ce%bf%ce%b7%ce%b3%ce%bf%cf%8d%ce%bc%ce%b5%ce%bd%ce%bf%cf%85-%cf%84%ce%b5%cf%83%cf%84%ce%b1%ce%ba%ce%af%ce%bf%cf%85-8
 	:status: published
-	:attachments: _static/images/uploads/2019/09/vassily_kandinsky_1923_-_on_white_ii.jpg
+	:attachments: wp-content/uploads/2019/09/vassily_kandinsky_1923_-_on_white_ii.jpg
 
-.. figure:: /_static/images/uploads/2019/09/vassily_kandinsky_1923_-_on_white_ii.jpg
-	:alt: Ο πίνακας *Σε λευκό* *ΙΙ* του `W  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ `assily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+.. figure:: /wp-content/uploads/2019/09/vassily_kandinsky_1923_-_on_white_ii.jpg
+	:alt: Ο πίνακας *Σε λευκό* *ΙΙ* του `W <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ `assily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Σε λευκό* *ΙΙ* του `W  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ `assily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Σε λευκό* *ΙΙ* του `W <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ `assily Kandinsky <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
 
 
-Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1IVykpAJmCEOV9nT63u9GQIb_G4lZmkQU/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Οι λύσεις βρίσκονται `εδώ <https://drive.google.com/file/d/1IVykpAJmCEOV9nT63u9GQIb_G4lZmkQU/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

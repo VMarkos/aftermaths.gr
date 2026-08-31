@@ -8,18 +8,18 @@
 	:tags: προβλήματα, σύνολα, Α' Λυκείου, άλγεβρα, ασκήσεις, εισαγωγή
 	:slug: %ce%ac%ce%bb%ce%b3%ce%b5%ce%b2%cf%81%ce%b1-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85-%ce%bc%ce%ac%ce%b8%ce%b7%ce%bc%ce%b1-1%ce%bf
 	:status: published
-	:attachments: _static/images/uploads/2021/09/1226px-hay_harvest_at_eragny_1901_camille_pissarro.jpg
+	:attachments: wp-content/uploads/2021/09/1226px-hay_harvest_at_eragny_1901_camille_pissarro.jpg
 
-.. figure:: /_static/images/uploads/2021/09/1226px-hay_harvest_at_eragny_1901_camille_pissarro.jpg
-	:alt: Ο πίνακας *Θερισμός σταχυών στην Éragny* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+.. figure:: /wp-content/uploads/2021/09/1226px-hay_harvest_at_eragny_1901_camille_pissarro.jpg
+	:alt: Ο πίνακας *Θερισμός σταχυών στην Éragny* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Θερισμός σταχυών στην Éragny* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Θερισμός σταχυών στην Éragny* του `Camille Pissarro <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 
 
 Λίγες διαφάνειες που καλύπτουν μία σύντομη επανάληψη στην ύλη του γυμνασίου και μία επίσης μικρή - πλην όμως, πλήρη - εισαγωγή στα σύνολα και τις πράξεις τους.
 
-Τις διαφάνειες μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1zR1PYHW1hOPqymCP0aNbP1PaDKoGvDTF/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ <https://drive.google.com/file/d/1zR1PYHW1hOPqymCP0aNbP1PaDKoGvDTF/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <http://aftermaths.gr/διδακτικό-υλικό>`__.
 
 
 

@@ -8,13 +8,13 @@
 	:tags: featured
 	:slug: %cf%83%cf%84%ce%b7-%cf%83%ce%ba%ce%b9%ce%ac-%ce%bc%ce%b9%ce%b1%cf%82-%cf%85%cf%80%ce%b5%cf%81%ce%b2%ce%bf%ce%bb%ce%ae%cf%82
 	:status: published
-	:attachments: _static/images/uploads/2019/08/ezgif.com-crop2.gif, _static/images/uploads/2019/07/ezgif.com-gif-maker.gif, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceb9cebacf8ccf84ceb5cf81ceb5cf82-1.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_4-1.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_2-1.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1.png, _static/images/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-11.png, _static/images/uploads/2019/08/ezgif.com-gif-maker-5-1.gif, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-1.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1-1.png, _static/images/uploads/2019/08/ezgif-5-a9900beba2.pdf-1.png, _static/images/uploads/2019/08/ezgif-5-c61c2e89bf.pdf-1.png, _static/images/uploads/2019/08/lw427-mc-escher-sphere-surface-with-fish-1958.jpg, _static/images/uploads/2019/07/ezgif.com-gif-maker-2.gif, _static/images/uploads/2019/07/ezgif.com-gif-maker-3.gif, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1-3.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-11.png, _static/images/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-1.png
+	:attachments: wp-content/uploads/2019/08/ezgif.com-crop2.gif, wp-content/uploads/2019/07/ezgif.com-gif-maker.gif, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceb9cebacf8ccf84ceb5cf81ceb5cf82-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_4-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_2-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1.png, wp-content/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-11.png, wp-content/uploads/2019/08/ezgif.com-gif-maker-5-1.gif, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1-1.png, wp-content/uploads/2019/08/ezgif-5-a9900beba2.pdf-1.png, wp-content/uploads/2019/08/ezgif-5-c61c2e89bf.pdf-1.png, wp-content/uploads/2019/08/lw427-mc-escher-sphere-surface-with-fish-1958.jpg, wp-content/uploads/2019/07/ezgif.com-gif-maker-2.gif, wp-content/uploads/2019/07/ezgif.com-gif-maker-3.gif, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1-3.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-11.png, wp-content/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-1.png
 
-.. figure:: /_static/images/uploads/2019/08/ezgif.com-crop2.gif, _static/images/uploads/2019/07/ezgif.com-gif-maker.gif, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceb9cebacf8ccf84ceb5cf81ceb5cf82-1.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_4-1.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_2-1.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1.png, _static/images/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-11.png, _static/images/uploads/2019/08/ezgif.com-gif-maker-5-1.gif, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-1.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1-1.png, _static/images/uploads/2019/08/ezgif-5-a9900beba2.pdf-1.png, _static/images/uploads/2019/08/ezgif-5-c61c2e89bf.pdf-1.png, _static/images/uploads/2019/08/lw427-mc-escher-sphere-surface-with-fish-1958.jpg, _static/images/uploads/2019/07/ezgif.com-gif-maker-2.gif, _static/images/uploads/2019/07/ezgif.com-gif-maker-3.gif, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1-3.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-11.png, _static/images/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-1.png
-	:alt: Το ξυλοχαρακτικό *Σφαρική επιφάνεια με ψάρια* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+.. figure:: /wp-content/uploads/2019/08/ezgif.com-crop2.gif, wp-content/uploads/2019/07/ezgif.com-gif-maker.gif, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceb9cebacf8ccf84ceb5cf81ceb5cf82-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_4-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_2-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1.png, wp-content/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-11.png, wp-content/uploads/2019/08/ezgif.com-gif-maker-5-1.gif, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1-1.png, wp-content/uploads/2019/08/ezgif-5-a9900beba2.pdf-1.png, wp-content/uploads/2019/08/ezgif-5-c61c2e89bf.pdf-1.png, wp-content/uploads/2019/08/lw427-mc-escher-sphere-surface-with-fish-1958.jpg, wp-content/uploads/2019/07/ezgif.com-gif-maker-2.gif, wp-content/uploads/2019/07/ezgif.com-gif-maker-3.gif, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1-3.png, wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-11.png, wp-content/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-1.png
+	:alt: Το ξυλοχαρακτικό *Σφαρική επιφάνεια με ψάρια* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
 	:align: center
 
-	Το ξυλοχαρακτικό *Σφαρική επιφάνεια με ψάρια* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	Το ξυλοχαρακτικό *Σφαρική επιφάνεια με ψάρια* του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
 
 
 Πρελούδιο
@@ -22,11 +22,11 @@
 
 «Είναι βαρύς ο ίσκιος της συκιάς», έλεγε ο συγχωρεμένος ο παππούς μου όποτε ήταν να κάτσουμε κάτω από κανένα δέντρο το μεσημέρι, για να ξεκουραστούμε. Αλλά αυτή η ανάρτηση δεν είναι για να καταθέσουμε τις παιδικές μας αναμνήσεις, αλλά για να ασχοληθούμε με ένα αρκετά ενδιαφέρον πρόβλημα που έχει να κάνει με τον «ίσκιο» μιας υπερβολής...
 
-Ένα από τα προβλήματα  - για την ακρίβεια, το τελευταίο - που βρίσκονται στις `σημειώσεις των συναρτήσεων  <https://aftermathsgr.wordpress.com/2019/06/18/%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-2019-2020/>`__, είναι λίγο διαφορετικό από τα άλλα. Δεν έχει να κάνει με τη στενή θεματολογία των πανελληνίων και τις τυπικές ασκήσεις «κονσέρβα» που σερβίρουμε συνήθως στους μαθητές, αλλά έχει τις ρίζες του στην ιστορία των μαθηματικών και, ειδικότερα, του `απειροστικού λογισμού  <https://en.wikipedia.org/wiki/Calculus>`__. Ως εκ τούτου, συνήθως δεν είναι από τις ασκήσεις που θα μπουν σε προτεραιότητα για να λυθούν στα πλαίσια μιας σειράς μαθημάτων προετοιμασίας για τις πανελλήνιες εξετάσεις, αλλά, λίγο λόγω της ομορφιάς του, λίγο λόγω τύψεων, λίγο που το καλοκαίρι είναι μια περίοδος αποφόρτισης και ραστώνης, λίγο η νέα κυβέρνηση, λίγο το ένα, λίγο το άλλο, πάμε να δούμε το πρόβλημα.
+Ένα από τα προβλήματα  - για την ακρίβεια, το τελευταίο - που βρίσκονται στις `σημειώσεις των συναρτήσεων <https://aftermathsgr.wordpress.com/2019/06/18/%cf%83%ce%b7%ce%bc%ce%b5%ce%b9%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%83%cf%84%ce%b9%cf%82-%cf%83%cf%85%ce%bd%ce%b1%cf%81%cf%84%ce%ae%cf%83%ce%b5%ce%b9%cf%82-2019-2020/>`__, είναι λίγο διαφορετικό από τα άλλα. Δεν έχει να κάνει με τη στενή θεματολογία των πανελληνίων και τις τυπικές ασκήσεις «κονσέρβα» που σερβίρουμε συνήθως στους μαθητές, αλλά έχει τις ρίζες του στην ιστορία των μαθηματικών και, ειδικότερα, του `απειροστικού λογισμού <https://en.wikipedia.org/wiki/Calculus>`__. Ως εκ τούτου, συνήθως δεν είναι από τις ασκήσεις που θα μπουν σε προτεραιότητα για να λυθούν στα πλαίσια μιας σειράς μαθημάτων προετοιμασίας για τις πανελλήνιες εξετάσεις, αλλά, λίγο λόγω της ομορφιάς του, λίγο λόγω τύψεων, λίγο που το καλοκαίρι είναι μια περίοδος αποφόρτισης και ραστώνης, λίγο η νέα κυβέρνηση, λίγο το ένα, λίγο το άλλο, πάμε να δούμε το πρόβλημα.
 
 Παίρνουμε τη συνάρτηση  :math:`f(x)=\dfrac{1}{x}` ,  :math:`x>0`  της οποίας η γραφική παράσταση είναι μια υπερβολή, όπως αυτή που φαίνεται παρακάτω:
 
-.. figure:: {static}_static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1.png
+.. figure:: {static}wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1.png
    :alt: Η γραφική παράσταση της f.
    :figclass: wp-image-911
 
@@ -34,7 +34,7 @@
 
 Ας επιλέξουμε τώρα δύο αυθαίρετα  :math:`a,b>0`  με  :math:`a<b`  και ας σχεδιάσουμε το χωρίο που βρίσκεται μεταξύ του άξονα  :math:`x'x` , της γραφικής παράστασης  :math:`C_f`  και των ευθειών  :math:`x=a`  και  :math:`x=b` , όπως φαίνεται και στο παρακάτω σχήμα:
 
-.. figure:: {static}_static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1-3.png
+.. figure:: {static}wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1-3.png
    :alt: Το εμβαδόν του περιγραφόμενου χωρίου.
    :figclass: wp-image-915
 
@@ -49,7 +49,7 @@
 
 Ας πάρουμε δύο θετικούς αριθμούς  :math:`a<b`  και ας θεωρήσουμε ένα ορθογώνιο όπως αυτό που φαίνεται στο παρακάτω σχήμα:
 
-.. figure:: {static}_static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_2-1.png
+.. figure:: {static}wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_2-1.png
    :alt: Ένα ορθογώνιο
    :figclass: wp-image-919
 
@@ -63,7 +63,7 @@
 
 .. math::  E_o=(4b-4a)\cdot\frac{1}{4a}=\frac{4(b-a)}{4a}=\frac{b-a}{a}.
 
-.. figure:: {static}_static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1.png
+.. figure:: {static}wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1.png
    :alt: Δύο ορθογώνια, ένα εμβαδόν, μία ιστορία αγάπης.
    :figclass: wp-image-921
 
@@ -73,7 +73,7 @@
 
 Κλείνουμε αυτήν την πολιτική παρένθεση για να δούμε το ζήτημα λίγο πιο γενικά. Αν πάρουμε ένα  :math:`t>0`  και θεωρήσουμε τα σημεία  :math:`A_t(ta,0)`  και  :math:`B_t(tb,0)` , τότε θα έχουμε  :math:`t-` πλασιάσει τις συντεταγμένες μας, επομένως θα έχουμε κάτι σαν αυτό που φαίνεται στο παρακάτω σχήμα:
 
-.. figure:: {static}_static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1-1.png
+.. figure:: {static}wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1-1.png
    :alt: Το "t-πλάσιο" του αρχικού ορθογωνίου.
    :figclass: wp-image-923
 
@@ -85,7 +85,7 @@
 
 Επομένως, όσο κι αν «ζουλάμε» το ορθογώνιο αυτό, δεδομένου ότι η πάνω αριστερή του γωνία βρίσκεται πάντα πάνω στην υπερβολή μας, το εμβαδόν του δεν αλλάζει. Αυτό μπορείτε να το διαπιστώσετε εμπειρικά και από την παρακάτω εικόνα.
 
-.. figure:: {static}_static/images/uploads/2019/07/ezgif.com-gif-maker.gif
+.. figure:: {static}wp-content/uploads/2019/07/ezgif.com-gif-maker.gif
    :alt: Αν μία εικόνα είναι 1.000 λέξεις, ένα GIF πόσες είναι;
    :figclass: wp-image-924
 
@@ -93,7 +93,7 @@
 
 Τώρα που πειστήκαμε για το παραπάνω, ας δούμε πώς θα το χρησιμοποιήσουμε για να υπολογίσουμε κάποια υπερβολικά εμβαδά. Ψέματα! Δε θα τα υπολογίσουμε, αλλά θα βρούμε μια σχέση ανάμεσά τους, που θα μας βοηθήσει αρκετά. Ας πάρουμε, ξανά, δύο θετικούς αριθμούς  :math:`a<b`  και τα σημεία  :math:`A(a,0)`  και  :math:`B(b,0)` . Ας πάρουμε, επίσης έναν  :math:`t>0`  και τα αντίστοιχα  :math:`t-` πλάσια σημεία  :math:`A'(ta,0)`  και  :math:`B'(tb,0)` . Αντί για τα προηγουμένως αξιολάτρευτα ορθογώνια, θα θεωρήσουμε δύο πιο «στρυφνά» χωρία: το πρώτο (το κόκκινο) θα είναι αυτό που περικλείεται από τον άξονα  :math:`x'x` , τη γραφική παράσταση της  :math:`f`  και τις ευθείες  :math:`x=a`  και  :math:`x=b`  και το άλλο (το πράσινο) αυτό που περικλείεται από τον άξονα  :math:`x'x` , τη γραφική παράσταση της  :math:`f`  και τις ευθείες  :math:`x=ta`  και  :math:`x=tb` . Τα παραπάνω χωρία φαίνονται και στο ακόλουθο σχήμα:
 
-.. figure:: {static}_static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceb9cebacf8ccf84ceb5cf81ceb5cf82-1.png
+.. figure:: {static}wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceb9cebacf8ccf84ceb5cf81ceb5cf82-1.png
    :alt: Τα δύο χωρία που μας απασχολούν.
    :figclass: wp-image-926
 
@@ -101,7 +101,7 @@
 
 Όπως βλέπετε, τα εμβαδά τους τα «ξέρουμε»: το μεν κόκκινο χωρίο έχει εμβαδό ίσο με  :math:`E(a,b)` , το δε πράσινο ίσο με  :math:`E(ta,tb)` . Τι σχέση έχουν, όμως, αυτά τα δύο εμβαδά; Για να απαντήσουμε σε αυτήν μας της απορία, ας προσπαθήσουμε να τα «εκτιμήσουμε» μέσα από άλλα, γνωστά σε εμάς, εμβαδά. Ως πρώτη εκτίμηση, θα φερθούμε αρκετά «χοντροκομμένα» και θα πούμε ότι τα δύο χωρία είναι ίσα με τα αντίστοιχα ορθογώνια που μελετούσαμε τόσην ώρα. Δηλαδή, λέμε ότι το προηγούμενο σχήμα είναι το ίδιο ακριβώς με ακόλουθο, σε ό,τι έχει να κάνει με τα χρωματιστά εμβαδά:
 
-.. figure:: {static}_static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_4-1.png
+.. figure:: {static}wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_4-1.png
    :alt: Η πρώτη εκτίμηση των εμβαδών.
    :figclass: wp-image-930
 
@@ -113,7 +113,7 @@
 
 Αχά! Θα χωρίσουμε τα δύο διαστήματα που έχουμε στη μέση - δηλαδή, σε δύο ίσα τμήματα - και θα σχεδιάσουμε για κάθε ένα χωρίο από δύο ορθογώνια, όπως φαίνεται στο παρακάτω σχήμα:
 
-.. figure:: {static}_static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-1.png
+.. figure:: {static}wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-1.png
    :alt: Η δεύτερη εκτίμηση των εμβαδών.
    :figclass: wp-image-932
 
@@ -121,7 +121,7 @@
 
 Αυτή η εκτίμηση είναι καλύτερη, αλλά, και πάλι, θέλουμε αρκετό δρόμο μέχρι να φτάσουμε σε κάτι κοντινό. Αν συνεχίσουμε έτσι, κόβοντας το κάθε διάστημα σε τρία υποδιαστήματα, έπειτα σε τέσσερα, έπειτα σε πέντε κ.ο.κ., θα αρχίσουμε να «αγκαλιάζουμε» την καμπύλη όλο και καλύτερα, όπως φαίνεται στο ακόλουθο σχήμα:
 
-.. figure:: {static}_static/images/uploads/2019/07/ezgif.com-gif-maker-2.gif
+.. figure:: {static}wp-content/uploads/2019/07/ezgif.com-gif-maker-2.gif
    :alt: Οι πρώτες 20 προσεγγίσεις.
    :figclass: wp-image-935
 
@@ -129,7 +129,7 @@
 
 Ας παρατηρήσουμε τώρα και μία ενδιαφέρουσα ιδιότητα αυτών των προσεγγίσεων: το κόκκινο εμβαδόν είναι πάντα ίσο με το πράσινο! Σε ό,τι αφορά την πρώτη προσέγγιση, αυτό προκύπτει από όσα αναλύσαμε προηγουμένως. Ας δούμε όμως πώς αυτό ισχύει και σε οποιαδήποτε άλλη προσέγγιση, παίρνοντας για παράδειγμα τη δεύτερη προσέγγιση:
 
-.. figure:: {static}_static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-11.png
+.. figure:: {static}wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-11.png
    :alt: Η δεύτερη εκτίμηση.
    :figclass: wp-image-939
 
@@ -141,7 +141,7 @@
 
 Με το ίδιο σκεπτικό, σε κάθε εκτίμηση, το πρώτο κόκκινο ορθογώνιο έχει το ίδιο εμβαδόν με το πράσινο, το δεύτερο κόκκινο με το δεύτερο πράσινο, το τρίτο κόκκινο με το τρίτο πράσινο κ.ο.κ.. Στο παρακάτω σχήμα μπορείτε να δείτε τις 20 πρώτες προσεγγίσεις, αλλά χρωματισμένες με διαφορετικό τρόπο: τα ορθογώνια που έχουν ίδιο χρώμα έχουν και ίσα εμβαδά.
 
-.. figure:: {static}_static/images/uploads/2019/07/ezgif.com-gif-maker-3.gif
+.. figure:: {static}wp-content/uploads/2019/07/ezgif.com-gif-maker-3.gif
    :alt: Χρώματα! Πολλά χρώματα!
    :figclass: wp-image-941
 
@@ -159,7 +159,7 @@
 
    Τα εμβαδά των δύο χωρίων του παρακάτω σχήματος είναι ίσα:
 
-   .. figure:: {static}_static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceb9cebacf8ccf84ceb5cf81ceb5cf82-1.png
+   .. figure:: {static}wp-content/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceb9cebacf8ccf84ceb5cf81ceb5cf82-1.png
       :alt: 
       :figclass: alignnone size-full wp-image-926
       :width: 1008px
@@ -188,7 +188,7 @@
 
 το οποίο απεικονίζεται και στο παρακάτω σχήμα:
 
-.. figure:: {static}_static/images/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-1.png
+.. figure:: {static}wp-content/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-1.png
    :alt: Τα τρία χωρία.
    :figclass: wp-image-947
 
@@ -200,7 +200,7 @@
 
 Τότε, έχουμε το ακόλουθο σχήμα:
 
-.. figure:: {static}_static/images/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-11.png
+.. figure:: {static}wp-content/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-11.png
    :alt: Κύλησε ο τέντζερης και βρήκε το καπάκι.
    :figclass: wp-image-948
 
@@ -291,7 +291,7 @@
 
 .. math:: L\left(e^{\ln x}\right)=\ln x.
 
-Εδώ μπορούμε να λάβουμε υπ' όψιν μας και το εξής, όπως έχουμε αναλύσει και σε `προηγούμενη ανάρτηση  <docs/After-maths/οι-50-αποχρώσεις-του-e.rst>`__:
+Εδώ μπορούμε να λάβουμε υπ' όψιν μας και το εξής, όπως έχουμε αναλύσει και σε `προηγούμενη ανάρτηση <https://aftermathsgr.wordpress.com/2019/08/02/%ce%bf%ce%b9-50-%ce%b1%cf%80%ce%bf%cf%87%cf%81%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-e/>`__:
 
 .. math:: \left(1+\dfrac{x}{n}\right)^n\approx e^x,
 
@@ -311,7 +311,7 @@
 
 Όπου, στην τελευταία ισότητα, χρησιμοποιήσαμε την ιδιότητα  :math:`E(a,b)=E(ta,tb)`  για  :math:`t=n` . Τώρα, ας σχεδιάσουμε το χωρίο που αντιστοιχεί στο εμβαδόν  :math:`E(n,n+x)` :
 
-.. figure:: {static}_static/images/uploads/2019/08/ezgif-5-c61c2e89bf.pdf-1.png
+.. figure:: {static}wp-content/uploads/2019/08/ezgif-5-c61c2e89bf.pdf-1.png
    :alt: Το εν λόγω χωρίο.
    :figclass: wp-image-1054
 
@@ -319,7 +319,7 @@
 
 Στόχος μας είναι να υπολογίσουμε το εμβαδόν του παραπάνω χωρίου καθώς το  :math:`n`  μεγαλώνει απεριόριστα (μάλιστα, αυτό που θέλουμε, είναι να δείξουμε ότι προσεγγίζει το  :math:`x` ). Εδώ θα μας φανεί χρήσιμο το ακόλουθο σχήμα:
 
-.. figure:: {static}_static/images/uploads/2019/08/ezgif-5-a9900beba2.pdf-1.png
+.. figure:: {static}wp-content/uploads/2019/08/ezgif-5-a9900beba2.pdf-1.png
    :alt: Τα δύο ορθογώνια.
    :figclass: wp-image-1055
 
@@ -355,7 +355,7 @@
 
 Καθώς το  :math:`n`  παίρνει όλο και μεγαλύτερες τιμές, ο αριθμητής και ο παρονομαστής «μοιάζουν» όλο και περισότερο. Πράγματι, όσο το  :math:`n`  μεγαλώνει, δεδομένου ότι το  :math:`x`  παραμένει σταθερό, η *σχετική απόσταση* ανάμεσα στο  :math:`n`  και το  :math:`n+x`  μικραίνει. Ας το δούμε και με αριθμούς: αν  :math:`x=20` , τότε:
 
-.. figure:: {static}_static/images/uploads/2019/08/ezgif.com-crop2.gif
+.. figure:: {static}wp-content/uploads/2019/08/ezgif.com-crop2.gif
    :alt: Ανεβαίνει!
    :figclass: wp-image-1056
 
@@ -393,7 +393,7 @@
 
 Αν, τώρα,  :math:`x<0` , η απόδειξη είναι παρόμοια (απλά θα κουβαλάμε ένα «πλην» στο μεγαλύτερο τμήμα της απόδειξης, που δεν είναι κάτι τραγικό).
 
-Κι όμως, σε ένα σημείο έχουμε κλέψει! Εμείς `έχουμε δει  <docs/After-maths/οι-50-αποχρώσεις-του-e.rst>`__ ότι, καθώς το  :math:`n`  παίρνει αυθαίρετα μεγάλες τιμές, η παράσταση:
+Κι όμως, σε ένα σημείο έχουμε κλέψει! Εμείς `έχουμε δει <https://aftermathsgr.wordpress.com/2019/08/02/%ce%bf%ce%b9-50-%ce%b1%cf%80%ce%bf%cf%87%cf%81%cf%8e%cf%83%ce%b5%ce%b9%cf%82-%cf%84%ce%bf%cf%85-e/>`__ ότι, καθώς το  :math:`n`  παίρνει αυθαίρετα μεγάλες τιμές, η παράσταση:
 
 .. math:: \left(1+\dfrac{x}{n}\right)^n
 
@@ -403,7 +403,7 @@
 
 προσεγγίζει το  :math:`L(e^x)` . Ας δούμε, ωστόσο το παρακάτω σχήμα - όπου το  :math:`x`  παραμένει σταθερό και το  :math:`n`  «μεγαλώνει»:
 
-.. figure:: {static}_static/images/uploads/2019/08/ezgif.com-gif-maker-5-1.gif
+.. figure:: {static}wp-content/uploads/2019/08/ezgif.com-gif-maker-5-1.gif
    :alt: Φτάνει...
    :figclass: wp-image-1057
 
@@ -426,13 +426,13 @@
 Επίλογος - Ιστορικό σημείωμα
 ----------------------------
 
-Όσα είδαμε εδώ δεν αποτελούν μία αυστηρή μαθηματική αιτιολόγηση για το γεγονός ότι  :math:`L(x)=\ln x` , αλλά, σε μεγαλύτερο βαθμό, μία «χαλαρή» αντιμετώπιση και προέκταση των συλλογισμών του `Grégoire de Saint-Vincent  <https://en.wikipedia.org/wiki/Gr%C3%A9goire_de_Saint-Vincent>`__, ο οποίος ήταν και από τους πρώτους που `εντόπισε αυτήν την «λογαριθμική» συμπεριφορά των εμβαδών κάτω από μία υπερβολή  <http://www.jstor.org/stable/3620779?seq=1#page_scan_tab_contents>`__. Ωστόσο, ο Grégoire de Saint-Vincent δεν είχε καταφέρει να ξεσκεπάσει τη λογαριθμική συνάρτηση πίσω από την  :math:`L(x)` , όπως κάναμε εμείς εδώ.
+Όσα είδαμε εδώ δεν αποτελούν μία αυστηρή μαθηματική αιτιολόγηση για το γεγονός ότι  :math:`L(x)=\ln x` , αλλά, σε μεγαλύτερο βαθμό, μία «χαλαρή» αντιμετώπιση και προέκταση των συλλογισμών του `Grégoire de Saint-Vincent <https://en.wikipedia.org/wiki/Gr%C3%A9goire_de_Saint-Vincent>`__, ο οποίος ήταν και από τους πρώτους που `εντόπισε αυτήν την «λογαριθμική» συμπεριφορά των εμβαδών κάτω από μία υπερβολή <http://www.jstor.org/stable/3620779?seq=1#page_scan_tab_contents>`__. Ωστόσο, ο Grégoire de Saint-Vincent δεν είχε καταφέρει να ξεσκεπάσει τη λογαριθμική συνάρτηση πίσω από την  :math:`L(x)` , όπως κάναμε εμείς εδώ.
 
 Για όσους έχουν κάποια επαφή με τον απειροστικό λογισμό (ή τα μαθηματικά της Γ' Λυκείου), η σχέση  :math:`L(x)=\ln x`  είναι, «μασκαρεμένη», η πολύ γνωστή σχέση:
 
 .. math::  \ln x=\int_1^x\dfrac{1}{t}dt.
 
-Άλλωστε, και η μέθοδος που χρησιμοποιήσαμε για να προσεγγίσουμε τα εμβαδά κάτω από την υπερβολη θυμίζει έντονα `αθροίσματα Riemann  <https://en.wikipedia.org/wiki/Riemann_sum>`__, αν και, ιστορικά, δεν είναι αυτός ο τρόπος με τον οποίο ο Grégoire de Saint-Vincent έκανε τους υπολογισμούς του.
+Άλλωστε, και η μέθοδος που χρησιμοποιήσαμε για να προσεγγίσουμε τα εμβαδά κάτω από την υπερβολη θυμίζει έντονα `αθροίσματα Riemann <https://en.wikipedia.org/wiki/Riemann_sum>`__, αν και, ιστορικά, δεν είναι αυτός ο τρόπος με τον οποίο ο Grégoire de Saint-Vincent έκανε τους υπολογισμούς του.
 
 Καλό απόγευμα!
 

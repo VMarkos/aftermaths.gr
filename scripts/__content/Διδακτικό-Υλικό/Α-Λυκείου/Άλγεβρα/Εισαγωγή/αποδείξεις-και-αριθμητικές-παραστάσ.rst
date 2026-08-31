@@ -8,16 +8,16 @@
 	:tags: προβλήματα, παραστάσεις, Α' Λυκείου, αποδείξεις, ασκήσεις, επανάληψη
 	:slug: %ce%b1%cf%80%ce%bf%ce%b4%ce%b5%ce%af%ce%be%ce%b5%ce%b9%cf%82-%ce%ba%ce%b1%ce%b9-%ce%b1%cf%81%ce%b9%ce%b8%ce%bc%ce%b7%cf%84%ce%b9%ce%ba%ce%ad%cf%82-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83
 	:status: published
-	:attachments: _static/images/uploads/2019/09/451px-henri_de_toulouse-lautrec_1892_wadsworth_atheneum.jpg
+	:attachments: wp-content/uploads/2019/09/451px-henri_de_toulouse-lautrec_1892_wadsworth_atheneum.jpg
 
-.. figure:: /_static/images/uploads/2019/09/451px-henri_de_toulouse-lautrec_1892_wadsworth_atheneum.jpg
-	:alt: Ο πίνακας *Η Jane Avril φεύγει από το Moulin Rouge* του `Henri de Toulous-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+.. figure:: /wp-content/uploads/2019/09/451px-henri_de_toulouse-lautrec_1892_wadsworth_atheneum.jpg
+	:alt: Ο πίνακας *Η Jane Avril φεύγει από το Moulin Rouge* του `Henri de Toulous-Lautrec <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *Η Jane Avril φεύγει από το Moulin Rouge* του `Henri de Toulous-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+	Ο πίνακας *Η Jane Avril φεύγει από το Moulin Rouge* του `Henri de Toulous-Lautrec <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
 
 
-Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1YOO18ZmtPFKez0Y5mPuSsO_t73COqDXw/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1YOO18ZmtPFKez0Y5mPuSsO_t73COqDXw/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 

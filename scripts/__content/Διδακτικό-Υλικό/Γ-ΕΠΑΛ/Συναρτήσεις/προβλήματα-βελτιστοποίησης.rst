@@ -8,18 +8,18 @@
 	:tags: προβλήματα, πανελλήνιες, συναρτήσεις, Γ' λυκείου, ΕΠΑΛ, ασκήσεις, βελτιστοποίηση, επανάληψη
 	:slug: %cf%80%cf%81%ce%bf%ce%b2%ce%bb%ce%ae%ce%bc%ce%b1%cf%84%ce%b1-%ce%b2%ce%b5%ce%bb%cf%84%ce%b9%cf%83%cf%84%ce%bf%cf%80%ce%bf%ce%af%ce%b7%cf%83%ce%b7%cf%82
 	:status: published
-	:attachments: _static/images/uploads/2018/12/dagennacht1938mcescherthemceschercompanybvallrightsreservedwwwmceschercombackgroundwebsite.jpg
+	:attachments: wp-content/uploads/2018/12/dagennacht1938mcescherthemceschercompanybvallrightsreservedwwwmceschercombackgroundwebsite.jpg
 
-.. figure:: /_static/images/uploads/2018/12/dagennacht1938mcescherthemceschercompanybvallrightsreservedwwwmceschercombackgroundwebsite.jpg
-	:alt: Η ξυλογραφία *Μέρα και* νύχτα του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__. 
+.. figure:: /wp-content/uploads/2018/12/dagennacht1938mcescherthemceschercompanybvallrightsreservedwwwmceschercombackgroundwebsite.jpg
+	:alt: Η ξυλογραφία *Μέρα και* νύχτα του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__. 
 	:align: center
 
-	Η ξυλογραφία *Μέρα και* νύχτα του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__. 
+	Η ξυλογραφία *Μέρα και* νύχτα του `Maurits Cornelis Escher <https://en.wikipedia.org/wiki/M._C._Escher>`__. 
 
 
 Λίγα προβλήματα βελτιστοποίησης στα πλαίσια της ύλης των Μαθηματικών της Γ' ΕΠΑΛ.
 
-Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1sRXn7OkEtYccpLblFl4OSG9y5yLIkJVw/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ <https://drive.google.com/file/d/1sRXn7OkEtYccpLblFl4OSG9y5yLIkJVw/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
 
 
 
