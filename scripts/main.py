@@ -364,6 +364,15 @@ def table_fix_fn(line: str, params: dict=dict()) -> str:
     return line
 
 
+def remove_math_colour(path: str) -> None:
+    fix_content(path, fix_math_colour_fn)
+
+
+def fix_math_colour_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(r'\&(?:fg|bg)=\w{6}\&(?:bg|fg)=\w{6}', r'', line)
+    return fixed_line
+
+
 def main():
     # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
@@ -384,7 +393,8 @@ def main():
         # fix_aligned_math(file_path)
         # fix_keraia(file_path)
         # remove_wp_code(file_path)
-        fix_tables(file_path)
+        # fix_tables(file_path)
+        remove_math_colour(file_path)
 
 
 if __name__ == "__main__":
