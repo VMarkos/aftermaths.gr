@@ -28,16 +28,16 @@
 
 Πριν από αυτά, ας θυμηθούμε λίγο τι έχουμε ορίσει ως σ-άλγεβρα και τι ως μέτρο πιθανότητας:
 
-| Έστω ένα σύνολο  :math:`\Omega. &fg=362e77&bg=d9d9d9`  Θα ονομάζουμε *σ-άλγεβρα* του  :math:`\Omega&fg=362e77&bg=d9d9d9`  κάθε κλάση  :math:`\mathcal{A}&fg=362e77&bg=d9d9d9`  υποσυνόλων του με τις ακόλουθες τρεις ιδιότητες:
-| 1.  :math:`\varnothing\in\mathcal{A}.&fg=362e77&bg=d9d9d9` 
-| 2.  :math:`A\in\mathcal{A}\Rightarrow\Omega\setminus A\in\mathcal{A}.&fg=362e77&bg=d9d9d9` 
-| 3.  :math:`\ A_1,A_2,\ldots\in\mathcal{A}\Rightarrow \bigcap_{k=1}^\infty A_k\in\mathcal{A}.&fg=362e77&bg=d9d9d9` 
+| Έστω ένα σύνολο  :math:`\Omega. `  Θα ονομάζουμε *σ-άλγεβρα* του  :math:`\Omega`  κάθε κλάση  :math:`\mathcal{A}`  υποσυνόλων του με τις ακόλουθες τρεις ιδιότητες:
+| 1.  :math:`\varnothing\in\mathcal{A}.` 
+| 2.  :math:`A\in\mathcal{A}\Rightarrow\Omega\setminus A\in\mathcal{A}.` 
+| 3.  :math:`\ A_1,A_2,\ldots\in\mathcal{A}\Rightarrow \bigcap_{k=1}^\infty A_k\in\mathcal{A}.` 
 
 Επίσης, ως μέτρο πιθανότητας έχουμε ορίσει το εξής:
 
-| Έστω  :math:`\Omega&fg=362e77&bg=d9d9d9`  ένα σύνολο κι έστω  :math:`\mathcal{A}&fg=362e77&bg=d9d9d9`  μία σ-άλγεβρα σε αυτό. Θα αποκαλούμε *μέτρο πιθανότητας* μία συνάρτηση  :math:`p:\mathcal{A}\to[0,1]&fg=362e77&bg=d9d9d9`  αν ικανοποιεί τις παρακάτω ιδιότητες:
-| 1.  :math:`p(\varnothing)=0,\ p(\Omega)=1&fg=362e77&bg=d9d9d9` 
-| 2.  :math:`\ p\left(\bigcup_{k=1}^\infty A_k\right)=\sum_{k=1}^\infty p(A_k)&fg=362e77&bg=d9d9d9`  για κάθε ξένα ανά δύο ενδεχόμενα  :math:`A_k\in\mathcal{A}.&fg=362e77&bg=d9d9d9` 
+| Έστω  :math:`\Omega`  ένα σύνολο κι έστω  :math:`\mathcal{A}`  μία σ-άλγεβρα σε αυτό. Θα αποκαλούμε *μέτρο πιθανότητας* μία συνάρτηση  :math:`p:\mathcal{A}\to[0,1]`  αν ικανοποιεί τις παρακάτω ιδιότητες:
+| 1.  :math:`p(\varnothing)=0,\ p(\Omega)=1` 
+| 2.  :math:`\ p\left(\bigcup_{k=1}^\infty A_k\right)=\sum_{k=1}^\infty p(A_k)`  για κάθε ξένα ανά δύο ενδεχόμενα  :math:`A_k\in\mathcal{A}.` 
 
 Όπως έχουμε πει, η έννοια της σ-άλγεβρας αντιστοιχεί σε αυτήν των ενδεχομένων ενώ η έννοια του μέτρου πιθανότητας σε αυτήν της... πιθανότητας ενός ενδεχομένου. Τώρα, στο πείραμα τύχης κατά το οποίο επιλέγουμε τυχαία (ομοιόμορφα) έναν αριθμό στο διάστημα  :math:`[0,1]`  πώς θα μπορούσαμε να καθορίσουμε αυστηρά ένα μέτρο πιθανότητας;
 

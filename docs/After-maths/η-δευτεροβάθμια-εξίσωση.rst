@@ -118,7 +118,7 @@
 
 Τώρα, προσπαθούμε να συμπληρώσουμε το τετράγωνο:
 
-.. math:: x^2+2\cdot\frac{b}{2a}\cdot x+\dfrac{c}{a}=0\Leftrightarrow x^2+2\cdot\dfrac{b}{2a}\cdot x+\left(\dfrac{b}{2a}\right)^2-\left(\dfrac{b}{2a}\right)^2+\dfrac{c}{a}=0\Leftrightarrow\left(x+\dfrac{b}{2a}\right)^2-\dfrac{b^2}{4a^2}+\dfrac{c}{a}=0\Leftrightarrow\left(\dfrac{b}{2a}\right)^2-\dfrac{b^2-4ac}{4a^2}=0.
+.. math:: x^2+2\cdot\frac{b}{2a}\cdot x+\dfrac{c}{a}=0&\Leftrightarrow x^2+2\cdot\dfrac{b}{2a}\cdot x+\left(\dfrac{b}{2a}\right)^2-\left(\dfrac{b}{2a}\right)^2+\dfrac{c}{a}=0\\ &\Leftrightarrow\left(x+\dfrac{b}{2a}\right)^2-\dfrac{b^2}{4a^2}+\dfrac{c}{a}=0\\ &\Leftrightarrow\left(\dfrac{b}{2a}\right)^2-\dfrac{b^2-4ac}{4a^2}=0.
 
 Σε αυτό το σημείο, θέτουμε  :math:`\Delta=b^2-4ac`  (να πώς ήρθε το 4) και έχουμε:
 
@@ -127,7 +127,9 @@
 Εδώ, μιας και το αριστερό μέλος είναι μη αρνητικό ενώ το δεξί αλλάζει πρόσημο ανάλογα με το πρόσημο της  :math:`\Delta`  - αφού  :math:`4a^2>0`  - έχουμε:
 
 -  αν  :math:`\Delta>0` , τότε μπορούμε, κατά τα γνωστά, να πάρουμε ρίζες και στα δύο μέλη, οπότε έχουμε:
+
    .. math:: x+\dfrac{b}{2a}=\pm\sqrt{\dfrac{\Delta}{4a^2}}\Leftrightarrow x+\dfrac{b}{2a}=\dfrac{\pm\sqrt{\Delta}}{2a}\Leftrightarrow x=\dfrac{-b\pm\sqrt{\Delta}}{2a},
+   
    που είναι ο γνωστός μας τύπος.
 -  αν  :math:`\Delta=0` , τότε η εξίσωση γράφεται:  :math:`\left(x+\dfrac{b}{2a}\right)^2=0\Leftrightarrow x=-\dfrac{b}{2a}` , δηλαδή, η εξίσωση έχει μία (διπλή) ρίζα.
 -  αν  :math:`\Delta<0` , τότε η εξίσωση είναι αδύνατη, γιατί το αριστερό μέλος είναι μη αρνητικό και το δεξί αρνητικό.

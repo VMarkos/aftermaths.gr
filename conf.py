@@ -24,11 +24,13 @@ extensions = [
 ]
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv/*']
 
 language = 'el'
 
 master_doc = "contents"
+
+highlight_language = 'python3'
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
@@ -55,6 +57,10 @@ theme_options = ThemeOptions(
         # "Εργαλεία": "/tools",
         "Επικοινωνία": "/contact",
     },
+    awesome_external_links = True,
 )
 
 html_theme_options = asdict(theme_options)
+
+html_theme_options['navigation_depth'] = 4
+html_theme_options['show_nav_level'] = 4

@@ -155,9 +155,6 @@
 <li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../%CE%94%CE%B9%CE%B4%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CF%8C-%CE%A5%CE%BB%CE%B9%CE%BA%CF%8C/%CE%B3-%CE%B3%CF%85%CE%BC%CE%BD%CE%B1%CF%83%CE%AF%CE%BF%CF%85.html">Γ Γυμνασίου<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul class="simple" x-show="expanded">
 </ul>
 </li>
-<li class="toctree-l1" x-data="{ expanded: $el.classList.contains('current') ? true : false }"><a :class="{ 'expanded' : expanded }" @click="expanded = !expanded" class="reference internal expandable" href="../%CE%94%CE%B9%CE%B4%CE%B1%CE%BA%CF%84%CE%B9%CE%BA%CF%8C-%CE%A5%CE%BB%CE%B9%CE%BA%CF%8C/%CE%B1-%CE%BB%CF%85%CE%BA%CE%B5%CE%AF%CE%BF%CF%85.html">Α Λυκείου<button @click.prevent.stop="expanded = !expanded" type="button"><span class="sr-only"></span><svg fill="currentColor" height="18px" stroke="none" viewbox="0 0 24 24" width="18px" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></button></a><ul class="simple" x-show="expanded">
-</ul>
-</li>
 </ul>
 </nav>
 </div>
@@ -185,7 +182,7 @@
 <figure class="align-center" id="id9">
 <img alt="Ο πίνακας *Καλοκαιρινό απόγευμα στην νότια παραλία του Skagen* του `Peder Severin Krøyer  &lt;https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer&gt;`__." src="../../_images/p.s._krc3b8yer_-_summer_evening_on_skagens_beach._anna_ancher_and_marie_krc3b8yer_walking_together._-_google_art_project-1.jpg"/>
 <figcaption>
-<p><span class="caption-text">Ο πίνακας <em>Καλοκαιρινό απόγευμα στην νότια παραλία του Skagen</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer">Peder Severin Krøyer</a>.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9"><span>#</span></a></p>
+<p><span class="caption-text">Ο πίνακας <em>Καλοκαιρινό απόγευμα στην νότια παραλία του Skagen</em> του <a class="reference external" href="https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer" rel="nofollow noopener">Peder Severin Krøyer<svg fill="currentColor" height="1em" stroke="none" viewbox="0 96 960 960" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M188 868q-11-11-11-28t11-28l436-436H400q-17 0-28.5-11.5T360 336q0-17 11.5-28.5T400 296h320q17 0 28.5 11.5T760 336v320q0 17-11.5 28.5T720 696q-17 0-28.5-11.5T680 656V432L244 868q-11 11-28 11t-28-11Z"></path></svg></a>.</span><a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#id9"><span>#</span></a></p>
 </figcaption>
 </figure>
 <p>Όλοι μας θυμόμαστε τον πρώτο «δύσκολο» τύπο - σε ό,τι έχει να κάνει με την απομνημόνευσή του - που συναντήσαμε στο σχολείο· αυτόν των ριζών ενός τριωνύμου. Για να ακριβολογούμε, αν  <span class="math notranslate nohighlight">\(ax^2+bx+c=0\)</span>  είναι μία δευτεροβάθμια εξίσωση, με  <span class="math notranslate nohighlight">\(a\neq0\)</span> , τότε οι ρίζες της, αν υπάρχουν, δίνονται από τον τύπο:</p>
@@ -269,15 +266,17 @@
 \[x^2+\dfrac{b}{a}x+\dfrac{c}{a}=0.\]</div>
 <p>Τώρα, προσπαθούμε να συμπληρώσουμε το τετράγωνο:</p>
 <div class="math notranslate nohighlight">
-\[x^2+2\cdot\frac{b}{2a}\cdot x+\dfrac{c}{a}=0\Leftrightarrow x^2+2\cdot\dfrac{b}{2a}\cdot x+\left(\dfrac{b}{2a}\right)^2-\left(\dfrac{b}{2a}\right)^2+\dfrac{c}{a}=0\Leftrightarrow\left(x+\dfrac{b}{2a}\right)^2-\dfrac{b^2}{4a^2}+\dfrac{c}{a}=0\Leftrightarrow\left(\dfrac{b}{2a}\right)^2-\dfrac{b^2-4ac}{4a^2}=0.\]</div>
+\[\begin{split}x^2+2\cdot\frac{b}{2a}\cdot x+\dfrac{c}{a}=0&amp;\Leftrightarrow x^2+2\cdot\dfrac{b}{2a}\cdot x+\left(\dfrac{b}{2a}\right)^2-\left(\dfrac{b}{2a}\right)^2+\dfrac{c}{a}=0\\ &amp;\Leftrightarrow\left(x+\dfrac{b}{2a}\right)^2-\dfrac{b^2}{4a^2}+\dfrac{c}{a}=0\\ &amp;\Leftrightarrow\left(\dfrac{b}{2a}\right)^2-\dfrac{b^2-4ac}{4a^2}=0.\end{split}\]</div>
 <p>Σε αυτό το σημείο, θέτουμε  <span class="math notranslate nohighlight">\(\Delta=b^2-4ac\)</span>  (να πώς ήρθε το 4) και έχουμε:</p>
 <div class="math notranslate nohighlight">
 \[\left(\dfrac{b}{2a}\right)^2-\dfrac{\Delta}{4a^2}=0\Leftrightarrow\left(\dfrac{b}{2a}\right)^2=\dfrac{\Delta}{4a^2}.\]</div>
 <p>Εδώ, μιας και το αριστερό μέλος είναι μη αρνητικό ενώ το δεξί αλλάζει πρόσημο ανάλογα με το πρόσημο της  <span class="math notranslate nohighlight">\(\Delta\)</span>  - αφού  <span class="math notranslate nohighlight">\(4a^2&gt;0\)</span>  - έχουμε:</p>
-<ul class="simple">
-<li><p>αν  <span class="math notranslate nohighlight">\(\Delta&gt;0\)</span> , τότε μπορούμε, κατά τα γνωστά, να πάρουμε ρίζες και στα δύο μέλη, οπότε έχουμε:
-.. math:: x+dfrac{b}{2a}=pmsqrt{dfrac{Delta}{4a^2}}Leftrightarrow x+dfrac{b}{2a}=dfrac{pmsqrt{Delta}}{2a}Leftrightarrow x=dfrac{-bpmsqrt{Delta}}{2a},
-που είναι ο γνωστός μας τύπος.</p></li>
+<ul>
+<li><p>αν  <span class="math notranslate nohighlight">\(\Delta&gt;0\)</span> , τότε μπορούμε, κατά τα γνωστά, να πάρουμε ρίζες και στα δύο μέλη, οπότε έχουμε:</p>
+<div class="math notranslate nohighlight">
+\[x+\dfrac{b}{2a}=\pm\sqrt{\dfrac{\Delta}{4a^2}}\Leftrightarrow x+\dfrac{b}{2a}=\dfrac{\pm\sqrt{\Delta}}{2a}\Leftrightarrow x=\dfrac{-b\pm\sqrt{\Delta}}{2a},\]</div>
+<p>που είναι ο γνωστός μας τύπος.</p>
+</li>
 <li><p>αν  <span class="math notranslate nohighlight">\(\Delta=0\)</span> , τότε η εξίσωση γράφεται:  <span class="math notranslate nohighlight">\(\left(x+\dfrac{b}{2a}\right)^2=0\Leftrightarrow x=-\dfrac{b}{2a}\)</span> , δηλαδή, η εξίσωση έχει μία (διπλή) ρίζα.</p></li>
 <li><p>αν  <span class="math notranslate nohighlight">\(\Delta&lt;0\)</span> , τότε η εξίσωση είναι αδύνατη, γιατί το αριστερό μέλος είναι μη αρνητικό και το δεξί αρνητικό.</p></li>
 </ul>
@@ -291,7 +290,7 @@
 <li><p>να μεταφέρουμε στο δεξί μέλος τους όρους που περισσεύουν,</p></li>
 <li><p>να διακρίνουμε περιπτώσεις ανάλογα με το τι μας έχει μείνει στο δεξί μέλος.</p></li>
 </ol>
-<p>Ωστόσο, πρόσφατα διάβασα σε ένα αρκετά ενδιαφέρον άρθρο - <a class="reference external" href="https://arxiv.org/search/math?searchtype=author&amp;query=Loh%2C+P">Po-Shen Loh</a>, <em>A simple proof of the Quadratic fomrula,</em> <a class="reference external" href="https://arxiv.org/abs/1910.06709">arXiv:1910.06709</a> [math.HO] - που παρουσίαζε έναν εναλλακτικό τύπο επίλυσης δευτεροβάθμιων εξισώσεων, αξιοποιώντας την ταυτότητα  <span class="math notranslate nohighlight">\(a^2-b^2=(a-b)(a+b)\)</span> .</p>
+<p>Ωστόσο, πρόσφατα διάβασα σε ένα αρκετά ενδιαφέρον άρθρο - <a class="reference external" href="https://arxiv.org/search/math?searchtype=author&amp;query=Loh%2C+P" rel="nofollow noopener">Po-Shen Loh<svg fill="currentColor" height="1em" stroke="none" viewbox="0 96 960 960" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M188 868q-11-11-11-28t11-28l436-436H400q-17 0-28.5-11.5T360 336q0-17 11.5-28.5T400 296h320q17 0 28.5 11.5T760 336v320q0 17-11.5 28.5T720 696q-17 0-28.5-11.5T680 656V432L244 868q-11 11-28 11t-28-11Z"></path></svg></a>, <em>A simple proof of the Quadratic fomrula,</em> <a class="reference external" href="https://arxiv.org/abs/1910.06709" rel="nofollow noopener">arXiv:1910.06709<svg fill="currentColor" height="1em" stroke="none" viewbox="0 96 960 960" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M188 868q-11-11-11-28t11-28l436-436H400q-17 0-28.5-11.5T360 336q0-17 11.5-28.5T400 296h320q17 0 28.5 11.5T760 336v320q0 17-11.5 28.5T720 696q-17 0-28.5-11.5T680 656V432L244 868q-11 11-28 11t-28-11Z"></path></svg></a> [math.HO] - που παρουσίαζε έναν εναλλακτικό τύπο επίλυσης δευτεροβάθμιων εξισώσεων, αξιοποιώντας την ταυτότητα  <span class="math notranslate nohighlight">\(a^2-b^2=(a-b)(a+b)\)</span> .</p>
 <section id="vieta">
 <h3>Οι τύποι του Vieta<a @click.prevent="window.navigator.clipboard.writeText($el.href); $el.setAttribute('data-tooltip', 'Copied!'); setTimeout(() =&gt; $el.setAttribute('data-tooltip', 'Copy link to this element'), 2000)" aria-label="Copy link to this element" class="headerlink" data-tooltip="Copy link to this element" href="#vieta" x-intersect.margin.0%.0%.-70%.0%="activeSection = '#vieta'"><span>#</span></a></h3>
 <p>Αρχικά, παρατηρούμε ότι αρκεί να ασχοληθούμε με δευτεροβάθμιες εξισώσεις της μορφής:</p>
@@ -365,7 +364,7 @@
 <div><p><span class="math notranslate nohighlight">\(\rho_1=1+i,\ \rho_2=1-i\)</span> .</p>
 </div></blockquote>
 <p>Καλό βράδυ!</p>
-<p>Και λίγη μουσικούλα από την πατρίδα του <a class="reference external" href="https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer">Krøyer</a>:</p>
+<p>Και λίγη μουσικούλα από την πατρίδα του <a class="reference external" href="https://en.wikipedia.org/wiki/Peder_Severin_Kr%C3%B8yer" rel="nofollow noopener">Krøyer<svg fill="currentColor" height="1em" stroke="none" viewbox="0 96 960 960" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M188 868q-11-11-11-28t11-28l436-436H400q-17 0-28.5-11.5T360 336q0-17 11.5-28.5T400 296h320q17 0 28.5 11.5T760 336v320q0 17-11.5 28.5T720 696q-17 0-28.5-11.5T680 656V432L244 868q-11 11-28 11t-28-11Z"></path></svg></a>:</p>
 <blockquote>
 <div><div class="video_wrapper" style="">
 <iframe allowfullscreen="true" src="https://www.youtube.com/embed/q_j62i63OdQ" style="border: 0; height: 345px; width: 560px">

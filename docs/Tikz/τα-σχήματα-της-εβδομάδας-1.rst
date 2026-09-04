@@ -15,6 +15,7 @@
 
 	Ο πίνακας *Είσοδος στο χωριό Voisins* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 
+.. highlight:: latex
 
 Θα έχετε παρατηρήσει ότι στο aftermaths πρόσφατα δημιουργήθηκε μία `νέα σελίδα  <docs/Tikz/ένα-σχήμα-την-ημέρα.rst>`__, που αφορά αμιγώς το Tikz. Αν δεν το έχετε προσέξει, να βοηθήσουμε λίγο, είναι αυτή εδώ:
 
@@ -45,7 +46,7 @@
 
 Ο σχετικός κώδικας είναι ο ακόλουθος:
 
-.. code:: 
+.. code::
 
    \documentclass[tikz, margin=5mm]{standalone}
     
@@ -258,6 +259,6 @@
 
 
 
-   .. youtube:: Z --77Q6H0ZU
+   .. youtube:: Z--77Q6H0ZU
 
 
