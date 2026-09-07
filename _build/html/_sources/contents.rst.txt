@@ -6,18 +6,15 @@ aftermaths
 
 .. toctree::
     :glob:
-    :caption: After-maths
+    :caption: Πρόσφατα
 
-    docs/After-maths/*
+    docs/After-maths/0999
 
 .. toctree::
-    :caption: Διδακτικό Υλικό
+    :caption: Αρχείο
 
-    docs/Διδακτικό-Υλικό/α-γυμνασίου
-    docs/Διδακτικό-Υλικό/β-γυμνασίου
-    docs/Διδακτικό-Υλικό/γ-γυμνασίου
-    docs/Διδακτικό-Υλικό/Α-Λυκείου/index
-    docs/Διδακτικό-Υλικό/β-λυκείου
-    docs/Διδακτικό-Υλικό/γ-γελ
-    docs/Διδακτικό-Υλικό/γ-επαλ
-    
+    docs/After-maths/index
+    docs/Διδακτικό-Υλικό/index
+    docs/Tikz/index
+    docs/Τεστάκι-της-ημέρας/index
+

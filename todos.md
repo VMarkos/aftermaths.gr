@@ -14,5 +14,12 @@
 - [x] Python code blocks are not styled, e.g., in "The Collatz Conjecture (2)".
 - [x] Some central pictures do not show, e.g., in "The Most Beutiful Derivative?".
 - [ ] Various math rendering issues in "The Most Beautiful Derivative?".
-- [ ] Fix `wp-block-syntax-highlighter-code` blocks appearing all over the place, e.g., in tikz posts.
-- [ ] Check why side toc does not render the same in all pages, maybe needs make clean first.
+- [x] Fix `wp-block-syntax-highlighter-code` blocks appearing all over the place, e.g., in tikz posts.
+- [x] Check why side toc does not render the same in all pages, maybe needs make clean first.
+- [ ] Polish site index structure.
+- [ ] Fix landing page `index.rst` to show the latest 'Aftermaths' post.
+- [ ] Create, optionally, a "Latest" category where the five last posts are displayed.
+
+## Notes
+
+1. All unaddressed issues have to be examined on a post-by-post basis.
