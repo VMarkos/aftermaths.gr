@@ -4,16 +4,15 @@
 Διδακτικό υλικό για την Άλγεβρα, τη Γεωμετρία και τη Φυσική της Αʹ Λυκείου (ΓΕΛ / ΕΠΑΛ).
 
 .. toctree::
-    :caption: Άλγεβρα
+    :hidden:
     
     Άλγεβρα/index
-
-.. toctree::
-    :caption: Γεωμετρία
-
     Γεωμετρία/index
+    Φυσική/index
 
 .. toctree::
-    :caption: Φυσική
-
+    :maxdepth: 1
+    
+    Άλγεβρα/index
+    Γεωμετρία/index
     Φυσική/index

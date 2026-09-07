@@ -3,9 +3,8 @@
 
 .. toctree::
 
-	index.rst/index
-	Διαγωνίσματα/index
-	Επανάληψη/index
-	Σημειώσεις/index
-	Στατιστική/index
-	Συναρτήσεις/index
+    Συναρτήσεις/index
+    Στατιστική/index
+    Επανάληψη/index
+    Διαγωνίσματα/index
+    Σημειώσεις/index
