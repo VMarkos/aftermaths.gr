@@ -10,9 +10,6 @@
     Γεωμετρία/index
     Φυσική/index
 
-.. toctree::
-    :maxdepth: 1
-    
-    Άλγεβρα/index
-    Γεωμετρία/index
-    Φυσική/index
+* :doc:`Άλγεβρα <Άλγεβρα/index>`
+* :doc:`Γεωμετρία <Γεωμετρία/index>`
+* :doc:`Φυσική <Φυσική/index>`
