@@ -5,16 +5,17 @@
 
 Περιηγηθείτε ελεύθερα!
 
-.. toctree::
-   :hidden:
-    
-    Α-Γυμνασίου/index
-    Β-Γυμνασίου/index
-    Γ-Γυμνασίου/index
-    Α-Λυκείου/index
-    Β-Λυκείου/index
-    Γ-ΓΕΛ/index
-    Γ-ΕΠΑΛ/index
+.. container:: sidetoc-only
+
+    .. toctree::
+        
+        Α-Γυμνασίου/index
+        Β-Γυμνασίου/index
+        Γ-Γυμνασίου/index
+        Α-Λυκείου/index
+        Β-Λυκείου/index
+        Γ-ΓΕΛ/index
+        Γ-ΕΠΑΛ/index
 
 * :doc:`Α Γυμνασίου <Α-Γυμνασίου/index>`
 * :doc:`Β Γυμνασίου <Β-Γυμνασίου/index>`

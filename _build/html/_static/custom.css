@@ -1,0 +1,3 @@
+.sidetoc-only > .toctree-wrapper {
+    display: none;
+}

@@ -1,11 +1,12 @@
 Γ ΓΕΛ
 =========
 
-.. toctree::
-   :hidden:
+.. container:: sidetoc-only
 
-	ΑΕΠΠ/index
-	Μαθηματικά/index
+    .. toctree::
+
+        ΑΕΠΠ/index
+        Μαθηματικά/index
 
 * :doc:`ΑΕΠΠ <ΑΕΠΠ/index>`
 * :doc:`Μαθηματικά <Μαθηματικά/index>`

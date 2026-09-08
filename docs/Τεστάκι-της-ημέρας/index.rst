@@ -1,13 +1,14 @@
 Τεστάκι της Ημέρας
 ==================
 
-.. toctree::
-    :hidden:
+.. container:: sidetoc-only
 
-	Α-Λυκείου/index
-	Β-Λυκείου/index
-	Γ-ΓΕΛ/index
-	Γ-ΕΠΑΛ/index
+    .. toctree::
+
+        Α-Λυκείου/index
+        Β-Λυκείου/index
+        Γ-ΓΕΛ/index
+        Γ-ΕΠΑΛ/index
 
 * :doc:`Α Λυκείου <Α-Λυκείου/index>`
 * :doc:`Β Λυκείου <Β-Λυκείου/index>`

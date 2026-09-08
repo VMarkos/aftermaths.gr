@@ -39,6 +39,7 @@ html_title = 'aftermaths'
 html_permalinks_icon = '<span>#</span>'
 html_theme = 'sphinxawesome_theme'
 html_static_path = ['_static']
+html_css_files = ['custom.css']
 
 favicons = [
     'icons/favicon.ico',
@@ -62,5 +63,3 @@ theme_options = ThemeOptions(
 
 html_theme_options = asdict(theme_options)
 
-html_theme_options['navigation_depth'] = 4
-html_theme_options['show_nav_level'] = 4
