@@ -27,4 +27,4 @@ The Wumpus Project - Part 0
 
 Καλό βράδυ και καλό διάβασμα!
 
-.. youtube:: wJfFU -S3jz4
+.. youtube:: wJfFU-S3jz4

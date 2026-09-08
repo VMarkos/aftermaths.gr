@@ -26,6 +26,6 @@
 
 
 
-   .. youtube:: SPn0g -Fe598&list=FLqDthziIOv4A7UhcGH2ynxw&index=25
+   .. youtube:: SPn0g-Fe598&list=FLqDthziIOv4A7UhcGH2ynxw&index=25
 
 

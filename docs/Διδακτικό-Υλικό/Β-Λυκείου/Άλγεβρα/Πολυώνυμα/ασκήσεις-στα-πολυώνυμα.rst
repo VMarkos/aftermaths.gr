@@ -28,6 +28,6 @@
 
 
 
-   .. youtube:: stg6AM -DUKo
+   .. youtube:: stg6AM-DUKo
 
 

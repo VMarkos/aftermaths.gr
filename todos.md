@@ -16,9 +16,13 @@
 - [ ] Various math rendering issues in "The Most Beautiful Derivative?".
 - [x] Fix `wp-block-syntax-highlighter-code` blocks appearing all over the place, e.g., in tikz posts.
 - [x] Check why side toc does not render the same in all pages, maybe needs make clean first.
-- [ ] Polish site index structure.
+- [x] Polish site index structure.
+- [x] Fix broken yt links.
 - [ ] Fix landing page `index.rst` to show the latest 'Aftermaths' post.
 - [ ] Create, optionally, a "Latest" category where the five last posts are displayed.
+- [ ] Fix innternal links which appear to point to the wrong files. Maybe:
+    - Loop through all files and links per file.
+    - For each link to an `.rst` file, search for it in the current structure and substitute its absolute path.
 
 ## Notes
 
