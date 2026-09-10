@@ -428,7 +428,7 @@
 
       Και λίγη μουσική για το απόγευμα:
 
-      .. youtube:: hy3W -3HPMWg
+      .. youtube:: hy3W-3HPMWg
 
 .. |image1| image:: /_static/images/uploads/2018/09/9899c-cartesianplane.png
    :class: aligncenter

@@ -26,6 +26,6 @@
 
 
 
-   .. youtube:: dNKQIpTS -qM&list=FLqDthziIOv4A7UhcGH2ynxw&index=1
+   .. youtube:: dNKQIpTS-qM&list=FLqDthziIOv4A7UhcGH2ynxw&index=1
 
 

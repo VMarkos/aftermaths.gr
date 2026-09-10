@@ -20,7 +20,8 @@
 - [x] Fix broken yt links.
 - [ ] Fix landing page `index.rst` to show the latest 'Aftermaths' post.
 - [ ] Create, optionally, a "Latest" category where the five last posts are displayed.
-- [ ] Fix innternal links which appear to point to the wrong files. Maybe:
+- [ ] In "recently", exclude any drafts.
+- [ ] Fix internal links which appear to point to the wrong files. Maybe:
     - Loop through all files and links per file.
     - For each link to an `.rst` file, search for it in the current structure and substitute its absolute path.
 
