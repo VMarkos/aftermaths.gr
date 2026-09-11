@@ -29,31 +29,64 @@ def get_doc_date(path: str) -> datetime | None:
     return None
 
 
-def generate_latest_entries(app: Sphinx) -> None:
-    PWD = os.path.abspath(os.path.dirname(__file__))
-    DOCS_DIR = os.path.join(PWD, 'docs')
-    docs = get_files_in_dir(DOCS_DIR, 'rst')
+def fetch_k_latest_entries_in(path: str, k: int) -> [str]:
+    docs = get_files_in_dir(path, 'rst')
     doc_dates = filter(lambda x: x[1] is not None and 'Πρόχειρα' not in x[0], zip(docs, map(get_doc_date, docs)))
     sorted_docs = map(lambda x: str(x[0]), sorted(doc_dates, key=lambda x: x[1]))
-    five_latest = map(lambda x: x.split('sphinx/')[-1], it.islice(reversed(list(sorted_docs)), 5))
-    fl_str = '\n\t'.join(five_latest)
+    k_latest = map(lambda x: x.split('sphinx/')[-1], it.islice(reversed(list(sorted_docs)), k))
+    return k_latest
+
+
+def fetch_last_long_post() -> str:
+    PWD = os.path.abspath(os.path.dirname(__file__))
+    AFTERMATHS_DIR = os.path.join(PWD, 'docs', 'After-maths')
+    latest = next(fetch_k_latest_entries_in(AFTERMATHS_DIR, 1))
+    return latest
+
+
+def update_index() -> None:
+    index_path = 'index.rst'
+    latest = fetch_last_long_post()
+    new_index_str = ''
+    with open(index_path, 'r') as file:
+        for line in file.readlines():
+            if '.. include::' in line:
+                new_index_str += f'.. include:: {latest}\n'
+            else:
+                new_index_str += line
+    with open(index_path, 'w') as file:
+        file.write(new_index_str)
+
+
+def generate_latest_entries() -> None:
+    PWD = os.path.abspath(os.path.dirname(__file__))
+    DOCS_DIR = os.path.join(PWD, 'docs')
+    five_latest = fetch_k_latest_entries_in(DOCS_DIR, 5)
+    fl_str = '\n        '.join(five_latest)
     contents_str = ''
     with open('contents.rst', 'r') as file:
         add_line = True
         for line in file.readlines():
-            if not add_line and 'toctree' in line:
+            if not add_line and '.. container::' in line:
                 add_line = True
             if add_line:
                 contents_str += line
             if 'Πρόσφατα' in line:
-                contents_str += f'\n\t{fl_str}\n\n'
+                contents_str += f'\n        {fl_str}\n\n'
                 add_line = False
+    latest = fetch_last_long_post()
+    contents_str += f'\n.. include:: {latest}\n'
     with open('contents.rst', 'w') as file:
         file.write(contents_str)
 
 
+def update_latest(app: Sphinx) -> None:
+    generate_latest_entries()
+    update_index()
+
+
 def setup(app: Sphinx):
-    app.connect('builder-inited', generate_latest_entries)
+    app.connect('builder-inited', update_latest)
 
 
 project = 'aftermaths'
@@ -71,7 +104,7 @@ extensions = [
 ]
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv/*']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv/*', 'docs/Πρόχειρα/*']
 
 language = 'el'
 

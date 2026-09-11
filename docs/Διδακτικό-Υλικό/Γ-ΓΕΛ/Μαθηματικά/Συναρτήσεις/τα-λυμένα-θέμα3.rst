@@ -10,7 +10,7 @@
 	:status: published
 	:attachments: _static/images/uploads/2024/07/003_2425_002.png, _static/images/uploads/2024/07/003_2425_002-1.png, _static/images/uploads/2024/07/1219px-susana_y_los_viejos_guercino.jpg, _static/images/uploads/2024/07/003_2425_001.png
 
-.. figure:: /_static/images/uploads/2024/07/003_2425_002.png, _static/images/uploads/2024/07/003_2425_002-1.png, _static/images/uploads/2024/07/1219px-susana_y_los_viejos_guercino.jpg, _static/images/uploads/2024/07/003_2425_001.png
+.. figure:: _static/images/uploads/2024/07/1219px-susana_y_los_viejos_guercino.jpg
 	:alt: Ο πίνακας *Η Sussana και οι Πρεσβύτεροι* του `Guercino  <https://en.wikipedia.org/wiki/Guercino>`__. 
 	:align: center
 

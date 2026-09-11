@@ -18,12 +18,15 @@
 - [x] Check why side toc does not render the same in all pages, maybe needs make clean first.
 - [x] Polish site index structure.
 - [x] Fix broken yt links.
-- [ ] Fix landing page `index.rst` to show the latest 'Aftermaths' post.
-- [ ] Create, optionally, a "Latest" category where the five last posts are displayed.
-- [ ] In "recently", exclude any drafts.
+- [x] Fix landing page `index.rst` to show the latest 'Aftermaths' post.
+- [x] Create, optionally, a "Latest" category where the five last posts are displayed.
+- [x] In "recently", exclude any drafts.
 - [ ] Fix internal links which appear to point to the wrong files. Maybe:
     - Loop through all files and links per file.
     - For each link to an `.rst` file, search for it in the current structure and substitute its absolute path.
+- [ ] LaTeX formatting in Tikz posts.
+- [ ] Navigation links.
+- [ ] Translate 'On this page' to Greek.
 
 ## Notes
 
