@@ -17,7 +17,7 @@
 	Ο μία αυτοπροσωπογραφία της `Marianne von Werefkin  <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__ με ναυτική μπλούζα. 
 
 
-Οι λύσεις του `τεστ  <docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xiii-γ-λυκείου.rst>`__ βρίσκονται `εδώ  <https://drive.google.com/file/d/17tzj-yhbxWDGOdpHhou_W315m8GsbGa5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xiii-γ-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/17tzj-yhbxWDGOdpHhou_W315m8GsbGa5/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
 
 
 

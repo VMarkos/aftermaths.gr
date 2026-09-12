@@ -17,7 +17,7 @@
 	Το πορτραίτο του χημικού και συνθέτη Alexander Borodin του *Ilya Repn* 
 
 
-Τις λύσεις του `προηγούμενου τεστ στις ρίζες  <docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Ρίζες/τεστάκι-της-ημέρας-xlviii-α-λυκείου.rst>`__ - άλγεβρα, Αʹ Λυκείου/ΕΠΑΛ - μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1XZdAJ6HEAdQ-S7Xx_ivslAhiP9sqjuxj/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τις λύσεις του :doc:`προηγούμενου τεστ στις ρίζες  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Ρίζες/τεστάκι-της-ημέρας-xlviii-α-λυκείου>` - άλγεβρα, Αʹ Λυκείου/ΕΠΑΛ - μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1XZdAJ6HEAdQ-S7Xx_ivslAhiP9sqjuxj/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
 
 
 

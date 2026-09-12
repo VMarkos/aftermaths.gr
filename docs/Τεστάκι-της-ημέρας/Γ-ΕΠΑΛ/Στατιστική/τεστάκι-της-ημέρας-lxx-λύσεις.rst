@@ -17,7 +17,7 @@
 	Το πορτραίτο του Paul Verlaine του `Frédéric Bazille  <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
 
 
-Τις λύσεις τους `προηγούμενου τεστ  <docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-lxx-γ-επαλ.rst>`__ εφʹ όλης της ύλης των συναρτήσεων μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1bolzbiR_tr3-zVJnTkfOWIPKC_pW4udR/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τις λύσεις τους :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-lxx-γ-επαλ>` εφʹ όλης της ύλης των συναρτήσεων μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1bolzbiR_tr3-zVJnTkfOWIPKC_pW4udR/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
 
 
 

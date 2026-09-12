@@ -17,7 +17,7 @@
 	Το πορτραίτο της Jeanne Durand-Ruel του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 
 
-Τις λύσεις του `προηγούμενου τεστ  <docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Συνέχεια/τεστάκι-της-ημέρας-lxxvii-γ-λυκείου.rst>`__ σε όρια και συνέχεια στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γʹ Λυκείου μπορείτε να τα βρείτε `εδώ  <https://drive.google.com/file/d/170i0RgyQlDuTixESqjZ1frKgvG90kn5P/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Συνέχεια/τεστάκι-της-ημέρας-lxxvii-γ-λυκείου>` σε όρια και συνέχεια στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γʹ Λυκείου μπορείτε να τα βρείτε :doc:`εδώ  <https://drive.google.com/file/d/170i0RgyQlDuTixESqjZ1frKgvG90kn5P/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
 
 
 

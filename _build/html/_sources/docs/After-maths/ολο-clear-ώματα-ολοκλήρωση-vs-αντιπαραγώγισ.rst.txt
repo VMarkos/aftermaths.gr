@@ -145,7 +145,7 @@ Wellcome!
 Συναρτήσεις που δεν έχουν (ή «δεν έχουν») παράγουσα, αλλά είναι ολοκληρώσιμες σε κάποιο κλειστό διάστημα
 --------------------------------------------------------------------------------------------------------
 
-Εδώ τα πράγματα είναι πάρα πολύ απλά. Όπως έχουμε δει και `εδώ  <docs/After-maths/μια-εφαρμογή-του-de-lhospital-στην-παραγωγισιμ.rst>`__ - και μας έχει πει και ο `Darboux  <https://aftermathsgr.wordpress.com/2019/03/22/%ce%b7-%ce%b9%ce%b4%ce%b9%cf%8c%cf%84%ce%b7%cf%84%ce%b1-darboux-%ce%bf-rolle-%cf%84%ce%bf-%ce%ac%cf%84%ce%bf%cf%80%ce%bf-%ce%ba%ce%b1%ce%b9-%ce%bc%ce%af%ce%b1-%ce%bb%ce%ac%ce%b8%ce%bf%cf%82-%ce%b1/>`__ - υπάρχουν αρκετές «απλές» συναρτήσεις που δεν έχουν παράγουσα. Μία από αυτές είναι η:
+Εδώ τα πράγματα είναι πάρα πολύ απλά. Όπως έχουμε δει και :doc:`εδώ  </docs/After-maths/μια-εφαρμογή-του-de-lhospital-στην-παραγωγισιμ>` - και μας έχει πει και ο :doc:`Darboux  <https://aftermathsgr.wordpress.com/2019/03/22/%ce%b7-%ce%b9%ce%b4%ce%b9%cf%8c%cf%84%ce%b7%cf%84%ce%b1-darboux-%ce%bf-rolle-%cf%84%ce%bf-%ce%ac%cf%84%ce%bf%cf%80%ce%bf-%ce%ba%ce%b1%ce%b9-%ce%bc%ce%af%ce%b1-%ce%bb%ce%ac%ce%b8%ce%bf%cf%82-%ce%b1/>` - υπάρχουν αρκετές «απλές» συναρτήσεις που δεν έχουν παράγουσα. Μία από αυτές είναι η:
 
 .. math:: f(x)=\left\{\begin{array}{ll}1 & x\neq0\0 & x=0\end{array}\right.,
 

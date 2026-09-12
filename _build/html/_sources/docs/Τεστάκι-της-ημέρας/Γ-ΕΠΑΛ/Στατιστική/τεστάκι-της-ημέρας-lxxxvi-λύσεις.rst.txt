@@ -17,7 +17,7 @@
 	Ο πίνακας *Η οικογένεια του Pierre-Auguste Renoir* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 
 
-Τις λύσεις του `προηγούμενου τεστ  <docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-lxxxvi-γ-επαλ.rst>`__ στην στατιστική και τα όρια συναρτήσεων - μαθηματικά, Γʹ ΕΠΑΛ - μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1GVui55el-9SKrnLsu5kCP8BU26ilU9ee/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-lxxxvi-γ-επαλ>` στην στατιστική και τα όρια συναρτήσεων - μαθηματικά, Γʹ ΕΠΑΛ - μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1GVui55el-9SKrnLsu5kCP8BU26ilU9ee/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
 
 
 

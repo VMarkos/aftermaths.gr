@@ -17,7 +17,7 @@
 	Ο πίνακας *Γέρος άντρας με μπαστούνι* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
 
 
-Οι λύσεις του `προηγούμενου τεστ  <docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Συναρτήσεις/τεστάκι-της-ημέρας-li-γ-επαλ.rst>`__ στα παραμετρικά όρια και τις παραγώγους - μαθηματικά γενικής παιδείας, Γʹ ΕΠΑΛ - βρίσκονται `εδώ  <https://drive.google.com/file/d/1pJj2c5GczVEPG3ylXIUP2XNGNWeerSFo/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Συναρτήσεις/τεστάκι-της-ημέρας-li-γ-επαλ>` στα παραμετρικά όρια και τις παραγώγους - μαθηματικά γενικής παιδείας, Γʹ ΕΠΑΛ - βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1pJj2c5GczVEPG3ylXIUP2XNGNWeerSFo/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
 
 
 

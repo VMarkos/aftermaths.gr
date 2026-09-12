@@ -17,7 +17,7 @@
 	Πίνακας *Άποψη του χωριού* του `Frédéric Bazille  <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
 
 
-Τις λύσεις του `προηγούμενου τεστ  <docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Εκθετικές-και-Λογαριθμικές-Συναρτήσεις/τεστάκι-της-ημέρας-lxviii-β-λυκείου.rst>`__ στις εισαγωγικές έννοιες των πολυωνύμων και το σχήμα Horner μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1JiwkJ9Mw_Z3lLFhKd1NG01zG9KZqNd2V/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Εκθετικές-και-Λογαριθμικές-Συναρτήσεις/τεστάκι-της-ημέρας-lxviii-β-λυκείου>` στις εισαγωγικές έννοιες των πολυωνύμων και το σχήμα Horner μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1JiwkJ9Mw_Z3lLFhKd1NG01zG9KZqNd2V/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
 
 
 

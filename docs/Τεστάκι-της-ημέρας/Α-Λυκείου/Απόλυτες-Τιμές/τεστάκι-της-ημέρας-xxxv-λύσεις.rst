@@ -17,7 +17,7 @@
 	Ο πίνακας *Κοσμικός Συγχρονισμός* του `Morgan Russell  <https://en.wikipedia.org/wiki/Morgan_Russell>`__\ *.* 
 
 
-Οι λύσεις του `προηγούμενου τεστ  <docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι-της-ημέρας-xxxv-α-λυκείου.rst>`__ βρίσκονται `εδώ  <https://drive.google.com/file/d/1fFnkbBF2wIrxQ1TcnLoi1tYBRdcyJhLu/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι-της-ημέρας-xxxv-α-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1fFnkbBF2wIrxQ1TcnLoi1tYBRdcyJhLu/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
 
 
 

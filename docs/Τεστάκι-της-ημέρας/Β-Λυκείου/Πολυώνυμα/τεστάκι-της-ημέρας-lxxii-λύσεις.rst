@@ -17,7 +17,7 @@
 	Ο πίνακας *Το θεωρείο* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 
 
-Τις λύσεις του `προηγούμενου τεστ  <docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Πολυώνυμα/τεστάκι-της-ημέρας-lxxi-β-λυκείου.rst>`__ στις πολυωνυμικές εξισώσεις και το σχήμα Horner - άλγεβρα Βʹ Λυκείου και ΕΠΑΛ - μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1D9276nIL5w-6xu02kHwu33DpnJur2Z6L/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Πολυώνυμα/τεστάκι-της-ημέρας-lxxi-β-λυκείου>` στις πολυωνυμικές εξισώσεις και το σχήμα Horner - άλγεβρα Βʹ Λυκείου και ΕΠΑΛ - μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1D9276nIL5w-6xu02kHwu33DpnJur2Z6L/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
 
 
 

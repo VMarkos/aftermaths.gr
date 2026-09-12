@@ -17,7 +17,7 @@
 	Ο πίνακας *Νεκρή φύση με ψάρια* του `Frédéric Bazille  <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
 
 
-Τις λύσεις του `προηγούμενου τεστ  <docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-lxvii-γ-επαλ.rst>`__ στις σχετικές και απόλυτες συχνότητες - προετοιμασία για πανελλήνιες, μαθηματικά Γʹ ΕΠΑΛ - μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1Ctr5iivmloWZ7oL338qU3fXQLId9DAhq/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-lxvii-γ-επαλ>` στις σχετικές και απόλυτες συχνότητες - προετοιμασία για πανελλήνιες, μαθηματικά Γʹ ΕΠΑΛ - μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1Ctr5iivmloWZ7oL338qU3fXQLId9DAhq/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
 
 
 

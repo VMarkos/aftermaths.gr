@@ -17,7 +17,7 @@
 	Το πορτραίτο του Leo Tolstoy του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__. 
 
 
-Τις λύσεις του `προηγούμενου τεστ  <docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Ρίζες/τεστάκι-της-ημέρας-lii-α-λυκείου.rst>`__ στις ρίζες - άλγεβρα Αʹ Λυκείου/ΕΠΑΛ μπορείτε να τις βρείτε εδώ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Ρίζες/τεστάκι-της-ημέρας-lii-α-λυκείου>` στις ρίζες - άλγεβρα Αʹ Λυκείου/ΕΠΑΛ μπορείτε να τις βρείτε εδώ και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
 
 
 
