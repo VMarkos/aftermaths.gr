@@ -373,6 +373,47 @@ def fix_math_colour_fn(line: str, params: dict=dict()) -> str:
     return fixed_line
 
 
+def fix_yt_url(path: str) -> None:
+    fix_content(path, yt_url_fix_fn)
+
+
+def yt_url_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(r'(.. youtube:: [a-zA-Z0-9\-]+)\s+([a-zA-Z0-9\-]+)', r'\1\2', line)
+    return fixed_line
+
+
+def fix_internal_links(path: str) -> None:
+    fix_content(path, internal_link_fix_fn)
+
+
+def internal_link_fix_fn(line: str, params: dict=dict()) -> str:
+    '''Function that fixes internal broken links by:
+        1. Decoding the url-encoded .rst linked file name into normal UTF-8 characters.
+        2. Searching for that file in the `docs/` directory and obtaining its absolute path.
+        3. Relativizing this path wrt to `docs/`.
+        4. Substituting the relativized path into the url anchor.
+    
+        The above process is repeated for all files in the specified directory.
+        HINT: it might be useful to reutilize utilities from url fixing from above.
+        TODO: Also consider the case of urls pointing to aftermaths.gr. In that case, in order to ensure internal
+        integity, we should:
+        1. Extract the actual part of the url and;
+        2. Find the corresponding rst or other document and use that, instead.
+        3. Meadia (I hope) are all fixed, so this will only concern posts.
+    '''
+    if '`' in line and '<' in line and '>' in line and 'docs' in line:
+        fixed_line = re.sub(r'docs/', r'/docs/', line)
+        if fixed_line[-2:] == '__':
+            fixed_line = fixed_line[:-2]
+        if fixed_line[-1:] == '_':
+            fixed_line = fixed_line[:-1]
+        fixed_line = re.sub(r' `', r' :doc:`', fixed_line)
+        fixed_line = re.sub(r'`_{1,2}', r'`', fixed_line)
+        fixed_line = re.sub(r'\.rst', r'', fixed_line)
+        return fixed_line
+    return line
+
+
 def main():
     # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
@@ -394,7 +435,9 @@ def main():
         # fix_keraia(file_path)
         # remove_wp_code(file_path)
         # fix_tables(file_path)
-        remove_math_colour(file_path)
+        # remove_math_colour(file_path)
+        # fix_yt_url(file_path)
+        fix_internal_links(file_path)
 
 
 if __name__ == "__main__":

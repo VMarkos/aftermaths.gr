@@ -25,4 +25,4 @@
 
 Καλή μέρα και καλό διάβασμα!
 
-.. youtube:: U -pVz2LTakM
+.. youtube:: U-pVz2LTakM
