@@ -17,7 +17,7 @@
 	Ο πίνακας *Αεροπλάνο σε συγχρωμία κίντρινου και πορτοκαλί* του `Stanton MacDonald-Wright  <https://en.wikipedia.org/wiki/Stanton_Macdonald-Wright>`__\ *.* 
 
 
-Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/19q-R0mjrvn0BE6GbqTDh_nXSll9sL0M2/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/19q-R0mjrvn0BE6GbqTDh_nXSll9sL0M2/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

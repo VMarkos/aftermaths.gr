@@ -11,13 +11,13 @@
 	:attachments: _static/images/uploads/2020/02/proof.png
 
 .. figure:: /_static/images/uploads/2020/02/proof.png
-	:alt: Ένα αγαπημένο webcomic του `Randall Munroe  <https://xkcd.com/>`__. 
+	:alt: Ένα αγαπημένο webcomic του `Randall Munroe  <https://xkcd.com>`__. 
 	:align: center
 
-	Ένα αγαπημένο webcomic του `Randall Munroe  <https://xkcd.com/>`__. 
+	Ένα αγαπημένο webcomic του `Randall Munroe  <https://xkcd.com>`__. 
 
 
-`Εδώ  <https://drive.google.com/file/d/1QyS671DkusTI-WR0QHFEodnVd3wgb-J_/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__ μπορείτε να βρείτε μία συλλογή όλων των εντός ύλης αποδείξεων των Μαθηματικών Προσανατολισμού της Γʹ Λυκείου, με κάποια σχόλια πριν από τις πιο απαιτητικές από αυτές.
+`Εδώ  <https://drive.google.com/file/d/1QyS671DkusTI-WR0QHFEodnVd3wgb-J_/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>` μπορείτε να βρείτε μία συλλογή όλων των εντός ύλης αποδείξεων των Μαθηματικών Προσανατολισμού της Γʹ Λυκείου, με κάποια σχόλια πριν από τις πιο απαιτητικές από αυτές.
 
 
 

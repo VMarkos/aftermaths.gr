@@ -19,9 +19,9 @@
 
 Σε αυτό το φυλλάδιο περιέχονται τέσσερις ασκήσεις που καλύπτουν το μεγαλύτερο μέρος της συνήθους εξεταστέας ύλης της Βʹ Λυκείου (Κατεύθυνση).
 
-Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1v0NeGuh_3eLvopV7832BFo9P7J7WjXst/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1v0NeGuh_3eLvopV7832BFo9P7J7WjXst/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
-Οι λύσεις των ασκήσεων βρίσκονται `εδώ  <https://drive.google.com/file/d/1uRilNicMlZzKBJnUvYlA2UNrhzly0-LW/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Οι λύσεις των ασκήσεων βρίσκονται `εδώ  <https://drive.google.com/file/d/1uRilNicMlZzKBJnUvYlA2UNrhzly0-LW/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

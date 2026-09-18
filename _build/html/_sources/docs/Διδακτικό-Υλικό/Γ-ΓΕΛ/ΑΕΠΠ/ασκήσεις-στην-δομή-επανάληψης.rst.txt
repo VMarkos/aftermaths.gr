@@ -19,7 +19,7 @@
 
 Σε αυτό το φυλλάδιο περιέχονται κάποιες εισαγωγικές ασκήσεις στη δομή επανάληψης ΓΙΑ...ΑΠΟ...ΜΕΧΡΙ της ΓΛΩΣΣΑΣ (ΑΕΠΠ, Γʹ Λυκείου).
 
-Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1UdtO4uIFtdyxchyOz8O23OQ4WSrstavV/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1UdtO4uIFtdyxchyOz8O23OQ4WSrstavV/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

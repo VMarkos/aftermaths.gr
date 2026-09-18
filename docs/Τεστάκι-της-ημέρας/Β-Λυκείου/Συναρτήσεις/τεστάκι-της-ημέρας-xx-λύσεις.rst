@@ -17,7 +17,7 @@
 	Ο πίνακας *Ο άνδρας με την τουλίπα (Πορτραίτο του M. Jean Metzinger)* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
 
 
-Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-xx-β-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1QdSQLreWmctyz4fZ8BAgddfTV0WyRsgY/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
+Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-xx-β-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1QdSQLreWmctyz4fZ8BAgddfTV0WyRsgY/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

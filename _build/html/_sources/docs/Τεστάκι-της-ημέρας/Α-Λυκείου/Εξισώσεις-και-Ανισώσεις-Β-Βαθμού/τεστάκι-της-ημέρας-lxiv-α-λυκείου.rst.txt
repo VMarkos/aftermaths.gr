@@ -19,7 +19,7 @@
 
 Ένα τεστάκι στους τύπους του Vieta και τις παραμετρικές δευτεροβάθμιες εξισώσεις - άλγεβρα, Αʹ Λυκείου και ΕΠΑΛ.
 
-Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1j3oAmB5ANkjw1s06y8maqMaHtJRXIyGj/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1j3oAmB5ANkjw1s06y8maqMaHtJRXIyGj/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

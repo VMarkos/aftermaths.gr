@@ -17,7 +17,7 @@
 	Ο πίνακας *Νεαρό αγόρι με αμνό (Ο καλός βοσκός)* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
 
 
-Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-xvi-β-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1Xt4YQXnp02HKVAGjBRc50UCfJpFlhq5Y/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
+Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-xvi-β-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1Xt4YQXnp02HKVAGjBRc50UCfJpFlhq5Y/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

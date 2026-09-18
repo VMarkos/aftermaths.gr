@@ -17,7 +17,7 @@
 	Ο πίνακας *Η κυρία Charpentier και τα παιδιά της* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 
 
-Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Συναρτήσεις/τεστάκι-της-ημέρας-lxxviii-γ-επαλ>` εφʹόλης της ύλης των μαθηματικών της Γʹ ΕΠΑΛ - προετοιμασία για πανελλήνιες - μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1QFYCw5rnlwiXEZQPWBqn0NDZ1GRzt7zB/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Συναρτήσεις/τεστάκι-της-ημέρας-lxxviii-γ-επαλ>` εφʹόλης της ύλης των μαθηματικών της Γʹ ΕΠΑΛ - προετοιμασία για πανελλήνιες - μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1QFYCw5rnlwiXEZQPWBqn0NDZ1GRzt7zB/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

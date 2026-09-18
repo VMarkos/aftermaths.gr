@@ -17,7 +17,7 @@
 	Ο πίνακας *Η είσοδος στο μεγάλο κανάλι* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
 
 
-Οι λύσεις του :doc:`προηγούμενου διαγωνίσματος  </docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Επανάληψη/επαναληπτικό-διαγώνισμα-μέχρι-τα-όρι>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1Jz1jatrg4pQUvQ76KKgq0fll8CuxGKj4/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
+Οι λύσεις του :doc:`προηγούμενου διαγωνίσματος  </docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Επανάληψη/επαναληπτικό-διαγώνισμα-μέχρι-τα-όρι>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1Jz1jatrg4pQUvQ76KKgq0fll8CuxGKj4/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

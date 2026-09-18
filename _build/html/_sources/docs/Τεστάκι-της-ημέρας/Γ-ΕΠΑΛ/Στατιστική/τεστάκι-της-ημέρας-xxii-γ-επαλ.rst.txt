@@ -17,7 +17,7 @@
 	Ο πίνακας *Η ομάδα του Κάρντιφ* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
 
 
-Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1xXby7X2u7vFwUYqK7v4QTWS7Yb2nCPql/view?usp=sharing>`__ και στη σελίδα `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1xXby7X2u7vFwUYqK7v4QTWS7Yb2nCPql/view?usp=sharing>`__ και στη σελίδα :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

@@ -17,7 +17,7 @@
 	Ο πίνακας *Το πορτραίτο της* `Saskia van Uylenburgh  <https://en.wikipedia.org/wiki/Saskia_van_Uylenburgh>`__ του `Rembrant  <https://en.wikipedia.org/wiki/Rembrandt>`__. 
 
 
-Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1qlKtW7o9Wp-eF4monpkpXglsymrZzosM/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1qlKtW7o9Wp-eF4monpkpXglsymrZzosM/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

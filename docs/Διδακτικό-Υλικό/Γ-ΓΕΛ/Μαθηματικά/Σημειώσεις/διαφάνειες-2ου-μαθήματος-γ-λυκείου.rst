@@ -17,7 +17,7 @@
 	Ο πίνακας *Βάζο, μπουκάλι και φρούτα* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
 
 
-Οι διαφάνειες του δεύτερου μαθήματος βρίσκονται `εδώ  <https://drive.google.com/file/d/1TXH_nr-mPt9JvyQ7JlQ8Jr-bV_Ct0pgb/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Οι διαφάνειες του δεύτερου μαθήματος βρίσκονται `εδώ  <https://drive.google.com/file/d/1TXH_nr-mPt9JvyQ7JlQ8Jr-bV_Ct0pgb/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 Επίσης, οι διαφάνειες βρίσκονται και στο `slideshare  <https://www.slideshare.net/ssuserbf550d/2-151386814>`__, πάντα σε χαμηλότερη ανάλυση (μας κατεβάζει η σελίδα την ανάλυση, δεν είναι από κακία):
 

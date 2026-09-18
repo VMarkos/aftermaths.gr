@@ -17,7 +17,7 @@
 	Μία αυτοπροσωπογραφία του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__ και της Natalia Nordman. 
 
 
-Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Ρίζες/τεστάκι-της-ημέρας-xliv-α-λυκείου>` στις ρίζες πραγματικών αριθμών (Αʹ Λυκείου) μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1olLq33EzslRkiF8HuW11g9F1kiC2JI8_/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Ρίζες/τεστάκι-της-ημέρας-xliv-α-λυκείου>` στις ρίζες πραγματικών αριθμών (Αʹ Λυκείου) μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1olLq33EzslRkiF8HuW11g9F1kiC2JI8_/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

@@ -17,7 +17,7 @@
 	Ο πίνακας *Το κάστρο το* *Warwick: Η δεξιά πλευρά* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
 
 
-Το 4o Workshop βρίσκεται `εδώ  <https://drive.google.com/file/d/1N1L5T0IoHB5jbHLDyG_xkY6l0RKj1S8N/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το 4o Workshop βρίσκεται `εδώ  <https://drive.google.com/file/d/1N1L5T0IoHB5jbHLDyG_xkY6l0RKj1S8N/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

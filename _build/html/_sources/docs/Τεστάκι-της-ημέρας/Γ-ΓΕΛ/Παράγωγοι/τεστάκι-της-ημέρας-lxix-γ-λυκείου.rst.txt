@@ -19,7 +19,7 @@
 
 Ένα τεστάκι σε απλά πράγματα σχετικά με ακρότατα, μονοτονία και κρίσιμα σημεία -Γʹ Λυκείου, προετοιμασία για πανελλήνιες.
 
-Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1KcxWE7b4T_MDXSXeTw0tr6hsW2Y39h0b/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1KcxWE7b4T_MDXSXeTw0tr6hsW2Y39h0b/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

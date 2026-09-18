@@ -19,7 +19,7 @@
 
 Ασκήσεις, προβλήματα και άλλα πολλά (καλά, όχι και τόσο πολλά) για τους αγαπημένους τύπους του Vieta.
 
-Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1qfCxnJKjz306hDJbuLiMLUbctu5xrEbh/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό/>`__.
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1qfCxnJKjz306hDJbuLiMLUbctu5xrEbh/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

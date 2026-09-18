@@ -19,7 +19,7 @@
 
 Ένα τεστ εισαγωγικό στην ύλη των πολυωνύμων και, ειδικότερα, στην ευκλείδεια διαίρεση μεταξύ πολυωνύμων - άλγεβρα, Βʹ Λυκείου και ΕΠΑΛ.
 
-Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1dDRWAVxIBT8B47hRZiUbYFg_fXSGI_Gc/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1dDRWAVxIBT8B47hRZiUbYFg_fXSGI_Gc/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

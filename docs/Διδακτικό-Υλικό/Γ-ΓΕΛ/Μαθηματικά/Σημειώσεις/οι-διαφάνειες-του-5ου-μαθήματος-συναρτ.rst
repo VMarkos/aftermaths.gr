@@ -17,7 +17,7 @@
 	Ο πίνακας *Πορτρέτο της Οικογένειας (Το μάθημα μουσικής)* του `Henry Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
 
 
-Οι διαφάνειες του 5ου μαθήματος βρίσκονται `εδώ  <https://drive.google.com/file/d/1Vezi16hgoi-Tc7nzeDQoeNaCTGMZiwH5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Οι διαφάνειες του 5ου μαθήματος βρίσκονται `εδώ  <https://drive.google.com/file/d/1Vezi16hgoi-Tc7nzeDQoeNaCTGMZiwH5/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 Οι διαφάνειες βρίσκονται επίσης και στο `Slideshare  <https://www.slideshare.net/ssuserbf550d/5-11-154096712>`__:
 

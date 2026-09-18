@@ -17,7 +17,7 @@
 	Ο πίνακας *Ο Μαντολινοπαίκτης* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
 
 
-Τις λύσεις του προηγούμενου τεστ μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1mw5wpmayZRNbQga22NtrbX201XjKvYdV/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τις λύσεις του προηγούμενου τεστ μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1mw5wpmayZRNbQga22NtrbX201XjKvYdV/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

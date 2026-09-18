@@ -17,7 +17,7 @@
 	Ο πίνακας *Κεφάλι νεαρής γυναίκας* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 
 
-Τις λύσεις του :doc:`προηγούμενου επαναληπτικού τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Συνέχεια/τεστάκι-της-ημέρας-lxxxv-γ-λυκείου>` στα όρια στο άπειρο και τις συνεχείς συναρτήσεις στα Μαθηματικά Προσανατολισμού της Γʹ Λυκείου μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1H0PKVEF_gZOyqIfAjMDC79JD3Cm7BaCo/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
+Τις λύσεις του :doc:`προηγούμενου επαναληπτικού τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Συνέχεια/τεστάκι-της-ημέρας-lxxxv-γ-λυκείου>` στα όρια στο άπειρο και τις συνεχείς συναρτήσεις στα Μαθηματικά Προσανατολισμού της Γʹ Λυκείου μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1H0PKVEF_gZOyqIfAjMDC79JD3Cm7BaCo/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

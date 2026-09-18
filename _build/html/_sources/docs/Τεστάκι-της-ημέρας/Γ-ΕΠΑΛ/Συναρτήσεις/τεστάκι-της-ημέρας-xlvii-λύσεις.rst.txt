@@ -17,7 +17,7 @@
 	Ο πίνακας *Ο M. I., Glinka ενώ συνθέτει την όπερά του "Ruslan και Ludmila"* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
 
 
-Τις λύσεις του :doc:`προηγούμενου εισαγωγικού τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Συναρτήσεις/τεστάκι-της-ημέρας-xlvii-γ-επαλ>` στα όρια συναρτήσεων - Γʹ ΕΠΑΛ, μαθηματικά γενικής παιδείας (άλγεβρα) - μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1z6EFo07OfW3yZWtIKPXO7foYk6x4MWxx/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
+Τις λύσεις του :doc:`προηγούμενου εισαγωγικού τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Συναρτήσεις/τεστάκι-της-ημέρας-xlvii-γ-επαλ>` στα όρια συναρτήσεων - Γʹ ΕΠΑΛ, μαθηματικά γενικής παιδείας (άλγεβρα) - μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1z6EFo07OfW3yZWtIKPXO7foYk6x4MWxx/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

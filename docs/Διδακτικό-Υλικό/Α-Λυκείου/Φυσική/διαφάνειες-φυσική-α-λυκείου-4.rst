@@ -19,7 +19,7 @@
 
 Διαφάνειες στην ύλη της φυσικής της Αʹ Λυκείου που καλύπτουν μέχρι και το ΘΜΚΕ - με λυμένα παραδείγματα.
 
-Τις διαφάνειες μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/176SycR-wvmkSi_Kr9gjrst2XvkJTuHKx/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Τις διαφάνειες μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/176SycR-wvmkSi_Kr9gjrst2XvkJTuHKx/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

@@ -17,7 +17,7 @@
 	Ο πίνακας *Νεαρό αγόρι στην παραλία του dʹYport* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 
 
-Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-lxxxiii-α-λυκείου>` στις γραμμικές συναρτήσεις στα πλαίσια της ύλης της άλγεβρας της Αʹ Λυκείου και ΕΠΑΛ μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/16W3J0Fk1M6-_pQJD2z38DqNiq-9EN5UL/view?usp=sharing>` και στη σελίδα του :doc:`διαδκτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-lxxxiii-α-λυκείου>` στις γραμμικές συναρτήσεις στα πλαίσια της ύλης της άλγεβρας της Αʹ Λυκείου και ΕΠΑΛ μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/16W3J0Fk1M6-_pQJD2z38DqNiq-9EN5UL/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

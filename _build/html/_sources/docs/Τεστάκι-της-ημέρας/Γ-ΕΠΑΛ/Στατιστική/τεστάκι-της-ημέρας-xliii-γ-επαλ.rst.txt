@@ -17,7 +17,7 @@
 	Ο πίνακας *Μία ηλιόλουστη μέρα στον κόλπο του Shinnecock* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
 
 
-Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1O6iKzpzCkiEkrrxYai1T6yyV_wpMUqVw/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1O6iKzpzCkiEkrrxYai1T6yyV_wpMUqVw/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

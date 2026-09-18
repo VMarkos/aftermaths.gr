@@ -17,7 +17,7 @@
 	Ο πίνακας *Το Μεγάλο Κανάλι* *κοντά στην Santa Maria della Carità* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
 
 
-Οι λύσεις του 3ου Workshop βρίσκονται `εδώ  <https://drive.google.com/file/d/1dihPULnHs8fWjSi7GJukYrhY_ga5CIW_/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Οι λύσεις του 3ου Workshop βρίσκονται `εδώ  <https://drive.google.com/file/d/1dihPULnHs8fWjSi7GJukYrhY_ga5CIW_/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

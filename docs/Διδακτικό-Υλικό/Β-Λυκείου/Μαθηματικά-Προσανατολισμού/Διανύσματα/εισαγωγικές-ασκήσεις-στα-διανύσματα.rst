@@ -19,7 +19,7 @@
 
 Λίγες απλές και όχι τόσο απλές ασκήσεις και προβλήματα στα διανύσματα και τις βασικές έννοιες γύρω από αυτά.
 
-Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/185D6qOBUQQMLMNIeYLh-E_BncGsplVZd/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/185D6qOBUQQMLMNIeYLh-E_BncGsplVZd/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

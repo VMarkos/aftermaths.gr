@@ -17,7 +17,7 @@
 	Ένα πορτραίτο του M. P. Mussorgsky του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
 
 
-Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xlvi-γ-λυκείου>` στα όρια στο άπειρο - θεωρητικές και υπολογιστικές ασκήσεις, μαθηματικά προσανατολισμού, Γʹ Λυκείου - μπορεί να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1X7znzGCaA6U1jgufs1AXL9miunstw3rm/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xlvi-γ-λυκείου>` στα όρια στο άπειρο - θεωρητικές και υπολογιστικές ασκήσεις, μαθηματικά προσανατολισμού, Γʹ Λυκείου - μπορεί να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1X7znzGCaA6U1jgufs1AXL9miunstw3rm/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

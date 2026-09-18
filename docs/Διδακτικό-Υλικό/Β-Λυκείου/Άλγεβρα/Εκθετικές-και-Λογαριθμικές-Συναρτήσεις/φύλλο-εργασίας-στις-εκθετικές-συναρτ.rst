@@ -17,7 +17,7 @@
 	Ο πίνακας *Ομίχλη στην κοιλάδα του Έλβα* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
 
 
-Το φύλλο εργασίας βρίσκεται `εδώ  <https://drive.google.com/file/d/17h5Xf1W0y2PqjK_F8vLd9QxCcDIZXjZ5/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το φύλλο εργασίας βρίσκεται `εδώ  <https://drive.google.com/file/d/17h5Xf1W0y2PqjK_F8vLd9QxCcDIZXjZ5/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

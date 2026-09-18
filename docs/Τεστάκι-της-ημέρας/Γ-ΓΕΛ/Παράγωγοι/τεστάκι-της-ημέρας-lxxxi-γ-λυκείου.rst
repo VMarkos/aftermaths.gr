@@ -19,7 +19,7 @@
 
 Ένα επαναληπτικό τεστ σε βασικές ασκήσεις σε υπαρξιακά θεωρήματα και την κυρτότητα συναρτήσεων στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γʹ Λυκείου - προετοιμασία για πανελλήνιες.
 
-Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1NCaOnFn3hKlJT-ujn7BG_Iq6HVTzZOJi/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1NCaOnFn3hKlJT-ujn7BG_Iq6HVTzZOJi/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

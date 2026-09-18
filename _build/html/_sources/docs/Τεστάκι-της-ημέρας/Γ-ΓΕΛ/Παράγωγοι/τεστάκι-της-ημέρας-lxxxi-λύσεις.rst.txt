@@ -17,7 +17,7 @@
 	Το πορτραίτο των Charles και George Durand-Ruel του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 
 
-Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Παράγωγοι/τεστάκι-της-ημέρας-lxxxi-γ-λυκείου>` επανάληψης σε κυρτότητα και συνέχεια στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γʹ Λυκείου μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1k4Ox1_J-LRW_ss3f12huboQXgyJPL6kl/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Παράγωγοι/τεστάκι-της-ημέρας-lxxxi-γ-λυκείου>` επανάληψης σε κυρτότητα και συνέχεια στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γʹ Λυκείου μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1k4Ox1_J-LRW_ss3f12huboQXgyJPL6kl/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

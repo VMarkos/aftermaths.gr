@@ -17,7 +17,7 @@
 	Ο πίνακας *Τούρκικο καφέ* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
 
 
-Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1xU-tHr4MPcQjzUXOwyF0GuPQbhLObtTl/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1xU-tHr4MPcQjzUXOwyF0GuPQbhLObtTl/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

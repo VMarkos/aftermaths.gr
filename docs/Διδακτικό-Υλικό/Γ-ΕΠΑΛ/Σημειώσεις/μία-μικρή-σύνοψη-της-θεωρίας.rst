@@ -17,7 +17,7 @@
 	Ο πίνακας *Τοπίο με αγροτόσπιτα και φοίνικες* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
 
 
-Στο αρχείο που μπορείτε να βρείτε `εδώ  <https://drive.google.com/file/d/1B0M0193Dj0KW2z8dULTCEvT-RzY_jaPi/view?usp=sharing>`__ (διορθώθηκε λάθος στον σύνδεσμο) αλλά και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__ περιέχονται συνοπτικά - συνοπτικότατα, δηλαδή:
+Στο αρχείο που μπορείτε να βρείτε `εδώ  <https://drive.google.com/file/d/1B0M0193Dj0KW2z8dULTCEvT-RzY_jaPi/view?usp=sharing>`__ (διορθώθηκε λάθος στον σύνδεσμο) αλλά και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>` περιέχονται συνοπτικά - συνοπτικότατα, δηλαδή:
 
 -  όλες οι αποδείξεις,
 -  όλοι οι ορισμοί και,

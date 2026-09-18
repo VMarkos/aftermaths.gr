@@ -17,7 +17,7 @@
 	Ο πίνακας *Δαμάσκηνα* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
 
 
-Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/1sfE7KaEA3p3GmYrjJzXWLJdWd2fm0EAs/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/1sfE7KaEA3p3GmYrjJzXWLJdWd2fm0EAs/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

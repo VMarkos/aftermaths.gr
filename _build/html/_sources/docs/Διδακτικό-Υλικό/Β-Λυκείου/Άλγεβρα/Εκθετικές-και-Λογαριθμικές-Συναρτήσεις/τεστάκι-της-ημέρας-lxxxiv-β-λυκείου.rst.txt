@@ -19,7 +19,7 @@
 
 Ένα τεστάκι στις εκθετικές εξισώσεις στα πλαίσια της ύλης της άλγεβρας της Βʹ Λυκείου και ΕΠΑΛ.
 
-Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1WZf0zkGxikiuGQm8f3sA2J6LJtLGIkNC/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1WZf0zkGxikiuGQm8f3sA2J6LJtLGIkNC/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

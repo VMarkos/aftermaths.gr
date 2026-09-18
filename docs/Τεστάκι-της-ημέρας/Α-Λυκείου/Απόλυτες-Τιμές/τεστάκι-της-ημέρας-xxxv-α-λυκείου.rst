@@ -17,7 +17,7 @@
 	Ο πίνακας *Συγχρωμία σε πορτοκαλί, σε μορφή* του `Morgan Russell  <https://en.wikipedia.org/wiki/Morgan_Russell>`__\ *.* 
 
 
-Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1oDSBJlNsgWfh0S-VbtFeSOhclhWa8TbS/view?usp=sharing>`__ και στη σελίδα `διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`__.
+Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1oDSBJlNsgWfh0S-VbtFeSOhclhWa8TbS/view?usp=sharing>`__ και στη σελίδα :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

@@ -17,7 +17,7 @@
 	Ο πίνακας *Το Ροζ Φόρεμα* του `Frédéric Bazille  <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
 
 
-Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Πολυώνυμα/τεστάκι-της-ημέρας-lxv-β-λυκείου>` στην ευκλείδεια διαίρεση πολυωνύμων και τα συναφή μπορείτε να το βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1WbVKB9II8P-AEdQtvJRFpXVaNPs-7pd0/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Πολυώνυμα/τεστάκι-της-ημέρας-lxv-β-λυκείου>` στην ευκλείδεια διαίρεση πολυωνύμων και τα συναφή μπορείτε να το βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1WbVKB9II8P-AEdQtvJRFpXVaNPs-7pd0/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

@@ -17,7 +17,7 @@
 	Ο πίνακας *Τοπίο στο Tegernsee με άντρα που διαβάζει βιβλίο* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__. 
 
 
-Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι-της-ημέρας-xxvii-α-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1lCTobHVQplUG5MNJSZOJ3GARboV5kBm5/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
+Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι-της-ημέρας-xxvii-α-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1lCTobHVQplUG5MNJSZOJ3GARboV5kBm5/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

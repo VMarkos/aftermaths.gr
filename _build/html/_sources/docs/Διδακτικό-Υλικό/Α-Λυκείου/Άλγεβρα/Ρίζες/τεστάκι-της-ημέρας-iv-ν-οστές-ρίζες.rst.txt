@@ -19,7 +19,7 @@
 
 Ένα μικρό τεστάκι στις ν-οστές ρίζες πραγματικών αριθμών - Άλγεβρα, Αʹ Γενικού Λυκείου και ΕΠΑΛ.
 
-Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1DYZGN8NeUemTMcZrAMJajK0OKOZUnEZ0/view?usp=sharing>`__ και στη σελίδα του `διδακτικού υλικού  <http://aftermaths.gr/διδακτικό-υλικό>`__.
+Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1DYZGN8NeUemTMcZrAMJajK0OKOZUnEZ0/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

@@ -27,6 +27,12 @@
 - [ ] LaTeX formatting in Tikz posts.
 - [ ] Navigation links.
 - [ ] Translate 'On this page' to Greek.
+- [ ] Create contact page.
+- [x] Fix the global link for tests pointing to the actual tests page.
+- [x] Fix the global link for teaching materials
+- [x] Locate and handle hardcoded `afteramths.gr` and `aftermathsgr.wordpress.com` references.
+- [ ] Fig `tag` and `category` links.
+- [ ] There are some wp-related code blocks in tikz posts.
 
 ## Notes
 

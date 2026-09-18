@@ -17,7 +17,7 @@
 	Το πορτραίτο του Νικολάυ Γκόγκολ του `Alexander Ivanov  <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\ *.* 
 
 
-Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Παράγωγοι/τεστάκι-της-ημέρας-lviii-γ-λυκείου>` πάνω στην εύρεση εξίσωσης εφαπτομένης - προετοιμασία για τις πανελλήνιες, μαθηματικά Γʹ Λυκείου - μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1fwYJkvNRcf6u5uabND7BQRi2brMFkT8e/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  <https://aftermathsgr.wordpress.com/%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c/>`.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Παράγωγοι/τεστάκι-της-ημέρας-lviii-γ-λυκείου>` πάνω στην εύρεση εξίσωσης εφαπτομένης - προετοιμασία για τις πανελλήνιες, μαθηματικά Γʹ Λυκείου - μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1fwYJkvNRcf6u5uabND7BQRi2brMFkT8e/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 
