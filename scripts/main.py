@@ -414,6 +414,53 @@ def internal_link_fix_fn(line: str, params: dict=dict()) -> str:
     return line
 
 
+def fix_teaching_mat_links(path) -> None:
+    fix_content(path, teaching_mat_fix_fn)
+
+
+def teaching_mat_fix_fn(line: str, params: dict=dict()) -> str:
+    if ':doc:`διδακτικού υλικού':
+        fixed_line = re.sub(r'διδακτικού υλικού <[^<>]+/>_{,2}', r'διδακτικού υλικού </docs/Διδακτικό-Υλικό/index />', line)
+    else:
+        fixed_line = re.sub(r'`διδακτικού υλικού <[^<>]+/>`', r':doc:`διδακτικού υλικού </docs/Διδακτικό-Υλικό/index />`', line)
+    return fixed_line
+
+
+def fix_external_tm(path) -> None:
+    fix_content(path, external_tm_fix_fn)
+
+
+def external_tm_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(
+            r'(:doc:){,1}`διδακτικού υλικού  <https?://(aftermathsgr.wordpress.com|aftermaths.gr)/(%ce%b4%ce%b9%ce%b4%ce%b1%ce%ba%cf%84%ce%b9%ce%ba%cf%8c-%cf%85%ce%bb%ce%b9%ce%ba%cf%8c|διδακτικό-υλικό)/?>`_?_?',
+        r':doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`',
+        line
+    )
+    return fixed_line
+
+
+def refix_tm_ext(path: str) -> None:
+    fix_content(path, refix_tm_fix_fn)
+
+
+def refix_tm_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(
+        r':doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index />`',
+        r':doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`',
+        line
+    )
+    return fixed_line
+
+
+def fix_url_ends(path: str) -> None:
+    fix_content(path, url_end_fix_fn)
+
+
+def url_end_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(r'\s*/>', r'>', line)
+    return fixed_line
+
+
 def main():
     # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
@@ -437,7 +484,11 @@ def main():
         # fix_tables(file_path)
         # remove_math_colour(file_path)
         # fix_yt_url(file_path)
-        fix_internal_links(file_path)
+        # fix_internal_links(file_path)
+        # fix_teaching_mat_links(file_path)
+        fix_external_tm(file_path)
+        # refix_tm_ext(file_path)
+        # fix_url_ends(file_path)
 
 
 if __name__ == "__main__":
