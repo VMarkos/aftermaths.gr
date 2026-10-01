@@ -17,7 +17,7 @@
 	Το πορτραίτο του Alphonse Tissie του `Frédéric Bazille  <https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Bazille>`__. 
 
 
-Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Παράγωγοι/τεστάκι-της-ημέρας-lxix-γ-λυκείου>` στα κρίσιμα σημεία και τις έννοιες γύρω από αυτά μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1IrN6bomUOuhF-fMRNKeCpOsUBUwxk6aC/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Παράγωγοι/τεστάκι-της-ημέρας-lxix-γ-λυκείου>` στα κρίσιμα σημεία και τις έννοιες γύρω από αυτά μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1IrN6bomUOuhF-fMRNKeCpOsUBUwxk6aC/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

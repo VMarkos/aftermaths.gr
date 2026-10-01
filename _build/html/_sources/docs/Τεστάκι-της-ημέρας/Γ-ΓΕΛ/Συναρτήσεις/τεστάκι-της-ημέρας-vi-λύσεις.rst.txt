@@ -17,7 +17,7 @@
 	Ο πίνακας *Εύσωμες κυρίες* του `Igor Grabar  <https://en.wikipedia.org/wiki/Igor_Grabar>`__. 
 
 
-Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Συναρτήσεις/τεστάκι-της-ημέρας-vi-γ-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1wFZEojeoe2X6lGh802fBsBVWK4XcMjJf/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Συναρτήσεις/τεστάκι-της-ημέρας-vi-γ-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1wFZEojeoe2X6lGh802fBsBVWK4XcMjJf/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

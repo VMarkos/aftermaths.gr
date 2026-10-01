@@ -17,7 +17,7 @@
 	Ο πίνακας *Ζωγραφιά* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
 
 
-Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xxxix-γ-επαλ>` μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1xLSTyiQbQyXplLE4-vwL_Hljqf30U3yD/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xxxix-γ-επαλ>` μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1xLSTyiQbQyXplLE4-vwL_Hljqf30U3yD/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

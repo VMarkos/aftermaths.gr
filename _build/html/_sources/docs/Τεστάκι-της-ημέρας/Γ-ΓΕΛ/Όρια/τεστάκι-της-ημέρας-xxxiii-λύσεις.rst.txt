@@ -17,7 +17,7 @@
 	Ο πίνακας *Απόγευμα στο πάρκο* της `Gabriele Münter  <https://en.wikipedia.org/wiki/Gabriele_M%C3%BCnter>`__. 
 
 
-Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xxxiii-γ-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1kmH5WQbl_OIMPbpq5Q1yp0KVytQg6GwU/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xxxiii-γ-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1kmH5WQbl_OIMPbpq5Q1yp0KVytQg6GwU/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

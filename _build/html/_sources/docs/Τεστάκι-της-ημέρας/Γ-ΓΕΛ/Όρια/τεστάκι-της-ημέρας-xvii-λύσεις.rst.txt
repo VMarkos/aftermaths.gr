@@ -17,7 +17,7 @@
 	Ο πίνακας *Άλογο που ονειρεύεται* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
 
 
-Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xvii-γ-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1POjowHvS4FYvm4nsUHmXzNPy1HNIYujo/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xvii-γ-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1POjowHvS4FYvm4nsUHmXzNPy1HNIYujo/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

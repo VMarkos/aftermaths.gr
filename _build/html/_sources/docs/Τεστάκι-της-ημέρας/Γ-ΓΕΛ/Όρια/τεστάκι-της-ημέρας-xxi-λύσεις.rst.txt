@@ -17,7 +17,7 @@
 	Ο πίνακας *Πολλαπλά παράθυρα στην πόλη* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
 
 
-Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xxi-γ-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1R8HC46huFDUagNirmkC4YTD9DkfViXTR/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xxi-γ-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1R8HC46huFDUagNirmkC4YTD9DkfViXTR/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

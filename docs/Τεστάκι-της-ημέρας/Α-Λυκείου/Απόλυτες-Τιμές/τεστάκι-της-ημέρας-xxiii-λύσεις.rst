@@ -17,7 +17,7 @@
 	Ο πίνακας *Ο πύργος του Άιφελ* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
 
 
-Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι-της-ημέρας-χχιιι-α-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1wvBRXzXWljTS7dvjw5iY1N69JN7AmPCN/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι-της-ημέρας-χχιιι-α-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1wvBRXzXWljTS7dvjw5iY1N69JN7AmPCN/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

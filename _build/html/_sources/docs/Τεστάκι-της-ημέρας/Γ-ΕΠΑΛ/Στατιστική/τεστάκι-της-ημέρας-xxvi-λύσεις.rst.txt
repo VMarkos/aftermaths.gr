@@ -17,7 +17,7 @@
 	Ο πίνακας *Το σπίτι του Staudacher* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
 
 
-Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xxvi-γ-επαλ>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1WOP-MXseu0qMloZVKZZj95puxu_IYJsi/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xxvi-γ-επαλ>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1WOP-MXseu0qMloZVKZZj95puxu_IYJsi/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

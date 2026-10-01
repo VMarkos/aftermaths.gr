@@ -17,7 +17,7 @@
 	Ο πίνακας *Σχοινοβάτης* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
 
 
-Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Τριγωνομετρία/τεστάκι-της-ημέρας-xxxii-β-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1I8bgG8tuQFMrmV5HcPEaGPp0XXI41gZf/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Τριγωνομετρία/τεστάκι-της-ημέρας-xxxii-β-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1I8bgG8tuQFMrmV5HcPEaGPp0XXI41gZf/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

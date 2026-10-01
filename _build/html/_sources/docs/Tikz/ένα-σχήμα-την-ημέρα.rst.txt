@@ -21,7 +21,7 @@
 
 Καλή ανάγνωση! :)
 
-*Για περισσότερα για κάθε σχήμα, μπορείτε να δείτε και τις δημοσιεύσεις σε*\ `αυτήν την κατηγορία  <https://aftermathsgr.wordpress.com/category/tikz>`__\ *.*
+*Για περισσότερα για κάθε σχήμα, μπορείτε να δείτε και τις δημοσιεύσεις σε*\ `αυτήν την κατηγορία  <https://aftermathsgr.wordpress.com/docs/Tikz/index>`__\ *.*
 
 .. container:: wp-block-group alignwide
 

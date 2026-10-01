@@ -17,7 +17,7 @@
 	Ένας πίνακας *Κεφάλι σε μπλε* του `Alexej von Jawlensky  <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__\ *.* 
 
 
-Τις λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-x-γ-επαλ>` μπορείτε να βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1SGjH95w0qyPl4zK0a36JXT2RHpTi_eRs/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Τις λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-x-γ-επαλ>` μπορείτε να βρείτε `εδώ   <https://drive.google.com/file/d/1SGjH95w0qyPl4zK0a36JXT2RHpTi_eRs/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

@@ -17,7 +17,7 @@
 	Πίνακας *Η οικογένεια* της `Marianne von Werefkin  <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__\ *.* 
 
 
-Τις λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι-της-ημέρας-xv-α-λυκείου>` μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1Q669M4xCWriNi19fpPnZe3PwmRX2W5J2/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Τις λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι-της-ημέρας-xv-α-λυκείου>` μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1Q669M4xCWriNi19fpPnZe3PwmRX2W5J2/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

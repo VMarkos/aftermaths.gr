@@ -17,7 +17,7 @@
 	Το πορτραίτο του *Bernhard Koehler* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
 
 
-Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι-της-ημέρας-xxxi-α-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1elV64Gr-4cq2l2ue16fgqljw9t7GWhIA/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι-της-ημέρας-xxxi-α-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1elV64Gr-4cq2l2ue16fgqljw9t7GWhIA/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

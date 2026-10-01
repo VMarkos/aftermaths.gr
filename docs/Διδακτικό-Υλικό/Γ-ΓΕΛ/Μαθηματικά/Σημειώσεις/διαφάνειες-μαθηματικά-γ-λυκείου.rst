@@ -17,7 +17,7 @@
 	Μία αυτοπροσωπογραφία του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
 
 
-Τις :doc:`διαφάνειες για την καραντίνα  </docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-για-την-καραντίνα>` μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/146JLkg81SjKuWuT1xMrS-UWMDooakXKs/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Τις :doc:`διαφάνειες για την καραντίνα  </docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-για-την-καραντίνα>` μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/146JLkg81SjKuWuT1xMrS-UWMDooakXKs/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

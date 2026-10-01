@@ -17,7 +17,7 @@
 	Ο πίνακας *Βαρκάδα στον ποταμό Seine* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 
 
-Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Πρόοδοι/τεστάκι-της-ημέρας-lxxix-α-λυκείου>` σε αριθμητικές και γεωμετρικές προόδους μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/14iB0ivEF6Lw6PcFUDXOmitKr7s4vcFfU/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Πρόοδοι/τεστάκι-της-ημέρας-lxxix-α-λυκείου>` σε αριθμητικές και γεωμετρικές προόδους μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/14iB0ivEF6Lw6PcFUDXOmitKr7s4vcFfU/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

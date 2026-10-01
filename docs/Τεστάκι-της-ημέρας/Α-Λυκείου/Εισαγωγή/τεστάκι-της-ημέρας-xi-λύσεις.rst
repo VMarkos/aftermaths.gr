@@ -17,7 +17,7 @@
 	Ο πίνακας *Το πρόσωπο του Κυρίου: Μάρτυρας* του `Alexej von Jawlensky  <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__. 
 
 
-Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Εισαγωγή/τεστάκι-της-ημέρας-xi-α-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1bOrYrgMJOCzRW5c3vMa8LTrdylJJ6_e2/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Εισαγωγή/τεστάκι-της-ημέρας-xi-α-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1bOrYrgMJOCzRW5c3vMa8LTrdylJJ6_e2/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

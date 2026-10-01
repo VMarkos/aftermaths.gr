@@ -17,7 +17,7 @@
 	Ένα πορτραίτο της μικρής κόρης του `Alexej von Jawlensky  <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__ με ένα καπέλο με λουλούδια. 
 
 
-Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Εισαγωγή/τεστάκι-της-ημέρας-vii-α-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1b_EdeQunl5loJqqSxTz8Fu-MhNujp1EL/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Εισαγωγή/τεστάκι-της-ημέρας-vii-α-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1b_EdeQunl5loJqqSxTz8Fu-MhNujp1EL/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

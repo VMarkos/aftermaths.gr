@@ -17,7 +17,7 @@
 	Ο πίνακας *Μορφές* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
 
 
-Τις :doc:`διαφάνειες για την καραντίνα  </docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-για-την-καραντίνα>` μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/18DxGuzbXkeuC7LYys3Mrt5Ws0vWmWsyG/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Τις :doc:`διαφάνειες για την καραντίνα  </docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-για-την-καραντίνα>` μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/18DxGuzbXkeuC7LYys3Mrt5Ws0vWmWsyG/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

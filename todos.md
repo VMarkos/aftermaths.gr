@@ -33,8 +33,11 @@
 - [x] Fix the global link for teaching materials
 - [x] Locate and handle hardcoded `afteramths.gr` and `aftermathsgr.wordpress.com` references.
 - [x] Fig `tag` and `category` links.
-- [ ] There are some wp-related code blocks in tikz posts.
-- [ ] Shorten EPAL C TOC tree.
+- [x] There are some wp-related code blocks in tikz posts.
+    - [ ] Maybe fixed? I could not grep those.
+- [x] Shorten EPAL C TOC tree.
+- [ ] Fix images that are not found, e.g., `.png?w=\d{3}`
+- [ ] Check why `/panellinies` is not found as a document.
 
 ## Notes
 

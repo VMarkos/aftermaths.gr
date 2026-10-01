@@ -17,7 +17,7 @@
 	Ο πίνακας *Τα παιχνίδια του μικρού Walter* του `August Macke  <https://drive.google.com/file/d/1J76nCqZJ5oPLdHtMQE03kcpjnjlWwGbV/view?usp=sharing>`__\ *.* 
 
 
-Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-xxviii-β-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1J76nCqZJ5oPLdHtMQE03kcpjnjlWwGbV/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-xxviii-β-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1J76nCqZJ5oPLdHtMQE03kcpjnjlWwGbV/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

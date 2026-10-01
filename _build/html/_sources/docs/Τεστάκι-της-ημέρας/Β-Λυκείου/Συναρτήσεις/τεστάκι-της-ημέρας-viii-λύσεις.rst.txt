@@ -17,7 +17,7 @@
 	Το *Πορτραίτο του Alexander Sakharoff* του `Alexej von Jawlensky  <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__. 
 
 
-Τις λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-viii-β-λυκείου>` μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1IUo1q5LQsy8O0qPcB3SiUQD9uqae6IuG/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Τις λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-viii-β-λυκείου>` μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1IUo1q5LQsy8O0qPcB3SiUQD9uqae6IuG/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

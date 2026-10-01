@@ -17,7 +17,7 @@
 	Ο πίνακας *Το νεαρό ορφανό* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
 
 
-Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Τριγωνομετρία/τεστάκι-της-ημέρας-xli-β΄λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1oAKhB4u5l5A8HXuUUYwt5A1Tm4YhkTSB/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Τριγωνομετρία/τεστάκι-της-ημέρας-xli-β΄λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1oAKhB4u5l5A8HXuUUYwt5A1Tm4YhkTSB/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

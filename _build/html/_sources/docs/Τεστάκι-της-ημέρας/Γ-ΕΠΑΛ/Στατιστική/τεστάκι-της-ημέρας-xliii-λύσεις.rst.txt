@@ -17,7 +17,7 @@
 	Ο πίνακας *Στο στούντιο* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
 
 
-Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xliii-γ-επαλ>` μπορείτε να τις βρείτε :doc:`εδώ  <https://drive.google.com/file/d/1Qmc7BqbVgnQaYED_vT-98neXGSFcweYn/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xliii-γ-επαλ>` μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1Qmc7BqbVgnQaYED_vT-98neXGSFcweYn/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

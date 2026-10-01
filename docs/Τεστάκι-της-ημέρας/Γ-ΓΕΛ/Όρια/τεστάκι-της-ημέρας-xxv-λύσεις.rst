@@ -17,7 +17,7 @@
 	Ο πίνακας *Ο Ελέφαντα Celebes* του `Max Ernst  <https://en.wikipedia.org/wiki/Max_Ernst>`__\ *.* 
 
 
-Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xxv-γ-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1K3eLzB7qBK-g0w8r8D8ZxlJ84-VCbnK7/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xxv-γ-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1K3eLzB7qBK-g0w8r8D8ZxlJ84-VCbnK7/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

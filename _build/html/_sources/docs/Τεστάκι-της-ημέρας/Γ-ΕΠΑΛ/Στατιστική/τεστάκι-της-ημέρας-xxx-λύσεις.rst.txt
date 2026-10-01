@@ -17,7 +17,7 @@
 	Ο πίνακας *Κόκκινο σπίτι στο πάρκο* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
 
 
-Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xxx-γ-επαλ>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1z8lDNt0jl_aVb0Y4lwqzb9tgHjfjgsqc/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xxx-γ-επαλ>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1z8lDNt0jl_aVb0Y4lwqzb9tgHjfjgsqc/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

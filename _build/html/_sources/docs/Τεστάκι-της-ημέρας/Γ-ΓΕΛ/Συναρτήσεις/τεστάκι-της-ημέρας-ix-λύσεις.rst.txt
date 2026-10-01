@@ -17,7 +17,7 @@
 	Ο πίνακας *Βιολετί τουρμπάνι* του `Alexej von Jawlensky  <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__. 
 
 
-Η λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Συναρτήσεις/τεστάκι-της-ημέρας-ix-γ-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/15PLnHOx5ea7p5HVcnYUU3dWw62kmRHCa/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Η λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Συναρτήσεις/τεστάκι-της-ημέρας-ix-γ-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/15PLnHOx5ea7p5HVcnYUU3dWw62kmRHCa/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

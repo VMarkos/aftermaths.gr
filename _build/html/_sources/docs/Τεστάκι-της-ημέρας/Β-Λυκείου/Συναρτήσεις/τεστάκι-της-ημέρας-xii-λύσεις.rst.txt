@@ -17,7 +17,7 @@
 	Ο πίνακας *Μέδουσα* του `Alexej von Jawlensky  <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__. 
 
 
-Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-xii-β-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1iHtV0dySnmUmZgyHbt8hrgChKAKvs9z1/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-xii-β-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1iHtV0dySnmUmZgyHbt8hrgChKAKvs9z1/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 

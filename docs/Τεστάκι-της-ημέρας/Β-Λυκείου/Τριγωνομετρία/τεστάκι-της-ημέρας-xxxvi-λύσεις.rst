@@ -17,7 +17,7 @@
 	Ο πίνακας *Νεκρή φύση* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
 
 
-Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Τριγωνομετρία/τεστάκι-της-ημέρας-xxxvi-β-λυκείου>` βρίσκονται :doc:`εδώ  <https://drive.google.com/file/d/1BYjzwDkJ-CxPAJTL8p09P_vQ1V_uzK8x/view?usp=sharing>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Τριγωνομετρία/τεστάκι-της-ημέρας-xxxvi-β-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1BYjzwDkJ-CxPAJTL8p09P_vQ1V_uzK8x/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 
