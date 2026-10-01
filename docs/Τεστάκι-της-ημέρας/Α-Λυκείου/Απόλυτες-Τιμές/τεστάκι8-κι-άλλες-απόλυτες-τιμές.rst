@@ -21,7 +21,7 @@
 
 Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/16EJjMPUK2MLrXS407oeBLfhrbX_kXdpD/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
-*Το προηγούμενο τεστάκι μπορείτε να το βρείτε*\ :doc:`εδώ  </home/bill/Documents/Projects/aftermaths/sphinx/docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι7-απόλυτες-τιμές>`\ *ενώ γενικά, τεστάκια,*\ `εδώ  </category/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82>`__\ *.*
+*Το προηγούμενο τεστάκι μπορείτε να το βρείτε*\ :doc:`εδώ  </home/bill/Documents/Projects/aftermaths/sphinx/docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι7-απόλυτες-τιμές>`\ *ενώ γενικά, τεστάκια,*\ `εδώ  </docs/Τεστάκι-της-ημέρας/index>`__\ *.*
 
 
 
