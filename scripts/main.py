@@ -461,6 +461,92 @@ def url_end_fix_fn(line: str, params: dict=dict()) -> str:
     return fixed_line
 
 
+def fix_cat_links(path: str) -> None:
+    fix_content(path, cat_fix_fn)
+
+
+def cat_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(r'/category/collatz', r'/docs/After-mahts/index', line)
+    fixed_line = re.sub(r'/category/tikz', r'/docs/Tikz/index', fixed_line)
+    fixed_line = re.sub(
+        r'/category/%cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82',
+        r'/docs/Τεστάκι-της-ημέρας/index',
+        fixed_line
+    )
+    fixed_line = re.sub(
+        r'/tag/%ce%b2-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85',
+        r'/docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/index',
+        fixed_line
+    )
+    fixed_line = re.sub(
+        r'`εδώ  </tag/%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85>`__',
+        r':doc:`εδώ /docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/index>',
+        fixed_line
+    )
+    fixed_line = re.sub(
+        r'`εδώ  </tag/%ce%b1%ce%b5%cf%80%cf%80>`__',
+        r':doc:`εδώ /docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/ΑΕΠΠ/index>',
+        fixed_line
+    )
+    fixed_line = re.sub(
+        r'`εδώ  </tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82>`__',
+        r':doc:`εδώ /docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/index>',
+        fixed_line
+    )
+    fixed_line = re.sub(
+        r'/tag/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82',
+        r'/docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/index',
+        fixed_line
+    )
+    fixed_line = re.sub(
+        r'/%cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82',
+        r'/panellinies>',
+        fixed_line
+    )
+    fixed_line = re.sub(
+        r'`εδώ  </tag/%ce%b5%cf%80%ce%b1%ce%bb>`__',
+        r':doc:`εδώ /docs/Διδακτικό-Υλικό/Γ-ΕΠΑΛ/index>',
+        fixed_line
+    )
+    return fixed_line
+
+
+def fix_tags(path: str) -> None:
+    fix_content(path, tag_fix_fn)
+
+
+def tag_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(
+        r'/category/%ce%b1%ce%be%ce%af%cf%89%ce%bc%ce%b1-%cf%84%ce%b7%cf%82-%cf%80%ce%bb%ce%b7%cf%81%cf%8c%cf%84%ce%b7%cf%84%ce%b1%cf%82',
+        r'/docs/After-maths/index',
+        line
+    )
+    fixed_line = re.sub(
+        r'/tag/%ce%b5%cf%80%ce%b1%ce%bb',
+        r'/docs/Διδακτικό-Υλικό/index',
+        fixed_line
+    )
+    return fixed_line
+
+
+def fix_bad_doc_links(path: str) -> None:
+    fix_content(path, bad_doc_fix_fn)
+
+
+def bad_doc_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(
+        r'`<εδώ /docs/Tikz/index>`__',
+        r'`:doc:`<εδώ /docs/Tikz/index>``',
+        line
+    )
+    fixed_line = re.sub(
+        r':doc:`([^`<>]+)<([^`<>]+usp=sharing)>`',
+        r'`\1 <\2>`__',
+        fixed_line
+    )
+    return fixed_line
+
+
 def main():
     # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
@@ -486,9 +572,12 @@ def main():
         # fix_yt_url(file_path)
         # fix_internal_links(file_path)
         # fix_teaching_mat_links(file_path)
-        fix_external_tm(file_path)
+        # fix_external_tm(file_path)
         # refix_tm_ext(file_path)
         # fix_url_ends(file_path)
+        # fix_cat_links(file_path)
+        # fix_tags(file_path)
+        fix_bad_doc_links(file_path)
 
 
 if __name__ == "__main__":
