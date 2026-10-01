@@ -21,18 +21,20 @@
 - [x] Fix landing page `index.rst` to show the latest 'Aftermaths' post.
 - [x] Create, optionally, a "Latest" category where the five last posts are displayed.
 - [x] In "recently", exclude any drafts.
-- [ ] Fix internal links which appear to point to the wrong files. Maybe:
+- [x] Fix internal links which appear to point to the wrong files. Maybe:
     - Loop through all files and links per file.
     - For each link to an `.rst` file, search for it in the current structure and substitute its absolute path.
 - [ ] LaTeX formatting in Tikz posts.
-- [ ] Navigation links.
+- [x] Navigation links.
 - [ ] Translate 'On this page' to Greek.
-- [ ] Create contact page.
+- [x] Create contact page.
+    - [x] Fix css for contact page by ammending the custom CSS file accordingly.
 - [x] Fix the global link for tests pointing to the actual tests page.
 - [x] Fix the global link for teaching materials
 - [x] Locate and handle hardcoded `afteramths.gr` and `aftermathsgr.wordpress.com` references.
 - [ ] Fig `tag` and `category` links.
 - [ ] There are some wp-related code blocks in tikz posts.
+- [ ] Shorten EPAL C TOC tree.
 
 ## Notes
 

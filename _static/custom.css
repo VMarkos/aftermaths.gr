@@ -1,3 +1,44 @@
 .sidetoc-only > .toctree-wrapper {
     display: none;
 }
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    font-family: monospace;
+    padding-top: 20px;
+}
+
+.contact-form > label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.contact-form textarea, .contact-form input[type="email"]{
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 10px;
+    border: 1px solid #404040;
+    box-shadow: 1px 1px 1px #404040;
+    color: #404040;
+}
+
+.contact-form textarea {
+    min-height: 200px;
+}
+
+.contact-form > button {
+    background-color: #d230c0;
+    color: white;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #d230c0;
+    box-shadow: 1px 1px 1px #404040;
+}

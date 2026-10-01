@@ -90,7 +90,7 @@ def setup(app: Sphinx):
 
 
 project = 'aftermaths'
-copyright = '2026, aftermaths'
+copyright = '2018-today, aftermaths'
 author = 'aftermaths'
 release = '0.1.0'
 
@@ -104,8 +104,9 @@ extensions = [
 ]
 
 templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv/*', 'docs/Πρόχειρα/*']
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', 'venv/*', 'docs/Πρόχειρα/*', 'includes', 'locales']
 
+locale_dirs = ['locales/']
 language = 'el'
 
 master_doc = "contents"
@@ -132,11 +133,11 @@ html_sidebars = {
 theme_options = ThemeOptions(
     show_breadcrumbs = True,
     main_nav_links = {
-        "Σχετικά": "/about",
-        "Πανελλήνιες": "/panellinies",
-        "Υλικό": "docs/διδακτικό-υλικό",
+        "Σχετικά": "about",
+        "Πανελλήνιες": "panellinies",
+        "Υλικό": "docs/Διδακτικό-Υλικό/index",
         # "Εργαλεία": "/tools",
-        "Επικοινωνία": "/contact",
+        "Επικοινωνία": "contact",
     },
     awesome_external_links = True,
 )
