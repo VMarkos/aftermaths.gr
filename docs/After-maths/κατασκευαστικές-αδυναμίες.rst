@@ -466,8 +466,6 @@
 
 
 
-.. container:: wp-block-spacer
-
 .. _notes:
 
 Σημειώσεις

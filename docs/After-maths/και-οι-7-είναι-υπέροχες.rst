@@ -10,11 +10,11 @@
 	:status: published
 	:attachments: _static/images/uploads/2023/09/pythagoras_03.png, _static/images/uploads/2023/09/pythagoras_02.png, _static/images/uploads/2023/09/tennenbaum_02.png, _static/images/uploads/2023/09/pythagoras_01.png, _static/images/uploads/2023/09/karl_wilhelm_diefenbach_-_toteninsel.jpg, _static/images/uploads/2023/09/tennenbaum_01.png, _static/images/uploads/2023/09/tennenbaum_02-1.png, _static/images/uploads/2023/10/construction_01.png, _static/images/uploads/2023/09/pythagoras_04.png, _static/images/uploads/2023/09/pythagoras_05.png
 
-.. figure:: /_static/images/uploads/2023/09/pythagoras_03.png, _static/images/uploads/2023/09/pythagoras_02.png, _static/images/uploads/2023/09/tennenbaum_02.png, _static/images/uploads/2023/09/pythagoras_01.png, _static/images/uploads/2023/09/karl_wilhelm_diefenbach_-_toteninsel.jpg, _static/images/uploads/2023/09/tennenbaum_01.png, _static/images/uploads/2023/09/tennenbaum_02-1.png, _static/images/uploads/2023/10/construction_01.png, _static/images/uploads/2023/09/pythagoras_04.png, _static/images/uploads/2023/09/pythagoras_05.png
-	:alt: *το νησί των νεκρών* του `Karl Wilhelm Diefenbach  <https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach>`__. 
+.. figure:: _static/images/uploads/2023/09/karl_wilhelm_diefenbach_-_toteninsel.jpg
+	:alt: *Το νησί των νεκρών* του `Karl Wilhelm Diefenbach  <https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach>`__. 
 	:align: center
 
-	*το νησί των νεκρών* του `Karl Wilhelm Diefenbach  <https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach>`__. 
+	*Το νησί των νεκρών* του `Karl Wilhelm Diefenbach  <https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach>`__. 
 
 
 Τα έχουμε :doc:`ξαναπεί  </docs/After-maths/τι-λέει-το-θεώρημα-του-bolzano>` και στο παρελθόν, τα μαθηματικά, ιδιαίτερα τα σχολικά, είναι συνυφασμένα με τις εποχές του χρόνου. Και μαζί με τη φθινοπωρινή δροσιά του Σεπτέμβρη έρχονται και οι άρρητοι. Γιατί, κάπου τώρα είναι που σκεφτόμαστε και προβληματιζόμαστε γιατί και πώς να διδάξουμε τη ρημάδα την απόδειξη της αρρητότητας του  :math:`\sqrt{2}.`  Τους διδακτικούς στόχους αυτής της απόδειξης τους έχουμε συζητήσει αρκετά στο παρελθόν, όταν και ανακαλύψαμε, με περισσή έκπληξη, ότι η κλασική σχολική απόδειξη *δεν είναι μία απόδειξη με απαγωγή σε άτοπο* - ναι, ναι, αν δεν το θυμάστε, μπορείτε να κάνετε μία :doc:`επανάληψη  </docs/After-maths/απαγωγή-σε-άτοπο-not>`.

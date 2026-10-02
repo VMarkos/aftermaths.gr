@@ -24,7 +24,7 @@
 - [x] Fix internal links which appear to point to the wrong files. Maybe:
     - Loop through all files and links per file.
     - For each link to an `.rst` file, search for it in the current structure and substitute its absolute path.
-- [ ] LaTeX formatting in Tikz posts.
+- [x] LaTeX formatting in Tikz posts.
 - [x] Navigation links.
 - [ ] Translate 'On this page' to Greek.
 - [x] Create contact page.
