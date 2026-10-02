@@ -547,6 +547,15 @@ def bad_doc_fix_fn(line: str, params: dict=dict()) -> str:
     return fixed_line
 
 
+def fix_double_gt(path: str) -> None:
+    fix_content(path, double_gt_fix_fn)
+
+
+def double_gt_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(r'>>`', r'>`', line)
+    return fixed_line
+
+
 def main():
     # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
@@ -577,7 +586,8 @@ def main():
         # fix_url_ends(file_path)
         # fix_cat_links(file_path)
         # fix_tags(file_path)
-        fix_bad_doc_links(file_path)
+        # fix_bad_doc_links(file_path)
+        fix_double_gt(file_path)
 
 
 if __name__ == "__main__":
