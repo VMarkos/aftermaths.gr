@@ -19,7 +19,7 @@
 
 Ένα μικρό quiz στην ύλη της άλγεβρας της Αʹ Λυκείου μέχρι και τις απόλυτες τιμές και τα διαστήματα πραγματικών αριθμών.
 
-Το quiz μπορείτε να το βρείτε :doc:`εδώ  <https://docs.google.com/forms/d/e/1FAIpQLSeRDBIyjWoyM_LAdqUftZ3c-wCwBxhGqGG37UvQlf4PfUlnIA/viewform?usp=sf_link>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+Το quiz μπορείτε να το βρείτε `εδώ  <https://docs.google.com/forms/d/e/1FAIpQLSeRDBIyjWoyM_LAdqUftZ3c-wCwBxhGqGG37UvQlf4PfUlnIA/viewform?usp=sf_link>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
 
 
