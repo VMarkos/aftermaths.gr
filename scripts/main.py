@@ -556,6 +556,32 @@ def double_gt_fix_fn(line: str, params: dict=dict()) -> str:
     return fixed_line
 
 
+def fix_external_docs(path: str) -> None:
+    fix_content(path, external_docs_fix_fn)
+
+
+def external_docs_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(
+        r'(?<!:doc:)`([^`<>]+)<(/docs/[^`<>]+)>`',
+        r':doc:`\1 \2`',
+        line
+    )
+    return fixed_line
+
+
+def fix_yt_spaces(path: str) -> None:
+    fix_content(path, yt_spaces_fix_fn)
+
+
+def yt_spaces_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(
+        r'^\s*.. youtube::\s+([a-zA-Z0-9_-]+)\s+([a-zA-Z0-9_-]+)',
+        r'.. youtube:: \1\2',
+        line
+    )
+    return fixed_line
+
+
 def main():
     # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
@@ -587,7 +613,9 @@ def main():
         # fix_cat_links(file_path)
         # fix_tags(file_path)
         # fix_bad_doc_links(file_path)
-        fix_double_gt(file_path)
+        # fix_double_gt(file_path)
+        # fix_external_docs(file_path)
+        fix_yt_spaces(file_path)
 
 
 if __name__ == "__main__":
