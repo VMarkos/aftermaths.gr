@@ -10,7 +10,7 @@
 	:status: published
 	:attachments: _static/images/uploads/2022/11/best_approx.png, _static/images/uploads/2022/11/best_approx_02.png, _static/images/uploads/2022/11/dlh_f_g-1.png, _static/images/uploads/2022/11/infty_approx_01.png, _static/images/uploads/2022/11/best_approx_01.png, _static/images/uploads/2022/11/best_approx_04.png, _static/images/uploads/2022/11/gustave_caillebotte_-_the_yellow_fields_at_gennevilliers.jpg, _static/images/uploads/2022/11/dlh_f_g.png, _static/images/uploads/2022/11/infty_approx_02.png, _static/images/uploads/2022/11/best_approx_03.png
 
-.. figure:: /_static/images/uploads/2022/11/best_approx.png, _static/images/uploads/2022/11/best_approx_02.png, _static/images/uploads/2022/11/dlh_f_g-1.png, _static/images/uploads/2022/11/infty_approx_01.png, _static/images/uploads/2022/11/best_approx_01.png, _static/images/uploads/2022/11/best_approx_04.png, _static/images/uploads/2022/11/gustave_caillebotte_-_the_yellow_fields_at_gennevilliers.jpg, _static/images/uploads/2022/11/dlh_f_g.png, _static/images/uploads/2022/11/infty_approx_02.png, _static/images/uploads/2022/11/best_approx_03.png
+.. figure:: /_static/images/uploads/2022/11/gustave_caillebotte_-_the_yellow_fields_at_gennevilliers.jpg
 	:alt: Ο καθʹόλα φθινοπωρινός πίνακας *Τα κίτρινα λιβάδια της Gennevilliers* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
 	:align: center
 

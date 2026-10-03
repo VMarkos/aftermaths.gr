@@ -10,7 +10,7 @@
 	:status: published
 	:attachments: _static/images/uploads/2022/11/polynomial13.png, _static/images/uploads/2022/11/polynomial14.png, _static/images/uploads/2022/11/polynomial02.png, _static/images/uploads/2022/11/polynomial03.png, _static/images/uploads/2022/11/polynomial05-2.png, _static/images/uploads/2022/11/polynomial05.png, _static/images/uploads/2022/11/polynomial05-1.png, _static/images/uploads/2022/11/polynomial01.png, _static/images/uploads/2022/11/polynomial15.png, _static/images/uploads/2022/11/polynomial17.png, _static/images/uploads/2022/11/polynomial07.png, _static/images/uploads/2022/11/polynomial13-1.png, _static/images/uploads/2022/11/polynomial11.png, _static/images/uploads/2022/11/polynomial12.png, _static/images/uploads/2022/11/polynomial16.png, _static/images/uploads/2022/11/polynomial08.png, _static/images/uploads/2022/11/gustave_caillebotte_-_paris_street_rainy_day_-_google_art_project.jpg, _static/images/uploads/2022/11/polynomial05-4.png, _static/images/uploads/2022/11/polynomial06.png, _static/images/uploads/2022/11/polynomial05-3.png, _static/images/uploads/2022/11/polynomial09.png
 
-.. figure:: _static/images/uploads/2022/11/gustave_caillebotte_-_paris_street_rainy_day_-_google_art_project.jpg
+.. figure:: /_static/images/uploads/2022/11/gustave_caillebotte_-_paris_street_rainy_day_-_google_art_project.jpg
 	:alt: Ο επίκαιρος πίνακας *Οι δρόμοι του Παρισιού, μία βροχερή μέρα* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
 	:align: center
 
@@ -154,7 +154,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Υποσχεθήκαμε παραπάνω ότι η πρόταση που μόλις αποδείξαμε μπορεί να μας βοηθήσει όσα αποτελέσματα συνοψίσαμε για τις πολλαπλότητες των ριζών και τον τρόπο που τέμνει η γραφική παράσταση μίας συνάρτησης τον άξονα  :math:`x'x.`  Ας δούμε τη γραφική παράσταση που φαίνεται στο παρακάτω σχήμα:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial01.png?w=1022
+.. figure:: {static}wp-content/uploads/2022/11/polynomial01.png
    :alt: Ωραία γραφική παράσταση, έτσι δεν είναι;
    :figclass: wp-image-11363
    :width: 760px
@@ -196,7 +196,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Αυτά όλα μπορεί να φαίνονται πολύ χαλαρά, αλλά ένα ακόμα σχήμα θα σας πείσει για την αλήθεια των παραπάνω:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial02.png?w=1024
+.. figure:: {static}wp-content/uploads/2022/11/polynomial02.png
    :alt: Ζουμ: το βασικότερο εργαλείο κατανόησης του απειροστικού λογισμού.
    :figclass: wp-image-11373
 
@@ -226,7 +226,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Η στιγμή της αλήθειας έφτασε, θα σχεδιάσουμε τη γραφική παράσταση του παραπάνω πολυωνύμου και...
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial03.png?w=1022
+.. figure:: {static}wp-content/uploads/2022/11/polynomial03.png
    :alt: Πφφφφφ! Είμαστε κοντά, ωστόσο...
    :figclass: wp-image-11380
 
@@ -234,7 +234,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 \.\.\.δε θα δούμε αυτό που περιμέναμε. Ωστόσο, χρειαζόμαστε ψυχραιμία, ένα από τα βασικά χαρακτηριστικά κάθε μαθηματικού. Ας βάλουμε λίγο τα σχήματά μας δίπλα-δίπλα, να τα καμαρώσουμε:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial05-4.png?w=1024
+.. figure:: {static}wp-content/uploads/2022/11/polynomial05-4.png
    :alt: Σχεδόν κοντά...
    :figclass: wp-image-11387
 
@@ -246,7 +246,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 παίρνουμε το εξής:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial06.png?w=1024
+.. figure:: {static}wp-content/uploads/2022/11/polynomial06.png
    :alt: Εντάξει, πετάει η ομάδα!
    :figclass: wp-image-11391
 
@@ -256,7 +256,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Τέλος πάντων, καλά τα είπαμε ως εδώ, αλλά, εντάξει, ήταν λίγο «σικέ» το σκηνικό, δε συμφωνείτε; Ας πάρουμε άλλη μία συνάρτηση:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial07.png?w=1021
+.. figure:: {static}wp-content/uploads/2022/11/polynomial07.png
    :alt: Μία «παραλίγο συμμετρική» γραφική παράσταση.
    :figclass: wp-image-11393
 
@@ -268,7 +268,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Ας δούμε τι κάναμε:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial08.png?w=1024
+.. figure:: {static}wp-content/uploads/2022/11/polynomial08.png
    :alt: Εεεεεε...
    :figclass: wp-image-11396
 
@@ -276,7 +276,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Εντάξει, δεν τα πήγαμε και τόσο καλά, είναι η αλήθεια. Ας πάρουμε, όμως, μία βαθιά ανάσα και ας προσπαθήσουμε να καταλάβουμε τι πήγε λάθος. Αν το καλοσκεφτείτε, η ουσιώδης δομή της γραφικής μας παράστασης δε βρίσκεται κοντά στον άξονα  :math:`x'x`  αλλά λίγο παραπάνω, όπως φαίνεται και στο παρακάτω σχήμα:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial09.png?w=1021
+.. figure:: {static}wp-content/uploads/2022/11/polynomial09.png
    :alt: Είναι σημαντικό σε αυτήν τη ζωή να κοιτάμε ψηλά...
    :figclass: wp-image-11398
 
@@ -294,7 +294,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Το παραπάνω πολυώνυμο είναι ένα πολυώνυμο που έχει όλες τι ιδιότητες που αναφέραμε παραπάνω, απλά όχι επί του άξονα  :math:`x'x`  αλλά επί της ευθείας  :math:`y=1`  που βρίσκεται μία μονάδα πάνω από τον άξονα  :math:`x'x.`  Το παρακάτω σχήμα υποδεικνύει ότι κάναμε (άλλη μία) σωστή μαντεψιά:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial11.png?w=1024
+.. figure:: {static}wp-content/uploads/2022/11/polynomial11.png
    :alt: Εντάξει, το έχουμε με τη ζωγραφική, το έχουμε!
    :figclass: wp-image-11402
    :width: 760px
@@ -309,7 +309,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Κι αν νομίζατε ότι «στρίβοντας» εννοούσαμε ότι θα αποχωρήσουμε, θα διαβάσετε την εφημερίδα σας και θα συνεχίσετε την όχι και τόσο ηλιόλουστη Κυριακή σας, κάνατε ένα πολύ μεγάλο λάθος. Πάρα πολύ μεγάλο λάθος. Δε θα στρίψουμε εμείς, αλλά οι γραφικές μας παραστάσεις. Ας χαζέψουμε λίγο το ακόλουθο σχήμα:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial12.png?w=878
+.. figure:: {static}wp-content/uploads/2022/11/polynomial12.png
    :alt: Ωραίο κι αυτό...
    :figclass: wp-image-11406
 
@@ -317,7 +317,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Εντάξει, θα πει κανείς, εδώ είναι σχετικά εύκολα τα πράγματα. Μπορούμε να κάνουμε κάποια τεχνάσματα όπως και παραπάνω. Για την ακρίβεια, σχεδιάζουμε λίγες γραμμές στο παραπάνω σχήμα που θα μας βοηθήσουμε να βρούμε την άκρη στον μίτο της Αριάδνης:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial13-1.png?w=1024
+.. figure:: {static}wp-content/uploads/2022/11/polynomial13-1.png
    :alt: Μετρήσαμε κάποια πράγματα και τώρα θα ζωγραφίσουμε.
    :figclass: wp-image-11412
 
@@ -329,7 +329,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Η εν λόγω γραφική παράσταση φαίνεται παρακάτω:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial14.png?w=1024
+.. figure:: {static}wp-content/uploads/2022/11/polynomial14.png
    :alt: Σχεδόν εκεί που θέλαμε...
    :figclass: wp-image-11413
 
@@ -337,7 +337,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Εντάξει, θα χρειαστεί να μικρύνουμε λίγο ακόμα τη γραφική μας παράσταση, οπότε, μετά από λίγες δοκιμές καταφέρνουμε το εξής:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial15.png?w=1024
+.. figure:: {static}wp-content/uploads/2022/11/polynomial15.png
    :alt: Τόσο κοντάαααα!
    :figclass: wp-image-11416
 
@@ -353,7 +353,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Ας παρατηρήσουμε λίγο το ακόλουθο σχήμα:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial16.png?w=1024
+.. figure:: {static}wp-content/uploads/2022/11/polynomial16.png
    :alt: Μία κάπως ενδιαφέρουσα ευθεία...
    :figclass: wp-image-11420
 
@@ -365,7 +365,7 @@ An  :math:`f:[a,b]\to\mathbb{R} `  είναι μία συνεχής συνάρτ
 
 Η γραφική της παράσταση φαίνεται παρακάτω:
 
-.. figure:: {static}wp-content/uploads/2022/11/polynomial17.png?w=1024
+.. figure:: {static}wp-content/uploads/2022/11/polynomial17.png
    :alt: Μα καλά, τόση ακρίβεια, πια;
    :figclass: wp-image-11424
 

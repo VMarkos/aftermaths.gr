@@ -10,7 +10,7 @@
 	:status: published
 	:attachments: _static/images/uploads/2024/07/002_2425_005.png, _static/images/uploads/2024/07/002_2425_002.png, _static/images/uploads/2024/07/guercino_giovanni_francesco_barbieri_-_christ_and_the_woman_of_samaria_-_google_art_project.jpg, _static/images/uploads/2024/07/002_2425_001.png, _static/images/uploads/2024/07/002_2425_004.png, _static/images/uploads/2024/07/002_2425_003.png
 
-.. figure:: /_static/images/uploads/2024/07/002_2425_005.png, _static/images/uploads/2024/07/002_2425_002.png, _static/images/uploads/2024/07/guercino_giovanni_francesco_barbieri_-_christ_and_the_woman_of_samaria_-_google_art_project.jpg, _static/images/uploads/2024/07/002_2425_001.png, _static/images/uploads/2024/07/002_2425_004.png, _static/images/uploads/2024/07/002_2425_003.png
+.. figure:: /_static/images/uploads/2024/07/guercino_giovanni_francesco_barbieri_-_christ_and_the_woman_of_samaria_-_google_art_project.jpg
 	:alt: Ο πίνακας *Ο Χριστός και η Σαμαρείτισσα* του `Guercino  <https://en.wikipedia.org/wiki/Guercino>`__. 
 	:align: center
 

@@ -39,7 +39,7 @@
 - [x] Fix images that are not found, e.g., `.png?w=\d{3}`
 - [x] Check why `/panellinies` is not found as a document.
 - [x] Fix the following (missing).
-- [ ] Fix broken youtube links (2 arguments instead of 1, e.g., remove spacing)
+- [x] Fix broken youtube links (2 arguments instead of 1, e.g., remove spacing)
 
 
 ## Notes

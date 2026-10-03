@@ -10,7 +10,7 @@
 	:status: published
 	:attachments: _static/images/uploads/2021/01/iwan_nikolajewitsch_kramskoj_006.jpg, _static/images/uploads/2021/01/706px-iwan_nikolajewitsch_kramskoj_004.jpg
 
-.. figure:: /_static/images/uploads/2021/01/iwan_nikolajewitsch_kramskoj_006.jpg, _static/images/uploads/2021/01/706px-iwan_nikolajewitsch_kramskoj_004.jpg
+.. figure:: /_static/images/uploads/2021/01/iwan_nikolajewitsch_kramskoj_006.jpg
 	:alt: Το πορτραίτο του Leo Tolstoy του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__. 
 	:align: center
 

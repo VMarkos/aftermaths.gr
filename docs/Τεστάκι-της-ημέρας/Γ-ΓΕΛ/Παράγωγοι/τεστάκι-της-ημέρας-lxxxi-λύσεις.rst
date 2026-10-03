@@ -10,7 +10,7 @@
 	:status: published
 	:attachments: _static/images/uploads/2021/04/869px-pierre-auguste_renoir_-_jeanne_henriot-1.jpg, _static/images/uploads/2021/04/1280px-pierre-auguste_renoir_107.jpg
 
-.. figure:: /_static/images/uploads/2021/04/869px-pierre-auguste_renoir_-_jeanne_henriot-1.jpg, _static/images/uploads/2021/04/1280px-pierre-auguste_renoir_107.jpg
+.. figure:: /_static/images/uploads/2021/04/869px-pierre-auguste_renoir_-_jeanne_henriot-1.jpg
 	:alt: Το πορτραίτο των Charles και George Durand-Ruel του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
 	:align: center
 

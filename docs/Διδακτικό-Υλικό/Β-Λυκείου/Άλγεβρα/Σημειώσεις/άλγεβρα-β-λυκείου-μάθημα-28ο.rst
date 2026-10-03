@@ -10,7 +10,7 @@
 	:status: published
 	:attachments: _static/images/uploads/2022/04/1280px-delacroix_eugene_ferdinand_victor_-_woman_with_a_parrot_-_1827.jpg, _static/images/uploads/2022/04/1271px-eugene_ferdinand_victor_delacroix_021.jpg
 
-.. figure:: /_static/images/uploads/2022/04/1280px-delacroix_eugene_ferdinand_victor_-_woman_with_a_parrot_-_1827.jpg, _static/images/uploads/2022/04/1271px-eugene_ferdinand_victor_delacroix_021.jpg
+.. figure:: /_static/images/uploads/2022/04/1280px-delacroix_eugene_ferdinand_victor_-_woman_with_a_parrot_-_1827.jpg
 	:alt: Ο πίνακας *Γυναίκα με παπαγάλο* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__. 
 	:align: center
 

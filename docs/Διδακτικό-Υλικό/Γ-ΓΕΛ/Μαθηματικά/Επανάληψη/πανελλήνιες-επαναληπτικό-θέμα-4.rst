@@ -10,7 +10,7 @@
 	:status: published
 	:attachments: _static/images/uploads/2022/03/ferdinand_de_braekeleer_lancien_-_courting-1.jpg, _static/images/uploads/2022/03/netherlands-4426_-_arrival_of_napoleon_at_amsterdam_281208317937429.jpg
 
-.. figure:: /_static/images/uploads/2022/03/ferdinand_de_braekeleer_lancien_-_courting-1.jpg, _static/images/uploads/2022/03/netherlands-4426_-_arrival_of_napoleon_at_amsterdam_281208317937429.jpg
+.. figure:: /_static/images/uploads/2022/03/netherlands-4426_-_arrival_of_napoleon_at_amsterdam_281208317937429.jpg
 	:alt: Ο πίνακας *Η άφιξη του Ναπολέοντα στο Άμστερνταμ* του `Mattheus Ignatius van Bree  <https://en.wikipedia.org/wiki/Mattheus_Ignatius_van_Bree>`__. 
 	:align: center
 
