@@ -37,7 +37,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/good_deed_2_b.png
+   .. figure:: /_static/images/uploads/2020/03/good_deed_2_b.png
       :alt: Ήταν σχεδόν 50...
       :figclass: wp-image-2335
 
@@ -48,7 +48,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/gd3_b.png
+   .. figure:: /_static/images/uploads/2020/03/gd3_b.png
       :alt: Τι είναι το 9 αν όχι «περίπου» 10;
       :figclass: wp-image-2339
 
@@ -59,7 +59,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/gd4_b.png
+   .. figure:: /_static/images/uploads/2020/03/gd4_b.png
       :alt: Άμα ξέρεις 10-20 βασικά τετράγωνα, τα άλλα είναι εύκολα, τελικά!
       :figclass: wp-image-2347
 
@@ -70,7 +70,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/gd5_b.png
+   .. figure:: /_static/images/uploads/2020/03/gd5_b.png
       :alt: Άμα ξέρεις λίγες δυνάμεις του 2, όλα εύκολα είναι...
       :figclass: wp-image-2372
 
@@ -81,7 +81,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/gd6_b.png
+   .. figure:: /_static/images/uploads/2020/03/gd6_b.png
       :alt: Δύο «συμπληρώματα»
       :figclass: wp-image-2413
 
@@ -92,7 +92,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/03/gd7_b.png
+   .. figure:: /_static/images/uploads/2020/03/gd7_b.png
       :alt: Απλά τα πράγματα...
       :figclass: wp-image-2459
 
@@ -103,7 +103,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/04/gd8_b.png
+   .. figure:: /_static/images/uploads/2020/04/gd8_b.png
       :alt: Ένα ακόμα συμπλήρωμα...
       :figclass: wp-image-2469
 
@@ -114,7 +114,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/04/gd9_b.png
+   .. figure:: /_static/images/uploads/2020/04/gd9_b.png
       :alt: ...αλλά δεν είναι!
       :figclass: wp-image-2481
 
@@ -125,7 +125,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/08/gd10_b-3.png
+   .. figure:: /_static/images/uploads/2020/08/gd10_b-3.png
       :alt: ...και στο τετράγωνο!
       :figclass: wp-image-2801
 
@@ -158,7 +158,7 @@
 
 .. container:: wp-block-image
 
-   .. figure:: {static}wp-content/uploads/2020/09/gdb_13.png
+   .. figure:: /_static/images/uploads/2020/09/gdb_13.png
       :alt: Είπαμε, όλες οι πράξεις που βλέπετε κάπου χρειάστηκαν.
       :figclass: wp-image-2937
 
