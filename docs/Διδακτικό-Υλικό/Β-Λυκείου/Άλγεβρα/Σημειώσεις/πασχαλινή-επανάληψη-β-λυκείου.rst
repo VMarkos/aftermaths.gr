@@ -23,4 +23,4 @@
 
 Καλό διάβασμα και καλή ξεκούραση!
 
-.. youtube:: clVAv2nf7i0 
+.. youtube:: clVAv2nf7i 

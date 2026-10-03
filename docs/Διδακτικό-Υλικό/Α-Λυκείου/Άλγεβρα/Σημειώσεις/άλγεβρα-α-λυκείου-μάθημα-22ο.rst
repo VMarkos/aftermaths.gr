@@ -30,6 +30,6 @@
 
 
 
-   .. youtube:: hgSZWoCFbtc =PLJ-LF7UbaGXVISuOm_B9pjPxlcvGUv2wE&index=2
+   .. youtube:: hgSZWoCFbtc
 
 

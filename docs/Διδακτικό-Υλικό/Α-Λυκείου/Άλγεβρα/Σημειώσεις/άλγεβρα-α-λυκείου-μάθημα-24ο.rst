@@ -30,6 +30,6 @@
 
 
 
-   .. youtube:: krLYZmPRtnc =FLqDthziIOv4A7UhcGH2ynxw&index=1
+   .. youtube:: krLYZmPRtnc
 
 

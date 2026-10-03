@@ -9,17 +9,17 @@
 	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-lii-%ce%b1-%ce%bb%cf%85%ce%ba%ce%b5%ce%af%ce%bf%cf%85
 	:status: published
 	
-	Ένα τεστ στις ρίζες και τους ρητούς εκθέτες στα πλαίσια της ύλης της άλγεβρας της Αʹ Λυκείου/ΕΠΑΛ.
+Ένα τεστ στις ρίζες και τους ρητούς εκθέτες στα πλαίσια της ύλης της άλγεβρας της Αʹ Λυκείου/ΕΠΑΛ.
 	
-	Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/19XhyYjjV28oXd53-8PtDx76AY-umLoo9/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
-	
-	
-	
-	Καλημέρα και καλό διάβασμα!
+Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/19XhyYjjV28oXd53-8PtDx76AY-umLoo9/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 	
 	
 	
+Καλημέρα και καλό διάβασμα!
 	
-	   .. youtube:: en88_IEcQwU 
+	
+	
+	
+	   .. youtube:: en88_IEcQw 
 	
 	

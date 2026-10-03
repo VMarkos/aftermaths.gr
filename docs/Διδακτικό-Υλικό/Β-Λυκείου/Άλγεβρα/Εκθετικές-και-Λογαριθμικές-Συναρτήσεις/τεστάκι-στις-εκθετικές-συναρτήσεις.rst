@@ -23,4 +23,4 @@
 
 Καλημέρα και καλό διάβασμα!
 
-.. youtube:: GJtLj3nmr_Q 
+.. youtube:: GJtLj3nmr_ 

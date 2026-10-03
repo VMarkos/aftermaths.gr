@@ -23,4 +23,4 @@
 
 Καλό απόγευμα και καλό διάβασμα!
 
-.. youtube:: ZUzpf3mMsxA 
+.. youtube:: ZUzpf3mMsx 

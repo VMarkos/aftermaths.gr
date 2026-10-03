@@ -26,6 +26,6 @@
 
 
 
-   .. youtube:: SMqR86CI81M =FLqDthziIOv4A7UhcGH2ynxw&index=3
+   .. youtube:: SMqR86CI81M
 
 

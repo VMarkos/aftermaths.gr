@@ -26,6 +26,6 @@
 
 
 
-   .. youtube:: b4cO3gfrieg =FLqDthziIOv4A7UhcGH2ynxw&index=1
+   .. youtube:: b4cO3gfrieg
 
 

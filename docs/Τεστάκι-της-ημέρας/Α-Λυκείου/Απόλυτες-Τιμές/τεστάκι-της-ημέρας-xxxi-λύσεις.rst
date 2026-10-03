@@ -26,6 +26,6 @@
 
 
 
-   .. youtube:: 5QOObbOm9xw =FLqDthziIOv4A7UhcGH2ynxw&index=2
+   .. youtube:: 5QOObbOm9xw
 
 

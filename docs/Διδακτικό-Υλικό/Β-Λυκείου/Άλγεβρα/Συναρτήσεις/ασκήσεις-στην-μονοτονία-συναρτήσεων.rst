@@ -25,4 +25,4 @@
 
 Καλό απόγευμα και καλό διάβασμα!
 
-.. youtube:: XFW9wU8Ht3U =0s
+.. youtube:: XFW9wU8Ht3U
