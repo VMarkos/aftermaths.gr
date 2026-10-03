@@ -24,7 +24,7 @@
 
 Αρχικά, μιλώντας για ενδεχόμενα, την προηγούμενη εβδομάδα καταλήξαμε στον ακόλουθο ορισμό:
 
-| Έστω ένα σύνολο  :math:`\Omega. `  Θα ονομάζουμε *σ-άλγεβρα* του  :math:`\Omega`  κάθε κλάση  :math:`\mathcal{A}`  υποσυνόλων του με τις ακόλουθες τρεις ιδιότητες:
+| Έστω ένα σύνολο  :math:`\Omega.`  Θα ονομάζουμε *σ-άλγεβρα* του  :math:`\Omega`  κάθε κλάση  :math:`\mathcal{A}`  υποσυνόλων του με τις ακόλουθες τρεις ιδιότητες:
 | 1.  :math:`\varnothing\in\mathcal{A}.` 
 | 2.  :math:`A\in\mathcal{A}\Rightarrow\Omega\setminus A\in\mathcal{A}.` 
 | 3.  :math:`\ A_1,A_2,\ldots\in\mathcal{A}\Rightarrow \bigcap_{k=1}^\infty A_k\in\mathcal{A}.` 
