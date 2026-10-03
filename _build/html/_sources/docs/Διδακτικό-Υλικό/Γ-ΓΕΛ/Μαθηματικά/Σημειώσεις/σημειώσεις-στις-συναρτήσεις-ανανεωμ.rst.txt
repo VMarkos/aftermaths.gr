@@ -25,4 +25,4 @@
 
 Καλό απόγευμα και καλό διάβασμα!
 
-.. youtube:: 3fmSe24mED4 
+.. youtube:: 3fmSe24mED 

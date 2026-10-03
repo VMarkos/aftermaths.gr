@@ -10,7 +10,7 @@
 	:status: published
 	:attachments: _static/images/uploads/2023/04/las_meninas_by_diego_velazquez_from_prado_in_google_earth.jpg, _static/images/uploads/2023/04/exponential_01.png, _static/images/uploads/2023/04/non_convergent_01.png
 
-.. figure:: /_static/images/uploads/2023/04/las_meninas_by_diego_velazquez_from_prado_in_google_earth.jpg, _static/images/uploads/2023/04/exponential_01.png, _static/images/uploads/2023/04/non_convergent_01.png
+.. figure:: /_static/images/uploads/2023/04/las_meninas_by_diego_velazquez_from_prado_in_google_earth.jpg
 	:alt: Ο πίνακας *Τα δεσποινάρια* του `Diego Velázquez  <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__. 
 	:align: center
 
@@ -373,6 +373,6 @@
 
 
 
-   .. youtube:: h8MHXfH6Mwk 
+   .. youtube:: h8MHXfH6Mw 
 
 

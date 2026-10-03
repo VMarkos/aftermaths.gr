@@ -26,6 +26,6 @@
 
 
 
-   .. youtube:: E4meH3_3l8g =FLqDthziIOv4A7UhcGH2ynxw&index=6
+   .. youtube:: E4meH3_3l8g
 
 

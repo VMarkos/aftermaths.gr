@@ -10,7 +10,7 @@
 	:status: published
 	:attachments: _static/images/uploads/2024/07/001_2425_002.png, _static/images/uploads/2024/07/001_2425_001.png, _static/images/uploads/2024/07/001_2425_001-1.png, _static/images/uploads/2024/07/lossy-page1-2560px-moonlight_landscape_giovanni_francesco_barbieri_guercino_-_nationalmuseum_-_20163.tif.jpg
 
-.. figure:: /_static/images/uploads/2024/07/001_2425_002.png, _static/images/uploads/2024/07/001_2425_001.png, _static/images/uploads/2024/07/001_2425_001-1.png, _static/images/uploads/2024/07/lossy-page1-2560px-moonlight_landscape_giovanni_francesco_barbieri_guercino_-_nationalmuseum_-_20163.tif.jpg
+.. figure:: /_static/images/uploads/2024/07/lossy-page1-2560px-moonlight_landscape_giovanni_francesco_barbieri_guercino_-_nationalmuseum_-_20163.tif.jpg
 	:alt: Ο πίνακας *Τοπίο στο σεληνόφως* του `Guercino  <https://en.wikipedia.org/wiki/Guercino>`__. 
 	:align: center
 
@@ -228,6 +228,6 @@
 
 
 
-   .. youtube:: FsY6FjisMIc 
+   .. youtube:: FsY6FjisMI 
 
 

@@ -25,6 +25,6 @@
 
 Καλό απόγευμα και καλό διάβασμα!
 
-.. youtube:: yPY7i5zDdH8 
+.. youtube:: yPY7i5zDdH 
 
  

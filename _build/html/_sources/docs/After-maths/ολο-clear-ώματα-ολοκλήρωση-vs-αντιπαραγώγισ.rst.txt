@@ -10,7 +10,7 @@
 	:status: published
 	:attachments: _static/images/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator2.png, _static/images/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator.png, _static/images/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator1.png, _static/images/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator.png, _static/images/uploads/2020/03/michael_ancher_-_den_rc3b8de_redningsbc3a5d_sejler_ud.jpg, _static/images/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator1.png
 
-.. figure:: /_static/images/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator2.png, _static/images/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator.png, _static/images/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator1.png, _static/images/uploads/2020/03/screenshot_2020-03-02-desmos-graphing-calculator.png, _static/images/uploads/2020/03/michael_ancher_-_den_rc3b8de_redningsbc3a5d_sejler_ud.jpg, _static/images/uploads/2020/03/screenshot_2020-03-01-desmos-graphing-calculator1.png
+.. figure:: /_static/images/uploads/2020/03/michael_ancher_-_den_rc3b8de_redningsbc3a5d_sejler_ud.jpg
 	:alt: Ο πίνακας *Η κόκκινη σωσίβια λέμβος στο δρόμο της προς τη θάλασσα* του `Michael Ancher  <https://en.wikipedia.org/wiki/Michael_Ancher>`__\ *.* 
 	:align: center
 
@@ -309,6 +309,6 @@ Wellcome!
 
 
 
-   .. youtube:: eZEYvk3zrxk 
+   .. youtube:: eZEYvk3zrx 
 
 

@@ -35,7 +35,7 @@
 
 Ίσως το πιο ενδιαφέρον από αυτά - σίγουρα ένα από τα πιο ενδιαφέροντα - είναι το θεώρημα του Frullani, το οποίο και παραθέτουμε ευθύς αμέσως:
 
-Για μία συνεχή συνάρτηση  :math:`f:[0,+\infty)\to\mathbb{R} `  με  :math:`\lim\limits_{x\to+\infty}f(x)=\ell\in\mathbb{R} `  ισχύει ότι:  :math:`\int_0^\infty\frac{f(ax)-f(bx)}{x}dx=(\ell-f(0))\ln\frac{a}{b}, `  για κάθε  :math:`a,b>0 ` .
+Για μία συνεχή συνάρτηση  :math:`f:[0,+\infty)\to\mathbb{R}`  με  :math:`\lim\limits_{x\to+\infty}f(x)=\ell\in\mathbb{R}`  ισχύει ότι:  :math:`\int_0^\infty\frac{f(ax)-f(bx)}{x}dx=(\ell-f(0))\ln\frac{a}{b},`  για κάθε  :math:`a,b>0` .
 
 Σε μία πιο απλή μορφή, αν  :math:`f(0)=1`  και  :math:`\ell=0`  τότε παίρνουμε:
 
@@ -282,6 +282,6 @@
 
 
 
-   .. youtube:: BuJTn1RQ2us 
+   .. youtube:: BuJTn1RQ2u 
 
 

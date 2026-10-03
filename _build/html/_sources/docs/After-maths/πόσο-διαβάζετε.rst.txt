@@ -10,7 +10,7 @@
 	:status: published
 	:attachments: _static/images/uploads/2024/06/image.png, _static/images/uploads/2024/06/image-1.png, _static/images/uploads/2024/07/image.png, _static/images/uploads/2024/07/image-1.png, _static/images/uploads/2024/06/image-2.png, _static/images/uploads/2024/07/image-2.png, _static/images/uploads/2024/07/wilhelm_diefenbach_der_rettung_entgegen.jpg, _static/images/uploads/2024/06/image-4.png, _static/images/uploads/2024/06/image-3.png, _static/images/uploads/2024/06/image-5.png, _static/images/uploads/2024/07/image-3.png
 
-.. figure:: /_static/images/uploads/2024/06/image.png, _static/images/uploads/2024/06/image-1.png, _static/images/uploads/2024/07/image.png, _static/images/uploads/2024/07/image-1.png, _static/images/uploads/2024/06/image-2.png, _static/images/uploads/2024/07/image-2.png, _static/images/uploads/2024/07/wilhelm_diefenbach_der_rettung_entgegen.jpg, _static/images/uploads/2024/06/image-4.png, _static/images/uploads/2024/06/image-3.png, _static/images/uploads/2024/06/image-5.png, _static/images/uploads/2024/07/image-3.png
+.. figure:: /_static/images/uploads/2024/07/wilhelm_diefenbach_der_rettung_entgegen.jpg
 	:alt: Ο πίνακας *Προς τη Διάσωση* του `Karl Wilhelm Diefenbach  <https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach>`__. 
 	:align: center
 
@@ -170,6 +170,6 @@
 
 
 
-   .. youtube:: rWEI9y6PElo 
+   .. youtube:: rWEI9y6PEl 
 
 

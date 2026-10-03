@@ -10,7 +10,7 @@
 	:status: published
 	:attachments: _static/images/uploads/2024/05/pir_venn_001.png, _static/images/uploads/2024/05/velazquez_-_de_breda_o_las_lanzas_museo_del_prado_1634-35.jpg, _static/images/uploads/2024/07/plot_003.png, _static/images/uploads/2024/07/plot_003-1.png, _static/images/uploads/2024/05/pir_venn_002.png, _static/images/uploads/2024/07/plot_001.png, _static/images/uploads/2024/05/horner_003.png, _static/images/uploads/2024/05/horner_004.png, _static/images/uploads/2024/07/plot_002.png, _static/images/uploads/2024/05/horner_002.png, _static/images/uploads/2024/05/horner_001.png, _static/images/uploads/2024/07/horner_005.png
 
-.. figure:: /_static/images/uploads/2024/05/pir_venn_001.png, _static/images/uploads/2024/05/velazquez_-_de_breda_o_las_lanzas_museo_del_prado_1634-35.jpg, _static/images/uploads/2024/07/plot_003.png, _static/images/uploads/2024/07/plot_003-1.png, _static/images/uploads/2024/05/pir_venn_002.png, _static/images/uploads/2024/07/plot_001.png, _static/images/uploads/2024/05/horner_003.png, _static/images/uploads/2024/05/horner_004.png, _static/images/uploads/2024/07/plot_002.png, _static/images/uploads/2024/05/horner_002.png, _static/images/uploads/2024/05/horner_001.png, _static/images/uploads/2024/07/horner_005.png
+.. figure:: /_static/images/uploads/2024/05/velazquez_-_de_breda_o_las_lanzas_museo_del_prado_1634-35.jpg
 	:alt: Ο πίνακας *Η άλωση της Μπρέντα* του `Diego Velázquez  <https://en.wikipedia.org/wiki/Diego_Vel%C3%A1zquez>`__. 
 	:align: center
 
@@ -428,6 +428,6 @@
 
 
 
-   .. youtube:: psiytW9Or2s 
+   .. youtube:: psiytW9Or2 
 
 

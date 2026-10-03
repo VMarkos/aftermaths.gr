@@ -23,13 +23,7 @@
 
 Καλό απόγευμα και καλό διάβασμα!
 
-.. container:: wp-block-group
 
-   .. container:: wp-block-group__inner-container
-
-
-
-
-   .. youtube:: 5rEeEKYbVX8 
+   .. youtube:: 5rEeEKYbVX 
 
 

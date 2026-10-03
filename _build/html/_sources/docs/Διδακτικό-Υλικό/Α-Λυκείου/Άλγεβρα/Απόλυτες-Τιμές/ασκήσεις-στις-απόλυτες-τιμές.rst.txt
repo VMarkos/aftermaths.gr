@@ -26,4 +26,4 @@
 
 Καλημέρα και καλό μας διάβασμα!
 
-.. youtube:: a2wOhtd0S9Y 
+.. youtube:: a2wOhtd0S9 

@@ -7,13 +7,13 @@
 <meta content="white" media="(prefers-color-scheme: light)" name="theme-color"/>
 <meta content="black" media="(prefers-color-scheme: dark)" name="theme-color"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="2021-04-24 09:47" name="date"/>
-<meta content="aftermathsgr" name="author"/>
-<meta content="After-maths, Μαθηματικά" name="category"/>
-<meta content="Collatz, εικασία, μαθηματικά" name="tags"/>
-<meta content="%ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-2" name="slug"/>
-<meta content="published" name="status"/>
-<meta content="_static/images/uploads/2021/04/718px-ambroise_vollard_by_pierre-auguste_renoir.jpg" name="attachments"/>
+<meta content="2021-04-24 09:47" name="date" translated="False"/>
+<meta content="aftermathsgr" name="author" translated="False"/>
+<meta content="After-maths, Μαθηματικά" name="category" translated="False"/>
+<meta content="Collatz, εικασία, μαθηματικά" name="tags" translated="False"/>
+<meta content="%ce%b7-%ce%b5%ce%b9%ce%ba%ce%b1%cf%83%ce%af%ce%b1-collatz-2" name="slug" translated="False"/>
+<meta content="published" name="status" translated="False"/>
+<meta content="_static/images/uploads/2021/04/718px-ambroise_vollard_by_pierre-auguste_renoir.jpg" name="attachments" translated="False"/>
 <link href="../../_static/icons/favicon.ico" rel="icon" type="image/x-icon"/>
 <title>Η εικασία Collatz (2) | aftermaths</title>
 <meta content="Η εικασία Collatz (2) | aftermaths" property="og:title"/>
@@ -1208,7 +1208,7 @@
 <p>Χρήσιμη παρατήρηση είναι αυτή, καθώς φαίνεται να εισάγει κάποιου είδους κανονικότητα στο παραπάνω πρόβλημα. Αν το καλοσκεφτούμε, δε, είναι απολύτως λογικό, καθώς επιθυμούμε ο τελευταίος όρος της ακολουθίας μας να είναι 1, οπότε ο προτελευταίος όρος της θα είναι μεγαλύτερος του 1. Αφού σε κάθε βήμα είτε διαιρούμε με το 2 είτε πολλαπλασιάζουμε με το 3 και προσθέτουμε 1, ο μόνος τρόπος για να είναι ο επόμενος όρος μας μικρότερος από τον τρέχοντα είναι να διαιρέσουμε με το 2. Συνεπώς, ο προτελευταίος όρος θα είναι πάντοτε 2. Με ανάλογο σκεπτικό, και ο προ-προτελευταίος μας όρος θα πρέπει αναγκαστικά να είναι 4.</p>
 <p>Ωστόσο, για να φτάσουμε στο 4 έχουμε δύο (φαινομενικά) επιλογές. Η μία είναι να φτάσουμε έχοντας διαιρέσει το 8 με το 2 και η άλλη να φτάσουμε έχοντας πολλαπλασιάσει το 1 με 3 και προσθέτοντας 1. Όμως, σαφώς δεν μπορούμε να περάσουμε από το 1 πάνω από μία φορά, άρα ο προ-προ-προτελευταίος όρος είναι το 8. Συνεπώς, κάθε ακολουθία Collatz πρέπει να καταλήγει με τους όρους 8, 4, 2, 1, γεγονός που μπορείς να επαληθεύσει ότι ισχύει με όλες τις ακολουθίες στο παραπάνω αρχείο που έχουν τουλάχιστον τέσσερις όρους.</p>
 <p>Το παραπάνω σκεπτικό μπορεί να μας πάει και λίγο παρακάτω. Στο 8 είτε καταλήγουμε από το 16, διαιρώντας με το 2, είτε από το 7/3. πολλαπλασιάζοντας επί 3 και προσθέτοντας 1. Επειδή, όμως, το 7/3 δεν είναι ακέραιος, αυτό το σενάριο απορρίπτεται, επομένως όσες ακολουθίες Collatz έχουν τουλάχιστον 5 στοιχεία, θα πρέπει να καταλήγουν σε 16, 8, 4, 2, 1 - όπως μπορείτε να παρατηρήσετε, αυτό ισχύει και παραπάνω. Από το 16 και πιο πριν, όμως, είναι πιο δύσκολο να κάνουμε καλές μαντεψιές. Αφενός, υπάρχει το «ευχάριστο» σενάριο, όπου καταλήγουμε στο 16 από έναν υποδιπλασιασμό του 32. Αφετέρου, αν πολλαπλασιάσουμε το 5 με το 3 και προσθέσουμε 1 παίρνουμε 16 κι εδώ είναι που το πράγμα γίνεται πιο περίπλοκο. Ωστόσο, το παραπάνω μας δίνει μία καλή ιδέα για να μελετήσουμε το πρόβλημά μας. Αντί να ξεκινάμε από κάθε αριθμό και να εξετάζουμε αν μπορούμε να φτάσουμε στο 1 - πράγμα που είναι μία λογική προσέγγιση, αν και χρονοβόρα - μπορούμε να ξεκινήσουμε από το 1 και εφαρμόζοντας τις «αντίστροφες» πράξεις να εξετάσουμε αν μπορούμε να φτάσουμε σε κάθε αριθμό. Έτσι, έχουμε την εξής ισοδύναμη διατύπωση της εικασίας του Collatz:</p>
-<p>Θεωρώντας τις συναρτήσεις  <span class="math notranslate nohighlight">\(d(x)=2x  `  και  :math:`t(x)=\dfrac{x-1}{3}  `  με την πρώτη ορισμένη για κάθε  :math:`x\in\mathbb{N}  `  και τη δεύτερη για  :math:`x=4,7,10,\ldots  `  είναι αλήθεια ότι κάθε θετικός ακέραιος αριθμός  :math:`n  `  γράφεται στη μορφή  :math:`f(1)  `  όπου  :math:`f  `  είναι μία συνάρτηση που προκύπτει από πεπερασμένες στο πλήθος συνθέσεις των  :math:`d,t;\)</span></p>
+<p>Θεωρώντας τις συναρτήσεις  <span class="math notranslate nohighlight">\(d(x)=2x `  και  :math:`t(x)=\dfrac{x-1}{3} `  με την πρώτη ορισμένη για κάθε  :math:`x\in\mathbb{N} `  και τη δεύτερη για  :math:`x=4,7,10,\ldots `  είναι αλήθεια ότι κάθε θετικός ακέραιος αριθμός  :math:`n `  γράφεται στη μορφή  :math:`f(1) `  όπου  :math:`f `  είναι μία συνάρτηση που προκύπτει από πεπερασμένες στο πλήθος συνθέσεις των  :math:`d,t;\)</span></p>
 <p>Για παράδειγμα, παρατηρούμε τα εξής:</p>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(1=d^{(0)}(1)\)</span>  - θεωρούμε ότι σύνθεση μίας συνάρτησης μηδέν φορές δίνει την ταυτοτική απεικόνιση.</p></li>
@@ -1225,7 +1225,7 @@
 <p>Καλημέρα!</p>
 <blockquote>
 <div><div class="video_wrapper" style="">
-<iframe allowfullscreen="true" src="https://www.youtube.com/embed/oJMCj26o9KU" style="border: 0; height: 345px; width: 560px">
+<iframe allowfullscreen="true" src="https://www.youtube.com/embed/oJMCj26o9K" style="border: 0; height: 345px; width: 560px">
 </iframe></div></div></blockquote>
 </section>
 </div><div class="flex justify-between items-center pt-6 mt-12 border-t border-border gap-4">

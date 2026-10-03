@@ -25,4 +25,4 @@
 
 Καλό βράδυ και καλό διάβασμα!
 
-.. youtube:: 6uBMpgUKn8U 
+.. youtube:: 6uBMpgUKn8 

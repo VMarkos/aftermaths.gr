@@ -23,4 +23,4 @@
 
 Καλό βράδυ και καλό διάβασμα!
 
-.. youtube:: 0SMYg7_iYW4 
+.. youtube:: 0SMYg7_iYW 

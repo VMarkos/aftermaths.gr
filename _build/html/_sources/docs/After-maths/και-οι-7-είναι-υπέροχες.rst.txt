@@ -10,7 +10,7 @@
 	:status: published
 	:attachments: _static/images/uploads/2023/09/pythagoras_03.png, _static/images/uploads/2023/09/pythagoras_02.png, _static/images/uploads/2023/09/tennenbaum_02.png, _static/images/uploads/2023/09/pythagoras_01.png, _static/images/uploads/2023/09/karl_wilhelm_diefenbach_-_toteninsel.jpg, _static/images/uploads/2023/09/tennenbaum_01.png, _static/images/uploads/2023/09/tennenbaum_02-1.png, _static/images/uploads/2023/10/construction_01.png, _static/images/uploads/2023/09/pythagoras_04.png, _static/images/uploads/2023/09/pythagoras_05.png
 
-.. figure:: _static/images/uploads/2023/09/karl_wilhelm_diefenbach_-_toteninsel.jpg
+.. figure:: /_static/images/uploads/2023/09/karl_wilhelm_diefenbach_-_toteninsel.jpg
 	:alt: *Το νησί των νεκρών* του `Karl Wilhelm Diefenbach  <https://en.wikipedia.org/wiki/Karl_Wilhelm_Diefenbach>`__. 
 	:align: center
 
@@ -389,6 +389,6 @@
 
 
 
-   .. youtube:: EUmpfUJspo8 
+   .. youtube:: EUmpfUJspo 
 
 

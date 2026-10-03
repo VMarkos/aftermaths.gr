@@ -7,12 +7,11 @@
 
 .. meta::
     :date: 2018-09-01 09:21
-    :author:aftermathsgr
+    :author: aftermathsgr
     :category: pages
     :tags: pages
     :status: published
-    :attachments: _static/images/uploads/2018/09/olive-trees-with-yellow-sky-and-sun.jpg
-
+    :attachments: /_static/images/uploads/2018/09/olive-trees-with-yellow-sky-and-sun.jpg
 
 .. figure:: /_static/images/uploads/2018/09/olive-trees-with-yellow-sky-and-sun.jpg
     :alt: Ο πίνακας *Ελαιόδεντρα υπό κίτρινο ουρανό και ήλιο* του `Vincent van Gogh <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__.

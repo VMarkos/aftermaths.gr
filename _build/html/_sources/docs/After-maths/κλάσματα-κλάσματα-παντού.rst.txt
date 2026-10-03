@@ -10,7 +10,7 @@
 	:status: published
 	:attachments: _static/images/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png, _static/images/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png, _static/images/uploads/2019/07/ezgif.com-crop3.gif, _static/images/uploads/2019/07/ezgif.com-crop2-1.gif, _static/images/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png, _static/images/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png, _static/images/uploads/2019/07/smaller-1956-tessellation-art-by-m.-c.-escher.jpg
 
-.. figure:: /_static/images/uploads/2019/07/ezgif-5-e6f6151977.pdf-1.png, _static/images/uploads/2019/07/ezgif-5-0271ebe235.pdf-1.png, _static/images/uploads/2019/07/ezgif.com-crop3.gif, _static/images/uploads/2019/07/ezgif.com-crop2-1.gif, _static/images/uploads/2019/07/ezgif-5-ba2ced2fae.pdf-1.png, _static/images/uploads/2019/07/ezgif-5-1703b6ba45.pdf-1.png, _static/images/uploads/2019/07/smaller-1956-tessellation-art-by-m.-c.-escher.jpg
+.. figure:: /_static/images/uploads/2019/07/smaller-1956-tessellation-art-by-m.-c.-escher.jpg
 	:alt: Ο πίνακας *(Μικρή) κάλυψη του επιπέδου* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
 	:align: center
 
@@ -351,7 +351,7 @@
 
 
 
-   .. youtube:: AzEBH6DZJVk 
+   .. youtube:: AzEBH6DZJV 
 
 
 
