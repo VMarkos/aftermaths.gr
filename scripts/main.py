@@ -582,6 +582,91 @@ def yt_spaces_fix_fn(line: str, params: dict=dict()) -> str:
     return fixed_line
 
 
+def fix_static(path: str) -> None:
+    fix_content(path, static_fix_fn)
+
+
+def static_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(
+        r'/?docs/After-maths/_static',
+        r'/_static',
+        line
+    )
+    fixed_line = re.sub(
+        r'(?:/?docs/After-maths/)?\{static\}wp-content',
+        r'/_static/images',
+        fixed_line
+    )
+    fixed_line = re.sub(
+        r'png\?w=\d{,4}',
+        r'png',
+        fixed_line
+    )
+    return fixed_line
+
+
+def fix_yt_list(path: str) -> None:
+    fix_content(path, yt_list_fix_fn)
+
+
+def yt_list_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(
+        r'.. youtube:: ([a-zA-Z0-9_-]+)\s*[^\s]+',
+        r'.. youtube:: \1',
+        line
+    )
+    return fixed_line
+
+
+def fix_inline_spacing(path: str) -> None:
+    fix_content(path, inline_sp_fix_fn)
+
+
+def inline_sp_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(
+        r':math:`([^`]+[^\s]) `',
+        r':math:`\1`',
+        line
+    )
+    fixed_line = re.sub(
+        r'\*([^\*]+[^\s]) \*',
+        r'*\1*',
+        fixed_line
+    )
+    fixed_line = re.sub(
+        r'\*\*([^\*]+[^\s]) \*\*',
+        r'**\1**',
+        fixed_line
+    )
+    return fixed_line
+
+
+def fix_trailing_unsc(path: str) -> None:
+    fix_content(path, trail_unsc_fix_fn)
+
+
+def trail_unsc_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(
+        r'(:doc:`[^`]+`)__',
+        r'\1',
+        line
+    )
+    return fixed_line
+
+
+def fix_https_docs(path: str) -> None:
+    fix_content(path, https_fix_fn)
+
+
+def https_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(
+        r':doc:`([^`<>]+)<(http[^`<>]+)>_{,2}`',
+        r'`\1<\2>`__',
+        line
+    )
+    return fixed_line
+
+
 def main():
     # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
@@ -615,7 +700,12 @@ def main():
         # fix_bad_doc_links(file_path)
         # fix_double_gt(file_path)
         # fix_external_docs(file_path)
-        fix_yt_spaces(file_path)
+        # fix_yt_spaces(file_path)
+        # fix_static(file_path)
+        # fix_yt_list(file_path)
+        fix_inline_spacing(file_path)
+        # fix_trailing_unsc(file_path)
+        # fix_https_docs(file_path)
 
 
 if __name__ == "__main__":
