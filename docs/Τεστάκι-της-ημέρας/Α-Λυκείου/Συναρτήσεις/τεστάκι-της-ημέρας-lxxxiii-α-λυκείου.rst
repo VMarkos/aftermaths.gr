@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/04/372px-pierre-auguste_renoir_019.jpg
 
 .. figure:: /_static/images/uploads/2021/04/372px-pierre-auguste_renoir_019.jpg
-	:alt: Ο πίνακας *Χωρός στην πόλη* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Χωρός στην πόλη* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Χωρός στην πόλη* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Χωρός στην πόλη* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Ένα τεστάκι πάνω σε απλές γραμμικές συναρτήσεις στα πλαίσια της ύλης της άλγεβρας της Αʹ Λυκείου και ΕΠΑΛ.

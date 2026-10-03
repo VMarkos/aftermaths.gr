@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/1280px-franz_marc_-_der_traum_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2020/11/1280px-franz_marc_-_der_traum_-_google_art_project.jpg
-	:alt: Ο πίνακας *Το όνειρο* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	:alt: Ο πίνακας *Το όνειρο* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το όνειρο* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	Ο πίνακας *Το όνειρο* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1aTKBXqsXLj4WYH5-auIxI2QwuT1XzR4h/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

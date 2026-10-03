@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/still_life_patrick_henry_bruce.jpeg
 
 .. figure:: /_static/images/uploads/2020/12/still_life_patrick_henry_bruce.jpeg
-	:alt: Ο πίνακας *Νεκρή φύση* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+	:alt: Ο πίνακας *Νεκρή φύση* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεκρή φύση* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+	Ο πίνακας *Νεκρή φύση* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Τριγωνομετρία/τεστάκι-της-ημέρας-xxxvi-β-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1BYjzwDkJ-CxPAJTL8p09P_vQ1V_uzK8x/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

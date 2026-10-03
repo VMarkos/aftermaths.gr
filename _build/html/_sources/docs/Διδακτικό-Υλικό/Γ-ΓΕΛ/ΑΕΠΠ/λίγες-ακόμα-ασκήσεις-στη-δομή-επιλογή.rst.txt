@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/09/800px-kalf_willem_-_still_life_with_ewer_vessels_and_pomegranate_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2018/09/800px-kalf_willem_-_still_life_with_ewer_vessels_and_pomegranate_-_google_art_project.jpg
-	:alt: Ο πίνακας *Νεκρή φύση* του `Willem Kalf  <https://en.wikipedia.org/wiki/Willem_Kalf>`__\ *.* 
+	:alt: Ο πίνακας *Νεκρή φύση* του `Willem Kalf  <https://en.wikipedia.org/wiki/Willem_Kalf>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεκρή φύση* του `Willem Kalf  <https://en.wikipedia.org/wiki/Willem_Kalf>`__\ *.* 
+	Ο πίνακας *Νεκρή φύση* του `Willem Kalf  <https://en.wikipedia.org/wiki/Willem_Kalf>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο βρίσκονται λίγες ακόμα ασκήσεις πάνω στη δομή επιλογής, όπως το κλασσικό «πρόβλημα» της εύρεσης αν ένα έτος είναι δίσεκτο και άλλα.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/10/800px-vassily_kandinsky_1939_-_composition_10.jpg
 
 .. figure:: /_static/images/uploads/2019/10/800px-vassily_kandinsky_1939_-_composition_10.jpg
-	:alt: Ο πίνακας *Σύνθεση Χ* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *Σύνθεση Χ* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Σύνθεση Χ* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Σύνθεση Χ* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/17jDbp-W4WBFORgorBqwNbBfHJE6sPjC4/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

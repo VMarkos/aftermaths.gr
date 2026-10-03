@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/1280px-e.v.pavlov_by_repin.jpg
 
 .. figure:: /_static/images/uploads/2021/01/1280px-e.v.pavlov_by_repin.jpg
-	:alt: Ο πίνακας *O χειρουργός E. V. Pavlov* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:alt: Ο πίνακας *O χειρουργός E. V. Pavlov* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 	:align: center
 
-	Ο πίνακας *O χειρουργός E. V. Pavlov* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	Ο πίνακας *O χειρουργός E. V. Pavlov* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 
 
 Ένα τεστάκι στις ρίζες και στις βασικές τους ιδιότητες στα πλαίσια της ύλης της άλγεβρας της Αʹ λυκείου.

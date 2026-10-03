@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/10/vassily_kandinsky_1919_-_in_grey.jpg
 
 .. figure:: /_static/images/uploads/2018/10/vassily_kandinsky_1919_-_in_grey.jpg
-	:alt: Ο πίνακας *Σε γκρι* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *Σε γκρι* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Σε γκρι* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Σε γκρι* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται λίγες ασκήσεις και προβλήματα σε σχέση με τον ορισμό της συνάρτησης και με τις βασικές έννοιες γύρω από αυτόν (γραφική παράσταση κ.λπ.).

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/dostoyevsky_on_his_bier_kramskoy.jpg
 
 .. figure:: /_static/images/uploads/2021/01/dostoyevsky_on_his_bier_kramskoy.jpg
-	:alt: Ο πίνακας *ο Leo Tolstoy στο νεκροκρέβατό του* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+	:alt: Ο πίνακας *ο Leo Tolstoy στο νεκροκρέβατό του* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\*.* 
 	:align: center
 
-	Ο πίνακας *ο Leo Tolstoy στο νεκροκρέβατό του* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+	Ο πίνακας *ο Leo Tolstoy στο νεκροκρέβατό του* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\*.* 
 
 
 Ένα τεστάκι στις τριγωνομετρικές εξισώσεις και τις βασικές τριγωνομετρικές συναρτήσεις στα πλαίσια της ύλης της άλγεβρας της Βʹ Λυκείου και ΕΠΑΛ.

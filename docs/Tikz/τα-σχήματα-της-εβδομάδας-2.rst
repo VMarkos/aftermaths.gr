@@ -10,10 +10,10 @@
 	:attachments: _static/images/uploads/2021/08/road_to_versailles_at_louveciennes_1869_camille_pissarro.jpg
 
 .. figure:: /_static/images/uploads/2021/08/road_to_versailles_at_louveciennes_1869_camille_pissarro.jpg
-	:alt: *οι δρόμοι για τις Βερσαλλίες* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:alt: *οι δρόμοι για τις Βερσαλλίες* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 	:align: center
 
-	*οι δρόμοι για τις Βερσαλλίες* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	*οι δρόμοι για τις Βερσαλλίες* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 
 
 .. highlight:: latex

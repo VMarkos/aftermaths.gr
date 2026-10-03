@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/03/721px-caravaggio_-_i_musici.jpg
 
 .. figure:: /_static/images/uploads/2019/03/721px-caravaggio_-_i_musici.jpg
-	:alt: Ο πίνακας *Οι μουσικοί* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	:alt: Ο πίνακας *Οι μουσικοί* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Οι μουσικοί* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	Ο πίνακας *Οι μουσικοί* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\*.* 
 
 
 Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/1mQu906sBX3VFSFgXYF-T450yrB8eZUpm/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/02/412px-rembrandt_abraham_en_isaac_1634.jpg
 
 .. figure:: /_static/images/uploads/2020/02/412px-rembrandt_abraham_en_isaac_1634.jpg
-	:alt: Ο πίνακας *Η θυσία του Ισαάκ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	:alt: Ο πίνακας *Η θυσία του Ισαάκ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η θυσία του Ισαάκ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	Ο πίνακας *Η θυσία του Ισαάκ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 
 
 Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1rSTgQ1HM2MhcOtal5cPBeby3N1HzLb0_/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

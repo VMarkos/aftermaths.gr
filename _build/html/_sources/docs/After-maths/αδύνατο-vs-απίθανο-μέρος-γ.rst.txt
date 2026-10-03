@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/10/mmoca_89ma_henri_fantin-latour_figues_reine-claude_et_abricot.jpg
 
 .. figure:: /_static/images/uploads/2021/10/mmoca_89ma_henri_fantin-latour_figues_reine-claude_et_abricot.jpg
-	:alt: Ο πίνακας *Σύκο, δαμάσκηνο και βερύκοκο* του `Henri Fantin-Latour  <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__\ *.* 
+	:alt: Ο πίνακας *Σύκο, δαμάσκηνο και βερύκοκο* του `Henri Fantin-Latour  <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Σύκο, δαμάσκηνο και βερύκοκο* του `Henri Fantin-Latour  <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__\ *.* 
+	Ο πίνακας *Σύκο, δαμάσκηνο και βερύκοκο* του `Henri Fantin-Latour  <https://en.wikipedia.org/wiki/Henri_Fantin-Latour>`__\*.* 
 
 
 Για άλλη μία εβδομάδα θα ασχοληθούμε με την έννοια της πιθανότητας και το πώς αυτή σχετίζεται με αυτό που έχουμε στον νου μας ως αδύνατο. Βασικά, αυτή τη φορά θα πάμε ένα βήμα παρακάτω, καθώς την προηγούμενη εβδομάδα δώσαμε μία αρκετά πειστική απάντηση σε αυτό το ζήτημα - για να θυμηθείτε περισσότερα, δείτε :doc:`εδώ  </docs/After-maths/αδύνατο-vs-απίθανο-μέρος-β>`. Αυτήν την εβδομάδα θα μιλήσουμε για πράγματα που δεν είναι πιθανά, αλλά δεν είναι ούτε... απίθανα.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/09/claesz-_pieter_-_still_life_with_musical_instruments_-_1623.jpg
 
 .. figure:: /_static/images/uploads/2018/09/claesz-_pieter_-_still_life_with_musical_instruments_-_1623.jpg
-	:alt: Ο πίνακας *Νεκρή φύση με μουσικά όργανα* του `Pieter Claesz  <https://en.wikipedia.org/wiki/Pieter_Claesz>`__\ *.* 
+	:alt: Ο πίνακας *Νεκρή φύση με μουσικά όργανα* του `Pieter Claesz  <https://en.wikipedia.org/wiki/Pieter_Claesz>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεκρή φύση με μουσικά όργανα* του `Pieter Claesz  <https://en.wikipedia.org/wiki/Pieter_Claesz>`__\ *.* 
+	Ο πίνακας *Νεκρή φύση με μουσικά όργανα* του `Pieter Claesz  <https://en.wikipedia.org/wiki/Pieter_Claesz>`__\*.* 
 
 
 Σε αυτό το διαγώνισμα εξετάζονται τμήματα της θεωρίας από τα κεφάλαια 2 και 3 και μόνον σε θεωρητικό επίπεδο η δομές επανάληψης, ενώ στους δύο ζητούμενους αλγορίθμους απαιτείται χρήση μόνον δομής επιλογής.

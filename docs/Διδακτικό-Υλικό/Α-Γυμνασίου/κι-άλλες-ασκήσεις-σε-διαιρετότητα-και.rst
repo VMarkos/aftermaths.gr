@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/10/720px-vassily_kandinsky_1935_-_brown_with_supplement.jpg
 
 .. figure:: /_static/images/uploads/2019/10/720px-vassily_kandinsky_1935_-_brown_with_supplement.jpg
-	:alt: Ο πίνακας *Καφέ με συμπλήρωμα* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *Καφέ με συμπλήρωμα* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Καφέ με συμπλήρωμα* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Καφέ με συμπλήρωμα* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1upzwetVsem30lICdjZz0mYQOk8FQfqH7/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

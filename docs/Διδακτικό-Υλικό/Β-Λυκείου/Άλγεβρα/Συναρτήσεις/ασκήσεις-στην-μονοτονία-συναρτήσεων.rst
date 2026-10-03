@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/11/39401587912_6f7a7731bc_o.jpg
 
 .. figure:: /_static/images/uploads/2018/11/39401587912_6f7a7731bc_o.jpg
-	:alt: Η ξυλογραφία *Κύκνοι* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	:alt: Η ξυλογραφία *Κύκνοι* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\*.* 
 	:align: center
 
-	Η ξυλογραφία *Κύκνοι* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	Η ξυλογραφία *Κύκνοι* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται κάποιες ασκήσεις σχετικές με τη μονοτονία συναρτήσεων καθώς και με συμμετρία (άρτιες/περιττές) και 1-1 συναρτήσεις.

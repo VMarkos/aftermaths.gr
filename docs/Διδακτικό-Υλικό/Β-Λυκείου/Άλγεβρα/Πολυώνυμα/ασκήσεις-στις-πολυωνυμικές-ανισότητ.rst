@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/02/caspar_david_friedrich_-_riesengebirge_landscape_with_rising_fog_-_wga8257.jpg
 
 .. figure:: /_static/images/uploads/2019/02/caspar_david_friedrich_-_riesengebirge_landscape_with_rising_fog_-_wga8257.jpg
-	:alt: Ο πίνακας *Τοπίο με τεράστια βουνά και ομίχλη* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Τοπίο με τεράστια βουνά και ομίχλη* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Τοπίο με τεράστια βουνά και ομίχλη* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Τοπίο με τεράστια βουνά και ομίχλη* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1YNnca0xQgKWAx_YaLX5MUBx5sBTPTf1p/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

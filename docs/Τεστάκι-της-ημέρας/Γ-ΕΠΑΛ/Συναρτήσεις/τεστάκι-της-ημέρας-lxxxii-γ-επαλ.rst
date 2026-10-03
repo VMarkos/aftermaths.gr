@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/04/539px-dance-at-bougival.jpg
 
 .. figure:: /_static/images/uploads/2021/04/539px-dance-at-bougival.jpg
-	:alt: Ο πίνακας *Χορός στο Bugival* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Χορός στο Bugival* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Χορός στο Bugival* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Χορός στο Bugival* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Ένα επαναληπτικό τεστ στην ύλη των μαθηματικών της Γʹ ΕΠΑΛ και, ειδικότερα, στη μονοτονία συναρτήσεων.

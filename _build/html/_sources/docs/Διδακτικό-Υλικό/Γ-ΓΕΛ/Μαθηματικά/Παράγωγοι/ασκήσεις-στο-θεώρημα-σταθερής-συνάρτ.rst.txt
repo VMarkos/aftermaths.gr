@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/02/445px-arcimboldo_air_copy.jpg
 
 .. figure:: /_static/images/uploads/2019/02/445px-arcimboldo_air_copy.jpg
-	:alt: Ο πίνακας *Αέρας* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+	:alt: Ο πίνακας *Αέρας* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Αέρας* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+	Ο πίνακας *Αέρας* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1sa_BoXzOhcz8Awd9r2tPAxaxqslw4Shc/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

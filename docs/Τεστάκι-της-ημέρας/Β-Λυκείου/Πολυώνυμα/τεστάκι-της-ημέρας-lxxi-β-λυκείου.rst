@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/03/783px-auguste_renoir_-_the_swing_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2021/03/783px-auguste_renoir_-_the_swing_-_google_art_project.jpg
-	:alt: Ο πίνακας *Η κούνια* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Η κούνια* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η κούνια* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Η κούνια* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Ένα τεστάκι πάνω στα πολυώνυμα και, ειδικότερα, το σχήμα Horner και την επίλυση πολυωνυμικών εξισώσεων.

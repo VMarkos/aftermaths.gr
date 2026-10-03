@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/11/800px-giovanni_antonio_canal_il_canaletto_-_grand_canal_looking_east_from_the_campo_san_vio_-_wga03847.jpg
 
 .. figure:: /_static/images/uploads/2019/11/800px-giovanni_antonio_canal_il_canaletto_-_grand_canal_looking_east_from_the_campo_san_vio_-_wga03847.jpg
-	:alt: Ο πίνακας *Το Μεγάλο Κανάλι: Κοιτάζοντας ανατολικά από το Campo san Vio* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	:alt: Ο πίνακας *Το Μεγάλο Κανάλι: Κοιτάζοντας ανατολικά από το Campo san Vio* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το Μεγάλο Κανάλι: Κοιτάζοντας ανατολικά από το Campo san Vio* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	Ο πίνακας *Το Μεγάλο Κανάλι: Κοιτάζοντας ανατολικά από το Campo san Vio* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 
 
 Το 3o Workshop βρίσκεται `εδώ  <https://drive.google.com/file/d/1KJn4rTwRyVBA5jBdZzSJakQuOMQRCg_Z/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

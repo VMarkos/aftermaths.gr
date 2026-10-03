@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/11/cornelis_norbertus_gysbrechts_004.jpg
 
 .. figure:: /_static/images/uploads/2018/11/cornelis_norbertus_gysbrechts_004.jpg
-	:alt: Ο πίνακας *Νεκρή φύση με αυτοπροσωπογραφία* του `Cornelis Norbertus Gysbrechts  <https://en.wikipedia.org/wiki/Cornelis_Norbertus_Gysbrechts>`__\ *.* 
+	:alt: Ο πίνακας *Νεκρή φύση με αυτοπροσωπογραφία* του `Cornelis Norbertus Gysbrechts  <https://en.wikipedia.org/wiki/Cornelis_Norbertus_Gysbrechts>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεκρή φύση με αυτοπροσωπογραφία* του `Cornelis Norbertus Gysbrechts  <https://en.wikipedia.org/wiki/Cornelis_Norbertus_Gysbrechts>`__\ *.* 
+	Ο πίνακας *Νεκρή φύση με αυτοπροσωπογραφία* του `Cornelis Norbertus Gysbrechts  <https://en.wikipedia.org/wiki/Cornelis_Norbertus_Gysbrechts>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο παρατίθενται κάποιες λύσεις των επαναληπτικών ασκήσεων της άλγεβρας της Βʹ λυκείου (βλ. :doc:`εδώ  </docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Εκθετικές-και-Λογαριθμικές-Συναρτήσεις/λίγες-επαναληπτικές-ασκήσεις-στην-άλ>`).

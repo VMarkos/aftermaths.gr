@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/03/rembrandt_de_aartsengel_verlaat_tobias_en_zijn_gezin._1637.jpg
 
 .. figure:: /_static/images/uploads/2020/03/rembrandt_de_aartsengel_verlaat_tobias_en_zijn_gezin._1637.jpg
-	:alt: Ο πίνακας *Ο αρχάγγελος Ραφαήλ εγκαταλείπει την οικογένεια του Tobias* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	:alt: Ο πίνακας *Ο αρχάγγελος Ραφαήλ εγκαταλείπει την οικογένεια του Tobias* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο αρχάγγελος Ραφαήλ εγκαταλείπει την οικογένεια του Tobias* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	Ο πίνακας *Ο αρχάγγελος Ραφαήλ εγκαταλείπει την οικογένεια του Tobias* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1-Z1AFeTFpbqUpNZ9gyGuUhX2CjH08-LU/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

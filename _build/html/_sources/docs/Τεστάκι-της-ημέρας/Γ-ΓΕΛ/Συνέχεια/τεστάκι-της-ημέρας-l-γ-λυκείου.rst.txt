@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/1280px-ilya_repin-what_freedom.jpg
 
 .. figure:: /_static/images/uploads/2021/01/1280px-ilya_repin-what_freedom.jpg
-	:alt: Ο πίνακας *Τι ελευθερία!* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:alt: Ο πίνακας *Τι ελευθερία!* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Τι ελευθερία!* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	Ο πίνακας *Τι ελευθερία!* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 
 
 Ένα τεστάκι στο θεώρημα του Bolzano και βασικές εφαρμογές του για συνεχείς συναρτήσεις στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γʹ Λυκείου.

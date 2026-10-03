@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/06/800px-pilgrimage_at_sunset_sunrise.jpg
 
 .. figure:: /_static/images/uploads/2019/06/800px-pilgrimage_at_sunset_sunrise.jpg
-	:alt: Ο πίνακας *Προσκύνημα κατά τη δύση (ανατολή)* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Προσκύνημα κατά τη δύση (ανατολή)* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Προσκύνημα κατά τη δύση (ανατολή)* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Προσκύνημα κατά τη δύση (ανατολή)* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Συμπληρωματικά στις σημειώσεις του μαθήματος (εντός ημερών αναμένεται η νέα, αναθεωρημένη έκδοση), θα δημοσιεύονται φέτος και σχετικές διαφάνειες, για ευκολότερη επανάληψη και ταχύτερο συμμάζεμα της ύλης.

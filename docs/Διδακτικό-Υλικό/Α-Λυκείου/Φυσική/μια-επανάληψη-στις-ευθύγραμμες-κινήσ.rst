@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/12/vangoghmuseum-s0011V1962-3840.jpg
 
 .. figure:: /_static/images/uploads/2018/12/vangoghmuseum-s0011V1962-3840.jpg
-	:alt: Ο πίνακας *Παπούτσια* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Παπούτσια* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Παπούτσια* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Παπούτσια* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Μία μικρή επαναληψούλα στις ευθύγραμμες κινήσεις (Αʹ λυκείου).

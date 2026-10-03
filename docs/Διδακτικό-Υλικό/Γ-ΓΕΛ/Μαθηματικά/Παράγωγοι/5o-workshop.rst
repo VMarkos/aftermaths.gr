@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/12/494px-pablo_picasso_1913-14_lhomme_aux_cartes_card_player_oil_on_canvas_108_x_89.5_cm_museum_of_modern_art_new_york.jpg
 
 .. figure:: /_static/images/uploads/2019/12/494px-pablo_picasso_1913-14_lhomme_aux_cartes_card_player_oil_on_canvas_108_x_89.5_cm_museum_of_modern_art_new_york.jpg
-	:alt: Ο πίνακας *Ο χαρτοπαίκτης* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	:alt: Ο πίνακας *Ο χαρτοπαίκτης* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο χαρτοπαίκτης* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	Ο πίνακας *Ο χαρτοπαίκτης* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\*.* 
 
 
 Το 5ο Workshop βρίσκεται `εδώ  <https://drive.google.com/file/d/1vmmTcMYSC_UU6cdedvGqZIf0IhE9iDX_/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

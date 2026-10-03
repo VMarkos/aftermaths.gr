@@ -10,16 +10,16 @@
 	:attachments: _static/images/uploads/2021/10/madame_gaillard_and_her_daughter_marie-therese_1899_mary_cassatt.jpg
 
 .. figure:: /_static/images/uploads/2021/10/madame_gaillard_and_her_daughter_marie-therese_1899_mary_cassatt.jpg
-	:alt: Ο πίνακας *Η κυρία Gaillard και η κόρη της Marie-Thérèse* της `Mary Cassatt  <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\ *.* 
+	:alt: Ο πίνακας *Η κυρία Gaillard και η κόρη της Marie-Thérèse* της `Mary Cassatt  <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η κυρία Gaillard και η κόρη της Marie-Thérèse* της `Mary Cassatt  <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\ *.* 
+	Ο πίνακας *Η κυρία Gaillard και η κόρη της Marie-Thérèse* της `Mary Cassatt  <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\*.* 
 
 .. highlight:: latex
 
 Άλλη μία εβδομάδα πέρασε, άλλα λίγα σχήματα μπήκαν στο τσουβάλι. Ας τα περάσουμε ένα-ένα, γιατί κι αυτήν την εβδομάδα έχουμε πολλά να πούμε.
 
-*Για τα σχήματα της προηγούμενης εβδομάδας δείτε*\ :doc:`εδώ  </docs/Tikz/τα-σχήματα-της-εβδομάδας-7>`\ *, ενώ για όλες τις αναρτήσεις της σειράς μπορείτε να δείτε*\ :doc:`εδώ  </docs/Tikz/index>`\ *.*
+*Για τα σχήματα της προηγούμενης εβδομάδας δείτε*\ :doc:`εδώ  </docs/Tikz/τα-σχήματα-της-εβδομάδας-7>`\*, ενώ για όλες τις αναρτήσεις της σειράς μπορείτε να δείτε*\ :doc:`εδώ  </docs/Tikz/index>`\*.*
 
 Ρίζες...
 --------

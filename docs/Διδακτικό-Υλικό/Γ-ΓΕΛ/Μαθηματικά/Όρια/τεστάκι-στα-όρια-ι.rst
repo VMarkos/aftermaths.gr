@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/09/caspar_david_friedrich_-_der_sommer_landschaft_mit_liebespaar.jpg
 
 .. figure:: /_static/images/uploads/2019/09/caspar_david_friedrich_-_der_sommer_landschaft_mit_liebespaar.jpg
-	:alt: Ο πίνακας *Το καλοκαίρι* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Το καλοκαίρι* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το καλοκαίρι* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Το καλοκαίρι* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Το τεστάκι βρίσκεται `εδώ  <https://drive.google.com/file/d/1S-hXb3gJ_gzc2O5xk_HYorHZ92ej4N20/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

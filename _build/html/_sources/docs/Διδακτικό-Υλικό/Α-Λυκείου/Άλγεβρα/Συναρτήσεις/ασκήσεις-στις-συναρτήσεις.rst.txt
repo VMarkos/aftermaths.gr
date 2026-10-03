@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/09/high-quality-vincent-van-gogh-paintings-for.jpg
 
 .. figure:: /_static/images/uploads/2018/09/high-quality-vincent-van-gogh-paintings-for.jpg
-	:alt: *ο θερισμός* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: *ο θερισμός* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	*ο θερισμός* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	*ο θερισμός* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται ασκήσεις που αφορούν τις βασικές έννοιες των συναρτήσεων (ορισμός, πεδίο ορισμού, πεδίο/σύνολο τιμών) και ως στόχο έχουν να εισάγουν τους μαθητές στην έννοια της συνάρτησης.

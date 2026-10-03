@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/02/1832._brullov_vsadnica1.jpg
 
 .. figure:: /_static/images/uploads/2021/02/1832._brullov_vsadnica1.jpg
-	:alt: Ο πίνακας *Οι κόρες του Pacini, Giovannina και Amazilia* του `Karl Bryullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\ *.* 
+	:alt: Ο πίνακας *Οι κόρες του Pacini, Giovannina και Amazilia* του `Karl Bryullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Οι κόρες του Pacini, Giovannina και Amazilia* του `Karl Bryullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\ *.* 
+	Ο πίνακας *Οι κόρες του Pacini, Giovannina και Amazilia* του `Karl Bryullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\*.* 
 
 
 Τρία θέματα στην πετσοκομμένη ύλη της στατιστικής της Γʹ ΕΠΑΛ με βάση τους στατιστικούς πίνακας και τα διαγράμματα των κεφαλαίων 2.1 και 2.2.

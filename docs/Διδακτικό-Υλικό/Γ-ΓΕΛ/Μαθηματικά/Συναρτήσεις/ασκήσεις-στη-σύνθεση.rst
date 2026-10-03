@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/07/848px-camille_pissarro_-_conversation_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2021/07/848px-camille_pissarro_-_conversation_-_google_art_project.jpg
-	:alt: Ο πίνακας *Συζήτηση* το `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:alt: Ο πίνακας *Συζήτηση* το `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Συζήτηση* το `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Συζήτηση* το `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 
 
 Λίγες ασκήσεις στη σύνθεση συναρτήσεων, τις γραφικές παραστάσεις και πολλά άλλα...

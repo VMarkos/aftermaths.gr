@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/robert_delaunay_1913_lequipe_de_cardiff_oil_on_canvas_326_c397_208_cm_musee_dart_moderne_de_la_ville_de_paris.jpg
 
 .. figure:: /_static/images/uploads/2020/11/robert_delaunay_1913_lequipe_de_cardiff_oil_on_canvas_326_c397_208_cm_musee_dart_moderne_de_la_ville_de_paris.jpg
-	:alt: Ο πίνακας *Η ομάδα του Κάρντιφ* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	:alt: Ο πίνακας *Η ομάδα του Κάρντιφ* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η ομάδα του Κάρντιφ* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	Ο πίνακας *Η ομάδα του Κάρντιφ* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\*.* 
 
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1xXby7X2u7vFwUYqK7v4QTWS7Yb2nCPql/view?usp=sharing>`__ και στη σελίδα :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

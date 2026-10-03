@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/03/775px-auguste_renoir_-_young_girls_at_the_piano_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2021/03/775px-auguste_renoir_-_young_girls_at_the_piano_-_google_art_project.jpg
-	:alt: Ο πίνακας *Κορίτσια στο πιάνο* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Κορίτσια στο πιάνο* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Κορίτσια στο πιάνο* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Κορίτσια στο πιάνο* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Ένα γενικό επαναληπτικό τεστάκι σε απλά παραμετρικά όρια και παραγώγους - μαθηματικά Γʹ ΕΠΑΛ, προετοιμασία για πανελλήνιες.

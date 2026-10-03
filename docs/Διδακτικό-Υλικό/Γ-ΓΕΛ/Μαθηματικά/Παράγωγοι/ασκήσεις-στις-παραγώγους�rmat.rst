@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/01/caspar_david_friedrich_-_graveyard_under_snow_-_museum_der_bildenden_künste.jpg
 
 .. figure:: /_static/images/uploads/2019/01/caspar_david_friedrich_-_graveyard_under_snow_-_museum_der_bildenden_künste.jpg
-	:alt: Ο πίνακας *Χιονισμένο νεκροταφείο* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Χιονισμένο νεκροταφείο* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Χιονισμένο νεκροταφείο* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Χιονισμένο νεκροταφείο* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Λίγες ασκήσεις πάνω στο θεώρημα του Fermat.

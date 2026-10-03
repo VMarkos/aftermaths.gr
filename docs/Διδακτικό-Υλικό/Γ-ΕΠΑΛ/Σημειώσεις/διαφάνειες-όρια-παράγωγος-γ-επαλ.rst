@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/august_macke_-_indianer_auf_pferden.jpg
 
 .. figure:: /_static/images/uploads/2020/11/august_macke_-_indianer_auf_pferden.jpg
-	:alt: Ο πίνακας *Ινδιάνοι πάνω σε άλογα* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	:alt: Ο πίνακας *Ινδιάνοι πάνω σε άλογα* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ινδιάνοι πάνω σε άλογα* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	Ο πίνακας *Ινδιάνοι πάνω σε άλογα* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 
 
 Τις :doc:`διαφάνειες για την καραντίνα  </docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-για-την-καραντίνα>` μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1q86VLf2y30tdHhsKKZnzwh2OVRqUJ5Je/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

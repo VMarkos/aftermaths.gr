@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/gugg_young_boy_with_a_lamb_the_good_shepherd.jpg
 
 .. figure:: /_static/images/uploads/2020/11/gugg_young_boy_with_a_lamb_the_good_shepherd.jpg
-	:alt: Ο πίνακας *Νεαρό αγόρι με αμνό (Ο καλός βοσκός)* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	:alt: Ο πίνακας *Νεαρό αγόρι με αμνό (Ο καλός βοσκός)* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεαρό αγόρι με αμνό (Ο καλός βοσκός)* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	Ο πίνακας *Νεαρό αγόρι με αμνό (Ο καλός βοσκός)* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 
 
 Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-xvi-β-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1Xt4YQXnp02HKVAGjBRc50UCfJpFlhq5Y/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

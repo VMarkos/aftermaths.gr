@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/morgan_russell_1913-14_synchromy_in_orange_to_form.jpg
 
 .. figure:: /_static/images/uploads/2020/12/morgan_russell_1913-14_synchromy_in_orange_to_form.jpg
-	:alt: Ο πίνακας *Συγχρωμία σε πορτοκαλί, σε μορφή* του `Morgan Russell  <https://en.wikipedia.org/wiki/Morgan_Russell>`__\ *.* 
+	:alt: Ο πίνακας *Συγχρωμία σε πορτοκαλί, σε μορφή* του `Morgan Russell  <https://en.wikipedia.org/wiki/Morgan_Russell>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Συγχρωμία σε πορτοκαλί, σε μορφή* του `Morgan Russell  <https://en.wikipedia.org/wiki/Morgan_Russell>`__\ *.* 
+	Ο πίνακας *Συγχρωμία σε πορτοκαλί, σε μορφή* του `Morgan Russell  <https://en.wikipedia.org/wiki/Morgan_Russell>`__\*.* 
 
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1oDSBJlNsgWfh0S-VbtFeSOhclhWa8TbS/view?usp=sharing>`__ και στη σελίδα :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

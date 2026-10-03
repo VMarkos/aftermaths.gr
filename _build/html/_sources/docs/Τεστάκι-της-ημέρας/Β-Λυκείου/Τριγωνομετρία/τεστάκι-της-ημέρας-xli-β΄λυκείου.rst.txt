@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/1070px-chase_william_merritt_portrait_of_miss_dora_wheeler_1883.jpg
 
 .. figure:: /_static/images/uploads/2020/12/1070px-chase_william_merritt_portrait_of_miss_dora_wheeler_1883.jpg
-	:alt: Ο πίνακας *Το πορτραίτο της Dora Miller* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	:alt: Ο πίνακας *Το πορτραίτο της Dora Miller* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το πορτραίτο της Dora Miller* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	Ο πίνακας *Το πορτραίτο της Dora Miller* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1jIRans8xMP0SWj_EHGhadZz4gGfaRJYy/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

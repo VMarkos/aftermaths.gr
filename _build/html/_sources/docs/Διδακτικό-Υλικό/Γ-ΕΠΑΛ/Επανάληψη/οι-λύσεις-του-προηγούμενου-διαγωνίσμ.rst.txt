@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/05/pierre-auguste_renoir_-_torse_effet_de_soleil.jpg
 
 .. figure:: /_static/images/uploads/2021/05/pierre-auguste_renoir_-_torse_effet_de_soleil.jpg
-	:alt: Ο πίνακας *Γυμνό στον ήλιο* του `Pierre-Augusute Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Γυμνό στον ήλιο* του `Pierre-Augusute Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Γυμνό στον ήλιο* του `Pierre-Augusute Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Γυμνό στον ήλιο* του `Pierre-Augusute Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου διαγωνίσματος  </docs/Διδακτικό-Υλικό/Γ-ΕΠΑΛ/Επανάληψη/επαναληπτικό-διαγώνισμα-5-γ-επαλ>` στα μαθηματικά γενικής παιδείας της Γʹ ΕΠΑΛ μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1cYnVc4jS5JB57kGNMB150anONYvmmSXo/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

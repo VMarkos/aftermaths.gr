@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/07/800px-the_menin_road.jpg
 
 .. figure:: /_static/images/uploads/2019/07/800px-the_menin_road.jpg
-	:alt: Ο πίνακας *Ο δρόμος του Μένιν* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+	:alt: Ο πίνακας *Ο δρόμος του Μένιν* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο δρόμος του Μένιν* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+	Ο πίνακας *Ο δρόμος του Μένιν* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\*.* 
 
 
 Επαναληπτικό διαγώνισμα σε όλη την εισαγωγική ενότητα των συναρτήσεων. Το διαγώνισμα μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1CVB4uxxQ3fGuGRvZhlSwKhnpjd3fWMK7/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

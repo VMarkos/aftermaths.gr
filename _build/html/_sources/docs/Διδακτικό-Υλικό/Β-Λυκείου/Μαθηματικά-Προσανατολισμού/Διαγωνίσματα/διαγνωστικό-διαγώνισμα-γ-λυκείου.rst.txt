@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/06/11782701183_872b7f8c8d_b.jpg
 
 .. figure:: /_static/images/uploads/2019/06/11782701183_872b7f8c8d_b.jpg
-	:alt: Ένας πίνακας *Trompe lʹ Oeil* του `Cornelis Norbertus Gysbrecths  <https://en.wikipedia.org/wiki/Cornelis_Norbertus_Gysbrechts>`__\ *.* 
+	:alt: Ένας πίνακας *Trompe lʹ Oeil* του `Cornelis Norbertus Gysbrecths  <https://en.wikipedia.org/wiki/Cornelis_Norbertus_Gysbrechts>`__\*.* 
 	:align: center
 
-	Ένας πίνακας *Trompe lʹ Oeil* του `Cornelis Norbertus Gysbrecths  <https://en.wikipedia.org/wiki/Cornelis_Norbertus_Gysbrechts>`__\ *.* 
+	Ένας πίνακας *Trompe lʹ Oeil* του `Cornelis Norbertus Gysbrecths  <https://en.wikipedia.org/wiki/Cornelis_Norbertus_Gysbrechts>`__\*.* 
 
 
 Το διαγώνισμα βρίσκεται `εδώ  <https://drive.google.com/file/d/1qfidVptNAVA5ipJQ53mkfH9Xj9a9hNtX/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

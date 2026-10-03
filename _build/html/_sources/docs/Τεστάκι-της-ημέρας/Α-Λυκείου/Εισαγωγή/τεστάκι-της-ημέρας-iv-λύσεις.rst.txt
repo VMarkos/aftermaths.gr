@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/the_frost_by_igor_grabar_1905.jpg
 
 .. figure:: /_static/images/uploads/2020/11/the_frost_by_igor_grabar_1905.jpg
-	:alt: Ο πίνακας *Η παγωνιά* του `Igor Grabar  <https://en.wikipedia.org/wiki/Igor_Grabar>`__\ *.* 
+	:alt: Ο πίνακας *Η παγωνιά* του `Igor Grabar  <https://en.wikipedia.org/wiki/Igor_Grabar>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η παγωνιά* του `Igor Grabar  <https://en.wikipedia.org/wiki/Igor_Grabar>`__\ *.* 
+	Ο πίνακας *Η παγωνιά* του `Igor Grabar  <https://en.wikipedia.org/wiki/Igor_Grabar>`__\*.* 
 
 
 Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Εισαγωγή/τεστάκι-της-ημέρας-iv-α-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1yhEdboJhLo8Yh4qKLzx1H2XDiKzzwqFj/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

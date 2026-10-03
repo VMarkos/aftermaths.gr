@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/ilya_repin._the_blonde_woman_portrait_of_tevashova.jpg
 
 .. figure:: /_static/images/uploads/2021/01/ilya_repin._the_blonde_woman_portrait_of_tevashova.jpg
-	:alt: Ο πίνακας *Η ξανθιά γυναίκα* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:alt: Ο πίνακας *Η ξανθιά γυναίκα* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η ξανθιά γυναίκα* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	Ο πίνακας *Η ξανθιά γυναίκα* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 
 
 Τις :doc:`διαφάνειες για την καραντίνα  </docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-άλγεβρα-α-λυκείου-2>` της Φυσικής Αʹ Λυκείου - καλύπτουν ευθύγραμμες κινήσεις και εισαγωγή στη δυναμική - μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1in9X-mrIpv73l6nfwZxKjb89IqpYWmFP/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

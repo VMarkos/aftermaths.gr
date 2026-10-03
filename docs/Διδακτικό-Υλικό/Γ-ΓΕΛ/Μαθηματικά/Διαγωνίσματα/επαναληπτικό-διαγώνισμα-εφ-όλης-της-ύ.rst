@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/06/480px-vincent_van_gogh_-_de_stoel_van_gauguin_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2019/06/480px-vincent_van_gogh_-_de_stoel_van_gauguin_-_google_art_project.jpg
-	:alt: Ο πίνακας *Η καρέκλα του Paul Gauguin* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Η καρέκλα του Paul Gauguin* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η καρέκλα του Paul Gauguin* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Η καρέκλα του Paul Gauguin* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Το διαγώνισμα βρίσκεται `εδώ  <https://drive.google.com/file/d/1IabNxsxThI0MTQQRTiZJtNjaK3vElGpR/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

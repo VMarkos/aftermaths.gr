@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/04/800px-vincent_van_gogh_-_wheatfield_under_thunderclouds_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2019/04/800px-vincent_van_gogh_-_wheatfield_under_thunderclouds_-_google_art_project.jpg
-	:alt: Ο πίνακας *Χωράφι με στάχυα κάτω από τα σύννεφα της καταιγίδας* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Χωράφι με στάχυα κάτω από τα σύννεφα της καταιγίδας* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Χωράφι με στάχυα κάτω από τα σύννεφα της καταιγίδας* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Χωράφι με στάχυα κάτω από τα σύννεφα της καταιγίδας* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Το διαγώνισμα βρίσκεται `εδώ  <https://drive.google.com/file/d/1JxGYFh8jL_EbuDKN7SLhHIu-BuXOXtr5/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

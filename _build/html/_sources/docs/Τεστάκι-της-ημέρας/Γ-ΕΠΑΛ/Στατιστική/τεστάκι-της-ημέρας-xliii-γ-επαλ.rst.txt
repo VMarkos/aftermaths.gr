@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/chase_william_merritt_a_sunny_day_at_shinnecock_bay_c1892.jpg
 
 .. figure:: /_static/images/uploads/2020/12/chase_william_merritt_a_sunny_day_at_shinnecock_bay_c1892.jpg
-	:alt: Ο πίνακας *Μία ηλιόλουστη μέρα στον κόλπο του Shinnecock* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	:alt: Ο πίνακας *Μία ηλιόλουστη μέρα στον κόλπο του Shinnecock* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Μία ηλιόλουστη μέρα στον κόλπο του Shinnecock* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	Ο πίνακας *Μία ηλιόλουστη μέρα στον κόλπο του Shinnecock* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1O6iKzpzCkiEkrrxYai1T6yyV_wpMUqVw/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/06/436px-vincent_van_gogh_-_eugc3a8ne_boch_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2019/06/436px-vincent_van_gogh_-_eugc3a8ne_boch_-_google_art_project.jpg
-	:alt: Ο πίνακας *Ευγένιος Μποχ (Ο ποιητής μπροστά από έναν έναστρο ουρανό)* του `Vicnent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Ευγένιος Μποχ (Ο ποιητής μπροστά από έναν έναστρο ουρανό)* του `Vicnent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ευγένιος Μποχ (Ο ποιητής μπροστά από έναν έναστρο ουρανό)* του `Vicnent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Ευγένιος Μποχ (Ο ποιητής μπροστά από έναν έναστρο ουρανό)* του `Vicnent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Το διαγώνισμα βρίσκεται `εδώ  <https://drive.google.com/file/d/1yNyI9yTmJJ-pyI5ih50Qldj3YMaEvhHI/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

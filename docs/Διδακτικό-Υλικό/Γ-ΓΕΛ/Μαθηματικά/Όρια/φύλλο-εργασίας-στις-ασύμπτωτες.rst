@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/10/584px-vassily_kandinsky_1923_-_circles_in_a_circle.jpg
 
 .. figure:: /_static/images/uploads/2019/10/584px-vassily_kandinsky_1923_-_circles_in_a_circle.jpg
-	:alt: Ο πίνακας *Κύκλοι μέσα σε κύκλο* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *Κύκλοι μέσα σε κύκλο* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Κύκλοι μέσα σε κύκλο* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Κύκλοι μέσα σε κύκλο* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Το φύλλο εργασίας βρίσκεται `εδώ  <https://drive.google.com/file/d/1EeBafaA5FcX_qW_aWzIyHOdWF4IF28Hy/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

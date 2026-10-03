@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/09/vg104-2024_1024x1024.jpg
 
 .. figure:: /_static/images/uploads/2018/09/vg104-2024_1024x1024.jpg
-	:alt: Ο πίνακας *Κίτρινο σπίτι* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Κίτρινο σπίτι* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Κίτρινο σπίτι* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Κίτρινο σπίτι* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο οι μαθητές καλούνται να υλοποιήσουν έναν αλγόριθμο ο οποίος εκτελεί την Ευκλείδεια διαίρεση μεταξύ δύο ακεραίων χωρίς, προφανώς, να χρησιμοποιήσουν τους τελεστές που παρέχει η γλώσσα (div και mod).

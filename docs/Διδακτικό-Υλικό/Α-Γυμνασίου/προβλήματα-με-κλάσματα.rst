@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/11/800px-giovanni_antonio_canal_called_il_canaletto_-_prc3a0_della_valle_in_padua_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2019/11/800px-giovanni_antonio_canal_called_il_canaletto_-_prc3a0_della_valle_in_padua_-_google_art_project.jpg
-	:alt: Ο πίνακας *Prà della Valle στην Πάδοβα* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	:alt: Ο πίνακας *Prà della Valle στην Πάδοβα* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Prà della Valle στην Πάδοβα* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	Ο πίνακας *Prà della Valle στην Πάδοβα* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1QpzaVTdkEabRO6yaDLf3KxpITs5Oq39J/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/09/474px-van_gogh_self-portrait_with_straw_hat_1887-metropolitan.jpg
 
 .. figure:: /_static/images/uploads/2019/09/474px-van_gogh_self-portrait_with_straw_hat_1887-metropolitan.jpg
-	:alt: Ο πίνακας *Αυτοπροσωπογραφία με ψάθινο καπέλο* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Αυτοπροσωπογραφία με ψάθινο καπέλο* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Αυτοπροσωπογραφία με ψάθινο καπέλο* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Αυτοπροσωπογραφία με ψάθινο καπέλο* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Το τεστάκι βρίσκεται `εδώ  <https://drive.google.com/file/d/12kFKu87Fya6hzILoliY17UwO6NVXomIE/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

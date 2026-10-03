@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/08/ezgif.com-crop2.gif, _static/images/uploads/2019/07/ezgif.com-gif-maker.gif, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceb9cebacf8ccf84ceb5cf81ceb5cf82-1.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_4-1.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_2-1.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1.png, _static/images/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-11.png, _static/images/uploads/2019/08/ezgif.com-gif-maker-5-1.gif, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-1.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_3-1-1.png, _static/images/uploads/2019/08/ezgif-5-a9900beba2.pdf-1.png, _static/images/uploads/2019/08/ezgif-5-c61c2e89bf.pdf-1.png, _static/images/uploads/2019/08/lw427-mc-escher-sphere-surface-with-fish-1958.jpg, _static/images/uploads/2019/07/ezgif.com-gif-maker-2.gif, _static/images/uploads/2019/07/ezgif.com-gif-maker-3.gif, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae-1-3.png, _static/images/uploads/2019/07/cea5cf80ceb5cf81ceb2cebfcebbceae_5-11.png, _static/images/uploads/2019/07/ce9bcebfceb3ceaccf81ceb9ceb8cebccebfcf82_1-1.png
 
 .. figure:: /_static/images/uploads/2019/08/lw427-mc-escher-sphere-surface-with-fish-1958.jpg
-	:alt: Το ξυλοχαρακτικό *Σφαρική επιφάνεια με ψάρια* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	:alt: Το ξυλοχαρακτικό *Σφαρική επιφάνεια με ψάρια* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\*.* 
 	:align: center
 
-	Το ξυλοχαρακτικό *Σφαρική επιφάνεια με ψάρια* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	Το ξυλοχαρακτικό *Σφαρική επιφάνεια με ψάρια* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\*.* 
 
 
 Πρελούδιο
@@ -69,7 +69,7 @@
 
    Δύο ορθογώνια, ένα εμβαδόν, μία ιστορία αγάπης.
 
-Παρατηρούμε ότι τα δύο ορθογώνια έχουν ίσα εμβαδά, πράγμα που, άμα το καλοσκεφτούμε, δεν είναι, δα, και τόσο παράλογο (μη σας πω ότι μοιάζει και με την ελληνική πολιτική σκηνή). Εξηγούμαι - διότι, αν δεν ερμηνεύσω εγώ τα λεγόμενά μου, θα την πατήσω όπως τόσοι άλλοι στην ιστορία. Για να πάμε από το κόκκινο στο πράσινο ορθογώνιο, από τη μία, *τετραπλασιάσαμε* τη βάση του (πάνω-κάτω, αυτό που θέλει να κάνει ο ΣΥΡΙΖΑ), από την άλλη, *υποτετραπλασιάσαμε* το ύψος του (πάνω-κάτω, αυτό που έχει πάθει το ΠΑΣΟΚ). Έτσι, «μία η άλλη», που θα λέγαμε· όσα δώσαμε στη μία πλευρά τα πήραμε από την άλλη (πάνω-κάτω, ό,τι έκαναν οι ψηφοφόροι στις πρόσφατες εκλογές με τα δύο «μεγάλα παιδιά»).
+Παρατηρούμε ότι τα δύο ορθογώνια έχουν ίσα εμβαδά, πράγμα που, άμα το καλοσκεφτούμε, δεν είναι, δα, και τόσο παράλογο (μη σας πω ότι μοιάζει και με την ελληνική πολιτική σκηνή). Εξηγούμαι - διότι, αν δεν ερμηνεύσω εγώ τα λεγόμενά μου, θα την πατήσω όπως τόσοι άλλοι στην ιστορία. Για να πάμε από το κόκκινο στο πράσινο ορθογώνιο, από τη μία, *τετραπλασιάσαμε* τη βάση του (πάνω-κάτω, αυτό που θέλει να κάνει ο ΣΥΡΙΖΑ), από την άλλη,*υποτετραπλασιάσαμε* το ύψος του (πάνω-κάτω, αυτό που έχει πάθει το ΠΑΣΟΚ). Έτσι, «μία η άλλη», που θα λέγαμε· όσα δώσαμε στη μία πλευρά τα πήραμε από την άλλη (πάνω-κάτω, ό,τι έκαναν οι ψηφοφόροι στις πρόσφατες εκλογές με τα δύο «μεγάλα παιδιά»).
 
 Κλείνουμε αυτήν την πολιτική παρένθεση για να δούμε το ζήτημα λίγο πιο γενικά. Αν πάρουμε ένα  :math:`t>0`  και θεωρήσουμε τα σημεία  :math:`A_t(ta,0)`  και  :math:`B_t(tb,0)` , τότε θα έχουμε  :math:`t-` πλασιάσει τις συντεταγμένες μας, επομένως θα έχουμε κάτι σαν αυτό που φαίνεται στο παρακάτω σχήμα:
 

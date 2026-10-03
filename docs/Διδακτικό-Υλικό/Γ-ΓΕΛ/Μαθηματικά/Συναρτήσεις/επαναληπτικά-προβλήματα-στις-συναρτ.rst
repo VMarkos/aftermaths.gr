@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/09/kandinsky_study_for_improvisation_v_mia_67342.jpg
 
 .. figure:: /_static/images/uploads/2019/09/kandinsky_study_for_improvisation_v_mia_67342.jpg
-	:alt: Ο πίνακας *Σπουδή για αυτοσχεδιασμό V* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *Σπουδή για αυτοσχεδιασμό V* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Σπουδή για αυτοσχεδιασμό V* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Σπουδή για αυτοσχεδιασμό V* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1fhNIensSd2JAGT_QBpGlhgMnp04U-TAg/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

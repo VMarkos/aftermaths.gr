@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/04/vincent_willem_van_gogh_037.jpg
 
 .. figure:: /_static/images/uploads/2019/04/vincent_willem_van_gogh_037.jpg
-	:alt: Ο πίνακας *Ο κύκλος των φυλακισμένων* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Ο κύκλος των φυλακισμένων* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο κύκλος των φυλακισμένων* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Ο κύκλος των φυλακισμένων* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Οι ασκήσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1-yFvEFoEsC5qDxb801QePq6Uj4RMk0cs/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

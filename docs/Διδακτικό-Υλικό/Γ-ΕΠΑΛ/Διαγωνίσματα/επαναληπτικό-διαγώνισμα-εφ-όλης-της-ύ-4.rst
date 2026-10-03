@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/04/756px-van_gogh_-_garten_des_hospitals_in_arles1.jpeg
 
 .. figure:: /_static/images/uploads/2019/04/756px-van_gogh_-_garten_des_hospitals_in_arles1.jpeg
-	:alt: Ο πίνακας *Η αυλή του νοσοκομείου της Αρλ* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Η αυλή του νοσοκομείου της Αρλ* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η αυλή του νοσοκομείου της Αρλ* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Η αυλή του νοσοκομείου της Αρλ* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Το διαγώνισμα βρίσκεται `εδώ  <https://drive.google.com/file/d/14KnoV5kEGzjmMU--He0zeO6hmev2PsJQ/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

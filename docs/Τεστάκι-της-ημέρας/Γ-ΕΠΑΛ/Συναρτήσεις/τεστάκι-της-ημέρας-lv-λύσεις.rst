@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/02/bellerofont_otpravljaetsja_v_pohod_protiv_himery.jpg
 
 .. figure:: /_static/images/uploads/2021/02/bellerofont_otpravljaetsja_v_pohod_protiv_himery.jpg
-	:alt: Ο πίνακας *Ο Βελερεφόντης αναλαμβάνει μία αποστολή απέναντι στη Χίμαιρα* του `Alexander Ivanov  <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\ *.* 
+	:alt: Ο πίνακας *Ο Βελερεφόντης αναλαμβάνει μία αποστολή απέναντι στη Χίμαιρα* του `Alexander Ivanov  <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο Βελερεφόντης αναλαμβάνει μία αποστολή απέναντι στη Χίμαιρα* του `Alexander Ivanov  <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\ *.* 
+	Ο πίνακας *Ο Βελερεφόντης αναλαμβάνει μία αποστολή απέναντι στη Χίμαιρα* του `Alexander Ivanov  <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Συναρτήσεις/τεστάκι-της-ημέρας-lv-γ-επαλ>` στους πίνακες μονοτονίας συναρτήσεων στα μαθηματικά γενικής παιδείας της Γʹ ΕΠΑΛ μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1p9-Tp-PUFu3TqV6EIZwtn7VkhQSgP5EN/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

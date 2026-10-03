@@ -11,17 +11,17 @@
 	:attachments: _static/images/uploads/2022/03/alma-tadema_the-flower-market-1868.jpg
 
 .. figure:: /_static/images/uploads/2022/03/alma-tadema_the-flower-market-1868.jpg
-	:alt: Ο πίνακας *Ρωμαϊκό ανθοπωλείο* του `Lawrence Alma-Tadema  <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__\ *.* 
+	:alt: Ο πίνακας *Ρωμαϊκό ανθοπωλείο* του `Lawrence Alma-Tadema  <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ρωμαϊκό ανθοπωλείο* του `Lawrence Alma-Tadema  <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__\ *.* 
+	Ο πίνακας *Ρωμαϊκό ανθοπωλείο* του `Lawrence Alma-Tadema  <https://en.wikipedia.org/wiki/Lawrence_Alma-Tadema>`__\*.* 
 
 
 Τι είναι ο αριθμός  :math:`e;`  Αν θέλετε να μάθετε, δεν έχετε παρά να ξεκινήσετε να μελετάτε τις παρακάτω διαφάνειες - Άλγεβρα Βʹ Γενικού Λυκείου.
 
 Τις διαφάνειες μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1UWdPa0pG4DvlGKre4IotmBn5t2VhWrdH/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
-*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ :doc:`εδώ  </docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-β-λυκείου-μάθημα-23ο>`\ *ενώ τις αντίστοιχες διαφάνειες της Αʹ Λυκείου*\ :doc:`εδώ  </docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-α-λυκείου-μάθημα-24ο>`\ *.*
+*Τις διαφάνειες του προηγούμενου μαθήματος μπορείτε να τις βρείτε*\ :doc:`εδώ  </docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-β-λυκείου-μάθημα-23ο>`\*ενώ τις αντίστοιχες διαφάνειες της Αʹ Λυκείου*\ :doc:`εδώ  </docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-α-λυκείου-μάθημα-24ο>`\*.*
 
 
 

@@ -11,10 +11,10 @@ The Wumpus Project - Part 0
 	:attachments: _static/images/uploads/2019/08/410px-thumbnail.jpg
 
 .. figure:: /_static/images/uploads/2019/08/410px-thumbnail.jpg
-	:alt: Ο πίνακας *Παράθυρο στην Τανγέρη* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:alt: Ο πίνακας *Παράθυρο στην Τανγέρη* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Παράθυρο στην Τανγέρη* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Παράθυρο στην Τανγέρη* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 
 
 Το Wumpus Project είναι ένα project εκμάθησης των βασικών προγραμματιστικών δεξιοτήτων που απαιτούνται στα πλαίσια του μαθήματος της Ανάπτυξης Εφαρμογών σε Προγραμματιστικό Περιβάλλον (ΑΕΠΠ) της Γʹ Λυκείου. Η δομή του project είναι σπονδυλωτή και θα υλοποιηθεί σε αρκετά μέρη, το καθένα από τα οποία θα αποτελεί συνέχεια των προηγούμενών του, ενώ η βασική ιδέα είναι βασισμένη στην υλοποίηση ενός παιχνιδιού σε Ψευδογλώσσα που θυμίζει έντονα το `Wumpus World  <https://thiagodnf.github.io/wumpus-world-simulator>`__ - μία παραλλαγή που, με τη σειρά της, βασίζεται στο text-based παιχνίδι των 70ʹs Hunt the Wumpus.

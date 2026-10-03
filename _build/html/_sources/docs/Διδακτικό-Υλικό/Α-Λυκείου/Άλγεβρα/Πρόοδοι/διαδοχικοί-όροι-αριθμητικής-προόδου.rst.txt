@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/03/rembrandt_harmensz._van_rijn_-_jacob_blessing_ephraim_and_manasseh_-_schloss_wilhelmshc3b6he_kassel.jpg
 
 .. figure:: /_static/images/uploads/2020/03/rembrandt_harmensz._van_rijn_-_jacob_blessing_ephraim_and_manasseh_-_schloss_wilhelmshc3b6he_kassel.jpg
-	:alt: Ο πίνακας *Ο Ιακώβ ευλογεί τα παιδιά του Ιωσήφ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	:alt: Ο πίνακας *Ο Ιακώβ ευλογεί τα παιδιά του Ιωσήφ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο Ιακώβ ευλογεί τα παιδιά του Ιωσήφ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	Ο πίνακας *Ο Ιακώβ ευλογεί τα παιδιά του Ιωσήφ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1w1C94HX6_MTO6cxU4sm-C64IX0EuwVa-/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

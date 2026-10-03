@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/04/442px-rembrandt_-_portrait_of_hendrickje_stoffels_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2020/04/442px-rembrandt_-_portrait_of_hendrickje_stoffels_-_google_art_project.jpg
-	:alt: Ο πίνακας *Μια γυναίκα στο άνοιγμα της πόρτας* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	:alt: Ο πίνακας *Μια γυναίκα στο άνοιγμα της πόρτας* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Μια γυναίκα στο άνοιγμα της πόρτας* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	Ο πίνακας *Μια γυναίκα στο άνοιγμα της πόρτας* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1usY6_hThYvJ1Np1yGLVtx_2QG2oX2PPz/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

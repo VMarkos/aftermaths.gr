@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/02/rembrandt_bue_squartato_1655_02.jpg
 
 .. figure:: /_static/images/uploads/2020/02/rembrandt_bue_squartato_1655_02.jpg
-	:alt: Ο πίνακας *Σφαγμένο βόδι* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	:alt: Ο πίνακας *Σφαγμένο βόδι* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Σφαγμένο βόδι* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	Ο πίνακας *Σφαγμένο βόδι* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1z6o2hYzzHPWTrJQaWvpKa25Y5_pjLfGF/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

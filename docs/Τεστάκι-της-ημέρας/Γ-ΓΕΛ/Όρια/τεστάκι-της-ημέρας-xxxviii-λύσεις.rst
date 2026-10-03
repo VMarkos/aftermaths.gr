@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/composition_i_by_patrick_henry_bruce.jpeg
 
 .. figure:: /_static/images/uploads/2020/12/composition_i_by_patrick_henry_bruce.jpeg
-	:alt: Ο πίνακας *Σύνθεση Ι* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+	:alt: Ο πίνακας *Σύνθεση Ι* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Σύνθεση Ι* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+	Ο πίνακας *Σύνθεση Ι* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xxxviii-γ-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/128xQx5X8cGK_wBbrrKkrymWNKwLJ9O6j/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

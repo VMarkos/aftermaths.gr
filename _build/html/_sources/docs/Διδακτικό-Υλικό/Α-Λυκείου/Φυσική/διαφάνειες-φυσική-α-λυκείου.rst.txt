@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/patrick_henry_bruce_forms_about_1918.jpg
 
 .. figure:: /_static/images/uploads/2020/12/patrick_henry_bruce_forms_about_1918.jpg
-	:alt: Ο πίνακας *Μορφές* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+	:alt: Ο πίνακας *Μορφές* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Μορφές* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+	Ο πίνακας *Μορφές* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\*.* 
 
 
 Τις :doc:`διαφάνειες για την καραντίνα  </docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-για-την-καραντίνα>` μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/18DxGuzbXkeuC7LYys3Mrt5Ws0vWmWsyG/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

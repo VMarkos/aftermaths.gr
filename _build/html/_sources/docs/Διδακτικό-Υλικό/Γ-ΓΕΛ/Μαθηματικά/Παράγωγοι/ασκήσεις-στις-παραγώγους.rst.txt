@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/01/vassily_kandinsky_1936_-_composition_ix.jpg
 
 .. figure:: /_static/images/uploads/2019/01/vassily_kandinsky_1936_-_composition_ix.jpg
-	:alt: Ο πίνακας *Αφαιρετικές στροφές 150,* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *Αφαιρετικές στροφές 150,* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Αφαιρετικές στροφές 150,* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Αφαιρετικές στροφές 150,* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Λίγες ασκησούλες στις παραγώγους, όπως είχαμε συμφωνήσει.

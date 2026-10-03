@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/07/382px-henri_matisse_-_view_of_notre_dame._paris_quai_saint-michel_spring_1914.jpg
 
 .. figure:: /_static/images/uploads/2019/07/382px-henri_matisse_-_view_of_notre_dame._paris_quai_saint-michel_spring_1914.jpg
-	:alt: Ο πίνακας *Άποψη της Παναγίας των Παρισίων* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:alt: Ο πίνακας *Άποψη της Παναγίας των Παρισίων* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Άποψη της Παναγίας των Παρισίων* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Άποψη της Παναγίας των Παρισίων* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 
 
 Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1El3eG7csewL8kv7Wlp5TUzjlG2T6JkbX/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/02/455px-giuseppe_arcimboldo_fire_kunsthistorisches_museum.jpg
 
 .. figure:: /_static/images/uploads/2019/02/455px-giuseppe_arcimboldo_fire_kunsthistorisches_museum.jpg
-	:alt: Ο πίνακας *Φωτιά* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+	:alt: Ο πίνακας *Φωτιά* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Φωτιά* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+	Ο πίνακας *Φωτιά* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1QknyRmvMNCzLGdsRrfs5enX_zBYgjOMj/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

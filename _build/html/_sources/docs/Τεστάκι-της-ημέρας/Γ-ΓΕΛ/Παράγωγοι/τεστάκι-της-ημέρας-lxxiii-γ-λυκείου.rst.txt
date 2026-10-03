@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/03/two_sisters_on_the_terrace.jpg
 
 .. figure:: /_static/images/uploads/2021/03/two_sisters_on_the_terrace.jpg
-	:alt: Ο πίνακας *Οι δύο αδερφές* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Οι δύο αδερφές* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Οι δύο αδερφές* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Οι δύο αδερφές* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Ένα τεστάκι στον ορισμό της κυρτότητας και την απόδειξη απλών ανισοτήτων - είτε με σχέση κυρτότητας-εφαπτομένης είτε μέσω γνωστής ανισότητας - στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γʹ Λυκείου.

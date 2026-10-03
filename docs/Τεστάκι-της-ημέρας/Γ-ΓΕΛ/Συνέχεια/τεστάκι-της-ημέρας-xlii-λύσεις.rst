@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/wmchasegravesendbay.jpg
 
 .. figure:: /_static/images/uploads/2020/12/wmchasegravesendbay.jpg
-	:alt: Ο πίνακας *Απόγευμα στη θάλασσα* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	:alt: Ο πίνακας *Απόγευμα στη θάλασσα* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Απόγευμα στη θάλασσα* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	Ο πίνακας *Απόγευμα στη θάλασσα* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Συνέχεια/τεστάκι-της-ημέρας-xlii-γ-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1kQSOW1_iP4kPJz48EUFmESXtkpMXWzmb/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

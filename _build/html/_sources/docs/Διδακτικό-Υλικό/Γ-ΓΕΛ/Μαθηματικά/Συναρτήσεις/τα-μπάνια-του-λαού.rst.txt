@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/07/lse_skac_ga0939.jpg
 
 .. figure:: /_static/images/uploads/2019/07/lse_skac_ga0939.jpg
-	:alt: Ο πίνακας *Τοπίο στο Berkshire* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+	:alt: Ο πίνακας *Τοπίο στο Berkshire* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Τοπίο στο Berkshire* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+	Ο πίνακας *Τοπίο στο Berkshire* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\*.* 
 
 
 Για να κλείσει καλά η ακαδημαϊκή χρονιά που μας πέρασε, λίγες ασκήσεις για επανάληψη μέσα στον Αύγουστο είναι απολύτως απαραίτητες.

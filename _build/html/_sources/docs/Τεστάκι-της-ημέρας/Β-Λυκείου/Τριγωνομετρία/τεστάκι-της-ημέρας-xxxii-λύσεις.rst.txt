@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/778px-macke_-_seiltanzerin_1913.jpg
 
 .. figure:: /_static/images/uploads/2020/12/778px-macke_-_seiltanzerin_1913.jpg
-	:alt: Ο πίνακας *Σχοινοβάτης* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	:alt: Ο πίνακας *Σχοινοβάτης* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Σχοινοβάτης* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	Ο πίνακας *Σχοινοβάτης* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Τριγωνομετρία/τεστάκι-της-ημέρας-xxxii-β-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1I8bgG8tuQFMrmV5HcPEaGPp0XXI41gZf/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/09/mary_cassatt_-_summertime_-_tfaa_1988.25.jpg
 
 .. figure:: /_static/images/uploads/2021/09/mary_cassatt_-_summertime_-_tfaa_1988.25.jpg
-	:alt: Ο πίνακας *Καλοκαίρι* της `Mary Cassatt  <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\ *.* 
+	:alt: Ο πίνακας *Καλοκαίρι* της `Mary Cassatt  <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Καλοκαίρι* της `Mary Cassatt  <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\ *.* 
+	Ο πίνακας *Καλοκαίρι* της `Mary Cassatt  <https://en.wikipedia.org/wiki/Mary_Cassatt>`__\*.* 
 
 
 Λίγες ασκήσεις που σκοπό έχουν να εισάγουν την έννοια του (πεπερασμένου) ορίου συνάρτησης στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γʹ Λυκείου.

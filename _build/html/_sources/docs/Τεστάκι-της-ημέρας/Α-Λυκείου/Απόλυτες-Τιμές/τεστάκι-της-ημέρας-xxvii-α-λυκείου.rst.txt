@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/925px-1910_macke_tegernsee_landschaft_anagoria.jpg
 
 .. figure:: /_static/images/uploads/2020/11/925px-1910_macke_tegernsee_landschaft_anagoria.jpg
-	:alt: Ο πίνακας *Τοπίο στο Tegernsee* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	:alt: Ο πίνακας *Τοπίο στο Tegernsee* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Τοπίο στο Tegernsee* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	Ο πίνακας *Τοπίο στο Tegernsee* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1lCTobHVQplUG5MNJSZOJ3GARboV5kBm5/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

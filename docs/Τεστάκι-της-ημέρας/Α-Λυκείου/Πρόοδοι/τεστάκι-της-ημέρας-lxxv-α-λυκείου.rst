@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/03/pierre-auguste_renoir_danseuse.jpg
 
 .. figure:: /_static/images/uploads/2021/03/pierre-auguste_renoir_danseuse.jpg
-	:alt: Ο πίνακας *Η χορεύτρια* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Η χορεύτρια* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η χορεύτρια* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Η χορεύτρια* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Ένα τεστάκι στις αριθμητικές προόδους και τα αθροίσματα όρων αριθμητικών προόδων στα πλαίσια της ύλης της άλγεβρας της Αʹ Λυκείου.

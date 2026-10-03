@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/12/aabe52cd1a4e02e4cde9f5104c25a2aa-caspar-david-friedrich-the-forest.jpg
 
 .. figure:: /_static/images/uploads/2018/12/aabe52cd1a4e02e4cde9f5104c25a2aa-caspar-david-friedrich-the-forest.jpg
-	:alt: *ο κυνηγός στο δάσος* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: *ο κυνηγός στο δάσος* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	*ο κυνηγός στο δάσος* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	*ο κυνηγός στο δάσος* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Σε συνέχεια των δύο πρώτων κεφαλαίων - τα οποία μπορείτε να βρείτε :doc:`εδώ  </docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/σημειώσεις-μαθηματικών-κεφάλαιο-πρώ>` και :doc:`εδώ  </docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/σημειώσεις-μαθηματικών-κεφάλαιο-δεύ>` - δημοσιεύονται τώρα και οι σημειώσεις που αφορούν το κεφάλαιο της συνέχειας συναρτήσεων. Η δομή των σημειώσεων είναι παρόμοια με των προηγούμενων κεφαλαίων, πρώτα παρουσιάζεται η θεωρία του κεφαλαίου μέσα από εφαρμογές της σε προβλήματα - πραγματικά ή απλώς σπαζοκεφαλιές - και στη συνέχεια παρουσιάζονται οι ασκήσεις που αφορούν το εν λόγω κεφάλαιο.

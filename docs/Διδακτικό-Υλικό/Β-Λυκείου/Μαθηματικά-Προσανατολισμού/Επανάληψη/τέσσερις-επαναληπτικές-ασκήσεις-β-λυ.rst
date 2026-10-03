@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/09/file-bruegel_d-_c3a4-_jan_-the_senses_of_hearing_touch_and_taste_-_1618.jpg
 
 .. figure:: /_static/images/uploads/2018/09/file-bruegel_d-_c3a4-_jan_-the_senses_of_hearing_touch_and_taste_-_1618.jpg
-	:alt: Ο πίνακας *Οι αισθήσεις της ακοής, της αφής και της γεύσης* του `Jan Brueghel του πρεσβύτερου  <https://en.wikipedia.org/wiki/Jan_Brueghel_the_Elder>`__\ *.* 
+	:alt: Ο πίνακας *Οι αισθήσεις της ακοής, της αφής και της γεύσης* του `Jan Brueghel του πρεσβύτερου  <https://en.wikipedia.org/wiki/Jan_Brueghel_the_Elder>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Οι αισθήσεις της ακοής, της αφής και της γεύσης* του `Jan Brueghel του πρεσβύτερου  <https://en.wikipedia.org/wiki/Jan_Brueghel_the_Elder>`__\ *.* 
+	Ο πίνακας *Οι αισθήσεις της ακοής, της αφής και της γεύσης* του `Jan Brueghel του πρεσβύτερου  <https://en.wikipedia.org/wiki/Jan_Brueghel_the_Elder>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται τέσσερις ασκήσεις που καλύπτουν το μεγαλύτερο μέρος της συνήθους εξεταστέας ύλης της Βʹ Λυκείου (Κατεύθυνση).

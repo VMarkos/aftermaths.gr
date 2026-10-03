@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/das_affchen_franz_marc_1912.jpg
 
 .. figure:: /_static/images/uploads/2020/11/das_affchen_franz_marc_1912.jpg
-	:alt: Ο πίνακας *Το μαϊμμουδάκι* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	:alt: Ο πίνακας *Το μαϊμμουδάκι* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το μαϊμμουδάκι* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	Ο πίνακας *Το μαϊμμουδάκι* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xviii-γ-επαλ>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1dANAQ0fXypOJ3r0oLW4n0DVU9wvFJ5q3/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

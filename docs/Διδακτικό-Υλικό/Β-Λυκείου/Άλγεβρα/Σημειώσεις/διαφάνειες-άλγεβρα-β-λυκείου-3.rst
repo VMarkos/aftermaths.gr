@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/1280px-william_merritt_chase_-_first_touch_of_autumn_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2020/12/1280px-william_merritt_chase_-_first_touch_of_autumn_-_google_art_project.jpg
-	:alt: Ο πίνακας *Πρώτη γεύση φθινοπώρου* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	:alt: Ο πίνακας *Πρώτη γεύση φθινοπώρου* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Πρώτη γεύση φθινοπώρου* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	Ο πίνακας *Πρώτη γεύση φθινοπώρου* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 
 
 Τις :doc:`διαφάνειες για την καραντίνα  </docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-για-την-καραντίνα>` μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1aV6-z0_D-Yol-sLQ0_iB7A7icT99MXXH/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

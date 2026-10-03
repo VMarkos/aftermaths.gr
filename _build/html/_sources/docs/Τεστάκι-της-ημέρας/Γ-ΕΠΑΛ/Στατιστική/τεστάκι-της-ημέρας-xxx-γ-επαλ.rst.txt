@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/1280px-august_macke_023.jpg
 
 .. figure:: /_static/images/uploads/2020/11/1280px-august_macke_023.jpg
-	:alt: Ο πίνακας *Kairouan (III)* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	:alt: Ο πίνακας *Kairouan (III)* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Kairouan (III)* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	Ο πίνακας *Kairouan (III)* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/15pTgEcBcpsjRGE3aWrx1MvfBLuF7sxwH/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

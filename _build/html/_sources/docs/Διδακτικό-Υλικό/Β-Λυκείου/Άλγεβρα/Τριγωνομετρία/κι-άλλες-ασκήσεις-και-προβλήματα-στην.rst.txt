@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/12/2073_0_Kandinsky_Stars_1.jpg
 
 .. figure:: /_static/images/uploads/2018/12/2073_0_Kandinsky_Stars_1.jpg
-	:alt: Η λιθογραφία *Αστέρια* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Η λιθογραφία *Αστέρια* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Η λιθογραφία *Αστέρια* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Η λιθογραφία *Αστέρια* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Άλλες λίγες ασκήσεις και προβλήματα στην τριγωνομετρία (Βʹ Λυκείου).

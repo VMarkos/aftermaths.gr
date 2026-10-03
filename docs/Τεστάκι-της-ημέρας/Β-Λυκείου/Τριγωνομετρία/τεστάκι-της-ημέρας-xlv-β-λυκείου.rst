@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/khata_by_repin.jpg
 
 .. figure:: /_static/images/uploads/2021/01/khata_by_repin.jpg
-	:alt: Ο πίνακας *Αγροτόσπιτο στην Ουκρανία* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:alt: Ο πίνακας *Αγροτόσπιτο στην Ουκρανία* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Αγροτόσπιτο στην Ουκρανία* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	Ο πίνακας *Αγροτόσπιτο στην Ουκρανία* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 
 
 Ένα τεστάκι στις βασικές έννοιες της τριγωνομετρίας και, ειδικότερα, στις βασικές τριγωνομετρικές εξισώσεις, στα πλαίσια της ύλης της άλγεβρας της Βʹ Λυκείου.

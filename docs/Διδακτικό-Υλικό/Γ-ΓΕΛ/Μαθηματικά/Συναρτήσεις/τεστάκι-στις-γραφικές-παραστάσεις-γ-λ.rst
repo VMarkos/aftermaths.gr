@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/07/escher_snakes.jpg
 
 .. figure:: /_static/images/uploads/2019/07/escher_snakes.jpg
-	:alt: Το τελευταίο έργο, *Φίδια*, του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	:alt: Το τελευταίο έργο, *Φίδια*, του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\*.* 
 	:align: center
 
-	Το τελευταίο έργο, *Φίδια*, του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	Το τελευταίο έργο, *Φίδια*, του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\*.* 
 
 
 Το τεστάκι βρίσκεται `εδώ  <https://drive.google.com/file/d/1m_Ex5VJMiOdMabF8uTGsfrQafUy7gCY4/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

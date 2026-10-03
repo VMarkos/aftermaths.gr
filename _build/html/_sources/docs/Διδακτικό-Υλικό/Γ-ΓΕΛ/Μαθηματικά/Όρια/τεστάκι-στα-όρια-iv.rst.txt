@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/09/vassily_kandinsky_1908_murnau_dorfstrasse.jpg
 
 .. figure:: /_static/images/uploads/2019/09/vassily_kandinsky_1908_murnau_dorfstrasse.jpg
-	:alt: Ο πίνακας *Δρόμος σε χωριό (στο Murnau)* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *Δρόμος σε χωριό (στο Murnau)* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Δρόμος σε χωριό (στο Murnau)* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Δρόμος σε χωριό (στο Murnau)* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Το τεστάκι βρίσκεται `εδώ  <https://drive.google.com/file/d/1IdTER-K8VfMd2mJaL2HkcLUgDcXtluOQ/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

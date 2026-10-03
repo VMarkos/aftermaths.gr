@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/macke_-_rotes_haus_im_park.jpg
 
 .. figure:: /_static/images/uploads/2020/11/macke_-_rotes_haus_im_park.jpg
-	:alt: Ο πίνακας *Κόκκινο σπίτι στο πάρκο* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	:alt: Ο πίνακας *Κόκκινο σπίτι στο πάρκο* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Κόκκινο σπίτι στο πάρκο* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	Ο πίνακας *Κόκκινο σπίτι στο πάρκο* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xxx-γ-επαλ>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1z8lDNt0jl_aVb0Y4lwqzb9tgHjfjgsqc/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

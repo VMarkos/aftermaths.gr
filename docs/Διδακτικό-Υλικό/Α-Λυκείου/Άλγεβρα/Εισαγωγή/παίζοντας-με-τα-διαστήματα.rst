@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/09/1280px-jan_brueghel_-_rivieroever.jpg
 
 .. figure:: /_static/images/uploads/2018/09/1280px-jan_brueghel_-_rivieroever.jpg
-	:alt: Ο πίνακας *Όχθη ποταμού* του `Jan Brueghel του πρεσβύτερου  <https://en.wikipedia.org/wiki/Jan_Brueghel_the_Elder>`__\ *.* 
+	:alt: Ο πίνακας *Όχθη ποταμού* του `Jan Brueghel του πρεσβύτερου  <https://en.wikipedia.org/wiki/Jan_Brueghel_the_Elder>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Όχθη ποταμού* του `Jan Brueghel του πρεσβύτερου  <https://en.wikipedia.org/wiki/Jan_Brueghel_the_Elder>`__\ *.* 
+	Ο πίνακας *Όχθη ποταμού* του `Jan Brueghel του πρεσβύτερου  <https://en.wikipedia.org/wiki/Jan_Brueghel_the_Elder>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται μερικές ασκήσεις - κάποιες εκ των οποίων είναι αρκετά δύσκολες - πάνω στην έννοια του διαστήματος και εστιάζουν, πέρα από τους απλούς χειρισμούς των συνολοθεωρητικών πράξεων, και στις ιδιαίτερες τοπολογικές ιδιότητες των πραγματικών αριθμών. Η τελευταία άσκηση αποτελεί μία μικρή εισαγωγή στην έννοια της πληρότητας των πραγματικών αριθμών.

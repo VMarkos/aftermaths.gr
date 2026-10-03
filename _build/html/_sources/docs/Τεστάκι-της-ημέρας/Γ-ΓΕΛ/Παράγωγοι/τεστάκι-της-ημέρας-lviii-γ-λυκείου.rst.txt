@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/02/1280px-alexander_ivanov_-_christs_appearance_to_mary_magdalene_after_the_resurrection_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2021/02/1280px-alexander_ivanov_-_christs_appearance_to_mary_magdalene_after_the_resurrection_-_google_art_project.jpg
-	:alt: Ο πίνακας *Εμφάνιση του Ιησού στη Μαρία τη Μαγδαληνή* του `Alexander Ivanov  <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\ *.* 
+	:alt: Ο πίνακας *Εμφάνιση του Ιησού στη Μαρία τη Μαγδαληνή* του `Alexander Ivanov  <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Εμφάνιση του Ιησού στη Μαρία τη Μαγδαληνή* του `Alexander Ivanov  <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\ *.* 
+	Ο πίνακας *Εμφάνιση του Ιησού στη Μαρία τη Μαγδαληνή* του `Alexander Ivanov  <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\*.* 
 
 
 Ένα τεστάκι σε βασικές έννοιες των παραγώγων - προετοιμασία για πανελλήνιες, Γʹ Λυκείου - όπως η εύρεση εξίσωσης εφαπτομένης γραφικής παράστασης συνάρτησης.

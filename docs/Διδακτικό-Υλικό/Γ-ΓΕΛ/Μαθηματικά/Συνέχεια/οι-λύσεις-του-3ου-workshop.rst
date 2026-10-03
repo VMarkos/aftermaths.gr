@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/11/800px-giovanni_antonio_canal_il_canaletto_-_the_grand_canal_near_santa_maria_della_caritc3a0_-_wga03863.jpg
 
 .. figure:: /_static/images/uploads/2019/11/800px-giovanni_antonio_canal_il_canaletto_-_the_grand_canal_near_santa_maria_della_caritc3a0_-_wga03863.jpg
-	:alt: Ο πίνακας *Το Μεγάλο Κανάλι* *κοντά στην Santa Maria della Carità* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	:alt: Ο πίνακας *Το Μεγάλο Κανάλι**κοντά στην Santa Maria della Carità* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το Μεγάλο Κανάλι* *κοντά στην Santa Maria della Carità* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	Ο πίνακας *Το Μεγάλο Κανάλι**κοντά στην Santa Maria della Carità* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 
 
 Οι λύσεις του 3ου Workshop βρίσκονται `εδώ  <https://drive.google.com/file/d/1dihPULnHs8fWjSi7GJukYrhY_ga5CIW_/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

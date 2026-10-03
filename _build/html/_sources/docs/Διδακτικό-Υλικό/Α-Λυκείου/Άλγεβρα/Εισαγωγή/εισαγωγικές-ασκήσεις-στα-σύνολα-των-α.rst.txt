@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/08/453px-lautrec_gabrielle_1891.jpg
 
 .. figure:: /_static/images/uploads/2019/08/453px-lautrec_gabrielle_1891.jpg
-	:alt: Ο πίνακας *Το πορτραίτο της Γαβριέλλας* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+	:alt: Ο πίνακας *Το πορτραίτο της Γαβριέλλας* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το πορτραίτο της Γαβριέλλας* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+	Ο πίνακας *Το πορτραίτο της Γαβριέλλας* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\*.* 
 
 
 Οι ασκήσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1Sb8PPzEBFjnF-7TGK1C_EQgAIVYb5SSD/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

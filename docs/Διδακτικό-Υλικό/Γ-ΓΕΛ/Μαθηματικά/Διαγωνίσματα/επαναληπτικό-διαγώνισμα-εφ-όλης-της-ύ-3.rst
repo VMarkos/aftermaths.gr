@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/03/430px-vincent_willem_van_gogh_014.jpg
 
 .. figure:: /_static/images/uploads/2019/03/430px-vincent_willem_van_gogh_014.jpg
-	:alt: Ο πίνακας *Ανθισμένη ροδακινιά* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Ανθισμένη ροδακινιά* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ανθισμένη ροδακινιά* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Ανθισμένη ροδακινιά* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Το διαγώνισμα βρίσκεται `εδώ  <https://drive.google.com/file/d/15D79rHCwsToF2k5L_D5k86Zf4z7YMbvb/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

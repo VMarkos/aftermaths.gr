@@ -10,16 +10,16 @@
 	:attachments: _static/images/uploads/2021/09/2560px-camille_pissarro_-_la_recolte_des_foins_eragny_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2021/09/2560px-camille_pissarro_-_la_recolte_des_foins_eragny_-_google_art_project.jpg
-	:alt: Ο πίνακας *Η συγκομιδή των σταχυών* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:alt: Ο πίνακας *Η συγκομιδή των σταχυών* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η συγκομιδή των σταχυών* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Η συγκομιδή των σταχυών* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 
 .. highlight:: latex
 
 Αυτήν την εβδομάδα είχαμε πολύ περισσότερα πράγματα να δούμε από ότι την :doc:`προηγούμενη  </docs/Tikz/τα-σχήματα-της-εβδομάδας-4>`. Για την ακρίβεια, ήρθε επιτέλους ( ; ) η ώρα να μιλήσουμε για βιβλιοθήκες του :doc:``tikz``. Αλλά, ας τα πάρουμε ένα-ένα...
 
-*Αν θέλετε να θυμηθείτε τι έχουμε δει τις προηγούμενες εβδομάδες, δείτε*\ :doc:`εδώ   /docs/Tikz/index`\ *.*
+*Αν θέλετε να θυμηθείτε τι έχουμε δει τις προηγούμενες εβδομάδες, δείτε*\ :doc:`εδώ   /docs/Tikz/index`\*.*
 
 Απλό και καλό...
 ----------------
@@ -277,7 +277,7 @@
 
 Αυτά ήταν τα υπέροχα σχήματα αυτής της εβδομάδας - μετριοπάθεια πάνω απʹ όλα. Μέχρι την επόμενη Τρίτη, καλή συνέχεια!
 
-*Για τις υπόλοιπες αναρτήσεις της σειράς, δείτε*\ :doc:`εδώ   /docs/Tikz/index`\ *.*
+*Για τις υπόλοιπες αναρτήσεις της σειράς, δείτε*\ :doc:`εδώ   /docs/Tikz/index`\*.*
 
 
 

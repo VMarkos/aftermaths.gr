@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/09/519px-henri_de_toulouse-lautrec_1892_deux_femmes_dansant_au_moulin-rouge_oil_on_cardboard_93_x_80_cm_national_gallery_in_prague.jpg
 
 .. figure:: /_static/images/uploads/2019/09/519px-henri_de_toulouse-lautrec_1892_deux_femmes_dansant_au_moulin-rouge_oil_on_cardboard_93_x_80_cm_national_gallery_in_prague.jpg
-	:alt: Ο πίνακας *Στο Moulin Rouge (Δύο γυναίκες χορεύουν βαλς)* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+	:alt: Ο πίνακας *Στο Moulin Rouge (Δύο γυναίκες χορεύουν βαλς)* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Στο Moulin Rouge (Δύο γυναίκες χορεύουν βαλς)* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+	Ο πίνακας *Στο Moulin Rouge (Δύο γυναίκες χορεύουν βαλς)* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\*.* 
 
 
 Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1gTQMPUn-lNUQ5LNxRBshQz7faTY0_zEX/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/02/7689004.jpg
 
 .. figure:: /_static/images/uploads/2019/02/7689004.jpg
-	:alt: Ο πίνακας *Ο βιβλιοθηκάριος* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+	:alt: Ο πίνακας *Ο βιβλιοθηκάριος* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο βιβλιοθηκάριος* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+	Ο πίνακας *Ο βιβλιοθηκάριος* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1AcQzfvBHFt_M2jpckNX42i-C8GbUqj0v/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

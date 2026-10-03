@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/delaunay_portuguese_woman.jpg
 
 .. figure:: /_static/images/uploads/2020/11/delaunay_portuguese_woman.jpg
-	:alt: Ο πίνακας *Γυναίκα από την Πορτογαλία* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	:alt: Ο πίνακας *Γυναίκα από την Πορτογαλία* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Γυναίκα από την Πορτογαλία* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	Ο πίνακας *Γυναίκα από την Πορτογαλία* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\*.* 
 
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1yI7ybnSLSPqW-x4C3_5qol3OOKDFi-BM/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

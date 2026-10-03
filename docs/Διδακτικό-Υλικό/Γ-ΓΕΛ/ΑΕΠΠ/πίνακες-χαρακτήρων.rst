@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/02/472px-rembrandt_harmensz._van_rijn_-_jeremia_treurend_over_de_verwoesting_van_jeruzalem_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2020/02/472px-rembrandt_harmensz._van_rijn_-_jeremia_treurend_over_de_verwoesting_van_jeruzalem_-_google_art_project.jpg
-	:alt: Ο πίνακας *Ο Ιερεμίας που θρηνεί για την καταστροφή της Ιερουσαλήμ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	:alt: Ο πίνακας *Ο Ιερεμίας που θρηνεί για την καταστροφή της Ιερουσαλήμ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο Ιερεμίας που θρηνεί για την καταστροφή της Ιερουσαλήμ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	Ο πίνακας *Ο Ιερεμίας που θρηνεί για την καταστροφή της Ιερουσαλήμ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται εδώ και στη σελίδα του διδακτικού υλικού.

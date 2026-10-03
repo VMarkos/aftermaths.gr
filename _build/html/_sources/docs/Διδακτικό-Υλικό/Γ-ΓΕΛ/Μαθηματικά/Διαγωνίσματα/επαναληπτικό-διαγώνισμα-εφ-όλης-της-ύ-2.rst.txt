@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/03/762px-caspar_david_friedrich_-_der_einsame_baum_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2019/03/762px-caspar_david_friedrich_-_der_einsame_baum_-_google_art_project.jpg
-	:alt: Ο πίνακας *Το μοναχικό δένδρο* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Το μοναχικό δένδρο* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το μοναχικό δένδρο* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Το μοναχικό δένδρο* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Το διαγώνισμα βρίσκεται `εδώ  <https://drive.google.com/file/d/1H7Q5-pytM9uc5abAcAZkE3fceYjcwx0N/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

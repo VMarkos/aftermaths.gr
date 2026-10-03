@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/05/535px-johannes_vermeer_-_het_melkmeisje_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2020/05/535px-johannes_vermeer_-_het_melkmeisje_-_google_art_project.jpg
-	:alt: Ο πίνακας *Η κοπέλα με το γάλα* του `Johannes Vermeer  <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\ *.* 
+	:alt: Ο πίνακας *Η κοπέλα με το γάλα* του `Johannes Vermeer  <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η κοπέλα με το γάλα* του `Johannes Vermeer  <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\ *.* 
+	Ο πίνακας *Η κοπέλα με το γάλα* του `Johannes Vermeer  <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1RZHkSQe_-LNUfGHFPx8ftB1ii3luix4R/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

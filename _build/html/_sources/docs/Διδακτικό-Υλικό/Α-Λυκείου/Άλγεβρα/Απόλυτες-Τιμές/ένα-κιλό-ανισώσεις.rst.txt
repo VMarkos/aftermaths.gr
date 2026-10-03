@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/01/moon-men.jpg
 
 .. figure:: /_static/images/uploads/2019/01/moon-men.jpg
-	:alt: Ο πίνακας *Δύο άντρες ατενίζουν το φεγγάρι* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Δύο άντρες ατενίζουν το φεγγάρι* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Δύο άντρες ατενίζουν το φεγγάρι* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Δύο άντρες ατενίζουν το φεγγάρι* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Λίγες ανισώσεις με απόλυτες τιμές.

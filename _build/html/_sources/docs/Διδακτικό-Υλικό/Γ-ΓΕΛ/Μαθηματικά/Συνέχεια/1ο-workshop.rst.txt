@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/10/754px-canaletto_capriccio_gotica.jpg
 
 .. figure:: /_static/images/uploads/2019/10/754px-canaletto_capriccio_gotica.jpg
-	:alt: Ο πίνακας *Καπρίτσιο με γοτθική εκκλησία και λίμνη* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	:alt: Ο πίνακας *Καπρίτσιο με γοτθική εκκλησία και λίμνη* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Καπρίτσιο με γοτθική εκκλησία και λίμνη* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	Ο πίνακας *Καπρίτσιο με γοτθική εκκλησία και λίμνη* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 
 
 Το 1ο Workshop βρίσκεται `εδώ  <https://drive.google.com/file/d/1O1U8JOsQFPMuUlHmDw5LgQVQFCdCKAsU/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

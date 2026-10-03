@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/alexej_von_jawlensky_-_kopf_in_blau.jpg
 
 .. figure:: /_static/images/uploads/2020/11/alexej_von_jawlensky_-_kopf_in_blau.jpg
-	:alt: Ένας πίνακας *Κεφάλι σε μπλε* του `Alexej von Jawlensky  <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__\ *.* 
+	:alt: Ένας πίνακας *Κεφάλι σε μπλε* του `Alexej von Jawlensky  <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__\*.* 
 	:align: center
 
-	Ένας πίνακας *Κεφάλι σε μπλε* του `Alexej von Jawlensky  <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__\ *.* 
+	Ένας πίνακας *Κεφάλι σε μπλε* του `Alexej von Jawlensky  <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__\*.* 
 
 
 Τις λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-x-γ-επαλ>` μπορείτε να βρείτε `εδώ   <https://drive.google.com/file/d/1SGjH95w0qyPl4zK0a36JXT2RHpTi_eRs/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

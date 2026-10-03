@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/09/pissarro_-_pont_boieldieu_in_rouen_rainy_weather.jpg
 
 .. figure:: /_static/images/uploads/2021/09/pissarro_-_pont_boieldieu_in_rouen_rainy_weather.jpg
-	:alt: Ο πίνακας *Βροχερός καιρός στο Pont Boieldieu της Ρουέν* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:alt: Ο πίνακας *Βροχερός καιρός στο Pont Boieldieu της Ρουέν* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Βροχερός καιρός στο Pont Boieldieu της Ρουέν* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Βροχερός καιρός στο Pont Boieldieu της Ρουέν* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 
 
 Διαφάνειες στην άλγεβρα της Αʹ Λυκείου πάνω στις πράξεις μεταξύ πραγματικών αριθμών και τις ιδιότητες της διάταξης.

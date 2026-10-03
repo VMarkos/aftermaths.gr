@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/11/380px-canaletto_-_the_stonemasons_yard.jpg
 
 .. figure:: /_static/images/uploads/2019/11/380px-canaletto_-_the_stonemasons_yard.jpg
-	:alt: Ο πίνακας *Η αυλή του λιθοξόου* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	:alt: Ο πίνακας *Η αυλή του λιθοξόου* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η αυλή του λιθοξόου* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	Ο πίνακας *Η αυλή του λιθοξόου* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 
 
 Οι σημειώσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1vKOw3j4LIACwy0M1YQid_ZUfqnZao6_N/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

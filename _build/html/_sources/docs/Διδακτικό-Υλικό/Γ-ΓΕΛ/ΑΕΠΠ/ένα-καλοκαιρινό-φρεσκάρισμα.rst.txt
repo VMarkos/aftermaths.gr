@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/09/camille_pissarro_french_1830-1903_le_grand_noyer_a_lhermitage.jpg
 
 .. figure:: /_static/images/uploads/2021/09/camille_pissarro_french_1830-1903_le_grand_noyer_a_lhermitage.jpg
-	:alt: Ο πίνακας *Η μεγάλη καρυδιά στο Ερμιτάζ* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:alt: Ο πίνακας *Η μεγάλη καρυδιά στο Ερμιτάζ* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η μεγάλη καρυδιά στο Ερμιτάζ* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Η μεγάλη καρυδιά στο Ερμιτάζ* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 
 
 Λίγες ασκήσεις και προβλήματα σε σχεδόν όλη την ύλη του μαθήματος του ΑΕΠΠ - προετοιμασία για πανελλήνιες - της Γʹ Γενικού λυκείου.

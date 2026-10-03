@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/12/van-gogh-900x660.jpg
 
 .. figure:: /_static/images/uploads/2018/12/van-gogh-900x660.jpg
-	:alt: Ο πίνακας *Ανθισμένη αμυγδαλιά* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Ανθισμένη αμυγδαλιά* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ανθισμένη αμυγδαλιά* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Ανθισμένη αμυγδαλιά* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται κάποιες ασκήσεις πολλαπλής επιλογής στα πλαίσια της ύλης των Μαθηματικών Γʹ Λυκείου των ΕΠΑΛ.

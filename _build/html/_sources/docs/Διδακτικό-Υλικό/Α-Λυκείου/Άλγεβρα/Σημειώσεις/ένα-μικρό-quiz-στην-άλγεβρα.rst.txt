@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/803px-chase_venetian_balcony.jpg
 
 .. figure:: /_static/images/uploads/2021/01/803px-chase_venetian_balcony.jpg
-	:alt: Ο πίνακας *Βενετσιάνικο μπαλκόνι* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	:alt: Ο πίνακας *Βενετσιάνικο μπαλκόνι* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Βενετσιάνικο μπαλκόνι* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	Ο πίνακας *Βενετσιάνικο μπαλκόνι* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 
 
 Ένα μικρό quiz στην ύλη της άλγεβρας της Αʹ Λυκείου μέχρι και τις απόλυτες τιμές και τα διαστήματα πραγματικών αριθμών.

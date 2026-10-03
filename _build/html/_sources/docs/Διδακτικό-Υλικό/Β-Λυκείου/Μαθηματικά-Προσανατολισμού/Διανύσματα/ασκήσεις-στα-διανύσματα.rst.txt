@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/09/noir.jpg
 
 .. figure:: /_static/images/uploads/2018/09/noir.jpg
-	:alt: Ο πίνακας *Chateaux Noir* του `Paul Cezanne  <https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne>`__\ *.* 
+	:alt: Ο πίνακας *Chateaux Noir* του `Paul Cezanne  <https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Chateaux Noir* του `Paul Cezanne  <https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne>`__\ *.* 
+	Ο πίνακας *Chateaux Noir* του `Paul Cezanne  <https://en.wikipedia.org/wiki/Paul_C%C3%A9zanne>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται ασκήσεις που εστιάζουν στον αλγεβρικό χειρισμό αλλά και την εποπτική ερμηνεία των πράξεων μεταξύ διανυσμάτων (Βʹ Λυκείου, κατεύθυνση) σε απλά αλλά και πιο σύνθετα προβλήματα.

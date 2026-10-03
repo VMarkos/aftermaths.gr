@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/franz_marc_029a.jpg
 
 .. figure:: /_static/images/uploads/2020/11/franz_marc_029a.jpg
-	:alt: Ο πίνακας *Ο πύργος των μπλε αλόγων* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	:alt: Ο πίνακας *Ο πύργος των μπλε αλόγων* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο πύργος των μπλε αλόγων* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	Ο πίνακας *Ο πύργος των μπλε αλόγων* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 
 
 Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/1POjowHvS4FYvm4nsUHmXzNPy1HNIYujo/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

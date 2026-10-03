@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/11/800px-warwick_castle_the_east_front_by_canaletto_1752.jpg
 
 .. figure:: /_static/images/uploads/2019/11/800px-warwick_castle_the_east_front_by_canaletto_1752.jpg
-	:alt: Ο πίνακας *Το κάστρο το* *Warwick: Η δεξιά πλευρά* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	:alt: Ο πίνακας *Το κάστρο το**Warwick: Η δεξιά πλευρά* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το κάστρο το* *Warwick: Η δεξιά πλευρά* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	Ο πίνακας *Το κάστρο το**Warwick: Η δεξιά πλευρά* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 
 
 Το 4o Workshop βρίσκεται `εδώ  <https://drive.google.com/file/d/1N1L5T0IoHB5jbHLDyG_xkY6l0RKj1S8N/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

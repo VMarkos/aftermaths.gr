@@ -11,17 +11,17 @@
 	:attachments: _static/images/uploads/2021/09/1272px-boulevard_montmartre-_mardi_gras_frameless.jpg
 
 .. figure:: /_static/images/uploads/2021/09/1272px-boulevard_montmartre-_mardi_gras_frameless.jpg
-	:alt: Ο πίνακας *Λεωφόρος Μονμάρτης: Mardi Gras* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:alt: Ο πίνακας *Λεωφόρος Μονμάρτης: Mardi Gras* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Λεωφόρος Μονμάρτης: Mardi Gras* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Λεωφόρος Μονμάρτης: Mardi Gras* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 
 
 Λίγες διαφάνειες πάνω στα μη γραμμικά συστήματα αλλά και τα γραμμικά συστήματα 3x3 στα πλαίσια της ύλης της Άλγεβρας της Βʹ Λυκείου και ΕΠΑΛ.
 
 Τις διαφάνειες μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1-aKGW6KrFILOA0vB4xzcUkiqE56lCv04/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
-*Για τις διαφάνειες του πρώτου μαθήματος, δείτε*\ :doc:`εδώ  </docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-β-λυκείου-μάθημα-1ο>`\ *.*
+*Για τις διαφάνειες του πρώτου μαθήματος, δείτε*\ :doc:`εδώ  </docs/Διδακτικό-Υλικό/Β-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-β-λυκείου-μάθημα-1ο>`\*.*
 
 
 

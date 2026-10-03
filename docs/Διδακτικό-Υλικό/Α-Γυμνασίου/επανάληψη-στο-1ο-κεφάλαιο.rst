@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/11/800px-giovanni_antonio_canal_il_canaletto_-_rio_dei_mendicanti_-_looking_south_-_wga03855.jpg
 
 .. figure:: /_static/images/uploads/2019/11/800px-giovanni_antonio_canal_il_canaletto_-_rio_dei_mendicanti_-_looking_south_-_wga03855.jpg
-	:alt: Ο πίνακας *Rio dei Mendicanti: Κοιτώντας νότια* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	:alt: Ο πίνακας *Rio dei Mendicanti: Κοιτώντας νότια* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Rio dei Mendicanti: Κοιτώντας νότια* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	Ο πίνακας *Rio dei Mendicanti: Κοιτώντας νότια* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1Baie_goLKSguvsj_pTOHOHO0WixQvAdr/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

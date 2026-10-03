@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/09/portrait_of_a_courtesan_by_caravaggio.jpg
 
 .. figure:: /_static/images/uploads/2019/09/portrait_of_a_courtesan_by_caravaggio.jpg
-	:alt: Ο πίνακας *Το παρτραίτο μίας ευγενούς* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	:alt: Ο πίνακας *Το παρτραίτο μίας ευγενούς* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το παρτραίτο μίας ευγενούς* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	Ο πίνακας *Το παρτραίτο μίας ευγενούς* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1wrlLyTJhGD7fEkT1WqpEbHBcJQLFToEr/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

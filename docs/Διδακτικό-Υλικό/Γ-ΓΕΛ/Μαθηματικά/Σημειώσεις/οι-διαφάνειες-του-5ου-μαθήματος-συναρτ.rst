@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/07/henri_matisse_1917_portrait_de_famille_the_music_lesson_oil_on_canvas_245.1_x_210.8_cm_barnes_foundation.jpg
 
 .. figure:: /_static/images/uploads/2019/07/henri_matisse_1917_portrait_de_famille_the_music_lesson_oil_on_canvas_245.1_x_210.8_cm_barnes_foundation.jpg
-	:alt: Ο πίνακας *Πορτρέτο της Οικογένειας (Το μάθημα μουσικής)* του `Henry Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:alt: Ο πίνακας *Πορτρέτο της Οικογένειας (Το μάθημα μουσικής)* του `Henry Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Πορτρέτο της Οικογένειας (Το μάθημα μουσικής)* του `Henry Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Πορτρέτο της Οικογένειας (Το μάθημα μουσικής)* του `Henry Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 
 
 Οι διαφάνειες του 5ου μαθήματος βρίσκονται `εδώ  <https://drive.google.com/file/d/1Vezi16hgoi-Tc7nzeDQoeNaCTGMZiwH5/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

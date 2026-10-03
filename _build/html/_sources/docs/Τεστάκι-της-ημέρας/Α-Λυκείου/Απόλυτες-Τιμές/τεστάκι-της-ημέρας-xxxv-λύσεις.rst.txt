@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/cosmic_synchrony.jpg
 
 .. figure:: /_static/images/uploads/2020/12/cosmic_synchrony.jpg
-	:alt: Ο πίνακας *Κοσμικός Συγχρονισμός* του `Morgan Russell  <https://en.wikipedia.org/wiki/Morgan_Russell>`__\ *.* 
+	:alt: Ο πίνακας *Κοσμικός Συγχρονισμός* του `Morgan Russell  <https://en.wikipedia.org/wiki/Morgan_Russell>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Κοσμικός Συγχρονισμός* του `Morgan Russell  <https://en.wikipedia.org/wiki/Morgan_Russell>`__\ *.* 
+	Ο πίνακας *Κοσμικός Συγχρονισμός* του `Morgan Russell  <https://en.wikipedia.org/wiki/Morgan_Russell>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι-της-ημέρας-xxxv-α-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1fFnkbBF2wIrxQ1TcnLoi1tYBRdcyJhLu/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

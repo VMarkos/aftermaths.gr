@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/09/800px-saint_jerome_writing-caravaggio_1605-6.jpg
 
 .. figure:: /_static/images/uploads/2019/09/800px-saint_jerome_writing-caravaggio_1605-6.jpg
-	:alt: Ο πίνακας *Ο Άγιος Ιερώνυμος* του `C  <https://en.wikipedia.org/wiki/Caravaggio>`__\ `aravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	:alt: Ο πίνακας *Ο Άγιος Ιερώνυμος* του `C  <https://en.wikipedia.org/wiki/Caravaggio>`__\ `aravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο Άγιος Ιερώνυμος* του `C  <https://en.wikipedia.org/wiki/Caravaggio>`__\ `aravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	Ο πίνακας *Ο Άγιος Ιερώνυμος* του `C  <https://en.wikipedia.org/wiki/Caravaggio>`__\ `aravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1JV3W3dyGwsr6gsr2usobIb7yhddmvWI6/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

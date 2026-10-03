@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/02/405px-arcimboldo_earth.jpg
 
 .. figure:: /_static/images/uploads/2019/02/405px-arcimboldo_earth.jpg
-	:alt: Ο πίνακας *Γη* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+	:alt: Ο πίνακας *Γη* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Γη* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+	Ο πίνακας *Γη* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\*.* 
 
 
 Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/16Pufaii_HH_cx_AB0Xe5K9nyWx-Mmif2/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

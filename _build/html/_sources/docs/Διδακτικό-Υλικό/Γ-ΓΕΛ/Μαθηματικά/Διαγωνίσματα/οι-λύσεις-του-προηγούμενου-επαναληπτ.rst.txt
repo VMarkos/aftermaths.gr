@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/07/battle_of_germany_1944_art.iwm_art_ld_4526.jpg
 
 .. figure:: /_static/images/uploads/2019/07/battle_of_germany_1944_art.iwm_art_ld_4526.jpg
-	:alt: Ο πίνακας *Η μάχη της Γερμανίας* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+	:alt: Ο πίνακας *Η μάχη της Γερμανίας* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η μάχη της Γερμανίας* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+	Ο πίνακας *Η μάχη της Γερμανίας* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\*.* 
 
 
 Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1FkN7x1vVCY4RXkvXssRj1Zk-GznQDXKc/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

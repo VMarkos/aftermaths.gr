@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/10/462px-vassily_kandinsky_1922_-_kleine_welten_i.jpg
 
 .. figure:: /_static/images/uploads/2019/10/462px-vassily_kandinsky_1922_-_kleine_welten_i.jpg
-	:alt: Ο πίνακας *Μικροί κόσμοι* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *Μικροί κόσμοι* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Μικροί κόσμοι* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Μικροί κόσμοι* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1JRRMo3Kz8uxtYcHNMJXFhGdn5SLGidLn/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

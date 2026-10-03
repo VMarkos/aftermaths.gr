@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/11/vincent_van_gogh_-_peasant_woman_digging.jpg
 
 .. figure:: /_static/images/uploads/2018/11/vincent_van_gogh_-_peasant_woman_digging.jpg
-	:alt: Ο πίνακας *Αγρότισσα που σκάβει* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Αγρότισσα που σκάβει* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Αγρότισσα που σκάβει* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Αγρότισσα που σκάβει* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται λίγες ασκήσεις επαναληπτικού χαρακτήρα στην άλγεβρα της Βʹ λυκείου, με έμφαση στα κεφάλαια της τριγωνομετρίας και των εκθετικών/λογαριθμικών συναρτήσεων.

@@ -10,10 +10,10 @@
 	:attachments: _static/images/uploads/2021/09/1251px-camille_pissarro_le_verger_the_orchard_1872.jpg
 
 .. figure:: /_static/images/uploads/2021/09/1251px-camille_pissarro_le_verger_the_orchard_1872.jpg
-	:alt: Ο πίνακας *Ανθισμένος Μπαξές στη Louveciennes* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:alt: Ο πίνακας *Ανθισμένος Μπαξές στη Louveciennes* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ανθισμένος Μπαξές στη Louveciennes* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Ανθισμένος Μπαξές στη Louveciennes* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 
 
 .. highlight:: latex

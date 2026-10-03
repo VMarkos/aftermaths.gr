@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/08/we_are_making_a_new_world_1918_art._iwm_art_1146.jpg
 
 .. figure:: /_static/images/uploads/2019/08/we_are_making_a_new_world_1918_art._iwm_art_1146.jpg
-	:alt: Ο πίνακας *Φτιάχνουμε έναν νέο κόσμο* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+	:alt: Ο πίνακας *Φτιάχνουμε έναν νέο κόσμο* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Φτιάχνουμε έναν νέο κόσμο* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+	Ο πίνακας *Φτιάχνουμε έναν νέο κόσμο* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\*.* 
 
 
 Οι σημειώσεις στην συναρτήσεις (Γʹ Λυκείου, μαθηματικά προσανατολισμού) για το ακαδημαϊκό έτος 2019-2020, όπως βρίσκονται :doc:`εδώ  </docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/σημειώσεις-στις-συναρτήσεις 19 20>`, ανανεώθηκαν, απέκτησαν νέο εξώφυλλο, εμπλουτίστηκαν με περισσότερες ασκήσεις και είναι έτοιμες για... διάβασμα!

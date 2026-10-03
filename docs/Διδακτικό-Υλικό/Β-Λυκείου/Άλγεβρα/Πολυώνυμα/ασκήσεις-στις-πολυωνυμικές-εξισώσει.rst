@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/02/449px-arcimboldowater.jpg
 
 .. figure:: /_static/images/uploads/2019/02/449px-arcimboldowater.jpg
-	:alt: Ο πίνακας *Νερό* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+	:alt: Ο πίνακας *Νερό* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νερό* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+	Ο πίνακας *Νερό* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1_ysYK3_OCbMN3NQOd6os4XSN1RxvgMcZ/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

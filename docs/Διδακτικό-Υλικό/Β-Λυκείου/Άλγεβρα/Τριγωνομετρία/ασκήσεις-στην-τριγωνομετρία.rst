@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/12/main-image.jpg
 
 .. figure:: /_static/images/uploads/2018/12/main-image.jpg
-	:alt: Ο πίνακας *Νεκρή φύση με τυρί* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	:alt: Ο πίνακας *Νεκρή φύση με τυρί* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεκρή φύση με τυρί* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	Ο πίνακας *Νεκρή φύση με τυρί* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται κάποιες εισαγωγικές ασκήσεις στις βασικές έννοιες του κεφαλαίου της τριγωνομετρίας.

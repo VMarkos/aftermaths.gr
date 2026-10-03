@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/03/rembrandt_-_susanna_and_the_elders_-_wga19104.jpg
 
 .. figure:: /_static/images/uploads/2020/03/rembrandt_-_susanna_and_the_elders_-_wga19104.jpg
-	:alt: Ο πίνακας *Η Σουζάνα και οι πρεσβύτεροι* του `Rembrant  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	:alt: Ο πίνακας *Η Σουζάνα και οι πρεσβύτεροι* του `Rembrant  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η Σουζάνα και οι πρεσβύτεροι* του `Rembrant  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	Ο πίνακας *Η Σουζάνα και οι πρεσβύτεροι* του `Rembrant  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1H8vr9DajX60viUmWFyHWKCIG8gwRWHZq/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

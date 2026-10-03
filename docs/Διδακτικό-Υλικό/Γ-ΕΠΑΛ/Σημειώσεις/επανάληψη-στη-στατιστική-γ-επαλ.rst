@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2022/04/judische_hochzeit_in_marokko-1024.jpg
 
 .. figure:: /_static/images/uploads/2022/04/judische_hochzeit_in_marokko-1024.jpg
-	:alt: Ο πίνακας *Εβραϊκός Γάμος στο Μαρόκο* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\ *.* 
+	:alt: Ο πίνακας *Εβραϊκός Γάμος στο Μαρόκο* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Εβραϊκός Γάμος στο Μαρόκο* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\ *.* 
+	Ο πίνακας *Εβραϊκός Γάμος στο Μαρόκο* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\*.* 
 
 
 Λίγες επαναληπτικές διαφάνειες στη Στατιστική της Γʹ ΕΠΑΛ, καθώς πλησιάζουν οι πανελλήνιες.

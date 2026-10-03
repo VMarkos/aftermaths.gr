@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/09/the_denial_of_saint_peter-caravaggio_1610.jpg
 
 .. figure:: /_static/images/uploads/2019/09/the_denial_of_saint_peter-caravaggio_1610.jpg
-	:alt: Ο πίνακας *Η Άρνηση του Αποστόλου Πέτρου* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	:alt: Ο πίνακας *Η Άρνηση του Αποστόλου Πέτρου* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η Άρνηση του Αποστόλου Πέτρου* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	Ο πίνακας *Η Άρνηση του Αποστόλου Πέτρου* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\*.* 
 
 
 Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1dIOmyPkuK9nm9Xtr-l2F5VugTMj4jF3C/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

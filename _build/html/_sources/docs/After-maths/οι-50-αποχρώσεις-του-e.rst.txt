@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/08/lw377-mc-escher-two-intersecting-planes-1952.jpg, _static/images/uploads/2019/08/ezgif.com-crop4.gif, _static/images/uploads/2019/08/ezgif.com-gif-maker-5.gif, _static/images/uploads/2019/08/ezgif-5-ffba512886.pdf-1.png, _static/images/uploads/2019/08/ezgif.com-gif-maker-4.gif, _static/images/uploads/2019/07/ezgif.com-crop2-2.gif, _static/images/uploads/2019/07/ezgif.com-crop3-1.gif
 
 .. figure:: /_static/images/uploads/2019/08/lw377-mc-escher-two-intersecting-planes-1952.jpg
-	:alt: Το χαρακτικό σε ξύλο *Δύο τεμνόμενα επίπεδα* του `M  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ `aurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	:alt: Το χαρακτικό σε ξύλο *Δύο τεμνόμενα επίπεδα* του `M  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ `aurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\*.* 
 	:align: center
 
-	Το χαρακτικό σε ξύλο *Δύο τεμνόμενα επίπεδα* του `M  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ `aurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	Το χαρακτικό σε ξύλο *Δύο τεμνόμενα επίπεδα* του `M  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ `aurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\*.* 
 
 
 Εισαγωγή
@@ -237,7 +237,7 @@
 
 -  Ορίζουμε ένα σημείο αναφοράς έξω από τον δρόμο και τη χρονική στιγμή  :math:`t=0s`  παίρνουμε μία απόσταση από αυτό, ας πούμε  :math:`x(0)=1m` .
 -  Κάθε στιγμή που κινούμαστε φροντίζουμε έτσι ώστε το μέτρο της ταχύτητας μας (μετρημένο σε  :math:`m/s` ) να είναι ίσο, ως καθαρός αριθμός, με την απόστασή μας από αυτό το σημείο. Έτσι, την χρονική στιγμή  :math:`t=0s`  θα πρέπει να έχουμε και μία αρχική ταχύτητα  :math:`v(0)=1m/s` .
--  Επιτρέπουμε στον χρόνο να έχει αρνητικές τιμές, υπό την εξής έννοια: η χρονική στιγμή  :math:`t=-5s`  είναι η στιγμή πέντε δευτερόλεπτα πριν από τη χρονική στιγμή  :math:`t=0s`  (άλλωστε, κανείς δεν είπε ότι το φαινόμενο *ξεκινάει* τη χρονική στιγμή  :math:`t=0s` , απλώς τότε *ξεκινάμε να το παρατηρούμε*).
+-  Επιτρέπουμε στον χρόνο να έχει αρνητικές τιμές, υπό την εξής έννοια: η χρονική στιγμή  :math:`t=-5s`  είναι η στιγμή πέντε δευτερόλεπτα πριν από τη χρονική στιγμή  :math:`t=0s`  (άλλωστε, κανείς δεν είπε ότι το φαινόμενο *ξεκινάει* τη χρονική στιγμή  :math:`t=0s` , απλώς τότε*ξεκινάμε να το παρατηρούμε*).
 
 Αν, λοιπόν, συμβολίσουμε με  :math:`x(t)`  την απόστασή μας από το σημείο αναφοράς τη χρονική στιγμή  :math:`t`  και με  :math:`v(t)`  την ταχύτητά μας τη χρονική στιγμή  :math:`t` , τότε αυτό που θέλουμε να ισχύει κάθε χρονική στιγμή  :math:`t`  είναι (αγνοώντας τις μονάδες μέτρησης των δύο μεγεθών):
 

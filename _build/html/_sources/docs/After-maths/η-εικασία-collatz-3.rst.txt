@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/09/camille_pissarro_-_the_hay_cart_montfoucault_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2021/09/camille_pissarro_-_the_hay_cart_montfoucault_-_google_art_project.jpg
-	:alt: Ο πίνακας *Το κάρο με τα άχυρα, Montfoucault* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:alt: Ο πίνακας *Το κάρο με τα άχυρα, Montfoucault* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το κάρο με τα άχυρα, Montfoucault* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Το κάρο με τα άχυρα, Montfoucault* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 
 
 Είχαμε δει στο παρελθόν - το απώτατο παρελθόν, θα έλεγε κανείς - την αρχική διατύπωση της εικασίας Collatz - δείτε :doc:`εδώ  </docs/After-maths/η-εικασία-collatz-1>` για περισσότερα - καθώς και μία κομψή αναδιατύπωσή της - δείτε :doc:`εδώ  </docs/After-maths/η-εικασία-collatz-2>`. Με αυτήν την αναδιατύπωσή της θα ασχοληθούμε λίγο παραπάνω, καθώς φαίνεται αρκετά υποσχόμενη:

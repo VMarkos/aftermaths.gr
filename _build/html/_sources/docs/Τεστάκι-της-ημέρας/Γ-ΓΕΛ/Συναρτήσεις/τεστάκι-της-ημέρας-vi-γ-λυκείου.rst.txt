@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/snow_in_march_by_igor_grabar_1904.jpg
 
 .. figure:: /_static/images/uploads/2020/11/snow_in_march_by_igor_grabar_1904.jpg
-	:alt: Ο πίνακας *Χιόνια τον Μάρτιο* του `Igor Grabar  <https://en.wikipedia.org/wiki/Igor_Grabar>`__\ *.* 
+	:alt: Ο πίνακας *Χιόνια τον Μάρτιο* του `Igor Grabar  <https://en.wikipedia.org/wiki/Igor_Grabar>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Χιόνια τον Μάρτιο* του `Igor Grabar  <https://en.wikipedia.org/wiki/Igor_Grabar>`__\ *.* 
+	Ο πίνακας *Χιόνια τον Μάρτιο* του `Igor Grabar  <https://en.wikipedia.org/wiki/Igor_Grabar>`__\*.* 
 
 
 Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/1oBQk1UQpNhAuM6RSZZGlcLq8a0_niZ8f/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

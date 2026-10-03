@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/chase_mrs_meigs_piano_organ_1883.jpg
 
 .. figure:: /_static/images/uploads/2020/12/chase_mrs_meigs_piano_organ_1883.jpg
-	:alt: Ο πίνακας *Η δεσποινίς Chase παίζοντας πιάνο* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	:alt: Ο πίνακας *Η δεσποινίς Chase παίζοντας πιάνο* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η δεσποινίς Chase παίζοντας πιάνο* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	Ο πίνακας *Η δεσποινίς Chase παίζοντας πιάνο* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 
 
 Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1_1l8rgtPmqCPMpNI0P2K14rguz5TBcOD/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

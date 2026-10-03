@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/02/moonlight_night_by_ivan_kramskoy_gtg.jpeg
 
 .. figure:: /_static/images/uploads/2021/02/moonlight_night_by_ivan_kramskoy_gtg.jpeg
-	:alt: Ο πίνακας *Φεγγαρόφωτη νύχτα* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+	:alt: Ο πίνακας *Φεγγαρόφωτη νύχτα* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Φεγγαρόφωτη νύχτα* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+	Ο πίνακας *Φεγγαρόφωτη νύχτα* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\*.* 
 
 
 Ένα σετ ασκήσεων με παραμέτρους στα μαθηματικά της Γʹ ΕΠΑΛ (προετοιμασία για πανελλήνιες). Το σετ περιλαμβάνει κάποια παραμετρικά όρια σε διάφορες παραλλαγές καθώς και ασκήσεις βελτιστοποίησης συναρτήσεων υπό συνθήκες.

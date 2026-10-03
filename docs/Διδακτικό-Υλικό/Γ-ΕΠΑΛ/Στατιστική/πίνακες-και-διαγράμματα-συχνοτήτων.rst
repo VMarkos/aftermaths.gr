@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/04/pallas_athena_by_rembrandt_museu_calouste_gulbenkian_1488.jpg
 
 .. figure:: /_static/images/uploads/2020/04/pallas_athena_by_rembrandt_museu_calouste_gulbenkian_1488.jpg
-	:alt: Ο πίνακας *Αθηνά Παλλάδα* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	:alt: Ο πίνακας *Αθηνά Παλλάδα* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Αθηνά Παλλάδα* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	Ο πίνακας *Αθηνά Παλλάδα* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1A6WOZPFtxN6ZIziOaoGUTQSIcUs6O95o/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

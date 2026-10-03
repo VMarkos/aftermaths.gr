@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/883px-alexej_von_jawlensky_-_schokko_mit_tellerhut.jpg
 
 .. figure:: /_static/images/uploads/2020/11/883px-alexej_von_jawlensky_-_schokko_mit_tellerhut.jpg
-	:alt: Ο πίνακας *Η Schokko με ένα μεγάλο καπέλο* του `Alexej von Jawlensky  <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__\ *.* 
+	:alt: Ο πίνακας *Η Schokko με ένα μεγάλο καπέλο* του `Alexej von Jawlensky  <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η Schokko με ένα μεγάλο καπέλο* του `Alexej von Jawlensky  <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__\ *.* 
+	Ο πίνακας *Η Schokko με ένα μεγάλο καπέλο* του `Alexej von Jawlensky  <https://en.wikipedia.org/wiki/Alexej_von_Jawlensky>`__\*.* 
 
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1HE9h2n6E0YuhDBCJjmaU2rajPKvgQh4S/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

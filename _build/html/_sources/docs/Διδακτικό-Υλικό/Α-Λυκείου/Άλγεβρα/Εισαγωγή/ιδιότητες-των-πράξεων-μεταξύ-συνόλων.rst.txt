@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/08/matisse_conversation.jpg
 
 .. figure:: /_static/images/uploads/2019/08/matisse_conversation.jpg
-	:alt: Ο πίνακας *Η συζήτηση* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:alt: Ο πίνακας *Η συζήτηση* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η συζήτηση* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Η συζήτηση* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 
 
 Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/14QQqyvVMLh2FJ_N8wxSrpl4EyX-_qBhk/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

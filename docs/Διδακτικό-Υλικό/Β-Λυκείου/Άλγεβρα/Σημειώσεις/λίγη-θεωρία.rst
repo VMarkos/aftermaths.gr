@@ -11,17 +11,17 @@
 	:attachments: _static/images/uploads/2022/04/eugene_delacroix_-_andromeda_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2022/04/eugene_delacroix_-_andromeda_-_google_art_project.jpg
-	:alt: Ο πίνακας *Ανδρομέδα* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\ *.* 
+	:alt: Ο πίνακας *Ανδρομέδα* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ανδρομέδα* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\ *.* 
+	Ο πίνακας *Ανδρομέδα* του `Eugène Delacroix  <https://en.wikipedia.org/wiki/Eug%C3%A8ne_Delacroix>`__\*.* 
 
 
 Μία μικρή σύνοψη της θεωρίας της Άλγεβρας της Βʹ Γενικού Λυκείου και ΕΠΑΛ (πλην του τελευταίου κεφαλαίου των εκθετικών και λογαριθμικών συναρτήσεων).
 
 Τις σημειώσεις μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1jJmQ5VckNTJVzNuMXDgfgeuvPzX-Pfpt/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
-*Για λίγα λυμένα παραδείγματα στα μαθηματικά προσανατολισμού της Βʹ Λυκείου, δείτε*\ :doc:`εδώ  </docs/Διδακτικό-Υλικό/Β-Λυκείου/Μαθηματικά-Προσανατολισμού/Κωνικές-Τομές/λυμένα-παραδείγματα-β-λυκείου-μαθημ>`\ *.*
+*Για λίγα λυμένα παραδείγματα στα μαθηματικά προσανατολισμού της Βʹ Λυκείου, δείτε*\ :doc:`εδώ  </docs/Διδακτικό-Υλικό/Β-Λυκείου/Μαθηματικά-Προσανατολισμού/Κωνικές-Τομές/λυμένα-παραδείγματα-β-λυκείου-μαθημ>`\*.*
 
 
 

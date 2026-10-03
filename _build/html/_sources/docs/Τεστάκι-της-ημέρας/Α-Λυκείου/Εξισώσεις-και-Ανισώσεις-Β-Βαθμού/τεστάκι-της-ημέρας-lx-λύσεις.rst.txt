@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/02/karl_brullov_02.jpeg
 
 .. figure:: /_static/images/uploads/2021/02/karl_brullov_02.jpeg
-	:alt: Ο πίνακας *Κορίτσι να μαζεύει σταφύλια στην εξοχή της Νάπολι* του `Karl Briullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\ *.* 
+	:alt: Ο πίνακας *Κορίτσι να μαζεύει σταφύλια στην εξοχή της Νάπολι* του `Karl Briullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Κορίτσι να μαζεύει σταφύλια στην εξοχή της Νάπολι* του `Karl Briullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\ *.* 
+	Ο πίνακας *Κορίτσι να μαζεύει σταφύλια στην εξοχή της Νάπολι* του `Karl Briullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Εξισώσεις-και-Ανισώσεις-Β-Βαθμού/τεστάκι-της-ημέρας-lx-α-λυκείου>` στις εξισώσεις γινόμενο και όλα τα συναφή μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1lCoYj2B5RLxBsOeVkVqBUQ1pTIM5mMnP/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

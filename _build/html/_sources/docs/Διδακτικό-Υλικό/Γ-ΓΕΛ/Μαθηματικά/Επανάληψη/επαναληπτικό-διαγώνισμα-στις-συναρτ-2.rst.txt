@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/10/1280px-vincent_willem_van_gogh_016.jpg
 
 .. figure:: /_static/images/uploads/2018/10/1280px-vincent_willem_van_gogh_016.jpg
-	:alt: Ο πίνακας *Στέγες, θέα από το ατελιέ Η Χάγη,* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Στέγες, θέα από το ατελιέ Η Χάγη,* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Στέγες, θέα από το ατελιέ Η Χάγη,* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Στέγες, θέα από το ατελιέ Η Χάγη,* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Σε αυτό το διαγώνισμα εξετάζεται όλη η ύλη των συναρτήσεων μαζί και κάποια κεντρικά θέματα από τα όρια (αλλαγή μεταβλητής κ.λπ.).

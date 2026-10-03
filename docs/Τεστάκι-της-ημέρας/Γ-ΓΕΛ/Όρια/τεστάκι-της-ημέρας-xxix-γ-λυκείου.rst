@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/august_macke_-_leute_am_blauen_see.jpg
 
 .. figure:: /_static/images/uploads/2020/11/august_macke_-_leute_am_blauen_see.jpg
-	:alt: Ο πίνακας *Άνθρωποι στη γαλάζια λίμνη* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	:alt: Ο πίνακας *Άνθρωποι στη γαλάζια λίμνη* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Άνθρωποι στη γαλάζια λίμνη* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	Ο πίνακας *Άνθρωποι στη γαλάζια λίμνη* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1H__kRzzyYFKh1mXLHSUgi1ZE5-n-PJxS/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

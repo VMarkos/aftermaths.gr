@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/02/brjullov_italianskoe_utro.jpg
 
 .. figure:: /_static/images/uploads/2021/02/brjullov_italianskoe_utro.jpg
-	:alt: Ο πίνακας *Ιταλικό πρωινό* του `Karl Bryullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\ *.* 
+	:alt: Ο πίνακας *Ιταλικό πρωινό* του `Karl Bryullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ιταλικό πρωινό* του `Karl Bryullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\ *.* 
+	Ο πίνακας *Ιταλικό πρωινό* του `Karl Bryullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Συναρτήσεις/τεστάκι-της-ημέρας-lix-γ-επαλ>` στην μονοτονία παραγωγίσιμων συναρτήσεων μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1w5_A0KuZS6kh71dPootqpAwFA-2zTTFx/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

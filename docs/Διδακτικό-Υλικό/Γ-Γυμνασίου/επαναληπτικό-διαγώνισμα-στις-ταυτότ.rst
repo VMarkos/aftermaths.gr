@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/11/1280px-william_hogarth_-_david_garrick_as_richard_iii_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2018/11/1280px-william_hogarth_-_david_garrick_as_richard_iii_-_google_art_project.jpg
-	:alt: Ο πίνακας *Ο David Garrick* *ως ο Ριχάρδος ΙΙΙ* του `William Hogarth  <https://en.wikipedia.org/wiki/William_Hogarth>`__\ *.* 
+	:alt: Ο πίνακας *Ο David Garrick**ως ο Ριχάρδος ΙΙΙ* του `William Hogarth  <https://en.wikipedia.org/wiki/William_Hogarth>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο David Garrick* *ως ο Ριχάρδος ΙΙΙ* του `William Hogarth  <https://en.wikipedia.org/wiki/William_Hogarth>`__\ *.* 
+	Ο πίνακας *Ο David Garrick**ως ο Ριχάρδος ΙΙΙ* του `William Hogarth  <https://en.wikipedia.org/wiki/William_Hogarth>`__\*.* 
 
 
 Σε αυτό το διαγώνισμα εξετάζονται οι βασικές ταυτότητες που παρουσιάζονται στην ύλη της Γʹ γυμνασίου.

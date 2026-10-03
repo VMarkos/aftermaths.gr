@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/02/ruinsofteplitzcastle1828.jpg
 
 .. figure:: /_static/images/uploads/2019/02/ruinsofteplitzcastle1828.jpg
-	:alt: Ο πίνακας *Τα ερείπια του κάστρου του Teplitz* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Τα ερείπια του κάστρου του Teplitz* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Τα ερείπια του κάστρου του Teplitz* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Τα ερείπια του κάστρου του Teplitz* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1j-vpdWrgz0CL1WZkByPUbboQx8_dLINn/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

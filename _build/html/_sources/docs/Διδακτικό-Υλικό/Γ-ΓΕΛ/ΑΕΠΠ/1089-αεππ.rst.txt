@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/09/800px-lautrec_equestrienne_at_the_cirque_fernando_1887-8.jpg
 
 .. figure:: /_static/images/uploads/2019/09/800px-lautrec_equestrienne_at_the_cirque_fernando_1887-8.jpg
-	:alt: Ο πίνακας *Στο τσίρκο Fernando* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+	:alt: Ο πίνακας *Στο τσίρκο Fernando* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Στο τσίρκο Fernando* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+	Ο πίνακας *Στο τσίρκο Fernando* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\*.* 
 
 
 Πάρτε έναν αριθμό με τρία ψηφία (π.χ το 561).

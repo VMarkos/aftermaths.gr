@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/chase_william_merritt_in_the_studio_c1892-3.jpg
 
 .. figure:: /_static/images/uploads/2020/12/chase_william_merritt_in_the_studio_c1892-3.jpg
-	:alt: Ο πίνακας *Στο στούντιο* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	:alt: Ο πίνακας *Στο στούντιο* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Στο στούντιο* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	Ο πίνακας *Στο στούντιο* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xliii-γ-επαλ>` μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1Qmc7BqbVgnQaYED_vT-98neXGSFcweYn/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

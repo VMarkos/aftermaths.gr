@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/09/800px-vassily_kandinsky_1909_-_murnau_train_et_chc3a2teau.jpg
 
 .. figure:: /_static/images/uploads/2019/09/800px-vassily_kandinsky_1909_-_murnau_train_et_chc3a2teau.jpg
-	:alt: Ο πίνακας *Murnau, τραίνο και κάστρο* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *Murnau, τραίνο και κάστρο* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Murnau, τραίνο και κάστρο* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Murnau, τραίνο και κάστρο* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1zemLZneK-vc75qO7O3MSwsfXzoA_qrGS/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

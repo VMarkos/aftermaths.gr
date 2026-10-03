@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/robert_delaunay_-_jean_metzinger_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2020/11/robert_delaunay_-_jean_metzinger_-_google_art_project.jpg
-	:alt: Ένα πορτραίτο του *Jean Metzinger* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	:alt: Ένα πορτραίτο του *Jean Metzinger* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\*.* 
 	:align: center
 
-	Ένα πορτραίτο του *Jean Metzinger* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	Ένα πορτραίτο του *Jean Metzinger* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\*.* 
 
 
 Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/1wE_J35waBFe97QPgxjco456DBjR6tEXr/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

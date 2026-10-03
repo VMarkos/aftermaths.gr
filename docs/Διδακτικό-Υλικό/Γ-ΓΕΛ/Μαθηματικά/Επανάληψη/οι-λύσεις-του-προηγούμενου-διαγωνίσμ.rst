@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/10/800px-vincent_van_gogh_-_head_of_a_skeleton_with_a_burning_cigarette_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2018/10/800px-vincent_van_gogh_-_head_of_a_skeleton_with_a_burning_cigarette_-_google_art_project.jpg
-	:alt: Ο πίνακας *Νεκροκεφαλή ενός σκελετού με τσιγάρο* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Νεκροκεφαλή ενός σκελετού με τσιγάρο* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεκροκεφαλή ενός σκελετού με τσιγάρο* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Νεκροκεφαλή ενός σκελετού με τσιγάρο* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Οι λύσεις :doc:`αυτού εδώ του διαγωνίσματος  </docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Επανάληψη/επαναληπτικό-διαγώνισμα-στις-συναρτ-2>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1pS3_dU1ipKrwqRd2_o1PltmZvQydf317/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

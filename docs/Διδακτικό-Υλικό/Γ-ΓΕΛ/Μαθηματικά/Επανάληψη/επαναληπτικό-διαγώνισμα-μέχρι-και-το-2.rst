@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/01/1920px-caspar_david_friedrich_-_meeresstrand_mit_fischer_ca.1807.jpg
 
 .. figure:: /_static/images/uploads/2019/01/1920px-caspar_david_friedrich_-_meeresstrand_mit_fischer_ca.1807.jpg
-	:alt: Ο πίνακας *Ακτή και ψαράς* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Ακτή και ψαράς* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ακτή και ψαράς* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Ακτή και ψαράς* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Ένα επαναληπτικό διαγώνισμα μέχρι και τον ορισμό της παραγώγου.

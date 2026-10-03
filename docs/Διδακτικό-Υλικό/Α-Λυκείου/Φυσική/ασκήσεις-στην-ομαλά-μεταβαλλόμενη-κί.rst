@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/11/600px-parmigianino_selfportrait.jpg
 
 .. figure:: /_static/images/uploads/2018/11/600px-parmigianino_selfportrait.jpg
-	:alt: Ο πίνακας *Αυτοπροσωπογραφία σε κυρτό* *κάτοπτρο* του `Girolamo Franzesco Maria Mazzola ή Parmigianino.  <https://en.wikipedia.org/wiki/Parmigianino>`__ 
+	:alt: Ο πίνακας *Αυτοπροσωπογραφία σε κυρτό**κάτοπτρο* του `Girolamo Franzesco Maria Mazzola ή Parmigianino.  <https://en.wikipedia.org/wiki/Parmigianino>`__ 
 	:align: center
 
-	Ο πίνακας *Αυτοπροσωπογραφία σε κυρτό* *κάτοπτρο* του `Girolamo Franzesco Maria Mazzola ή Parmigianino.  <https://en.wikipedia.org/wiki/Parmigianino>`__ 
+	Ο πίνακας *Αυτοπροσωπογραφία σε κυρτό**κάτοπτρο* του `Girolamo Franzesco Maria Mazzola ή Parmigianino.  <https://en.wikipedia.org/wiki/Parmigianino>`__ 
 
 
 Σε αυτό το φυλλάδιο περιέχονται λίγες απλές ασκήσεις στην ευθύγραμμη ομαλά μεταβαλλόμενη κίνηση.

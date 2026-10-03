@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/08/battle_of_britain_1941_art.iwm_art_ld_1550.jpg
 
 .. figure:: /_static/images/uploads/2019/08/battle_of_britain_1941_art.iwm_art_ld_1550.jpg
-	:alt: Ο πίνακας *Η μάχη της Βρετανίας* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+	:alt: Ο πίνακας *Η μάχη της Βρετανίας* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η μάχη της Βρετανίας* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+	Ο πίνακας *Η μάχη της Βρετανίας* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\*.* 
 
 
 Οι ασκήσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1_0gym6s6Usp3-Q8UwUWJEgLFd_COdSCP/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

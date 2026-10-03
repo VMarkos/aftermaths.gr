@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/03/838px-lise_sewing_-_1866.jpg
 
 .. figure:: /_static/images/uploads/2021/03/838px-lise_sewing_-_1866.jpg
-	:alt: Ο πίνακας *Η Lise πλέκει* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Η Lise πλέκει* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η Lise πλέκει* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Η Lise πλέκει* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Συναρτήσεις/τεστάκι-της-ημέρας-lxiv-γ-επαλ>` στα παραμετρικά όρια των μαθηματικών της Γ΄ ΕΠΑΛ - προετοιμασία για πανελλήνιες - μπορείτε να τα βρείτε `εδώ   <https://drive.google.com/file/d/1eB7dKm_0MT5E5iR58t9L7aoxHUpByd54/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

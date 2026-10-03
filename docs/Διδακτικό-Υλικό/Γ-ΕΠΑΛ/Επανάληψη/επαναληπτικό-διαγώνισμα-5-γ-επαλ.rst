@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/05/670px-pierre-auguste_renoir_020.jpg
 
 .. figure:: /_static/images/uploads/2021/05/670px-pierre-auguste_renoir_020.jpg
-	:alt: Ο πίνακας *Diana* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Diana* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Diana* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Diana* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Ένα ακόμα επαναληπτικό διαγώνισμα στην κορωνοΰλη στα Μαθηματικά Γενικής Παιδείας της Γʹ ΕΠΑΛ.

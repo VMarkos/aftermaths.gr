@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/pears_on_a_blue_tablecloth_by_igor_grabar_1915.jpg
 
 .. figure:: /_static/images/uploads/2020/11/pears_on_a_blue_tablecloth_by_igor_grabar_1915.jpg
-	:alt: Ο πίνακας *Αχλάδια πάνω σε μπλε τραπεζομάντιλο* του `Igor Grabar  <https://en.wikipedia.org/wiki/Igor_Grabar>`__\ *.* 
+	:alt: Ο πίνακας *Αχλάδια πάνω σε μπλε τραπεζομάντιλο* του `Igor Grabar  <https://en.wikipedia.org/wiki/Igor_Grabar>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Αχλάδια πάνω σε μπλε τραπεζομάντιλο* του `Igor Grabar  <https://en.wikipedia.org/wiki/Igor_Grabar>`__\ *.* 
+	Ο πίνακας *Αχλάδια πάνω σε μπλε τραπεζομάντιλο* του `Igor Grabar  <https://en.wikipedia.org/wiki/Igor_Grabar>`__\*.* 
 
 
 Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1SNwMD5mY7szjHBtwwolI39qL53DAJfci/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

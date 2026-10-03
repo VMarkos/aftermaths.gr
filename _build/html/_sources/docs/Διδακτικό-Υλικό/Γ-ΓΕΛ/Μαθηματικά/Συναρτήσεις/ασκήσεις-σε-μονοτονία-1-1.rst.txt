@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/09/1280px-camille_pissarro_-_boulevard_montmartre_spring_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2021/09/1280px-camille_pissarro_-_boulevard_montmartre_spring_-_google_art_project.jpg
-	:alt: Ο πίνακας *Η Λεωφόρος Μονμάρτης την άνοιξη* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:alt: Ο πίνακας *Η Λεωφόρος Μονμάρτης την άνοιξη* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η Λεωφόρος Μονμάρτης την άνοιξη* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Η Λεωφόρος Μονμάρτης την άνοιξη* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 
 
 Ένα φυλλάδιο με ασκήσεις στα Μαθηματικά Προσανατολισμού της Γʹ Λυκείου, στις ενότητες των γνησίως μονότονων και «1-1» συναρτήσεων.

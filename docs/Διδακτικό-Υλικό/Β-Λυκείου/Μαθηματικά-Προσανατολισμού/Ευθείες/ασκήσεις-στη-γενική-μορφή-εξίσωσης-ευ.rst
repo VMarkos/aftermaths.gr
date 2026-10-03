@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/09/antoine_vollon_-_dieppe_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2018/09/antoine_vollon_-_dieppe_-_google_art_project.jpg
-	:alt: Ο πίνακας *Dieppe* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	:alt: Ο πίνακας *Dieppe* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Dieppe* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	Ο πίνακας *Dieppe* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται ασκήσεις πάνω στη γενική μορφή εξίσωσης ευθείας που έχουν ως στόχο να εμπλέξουν τους μαθητές, όσο αυτό είναι δυνατό, στην αναζήτηση των λόγων για τους οποίους είναι αναγκαία αυτή η μορφή της εξίσωσης ευθείας.

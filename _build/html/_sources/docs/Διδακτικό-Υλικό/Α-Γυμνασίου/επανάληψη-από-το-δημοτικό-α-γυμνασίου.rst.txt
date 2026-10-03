@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/08/caspar_david_friedrich_-_blick_auf_arkona_mit_aufgehendem_mond.jpg
 
 .. figure:: /_static/images/uploads/2019/08/caspar_david_friedrich_-_blick_auf_arkona_mit_aufgehendem_mond.jpg
-	:alt: Ο πίνακας *Άποψη της Αρκόνα με ανατέλλουσα Σελήνη και δίχτυα* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Άποψη της Αρκόνα με ανατέλλουσα Σελήνη και δίχτυα* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Άποψη της Αρκόνα με ανατέλλουσα Σελήνη και δίχτυα* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Άποψη της Αρκόνα με ανατέλλουσα Σελήνη και δίχτυα* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1kUS_42qvFGzXLPC_6cuQPJu83FOPZaP0/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

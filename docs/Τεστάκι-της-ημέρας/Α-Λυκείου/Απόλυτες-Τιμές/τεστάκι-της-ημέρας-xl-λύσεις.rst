@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/chase_william_merritt_the_mandolin_player_1878.jpg
 
 .. figure:: /_static/images/uploads/2020/12/chase_william_merritt_the_mandolin_player_1878.jpg
-	:alt: Ο πίνακας *Ο Μαντολινοπαίκτης* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	:alt: Ο πίνακας *Ο Μαντολινοπαίκτης* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο Μαντολινοπαίκτης* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	Ο πίνακας *Ο Μαντολινοπαίκτης* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 
 
 Τις λύσεις του προηγούμενου τεστ μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1mw5wpmayZRNbQga22NtrbX201XjKvYdV/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

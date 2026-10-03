@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/10/1280px-hilma_af_klint_-_group_vi_evolution_no._13_13949.jpg
 
 .. figure:: /_static/images/uploads/2020/10/1280px-hilma_af_klint_-_group_vi_evolution_no._13_13949.jpg
-	:alt: Ο πίνακας *Εξέλιξη, Group VI, Αρ. 13* της `HIlma af Klint  <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\ *.* 
+	:alt: Ο πίνακας *Εξέλιξη, Group VI, Αρ. 13* της `HIlma af Klint  <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Εξέλιξη, Group VI, Αρ. 13* της `HIlma af Klint  <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\ *.* 
+	Ο πίνακας *Εξέλιξη, Group VI, Αρ. 13* της `HIlma af Klint  <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\*.* 
 
 
 Οι λύσεις του :doc:`διαγωνίσματος  </docs/Διδακτικό-Υλικό/Γ-ΕΠΑΛ/Διαγωνίσματα/επαναληπτικό-διαγώνισμα-στη-στατιστ>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1dlxMxjQs1-Bk7_q3c3hzI4QZj6cYKNPI/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

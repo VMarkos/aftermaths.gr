@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/02/jurist.jpg
 
 .. figure:: /_static/images/uploads/2019/02/jurist.jpg
-	:alt: Ο πίνακας *Ο δικαστής* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+	:alt: Ο πίνακας *Ο δικαστής* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο δικαστής* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\ *.* 
+	Ο πίνακας *Ο δικαστής* του `Giuseppe Arcimboldo  <https://en.wikipedia.org/wiki/Giuseppe_Arcimboldo>`__\*.* 
 
 
 Το φύλλο εργασίας βρίσκεται `εδώ  <https://drive.google.com/file/d/13KrM-EssOMPofXeoCuilwuBLT6RwTw0S/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

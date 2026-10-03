@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/06/scene_from_schiller.jpg
 
 .. figure:: /_static/images/uploads/2019/06/scene_from_schiller.jpg
-	:alt: Το σχέδιο *Σκηνή από του «Ληστές»* *του Schiller* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Το σχέδιο *Σκηνή από του «Ληστές»**του Schiller* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Το σχέδιο *Σκηνή από του «Ληστές»* *του Schiller* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Το σχέδιο *Σκηνή από του «Ληστές»**του Schiller* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1n6Q7ToADtJqgW21qqMMSZeOHbAP9R2pb/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/10/claude_monet_-_camille.jpg
 
 .. figure:: /_static/images/uploads/2018/10/claude_monet_-_camille.jpg
-	:alt: Ο πίνακας *Η γυναίκα με το πράσινο φόρεμα* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.* 
+	:alt: Ο πίνακας *Η γυναίκα με το πράσινο φόρεμα* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η γυναίκα με το πράσινο φόρεμα* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.* 
+	Ο πίνακας *Η γυναίκα με το πράσινο φόρεμα* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχεται ένα πρόβλημα που εξετάζει βασικές επεξεργασίες πινάκων δύο διαστάσεων (μέσοι όροι στηλών, στοιχείων κ.λπ.).

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/august_macke_1912_rokoko_oil_on_canvas_89_x_89_cm_national_museum_of_art_architecture_and_design_norway.jpg
 
 .. figure:: /_static/images/uploads/2020/12/august_macke_1912_rokoko_oil_on_canvas_89_x_89_cm_national_museum_of_art_architecture_and_design_norway.jpg
-	:alt: Ο πίνακας *Rokoko* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	:alt: Ο πίνακας *Rokoko* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Rokoko* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	Ο πίνακας *Rokoko* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 
 
 Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/1xg-80wiCSL_1TqQPg4Ejt08dgxRuEw4L/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

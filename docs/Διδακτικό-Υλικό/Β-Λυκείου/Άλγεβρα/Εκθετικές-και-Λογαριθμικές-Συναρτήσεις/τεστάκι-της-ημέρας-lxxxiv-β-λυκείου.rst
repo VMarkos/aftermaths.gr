@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/04/girl_with_a_hoop.jpg
 
 .. figure:: /_static/images/uploads/2021/04/girl_with_a_hoop.jpg
-	:alt: Ο πίνακας *Κορίτσι με στεφάνι* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Κορίτσι με στεφάνι* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Κορίτσι με στεφάνι* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Κορίτσι με στεφάνι* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Ένα τεστάκι στις εκθετικές εξισώσεις στα πλαίσια της ύλης της άλγεβρας της Βʹ Λυκείου και ΕΠΑΛ.

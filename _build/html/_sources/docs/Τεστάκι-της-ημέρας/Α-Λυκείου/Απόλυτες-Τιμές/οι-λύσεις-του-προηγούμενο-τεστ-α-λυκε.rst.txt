@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/ivan_grohar_-_sejalec.jpg
 
 .. figure:: /_static/images/uploads/2020/11/ivan_grohar_-_sejalec.jpg
-	:alt: Ο πίνακας *Ο θεριστής* του `Ivan Grohar  <https://en.wikipedia.org/wiki/Ivan_Grohar>`__\ *.* 
+	:alt: Ο πίνακας *Ο θεριστής* του `Ivan Grohar  <https://en.wikipedia.org/wiki/Ivan_Grohar>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο θεριστής* του `Ivan Grohar  <https://en.wikipedia.org/wiki/Ivan_Grohar>`__\ *.* 
+	Ο πίνακας *Ο θεριστής* του `Ivan Grohar  <https://en.wikipedia.org/wiki/Ivan_Grohar>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Εισαγωγή/τεστάκι-της-ημέρας-ι-αλγεβρικές-παρασ>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1iTGZMNtxXz52pqevqzzfkkSpU2f6wPVu/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

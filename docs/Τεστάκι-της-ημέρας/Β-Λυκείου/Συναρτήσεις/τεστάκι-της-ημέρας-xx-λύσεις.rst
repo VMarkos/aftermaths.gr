@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/robert_delaunay_lhomme_a_la_tulipe_portrait_de_jean_metzinger_1906.jpg
 
 .. figure:: /_static/images/uploads/2020/11/robert_delaunay_lhomme_a_la_tulipe_portrait_de_jean_metzinger_1906.jpg
-	:alt: Ο πίνακας *Ο άνδρας με την τουλίπα (Πορτραίτο του M. Jean Metzinger)* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	:alt: Ο πίνακας *Ο άνδρας με την τουλίπα (Πορτραίτο του M. Jean Metzinger)* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο άνδρας με την τουλίπα (Πορτραίτο του M. Jean Metzinger)* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	Ο πίνακας *Ο άνδρας με την τουλίπα (Πορτραίτο του M. Jean Metzinger)* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-xx-β-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1QdSQLreWmctyz4fZ8BAgddfTV0WyRsgY/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

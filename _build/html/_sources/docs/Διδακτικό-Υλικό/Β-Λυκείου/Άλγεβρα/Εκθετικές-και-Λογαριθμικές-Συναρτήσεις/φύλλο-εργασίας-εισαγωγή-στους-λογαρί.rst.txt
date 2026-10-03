@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/04/444px-vincent_van_gogh_-_brug_in_de_regen-_naar_hiroshige_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2019/04/444px-vincent_van_gogh_-_brug_in_de_regen-_naar_hiroshige_-_google_art_project.jpg
-	:alt: Ο πίνακας *Η γέφυρα στη βροχή (του Hiroshige)* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Η γέφυρα στη βροχή (του Hiroshige)* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η γέφυρα στη βροχή (του Hiroshige)* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Η γέφυρα στη βροχή (του Hiroshige)* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Το φύλλο εργασίας βρίσκεται `εδώ  <https://drive.google.com/file/d/1BA2F8uN6uTQz5ZGfDgRZ9PnbsbSU4Dyr/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

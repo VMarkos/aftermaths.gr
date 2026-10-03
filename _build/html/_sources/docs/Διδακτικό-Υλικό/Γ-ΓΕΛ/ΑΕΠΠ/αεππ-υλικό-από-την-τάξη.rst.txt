@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/06/800px-matisse_-_luxembourg_gardens_1901.jpg
 
 .. figure:: /_static/images/uploads/2019/06/800px-matisse_-_luxembourg_gardens_1901.jpg
-	:alt: Ο πίνακας *Οι κήποι του Λουξεμβούργου* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:alt: Ο πίνακας *Οι κήποι του Λουξεμβούργου* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Οι κήποι του Λουξεμβούργου* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Οι κήποι του Λουξεμβούργου* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 
 
 Ενημερώθηκε ο φάκελος του υλικού από την τάξη (λύσεις ασκήσεων από φυλλάδια και άλλων που προέκυψαν στο μάθημα). Ο φάκελος βρίσκεται `εδώ   <https://drive.google.com/drive/folders/1CsYT9JgYZUHmFPYhjYW78C7gTXSxH29a?usp=sharing>`__ και στην αντίστοιχη σελίδα του :doc:`υλικού από την τάξη  </docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/ΑΕΠΠ/υλικό-από-την-τάξη>`.

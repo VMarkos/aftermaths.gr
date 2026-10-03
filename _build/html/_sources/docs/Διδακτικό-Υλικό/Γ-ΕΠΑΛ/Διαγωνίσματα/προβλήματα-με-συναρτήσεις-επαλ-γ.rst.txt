@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/11/ice-floes-misty-morninglarge.jpg
 
 .. figure:: /_static/images/uploads/2018/11/ice-floes-misty-morninglarge.jpg
-	:alt: Ο πίνακας *Πάγοι, Ομιχλώδες πρωινό* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.* 
+	:alt: Ο πίνακας *Πάγοι, Ομιχλώδες πρωινό* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Πάγοι, Ομιχλώδες πρωινό* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.* 
+	Ο πίνακας *Πάγοι, Ομιχλώδες πρωινό* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται λίγα προβλήματα που εμπλέκουν συναρτήσεις στα πλαίσια της ύλης της Γʹ ΕΠΑΛ.

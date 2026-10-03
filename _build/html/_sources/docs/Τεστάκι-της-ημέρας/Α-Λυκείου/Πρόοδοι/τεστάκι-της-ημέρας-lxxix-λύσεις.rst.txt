@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/03/1280px-pierre-auguste_renoir_-_la_yole.jpg
 
 .. figure:: /_static/images/uploads/2021/03/1280px-pierre-auguste_renoir_-_la_yole.jpg
-	:alt: Ο πίνακας *Βαρκάδα στον ποταμό Seine* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Βαρκάδα στον ποταμό Seine* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Βαρκάδα στον ποταμό Seine* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Βαρκάδα στον ποταμό Seine* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Πρόοδοι/τεστάκι-της-ημέρας-lxxix-α-λυκείου>` σε αριθμητικές και γεωμετρικές προόδους μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/14iB0ivEF6Lw6PcFUDXOmitKr7s4vcFfU/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

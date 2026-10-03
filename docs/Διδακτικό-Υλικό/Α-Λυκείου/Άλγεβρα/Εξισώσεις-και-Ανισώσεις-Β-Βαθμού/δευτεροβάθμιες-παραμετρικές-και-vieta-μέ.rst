@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/02/484px-rembrandt_harmensz._van_rijn_049.jpg
 
 .. figure:: /_static/images/uploads/2020/02/484px-rembrandt_harmensz._van_rijn_049.jpg
-	:alt: Ο πίνακας *Ο Ευαγγελιστής Ματθαίος και ο άγγελος* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	:alt: Ο πίνακας *Ο Ευαγγελιστής Ματθαίος και ο άγγελος* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο Ευαγγελιστής Ματθαίος και ο άγγελος* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	Ο πίνακας *Ο Ευαγγελιστής Ματθαίος και ο άγγελος* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1PWKTs9Mf3Von9lfJGCBh8wJnRCjlEBde/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

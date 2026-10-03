@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/03/rembrandt_harmensz._van_rijn_013.jpg
 
 .. figure:: /_static/images/uploads/2020/03/rembrandt_harmensz._van_rijn_013.jpg
-	:alt: Ο πίνακας *Ο Αριστοτέλης με μία προτομή του Ομήρου* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	:alt: Ο πίνακας *Ο Αριστοτέλης με μία προτομή του Ομήρου* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο Αριστοτέλης με μία προτομή του Ομήρου* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	Ο πίνακας *Ο Αριστοτέλης με μία προτομή του Ομήρου* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 
 
 Συνεχίζουμε με το δεύτερο σετ λυμένων θεμάτων από το σχολικό βιβλίο το οποίο μπορείτε να βρείτε `εδώ  <https://drive.google.com/file/d/1emXjaMb7Il74TfgPV6HCsEL6bE4xMOwl/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

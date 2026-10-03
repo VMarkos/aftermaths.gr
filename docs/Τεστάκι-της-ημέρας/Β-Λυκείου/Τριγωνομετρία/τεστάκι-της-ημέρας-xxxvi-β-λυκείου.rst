@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/plums_by_patrick_henry_bruce_1912.jpeg
 
 .. figure:: /_static/images/uploads/2020/12/plums_by_patrick_henry_bruce_1912.jpeg
-	:alt: Ο πίνακας *Δαμάσκηνα* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+	:alt: Ο πίνακας *Δαμάσκηνα* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Δαμάσκηνα* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+	Ο πίνακας *Δαμάσκηνα* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\*.* 
 
 
 Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/1sfE7KaEA3p3GmYrjJzXWLJdWd2fm0EAs/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

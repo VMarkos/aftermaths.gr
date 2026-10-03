@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/1008px-august_macke_005.jpg
 
 .. figure:: /_static/images/uploads/2020/11/1008px-august_macke_005.jpg
-	:alt: Ο πίνακας *Γυναίκα με πράσινη ζακέτα* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	:alt: Ο πίνακας *Γυναίκα με πράσινη ζακέτα* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Γυναίκα με πράσινη ζακέτα* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	Ο πίνακας *Γυναίκα με πράσινη ζακέτα* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xxix-γ-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1ijHud4FgUDqYp6rzT0bkZ0Sdj8c1_eO_/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

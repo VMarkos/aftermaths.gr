@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/10/water-lilies-and-japanese-bridge-281897-189929-monet-560x416.jpg
 
 .. figure:: /_static/images/uploads/2018/10/water-lilies-and-japanese-bridge-281897-189929-monet-560x416.jpg
-	:alt: Ο πίνακας *Η λίμνη με τα νούφαρα* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.* 
+	:alt: Ο πίνακας *Η λίμνη με τα νούφαρα* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η λίμνη με τα νούφαρα* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.* 
+	Ο πίνακας *Η λίμνη με τα νούφαρα* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\*.* 
 
 
 Ένα διαγώνισμα που εξετάζει το μεγαλύτερο μέρος της ύλης μέχρι και τους πίνακες με ένα... προφητικό Γʹ θέμα.

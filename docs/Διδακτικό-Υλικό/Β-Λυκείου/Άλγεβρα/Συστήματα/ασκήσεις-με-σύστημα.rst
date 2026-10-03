@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/10/800px-claude_monet-madame_monet_en_costume_japonais.jpg
 
 .. figure:: /_static/images/uploads/2018/10/800px-claude_monet-madame_monet_en_costume_japonais.jpg
-	:alt: Ο πίνακας *Η κυρία Μονέ σε ένα γιαπωνέζικο κιμονό* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.* 
+	:alt: Ο πίνακας *Η κυρία Μονέ σε ένα γιαπωνέζικο κιμονό* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η κυρία Μονέ σε ένα γιαπωνέζικο κιμονό* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *.* 
+	Ο πίνακας *Η κυρία Μονέ σε ένα γιαπωνέζικο κιμονό* του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται ασκήσεις και προβλήματα που έχουν να κάνουν με συστήματα και τη διερεύνησή τους, όπως αυτά εξετάζονται στην ύλη της άλγεβρας της Βʹ λυκείου.

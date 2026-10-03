@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/02/799px-rembrandt_van_rijn_195.jpg
 
 .. figure:: /_static/images/uploads/2020/02/799px-rembrandt_van_rijn_195.jpg
-	:alt: Ο πίνακας *Το όνειρο του Ιωσήφ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	:alt: Ο πίνακας *Το όνειρο του Ιωσήφ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το όνειρο του Ιωσήφ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	Ο πίνακας *Το όνειρο του Ιωσήφ* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1oqFlFe_H6OvTGzc_lq3gckS0eB6q1auo/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/neapolitan_woman_1894_by_ilya_repin_-_d09dd0b5d0b0d0bfd0bed0bbd0b8d182d0b0d0bdd0bad0b0.jpg
 
 .. figure:: /_static/images/uploads/2021/01/neapolitan_woman_1894_by_ilya_repin_-_d09dd0b5d0b0d0bfd0bed0bbd0b8d182d0b0d0bdd0bad0b0.jpg
-	:alt: Ο πίνακας *Ναπολιτάνα* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:alt: Ο πίνακας *Ναπολιτάνα* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ναπολιτάνα* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	Ο πίνακας *Ναπολιτάνα* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 
 
 Διαφάνειες μέχρι και τις ανισώσεις με απόλυτες τιμές, φρεσκαρισμένες και με νέα σχήματα, στα πλαίσια της ύλης της άλγεβρας της Αʹ λυκείου/ΕΠΑΛ.

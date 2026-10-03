@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/hilma_af_klint_-_1915_-_the_swan_no._18.jpg
 
 .. figure:: /_static/images/uploads/2021/01/hilma_af_klint_-_1915_-_the_swan_no._18.jpg
-	:alt: Ο πίνακας *Ο κύκνος, Αρ. 18* της `Hilma af Klint  <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\ *.* 
+	:alt: Ο πίνακας *Ο κύκνος, Αρ. 18* της `Hilma af Klint  <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο κύκνος, Αρ. 18* της `Hilma af Klint  <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\ *.* 
+	Ο πίνακας *Ο κύκνος, Αρ. 18* της `Hilma af Klint  <https://en.wikipedia.org/wiki/Hilma_af_Klint>`__\*.* 
 
 
 Όπως και κάθε χρόνο, έτσι και φέτος δημοσιεύουμε αναθεωρημένες σημειώσεις στην ενότητα της παραγώγου των μαθηματικών προσανατολισμού της Γʹ Λυκείου - με θεωρία και ασκήσεις. Η ύλη, όπως και στις προηγούμενες εκδόσεις, δεν ακολουθεί πιστά την πορεία του σχολικού βιβλίου ως προς τους εξής άξονες:

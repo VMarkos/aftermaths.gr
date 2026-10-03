@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/02/1280px-christoph_ludwig_agricola_zugeschr._-_eine_flusslandschaft_mit_anglern.jpg
 
 .. figure:: /_static/images/uploads/2021/02/1280px-christoph_ludwig_agricola_zugeschr._-_eine_flusslandschaft_mit_anglern.jpg
-	:alt: Ο πίνακας *Τοπίο με ποτάμι* του `Christoph Ludwig Agricola  <https://en.wikipedia.org/wiki/Christoph_Ludwig_Agricola>`__\ *.* 
+	:alt: Ο πίνακας *Τοπίο με ποτάμι* του `Christoph Ludwig Agricola  <https://en.wikipedia.org/wiki/Christoph_Ludwig_Agricola>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Τοπίο με ποτάμι* του `Christoph Ludwig Agricola  <https://en.wikipedia.org/wiki/Christoph_Ludwig_Agricola>`__\ *.* 
+	Ο πίνακας *Τοπίο με ποτάμι* του `Christoph Ludwig Agricola  <https://en.wikipedia.org/wiki/Christoph_Ludwig_Agricola>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Πολυώνυμα/τεστάκι-της-ημέρας-lxi-β-λυκείου>` στις εισαγωγικές έννοιες των πολυωνύμων - άλγεβρα Βʹ Λυκείου και ΕΠΑΛ - μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1O2k9vgb9mGk9Bo4tGKQ4MJt2IHuf7kTi/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

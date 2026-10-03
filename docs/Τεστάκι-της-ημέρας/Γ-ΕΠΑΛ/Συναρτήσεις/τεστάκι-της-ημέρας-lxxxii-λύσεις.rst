@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/04/493px-pierre_auguste_renoir_-_country_dance_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2021/04/493px-pierre_auguste_renoir_-_country_dance_-_google_art_project.jpg
-	:alt: Ο πίνακας *Χορός στην εξοχή* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Χορός στην εξοχή* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Χορός στην εξοχή* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Χορός στην εξοχή* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Συναρτήσεις/τεστάκι-της-ημέρας-lxxxii-γ-επαλ>` στην μονοτονία συναρτήσεων - μαθηματικά, Γʹ ΕΠΑΛ - μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/13JgQ5T6wL6ROlogQrWNzOeqFmFTQyxxy/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

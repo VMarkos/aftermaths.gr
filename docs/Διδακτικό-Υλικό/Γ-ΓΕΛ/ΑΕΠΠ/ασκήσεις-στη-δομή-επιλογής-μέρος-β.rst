@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/09/antoine_vollon_-_nature_morte_rosario.jpg
 
 .. figure:: /_static/images/uploads/2018/09/antoine_vollon_-_nature_morte_rosario.jpg
-	:alt: Ο πίνακας *Νεκρή φύση* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	:alt: Ο πίνακας *Νεκρή φύση* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεκρή φύση* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	Ο πίνακας *Νεκρή φύση* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 
 
 Λίγες ακόμα ασκήσεις/προβλήματα στη δομή επιλογής.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/ilja_jefimowitsch_repin_013.jpg
 
 .. figure:: /_static/images/uploads/2021/01/ilja_jefimowitsch_repin_013.jpg
-	:alt: Ο πίνακας *Η ανάσταση της κόρης του Ιάειρου* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:alt: Ο πίνακας *Η ανάσταση της κόρης του Ιάειρου* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η ανάσταση της κόρης του Ιάειρου* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	Ο πίνακας *Η ανάσταση της κόρης του Ιάειρου* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 
 
 Ενημερωμένες διαφάνειες για την ύλη της άλγεβρας της Βʹ Λυκείου που καλύπτουν την ύλη των δύο πρώτων κεφαλαίων (συστήματα και συναρτήσεις) καθώς και εισαγωγικές έννοιες τριγωνομετρίας.

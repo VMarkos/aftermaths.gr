@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/10/paul-fischer.-afternoon-tea.jpg
 
 .. figure:: /_static/images/uploads/2020/10/paul-fischer.-afternoon-tea.jpg
-	:alt: Ο πίνακας *Απογευματινό τσάι* του `Paul Gustav Fischer  <https://en.wikipedia.org/wiki/Paul_Gustav_Fischer>`__\ *.* 
+	:alt: Ο πίνακας *Απογευματινό τσάι* του `Paul Gustav Fischer  <https://en.wikipedia.org/wiki/Paul_Gustav_Fischer>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Απογευματινό τσάι* του `Paul Gustav Fischer  <https://en.wikipedia.org/wiki/Paul_Gustav_Fischer>`__\ *.* 
+	Ο πίνακας *Απογευματινό τσάι* του `Paul Gustav Fischer  <https://en.wikipedia.org/wiki/Paul_Gustav_Fischer>`__\*.* 
 
 
 Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1PhvIqZY0X6zC9QRtRuZMao8PR48b62WY/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

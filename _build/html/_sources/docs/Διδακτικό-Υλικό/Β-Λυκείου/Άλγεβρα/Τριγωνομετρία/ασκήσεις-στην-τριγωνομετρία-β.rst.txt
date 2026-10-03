@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/12/h0062-l49607344.jpg
 
 .. figure:: /_static/images/uploads/2018/12/h0062-l49607344.jpg
-	:alt: Ο πίνακας *Νεκρή φύση πάνω σε τραπέζι* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	:alt: Ο πίνακας *Νεκρή φύση πάνω σε τραπέζι* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεκρή φύση πάνω σε τραπέζι* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	Ο πίνακας *Νεκρή φύση πάνω σε τραπέζι* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 
 
 Και σε αυτό το φυλλάδιο περιέχονται κάποιες ασκήσεις και προβλήματα σχετικά με την ύλη της τριγωνομετρίας της Βʹ Λυκείου.

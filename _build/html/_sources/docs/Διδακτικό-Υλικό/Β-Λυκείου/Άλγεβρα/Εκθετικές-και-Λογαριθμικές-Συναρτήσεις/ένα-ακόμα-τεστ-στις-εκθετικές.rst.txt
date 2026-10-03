@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/04/vincent_van_gogh_-_tree_roots_and_trunks_f816.jpg
 
 .. figure:: /_static/images/uploads/2019/04/vincent_van_gogh_-_tree_roots_and_trunks_f816.jpg
-	:alt: Ο πίνακας *Ρίζες δένδρου* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Ρίζες δένδρου* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ρίζες δένδρου* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Ρίζες δένδρου* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/1QwrEMgsLcQDfSSpPi3oG9Q2kN0a1ydDM/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

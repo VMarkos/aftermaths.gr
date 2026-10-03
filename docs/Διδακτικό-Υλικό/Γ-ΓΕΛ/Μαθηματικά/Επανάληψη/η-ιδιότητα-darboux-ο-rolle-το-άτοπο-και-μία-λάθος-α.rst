@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/03/caspar_david_friedrich_-_auf_dem_segler.jpg
 
 .. figure:: /_static/images/uploads/2019/03/caspar_david_friedrich_-_auf_dem_segler.jpg
-	:alt: Ο πίνακας *Στο ιστιοφόρο* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Στο ιστιοφόρο* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Στο ιστιοφόρο* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Στο ιστιοφόρο* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Λίγες σκέψεις πάνω σε μία απόδειξη της ιδιότητας Darboux στα πλαίσια της ύλης του λυκείου, ξεκλέβοντας λίγο από την απόδειξη του θεωρήματος του Rolle. Στην πορεία, βέβαια, προκύπτει ένα μικρό σφάλμα. Μπορείτε να το βρείτε;

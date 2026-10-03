@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/09/vangchurchauversx1.jpg
 
 .. figure:: /_static/images/uploads/2018/09/vangchurchauversx1.jpg
-	:alt: Ο πίνακας `Η εκκλησία στην Auvers-sur-Oise, άποψη του ιερού  <http://www.everypainterpaintshimself.com/article/van_goghs_church_in_auvers_sur_oise_1890>`__\ *,* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας `Η εκκλησία στην Auvers-sur-Oise, άποψη του ιερού  <http://www.everypainterpaintshimself.com/article/van_goghs_church_in_auvers_sur_oise_1890>`__\ *,* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας `Η εκκλησία στην Auvers-sur-Oise, άποψη του ιερού  <http://www.everypainterpaintshimself.com/article/van_goghs_church_in_auvers_sur_oise_1890>`__\ *,* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας `Η εκκλησία στην Auvers-sur-Oise, άποψη του ιερού  <http://www.everypainterpaintshimself.com/article/van_goghs_church_in_auvers_sur_oise_1890>`__\ *,* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται ασκήσεις που έχουν ως στόχο να εξοικειώσουν τους μαθητές με την εξαγωγή ψηφίων από αριθμούς και, μέσω αυτού, με τις πράξεις της ακέραιας διαίρεσης (div) και του ακεραίου υπολοίπου (mod) της γλώσσας.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/742px-chase_william_merritt_back_of_a_nude_1888.jpg
 
 .. figure:: /_static/images/uploads/2020/12/742px-chase_william_merritt_back_of_a_nude_1888.jpg
-	:alt: Ο πίνακας *Πλάτη μίας γυμνής γυναίκας* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	:alt: Ο πίνακας *Πλάτη μίας γυμνής γυναίκας* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Πλάτη μίας γυμνής γυναίκας* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	Ο πίνακας *Πλάτη μίας γυμνής γυναίκας* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/16sSY2s6EqVx1c3G5w6JrutTQ958wuyKr/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

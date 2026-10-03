@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/08/morning_in_the_riesengebirge.jpg
 
 .. figure:: /_static/images/uploads/2019/08/morning_in_the_riesengebirge.jpg
-	:alt: Ο πίνακας *Πρωινό στα Γιγαντιαία Βουνά* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Πρωινό στα Γιγαντιαία Βουνά* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Πρωινό στα Γιγαντιαία Βουνά* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Πρωινό στα Γιγαντιαία Βουνά* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Οι σημειώσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1NFGj-v60Q2ZQY5XLtteJCJBcvJRolg4Q/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

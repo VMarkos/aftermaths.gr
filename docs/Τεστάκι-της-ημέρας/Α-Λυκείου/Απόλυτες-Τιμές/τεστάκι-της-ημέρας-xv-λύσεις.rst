@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/marianne_von_werefkin_e28093_la_familia.jpg
 
 .. figure:: /_static/images/uploads/2020/11/marianne_von_werefkin_e28093_la_familia.jpg
-	:alt: Πίνακας *Η οικογένεια* της `Marianne von Werefkin  <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__\ *.* 
+	:alt: Πίνακας *Η οικογένεια* της `Marianne von Werefkin  <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__\*.* 
 	:align: center
 
-	Πίνακας *Η οικογένεια* της `Marianne von Werefkin  <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__\ *.* 
+	Πίνακας *Η οικογένεια* της `Marianne von Werefkin  <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__\*.* 
 
 
 Τις λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι-της-ημέρας-xv-α-λυκείου>` μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1Q669M4xCWriNi19fpPnZe3PwmRX2W5J2/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

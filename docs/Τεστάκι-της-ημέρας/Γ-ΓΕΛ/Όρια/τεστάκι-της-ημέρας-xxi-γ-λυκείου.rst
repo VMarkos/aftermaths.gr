@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/gugg_saint-severin_no._3.jpg
 
 .. figure:: /_static/images/uploads/2020/11/gugg_saint-severin_no._3.jpg
-	:alt: Ο πίνακας *Saint-Séverin No. 3* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	:alt: Ο πίνακας *Saint-Séverin No. 3* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Saint-Séverin No. 3* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	Ο πίνακας *Saint-Séverin No. 3* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\*.* 
 
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1JTssm_xlMw6V0JH6_ws7J-4Y4IkeYCGH/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

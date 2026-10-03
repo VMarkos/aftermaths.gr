@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/02/870px-brjullov_italianskij_poldenj.jpg
 
 .. figure:: /_static/images/uploads/2021/02/870px-brjullov_italianskij_poldenj.jpg
-	:alt: Ο πίνακας *Ιταλικό μεσημέρι* του `Karl Briullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\ *.* 
+	:alt: Ο πίνακας *Ιταλικό μεσημέρι* του `Karl Briullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ιταλικό μεσημέρι* του `Karl Briullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\ *.* 
+	Ο πίνακας *Ιταλικό μεσημέρι* του `Karl Briullov  <https://en.wikipedia.org/wiki/Karl_Bryullov>`__\*.* 
 
 
 Ένα τεστάκι στις εξισώσεις γινόμενο και σε όλα τα παρελκόμενα - άλγεβρα, Αʹ Λυκείου και ΕΠΑΛ.

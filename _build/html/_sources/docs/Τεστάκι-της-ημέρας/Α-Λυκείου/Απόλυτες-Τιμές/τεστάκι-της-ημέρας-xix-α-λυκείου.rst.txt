@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/marc_franz_-_the_tiger_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2020/11/marc_franz_-_the_tiger_-_google_art_project.jpg
-	:alt: Ο πίνακας *Ο τίγρης* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	:alt: Ο πίνακας *Ο τίγρης* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο τίγρης* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	Ο πίνακας *Ο τίγρης* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1U6foOA2zdiBgR2JHlCLFsoXeppIfQs9s/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

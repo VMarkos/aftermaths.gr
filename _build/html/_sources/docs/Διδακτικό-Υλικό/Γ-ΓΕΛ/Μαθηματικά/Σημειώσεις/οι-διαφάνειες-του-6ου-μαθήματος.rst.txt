@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/07/785px-paul_nash_wire_1918-19.jpg
 
 .. figure:: /_static/images/uploads/2019/07/785px-paul_nash_wire_1918-19.jpg
-	:alt: Ο πίνακας *Wire* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+	:alt: Ο πίνακας *Wire* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Wire* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\ *.* 
+	Ο πίνακας *Wire* του `Paul Nash  <https://en.wikipedia.org/wiki/Paul_Nash_(artist)>`__\*.* 
 
 
 Λίγο πριν το κλείσιμο, τις διαφάνειες μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/17DnsxnRvD-YZuihujOu_Kktc7ryzE52b/view?usp=sharing>`__ καθώς και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

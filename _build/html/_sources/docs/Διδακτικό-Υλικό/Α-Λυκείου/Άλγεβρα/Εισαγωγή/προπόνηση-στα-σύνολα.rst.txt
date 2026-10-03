@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/767px-franz_marc_-_the_foxes_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2020/11/767px-franz_marc_-_the_foxes_-_google_art_project.jpg
-	:alt: Ο πίνακας *Αλεπούδες* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	:alt: Ο πίνακας *Αλεπούδες* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Αλεπούδες* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	Ο πίνακας *Αλεπούδες* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 
 
 Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1XOKqhsrzJ9q2o7qcLiTRmhS_ND89kMAx/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

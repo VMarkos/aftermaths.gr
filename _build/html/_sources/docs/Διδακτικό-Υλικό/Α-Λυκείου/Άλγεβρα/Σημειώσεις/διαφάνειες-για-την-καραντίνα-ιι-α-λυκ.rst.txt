@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/ilya_repin_unexpected_visitors.jpg
 
 .. figure:: /_static/images/uploads/2021/01/ilya_repin_unexpected_visitors.jpg
-	:alt: Ο πίνακας *Απροσδώκητος Επισκέπτης* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:alt: Ο πίνακας *Απροσδώκητος Επισκέπτης* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Απροσδώκητος Επισκέπτης* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	Ο πίνακας *Απροσδώκητος Επισκέπτης* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 
 
 :doc:`Διαφάνειες για την καραντίνα   /docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-για-την-καραντίνα` σε σχέση με τις ρίζες στα πλαίσια της ύλης της Αʹ λυκείου.

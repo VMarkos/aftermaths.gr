@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/william_merritt_chase_-_girl_in_a_japanese_costume_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2020/12/william_merritt_chase_-_girl_in_a_japanese_costume_-_google_art_project.jpg
-	:alt: Ο πίνακας *Κορίτσι σε γιαπωνέζικη φορεσιά* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	:alt: Ο πίνακας *Κορίτσι σε γιαπωνέζικη φορεσιά* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Κορίτσι σε γιαπωνέζικη φορεσιά* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	Ο πίνακας *Κορίτσι σε γιαπωνέζικη φορεσιά* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 
 
 Τις :doc:`διαφάνειες για την καραντίνα  </docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-για-την-καραντίνα>` θα τις βρείτε `εδώ   <https://drive.google.com/file/d/176SycR-wvmkSi_Kr9gjrst2XvkJTuHKx/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

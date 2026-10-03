@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/11/analysis_of_beauty_plate_1_by_william_hogarth.jpg
 
 .. figure:: /_static/images/uploads/2018/11/analysis_of_beauty_plate_1_by_william_hogarth.jpg
-	:alt: *η ανάλυση του κάλλους* του `William Hogarth.  <https://en.wikipedia.org/wiki/William_Hogarth>`__\ * 
+	:alt: *η ανάλυση του κάλλους* του `William Hogarth.  <https://en.wikipedia.org/wiki/William_Hogarth>`__\* 
 	:align: center
 
-	*η ανάλυση του κάλλους* του `William Hogarth.  <https://en.wikipedia.org/wiki/William_Hogarth>`__\ * 
+	*η ανάλυση του κάλλους* του `William Hogarth.  <https://en.wikipedia.org/wiki/William_Hogarth>`__\* 
 
 
 Ένα επαναληπτικό διαγώνισμα για τη Βʹ Γυμνασίου στις εξισώσεις.

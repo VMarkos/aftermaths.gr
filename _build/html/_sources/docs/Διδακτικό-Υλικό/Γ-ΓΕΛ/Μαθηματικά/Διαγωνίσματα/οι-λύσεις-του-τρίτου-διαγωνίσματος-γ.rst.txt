@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/04/cafc3a9tafel_met_absint_-_s0186v1962_-_van_gogh_museum.jpg
 
 .. figure:: /_static/images/uploads/2019/04/cafc3a9tafel_met_absint_-_s0186v1962_-_van_gogh_museum.jpg
-	:alt: Ο πίνακας *Νεκρή φύση με ένα ποτήρι Αμπσέντι και μία καράφα* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Νεκρή φύση με ένα ποτήρι Αμπσέντι και μία καράφα* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεκρή φύση με ένα ποτήρι Αμπσέντι και μία καράφα* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Νεκρή φύση με ένα ποτήρι Αμπσέντι και μία καράφα* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1mZPXD8Glb7r-NBVGhdSVGZK2X30CfPTz/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

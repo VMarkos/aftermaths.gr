@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/1280px-kramskoy_portrait_of_a_woman.jpg
 
 .. figure:: /_static/images/uploads/2021/01/1280px-kramskoy_portrait_of_a_woman.jpg
-	:alt: Ο πίνακας *Πορτραίτο μίας άγνωστης* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+	:alt: Ο πίνακας *Πορτραίτο μίας άγνωστης* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Πορτραίτο μίας άγνωστης* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+	Ο πίνακας *Πορτραίτο μίας άγνωστης* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Τριγωνομετρία/τεστάκι-της-ημέρας-liii-β-λυκείου>` στις τριγωνομετρικές εξισώσεις και τις βασικές τριγωνομετρικές συναρτήσεις - άλγεβρα Βʹ Λυκείου/ΕΠΑΛ - μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1886O1zeqaIuOOZvkCXFhufxkDhuSKTct/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

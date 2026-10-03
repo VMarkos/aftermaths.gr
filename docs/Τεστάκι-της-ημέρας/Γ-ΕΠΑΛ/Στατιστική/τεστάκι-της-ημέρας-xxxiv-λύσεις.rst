@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/stanton_macdonald-wright_-_synchromy_no._3_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2020/12/stanton_macdonald-wright_-_synchromy_no._3_-_google_art_project.jpg
-	:alt: Ο πίνακας *Συγχρωμία 3* του `Stanton MacDonald-Wright  <https://en.wikipedia.org/wiki/Stanton_Macdonald-Wright>`__\ *.* 
+	:alt: Ο πίνακας *Συγχρωμία 3* του `Stanton MacDonald-Wright  <https://en.wikipedia.org/wiki/Stanton_Macdonald-Wright>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Συγχρωμία 3* του `Stanton MacDonald-Wright  <https://en.wikipedia.org/wiki/Stanton_Macdonald-Wright>`__\ *.* 
+	Ο πίνακας *Συγχρωμία 3* του `Stanton MacDonald-Wright  <https://en.wikipedia.org/wiki/Stanton_Macdonald-Wright>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xxxiv-γ-επαλ>` βρίσκονται :doc:`εδώ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xxxiv-γ-επαλ>` και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

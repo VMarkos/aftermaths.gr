@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/12/unnamed.jpg
 
 .. figure:: /_static/images/uploads/2018/12/unnamed.jpg
-	:alt: Ο πίνακας *Φθινοπωρινό τοπίο με βάρκες* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *Φθινοπωρινό τοπίο με βάρκες* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Φθινοπωρινό τοπίο με βάρκες* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Φθινοπωρινό τοπίο με βάρκες* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Λίγες ακόμα ασκήσεις για τα Χριστούγεννα πάνω στη συνέχεια συναρτήσεων.

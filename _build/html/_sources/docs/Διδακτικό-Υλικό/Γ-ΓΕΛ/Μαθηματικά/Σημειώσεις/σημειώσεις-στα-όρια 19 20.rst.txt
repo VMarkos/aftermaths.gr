@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/08/henri_matisse_1916-17_le_peintre_dans_son_atelier_the_painter_and_his_model_oil_on_canvas_146.5_x_97_cm_musc3a9e_national_dart_moderne_centre_georges_pompidou_paris.jpg
 
 .. figure:: /_static/images/uploads/2019/08/henri_matisse_1916-17_le_peintre_dans_son_atelier_the_painter_and_his_model_oil_on_canvas_146.5_x_97_cm_musc3a9e_national_dart_moderne_centre_georges_pompidou_paris.jpg
-	:alt: Ο πίνακας *Ο ζωγράφος και το μοντέλο του* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:alt: Ο πίνακας *Ο ζωγράφος και το μοντέλο του* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο ζωγράφος και το μοντέλο του* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Ο ζωγράφος και το μοντέλο του* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 
 
 Ανανεωμένες, φρέσκες, με λιγότερα (μάλλον) λάθη, είναι εδώ για όσες και όσους έχουν όρεξη ή, τουλάχιστον, πρέπει να διαβάσουν. Συμπληρωματικά στην παραδοσιακή ασπρόμαυρη έκδοση (η οποία είναι διαθέσιμη κυρίως για όσες/ους εκτυπώνουν το υλικό), έχει αναρτηθεί και μία :doc:`μερικώς έγχρωμη έκδοση των σημειώσεων  </docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/σημειώσεις-στα-όρια 19 20-έγχρωμες>`.

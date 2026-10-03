@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/07/435px-study_of_a_nude_by_matisse.jpg
 
 .. figure:: /_static/images/uploads/2019/07/435px-study_of_a_nude_by_matisse.jpg
-	:alt: Ο πίνακας *Σπουδή ενός γυμνού* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:alt: Ο πίνακας *Σπουδή ενός γυμνού* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Σπουδή ενός γυμνού* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Σπουδή ενός γυμνού* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 
 
 Το τεστάκι βρίσκεται `εδώ  <https://drive.google.com/file/d/11N6z8ZXM3TWd1ZloUpKVnp4w9LiRtrQX/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

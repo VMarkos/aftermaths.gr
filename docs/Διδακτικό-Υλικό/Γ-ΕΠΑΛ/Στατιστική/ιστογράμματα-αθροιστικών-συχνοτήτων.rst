@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/05/722px-vermeer-view-of-delft.jpg
 
 .. figure:: /_static/images/uploads/2020/05/722px-vermeer-view-of-delft.jpg
-	:alt: Ο πίνακας *Άποψη του Delft* του `Johannes Vermeer  <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\ *.* 
+	:alt: Ο πίνακας *Άποψη του Delft* του `Johannes Vermeer  <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Άποψη του Delft* του `Johannes Vermeer  <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\ *.* 
+	Ο πίνακας *Άποψη του Delft* του `Johannes Vermeer  <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1Li_FvQGjjOsvSiqZ9RDrlnkOJyXsG6EP/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/composition_ii_by_patrick_henry_bruce.jpeg
 
 .. figure:: /_static/images/uploads/2020/12/composition_ii_by_patrick_henry_bruce.jpeg
-	:alt: Ο πίνακας *Σύνθεση ΙΙ* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+	:alt: Ο πίνακας *Σύνθεση ΙΙ* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Σύνθεση ΙΙ* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+	Ο πίνακας *Σύνθεση ΙΙ* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\*.* 
 
 
 Μιας και αρκετά συχνά παρατηρώ ότι κατά την προετοιμασία για τις πανελλήνιες εμφανίζονται κενά σε αρκετές βασικές γνώσεις και δεξιότητες από τις προηγούμενες τάξεις που δυσχεραίνουν την ύλη των μαθηματικών προσανατολισμού της Γʹ λυκείου, ιδίως σε ότι αφορά αμιγώς τεχνικά ζητήματα όπως η επίλυση εξισώσεων και ανισώσεων, στην παρούσα συλλογή από διαφάνειες θα βρείτε αποκλειστικά λυμένα παραδείγματα πάνω σε βασικές εξισώσεις και ανισώσεις των προηγούμενων τάξεων - το αρχείο θα ενημερώνεται διαρκώς.

@@ -11,15 +11,15 @@
 	:attachments: _static/images/uploads/2021/09/leonid_pasternak_-_boris_and_alexander.jpg
 
 .. figure:: /_static/images/uploads/2021/09/leonid_pasternak_-_boris_and_alexander.jpg
-	:alt: *ο Γιος (Boris)* του `Leonid Pasternak  <https://en.wikipedia.org/wiki/Leonid_Pasternak>`__\ *.* 
+	:alt: *ο Γιος (Boris)* του `Leonid Pasternak  <https://en.wikipedia.org/wiki/Leonid_Pasternak>`__\*.* 
 	:align: center
 
-	*ο Γιος (Boris)* του `Leonid Pasternak  <https://en.wikipedia.org/wiki/Leonid_Pasternak>`__\ *.* 
+	*ο Γιος (Boris)* του `Leonid Pasternak  <https://en.wikipedia.org/wiki/Leonid_Pasternak>`__\*.* 
 
 
 Την προηγούμενη εβδομάδα μελετήσαμε την :doc:`κατασκευή ενός εργαλείου  </docs/After-maths/η-εικασία-collatz-4>` το οποίο θα μας επιτρέπει να σχεδιάζουμε γραφήματα Collatz με όσους κόμβους επιθυμούμε - το εργαλείο μπορείτε να το βρείτε `εδώ  <https://vmarkos.github.io/collatz-tree-generator>`__. Τώρα ήρθε η ώρα να ασχοληθούμε με τη μελέτη αυτών των γραφημάτων και να δούμε τι συμπεράσματα μπορούμε να βγάλουμε για την εικασία Collatz.
 
-*Για να θυμηθείτε όσα είπαμε την προηγούμενη εβδομάδα, δείτε*\ :doc:`εδώ  </docs/After-maths/η-εικασία-collatz-4>`\ *, ενώ για όλες τις αναρτήσεις της σειράς, δείτε*\ :doc:`εδώ  </docs/After-mahts/index>`\ *.*
+*Για να θυμηθείτε όσα είπαμε την προηγούμενη εβδομάδα, δείτε*\ :doc:`εδώ  </docs/After-maths/η-εικασία-collatz-4>`\*, ενώ για όλες τις αναρτήσεις της σειράς, δείτε*\ :doc:`εδώ  </docs/After-mahts/index>`\*.*
 
 Απλές σκέψεις...
 ----------------

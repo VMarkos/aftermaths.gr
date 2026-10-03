@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/franz_marc-_die_kleinen_blauen_pferde.jpg
 
 .. figure:: /_static/images/uploads/2020/11/franz_marc-_die_kleinen_blauen_pferde.jpg
-	:alt: Ο πίνακας *Τα μικρά μπλε άλογα* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	:alt: Ο πίνακας *Τα μικρά μπλε άλογα* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Τα μικρά μπλε άλογα* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	Ο πίνακας *Τα μικρά μπλε άλογα* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 
 
 Τις διαφάνειες μπορείτε να τις βρείτε `εδώ  <https://drive.google.com/file/d/1r2zv_UwCzF1xMIWx8dBWippZcBOhzeVc/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

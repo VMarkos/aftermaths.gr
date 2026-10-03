@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/10/vassily_kandinsky_1926_-_several_circles_gugg_0910_25.jpg
 
 .. figure:: /_static/images/uploads/2019/10/vassily_kandinsky_1926_-_several_circles_gugg_0910_25.jpg
-	:alt: Ο πίνακας *Διάφοροι κύκλοι* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *Διάφοροι κύκλοι* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Διάφοροι κύκλοι* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Διάφοροι κύκλοι* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1oWaB4zEwFUqqMzy2rIK_lLVsue3ssIAQ/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

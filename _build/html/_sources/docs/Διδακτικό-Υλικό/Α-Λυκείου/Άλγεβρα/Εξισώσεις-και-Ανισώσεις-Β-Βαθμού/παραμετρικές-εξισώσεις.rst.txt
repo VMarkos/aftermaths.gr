@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/01/trompe-l-oeil-a-cabinet-in-the-artist-s-studio-1671.jpg
 
 .. figure:: /_static/images/uploads/2019/01/trompe-l-oeil-a-cabinet-in-the-artist-s-studio-1671.jpg
-	:alt: Ο πίνακας *Ένα ερμάρι στο ατελιέ του καλλιτέχνη (Trobme lʹ oeil)* του `Cornelis Norbertus Gysbrechts  <https://en.wikipedia.org/wiki/Cornelis_Norbertus_Gysbrechts>`__\ *.* 
+	:alt: Ο πίνακας *Ένα ερμάρι στο ατελιέ του καλλιτέχνη (Trobme lʹ oeil)* του `Cornelis Norbertus Gysbrechts  <https://en.wikipedia.org/wiki/Cornelis_Norbertus_Gysbrechts>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ένα ερμάρι στο ατελιέ του καλλιτέχνη (Trobme lʹ oeil)* του `Cornelis Norbertus Gysbrechts  <https://en.wikipedia.org/wiki/Cornelis_Norbertus_Gysbrechts>`__\ *.* 
+	Ο πίνακας *Ένα ερμάρι στο ατελιέ του καλλιτέχνη (Trobme lʹ oeil)* του `Cornelis Norbertus Gysbrechts  <https://en.wikipedia.org/wiki/Cornelis_Norbertus_Gysbrechts>`__\*.* 
 
 
 Λίγες παραμετρικές εξισώσεις.

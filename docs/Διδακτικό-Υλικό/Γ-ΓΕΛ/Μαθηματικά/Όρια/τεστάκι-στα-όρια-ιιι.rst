@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/09/800px-saint_francis_of_assisi_in_ecstasy-caravaggio_c.1595.jpg
 
 .. figure:: /_static/images/uploads/2019/09/800px-saint_francis_of_assisi_in_ecstasy-caravaggio_c.1595.jpg
-	:alt: Ο πίνακας *Ο Άγιος Φραγκίσκος της Ασίζης σε έκσταση* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	:alt: Ο πίνακας *Ο Άγιος Φραγκίσκος της Ασίζης σε έκσταση* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο Άγιος Φραγκίσκος της Ασίζης σε έκσταση* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	Ο πίνακας *Ο Άγιος Φραγκίσκος της Ασίζης σε έκσταση* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\*.* 
 
 
 Το τεστάκι βρίσκεται `εδώ  <https://drive.google.com/file/d/1HThGFzOl9yXZrpJ_YUNxsIFWBIqn_kJk/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

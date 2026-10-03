@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/08/1882_toulouse-lautrec_the_marble_polisher.jpg
 
 .. figure:: /_static/images/uploads/2019/08/1882_toulouse-lautrec_the_marble_polisher.jpg
-	:alt: Ο πίνακας *Ο στιλβωτής του μαρμάρου* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+	:alt: Ο πίνακας *Ο στιλβωτής του μαρμάρου* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο στιλβωτής του μαρμάρου* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+	Ο πίνακας *Ο στιλβωτής του μαρμάρου* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\*.* 
 
 
 Σε αυτό το αρχείο θα βρείτε μία (πάρα πολύ) συνοπτική παρουσίαση της ύλης των Μαθηματικών Προσανατολισμού της Βʹ Λυκείου μέχρι και το κεφάλαιο του κύκλου, καθώς και πληθώρα λυμένων παραδειγμάτων και ασκήσεων για επανάληψη εφʹ όλης της ύλης.

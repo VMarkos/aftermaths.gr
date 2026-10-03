@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/10/van-willem-vincent-gogh-die-kartoffelesser-03850.jpg
 
 .. figure:: /_static/images/uploads/2018/10/van-willem-vincent-gogh-die-kartoffelesser-03850.jpg
-	:alt: Ο πίνακας *Οι πατατοφάγοι* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Οι πατατοφάγοι* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Οι πατατοφάγοι* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Οι πατατοφάγοι* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχεται επί της ουσίας μία άσκηση - σπασμένη σε 3 μέρη - που αφορά ένα παράξενο παιχνίδι που παίζουν δύο φίλοι.

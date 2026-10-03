@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/06/matisse_-_view_of_collioure_1905.jpg
 
 .. figure:: /_static/images/uploads/2019/06/matisse_-_view_of_collioure_1905.jpg
-	:alt: Ο πίνακας *Οι στέγες του Collioure* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:alt: Ο πίνακας *Οι στέγες του Collioure* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Οι στέγες του Collioure* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Οι στέγες του Collioure* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1FJRPMWUay3eUQuIpbFpWP59OQyd4yHHk/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

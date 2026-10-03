@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/09/vollon-la_moisson.jpg
 
 .. figure:: /_static/images/uploads/2018/09/vollon-la_moisson.jpg
-	:alt: Ο πίνακας *Η συγκομιδή* του `Antoine  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__ `Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	:alt: Ο πίνακας *Η συγκομιδή* του `Antoine  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__ `Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η συγκομιδή* του `Antoine  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__ `Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	Ο πίνακας *Η συγκομιδή* του `Antoine  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__ `Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο θα βρει κανείς μία σύνοψη της θεωρίας μέχρι και τον κύκλο (πάντα με την επιφύλαξη ότι υπάρχουν τυπογραφικά λάθη) και αρκετές ασκήσεις που εστιάζουν και στην εφαρμογή «παραδοσιακών» διαδικασιών/τεχνικών αλλά και σε πιο σύνθετα προβλήματα με έντονο γεωμετρικό χαρακτήρα.

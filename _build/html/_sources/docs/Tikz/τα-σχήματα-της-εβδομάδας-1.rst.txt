@@ -10,10 +10,10 @@
 	:attachments: _static/images/uploads/2021/08/camille_pissarro_012.jpg
 
 .. figure:: /_static/images/uploads/2021/08/camille_pissarro_012.jpg
-	:alt: Ο πίνακας *Είσοδος στο χωριό Voisins* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:alt: Ο πίνακας *Είσοδος στο χωριό Voisins* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Είσοδος στο χωριό Voisins* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Είσοδος στο χωριό Voisins* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 
 .. highlight:: latex
 

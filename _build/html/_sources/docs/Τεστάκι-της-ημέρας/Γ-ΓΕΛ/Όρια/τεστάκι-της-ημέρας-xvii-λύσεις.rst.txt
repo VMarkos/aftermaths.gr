@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/gugg_dreaming_horse.jpg
 
 .. figure:: /_static/images/uploads/2020/11/gugg_dreaming_horse.jpg
-	:alt: Ο πίνακας *Άλογο που ονειρεύεται* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	:alt: Ο πίνακας *Άλογο που ονειρεύεται* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Άλογο που ονειρεύεται* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\ *.* 
+	Ο πίνακας *Άλογο που ονειρεύεται* του `Franz Marc  <https://en.wikipedia.org/wiki/Franz_Marc>`__\*.* 
 
 
 Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xvii-γ-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1POjowHvS4FYvm4nsUHmXzNPy1HNIYujo/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

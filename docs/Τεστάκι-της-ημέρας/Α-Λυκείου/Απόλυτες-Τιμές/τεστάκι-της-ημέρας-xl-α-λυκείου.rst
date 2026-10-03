@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/william_merritt_chase_-_still_life_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2020/12/william_merritt_chase_-_still_life_-_google_art_project.jpg
-	:alt: Μία *Νεκρή Φύση* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	:alt: Μία *Νεκρή Φύση* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 	:align: center
 
-	Μία *Νεκρή Φύση* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	Μία *Νεκρή Φύση* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1x2-sFbyIzTI3ichOJH6hGJL0HR2ouLfX/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

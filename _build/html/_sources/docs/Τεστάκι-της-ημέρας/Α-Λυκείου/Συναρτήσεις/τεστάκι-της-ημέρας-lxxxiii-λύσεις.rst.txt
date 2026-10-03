@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/04/pierre_auguste_renoir_jeune_garcon_sur_la_plage_d_yport.jpg
 
 .. figure:: /_static/images/uploads/2021/04/pierre_auguste_renoir_jeune_garcon_sur_la_plage_d_yport.jpg
-	:alt: Ο πίνακας *Νεαρό αγόρι στην παραλία του dʹYport* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Νεαρό αγόρι στην παραλία του dʹYport* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεαρό αγόρι στην παραλία του dʹYport* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Νεαρό αγόρι στην παραλία του dʹYport* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-lxxxiii-α-λυκείου>` στις γραμμικές συναρτήσεις στα πλαίσια της ύλης της άλγεβρας της Αʹ Λυκείου και ΕΠΑΛ μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/16W3J0Fk1M6-_pQJD2z38DqNiq-9EN5UL/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

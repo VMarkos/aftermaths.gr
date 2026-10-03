@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/kramskoi_vanamees_karguga.jpg
 
 .. figure:: /_static/images/uploads/2021/01/kramskoi_vanamees_karguga.jpg
-	:alt: Ο πίνακας *Γέρος άντρας με μπαστούνι* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+	:alt: Ο πίνακας *Γέρος άντρας με μπαστούνι* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Γέρος άντρας με μπαστούνι* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+	Ο πίνακας *Γέρος άντρας με μπαστούνι* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Συναρτήσεις/τεστάκι-της-ημέρας-li-γ-επαλ>` στα παραμετρικά όρια και τις παραγώγους - μαθηματικά γενικής παιδείας, Γʹ ΕΠΑΛ - βρίσκονται `εδώ   <https://drive.google.com/file/d/1pJj2c5GczVEPG3ylXIUP2XNGNWeerSFo/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/02/775px-caspar_david_friedrich_013.jpg
 
 .. figure:: /_static/images/uploads/2019/02/775px-caspar_david_friedrich_013.jpg
-	:alt: Ο πίνακας *Τα στάδια της ζωής* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Τα στάδια της ζωής* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Τα στάδια της ζωής* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Τα στάδια της ζωής* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/1OUw1OmdT-hxgGckmVeG9qevks1oTJnhH/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

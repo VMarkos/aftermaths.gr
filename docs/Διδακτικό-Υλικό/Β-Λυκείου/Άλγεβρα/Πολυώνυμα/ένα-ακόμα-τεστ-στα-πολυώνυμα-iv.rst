@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/03/446px-caspar_david_friedrich_-_blick_aus_dem_atelier_des_kc3bcnstlers.jpg
 
 .. figure:: /_static/images/uploads/2019/03/446px-caspar_david_friedrich_-_blick_aus_dem_atelier_des_kc3bcnstlers.jpg
-	:alt: Ο πίνακας *Θέα από το ατελιέ του καλλιτέχνη* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Θέα από το ατελιέ του καλλιτέχνη* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Θέα από το ατελιέ του καλλιτέχνη* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Θέα από το ατελιέ του καλλιτέχνη* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/1E7xdax-rMR0GuMbyKZfFASE1BewYBANk/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

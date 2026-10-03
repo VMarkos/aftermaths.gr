@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/09/478px-vincent_willem_van_gogh_102.jpg
 
 .. figure:: /_static/images/uploads/2019/09/478px-vincent_willem_van_gogh_102.jpg
-	:alt: Ο πίνακας *Αυτοπροσωπογραφία χωρίς γένια* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Αυτοπροσωπογραφία χωρίς γένια* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Αυτοπροσωπογραφία χωρίς γένια* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Αυτοπροσωπογραφία χωρίς γένια* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1cbfxn2Tj1ZhOSX2ICbKb11MFS_t25WVP/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

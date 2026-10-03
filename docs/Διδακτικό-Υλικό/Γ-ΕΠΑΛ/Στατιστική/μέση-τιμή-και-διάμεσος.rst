@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/05/523px-johannes_vermeer_-_lady_at_the_virginal_with_a_gentleman_the_music_lesson_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2020/05/523px-johannes_vermeer_-_lady_at_the_virginal_with_a_gentleman_the_music_lesson_-_google_art_project.jpg
-	:alt: Ο πίνακας *Το μάθημα μουσικής* του `Johannes Vermeer  <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\ *.* 
+	:alt: Ο πίνακας *Το μάθημα μουσικής* του `Johannes Vermeer  <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το μάθημα μουσικής* του `Johannes Vermeer  <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\ *.* 
+	Ο πίνακας *Το μάθημα μουσικής* του `Johannes Vermeer  <https://en.wikipedia.org/wiki/Johannes_Vermeer>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1ampRO3nbKT5pWOalzxJpvQxP6-rg1fkf/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

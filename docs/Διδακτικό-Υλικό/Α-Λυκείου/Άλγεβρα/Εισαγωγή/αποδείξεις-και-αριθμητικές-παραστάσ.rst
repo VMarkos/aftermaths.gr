@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/09/451px-henri_de_toulouse-lautrec_1892_wadsworth_atheneum.jpg
 
 .. figure:: /_static/images/uploads/2019/09/451px-henri_de_toulouse-lautrec_1892_wadsworth_atheneum.jpg
-	:alt: Ο πίνακας *Η Jane Avril φεύγει από το Moulin Rouge* του `Henri de Toulous-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+	:alt: Ο πίνακας *Η Jane Avril φεύγει από το Moulin Rouge* του `Henri de Toulous-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η Jane Avril φεύγει από το Moulin Rouge* του `Henri de Toulous-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+	Ο πίνακας *Η Jane Avril φεύγει από το Moulin Rouge* του `Henri de Toulous-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1YOO18ZmtPFKez0Y5mPuSsO_t73COqDXw/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

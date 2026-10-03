@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/09/img11_8.jpg
 
 .. figure:: /_static/images/uploads/2018/09/img11_8.jpg
-	:alt: Ο πίνακας *Κίτρινο, κόκκινο, μπλε* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *Κίτρινο, κόκκινο, μπλε* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Κίτρινο, κόκκινο, μπλε* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Κίτρινο, κόκκινο, μπλε* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Σε αυτό το διαγώνισμα εξετάζεται θεωρία από τα κεφάλαια 2 και 3 (ακόμα και δομές δεδομένων που δεν καλύπτονται από την εξεταστέα ύλη) και ασκήσεις που αξιοποιούν δομές επιλογής και επανάληψης.

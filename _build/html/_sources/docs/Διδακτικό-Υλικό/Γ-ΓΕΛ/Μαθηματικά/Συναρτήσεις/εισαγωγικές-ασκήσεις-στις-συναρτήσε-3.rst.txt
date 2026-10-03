@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/06/camille_pissarro_-_dans_le_jardin_des_mathurins_pontoise_-_503.jpg
 
 .. figure:: /_static/images/uploads/2021/06/camille_pissarro_-_dans_le_jardin_des_mathurins_pontoise_-_503.jpg
-	:alt: Ο πίνακας *Ο κήπος του Pontoise* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:alt: Ο πίνακας *Ο κήπος του Pontoise* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο κήπος του Pontoise* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Ο κήπος του Pontoise* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 
 
 Στο παρακάτω φυλλάδιο μπορείτε να βρείτε εισαγωγικές ασκήσεις στις βασικές έννοιες περί συναρτήσεων - κυρίως σε σχέση με τον ορισμό τους, την «1-1» ιδιότητα και τις γραφικές παραστάσεις.

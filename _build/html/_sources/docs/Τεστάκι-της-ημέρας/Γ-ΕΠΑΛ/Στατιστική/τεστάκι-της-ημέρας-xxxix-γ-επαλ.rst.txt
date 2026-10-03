@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/1280px-patrick_henry_bruce_stilleben.jpg
 
 .. figure:: /_static/images/uploads/2020/12/1280px-patrick_henry_bruce_stilleben.jpg
-	:alt: Ο πίνακας *Νεκρή φύση* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+	:alt: Ο πίνακας *Νεκρή φύση* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεκρή φύση* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+	Ο πίνακας *Νεκρή φύση* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\*.* 
 
 
 Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/14kfHnQq5YAADfmIEmD3CZ1KwdpPXIiYB/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

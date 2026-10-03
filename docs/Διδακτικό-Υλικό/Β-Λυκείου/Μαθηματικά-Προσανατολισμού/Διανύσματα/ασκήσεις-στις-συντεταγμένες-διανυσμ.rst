@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/09/jan_bruegel_i_-_bouquet_of_flowers_in_a_ceramic_vase.jpg
 
 .. figure:: /_static/images/uploads/2018/09/jan_bruegel_i_-_bouquet_of_flowers_in_a_ceramic_vase.jpg
-	:alt: *το* *Μπουκέτο* του `Jan Brueghel του πρεσβύτερου.  <https://en.wikipedia.org/wiki/Jan_Brueghel_the_Elder>`__ 
+	:alt: *το**Μπουκέτο* του `Jan Brueghel του πρεσβύτερου.  <https://en.wikipedia.org/wiki/Jan_Brueghel_the_Elder>`__ 
 	:align: center
 
-	*το* *Μπουκέτο* του `Jan Brueghel του πρεσβύτερου.  <https://en.wikipedia.org/wiki/Jan_Brueghel_the_Elder>`__ 
+	*το**Μπουκέτο* του `Jan Brueghel του πρεσβύτερου.  <https://en.wikipedia.org/wiki/Jan_Brueghel_the_Elder>`__ 
 
 
 Σε αυτό το φυλλάδιο περιέχονται ασκήσεις σχετικές με την έννοια της συντεταγμένης. Πέρα από το χειρισμό των βασικών πράξεων μεταξύ διανυσμάτων, σκοπός κάποιων ασκήσεων είναι να φανεί η χρησιμότητά τους και το πώς η αναλυτική γεωμετρία, εν μέρει, μας «λύνει τα χέρια» σε πολλά προβλήματα της Ευκλείδειας γεωμετρίας. Επίσης, η τελευταία άσκηση, στοχεύοντας σε μαθητές που έχουν αφομοιώσει την έννοια των συνήθων ορθοκανονικών συστημάτων, προσπαθεί να δώσει την γενικότερη και πιο αφηρημένη εικόνα της έννοιας των συντεταγμένων.

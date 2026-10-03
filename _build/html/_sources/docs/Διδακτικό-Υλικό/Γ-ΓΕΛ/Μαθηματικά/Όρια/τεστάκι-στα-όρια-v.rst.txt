@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/10/456px-conversion_on_the_way_to_damascus-caravaggio_c.1600-1.jpg
 
 .. figure:: /_static/images/uploads/2019/10/456px-conversion_on_the_way_to_damascus-caravaggio_c.1600-1.jpg
-	:alt: Ο πίνακας *Μεταμόρφωση στον δρόμο προς τη Δαμασκό* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	:alt: Ο πίνακας *Μεταμόρφωση στον δρόμο προς τη Δαμασκό* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Μεταμόρφωση στον δρόμο προς τη Δαμασκό* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	Ο πίνακας *Μεταμόρφωση στον δρόμο προς τη Δαμασκό* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\*.* 
 
 
 Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/15-hzKHwaLwau91p_8bC5LVQj1JXdKtsQ/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

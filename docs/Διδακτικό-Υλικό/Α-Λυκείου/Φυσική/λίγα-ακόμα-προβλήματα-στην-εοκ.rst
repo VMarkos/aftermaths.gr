@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/10/1280px-lautrec_in_bed_1893.jpg
 
 .. figure:: /_static/images/uploads/2018/10/1280px-lautrec_in_bed_1893.jpg
-	:alt: Ο πίνακας *Στο κρεββάτι* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+	:alt: Ο πίνακας *Στο κρεββάτι* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Στο κρεββάτι* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\ *.* 
+	Ο πίνακας *Στο κρεββάτι* του `Henri de Toulouse-Lautrec  <https://en.wikipedia.org/wiki/Henri_de_Toulouse-Lautrec>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται λίγα ακόμα, πιο γενικά, επαναληπτικού χαρακτήρα που δείχνουν κάποιες από τις εφαρμογές της ΕΟΚ σε πιο ενδιαφέροντα πλαίσια από αυτό της καταδίωξης ενός παραβάτη του Κ.Ο.Κ..

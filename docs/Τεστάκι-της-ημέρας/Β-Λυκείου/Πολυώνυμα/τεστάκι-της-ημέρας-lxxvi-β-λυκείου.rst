@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/03/pierre-auguste_renoir_090.jpg
 
 .. figure:: /_static/images/uploads/2021/03/pierre-auguste_renoir_090.jpg
-	:alt: Ο πίνακας *Port-Neuf* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Port-Neuf* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Port-Neuf* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Port-Neuf* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Ένα τεστάκι στις πολυωνυμικές ανισώσεις στα πλαίσια της ύλης της άλγεβρας Βʹ Λυκείου και ΕΠΑΛ.

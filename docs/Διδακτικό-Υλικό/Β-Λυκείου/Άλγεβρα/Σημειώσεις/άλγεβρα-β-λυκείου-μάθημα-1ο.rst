@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/09/1280px-camille_pissarro_two_young_peasant_women_the_metropolitan_museum_of_art.jpg
 
 .. figure:: /_static/images/uploads/2021/09/1280px-camille_pissarro_two_young_peasant_women_the_metropolitan_museum_of_art.jpg
-	:alt: Ο πίνακας *Δύο νεαρές αγρότισσες* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:alt: Ο πίνακας *Δύο νεαρές αγρότισσες* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Δύο νεαρές αγρότισσες* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Δύο νεαρές αγρότισσες* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 
 
 Λίγες διαφάνειες στην άλγεβρα της Βʹ Λυκείου που καλύπτουν την ύλη των γραμμικών 2x2 συστημάτων - διάφοροι τρόποι επίλυσης, ορίζουσες και παραμετρικά συστήματα.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/03/393px-allisvanity.jpg
 
 .. figure:: /_static/images/uploads/2019/03/393px-allisvanity.jpg
-	:alt: Ο πίνακας *Τα πάντα* *ματαιότης* του `Charles Allan Gilbert  <https://en.wikipedia.org/wiki/Charles_Allan_Gilbert>`__\ *.* 
+	:alt: Ο πίνακας *Τα πάντα**ματαιότης* του `Charles Allan Gilbert  <https://en.wikipedia.org/wiki/Charles_Allan_Gilbert>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Τα πάντα* *ματαιότης* του `Charles Allan Gilbert  <https://en.wikipedia.org/wiki/Charles_Allan_Gilbert>`__\ *.* 
+	Ο πίνακας *Τα πάντα**ματαιότης* του `Charles Allan Gilbert  <https://en.wikipedia.org/wiki/Charles_Allan_Gilbert>`__\*.* 
 
 
 Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/1UFQW-66zeOAGsd6UeQtUi-897gB9gn_8/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

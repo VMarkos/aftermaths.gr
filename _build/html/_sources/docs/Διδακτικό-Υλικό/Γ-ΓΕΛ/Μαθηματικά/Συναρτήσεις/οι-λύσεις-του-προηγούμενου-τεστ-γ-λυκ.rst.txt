@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/06/matisse_the_study_of_moreau.jpg
 
 .. figure:: /_static/images/uploads/2019/06/matisse_the_study_of_moreau.jpg
-	:alt: Ο πίνακας *Το στούντιο του Gustave Moreau* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:alt: Ο πίνακας *Το στούντιο του Gustave Moreau* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το στούντιο του Gustave Moreau* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Το στούντιο του Gustave Moreau* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 
 
 Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1R6HKzn3uY-Yqp1n9aOnfIX8I58dcrgwx/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

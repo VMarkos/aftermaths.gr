@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/1280px-1912_macke_walterchens_spielsachen_anagoria.jpg
 
 .. figure:: /_static/images/uploads/2020/11/1280px-1912_macke_walterchens_spielsachen_anagoria.jpg
-	:alt: Ο πίνακας *Τα παιχνίδια του μικρού Walter* του `August Macke  <https://drive.google.com/file/d/1J76nCqZJ5oPLdHtMQE03kcpjnjlWwGbV/view?usp=sharing>`__\ *.* 
+	:alt: Ο πίνακας *Τα παιχνίδια του μικρού Walter* του `August Macke  <https://drive.google.com/file/d/1J76nCqZJ5oPLdHtMQE03kcpjnjlWwGbV/view?usp=sharing>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Τα παιχνίδια του μικρού Walter* του `August Macke  <https://drive.google.com/file/d/1J76nCqZJ5oPLdHtMQE03kcpjnjlWwGbV/view?usp=sharing>`__\ *.* 
+	Ο πίνακας *Τα παιχνίδια του μικρού Walter* του `August Macke  <https://drive.google.com/file/d/1J76nCqZJ5oPLdHtMQE03kcpjnjlWwGbV/view?usp=sharing>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Συναρτήσεις/τεστάκι-της-ημέρας-xxviii-β-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1J76nCqZJ5oPLdHtMQE03kcpjnjlWwGbV/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

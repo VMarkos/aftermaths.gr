@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/04/pierre_auguste_renoir_-_head_of_a_young_woman_-_61.15_-_minneapolis_institute_of_arts.jpg
 
 .. figure:: /_static/images/uploads/2021/04/pierre_auguste_renoir_-_head_of_a_young_woman_-_61.15_-_minneapolis_institute_of_arts.jpg
-	:alt: Ο πίνακας *Κεφάλι νεαρής γυναίκας* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Κεφάλι νεαρής γυναίκας* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Κεφάλι νεαρής γυναίκας* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Κεφάλι νεαρής γυναίκας* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου επαναληπτικού τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Συνέχεια/τεστάκι-της-ημέρας-lxxxv-γ-λυκείου>` στα όρια στο άπειρο και τις συνεχείς συναρτήσεις στα Μαθηματικά Προσανατολισμού της Γʹ Λυκείου μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1H0PKVEF_gZOyqIfAjMDC79JD3Cm7BaCo/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

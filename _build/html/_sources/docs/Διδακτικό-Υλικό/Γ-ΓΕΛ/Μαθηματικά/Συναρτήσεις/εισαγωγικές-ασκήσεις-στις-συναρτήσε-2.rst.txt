@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/06/453px-reading_henri_matisse.jpg
 
 .. figure:: /_static/images/uploads/2019/06/453px-reading_henri_matisse.jpg
-	:alt: Ο πίνακας *Γυναίκα που* *διαβάζει* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:alt: Ο πίνακας *Γυναίκα που**διαβάζει* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Γυναίκα που* *διαβάζει* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Γυναίκα που**διαβάζει* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1lci8ZQx4S8vsvyZp5ZYm6kO_6_KG-KcK/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/04/red_vineyards.jpg
 
 .. figure:: /_static/images/uploads/2019/04/red_vineyards.jpg
-	:alt: Ο πίνακας *Ο κόκκινος αμπελώνας* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	:alt: Ο πίνακας *Ο κόκκινος αμπελώνας* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο κόκκινος αμπελώνας* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\ *.* 
+	Ο πίνακας *Ο κόκκινος αμπελώνας* του `Vincent van Gogh  <https://en.wikipedia.org/wiki/Vincent_van_Gogh>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1XO-Nfic1VFOWP_hBC5fPE4CLKOdS0JWd/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

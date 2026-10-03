@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/09/wassily_kandinsky_1911_reiter_lyrishes_oil_on_canvas_94_x_130_cm_museum_boijmans_van_beuningen.jpg
 
 .. figure:: /_static/images/uploads/2019/09/wassily_kandinsky_1911_reiter_lyrishes_oil_on_canvas_94_x_130_cm_museum_boijmans_van_beuningen.jpg
-	:alt: Ο πίνακας *Ο καβαλάρης* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *Ο καβαλάρης* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο καβαλάρης* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Ο καβαλάρης* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1WJWBvEl1LQ8SkhCmbvMUYd4el_mZBGY1/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

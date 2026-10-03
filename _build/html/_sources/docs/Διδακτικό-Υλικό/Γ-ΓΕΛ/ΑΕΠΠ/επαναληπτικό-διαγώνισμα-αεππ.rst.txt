@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/11/antoine_vollon_-_violets_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2018/11/antoine_vollon_-_violets_-_google_art_project.jpg
-	:alt: Ο πίνακας *Βιολέττες* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	:alt: Ο πίνακας *Βιολέττες* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Βιολέττες* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	Ο πίνακας *Βιολέττες* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 
 
 Ένα επαναληπτικό διαγώνισμα στις δομές επιλογής και επανάληψης (χωρίς ΓΙΑ...ΑΠΟ...ΜΕΧΡΙ...(ΜΕ_ΒΗΜΑ...).

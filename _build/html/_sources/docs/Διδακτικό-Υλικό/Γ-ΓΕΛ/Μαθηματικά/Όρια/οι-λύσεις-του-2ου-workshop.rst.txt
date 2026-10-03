@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/11/729px-giovanni_antonio_canal_il_canaletto_-_san_giacomo_di_rialto_-_wga03860.jpg
 
 .. figure:: /_static/images/uploads/2019/11/729px-giovanni_antonio_canal_il_canaletto_-_san_giacomo_di_rialto_-_wga03860.jpg
-	:alt: Ο πίνακας *San Giacomo di Rialto* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	:alt: Ο πίνακας *San Giacomo di Rialto* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 	:align: center
 
-	Ο πίνακας *San Giacomo di Rialto* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	Ο πίνακας *San Giacomo di Rialto* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 
 
 Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1z1QuftdCTt5I42glLVD6lBp9feIAERYD/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

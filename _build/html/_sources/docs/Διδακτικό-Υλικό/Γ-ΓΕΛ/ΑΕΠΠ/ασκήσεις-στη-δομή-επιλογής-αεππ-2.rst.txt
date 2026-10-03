@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/06/matisse-open-window.jpg
 
 .. figure:: /_static/images/uploads/2019/06/matisse-open-window.jpg
-	:alt: Ο πίνακας *Ανοικτό παράθυρο στην* *Collioure* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:alt: Ο πίνακας *Ανοικτό παράθυρο στην**Collioure* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ανοικτό παράθυρο στην* *Collioure* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Ανοικτό παράθυρο στην**Collioure* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/13yz8CTw37cXwM4kCrb9t4yIN_BVipxGS/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

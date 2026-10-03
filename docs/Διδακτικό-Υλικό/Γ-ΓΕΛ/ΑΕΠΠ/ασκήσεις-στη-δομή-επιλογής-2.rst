@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/09/787px-paul_fischer_-_knippelsbro_da_jeg_var_dreng_-_1924.png
 
 .. figure:: /_static/images/uploads/2020/09/787px-paul_fischer_-_knippelsbro_da_jeg_var_dreng_-_1924.png
-	:alt: Ο πίνακας *Σκηνή από το Knippelsbro* του `Paul Gustav Fischer  <https://en.wikipedia.org/wiki/Paul_Gustav_Fischer>`__\ *.* 
+	:alt: Ο πίνακας *Σκηνή από το Knippelsbro* του `Paul Gustav Fischer  <https://en.wikipedia.org/wiki/Paul_Gustav_Fischer>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Σκηνή από το Knippelsbro* του `Paul Gustav Fischer  <https://en.wikipedia.org/wiki/Paul_Gustav_Fischer>`__\ *.* 
+	Ο πίνακας *Σκηνή από το Knippelsbro* του `Paul Gustav Fischer  <https://en.wikipedia.org/wiki/Paul_Gustav_Fischer>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1aWvcK_TOXg3P85Tg5IlPExSIr2GAyaU9/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

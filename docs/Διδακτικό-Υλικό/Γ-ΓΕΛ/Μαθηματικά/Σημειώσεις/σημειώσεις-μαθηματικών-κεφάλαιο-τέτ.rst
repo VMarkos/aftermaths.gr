@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/01/the-times-of-day-the-evening-caspar-david-friedrich.jpg
 
 .. figure:: /_static/images/uploads/2019/01/the-times-of-day-the-evening-caspar-david-friedrich.jpg
-	:alt: Ο πίνακας *Οι ώρες της ημέρας - Ο πίνακας του απογεύματος* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Οι ώρες της ημέρας - Ο πίνακας του απογεύματος* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Οι ώρες της ημέρας - Ο πίνακας του απογεύματος* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Οι ώρες της ημέρας - Ο πίνακας του απογεύματος* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Σε συνέχεια των προηγούμενων τριών κεφαλαίων (:doc:`πρώτο   /docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/σημειώσεις-μαθηματικών-κεφάλαιο-πρώ`, :doc:`δεύτερο  </docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/σημειώσεις-μαθηματικών-κεφάλαιο-δεύ>` και :doc:`τρίτο  </docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Σημειώσεις/σημειώσεις-μαθηματικών-κεφάλαιο-τρί>`), ολοκληρώθηκαν οι σημειώσεις που αφορούν την παράγωγο, στα πλαίσια της ύλης των μαθηματικών προσανατολισμού της Γʹ Λυκείου (χωρίς ασκήσεις, αυτές θα ανέβουν σε ξεχωριστά φυλλάδια).

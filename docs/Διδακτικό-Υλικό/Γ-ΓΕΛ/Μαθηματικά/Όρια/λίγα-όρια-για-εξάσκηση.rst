@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/10/vassilly_kandinsky_1912_-_landscape_with_two_poplars.jpg
 
 .. figure:: /_static/images/uploads/2018/10/vassilly_kandinsky_1912_-_landscape_with_two_poplars.jpg
-	:alt: Ο πίνακας *Τοπίο με δύο* λεύκες του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *Τοπίο με δύο* λεύκες του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Τοπίο με δύο* λεύκες του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Τοπίο με δύο* λεύκες του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται λίγα όρια που εξετάζουν τις πιο βασικές τεχνικές (ή την εφευρετικότητα των μαθητών) υπολογισμού ορίων.

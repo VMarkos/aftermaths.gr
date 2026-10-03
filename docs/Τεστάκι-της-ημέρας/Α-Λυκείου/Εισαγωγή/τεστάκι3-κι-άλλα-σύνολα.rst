@@ -11,17 +11,17 @@
 	:attachments: _static/images/uploads/2022/10/g._caillebotte_-_lyerres_pluie.jpg
 
 .. figure:: /_static/images/uploads/2022/10/g._caillebotte_-_lyerres_pluie.jpg
-	:alt: Ο πίνακας *Ο ποταμός Γιερ* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__\ *.* 
+	:alt: Ο πίνακας *Ο ποταμός Γιερ* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο ποταμός Γιερ* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__\ *.* 
+	Ο πίνακας *Ο ποταμός Γιερ* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__\*.* 
 
 
 Ένα ακόμα τεστάκι πάνω στα σύνολα και... λίγο παρακάτω - Άλγεβρα, Αʹ Γενικού Λυκείου και ΕΠΑΛ.
 
 Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1_C37n344YOLdLZ4dXet1AUzNQONKqoV5/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
 
-*Το προηγούμενο τεστάκι μπορείτε να το βρείτε*\ :doc:`εδώ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Εισαγωγή/τεστάκι2-σύνολα>`\ *, ενώ σχετικές σημειώσεις μπορείτε να βρείτε*\ :doc:`εδώ  </docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-α-λυκείου-κεφάλαιο-1ο-σημειώσ>`\ *.*
+*Το προηγούμενο τεστάκι μπορείτε να το βρείτε*\ :doc:`εδώ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Εισαγωγή/τεστάκι2-σύνολα>`\*, ενώ σχετικές σημειώσεις μπορείτε να βρείτε*\ :doc:`εδώ  </docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/άλγεβρα-α-λυκείου-κεφάλαιο-1ο-σημειώσ>`\*.*
 
 
 

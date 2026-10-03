@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/repin_slavic_composers.jpg
 
 .. figure:: /_static/images/uploads/2021/01/repin_slavic_composers.jpg
-	:alt: Ο πίνακας *Σλάβοι συνθεέτες* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:alt: Ο πίνακας *Σλάβοι συνθεέτες* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Σλάβοι συνθεέτες* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	Ο πίνακας *Σλάβοι συνθεέτες* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Τριγωνομετρία/τεστάκι-της-ημέρας-xlv-β-λυκείου>` στις τριγωνομετρικές εξισώσεις στα πλαίσια της ύλης της Βʹ λυκείου.

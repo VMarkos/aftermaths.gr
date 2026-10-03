@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/patrick_henry_bruce_-_painting.jpg
 
 .. figure:: /_static/images/uploads/2020/12/patrick_henry_bruce_-_painting.jpg
-	:alt: Ο πίνακας *Ζωγραφιά* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+	:alt: Ο πίνακας *Ζωγραφιά* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ζωγραφιά* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\ *.* 
+	Ο πίνακας *Ζωγραφιά* του `Patrick Henry Bruce  <https://en.wikipedia.org/wiki/Patrick_Henry_Bruce>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-xxxix-γ-επαλ>` μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1xLSTyiQbQyXplLE4-vwL_Hljqf30U3yD/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

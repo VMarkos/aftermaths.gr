@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/728px-ilya_repin_-_sadko_-_google_art_project_levels_adjustment.jpg
 
 .. figure:: /_static/images/uploads/2021/01/728px-ilya_repin_-_sadko_-_google_art_project_levels_adjustment.jpg
-	:alt: Ο πίνακας *Sadko* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:alt: Ο πίνακας *Sadko* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Sadko* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	Ο πίνακας *Sadko* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 
 
 Ένα τεστάκι πάνω στα όρια στο άπειρο και σε απλές θεωρητικές ασκήσεις - μαθηματικά προσανατολισμού, Γʹ Λυκείου.

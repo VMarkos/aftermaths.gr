@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/09/caspar_david_friedrich_-_felsenriff_am_meeresstrand_1824.jpg
 
 .. figure:: /_static/images/uploads/2019/09/caspar_david_friedrich_-_felsenriff_am_meeresstrand_1824.jpg
-	:alt: Ο πίνακας *Βραχώδης ύφαλος στην ακτή* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Βραχώδης ύφαλος στην ακτή* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Βραχώδης ύφαλος στην ακτή* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Βραχώδης ύφαλος στην ακτή* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1RRiKT5iMkT2Vr9Oot8_hV4jpnEP2FdwD/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

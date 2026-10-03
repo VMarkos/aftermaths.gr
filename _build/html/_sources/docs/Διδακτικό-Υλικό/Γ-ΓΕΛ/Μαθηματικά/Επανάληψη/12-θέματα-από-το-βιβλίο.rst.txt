@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/03/pierre-auguste_renoir_-_luncheon_of_the_boating_party_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2021/03/pierre-auguste_renoir_-_luncheon_of_the_boating_party_-_google_art_project.jpg
-	:alt: Ο πίνακας *Γεύμα σε πάρτυ πάνω σε βάρκα* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Γεύμα σε πάρτυ πάνω σε βάρκα* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Γεύμα σε πάρτυ πάνω σε βάρκα* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Γεύμα σε πάρτυ πάνω σε βάρκα* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Το παρόν αποτελεί μία συλλογή από 12 θέματα εμπνευσμένα από το σχολικό βιβλίο των μαθηματικών προσανατολισμού της Γʹ Λυκείου. Τα τελευταία χρόνια, τα θέματα έχουν μία - ευχάριστη, θα έλεγα - τάση να κινούνται πολύ κοντά σε ασκήσεις του σχολικού βιβλίου, γεγονός που έδωσε και την αφορμή για τη δημιουργία αυτής της μικρής συλλογής. Αν και κάποια από τα θέματα ξεφεύγουν λίγο από την ύλη του σωτήριου κορωνοέτους 2021 μ.Χ., τα περισσότερα από τα παραπάνω είναι άμεσα σχετικά με την φετινή εξεταστέα ύλη.

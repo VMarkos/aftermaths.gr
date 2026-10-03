@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/03/746px-auguste_renoir_-_a_girl_with_a_watering_can_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2021/03/746px-auguste_renoir_-_a_girl_with_a_watering_can_-_google_art_project.jpg
-	:alt: Ο πίνακας *Το κορίτσι με το ποτιστήρι* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Το κορίτσι με το ποτιστήρι* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το κορίτσι με το ποτιστήρι* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Το κορίτσι με το ποτιστήρι* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Πρόοδοι/τεστάκι-της-ημέρας-lxxv-α-λυκείου>` στις αριθμητικές προόδους και τα αθροίσματα όρων αριθμητικών προόδων - άλγεβρα, Αʹ Λυκείου - μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/16tjcD6BuQUYheGHLXBS6EfjSnvW3YJ5t/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

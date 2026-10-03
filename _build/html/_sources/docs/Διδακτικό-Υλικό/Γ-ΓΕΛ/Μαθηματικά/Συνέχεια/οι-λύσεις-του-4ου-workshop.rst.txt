@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/11/1385082667-canaletto-venice-piazza-san-marco.jpeg.jpeg
 
 .. figure:: /_static/images/uploads/2019/11/1385082667-canaletto-venice-piazza-san-marco.jpeg.jpeg
-	:alt: Ο πίνακας *Η πλατεία του Αγίου Μάρκου κοιτάζοντας ανατολικά από τη βορειοδυτική γωνία* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	:alt: Ο πίνακας *Η πλατεία του Αγίου Μάρκου κοιτάζοντας ανατολικά από τη βορειοδυτική γωνία* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η πλατεία του Αγίου Μάρκου κοιτάζοντας ανατολικά από τη βορειοδυτική γωνία* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	Ο πίνακας *Η πλατεία του Αγίου Μάρκου κοιτάζοντας ανατολικά από τη βορειοδυτική γωνία* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 
 
 Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1pjejnvUe-U57U5SwmKvxhmKKXBL2cF3B/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

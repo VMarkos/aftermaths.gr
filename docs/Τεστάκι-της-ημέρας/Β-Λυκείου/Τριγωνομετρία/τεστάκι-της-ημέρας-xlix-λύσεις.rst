@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/d098d0bbd18cd18f_d0a0d0b5d0bfd0b8d0bd_-_d09fd0bed180d182d180d0b5d182_d0b3d180d0b0d184d0b8d0bdd0b8_d09dd0b0d182d0b0d0bbd0b8d18f_d09f._d093d0bed0bbd0bed0b2d0b8d0bdd0bed0b9.jpg
 
 .. figure:: /_static/images/uploads/2021/01/d098d0bbd18cd18f_d0a0d0b5d0bfd0b8d0bd_-_d09fd0bed180d182d180d0b5d182_d0b3d180d0b0d184d0b8d0bdd0b8_d09dd0b0d182d0b0d0bbd0b8d18f_d09f._d093d0bed0bbd0bed0b2d0b8d0bdd0bed0b9.jpg
-	:alt: Το *Πορτραίτο της Κοντέσσας N. P. Golovina* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	:alt: Το *Πορτραίτο της Κοντέσσας N. P. Golovina* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 	:align: center
 
-	Το *Πορτραίτο της Κοντέσσας N. P. Golovina* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\ *.* 
+	Το *Πορτραίτο της Κοντέσσας N. P. Golovina* του `Ilya Repin  <https://en.wikipedia.org/wiki/Ilya_Repin>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Τριγωνομετρία/τεστάκι-της-ημέρας-xlix-β-λυκείου>` στον υπολογισμό βασικών τριγωνομετρικών αριθμών - Βʹ λυκείου/ΕΠΑΛ, άλγεβρα - μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1Vle9oEJg9xlp0XL8MYUAwRG48mwq1cCK/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/12/de93a359-5ab0-446f-882b-349e8d4a230e.jpg
 
 .. figure:: /_static/images/uploads/2018/12/de93a359-5ab0-446f-882b-349e8d4a230e.jpg
-	:alt: Ο πίνακας *10 Origin *\ του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *10 Origin*\ του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
 	:align: center
 
-	Ο πίνακας *10 Origin *\ του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *10 Origin*\ του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
 
 
 Λίγες εξισώσεις με απόλυτες τιμές για τα Χριστούγεννα.

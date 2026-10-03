@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/macdonaldwright_airplanesynchyelorng.jpg
 
 .. figure:: /_static/images/uploads/2020/12/macdonaldwright_airplanesynchyelorng.jpg
-	:alt: Ο πίνακας *Αεροπλάνο σε συγχρωμία κίντρινου και πορτοκαλί* του `Stanton MacDonald-Wright  <https://en.wikipedia.org/wiki/Stanton_Macdonald-Wright>`__\ *.* 
+	:alt: Ο πίνακας *Αεροπλάνο σε συγχρωμία κίντρινου και πορτοκαλί* του `Stanton MacDonald-Wright  <https://en.wikipedia.org/wiki/Stanton_Macdonald-Wright>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Αεροπλάνο σε συγχρωμία κίντρινου και πορτοκαλί* του `Stanton MacDonald-Wright  <https://en.wikipedia.org/wiki/Stanton_Macdonald-Wright>`__\ *.* 
+	Ο πίνακας *Αεροπλάνο σε συγχρωμία κίντρινου και πορτοκαλί* του `Stanton MacDonald-Wright  <https://en.wikipedia.org/wiki/Stanton_Macdonald-Wright>`__\*.* 
 
 
 Το τεστ μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/19q-R0mjrvn0BE6GbqTDh_nXSll9sL0M2/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

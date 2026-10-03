@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/04/gugg_still_life_flowers.jpg
 
 .. figure:: /_static/images/uploads/2021/04/gugg_still_life_flowers.jpg
-	:alt: Ο πίνακας *Νεκρή φύση: Λουλούδια* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Νεκρή φύση: Λουλούδια* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεκρή φύση: Λουλούδια* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Νεκρή φύση: Λουλούδια* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Διαφάνειες στην ύλης της άλγεβρας της Βʹ Λυκείου - Γενικού και, εν μέρει και ΕΠΑΛ - που καλύπτουν το κεφάλαιο των πολυωνύμων καθώς και μία εισαγωγή στις εκθετικές συναρτήσεις.

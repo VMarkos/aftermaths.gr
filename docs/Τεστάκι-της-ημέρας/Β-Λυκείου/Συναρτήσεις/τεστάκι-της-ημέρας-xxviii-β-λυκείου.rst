@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/1280px-august_macke_014.jpg
 
 .. figure:: /_static/images/uploads/2020/11/1280px-august_macke_014.jpg
-	:alt: Ο πίνακας *Χωράφια με λαχανικά* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	:alt: Ο πίνακας *Χωράφια με λαχανικά* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Χωράφια με λαχανικά* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	Ο πίνακας *Χωράφια με λαχανικά* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 
 
 Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/17qSL_NUSZMC7SdXJARNVa9ZvvlCvWcM8/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

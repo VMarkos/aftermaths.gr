@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/02/800px-rembrandt_-_the_blinding_of_samson_-_wga19097.jpg
 
 .. figure:: /_static/images/uploads/2020/02/800px-rembrandt_-_the_blinding_of_samson_-_wga19097.jpg
-	:alt: Ο πίνακας *Η τύφλωση του Σαμψών* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	:alt: Ο πίνακας *Η τύφλωση του Σαμψών* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η τύφλωση του Σαμψών* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\ *.* 
+	Ο πίνακας *Η τύφλωση του Σαμψών* του `Rembrandt  <https://en.wikipedia.org/wiki/Rembrandt>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1FlA0ITan1K_G3vklNte1hLJKAqpfQ_z-/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

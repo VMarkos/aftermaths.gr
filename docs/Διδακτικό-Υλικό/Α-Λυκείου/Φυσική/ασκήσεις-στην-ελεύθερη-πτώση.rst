@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/11/2014_csk_05298_0030_000antoine_vollon_peaches.jpg
 
 .. figure:: /_static/images/uploads/2018/11/2014_csk_05298_0030_000antoine_vollon_peaches.jpg
-	:alt: Ο πίνακας *Βερύκοκα* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	:alt: Ο πίνακας *Βερύκοκα* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Βερύκοκα* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	Ο πίνακας *Βερύκοκα* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 
 
 Σε αυτό το φυλλάδιο περιέχονται λίγες ασκήσεις στην ελεύθερη πτώση.

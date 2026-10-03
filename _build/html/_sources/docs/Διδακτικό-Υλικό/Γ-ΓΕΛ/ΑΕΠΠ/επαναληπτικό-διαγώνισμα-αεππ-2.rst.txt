@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/05/bathing_women_auguste_renoir_-_nationalmuseum_-_19163.tif_.jpg
 
 .. figure:: /_static/images/uploads/2021/05/bathing_women_auguste_renoir_-_nationalmuseum_-_19163.tif_.jpg
-	:alt: Ο πίνακας *Λουόμενες* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Λουόμενες* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Λουόμενες* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Λουόμενες* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Ένα επαναληπτικό διαγώνισμα εφʹ όλης της κορωνοΰλης του μαθήματος της Ανάπτυξης Εφαρμογών σε Προγραμματιστικό Περιβάλλον (ΑΕΠΠ) στα πλαίσια της προετοιμασίας των πανελληνίων εξετάσεων/

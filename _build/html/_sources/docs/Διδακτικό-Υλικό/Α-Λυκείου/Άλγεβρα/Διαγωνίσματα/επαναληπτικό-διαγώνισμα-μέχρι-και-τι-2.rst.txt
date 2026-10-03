@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/11/800px-canaletto_-_warwick_castle_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2019/11/800px-canaletto_-_warwick_castle_-_google_art_project.jpg
-	:alt: Ο πίνακας *Το κάστρο του Warwick* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	:alt: Ο πίνακας *Το κάστρο του Warwick* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Το κάστρο του Warwick* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	Ο πίνακας *Το κάστρο του Warwick* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1R0Tip7TDyvDO1ibHvezbMPNwCkawMSFh/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

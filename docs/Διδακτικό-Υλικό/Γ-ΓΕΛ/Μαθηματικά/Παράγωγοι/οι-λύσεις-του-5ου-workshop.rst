@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/12/pablo_picasso_1919_sleeping_peasants_gouache_watercolor_and_pencil_on_paper_31.1_x_48.9_cm_museum_of_modern_art_new_york.jpg
 
 .. figure:: /_static/images/uploads/2019/12/pablo_picasso_1919_sleeping_peasants_gouache_watercolor_and_pencil_on_paper_31.1_x_48.9_cm_museum_of_modern_art_new_york.jpg
-	:alt: Ο πίνακας *Αγρότες που κοιμούνται* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	:alt: Ο πίνακας *Αγρότες που κοιμούνται* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Αγρότες που κοιμούνται* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	Ο πίνακας *Αγρότες που κοιμούνται* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\*.* 
 
 
 Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1-nQqatRckJbypfq0wA_ieF_WyHX_dfQE/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

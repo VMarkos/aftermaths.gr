@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/07/study_of_regular_division_of_the_plane_with_reptiles.jpg
 
 .. figure:: /_static/images/uploads/2019/07/study_of_regular_division_of_the_plane_with_reptiles.jpg
-	:alt: Η *Σπουδή στην κάλυψη του επιπέδου με ερπετά* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	:alt: Η *Σπουδή στην κάλυψη του επιπέδου με ερπετά* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\*.* 
 	:align: center
 
-	Η *Σπουδή στην κάλυψη του επιπέδου με ερπετά* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\ *.* 
+	Η *Σπουδή στην κάλυψη του επιπέδου με ερπετά* του `Maurits Cornelis Escher  <https://en.wikipedia.org/wiki/M._C._Escher>`__\*.* 
 
 
 Οι διαφάνειες του 4ου μαθήματος βρίσκονται `εδώ  <https://drive.google.com/file/d/1g-0Q9DaL4TQs2k6IJQ778jchOpZeprAB/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

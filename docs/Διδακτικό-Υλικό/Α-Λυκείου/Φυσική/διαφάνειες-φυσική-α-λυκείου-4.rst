@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/04/pierre-auguste_renoir_-_jeune_fille_au_ruban_bleu.jpg
 
 .. figure:: /_static/images/uploads/2021/04/pierre-auguste_renoir_-_jeune_fille_au_ruban_bleu.jpg
-	:alt: Ο πίνακας *Νεαρή γυναίκα με μπλε περιλαίμιο* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Νεαρή γυναίκα με μπλε περιλαίμιο* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεαρή γυναίκα με μπλε περιλαίμιο* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Νεαρή γυναίκα με μπλε περιλαίμιο* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Διαφάνειες στην ύλη της φυσικής της Αʹ Λυκείου που καλύπτουν μέχρι και το ΘΜΚΕ - με λυμένα παραδείγματα.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/01/caspar_david_friedrich_033.jpg
 
 .. figure:: /_static/images/uploads/2019/01/caspar_david_friedrich_033.jpg
-	:alt: Ο πίνακας *Καταχνιά στα βουνά* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	:alt: Ο πίνακας *Καταχνιά στα βουνά* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Καταχνιά στα βουνά* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\ *.* 
+	Ο πίνακας *Καταχνιά στα βουνά* του `Caspar David Friedrich  <https://en.wikipedia.org/wiki/Caspar_David_Friedrich>`__\*.* 
 
 
 Δύο λυμένα παραδείγματα (ανίσωση με απόλυτες τιμές και ρητή εξίσωση που ανάγεται σε πρωτοβάθμια).

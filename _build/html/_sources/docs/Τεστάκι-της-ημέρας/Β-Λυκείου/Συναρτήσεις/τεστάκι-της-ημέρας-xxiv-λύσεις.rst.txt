@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/robert_delaunay_c.1906_paysage_au_disque_solaire_oil_on_canvas_54_x_46_cm_musee_national_dart_moderne.jpg
 
 .. figure:: /_static/images/uploads/2020/11/robert_delaunay_c.1906_paysage_au_disque_solaire_oil_on_canvas_54_x_46_cm_musee_national_dart_moderne.jpg
-	:alt: Ο πίνακας *Τοπίο με τον ηλιακό δίσκο* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	:alt: Ο πίνακας *Τοπίο με τον ηλιακό δίσκο* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Τοπίο με τον ηλιακό δίσκο* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	Ο πίνακας *Τοπίο με τον ηλιακό δίσκο* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Συναρτήσεις/xxiv>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1xbgh8yX7UjOnuG4SgG_4Xx894EjqrrFw/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

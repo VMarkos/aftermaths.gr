@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/august_macke_-_bernhard_koehler.jpg
 
 .. figure:: /_static/images/uploads/2020/11/august_macke_-_bernhard_koehler.jpg
-	:alt: Το πορτραίτο του *Bernhard Koehler* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	:alt: Το πορτραίτο του *Bernhard Koehler* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 	:align: center
 
-	Το πορτραίτο του *Bernhard Koehler* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\ *.* 
+	Το πορτραίτο του *Bernhard Koehler* του `August Macke  <https://en.wikipedia.org/wiki/August_Macke>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι-της-ημέρας-xxxi-α-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1elV64Gr-4cq2l2ue16fgqljw9t7GWhIA/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

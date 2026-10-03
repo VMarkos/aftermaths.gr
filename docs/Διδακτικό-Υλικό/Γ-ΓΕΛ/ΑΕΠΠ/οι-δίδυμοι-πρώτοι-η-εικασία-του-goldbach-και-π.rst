@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/11/pablo_picasso_1909_femme_assise_sitzende_frau_oil_on_canvas_100_x_80_cm_staatliche_museen_zu_berlin_neue_nationalgalerie.jpg
 
 .. figure:: /_static/images/uploads/2019/11/pablo_picasso_1909_femme_assise_sitzende_frau_oil_on_canvas_100_x_80_cm_staatliche_museen_zu_berlin_neue_nationalgalerie.jpg
-	:alt: Ο πίνακας *Καθιστή Γυναίκα* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	:alt: Ο πίνακας *Καθιστή Γυναίκα* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Καθιστή Γυναίκα* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\ *.* 
+	Ο πίνακας *Καθιστή Γυναίκα* του `Pablo Picasso  <https://en.wikipedia.org/wiki/Pablo_Picasso>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1TAbxJBAFzyWZ4YP62Bb7p3CDz-47lwIp/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

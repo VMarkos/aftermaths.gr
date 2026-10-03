@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/robert_delaunay_1926_tour_eiffel_oil_on_canvas_169_c397_86_cm_musee_dart_moderne_de_la_ville_de_paris.jpg
 
 .. figure:: /_static/images/uploads/2020/11/robert_delaunay_1926_tour_eiffel_oil_on_canvas_169_c397_86_cm_musee_dart_moderne_de_la_ville_de_paris.jpg
-	:alt: Ο πίνακας *Ο πύργος του Άιφελ* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	:alt: Ο πίνακας *Ο πύργος του Άιφελ* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο πύργος του Άιφελ* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\ *.* 
+	Ο πίνακας *Ο πύργος του Άιφελ* του `Robert Delaunay  <https://en.wikipedia.org/wiki/Robert_Delaunay>`__\*.* 
 
 
 Οι λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Απόλυτες-Τιμές/τεστάκι-της-ημέρας-χχιιι-α-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/1wvBRXzXWljTS7dvjw5iY1N69JN7AmPCN/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

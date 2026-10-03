@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/10/797px-canaletto_-_westminster_bridge_with_the_lord_mayors_procession_on_the_thames_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2019/10/797px-canaletto_-_westminster_bridge_with_the_lord_mayors_procession_on_the_thames_-_google_art_project.jpg
-	:alt: Ο πίνακας *Η πρώτη γέφυρα του Westminster* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	:alt: Ο πίνακας *Η πρώτη γέφυρα του Westminster* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η πρώτη γέφυρα του Westminster* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	Ο πίνακας *Η πρώτη γέφυρα του Westminster* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 
 
 Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1zEDXxBLwtCttXitCqLRtynd22r3BX-7p/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

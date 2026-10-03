@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/02/d09fd0bed0bbd0b5d181d0bdd0b8d0ba.jpg
 
 .. figure:: /_static/images/uploads/2021/02/d09fd0bed0bbd0b5d181d0bdd0b8d0ba.jpg
-	:alt: Ο πίνακας *Ξυλοκόπος* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+	:alt: Ο πίνακας *Ξυλοκόπος* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ξυλοκόπος* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+	Ο πίνακας *Ξυλοκόπος* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\*.* 
 
 
 Ένα τεστ στο κεφάλαιο των συναρτήσεων των μαθηματικών της Γʹ ΕΠΑΛ (προετοιμασία για πανελλήνιες) και, ειδικότερα, στην μονοτονία συναρτήσεων και τους πίνακες προσήμου.

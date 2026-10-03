@@ -10,16 +10,16 @@
 	:attachments: _static/images/uploads/2021/09/camille_pissarro_-_boulevard_montmartre_at_night_-_c_1897_-_national_gallery_uk.jpg
 
 .. figure:: /_static/images/uploads/2021/09/camille_pissarro_-_boulevard_montmartre_at_night_-_c_1897_-_national_gallery_uk.jpg
-	:alt: Ο πίνακας *Η Λεωφόρος Μονμάρτης τη νύχτα* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	:alt: Ο πίνακας *Η Λεωφόρος Μονμάρτης τη νύχτα* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η Λεωφόρος Μονμάρτης τη νύχτα* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\ *.* 
+	Ο πίνακας *Η Λεωφόρος Μονμάρτης τη νύχτα* του `Camille Pissarro  <https://en.wikipedia.org/wiki/Camille_Pissarro>`__\*.* 
 
 .. highlight:: latex
 
 Άλλη μία εβδομάδα πέρασε, άλλα λίγα σχήματα προστέθηκαν στην πλάτη μας. Ας περάσουμε να τα δούμε λίγο αναλυτικότερα.
 
-*Για τα σχήματα της προηγούμενης εβδομάδας, όπου και παρουσιάσαμε την πρώτη μας βιβλιοθήκη του :doc:``tikz`` δείτε*\ :doc:`εδώ  </docs/Tikz/τα-σχήματα-της-εβδομάδας-5>`\ *, ενώ όλες τις αναρτήσεις της σειράς μπορείτε να τις βρείτε*\ :doc:`εδώ  </docs/Tikz/index>`\ *.*
+*Για τα σχήματα της προηγούμενης εβδομάδας, όπου και παρουσιάσαμε την πρώτη μας βιβλιοθήκη του :doc:``tikz`` δείτε*\ :doc:`εδώ  </docs/Tikz/τα-σχήματα-της-εβδομάδας-5>`\*, ενώ όλες τις αναρτήσεις της σειράς μπορείτε να τις βρείτε*\ :doc:`εδώ  </docs/Tikz/index>`\*.*
 
 Άλλη μία γραφική παράσταση...
 -----------------------------

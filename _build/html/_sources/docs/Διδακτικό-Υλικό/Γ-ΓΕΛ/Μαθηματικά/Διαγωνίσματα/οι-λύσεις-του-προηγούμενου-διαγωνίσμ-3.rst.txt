@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/03/antoine-vollon-nature-morte-au-chaudron.jpg
 
 .. figure:: /_static/images/uploads/2019/03/antoine-vollon-nature-morte-au-chaudron.jpg
-	:alt: Ο πίνακας *Νεκρή φύση με καζάνι* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	:alt: Ο πίνακας *Νεκρή φύση με καζάνι* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεκρή φύση με καζάνι* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\ *.* 
+	Ο πίνακας *Νεκρή φύση με καζάνι* του `Antoine Vollon  <https://en.wikipedia.org/wiki/Antoine_Vollon>`__\*.* 
 
 
 Οι λύσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1Zls7gpWoEZexHS6ncpxFkzhfBRxdeOrH/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/10/800px-vassily_kandinsky_1913_-_composition_6.jpg
 
 .. figure:: /_static/images/uploads/2019/10/800px-vassily_kandinsky_1913_-_composition_6.jpg
-	:alt: Ο πίνακας *Σύνθεση 6* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	:alt: Ο πίνακας *Σύνθεση 6* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Σύνθεση 6* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\ *.* 
+	Ο πίνακας *Σύνθεση 6* του `Wassily Kandinsky  <https://en.wikipedia.org/wiki/Wassily_Kandinsky>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1s0XaFcsxLabgdHO2fvZ_XebPS0IS5EW1/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

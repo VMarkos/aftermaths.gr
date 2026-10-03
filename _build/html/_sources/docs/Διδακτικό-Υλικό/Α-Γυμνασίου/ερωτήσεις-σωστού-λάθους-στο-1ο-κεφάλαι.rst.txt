@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/10/800px-view_of_the_entrance_to_the_arsenal_by_canaletto_1732.jpg
 
 .. figure:: /_static/images/uploads/2019/10/800px-view_of_the_entrance_to_the_arsenal_by_canaletto_1732.jpg
-	:alt: Ο πίνακας *Άποψη της εισόδου του Οπλοποιείου της Βενετίας* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	:alt: Ο πίνακας *Άποψη της εισόδου του Οπλοποιείου της Βενετίας* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Άποψη της εισόδου του Οπλοποιείου της Βενετίας* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\ *.* 
+	Ο πίνακας *Άποψη της εισόδου του Οπλοποιείου της Βενετίας* του `Canaletto  <https://en.wikipedia.org/wiki/Canaletto>`__\*.* 
 
 
 Οι ερωτήσεις βρίσκονται `εδώ  <https://drive.google.com/file/d/1p9p2wAEXNJhDD4MRmpeZ1uf3QQYcb_pi/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

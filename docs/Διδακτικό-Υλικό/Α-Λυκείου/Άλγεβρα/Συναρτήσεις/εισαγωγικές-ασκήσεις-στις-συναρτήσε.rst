@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/04/723px-caravaggiosalomemadrid.jpg
 
 .. figure:: /_static/images/uploads/2019/04/723px-caravaggiosalomemadrid.jpg
-	:alt: Ο πίνακας *Η Σαλώμη με το κεφάλι του Ιωάννη του Βαπτιστή* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	:alt: Ο πίνακας *Η Σαλώμη με το κεφάλι του Ιωάννη του Βαπτιστή* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η Σαλώμη με το κεφάλι του Ιωάννη του Βαπτιστή* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\ *.* 
+	Ο πίνακας *Η Σαλώμη με το κεφάλι του Ιωάννη του Βαπτιστή* του `Caravaggio  <https://en.wikipedia.org/wiki/Caravaggio>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1z7UiQngca6BBI9S6ti2T5EJgJQfhDjAp/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

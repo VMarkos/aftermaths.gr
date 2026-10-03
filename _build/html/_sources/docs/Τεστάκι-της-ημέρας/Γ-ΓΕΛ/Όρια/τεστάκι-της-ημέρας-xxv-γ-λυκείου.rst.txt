@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/11/wla_brooklynmuseum_view_of_brooklyn_bridge.jpg
 
 .. figure:: /_static/images/uploads/2020/11/wla_brooklynmuseum_view_of_brooklyn_bridge.jpg
-	:alt: Ο πίνακας *Μια άποψη της γέφυρας του Μπρούκλιν* του `Samuel Halpert  <https://en.wikipedia.org/wiki/Samuel_Halpert>`__\ *.* 
+	:alt: Ο πίνακας *Μια άποψη της γέφυρας του Μπρούκλιν* του `Samuel Halpert  <https://en.wikipedia.org/wiki/Samuel_Halpert>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Μια άποψη της γέφυρας του Μπρούκλιν* του `Samuel Halpert  <https://en.wikipedia.org/wiki/Samuel_Halpert>`__\ *.* 
+	Ο πίνακας *Μια άποψη της γέφυρας του Μπρούκλιν* του `Samuel Halpert  <https://en.wikipedia.org/wiki/Samuel_Halpert>`__\*.* 
 
 
 Το τεστ βρίσκεται `εδώ  <https://drive.google.com/file/d/1LLONyRLVhmooTH9Kbc1nj4cYIMqOPkh_/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

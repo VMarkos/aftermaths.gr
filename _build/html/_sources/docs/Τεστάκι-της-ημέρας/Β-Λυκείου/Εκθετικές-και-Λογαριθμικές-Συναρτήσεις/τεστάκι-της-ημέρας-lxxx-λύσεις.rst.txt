@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/04/renoir_mlles_cahen_d_anvers.jpg
 
 .. figure:: /_static/images/uploads/2021/04/renoir_mlles_cahen_d_anvers.jpg
-	:alt: Ο πίνακας *Ροζ και γαλάζιο* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Ροζ και γαλάζιο* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ροζ και γαλάζιο* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Ροζ και γαλάζιο* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Β-Λυκείου/Εκθετικές-και-Λογαριθμικές-Συναρτήσεις/τεστάκι-της-ημέρας-lxxx-β-λυκείου>` στις εκθετικές συναρτήσεις μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/16CkWKHq9l3v__0OPYLMUlGrtOtAa3s11/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

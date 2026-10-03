@@ -10,16 +10,16 @@
 	:attachments: _static/images/uploads/2021/09/1896_polenow_christus_unter_den_lehrern_anagoria.jpg
 
 .. figure:: /_static/images/uploads/2021/09/1896_polenow_christus_unter_den_lehrern_anagoria.jpg
-	:alt: Ο πίνακας *Ο Χριστός ανάμεσα στους διδασκάλους* του `Vasily Polenov  <https://en.wikipedia.org/wiki/Vasily_Polenov>`__\ *.* 
+	:alt: Ο πίνακας *Ο Χριστός ανάμεσα στους διδασκάλους* του `Vasily Polenov  <https://en.wikipedia.org/wiki/Vasily_Polenov>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο Χριστός ανάμεσα στους διδασκάλους* του `Vasily Polenov  <https://en.wikipedia.org/wiki/Vasily_Polenov>`__\ *.* 
+	Ο πίνακας *Ο Χριστός ανάμεσα στους διδασκάλους* του `Vasily Polenov  <https://en.wikipedia.org/wiki/Vasily_Polenov>`__\*.* 
 
 .. highlight:: latex
 
 Αυτήν την εβδομάδα είδαμε αρκετά νέα και ενδιαφέρονται σχήματα καθώς επίσης και μία ακόμα βιβλιοθήκη του ``tikz``. Όλα με τη σειρά τους, όμως.
 
-*Για τα σχήματα της προηγούμενης εβδομάδας δείτε*\ :doc:`εδώ  </docs/Tikz/τα-σχήματα-της-εβδομάδας-6>`\ *ενώ για όλες τις αναρτήσεις της σειράς δείτε*\ :doc:`εδώ  </docs/Tikz/index>`\ *.*
+*Για τα σχήματα της προηγούμενης εβδομάδας δείτε*\ :doc:`εδώ  </docs/Tikz/τα-σχήματα-της-εβδομάδας-6>`\*ενώ για όλες τις αναρτήσεις της σειράς δείτε*\ :doc:`εδώ  </docs/Tikz/index>`\*.*
 
 Σύνολα τιμών...
 ---------------

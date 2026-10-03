@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/06/800px-matisse_-_music.jpg
 
 .. figure:: /_static/images/uploads/2019/06/800px-matisse_-_music.jpg
-	:alt: Ο πίνακας *Μουσική* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:alt: Ο πίνακας *Μουσική* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Μουσική* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Μουσική* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 
 
 Οι διαφάνειες βρίσκονται `εδώ  <https://drive.google.com/file/d/1yKjfZFQ4BgdpsydnVXC6dYAdvUGdGln6/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

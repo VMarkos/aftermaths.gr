@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2020/12/816px-william_merritt_chase_-_a_modern_magdalen_-_google_art_project.jpg
 
 .. figure:: /_static/images/uploads/2020/12/816px-william_merritt_chase_-_a_modern_magdalen_-_google_art_project.jpg
-	:alt: Ο πίνακας *Μία σύγχρονη Μαρία Μαγδαληνή* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	:alt: Ο πίνακας *Μία σύγχρονη Μαρία Μαγδαληνή* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Μία σύγχρονη Μαρία Μαγδαληνή* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\ *.* 
+	Ο πίνακας *Μία σύγχρονη Μαρία Μαγδαληνή* του `William Merritt Chase  <https://en.wikipedia.org/wiki/William_Merritt_Chase>`__\*.* 
 
 
 Τις :doc:`διαφάνειες για την καραντίνα  </docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Σημειώσεις/διαφάνειες-για-την-καραντίνα>` μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1q86VLf2y30tdHhsKKZnzwh2OVRqUJ5Je/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

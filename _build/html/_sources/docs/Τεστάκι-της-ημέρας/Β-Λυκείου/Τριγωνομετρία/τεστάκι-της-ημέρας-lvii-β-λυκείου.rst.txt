@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/02/1257px-alexandr_ivanov_005.jpg
 
 .. figure:: /_static/images/uploads/2021/02/1257px-alexandr_ivanov_005.jpg
-	:alt: Ο πίνακας *Ο Πρίαμος ζητά από τον Αχιλλέα να επιστρέψει το σώμα του Έκτορα* του `Alexander Ivanov  <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\ *.* 
+	:alt: Ο πίνακας *Ο Πρίαμος ζητά από τον Αχιλλέα να επιστρέψει το σώμα του Έκτορα* του `Alexander Ivanov  <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο Πρίαμος ζητά από τον Αχιλλέα να επιστρέψει το σώμα του Έκτορα* του `Alexander Ivanov  <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\ *.* 
+	Ο πίνακας *Ο Πρίαμος ζητά από τον Αχιλλέα να επιστρέψει το σώμα του Έκτορα* του `Alexander Ivanov  <https://en.wikipedia.org/wiki/Alexander_Andreyevich_Ivanov>`__\*.* 
 
 
 Ένα τεστ στις γραφικές παραστάσεις τριγωνομετρικών συναρτήσεων καθώς και στις ταυτότητες διπλασίου τόξου - άλγεβρα Βʹ Λυκείου και ΕΠΑΛ.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2019/06/matisse518.jpg
 
 .. figure:: /_static/images/uploads/2019/06/matisse518.jpg
-	:alt: Ο πίνακας *Νεκρή φύση με γεράνια* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	:alt: Ο πίνακας *Νεκρή φύση με γεράνια* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Νεκρή φύση με γεράνια* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\ *.* 
+	Ο πίνακας *Νεκρή φύση με γεράνια* του `Henri Matisse  <https://en.wikipedia.org/wiki/Henri_Matisse>`__\*.* 
 
 
 Το φυλλάδιο βρίσκεται `εδώ  <https://drive.google.com/file/d/1hM5IPUPmoR6KJ1Z-ZWudWgF-CO8y-c5v/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.

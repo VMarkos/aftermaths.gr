@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/01/1168px-christ_in_the_wilderness_-_ivan_kramskoy_-_google_cultural_institute.jpg
 
 .. figure:: /_static/images/uploads/2021/01/1168px-christ_in_the_wilderness_-_ivan_kramskoy_-_google_cultural_institute.jpg
-	:alt: Ο πίνακας *Ο Ιησούς στην έρημο* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+	:alt: Ο πίνακας *Ο Ιησούς στην έρημο* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Ο Ιησούς στην έρημο* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\ *.* 
+	Ο πίνακας *Ο Ιησούς στην έρημο* του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__\*.* 
 
 
 Διαφάνειες πο καλύπτουν την ύλη της άλγεβρας της Βʹ Λυκείου μέχρι και το κεφάλαιο της τριγωνομετρίας - χάραξη γραφικής παράστασης τριγωνομετρικής συνάρτησης - καθώς και τις απαραίτητες έννοιες από τα κεφάλαια των συναρτήσεων και των συστημάτων.

@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2021/04/pierre_auguste_renoir_la_famille_d_artiste.jpg
 
 .. figure:: /_static/images/uploads/2021/04/pierre_auguste_renoir_la_famille_d_artiste.jpg
-	:alt: Ο πίνακας *Η οικογένεια του Pierre-Auguste Renoir* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	:alt: Ο πίνακας *Η οικογένεια του Pierre-Auguste Renoir* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 	:align: center
 
-	Ο πίνακας *Η οικογένεια του Pierre-Auguste Renoir* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\ *.* 
+	Ο πίνακας *Η οικογένεια του Pierre-Auguste Renoir* του `Pierre-Auguste Renoir  <https://en.wikipedia.org/wiki/Pierre-Auguste_Renoir>`__\*.* 
 
 
 Τις λύσεις του :doc:`προηγούμενου τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΕΠΑΛ/Στατιστική/τεστάκι-της-ημέρας-lxxxvi-γ-επαλ>` στην στατιστική και τα όρια συναρτήσεων - μαθηματικά, Γʹ ΕΠΑΛ - μπορείτε να τις βρείτε `εδώ   <https://drive.google.com/file/d/1GVui55el-9SKrnLsu5kCP8BU26ilU9ee/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
