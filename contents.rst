@@ -4,6 +4,8 @@
 aftermaths
 ==========
 
+
+
 .. container:: sidetoc-only
 
     .. toctree::
@@ -26,88 +28,7 @@ aftermaths
         docs/Τεστάκι-της-ημέρας/index
 
 
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
 
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
 
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
-
-.. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst
 
 .. include:: docs/After-maths/τα-ολυμπιακά-υδροθερμικές-συναρτήσε.rst

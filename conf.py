@@ -69,7 +69,7 @@ def generate_latest_entries() -> None:
         for line in file.readlines():
             if not add_line and '.. container::' in line:
                 add_line = True
-            if add_line:
+            if add_line and '.. include::' not in line:
                 contents_str += line
             if 'Πρόσφατα' in line:
                 contents_str += f'\n        {fl_str}\n\n'

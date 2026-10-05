@@ -26,7 +26,7 @@
     - For each link to an `.rst` file, search for it in the current structure and substitute its absolute path.
 - [x] LaTeX formatting in Tikz posts.
 - [x] Navigation links.
-- [ ] Translate 'On this page' to Greek.
+- [x] Translate 'On this page' to Greek.
 - [x] Create contact page.
     - [x] Fix css for contact page by ammending the custom CSS file accordingly.
 - [x] Fix the global link for tests pointing to the actual tests page.
@@ -40,6 +40,7 @@
 - [x] Check why `/panellinies` is not found as a document.
 - [x] Fix the following (missing).
 - [x] Fix broken youtube links (2 arguments instead of 1, e.g., remove spacing)
+- [ ] `contents.rst` should be updated with just one new line of the most recent post; no duplicates
 
 
 ## Notes

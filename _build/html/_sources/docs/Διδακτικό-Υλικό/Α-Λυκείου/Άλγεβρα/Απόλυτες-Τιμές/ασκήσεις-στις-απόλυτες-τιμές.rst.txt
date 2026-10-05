@@ -11,10 +11,10 @@
 	:attachments: _static/images/uploads/2018/09/soleil_levant.jpeg
 
 .. figure:: /_static/images/uploads/2018/09/soleil_levant.jpeg
-	:alt: Ο πίνακας `Impression, soleil levant  <https://en.wikipedia.org/wiki/Impression,_Sunrise>`__ του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *. 
+	:alt: Ο πίνακας `Impression, soleil levant  <https://en.wikipedia.org/wiki/Impression,_Sunrise>`__ του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__. 
 	:align: center
 
-	Ο πίνακας `Impression, soleil levant  <https://en.wikipedia.org/wiki/Impression,_Sunrise>`__ του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\ *. 
+	Ο πίνακας `Impression, soleil levant  <https://en.wikipedia.org/wiki/Impression,_Sunrise>`__ του `Claude Monet  <https://en.wikipedia.org/wiki/Claude_Monet>`__\ . 
 
 
 Ένα ακόμα φυλλάδιο στα πλαίσια της ύλης της Αʹ Λυκείου, με ασκήσεις από την ενότητα της απόλυτης τιμής. Έχει δοθεί ιδιαίτερη έμφαση στη γεωμετρική ερμηνεία της απόλυτης τιμής (ως απόσταση) μιας και αυτή είναι η σύνδεση την οποία δυσκολεύονται να κάνουν, συνήθως, οι περισσότεροι μαθητές (βλ. ασκήσεις 2, 3, 6 κυρίως).
