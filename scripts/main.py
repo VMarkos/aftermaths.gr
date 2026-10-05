@@ -667,6 +667,21 @@ def https_fix_fn(line: str, params: dict=dict()) -> str:
     return fixed_line
 
 
+def fix_aftermaths_ref(path: str) -> None:
+    fix_content(path, aftermath_ref_fix_fn)
+
+
+def aftermath_ref_fix_fn(line: str, params: dict=dict()) -> str:
+    fixed_line = re.sub(r'After-mahts', r'After-maths', line)
+    fixed_line = re.sub(r'ένα-σχήμα-την-ημέρα', r'index', fixed_line)
+    fixed_line = re.sub(
+        r':doc:`([^`<>/\s]+)\s+(/docs[^`<>]+)`',
+        r':doc:`\1 <\2>`',
+        fixed_line
+    )
+    return fixed_line
+
+
 def main():
     # rename_content()
     # restore_backups(Config.BACKUP_DIR, Config.CONTENT_DIR)
@@ -703,9 +718,10 @@ def main():
         # fix_yt_spaces(file_path)
         # fix_static(file_path)
         # fix_yt_list(file_path)
-        fix_inline_spacing(file_path)
+        # fix_inline_spacing(file_path)
         # fix_trailing_unsc(file_path)
         # fix_https_docs(file_path)
+        fix_aftermaths_ref(file_path)
 
 
 if __name__ == "__main__":
