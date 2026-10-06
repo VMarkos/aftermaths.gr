@@ -1,0 +1,31 @@
+Τεστάκι της ημέρας XIII - Λύσεις
+################################
+
+.. meta::
+	:date: 2020-11-12 20:06
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: πανελλήνιες, τεστ, όρια, Γʹ λυκείου, ασκήσεις, επανάληψη, λύσεις
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-%cf%84%ce%b7%cf%82-%ce%b7%ce%bc%ce%ad%cf%81%ce%b1%cf%82-xiii-%ce%bb%cf%8d%cf%83%ce%b5%ce%b9%cf%82
+	:status: published
+	:attachments: _static/images/uploads/2020/11/werefkin_selbstbildnis_in_matrosenbluse.jpg
+
+.. figure:: /_static/images/uploads/2020/11/werefkin_selbstbildnis_in_matrosenbluse.jpg
+	:alt: Ο μία αυτοπροσωπογραφία της `Marianne von Werefkin  <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__ με ναυτική μπλούζα. 
+	:align: center
+
+	Ο μία αυτοπροσωπογραφία της `Marianne von Werefkin  <https://en.wikipedia.org/wiki/Marianne_von_Werefkin>`__ με ναυτική μπλούζα. 
+
+
+Οι λύσεις του :doc:`τεστ  </docs/Τεστάκι-της-ημέρας/Γ-ΓΕΛ/Όρια/τεστάκι-της-ημέρας-xiii-γ-λυκείου>` βρίσκονται `εδώ   <https://drive.google.com/file/d/17tzj-yhbxWDGOdpHhou_W315m8GsbGa5/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+
+
+
+Καλό απόγευμα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: seopnFZQHW 
+
+

@@ -1,0 +1,35 @@
+Πανελλήνιες - Επαναληπτικό Θέμα #3
+##################################
+
+.. meta::
+	:date: 2022-03-22 10:29
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παράγωγος, πανελλήνιες, Γʹ λυκείου, γραφική παράσταση, επανάληψη, ολοκλήρωμα
+	:slug: %cf%80%ce%b1%ce%bd%ce%b5%ce%bb%ce%bb%ce%ae%ce%bd%ce%b9%ce%b5%cf%82-%ce%b5%cf%80%ce%b1%ce%bd%ce%b1%ce%bb%ce%b7%cf%80%cf%84%ce%b9%ce%ba%cf%8c-%ce%b8%ce%ad%ce%bc%ce%b1-3
+	:status: published
+	:attachments: _static/images/uploads/2022/03/henri_leys_-_soldiers_playing_cards.jpeg
+
+.. figure:: /_static/images/uploads/2022/03/henri_leys_-_soldiers_playing_cards.jpeg
+	:alt: Ο πίνακας *Στρατιώτες παίζουν χαρτιά* του `Jan August Hendrick Leys  <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 
+	:align: center
+
+	Ο πίνακας *Στρατιώτες παίζουν χαρτιά* του `Jan August Hendrick Leys  <https://en.wikipedia.org/wiki/Jan_August_Hendrik_Leys>`__. 
+
+
+Λίγη ζωγραφική αυτήν την εβδομάδα, έτσι για να μην ξεχνιόμαστε!
+
+Το θέμα και τις λύσεις του μπορείτε να τα βρείτε `εδώ  <https://drive.google.com/file/d/1CKALV_siac2RMQBcdpfcvcUgVn89VXec/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+
+*Τα προηγούμενα θέματα μπορείτε να τα βρείτε*\ :doc:`εδώ  </docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Επανάληψη/πανελλήνιες-επαναληπτικό-θέμα-1>`\*κι*\ :doc:`εδώ  </docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/Επανάληψη/πανελλήνιες-επαναληπτικό-θέμα-2>`\*ενώ σχετικό υλικό για τις πανελλήνιες μπορείτε να βρείτε*\ :doc:`εδώ  </docs/Διδακτικό-Υλικό/Γ-ΓΕΛ/Μαθηματικά/index>`\*κι*\ :doc:`εδώ  </panellinies>`\*.*
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: Z8GkkOezuds
+
+

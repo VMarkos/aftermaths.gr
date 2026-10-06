@@ -1,0 +1,33 @@
+Για... γραφικούς
+################
+
+.. meta::
+	:date: 2021-01-26 12:15
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά
+	:tags: παράγωγος, πανελλήνιες, συναρτήσεις, όρια, Γʹ λυκείου, ΕΠΑΛ, ασκήσεις, γραφική παράσταση, επανάληψη, μαθηματικά
+	:slug: %ce%b3%ce%b9%ce%b1-%ce%b3%cf%81%ce%b1%cf%86%ce%b9%ce%ba%ce%bf%cf%8d%cf%82
+	:status: published
+	:attachments: _static/images/uploads/2021/01/maria_feodorovna_by_kramskoj.jpg
+
+.. figure:: /_static/images/uploads/2021/01/maria_feodorovna_by_kramskoj.jpg
+	:alt: Το πορτραίτο της Maria Feodorovna του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__. 
+	:align: center
+
+	Το πορτραίτο της Maria Feodorovna του `Ivan Kramskoi  <https://en.wikipedia.org/wiki/Ivan_Kramskoi>`__. 
+
+
+Μία μεγάαααλη άσκηση στις γραφικές παραστάσεις συναρτήσεων και σε κάποια απλά και... όχι τόσο απλά ερωτήματα, στα πλαίσια της προετοιμασίας των πανελλαδικών εξετάσεων για τα μαθηματικά της Γʹ ΕΠΑΛ.
+
+Το φυλλάδιο μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1WpgaYNApom9cEVknTGtbbEK2IVVI_h4H/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+
+
+
+Καλό μεσημέρι και καλό διάβασμα!
+
+
+
+
+   .. youtube:: ccga6znEEB 
+
+

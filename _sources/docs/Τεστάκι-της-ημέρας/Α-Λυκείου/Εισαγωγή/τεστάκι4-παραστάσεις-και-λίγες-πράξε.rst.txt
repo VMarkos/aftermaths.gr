@@ -1,0 +1,35 @@
+Τεστάκι #004 - Παραστάσεις και λίγες Πράξεις
+############################################
+
+.. meta::
+	:date: 2022-10-24 11:46
+	:author: aftermathsgr
+	:category: Διδακτικό υλικό, Μαθηματικά, Τεστάκι της ημέρας
+	:tags: παραστάσεις, τεστ, Αʹ Λυκείου, ΕΠΑΛ, άλγεβρα
+	:slug: %cf%84%ce%b5%cf%83%cf%84%ce%ac%ce%ba%ce%b9-004-%cf%80%ce%b1%cf%81%ce%b1%cf%83%cf%84%ce%ac%cf%83%ce%b5%ce%b9%cf%82-%ce%ba%ce%b1%ce%b9-%ce%bb%ce%af%ce%b3%ce%b5%cf%82-%cf%80%cf%81%ce%ac%ce%be%ce%b5
+	:status: published
+	:attachments: _static/images/uploads/2022/10/caillebotte_lhomme_au_balcon_boulevard_haussmann_-_christies.jpg
+
+.. figure:: /_static/images/uploads/2022/10/caillebotte_lhomme_au_balcon_boulevard_haussmann_-_christies.jpg
+	:alt: Ο πίνακας *Άντρας στο μπαλκόνι* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+	:align: center
+
+	Ο πίνακας *Άντρας στο μπαλκόνι* του `Gustave Caillebotte  <https://en.wikipedia.org/wiki/Gustave_Caillebotte>`__. 
+
+
+Ένα ακόμα τεστάκι στις αριθμητικές και αλγεβρικές παραστάσεις με ολίγη εσάνς από... ταυτότητες.
+
+Το τεστάκι μπορείτε να το βρείτε `εδώ  <https://drive.google.com/file/d/1Lf0RTKWnIbDJAVNG0PKVBGsZ123vlsID/view?usp=sharing>`__ και στη σελίδα του :doc:`διδακτικού υλικού  </docs/Διδακτικό-Υλικό/index>`.
+
+*Το προηγούμενο τεστάκι μπορείτε να το βρείτε*\ :doc:`εδώ  </docs/Τεστάκι-της-ημέρας/Α-Λυκείου/Εισαγωγή/τεστάκι3-κι-άλλα-σύνολα>`\*, ενώ σχετικές ασκήσεις μπορείτε να βρείτε*\ :doc:`εδώ  </docs/Διδακτικό-Υλικό/Α-Λυκείου/Άλγεβρα/Εισαγωγή/παραστάσεις-πράξεις-και-ταυτότητες>`\*.*
+
+
+
+Καλημέρα και καλό διάβασμα!
+
+
+
+
+   .. youtube:: 861jOEqVr4 
+
+
