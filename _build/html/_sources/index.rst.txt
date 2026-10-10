@@ -6,6 +6,7 @@
 aftermaths
 ========================
 
+
 .. toctree::
     :hidden:
     :glob:
