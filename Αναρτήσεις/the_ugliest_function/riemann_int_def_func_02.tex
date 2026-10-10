@@ -1,0 +1,60 @@
+% !TeX program = xelatex
+\documentclass[tikz, margin = 5mm]{standalone}
+
+\usepackage{xfrac}
+\usepackage[MnSymbol]{mathspec}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style = {circle, draw = black, inner sep = 2pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style = {decorate, decoration = {random steps, pre length = 4mm, post length = 4mm, segment length = 0.6mm, amplitude = 0.2pt}}}
+
+\begin{document}
+	\begin{tikzpicture}
+		\draw[xkcd, thick, ->] (-0.5,0) -- (8,0) node[pos=1, below]{$x$};
+		\draw[xkcd, thick, ->] (0,-0.5) -- (0,5) node[pos=1, left]{$y$};
+		\draw[xkcd, c1, thick, samples = 200, name path global = f] plot [smooth] coordinates {(-0.5,0.8) (1,2.8) (2.1,1.5) (3.6,4.3) (5.5,2.2) (8,0.7)} node[right] {$C_f$};
+		\draw[draw = none, name path global = line a] (1,0) -- (1,5);
+		\draw[draw = none, name path global = line b] (6.2,0) -- (6.2,5);
+		\node[draw = none] (o) at (0,0) {};
+		\node[draw = none] (ur) at (8,5) {};
+		\node[point, c1, name intersections = {of = f and {line a}}] (a) at (intersection-1) {};
+		\node[point, c1, name intersections = {of = f and {line b}}] (b) at (intersection-1) {};
+		\draw[xkcd, dashed, thick, c1] (a) -- (a |- o) node [pos=1, below, xshift = -0.3cm] {$x=a$};
+		\draw[xkcd, dashed, thick, c1] (b) -- (b |- o) node [pos=1, below, xshift =  0.3cm] {$x=b$};
+		\pgfmathsetmacro{\dx}{0.65}
+		\begin{pgfonlayer}{bg}
+			\foreach \i [count = \j] in {1, 1.65,..., 6.1} {			
+				\draw[draw = none, name path global = line \j] ({\i + 0.5 * \dx}, 0) -- ({\i + 0.5 * \dx}, 5);
+				\node[draw = none, name intersections = {of = {f and line \j}}] (xi\j) at (intersection-1) {};
+				\node[draw = none] (top\j) at ({\i + \dx}, 5) {};
+				\draw[xkcd, draw = c2, fill opacity = 0.1, fill = c2] (\i,0) rectangle (top\j |- xi\j);
+				\draw[xkcd, dashed] (xi\j) -- (xi\j |- o) node[pos = 1, below] {\scriptsize$\xi_\j$};
+			}
+		\end{pgfonlayer}
+		\node[draw = none] (mid) at (0,2.2) {};
+		\draw[xkcd, thick, <->] (top4 |- mid) -- (top5 |- mid) node[pos=0.5, above] {\small$\Delta x$};
+%		\begin{scope}
+%			\clip (1,-0.5) rectangle (b |- ur);
+%			\fill[xkcd, c1, fill opacity = 0.1, samples = 200] plot [smooth] coordinates {(-0.5,0.8) (1,2.8) (2.1,1.5) (3.6,4.3) (5.5,2.2) (8,0.7)} -- (7.6,0) -- (-0.44,0) -- cycle;
+%		\end{scope}
+	\end{tikzpicture}
+\end{document}

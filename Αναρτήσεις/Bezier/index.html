@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bezier Curve Designer</title>
+        <script type="text/javascript" src="./scripts/main.js"></script>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body id="body">
+        <svg id="svg-container" class="svg-container" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+            <circle id="edge-start" cx="250" cy="500" r="12" class="edge-point"/>
+            <circle id="edge-end" cx="750" cy="500" r="12" class="edge-point"/>
+            <polyline id="bezier-curve" points="262,500 738,500" fill="none" class="bezier-curve" />
+            <polyline id="invisible-curve" points="262,500 738,500" fill="none" class="invisible-bezier-curve" />
+        </svg>
+    </body>
+</html>

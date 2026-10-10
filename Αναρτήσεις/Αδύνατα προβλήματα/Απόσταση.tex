@@ -1,0 +1,71 @@
+\documentclass{beamer}
+\usepackage[english,greek]{babel}
+\usepackage[iso-8859-7]{inputenc}
+\usepackage{amsthm,amsmath,amssymb,graphicx,bbm,extarrows,float,tikz,changepage,subcaption,ifthen,chngcntr,soul,setspace,parskip,cancel}
+\usepackage{hyperref}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{arrows}
+\usetikzlibrary{positioning,matrix,scopes,fit,svg.path}
+\usetikzlibrary{patterns}
+\usetikzlibrary{intersections}
+\usetikzlibrary{calc}
+%\usetheme{CambridgeUS}
+%\usecolortheme{orchid}
+
+\beamertemplatenavigationsymbolsempty
+
+\uselanguage{greek}
+
+\setbeamertemplate{itemize items}[default]
+  
+\newcommand{\R}{\mathbb{R}}
+
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+
+\let\sin\relax
+\DeclareMathOperator{\sin}{\text{ημ}}
+
+\let\cos\relax
+\DeclareMathOperator{\cos}{\text{συν}}
+
+\let\tan\relax
+\DeclareMathOperator{\tan}{\text{εφ}}
+
+\begin{document}
+\begin{frame}
+\frametitle{Η απόσταση στο Καρτεσιανό Επίπεδο}
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw[thick,->] (-1,0) -- (6,0)node[pos=1,below]{$x$};
+\draw[thick,->] (0,-1) -- (0,6)node[pos=1,left]{$y$};
+\node[circle, inner sep=1.5pt, fill=black, draw=black, label={left,yshift=-10pt}:{$O$}](o) at (0,0){};
+\foreach \i in {1,...,5}{
+    \ifthenelse{\i=0}{}{
+        \draw (\i,-.1) -- (\i,.1)node[pos=0,below]{$\i$};
+        \draw (-.1,\i) -- (.1,\i)node[pos=0,left]{$\i$};
+    }
+}
+\node[circle, inner sep=1.5pt, fill=red, draw=red, label={above}:{$A$}](a) at (1.5,2.5){};
+\begin{pgfonlayer}{bg}
+\draw[dashed] (o) rectangle (a);
+\end{pgfonlayer}
+\node[below] at (1.5,0){$x_1$};
+\node[left] at (0,2.5){$y_1$};
+\node[circle, inner sep=1.5pt, fill=red, draw=red, label={above}:{$B$}](b) at (4.6,5.5){};
+\begin{pgfonlayer}{bg}
+\draw[dashed] (o) rectangle (b);
+\end{pgfonlayer}
+\node[below] at (4.6,0){$x_2$};
+\node[left] at (0,5.5){$y_2$};
+\node[circle, inner sep=1.5pt, fill=red, draw=red, label={right}:{$C$}](c) at (4.6,2.5){};
+\draw[blue,dashed] (a) -- (b);
+\draw[blue,dashed] (a) -- (c);
+\draw[blue,dashed] (c) -- (b);
+\end{tikzpicture}
+\end{figure}
+\end{frame}
+\end{document}

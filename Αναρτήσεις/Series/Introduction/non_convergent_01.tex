@@ -1,0 +1,54 @@
+% !TeX program = xelatex
+\documentclass[tikz, margin = 5mm]{standalone}
+
+\usepackage{xfrac}
+\usepackage{ifthen}
+\usepackage{intcalc}
+\usepackage[MnSymbol]{mathspec}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+	xkcd/.default = {4},
+	point/.default = {2}
+}
+
+\begin{document}
+	\begin{tikzpicture}
+		\draw[xkcd, thick, ->, name path global = x axis] (-0.5,0) -- (8.5,0);
+		\draw[xkcd, thick, ->] (0,-4) -- (0,4);
+		\foreach \i in {0.05,0.10,...,8.45} {
+			\pgfmathsetmacro{\y}{6.7 * pow(0.7, \i) * (exp(-pow(random(), 2)) - 0.7)}
+			\node[point = {0.9}, c1] (b\i) at (\i,\y) {};
+		}
+		\foreach \i in {0.075,0.175,...,8.45} {
+			\pgfmathsetmacro{\y}{sign(random()-0.5) * (2 + random())}
+			\node[point = {0.9}, c2] (b\i) at (\i,\y) {};
+		}
+		\begin{pgfonlayer}{bg}
+			\fill[xkcd, opacity = 0.1, c1] (0,2) rectangle (8.5,4);
+			\fill[xkcd, opacity = 0.1, c1] (0,-2) rectangle (8.5,-4);
+		\end{pgfonlayer}
+		\draw[xkcd, dashed, thick] (-0,2) -- (8.5,2) node[pos = 0, left]{$4$};
+		\draw[xkcd, dashed, thick] (-0,-2) -- (8.5,-2) node[pos = 0, left]{$-4$};
+	\end{tikzpicture}
+\end{document}

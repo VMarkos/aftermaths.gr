@@ -1,0 +1,46 @@
+% !TeX program = xelatex
+\documentclass[margin = 5mm, tikz]{standalone}
+\usepackage{xfrac}
+\usepackage[MnSymbol]{mathspec}
+\usepackage{esvect}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+\usetikzlibrary{positioning}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	line/.style = {thick, black},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+	right angle/.style args = {at #1 of size #2 rotate #3}{rectangle, draw=black, anchor=#1, inner sep=#2 cm, outer sep=0pt, rotate = #3},
+	right angle/.default = {at south east of size 0.2 rotate 0},
+	xkcd/.default = {4},
+	point/.default = {2},
+}
+
+\begin{document}
+	\begin{tikzpicture}
+		\draw[xkcd, thick, ->] (-1,0) -- (7,0) node[pos=1, below] {$x$};
+		\draw[xkcd, thick, ->] (0,-1) -- (0,7) node[pos=1, left] {$y$};
+		\draw[xkcd, thick, c1, domain = {-0.3}:{2.1}, scale = 3] plot (\x, {-1.5 * pow(\x, 2) + 2.5 * \x + 1}) {};
+		\node[point, label={left}:{$A(0,1)$}] (a) at (0,3) {};
+		\node[point, label={above}:{$B(1,2)$}] (b) at (3,6) {};
+		\node[point, label={below}:{$C(2,0)$}] (c) at (6,0) {};
+	\end{tikzpicture}
+\end{document}

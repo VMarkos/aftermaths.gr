@@ -1,0 +1,193 @@
+html, body {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.body-container {
+    /* height: inherit; */
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    background-color: #9b2226;
+    box-shadow: 0 1px 2px 0 rgba(0.9, 0.01, 0.02, 0.9);
+}
+
+.navbar-max-width {
+    /* max-width: 1280px; */
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.logo-container { /* TODO This shall be an image designed in canva. */
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: 500;
+    color: white;
+    padding: 5px;
+}
+
+.hamburger-container {
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    transition-duration: 200ms;
+}
+
+.social-container {
+    display: flex;
+}
+
+.social-icon-container {
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 10px;
+    transition-duration: 200ms;
+}
+
+.social-icon-container:hover, .hamburger-container:hover {
+    opacity: 0.8;
+}
+
+.main-container {
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-grid-container {
+    max-width: 1280;
+    width: 1280px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+    .main-grid-container {
+        display: contents;
+    }
+
+    .main-container {
+        display: contents;
+    }
+}
+
+.square-container {
+    padding: 10px;
+}
+
+.input-area-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+}
+
+.submit-button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.submit-button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 500;
+    background-color: #005f73;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+.submit-button:hover {
+    opacity: 0.85;
+}
+
+.input-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remaining-tries-container {
+    color: #9b2226;
+    padding: 5px;
+}
+
+.formula-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.formula-item-container {
+    padding: 4px;
+}
+
+.formula-item {
+    border: 2px solid #001219;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.MathJax {
+    font-size: 2em !important;
+}
+
+.keyboard-container {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.key-container {
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.key {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid #001219;
+    width: fit-content;
+    min-width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #d9d9d9;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+.key:hover {
+    background-color: white;
+}

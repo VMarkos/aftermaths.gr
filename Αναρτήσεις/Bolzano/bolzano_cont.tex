@@ -1,0 +1,13 @@
+\documentclass[tikz, margin=5mm]{standalone}
+
+\begin{document}
+	\begin{tikzpicture}
+	\draw[thick, ->] (-.5,0) -- (7,0)node[pos=1,below]{$x$};
+	\draw[thick, ->] (0,-3) -- (0,3)node[pos=1,left]{$y$};
+	\draw[very thick, blue] (-.5,-2) -- (3,-2);
+	\draw[very thick, blue] (3,2) -- (7,2);
+	\draw[dashed, blue] (3,-2) -- (3,2);
+	\node[circle, draw=blue, fill=white, inner sep=2pt](a) at (3,-2){};
+	\node[circle, draw=blue, fill=white, inner sep=2pt](b) at (3,2){};
+	\end{tikzpicture}
+\end{document}

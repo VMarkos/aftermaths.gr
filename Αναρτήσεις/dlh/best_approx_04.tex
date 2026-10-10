@@ -1,0 +1,56 @@
+% !TeX program = xelatex
+\documentclass[margin = 5mm, tikz]{standalone}
+\usepackage{xfrac}
+%\usepackage{amsmath}
+%\usepackage{unicode-math}
+\usepackage[MnSymbol]{mathspec}
+%\usepackage{mathspec}
+%\setmainfont{Comic Sans MS}
+%\setmathfont(Digits,Latin,Greek,Symbols)[Scale=MatchLowercase]{Comic Sans MS}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+%\setmathfont{Georgia}
+%\setmathfont[range={"0000-"FFFF}]{Comic Sans MS}
+%\setmathfont[range=up]{Comic Sans MS}
+%\setmathfont[range=sfup]{Comic Sans MS}
+%\setmathfont[range=it]{Comic Sans MS}
+%\setmathfont[range=bfup]{Comic Sans MS}
+%\setmathfont[range=bfit]{Comic Sans MS}
+%\setsansfont{Comic Sans MS}  % Make \mathsf and \textsf also Calibri
+
+%\usetikzlibrary{decorations.pathmorphing}
+%\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{point/.style={circle, draw=black, inner sep=2pt, fill=black}, empty point/.style={circle, draw=black, inner sep=2pt, fill=white}, cross/.style={cross out, draw, minimum size=2*(#1-\pgflinewidth), inner sep=0pt, outer sep=0pt},
+	xkcd/.style = {decorate, decoration={random steps,segment length=0.8mm,amplitude=0.2pt}}}
+
+\begin{document}
+	\begin{tikzpicture}[spy using overlays={circle, magnification=4, connect spies, xkcd}]
+		\draw[thick, ->, xkcd] (-.5,0) -- (7,0);
+		\draw[thick, ->, xkcd] (0,-2) -- (0,4);
+		\draw[thick, xkcd, opacity=0.3, domain=1.1:6.1, samples=100] plot (\x,{.2*(\x-2)*(\x-4)*(\x-5)}) node[right]{$f$};
+		\draw[thick, xkcd, opacity=0.3, domain=1:6.2, c2, samples=100] plot (\x,{-.2*(\x-1.7)*(\x-4)*(\x-6)}) node[right]{$g$};
+		\draw[thick, c2, xkcd, domain=2:6.3] plot (\x,{0.88*(\x-4.4) + 0.36})  node[above]{$\epsilon_g$};
+		\draw[thick, xkcd, domain=2:6.3] plot (\x,{-0.30*(\x-4.4) - 0.14})  node[right]{$\epsilon_f$};
+		\node[circle, fill=c1!10, draw=c1, inner sep=1.5pt] (a) at (4,0){};
+		\node[label={right, yshift=0.2cm}:{$x_1$}] (b) at (4.4,4){};
+		\node[label={below}:{$x_0$}] (c) at (3.6,3.8){};
+		\draw[c1, xkcd, thick, densely dashed] ($(-1,4.8)!(b)!(7,4.8)$) -- ($(-1,3.6)!(b)!(7,3.6)$);
+		\spy[c1, size=6cm, xkcd] on (a) in node [c1, opacity=0.08, xkcd] at (3.5,4);
+	\end{tikzpicture}
+\end{document}

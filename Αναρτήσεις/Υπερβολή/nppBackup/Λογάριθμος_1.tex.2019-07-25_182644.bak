@@ -1,0 +1,56 @@
+\documentclass{beamer}
+\usepackage[english,greek]{babel}
+\usepackage[iso-8859-7]{inputenc}
+\usepackage{amsthm,amsmath,amssymb,graphicx,bbm,extarrows,float,tikz,changepage,subcaption,ifthen,chngcntr,soul,setspace,parskip,cancel}
+\usepackage{hyperref}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{arrows}
+\usetikzlibrary{positioning,matrix,scopes,fit,svg.path}
+\usetikzlibrary{patterns}
+\usetikzlibrary{intersections}
+\usetikzlibrary{calc}
+%\usetheme{CambridgeUS}
+%\usecolortheme{orchid}
+
+\beamertemplatenavigationsymbolsempty
+
+\uselanguage{greek}
+
+\setbeamertemplate{itemize items}[default]
+  
+\newcommand{\R}{\mathbb{R}}
+
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+
+\let\sin\relax
+\DeclareMathOperator{\sin}{\text{зм}}
+
+\let\cos\relax
+\DeclareMathOperator{\cos}{\text{ухн}}
+
+\let\tan\relax
+\DeclareMathOperator{\tan}{\text{ец}}
+
+\begin{document}
+\begin{frame}[plain]
+\begin{figure}[!htb]
+\centering
+\begin{tikzpicture}
+\draw[thick,->,name path=x axis] (-1,0) -- (7,0)node[pos=1,below]{$x$};
+\draw[thick,->,name path=y axis] (0,-1) -- (0,5)node[pos=1,left]{$y$};
+\node[left,yshift=-8pt](O) at (0,0){$O$};
+\draw[thick, blue!50!black, domain={1/4.5}:{6.5}, samples=200, name path=curve] plot(\x,{1/\x})node[right,yshift=4pt]{$f$};
+\node[green!40!black,below](xy) at (6,0){$xy$};
+\node[red,below](x) at (2,0){$x$};
+\node[blue,below](y) at (3,0){$y$};
+\node[below](one) at (1,0){$1$};
+\fill[green!40!black, very thick, fill opacity=.1, draw=green!40!black, domain=1:6] (1,0) -- plot(\x,{1/\x}) -- (6,0) -- cycle node[pos=.4,below,opacity=1]{$L(xy)$};
+\fill[red, thick, fill opacity=.1, draw=red, domain=1:2] (1,0) -- plot(\x,{1/\x}) -- (2,0) -- cycle node[pos=.5,below,opacity=1]{$L(x)$};
+\fill[blue, fill opacity=.1, draw=blue, domain=1:3] (1,0) -- plot(\x,{1/\x}) -- (3,0) -- cycle node[pos=.5,above,yshift=12pt,opacity=1]{$L(y)$};
+\end{tikzpicture}
+\end{figure}
+\end{frame}
+\end{document}

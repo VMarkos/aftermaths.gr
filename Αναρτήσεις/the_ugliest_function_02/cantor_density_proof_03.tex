@@ -1,0 +1,53 @@
+% !TeX program = xelatex
+\documentclass[tikz, margin = 5mm]{standalone}
+
+\usepackage{xfrac}
+\usepackage{ifthen}
+\usepackage{intcalc}
+\usepackage[MnSymbol]{mathspec}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{decorations.pathreplacing, calligraphy}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+	xkcd/.default = {4},
+	point/.default = {2}
+}
+
+\begin{document}
+	\begin{tikzpicture}
+		\draw[xkcd, thick] (-1,0) -- (10,0);
+		\node[point, label = {above}:{$\xi$}] (xi) at (4.5,0) {};
+		\node[empty point, label = {above}:{$\xi-\delta$}] (xi minus) at (1,0) {};
+		\node[empty point, label = {above}:{$\xi+\delta$}] (xi plus) at (8,0) {};
+%		\node[point, c2, label = {above}:{$x$}] (x) at (7.2,0) {};
+%		\node[point, c1, label = {above}:{$y$}] (y) at (5.3,0) {};
+		\begin{pgfonlayer}{bg}
+			\fill[xkcd, fill opacity = 0.3, c2] ($(xi.south) + (-1,0)$) rectangle ($(xi.north) + (0.5,0)$);
+			\fill[xkcd, fill opacity = 0.3, c2] ($(xi.south) + (1.5,0)$) rectangle ($(xi.north) + (3,0)$);
+			\fill[xkcd, fill opacity = 0.3, c1] ($(xi.south) + (0.5,0)$) rectangle ($(xi.north) + (1.5,0)$);
+		\end{pgfonlayer}
+		\draw[thick, decorate, decoration = {calligraphic brace}] ($(xi.south) + (0.5,-0.2)$) -- ($(xi.south) + (-1,-0.2)$) node[pos=0.5, below] {$\left(\frac{1-a}{2}\right)^{n+1}$};
+		\draw[thick, decorate, decoration = {calligraphic brace}] ($(xi.south) + (3,-0.2)$) -- ($(xi.south) + (1.5,-0.2)$) node[pos=0.5, below] {$\left(\frac{1-a}{2}\right)^{n+1}$};
+		\draw[thick, decorate, decoration = {calligraphic brace}] ($(xi.south) + (0.5,0.3)$) -- ($(xi.south) + (1.5,0.3)$) node[pos=0.5, above] {$a\left(\frac{1-a}{2}\right)^{n}$};
+	\end{tikzpicture}
+\end{document}

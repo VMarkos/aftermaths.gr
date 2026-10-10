@@ -1,0 +1,55 @@
+\documentclass{beamer}
+\usepackage[english,greek]{babel}
+\usepackage[iso-8859-7]{inputenc}
+\usepackage{amsthm,amsmath,amssymb,graphicx,bbm,extarrows,float,tikz,changepage,subcaption,ifthen,chngcntr,soul,setspace,parskip,cancel}
+\usepackage{hyperref}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{arrows}
+\usetikzlibrary{positioning,matrix,scopes,fit,svg.path}
+\usetikzlibrary{patterns}
+\usetikzlibrary{intersections}
+\usetikzlibrary{calc}
+%\usetheme{CambridgeUS}
+%\usecolortheme{orchid}
+
+\beamertemplatenavigationsymbolsempty
+
+\uselanguage{greek}
+
+\setbeamertemplate{itemize items}[default]
+  
+\newcommand{\R}{\mathbb{R}}
+
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+
+\let\sin\relax
+\DeclareMathOperator{\sin}{\text{зм}}
+
+\let\cos\relax
+\DeclareMathOperator{\cos}{\text{ухн}}
+
+\let\tan\relax
+\DeclareMathOperator{\tan}{\text{ец}}
+
+\begin{document}
+\begin{frame}[plain]
+\begin{figure}[!htb]
+\centering
+\begin{tikzpicture}
+\draw[thick,->,name path=x axis] (-1,0) -- (6,0)node[pos=1,below]{$x$};
+\draw[thick,->,name path=y axis] (0,-1) -- (0,6)node[pos=1,left]{$y$};
+\node[left,yshift=-8pt](O) at (0,0){$O$};
+\foreach \i in {1,...,5}{
+    \draw (\i,-.1) -- (\i,.1)node[pos=0,below]{\i};
+    \draw (.1,\i) -- (-.1,\i)node[pos=1,left]{\i};
+    \foreach \j in {1,..,5}{
+        \node[circle, fill=black, inner sep=1.5pt](\i\j) at (\i},{\j}){};
+    }
+}
+\end{tikzpicture}
+\end{figure}
+\end{frame}
+\end{document}

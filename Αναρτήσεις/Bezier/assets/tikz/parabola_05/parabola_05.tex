@@ -1,0 +1,46 @@
+% !TeX program = xelatex
+\documentclass[margin = 5mm, tikz]{standalone}
+\usepackage{xfrac}
+\usepackage[MnSymbol]{mathspec}
+\usepackage{esvect}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+	xkcd/.default = {4},
+	point/.default = {2}
+}
+
+\begin{document}
+	\begin{tikzpicture}
+		\node[point, c1, label = {left}:{$A(0,0)$}] (a) at (0,0) {};
+		\node[point, c1, label = {right}:{$C(8,1.5)$}] (b) at (8,1.5) {};
+		\node[point, c1, label = {above}:{$B(3.3,5)$}] (c) at (3.3,5) {};
+		\draw[xkcd, thick] (b) -- (c);
+		\draw[xkcd, thick] (a) -- (c);
+		\node[point = {1.8}, c2, label = {left, c2}:{$X$}] (d) at ($(a)!0.3!(c)$) {};
+		\node[point = {1.8}, c2, label = {right, c2}:{$Y$}] (e) at ($(c)!0.3!(b)$) {};
+		\draw[xkcd, thick, c2] (d) -- (e);
+		\node[point = {1.8}, c1, label = {below, c1}:{$Z$}] (e) at ($(d)!0.3!(e)$) {};
+		\node[xkcd, draw = black, rectangle] (t) at (0,5) {$t=0.3$};
+	\end{tikzpicture}
+\end{document}

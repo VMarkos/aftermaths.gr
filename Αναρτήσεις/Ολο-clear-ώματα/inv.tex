@@ -1,0 +1,23 @@
+\documentclass[aspectratio=169]{beamer}
+%\usepackage[english,greek]{babel}
+%\usepackage[iso-8859-7]{inputenc}
+\usepackage{euler}
+\usepackage{graphicx,pgfplots,tikz}
+
+\beamertemplatenavigationsymbolsempty
+
+\begin{document}
+	\begin{frame}
+		\begin{figure}
+			\resizebox{\linewidth}{!}{\begin{tikzpicture}
+				\begin{scope}
+				\clip (-.5,-.1) rectangle (6,3);
+				\draw[thick,->] (-.5,0) -- (6,0);
+				\draw[thick,->] (0,-.1) -- (0,3);
+				\draw[blue, domain={0.01}:{5.8}, samples=100] plot (\x,{(1/(1+5*\x)-(1/(1+12*\x)))/\x});
+%				\draw[blue, domai/n={0.01}:{5.8}, samples=100] plot (\x,{1/\x});
+				\end{scope}
+				\end{tikzpicture}}
+		\end{figure}
+	\end{frame}
+\end{document}

@@ -1,0 +1,13 @@
+\documentclass{standalone}
+%\usepackage[english,greek]{babel}
+%\usepackage[iso-8859-7]{inputenc}
+\usepackage{euler}
+\usepackage{tikz}
+
+\begin{document}
+	\begin{tikzpicture}
+	\node[circle, inner sep=1.5pt, draw=black, fill=black, label={below}:{$O$}](o) at (0,0){};
+	\draw[thick] (o) -- (4,0)node[pos=1,below]{$x$};
+	\draw[thick] (o) -- (-2,2)node[pos=1,left]{$y$};
+	\end{tikzpicture}
+\end{document}

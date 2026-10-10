@@ -1,0 +1,63 @@
+\documentclass{beamer}
+\usepackage[english,greek]{babel}
+\usepackage[iso-8859-7]{inputenc}
+\usepackage{amsthm,amsmath,amssymb,graphicx,bbm,extarrows,float,tikz,changepage,subcaption,ifthen,chngcntr,soul,setspace,parskip,cancel}
+\usepackage{hyperref}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{arrows}
+\usetikzlibrary{positioning,matrix,scopes,fit,svg.path}
+\usetikzlibrary{patterns}
+\usetikzlibrary{intersections}
+\usetikzlibrary{calc}
+%\usetheme{CambridgeUS}
+%\usecolortheme{orchid}
+
+\beamertemplatenavigationsymbolsempty
+
+\uselanguage{greek}
+
+\setbeamertemplate{itemize items}[default]
+  
+\newcommand{\R}{\mathbb{R}}
+
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+
+\let\sin\relax
+\DeclareMathOperator{\sin}{\text{зм}}
+
+\let\cos\relax
+\DeclareMathOperator{\cos}{\text{ухн}}
+
+\let\tan\relax
+\DeclareMathOperator{\tan}{\text{ец}}
+
+\begin{document}
+\foreach \n in {1,...,36}{
+    \begin{frame}[plain]
+    \begin{figure}[!htb]
+    \centering
+    \begin{tikzpicture}
+    \draw[thick,->] (0,0) -- (7,0)node[pos=1,below]{$+\infty$}node[pos=0,below]{$-\infty$};
+    \foreach \i in {1,...,\n}{
+        \ifthenelse{\i<7}{
+            \node[circle, fill=black, inner sep=1.5pt, label={above}:{$\scriptstyle\i$}] at (\i,0){};
+        }{
+            \ifthenelse{\i<19}{
+                \pgfmathtruncatemacro{\j}{(\i-6)/2}
+                \pgfmathtruncatemacro{\ij}{\i-6}
+                \node[circle, fill=red!75!black, inner sep=1.5pt, label={below}:{$\scriptstyle\ij/2$}] at (\j,0){};
+            }{
+                %\pgfmathtruncatemacro{\k}{(\i-18)/3}
+                %\pgfmathtruncatemacro{\ik}{\i-18}
+                %\node[circle, fill=blue!75!black, inner sep=1.5pt, label={above}:{$\scriptstyle\ik/3$}] at (\j,0){};
+            }
+        }
+    }
+    \end{tikzpicture}
+    \end{figure}
+    \end{frame}
+}
+\end{document}

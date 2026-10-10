@@ -1,0 +1,54 @@
+% !TeX program = xelatex
+\documentclass[margin = 5mm, tikz]{standalone}
+\usepackage{xfrac}
+\usepackage[MnSymbol]{mathspec}
+\usepackage{esvect}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+	xkcd/.default = {4},
+	point/.default = {2}
+}
+
+\begin{document}
+	\begin{tikzpicture}
+		\pgfmathsetmacro{\m}{6/sqrt(2)}
+		\pgfmathsetmacro{\d}{6 - 6/sqrt(2)}
+		\draw[xkcd, thick] (0,0) -- (6,0) -- (6,6) -- (0,6) -- cycle;
+		\draw[xkcd, thick, fill = c1, fill opacity = 0.1] (0,0) -- (\m,0) -- (\m,\m) -- (0,\m) -- cycle;
+		\draw[xkcd, thick, fill = c1, fill opacity = 0.1, xshift = \d cm, yshift = \d cm] (0,0) -- (\m,0) -- (\m,\m) -- (0,\m) -- cycle;
+		\node[above] at (\d/2, 6) {$m-n$};
+		\node[above] at ({\d + \m/2}, 6) {$n$};
+		\node[below] at ({6 -\d/2}, 0) {$m-n$};
+		\node[below] at ({6 - \d - \m/2}, 0) {$n$};
+		\node[above] at (\d/2, 6) {$m-n$};
+		\node[left] at (0,\m/2) {$n$};
+		\node[left] at (0,{\d/2 + \m}) {$m-n$};
+		\node[right] at (6,\d/2) {$m-n$};
+		\node[right] at (6,{\m/2 + \d}) {$n$};
+		\node[above] at (3,\m) {$2n-m$};
+		\node[below] at (3,6-\m) {$2n-m$};
+		\node[left] at (6-\m,3) {$2n-m$};
+		\node[right] at (\m,3) {$2n-m$};
+	\end{tikzpicture}
+\end{document}

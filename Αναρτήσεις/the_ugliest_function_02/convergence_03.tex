@@ -1,0 +1,66 @@
+% !TeX program = xelatex
+\documentclass[tikz, margin = 5mm]{standalone}
+
+\usepackage{xfrac}
+\usepackage{ifthen}
+\usepackage{intcalc}
+\usepackage[MnSymbol]{mathspec}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing, decorations.text}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {2}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = #2mm, amplitude = 0.2pt}},
+	xkcd/.default = {4}{0.6},
+	point/.default = {2},
+	declare function = {f(\x) = 0.4 * \x * sin(20/(\x) r) - 4 * cos(20 / (\x) r);}
+}
+
+\begin{document}
+	\begin{tikzpicture}
+		\draw[xkcd, thick, ->] (-1,0) -- (7,0) node[pos=1, below]{$x$};
+		\draw[xkcd, thick, ->] (0,-1) -- (0,7) node[pos=1, left]{$y$};
+		\node[point, c2] (zero) at (0,0) {};
+		\node[point, c2] (one) at (6,6) {};
+		\begin{pgfonlayer}{bg}
+			% f1
+			\draw[xkcd, c1, thick] (zero) -- (one) node[pos = 0.5, above, rotate = 45] {\scriptsize$f_1$};
+			% f2
+			\draw[xkcd, c1, thick, domain = {0}:{6}, opacity = 0.8] plot (\x,{pow(\x,2) / 6});
+			\node[above, c1, opacity = 0.8, rotate = 45] (f2 label) at (3.5,2.0) {\scriptsize$f_2$};
+			% f3
+			\draw[xkcd, c1, thick, domain = {0}:{6}, opacity = 0.6] plot (\x,{pow(\x,3) / 36});
+			\node[above, c1, opacity = 0.6, rotate = 48] (f3 label) at (4,1.75) {\scriptsize$f_3$};
+			% f4
+			\draw[xkcd, c1, thick, domain = {0}:{6}, opacity = 0.4] plot (\x,{pow(\x,4) / 216});
+			\node[above, c1, opacity = 0.4, rotate = 52] (f4 label) at (4.42,1.65) {\scriptsize$f_4$};
+			% f5
+			\draw[xkcd, c1, thick, domain = {0}:{6}, opacity = 0.2] plot (\x,{pow(\x,5) / pow(6,4)});
+			\node[above, c1, opacity = 0.2, rotate = 55] (f5 label) at (4.72,1.55) {\tiny$f_5$};
+			\foreach \i in {6,...,20} {
+				\pgfmathsetmacro{\opacity}{0.14 - (\i - 6) / 140}
+				\draw[xkcd, c1, domain = {0}:{1}, opacity = \opacity, scale = 6] plot (\x,{pow(\x, {\i})});
+			}
+		\end{pgfonlayer}
+		\draw[xkcd, ultra thick, c2] (0,0) -- (6,0) node[pos=0.5, below] {$f$};
+		\node[empty point, draw = c2] (discontinuity) at (6,0) {};
+		\draw[xkcd, dashed, c2] (discontinuity) -- (one);
+	\end{tikzpicture}
+\end{document}

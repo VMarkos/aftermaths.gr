@@ -1,0 +1,53 @@
+\documentclass{beamer}
+\usepackage[english,greek]{babel}
+\usepackage[iso-8859-7]{inputenc}
+\usepackage{amsthm,amsmath,amssymb,graphicx,bbm,extarrows,float,tikz,changepage,subcaption,ifthen,chngcntr,soul,setspace,parskip,cancel}
+\usepackage{hyperref}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{arrows}
+\usetikzlibrary{positioning,matrix,scopes,fit,svg.path}
+\usetikzlibrary{patterns}
+\usetikzlibrary{intersections}
+\usetikzlibrary{calc}
+%\usetheme{CambridgeUS}
+%\usecolortheme{orchid}
+
+\uselanguage{greek}
+  
+\newcommand{\R}{\mathbb{R}}
+
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+
+\let\sin\relax
+\DeclareMathOperator{\sin}{\text{ημ}}
+
+\let\cos\relax
+\DeclareMathOperator{\cos}{\text{συν}}
+
+\let\tan\relax
+\DeclareMathOperator{\tan}{\text{εφ}}
+
+\begin{document}
+\begin{frame}
+\frametitle{Η στροφή και η επιμεριστική ιδιότητα}
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw[thick,->,name path=x axis] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+\draw[thick,->,name path=y axis] (0,-2.5) -- (0,4)node[pos=1,left]{$y$};
+\node[left,yshift=-8pt](O) at (0,0){$O$};
+\draw[dashed] (0,0) circle (2cm);
+\draw[very thick, blue!75!black, ->] (0,0) -- (40:2)node[pos=1,right]{$\vec{v}$};
+\draw[very thick, red!75!black, ->] (0,0) -- (105:2)node[pos=1,above]{$\vec{u}$};
+\draw[very thick, green!40!black, ->] (0,0) -- (30:2)node[pos=1,right]{$\vec{w}$};
+\begin{pgfonlayer}{bg}
+\filldraw[fill=blue!75!black, draw=blue!75!black, fill opacity=.1] (0,0) -- (.8,0) arc (0:40:.8) -- cycle node[pos=0,right,yshift=-2pt,opacity=1,blue!75!black]{$\phi$};
+\filldraw[fill=red!75!black, draw=red!75!black, fill opacity=.1] (0,0) -- (.6,0) arc (0:105:.6) -- cycle node[pos=0,right,yshift=6pt,xshift=4pt,opacity=1,red!75!black]{$\theta$};
+\end{pgfonlayer}
+\end{tikzpicture}
+\end{figure}
+\end{frame}
+\end{document}

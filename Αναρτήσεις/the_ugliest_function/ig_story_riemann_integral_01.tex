@@ -1,0 +1,146 @@
+% !TeX program = xelatex
+\documentclass{article}
+\usepackage{geometry}
+\usepackage[11pt]{moresize}
+\usepackage{tikz}
+
+\geometry{paperwidth = 28.875cm, paperheight = 50.8cm, margin = 0cm, inner = 0cm, outer = 0cm}
+
+\usepackage{xfrac}
+\usepackage{ifthen}
+\usepackage{intcalc}
+\usepackage[MnSymbol]{mathspec}	
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+	xkcd/.default = {4},
+	point/.default = {2}
+}
+
+\begin{document}
+	\pagestyle{empty}\noindent
+	\begin{tikzpicture}
+		\begin{pgfonlayer}{bg}
+			\draw[opacity = 0.3, dashed, c2] (-14.4375,-25.39) grid (14.4375,25.39);
+			\draw[opacity = 0.1, densely dashed, c2, step = 0.5] (-14.4375,-25.39) grid (14.4375,25.39);
+		\end{pgfonlayer}
+		\node[black] (title) at (0,22) {\HUGE \textbf{Το Ολοκλήρωμα Riemann}};
+		\node[scale = 1.4] (function) at (-7,16) {\begin{tikzpicture}
+			\draw[xkcd, thick, ->] (-0.5,0) -- (8,0) node[pos=1, below]{$x$};
+			\draw[xkcd, thick, ->] (0,-0.5) -- (0,5) node[pos=1, left]{$y$};
+			\draw[xkcd, c1, thick, samples = 200, name path global = f] plot [smooth] coordinates {(-0.5,0.8) (1,2.8) (2.1,1.5) (3.6,4.3) (5.5,2.2) (8,0.7)} node[right] {$C_f$};
+			\draw[draw = none, name path global = line a] (1,0) -- (1,5);
+			\draw[draw = none, name path global = line b] (6.2,0) -- (6.2,5);
+			\node[draw = none] (o) at (0,0) {};
+			\node[draw = none] (ur) at (8,5) {};
+			\node[point, c1, name intersections = {of = f and {line a}}] (a) at (intersection-1) {};
+			\node[point, c1, name intersections = {of = f and {line b}}] (b) at (intersection-1) {};
+			\draw[xkcd, dashed, thick, c1] (a) -- (a |- o) node [pos=1, below] {$x=a$};
+			\draw[xkcd, dashed, thick, c1] (b) -- (b |- o) node [pos=1, below] {$x=b$};
+			\begin{scope}
+			\clip (1,-0.5) rectangle (b |- ur);
+			\fill[xkcd, c1, fill opacity = 0.1, samples = 200] plot [smooth] coordinates {(-0.5,0.8) (1,2.8) (2.1,1.5) (3.6,4.3) (5.5,2.2) (8,0.7)} -- (7.6,0) -- (-0.44,0) -- cycle;
+			\end{scope}
+		\end{tikzpicture}};
+	
+		\node[text width = 10cm] (label 1) at (7,16) {\raggedleft\LARGE\baselineskip=28pt Ας πούμε ότι είναι πάρα πολύ σημαντικό να υπολογίσουμε το εμβαδό του διπλανού χρωματιστού χωρίου\ldots\par};
+	
+		\node[scale = 1.4] (first attempt) at (7,6) {\begin{tikzpicture}
+			\draw[xkcd, thick, ->] (-0.5,0) -- (8,0) node[pos=1, below]{$x$};
+			\draw[xkcd, thick, ->] (0,-0.5) -- (0,5) node[pos=1, left]{$y$};
+			\draw[xkcd, c1, thick, samples = 200, name path global = f] plot [smooth] coordinates {(-0.5,0.8) (1,2.8) (2.1,1.5) (3.6,4.3) (5.5,2.2) (8,0.7)} node[right] {$C_f$};
+			\draw[draw = none, name path global = line a] (1,0) -- (1,5);
+			\draw[draw = none, name path global = line b] (6.2,0) -- (6.2,5);
+			\node[draw = none] (o) at (0,0) {};
+			\node[draw = none] (ur) at (8,5) {};
+			\node[point, c1, name intersections = {of = f and {line a}}] (a) at (intersection-1) {};
+			\node[point, c1, name intersections = {of = f and {line b}}] (b) at (intersection-1) {};
+			\draw[xkcd, dashed, thick, c1] (a) -- (a |- o) node [pos=1, below, xshift = -0.3cm] {$x=a$};
+			\draw[xkcd, dashed, thick, c1] (b) -- (b |- o) node [pos=1, below, xshift =  0.3cm] {$x=b$};
+			\pgfmathsetmacro{\dx}{0.65}
+			\begin{pgfonlayer}{bg}
+			\foreach \i [count = \j] in {1, 1.65,..., 6.1} {			
+				\draw[draw = none, name path global = line \j] ({\i + 0.5 * \dx}, 0) -- ({\i + 0.5 * \dx}, 5);
+				\node[draw = none, name intersections = {of = {f and line \j}}] (xi\j) at (intersection-1) {};
+				\node[draw = none] (top\j) at ({\i + \dx}, 5) {};
+				\draw[xkcd, draw = c2, fill opacity = 0.1, fill = c2] (\i,0) rectangle (top\j |- xi\j);
+				\draw[xkcd, dashed] (xi\j) -- (xi\j |- o) node[pos = 1, below] {\scriptsize$\xi_\j$};
+			}
+			\end{pgfonlayer}
+			\node[draw = none] (mid) at (0,2.2) {};
+			\draw[xkcd, thick, <->] (top4 |- mid) -- (top5 |- mid) node[pos=0.5, above] {\small$\Delta x$};
+			%		\begin{scope}
+			%			\clip (1,-0.5) rectangle (b |- ur);
+			%			\fill[xkcd, c1, fill opacity = 0.1, samples = 200] plot [smooth] coordinates {(-0.5,0.8) (1,2.8) (2.1,1.5) (3.6,4.3) (5.5,2.2) (8,0.7)} -- (7.6,0) -- (-0.44,0) -- cycle;
+			%		\end{scope}
+		\end{tikzpicture}};
+	
+		\node[text width = 10cm] (label 2) at (-7,6) {\raggedright\LARGE\baselineskip=28pt Μία απλή ιδέα είναι να σχεδιάσουμε ορθογώνια με σταθερό πλάτος $\Delta x$ και με ύψος που να καθορίζεται από τη γραφική παράσταση της $f$, όπως φαίνεται δίπλα\ldots\par};
+	
+		\node[scale = 1.4] (second attempt) at (-7,-4) {\begin{tikzpicture}
+			\draw[xkcd, thick, ->] (-0.5,0) -- (8,0) node[pos=1, below]{$x$};
+			\draw[xkcd, thick, ->] (0,-0.5) -- (0,5) node[pos=1, left]{$y$};
+			\draw[xkcd, c1, thick, samples = 200, name path global = f] plot [smooth] coordinates {(-0.5,0.8) (1,2.8) (2.1,1.5) (3.6,4.3) (5.5,2.2) (8,0.7)} node[right] {$C_f$};
+			\draw[draw = none, name path global = line a] (1,0) -- (1,5);
+			\draw[draw = none, name path global = line b] (6.2,0) -- (6.2,5);
+			\node[draw = none] (o) at (0,0) {};
+			\node[draw = none] (ur) at (8,5) {};
+			\node[point, c1, name intersections = {of = f and {line a}}] (a) at (intersection-1) {};
+			\node[point, c1, name intersections = {of = f and {line b}}] (b) at (intersection-1) {};
+			\draw[xkcd, dashed, thick, c1] (a) -- (a |- o) node [pos=1, below, xshift = -0.3cm] {$x=a$};
+			\draw[xkcd, dashed, thick, c1] (b) -- (b |- o) node [pos=1, below, xshift =  0.3cm] {$x=b$};
+			\pgfmathsetmacro{\dx}{0.288}
+			\begin{pgfonlayer}{bg}
+			\foreach \i [count = \j] in {1, 1.288,..., 6.1} {			
+				\draw[draw = none, name path global = line \j] ({\i + 0.5 * \dx}, 0) -- ({\i + 0.5 * \dx}, 5);
+				\node[draw = none, name intersections = {of = {f and line \j}}] (xi\j) at (intersection-1) {};
+				\node[draw = none] (top\j) at ({\i + \dx}, 5) {};
+				\draw[xkcd = {0}, draw = c2, fill opacity = 0.1, fill = c2] (\i,0) rectangle (top\j |- xi\j);
+				\draw[xkcd, dashed] (xi\j) -- (xi\j |- o) node[pos = 1, below] {};% {\tiny$\xi_{\j}$};
+			}
+			\end{pgfonlayer}
+			\node[draw = none] (mid) at (0,2.2) {};
+		\end{tikzpicture}};
+	
+		\node[text width = 10cm] (label 3) at (7,-4) {\raggedright\LARGE\baselineskip=28pt Σαφώς, αν πάρουμε λίγα ορθογώνια δεν μπορούμε να κάνουμε δουλειά. Γι' αυτό και το καλύτερο που έχουμε να κάνουμε είναι να αρχίσουμε να παίρνουμε όλο και περισσότερα (και λεπτότερα) ορθογώνια\ldots\par};
+		
+		\node[text width = 10cm] (label 4) at (-7,-15) {\raggedright\LARGE\baselineskip=28pt Στο τέλος καταλήγουμε έτσι με «απείρως» λεπτά ορθογώνια, των οποίων τα εμβαδά αν «αθροίσουμε» παίρνουμε και το ζητούμενο εμβαδό. Τι γίνεται όμως με συναρτήσεις σαν τη διπλανή, που είναι 1 στους ρητούς και 0 στους άρρητους;\par};
+		
+		\node[scale = 1.4] (problem) at (7,-15) {\begin{tikzpicture}
+			\draw[xkcd, thick, ->] (-0.5,0) -- (8,0) node[pos=1, below]{$x$};
+			\draw[xkcd, thick, ->] (0,-0.5) -- (0,5) node[pos=1, left]{$y$};
+			\foreach \i [count = \j] in {-0.5,-0.4,...,8} {
+				\node[point = {0.15}, c1] (r\j) at (\i,3) {};
+			}
+			\foreach \i [count = \j] in {-0.5,-0.46,...,7.9} {
+				\node[point = {0.15}, c2] (i\j) at (\i,0) {};
+			}
+			\node[c1] (rationals) at (6,2) {ρητοί};
+			\node[c2] (irrationals) at (6,1) {άρρητοι};
+			\draw[xkcd, thick, dashed, c1, ->] (rationals.west) to[bend left = 65] (r45);
+			\draw[xkcd, thick, dashed, c2, ->] (irrationals.west) to[bend left = -65] (i105);
+		\end{tikzpicture}};
+	
+		\node (tbc) at (0,-22) {\Huge \textbf{Συνεχίζεται\ldots}};
+	\end{tikzpicture}
+\end{document}

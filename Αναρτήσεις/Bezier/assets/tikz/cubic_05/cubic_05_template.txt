@@ -1,0 +1,50 @@
+% !TeX program = xelatex
+        \\documentclass[margin = 5mm, tikz]{standalone}
+        \\usepackage{xfrac}
+        \\usepackage[MnSymbol]{mathspec}
+        \\usepackage{esvect}
+        \\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+        \\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+        \\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+        \\usetikzlibrary{intersections}
+        \\usetikzlibrary{patterns}
+        \\usetikzlibrary{calc}
+        \\usetikzlibrary{shapes.misc}
+        \\usetikzlibrary{spy}
+
+        \\pgfdeclarelayer{bg}
+        \\pgfdeclarelayer{bbg}
+        \\pgfsetlayers{bbg, bg, main}
+
+        \\definecolor{c1}{HTML}{ac0000}
+        \\definecolor{c2}{HTML}{00a0d5}
+
+        \\newcommand{\\abs}[1]{{\left|{#1}\\right|}}
+
+        \\tikzset{
+            point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+            empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+            cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+            xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+            xkcd/.default = {4},
+            point/.default = {2}
+        }
+
+        \\begin{document}
+            \\begin{tikzpicture}
+                \\node[point, c1, label = {left}:{$A$}] (a) at (0,0) {};
+                \\node[point, c1, label = {above}:{$B$}] (b) at (3.2,2) {};
+                \\node[point, c1, label = {below}:{$C$}] (c) at (6,-3) {};
+                \\node[point, c1, label = {right}:{$D$}] (d) at (10,-2) {};
+                \\node[point = {1.8}, c2] (x) at (""" + ",".join(x_str) + """) {};
+                \\node[point = {1.8}, c2] (y) at (""" + ",".join(y_str) + """) {};
+                \\node[point = {1.8}, c2] (z) at (""" + ",".join(z_str) + """) {};
+                \\node[point = {1.8}, c1] (p) at (""" + ",".join(p_str) + """) {};
+                \\node[point = {1.8}, c1] (q) at (""" + ",".join(q_str) + """) {};
+                \\begin{pgfonlayer}{bg}
+                    \\draw[xkcd, thick] (a) -- (b) -- (c) -- (d);
+                    \\draw[xkcd, thick, c2] (x) -- (y) -- (z);
+                    \\draw[xkcd, thick, c1] (p) -- (q);
+                \\end{pgfonlayer}
+            \\end{tikzpicture}
+        \\end{document}

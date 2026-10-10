@@ -1,0 +1,49 @@
+% !TeX program = xelatex
+\documentclass[margin = 5mm, tikz]{standalone}
+\usepackage{xfrac}
+\usepackage[MnSymbol]{mathspec}
+\usepackage{esvect}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+\usetikzlibrary{positioning}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+	xkcd/.default = {4},
+	point/.default = {2},
+}
+
+\begin{document}
+	\begin{tikzpicture}
+		% Lines
+		\draw[xkcd, thick, black] (0,0) rectangle (6,4);
+		\draw[xshift=-0.6cm, xkcd, thick, c1, line cap=round, fill=c1, fill opacity = 0.1] plot [smooth cycle] coordinates {(0.8,0.7) (1.8,3.3) (2.9,2.6) (2.6,0.3)};
+		\draw[yshift=0.5cm, xshift=0.6cm, xkcd, thick, c2, line cap=round, fill=c2, fill opacity = 0.1] plot [smooth cycle] coordinates {(2,1.8) (3.7,2.9) (5.2,2) (4.5,0.4) (3, 0.3)};
+		% Labels
+		\node[c1] (integers) at (-1,5) {Διαιρέτες του $a_0$};
+		\node[c2] (solutions) at (7,5) {Λύσεις της Εξίσωσης};
+%		\node[c1!50!c2!50] (divisors) at (2,-1) {Ακέραιες Λύσεις της Εξίσωσης};
+		% Arrows
+		\draw[xkcd, c1, dashed, thick, ->] (integers) to[bend left] (1.8,3.5);
+		\draw[xkcd, c2, dashed, thick, ->] (solutions.west) to[bend right] (3.7,3.5);
+%		\draw[xkcd, c1!50!c2!50, dashed, thick, ->] (divisors) to[bend right] (2.9,0.7);
+	\end{tikzpicture}
+\end{document}

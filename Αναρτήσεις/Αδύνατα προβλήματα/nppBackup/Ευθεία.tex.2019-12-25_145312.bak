@@ -1,0 +1,70 @@
+\documentclass{beamer}
+\usepackage[english,greek]{babel}
+\usepackage[iso-8859-7]{inputenc}
+\usepackage{amsthm,amsmath,amssymb,graphicx,bbm,extarrows,float,tikz,changepage,subcaption,ifthen,chngcntr,soul,setspace,parskip,cancel}
+\usepackage{hyperref}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{arrows}
+\usetikzlibrary{positioning,matrix,scopes,fit,svg.path}
+\usetikzlibrary{patterns}
+\usetikzlibrary{intersections}
+\usetikzlibrary{calc}
+%\usetheme{CambridgeUS}
+%\usecolortheme{orchid}
+
+\beamertemplatenavigationsymbolsempty
+
+\uselanguage{greek}
+
+\setbeamertemplate{itemize items}[default]
+  
+\newcommand{\R}{\mathbb{R}}
+
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+
+\let\sin\relax
+\DeclareMathOperator{\sin}{\text{ημ}}
+
+\let\cos\relax
+\DeclareMathOperator{\cos}{\text{συν}}
+
+\let\tan\relax
+\DeclareMathOperator{\tan}{\text{εφ}}
+
+\begin{document}
+\begin{frame}
+\frametitle{Το Καρτεσιανό Επίπεδο}
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw[thick,->] (-1,0) -- (6,0)node[pos=1,below]{$x$};
+\draw[thick,->] (0,-1) -- (0,6)node[pos=1,left]{$y$};
+\node[circle, inner sep=1.5pt, fill=black, draw=black, label={left,yshift=-10pt}:{$O$}](o) at (0,0){};
+\foreach \i in {1,...,5}{
+    \ifthenelse{\i=0}{}{
+        \draw (\i,-.1) -- (\i,.1)node[pos=0,below]{$\i$};
+        \draw (-.1,\i) -- (.1,\i)node[pos=0,left]{$\i$};
+    }
+}
+\node[circle, inner sep=1.5pt, fill=red, draw=red, label={above}:{$A$}](a) at (1,2){};
+\node[circle, inner sep=1.5pt, fill=green!40!black, draw=green!40!black, label={below}:{$C$}](c) at (2.5,2){};
+\node[circle, inner sep=1.5pt, fill=green!40!black, draw=green!40!black, label={below}:{$D$}](d) at (4,2){};
+\node[circle, inner sep=1.5pt, fill=red, draw=red, label={above}:{$B$}](b) at (4,3){};
+\node[circle, inner sep=1.5pt, fill=blue, draw=blue, label={above}:{$M$}](m) at (2.5,{7.5/3}){};
+\node[below] at (2.5,0){$x$};
+\node[left] at (0,2.5){$y$};
+\begin{pgfonlayer}{bg}
+\draw[thin,orange,domain={-1}:{6}] plot (\x,{\x/3+5/3});
+\draw[dashed] (o) rectangle (a);
+\draw[dashed] (o) rectangle (b);
+\draw[dashed] (o) rectangle (c);
+\draw[dashed] (o) rectangle (d);
+\draw[dashed] (o) rectangle (m);
+\end{pgfonlayer}
+\end{tikzpicture}
+\end{figure}
+\end{frame}
+\end{document}

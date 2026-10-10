@@ -1,0 +1,69 @@
+\documentclass{beamer}
+\usepackage{tikz}
+%\usepackage{beamerthemesplit}
+\usepackage[orientation=landscape,size=custom,width=12,height=3,scale=0.5,debug]{beamerposter}
+
+\beamertemplatenavigationsymbolsempty
+
+\begin{document}
+	\begin{frame}
+		\begin{figure}
+			\centering
+			\begin{tikzpicture}
+			\draw[thick] (-4,0) -- (4,0);
+			\node[circle, fill=red, draw=red, inner sep=2pt, label={above}:{1}](one) at (3,0){};
+			\node[circle, fill=blue, draw=blue, inner sep=1.5pt, label={below}:{0.9}](test) at (-3,0){};
+			\end{tikzpicture}
+		\end{figure}
+	\end{frame}
+\begin{frame}
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}
+		\draw[thick] (-4,0) -- (4,0);
+		\node[circle, fill=red, draw=red, inner sep=2pt, label={above}:{1}](one) at (3,0){};
+		\node[circle, fill=blue, draw=blue, inner sep=1.5pt, label={below}:{0.99}](test) at (-1,0){};
+		\end{tikzpicture}
+	\end{figure}
+\end{frame}
+\begin{frame}
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}
+		\draw[thick] (-4,0) -- (4,0);
+		\node[circle, fill=red, draw=red, inner sep=2pt, label={above}:{1}](one) at (3,0){};
+		\node[circle, fill=blue, draw=blue, inner sep=1.5pt, label={below}:{0.999}](test) at (0.5,0){};
+		\end{tikzpicture}
+	\end{figure}
+\end{frame}
+\begin{frame}
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}
+		\draw[thick] (-4,0) -- (4,0);
+		\node[circle, fill=red, draw=red, inner sep=2pt, label={above}:{1}](one) at (3,0){};
+		\node[circle, fill=blue, draw=blue, inner sep=1.5pt, label={below}:{0.9999}](test) at (1.8,0){};
+		\end{tikzpicture}
+	\end{figure}
+\end{frame}
+\begin{frame}
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}
+		\draw[thick] (-4,0) -- (4,0);
+		\node[circle, fill=red, draw=red, inner sep=2pt, label={above}:{1}](one) at (3,0){};
+		\node[circle, fill=blue, draw=blue, inner sep=1.5pt, label={below}:{0.99999}](test) at (2.7,0){};
+		\end{tikzpicture}
+	\end{figure}
+\end{frame}
+\begin{frame}
+	\begin{figure}
+		\centering
+		\begin{tikzpicture}
+		\draw[thick] (-4,0) -- (4,0);
+		\node[circle, fill=red, draw=red, inner sep=2pt, label={above}:{1}](one) at (3,0){};
+		\node[circle, fill=blue, draw=blue, inner sep=1.5pt, label={below}:{0.999999}](test) at (2.95,0){};
+		\end{tikzpicture}
+	\end{figure}
+\end{frame}
+\end{document}

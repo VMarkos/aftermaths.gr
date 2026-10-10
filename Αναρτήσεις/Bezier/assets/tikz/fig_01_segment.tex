@@ -1,0 +1,35 @@
+% !TeX program = xelatex
+\documentclass[margin = 5mm, tikz]{standalone}
+\usepackage{xfrac}
+\usepackage[MnSymbol]{mathspec}
+\usepackage{esvect}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{point/.style={circle, draw=black, inner sep=0.15cm, fill=black}, empty point/.style={circle, draw=black, inner sep=2pt, fill=white}, cross/.style={cross out, draw, minimum size=2*(#1-\pgflinewidth), inner sep=0pt, outer sep=0pt},
+	xkcd/.style = {decorate, decoration={random steps,segment length=0.8mm,amplitude=0.2pt}}}
+
+\begin{document}
+	\begin{tikzpicture}
+		\node[point, c1, xkcd, label = {left}:{$A(2,3)$}] (a) at (0,0) {};
+		\node[point, c1, xkcd, label = {right}:{$B(4,5)$}] (b) at (6,6) {};
+		\draw[thick, black, xkcd] (a) -- (b);
+		\node[point, c2, xkcd] (c) at (3.6,3.6) {};
+		\draw[dashed, thick, ->, xkcd] ($(a) + (0.3,-0.3)$) -- ($(c) + (0.3,-0.3)$) node[pos=0.5, right, anchor = west]{$\Delta\vv{x}=\vv{v}t$};
+	\end{tikzpicture}
+\end{document}

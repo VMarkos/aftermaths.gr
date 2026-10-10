@@ -1,0 +1,56 @@
+% !TeX program = xelatex
+\documentclass[margin = 5mm, tikz]{standalone}
+\usepackage{xfrac}
+\usepackage[MnSymbol]{mathspec}
+\usepackage{esvect}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+	xkcd/.default = {4},
+	point/.default = {2}
+}
+
+\begin{document}
+	\begin{tikzpicture}
+		\draw[xkcd] (1.6, 0.2) -- (1.6, -4.2);
+		\draw[xkcd] (1.6, -0.3) -- (2.6, -0.3);
+		\node[anchor=west] (divident) at (0,0) {$143$};
+		\node[anchor=west] (divisor) at (1.6,0) {$8$};
+		\node[anchor=west] (result) at (1.6,-0.6) {$12\textcolor{c2}{.875}$};
+		\node[anchor=west] (a1) at (-0.06,-0.4) {$-8$};
+		\draw[xkcd] (0, -0.6) -- (0.7, -0.6);
+		\node[anchor=west] (a2) at (0,-0.8) {\hphantom{$1$}$23$};
+		\node[anchor=west] (a3) at (0,-1.2) {$-16$};
+		\draw[xkcd] (0, -1.4) -- (0.7, -1.4);
+		\node[anchor=west] (remainder) at (0,-1.6) {\hphantom{$14$}$7\textcolor{c2}{0}$};
+		\node[anchor=west, c2] (a4) at (0.15,-2.0) {$-64$};
+		\draw[xkcd, c2] (0.15, -2.2) -- (1.1, -2.2);
+		\node[anchor=west, c2] (a5) at (0,-2.4) {\hphantom{$143$}$60$};
+		\node[anchor=west, c2] (a6) at (0,-2.8) {\hphantom{$14$}$-56$};
+		\draw[xkcd, c2] (0.4, -3.0) -- (1.4, -3.0);
+		\node[anchor=west, c2] (a7) at (0,-3.2) {\hphantom{$1430$}$40$};
+		\node[anchor=west, c2] (a8) at (0,-3.6) {\hphantom{$143$}$-40$};
+		\draw[xkcd, c2] (0.6, -3.8) -- (1.4, -3.8);
+		\node[anchor=west, c2] (a9) at (0,-4) {\hphantom{$14300$}$0$};
+	\end{tikzpicture}
+\end{document}

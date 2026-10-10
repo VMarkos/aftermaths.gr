@@ -1,0 +1,81 @@
+% !TeX program = xelatex
+\documentclass[margin = 5mm, tikz]{standalone}
+\usepackage{xfrac}
+\usepackage[MnSymbol]{mathspec}
+\usepackage{esvect}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\makeatletter
+\newcommand\binomialCoefficient[2]{%
+	% Store values 
+	\c@pgf@counta=#1% n
+	\c@pgf@countb=#2% k
+	%
+	% Take advantage of symmetry if k > n - k
+	\c@pgf@countc=\c@pgf@counta%
+	\advance\c@pgf@countc by-\c@pgf@countb%
+	\ifnum\c@pgf@countb>\c@pgf@countc%
+		\c@pgf@countb=\c@pgf@countc%
+	\fi%
+	%
+	% Recursively compute the coefficients
+	\c@pgf@countc=1% will hold the result
+	\c@pgf@countd=0% counter
+	\pgfmathloop% c -> c*(n-i)/(i+1) for i=0,...,k-1
+	\ifnum\c@pgf@countd<\c@pgf@countb%
+		\multiply\c@pgf@countc by\c@pgf@counta%
+		\advance\c@pgf@counta by-1%
+		\advance\c@pgf@countd by1%
+		\divide\c@pgf@countc by\c@pgf@countd%
+	\repeatpgfmathloop%
+	\the\c@pgf@countc%
+}
+\makeatother
+
+\tikzset{
+    point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+    empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+    cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+    xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+    xkcd/.default = {4},
+    point/.default = {2}
+}
+
+\begin{document}
+    \begin{tikzpicture}
+    	\pgfmathsetmacro{\dx}{1.7}
+    	\pgfmathsetmacro{\dy}{1}
+    	\foreach \i in {0,...,6} {
+    		\foreach \j in {0,...,\i} {
+    			\pgfmathsetmacro{\xc}{(\j - 0.5 * \i) * \dx}
+    			\pgfmathsetmacro{\yc}{-\i * \dy}
+    			\node (\i\j) at (\xc, \yc) {$\binomialCoefficient{\i}{\j}$};
+	    	}
+    	}
+    	\foreach \i in {2,...,6} {
+    		\pgfmathtruncatemacro{\upper}{\i - 1}
+    		\foreach \j in {1,...,\upper} {
+    			\pgfmathtruncatemacro{\upleft}{\j - 1}
+    			\pgfmathtruncatemacro{\upright}{\j}
+    			\draw[xkcd, thick, ->, c1] (\upper\upleft) -- (\i\j) node[circle, draw=c1, inner sep = 0.01cm, fill=white, pos=0.5]{\small$+$};
+    			\draw[xkcd, thick, ->, c2] (\upper\upright) -- (\i\j) node[circle, draw=c2, inner sep = 0.01cm, fill=white, pos=0.5]{\small$+$};
+    		}
+    	}
+    \end{tikzpicture}
+\end{document}

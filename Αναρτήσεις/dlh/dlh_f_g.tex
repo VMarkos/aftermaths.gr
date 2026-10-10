@@ -1,0 +1,65 @@
+% !TeX program = xelatex
+\documentclass[margin = 5mm, tikz]{standalone}
+\usepackage{xfrac}
+%\usepackage{amsmath}
+%\usepackage{unicode-math}
+\usepackage[MnSymbol]{mathspec}
+%\usepackage{mathspec}
+%\setmainfont{Comic Sans MS}
+%\setmathfont(Digits,Latin,Greek,Symbols)[Scale=MatchLowercase]{Comic Sans MS}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+%\setmathfont{Georgia}
+%\setmathfont[range={"0000-"FFFF}]{Comic Sans MS}
+%\setmathfont[range=up]{Comic Sans MS}
+%\setmathfont[range=sfup]{Comic Sans MS}
+%\setmathfont[range=it]{Comic Sans MS}
+%\setmathfont[range=bfup]{Comic Sans MS}
+%\setmathfont[range=bfit]{Comic Sans MS}
+%\setsansfont{Comic Sans MS}  % Make \mathsf and \textsf also Calibri
+
+%\usetikzlibrary{decorations.pathmorphing}
+%\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{point/.style={circle, draw=black, inner sep=2pt, fill=black}, empty point/.style={circle, draw=black, inner sep=2pt, fill=white}, cross/.style={cross out, draw, minimum size=2*(#1-\pgflinewidth), inner sep=0pt, outer sep=0pt},
+	xkcd/.style = {decorate, decoration={random steps,segment length=0.8mm,amplitude=0.2pt}}}
+
+\begin{document}
+	\begin{tikzpicture}[spy using outlines={circle, magnification=4, connect spies}]
+		\draw[thick, xkcd, ->, name path=x axis] (-.5,0) -- (7,0);
+		\draw[thick, xkcd, ->] (0,-2) -- (0,4);
+	%			\draw[thick, red!30, domain=1:6.1, samples=100] plot (\x,{.2*(\x-1.8)*(\x-4)*(\x-5)})node[right]{$f$};
+	%			\draw[thick, blue!30, domain=1:6.1, samples=100] plot (\x,{-.3*(\x-1.5)*(\x-4)*(\x-5.8)})node[right]{$g$};
+%		\draw[thick, xkcd, c2, domain=2.7:6, name path=tg] plot (\x,{1.4*(\x-4)})node[right]{$\varepsilon_g$};
+%		\draw[thick, xkcd, black, domain=1:6, name path=tf] plot (\x,{-0.5*(\x-4)})node[below]{$\varepsilon_f$};
+		\draw[thick, c2, xkcd, domain=2:6.3, name path = tg] plot (\x,{0.92*(\x-4)})  node[above]{$\epsilon_g$};
+		\draw[thick, xkcd, domain=2:6.3, name path = tf] plot (\x,{-0.46*(\x-4)})  node[right]{$\epsilon_f$};
+		\node[circle, draw=c1, fill=c1, inner sep=1.5pt, label={below, xshift=2pt}:{$x_0$}] (a) at (4,0){};
+		\node[circle, fill=c1, inner sep=1.5pt, label={right, yshift=-8pt}:{$x$}] (x) at (5.5,0){};
+		\draw[draw=none, name path=lx] ($(0,-2)!(x)!(7,-2)$) -- ($(0,4)!(x)!(7,4)$);
+		\node[circle, fill=c1, inner sep=1.5pt, name intersections={of=tg and lx}, label={right}:{$A$}] (A) at (intersection-1){};
+		\node[circle, fill=c1, inner sep=1.5pt, name intersections={of=tf and lx}, label={below}:{$B$}] (B) at (intersection-1){};
+		\draw[c1, xkcd, dashed, thick] (A) -- (B);
+		\begin{pgfonlayer}{bg}
+			\draw[black, xkcd, fill=black!10] (a) -- ($(a) + (.6,0)$) arc (0:atan(-0.46):.6) node[pos=.7,right]{$\scriptstyle\phi$} -- (a);
+			\draw[c2, xkcd, fill=blue!10] (a) -- ($(a) + (.6,0)$) arc (0:atan(0.92):.6) node[pos=.7,right]{$\scriptstyle\theta$} -- (a);
+		\end{pgfonlayer}
+%		\node {$\begin{aligned}&\hphantom{=}\ \lim_{x\to x_0}\left(f(x)-(f'(x_0)(x-x_0)+f(x_0))\right)=\\&=\lim_{x\to x_0}\left(f(x)-f'(x_0)(x-x_0)-f(x_0)\right)=\\&=\lim_{x\to x_0}\left(f(x)-f(x_0)-f'(x_0)(x-x_0)\right)=\\&=\lim_{x\to x_0}(x-x_0)\left(\frac{f(x)-f(x_0)}{x-x_0)}-f'(x_0)\right)=\\&=0(f'(x_0)-f'(x_0))=\\&=0.\end{aligned}$};
+%			\spy[dashed, orange, size=5.5cm] on (a) in node [fill=white] at (3,4);
+	\end{tikzpicture}
+\end{document}

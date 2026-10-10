@@ -1,0 +1,50 @@
+% !TeX program = xelatex
+\documentclass[margin = 5mm, tikz]{standalone}
+\usepackage{xfrac}
+\usepackage[MnSymbol]{mathspec}
+\usepackage{esvect}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+	xkcd/.default = {4},
+	point/.default = {2}
+}
+
+\begin{document}
+	\begin{tikzpicture}
+		\pgfmathsetmacro{\m}{6/sqrt(2)}
+		\pgfmathsetmacro{\d}{6 - 6/sqrt(2)}
+		\pgfmathsetmacro{\b}{\m - \d}
+		\pgfmathsetmacro{\a}{\b}
+		\draw[xkcd, thick] (0,0) -- (6,0) -- (6,6) -- (0,6) -- cycle;
+		\draw[xkcd, thick, fill = c1, fill opacity = 0.1] (0,0) -- (\m,0) -- (\m,\m) -- (0,\m) -- cycle;
+		\draw[xkcd, thick, fill = c1, fill opacity = 0.1, xshift = \d cm, yshift = \d cm] (0,0) -- (\m,0) -- (\m,\m) -- (0,\m) -- cycle;
+		\draw[xkcd, thick, xshift = 8cm, yshift = \d cm, fill = c1, fill opacity = 0.2] (0, 0) -- (\b,0) -- (\b,\b) -- (0,\b) -- cycle;
+		\draw[xkcd, thick, xshift = 8cm, yshift = \d cm, fill = white, fill opacity = 0.8] (0,0) -- (\d, 0) -- (\d,\d) -- (0,\d) -- cycle;
+		\draw[xkcd, thick, xshift = {8 cm + \b cm - \d cm}, yshift = \a cm, fill = white, fill opacity = 0.8] (0,0) -- (\d, 0) -- (\d,\d) -- (0,\d) -- cycle;
+		\draw[xkcd, thick, xshift = 8cm, yshift = \d cm] (0,0) -- (\d, 0) -- (\d,\d) -- (0,\d) -- cycle;
+		\draw[xkcd, thick, dashed, ->] (3,3) -- (7.95,3);
+		\draw[xkcd, thick,  dashed, ->] (\d/2,{6-\d/2}) -- (9.70,{3 + \b/2.8});
+		\draw[xkcd, thick,  dashed, ->] ({6-\d/2},\d/2) -- (8.70,{3 - \b/2.8});
+	\end{tikzpicture}
+\end{document}

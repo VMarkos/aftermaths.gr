@@ -1,0 +1,48 @@
+\documentclass{beamer}
+\usepackage[english,greek]{babel}
+\usepackage[iso-8859-7]{inputenc}
+\usepackage{amsthm,amsmath,amssymb,graphicx,bbm,extarrows,float,tikz,changepage,subcaption,ifthen,chngcntr,soul,setspace,parskip,cancel}
+\usepackage{hyperref}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{arrows}
+\usetikzlibrary{positioning,matrix,scopes,fit,svg.path}
+\usetikzlibrary{patterns}
+\usetikzlibrary{intersections}
+\usetikzlibrary{calc}
+\usetheme{CambridgeUS}
+\usecolortheme{orchid}
+
+\uselanguage{greek}
+
+\setbeamertemplate{itemize items}[default]
+
+\newenvironment<>{quest}[1]{%
+  \setbeamercolor{block title}{fg=white,bg=purple!50!black}%
+  \begin{block}#2{#1}}{\end{block}}
+\newenvironment<>{attention}[1]{%
+  \setbeamercolor{block title}{fg=white,bg=green!40!black}%
+  \begin{block}#2{#1}}{\end{block}}
+  
+\newcommand{\R}{\mathbb{R}}
+
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+
+\let\sin\relax
+\DeclareMathOperator{\sin}{\text{ημ}}
+
+\let\cos\relax
+\DeclareMathOperator{\cos}{\text{συν}}
+
+\let\tan\relax
+\DeclareMathOperator{\tan}{\text{εφ}}
+
+\title{Συναρτήσεις --- Μάθημα 3\textsuperscript{ο}}
+\subtitle{Σύνθεση και γραφικές παραστάσεις συναρτήσεων, άρτιες, περιττές και περιοδικές συναρτήσεις}
+\author{Μάρκος Βασίλης}
+\date{\today}
+
+\begin{document}
+\end{document}

@@ -1,0 +1,53 @@
+% !TeX program = xelatex
+\documentclass[tikz, margin = 5mm]{standalone}
+
+\usepackage{xfrac}
+\usepackage{ifthen}
+\usepackage{intcalc}
+\usepackage[MnSymbol]{mathspec}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {2}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = #2mm, amplitude = 0.2pt}},
+	xkcd/.default = {4}{0.6},
+	point/.default = {2},
+	declare function = {f(\x) = 0.2 * pow(\x, 2) * sin(23/(\x) r);}
+}
+
+\begin{document}
+	\begin{tikzpicture}
+		\draw[xkcd, thick, ->] (-0.5,0) -- (8.5,0) node[pos=1, below]{$x$};
+		\draw[xkcd, thick, ->] (0,-2) -- (0,2) node[pos=1, left]{$y$};
+		\draw[xkcd = {2}{0.3}, domain = {0.1}:{3.04}, c1, thick, samples = 280] plot (\x,{f(\x)});
+		\draw[xkcd = {2}{0.3}, domain = {4.96}:{7.9}, c1, thick, samples = 280] plot (\x,{f(8 - \x)}) node[right, yshift = 0.2cm]{$C_{g}$};
+		\draw[xkcd, c2, thick] (4.96, 1.77) -- (3.04, 1.77);
+		\draw[xkcd, thick, dashed] (8,-2) -- (8,2) node[pos=0, below] {$x=1$};
+		\draw[xkcd, thick, c2, dashed] (4,-2) -- (4,2) node[pos=0, below] {$x=\sfrac{1}{2}$};
+		\node[point, c1] (a) at (0,0) {};
+		\node[point, c1] (b) at (8,0) {};
+		\node[c2] (extrema) at (4,3) {ακρότατα};
+		\draw[xkcd, c2, dashed, ->] (extrema.240) to[bend right] (3.04, 1.8);
+		\draw[xkcd, c2, dashed, ->] (extrema.300) to[bend left] (4.96, 1.8);
+%		\node[c2] (x1 label) at (6,2) {$x=1$};
+%		\draw[xkcd, thick, c2, dashed, ->] (x1 label) to[bend left] (4.2,1);
+	\end{tikzpicture}
+\end{document}

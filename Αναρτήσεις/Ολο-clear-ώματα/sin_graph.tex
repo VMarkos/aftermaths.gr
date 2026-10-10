@@ -1,0 +1,19 @@
+\documentclass[aspectratio=169]{beamer}
+%\usepackage[english,greek]{babel}
+%\usepackage[iso-8859-7]{inputenc}
+\usepackage{euler}
+\usepackage{graphicx,pgfplots,tikz}
+
+\beamertemplatenavigationsymbolsempty
+
+\begin{document}
+	\begin{frame}
+		\begin{figure}
+			\resizebox{\linewidth}{!}{\begin{tikzpicture}
+			\draw[thick,->] (-.5,0) -- (6,0);
+			\draw[thick,->] (0,-1.5) -- (0,1.5);
+			\draw[blue, domain={0.01}:{5.8}, samples=400] plot (\x,{sin(8*\x r)});
+			\end{tikzpicture}}
+		\end{figure}
+	\end{frame}
+\end{document}

@@ -1,0 +1,42 @@
+% !TeX program = xelatex
+\documentclass[margin = 5mm, tikz]{standalone}
+\usepackage{xfrac}
+\usepackage[MnSymbol]{mathspec}
+\usepackage{esvect}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+	xkcd/.default = {4},
+	point/.default = {2}
+}
+
+\begin{document}
+	\begin{tikzpicture}
+		\draw[xkcd, thick] (0,0) -- (4,0) -- (4,-4);
+		\draw[xkcd, thick] (0,-1.5) -- (2.5,-1.5) -- (2.5,-4);
+		\node (exit) at (3.25,-4) {\small Έξοδος};
+		\node[xkcd, rectangle, thick, fill = c1, fill opacity = 0.7, minimum width = 2.8cm, minimum height = 1.3cm, label = {center}:{\textcolor{white}{Καναπές}}] (sofa) at (2,-0.75) {};
+		\draw[xkcd, dashed, <->] (0.35,0) -- (0.35,-1.5) node[pos = 0.5, left] {\small$1$ m};
+		\draw[xkcd, dashed, <->] (2.5,-3.5) -- (4,-3.5) node[pos = 0.5, above] {\small$1$ m};
+	\end{tikzpicture}
+\end{document}

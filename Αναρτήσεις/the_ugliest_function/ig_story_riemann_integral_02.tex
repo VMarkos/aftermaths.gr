@@ -1,0 +1,161 @@
+% !TeX program = xelatex
+\documentclass{article}
+\usepackage{geometry}
+\usepackage[11pt]{moresize}
+\usepackage{tikz}
+
+\geometry{paperwidth = 28.875cm, paperheight = 50.8cm, margin = 0cm, inner = 0cm, outer = 0cm}
+
+\usepackage{xfrac}
+\usepackage{ifthen}
+\usepackage{intcalc}
+\usepackage[MnSymbol]{mathspec}	
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+	xkcd/.default = {4},
+	point/.default = {2}
+}
+
+\begin{document}
+	\pagestyle{empty}\noindent
+	\begin{tikzpicture}
+		\begin{pgfonlayer}{bg}
+			\draw[opacity = 0.3, dashed, c2] (-14.4375,-25.39) grid (14.4375,25.39);
+			\draw[opacity = 0.1, densely dashed, c2, step = 0.5] (-14.4375,-25.39) grid (14.4375,25.39);
+		\end{pgfonlayer}
+		\node[black] (title) at (0,22) {\HUGE \textbf{Το Σύνολο Cantor}};
+		%
+		%
+		\node[scale = 1.1] (function) at (-7,16) {\begin{tikzpicture}
+			\draw[xkcd, thick] (-1,0) -- (10,0);
+			\node[below = 0.5cm] (0) at (0,0) {0};
+			\node[below = 0.5cm] (1) at (9,0) {1};
+			\node[below = 0.5cm] (first) at (3,0) {$\sfrac{1}{3}$};
+			\node[below = 0.5cm] (second) at (6,0) {$\sfrac{2}{3}$};
+			\fill[xkcd, c2, fill opacity = 0.3] (0,-0.3) rectangle (3,0.3);
+			\fill[xkcd, c2, fill opacity = 0.3] (6,-0.3) rectangle (9,0.3);
+			\fill[xkcd, c1, fill opacity = 0.3] (3,-0.3) rectangle (6,0.3);
+			\node[c2] (keep) at (4.5,-2.5) {κρατάμε};
+			\node[c1] (throw) at (4.5,-1.5) {πετάμε};
+			\draw[xkcd, c2, thick, dashed, ->] (keep) to[bend left] (1.5,-0.4);
+			\draw[xkcd, c2, thick, dashed, ->] (keep) to[bend right] (7.5,-0.4);
+			\draw[xkcd = {1}, c1, thick, dashed, ->] (throw) -- (4.5,-0.4);
+		\end{tikzpicture}};
+	
+		\node[text width = 10cm] (label 1) at (7,16) {\raggedleft\LARGE\baselineskip=28pt Παίρνουμε το κλειστό διάστημα $[0,1]$ και πετάμε το μεσαίο τρίτο του, δηλαδή το διάστημα $[\sfrac{1}{3},\sfrac{2}{3}]$. Μας μένει, λοιπόν, τη ένωση δύο κλειστών διαστημάτων, $[0,\sfrac{1}{3}]\cup[\sfrac{2}{3},1]$\ldots\par};
+	
+		\node[scale = 1.1] (first attempt) at (7,6) {\begin{tikzpicture}
+			\draw[xkcd, thick] (-1,0) -- (10,0);
+			\node[below = 0.5cm] (0) at (0,0) {0};
+			\node[below = 0.5cm] (1) at (9,0) {1};
+			\node[below = 0.5cm] (first) at (3,0) {$\sfrac{3}{9}$};
+			\node[below = 0.5cm] (second) at (6,0) {$\sfrac{6}{9}$};
+			\node[below = 0.5cm] at (1,0) {$\sfrac{1}{9}$};
+			\node[below = 0.5cm] at (2,0) {$\sfrac{2}{9}$};
+			\node[below = 0.5cm] at (7,0) {$\sfrac{7}{9}$};
+			\node[below = 0.5cm] at (8,0) {$\sfrac{8}{9}$};
+			\fill[xkcd, c2, fill opacity = 0.3] (0,-0.3) rectangle (1,0.3);
+			\fill[xkcd, c2, fill opacity = 0.3] (2,-0.3) rectangle (3,0.3);
+			\fill[xkcd, c2, fill opacity = 0.3] (6,-0.3) rectangle (7,0.3);
+			\fill[xkcd, c2, fill opacity = 0.3] (8,-0.3) rectangle (9,0.3);
+			\fill[xkcd, c1, fill opacity = 0.3] (3,-0.3) rectangle (6,0.3);
+			\fill[xkcd, c1, fill opacity = 0.3] (1,-0.3) rectangle (2,0.3);
+			\fill[xkcd, c1, fill opacity = 0.3] (7,-0.3) rectangle (8,0.3);
+			\node[c2] (keep) at (4.5,-2.5) {κρατάμε};
+			\node[c1] (throw) at (4.5,-1.5) {πετάμε};
+			\draw[xkcd, c2, thick, dashed, ->] (keep) to[bend left] (0.5,-0.4);
+			\draw[xkcd, c2, thick, dashed, ->] (keep) to[bend right] (8.5,-0.4);
+			\draw[xkcd, c2, thick, dashed, ->] (keep) to[bend right] (6.5,-0.4);
+			\draw[xkcd, c2, thick, dashed, ->] (keep) to[bend left] (2.5,-0.4);
+			\draw[xkcd = {1}, c1, thick, dashed, ->] (throw) -- (4.5,-0.4);
+			\draw[xkcd, c1, thick, dashed, ->] (throw) to[bend left] (1.5,-0.4);
+			\draw[xkcd, c1, thick, dashed, ->] (throw) to[bend right] (7.5,-0.4);
+		\end{tikzpicture}};
+	
+		\node[text width = 10cm] (label 2) at (-7,6) {\raggedright\LARGE\baselineskip=28pt Μετά, έχουμε στα χέρια μας δύο κλειστά διαστήματα τα οποία, αν εξαιρέσουμε το μήκος τους, είναι ολόιδια με το $[0,1]$. Συνεπώς, μπορούμε να επαναλάβουμε την παραπάνω διαδικασία και να πετάξουμε από το καθένα το μεσαίο τρίτο τους. Έτσι, μας μένει αυτή η γαλάζια ένωση διαστημάτων που βλέπετε δίπλα\ldots\par};
+	
+		\node[scale = 1.1] (second attempt) at (-7,-4) {\begin{tikzpicture}
+			\draw[xkcd, thick] (-1,0) -- (10,0) node[pos=0, left] {Βήμα 0};
+			\fill[xkcd = {1}, c2, fill opacity = 0.3] (0,-0.3) rectangle (9,0.3);
+			\foreach \i in {0,...,3} {
+				\pgfmathtruncatemacro{\iy}{-1 - \i}
+				\pgfmathtruncatemacro{\lab}{\i + 1}
+				\draw[xkcd, thick] (-1,\iy) -- (10,\iy) node[pos=0, left] {Βήμα \lab};
+				\pgfmathtruncatemacro{\upper}{pow(3, \i) - 1}
+				\pgfmathtruncatemacro{\cut}{\upper}
+				\foreach \j in {0,...,{\cut}} {
+					\ifthenelse{\intcalcMod{\j}{32}=0\OR\intcalcMod{\j}{32}=2\OR\intcalcMod{\j}{32}=6\OR\intcalcMod{\j}{32}=8\OR\intcalcMod{\j}{32}=18\OR\intcalcMod{\j}{32}=20\OR\intcalcMod{\j}{32}=24\OR\intcalcMod{\j}{32}=26}{
+						\pgfmathsetmacro{\lx}{9 * (3 * \j) / (3 * (\upper + 1))}
+						\pgfmathsetmacro{\rx}{9 * (3 * \j + 1) / (3 * (\upper + 1))}
+						\pgfmathsetmacro{\llx}{9 * (3 * \j + 2) / (3 * (\upper + 1))}
+						\pgfmathsetmacro{\rrx}{9 * (3 * \j + 3) / (3 * (\upper + 1))}
+						\fill[xkcd = {1}, c2, fill opacity = 0.3] (\lx,{\iy - 0.3}) rectangle (\rx,{\iy + 0.3});
+						\fill[xkcd = {1}, c2, fill opacity = 0.3] (\llx,{\iy - 0.3}) rectangle (\rrx,{\iy + 0.3});
+					}{}
+				}
+			}
+		\end{tikzpicture}};
+	
+		\node[text width = 10cm] (label 3) at (7,-4) {\raggedright\LARGE\baselineskip=28pt Μάλιστα, γιατί να σταματήσουμε εδώ; Μπορούμε να επαναλάβουμε την ίδια διαδικασία ξανά και ξανά, με κάθε κλειστό διάστημα που απομένει. Αν το κάνουμε αυτό 4 φορές, μας μένει αυτό που βλέπετε δίπλα\ldots\par};
+		
+		\node[text width = 10cm] (label 4) at (-7,-15) {\raggedright\LARGE\baselineskip=28pt Αν επαναλάβουμε αυτή τη διαδικασία, ποιοι αριθμοί θα μας μείνουν, άραγε; Πόσοι θα είναι αυτοί; Πώς θα κατανέμονται μέσα στο κλειστό διάστημα $[0,1]$; Πόσες ερωτήσεις θα κάνουμε ακόμα;\par};
+		
+		\node[scale = 1.1] (problem) at (7,-15) {\begin{tikzpicture}
+			\draw[xkcd, thick] (-1,0) -- (10,0) node[pos=0, left] {Βήμα 0};
+			\fill[xkcd = {1}, c2, fill opacity = 0.3] (0,-0.3) rectangle (9,0.3);
+			\foreach \i in {0,...,3} {
+				\pgfmathtruncatemacro{\iy}{-1 - \i}
+				\pgfmathtruncatemacro{\lab}{\i + 1}
+				\draw[xkcd, thick] (-1,\iy) -- (10,\iy) node[pos=0, left] {Βήμα \lab};
+				\pgfmathtruncatemacro{\upper}{pow(3, \i) - 1}
+				\pgfmathtruncatemacro{\cut}{\upper}
+				\foreach \j in {0,...,{\cut}} {
+					\ifthenelse{\intcalcMod{\j}{32}=0\OR\intcalcMod{\j}{32}=2\OR\intcalcMod{\j}{32}=6\OR\intcalcMod{\j}{32}=8\OR\intcalcMod{\j}{32}=18\OR\intcalcMod{\j}{32}=20\OR\intcalcMod{\j}{32}=24\OR\intcalcMod{\j}{32}=26}{
+						\pgfmathsetmacro{\lx}{9 * (3 * \j) / (3 * (\upper + 1))}
+						\pgfmathsetmacro{\rx}{9 * (3 * \j + 1) / (3 * (\upper + 1))}
+						\pgfmathsetmacro{\llx}{9 * (3 * \j + 2) / (3 * (\upper + 1))}
+						\pgfmathsetmacro{\rrx}{9 * (3 * \j + 3) / (3 * (\upper + 1))}
+						\fill[xkcd = {1}, c2, fill opacity = 0.3] (\lx,{\iy - 0.3}) rectangle (\rx,{\iy + 0.3});
+						\fill[xkcd = {1}, c2, fill opacity = 0.3] (\llx,{\iy - 0.3}) rectangle (\rrx,{\iy + 0.3});
+					}{}
+				}
+			}
+			% nodes
+			\node[point, c1] (0) at (4.5,0) {};
+			\node[point, c1] (1) at (1.5,-1) {};
+			\node[point, c1] (2) at (2.5,-2) {};
+			\node[point = {1.5}, c1] (3) at (2.825,-3) {};
+			\node[point = {1}, c1] (4) at (2.725,-4) {};
+			\node[point = {1}, c1, label = {below, c1}:{$x$}]  (x) at (2.738, -5) {};
+			% arrows
+			\draw[xkcd, c1, dashed, thick, ->] (0) to[bend right] (1);
+			\draw[xkcd, c1, dashed, thick, ->] (1) to[bend left] (2);
+			\draw[xkcd, c1, dashed, ->] (2) to[bend left] (3);
+			\draw[xkcd = {1}, c1, dashed, thin, ->] (3) to[bend right] (4);
+			\draw[xkcd = {1}, c1, densely dotted, ->] (4) to[bend left] (x);
+		\end{tikzpicture}};
+	
+		\node (tbc) at (0,-22) {\Huge \textbf{Συνεχίζεται\ldots}};
+	\end{tikzpicture}
+\end{document}

@@ -1,0 +1,73 @@
+% !TeX program = xelatex
+\documentclass[margin = 5mm, tikz]{standalone}
+\usepackage{xfrac}
+\usepackage[MnSymbol]{mathspec}
+\usepackage{esvect}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+	xkcd/.default = {4},
+	point/.default = {2}
+}
+
+\begin{document}
+	\begin{tikzpicture}
+		% Normal
+		\begin{scope}[opacity = 0.3, transparency group]
+			\draw[xkcd, thick, ->, name path global = x axis] (-2.4,0) -- (2.4,0) node[pos = 1, below]{$x$};
+			\draw[xkcd, thick, ->, name path global = y axis] (0,-2.4) -- (0,2.4) node[pos = 1, left]{$y$};
+		\end{scope}
+		% Rotated
+		\draw[xkcd, thick, ->, rotate = 65, name path global = X axis] (-2.4,0) -- (2.4,0) node[pos = 1, right]{$X$};
+		\draw[xkcd, thick, ->, rotate = 65, name path global = Y axis] (0,-2.4) -- (0,2.4) node[pos = 1, below]{$Y$};
+		% Point
+		\node[point, label = {right}:{$A$}] (a) at (1.7,1) {};
+		\node[label = {below}:{$x$}, outer sep = 0pt, inner sep = 0pt] (ax) at ($(-2,0)!(a)!(2,0)$) {};
+		\node[label = {left}:{$y$}, outer sep = 0pt, inner sep = 0pt] (ay) at ($(0,-2)!(a)!(0,2)$) {};
+		\draw[dashed, opacity = 0.3] (a) -- (ax);
+		\draw[dashed, opacity = 0.3] (a) -- (ay);
+		\node[label = {left, c1}:{$X$}, outer sep = 0pt, inner sep = 0pt] (aX) at ($(65:2)!(a)!(245:2)$) {};
+		\node[label = {below, c1}:{$Y$}, outer sep = 0pt, inner sep = 0pt] (aY) at ($(155:2)!(a)!(335:2)$) {};
+		\draw[dashed, c1] (a) -- (aX);
+		\draw[dashed, c1] (a) -- (aY);
+		% Right angles
+		\draw[thin, opacity = 0.3] (1.85,0) -- (1.85,0.15) -- (1.7,0.15);
+		\draw[thin, opacity = 0.3] (0,1.15) -- (0.15,1.15) -- (0.15,1);
+		\draw[thin, rotate = 65] (1.77,0) -- (1.77,-0.12) -- (1.65,-0.12);
+		\draw[thin, rotate = 65] (0,-1.25) -- (0.15,-1.25) -- (0.15,-1.12);
+		% Angles
+		\draw[draw = none, name path global = aY line] (a) -- (aY);
+		\node[draw = none, outer sep = 0pt, inner sep = 0pt, name intersections = {of = aY line and x axis}, label = {135, xshift = 0.1cm, yshift = -0.05cm}:{\scriptsize$B$}] (b) at (intersection-1) {};
+		\draw[draw = none, name path global = ayy line] (a) -- (ay);
+		\node[draw = none, outer sep = 0pt, inner sep = 0pt, name intersections = {of = ayy line and X axis}, label = {-45, xshift = -0.1cm, yshift = 0.05cm}:{\scriptsize$\Gamma$}] (c) at (intersection-1) {};
+		\node (o) at (-0.3,-0.2) {\scriptsize$O$};
+		\node (phi label) at (0.3,0.2) {\scriptsize$\phi$};
+		\begin{pgfonlayer}{bg}
+			\fill[c2, opacity = 0.3] (0.2,0) arc (0:65:0.2cm) -- (0,0) -- cycle;
+			\fill[c2, opacity = 0.3] ($(b) + (0.2,0)$) arc (0:65:0.2cm) -- (b) -- cycle;
+			\fill[c2, opacity = 0.3] ($(b) + (-0.2,0)$) arc (180:245:0.2cm) -- (b) -- cycle;
+			\fill[c2, opacity = 0.3] ($(c) + (0.2,0)$) arc (0:65:0.2cm) -- (c) -- cycle;
+			\fill[c2, opacity = 0.3] ($(c) + (-0.2,0)$) arc (180:245:0.2cm) -- (c) -- cycle;
+		\end{pgfonlayer}
+	\end{tikzpicture}
+\end{document}

@@ -1,0 +1,109 @@
+import os
+import math
+
+def eval_template(t):
+    a = (0, 0)
+    b = (3.2, 2)
+    c = (6, -3)
+    d = (10, -2)
+    scalar_point_mult = lambda t, p: (t * p[0], t * p[1])
+    add_tuples = lambda s, t: (s[0] + t[0], s[1] + t[1])
+    seg_at_t = lambda t, a, b: add_tuples(scalar_point_mult(1 - t, a), scalar_point_mult(t, b))
+    tuple_to_str = lambda t: (str(t[0]), str(t[1]))
+    x = seg_at_t(t, a, b)
+    y = seg_at_t(t, b, c)
+    z = seg_at_t(t, c, d)
+    p = seg_at_t(t, x, y)
+    q = seg_at_t(t, y, z)
+    r = seg_at_t(t, p, q)
+    x_str = tuple_to_str(x)
+    y_str = tuple_to_str(y)
+    z_str = tuple_to_str(z)
+    p_str = tuple_to_str(p)
+    q_str = tuple_to_str(q)
+    r_str = tuple_to_str(r)
+    return """
+        % !TeX program = xelatex
+        \\documentclass[margin = 5mm, tikz]{standalone}
+        \\usepackage{xfrac}
+        \\usepackage[MnSymbol]{mathspec}
+        \\usepackage{esvect}
+        \\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+        \\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+        \\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+        \\usetikzlibrary{intersections}
+        \\usetikzlibrary{patterns}
+        \\usetikzlibrary{calc}
+        \\usetikzlibrary{shapes.misc}
+        \\usetikzlibrary{spy}
+
+        \\pgfdeclarelayer{bg}
+        \\pgfdeclarelayer{bbg}
+        \\pgfsetlayers{bbg, bg, main}
+
+        \\definecolor{c1}{HTML}{ac0000}
+        \\definecolor{c2}{HTML}{00a0d5}
+
+        \\newcommand{\\abs}[1]{{\left|{#1}\\right|}}
+
+        \\tikzset{
+            point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+            empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+            cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+            xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+            xkcd/.default = {4},
+            point/.default = {2}
+        }
+
+        \\begin{document}
+            \\begin{tikzpicture}
+                \\node[point, c1, label = {left}:{$A$}] (a) at (0,0) {};
+                \\node[point, c1, label = {above}:{$B$}] (b) at (3.2,2) {};
+                \\node[point, c1, label = {below}:{$C$}] (c) at (6,-3) {};
+                \\node[point, c1, label = {right}:{$D$}] (d) at (10,-2) {};
+                \\node[point = {1.8}, c2] (x) at (""" + ",".join(x_str) + """) {};
+                \\node[point = {1.8}, c2] (y) at (""" + ",".join(y_str) + """) {};
+                \\node[point = {1.8}, c2] (z) at (""" + ",".join(z_str) + """) {};
+                \\node[point = {1.8}, c1] (p) at (""" + ",".join(p_str) + """) {};
+                \\node[point = {1.8}, c1] (q) at (""" + ",".join(q_str) + """) {};
+                \\node[point = {1.8}, c2] (r) at (""" + ",".join(r_str) + """) {};
+                \\begin{pgfonlayer}{bg}
+                    \\draw[xkcd, thick] (a) -- (b) -- (c) -- (d);
+                    \\draw[xkcd, thick, c2] (x) -- (y) -- (z);
+                    \\draw[xkcd, thick, c1] (p) -- (q);
+                \\end{pgfonlayer}
+            \\end{tikzpicture}
+        \\end{document}
+    """
+
+def stringify_int(i, digits = 2):
+    i_str = str(i)
+    if len(i_str) < digits:
+        i_str = "0"*(digits - len(i_str)) + i_str
+    return i_str
+
+def generate_frames(start, end):
+    for i in range(start, end + 1):
+        i_str = stringify_int(i)
+        t = i / (end + 1)
+        raw_tex = eval_template(t)
+        print(i_str + "/" + str(end), end="\r")
+        with open("frame_forward_" + i_str + ".tex", "w") as ff_file:
+            ff_file.write(raw_tex)
+        # print("Tex file ready!")
+        os.system('xelatex "frame_forward_' + i_str + '.tex" 1> /dev/null')
+        # print("Tex to PDF compilation complete!")
+        os.system('convert -density 180 "frame_forward_' + i_str + '.pdf" -resize 140% -quality 100 -flatten -sharpen 0x1.0 "frame_forward_' + i_str + '.png"')
+        # print("PDF to PNG conversion complete!")
+        os.system('rm frame_forward_' + i_str + '.tex')
+        os.system('rm frame_forward_' + i_str + '.pdf')
+        os.system('rm frame_forward_' + i_str + '.aux')
+        os.system('rm frame_forward_' + i_str + '.log')
+        # print("Cleaned up any redundant files!")
+    print("Generating gif...", end="\r")
+    os.system('convert -delay 10 -loop 0 *.png animation.gif')
+    os.system('rm frame_forward_*.png')
+    print("Results at 'animation.gif'")
+
+if __name__ == "__main__":
+    generate_frames(1, 40)

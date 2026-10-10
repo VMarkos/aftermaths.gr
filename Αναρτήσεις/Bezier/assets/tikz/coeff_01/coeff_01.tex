@@ -1,0 +1,44 @@
+% !TeX program = xelatex
+\documentclass[margin = 5mm, tikz]{standalone}
+\usepackage{xfrac}
+\usepackage[MnSymbol]{mathspec}
+\usepackage{esvect}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+    point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+    empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+    cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+    xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+    xkcd/.default = {4},
+    point/.default = {2}
+}
+
+\begin{document}
+    \begin{tikzpicture}
+    	\draw[xkcd, thick, black, ->] (-1,0) -- (9,0) node[pos=1,below]{$t$};
+    	\draw[xkcd, thick, black, ->] (0,-1) -- (0,9) node[pos=1,left]{$c$};
+    	\draw[xkcd, thick, dashed] (8,0) -- (8,8) node[pos=0, below] {$1$} -- (0,8) node[pos=1, left] {$1$};
+    	\node (o) at (-0.3,-0.3) {$0$};
+    	\draw[xkcd, thick, c1, domain = {0}:{1}, scale = 8] plot (\x, {pow(1 - \x, 3)}) node[right, yshift=-2.5ex]{$c_0(t)=(1-t)^3$};
+    	\draw[xkcd, thick, c2, domain = {0}:{1}, scale = 8] plot (\x, {3 * \x * pow(1 - \x, 2)}) node[right, yshift=2ex]{$c_1(t)=3t(1-t)^2$};
+    	\draw[xkcd, thick, c1, dashed, domain = {0}:{1}, scale = 8] plot (\x, {3 * pow(\x, 2) * (1 - \x)}) node[right, yshift=5ex]{$c_2(t)=3t^2(1-t)$};
+    	\draw[xkcd, thick, c2, dashed, domain = {0}:{1}, scale = 8] plot (\x, {pow(\x, 3)}) node[right]{$c_3(t)=t^3$};
+    \end{tikzpicture}
+\end{document}

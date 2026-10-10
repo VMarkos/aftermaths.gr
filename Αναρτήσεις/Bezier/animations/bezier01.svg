@@ -1,0 +1,102 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg id="svg-container" class="svg-container" viewBox="200 270 800 550" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style type="text/css"><![CDATA[
+            .edge-point {
+                fill: rgb(230, 170, 0);
+            }
+
+            .runner {
+                fill: #ac0000;
+                opacity: 0.7;
+            }
+
+            .control-point {
+                fill: white;
+            }
+
+            .bolt {
+                fill: #0000ac;
+                opacity: 0.7;
+            }
+
+            .bezier-curve {
+                stroke: white;
+                stroke-width: 2px;
+            }
+
+            .invisible-bezier-curve {
+                stroke: red;
+                stroke-opacity: 0.0;
+                stroke-width: 16px;
+            }
+
+            .dashed-bezier {
+                stroke: white;
+                stroke-width: 1px;
+                stroke-dasharray: 5;
+            }
+
+            .bezier-segment {
+                stroke: white;
+                stroke-width: 1px;
+            }
+        ]]></style>
+    </defs>
+    <rect width="100%" height="100%" fill="#22968e"/>
+    <line id="start-edge-c-0" x1="250" x2="500" y1="500" y2="320" class="dashed-bezier"/>
+    <line id="c-0-end-edge" x1="500" x2="750" y1="320" y2="500" class="dashed-bezier"/>
+    <path id="curve" d="M 250 500 Q 500 320, 750 500" fill="none" class="bezier-curve"/>
+    <line id="bezier-line" class="bezier-segment">
+        <animate
+            repeatCount="indefinite"
+            dur="10s"
+            attributeName="x1"
+            values="250;500;250"
+        />
+        <animate
+            repeatCount="indefinite"
+            dur="10s"
+            attributeName="y1"
+            values="500;320;500"
+        />
+        <animate
+            repeatCount="indefinite"
+            dur="10s"
+            attributeName="x2"
+            values="500;750;500"
+        />
+        <animate
+            repeatCount="indefinite"
+            dur="10s"
+            attributeName="y2"
+            values="320;500;320"
+        />
+    </line>
+    <circle id="slider" r="8" class="runner">
+        <animateMotion
+            repeatCount="indefinite"
+            dur="10s"
+            path="M 250 500 L 500 320 z"
+        />
+    </circle>
+    <circle id="slider" r="8" class="runner">
+        <animateMotion
+            repeatCount="indefinite"
+            dur="10s"
+            path="M 500 320 L 750 500 z"
+        />
+    </circle>
+    <circle id="slider" r="10" class="bolt">
+        <animateMotion
+            repeatCount="indefinite"
+            dur="10s"
+            path="M 250 500 Q 500 320, 750 500 Q 500 320, 250 500"
+        />
+    </circle>
+    <circle id="edge-start" cx="250" cy="500" r="12" class="edge-point"/>
+    <circle id="edge-end" cx="750" cy="500" r="12" class="edge-point"/>
+    <circle id="c-0" cx="500" cy="320" r="8" class="control-point"/>
+</svg>

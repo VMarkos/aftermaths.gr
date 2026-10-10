@@ -1,0 +1,20 @@
+\documentclass{beamer}
+\usepackage{tikz}
+%\usepackage{beamerthemesplit}
+\usepackage[orientation=landscape,size=custom,width=12,height=3,scale=0.5,debug]{beamerposter}
+
+\beamertemplatenavigationsymbolsempty
+
+\begin{document}
+	\begin{frame}
+		\begin{figure}
+			\centering
+			\begin{tikzpicture}
+			\draw[thick] (-4,0) -- (4,0);
+			\node[circle, fill=red, draw=red, inner sep=2pt, label={below}:{1}](one) at (3,0){};
+			\node[circle, fill=purple, draw=purple, inner sep=2pt, label={below}:{$\dfrac{1+0.999\ldots}{2}$}](test) at (0,0){};
+			\node[circle, fill=blue, draw=blue, inner sep=2pt, label={below}:{$0.999\ldots$}](test) at (-3,0){};
+			\end{tikzpicture}
+		\end{figure}
+	\end{frame}
+\end{document}

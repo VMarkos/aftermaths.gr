@@ -1,0 +1,218 @@
+:root {
+    --main-bg-color: #eeeeee;
+    --main-nav-color: #ac009c;
+    --main-text-color: #eeeeee;
+    --sec-text-color: #d9d9d9;
+    --ter-text-color: rgba(64, 64, 64, 1.0);
+    --square-bg-color: #cc70bc;
+    --input-focus-color: #e9bee2;
+    --square-cell-color: #ac009c;
+    --valid-text-color: #20cc60;
+    --invalid-text-color: #cc2060;
+    --square-cell-color-empty: rgb(172, 0, 156, 0.5);
+    --main-shadow-color: rgba(0, 0, 0, 0.7);
+    --logo-font-size: 32pt;
+    --cell-font-size: 24pt;
+    --regular-font-size: 16pt;
+    --regular-font-size: 14pt;
+    --max-page-width: 1200px;
+    --cell-size: 50px;
+}
+
+@font-face {
+    font-family: "beryliumregular";
+    src: url("../assets/fonts/berylium/web/berylium-webfont.woff2") format("woff2"),
+         url("../assets/fonts/berylium/web/berylium-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "gartonmedium";
+    src: url("../assets/fonts/garton/web/garto16-webfont.woff2") format("woff2"),
+         url("../assets/fonts/garton/web/garto16-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "aileronregular";
+    src: url("../assets/fonts//aileron/web/aileron-regular-webfont.woff2") format("woff2"),
+         url("../assets/fonts//aileron/web/aileron-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--main-bg-color);
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../assets/images/background.svg");
+    background-position: center;
+    background-repeat: repeat;
+}
+
+/* Navbar */
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px 15px 0px;
+    gap: 20px;
+    box-shadow: 0px 3px 3px 0px var(--main-shadow-color);
+    background-color: var(--main-nav-color);
+    color: var(--main-text-color);
+    font-size: var(--logo-font-size);
+}
+
+.navbar-centering {
+    display: flex;
+    width: 100%;
+    max-width: var(--max-page-width);
+}
+
+.logo-container {
+    font-family: "beryliumregular";
+    cursor: default;
+    user-select: none;
+}
+
+/* Main */
+
+.main-container {
+    display: flex;
+    align-self: center;
+    gap: 20px;
+    padding-top: 4%;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    max-width: var(--max-page-width);
+}
+
+.square-overflow-container {
+    display: block;
+    overflow-x: auto;
+    border-radius: 5%;
+    box-shadow: 3px 3px 3px 0px var(--main-shadow-color);
+}
+
+.square-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    min-width: 218px;
+    min-height: 218px;
+    gap: 6px;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: var(--square-bg-color);
+    box-shadow: 3px 3px 3px 0px var(--main-shadow-color);
+}
+
+.square-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color: var(--square-cell-color);
+    color: var(--sec-text-color);
+    font-family: "gartonmedium";
+    width: var(--cell-size);
+    height: var(--cell-size);
+    font-size: var(--cell-font-size);
+    font-weight: 700;
+    user-select: none;
+}
+
+.square-cell.empty {
+    box-shadow: inset 2px 2px 2px 0px var(--main-shadow-color);
+    background-color: var(--square-cell-color-empty);
+}
+
+.square-cell.game {
+    position: relative;
+}
+
+.square-cell.number {
+    cursor: pointer;
+    transition-duration: 20ms;
+}
+
+.square-cell.number:active {
+    box-shadow: 2px 2px 2px 0px var(--main-shadow-color);
+}
+
+.square-cell.sum {
+    position: absolute;
+    background:rgba(0, 0, 0, 0.0);
+    color: var(--ter-text-color);
+}
+
+.square-cell.sum.valid {
+    color: var(--valid-text-color);
+}
+
+.square-cell.sum.invalid {
+    color: var(--invalid-text-color);
+}
+
+.square-cell.move {
+    animation: moveCell 200ms ease-in-out 1;
+}
+
+@keyframes moveCell {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+    100% {
+        transform: translateX(var(--dx)) translateY(var(--dy));
+    }
+}
+
+/* Magic Number */
+
+.magic-number-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: 10px;
+    background-color: var(--main-nav-color);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "aileronregular";
+    font-size: var(--regular-font-size);
+    color: var(--sec-text-color);
+}
+
+.magic-number-label {
+    font-size: var(--regular-font-size);
+}
+
+.magic-number {
+    display: flex;
+    color: var(--ter-text-color);
+    font-size: var(--small-font-size);
+    border: none;
+    background-color: var(--main-bg-color);
+    padding: 2px;
+    border-radius: 5px;
+    padding-left: 4px;
+}
+
+.magic-number:focus {
+    outline: none;
+    background-color: var(--input-focus-color);
+    transition: 200ms;
+}

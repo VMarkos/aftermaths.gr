@@ -1,0 +1,12 @@
+{
+    "_LATEX": "latex ",
+    "_LEFT_EQN":"\\[",
+    "_RIGHT_EQN": "\\]",
+    "_LEFT_EQN_LATEX": "$latex \\displaystyle ",
+    "_WP_EQN_DELIM": "$",
+    "_LATEX_BEGIN_DOCUMENT": "\\begin{document}",
+    "_LATEX_END_DOCUMENT": "\\end{document}",
+    "_NEWCOMMAND_HEADER": "\\newcommand",
+    "_ENVIRONMENTS": ["aligned", "cases", "array"],
+    "_CMD_BLACKLIST": ["\\tor", "\\tand"]
+}

@@ -1,0 +1,139 @@
+% !TeX program = xelatex
+\documentclass{article}
+\usepackage{geometry}
+\usepackage[11pt]{moresize}
+\usepackage{tikz}
+
+\geometry{paperwidth = 28.875cm, paperheight = 50.8cm, margin = 0cm, inner = 0cm, outer = 0cm}
+
+\usepackage{xfrac}
+\usepackage{ifthen}
+\usepackage{intcalc}
+\usepackage[MnSymbol]{mathspec}	
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+	xkcd/.default = {4},
+	point/.default = {2}
+}
+
+\begin{document}
+	\pagestyle{empty}\noindent
+	\begin{tikzpicture}
+		\begin{pgfonlayer}{bg}
+			\draw[opacity = 0.3, dashed, c2] (-14.4375,-25.39) grid (14.4375,25.39);
+			\draw[opacity = 0.1, densely dashed, c2, step = 0.5] (-14.4375,-25.39) grid (14.4375,25.39);
+		\end{pgfonlayer}
+		\node[black] (title) at (0,22) {\HUGE \textbf{Συγκλίνει;}};
+		%
+		%
+		\node[scale = 1.1] (function) at (-7,16) {\begin{tikzpicture}
+			\draw[xkcd, thick, ->] (-4,0) -- (4,0) node[pos=1, below]{$x$};
+			\draw[xkcd, thick, ->] (0,-4) -- (0,4) node[pos=1, left]{$y$};
+			\draw[xkcd, thick, c1] (-4,-3) -- (3,4) node[pos = 1, above] {\scriptsize$f_1$};
+			\draw[xkcd, thick, opacity = 0.9, c1] (-4,-3.4) -- (3.4,4) node[pos = 1, above] {\scriptsize$f_2$};
+			\draw[xkcd, opacity = 0.7, c1] (-4,-3.7) -- (3.7,4) node[pos = 1, above] {\scriptsize$f_3$};
+			\draw[xkcd, opacity = 0.5, c1] (-4,-3.85) -- (3.85,4) node[pos = 1, above, xshift = 0.1cm] {\scriptsize$f_4$};
+			\draw[xkcd, thick, c2] (-4,-4) -- (4,4) node [pos = 1, right] {$f$};
+			\node[c1] (flabel) at (-3,2.5) {$f_n(x)=x+\frac{1}{n}$};
+			\draw[xkcd, c1, dashed, ->] (flabel) to[bend left] (-0.4, 0.8);
+		\end{tikzpicture}};
+	
+		\node[text width = 10cm] (label 1) at (7,16) {\raggedleft\LARGE\baselineskip=28pt Θεωρούμε τις εξής ευθείες:
+			\[f_n(x)=x+\frac{1}{n}.\]
+			Καθώς το $n$ μεγαλώνει και πάει προς το άπειρο, αυτές οι ευθείες προσεγγίζουν όλο και περισσότερο την ευθεία $f(x)=x$, όπως φαίνεται και δίπλα\ldots\par};
+	
+		\node[scale = 1.1] (first attempt) at (7,6) {\begin{tikzpicture}
+			\draw[xkcd, thick, ->] (-1,0) -- (7,0) node[pos=1, below]{$x$};
+			\draw[xkcd, thick, ->] (0,-1) -- (0,7) node[pos=1, left]{$y$};
+			\node[point, c1] (zero) at (0,0) {};
+			\node[point, c1] (one) at (6,6) {};
+			% f1
+			\draw[xkcd, c1, thick] (zero) -- (one) node[pos = 0.5, above, rotate = 45] {\scriptsize$f_1$};
+			% f2
+			\draw[xkcd, c1, thick, domain = {0}:{6}, opacity = 0.8] plot (\x,{pow(\x,2) / 6});
+			\node[above, c1, opacity = 0.8, rotate = 45] (f2 label) at (3.5,2.0) {\scriptsize$f_2$};
+			% f3
+			\draw[xkcd, c1, thick, domain = {0}:{6}, opacity = 0.6] plot (\x,{pow(\x,3) / 36});
+			\node[above, c1, opacity = 0.6, rotate = 48] (f3 label) at (4,1.75) {\scriptsize$f_3$};
+			% f4
+			\draw[xkcd, c1, thick, domain = {0}:{6}, opacity = 0.4] plot (\x,{pow(\x,4) / 216});
+			\node[above, c1, opacity = 0.4, rotate = 52] (f4 label) at (4.42,1.65) {\scriptsize$f_4$};
+			% f5
+			\draw[xkcd, c1, thick, domain = {0}:{6}, opacity = 0.2] plot (\x,{pow(\x,5) / pow(6,4)});
+			\node[above, c1, opacity = 0.2, rotate = 55] (f5 label) at (4.72,1.55) {\tiny$f_5$};
+			\foreach \i in {6,...,20} {
+				\pgfmathsetmacro{\opacity}{0.14 - (\i - 6) / 140}
+				\draw[xkcd, c1, domain = {0}:{1}, opacity = \opacity, scale = 6] plot (\x,{pow(\x, {\i})});
+			}
+		\end{tikzpicture}};
+	
+		\node[text width = 10cm] (label 2) at (-7,6) {\raggedright\LARGE\baselineskip=28pt Ας πάρουμε τώρα τις συναρτήσεις που βλέπετε δίπλα. Αυτές δεν είναι άλλες παρά οι:
+			\[f_n=x^n.\]
+			Πού θα συγκλίνουν αυτές καθώς το $n$ πάει στο άπειρο;\par};
+	
+		\node[scale = 1.1] (second attempt) at (-7,-4) {\begin{tikzpicture}
+			\draw[xkcd, thick, ->] (-1,0) -- (7,0) node[pos=1, below]{$x$};
+			\draw[xkcd, thick, ->] (0,-1) -- (0,7) node[pos=1, left]{$y$};
+			\node[point, c2] (zero) at (0,0) {};
+			\node[point, c2] (one) at (6,6) {};
+			\begin{pgfonlayer}{bg}
+			% f1
+			\draw[xkcd, c1, thick] (zero) -- (one) node[pos = 0.5, above, rotate = 45] {\scriptsize$f_1$};
+			% f2
+			\draw[xkcd, c1, thick, domain = {0}:{6}, opacity = 0.8] plot (\x,{pow(\x,2) / 6});
+			\node[above, c1, opacity = 0.8, rotate = 45] (f2 label) at (3.5,2.0) {\scriptsize$f_2$};
+			% f3
+			\draw[xkcd, c1, thick, domain = {0}:{6}, opacity = 0.6] plot (\x,{pow(\x,3) / 36});
+			\node[above, c1, opacity = 0.6, rotate = 48] (f3 label) at (4,1.75) {\scriptsize$f_3$};
+			% f4
+			\draw[xkcd, c1, thick, domain = {0}:{6}, opacity = 0.4] plot (\x,{pow(\x,4) / 216});
+			\node[above, c1, opacity = 0.4, rotate = 52] (f4 label) at (4.42,1.65) {\scriptsize$f_4$};
+			% f5
+			\draw[xkcd, c1, thick, domain = {0}:{6}, opacity = 0.2] plot (\x,{pow(\x,5) / pow(6,4)});
+			\node[above, c1, opacity = 0.2, rotate = 55] (f5 label) at (4.72,1.55) {\tiny$f_5$};
+			\foreach \i in {6,...,20} {
+				\pgfmathsetmacro{\opacity}{0.14 - (\i - 6) / 140}
+				\draw[xkcd, c1, domain = {0}:{1}, opacity = \opacity, scale = 6] plot (\x,{pow(\x, {\i})});
+			}
+			\end{pgfonlayer}
+			\draw[xkcd, ultra thick, c2] (0,0) -- (6,0) node[pos=0.5, below] {$f$};
+			\node[empty point, draw = c2] (discontinuity) at (6,0) {};
+			\draw[xkcd, dashed, c2] (discontinuity) -- (one);
+		\end{tikzpicture}};
+	
+		\node[text width = 10cm] (label 3) at (7,-4) {\raggedleft\LARGE\baselineskip=28pt Με λίγο κόπο και λίγη προσπάθεια, μπορείτε να δείτε ότι συγκλίνουν στη συνάρτηση:
+			\[f(x)=\begin{cases}
+				0 & x\in[0,1)\\
+				1 & x = 1
+			\end{cases}\]\par};
+		
+		\node[text width = 15cm] (label 4) at (0,-15) {\centering\LARGE\baselineskip=28pt Τι διαφορετικό έχουν, άραγε, οι δύο παραπάνω περιπτώσεις;\par};
+		
+%		\node[scale = 1.1] (problem) at (7,-15) {\begin{tikzpicture}
+%			
+%		\end{tikzpicture}};
+	
+		\node (tbc) at (0,-22) {\Huge \textbf{Συνεχίζεται\ldots}};
+	\end{tikzpicture}
+\end{document}

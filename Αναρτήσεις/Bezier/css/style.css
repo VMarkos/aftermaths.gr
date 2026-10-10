@@ -1,0 +1,55 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(34, 150, 142, 1);
+    color: rgba(240, 255, 240, 1);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.svg-container {
+    width: 100%;
+    height: 100%;
+}
+
+.edge-point {
+    cursor: pointer;
+    fill: rgb(230, 170, 0);
+}
+
+.control-point {
+    cursor: pointer;
+    fill: white;
+}
+
+.hover-point {
+    cursor: pointer;
+    fill: rgb(230, 170, 0);
+    transition-duration: 200ms;
+}
+
+.weighted-point {
+    fill: rgba(230, 42, 42, 0.7);
+    transition-duration: 200ms;
+}
+
+.bezier-curve {
+    stroke: white;
+    stroke-width: 2px;
+    /* cursor: pointer; */
+}
+
+.invisible-bezier-curve {
+    stroke: red;
+    stroke-opacity: 0.0;
+    stroke-width: 16px;
+    cursor: pointer;
+}
+
+.dashed-bezier {
+    stroke: white;
+    stroke-width: 1px;
+    stroke-dasharray: 5;
+}

@@ -1,0 +1,55 @@
+% !TeX program = xelatex
+\documentclass[margin = 5mm, tikz]{standalone}
+\usepackage{xfrac}
+\usepackage[MnSymbol]{mathspec}
+\usepackage{esvect}
+\setmainfont[Mapping=tex-text,Ligatures={NoRequired,NoCommon,NoContextual}]{Comic Sans MS}
+\setmathfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{Comic Sans MS}
+\usetikzlibrary{shapes.geometric,decorations,decorations.pathmorphing}
+\usetikzlibrary{intersections}
+\usetikzlibrary{patterns}
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes.misc}
+\usetikzlibrary{spy}
+
+\pgfdeclarelayer{bg}
+\pgfdeclarelayer{bbg}
+\pgfsetlayers{bbg, bg, main}
+
+\definecolor{c1}{HTML}{ac0000}
+\definecolor{c2}{HTML}{00a0d5}
+
+\newcommand{\abs}[1]{{\left|{#1}\right|}}
+
+\tikzset{
+	point/.style n args = {1}{circle, draw = black, inner sep = #1pt, fill = black},
+	empty point/.style = {circle, draw = black, inner sep = 2pt, fill = white},
+	cross/.style = {cross out, draw, minimum size = 2 * (#1 - \pgflinewidth), inner sep = 0pt, outer sep = 0pt},
+	xkcd/.style n args = {1}{decorate, decoration = {random steps, pre length = #1mm, post length = #1mm, segment length = 0.6mm, amplitude = 0.2pt}},
+	xkcd/.default = {4},
+	point/.default = {2}
+}
+
+\begin{document}
+	\begin{tikzpicture}
+		% Main axis
+		\draw[xkcd, thick] (-0.4,0) -- (8.4,0);
+		\foreach \i [count=\j] in {0,0.5,...,8} {
+			\pgfmathtruncatemacro{\c}{3 * (\j-1)}
+			\draw (\i,-0.1) -- (\i,0.1) node[above = 0.1cm]{\tiny$\c$};
+		}
+		% Relative axis
+		\draw[xkcd, thick] (-0.4,-2) -- (8.4,-2);
+		\draw (0,-2.1) -- (0,-1.9) node[below = 0.2cm]{\tiny$0$};
+		\draw (2,-2.1) -- (2,-1.9) node[below = 0.2cm]{\tiny$1$};
+		\draw (4,-2.1) -- (4,-1.9) node[below = 0.2cm]{\tiny$2$};
+		\draw (6,-2.1) -- (6,-1.9) node[below = 0.2cm]{\tiny$3$};
+		\draw (8,-2.1) -- (8,-1.9) node[below = 0.2cm]{\tiny$4$};
+		% Current number
+		\node[c1, anchor=west] (a label) at (0,1) {$a=1\times 3\ \text{mod}\ 4=\textcolor{c2}{3}$};
+		\node[point = {1}, c1] (a) at (1 * 0.5, 0) {};
+		% Fractional part
+		\node[point = {1}, c2] (b) at (3 * 2, -2) {};
+		\draw[xkcd, dashed, ->] (a) -- (b);
+	\end{tikzpicture}
+\end{document}

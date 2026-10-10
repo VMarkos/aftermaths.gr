@@ -1,0 +1,61 @@
+\documentclass{beamer}
+\usepackage[english,greek]{babel}
+\usepackage[iso-8859-7]{inputenc}
+\usepackage{amsthm,amsmath,amssymb,graphicx,bbm,extarrows,float,tikz,changepage,subcaption,ifthen,chngcntr,soul,setspace,parskip,cancel}
+\usepackage{hyperref}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{arrows}
+\usetikzlibrary{positioning,matrix,scopes,fit,svg.path}
+\usetikzlibrary{patterns}
+\usetikzlibrary{intersections}
+\usetikzlibrary{calc}
+%\usetheme{CambridgeUS}
+%\usecolortheme{orchid}
+
+\beamertemplatenavigationsymbolsempty
+
+\uselanguage{greek}
+
+\setbeamertemplate{itemize items}[default]
+  
+\newcommand{\R}{\mathbb{R}}
+
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+
+\let\sin\relax
+\DeclareMathOperator{\sin}{\text{ημ}}
+
+\let\cos\relax
+\DeclareMathOperator{\cos}{\text{συν}}
+
+\let\tan\relax
+\DeclareMathOperator{\tan}{\text{εφ}}
+
+\begin{document}
+\begin{frame}
+\frametitle{Το Καρτεσιανό Επίπεδο}
+\begin{figure}
+\centering
+\begin{tikzpicture}
+\draw[thick,->] (-4,0) -- (4,0)node[pos=1,below]{$x$};
+\draw[thick,->] (0,-4) -- (0,4)node[pos=1,left]{$y$};
+\node[circle, inner sep=1.5pt, fill=black, draw=black, label={left,yshift=-10pt}:{$O$}](o) at (0,0){};
+\foreach \i in {-3,...,3}{
+    \ifthenelse{\i=0}{}{
+        \draw (\i,-.1) -- (\i,.1)node[pos=0,below]{$\i$};
+        \draw (-.1,\i) -- (.1,\i)node[pos=0,left]{$\i$};
+    }
+}
+\node[circle, inner sep=1.5pt, fill=red, draw=red, label={above}:{$A$}](a) at (2.4,1.7){};
+\begin{pgfonlayer}{bg}
+\draw[dashed] (o) rectangle (a);
+\end{pgfonlayer}
+\node[below] at (2.4,0){$x$};
+\node[left] at (0,1.7){$y$};
+\end{tikzpicture}
+\end{figure}
+\end{frame}
+\end{document}
